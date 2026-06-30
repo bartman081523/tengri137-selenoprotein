@@ -120,6 +120,12 @@ flowchart TD
         R10["Q8: BURUMUT-Alphabet = erweiterter genetischer Code<br/>minus Cys/Gly/Xaa"]
         R11["Q9: 4/11 Sec EXAKT an UAZBE-Positionen<br/>p = 8.77e-5 (Monte Carlo)"]
         R12["Q7 (revidiert): URUMUTRE=137 ist Apophenie<br/>(48% MC-Trefferquote)"]
+        R13["Q10: BURUMUT -> mRNA: 11 UGA (Sec), 2 UAG (Pyl), 3 AUGA"]
+        R14["Q11: SECIS dirigiert UGA-Codons downstream"]
+        R15["Q13: BURUMUT hat 0 Cys, 0 Gly → SelenoP-Analogon"]
+        R16["Q14: BURUMUT-Alphabet = 19 Buchstaben (fehlend: C, D, J, K, V, W, X)"]
+        R17["Q16: BURUMUT-Protein-Statistiken NICHT signifikant<br/>(alle in ±0.1σ von Random)"]
+        R18["Q17: UAZBE × 4 in 99 Zeichen: p < 10⁻⁴<br/>(KEINE Random-Sequenz erreicht 4)"]
     end
 
     %% Datenfluss
@@ -263,7 +269,7 @@ flowchart TD
     class P7a,P7b,P7c,P7d,P7e,P7f,P7g phase7
     class P8a,P8b,P8c,P8d,P8e,P8f phase8
     class O1,O2,O3,O4,O5,O6,O7 open
-    class R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12 resolved
+    class R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18 resolved
 ```
 
 ## Wie dieser Plan zu lesen ist
@@ -290,6 +296,19 @@ Jede neue Entdeckung wird hier als zusätzlicher Knoten ergänzt, **ohne bestehe
 - **2026-06-30 #2:** Resolved-Knoten R1-R5 hinzugefügt (Kasiski, Repunit, YHWH-π)
 - **2026-06-30 #3:** Resolved-Knoten R6-R9 hinzugefügt (BURUMUT-Statistiken + Protein-Re-Interpretation)
 - **2026-06-30 #4:** Resolved-Knoten R10-R12 hinzugefügt (erweiterter Code, UAZBE-Sec-Korrelation, Apophenie-Widerlegung)
-- **Offene Connection:** R11 (UAZBE-Sec) → Q5 (Algorithmus/Mensch) - Selenoprotein-Hypothese bestätigt
-- **Offene Connection:** R10 (19 Buchstaben) → Q6 (post-Aminosäure) - SECIS-Element-Suche
-- **Offene Connection:** R11 (4 markierte Sec) → Q3 (UAZBE 4 Modi) - jeder Modus markiert einen Sec-Anker
+- **2026-06-30 #5:** Resolved-Knoten R13-R18 hinzugefügt (DNA-Backtranslation, SECIS, 5-mer-UAZBE p<10⁻⁴)
+- **Offene Connection:** R18 (UAZBE 4×) → Q5 (Algorithmus/Mensch) - Selenoprotein-Hypothese bestätigt
+- **Offene Connection:** R11 (UAZBE-Sec) ↔ R18 (UAZBE 4×) - zwei unabhängige Monte-Carlo-Bestätigungen
+- **Offene Connection:** R13 (11 UGA) ↔ R18 (4 UAZBE-Sec-Anker) - konsistente SECIS-Hypothese
+- **Offene Connection:** R15 (kein Cys) → Q8 (SelenoP-Analogon) - BURUMUT braucht Sec zum Funktionieren
+
+### Kumulative p-Wert-Bilanz (signifikante Befunde)
+
+| Befund | p-Wert | Status |
+|---|---|---|
+| UAZBE × 4 in 99 Zeichen | < 10⁻⁴ | ✅ höchst signifikant |
+| Sec an UAZBE-Pos (4/11) | 8.77 × 10⁻⁵ | ✅ höchst signifikant |
+| BURUMUT + 137 = 37² | < 0.001 (4+ Brücken) | ✅ signifikant |
+| YHWH-π = 1/α mit 0.0007% | numerisch | ✅ bestätigt |
+| URUMUTRE = 137 | 0.5 (MC) | ❌ Apophenie |
+| Hydrophob-Anteil 31.3% | ~0.5 (MC) | ❌ Zufall |
