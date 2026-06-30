@@ -1,0 +1,38 @@
+{
+  "spec_conditional": {
+    "1": [
+      0,
+      5
+    ],
+    "2": [
+      3,
+      20
+    ],
+    "3": [
+      10,
+      40
+    ],
+    "4": [
+      20,
+      60
+    ],
+    "5": [
+      30,
+      90
+    ]
+  },
+  "brummton_peak": 0.9,
+  "power": 2.0,
+  "n_runs": 200,
+  "halt_type_distribution": {
+    "BRUMMTON": 198,
+    "NORMAL_HALT": 2
+  },
+  "halt_layer_distribution": {
+    "3": 36,
+    "4": 87,
+    "5": 65,
+    "2": 12
+  },
+  "all_specs_ok": true
+}

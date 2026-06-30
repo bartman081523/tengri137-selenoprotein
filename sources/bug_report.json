@@ -1,0 +1,26 @@
+{
+  "bug_1_unique_chars": {
+    "description": "BURUMUT hat 19 lateinische Unique, nicht 18",
+    "correction": "18 hebr. nutzbar + 4 hebr. fehlend = 22"
+  },
+  "bug_2_brummton_step_based": {
+    "description": "BRUMMTON_MACHINE.py halt_probability = i * 0.02 ignoriert Layer",
+    "fix": "Layer-basierte Brummton-Prob"
+  },
+  "bug_3_layer_1_not_zero": {
+    "description": "BRUMMTON_GRADUAL/STATISTIC: Layer 1 hat 7-13% statt 0%",
+    "fix": "brummton_probability(0) = 0 erzwingen"
+  },
+  "bug_4_trivial_transitions": {
+    "description": "TORA_TURING_MACHINE_v3: triviale Übergänge (alle identisch)",
+    "fix": "OFFEN — braucht nicht-triviale Übergänge"
+  },
+  "bug_5_architektur_konflikt": {
+    "description": "5×14=70 vs 99/5=19.8 — Architektur-Inkonsistenz",
+    "fix": "Verwende 99/5 Architektur (passt zu BURUMUT-Länge)"
+  },
+  "bug_6_halt_in_jedem_layer": {
+    "description": "NORMAL_HALT nach 6 Ops in jedem Layer",
+    "fix": "NORMAL_HALT nur am Bandende"
+  }
+}
