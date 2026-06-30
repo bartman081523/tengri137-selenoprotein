@@ -117,6 +117,9 @@ flowchart TD
         R7["Q6: BURUMUT hat 11.1% Selenocystein (Sec)<br/>→ 20-50x häufiger als in menschlichen Proteinen"]
         R8["Q6: BURUMUT hydrophob-Anteil 31.3%<br/>→ perfekt im Protein-Bereich"]
         R9["Q6: BURUMUT hat kein Cystein (C)<br/>→ verdächtig, da Cys normalerweise Sec ersetzt"]
+        R10["Q8: BURUMUT-Alphabet = erweiterter genetischer Code<br/>minus Cys/Gly/Xaa"]
+        R11["Q9: 4/11 Sec EXAKT an UAZBE-Positionen<br/>p = 8.77e-5 (Monte Carlo)"]
+        R12["Q7 (revidiert): URUMUTRE=137 ist Apophenie<br/>(48% MC-Trefferquote)"]
     end
 
     %% Datenfluss
@@ -230,6 +233,11 @@ flowchart TD
     R7 --> R8
     R8 --> R9
     R9 --> R7
+    P1c --> R10
+    R10 --> R11
+    R7 --> R11
+    P7f --> R12
+    R12 --> R1
 
     classDef foundation fill:#0f3460,stroke:#ff6b35,color:#fff
     classDef phase0 fill:#16213e,stroke:#4ecdc4,color:#fff
@@ -255,7 +263,7 @@ flowchart TD
     class P7a,P7b,P7c,P7d,P7e,P7f,P7g phase7
     class P8a,P8b,P8c,P8d,P8e,P8f phase8
     class O1,O2,O3,O4,O5,O6,O7 open
-    class R1,R2,R3,R4,R5,R6,R7,R8,R9 resolved
+    class R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12 resolved
 ```
 
 ## Wie dieser Plan zu lesen ist
@@ -281,5 +289,7 @@ Jede neue Entdeckung wird hier als zusätzlicher Knoten ergänzt, **ohne bestehe
 - **2026-06-30 #1:** Initiale 8-Phasen-Struktur (Foundation bis Open Questions)
 - **2026-06-30 #2:** Resolved-Knoten R1-R5 hinzugefügt (Kasiski, Repunit, YHWH-π)
 - **2026-06-30 #3:** Resolved-Knoten R6-R9 hinzugefügt (BURUMUT-Statistiken + Protein-Re-Interpretation)
-- **Offene Connection:** R7 (11.1% Sec) → Q5 (Algorithmus/Mensch) - Selenoprotein-Hypothese
-- **Offene Connection:** R9 (kein Cystein) → Q6 (post-Aminosäure) - SECIS-Element-Suche
+- **2026-06-30 #4:** Resolved-Knoten R10-R12 hinzugefügt (erweiterter Code, UAZBE-Sec-Korrelation, Apophenie-Widerlegung)
+- **Offene Connection:** R11 (UAZBE-Sec) → Q5 (Algorithmus/Mensch) - Selenoprotein-Hypothese bestätigt
+- **Offene Connection:** R10 (19 Buchstaben) → Q6 (post-Aminosäure) - SECIS-Element-Suche
+- **Offene Connection:** R11 (4 markierte Sec) → Q3 (UAZBE 4 Modi) - jeder Modus markiert einen Sec-Anker
