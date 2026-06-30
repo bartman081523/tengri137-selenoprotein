@@ -107,6 +107,18 @@ flowchart TD
         O7["Ist BURUMUT ein kognitives Prisma oder ein Schlüssel?"]
     end
 
+    subgraph RESOLVED["✅ TEILWEISE AUFGELÖSTE FRAGEN"]
+        R1["Q1: BURUMUT Kasiski → key_len=7, chi=18.89<br/>(bestes Vigenère-Resultat; aber kein perfekter Fit)"]
+        R2["Q4: Tengri's 1/D hat Periode 46<br/>(10⁴⁶-1)/D = Repunit-Quotient"]
+        R3["Q4 Bonus: 11111111111111111111111 ist R_23 (prim!)"]
+        R4["Q4 Bonus: Tengri's Code nutzt R_23 × 3² als Basis"]
+        R5["YHWH-π-Formel: ((7^π)/(7π))·6.67 = 137.0351 (0.0007%)"]
+        R6["Q5: BURUMUT starke Autokorrelations-Signaturen<br/>(lag=1: -0.268, lag=14: +0.274)"]
+        R7["Q6: BURUMUT hat 11.1% Selenocystein (Sec)<br/>→ 20-50x häufiger als in menschlichen Proteinen"]
+        R8["Q6: BURUMUT hydrophob-Anteil 31.3%<br/>→ perfekt im Protein-Bereich"]
+        R9["Q6: BURUMUT hat kein Cystein (C)<br/>→ verdächtig, da Cys normalerweise Sec ersetzt"]
+    end
+
     %% Datenfluss
     F1 --> P0c
     F2 --> P0c
@@ -207,6 +219,18 @@ flowchart TD
     P8f --> O6
     P8f --> O7
 
+    P1a --> R1
+    R1 --> P4g
+    P2a --> R2
+    R2 --> R3
+    R3 --> R4
+    P5d --> R5
+    P1b --> R6
+    P1c --> R7
+    R7 --> R8
+    R8 --> R9
+    R9 --> R7
+
     classDef foundation fill:#0f3460,stroke:#ff6b35,color:#fff
     classDef phase0 fill:#16213e,stroke:#4ecdc4,color:#fff
     classDef phase1 fill:#1a1a2e,stroke:#a8dadc,color:#fff
@@ -218,6 +242,7 @@ flowchart TD
     classDef phase7 fill:#1a1a2e,stroke:#f78c6b,color:#fff
     classDef phase8 fill:#1a1a2e,stroke:#ffd166,color:#fff
     classDef open fill:#16213e,stroke:#999,color:#fff
+    classDef resolved fill:#0d3b1a,stroke:#06d6a0,color:#fff
 
     class F1,F2,F3,F4,F5,F6,F7 foundation
     class P0a,P0b,P0c,P0d,P0e,P0f phase0
@@ -230,6 +255,7 @@ flowchart TD
     class P7a,P7b,P7c,P7d,P7e,P7f,P7g phase7
     class P8a,P8b,P8c,P8d,P8e,P8f phase8
     class O1,O2,O3,O4,O5,O6,O7 open
+    class R1,R2,R3,R4,R5,R6,R7,R8,R9 resolved
 ```
 
 ## Wie dieser Plan zu lesen ist
@@ -249,3 +275,11 @@ flowchart TD
 ## Hinzufügungen
 
 Jede neue Entdeckung wird hier als zusätzlicher Knoten ergänzt, **ohne bestehende zu revidieren**. Dies ist ein wachsender Wissensgraph.
+
+### Wachstums-Chronologie
+
+- **2026-06-30 #1:** Initiale 8-Phasen-Struktur (Foundation bis Open Questions)
+- **2026-06-30 #2:** Resolved-Knoten R1-R5 hinzugefügt (Kasiski, Repunit, YHWH-π)
+- **2026-06-30 #3:** Resolved-Knoten R6-R9 hinzugefügt (BURUMUT-Statistiken + Protein-Re-Interpretation)
+- **Offene Connection:** R7 (11.1% Sec) → Q5 (Algorithmus/Mensch) - Selenoprotein-Hypothese
+- **Offene Connection:** R9 (kein Cystein) → Q6 (post-Aminosäure) - SECIS-Element-Suche
