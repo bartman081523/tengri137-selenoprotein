@@ -1,0 +1,18 @@
+{
+  "operatoren": {
+    "READ_כ": 184,
+    "MOVE_LEFT_ד": 175,
+    "STATE_י": 477,
+    "HALT_ת": 363,
+    "MOVE_RIGHT_ג": 97
+  },
+  "gates_total": 231,
+  "gates_seen_im_original": 231,
+  "interpretation": "5 fehlende Operatoren aus Sefer Yetzirah auf BURUMUT angewendet",
+  "numerical": {
+    "184 + 175 + 477 + 363 + 97": 1296,
+    "1296 / 231 Gates": 5.6103896103896105,
+    "60 zusaetzliche_gates": 60
+  },
+  "next_step": "Wende die 5 Operatoren auf BURUMUT an und prüfe die 3 Mothers"
+}

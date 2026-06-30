@@ -1,0 +1,37 @@
+{
+  "original_datei": "sefer_yetzirah-he.txt",
+  "original_size": 8649,
+  "22_buchstaben_hebrew_counts": {
+    "א": 291,
+    "ב": 437,
+    "ג": 97,
+    "ד": 175,
+    "ה": 370,
+    "ו": 837,
+    "ז": 103,
+    "ח": 197,
+    "ט": 65,
+    "י": 477,
+    "כ": 184,
+    "ל": 400,
+    "מ": 358,
+    "נ": 182,
+    "ס": 89,
+    "ע": 253,
+    "פ": 149,
+    "צ": 136,
+    "ק": 152,
+    "ר": 376,
+    "ש": 416,
+    "ת": 363
+  },
+  "5_missing_in_burumut": {
+    "כ (READ)": 184,
+    "ד (MOVE_LEFT)": 175,
+    "י (STATE)": 477,
+    "ת (HALT)": 363,
+    "ג (MOVE_RIGHT)": 97
+  },
+  "operator_sequences_found": 10,
+  "interpretation": "5 fehlende Operatoren sind im Original-Text vorhanden (nicht fehlend in Sefer Yetzirah)"
+}
