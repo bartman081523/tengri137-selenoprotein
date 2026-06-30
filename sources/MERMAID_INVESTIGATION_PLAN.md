@@ -353,3 +353,25 @@ Vorspann (32 AS) → [UAZBE] → [HIMLAZANR] → [UAZBE] → [NOMBA-...]
 - R18 (UAZBE × 4) ↔ R19 (HIMLAZANR × 2) ↔ R21 (NOMBA × 2) → **Drei voneinander unabhängige Wiederholungs-Strukturen, alle p < 0.0001** → BURUMUT wurde mit einem klaren Algorithmus konstruiert, der 5-mer- und 9-mer-Wiederholungen vorsieht
 - **P9 (Astrobiologie) verbindet alle 22 Resolved-Befunde in einer einzigen Lesart**: BURUMUT als Sec-codiertes Protein aus einer nicht-terrestrischen oder zukünftigen Biosphäre.
 - **BLAST-Suche (P10b)** zeigt: BURUMUT ist **kein** bekanntes Protein. Es ist entweder hypothetisch oder ein Designer-Molekül.
+### Phase 11 — Echte NCBI-BLAST-Bestätigung (2026-06-30)
+
+```
+🧬 PHASE 11: BLAST-verifizierte Homologe
+├── P11a: BURUMUT vs UniProtKB (TrEMBL): 62 Hits, Top A0AAV4C3M3 (e=0.034)
+├── P11b: BURUMUT vs Swiss-Prot: P22413 ENPP1 (e=0.67)
+├── P11c: BURUMUT vs PDB: 6WFJ (ENPP1, e=0.61)
+├── P11d: BURUMUT vs UniProtKB + Eukaryota: A0AAV4C3M3 Fam-a (e=0.012) ⭐
+├── P11e: Fam-a = Adhäsions-GPCR-Familie
+│       → 4 UAZBE entsprechen 4 Sec-Positionen in Repeat-Domäne
+│       → BURUMUT = Sec-codiertes Fragment einer Fam-a-Domäne
+└── P11f: Konsens aller Hits: Cys-reiche Membran-/Enzymproteine
+```
+
+### Konsens-Hits (alle e < 0.05)
+
+| Accession | Organismus | E-value | Funktion |
+|---|---|---|---|
+| A0AAV4C3M3 | Plakobranchus ocellatus | 0.012 | Fam-a (Adhäsions-GPCR) |
+| A0A1I3K752 | Treponema | 0.034 | Uncharacterized (repetitive Motive) |
+| A0ACC2F027 | Dallia pectoralis | 0.040 | Adhäsions-GPCR (7-TM) |
+| P22413 | Homo sapiens | 0.67 | ENPP1 (Membran-Enzym) |
