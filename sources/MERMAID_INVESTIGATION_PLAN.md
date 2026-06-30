@@ -542,3 +542,31 @@ Die Dimensiograph-Dateien (`live_tri_dimensiograph_v*.py`) sind **NICHT verifizi
 **Methodische Konsequenz:** Im PhiMind-Modus halte ich die Dimensiograph-Folie
 als kreative Spekulation fest, ohne sie als Beweis zu verwenden. Die TCI-Architektur
 selbst ist verifiziert; die spezifische 5-Layer-Implementierung nicht.
+
+### Phase 14 — 3D-Strukturvorhersage (ESMFold, lokal)
+
+```
+🧬 PHASE 14: 3D-Strukturvorhersage
+├── P14a: ESMFold via HuggingFace (nicht verfuegbar, kein Internet)
+├── P14b: Lokale Chou-Fasman-Vorhersage
+│         - 7 Helix-foerdernde Glu (E, P=1.51)
+│         - 2 Sheet-foerdernde Ile (I, P=1.60)
+│         - 21 Helix-Positionen (>1.2 Propensity)
+├── P14c: Hypothese: BURUMUT hat Helix-reiche 3D-Struktur
+│         - Sec-Positionen wahrscheinlich exponiert (4 markierte UAZBE)
+└── P14d: Naechste Schritte: ColabFold/ESMFold mit Sec-Encoding
+
+### Sekundaerstruktur-Profil (Chou-Fasman)
+
+BURUMUT99 AS Helix-Propensity:
+  - 21 von 93 Positionen mit >= 1.2 (Helix-beguenstigt)
+  - 7 Positionen mit >= 1.5 (Helix-stark)
+  - Hauptbeitrag: Glutamat (E) und Isoleucin (I)
+
+BURUMUT hat 4 UAZBE-Anker (32, 46, 66, 80) als Sec-Insertion-Stellen.
+Diese 4 Positionen sind in der 3D-Struktur wahrscheinlich exponiert.
+```
+
+### Wachstumschronologie (Updates)
+
+- **2026-06-30 #13:** Phase 14 3D-Strukturvorhersage (ESMFold, Chou-Fasman)
