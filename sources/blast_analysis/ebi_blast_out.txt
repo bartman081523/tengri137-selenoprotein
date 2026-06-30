@@ -1,0 +1,1505 @@
+BLASTP 2.16.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb
+           149,851,482 sequences; 58,283,173,390 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A1I3K752 A0A1I3K752_9SPIR Uncharacterized protein OS=Treponem...  42.4    0.034
+TR:A0ACC2F027 A0ACC2F027_DALPE Uncharacterized protein OS=Dallia p...  42.4    0.040
+TR:A0A9F7RE97 A0A9F7RE97_ICTPU Beta-1,4-N-acetylgalactosaminyltran...  40.0    0.27
+TR:A0A9F7RBU4 A0A9F7RBU4_ICTPU Beta-1,4-N-acetylgalactosaminyltran...  40.0    0.27
+TR:A0AAN9B5J4 A0AAN9B5J4_9CAEN Uncharacterized protein OS=Littorin...  39.3    0.47
+TR:A0A7H9AP09 A0A7H9AP09_9FLAO Amidohydrolase family protein OS=Co...  38.9    0.66
+TR:A0ABY7F460 A0ABY7F460_MYAAR Uncharacterized protein (Fragment) ...  38.5    0.91
+TR:A0ABR2J2V0 A0ABR2J2V0_9EUKA LIM zinc-binding domain-containing ...  37.7    1.8
+TR:A0A401Q7V6 A0A401Q7V6_SCYTO FAZ1 C-terminal region domain-conta...  37.4    1.8
+TR:A0AAV2JW39 A0AAV2JW39_KNICA Uncharacterized protein OS=Knipowit...  37.4    2.2
+TR:A0A2U9B3F7 A0A2U9B3F7_SCOMX Putative arg8-vasotocin receptor-li...  37.4    2.2
+TR:A0ABN8I5P6 A0ABN8I5P6_9NEOP Uncharacterized protein (Fragment) ...  37.0    2.2
+TR:A0AAD8C7H1 A0AAD8C7H1_BIOPF Uncharacterized protein OS=Biomphal...  36.6    2.4
+TR:A0A8K9XYL2 A0A8K9XYL2_ONCMY Uncharacterized protein OS=Oncorhyn...  37.4    2.5
+TR:A0A085MKK6 A0A085MKK6_9BILA histone acetyltransferase OS=Trichu...  37.0    3.4
+TR:A0ACF6F4V1 A0ACF6F4V1_9HEMI Uncharacterized protein OS=Cyamophi...  36.2    3.4
+TR:A0A484N760 A0A484N760_9ASTE Uncharacterized protein OS=Cuscuta ...  35.8    3.9
+TR:A0AAV2JCP2 A0AAV2JCP2_KNICA Uncharacterized protein OS=Knipowit...  36.6    4.3
+TR:B3SCC4 B3SCC4_TRIAD EGF-like domain-containing protein (Fragmen...  36.6    4.4
+TR:A0AAV7IKU6 A0AAV7IKU6_COTGL EGF-like domain-containing protein ...  36.6    4.5
+TR:A0A3R7MI23 A0A3R7MI23_PENVA TRIOBP isoform 4 OS=Penaeus vanname...  36.6    4.5
+TR:W7XGU2 W7XGU2_TETTS C3HC4 type (RING finger) zinc finger protei...  36.6    4.5
+TR:A0A3R7MYB7 A0A3R7MYB7_PENVA Cell surface glycoprotein 1 OS=Pena...  36.6    4.6
+TR:A0AAV4MG56 A0AAV4MG56_CAEEX Metallothionein OS=Caerostris extru...  35.0    5.2
+TR:A0ABY7F425 A0ABY7F425_MYAAR Uncharacterized protein (Fragment) ...  36.2    5.6
+TR:A0A671QTH9 A0A671QTH9_9TELE Uncharacterized protein OS=Sinocycl...  36.2    5.7
+TR:A0A9W2Z3X1 A0A9W2Z3X1_BIOGL Surface protein SACOL0050 isoform X...  36.2    6.0
+TR:A0A9W2Z3L7 A0A9W2Z3L7_BIOGL Surface protein SACOL0050 isoform X...  36.2    6.0
+TR:A0A8S4PGY0 A0A8S4PGY0_OWEFU Uncharacterized protein OS=Owenia f...  35.8    6.1
+TR:A0A914HCN3 A0A914HCN3_GLORO Uncharacterized protein OS=Globoder...  36.2    6.1
+TR:A0AAD7KRW0 A0AAD7KRW0_QUISA Protein GRIP OS=Quillaja saponaria ...  36.2    6.1
+TR:A0A9W2Z3T7 A0A9W2Z3T7_BIOGL Uncharacterized protein LOC10606344...  36.2    6.1
+TR:A0ABQ9X9V4 A0ABQ9X9V4_9EUKA Uncharacterized protein OS=Blattamo...  36.2    6.2
+TR:A0A8C5VS42 A0A8C5VS42_MICMU TRIO and F-actin binding protein OS...  36.2    6.3
+TR:A0A9Q0LP30 A0A9Q0LP30_ANAIG Uncharacterized protein OS=Anaeramo...  35.8    7.4
+TR:B4GFN7 B4GFN7_DROPE GL21595 OS=Drosophila persimilis OX=7234 GN...  35.8    7.6
+TR:A0A1I7UHX5 A0A1I7UHX5_9PELO PAT1 domain containing protein OS=C...  35.8    7.9
+TR:A0A1I7UHX4 A0A1I7UHX4_9PELO PAT1 domain containing protein OS=C...  35.8    7.9
+TR:A0AAD9KI57 A0AAD9KI57_RIDPI Methyltransferase domain-containing...  35.8    8.1
+TR:A0AAV2IV63 A0AAV2IV63_KNICA Uncharacterized protein OS=Knipowit...  35.8    8.4
+TR:A0AAV2IQX1 A0AAV2IQX1_KNICA Uncharacterized protein OS=Knipowit...  35.8    8.4
+TR:A0A913Z813 A0A913Z813_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z7K1 A0A913Z7K1_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z810 A0A913Z810_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z7J7 A0A913Z7J7_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z5I7 A0A913Z5I7_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z5I2 A0A913Z5I2_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z583 A0A913Z583_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z7J2 A0A913Z7J2_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z5F5 A0A913Z5F5_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z7I7 A0A913Z7I7_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z577 A0A913Z577_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z7I2 A0A913Z7I2_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z5H4 A0A913Z5H4_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z7Z2 A0A913Z7Z2_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z5E5 A0A913Z5E5_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A913Z5G8 A0A913Z5G8_PATMI Nidogen OS=Patiria miniata OX=46514...  35.8    8.5
+TR:A0A5F9DG67 A0A5F9DG67_RABIT TRIO and F-actin binding protein OS...  35.8    8.5
+TR:A0A077ZD78 A0A077ZD78_TRITR histone acetyltransferase OS=Trichu...  35.8    8.6
+TR:A0A815EJ19 A0A815EJ19_9BILA Uncharacterized protein OS=Rotaria ...  34.3    9.4
+TR:A0A3S1BJ30 A0A3S1BJ30_ELYCH Uncharacterized protein (Fragment) ...  35.4    9.7
+TR:A0A1A9W202 A0A1A9W202_9MUSC Uncharacterized protein OS=Glossina...  35.0    9.8
+
+
+>TR:A0A1I3K752 A0A1I3K752_9SPIR Uncharacterized protein OS=Treponema bryantii
+OX=163 GN=SAMN04487775_104104 PE=4 SV=1
+Length=232
+
+ Score = 42.4 bits (98),  Expect = 0.034
+ Identities = 27/67 (40%), Positives = 37/67 (55%), Gaps = 15/67 (22%)
+
+Query  33  CAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARA  92
+           CAQNE   L  + +CAQNE +M+A         +CAQNE   L  + +CAQNE +M+A+
+Sbjct  5   CAQNE---LKMSAKCAQNELEMSA---------KCAQNE---LEMSAKCAQNELEMSAKC  49
+
+Query  93  QHQRSAN  99
+                 N
+Sbjct  50  AQNAPQN  56
+
+
+>TR:A0ACC2F027 A0ACC2F027_DALPE Uncharacterized protein OS=Dallia pectoralis
+OX=75939 GN=DPEC_G00357830 PE=4 SV=1
+Length=542
+
+ Score = 42.4 bits (98),  Expect = 0.040
+ Identities = 18/61 (30%), Positives = 33/61 (54%), Gaps = 5/61 (8%)
+
+Query  32  SCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+           SC  N +++ +  NRC  N N +N+     + N RC  N +++ +  NRC  + N +N+
+Sbjct  7   SCTDNNNVINSNNNRCTDNNNVINS-----NNNNRCTDNNNVINSNNNRCTVHNNAINSN  61
+
+Query  92  A  92
+           +
+Sbjct  62  S  62
+
+
+>TR:A0A9F7RE97 A0A9F7RE97_ICTPU Beta-1,4-N-acetylgalactosaminyltransferase OS=Ictalurus
+punctatus OX=7998 GN=b4galnt3b PE=3 SV=1
+Length=1171
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  517  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  570
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  571  NKMAAETQHNLQNQNKMAAETQH  593
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  531  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  584
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  585  NKMAAETQHNLQNQNKMAAETQH  607
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  545  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  598
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  599  NKMAAETQHNLQNQNKMAAETQH  621
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  559  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  612
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  613  NKMAAETQHNLQNQNKMAAETQH  635
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  573  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  626
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  627  NKMAAETQHNLQNQNKMAAETQH  649
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  587  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  640
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  641  NKMAAETQHNLQNQNKMAAETQH  663
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  601  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  654
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  655  NKMAAETQHNLQNQNKMAAETQH  677
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  615  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  668
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  669  NKMAAETQHNLQNQNKMAAETQH  691
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  629  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  682
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  683  NKMAAETQHNLQNQNKMAAETQH  705
+
+
+ Score = 39.3 bits (90),  Expect = 0.51
+ Identities = 24/60 (40%), Positives = 33/60 (55%), Gaps = 6/60 (10%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+            QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH
+Sbjct  512  QNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH  565
+
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 26/83 (31%), Positives = 38/83 (46%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  643  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  696
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM    QH
+Sbjct  697  NKMAAETQHNLQNQNKMADETQH  719
+
+
+ Score = 37.0 bits (84),  Expect = 3.3
+ Identities = 23/60 (38%), Positives = 32/60 (53%), Gaps = 6/60 (10%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+            QN++ M  +     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH
+Sbjct  498  QNQNKMADETQHKLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH  551
+
+
+>TR:A0A9F7RBU4 A0A9F7RBU4_ICTPU Beta-1,4-N-acetylgalactosaminyltransferase OS=Ictalurus
+punctatus OX=7998 GN=b4galnt3b PE=3 SV=1
+Length=1201
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  517  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  570
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  571  NKMAAETQHNLQNQNKMAAETQH  593
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  531  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  584
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  585  NKMAAETQHNLQNQNKMAAETQH  607
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  545  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  598
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  599  NKMAAETQHNLQNQNKMAAETQH  621
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  559  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  612
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  613  NKMAAETQHNLQNQNKMAAETQH  635
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  573  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  626
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  627  NKMAAETQHNLQNQNKMAAETQH  649
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  587  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  640
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  641  NKMAAETQHNLQNQNKMAAETQH  663
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  601  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  654
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  655  NKMAAETQHNLQNQNKMAAETQH  677
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  615  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  668
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  669  NKMAAETQHNLQNQNKMAAETQH  691
+
+
+ Score = 40.0 bits (92),  Expect = 0.27
+ Identities = 27/83 (33%), Positives = 39/83 (47%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  629  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  682
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM A  QH
+Sbjct  683  NKMAAETQHNLQNQNKMAAETQH  705
+
+
+ Score = 39.3 bits (90),  Expect = 0.51
+ Identities = 24/60 (40%), Positives = 33/60 (55%), Gaps = 6/60 (10%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+            QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH
+Sbjct  512  QNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH  565
+
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 26/83 (31%), Positives = 38/83 (46%), Gaps = 6/83 (7%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN+
+Sbjct  643  MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQ  696
+
+Query  72   HIMLAQANRCAQNENKMNARAQH  94
+            + M A+     QN+NKM    QH
+Sbjct  697  NKMAAETQHNLQNQNKMADETQH  719
+
+
+ Score = 37.0 bits (84),  Expect = 3.3
+ Identities = 23/60 (38%), Positives = 32/60 (53%), Gaps = 6/60 (10%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+            QN++ M  +     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH
+Sbjct  498  QNQNKMADETQHKLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH  551
+
+
+>TR:A0AAN9B5J4 A0AAN9B5J4_9CAEN Uncharacterized protein OS=Littorina saxatilis
+OX=31220 GN=V1264_003211 PE=4 SV=1
+Length=407
+
+ Score = 39.3 bits (90),  Expect = 0.47
+ Identities = 23/72 (32%), Positives = 36/72 (50%), Gaps = 5/72 (7%)
+
+Query  32   SCAQNEHI-----MLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNEN  86
+            S AQ+EH      +   +N   Q EN+ + +  +   +L C +NEH + AQ N  +  +N
+Sbjct  239  SLAQDEHDTPHSHVYTNSNSLNQQENEYSLVYEENKPSLGCDKNEHSLAAQNNDDSSQQN  298
+
+Query  87   KMNARAQHQRSA  98
+               + AQH  SA
+Sbjct  299  NEYSLAQHPGSA  310
+
+
+>TR:A0A7H9AP09 A0A7H9AP09_9FLAO Amidohydrolase family protein OS=Costertonia
+aggregata OX=343403 GN=HYG79_06450 PE=4 SV=1
+Length=485
+
+ Score = 38.9 bits (89),  Expect = 0.66
+ Identities = 20/65 (31%), Positives = 34/65 (52%), Gaps = 1/65 (2%)
+
+Query  25   CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQN  84
+            C  A A       HI L+  N  + + + MN+M+H R+ +L CA N   +LA+  +   N
+Sbjct  206  CKIASANDIKVTGHIPLSM-NAISASNSGMNSMEHMRNLDLSCASNSDELLAERQKLLAN  264
+
+Query  85   ENKMN  89
+            E+ ++
+Sbjct  265  ESNLS  269
+
+
+>TR:A0ABY7F460 A0ABY7F460_MYAAR Uncharacterized protein (Fragment) OS=Mya arenaria
+OX=6604 GN=MAR_031529 PE=4 SV=1
+Length=547
+
+ Score = 38.5 bits (88),  Expect = 0.91
+ Identities = 21/78 (27%), Positives = 31/78 (40%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEH  72
+            T +       +GC  +    CA  +H     A RCA N++  N      S    CA  +H
+Sbjct  379  TVSAEHCANNQGCHNSTVTVCASTQHDTTVSAERCANNQDCHN------STVTVCASTQH  432
+
+Query  73   IMLAQANRCAQNENKMNA  90
+                 A  CA N++  N+
+Sbjct  433  DTTVSAEHCANNQDCHNS  450
+
+
+ Score = 37.0 bits (84),  Expect = 3.2
+ Identities = 21/78 (27%), Positives = 29/78 (37%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEH  72
+            T +     T +GC  +    CA   H     A  CA N+   N      S    CA  +H
+Sbjct  99   TVSAEHCATNQGCHNSTVTVCASTHHDTTVSAEHCATNQGCHN------STVTVCASTQH  152
+
+Query  73   IMLAQANRCAQNENKMNA  90
+                 A  CA N++  N+
+Sbjct  153  DTTVSAEHCANNQDCHNS  170
+
+
+ Score = 37.0 bits (84),  Expect = 3.2
+ Identities = 21/78 (27%), Positives = 30/78 (38%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEH  72
+            T +     T +GC  +    CA  +H     A  CA N++  N      S    CA   H
+Sbjct  127  TVSAEHCATNQGCHNSTVTVCASTQHDTTVSAEHCANNQDCHN------STVTVCASPHH  180
+
+Query  73   IMLAQANRCAQNENKMNA  90
+                 A  CA N++  N+
+Sbjct  181  DTTVSAEHCANNQDCHNS  198
+
+
+ Score = 36.6 bits (83),  Expect = 4.3
+ Identities = 21/78 (27%), Positives = 29/78 (37%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEH  72
+            T +     T + C  +    CA   H     A  CA N+   N      S    CA  +H
+Sbjct  351  TVSAEHCATNQDCHNSTVTVCASTHHDTTVSAEHCANNQGCHN------STVTVCASTQH  404
+
+Query  73   IMLAQANRCAQNENKMNA  90
+                 A RCA N++  N+
+Sbjct  405  DTTVSAERCANNQDCHNS  422
+
+
+>TR:A0ABR2J2V0 A0ABR2J2V0_9EUKA LIM zinc-binding domain-containing protein OS=Tritrichomonas
+musculus OX=1915356 GN=M9Y10_007849 PE=4 SV=1
+Length=883
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 21/69 (30%), Positives = 36/69 (52%), Gaps = 2/69 (3%)
+
+Query  31   PSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA  90
+            P+C + +   L   N+   N+N+ NA Q+ ++ N     N++     AN+  QN+N  N
+Sbjct  765  PNCDRRDVFYLTYYNKQKDNQNQNNANQNNQNQNNANQNNQN--QNNANQNNQNQNNANQ  822
+
+Query  91   RAQHQRSAN  99
+              Q+Q +AN
+Sbjct  823  NNQNQNNAN  831
+
+
+>TR:A0A401Q7V6 A0A401Q7V6_SCYTO FAZ1 C-terminal region domain-containing protein
+OS=Scyliorhinus torazame OX=75743 GN=scyTo_0022510 PE=4
+SV=1
+Length=194
+
+ Score = 37.4 bits (85),  Expect = 1.8
+ Identities = 25/79 (32%), Positives = 35/79 (44%), Gaps = 0/79 (0%)
+
+Query  12   MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE  71
+            M  N  +       M A     A N + M A+ NR   N NKM +  ++ +   + A N
+Sbjct  55   MATNPNKMAANPNKMAANPNKTASNPNKMAAKPNRTGANPNKMASNPNKLANPNKMATNP  114
+
+Query  72   HIMLAQANRCAQNENKMNA  90
+            + M A  N+ A N NKM A
+Sbjct  115  NKMGANPNKMATNPNKMGA  133
+
+
+ Score = 35.8 bits (81),  Expect = 6.5
+ Identities = 21/49 (43%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  41  LAQANRCAQNENKMNAMQHQRSAN-LRCAQNEHIMLAQANRCAQNENKM  88
+           LA  N+ A N NKM A  ++ +AN  + A N + M A+ NR   N NKM
+Sbjct  49  LANTNKMATNPNKMAANPNKMAANPNKTASNPNKMAAKPNRTGANPNKM  97
+
+
+>TR:A0AAV2JW39 A0AAV2JW39_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS12437 PE=4 SV=1
+Length=305
+
+ Score = 37.4 bits (85),  Expect = 2.2
+ Identities = 27/109 (25%), Positives = 41/109 (38%), Gaps = 16/109 (15%)
+
+Query  4    CMCTREFAMTCNCRESCTREG-----------CMFAYAPSCAQNEHIMLAQANRCAQNEN  52
+            C C       C   E C+R G           C       CA+ E  + A+  RC + E
+Sbjct  130  CACGGGEVCACGGGEVCSRGGGEVCSRGGGEVCARGGGEVCAEEERCVRAEEERCVRAEE  189
+
+Query  53   KMNAMQHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            +      +R       RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  190  ERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  238
+
+
+ Score = 36.2 bits (82),  Expect = 5.5
+ Identities = 29/102 (28%), Positives = 46/102 (45%), Gaps = 10/102 (10%)
+
+Query  5    MCTREFAMTCNCRESCTR---EGCMFAYAPSCAQ-NEHIMLAQANRC--AQNENKMNAMQ  58
+            +C R     C   E C R   E C+ A    C +  E  + A+  RC  A+ E  + A +
+Sbjct  161  VCARGGGEVCAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEE  220
+
+Query  59   HQ--RSANLRC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+             +  R+   RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  221  ERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  262
+
+
+>TR:A0A2U9B3F7 A0A2U9B3F7_SCOMX Putative arg8-vasotocin receptor-like OS=Scophthalmus
+maximus OX=52904 GN=SMAX5B_008024 PE=4 SV=1
+Length=313
+
+ Score = 37.4 bits (85),  Expect = 2.2
+ Identities = 25/75 (33%), Positives = 41/75 (55%), Gaps = 3/75 (4%)
+
+Query  26  MFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQ-NEHIMLAQANRCAQN  84
+           +F   P  A NEH + A  ++   NE+++ A +HQ  AN    + NEH + A  ++   N
+Sbjct  19  LFGVRPPAA-NEHQVEANDHQVEANEHQVEANEHQVEANEHQVEANEHQVEANEHQVEAN  77
+
+Query  85  ENKMNARAQHQRSAN  99
+           E+++ A  +HQ  AN
+Sbjct  78  EHQVEAN-EHQVEAN  91
+
+
+>TR:A0ABN8I5P6 A0ABN8I5P6_9NEOP Uncharacterized protein (Fragment) OS=Iphiclides
+podalirius OX=110791 GN=IPOD504_LOCUS6667 PE=4 SV=1
+Length=167
+
+ Score = 37.0 bits (84),  Expect = 2.2
+ Identities = 26/88 (30%), Positives = 40/88 (45%), Gaps = 6/88 (7%)
+
+Query  13   TCNCRES---CTR-EGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQR--SANLR  66
+            TC+ +     CT+ E  M  +  +  ++EH M     R A N N      + R  + N+R
+Sbjct  20   TCDAQNRNTLCTQHEHAMHKHEHAMHKHEHAMHKTGTRYALNTNTRCTNTNTRCTNTNMR  79
+
+Query  67   CAQNEHIMLAQANRCAQNENKMNARAQH  94
+            C + EH M +   R AQN N    + +H
+Sbjct  80   CTKQEHAMHSTRTRDAQNRNTPCTQHEH  107
+
+
+>TR:A0AAD8C7H1 A0AAD8C7H1_BIOPF Uncharacterized protein OS=Biomphalaria pfeifferi
+OX=112525 GN=Bpfe_002894 PE=4 SV=1
+Length=135
+
+ Score = 36.6 bits (83),  Expect = 2.4
+ Identities = 23/89 (26%), Positives = 33/89 (37%), Gaps = 6/89 (7%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQ  60
+            N   MCT    M  N    CT    M   + +   N + M   +N  + N N M
+Sbjct  20   NSNTMCTNSNTMCTNSNTMCTNSNTMCTNSNTMCTNSNTMSTNSNTMSTNSNTMCT----  75
+
+Query  61   RSANLRCAQNEHIMLAQANRCAQNENKMN  89
+             ++N  C  N + M   +N    N N M+
+Sbjct  76   -NSNTMCT-NSNTMCTNSNTMCTNSNTMS  102
+
+
+>TR:A0A8K9XYL2 A0A8K9XYL2_ONCMY Uncharacterized protein OS=Oncorhynchus mykiss
+OX=8022 PE=3 SV=1
+Length=2014
+
+ Score = 37.4 bits (85),  Expect = 2.5
+ Identities = 22/90 (24%), Positives = 35/90 (39%), Gaps = 9/90 (10%)
+
+Query  6    CTREFAMTCNCRESCT-REGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSAN  64
+            C+    +TC    +C+      F  A +C+ N +I    A  C+ N N    +    S+N
+Sbjct  119  CSSNRNITCQAARACSSNRNITFRAARACSSNRNITFRAARACSSNRNITYQIVRACSSN  178
+
+Query  65   LR--------CAQNEHIMLAQANRCAQNEN  86
+                      C+ N +I    A  C+ N N
+Sbjct  179  RNITCQTVRACSSNRNITFRAARACSSNRN  208
+
+
+>TR:A0A085MKK6 A0A085MKK6_9BILA histone acetyltransferase OS=Trichuris suis
+OX=68888 GN=M513_01422 PE=4 SV=1
+Length=2147
+
+ Score = 37.0 bits (84),  Expect = 3.4
+ Identities = 25/97 (26%), Positives = 43/97 (44%), Gaps = 4/97 (4%)
+
+Query  5     MCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQN--ENKMNAMQHQRS  62
+             +C +  A+ C    +CT + CM  +  +  Q       Q  + AQ   + +MNAMQHQ +
+Sbjct  1650  VCKQLMALCCFHARTCTEQNCMVPFCLNIRQKLAEQQVQLRKRAQRDMQRRMNAMQHQST  1709
+
+Query  63    ANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN  99
+              ++  A +      Q  +  Q + +     Q Q+S N
+Sbjct  1710  VSV--AGSSGYQQQQQQQQPQQQQQPPLTPQAQQSPN  1744
+
+
+>TR:A0ACF6F4V1 A0ACF6F4V1_9HEMI Uncharacterized protein OS=Cyamophila willieti
+OX=2604842 GN=WDU94_005231 PE=4 SV=1
+Length=138
+
+ Score = 36.2 bits (82),  Expect = 3.4
+ Identities = 34/97 (35%), Positives = 42/97 (43%), Gaps = 11/97 (11%)
+
+Query  3    RCMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRS  62
+            R  C  E  MT   R SC  E  M A  PSC + E+ M AQ   C + EN M A +
+Sbjct  52   RPSCREENDMTAQ-RPSCREENDMTAQRPSC-REENDMTAQRPSC-REENDMTAQR----  104
+
+Query  63   ANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN  99
+                  + E+ M AQ   C + EN M A+    R  N
+Sbjct  105  ---PWCREENDMTAQRPSC-REENDMTAQRPSCREEN  137
+
+
+ Score = 35.8 bits (81),  Expect = 4.7
+ Identities = 30/89 (34%), Positives = 40/89 (45%), Gaps = 9/89 (10%)
+
+Query  17  RESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAM------QHQRSANLRCAQN  70
+           R SC  E  M A  PSC + E+ M AQ   C + EN M A       ++  +A     +
+Sbjct  13  RPSCREENDMTAQRPSC-REENDMTAQRPSC-REENDMTAQRPSCREENDMTAQRPSCRE  70
+
+Query  71  EHIMLAQANRCAQNENKMNARAQHQRSAN  99
+           E+ M AQ   C + EN M A+    R  N
+Sbjct  71  ENDMTAQRPSC-REENDMTAQRPSCREEN  98
+
+
+>TR:A0A484N760 A0A484N760_9ASTE Uncharacterized protein OS=Cuscuta campestris
+OX=132261 GN=CCAM_LOCUS38921 PE=4 SV=1
+Length=121
+
+ Score = 35.8 bits (81),  Expect = 3.9
+ Identities = 20/59 (34%), Positives = 24/59 (41%), Gaps = 0/59 (0%)
+
+Query  37  EHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQ  95
+           E  +LA A RC Q     NA   ++  N      E  +LA A RC Q     NA    Q
+Sbjct  28  ESCLLAGAWRCFQQNGNFNASTKKQKGNFTMVHAESCLLAGAWRCFQQNGNFNASTDEQ  86
+
+
+>TR:A0AAV2JCP2 A0AAV2JCP2_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS4945 PE=4 SV=1
+Length=474
+
+ Score = 36.6 bits (83),  Expect = 4.3
+ Identities = 30/104 (29%), Positives = 46/104 (44%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AQNEHIMLAQANRC--AQNENKMNA  56
+            R  C R         E C R  E C+ A    C  A+ E  + A+  RC  A+ E  + A
+Sbjct  10   RRRCVRAEERCVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  69
+
+Query  57   MQHQ--RSANLRC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+             + +  R+   RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  70   EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  113
+
+
+ Score = 35.8 bits (81),  Expect = 8.0
+ Identities = 29/102 (28%), Positives = 45/102 (44%), Gaps = 11/102 (11%)
+
+Query  6    CTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRC--AQNENKMNAMQ  58
+            C R         E C R   E C+ A    C  A+ E  + A+  RC  A+ E  + A +
+Sbjct  20   CVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEE  79
+
+Query  59   HQ--RSANLRC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+             +  R+   RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  80   ERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  121
+
+
+>TR:B3SCC4 B3SCC4_TRIAD EGF-like domain-containing protein (Fragment) OS=Trichoplax
+adhaerens OX=10228 GN=TRIADDRAFT_33213 PE=4 SV=1
+Length=674
+
+ Score = 36.6 bits (83),  Expect = 4.4
+ Identities = 31/105 (30%), Positives = 41/105 (39%), Gaps = 14/105 (13%)
+
+Query  1    NCR--CMCTREF-AMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAM  57
+            NC    +CT    +  CNC+   T  G    Y   CA+N H   A A +C    N M +
+Sbjct  396  NCHSNAICTNTVGSYRCNCKAGFTGNGR--TYIDECARNSHNCHAHA-KCT---NTMGSF  449
+
+Query  58   QHQRSANLR-----CAQNEHIMLAQANRCAQNENKMNARAQHQRS  97
+            Q Q           C        +  NRC+QN N +N    +Q S
+Sbjct  450  QCQCRPGFTGNGKTCHDTNECQRSSDNRCSQNANCVNTPGSYQCS  494
+
+
+>TR:A0AAV7IKU6 A0AAV7IKU6_COTGL EGF-like domain-containing protein OS=Cotesia
+glomerata OX=32391 GN=KQX54_002268 PE=4 SV=1
+Length=900
+
+ Score = 36.6 bits (83),  Expect = 4.5
+ Identities = 23/92 (25%), Positives = 40/92 (43%), Gaps = 9/92 (10%)
+
+Query  4    CMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAM------  57
+            C C+  F      ++SC       A   SC  N++ +L    +C + + +  A
+Sbjct  289  CSCSEGFHYVPE-QDSCVHSAT--AIDDSCTHNDNCLLLSNTQCKEQKCQCIANYFNYKG  345
+
+Query  58   QHQRSANLRCAQNEHIMLAQANRCAQNENKMN  89
+            Q ++  N RCA+N H    + ++C  NE + N
+Sbjct  346  QCRQGLNSRCAENSHCSAVENSQCIDNECQCN  377
+
+
+>TR:A0A3R7MI23 A0A3R7MI23_PENVA TRIOBP isoform 4 OS=Penaeus vannamei OX=6689
+GN=C7M84_019900 PE=4 SV=1
+Length=1043
+
+ Score = 36.6 bits (83),  Expect = 4.5
+ Identities = 26/98 (27%), Positives = 42/98 (43%), Gaps = 3/98 (3%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQH  59
+            R  CTR    +CN R SC R   + C  +   SC   +    +Q +  A++    N
+Sbjct  809  RDSCTRSQKDSCNGRGSCKRSQRDSCNRSQRDSCNGRDSCNRSQRDSEARDSCNRNQDSC  868
+
+Query  60   QRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRS  97
+             RS ++R  + + I   +  R  Q + K   RA+  R+
+Sbjct  869  NRSQDIRATEAKGIRATETKRFVQQKPKRFVRAKRFRA  906
+
+
+>TR:W7XGU2 W7XGU2_TETTS C3HC4 type (RING finger) zinc finger protein OS=Tetrahymena
+thermophila (strain SB210) OX=312017 GN=TTHERM_000588916
+PE=4 SV=1
+Length=1074
+
+ Score = 36.6 bits (83),  Expect = 4.5
+ Identities = 26/78 (33%), Positives = 37/78 (47%), Gaps = 16/78 (21%)
+
+Query  34   AQNEHIMLAQANRCAQNENKMNAMQHQRS--------------ANLRCAQNEHIMLAQAN  79
+            AQN    L+  N+  Q EN+ N +Q+QR+              +NL   QN    L+  N
+Sbjct  319  AQNRSNQLSNQNQVFQEENRQNGLQYQRNIPQSMNPSNQIQPQSNLN-TQNRTNQLSNQN  377
+
+Query  80   RCAQNENKMNARAQHQRS  97
+            +  Q EN+ N   Q+QRS
+Sbjct  378  QVFQEENRQNG-LQYQRS  394
+
+
+>TR:A0A3R7MYB7 A0A3R7MYB7_PENVA Cell surface glycoprotein 1 OS=Penaeus vannamei
+OX=6689 GN=C7M84_008972 PE=4 SV=1
+Length=2002
+
+ Score = 36.6 bits (83),  Expect = 4.6
+ Identities = 26/93 (28%), Positives = 36/93 (39%), Gaps = 7/93 (8%)
+
+Query  4     CMCTREFAMTCNC-RESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRS  62
+             C C    A TCN  RE C         A +C  N     A  N    N N+ N   HQR
+Sbjct  1372  CECATNDARTCNLNREKCHNN------ARTCNLNRENNSATNNARTCNLNRENKQCHQRR  1425
+
+Query  63    ANLRCAQNEHIMLAQANRCAQNENKMNARAQHQ  95
+              NL+  Q +     +  +C Q    + ++ + Q
+Sbjct  1426  QNLQSQQPQRPEEQREQQCHQRRQNLQSQQREQ  1458
+
+
+>TR:A0AAV4MG56 A0AAV4MG56_CAEEX Metallothionein OS=Caerostris extrusa OX=172846
+GN=CEXT_487321 PE=4 SV=1
+Length=93
+
+ Score = 35.0 bits (79),  Expect = 5.2
+ Identities = 25/63 (40%), Positives = 31/63 (49%), Gaps = 8/63 (13%)
+
+Query  31  PSCAQ-NEH-IMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKM  88
+           P C   N+H I  A+ N+CA NE    A  +Q      CA NE    A+ N+CA NE
+Sbjct  6   PKCKPGNDHCIQCARGNQCAGNECNQCARGNQ------CAGNECNQCARGNQCAGNECNQ  59
+
+Query  89  NAR  91
+            AR
+Sbjct  60  CAR  62
+
+
+>TR:A0ABY7F425 A0ABY7F425_MYAAR Uncharacterized protein (Fragment) OS=Mya arenaria
+OX=6604 GN=MAR_031521 PE=4 SV=1
+Length=365
+
+ Score = 36.2 bits (82),  Expect = 5.6
+ Identities = 21/78 (27%), Positives = 29/78 (37%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEH  72
+            T +     T +GC  +    CA   H     A  CA N++  N      S    CA   H
+Sbjct  197  TVSAEHCATNQGCHNSTVTVCASTHHDTTVSAEHCATNQDCHN------STVTVCASTHH  250
+
+Query  73   IMLAQANRCAQNENKMNA  90
+                 A  CA N++  N+
+Sbjct  251  DTTVSAEHCATNQDCHNS  268
+
+
+ Score = 35.8 bits (81),  Expect = 7.7
+ Identities = 21/78 (27%), Positives = 28/78 (36%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEH  72
+            T +     T +GC  +    CA   H     A  CA N++  N      S    CA   H
+Sbjct  85   TVSAEHCATNQGCHNSTVTVCASTHHDTTVSAEHCATNQDCHN------STVTVCASTHH  138
+
+Query  73   IMLAQANRCAQNENKMNA  90
+                 A  CA N+   N+
+Sbjct  139  DTTVSAEHCATNQGCHNS  156
+
+
+>TR:A0A671QTH9 A0A671QTH9_9TELE Uncharacterized protein OS=Sinocyclocheilus
+anshuiensis OX=1608454 PE=4 SV=1
+Length=385
+
+ Score = 36.2 bits (82),  Expect = 5.7
+ Identities = 21/86 (24%), Positives = 34/86 (40%), Gaps = 6/86 (7%)
+
+Query  2   CRCMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQR  61
+           C+C+      +    R+   RE    A    C   EH  LA   +C   E++  A++
+Sbjct  2   CKCLVREHETLAIEQRKCLAREHETLAIERKCLAREHETLAIERKCLAREHETLAIER--  59
+
+Query  62  SANLRCAQNEHIMLAQANRCAQNENK  87
+               +C   EH  LA   +C   E++
+Sbjct  60  ----KCLAREHETLAIERKCLAREHE  81
+
+
+>TR:A0A9W2Z3X1 A0A9W2Z3X1_BIOGL Surface protein SACOL0050 isoform X3 OS=Biomphalaria
+glabrata OX=6526 GN=LOC106063447 PE=3 SV=1
+Length=715
+
+ Score = 36.2 bits (82),  Expect = 6.0
+ Identities = 22/92 (24%), Positives = 38/92 (41%), Gaps = 7/92 (8%)
+
+Query  4    CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRS  62
+            C+ T+ F       +SC  E G   A    CA+  + +      CA+  NK+N  +
+Sbjct  205  CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE---  261
+
+Query  63   ANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+                CA+  + +      CA+  NK+N   ++
+Sbjct  262  ---NCAEETNKVNVTEENCAEETNKVNVTEEN  290
+
+
+>TR:A0A9W2Z3L7 A0A9W2Z3L7_BIOGL Surface protein SACOL0050 isoform X2 OS=Biomphalaria
+glabrata OX=6526 GN=LOC106063447 PE=3 SV=1
+Length=722
+
+ Score = 36.2 bits (82),  Expect = 6.0
+ Identities = 22/92 (24%), Positives = 38/92 (41%), Gaps = 7/92 (8%)
+
+Query  4    CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRS  62
+            C+ T+ F       +SC  E G   A    CA+  + +      CA+  NK+N  +
+Sbjct  212  CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE---  268
+
+Query  63   ANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+                CA+  + +      CA+  NK+N   ++
+Sbjct  269  ---NCAEETNKVNVTEENCAEETNKVNVTEEN  297
+
+
+>TR:A0A8S4PGY0 A0A8S4PGY0_OWEFU Uncharacterized protein OS=Owenia fusiformis
+OX=6347 GN=OFUS_LOCUS17812 PE=4 SV=1
+Length=175
+
+ Score = 35.8 bits (81),  Expect = 6.1
+ Identities = 27/97 (28%), Positives = 38/97 (39%), Gaps = 9/97 (9%)
+
+Query  5    MCTREFAMTCNCRESCTREGCMF-AYAPSCAQNEHIMLAQANRCAQ-------NENKMNA  56
+            MCT+E          CT+E   + A    C Q  H  +A A+ C Q       N +
+Sbjct  57   MCTQEMHEYMADTSMCTQEMHEYMANTSMCTQEMHGFMANASMCTQEMHEYMANTSMSTQ  116
+
+Query  57   MQHQRSANL-RCAQNEHIMLAQANRCAQNENKMNARA  92
+              H+  AN   C Q  H  +A  + C Q  ++  A A
+Sbjct  117  EMHEYMANTSMCTQEMHEYMANTSMCTQEMHESMANA  153
+
+
+>TR:A0A914HCN3 A0A914HCN3_GLORO Uncharacterized protein OS=Globodera rostochiensis
+OX=31243 PE=4 SV=1
+Length=788
+
+ Score = 36.2 bits (82),  Expect = 6.1
+ Identities = 27/75 (36%), Positives = 37/75 (49%), Gaps = 11/75 (15%)
+
+Query  35   QNEHIMLAQANRCAQ----NENKMNAMQ-HQRSANLRCAQNEHIMLAQANRCAQNENKMN  89
+            QNEH   A      Q    NE + NA Q HQ++A  +  QNE     Q  +  QNE++ N
+Sbjct  319  QNEHQQNALQQNAQQQQQQNEQQQNAQQQHQQNAQQQHQQNEQQQNEQQQQQQQNEHQQN  378
+
+Query  90   A------RAQHQRSA  98
+            A      + QHQ++A
+Sbjct  379  ALQQNAQQQQHQQNA  393
+
+
+>TR:A0AAD7KRW0 A0AAD7KRW0_QUISA Protein GRIP OS=Quillaja saponaria OX=32244
+GN=O6P43_033530 PE=4 SV=1
+Length=813
+
+ Score = 36.2 bits (82),  Expect = 6.1
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+            +N H+ L       QN+N   AMQ Q + NL  +  EH +L  A + AQ E ++    +H
+Sbjct  642  KNLHLSLESRLPAGQNDNYSTAMQRQDALNLSPSAAEHQILLLARQQAQREEELAQSQRH  701
+
+
+>TR:A0A9W2Z3T7 A0A9W2Z3T7_BIOGL Uncharacterized protein LOC106063447 isoform
+X1 OS=Biomphalaria glabrata OX=6526 GN=LOC106063447 PE=3 SV=1
+Length=972
+
+ Score = 36.2 bits (82),  Expect = 6.1
+ Identities = 22/92 (24%), Positives = 38/92 (41%), Gaps = 7/92 (8%)
+
+Query  4    CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRS  62
+            C+ T+ F       +SC  E G   A    CA+  + +      CA+  NK+N  +
+Sbjct  462  CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE---  518
+
+Query  63   ANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+                CA+  + +      CA+  NK+N   ++
+Sbjct  519  ---NCAEETNKVNVTEENCAEETNKVNVTEEN  547
+
+
+>TR:A0ABQ9X9V4 A0ABQ9X9V4_9EUKA Uncharacterized protein OS=Blattamonas nauphoetae
+OX=2049346 GN=BLNAU_15706 PE=4 SV=1
+Length=1401
+
+ Score = 36.2 bits (82),  Expect = 6.2
+ Identities = 22/71 (31%), Positives = 37/71 (52%), Gaps = 11/71 (15%)
+
+Query  33   CAQNE---HIMLAQANRCAQNEN-KMNAMQHQRSANLRCAQNEHIM---LAQANRCAQNE  85
+            CA NE      + +  RCA+NE+ +   M+ +R    RCA NE +    + +  RCA+NE
+Sbjct  704  CATNEDARRTKMCEERRCAKNEDARRTKMREER----RCATNEDVRGTKMCEERRCAKNE  759
+
+Query  86   NKMNARAQHQR  96
+            +    + + +R
+Sbjct  760  DARRTKMREKR  770
+
+
+>TR:A0A8C5VS42 A0A8C5VS42_MICMU TRIO and F-actin binding protein OS=Microcebus
+murinus OX=30608 GN=TRIOBP PE=4 SV=1
+Length=2206
+
+ Score = 36.2 bits (82),  Expect = 6.3
+ Identities = 28/104 (27%), Positives = 39/104 (38%), Gaps = 25/104 (24%)
+
+Query  15   NCRESCTREGCMFAYAP-----------SCAQNEHIMLAQANRCAQNENKM---------  54
+            N R+SCT+     A +P           SCAQ ++   +  NR  Q EN
+Sbjct  441  NSRKSCTQRDNPRALSPNRTTQQENPRKSCAQRDNPRSSSPNRTTQQENPRKSCAQRNNP  500
+
+Query  55   -----NAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQ  93
+                 N    Q +    CAQ ++   +  NR  Q EN   + AQ
+Sbjct  501  RASSPNRTTQQENPRTSCAQQDNPRASSPNRITQRENSRTSCAQ  544
+
+
+>TR:A0A9Q0LP30 A0A9Q0LP30_ANAIG Uncharacterized protein OS=Anaeramoeba ignava
+OX=1746090 GN=M0811_00426 PE=4 SV=1
+Length=295
+
+ Score = 35.8 bits (81),  Expect = 7.4
+ Identities = 20/60 (33%), Positives = 32/60 (53%), Gaps = 1/60 (2%)
+
+Query  35   QNEHIMLA-QANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQ  93
+            QN++ M   Q N+   N+N+MN  Q+Q + N     N++      N+  QN+N+MN   Q
+Sbjct  140  QNQYQMNQNQMNQNQMNQNQMNPNQYQMNQNQMNQMNQYQYQMNPNQMNQNQNQMNQNPQ  199
+
+
+>TR:B4GFN7 B4GFN7_DROPE GL21595 OS=Drosophila persimilis OX=7234 GN=DperGL21595
+PE=4 SV=1
+Length=324
+
+ Score = 35.8 bits (81),  Expect = 7.6
+ Identities = 20/54 (37%), Positives = 29/54 (54%), Gaps = 3/54 (6%)
+
+Query  45   NRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSA  98
+            +RC+  E +    QHQ S   RCAQ +    AQ    AQ++ ++ A  Q QRS+
+Sbjct  252  HRCSPREGRFRPQQHQSS---RCAQYKSHGCAQDRTRAQSQEQLTAAQQDQRSS  302
+
+
+>TR:A0A1I7UHX5 A0A1I7UHX5_9PELO PAT1 domain containing protein OS=Caenorhabditis
+tropicalis OX=1561998 PE=4 SV=1
+Length=449
+
+ Score = 35.8 bits (81),  Expect = 7.9
+ Identities = 20/64 (31%), Positives = 32/64 (50%), Gaps = 2/64 (3%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE--HIMLAQANRCAQNENKMNARA  92
+            Q++H M     R  Q + +M  M+ QR   +  AQ    H ML Q  +  Q++ +MN
+Sbjct  315  QHQHQMQQNKMRLLQQQQEMQKMEQQRQQQIMQAQQHQRHQMLLQQQQMQQHQQQMNGGF  374
+
+Query  93   QHQR  96
+            Q+Q+
+Sbjct  375  QNQQ  378
+
+
+>TR:A0A1I7UHX4 A0A1I7UHX4_9PELO PAT1 domain containing protein OS=Caenorhabditis
+tropicalis OX=1561998 PE=4 SV=1
+Length=467
+
+ Score = 35.8 bits (81),  Expect = 7.9
+ Identities = 20/64 (31%), Positives = 32/64 (50%), Gaps = 2/64 (3%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE--HIMLAQANRCAQNENKMNARA  92
+            Q++H M     R  Q + +M  M+ QR   +  AQ    H ML Q  +  Q++ +MN
+Sbjct  333  QHQHQMQQNKMRLLQQQQEMQKMEQQRQQQIMQAQQHQRHQMLLQQQQMQQHQQQMNGGF  392
+
+Query  93   QHQR  96
+            Q+Q+
+Sbjct  393  QNQQ  396
+
+
+>TR:A0AAD9KI57 A0AAD9KI57_RIDPI Methyltransferase domain-containing protein
+OS=Ridgeia piscesae OX=27915 GN=NP493_1025g01041 PE=4 SV=1
+Length=566
+
+ Score = 35.8 bits (81),  Expect = 8.1
+ Identities = 17/65 (26%), Positives = 31/65 (48%), Gaps = 2/65 (3%)
+
+Query  35   QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH  94
+            Q +H+     NR ++ + + N   HQ+       QN+H++L Q     Q +   +  +QH
+Sbjct  78   QQQHVQQIGENRHSEEQEEGNVQNHQQHQEQH--QNDHLLLQQRQNQKQQQQDYHRLSQH  135
+
+Query  95   QRSAN  99
+            Q+  N
+Sbjct  136  QQHLN  140
+
+
+>TR:A0AAV2IV63 A0AAV2IV63_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS367 PE=4 SV=1
+Length=1035
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 26/97 (27%), Positives = 40/97 (41%), Gaps = 6/97 (6%)
+
+Query  6    CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQH  59
+            C R     C    E C R   E C+ A    C  A+ E  + A+  RC + E +
+Sbjct  421  CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERFVCAR  480
+
+Query  60   QRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            +R      A+ E  + A+  RC + E +   RA+ +R
+Sbjct  481  RRRGVCVRAEEERCVRAEEERCVRAEEERCVRAEEER  517
+
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 28/104 (27%), Positives = 44/104 (42%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAM  57
+            RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +
+Sbjct  509  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  568
+
+Query  58   QHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            + +R       RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  569  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  612
+
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 28/104 (27%), Positives = 44/104 (42%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAM  57
+            RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +
+Sbjct  588  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  647
+
+Query  58   QHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            + +R       RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  648  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  691
+
+
+>TR:A0AAV2IQX1 A0AAV2IQX1_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS368 PE=4 SV=1
+Length=1043
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 26/97 (27%), Positives = 40/97 (41%), Gaps = 6/97 (6%)
+
+Query  6    CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQH  59
+            C R     C    E C R   E C+ A    C  A+ E  + A+  RC + E +
+Sbjct  429  CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERFVCAR  488
+
+Query  60   QRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            +R      A+ E  + A+  RC + E +   RA+ +R
+Sbjct  489  RRRGVCVRAEEERCVRAEEERCVRAEEERCVRAEEER  525
+
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 28/104 (27%), Positives = 44/104 (42%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAM  57
+            RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +
+Sbjct  517  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  576
+
+Query  58   QHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            + +R       RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  577  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  620
+
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 28/104 (27%), Positives = 44/104 (42%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAM  57
+            RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +
+Sbjct  596  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  655
+
+Query  58   QHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR  96
+            + +R       RC  A+ E  + A+  RC + E +   RA+ +R
+Sbjct  656  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  699
+
+
+>TR:A0A913Z813 A0A913Z813_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1255
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  462  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  521
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  522  GYTGDGFTC----EVAVDPANPCAINTCDANAR  550
+
+
+>TR:A0A913Z7K1 A0A913Z7K1_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1291
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  622  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  681
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  682  GYTGDGFTC----EVAVDPANPCAINTCDANAR  710
+
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 28/95 (29%), Positives = 39/95 (41%), Gaps = 10/95 (11%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPS--CAQNEHIMLAQANRCAQNENKMNA  56
+            N RC+ T + A  C+C E  T +G  C  A  P+  CA N     A+    AQ+  + +
+Sbjct  664  NARCVATAQDAYECSCLEGYTGDGFTCEVAVDPANPCAINTCDANARCVASAQDAYECSC  723
+
+Query  57   MQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+            ++        C         Q N CA N    NAR
+Sbjct  724  LEGYTGDGFTCNAE------QINFCANNNCDRNAR  752
+
+
+>TR:A0A913Z810 A0A913Z810_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1294
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  501  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  560
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  561  GYTGDGFTC----EVAVDPANPCAINTCDANAR  589
+
+
+>TR:A0A913Z7J7 A0A913Z7J7_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1331
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  538  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  597
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  598  GYTGDGFTC----EVAVDPANPCAINTCDANAR  626
+
+
+>TR:A0A913Z5I7 A0A913Z5I7_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1331
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  622  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  681
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  682  GYTGDGFTC----EVAVDPANPCAINTCDANAR  710
+
+
+>TR:A0A913Z5I2 A0A913Z5I2_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1333
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  622  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  681
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  682  GYTGDGFTC----EVAVDPANPCAINTCDANAR  710
+
+
+>TR:A0A913Z583 A0A913Z583_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1333
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  540  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  599
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  600  GYTGDGFTC----EVAVDPANPCAINTCDANAR  628
+
+
+>TR:A0A913Z7J2 A0A913Z7J2_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1336
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  543  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  602
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  603  GYTGDGFTC----EVAVDPANPCAINTCDANAR  631
+
+
+>TR:A0A913Z5F5 A0A913Z5F5_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1372
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  579  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  638
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  639  GYTGDGFTC----EVAVDPANPCAINTCDANAR  667
+
+
+>TR:A0A913Z7I7 A0A913Z7I7_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1373
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 27/93 (29%), Positives = 39/93 (42%), Gaps = 8/93 (9%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N     A+    AQ+  + + ++
+Sbjct  538  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDANARCVASAQDAYECSCLE  597
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C  N       AN CA N   +NAR
+Sbjct  598  GYTGDGFTCEVN------PANPCAINTCDVNAR  624
+
+
+>TR:A0A913Z577 A0A913Z577_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1373
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  580  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  639
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  640  GYTGDGFTC----EVAVDPANPCAINTCDANAR  668
+
+
+>TR:A0A913Z7I2 A0A913Z7I2_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1375
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  622  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  681
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  682  GYTGDGFTC----EVAVDPANPCAINTCDANAR  710
+
+
+>TR:A0A913Z5H4 A0A913Z5H4_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1375
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  582  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  641
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  642  GYTGDGFTC----EVAVDPANPCAINTCDANAR  670
+
+
+>TR:A0A913Z7Z2 A0A913Z7Z2_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1376
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  583  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  642
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  643  GYTGDGFTC----EVAVDPANPCAINTCDANAR  671
+
+
+>TR:A0A913Z5E5 A0A913Z5E5_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1376
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  583  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  642
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  643  GYTGDGFTC----EVAVDPANPCAINTCDANAR  671
+
+
+>TR:A0A913Z5G8 A0A913Z5G8_PATMI Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1
+Length=1414
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 26/93 (28%), Positives = 40/93 (43%), Gaps = 6/93 (6%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQ  58
+            N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++
+Sbjct  621  NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLE  680
+
+Query  59   HQRSANLRCAQNEHIMLAQANRCAQNENKMNAR  91
+                    C     + +  AN CA N    NAR
+Sbjct  681  GYTGDGFTC----EVAVDPANPCAINTCDANAR  709
+
+
+>TR:A0A5F9DG67 A0A5F9DG67_RABIT TRIO and F-actin binding protein OS=Oryctolagus
+cuniculus OX=9986 PE=4 SV=1
+Length=1515
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 16/55 (29%), Positives = 26/55 (47%), Gaps = 0/55 (0%)
+
+Query  32   SCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNEN  86
+            SCAQ ++   +  NR  Q +N   +   Q +    CAQ ++   +  NR  Q +N
+Sbjct  425  SCAQRDNPRASSPNRTTQRDNPRASCAQQENPRTSCAQRDNPRASSPNRATQRDN  479
+
+
+>TR:A0A077ZD78 A0A077ZD78_TRITR histone acetyltransferase OS=Trichuris trichiura
+OX=36087 GN=TTRE_0000608501 PE=4 SV=1
+Length=2213
+
+ Score = 35.8 bits (81),  Expect = 8.6
+ Identities = 25/97 (26%), Positives = 40/97 (41%), Gaps = 3/97 (3%)
+
+Query  5     MCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQN--ENKMNAMQHQRS  62
+             +C +  A+ C    +CT + CM  +  +  Q       Q  + AQ   + +MN MQHQ S
+Sbjct  1712  VCKQLMALCCFHARTCTEQNCMVPFCLNIRQKLAEQQVQLRKRAQRDIQRRMNVMQHQ-S  1770
+
+Query  63    ANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN  99
+               +  A        Q  +  Q + +     Q Q+S N
+Sbjct  1771  TTVSVAGTSGYQQQQQQQQQQQQQQPPLTPQPQQSPN  1807
+
+
+>TR:A0A815EJ19 A0A815EJ19_9BILA Uncharacterized protein OS=Rotaria sordida OX=392033
+GN=JXQ802_LOCUS46204 PE=4 SV=1
+Length=88
+
+ Score = 34.3 bits (77),  Expect = 9.4
+ Identities = 17/56 (30%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  42  AQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRS  97
+           A  N+  QN+N+ N  Q+Q++ N      + +  A +N+ AQN N+   + Q+Q++
+Sbjct  9   ANQNQQNQNQNQQNQNQNQQNQNQNQNAAQQLGGAGSNQAAQNSNRAGQQQQNQQN  64
+
+
+>TR:A0A3S1BJ30 A0A3S1BJ30_ELYCH Uncharacterized protein (Fragment) OS=Elysia
+chlorotica OX=188477 GN=EGW08_023776 PE=4 SV=1
+Length=239
+
+ Score = 35.4 bits (80),  Expect = 9.7
+ Identities = 21/89 (24%), Positives = 34/89 (38%), Gaps = 8/89 (9%)
+
+Query  6   CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANL  65
+           C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N
+Sbjct  5   CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNE  64
+
+Query  66  RC--------AQNEHIMLAQANRCAQNEN  86
+            C          NE+ +L    R   NE+
+Sbjct  65  SCLLGLVYRSCSNENCLLGLMYRSCSNES  93
+
+
+ Score = 35.4 bits (80),  Expect = 9.7
+ Identities = 21/89 (24%), Positives = 34/89 (38%), Gaps = 8/89 (9%)
+
+Query  6    CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANL  65
+            C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N
+Sbjct  33   CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNE  92
+
+Query  66   RC--------AQNEHIMLAQANRCAQNEN  86
+             C          NE+ +L    R   NE+
+Sbjct  93   SCLLGLVYRSCSNENCLLGLMYRSCSNES  121
+
+
+ Score = 35.4 bits (80),  Expect = 9.7
+ Identities = 21/89 (24%), Positives = 34/89 (38%), Gaps = 8/89 (9%)
+
+Query  6    CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANL  65
+            C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N
+Sbjct  61   CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNE  120
+
+Query  66   RC--------AQNEHIMLAQANRCAQNEN  86
+             C          NE+ +L    R   NE+
+Sbjct  121  SCLLGLVYRSCSNENCLLGLMYRSCSNES  149
+
+
+ Score = 35.4 bits (80),  Expect = 9.7
+ Identities = 21/89 (24%), Positives = 34/89 (38%), Gaps = 8/89 (9%)
+
+Query  6    CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANL  65
+            C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N
+Sbjct  89   CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNE  148
+
+Query  66   RC--------AQNEHIMLAQANRCAQNEN  86
+             C          NE+ +L    R   NE+
+Sbjct  149  SCLLGLVYRSCSNENCLLGLMYRSCSNES  177
+
+
+>TR:A0A1A9W202 A0A1A9W202_9MUSC Uncharacterized protein OS=Glossina brevipalpis
+OX=37001 PE=4 SV=1
+Length=147
+
+ Score = 35.0 bits (79),  Expect = 9.8
+ Identities = 20/74 (27%), Positives = 36/74 (49%), Gaps = 0/74 (0%)
+
+Query  24  GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQ  83
+           GC ++Y P  ++   I  + AN  +  +    +  HQ+S++L  + ++   L   N  A
+Sbjct  11  GCTYSYTPIYSKLFRICTSVANGESGTDRIDRSFIHQQSSSLSSSVDDEAALRTTNGPAN  70
+
+Query  84  NENKMNARAQHQRS  97
+           NENK N     ++S
+Sbjct  71  NENKNNKTKNIEKS  84
+
+
+
+Lambda      K        H
+   0.324    0.122    0.394
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+
+Effective search space used: 1438302633960
+
+
+  Database: uniprotkb
+    Posted date:  May 22, 2026  12:37 AM
+  Number of letters in database: 58,283,173,390
+  Number of sequences in database:  149,851,482
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

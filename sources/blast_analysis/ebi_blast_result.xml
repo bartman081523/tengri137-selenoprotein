@@ -1,0 +1,1573 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.16.0+"/>
+  <commandLine command="singularity exec $APPBIN/singularity/ncbiblast:2.16.0 /ncbiblast/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-R20260630-121459-0380-6658344-p1m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-R20260630-121459-0380-6658344-p1m.archive -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="99"/>
+   </sequences>
+   <databases total="1" sequences="149851482" letters="58283173390">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2026-05-22T12:37:00+01:00"/>
+   </databases>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+  </parameters>
+  <timeInfo start="2026-06-30T12:14:59+01:00" end="2026-06-30T12:16:28+01:00" search="P0Y0M0DT0H0M89.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="62">
+   <hit number="1" database="TR" id="A0A1I3K752_9SPIR" ac="A0A1I3K752" length="232" description="Uncharacterized protein OS=Treponema bryantii OX=163 GN=SAMN04487775_104104 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>98</score>
+      <bits>42.4</bits>
+      <expectation>0.03</expectation>
+      <identity>40.3</identity>
+      <positives>55.2</positives>
+      <gaps>22</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="33" end="99">CAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>CAQNE   L  + +CAQNE +M+A         +CAQNE   L  + +CAQNE +M+A+       N</pattern>
+      <matchSeq start="5" end="56">CAQNE---LKMSAKCAQNELEMSA---------KCAQNE---LEMSAKCAQNELEMSAKCAQNAPQN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0ACC2F027_DALPE" ac="A0ACC2F027" length="542" description="Uncharacterized protein OS=Dallia pectoralis OX=75939 GN=DPEC_G00357830 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>98</score>
+      <bits>42.4</bits>
+      <expectation>0.04</expectation>
+      <identity>29.5</identity>
+      <positives>54.1</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="32" end="92">SCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARA</querySeq>
+      <pattern>SC  N +++ +  NRC  N N +N+     + N RC  N +++ +  NRC  + N +N+ +</pattern>
+      <matchSeq start="7" end="62">SCTDNNNVINSNNNRCTDNNNVINS-----NNNNRCTDNNNVINSNNNRCTVHNNAINSNS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A9F7RE97_ICTPU" ac="A0A9F7RE97" length="1171" description="Beta-1,4-N-acetylgalactosaminyltransferase OS=Ictalurus punctatus OX=7998 GN=b4galnt3b PE=3 SV=1">
+    <alignments total="12">
+     <alignment number="1">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="517" end="593">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="531" end="607">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="3">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="545" end="621">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="4">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="559" end="635">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="5">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="573" end="649">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="6">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="587" end="663">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="7">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="601" end="677">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="8">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="615" end="691">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="9">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="629" end="705">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="10">
+      <score>90</score>
+      <bits>39.3</bits>
+      <expectation>0.51</expectation>
+      <identity>40.0</identity>
+      <positives>55.0</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="94">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="512" end="565">QNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="11">
+      <score>86</score>
+      <bits>37.7</bits>
+      <expectation>1.8</expectation>
+      <identity>31.3</identity>
+      <positives>45.8</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM    QH</pattern>
+      <matchSeq start="643" end="719">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMADETQH</matchSeq>
+     </alignment>
+     <alignment number="12">
+      <score>84</score>
+      <bits>37.0</bits>
+      <expectation>3.3</expectation>
+      <identity>38.3</identity>
+      <positives>53.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="94">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>QN++ M  +     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="498" end="551">QNQNKMADETQHKLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A9F7RBU4_ICTPU" ac="A0A9F7RBU4" length="1201" description="Beta-1,4-N-acetylgalactosaminyltransferase OS=Ictalurus punctatus OX=7998 GN=b4galnt3b PE=3 SV=1">
+    <alignments total="12">
+     <alignment number="1">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="517" end="593">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="531" end="607">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="3">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="545" end="621">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="4">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="559" end="635">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="5">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="573" end="649">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="6">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="587" end="663">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="7">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="601" end="677">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="8">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="615" end="691">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="9">
+      <score>92</score>
+      <bits>40.0</bits>
+      <expectation>0.27</expectation>
+      <identity>32.5</identity>
+      <positives>47.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="629" end="705">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="10">
+      <score>90</score>
+      <bits>39.3</bits>
+      <expectation>0.51</expectation>
+      <identity>40.0</identity>
+      <positives>55.0</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="94">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="512" end="565">QNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+     <alignment number="11">
+      <score>86</score>
+      <bits>37.7</bits>
+      <expectation>1.8</expectation>
+      <identity>31.3</identity>
+      <positives>45.8</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="94">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>M    + +   +  M A      QN++ M A+     QN+NKM A   +   NL   QN++ M A+     QN+NKM    QH</pattern>
+      <matchSeq start="643" end="719">MAAETQHNLQNQNKMAAETQHNLQNQNKMAAETQHNLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMADETQH</matchSeq>
+     </alignment>
+     <alignment number="12">
+      <score>84</score>
+      <bits>37.0</bits>
+      <expectation>3.3</expectation>
+      <identity>38.3</identity>
+      <positives>53.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="94">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>QN++ M  +     QN+NKM A   +   NL   QN++ M A+     QN+NKM A  QH</pattern>
+      <matchSeq start="498" end="551">QNQNKMADETQHKLQNQNKMAA---ETQHNL---QNQNKMAAETQHNLQNQNKMAAETQH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0AAN9B5J4_9CAEN" ac="A0AAN9B5J4" length="407" description="Uncharacterized protein OS=Littorina saxatilis OX=31220 GN=V1264_003211 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>90</score>
+      <bits>39.3</bits>
+      <expectation>0.47</expectation>
+      <identity>31.9</identity>
+      <positives>50.0</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="32" end="98">SCAQNEHI-----MLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSA</querySeq>
+      <pattern>S AQ+EH      +   +N   Q EN+ + +  +   +L C +NEH + AQ N  +  +N   + AQH  SA</pattern>
+      <matchSeq start="239" end="310">SLAQDEHDTPHSHVYTNSNSLNQQENEYSLVYEENKPSLGCDKNEHSLAAQNNDDSSQQNNEYSLAQHPGSA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A7H9AP09_9FLAO" ac="A0A7H9AP09" length="485" description="Amidohydrolase family protein OS=Costertonia aggregata OX=343403 GN=HYG79_06450 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>89</score>
+      <bits>38.9</bits>
+      <expectation>0.66</expectation>
+      <identity>30.8</identity>
+      <positives>52.3</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="25" end="89">CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMN</querySeq>
+      <pattern>C  A A       HI L+  N  + + + MN+M+H R+ +L CA N   +LA+  +   NE+ ++</pattern>
+      <matchSeq start="206" end="269">CKIASANDIKVTGHIPLSM-NAISASNSGMNSMEHMRNLDLSCASNSDELLAERQKLLANESNLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0ABY7F460_MYAAR" ac="A0ABY7F460" length="547" description="Uncharacterized protein (Fragment) OS=Mya arenaria OX=6604 GN=MAR_031529 PE=4 SV=1">
+    <alignments total="4">
+     <alignment number="1">
+      <score>88</score>
+      <bits>38.5</bits>
+      <expectation>0.91</expectation>
+      <identity>26.9</identity>
+      <positives>39.7</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="90">TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>T +       +GC  +    CA  +H     A RCA N++  N      S    CA  +H     A  CA N++  N+</pattern>
+      <matchSeq start="379" end="450">TVSAEHCANNQGCHNSTVTVCASTQHDTTVSAERCANNQDCHN------STVTVCASTQHDTTVSAEHCANNQDCHNS</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>84</score>
+      <bits>37.0</bits>
+      <expectation>3.2</expectation>
+      <identity>26.9</identity>
+      <positives>37.2</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="90">TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>T +     T +GC  +    CA   H     A  CA N+   N      S    CA  +H     A  CA N++  N+</pattern>
+      <matchSeq start="99" end="170">TVSAEHCATNQGCHNSTVTVCASTHHDTTVSAEHCATNQGCHN------STVTVCASTQHDTTVSAEHCANNQDCHNS</matchSeq>
+     </alignment>
+     <alignment number="3">
+      <score>84</score>
+      <bits>37.0</bits>
+      <expectation>3.2</expectation>
+      <identity>26.9</identity>
+      <positives>38.5</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="90">TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>T +     T +GC  +    CA  +H     A  CA N++  N      S    CA   H     A  CA N++  N+</pattern>
+      <matchSeq start="127" end="198">TVSAEHCATNQGCHNSTVTVCASTQHDTTVSAEHCANNQDCHN------STVTVCASPHHDTTVSAEHCANNQDCHNS</matchSeq>
+     </alignment>
+     <alignment number="4">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.3</expectation>
+      <identity>26.9</identity>
+      <positives>37.2</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="90">TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>T +     T + C  +    CA   H     A  CA N+   N      S    CA  +H     A RCA N++  N+</pattern>
+      <matchSeq start="351" end="422">TVSAEHCATNQDCHNSTVTVCASTHHDTTVSAEHCANNQGCHN------STVTVCASTQHDTTVSAERCANNQDCHNS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0ABR2J2V0_9EUKA" ac="A0ABR2J2V0" length="883" description="LIM zinc-binding domain-containing protein OS=Tritrichomonas musculus OX=1915356 GN=M9Y10_007849 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>86</score>
+      <bits>37.7</bits>
+      <expectation>1.8</expectation>
+      <identity>30.4</identity>
+      <positives>52.2</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="31" end="99">PSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>P+C + +   L   N+   N+N+ NA Q+ ++ N     N++     AN+  QN+N  N   Q+Q +AN</pattern>
+      <matchSeq start="765" end="831">PNCDRRDVFYLTYYNKQKDNQNQNNANQNNQNQNNANQNNQN--QNNANQNNQNQNNANQNNQNQNNAN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A401Q7V6_SCYTO" ac="A0A401Q7V6" length="194" description="FAZ1 C-terminal region domain-containing protein OS=Scyliorhinus torazame OX=75743 GN=scyTo_0022510 PE=4 SV=1">
+    <alignments total="2">
+     <alignment number="1">
+      <score>85</score>
+      <bits>37.4</bits>
+      <expectation>1.8</expectation>
+      <identity>31.6</identity>
+      <positives>44.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="12" end="90">MTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>M  N  +       M A     A N + M A+ NR   N NKM +  ++ +   + A N + M A  N+ A N NKM A</pattern>
+      <matchSeq start="55" end="133">MATNPNKMAANPNKMAANPNKTASNPNKMAAKPNRTGANPNKMASNPNKLANPNKMATNPNKMGANPNKMATNPNKMGA</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>6.5</expectation>
+      <identity>42.9</identity>
+      <positives>57.1</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="41" end="88">LAQANRCAQNENKMNAMQHQRSAN-LRCAQNEHIMLAQANRCAQNENKM</querySeq>
+      <pattern>LA  N+ A N NKM A  ++ +AN  + A N + M A+ NR   N NKM</pattern>
+      <matchSeq start="49" end="97">LANTNKMATNPNKMAANPNKMAANPNKTASNPNKMAAKPNRTGANPNKM</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0AAV2JW39_KNICA" ac="A0AAV2JW39" length="305" description="Uncharacterized protein OS=Knipowitschia caucasica OX=637954 GN=KC01_LOCUS12437 PE=4 SV=1">
+    <alignments total="2">
+     <alignment number="1">
+      <score>85</score>
+      <bits>37.4</bits>
+      <expectation>2.2</expectation>
+      <identity>24.8</identity>
+      <positives>37.6</positives>
+      <gaps>15</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="4" end="96">CMCTREFAMTCNCRESCTREG-----------CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>C C       C   E C+R G           C       CA+ E  + A+  RC + E +      +R       RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="130" end="238">CACGGGEVCACGGGEVCSRGGGEVCSRGGGEVCARGGGEVCAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>5.5</expectation>
+      <identity>28.4</identity>
+      <positives>45.1</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="5" end="96">MCTREFAMTCNCRESCTR---EGCMFAYAPSCAQ-NEHIMLAQANRC--AQNENKMNAMQHQ--RSANLRC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>+C R     C   E C R   E C+ A    C +  E  + A+  RC  A+ E  + A + +  R+   RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="161" end="262">VCARGGGEVCAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A2U9B3F7_SCOMX" ac="A0A2U9B3F7" length="313" description="Putative arg8-vasotocin receptor-like OS=Scophthalmus maximus OX=52904 GN=SMAX5B_008024 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>85</score>
+      <bits>37.4</bits>
+      <expectation>2.2</expectation>
+      <identity>33.3</identity>
+      <positives>54.7</positives>
+      <gaps>4</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="26" end="99">MFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQ-NEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>+F   P  A NEH + A  ++   NE+++ A +HQ  AN    + NEH + A  ++   NE+++ A  +HQ  AN</pattern>
+      <matchSeq start="19" end="91">LFGVRPPAA-NEHQVEANDHQVEANEHQVEANEHQVEANEHQVEANEHQVEANEHQVEANEHQVEAN-EHQVEAN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0ABN8I5P6_9NEOP" ac="A0ABN8I5P6" length="167" description="Uncharacterized protein (Fragment) OS=Iphiclides podalirius OX=110791 GN=IPOD504_LOCUS6667 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>84</score>
+      <bits>37.0</bits>
+      <expectation>2.2</expectation>
+      <identity>29.5</identity>
+      <positives>45.5</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="94">TCNCRES---CTR-EGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQR--SANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>TC+ +     CT+ E  M  +  +  ++EH M     R A N N      + R  + N+RC + EH M +   R AQN N    + +H</pattern>
+      <matchSeq start="20" end="107">TCDAQNRNTLCTQHEHAMHKHEHAMHKHEHAMHKTGTRYALNTNTRCTNTNTRCTNTNMRCTKQEHAMHSTRTRDAQNRNTPCTQHEH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0AAD8C7H1_BIOPF" ac="A0AAD8C7H1" length="135" description="Uncharacterized protein OS=Biomphalaria pfeifferi OX=112525 GN=Bpfe_002894 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>2.4</expectation>
+      <identity>25.8</identity>
+      <positives>37.1</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="89">NCRCMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMN</querySeq>
+      <pattern>N   MCT    M  N    CT    M   + +   N + M   +N  + N N M       ++N  C  N + M   +N    N N M+</pattern>
+      <matchSeq start="20" end="102">NSNTMCTNSNTMCTNSNTMCTNSNTMCTNSNTMCTNSNTMSTNSNTMSTNSNTMCT-----NSNTMCT-NSNTMCTNSNTMCTNSNTMS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A8K9XYL2_ONCMY" ac="A0A8K9XYL2" length="2014" description="Uncharacterized protein OS=Oncorhynchus mykiss OX=8022 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>85</score>
+      <bits>37.4</bits>
+      <expectation>2.5</expectation>
+      <identity>24.4</identity>
+      <positives>38.9</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="86">CTREFAMTCNCRESCT-REGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLR--------CAQNEHIMLAQANRCAQNEN</querySeq>
+      <pattern>C+    +TC    +C+      F  A +C+ N +I    A  C+ N N    +    S+N          C+ N +I    A  C+ N N</pattern>
+      <matchSeq start="119" end="208">CSSNRNITCQAARACSSNRNITFRAARACSSNRNITFRAARACSSNRNITYQIVRACSSNRNITCQTVRACSSNRNITFRAARACSSNRN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A085MKK6_9BILA" ac="A0A085MKK6" length="2147" description="histone acetyltransferase OS=Trichuris suis OX=68888 GN=M513_01422 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>84</score>
+      <bits>37.0</bits>
+      <expectation>3.4</expectation>
+      <identity>25.8</identity>
+      <positives>44.3</positives>
+      <gaps>4</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="5" end="99">MCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQN--ENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>+C +  A+ C    +CT + CM  +  +  Q       Q  + AQ   + +MNAMQHQ + ++  A +      Q  +  Q + +     Q Q+S N</pattern>
+      <matchSeq start="1650" end="1744">VCKQLMALCCFHARTCTEQNCMVPFCLNIRQKLAEQQVQLRKRAQRDMQRRMNAMQHQSTVSV--AGSSGYQQQQQQQQPQQQQQPPLTPQAQQSPN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0ACF6F4V1_9HEMI" ac="A0ACF6F4V1" length="138" description="Uncharacterized protein OS=Cyamophila willieti OX=2604842 GN=WDU94_005231 PE=4 SV=1">
+    <alignments total="2">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>3.4</expectation>
+      <identity>35.1</identity>
+      <positives>43.3</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="99">RCMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>R  C  E  MT   R SC  E  M A  PSC + E+ M AQ   C + EN M A +          + E+ M AQ   C + EN M A+    R  N</pattern>
+      <matchSeq start="52" end="137">RPSCREENDMTAQ-RPSCREENDMTAQRPSC-REENDMTAQRPSC-REENDMTAQR-------PWCREENDMTAQRPSC-REENDMTAQRPSCREEN</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>4.7</expectation>
+      <identity>33.7</identity>
+      <positives>44.9</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="17" end="99">RESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAM------QHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>R SC  E  M A  PSC + E+ M AQ   C + EN M A       ++  +A     + E+ M AQ   C + EN M A+    R  N</pattern>
+      <matchSeq start="13" end="98">RPSCREENDMTAQRPSC-REENDMTAQRPSC-REENDMTAQRPSCREENDMTAQRPSCREENDMTAQRPSC-REENDMTAQRPSCREEN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A484N760_9ASTE" ac="A0A484N760" length="121" description="Uncharacterized protein OS=Cuscuta campestris OX=132261 GN=CCAM_LOCUS38921 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>3.9</expectation>
+      <identity>33.9</identity>
+      <positives>40.7</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="37" end="95">EHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQ</querySeq>
+      <pattern>E  +LA A RC Q     NA   ++  N      E  +LA A RC Q     NA    Q</pattern>
+      <matchSeq start="28" end="86">ESCLLAGAWRCFQQNGNFNASTKKQKGNFTMVHAESCLLAGAWRCFQQNGNFNASTDEQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0AAV2JCP2_KNICA" ac="A0AAV2JCP2" length="474" description="Uncharacterized protein OS=Knipowitschia caucasica OX=637954 GN=KC01_LOCUS4945 PE=4 SV=1">
+    <alignments total="2">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.3</expectation>
+      <identity>28.8</identity>
+      <positives>44.2</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="96">RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AQNEHIMLAQANRC--AQNENKMNAMQHQ--RSANLRC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>R  C R         E C R  E C+ A    C  A+ E  + A+  RC  A+ E  + A + +  R+   RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="10" end="113">RRRCVRAEERCVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.0</expectation>
+      <identity>28.4</identity>
+      <positives>44.1</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="96">CTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRC--AQNENKMNAMQHQ--RSANLRC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>C R         E C R   E C+ A    C  A+ E  + A+  RC  A+ E  + A + +  R+   RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="20" end="121">CVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="B3SCC4_TRIAD" ac="B3SCC4" length="674" description="EGF-like domain-containing protein (Fragment) OS=Trichoplax adhaerens OX=10228 GN=TRIADDRAFT_33213 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.4</expectation>
+      <identity>29.5</identity>
+      <positives>39.0</positives>
+      <gaps>13</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="97">NCR--CMCTREF-AMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLR-----CAQNEHIMLAQANRCAQNENKMNARAQHQRS</querySeq>
+      <pattern>NC    +CT    +  CNC+   T  G    Y   CA+N H   A A +C    N M + Q Q           C        +  NRC+QN N +N    +Q S</pattern>
+      <matchSeq start="396" end="494">NCHSNAICTNTVGSYRCNCKAGFTGNGR--TYIDECARNSHNCHAHA-KCT---NTMGSFQCQCRPGFTGNGKTCHDTNECQRSSDNRCSQNANCVNTPGSYQCS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0AAV7IKU6_COTGL" ac="A0AAV7IKU6" length="900" description="EGF-like domain-containing protein OS=Cotesia glomerata OX=32391 GN=KQX54_002268 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.5</expectation>
+      <identity>25.0</identity>
+      <positives>43.5</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="4" end="89">CMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAM------QHQRSANLRCAQNEHIMLAQANRCAQNENKMN</querySeq>
+      <pattern>C C+  F      ++SC       A   SC  N++ +L    +C + + +  A       Q ++  N RCA+N H    + ++C  NE + N</pattern>
+      <matchSeq start="289" end="377">CSCSEGFHYVPE-QDSCVHSAT--AIDDSCTHNDNCLLLSNTQCKEQKCQCIANYFNYKGQCRQGLNSRCAENSHCSAVENSQCIDNECQCN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A3R7MI23_PENVA" ac="A0A3R7MI23" length="1043" description="TRIOBP isoform 4 OS=Penaeus vannamei OX=6689 GN=C7M84_019900 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.5</expectation>
+      <identity>26.5</identity>
+      <positives>42.9</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="97">RCMCTREFAMTCNCRESCTR---EGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRS</querySeq>
+      <pattern>R  CTR    +CN R SC R   + C  +   SC   +    +Q +  A++    N     RS ++R  + + I   +  R  Q + K   RA+  R+</pattern>
+      <matchSeq start="809" end="906">RDSCTRSQKDSCNGRGSCKRSQRDSCNRSQRDSCNGRDSCNRSQRDSEARDSCNRNQDSCNRSQDIRATEAKGIRATETKRFVQQKPKRFVRAKRFRA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="W7XGU2_TETTS" ac="W7XGU2" length="1074" description="C3HC4 type (RING finger) zinc finger protein OS=Tetrahymena thermophila (strain SB210) OX=312017 GN=TTHERM_000588916 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.5</expectation>
+      <identity>33.3</identity>
+      <positives>47.4</positives>
+      <gaps>21</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="34" end="97">AQNEHIMLAQANRCAQNENKMNAMQHQRS--------------ANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRS</querySeq>
+      <pattern>AQN    L+  N+  Q EN+ N +Q+QR+              +NL   QN    L+  N+  Q EN+ N   Q+QRS</pattern>
+      <matchSeq start="319" end="394">AQNRSNQLSNQNQVFQEENRQNGLQYQRNIPQSMNPSNQIQPQSNLN-TQNRTNQLSNQNQVFQEENRQNG-LQYQRS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A3R7MYB7_PENVA" ac="A0A3R7MYB7" length="2002" description="Cell surface glycoprotein 1 OS=Penaeus vannamei OX=6689 GN=C7M84_008972 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.6</bits>
+      <expectation>4.6</expectation>
+      <identity>28.0</identity>
+      <positives>38.7</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="4" end="95">CMCTREFAMTCNC-RESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQ</querySeq>
+      <pattern>C C    A TCN  RE C         A +C  N     A  N    N N+ N   HQR  NL+  Q +     +  +C Q    + ++ + Q</pattern>
+      <matchSeq start="1372" end="1458">CECATNDARTCNLNREKCHNN------ARTCNLNRENNSATNNARTCNLNRENKQCHQRRQNLQSQQPQRPEEQREQQCHQRRQNLQSQQREQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0AAV4MG56_CAEEX" ac="A0AAV4MG56" length="93" description="Metallothionein OS=Caerostris extrusa OX=172846 GN=CEXT_487321 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>79</score>
+      <bits>35.0</bits>
+      <expectation>5.2</expectation>
+      <identity>39.7</identity>
+      <positives>49.2</positives>
+      <gaps>13</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="31" end="91">PSCAQ-NEH-IMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>P C   N+H I  A+ N+CA NE    A  +Q      CA NE    A+ N+CA NE    AR</pattern>
+      <matchSeq start="6" end="62">PKCKPGNDHCIQCARGNQCAGNECNQCARGNQ------CAGNECNQCARGNQCAGNECNQCAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0ABY7F425_MYAAR" ac="A0ABY7F425" length="365" description="Uncharacterized protein (Fragment) OS=Mya arenaria OX=6604 GN=MAR_031521 PE=4 SV=1">
+    <alignments total="2">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>5.6</expectation>
+      <identity>26.9</identity>
+      <positives>37.2</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="90">TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>T +     T +GC  +    CA   H     A  CA N++  N      S    CA   H     A  CA N++  N+</pattern>
+      <matchSeq start="197" end="268">TVSAEHCATNQGCHNSTVTVCASTHHDTTVSAEHCATNQDCHN------STVTVCASTHHDTTVSAEHCATNQDCHNS</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>7.7</expectation>
+      <identity>26.9</identity>
+      <positives>35.9</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="13" end="90">TCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNA</querySeq>
+      <pattern>T +     T +GC  +    CA   H     A  CA N++  N      S    CA   H     A  CA N+   N+</pattern>
+      <matchSeq start="85" end="156">TVSAEHCATNQGCHNSTVTVCASTHHDTTVSAEHCATNQDCHN------STVTVCASTHHDTTVSAEHCATNQGCHNS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A671QTH9_9TELE" ac="A0A671QTH9" length="385" description="Uncharacterized protein OS=Sinocyclocheilus anshuiensis OX=1608454 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>5.7</expectation>
+      <identity>24.4</identity>
+      <positives>39.5</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="2" end="87">CRCMCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENK</querySeq>
+      <pattern>C+C+      +    R+   RE    A    C   EH  LA   +C   E++  A++       +C   EH  LA   +C   E++</pattern>
+      <matchSeq start="2" end="81">CKCLVREHETLAIEQRKCLAREHETLAIERKCLAREHETLAIERKCLAREHETLAIER------KCLAREHETLAIERKCLAREHE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A9W2Z3X1_BIOGL" ac="A0A9W2Z3X1" length="715" description="Surface protein SACOL0050 isoform X3 OS=Biomphalaria glabrata OX=6526 GN=LOC106063447 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.0</expectation>
+      <identity>23.9</identity>
+      <positives>41.3</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="4" end="94">CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>C+ T+ F       +SC  E G   A    CA+  + +      CA+  NK+N  +        CA+  + +      CA+  NK+N   ++</pattern>
+      <matchSeq start="205" end="290">CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE------NCAEETNKVNVTEENCAEETNKVNVTEEN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A9W2Z3L7_BIOGL" ac="A0A9W2Z3L7" length="722" description="Surface protein SACOL0050 isoform X2 OS=Biomphalaria glabrata OX=6526 GN=LOC106063447 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.0</expectation>
+      <identity>23.9</identity>
+      <positives>41.3</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="4" end="94">CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>C+ T+ F       +SC  E G   A    CA+  + +      CA+  NK+N  +        CA+  + +      CA+  NK+N   ++</pattern>
+      <matchSeq start="212" end="297">CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE------NCAEETNKVNVTEENCAEETNKVNVTEEN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A8S4PGY0_OWEFU" ac="A0A8S4PGY0" length="175" description="Uncharacterized protein OS=Owenia fusiformis OX=6347 GN=OFUS_LOCUS17812 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>6.1</expectation>
+      <identity>27.8</identity>
+      <positives>39.2</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="5" end="92">MCTREFAMTCNCRESCTREGCMF-AYAPSCAQNEHIMLAQANRCAQ-------NENKMNAMQHQRSANL-RCAQNEHIMLAQANRCAQNENKMNARA</querySeq>
+      <pattern>MCT+E          CT+E   + A    C Q  H  +A A+ C Q       N +      H+  AN   C Q  H  +A  + C Q  ++  A A</pattern>
+      <matchSeq start="57" end="153">MCTQEMHEYMADTSMCTQEMHEYMANTSMCTQEMHGFMANASMCTQEMHEYMANTSMSTQEMHEYMANTSMCTQEMHEYMANTSMCTQEMHESMANA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A914HCN3_GLORO" ac="A0A914HCN3" length="788" description="Uncharacterized protein OS=Globodera rostochiensis OX=31243 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.1</expectation>
+      <identity>36.0</identity>
+      <positives>49.3</positives>
+      <gaps>15</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="98">QNEHIMLAQANRCAQ----NENKMNAMQ-HQRSANLRCAQNEHIMLAQANRCAQNENKMNA------RAQHQRSA</querySeq>
+      <pattern>QNEH   A      Q    NE + NA Q HQ++A  +  QNE     Q  +  QNE++ NA      + QHQ++A</pattern>
+      <matchSeq start="319" end="393">QNEHQQNALQQNAQQQQQQNEQQQNAQQQHQQNAQQQHQQNEQQQNEQQQQQQQNEHQQNALQQNAQQQQHQQNA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0AAD7KRW0_QUISA" ac="A0AAD7KRW0" length="813" description="Protein GRIP OS=Quillaja saponaria OX=32244 GN=O6P43_033530 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.1</expectation>
+      <identity>33.3</identity>
+      <positives>50.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="94">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>+N H+ L       QN+N   AMQ Q + NL  +  EH +L  A + AQ E ++    +H</pattern>
+      <matchSeq start="642" end="701">KNLHLSLESRLPAGQNDNYSTAMQRQDALNLSPSAAEHQILLLARQQAQREEELAQSQRH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A9W2Z3T7_BIOGL" ac="A0A9W2Z3T7" length="972" description="Uncharacterized protein LOC106063447 isoform X1 OS=Biomphalaria glabrata OX=6526 GN=LOC106063447 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.1</expectation>
+      <identity>23.9</identity>
+      <positives>41.3</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="4" end="94">CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQH</querySeq>
+      <pattern>C+ T+ F       +SC  E G   A    CA+  + +      CA+  NK+N  +        CA+  + +      CA+  NK+N   ++</pattern>
+      <matchSeq start="462" end="547">CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE------NCAEETNKVNVTEENCAEETNKVNVTEEN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0ABQ9X9V4_9EUKA" ac="A0ABQ9X9V4" length="1401" description="Uncharacterized protein OS=Blattamonas nauphoetae OX=2049346 GN=BLNAU_15706 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.2</expectation>
+      <identity>31.0</identity>
+      <positives>52.1</positives>
+      <gaps>15</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="33" end="96">CAQNE---HIMLAQANRCAQNEN-KMNAMQHQRSANLRCAQNEHIM---LAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>CA NE      + +  RCA+NE+ +   M+ +R    RCA NE +    + +  RCA+NE+    + + +R</pattern>
+      <matchSeq start="704" end="770">CATNEDARRTKMCEERRCAKNEDARRTKMREER----RCATNEDVRGTKMCEERRCAKNEDARRTKMREKR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A8C5VS42_MICMU" ac="A0A8C5VS42" length="2206" description="TRIO and F-actin binding protein OS=Microcebus murinus OX=30608 GN=TRIOBP PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.2</bits>
+      <expectation>6.3</expectation>
+      <identity>26.9</identity>
+      <positives>37.5</positives>
+      <gaps>24</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="15" end="93">NCRESCTREGCMFAYAP-----------SCAQNEHIMLAQANRCAQNENKM--------------NAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQ</querySeq>
+      <pattern>N R+SCT+     A +P           SCAQ ++   +  NR  Q EN                N    Q +    CAQ ++   +  NR  Q EN   + AQ</pattern>
+      <matchSeq start="441" end="544">NSRKSCTQRDNPRALSPNRTTQQENPRKSCAQRDNPRSSSPNRTTQQENPRKSCAQRNNPRASSPNRTTQQENPRTSCAQQDNPRASSPNRITQRENSRTSCAQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A9Q0LP30_ANAIG" ac="A0A9Q0LP30" length="295" description="Uncharacterized protein OS=Anaeramoeba ignava OX=1746090 GN=M0811_00426 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>7.4</expectation>
+      <identity>33.3</identity>
+      <positives>53.3</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="93">QNEHIMLA-QANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQ</querySeq>
+      <pattern>QN++ M   Q N+   N+N+MN  Q+Q + N     N++      N+  QN+N+MN   Q</pattern>
+      <matchSeq start="140" end="199">QNQYQMNQNQMNQNQMNQNQMNPNQYQMNQNQMNQMNQYQYQMNPNQMNQNQNQMNQNPQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="B4GFN7_DROPE" ac="B4GFN7" length="324" description="GL21595 OS=Drosophila persimilis OX=7234 GN=Dper\GL21595 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>7.6</expectation>
+      <identity>37.0</identity>
+      <positives>53.7</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="45" end="98">NRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSA</querySeq>
+      <pattern>+RC+  E +    QHQ S   RCAQ +    AQ    AQ++ ++ A  Q QRS+</pattern>
+      <matchSeq start="252" end="302">HRCSPREGRFRPQQHQSS---RCAQYKSHGCAQDRTRAQSQEQLTAAQQDQRSS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A1I7UHX5_9PELO" ac="A0A1I7UHX5" length="449" description="PAT1 domain containing protein OS=Caenorhabditis tropicalis OX=1561998 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>7.9</expectation>
+      <identity>31.2</identity>
+      <positives>50.0</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="96">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE--HIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>Q++H M     R  Q + +M  M+ QR   +  AQ    H ML Q  +  Q++ +MN   Q+Q+</pattern>
+      <matchSeq start="315" end="378">QHQHQMQQNKMRLLQQQQEMQKMEQQRQQQIMQAQQHQRHQMLLQQQQMQQHQQQMNGGFQNQQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A1I7UHX4_9PELO" ac="A0A1I7UHX4" length="467" description="PAT1 domain containing protein OS=Caenorhabditis tropicalis OX=1561998 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>7.9</expectation>
+      <identity>31.2</identity>
+      <positives>50.0</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="96">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNE--HIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>Q++H M     R  Q + +M  M+ QR   +  AQ    H ML Q  +  Q++ +MN   Q+Q+</pattern>
+      <matchSeq start="333" end="396">QHQHQMQQNKMRLLQQQQEMQKMEQQRQQQIMQAQQHQRHQMLLQQQQMQQHQQQMNGGFQNQQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0AAD9KI57_RIDPI" ac="A0AAD9KI57" length="566" description="Methyltransferase domain-containing protein OS=Ridgeia piscesae OX=27915 GN=NP493_1025g01041 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.1</expectation>
+      <identity>26.2</identity>
+      <positives>47.7</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="35" end="99">QNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>Q +H+     NR ++ + + N   HQ+       QN+H++L Q     Q +   +  +QHQ+  N</pattern>
+      <matchSeq start="78" end="140">QQQHVQQIGENRHSEEQEEGNVQNHQQHQEQH--QNDHLLLQQRQNQKQQQQDYHRLSQHQQHLN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0AAV2IV63_KNICA" ac="A0AAV2IV63" length="1035" description="Uncharacterized protein OS=Knipowitschia caucasica OX=637954 GN=KC01_LOCUS367 PE=4 SV=1">
+    <alignments total="3">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.4</expectation>
+      <identity>26.8</identity>
+      <positives>41.2</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="96">CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>C R     C    E C R   E C+ A    C  A+ E  + A+  RC + E +      +R      A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="421" end="517">CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERFVCARRRRGVCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.4</expectation>
+      <identity>26.9</identity>
+      <positives>42.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="96">RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +    + +R       RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="509" end="612">RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+     <alignment number="3">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.4</expectation>
+      <identity>26.9</identity>
+      <positives>42.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="96">RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +    + +R       RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="588" end="691">RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0AAV2IQX1_KNICA" ac="A0AAV2IQX1" length="1043" description="Uncharacterized protein OS=Knipowitschia caucasica OX=637954 GN=KC01_LOCUS368 PE=4 SV=1">
+    <alignments total="3">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.4</expectation>
+      <identity>26.8</identity>
+      <positives>41.2</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="96">CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>C R     C    E C R   E C+ A    C  A+ E  + A+  RC + E +      +R      A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="429" end="525">CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERFVCARRRRGVCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.4</expectation>
+      <identity>26.9</identity>
+      <positives>42.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="96">RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +    + +R       RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="517" end="620">RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+     <alignment number="3">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.4</expectation>
+      <identity>26.9</identity>
+      <positives>42.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="3" end="96">RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AQNEHIMLAQANRCAQNENKMNAMQHQRSANL---RC--AQNEHIMLAQANRCAQNENKMNARAQHQR</querySeq>
+      <pattern>RC+   E        E C R   E C+ A    C  A+ E  + A+  RC + E +    + +R       RC  A+ E  + A+  RC + E +   RA+ +R</pattern>
+      <matchSeq start="596" end="699">RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A913Z813_PATMI" ac="A0A913Z813" length="1255" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="462" end="550">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A913Z7K1_PATMI" ac="A0A913Z7K1" length="1291" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="2">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="622" end="710">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>29.5</identity>
+      <positives>41.1</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPS--CAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ T + A  C+C E  T +G  C  A  P+  CA N     A+    AQ+  + + ++        C         Q N CA N    NAR</pattern>
+      <matchSeq start="664" end="752">NARCVATAQDAYECSCLEGYTGDGFTCEVAVDPANPCAINTCDANARCVASAQDAYECSCLEGYTGDGFTCNAE------QINFCANNNCDRNAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A913Z810_PATMI" ac="A0A913Z810" length="1294" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="501" end="589">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A913Z7J7_PATMI" ac="A0A913Z7J7" length="1331" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="538" end="626">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A913Z5I7_PATMI" ac="A0A913Z5I7" length="1331" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="622" end="710">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A913Z5I2_PATMI" ac="A0A913Z5I2" length="1333" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="622" end="710">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A913Z583_PATMI" ac="A0A913Z583" length="1333" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="540" end="628">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A913Z7J2_PATMI" ac="A0A913Z7J2" length="1336" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="543" end="631">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A913Z5F5_PATMI" ac="A0A913Z5F5" length="1372" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="579" end="667">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="51" database="TR" id="A0A913Z7I7_PATMI" ac="A0A913Z7I7" length="1373" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>29.0</identity>
+      <positives>41.9</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N     A+    AQ+  + + ++        C  N       AN CA N   +NAR</pattern>
+      <matchSeq start="538" end="624">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDANARCVASAQDAYECSCLEGYTGDGFTCEVN------PANPCAINTCDVNAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="52" database="TR" id="A0A913Z577_PATMI" ac="A0A913Z577" length="1373" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="580" end="668">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="53" database="TR" id="A0A913Z7I2_PATMI" ac="A0A913Z7I2" length="1375" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="622" end="710">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="54" database="TR" id="A0A913Z5H4_PATMI" ac="A0A913Z5H4" length="1375" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="582" end="670">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="55" database="TR" id="A0A913Z7Z2_PATMI" ac="A0A913Z7Z2" length="1376" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="583" end="671">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="56" database="TR" id="A0A913Z5E5_PATMI" ac="A0A913Z5E5" length="1376" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="583" end="671">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="57" database="TR" id="A0A913Z5G8_PATMI" ac="A0A913Z5G8" length="1414" description="Nidogen OS=Patiria miniata OX=46514 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>28.0</identity>
+      <positives>43.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="1" end="91">NCRCMCTREFAMTCNCRESCTREG--CMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNAR</querySeq>
+      <pattern>N RC+ + + A  C+C E  T +G  C    A  CA N   + A+    AQ+  + + ++        C     + +  AN CA N    NAR</pattern>
+      <matchSeq start="621" end="709">NARCVASAQDAYECSCLEGYTGDGFTCEVNPANPCAINTCDVNARCVATAQDAYECSCLEGYTGDGFTC----EVAVDPANPCAINTCDANAR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="58" database="TR" id="A0A5F9DG67_RABIT" ac="A0A5F9DG67" length="1515" description="TRIO and F-actin binding protein OS=Oryctolagus cuniculus OX=9986 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.5</expectation>
+      <identity>29.1</identity>
+      <positives>47.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="32" end="86">SCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNEN</querySeq>
+      <pattern>SCAQ ++   +  NR  Q +N   +   Q +    CAQ ++   +  NR  Q +N</pattern>
+      <matchSeq start="425" end="479">SCAQRDNPRASSPNRTTQRDNPRASCAQQENPRTSCAQRDNPRASSPNRATQRDN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="59" database="TR" id="A0A077ZD78_TRITR" ac="A0A077ZD78" length="2213" description="histone acetyltransferase OS=Trichuris trichiura OX=36087 GN=TTRE_0000608501 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8</bits>
+      <expectation>8.6</expectation>
+      <identity>25.8</identity>
+      <positives>41.2</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="5" end="99">MCTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQN--ENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRSAN</querySeq>
+      <pattern>+C +  A+ C    +CT + CM  +  +  Q       Q  + AQ   + +MN MQHQ S  +  A        Q  +  Q + +     Q Q+S N</pattern>
+      <matchSeq start="1712" end="1807">VCKQLMALCCFHARTCTEQNCMVPFCLNIRQKLAEQQVQLRKRAQRDIQRRMNVMQHQ-STTVSVAGTSGYQQQQQQQQQQQQQQPPLTPQPQQSPN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="60" database="TR" id="A0A815EJ19_9BILA" ac="A0A815EJ19" length="88" description="Uncharacterized protein OS=Rotaria sordida OX=392033 GN=JXQ802_LOCUS46204 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>77</score>
+      <bits>34.3</bits>
+      <expectation>9.4</expectation>
+      <identity>30.4</identity>
+      <positives>57.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="42" end="97">AQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRS</querySeq>
+      <pattern>A  N+  QN+N+ N  Q+Q++ N      + +  A +N+ AQN N+   + Q+Q++</pattern>
+      <matchSeq start="9" end="64">ANQNQQNQNQNQQNQNQNQQNQNQNQNAAQQLGGAGSNQAAQNSNRAGQQQQNQQN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="61" database="TR" id="A0A3S1BJ30_ELYCH" ac="A0A3S1BJ30" length="239" description="Uncharacterized protein (Fragment) OS=Elysia chlorotica OX=188477 GN=EGW08_023776 PE=4 SV=1">
+    <alignments total="4">
+     <alignment number="1">
+      <score>80</score>
+      <bits>35.4</bits>
+      <expectation>9.7</expectation>
+      <identity>23.6</identity>
+      <positives>38.2</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="86">CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRC--------AQNEHIMLAQANRCAQNEN</querySeq>
+      <pattern>C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N  C          NE+ +L    R   NE+</pattern>
+      <matchSeq start="5" end="93">CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNES</matchSeq>
+     </alignment>
+     <alignment number="2">
+      <score>80</score>
+      <bits>35.4</bits>
+      <expectation>9.7</expectation>
+      <identity>23.6</identity>
+      <positives>38.2</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="86">CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRC--------AQNEHIMLAQANRCAQNEN</querySeq>
+      <pattern>C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N  C          NE+ +L    R   NE+</pattern>
+      <matchSeq start="33" end="121">CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNES</matchSeq>
+     </alignment>
+     <alignment number="3">
+      <score>80</score>
+      <bits>35.4</bits>
+      <expectation>9.7</expectation>
+      <identity>23.6</identity>
+      <positives>38.2</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="86">CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRC--------AQNEHIMLAQANRCAQNEN</querySeq>
+      <pattern>C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N  C          NE+ +L    R   NE+</pattern>
+      <matchSeq start="61" end="149">CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNES</matchSeq>
+     </alignment>
+     <alignment number="4">
+      <score>80</score>
+      <bits>35.4</bits>
+      <expectation>9.7</expectation>
+      <identity>23.6</identity>
+      <positives>38.2</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="6" end="86">CTREFAMTCNCRESCTREGCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRC--------AQNEHIMLAQANRCAQNEN</querySeq>
+      <pattern>C+ E  +      SC+ E C+         NE  +L    R   NEN +  + ++  +N  C          NE+ +L    R   NE+</pattern>
+      <matchSeq start="89" end="177">CSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNESCLLGLVYRSCSNENCLLGLMYRSCSNES</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="62" database="TR" id="A0A1A9W202_9MUSC" ac="A0A1A9W202" length="147" description="Uncharacterized protein OS=Glossina brevipalpis OX=37001 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>79</score>
+      <bits>35.0</bits>
+      <expectation>9.8</expectation>
+      <identity>27.0</identity>
+      <positives>48.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <frame>0/0</frame>
+      <querySeq start="24" end="97">GCMFAYAPSCAQNEHIMLAQANRCAQNENKMNAMQHQRSANLRCAQNEHIMLAQANRCAQNENKMNARAQHQRS</querySeq>
+      <pattern>GC ++Y P  ++   I  + AN  +  +    +  HQ+S++L  + ++   L   N  A NENK N     ++S</pattern>
+      <matchSeq start="11" end="84">GCTYSYTPIYSKLFRICTSVANGESGTDRIDRSFIHQQSSSLSSSVDDEAALRTTNGPANNENKNNKTKNIEKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult>
+</EBIApplicationResult>
