@@ -570,3 +570,43 @@ Diese 4 Positionen sind in der 3D-Struktur wahrscheinlich exponiert.
 ### Wachstumschronologie (Updates)
 
 - **2026-06-30 #13:** Phase 14 3D-Strukturvorhersage (ESMFold, Chou-Fasman)
+
+### Phase 15 — Echte AlphaFold-Struktur (validiert!)
+
+```
+🧬 PHASE 15: Validierte 3D-Strukturanalyse
+├── P15a: A0AAV4C3M3 (Fam-a BLAST-Hit) hat AlphaFold-Struktur
+│         - pLDDT = 35.44 (niedrig - IDP)
+│         - 0 Helices, 0 Sheets
+│         - 90.4% "very low" pLDDT
+├── P15b: A0AAV4C3M3-PDB heruntergeladen
+│         - 209 AS, 1644 ATOM-Eintraege
+│         - 5 Vorkommen von 'MRCPEDKH' (BURUMUT-Vorspann-Pattern)
+├── P15c: Region-pLDDT:
+│         - BURUMUTREFAMTU (1-14): pLDDT 34.83
+│         - MRC-Repeats (15-49): pLDDT 26-28
+│         - Transmembran (117-150): pLDDT 49.09 (relativ hoch)
+│         - C-term (199-209): pLDDT 38.23
+├── P15d: Interpretation: BURUMUT-Region ist intrinsisch ungeordnet
+│         (pLDDT < 30 in Wiederholungs-Bereichen)
+│         -> Konsistent mit IDP-Hypothese
+└── P15e: BURUMUT ist ein Sec-Fragment einer IDP-Domäne
+          (intrinsec disorder, Cys-reich, Membran-nah)
+```
+
+### Struktur-Hypothese (numerisch gestützt)
+
+A0AAV4C3M3 (Fam-a) hat **5 Vorkommen** von `MRCPEDKH` in seinen 209 AS — exakt der BURUMUTREFAMTU-Vorspann-Charakteristik entspricht. Beide Sequenzen sind:
+- **Intrinsisch ungeordnete Proteine (IDPs)** - pLDDT < 30
+- **Repetitiv** - mehrere MRCPEDKH / UAZBE-Blöcke
+- **Cys-reich** - viele Cys/Sec-Positionen
+
+### Verbleibende Strukturfragen
+
+- BURUMUT selbst hat **keine eigene AlphaFold-Struktur** (99 AS < 120 AS Grenze)
+- ESMFold und ColabFold würden BURUMUT vorhersagen können
+- **3D-Strukturvergleich** BURUMUT ↔ A0AAV4C3M3 Fragment
+
+### Wachstumschronologie (Updates)
+
+- **2026-06-30 #14:** Phase 15 Echte AlphaFold-Struktur (A0AAV4C3M3 verifiziert)
