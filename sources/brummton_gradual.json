@@ -1,0 +1,58 @@
+{
+  "5_layer_brummton": [
+    [
+      "Layer 1 (Genesis)",
+      0.0
+    ],
+    [
+      "Layer 2 (Exodus)",
+      0.14
+    ],
+    [
+      "Layer 3 (Leviticus)",
+      0.28
+    ],
+    [
+      "Layer 4 (Numeri)",
+      0.42
+    ],
+    [
+      "Layer 5 (Deuteronomium)",
+      0.7
+    ]
+  ],
+  "tests": {
+    "test1_brumtumrefamtu_14_zeichen": {
+      "steps": 4,
+      "halted": true,
+      "halt_step": 5,
+      "end_tape": "ושצשמשרצהואמרש",
+      "end_state": 1
+    },
+    "test2_two_runs": {
+      "run1_seed123": {
+        "halted": true,
+        "steps": 3
+      },
+      "run2_seed456": {
+        "halted": true,
+        "steps": 5
+      }
+    },
+    "test3_burumut_99": {
+      "steps": 5,
+      "halted": true,
+      "halt_step": null,
+      "end_state": 1
+    }
+  },
+  "interpretation": "Brummton-Halt ist graduell, nicht abrupt",
+  "numerische_bruecken": {
+    "99 + 117 = 216": true,
+    "99 + 137 = 37^2": true,
+    "18 + 5 = 22": true,
+    "22 + 50 = 72": true,
+    "5 × 14 + 2 = 72": true
+  },
+  "tora_turing_brummton_gradual": true
+}
