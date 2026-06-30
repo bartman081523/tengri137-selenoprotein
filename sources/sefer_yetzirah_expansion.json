@@ -1,0 +1,60 @@
+{
+  "operatoren": {
+    "כ": {
+      "name": "Kaph",
+      "value": 20,
+      "turing_op": "READ",
+      "meaning": "Handfläche/Empfang",
+      "count_in_original": 184,
+      "count_in_burumut": 0
+    },
+    "ד": {
+      "name": "Dalet",
+      "value": 4,
+      "turing_op": "MOVE_LEFT",
+      "meaning": "Tür/Öffnung",
+      "count_in_original": 175,
+      "count_in_burumut": 0
+    },
+    "י": {
+      "name": "Yod",
+      "value": 10,
+      "turing_op": "STATE",
+      "meaning": "Arm/Tat",
+      "count_in_original": 477,
+      "count_in_burumut": 1
+    },
+    "ת": {
+      "name": "Tav",
+      "value": 400,
+      "turing_op": "HALT",
+      "meaning": "Kreuz/Ende",
+      "count_in_original": 363,
+      "count_in_burumut": 0
+    },
+    "ג": {
+      "name": "Gimel",
+      "value": 3,
+      "turing_op": "MOVE_RIGHT",
+      "meaning": "Kamel/Bewegung",
+      "count_in_original": 97,
+      "count_in_burumut": 0
+    }
+  },
+  "initial_burumutrefamtu": "בשצשמשרצהואמרש",
+  "final_burumutrefamtu_expanded": "בושצשמשרצהואמרש",
+  "ops_used": [
+    "READ_כ",
+    "WRITE_ו",
+    "MOVE_LEFT_ד",
+    "MOVE_RIGHT_ג",
+    "STATE_י",
+    "HALT_ת"
+  ],
+  "konsistenz": {
+    "tora_22_konsonanten": 22,
+    "burumut_5_fehlend": 5,
+    "1296_5_op_vorkommen": 1296,
+    "231_gates_22x21": 231
+  }
+}
