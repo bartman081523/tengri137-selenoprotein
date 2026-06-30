@@ -432,3 +432,63 @@ BURUMUT_ALPHABET_SIZE = 19  # 22 - 3 (Mothers) = 19?
 - **2026-06-30 #7:** Phase 11 BLAST (4 signifikante Homologe)
 - **2026-06-30 #8:** Phase 12 Meta-kognitive Analyse + Sefer Yetzirah
 - **2026-06-30 #9:** AGENTS.md (Project-Spec für zukünftige Agenten)
+
+### Phase 13 — Sefer Yetzirah + Hebrew Mapping (vorsichtig)
+
+```
+📜 PHASE 13: Kabbalistische Kontextualisierung
+├── P13a: 19-Buchstaben-Alphabet = 22 Konsonanten - 3 Mothers
+├── P13b: BURUMUT enthaelt Mothers+A, M, S, Doubles+B, G, P, R, T
+├── P13c: Fehlend in BURUMUT: G, D, Y, K, T (5 von 22)
+├── P13d: Hebrew-Mapping BURUMUTREFAMTU -> hebraeische Buchstaben
+│         (nicht 1-zu-1 wegen BURUMUT-Buchstaben > T)
+├── P13e: 22 hebr. Konsonanten als genetischer Code-Repertoire?
+└── P13f: Genesis 1:1-10 Gematria + BURUMUT-Spiegelung
+
+### Hebrew Mapping (Beispiel)
+
+```
+A -> Aleph (1)  |  H -> He (5)     |  O -> Ayin (70)
+B -> Beth (2)   |  I -> Yod (10)   |  P -> Pe (80)
+C -> ??? (3)    |  J -> ???        |  Q -> Kof (100)
+D -> Dalet (4)  |  K -> Kaph (20)  |  R -> Tsade (90)
+E -> He (5)     |  L -> Lamed (30)  |  S -> Samekh (60)
+F -> Vav (6)    |  M -> Mem (40)   |  T -> Tav (400)
+G -> Gimel (3)  |  N -> Nun (50)   |  U -> Shin (300)
+                |                 |  V -> ???
+                |                 |  W -> ???
+                |                 |  X -> ???
+                |                 |  Y -> ???
+                |                 |  Z -> ???
+```
+
+**Interpretation:**
+- BURUMUT nutzt 19 lateinische Buchstaben = 22 - 3 (Mothers in Sefer Yetzirah)
+- BURUMUT-Mapping zu Hebraeisch: nur 17 der 22 sind sinnvoll mappbar
+- Fehlend: G, D, Y, K, T in BURUMUT
+- Vorhanden: A, B, H, I, L, M, N, O, P, Q, R, S, U, V, W, X, Z (17)
+
+### Numerische Bruecke mit Dimensiograph (vorsichtig!)
+
+L1_GEN (Genesis 1:1) = "Bereshit bara Elohim..." (5 Layer-Architektur)
+BURUMUT-Summe + 137 = 37² = Genesis 1:7 Σ (Trennung)
+-> BURUMUT ist die numerische Bruecke zwischen Genesis 1:1 (Anfang) und 1:7 (Trennung)
+
+### Dimensiograph-Hypothese (NICHT verifiziert!)
+
+Die 5-Layer-Torah-Architektur (Genesis, Exodus, Lev, Num, Deut)
+koennte als Interpretationsfolie dienen:
+- L1 = Genesis 1:1-10 (Schöpfung) = BURUMUT
+- L2 = Exodus = "Designer" / Befreiung aus ARGs
+- L3 = Leviticus = SECIS / Reinheit der Sec-Insertion
+- L4 = Numeri = Apokalypse / Wuestenwanderung
+- L5 = Deuteronomium = YHWH-Formel / Gesetz
+
+**WICHTIG:** Dimensiograph-Dateien sind nicht verifizierbar.
+Sie sind als 'moegliche Folie' im Mermaid-Plan notiert.
+
+### Wachstumschronologie (Updates)
+
+- **2026-06-30 #10:** Phase 12 Meta-kognitive Analyse
+- **2026-06-30 #11:** Phase 13 Sefer Yetzirah + Hebrew Mapping (vorsichtig)
+- **2026-06-30 #12:** Q27 BURUMUT-Genesis-Matrix + Q28 Sefer Yetzirah
