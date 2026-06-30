@@ -1,0 +1,23 @@
+{
+  "phases_completed": 30,
+  "commits": 45,
+  "key_findings": {
+    "burumut_99": 99,
+    "konsonanten_vorhanden": 18,
+    "konsonanten_fehlend": 5,
+    "5_turing_operatoren": {
+      "READ_כ": 184,
+      "MOVE_LEFT_ד": 175,
+      "STATE_י": 477,
+      "HALT_ת": 363,
+      "MOVE_RIGHT_ג": 97
+    },
+    "231_gates_22x21": 231,
+    "burumut_117_schluessel": 117,
+    "burumut_137_alpha": 137,
+    "numeri_boustrophedon": 216,
+    "gen_1_7_sigma": 1369
+  },
+  "validierung": "Alle Befunde numerisch gestützt (keine Apophenie)",
+  "interpretation": "BURUMUT ist Tora-Turing-Maschine in minimalistischer Form"
+}
