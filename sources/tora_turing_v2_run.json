@@ -1,0 +1,20 @@
+{
+  "input_burumutrefamtu": "BURUMUTREFAMTU",
+  "input_hebr": "בשצשמשרצהואמרש",
+  "result": {
+    "final_tape": "בשצשמשרצהואמרש",
+    "final_state": 2,
+    "final_head": 2,
+    "ops": 3,
+    "halted": true
+  },
+  "transitions_used": 33,
+  "5_operatoren": {
+    "READ": "כ (Kaph, 20)",
+    "WRITE": "ו (Vav, 6)",
+    "MOVE_LEFT": "ד (Dalet, 4)",
+    "MOVE_RIGHT": "ג (Gimel, 3)",
+    "HALT": "ת (Tav, 400)",
+    "STATE": "י (Yod, 10)"
+  }
+}

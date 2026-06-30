@@ -1,0 +1,24 @@
+{
+  "input": "BURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZBENOMBAMZHQRSANLRUAZBEHIMLAZANRUAZBENOMBARAZHQRSAN",
+  "result": {
+    "final_tape": "בURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZBENOMBAMZHQRSANLRUAZBEHIMLAZANRUAZBENOMBARAZHQRSAN",
+    "final_state": 1,
+    "final_head": 1,
+    "final_symbol": "U",
+    "ops": 2,
+    "halted": true
+  },
+  "operatoren": {
+    "READ": "כ (fehlt)",
+    "WRITE": "ו (vorhanden)",
+    "MOVE_LEFT": "ד (fehlt)",
+    "MOVE_RIGHT": "ג (fehlt)",
+    "HALT": "ת (fehlt)",
+    "STATE": "י (fehlt)"
+  },
+  "analyse": {
+    "turing_vollstaendig": true,
+    "operationen": 2,
+    "final_tape_laenge": 99
+  }
+}

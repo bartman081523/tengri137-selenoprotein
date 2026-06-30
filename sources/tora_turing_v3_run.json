@@ -1,0 +1,20 @@
+{
+  "input": "BURUMUTREFAMTU",
+  "input_hebr": "בשצשמשרצהואמרש",
+  "result": {
+    "tape": "בשצשמשרצהואמרש",
+    "state": 6,
+    "head": 5,
+    "ops": 6,
+    "halted": true
+  },
+  "transitions": 48,
+  "5_operatoren": {
+    "READ": "כ (fehlt)",
+    "WRITE": "ו (vorhanden)",
+    "MOVE_LEFT": "ד (fehlt)",
+    "MOVE_RIGHT": "ג (fehlt)",
+    "HALT": "ת (fehlt)",
+    "STATE": "י (fehlt)"
+  }
+}

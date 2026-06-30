@@ -1,0 +1,148 @@
+{
+  "fehlende_latein_buchstaben": [
+    "C",
+    "D",
+    "J",
+    "K",
+    "V",
+    "W",
+    "X"
+  ],
+  "fehlende_hebr_konsonanten": [
+    "ג",
+    "ד",
+    "י",
+    "ל",
+    "מ",
+    "נ",
+    "ס",
+    "ע",
+    "פ",
+    "צ",
+    "ק",
+    "ר",
+    "ש",
+    "ת"
+  ],
+  "fehlende_konsonanten_details": [
+    [
+      "ג",
+      "Gimel",
+      3,
+      "Doppel (D)",
+      "Kamel (Förderung)"
+    ],
+    [
+      "ד",
+      "Dalet",
+      4,
+      "Doppel (D)",
+      "Tür (Öffnung)"
+    ],
+    [
+      "י",
+      "Yod",
+      10,
+      "Einfach (S)",
+      "Arm (Macht)"
+    ],
+    [
+      "ל",
+      "Lamed",
+      30,
+      "Einfach (S)",
+      "Ochsenstecken (Unterweisung)"
+    ],
+    [
+      "מ",
+      "Mem",
+      40,
+      "Mutter (M)",
+      "Wasser (Tora)"
+    ],
+    [
+      "נ",
+      "Nun",
+      50,
+      "Einfach (S)",
+      "Schlange (Sieg)"
+    ],
+    [
+      "ס",
+      "Samekh",
+      60,
+      "Einfach (S)",
+      "Stütze (Sünde)"
+    ],
+    [
+      "ע",
+      "Ayin",
+      70,
+      "Einfach (S)",
+      "Auge (Wahrnehmung)"
+    ],
+    [
+      "פ",
+      "Pe",
+      80,
+      "Doppel (D)",
+      "Mund (Rede)"
+    ],
+    [
+      "צ",
+      "Tsade",
+      90,
+      "Einfach (S)",
+      "Jägerei (Rechtschaffen)"
+    ],
+    [
+      "ק",
+      "Qoph",
+      100,
+      "Einfach (S)",
+      "Nacken (Erwartung)"
+    ],
+    [
+      "ר",
+      "Resh",
+      200,
+      "Doppel (D)",
+      "Kopf (Anfang)"
+    ],
+    [
+      "ש",
+      "Shin",
+      300,
+      "Mutter (M)",
+      "Zahn (Feuer)"
+    ],
+    [
+      "ת",
+      "Tav",
+      400,
+      "Doppel (D)",
+      "Kreuz (Ende)"
+    ]
+  ],
+  "turing_operator_mapping": {
+    "כ (Kaph)": "READ",
+    "ו (Vav)": "WRITE",
+    "ד (Dalet)": "MOVE LEFT",
+    "ג (Gimel)": "MOVE RIGHT",
+    "ת (Tav)": "HALT",
+    "י (Yod)": "STATE"
+  },
+  "fehlende_operatoren": [
+    "READ",
+    "MOVE L",
+    "MOVE R",
+    "HALT",
+    "STATE"
+  ],
+  "vorhandene_operatoren": [
+    "WRITE (Vav/W fehlt lateinisch)"
+  ],
+  "interpretation": "BURUMUT enthaelt 4 von 5 Turing-Operatoren NICHT.",
+  "implication": "Die 5 fehlenden Konsonanten entsprechen den 5 Turing-Operatoren",
+  "next_steps": "Untersuche wie die fehlenden Operatoren durch die vorhandenen BURUMUT-Module kompensiert werden"
+}
