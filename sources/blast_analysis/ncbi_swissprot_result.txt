@@ -1,0 +1,75 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+
+BLASTP 2.17.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 47A68R4C014
+
+
+Database: Non-redundant UniProtKB/SwissProt sequences
+           487,492 sequences; 185,956,103 total letters
+
+Query= 
+Length=99
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: Non-redundant UniProtKB/SwissProt sequences
+    Posted date:  Jun 29, 2026  6:49 AM
+  Number of letters in database: 185,956,103
+  Number of sequences in database:  487,492
+
+Lambda      K        H
+   0.324    0.122    0.394 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 487492
+Number of Hits to DB: 101421
+Number of extensions: 80
+Number of successful extensions: 22
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 7
+Length of query: 99
+Length of database: 185956103
+Length adjustment: 69
+Effective length of query: 30
+Effective length of database: 152319155
+Effective search space: 4569574650
+Effective search space used: 4569574650
+T: 20
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 55 (25.8 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+

@@ -1,0 +1,953 @@
+BLASTP 2.16.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb
+           149,851,482 sequences; 58,283,173,390 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0AAV4C3M3 A0AAV4C3M3_9GAST Fam-a protein OS=Plakobranchus ocel...  43.5    0.012
+TR:A0AAV2JW39 A0AAV2JW39_KNICA Uncharacterized protein OS=Knipowit...  42.4    0.037
+TR:A0AAV2JCP2 A0AAV2JCP2_KNICA Uncharacterized protein OS=Knipowit...  42.4    0.040
+TR:A0ACC2F027 A0ACC2F027_DALPE Uncharacterized protein OS=Dallia p...  39.7    0.36
+TR:A0AAV2IV63 A0AAV2IV63_KNICA Uncharacterized protein OS=Knipowit...  39.7    0.37
+TR:A0AAV2IQX1 A0AAV2IQX1_KNICA Uncharacterized protein OS=Knipowit...  39.7    0.37
+TR:A0ACF6F4V1 A0ACF6F4V1_9HEMI Uncharacterized protein OS=Cyamophi...  37.4    1.3
+TR:A0AAF0UJL0 A0AAF0UJL0_SOLVR Uncharacterized protein (Fragment) ...  37.7    1.4
+TR:A0AA88KF43 A0AA88KF43_NAELO EGF-like domain-containing protein ...  37.0    3.4
+TR:A0AAN8YLZ4 A0AAN8YLZ4_SOLBU Uncharacterized protein OS=Solanum ...  36.2    4.2
+TR:A0A7H9AP09 A0A7H9AP09_9FLAO Amidohydrolase family protein OS=Co...  36.6    4.3
+TR:A0A2G8KKF2 A0A2G8KKF2_APOJA Sushi domain-containing protein OS=...  36.6    4.3
+TR:A0ABQ7TUR0 A0ABQ7TUR0_SOLTU SWIM-type domain-containing protein...  36.6    4.4
+TR:A0AAF0QI87 A0AAF0QI87_SOLVR SWIM-type domain-containing protein...  36.6    4.5
+TR:A0A7L1DMP6 A0A7L1DMP6_9PASS Alkaline phosphodiesterase I (Fragm...  36.6    4.5
+TR:A0ABY7F460 A0ABY7F460_MYAAR Uncharacterized protein (Fragment) ...  36.2    5.9
+TR:A0A9W2Z3X1 A0A9W2Z3X1_BIOGL Surface protein SACOL0050 isoform X...  36.2    6.0
+TR:A0A9W2Z3L7 A0A9W2Z3L7_BIOGL Surface protein SACOL0050 isoform X...  36.2    6.0
+TR:A0A9W2Z3T7 A0A9W2Z3T7_BIOGL Uncharacterized protein LOC10606344...  36.2    6.1
+TR:A0A8K0CLE6 A0A8K0CLE6_IGNLU Zn(2)-C6 fungal-type domain-contain...  35.0    6.6
+TR:A0AC58G972 A0AC58G972_DANRE Uncharacterized protein isoform X2 ...  35.8    7.5
+TR:A0A2U9B3F7 A0A2U9B3F7_SCOMX Putative arg8-vasotocin receptor-li...  35.8    7.5
+TR:A0AAN9B5J4 A0AAN9B5J4_9CAEN Uncharacterized protein OS=Littorin...  35.8    7.8
+TR:A0A8T0E221 A0A8T0E221_ARGBR Uncharacterized protein OS=Argiope ...  35.8    7.9
+TR:A0A7K5QLI4 A0A7K5QLI4_9PASE Alkaline phosphodiesterase I (Fragm...  35.8    8.3
+TR:A0ABN9PDE4 A0ABN9PDE4_9DINO Uncharacterized protein (Fragment) ...  35.8    8.5
+TR:A0ABN9PH58 A0ABN9PH58_9DINO Uncharacterized protein (Fragment) ...  35.8    8.5
+TR:A0ABN9PDC3 A0ABN9PDC3_9DINO Uncharacterized protein (Fragment) ...  35.8    8.5
+
+
+>TR:A0AAV4C3M3 A0AAV4C3M3_9GAST Fam-a protein OS=Plakobranchus ocellatus OX=259542
+GN=PoB_005179400 PE=4 SV=1
+Length=209
+
+ Score = 43.5 bits (101),  Expect = 0.012
+ Identities = 20/68 (29%), Positives = 39/68 (57%), Gaps = 10/68 (15%)
+
+Query  29  YAPSCAZBEHIMLA----ZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLA----ZANR  80
+           +A  CA+++H M       A RCA++++ M   + + +  +RCA+++H M       A R
+Sbjct  26  HAMRCAEDKHAMRCPEDKHAMRCAEDKHAMRCPEDKHA--MRCAEDKHTMRCPEDKHAMR  83
+
+Query  81  CAZBENOM  88
+           CA++++ M
+Sbjct  84  CAEDKHAM  91
+
+
+ Score = 35.4 bits (80),  Expect = 9.3
+ Identities = 18/63 (29%), Positives = 32/63 (51%), Gaps = 20/63 (32%)
+
+Query  30  APSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLA----ZANRCAZBE  85
+           A  C +++H M     RCA++++ M           RCA+++H M       A RCA+++
+Sbjct  9   AMRCPEDKHAM-----RCAEDKHAM-----------RCAEDKHAMRCPEDKHAMRCAEDK  52
+
+Query  86  NOM  88
+           + M
+Sbjct  53  HAM  55
+
+
+>TR:A0AAV2JW39 A0AAV2JW39_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS12437 PE=4 SV=1
+Length=305
+
+ Score = 42.4 bits (98),  Expect = 0.037
+ Identities = 29/109 (27%), Positives = 45/109 (41%), Gaps = 16/109 (15%)
+
+Query  4    CMCTREFAMTCNCRESCTREG-----------CMFAYAPSCAZBEHIMLAZANRC--AZB  50
+            C C       C   E C+R G           C       CA++E  + A+  RC  A++
+Sbjct  130  CACGGGEVCACGGGEVCSRGGGEVCSRGGGEVCARGGGEVCAEEERCVRAEEERCVRAEE  189
+
+Query  51   ENOMBAMZH-QRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            E  + A +   R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  190  ERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  238
+
+
+ Score = 40.8 bits (94),  Expect = 0.13
+ Identities = 30/110 (27%), Positives = 48/110 (44%), Gaps = 18/110 (16%)
+
+Query  5    MCTREFAMTCNCRESCTR---EGCMFAYAPSC---------AZBEHIMLAZANRC--AZB  50
+            +C R     C   E C R   E C+ A    C         A++E  + A+  RC  A++
+Sbjct  161  VCARGGGEVCAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEE  220
+
+Query  51   ENOMBAMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            E  + A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  221  ERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  270
+
+
+ Score = 40.8 bits (94),  Expect = 0.13
+ Identities = 30/104 (29%), Positives = 48/104 (46%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R  E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  175  RCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  234
+
+Query  57   MZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  235  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  278
+
+
+ Score = 38.1 bits (87),  Expect = 1.2
+ Identities = 29/102 (28%), Positives = 46/102 (45%), Gaps = 12/102 (12%)
+
+Query  6    CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBAM  57
+            C R     C    E C R   E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  184  CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAE  243
+
+Query  58   ZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQ  95
+            + +  R+   RC  A++E  + A+  RC   E     RA+ +
+Sbjct  244  EERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEER  285
+
+
+>TR:A0AAV2JCP2 A0AAV2JCP2_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS4945 PE=4 SV=1
+Length=474
+
+ Score = 42.4 bits (98),  Expect = 0.040
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBA  56
+            R  C R         E C R  E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  10   RRRCVRAEERCVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  69
+
+Query  57   MZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  70   EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  113
+
+
+ Score = 41.6 bits (96),  Expect = 0.074
+ Identities = 29/102 (28%), Positives = 46/102 (45%), Gaps = 11/102 (11%)
+
+Query  6    CTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBAMZ  58
+            C R         E C R   E C+ A    C  A++E  + A+  RC  A++E  + A +
+Sbjct  20   CVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEE  79
+
+Query  59   HQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  80   ERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  121
+
+
+ Score = 40.4 bits (93),  Expect = 0.19
+ Identities = 30/105 (29%), Positives = 48/105 (46%), Gaps = 11/105 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  33   RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  92
+
+Query  56   AMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  93   AEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  137
+
+
+ Score = 40.4 bits (93),  Expect = 0.19
+ Identities = 30/105 (29%), Positives = 48/105 (46%), Gaps = 11/105 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  41   RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  100
+
+Query  56   AMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  101  AEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  145
+
+
+ Score = 40.4 bits (93),  Expect = 0.19
+ Identities = 30/105 (29%), Positives = 48/105 (46%), Gaps = 11/105 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  49   RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  108
+
+Query  56   AMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  109  AEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  153
+
+
+ Score = 40.4 bits (93),  Expect = 0.19
+ Identities = 30/105 (29%), Positives = 48/105 (46%), Gaps = 11/105 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  57   RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  116
+
+Query  56   AMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  117  AEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  161
+
+
+ Score = 40.4 bits (93),  Expect = 0.19
+ Identities = 30/105 (29%), Positives = 48/105 (46%), Gaps = 11/105 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  65   RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  124
+
+Query  56   AMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  125  AEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  169
+
+
+ Score = 40.0 bits (92),  Expect = 0.26
+ Identities = 30/105 (29%), Positives = 49/105 (47%), Gaps = 12/105 (11%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E  +     E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  26   RCVRAEERCVRAE-EERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  84
+
+Query  56   AMZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  85   AEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  129
+
+
+ Score = 38.5 bits (88),  Expect = 0.90
+ Identities = 27/94 (29%), Positives = 43/94 (46%), Gaps = 8/94 (9%)
+
+Query  11  AMTCNCRESCTR--EGCMFAYAPSCAZBEHIMLAZANRC--AZBENOMBAMZHQ--RSAN  64
+           A  C  R  C R  E C+ A       +E  + A+  RC  A++E  + A + +  R+
+Sbjct  4   ASLCVRRRRCVRAEERCVRAEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEE  63
+
+Query  65  LRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  64  ERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  97
+
+
+ Score = 38.1 bits (87),  Expect = 1.2
+ Identities = 26/98 (27%), Positives = 40/98 (41%), Gaps = 12/98 (12%)
+
+Query  4    CMCTREFAMTCNCRESCTREG--CMFAYAPSCAZBEHIMLAZANRC--AZBENOMBAMZH  59
+            C C       C   E C   G  C       CA++E  + A+  RC  A++E  + A +
+Sbjct  370  CACGGGEVCACGGGEVCACGGEVCSRGGGEVCAEEERCVRAEEERCVRAEEERCVRAEEE  429
+
+Query  60   QRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQ  95
+                  RC  A++E  + A+  RC   E     RA+ +
+Sbjct  430  ------RCVRAEEERCVRAEEERCVRAEEERCVRAEER  461
+
+
+>TR:A0ACC2F027 A0ACC2F027_DALPE Uncharacterized protein OS=Dallia pectoralis
+OX=75939 GN=DPEC_G00357830 PE=4 SV=1
+Length=542
+
+ Score = 39.7 bits (91),  Expect = 0.36
+ Identities = 13/61 (21%), Positives = 35/61 (57%), Gaps = 5/61 (8%)
+
+Query  32  SCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBENOMBAR  91
+           SC ++ +++ +  NRC ++ N +++     + N RC ++ +++ +  NRC    N +++
+Sbjct  7   SCTDNNNVINSNNNRCTDNNNVINS-----NNNNRCTDNNNVINSNNNRCTVHNNAINSN  61
+
+Query  92  A  92
+           +
+Sbjct  62  S  62
+
+
+>TR:A0AAV2IV63 A0AAV2IV63_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS367 PE=4 SV=1
+Length=1035
+
+ Score = 39.7 bits (91),  Expect = 0.37
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  501  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  560
+
+Query  56   AMZH-QRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A +   R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  561  AEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  604
+
+
+ Score = 39.7 bits (91),  Expect = 0.37
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  580  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  639
+
+Query  56   AMZH-QRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A +   R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  640  AEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  683
+
+
+ Score = 38.9 bits (89),  Expect = 0.69
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  493  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  552
+
+Query  56   AMZHQR-SANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +   A  RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  553  AEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  596
+
+
+ Score = 38.9 bits (89),  Expect = 0.69
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  572  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  631
+
+Query  56   AMZHQR-SANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +   A  RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  632  AEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  675
+
+
+ Score = 38.5 bits (88),  Expect = 0.95
+ Identities = 28/104 (27%), Positives = 42/104 (40%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRCAZBENOMBAM  57
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC   E
+Sbjct  509  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  568
+
+Query  58   ZHQRSANL---RC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            + +R       RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  569  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  612
+
+
+ Score = 38.5 bits (88),  Expect = 0.95
+ Identities = 28/104 (27%), Positives = 42/104 (40%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRCAZBENOMBAM  57
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC   E
+Sbjct  588  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  647
+
+Query  58   ZHQRSANL---RC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            + +R       RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  648  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  691
+
+
+ Score = 38.1 bits (87),  Expect = 1.3
+ Identities = 26/97 (27%), Positives = 38/97 (39%), Gaps = 6/97 (6%)
+
+Query  6    CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRCAZBENOMBAMZH  59
+            C R     C    E C R   E C+ A    C  A++E  + A+  RC   E
+Sbjct  421  CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERFVCAR  480
+
+Query  60   QRSANLRCAZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            +R      A++E  + A+  RC   E     RA+ +R
+Sbjct  481  RRRGVCVRAEEERCVRAEEERCVRAEEERCVRAEEER  517
+
+
+ Score = 38.1 bits (87),  Expect = 1.3
+ Identities = 29/102 (28%), Positives = 45/102 (44%), Gaps = 14/102 (14%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R  E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  541  RCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  600
+
+Query  57   MZHQRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             +       RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  601  EEE------RCVRAEEERCVRAEEERCVRAEEERCVRAEEER  636
+
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 29/104 (28%), Positives = 46/104 (44%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSCAZ-BEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R   E C+ A    C   +E  + A+  RC  A++E  + A
+Sbjct  525  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRA  584
+
+Query  57   MZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  585  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  628
+
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 29/104 (28%), Positives = 46/104 (44%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSCAZ-BEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R   E C+ A    C   +E  + A+  RC  A++E  + A
+Sbjct  604  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRA  663
+
+Query  57   MZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  664  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  707
+
+
+ Score = 37.0 bits (84),  Expect = 3.3
+ Identities = 28/100 (28%), Positives = 44/100 (44%), Gaps = 15/100 (15%)
+
+Query  3    RCMCTREFAMTCNCRESCTREGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBAMZ  58
+            RC+   E    C  R    R  C+ A    C  A++E  + A+  RC  A++E  + A +
+Sbjct  467  RCVRAEEERFVCARRR---RGVCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEE  523
+
+Query  59   HQRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+                   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  524  E------RCVRAEEERCVRAEEERCVRAEEERCVRAEEER  557
+
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 28/101 (28%), Positives = 44/101 (44%), Gaps = 14/101 (14%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R  E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  620  RCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  679
+
+Query  57   MZHQRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQ  95
+             +       RC  A++E  + A+  RC   E     RA+ +
+Sbjct  680  EEE------RCVRAEEERCVRAEEERCVRAEEERCVRAEER  714
+
+
+>TR:A0AAV2IQX1 A0AAV2IQX1_KNICA Uncharacterized protein OS=Knipowitschia caucasica
+OX=637954 GN=KC01_LOCUS368 PE=4 SV=1
+Length=1043
+
+ Score = 39.7 bits (91),  Expect = 0.37
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  509  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  568
+
+Query  56   AMZH-QRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A +   R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  569  AEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  612
+
+
+ Score = 39.7 bits (91),  Expect = 0.37
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  588  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  647
+
+Query  56   AMZH-QRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A +   R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  648  AEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  691
+
+
+ Score = 38.9 bits (89),  Expect = 0.70
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  501  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  560
+
+Query  56   AMZHQR-SANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +   A  RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  561  AEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  604
+
+
+ Score = 38.9 bits (89),  Expect = 0.70
+ Identities = 30/104 (29%), Positives = 47/104 (45%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMB  55
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC  A++E  +
+Sbjct  580  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVR  639
+
+Query  56   AMZHQR-SANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            A + +   A  RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  640  AEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  683
+
+
+ Score = 38.5 bits (88),  Expect = 0.95
+ Identities = 28/104 (27%), Positives = 42/104 (40%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRCAZBENOMBAM  57
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC   E
+Sbjct  517  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  576
+
+Query  58   ZHQRSANL---RC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            + +R       RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  577  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  620
+
+
+ Score = 38.5 bits (88),  Expect = 0.95
+ Identities = 28/104 (27%), Positives = 42/104 (40%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRCAZBENOMBAM  57
+            RC+   E        E C R   E C+ A    C  A++E  + A+  RC   E
+Sbjct  596  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRA  655
+
+Query  58   ZHQRSANL---RC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            + +R       RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  656  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  699
+
+
+ Score = 38.1 bits (87),  Expect = 1.3
+ Identities = 26/97 (27%), Positives = 38/97 (39%), Gaps = 6/97 (6%)
+
+Query  6    CTREFAMTC-NCRESCTR---EGCMFAYAPSC--AZBEHIMLAZANRCAZBENOMBAMZH  59
+            C R     C    E C R   E C+ A    C  A++E  + A+  RC   E
+Sbjct  429  CVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERFVCAR  488
+
+Query  60   QRSANLRCAZBEHIMLAZANRCAZBENOMBARAZHQR  96
+            +R      A++E  + A+  RC   E     RA+ +R
+Sbjct  489  RRRGVCVRAEEERCVRAEEERCVRAEEERCVRAEEER  525
+
+
+ Score = 38.1 bits (87),  Expect = 1.3
+ Identities = 29/102 (28%), Positives = 45/102 (44%), Gaps = 14/102 (14%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R  E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  549  RCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  608
+
+Query  57   MZHQRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             +       RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  609  EEE------RCVRAEEERCVRAEEERCVRAEEERCVRAEEER  644
+
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 29/104 (28%), Positives = 46/104 (44%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSCAZ-BEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R   E C+ A    C   +E  + A+  RC  A++E  + A
+Sbjct  533  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRA  592
+
+Query  57   MZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  593  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  636
+
+
+ Score = 37.7 bits (86),  Expect = 1.8
+ Identities = 29/104 (28%), Positives = 46/104 (44%), Gaps = 10/104 (10%)
+
+Query  3    RCMCTREFAMTCNCRESCTR---EGCMFAYAPSCAZ-BEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R   E C+ A    C   +E  + A+  RC  A++E  + A
+Sbjct  612  RCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRA  671
+
+Query  57   MZHQ--RSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+             + +  R+   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  672  EEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEEER  715
+
+
+ Score = 37.0 bits (84),  Expect = 3.3
+ Identities = 28/100 (28%), Positives = 44/100 (44%), Gaps = 15/100 (15%)
+
+Query  3    RCMCTREFAMTCNCRESCTREGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBAMZ  58
+            RC+   E    C  R    R  C+ A    C  A++E  + A+  RC  A++E  + A +
+Sbjct  475  RCVRAEEERFVCARRR---RGVCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRAEE  531
+
+Query  59   HQRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQR  96
+                   RC  A++E  + A+  RC   E     RA+ +R
+Sbjct  532  E------RCVRAEEERCVRAEEERCVRAEEERCVRAEEER  565
+
+
+ Score = 35.8 bits (81),  Expect = 8.4
+ Identities = 28/101 (28%), Positives = 44/101 (44%), Gaps = 14/101 (14%)
+
+Query  3    RCMCTREFAMTCNCRESCTR--EGCMFAYAPSC--AZBEHIMLAZANRC--AZBENOMBA  56
+            RC+   E        E C R  E C+ A    C  A++E  + A+  RC  A++E  + A
+Sbjct  628  RCVRAEEERCVRAEEERCVRAEERCVRAEEERCVRAEEERCVRAEEERCVRAEEERCVRA  687
+
+Query  57   MZHQRSANLRC--AZBEHIMLAZANRCAZBENOMBARAZHQ  95
+             +       RC  A++E  + A+  RC   E     RA+ +
+Sbjct  688  EEE------RCVRAEEERCVRAEEERCVRAEEERCVRAEER  722
+
+
+>TR:A0ACF6F4V1 A0ACF6F4V1_9HEMI Uncharacterized protein OS=Cyamophila willieti
+OX=2604842 GN=WDU94_005231 PE=4 SV=1
+Length=138
+
+ Score = 37.4 bits (85),  Expect = 1.3
+ Identities = 28/89 (31%), Positives = 40/89 (45%), Gaps = 9/89 (10%)
+
+Query  17  RESCTREGCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAM------ZHQRSANLRCAZB  70
+           R SC  E  M A  PSC + E+ M A+   C + EN M A       ++  +A      +
+Sbjct  13  RPSCREENDMTAQRPSCRE-ENDMTAQRPSCRE-ENDMTAQRPSCREENDMTAQRPSCRE  70
+
+Query  71  EHIMLAZANRCAZBENOMBARAZHQRSAN  99
+           E+ M A+   C + EN M A+    R  N
+Sbjct  71  ENDMTAQRPSCRE-ENDMTAQRPSCREEN  98
+
+
+>TR:A0AAF0UJL0 A0AAF0UJL0_SOLVR Uncharacterized protein (Fragment) OS=Solanum
+verrucosum OX=315347 GN=MTR67_040320 PE=4 SV=1
+Length=223
+
+ Score = 37.7 bits (86),  Expect = 1.4
+ Identities = 19/82 (23%), Positives = 37/82 (45%), Gaps = 7/82 (9%)
+
+Query  6    CTREFAMTCNCRESCTR-EGCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSAN  64
+            C ++  + C     CT+ E         CA++E +     +RCA++E+       QR
+Sbjct  116  CAQDEIVDCVRETQCTQDESVDCVRGTRCAQDETVDCVRGDRCAQDESVDCVRGAQR---  172
+
+Query  65   LRCAZBEHIMLAZANRCAZBEN  86
+               A++E       ++CA++E+
+Sbjct  173  ---AQDESANYVRGDQCAQDES  191
+
+
+>TR:A0AA88KF43 A0AA88KF43_NAELO EGF-like domain-containing protein OS=Naegleria
+lovaniensis OX=51637 GN=C9374_009411 PE=4 SV=1
+Length=8772
+
+ Score = 37.0 bits (84),  Expect = 3.4
+ Identities = 17/76 (22%), Positives = 33/76 (43%), Gaps = 0/76 (0%)
+
+Query  14    CNCRESCTREGCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHI  73
+             CNCRE  T E C        A +E  +      C + +  ++   +  ++N R +   H
+Sbjct  7022  CNCREGYTGENCSIPICHGVAANETSVCGRIGYCIDKDLCINYTCNGTASNDRSSCSSHG  7081
+
+Query  74    MLAZANRCAZBENOMB  89
+             +  + + C  +EN ++
+Sbjct  7082  LCTEYDICECEENYVD  7097
+
+
+>TR:A0AAN8YLZ4 A0AAN8YLZ4_SOLBU Uncharacterized protein OS=Solanum bulbocastanum
+OX=147425 GN=RDI58_004977 PE=4 SV=1
+Length=164
+
+ Score = 36.2 bits (82),  Expect = 4.2
+ Identities = 19/89 (21%), Positives = 40/89 (45%), Gaps = 8/89 (9%)
+
+Query  6    CTREFAMTCNCRESCTREGCMFAYAPSCAZBEHIMLAZANRCA--ZBENOMBAMZHQRSA  63
+            C ++  +      +   EG  +      A++E I  A+  RCA  + ++ M   +  +
+Sbjct  30   CVQDEVVRVTDNVNVNDEGADYVRGAQSAQDEGIDCAQGARCALEKSDDCMRGAQCDQEE  89
+
+Query  64   NL------RCAZBEHIMLAZANRCAZBEN  86
+            +       +CA++E I   +  RCA++E+
+Sbjct  90   STDCLRGTQCAQDETIDCMQGARCAQDES  118
+
+
+>TR:A0A7H9AP09 A0A7H9AP09_9FLAO Amidohydrolase family protein OS=Costertonia
+aggregata OX=343403 GN=HYG79_06450 PE=4 SV=1
+Length=485
+
+ Score = 36.6 bits (83),  Expect = 4.3
+ Identities = 17/64 (27%), Positives = 32/64 (50%), Gaps = 1/64 (2%)
+
+Query  25   CMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZB  84
+            C  A A       HI L+  N  +   + M++M+H R+ +L CA +   +LA+  +   +
+Sbjct  206  CKIASANDIKVTGHIPLSM-NAISASNSGMNSMEHMRNLDLSCASNSDELLAERQKLLAN  264
+
+Query  85   ENOM  88
+            E+ +
+Sbjct  265  ESNL  268
+
+
+>TR:A0A2G8KKF2 A0A2G8KKF2_APOJA Sushi domain-containing protein OS=Apostichopus
+japonicus OX=307972 GN=BSL78_14649 PE=4 SV=1
+Length=541
+
+ Score = 36.6 bits (83),  Expect = 4.3
+ Identities = 21/102 (21%), Positives = 42/102 (41%), Gaps = 18/102 (18%)
+
+Query  6    CTREFAMTCNCRESCTREGCMFAYAPSCA---------ZBEHIMLAZANRCAZBENOM--  54
+            C   + +T N   +C REG      P C          ++ H+   + NR + + + +
+Sbjct  153  CDDGYTLTGNKNRTCLREGSWSGSEPDCVVLSCPDVNIQDGHVHREEVNRVSREGDEITF  212
+
+Query  55   ---BAMZHQRSANLRCAZBEH----IMLAZANRCAZBENOMB  89
+               +  + +     RCA++ H    I + +A  C + EN ++
+Sbjct  213  SCNEGFQLRYPQRRRCAEDGHWVQTIPICEAVNCGDLENPIN  254
+
+
+>TR:A0ABQ7TUR0 A0ABQ7TUR0_SOLTU SWIM-type domain-containing protein OS=Solanum
+tuberosum OX=4113 GN=KY290_037167 PE=4 SV=1
+Length=703
+
+ Score = 36.6 bits (83),  Expect = 4.4
+ Identities = 19/70 (27%), Positives = 33/70 (47%), Gaps = 9/70 (13%)
+
+Query  33   CAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBEN---OMB  89
+            CA++E        RC ++E+ ++ +        RCA++E       +RCA++E+
+Sbjct  623  CAQDEIADCVRETRCTQDES-VDCVR-----GTRCAQDETADCVRGDRCAQDESVDCVRG  676
+
+Query  90   ARAZHQRSAN  99
+            AR     SAN
+Sbjct  677  ARRAQDESAN  686
+
+
+>TR:A0AAF0QI87 A0AAF0QI87_SOLVR SWIM-type domain-containing protein OS=Solanum
+verrucosum OX=315347 GN=MTR67_016190 PE=4 SV=1
+Length=896
+
+ Score = 36.6 bits (83),  Expect = 4.5
+ Identities = 18/70 (26%), Positives = 34/70 (49%), Gaps = 9/70 (13%)
+
+Query  33   CAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBEN---OMB  89
+            CA++E +       C ++E+ ++ +        RCA++E +     +RCA++E+
+Sbjct  789  CAQDEIVDCVRETWCTQDES-VDCVR-----GTRCAQDETVDCVRGDRCAQDESVDCVRG  842
+
+Query  90   ARAZHQRSAN  99
+            AR     SAN
+Sbjct  843  ARRAQDESAN  852
+
+
+ Score = 36.2 bits (82),  Expect = 6.1
+ Identities = 20/82 (24%), Positives = 40/82 (49%), Gaps = 7/82 (9%)
+
+Query  6    CTREFAMTCNCRESCTR-EGCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSAN  64
+            C ++  + C     CT+ E         CA++E +     +RCA++E+    ++  R A
+Sbjct  789  CAQDEIVDCVRETWCTQDESVDCVRGTRCAQDETVDCVRGDRCAQDES----VDCVRGA-  843
+
+Query  65   LRCAZBEHIMLAZANRCAZBEN  86
+             R A++E       ++CA++E+
+Sbjct  844  -RRAQDESANYVRGDQCAQDES  864
+
+
+>TR:A0A7L1DMP6 A0A7L1DMP6_9PASS Alkaline phosphodiesterase I (Fragment) OS=Serilophus
+lunatus OX=239386 GN=Enpp1 PE=4 SV=1
+Length=908
+
+ Score = 36.6 bits (83),  Expect = 4.5
+ Identities = 16/71 (23%), Positives = 28/71 (39%), Gaps = 5/71 (7%)
+
+Query  2    CRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQ  60
+            C+  C      +C C + C + G C   Y  +C +  HI      RC +        +H
+Sbjct  90   CKGRCFERTFGSCRCDKDCVKLGNCCLDYQETCIQPAHIWTCNKFRCGEKRR----AEHH  145
+
+Query  61   RSANLRCAZBE  71
+             S +  C +++
+Sbjct  146  CSCSDDCVENQ  156
+
+
+>TR:A0ABY7F460 A0ABY7F460_MYAAR Uncharacterized protein (Fragment) OS=Mya arenaria
+OX=6604 GN=MAR_031529 PE=4 SV=1
+Length=547
+
+ Score = 36.2 bits (82),  Expect = 5.9
+ Identities = 17/78 (22%), Positives = 31/78 (40%), Gaps = 6/78 (8%)
+
+Query  13   TCNCRESCTREGCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEH  72
+            T +       +GC  +    CA  +H     A RCA +++  +      S    CA  +H
+Sbjct  379  TVSAEHCANNQGCHNSTVTVCASTQHDTTVSAERCANNQDCHN------STVTVCASTQH  432
+
+Query  73   IMLAZANRCAZBENOMBA  90
+                 A  CA +++  ++
+Sbjct  433  DTTVSAEHCANNQDCHNS  450
+
+
+>TR:A0A9W2Z3X1 A0A9W2Z3X1_BIOGL Surface protein SACOL0050 isoform X3 OS=Biomphalaria
+glabrata OX=6526 GN=LOC106063447 PE=3 SV=1
+Length=715
+
+ Score = 36.2 bits (82),  Expect = 6.0
+ Identities = 18/92 (20%), Positives = 40/92 (43%), Gaps = 7/92 (8%)
+
+Query  4    CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRS  62
+            C+ T+ F       +SC  E G   A    CA++ + +      CA++ N ++  +
+Sbjct  205  CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE---  261
+
+Query  63   ANLRCAZBEHIMLAZANRCAZBENOMBARAZH  94
+                CA++ + +      CA++ N ++   ++
+Sbjct  262  ---NCAEETNKVNVTEENCAEETNKVNVTEEN  290
+
+
+>TR:A0A9W2Z3L7 A0A9W2Z3L7_BIOGL Surface protein SACOL0050 isoform X2 OS=Biomphalaria
+glabrata OX=6526 GN=LOC106063447 PE=3 SV=1
+Length=722
+
+ Score = 36.2 bits (82),  Expect = 6.0
+ Identities = 18/92 (20%), Positives = 40/92 (43%), Gaps = 7/92 (8%)
+
+Query  4    CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRS  62
+            C+ T+ F       +SC  E G   A    CA++ + +      CA++ N ++  +
+Sbjct  212  CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE---  268
+
+Query  63   ANLRCAZBEHIMLAZANRCAZBENOMBARAZH  94
+                CA++ + +      CA++ N ++   ++
+Sbjct  269  ---NCAEETNKVNVTEENCAEETNKVNVTEEN  297
+
+
+>TR:A0A9W2Z3T7 A0A9W2Z3T7_BIOGL Uncharacterized protein LOC106063447 isoform
+X1 OS=Biomphalaria glabrata OX=6526 GN=LOC106063447 PE=3 SV=1
+Length=972
+
+ Score = 36.2 bits (82),  Expect = 6.1
+ Identities = 18/92 (20%), Positives = 40/92 (43%), Gaps = 7/92 (8%)
+
+Query  4    CMCTREFAMTCNCRESCTRE-GCMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRS  62
+            C+ T+ F       +SC  E G   A    CA++ + +      CA++ N ++  +
+Sbjct  462  CVATKYFENKKTSVQSCVDEAGKEMATKKDCAEETNKVNVTEENCAEETNKVNVTEE---  518
+
+Query  63   ANLRCAZBEHIMLAZANRCAZBENOMBARAZH  94
+                CA++ + +      CA++ N ++   ++
+Sbjct  519  ---NCAEETNKVNVTEENCAEETNKVNVTEEN  547
+
+
+>TR:A0A8K0CLE6 A0A8K0CLE6_IGNLU Zn(2)-C6 fungal-type domain-containing protein
+OS=Ignelater luminosus OX=2038154 GN=ILUMI_18392 PE=4 SV=1
+Length=109
+
+ Score = 35.0 bits (79),  Expect = 6.6
+ Identities = 14/35 (40%), Positives = 17/35 (49%), Gaps = 3/35 (9%)
+
+Query  2   CRCMCTREFAMTCNCRESCTREGCMFAYAPSCAZB  36
+           C C CT+E   +C CR SC   GC  A    C  +
+Sbjct  66  CSCKCTKE---SCKCRSSCCANGCRCADKCMCTSD  97
+
+
+>TR:A0AC58G972 A0AC58G972_DANRE Uncharacterized protein isoform X2 OS=Danio
+rerio OX=7955 GN=LOC141375600 PE=4 SV=1
+Length=300
+
+ Score = 35.8 bits (81),  Expect = 7.5
+ Identities = 12/56 (21%), Positives = 34/56 (61%), Gaps = 2/56 (4%)
+
+Query  35   ZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBENOMBA  90
+            ++E  ++ + N   ++EN M+ ++ +   NL+  +++++ + + N  A+ EN M++
+Sbjct  164  ENEMEVVEEENVMVEEENEMEVVEEEE--NLKVEEDKNVKVEEENVKAEGENKMDS  217
+
+
+>TR:A0A2U9B3F7 A0A2U9B3F7_SCOMX Putative arg8-vasotocin receptor-like OS=Scophthalmus
+maximus OX=52904 GN=SMAX5B_008024 PE=4 SV=1
+Length=313
+
+ Score = 35.8 bits (81),  Expect = 7.5
+ Identities = 21/75 (28%), Positives = 41/75 (55%), Gaps = 3/75 (4%)
+
+Query  26  MFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZ-BEHIMLAZANRCAZB  84
+           +F   P  A +EH + A  ++   +E+ ++A +HQ  AN    + +EH + A  ++   +
+Sbjct  19  LFGVRPPAA-NEHQVEANDHQVEANEHQVEANEHQVEANEHQVEANEHQVEANEHQVEAN  77
+
+Query  85  ENOMBARAZHQRSAN  99
+           E+ ++A  +HQ  AN
+Sbjct  78  EHQVEAN-EHQVEAN  91
+
+
+>TR:A0AAN9B5J4 A0AAN9B5J4_9CAEN Uncharacterized protein OS=Littorina saxatilis
+OX=31220 GN=V1264_003211 PE=4 SV=1
+Length=407
+
+ Score = 35.8 bits (81),  Expect = 7.8
+ Identities = 18/72 (25%), Positives = 34/72 (47%), Gaps = 5/72 (7%)
+
+Query  32   SCAZBEHI-----MLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBEN  86
+            S A++EH      +   +N   + EN    +  +   +L C ++EH + A+ N  +  +N
+Sbjct  239  SLAQDEHDTPHSHVYTNSNSLNQQENEYSLVYEENKPSLGCDKNEHSLAAQNNDDSSQQN  298
+
+Query  87   OMBARAZHQRSA  98
+               + A+H  SA
+Sbjct  299  NEYSLAQHPGSA  310
+
+
+>TR:A0A8T0E221 A0A8T0E221_ARGBR Uncharacterized protein OS=Argiope bruennichi
+OX=94029 GN=HNY73_022559 PE=4 SV=1
+Length=454
+
+ Score = 35.8 bits (81),  Expect = 7.9
+ Identities = 9/61 (15%), Positives = 32/61 (52%), Gaps = 5/61 (8%)
+
+Query  26   MFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBE  85
+            + A+ P C +++H ++A   +C ++++      H  ++ +  +     ++A   +C +++
+Sbjct  116  LMAHTPQCLQDQHSLMAHTPQCLQDQHFTHGHTHLSASKINIS-----LMAHTTQCLQDQ  170
+
+Query  86   N  86
+            +
+Sbjct  171  H  171
+
+
+>TR:A0A7K5QLI4 A0A7K5QLI4_9PASE Alkaline phosphodiesterase I (Fragment) OS=Prunella
+himalayana OX=670356 GN=Enpp1 PE=4 SV=1
+Length=908
+
+ Score = 35.8 bits (81),  Expect = 8.3
+ Identities = 16/94 (17%), Positives = 37/94 (39%), Gaps = 5/94 (5%)
+
+Query  2    CRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQ  60
+            C+  C      +C C + C + G C   Y  +C +  HI      RC +       ++++
+Sbjct  90   CKGRCFERTFGSCRCDKDCVKLGNCCLDYQETCIEPAHIWTCNKFRCGEKRR----LEYR  145
+
+Query  61   RSANLRCAZBEHIMLAZANRCAZBENOMBARAZH  94
+             S +  C ++    +     C  + + ++   ++
+Sbjct  146  CSCSDDCVENNDCCVNYQTVCKGEASWVEEECEN  179
+
+
+>TR:A0ABN9PDE4 A0ABN9PDE4_9DINO Uncharacterized protein (Fragment) OS=Prorocentrum
+cordatum OX=2364126 GN=PCOR1329_LOCUS2018 PE=4 SV=1
+Length=1404
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 21/71 (30%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  28   AYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBENO  87
+            A A   A++E   +A+A R A++E    A +++ +   R A++E   +A+A R A++E
+Sbjct  698  AAAERLAKEEAERIAEAERLAKEEAERKAEENRVAEAERVAKEEAERIAEAERLAKEEAE  757
+
+Query  88   MBARAZHQRSA  98
+              A+ + +R A
+Sbjct  758  RLAKEEAERKA  768
+
+
+>TR:A0ABN9PH58 A0ABN9PH58_9DINO Uncharacterized protein (Fragment) OS=Prorocentrum
+cordatum OX=2364126 GN=PCOR1329_LOCUS2018 PE=4 SV=1
+Length=1415
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 21/71 (30%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  28   AYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBENO  87
+            A A   A++E   +A+A R A++E    A +++ +   R A++E   +A+A R A++E
+Sbjct  698  AAAERLAKEEAERIAEAERLAKEEAERKAEENRVAEAERVAKEEAERIAEAERLAKEEAE  757
+
+Query  88   MBARAZHQRSA  98
+              A+ + +R A
+Sbjct  758  RLAKEEAERKA  768
+
+
+>TR:A0ABN9PDC3 A0ABN9PDC3_9DINO Uncharacterized protein (Fragment) OS=Prorocentrum
+cordatum OX=2364126 GN=PCOR1329_LOCUS2018 PE=4 SV=1
+Length=1478
+
+ Score = 35.8 bits (81),  Expect = 8.5
+ Identities = 21/71 (30%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  28   AYAPSCAZBEHIMLAZANRCAZBENOMBAMZHQRSANLRCAZBEHIMLAZANRCAZBENO  87
+            A A   A++E   +A+A R A++E    A +++ +   R A++E   +A+A R A++E
+Sbjct  698  AAAERLAKEEAERIAEAERLAKEEAERKAEENRVAEAERVAKEEAERIAEAERLAKEEAE  757
+
+Query  88   MBARAZHQRSA  98
+              A+ + +R A
+Sbjct  758  RLAKEEAERKA  768
+
+
+
+Lambda      K        H
+   0.329    0.127    0.410
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+
+Effective search space used: 1438302633960
+
+
+  Database: uniprotkb
+    Posted date:  May 22, 2026  12:37 AM
+  Number of letters in database: 58,283,173,390
+  Number of sequences in database:  149,851,482
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

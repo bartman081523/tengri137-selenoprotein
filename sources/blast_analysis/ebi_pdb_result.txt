@@ -1,0 +1,425 @@
+BLASTP 2.16.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: pdb
+           981,855 sequences; 290,441,316 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=85
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PDB:6WFJ_BcB mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WFJ_AcA mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WEW_BaB mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WEW_AbA mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WEV_BbB mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WEV_AbA mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WEU_BbB mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WEU_AbA mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WET_BaB mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:6WET_AaA mol:protein length:925 Ectonucleotide pyrophosphatase...  32.0    0.61
+PDB:8E1Z_B mol:protein length:184 Ookinete surface protein Pfs28       31.2    0.94
+PDB:8E1Z_A mol:protein length:184 Ookinete surface protein Pfs28       31.2    0.94
+PDB:2AIH_A mol:protein length:67 Bowman-Birk type protease inhibit...  28.9    2.6
+PDB:6XKD_B mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:6XKD_A mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTZ_B mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTZ_A mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTY_B mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTY_A mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTX_B mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTX_A mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTW_B mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:4GTW_A mol:protein length:823 Ectonucleotide pyrophosphatase/p...  30.0    2.9
+PDB:2M6N_A mol:protein length:86 F-box only protein 5                  28.5    4.9
+PDB:8OFF_Eb mol:protein length:773 BRCA1 associated RING domain 1      28.9    7.4
+PDB:8OFF_Ea mol:protein length:773 BRCA1 associated RING domain 1      28.9    7.4
+PDB:9GAW_S mol:protein length:447 F-box only protein 5                 28.5    9.8
+PDB:4UI9_S mol:protein length:447 F-BOX ONLY PROTEIN 5                 28.5    9.8
+
+
+>PDB:6WFJ_BcB mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WFJ_AcA mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WEW_BaB mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WEW_AbA mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WEV_BbB mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WEV_AbA mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WEU_BbB mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WEU_AbA mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WET_BaB mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:6WET_AaA mol:protein length:925  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=925
+
+ Score = 32.0 bits (71),  Expect = 0.61
+ Identities = 14/50 (28%), Positives = 20/50 (40%), Gaps = 1/50 (2%)
+
+Query  1    NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+            +C+  C       C C  +C   G C   Y  +C + EHI      RC +
+Sbjct  107  SCKGRCFERTFGNCRCDAACVELGNCCLDYQETCIEPEHIWTCNKFRCGE  156
+
+
+>PDB:8E1Z_B mol:protein length:184  Ookinete surface protein Pfs28
+Length=184
+
+ Score = 31.2 bits (69),  Expect = 0.94
+ Identities = 23/80 (29%), Positives = 37/80 (46%), Gaps = 19/80 (24%)
+
+Query  3    RCMCTREFAMTCN------CRES-CTREGCMFAYAPS----CAQNEHIMLAQANRCAQNE  51
+            +CMC  E+ +T        CR+  C +  C+   A S    C+ N   +L        N+
+Sbjct  72   KCMCRTEYTLTAGVCVPNVCRDKVCGKGKCIVDPANSLTHTCSCNIGTIL--------NQ  123
+
+Query  52   NKMNAMQHQRSANLRCAQNE  71
+            NK+  +Q     +L+CA+NE
+Sbjct  124  NKLCDIQGDTPCSLKCAENE  143
+
+
+>PDB:8E1Z_A mol:protein length:184  Ookinete surface protein Pfs28
+Length=184
+
+ Score = 31.2 bits (69),  Expect = 0.94
+ Identities = 23/80 (29%), Positives = 37/80 (46%), Gaps = 19/80 (24%)
+
+Query  3    RCMCTREFAMTCN------CRES-CTREGCMFAYAPS----CAQNEHIMLAQANRCAQNE  51
+            +CMC  E+ +T        CR+  C +  C+   A S    C+ N   +L        N+
+Sbjct  72   KCMCRTEYTLTAGVCVPNVCRDKVCGKGKCIVDPANSLTHTCSCNIGTIL--------NQ  123
+
+Query  52   NKMNAMQHQRSANLRCAQNE  71
+            NK+  +Q     +L+CA+NE
+Sbjct  124  NKLCDIQGDTPCSLKCAENE  143
+
+
+>PDB:2AIH_A mol:protein length:67  Bowman-Birk type protease inhibitor, LCTI
+Length=67
+
+ Score = 28.9 bits (63),  Expect = 2.6
+ Identities = 16/37 (43%), Positives = 20/37 (54%), Gaps = 7/37 (19%)
+
+Query  4   CMCTREFAMTCNC---RESC--TREGCMFAYA--PSC  33
+           C+CTR    TC C   RESC    + C+ AY+  P C
+Sbjct  12  CLCTRSQPPTCRCVDVRESCHSACDKCVCAYSNPPQC  48
+
+
+>PDB:6XKD_B mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:6XKD_A mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 1
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTZ_B mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTZ_A mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTY_B mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTY_A mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTX_B mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTX_A mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTW_B mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:4GTW_A mol:protein length:823  Ectonucleotide pyrophosphatase/phosphodiesterase
+family member 2, Alkaline phosphodiesterase I
+Length=823
+
+ Score = 30.0 bits (66),  Expect = 2.9
+ Identities = 13/50 (26%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1   NCRCMCTREFAMTCNCRESCTREG-CMFAYAPSCAQNEHIMLAQANRCAQ  49
+           +CR  C       C C  +C   G C   +  +C +  HI      RC +
+Sbjct  7   SCRGRCFERTFSNCRCDAACVSLGNCCLDFQETCVEPTHIWTCNKFRCGE  56
+
+
+>PDB:2M6N_A mol:protein length:86  F-box only protein 5
+Length=86
+
+ Score = 28.5 bits (62),  Expect = 4.9
+ Identities = 11/22 (50%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+
+Query  17  RESCTREGCMFAYAPSCAQNEH  38
+           R +C REGC F Y   C  N H
+Sbjct  32  RATCKREGCGFDYCTKCLCNYH  53
+
+
+>PDB:8OFF_Eb mol:protein length:773  BRCA1 associated RING domain 1
+Length=773
+
+ Score = 28.9 bits (63),  Expect = 7.4
+ Identities = 20/81 (25%), Positives = 30/81 (37%), Gaps = 8/81 (10%)
+
+Query  4    CMCTREFAMTCNCRESCTREGCMFAYAPSCAQ--------NEHIMLAQANRCAQNENKMN  55
+            C+   E     NC   C   GC   Y P+  Q        +  I L    R   ++NK++
+Sbjct  57   CLGGCEHIFCSNCVSDCIGTGCPVCYTPAWIQDVKINRQLDSMIQLCSKLRNLLHDNKLS  116
+
+Query  56   AMQHQRSANLRCAQNENKMNA  76
+             ++   S        ENK N+
+Sbjct  117  DLKEDTSRQNVFNDAENKKNS  137
+
+
+>PDB:8OFF_Ea mol:protein length:773  BRCA1 associated RING domain 1
+Length=773
+
+ Score = 28.9 bits (63),  Expect = 7.4
+ Identities = 20/81 (25%), Positives = 30/81 (37%), Gaps = 8/81 (10%)
+
+Query  4    CMCTREFAMTCNCRESCTREGCMFAYAPSCAQ--------NEHIMLAQANRCAQNENKMN  55
+            C+   E     NC   C   GC   Y P+  Q        +  I L    R   ++NK++
+Sbjct  57   CLGGCEHIFCSNCVSDCIGTGCPVCYTPAWIQDVKINRQLDSMIQLCSKLRNLLHDNKLS  116
+
+Query  56   AMQHQRSANLRCAQNENKMNA  76
+             ++   S        ENK N+
+Sbjct  117  DLKEDTSRQNVFNDAENKKNS  137
+
+
+>PDB:9GAW_S mol:protein length:447  F-box only protein 5
+Length=447
+
+ Score = 28.5 bits (62),  Expect = 9.8
+ Identities = 11/22 (50%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+
+Query  17   RESCTREGCMFAYAPSCAQNEH  38
+            R +C REGC F Y   C  N H
+Sbjct  393  RATCKREGCGFDYCTKCLCNYH  414
+
+
+>PDB:4UI9_S mol:protein length:447  F-BOX ONLY PROTEIN 5
+Length=447
+
+ Score = 28.5 bits (62),  Expect = 9.8
+ Identities = 11/22 (50%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+
+Query  17   RESCTREGCMFAYAPSCAQNEH  38
+            R +C REGC F Y   C  N H
+Sbjct  393  RATCKREGCGFDYCTKCLCNYH  414
+
+
+
+Lambda      K        H
+   0.324    0.122    0.398
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+
+Effective search space used: 7093178730
+
+
+  Database: pdb
+    Posted date:  Jun 25, 2026  12:43 AM
+  Number of letters in database: 290,441,316
+  Number of sequences in database:  981,855
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
