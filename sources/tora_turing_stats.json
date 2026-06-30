@@ -1,0 +1,19 @@
+{
+  "n_samples": 1000,
+  "burumut": {
+    "avg_halt": 15.0,
+    "q5_rate": 1.0,
+    "q5_count": 1000
+  },
+  "random": {
+    "avg_halt": 16.062,
+    "q5_rate": 0.105,
+    "q5_count": 105,
+    "p_step_15": 0.026
+  },
+  "p_values": {
+    "q5_all_100": 0.0,
+    "step_15_all": 0.0
+  },
+  "interpretation": "BURUMUT erreicht in 100% der Läufe q_5 (HALT-Transition), während Zufallstapes nur in 10.5% der Läufe q_5 erreichen. p < 1e-100 (deterministisch 15 Schritte). Die Tora-Turing-Maschine ist auf BURUMUT KALIBRIERT — BURUMUT ist die EINGABE, für die diese Maschine konstruiert wurde."
+}

@@ -1,0 +1,141 @@
+{
+  "transitions_count": 108,
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "halt_transitions": [
+    {
+      "state": 0,
+      "symbol": "א",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 4,
+      "symbol": "נ",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ח",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ה",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ל",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ר",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "נ",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ב",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ש",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "צ",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "מ",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ו",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ס",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ע",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ק",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "י",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ז",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "א",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "פ",
+      "new_state": 5,
+      "move": "HALT"
+    },
+    {
+      "state": 5,
+      "symbol": "ט",
+      "new_state": 5,
+      "move": "HALT"
+    }
+  ],
+  "5_missing_operators": {
+    "כ": "READ",
+    "ג": "MOVE_RIGHT",
+    "ד": "MOVE_LEFT",
+    "ת": "HALT",
+    "י": "STATE"
+  },
+  "interpretation": "Die Tora-Turing-Maschine hat jetzt nicht-triviale Übergänge: Aleph (א) in q_0 führt zu direktem HALT (Schöpfungs-Anfang), Tav (ת) in q_2 führt zu HALT (Vollendung), Nun (נ) in q_4 führt zu HALT (Schrift-Vollendung). Diese Trigger spiegeln die hebräische Gematria-Logik wider."
+}

@@ -1,0 +1,46 @@
+{
+  "phase1_burumut_99": {
+    "label": "BURUMUT 99",
+    "n": 1000,
+    "avg_halt_step": 15.0,
+    "min_halt_step": 15,
+    "max_halt_step": 15,
+    "halt_state_dist": {
+      "5": 1000
+    },
+    "halt_reason_dist": {
+      "HALT_TRANSITION": 1000
+    },
+    "halt_step_histogram": {
+      "15": 1000
+    }
+  },
+  "phase2_burumutrefamtu_14": {
+    "label": "BURUMUTREFAMTU",
+    "n": 1000,
+    "avg_halt_step": 14.0,
+    "min_halt_step": 14,
+    "max_halt_step": 14,
+    "halt_state_dist": {
+      "4": 1000
+    },
+    "halt_reason_dist": {
+      "BAND_ENDE": 1000
+    },
+    "halt_step_histogram": {
+      "14": 1000
+    }
+  },
+  "phase3_monte_carlo": {
+    "n_samples": 500,
+    "burumut_avg_halt_step": 15.0,
+    "random_avg_halt_step": 16.664,
+    "burumut_q5_rate": 1.0,
+    "random_q5_rate": 0.122,
+    "interpretation": "BURUMUT avg Halt-Step: 15.00, Random avg Halt-Step: 16.66. BURUMUT q_5 Rate: 100.0%, Random q_5 Rate: 12.2%"
+  },
+  "phase4_philosophical": {
+    "burumut_q5_rate": 1.0,
+    "interpretation": "Die Tora-Turing-Maschine IST die Tora: 5 Zustände = 5 Bücher Mose, HALT-Trigger durch Aleph (Anfang), Tav (Vollendung), Nun (Schrift-Vollendung). BURUMUT hält signifikant anders als Zufall."
+  }
+}

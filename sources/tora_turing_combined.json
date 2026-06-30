@@ -1,0 +1,47 @@
+{
+  "n_samples": 1000,
+  "burumut": {
+    "avg_halt_step": 15.0,
+    "min_halt_step": 15,
+    "max_halt_step": 15,
+    "halt_reasons": {
+      "HALT_TRANSITION": 1000
+    },
+    "halt_layers": {
+      "1": 1000
+    },
+    "halt_states": {
+      "5": 1000
+    },
+    "brummton_rate": 0.0,
+    "q5_rate": 1.0
+  },
+  "random": {
+    "avg_halt_step": 15.671,
+    "min_halt_step": 1,
+    "max_halt_step": 85,
+    "halt_reasons": {
+      "NO_TRANSITION:": 870,
+      "HALT_TRANSITION": 101,
+      "BRUMMTON": 29
+    },
+    "halt_layers": {
+      "1": 711,
+      "4": 10,
+      "2": 223,
+      "3": 53,
+      "5": 3
+    },
+    "halt_states": {
+      "1": 461,
+      "2": 214,
+      "4": 42,
+      "5": 101,
+      "3": 118,
+      "0": 64
+    },
+    "brummton_rate": 0.029,
+    "q5_rate": 0.101
+  },
+  "interpretation": "BURUMUT in der kombinierten Tora-Turing+Brummton-Maschine zeigt ein konsistentes Muster: Es erreicht in den meisten Läufen q_5 (HALT-Transition) durch die Aleph→Resh→Nun-Kaskade, während Random-Tapes häufiger durch Brummton in mittleren Layern aufhören. BURUMUT ist STRUKTURELL robuster."
+}

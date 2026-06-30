@@ -57,6 +57,83 @@ class TestToraTuringMachine:
         assert 99 / 5 == 19.8
 
 
+class TestTuringMachineNichtTrivial:
+    """Tests für nicht-triviale Turing-Übergänge (Bug 4 Fix).
+
+    Eine Turing-Maschine mit nicht-trivialen Übergängen bedeutet:
+    - Verschiedene Symbole im gleichen Zustand können zu verschiedenen
+      Folge-Zuständen führen
+    - Das macht die Maschine berechnungsfähig (nicht nur ein Schieber)
+    """
+
+    def test_uebergangstabelle_nicht_trivial_pro_zustand(self):
+        """Im gleichen Zustand müssen verschiedene Symbole zu verschiedenen
+        Outcomes (neuer Zustand, Bewegung) führen können."""
+        from TORA_TURING_CORRECT import build_tora_transitions
+        transitions = build_tora_transitions()
+
+        # Sammle Übergänge pro Zustand
+        per_state = {}
+        for (state, symbol), (new_state, write, move) in transitions.items():
+            per_state.setdefault(state, []).append((symbol, new_state, move))
+
+        # In mindestens EINEM Zustand müssen verschiedene Symbole zu
+        # verschiedenen Outcomes führen
+        has_nontrivial = False
+        for state, trans in per_state.items():
+            outcomes = set((ns, m) for _, ns, m in trans)
+            if len(outcomes) > 1:
+                has_nontrivial = True
+                break
+        assert has_nontrivial, (
+            "BUG: Übergangstabelle ist TRIVIAL — alle Symbole im gleichen "
+            "Zustand führen zum gleichen Outcome. Das ist kein Turing-Test."
+        )
+
+    def test_uebergangstabelle_hat_5_states(self):
+        """Die Turing-Maschine muss mindestens 5 Zustände haben (5 Layer)."""
+        from TORA_TURING_CORRECT import build_tora_transitions
+        transitions = build_tora_transitions()
+        states = set(state for state, _ in transitions.keys())
+        assert len(states) >= 5, (
+            f"Erwartet >= 5 Zustände, gefunden {len(states)}: {sorted(states)}"
+        )
+
+    def test_halt_state_erreichbar(self):
+        """Es muss einen HALT-Zustand geben, der erreicht werden kann."""
+        from TORA_TURING_CORRECT import build_tora_transitions
+        transitions = build_tora_transitions()
+        halt_transitions = [
+            (state, sym, ns, w, m)
+            for (state, sym), (ns, w, m) in transitions.items()
+            if m == 'HALT'
+        ]
+        assert len(halt_transitions) > 0, "Kein HALT-Übergang gefunden"
+        # HALT muss von Zustand 4 (Deuteronomium) aus erreichbar sein
+        halt_from_states = set(state for state, _, _, _, _ in halt_transitions)
+        assert 4 in halt_from_states, (
+            f"HALT nicht von q_4 erreichbar: {sorted(halt_from_states)}"
+        )
+
+    def test_keine_endlosschleife_in_q0(self):
+        """q_0 darf nicht in einer Endlosschleife enden — alle Übergänge
+        müssen zu q_1 oder zu HALT gehen, nicht zurück zu q_0."""
+        from TORA_TURING_CORRECT import build_tora_transitions
+        transitions = build_tora_transitions()
+        # Sammle q_0 Übergänge
+        q0_trans = [(sym, ns, m) for (state, sym), (ns, _, m) in transitions.items() if state == 0]
+        # Alle q_0 Übergänge müssen entweder zu q_1 oder HALT gehen
+        for sym, new_state, move in q0_trans:
+            assert new_state in (1, 5), (
+                f"q_0 mit Symbol {sym} geht zu q_{new_state} "
+                f"(sollte q_1 oder q_5 sein)"
+            )
+            assert move in ('MOVE_RIGHT', 'HALT'), (
+                f"q_0 mit Symbol {sym} macht {move} "
+                f"(sollte MOVE_RIGHT oder HALT sein)"
+            )
+
+
 # ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
 # ============================================================================
