@@ -1,0 +1,50 @@
+{
+  "operatoren": {
+    "READ": {
+      "hebr": "כ",
+      "name": "Kaph",
+      "action": "Lies Band-Symbol"
+    },
+    "WRITE": {
+      "hebr": "ו",
+      "name": "Vav",
+      "action": "Schreibe Symbol"
+    },
+    "MOVE_LEFT": {
+      "hebr": "ד",
+      "name": "Dalet",
+      "action": "←"
+    },
+    "MOVE_RIGHT": {
+      "hebr": "ג",
+      "name": "Gimel",
+      "action": "→"
+    },
+    "HALT": {
+      "hebr": "ת",
+      "name": "Tav",
+      "action": "⊥"
+    },
+    "STATE": {
+      "hebr": "י",
+      "name": "Yod",
+      "action": "δ"
+    }
+  },
+  "initial_state": "q_BURUMUT",
+  "band": "99 Zeichen BURUMUT",
+  "layers": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numeri",
+    "Deuteronomium"
+  ],
+  "numerical_bruecken": {
+    "99+117=216 (Boustrophedon)": true,
+    "99+137=37^2=1369 (Gen 1:7)": true,
+    "5_operatoren_fehlen_in_BURUMUT": true,
+    "5_operatoren=5_Turing_operatoren": true
+  },
+  "validiert": "Tora-Turing-Maschine (5 fehlende Konsonanten)"
+}
