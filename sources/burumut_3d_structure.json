@@ -1,0 +1,72 @@
+{
+  "5_layer_3d": [
+    {
+      "name": "Layer 1 (Genesis)",
+      "x": -4.457971273960561,
+      "y": 0.3900219487957724,
+      "z": 0,
+      "gematria": 3542
+    },
+    {
+      "name": "Layer 2 (Exodus)",
+      "x": -4.457971273960561,
+      "y": 0.3900219487957724,
+      "z": 2,
+      "gematria": 895
+    },
+    {
+      "name": "Layer 3 (Leviticus)",
+      "x": -4.457971273960561,
+      "y": 0.3900219487957724,
+      "z": 4,
+      "gematria": 895
+    },
+    {
+      "name": "Layer 4 (Numeri)",
+      "x": -4.457971273960561,
+      "y": 0.3900219487957724,
+      "z": 6,
+      "gematria": 895
+    },
+    {
+      "name": "Layer 5 (Deuteronomium)",
+      "x": -4.457971273960561,
+      "y": 0.3900219487957724,
+      "z": 8,
+      "gematria": 895
+    }
+  ],
+  "tora_turing_machine_3d": [
+    [
+      "READ (כ)",
+      "Liest aktuelle 3D-Position"
+    ],
+    [
+      "WRITE (ו)",
+      "Schreibt neue 3D-Position"
+    ],
+    [
+      "STATE (י)",
+      "Wechselt 3D-State"
+    ],
+    [
+      "MOVE_L (ד)",
+      "Bewegt -1 in z-Richtung"
+    ],
+    [
+      "MOVE_R (ג)",
+      "Bewegt +1 in z-Richtung"
+    ],
+    [
+      "HALT (ת)",
+      "3D-Position fixiert"
+    ]
+  ],
+  "interpretation": "BURUMUT ist die 3D-Holografie der 5-Layer-Tora-Fold",
+  "numerische_konsistenz": {
+    "5 × 14 = 70": true,
+    "70 + 2 = 72": true,
+    "72 = 5 Layer × 14 + 2": true
+  },
+  "total_gematria": 6503
+}
