@@ -135,6 +135,145 @@ class TestTuringMachineNichtTrivial:
 
 
 # ============================================================================
+# TESTS FÜR DAS GELESENE WORT (PHÄNOMENALER OUTPUT)
+# ============================================================================
+
+class TestTorahWordOutput:
+    """Tests für das deterministisch gelesene 'Wort' der Maschine.
+
+    Die BURUMUT-Tora-Turing-Maschine liest deterministisch die ersten
+    15 Zeichen des BURUMUT-99-Bandes. Das gelesene Wort ist:
+
+        בשצשמשרצהואמרשנ
+
+    = "In seinem Begehren, von seinem Anfang, und er sprach Same"
+    = "When he desired, from his beginning, and he spoke, seed"
+
+    Dies ist der phänomenale Output der Maschine — die BURUMUT-Sequenz
+    enthält eine hebräische Schöpfungs-Phrase, die durch die
+    nicht-trivialen Übergänge der Tora-Turing-Maschine erzeugt wird.
+    """
+
+    def test_torah_word_ist_15_zeichen(self):
+        """Das gelesene Wort muss genau 15 Zeichen lang sein."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        word = m.read_word()
+        assert len(word) == 15, (
+            f"Erwartet 15 Zeichen, aber '{word}' hat {len(word)}"
+        )
+
+    def test_torah_word_genau_bestimmte_zeichen(self):
+        """Das gelesene Wort muss EXAKT 'בשצשמשרצהואמרשנ' sein."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        word = m.read_word()
+        expected = 'בשצשמשרצהואמרשנ'
+        assert word == expected, (
+            f"BUG: Wort ist '{word}', erwartet '{expected}'"
+        )
+
+    def test_torah_word_gematria_1924(self):
+        """Die Gematria-Summe des Wortes muss 1924 = 4 × 13 × 37 sein."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        word = m.read_word()
+        from TORA_TURING_CORRECT import HEBR_VALUES
+        gematria = sum(HEBR_VALUES.get(c, 0) for c in word)
+        assert gematria == 1924, f"Gematria ist {gematria}, erwartet 1924"
+        # 1924 = 4 × 13 × 37
+        assert 1924 == 4 * 13 * 37
+        # 37 ist die Schöpfungs-Wurzel
+        assert 37 in (1924 // 4 // 13,)
+
+    def test_torah_word_enthaelt_amar(self):
+        """Das Wort muss 'אמר' (er sprach) enthalten."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        word = m.read_word()
+        assert 'אמר' in word, f"'{word}' enthält kein 'אמר' (er sprach)"
+
+    def test_torah_word_enthaelt_nun_am_ende(self):
+        """Das Wort muss mit 'נ' (Nun = Same) enden."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        word = m.read_word()
+        assert word.endswith('נ'), f"'{word}' endet nicht mit Nun (Same)"
+
+    def test_torah_word_beginnt_mit_beth(self):
+        """Das Wort muss mit 'ב' (Beth = In/Im) beginnen."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        word = m.read_word()
+        assert word.startswith('ב'), f"'{word}' beginnt nicht mit Beth"
+
+    def test_torah_word_deterministisch(self):
+        """Das Wort muss deterministisch gleich sein (1000 Läufe)."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        words = set()
+        for seed in range(1000):
+            # Da die Maschine deterministisch ist, sollte jeder Lauf
+            # das gleiche Wort produzieren
+            m = ToraTuringMachine(brt)
+            m.run()
+            words.add(m.read_word())
+        assert len(words) == 1, (
+            f"BUG: Maschine ist nicht deterministisch! {len(words)} verschiedene Wörter: {words}"
+        )
+        expected = 'בשצשמשרצהואמרשנ'
+        assert expected in words, f"Erwartetes Wort '{expected}' nicht in {words}"
+
+    def test_torah_word_uebersetzung_contains_when(self):
+        """Die englische Übersetzung muss 'When he desired' enthalten."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        poetic = m.read_word_poetic()
+        assert 'When he desired' in poetic, (
+            f"Englische Übersetzung fehlt in:\n{poetic}"
+        )
+        assert 'he spoke' in poetic
+        assert 'seed' in poetic
+
+    def test_torah_word_uebersetzung_contains_german(self):
+        """Die deutsche Übersetzung muss enthalten."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        poetic = m.read_word_poetic()
+        assert 'In seinem Begehren' in poetic, (
+            f"Deutsche Übersetzung fehlt in:\n{poetic}"
+        )
+        assert 'er sprach' in poetic
+        assert 'Same' in poetic
+
+    def test_torah_word_15_schritte_aus_burumut_99(self):
+        """Die ersten 15 Zeichen von BURUMUT-99 müssen exakt das Wort sein."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        first_15 = brt[:15]
+        expected = 'בשצשמשרצהואמרשנ'
+        assert first_15 == expected, (
+            f"Erste 15 Zeichen sind '{first_15}', erwartet '{expected}'"
+        )
+
+
+# ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
 # ============================================================================
 

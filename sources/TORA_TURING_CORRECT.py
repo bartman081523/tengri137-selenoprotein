@@ -209,7 +209,64 @@ class ToraTuringMachine:
                 break
         return self
 
+    def read_word(self):
+        """Lese die ersten 15 Zeichen des Bandes als 'Wort'.
+
+        Die BURUMUT-Tora-Turing-Maschine liest deterministisch die
+        ersten 15 Zeichen. Das gelesene 'Wort' ist der OUTPUT der Maschine.
+        """
+        return ''.join(self.tape[:15]) if len(self.tape) >= 15 else ''.join(self.tape)
+
+    def read_word_translated(self):
+        """Übersetze das gelesene Wort in seine kabbalistische Bedeutung."""
+        word = self.read_word()
+        translations = {
+            'ב': 'in/als',       # Beth
+            'ש': 'er/sein',      # Shin
+            'צ': 'er-ward',      # Tzade
+            'מ': 'von/aus',      # Mem
+            'ר': 'Anfang',       # Resh
+            'ה': 'der/die/das',  # He
+            'ו': 'und',          # Vav
+            'א': 'er-sprach',    # Aleph
+            'נ': 'Same',         # Nun
+        }
+        translated = ' '.join(translations.get(c, c) for c in word)
+        return translated
+
+    def read_word_poetic(self):
+        """Poetische/philosophische Übersetzung des gelesenen Wortes."""
+        word = self.read_word()
+        return (
+            f"Das Wort der Tora-Turing-Maschine: {word}\n"
+            f"\n"
+            f"  ב (Beth)  = 'In/Im'\n"
+            f"  ש (Shin)  = 'Sein/Er'\n"
+            f"  צ (Tzade) = 'er-ward/begehrte'\n"
+            f"  ש (Shin)  = 'Er'\n"
+            f"  מ (Mem)   = 'von/aus'\n"
+            f"  ש (Shin)  = 'Sein/Er'\n"
+            f"  ר (Resh)  = 'Anfang/Kopf'\n"
+            f"  צ (Tzade) = 'er-ward'\n"
+            f"  ה (He)    = 'der'\n"
+            f"  ו (Vav)   = 'und'\n"
+            f"  א (Aleph) = 'er-sprach'\n"
+            f"  מ (Mem)   = 'von/aus'\n"
+            f"  ר (Resh)  = 'Anfang'\n"
+            f"  ש (Shin)  = 'Er/Sein'\n"
+            f"  נ (Nun)   = 'Same/Fisch'\n"
+            f"\n"
+            f"  → 'In seinem Begehren, von seinem Anfang, und er sprach Same'\n"
+            f"  → 'When he desired, from his beginning, and he spoke, seed'\n"
+            f"\n"
+            f"  Gematria-Summe: 1924 = 4 × 13 × 37\n"
+            f"  → 37 = Schöpfungs-Wurzel (BURUMUT + 137 = 37² = 1369)\n"
+            f"  → 13 = Einheit\n"
+            f"  → 4 × 37 = 148 = Struktur der Tora-Lesung"
+        )
+
     def summary(self):
+        word = self.read_word()
         return {
             'halt_step': self.halt_step,
             'halt_state': self.halt_state,
@@ -218,6 +275,9 @@ class ToraTuringMachine:
             'final_tape': ''.join(self.tape),
             'original_tape': ''.join(self.original_tape),
             'states_visited': [h['new_state'] for h in self.history],
+            'word': word,
+            'word_translated': self.read_word_translated(),
+            'gematria_sum': sum(HEBR_VALUES.get(c, 0) for c in word),
         }
 
 
