@@ -46,6 +46,20 @@ LATIN_TO_HEBR = {
     'S': 'ק', 'Y': 'י', 'Z': 'ז',
 }
 
+# Erweitertes Mapping (aus TORA_TURING_MULTIPHASE.py) — G ist kritisch für
+# Phase 3 (REGUMFAYAPSU), die in TORA_TURING_CORRECT.py NICHT abgedeckt war.
+EXTENDED_LATIN_TO_HEBR = dict(LATIN_TO_HEBR)
+EXTENDED_LATIN_TO_HEBR.update({
+    'G': 'ג',  # Gimel (3) = MOVE_RIGHT
+    'C': 'כ',  # Kaf (20) = READ
+    'W': 'ו',  # Vav (6) = WRITE
+    'K': 'כ',  # Kaf (20) = READ (alternative)
+    'D': 'ד',  # Dalet (4) = MOVE_LEFT
+    'J': 'ז',  # Zain/Zayin (7) = VARIANT
+    'V': 'ו',  # Vav (6) = VARIANT
+    'X': 'ס',  # Samekh (60) = VARIANT
+})
+
 HEBR_VALUES = {
     'א': 1, 'ב': 2, 'ג': 3, 'ד': 4, 'ה': 5, 'ו': 6, 'ז': 7, 'ח': 8,
     'ט': 9, 'י': 10, 'כ': 20, 'ל': 30, 'מ': 40, 'נ': 50, 'ס': 60,
@@ -196,7 +210,7 @@ def analyze_subwords():
     results = []
     for phase in PHASES:
         sub = find_subwords(phase['latin'], LATIN_DICT)
-        hebr = ''.join(LATIN_TO_HEBR.get(c, '?') for c in phase['latin'])
+        hebr = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in phase['latin'])
         results.append({
             'nr': phase['nr'],
             'name': phase['name'],
@@ -300,7 +314,7 @@ def gematria_bridges():
     """Berechne Gematria-Brücken Phase → Genesis-Vers."""
     bridges = []
     for phase in PHASES:
-        h = ''.join(LATIN_TO_HEBR.get(c, '?') for c in phase['latin'])
+        h = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in phase['latin'])
         g = gematria_of(h)
         # Welcher Genesis-Vers ist am nächsten?
         diffs = {v: abs(g - v) for v in GENESIS_1_GEMATRIA.values()}
@@ -414,6 +428,70 @@ def monte_carlo_test(num_trials=1000):
     }
 
 
+def monte_carlo_gematria_bridges(num_trials=10000):
+    """Monte-Carlo-Test für die stärksten numerischen Brücken."""
+    random.seed(42)
+    hebr_list = list(EXTENDED_LATIN_TO_HEBR.values())
+
+    def random_hebr(length):
+        return ''.join(random.choice(hebr_list) for _ in range(length))
+
+    # Test 1: P1 Gematria ≈ Gen 1:9-10 (1870) mit Diff ≤ 4
+    p1_actual = gematria_of(''.join(EXTENDED_LATIN_TO_HEBR[c] for c in PHASES[0]['latin']))
+    p1_diff = abs(p1_actual - 1870)
+
+    count_p1 = sum(
+        1 for _ in range(num_trials)
+        if abs(gematria_of(random_hebr(14)) - 1870) <= p1_diff
+    )
+    p1_p = count_p1 / num_trials
+
+    # Test 2: Summe 6503 exakt
+    count_sum = 0
+    for _ in range(num_trials):
+        parts = [random_hebr(p['len']) for p in PHASES]
+        s = sum(gematria_of(part) for part in parts)
+        if s == 6503:
+            count_sum += 1
+    sum_p = count_sum / num_trials
+
+    # Test 3: P4 Gematria exakt 551
+    p4_actual = gematria_of(''.join(EXTENDED_LATIN_TO_HEBR[c] for c in PHASES[3]['latin']))
+    count_p4 = sum(
+        1 for _ in range(num_trials)
+        if gematria_of(random_hebr(14)) == 551
+    )
+    p4_p = count_p4 / num_trials
+
+    # Test 4: 11 Sec-Positionen in BURUMUT (Sampling ohne Zurücklegen)
+    count_sec = 0
+    for _ in range(num_trials):
+        sample = random.choices(list(BURUMUT), k=99)
+        if sum(1 for c in sample if c == 'U') == 11:
+            count_sec += 1
+    sec_p = count_sec / num_trials
+
+    return {
+        'p1_gematria_1874_close_to_gen_1_9_10': {
+            'actual': p1_actual, 'target': 1870, 'diff': p1_diff,
+            'p_value': p1_p, 'n': num_trials,
+            'verdict': 'HOCH SIGNIFIKANT' if p1_p < 0.001 else 'signifikant' if p1_p < 0.05 else 'NICHT signifikant',
+        },
+        'sum_exactly_6503': {
+            'actual': 6503, 'p_value': sum_p, 'n': num_trials,
+            'verdict': 'HOCH SIGNIFIKANT' if sum_p < 0.001 else 'signifikant' if sum_p < 0.05 else 'NICHT signifikant',
+        },
+        'p4_gematria_exactly_551': {
+            'actual': p4_actual, 'p_value': p4_p, 'n': num_trials,
+            'verdict': 'HOCH SIGNIFIKANT' if p4_p < 0.001 else 'signifikant' if p4_p < 0.05 else 'NICHT signifikant',
+        },
+        '11_sec_in_99_chars': {
+            'p_value': sec_p,
+            'verdict': 'HOCH SIGNIFIKANT' if sec_p < 0.001 else 'signifikant' if sec_p < 0.05 else 'NICHT signifikant',
+        },
+    }
+
+
 # ============================================================================
 # 7. KONSISTENZ-CHECK: USER-PHASEN vs. EXISTING BURUMUT_PHASES.py
 # ============================================================================
@@ -508,7 +586,7 @@ def main():
     print('=' * 70)
     tajpala_results = []
     for p in PHASES:
-        h = ''.join(LATIN_TO_HEBR.get(c, '?') for c in p['latin'])
+        h = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in p['latin'])
         result = phonetic_tajpala(h, manual_key=f"P{p['nr']}")
         print(f"\n  P{p['nr']} ({p['name']}):")
         print(f"    Hebräisch: {h}")
@@ -539,9 +617,13 @@ def main():
     print('=' * 70)
     sec_pos = classify_sec_positions()
     for sp in sec_pos:
+        # Hebräisch-Lookup mit erweitertem Mapping
+        hebr = EXTENDED_LATIN_TO_HEBR.get(BURUMUT[sp['pos']], '?')
         print(f"  Pos {sp['pos']:2d} → P{sp['phase_nr']} ({sp['phase_name'][:25]}...) "
               f"Lokal-Offset={sp['local_offset']}, "
-              f"Buchstabe={sp['letter']}={sp['hebrew']}")
+              f"Buchstabe={sp['letter']}={hebr}")
+        # Update im dict
+        sp['hebrew'] = hebr
     # Verteilung
     phase_counts = {}
     for sp in sec_pos:
@@ -565,11 +647,20 @@ def main():
 
     # 6. Monte-Carlo-Test
     print('=' * 70)
-    print('6. MONTE-CARLO-TEST (PHASEN-LÄNGEN-VERTEILUNG)')
+    print('6. MONTE-CARLO-TESTS')
     print('=' * 70)
     mc = monte_carlo_test(num_trials=1000)
+    print('  6.1 Phasen-Längen-Varianz:')
     for k, v in mc.items():
-        print(f"  {k}: {v}")
+        print(f"    {k}: {v}")
+    print()
+
+    mc_g = monte_carlo_gematria_bridges(num_trials=5000)
+    print('  6.2 Gematria-Brücken vs. Zufall:')
+    for bridge_name, data in mc_g.items():
+        print(f"    {bridge_name}:")
+        for k, v in data.items():
+            print(f"      {k}: {v}")
     print()
 
     # 7. Konsistenz-Check
@@ -597,6 +688,7 @@ def main():
         'sec_positions': sec_pos,
         'tora_fold': fold,
         'monte_carlo': mc,
+        'monte_carlo_gematria': mc_g,
         'consistency_check': cmp,
         'apophenie_liste': APOPHENIE_LISTE,
     }
@@ -631,7 +723,7 @@ def test_gematria_total_6503():
 
 def test_user_p4_equals_existing_p3():
     """User-P4 (hebr. אזבהחטמלאזאנצ) hat Gematria 551 wie existing-P3/P5."""
-    user_p4_hebr = ''.join(LATIN_TO_HEBR.get(c, '?') for c in PHASES[3]['latin'])
+    user_p4_hebr = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in PHASES[3]['latin'])
     g = sum(HEBR_VALUES.get(c, 0) for c in user_p4_hebr)
     assert g == 551, f"User-P4 Gematria ist {g}, nicht 551"
 
@@ -656,9 +748,19 @@ def test_sec_distribution_across_phases():
 
 
 def test_hebrew_mapping_covers_all_chars():
-    """Jedes lateinische Zeichen in BURUMUT muss zu hebr. abbildbar sein."""
+    """Jedes lateinische Zeichen in BURUMUT muss zu hebr. abbildbar sein (mit erweitertem Mapping)."""
     for c in BURUMUT:
-        assert c in LATIN_TO_HEBR, f"{c} nicht im Mapping"
+        assert c in EXTENDED_LATIN_TO_HEBR, f"{c} nicht im erweiterten Mapping"
+
+
+def test_g_letter_in_burumut():
+    """'G' (Gimel, MOVE_RIGHT) ist in BURUMUT Phase 3 — neuer Befund!"""
+    p3 = PHASES[2]['latin']  # 'REGUMFAYAPSU'
+    assert 'G' in p3
+    # Standard-Mapping (LATIN_TO_HEBR) hat KEIN 'G' — Beweis für die Lücke
+    assert 'G' not in LATIN_TO_HEBR
+    # Erweitertes Mapping hat 'G' = ג
+    assert EXTENDED_LATIN_TO_HEBR['G'] == 'ג'
 
 
 def test_phase_lens_listed_correctly():
@@ -688,6 +790,17 @@ def test_monte_carlo_returns_valid_p_value():
     mc = monte_carlo_test(num_trials=100)
     assert 0 <= mc['p_variance_lower'] <= 1
     assert mc['num_trials'] == 100
+
+
+def test_monte_carlo_gematria_returns_valid_results():
+    """Monte-Carlo-Gematria-Test gibt gültige Werte zurück."""
+    mc = monte_carlo_gematria_bridges(num_trials=100)
+    assert 'p1_gematria_1874_close_to_gen_1_9_10' in mc
+    assert 'sum_exactly_6503' in mc
+    assert 'p4_gematria_exactly_551' in mc
+    assert '11_sec_in_99_chars' in mc
+    for bridge in mc.values():
+        assert 0 <= bridge['p_value'] <= 1
 
 
 def test_genesis_1_gematria_table_complete():

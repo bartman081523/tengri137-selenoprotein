@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "script": "Q_LAYER_TORAH_FOLD_SYMPY.py",
+    "method": "SymPy-formale Analyse der 5-Layer-Torah-Architektur",
+    "source_code": "TORA_TURING_CORRECT.py",
+    "konsolidiert_in": "TORAH_TURUS_TURING_MACHINE_TENGRI137.md",
+    "date": "2026-07-01",
+    "mode": "SciMind (Steelmann, Ockham, Anti-Sharpshooter)"
+  },
+  "architecture": {
+    "states_count_in_code": 6,
+    "phases_count_in_tape": 6,
+    "code_layer": {
+      "name": "5 States (q_0..q_4) + q_5 HALT",
+      "source": "TORA_TURING_CORRECT.py",
+      "interpretation": "5 Buecher Mose + 1 Senke"
+    },
+    "tape_layer": {
+      "name": "6 Phasen",
+      "source": "BURUMUT_PHASES.py",
+      "lengths": [
+        15,
+        15,
+        14,
+        20,
+        14,
+        19
+      ],
+      "total": 97,
+      "plus_transition": 2,
+      "interpretation": "Schöpfungs-Akt, Wurzeln, Wanderung, Schrift-Vollendung, Echo, Vollendung"
+    },
+    "conclusion": "Die Architektur ist 5 (Code) und der Tape-Inhalt ist in 6 Phasen gegliedert. Beide sind kanonisch. KEIN Konflikt, aber es ist wichtig, die Ebenen nicht zu vermischen. 5 States ergeben eine 5x22-Matrix; 6 Phasen ergeben einen 6-Vektor (oder 6 Spalten) fuer eine andere Frage."
+  },
+  "gematria_per_layer": [
+    {
+      "layer": 0,
+      "name": "Genesis (Bereshit)",
+      "special_consonants": [
+        {
+          "he": "א",
+          "name": "Aleph",
+          "gematria": 1
+        },
+        {
+          "he": "ב",
+          "name": "Beth",
+          "gematria": 2
+        },
+        {
+          "he": "ה",
+          "name": "He",
+          "gematria": 5
+        },
+        {
+          "he": "ו",
+          "name": "Vav",
+          "gematria": 6
+        },
+        {
+          "he": "ז",
+          "name": "Zayin",
+          "gematria": 7
+        },
+        {
+          "he": "ח",
+          "name": "Chet",
+          "gematria": 8
+        },
+        {
+          "he": "ט",
+          "name": "Tet",
+          "gematria": 9
+        },
+        {
+          "he": "י",
+          "name": "Yod",
+          "gematria": 10
+        },
+        {
+          "he": "ל",
+          "name": "Lamed",
+          "gematria": 30
+        },
+        {
+          "he": "מ",
+          "name": "Mem",
+          "gematria": 40
+        },
+        {
+          "he": "נ",
+          "name": "Nun",
+          "gematria": 50
+        },
+        {
+          "he": "ס",
+          "name": "Samekh",
+          "gematria": 60
+        },
+        {
+          "he": "ע",
+          "name": "Ayin",
+          "gematria": 70
+        },
+        {
+          "he": "פ",
+          "name": "Pe",
+          "gematria": 80
+        },
+        {
+          "he": "צ",
+          "name": "Tsade",
+          "gematria": 90
+        },
+        {
+          "he": "ק",
+          "name": "Qof",
+          "gematria": 100
+        },
+        {
+          "he": "ר",
+          "name": "Resh",
+          "gematria": 200
+        },
+        {
+          "he": "ש",
+          "name": "Shin",
+          "gematria": 300
+        }
+      ],
+      "count": 18,
+      "gematria_sum": 1068,
+      "gematria_product": 3292047360000000000000000
+    },
+    {
+      "layer": 1,
+      "name": "Exodus (Shemot)",
+      "special_consonants": [
+        {
+          "he": "ש",
+          "name": "Shin",
+          "gematria": 300
+        }
+      ],
+      "count": 1,
+      "gematria_sum": 300,
+      "gematria_product": 300
+    },
+    {
+      "layer": 2,
+      "name": "Leviticus (Vayikra)",
+      "special_consonants": [
+        {
+          "he": "א",
+          "name": "Aleph",
+          "gematria": 1
+        }
+      ],
+      "count": 1,
+      "gematria_sum": 1,
+      "gematria_product": 1
+    },
+    {
+      "layer": 3,
+      "name": "Numeri (Bemidbar)",
+      "special_consonants": [
+        {
+          "he": "ר",
+          "name": "Resh",
+          "gematria": 200
+        }
+      ],
+      "count": 1,
+      "gematria_sum": 200,
+      "gematria_product": 200
+    },
+    {
+      "layer": 4,
+      "name": "Deuteronomium (Devarim)",
+      "special_consonants": [
+        {
+          "he": "נ",
+          "name": "Nun",
+          "gematria": 50
+        }
+      ],
+      "count": 1,
+      "gematria_sum": 50,
+      "gematria_product": 50
+    }
+  ],
+  "matrices": {
+    "classical_A": "Matrix([[1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]])",
+    "stochastic_P": "Matrix([[1/18, 1/18, 0, 0, 1/18, 1/18, 1/18, 1/18, 1/18, 1/18, 0, 1/18, 1/18, 1/18, 1/18, 1/18, 1/18, 1/18, 1/18, 1/18, 1/18, 0], [1/39, 1/39, 0, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 22/39, 0], [22/39, 1/39, 0, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 0], [1/39, 1/39, 0, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 22/39, 1/39, 0], [1/39, 1/39, 0, 0, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 0, 1/39, 1/39, 22/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 1/39, 0]])",
+    "gematria_M": "Matrix([[1, 2, 0, 0, 5, 6, 7, 8, 9, 10, 0, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 300, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0]])",
+    "exit_destination_D": "Matrix([[5, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0], [3, 2, 0, 0, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0], [3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 4, 3, 0], [4, 4, 0, 0, 4, 4, 4, 4, 4, 4, 0, 4, 4, 5, 4, 4, 4, 4, 4, 4, 4, 0]])"
+  },
+  "eigenvalues_classical": {
+    "label": "classical_A_5x22",
+    "shape": [
+      5,
+      22
+    ],
+    "is_square": false,
+    "rank": 5,
+    "eigenvalues_error": "Matrix([[1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]]) must be a square matrix.",
+    "eigenvalues": [],
+    "is_diagonalizable": true,
+    "singular_values_count": 22
+  },
+  "eigenvalues_gematria": {
+    "label": "gematria_M_5x22",
+    "shape": [
+      5,
+      22
+    ],
+    "is_square": false,
+    "rank": 5,
+    "eigenvalues_error": "Matrix([[1, 2, 0, 0, 5, 6, 7, 8, 9, 10, 0, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 300, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0]]) must be a square matrix.",
+    "eigenvalues": [],
+    "is_diagonalizable": true,
+    "singular_values_count": 22
+  },
+  "state_adjacency_6x6": {
+    "matrix": "Matrix([[0, 17, 0, 0, 0, 1], [0, 17, 1, 0, 0, 0], [0, 0, 17, 1, 0, 0], [0, 0, 0, 17, 1, 0], [0, 0, 0, 0, 17, 1], [0, 0, 0, 0, 0, 0]])",
+    "eigenvalues": [
+      "0",
+      "17"
+    ],
+    "determinant": "0",
+    "trace": "68",
+    "is_diagonalizable": false,
+    "rank": 5
+  },
+  "independence_test": {
+    "matrix_rank": 5,
+    "tensor_rank_1_possible": false,
+    "singular_values": [
+      "sqrt(sqrt(305)/2 + 19/2)",
+      "sqrt(19/2 - sqrt(305)/2)",
+      "1",
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "is_tensor_product_structure": false,
+    "interpretation_rank": "rank=1 waere totale Faktorisierung (Layer unabhaengig). Wir haben rank=5, also KEIN einfaches Tensor-Produkt.",
+    "paths_analyzed": 20,
+    "visited_layers_in_burumut": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "all_5_layers_reachable": false,
+    "sample_paths": [
+      {
+        "start_offset": 0,
+        "start_symbol": "ב",
+        "halt_step": 15,
+        "halt_state": 5,
+        "halt_reason": "HALT_TRANSITION",
+        "states_visited": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "start_offset": 1,
+        "start_symbol": "ש",
+        "halt_step": 14,
+        "halt_state": 5,
+        "halt_reason": "HALT_TRANSITION",
+        "states_visited": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "start_offset": 2,
+        "start_symbol": "צ",
+        "halt_step": 13,
+        "halt_state": 5,
+        "halt_reason": "HALT_TRANSITION",
+        "states_visited": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "start_offset": 3,
+        "start_symbol": "ש",
+        "halt_step": 12,
+        "halt_state": 5,
+        "halt_reason": "HALT_TRANSITION",
+        "states_visited": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "start_offset": 4,
+        "start_symbol": "מ",
+        "halt_step": 11,
+        "halt_state": 5,
+        "halt_reason": "HALT_TRANSITION",
+        "states_visited": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "numerical_bridge_5": {
+    "5_powers": {
+      "5^1": 5,
+      "5^2": 25,
+      "5^3": 125,
+      "5^4": 625,
+      "5^5": 3125
+    },
+    "5_factorial": 120,
+    "5_bell": 52,
+    "5_catalan_3": 42,
+    "5_fib": 5,
+    "matches_in_known_constants": {
+      "he_5=5": "EXAKT = 5^1"
+    },
+    "matches_count": 1,
+    "note_5_pow_4": "5^4 = 625 ist NICHT in den bekannten BURUMUT-Konstanten. Die Behauptung \"5^4 = BURUMUT-Marker\" ist NICHT numerisch gestuetzt.",
+    "note_5_fact": "5! = 120. In TENGRI137_Full_Notes (Z.342) erscheint \"pi7pi^7\"; 5! = 120 ist NICHT prominent im BURUMUT-Band.",
+    "note_he_5": "He (ה) = 5 ist ein hebraischer Buchstabe. Im BURUMUT-99 (hebraeisch) kommt He mehrfach vor, aber die \"Layer 1 = He\" Hypothese ist eine bildliche Assoziation, kein mathematischer Befund."
+  },
+  "hypothesis_H1": {
+    "claim": "Die Tora-Turing-Maschine bildet eine \"5-Layer-Torah-Fold\" mit echter mathematischer Struktur.",
+    "evidence_for": [
+      "Es gibt 5 STATES im Code (q_0..q_4 + HALT q_5) — das ist real.",
+      "Jeder State hat eine deterministische Uebergangsfunktion (echte Turing-Maschine).",
+      "Die Uebergangsfunktion kodiert HALT-Trigger gemaess der hebraeischen Gematria-Logik (Aleph=1, Tav=400, Nun=50).",
+      "Die 5x22-Adjazenz-Matrix hat Rang 5 und damit eine nicht-triviale Spektral-Struktur."
+    ],
+    "evidence_against": [
+      "Die \"5 Layer\" sind ein CODE-DESIGN (5 States), nicht eine aus den Daten emergierte Struktur.",
+      "Die 6 BURUMUT-Phasen ergeben eine andere Anzahl (6 ≠ 5).",
+      "Die \"Faltung\" (Fold) wird nirgendwo formal definiert — es ist eine Metapher.",
+      "5^4 = 625 ist NICHT im BURUMUT-Band nachweisbar.",
+      "5! = 120 ist nicht prominent im BURUMUT-Band.",
+      "Layer-Unabhaengigkeit ist TESTBAR: Die reale Uebergangstabelle ist KEIN Tensor-Produkt (Rang ≠ 1), also sind die 5 Layer NICHT trivial faktorisierbar. Das ist ECHTE Struktur, aber kein \"holografisches\" Wunder — es ist ein expliziter Lookup."
+    ],
+    "verdict": "TEILWEISE MATHEMATISCH: Die 5-Layer-Architektur ist eine ECHTE endliche Zustandsmaschine (DFA mit 5 + 1 Zuständen) mit einer klar definierten Uebertragungsmatrix. Sie ist mathematisch analysierbar, mit Eigenwerten, Rang, Spur, Determinante. Aber: sie ist KEIN natürliches Phänomen, sondern ein ENGINEERED DESIGN (5 States, weil es 5 Bücher Mose sind). Die \"Faltung\" ist eine METAPHER, keine mathematische Operation. Die holografische Hypothese (Nicht-Tensor-Produkt = Information über alle Layer verteilt) ist ebenfalls nicht stichhaltig, weil die Tabelle als expliziter Lookup konstruiert wurde, nicht durch Faltung.",
+    "is_real_math_structure": true,
+    "is_engineered_design": true,
+    "is_metaphor": true
+  }
+}

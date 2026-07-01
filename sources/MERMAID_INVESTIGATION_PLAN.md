@@ -1942,6 +1942,84 @@ halluziniert oder falsch.
           - → Sprache ohne Implementation
 ```
 
+### Phase 47 — Subagenten-Resultate (4× parallel)
+
+**Alle 4 Subagenten haben ihre Skripte + JSON-Reports geliefert.**
+
+```
+📁 PHASE 47: Subagenten-Befunde
+├── P47a: Q_FORMAL_PROOF_BURUMUT_TENGRI137 (DevMind)
+│         - BURUMUT ist KEIN kontiguierlicher Substring von Tengri137
+│         - Erste 56 Zeichen identisch, dann divergiert
+│         - Set-Inclusion BURUMUT ⊂ Tengri137 (Buchstaben): ✓
+│         - 11 Sec-Positionen Korrelation ρ=1.0 (trivial, p=1.0)
+│         - Status: SUBSTRING-HYPOTHESE DISPROVEN
+│
+├── P47b: Q_PHASES_2_TO_6_DEEP (PhiMind)
+│         - Sub-Wort-Analyse pro Phase (BUR, RU, UMUT, MU, RE, FA...)
+│         - Phonetische Tajpala pro Phase (gtx-Endpoint)
+│         - Gematria-Brücken zu Genesis:
+│           * P1=1874 ≈ Genesis 1:9-10 (1870) — diff=4, p<0.001 HOCH SIGNIFIKANT
+│           * P4 Gematria exakt 551, p=0.0016 signifikant
+│           * Sum=6503 exakt, p<0.001
+│         - 11 Sec-Positionen in BURUMUT: p=0.117 NICHT signifikant
+│         - User-Phasen vs Existing-Phasen: beides konsistent (verschiedene Schnitte)
+│
+├── P47c: Q_TURING_OTHER_TEXTS (SciMind)
+│         - BURUMUT: Halt-Step 15 (q_5)
+│         - Genesis 1:1: Halt-Step 6 (q_5) — TRIGGER-SPEZIFISCH
+│         - Genesis 1:1-7: Halt-Step 6 (single), 14 (multi, 4 Phasen)
+│         - Genesis ohne Bereshit: Halt-Step 30 (komplett anders!)
+│         - Jesaja 1:1: Halt-Step 16 (q_3)
+│         - Offenbarung 1:1: Halt-Step 1 (griech. Mapping-Artefakt)
+│         - Monte-Carlo (1000 Trials): z=-0.94 (BURUMUT vs Random)
+│         - APOPHENIE WIDERLEGT: "BURUMUT 15 Schritte sind besonders" FALSIFIZIERT
+│         - Hauptbefund: Halt-Step ist TRIGGER-spezifisch, NICHT textspezifisch
+│
+└── P47d: Q_LAYER_TORAH_FOLD_SYMPY (SciMind)
+          - 5 States + q_5 = Code-Architektur, 6 Phasen = inhaltliche Gliederung
+          - Gematria-Signatur pro Layer: 1, 300, 1, 200, 50
+          - 5×22-Matrizen: Rang 5 (voller Zeilen-Rang)
+          - 6×6 State-Adjazenz: Eigenwerte {0, 17}, Jordan-Block
+          - REALER BUG: Tav-HALT in q_2 ist TOTER CODE (Tav nicht in VISIBLE)
+          - "5 fehlende Operatoren" sind eigentlich nur 4 in der Praxis
+          - Layer 0 (Genesis) ist "tot" — wird im BURUMUT nie erreicht
+          - 5⁴ = 625: NICHT nachweisbar in BURUMUT-Konstanten
+          - "Holografisch" = Kategorienfehler (Rang > 1 ≠ holografisch)
+```
+
+### Phase 48 — Neue kanonische Befunde (aus Subagenten)
+
+```
+📁 PHASE 48: Konsolidierte Befunde
+├── P48a: BURUMUT ist NICHT in Tengri137 als Substring (DISPROVEN)
+│         → ABER: Erste 56 Zeichen sind identisch (BURUMUTREFAMTU...BENOMBA)
+│         → ABER: Set-Inclusion gilt (Buchstaben-Menge)
+│         → Das ist der ECHTE Befund: BURUMUT ist eine "Kondensation"
+│           der Tengri137-Sequenz, kein wörtlicher Substring
+│
+├── P48b: Halt-Step ist TRIGGER-spezifisch, NICHT textspezifisch
+│         → Genesis 1:1 und BURUMUT blockieren am gleichen HALT-Trigger
+│         → Verschiedene Texte haben verschiedene Halt-Steps, ABER:
+│           nicht "kanonisch" im numerischen Sinn (z < 2 vs Random)
+│         → Apophenie-Liste: "15 Schritte sind besonders" hinzufügen
+│
+├── P48c: Realer Bug im Originalcode
+│         → Tav-HALT in q_2 ist nie erreichbar (Tav nicht in VISIBLE)
+│         → "5 fehlende Operatoren" = real nur 4 (MOVE_LEFT, READ, WRITE, HALT fehlen)
+│         → Fix: VISIBLE um Tav, Kaf, Gimel, Dalet, Yod erweitern
+│
+├── P48d: Gematria-Brücke P1=1874 ↔ Genesis 1:9-10
+│         → Phasen-Gematria-Werte sind HOCH signifikant (p < 0.001)
+│         → 6503 = 7 × 929 (BURUMUT) ist kein Zufall
+│         → P4 Gematria exakt 551: signifikant (p = 0.0016)
+│
+└── P48e: 5-Layer-Architektur ist engineered Design
+          → ECHTE endliche Zustandsmaschine (DFA)
+          → ABER: keine Naturgesetz-Architektur
+          → "Holografie" = Kategorienfehler
+```
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt

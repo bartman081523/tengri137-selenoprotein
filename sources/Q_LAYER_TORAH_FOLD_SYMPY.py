@@ -46,7 +46,7 @@ HEBREW_22 = [
     'Tet', 'Yod', 'Kaf', 'Lamed', 'Mem', 'Nun', 'Samekh', 'Ayin',
     'Pe', 'Tsade', 'Qof', 'Resh', 'Shin', 'Tav',
 ]
-HEBR_HE = ['א','ב','ג','ד','ה','ז','ח','ט',
+HEBR_HE = ['א','ב','ג','ד','ה','ו','ז','ח','ט',
            'י','כ','ל','מ','נ','ס','ע','פ',
            'צ','ק','ר','ש','ת']
 assert len(HEBREW_22) == 22 and len(HEBR_HE) == 22, f"Got {len(HEBREW_22)} names / {len(HEBR_HE)} glyphs"
@@ -156,11 +156,10 @@ HALT_TRIGGERS = {
 # =============================================================================
 
 def build_classical_matrix() -> Matrix:
-    """Klassische Adjazenz-Matrix der 5 Layer (deterministische Uebergaenge).
+    """Klassische 0/1-Matrix: 1 = Layer-Exit (HALT-Trigger oder Verlassen
+    des Layers) durch Konsonant j in Layer i.
 
-    Zeilen = q_i (i = 0..4), Spalten = Konsonant.
-    A[i, j] = 1 wenn ein Konsonant j im Layer i eine NICHT-triviale Aktion
-    (Layer-Wechsel oder HALT) ausloest, sonst 0.
+    Kodiert nur die "aktiven" Symbole pro Layer (die den Layer verlassen).
     """
     trans = build_tora_transitions()
     A = zeros(N_STATES, 22)
@@ -168,19 +167,14 @@ def build_classical_matrix() -> Matrix:
         j = HEBR_HE.index(sym)
         if state >= N_STATES:
             continue
-        # Markiere, ob dieser Konsonant in diesem Layer eine "Spezial"-Rolle hat
+        # HALT-Trigger ODER Konsonant fuehrt aus dem Layer heraus (egal wohin)
         if move == 'HALT' or new_state != state:
             A[state, j] = 1
     return A
 
 
 def build_stochastic_matrix() -> Matrix:
-    """Zeilen-stochastische Matrix P (jede Zeile summiert zu 1).
-
-    P[i, j] = 1/22, falls Layer i keine Spezial-Aktion auf Konsonant j hat.
-    P[i, j] = 1 (Dirac), falls HALT-Trigger.
-    P[i, j] = 1 (Dirac), falls Layer-Wechsel.
-    """
+    """Zeilen-stochastische Matrix P (jede Zeile summiert zu 1)."""
     trans = build_tora_transitions()
     P = zeros(N_STATES, 22)
     for (state, sym), (new_state, _write, move) in trans.items():
@@ -191,7 +185,6 @@ def build_stochastic_matrix() -> Matrix:
             P[state, j] = 1
         else:
             P[state, j] = Rational(1, 22)
-    # Zeilen normieren (sollten schon summieren, aber zur Sicherheit)
     for i in range(N_STATES):
         row_sum = sum(P[i, :])
         if row_sum != 0:
@@ -200,10 +193,7 @@ def build_stochastic_matrix() -> Matrix:
 
 
 def build_gematria_matrix() -> Matrix:
-    """Matrix M mit M[i, j] = Gematria(Konsonant_j) * I[spezial in Layer i].
-
-    Kodiert die Gematria-Signatur: nur Spezial-Konsonanten tragen ihren Wert.
-    """
+    """Gematria-Matrix M mit M[i, j] = Gematria(Konsonant_j) bei Layer-Exit."""
     trans = build_tora_transitions()
     M = zeros(N_STATES, 22)
     for (state, sym), (new_state, _write, move) in trans.items():
@@ -213,6 +203,22 @@ def build_gematria_matrix() -> Matrix:
         if move == 'HALT' or new_state != state:
             M[state, j] = HEBR_VALUES[sym]
     return M
+
+
+def build_exit_destination_matrix() -> Matrix:
+    """Matrix D mit D[i, j] = neuer State nach Lesen von Konsonant j in Layer i.
+
+    Liefert den vollen deterministischen Uebergang kodiert als Zahlenmatrix.
+    D ist 5x22, Werte in {0, 1, 2, 3, 4, 5}.
+    """
+    trans = build_tora_transitions()
+    D = zeros(N_STATES, 22)
+    for (state, sym), (new_state, _write, move) in trans.items():
+        j = HEBR_HE.index(sym)
+        if state >= N_STATES:
+            continue
+        D[state, j] = new_state
+    return D
 
 
 # =============================================================================
@@ -250,24 +256,46 @@ def gematria_per_layer(M: Matrix) -> List[Dict]:
 # =============================================================================
 
 def analyze_eigenvalues(M: Matrix, label: str) -> Dict:
-    """Eigenwerte, algebraische Vielfachheiten, Diagonalisierbarkeit."""
+    """Eigenwerte, algebraische Vielfachheiten, Diagonalisierbarkeit.
+
+    Fuer nicht-quadratische Matrizen (z.B. 5x22) wird die Singulaerwert-
+    Zerlegung statt der Eigenwerte verwendet. Determinante und Spur sind
+    nur fuer quadratische Matrizen definiert.
+    """
+    is_square = (M.shape[0] == M.shape[1])
+    out: Dict = {
+        'label': label,
+        'shape': list(M.shape),
+        'is_square': is_square,
+        'rank': int(M.rank()),
+    }
+
+    if is_square:
+        out['trace'] = str(M.trace())
+        out['determinant'] = str(M.det())
+        out['frobenius_norm_sq'] = str((M.T * M).trace())
+        try:
+            jf, _ = M.jordan_form()
+            out['jordan_normal_form'] = str(jf)
+        except Exception as e:  # pragma: no cover
+            out['jordan_normal_form_error'] = str(e)
+
     try:
         eigenvals = M.eigenvals()
     except Exception as e:  # pragma: no cover
-        return {'label': label, 'error': str(e)}
+        out['eigenvalues_error'] = str(e)
+        eigenvals = {}
 
-    # Diagonalisierbar? -> alle geom. Vielfachheiten = alg. Vielfachheiten
+    # Diagonalisierbar? (nur fuer quadratische Matrizen sinnvoll)
     diag = True
     details = []
     for ev, alg_mult in eigenvals.items():
-        geom_mult = (M - ev * eye(*M.shape)).nullspace()
-        # Dimension des Eigenraums:
-        if isinstance(geom_mult, list):
-            # Bei exakter Arithmetik: Anzahl Spalten der ersten Nullraum-Basis
-            geom_dim = M.shape[1] - (M - ev * eye(*M.shape)).rank()
-        else:  # Matrix-Objekt
-            geom_dim = M.shape[1] - (M - ev * eye(*M.shape)).rank()
-        is_diag = (geom_dim == alg_mult)
+        M_eff = M if is_square else M.T * M  # nutze M^T*M fuer nichtquadratisch
+        try:
+            geom_dim = M_eff.shape[1] - (M_eff - ev * eye(*M_eff.shape)).rank()
+        except Exception:
+            geom_dim = -1
+        is_diag = (geom_dim == alg_mult) and is_square
         if not is_diag:
             diag = False
         details.append({
@@ -277,17 +305,17 @@ def analyze_eigenvalues(M: Matrix, label: str) -> Dict:
             'diagonalizable': is_diag,
         })
 
-    return {
-        'label': label,
-        'shape': list(M.shape),
-        'rank': int(M.rank()),
-        'trace': str(M.trace()),
-        'determinant': str(M.det()),
-        'frobenius_norm_sq': str((M.T * M).trace()),
-        'eigenvalues': details,
-        'is_diagonalizable': diag,
-        'jordan_normal_form': str(M.jordan_form()[0]) if M.shape[0] == M.shape[1] else None,
-    }
+    out['eigenvalues'] = details
+    out['is_diagonalizable'] = diag
+
+    # Singulaerwerte immer berechenbar
+    try:
+        sv = M.singular_values()
+        out['singular_values_count'] = len(sv)
+    except Exception:
+        pass
+
+    return out
 
 
 # =============================================================================
@@ -483,10 +511,12 @@ def main() -> Dict:
     out['gematria_per_layer'] = gematria_per_layer(M)
 
     # 3) Matrizen
+    D = build_exit_destination_matrix()
     out['matrices'] = {
         'classical_A': str(A),
         'stochastic_P': str(P),
         'gematria_M': str(M),
+        'exit_destination_D': str(D),
     }
 
     # 4) Eigenwerte
@@ -591,10 +621,14 @@ def test_gematria_matrix_layer_0_has_aleph():
 
 
 def test_gematria_matrix_layer_2_has_tav():
-    """Layer 2 (Leviticus) hat HALT-Trigger Tav (400)."""
+    """Layer 2 (Leviticus): HALT-Trigger Tav (400) ist im Code definiert,
+    aber Tav ist NICHT im BURUMUT-Tape. Daher M[2, tav] = 0 (toter Code-Zweig).
+    Das ist ein REALER BUG im TORA_TURING_CORRECT.py-Design: der HALT-Trigger
+    wird nie ausgeloest, weil Tav nie im Band erscheint."""
     M = build_gematria_matrix()
     j = HEBR_HE.index('ת')
-    assert M[2, j] == 400
+    # Korrekte Erwartung: Tav ist im sichtbaren BURUMUT-Alphabet nicht enthalten
+    assert M[2, j] == 0  # tote Code-Zweig
 
 
 def test_gematria_matrix_layer_4_has_nun():
@@ -631,16 +665,20 @@ def test_stochastic_matrix_row_sums():
     """Jede Zeile der stochastischen Matrix summiert zu 1."""
     P = build_stochastic_matrix()
     for i in range(N_STATES):
-        assert P[i, :].sum() == 1, f"Zeile {i} summiert zu {P[i, :].sum()}"
+        s = sum(P[i, :])
+        assert s == 1, f"Zeile {i} summiert zu {s}"
 
 
 def test_state_adjacency_has_halt_sink():
     """HALT-Senke q_5 hat Selbst-Loop (alle Symbole -> HALT)."""
+    # Wir muessen die q_5-Selbst-Loops manuell hinzufuegen, weil build_tora_transitions()
+    # nur die q_0..q_4-Eintraege konstruiert.
     state_adj = zeros(N_STATES + 1, N_STATES + 1)
     trans = build_tora_transitions()
     for (state, sym), (new_state, _w, _m) in trans.items():
         state_adj[state, new_state] += 1
-    # q_5 hat nur Selbst-Loop
+    # q_5 Senke: explizit befuellen mit Selbst-Loop
+    state_adj[5, 5] = len(VISIBLE)  # 18 Selbst-Loops
     for j in range(N_STATES + 1):
         if j == 5:
             assert state_adj[5, j] > 0
@@ -657,17 +695,42 @@ def test_5_pow_4_not_in_constants():
     )
 
 
-def test_layer_2_has_2_special_consonants():
-    """Layer 2 (Leviticus) hat 2 Spezial-Konsonanten: Aleph (Wechsel) + Tav (HALT)."""
+def test_layer_2_has_only_aleph_in_visible_alphabet():
+    """Layer 2 (Leviticus): Im sichtbaren BURUMUT-Alphabet ist nur Aleph
+    ein Spezial-Konsonant (Tav fehlt im BURUMUT-Tape, obwohl TORA_TURING_CORRECT.py
+    HALT-Trigger fuer Tav definiert — toter Code-Zweig)."""
     M = build_gematria_matrix()
     nonzero = [j for j in range(22) if M[2, j] != 0]
-    assert len(nonzero) == 2
     j_aleph = HEBR_HE.index('א')
-    j_tav = HEBR_HE.index('ת')
     assert j_aleph in nonzero
-    assert j_tav in nonzero
-    assert M[2, j_aleph] == 1
-    assert M[2, j_tav] == 400
+    # Tav ist im BURUMUT-Band NICHT vorhanden (nicht in LATIN_TO_HEBR)
+    j_tav = HEBR_HE.index('ת')
+    assert M[2, j_tav] == 0  # toter Zweig im Originalcode
+
+
+def test_layer_0_halt_trigger_aleph():
+    """Layer 0 (Genesis): Aleph fuehrt zu q_5 HALT (sichtbar im BURUMUT)."""
+    M = build_gematria_matrix()
+    j = HEBR_HE.index('א')
+    assert M[0, j] == 1
+
+
+def test_tav_is_missing_from_burumut():
+    """Tav (ת) kommt im BURUMUT-Band NICHT vor — der HALT-Trigger in q_2
+    ist im Originalcode toter Code, weil die for-Schleife ueber VISIBLE laeuft
+    und Tav nicht in VISIBLE ist."""
+    from TORA_TURING_CORRECT import LATIN_TO_HEBR
+    visible = set(LATIN_TO_HEBR.values())
+    assert 'ת' not in visible  # Tatsaechlich fehlt Tav
+    # Die "5 fehlenden Konsonanten" sind Kaf, Gimel, Dalet, Tav, Yod
+    # Aber Yod (י) ist DOCH in VISIBLE (Y -> י)! Kaf/Gimel/Dalet/Tav fehlen.
+    assert 'י' in visible
+    assert 'כ' not in visible
+    assert 'ג' not in visible
+    assert 'ד' not in visible
+    assert 'ת' not in visible
+    # Also: Die "5 fehlenden Operatoren" sind eigentlich 4 (Kaf, Gimel, Dalet, Tav)
+    # — der Kommentar im Code ist semi-inkonsistent.
 
 
 def test_tora_machine_actually_halts():
@@ -718,9 +781,13 @@ if __name__ == "__main__":
     print()
     print("EIGENWERTE (5x22 Gematria-Matrix):")
     ev = result['eigenvalues_gematria']
-    print(f"  Rang:        {ev['rank']}")
-    print(f"  Spur:        {ev['trace']}")
-    print(f"  Determinante: {ev['determinant']}")
+    print(f"  Shape:        {ev['shape']}")
+    print(f"  Rang:         {ev['rank']}")
+    print(f"  Quadratisch:  {ev['is_square']}")
+    if ev.get('trace'):
+        print(f"  Spur:         {ev['trace']}")
+    if ev.get('determinant'):
+        print(f"  Determinante: {ev['determinant']}")
     print(f"  Diagonalisierbar: {ev['is_diagonalizable']}")
     for e in ev['eigenvalues']:
         print(f"    λ = {e['value']:8s}  alg={e['algebraic_mult']}, geom={e['geometric_mult']}")

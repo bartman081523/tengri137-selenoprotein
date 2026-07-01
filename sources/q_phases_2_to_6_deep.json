@@ -1,0 +1,929 @@
+{
+  "method": "Q_PHASES_2_TO_6_DEEP",
+  "date": "2026-07-01",
+  "phases": [
+    {
+      "nr": 1,
+      "name": "Schöpfungs-Akt (Vorspann)",
+      "latin": "BURUMUTREFAMTU",
+      "len": 14,
+      "theme": "Wasser / Same / Anfang",
+      "user_subwords": "BUR + UMUT + REF + AMTU"
+    },
+    {
+      "nr": 2,
+      "name": "Same-Wurzel",
+      "latin": "NURESUT",
+      "len": 7,
+      "theme": "Same-Vervielfachung",
+      "user_subwords": "NUR + ESUT? | N + URES + UT?"
+    },
+    {
+      "nr": 3,
+      "name": "Schöpfungs-Wurzeln (immateriell)",
+      "latin": "REGUMFAYAPSU",
+      "len": 12,
+      "theme": "Alle 6 nicht-Materie Konsonanten",
+      "user_subwords": "RE + GUM + FAYAPSU?"
+    },
+    {
+      "nr": 4,
+      "name": "Wanderung (Wasser-Reich)",
+      "latin": "AZBEHIMLAZANRU",
+      "len": 14,
+      "theme": "Wasser-Reich",
+      "user_subwords": "AZ + BEHIM + LAZANRU?"
+    },
+    {
+      "nr": 5,
+      "name": "Schrift-Vollendung (Festland-Reich)",
+      "latin": "AZBENOMBAMZHQRSAN",
+      "len": 17,
+      "theme": "Festland-Reich",
+      "user_subwords": "AZ + BENOM + BAMZHQRSAN?"
+    },
+    {
+      "nr": 6,
+      "name": "Lebens-Reich (Vollendung)",
+      "latin": "LRUAZBEHIMLAZANRUAZBENOMBARAZHQRSAN",
+      "len": 35,
+      "theme": "Lebens-Reich",
+      "user_subwords": "LRU + AZBEHIM + LAZANRU + AZBENOMB + ARAZ + HQRSAN?"
+    }
+  ],
+  "subwords": [
+    {
+      "nr": 1,
+      "name": "Schöpfungs-Akt (Vorspann)",
+      "latin": "BURUMUTREFAMTU",
+      "hebrew": "בשצשמשרצהואמרש",
+      "subwords_found": [
+        {
+          "pos": [
+            0,
+            3
+          ],
+          "text": "BUR",
+          "meaning": "BUR (Brunnen, Bohren)"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "text": "RU",
+          "meaning": "RU (Geist, akkad.)"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "text": "UMUT",
+          "meaning": "UMUT (Hoffnung, türk.)"
+        },
+        {
+          "pos": [
+            4,
+            6
+          ],
+          "text": "MU",
+          "meaning": "MU (Wasser, sumer.)"
+        },
+        {
+          "pos": [
+            7,
+            9
+          ],
+          "text": "RE",
+          "meaning": "RE (Sonne, ägypt.)"
+        },
+        {
+          "pos": [
+            9,
+            11
+          ],
+          "text": "FA",
+          "meaning": "FA (mündlich)"
+        },
+        {
+          "pos": [
+            9,
+            12
+          ],
+          "text": "FAM",
+          "meaning": "FAM (Quelle?)"
+        },
+        {
+          "pos": [
+            10,
+            14
+          ],
+          "text": "AMTU",
+          "meaning": "AMTU (Du-Volk, akkad.)"
+        }
+      ],
+      "subwords_count": 8
+    },
+    {
+      "nr": 2,
+      "name": "Same-Wurzel",
+      "latin": "NURESUT",
+      "hebrew": "נשצהקשר",
+      "subwords_found": [
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "text": "NU",
+          "meaning": "NU (Nun)"
+        },
+        {
+          "pos": [
+            1,
+            4
+          ],
+          "text": "URE",
+          "meaning": "URE (Feuer?)"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "text": "RE",
+          "meaning": "RE (Sonne, ägypt.)"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "text": "SUT",
+          "meaning": "SUT (Same?)"
+        }
+      ],
+      "subwords_count": 4
+    },
+    {
+      "nr": 3,
+      "name": "Schöpfungs-Wurzeln (immateriell)",
+      "latin": "REGUMFAYAPSU",
+      "hebrew": "צהגשמואיאעקש",
+      "subwords_found": [
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "text": "RE",
+          "meaning": "RE (Sonne, ägypt.)"
+        },
+        {
+          "pos": [
+            2,
+            5
+          ],
+          "text": "GUM",
+          "meaning": "GUM (Last, akkad.)"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "text": "FA",
+          "meaning": "FA (mündlich)"
+        },
+        {
+          "pos": [
+            6,
+            10
+          ],
+          "text": "AYAP",
+          "meaning": "AYAP"
+        },
+        {
+          "pos": [
+            7,
+            9
+          ],
+          "text": "YA",
+          "meaning": "YA (göttliches Kürzel)"
+        },
+        {
+          "pos": [
+            8,
+            11
+          ],
+          "text": "APS",
+          "meaning": "APS (ägypt. Apsu, Süßwasser-Urozean)"
+        },
+        {
+          "pos": [
+            9,
+            12
+          ],
+          "text": "PSU",
+          "meaning": "PSU (ägypt. König)"
+        }
+      ],
+      "subwords_count": 7
+    },
+    {
+      "nr": 4,
+      "name": "Wanderung (Wasser-Reich)",
+      "latin": "AZBEHIMLAZANRU",
+      "hebrew": "אזבהחטמלאזאנצש",
+      "subwords_found": [
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "text": "BE",
+          "meaning": "BE (Herr, sumer.)"
+        },
+        {
+          "pos": [
+            2,
+            7
+          ],
+          "text": "BEHIM",
+          "meaning": "BEHIM (Tiere, akkad. plural)"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "text": "HIM",
+          "meaning": "HIM (sie, akkad.)"
+        },
+        {
+          "pos": [
+            7,
+            9
+          ],
+          "text": "LA",
+          "meaning": "LA (Negation, akkad.)"
+        },
+        {
+          "pos": [
+            8,
+            10
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            9,
+            12
+          ],
+          "text": "ZAN",
+          "meaning": "ZAN (Volk, akkad.)"
+        },
+        {
+          "pos": [
+            10,
+            12
+          ],
+          "text": "AN",
+          "meaning": "AN (Himmel, sumer.)"
+        },
+        {
+          "pos": [
+            12,
+            14
+          ],
+          "text": "RU",
+          "meaning": "RU (Geist, akkad.)"
+        }
+      ],
+      "subwords_count": 9
+    },
+    {
+      "nr": 5,
+      "name": "Schrift-Vollendung (Festland-Reich)",
+      "latin": "AZBENOMBAMZHQRSAN",
+      "hebrew": "אזבהנסמבאמזחפצקאנ",
+      "subwords_found": [
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            2,
+            4
+          ],
+          "text": "BE",
+          "meaning": "BE (Herr, sumer.)"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "text": "EN",
+          "meaning": "EN (Herr, sumer.)"
+        },
+        {
+          "pos": [
+            3,
+            7
+          ],
+          "text": "ENOM",
+          "meaning": "ENOM (in uns)"
+        },
+        {
+          "pos": [
+            4,
+            7
+          ],
+          "text": "NOM",
+          "meaning": "NOM (Gesetz, griech. nomos)"
+        },
+        {
+          "pos": [
+            4,
+            9
+          ],
+          "text": "NOMBA",
+          "meaning": "NOMBA (Gesetz-Bindung)"
+        },
+        {
+          "pos": [
+            6,
+            9
+          ],
+          "text": "MBA",
+          "meaning": "MBA (M. B. A.?)"
+        },
+        {
+          "pos": [
+            7,
+            9
+          ],
+          "text": "BA",
+          "meaning": "BA (Seele, ägypt.)"
+        },
+        {
+          "pos": [
+            9,
+            11
+          ],
+          "text": "MZ",
+          "meaning": "MZ"
+        },
+        {
+          "pos": [
+            11,
+            13
+          ],
+          "text": "HQ",
+          "meaning": "HQ (hohe Qualität)"
+        },
+        {
+          "pos": [
+            11,
+            14
+          ],
+          "text": "HQR",
+          "meaning": "HQR (heilig, akkad. qarrādu?)"
+        },
+        {
+          "pos": [
+            14,
+            17
+          ],
+          "text": "SAN",
+          "meaning": "SAN (Sonne, sumer.)"
+        },
+        {
+          "pos": [
+            15,
+            17
+          ],
+          "text": "AN",
+          "meaning": "AN (Himmel, sumer.)"
+        }
+      ],
+      "subwords_count": 13
+    },
+    {
+      "nr": 6,
+      "name": "Lebens-Reich (Vollendung)",
+      "latin": "LRUAZBEHIMLAZANRUAZBENOMBARAZHQRSAN",
+      "hebrew": "לצשאזבהחטמלאזאנצשאזבהנסמבאצאזחפצקאנ",
+      "subwords_found": [
+        {
+          "pos": [
+            0,
+            2
+          ],
+          "text": "LR",
+          "meaning": "LR"
+        },
+        {
+          "pos": [
+            0,
+            3
+          ],
+          "text": "LRU",
+          "meaning": "LRU (Licht-Ru?)"
+        },
+        {
+          "pos": [
+            1,
+            3
+          ],
+          "text": "RU",
+          "meaning": "RU (Geist, akkad.)"
+        },
+        {
+          "pos": [
+            3,
+            5
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            5,
+            7
+          ],
+          "text": "BE",
+          "meaning": "BE (Herr, sumer.)"
+        },
+        {
+          "pos": [
+            5,
+            10
+          ],
+          "text": "BEHIM",
+          "meaning": "BEHIM (Tiere, akkad. plural)"
+        },
+        {
+          "pos": [
+            7,
+            10
+          ],
+          "text": "HIM",
+          "meaning": "HIM (sie, akkad.)"
+        },
+        {
+          "pos": [
+            10,
+            12
+          ],
+          "text": "LA",
+          "meaning": "LA (Negation, akkad.)"
+        },
+        {
+          "pos": [
+            11,
+            13
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            12,
+            15
+          ],
+          "text": "ZAN",
+          "meaning": "ZAN (Volk, akkad.)"
+        },
+        {
+          "pos": [
+            13,
+            15
+          ],
+          "text": "AN",
+          "meaning": "AN (Himmel, sumer.)"
+        },
+        {
+          "pos": [
+            15,
+            17
+          ],
+          "text": "RU",
+          "meaning": "RU (Geist, akkad.)"
+        },
+        {
+          "pos": [
+            17,
+            19
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            19,
+            21
+          ],
+          "text": "BE",
+          "meaning": "BE (Herr, sumer.)"
+        },
+        {
+          "pos": [
+            20,
+            22
+          ],
+          "text": "EN",
+          "meaning": "EN (Herr, sumer.)"
+        },
+        {
+          "pos": [
+            20,
+            24
+          ],
+          "text": "ENOM",
+          "meaning": "ENOM (in uns)"
+        },
+        {
+          "pos": [
+            21,
+            24
+          ],
+          "text": "NOM",
+          "meaning": "NOM (Gesetz, griech. nomos)"
+        },
+        {
+          "pos": [
+            21,
+            26
+          ],
+          "text": "NOMBA",
+          "meaning": "NOMBA (Gesetz-Bindung)"
+        },
+        {
+          "pos": [
+            23,
+            26
+          ],
+          "text": "MBA",
+          "meaning": "MBA (M. B. A.?)"
+        },
+        {
+          "pos": [
+            24,
+            26
+          ],
+          "text": "BA",
+          "meaning": "BA (Seele, ägypt.)"
+        },
+        {
+          "pos": [
+            25,
+            29
+          ],
+          "text": "ARAZ",
+          "meaning": "ARAZ (Erdreich, akkad. erṣetu)"
+        },
+        {
+          "pos": [
+            26,
+            29
+          ],
+          "text": "RAZ",
+          "meaning": "RAZ (Geheimnis, hebr.)"
+        },
+        {
+          "pos": [
+            27,
+            29
+          ],
+          "text": "AZ",
+          "meaning": "AZ (Stärke, akkad.)"
+        },
+        {
+          "pos": [
+            29,
+            31
+          ],
+          "text": "HQ",
+          "meaning": "HQ (hohe Qualität)"
+        },
+        {
+          "pos": [
+            29,
+            32
+          ],
+          "text": "HQR",
+          "meaning": "HQR (heilig, akkad. qarrādu?)"
+        },
+        {
+          "pos": [
+            32,
+            35
+          ],
+          "text": "SAN",
+          "meaning": "SAN (Sonne, sumer.)"
+        },
+        {
+          "pos": [
+            33,
+            35
+          ],
+          "text": "AN",
+          "meaning": "AN (Himmel, sumer.)"
+        }
+      ],
+      "subwords_count": 27
+    }
+  ],
+  "tajpala": [
+    {
+      "phase_nr": 1,
+      "hebrew": "בשצשמשרצהואמרש",
+      "tajpala": "Beschasmshertzhaomarsh",
+      "source": "gtx"
+    },
+    {
+      "phase_nr": 2,
+      "hebrew": "נשצהקשר",
+      "tajpala": "We would like to contact you",
+      "source": "gtx"
+    },
+    {
+      "phase_nr": 3,
+      "hebrew": "צהגשמואיאעקש",
+      "tajpala": "I was stubborn",
+      "source": "gtx"
+    },
+    {
+      "phase_nr": 4,
+      "hebrew": "אזבהחטמלאזאנצש",
+      "tajpala": "Azabahhatmalazanchesh",
+      "source": "gtx"
+    },
+    {
+      "phase_nr": 5,
+      "hebrew": "אזבהנסמבאמזחפצקאנ",
+      "tajpala": "Ezbhansambamzahpatzkan",
+      "source": "gtx"
+    },
+    {
+      "phase_nr": 6,
+      "hebrew": "לצשאזבהחטמלאזאנצשאזבהנסמבאצאזחפצקאנ",
+      "tajpala": "Lechazbahhatmelazanchazbehansambatzazhaftskan",
+      "source": "gtx"
+    }
+  ],
+  "gematria_bridges": [
+    {
+      "phase_nr": 1,
+      "phase_name": "Schöpfungs-Akt (Vorspann)",
+      "phase_latin": "BURUMUTREFAMTU",
+      "phase_hebrew": "בשצשמשרצהואמרש",
+      "phase_gematria": 1874,
+      "nearest_verse_gematria": 1870,
+      "diff": 4
+    },
+    {
+      "phase_nr": 2,
+      "phase_name": "Same-Wurzel",
+      "phase_latin": "NURESUT",
+      "phase_hebrew": "נשצהקשר",
+      "phase_gematria": 1045,
+      "nearest_verse_gematria": 1284,
+      "diff": 239
+    },
+    {
+      "phase_nr": 3,
+      "phase_name": "Schöpfungs-Wurzeln (immateriell)",
+      "phase_latin": "REGUMFAYAPSU",
+      "phase_hebrew": "צהגשמואיאעקש",
+      "phase_gematria": 926,
+      "nearest_verse_gematria": 1284,
+      "diff": 358
+    },
+    {
+      "phase_nr": 4,
+      "phase_name": "Wanderung (Wasser-Reich)",
+      "phase_latin": "AZBEHIMLAZANRU",
+      "phase_hebrew": "אזבהחטמלאזאנצש",
+      "phase_gematria": 551,
+      "nearest_verse_gematria": 248,
+      "diff": 303
+    },
+    {
+      "phase_nr": 5,
+      "phase_name": "Schrift-Vollendung (Festland-Reich)",
+      "phase_latin": "AZBENOMBAMZHQRSAN",
+      "phase_hebrew": "אזבהנסמבאמזחפצקאנ",
+      "phase_gematria": 544,
+      "nearest_verse_gematria": 248,
+      "diff": 296
+    },
+    {
+      "phase_nr": 6,
+      "phase_name": "Lebens-Reich (Vollendung)",
+      "phase_latin": "LRUAZBEHIMLAZANRUAZBENOMBARAZHQRSAN",
+      "phase_hebrew": "לצשאזבהחטמלאזאנצשאזבהנסמבאצאזחפצקאנ",
+      "phase_gematria": 1566,
+      "nearest_verse_gematria": 1453,
+      "diff": 113
+    }
+  ],
+  "sec_positions": [
+    {
+      "pos": 1,
+      "phase_nr": 1,
+      "phase_name": "Schöpfungs-Akt (Vorspann)",
+      "local_offset": 1,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 3,
+      "phase_nr": 1,
+      "phase_name": "Schöpfungs-Akt (Vorspann)",
+      "local_offset": 3,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 5,
+      "phase_nr": 1,
+      "phase_name": "Schöpfungs-Akt (Vorspann)",
+      "local_offset": 5,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 13,
+      "phase_nr": 1,
+      "phase_name": "Schöpfungs-Akt (Vorspann)",
+      "local_offset": 13,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 15,
+      "phase_nr": 2,
+      "phase_name": "Same-Wurzel",
+      "local_offset": 1,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 19,
+      "phase_nr": 2,
+      "phase_name": "Same-Wurzel",
+      "local_offset": 5,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 24,
+      "phase_nr": 3,
+      "phase_name": "Schöpfungs-Wurzeln (immateriell)",
+      "local_offset": 3,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 32,
+      "phase_nr": 3,
+      "phase_name": "Schöpfungs-Wurzeln (immateriell)",
+      "local_offset": 11,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 46,
+      "phase_nr": 4,
+      "phase_name": "Wanderung (Wasser-Reich)",
+      "local_offset": 13,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 66,
+      "phase_nr": 6,
+      "phase_name": "Lebens-Reich (Vollendung)",
+      "local_offset": 2,
+      "letter": "U",
+      "hebrew": "ש"
+    },
+    {
+      "pos": 80,
+      "phase_nr": 6,
+      "phase_name": "Lebens-Reich (Vollendung)",
+      "local_offset": 16,
+      "letter": "U",
+      "hebrew": "ש"
+    }
+  ],
+  "tora_fold": {
+    "observation": "BURUMUT hat 6 Phasen, Tora hat 5 Bücher.",
+    "hypotheses": [
+      "H1: P1 = 1 Layer (Vorspann = Genesis 1:1-2 Kontext), P2-P6 = 5 Layer = 5 Bücher Mose",
+      "H2: P1 + P2 = \"Schöpfungs-Doppelschlag\" (1+1 Layer = zusammen = Genesis-Vorspann)",
+      "H3: P1-P6 = 6 Stufen einer 5-stufigen Tora, P6 = Vollendung des 5. Buches",
+      "H4: P1-P5 = 5 Layer, P6 = ECHO/Epilog (Selbst-Reproduktion)"
+    ],
+    "phase_lengths": [
+      14,
+      7,
+      12,
+      14,
+      17,
+      35
+    ],
+    "phase_sum": 99,
+    "check_5_layer_mapping": {
+      "P1 (14) + P6_first14 (14) = 28 ≈ 4×7": true,
+      "P3 (12) + P4 (14) + P5 (17) = 43 ≈ :": true,
+      "P1+P2+P3 = 33 = 3 × 11 (Sec-Anker)": 33
+    }
+  },
+  "monte_carlo": {
+    "test": "Phasen-Längen-Varianz vs. zufällige 6-Phasen-Aufteilung",
+    "actual_variance": 77.58333333333333,
+    "mean_random_variance": 180.42333333333335,
+    "p_variance_lower": 0.135,
+    "num_trials": 1000,
+    "interpretation": "Die Phasen-Längen-Varianz 77.58 ist zu 86.5% kleiner als der Median. p=0.135"
+  },
+  "monte_carlo_gematria": {
+    "p1_gematria_1874_close_to_gen_1_9_10": {
+      "actual": 1874,
+      "target": 1870,
+      "diff": 4,
+      "p_value": 0.0,
+      "n": 5000,
+      "verdict": "HOCH SIGNIFIKANT"
+    },
+    "sum_exactly_6503": {
+      "actual": 6503,
+      "p_value": 0.0,
+      "n": 5000,
+      "verdict": "HOCH SIGNIFIKANT"
+    },
+    "p4_gematria_exactly_551": {
+      "actual": 551,
+      "p_value": 0.0016,
+      "n": 5000,
+      "verdict": "signifikant"
+    },
+    "11_sec_in_99_chars": {
+      "p_value": 0.1166,
+      "verdict": "NICHT signifikant"
+    }
+  },
+  "consistency_check": {
+    "note": "User-Phasen und existing-Phasen (BURUMUT_PHASES.py) summieren BEIDE zu 99, aber schneiden an unterschiedlichen Positionen. Beide sind konsistente (verschiedene) Aufteilungen. Auffällig: User-P4 (Position 33-47) = \"אזבהחטמלאזאנצ\" erscheint verbatim in existing-P3 UND existing-P5 (Gematria 551 in beiden).",
+    "user_phases_gematria": [
+      {
+        "P1": 1874,
+        "P2": 1045,
+        "P3": 923,
+        "P4": 551,
+        "P5": 544,
+        "P6": 1566,
+        "sum": 6503
+      }
+    ],
+    "existing_phases_gematria": [
+      {
+        "P1": 1924,
+        "P2": 1448,
+        "P3": 551,
+        "P4": 964,
+        "P5": 551,
+        "P6": 895,
+        "P_eq_uebergang": 170,
+        "sum": 6503
+      }
+    ],
+    "shared_gematria_551": "User-P4 == Existing-P3 == Existing-P5"
+  },
+  "apophenie_liste": {
+    "URUMUTRE summiert zu 137": "Monte Carlo 48%, p=0.5",
+    "BURUMUT als Amharisch": "Ge'ez hat keine Vokale — widerlegt",
+    "99+1232=1331=11³": "Zufall — n.a.",
+    "100% Phi-Vielfache": "Toleranz-Artefakt — n.a.",
+    "Markov-Entropie 1.62 = \"geheim\"": "Alphabet-Bias — n.a."
+  }
+}

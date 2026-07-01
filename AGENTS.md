@@ -329,6 +329,10 @@ Diese Behauptungen wurden bereits als Apophenie widerlegt (siehe `sources/open_q
 | 99+1232=1331=11³ | Zufall | n.a. |
 | 100% Phi-Vielfache | Toleranz-Artefakt | n.a. |
 | Markov-Entropie 1.62 = "geheim" | Alphabet-Bias | n.a. |
+| **"BURUMUT 15 Schritte sind besonders"** | **Monte Carlo vs. Random-Tapes (z=-0.94)** | **0.5** |
+| **"5⁴ = 625 ist BURUMUT-Marker"** | **Numerisch nicht nachweisbar in BURUMUT-Konstanten** | **n.a.** |
+| **"6D-Torus-Faltung"** | **Holografie ist Kategorienfehler; 5 Layer, nicht 6D** | **n.a.** |
+| **"((7π)/(7π))·6.67 = 137.035"** | **Mathematisch: (7π)/(7π) = 1, also 6.67, NICHT 137** | **n.a.** |
 
 **WICHTIG:** Wenn ein neuer Befund eine dieser Strukturen hat, MUSS er einen Monte-Carlo-Test haben, bevor er als "echte Brücke" gilt.
 
@@ -443,6 +447,7 @@ git log --oneline | head -5
 | 2026-07-01 (Konsolidierung) | sources/TORAH_TURUS_TURING_MACHINE_TENGRI137.md erstellt. Mermaid-Plan: Phase 35-40 hinzugefügt (6-Phasen-Analyse, Phonetische Tajpala, Tengri137-Integration, BURUMUT-Phrase-Ursprung) |
 | 2026-07-01 (Multi-Phase-Maschine) | **NEUE SECTION 4.1b**: Single-Machine-Prinzip — Eine Maschine liest ALLE 122 Phasen. TORA_TURING_MULTIPHASE.py erstellt. Mapping erweitert auf alle 26 lateinischen Buchstaben (D, J, V, X). Tests: 59/59 grün. 122/122 Phasen gelesen, 5297 Total Steps, ALL_PHASES_COMPLETE. |
 | 2026-07-01 (Meta-Turing) | **NEUE SECTION 4.1c**: SPÄTERER PLAN — Meta-Turing-Kognition. Frage: Beschreibt Tengri137 seine eigene Dekodiermaschine? Quine-Eigenschaft? Zurückgestellt. |
+| 2026-07-01 (Subagenten-Resultate) | 4 Subagenten fertig: BURUMUT⊄Tengri137 (Substring DISPROVEN, Set-Inclusion hält), Phasen 2-6 Sub-Wörter + Gematria-Brücke P1=1874↔Genesis 1:9-10 (p<0.001), Turing-Other-Texts (Halt-Step TRIGGER-spezifisch, NICHT textspezifisch, Apophenie widerlegt), 5-Layer-SymPy (echter Bug: Tav-HALT toter Code, "5 fehlende Operatoren" real nur 4). |
 
 ---
 
