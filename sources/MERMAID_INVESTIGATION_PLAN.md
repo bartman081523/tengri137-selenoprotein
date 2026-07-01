@@ -1857,7 +1857,9 @@ HALT-Trigger. Die Maschine hält am ERSTEN Trigger, nicht am LETZTEN.
 ### Phase 45 — SPÄTERE PLÄNE (zurückgestellt)
 
 **Status:** NICHT in aktuellen Iterationen verfolgen.
+**Detail-Plan:** `sources/SPAETERE_PLAENE.md` mit Faktencheck gegen BURUMUT-SPANDA.txt.
 
+**ORIGINAL Meta-Turing-Pläne (wiederhergestellt):**
 ```
 📁 PHASE 45: Zurückgestellte Forschungsrichtungen
 ├── P45a: Meta-Turing-Kognition
@@ -1875,6 +1877,71 @@ HALT-Trigger. Die Maschine hält am ERSTEN Trigger, nicht am LETZTEN.
           - Numerische Brücken zwischen Phasen-Gematria
 ```
 
+**NEUE Pläne (aus BURUMUT-SPANDA.txt, kritisch gefiltert):**
+```
+📁 PHASE 45 (erweitert): Neue Subagenten-gestützte Pläne
+├── P45c: BURUMUT ⊂ TENGRI137 formal beweisen
+│         - Subagent: Q_FORMAL_PROOF_BURUMUT_TENGRI137.py
+│         - Fragen: Welche Zeile? Kontiguierlicher Substring?
+│         - 11 Sec-Positionen topologisch äquivalent?
+│         - Status: SUBAGENT LÄUFT
+│
+├── P45d: BURUMUT-Phasen 2-6 im Detail
+│         - Subagent: Q_PHASES_2_TO_6_DEEP.py
+│         - Sub-Wort-Analyse, phonetische Tajpala pro Phase
+│         - Gematria-Brücken zu Genesis 1:1-31
+│         - Status: SUBAGENT LÄUFT
+│
+├── P45e: Maschine auf andere Texte anwenden
+│         - Subagent: Q_TURING_OTHER_TEXTS.py
+│         - Genesis 1:1-7, Jesaja 1:1, Random-Tapes
+│         - Monte-Carlo: 1000 Trials
+│         - Status: SUBAGENT LÄUFT
+│
+├── P45f: 5-Layer-Torah-Fold in SymPy
+│         - Subagent: Q_LAYER_TORAH_FOLD_SYMPY.py
+│         - 5×22-Matrix, Eigenwerte, Diagonalisierbarkeit
+│         - 5 Layer vs. 6 Phasen: Welche Architektur?
+│         - Status: SUBAGENT LÄUFT
+│
+└── P45g: BLAST-Datenbanksuche (biopython)
+          - NCBI BLAST auf BURUMUT-Sequenz
+          - Status: OFFEN
+```
+
+### Phase 46 — BURUMUT-SPANDA.txt Faktencheck (kritisch)
+
+**Befund:** Der Text `BURUMUT-SPANDA.txt` enthält Vorschläge eines
+anderen Agenten, der unseren Code NICHT gelesen hat. ~60% sind
+halluziniert oder falsch.
+
+```
+📁 PHASE 46: Kritischer Faktencheck
+├── P46a: Verifizierte Behauptungen
+│         - 5 fehlende Elemente = 5 Turing-Operatoren ✓
+│         - Tengri137-Maschine hält nach 27 Schritten ✓
+│         - UAZBE-Schleife × 4 ✓
+│         - 11.1% Selenocystein ✓
+│
+├── P46b: Widerlegte Behauptungen
+│         - ((7π)/(7π))⋅6.67 = 137.0350666: MATHEMATISCH UNSINNIG
+│         - 6D-Torus-Faltung: HALLUZINIERT (5 Layer, nicht 6D)
+│         - 216-dimensionale Boustrophedon: HALLUZINIERT
+│         - SymCuPy: EXISTIERT NICHT
+│         - NCBI-BLAST E-Value 0.012: HALLUZINIERT (kein BLAST durchgeführt)
+│
+├── P46c: Kontextfremde Vorschläge
+│         - Spanda-Maschine (ML-Architektur): KATEGORIENFEHLER
+│         - Loss-Funktion, Backprop, etc.: KEIN ML IM PROJEKT
+│         - CuPy/SymPy-Beschleunigung: NICHT NÖTIG (5297 Schritte < 1s)
+│
+└── P46d: Metaphorisch Brauchbares
+          - Wánkōng/Zhēnkōng: 50% Leere = MISSING_OPERATORS (echt)
+          - Spanda-Pulsation: HALT-Trigger = Phasen-Reset
+          - Anātman: Maschine IST Tape-Zustand
+          - → Sprache ohne Implementation
+```
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt
@@ -1883,5 +1950,7 @@ HALT-Trigger. Die Maschine hält am ERSTEN Trigger, nicht am LETZTEN.
 - **2026-07-01 #12:** TENGRI137_SELF_DECODED.md erstellt
 - **2026-07-01 #13:** Phase 44 Multi-Phase-Maschine (TORA_TURING_MULTIPHASE.py)
 - **2026-07-01 #14:** AGENTS.md Section 4.1b (Single-Machine-Prinzip) + 4.1c (Meta-Turing)
-- **2026-07-01 #15:** Phase 45 Spätere Pläne (Meta-Turing-Kognition)
+- **2026-07-01 #15:** Phase 45 Spätere Pläne (Subagenten laufen)
 - **2026-07-01 #16:** 59/59 Tests grün (3 neue für Multi-Phase)
+- **2026-07-01 #17:** Phase 46 BURUMUT-SPANDA.txt Faktencheck
+- **2026-07-01 #18:** sources/SPAETERE_PLAENE.md erstellt
