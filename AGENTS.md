@@ -232,6 +232,64 @@ gefunden wird:
 **WICHTIG:** Ohne Tengri137-Cross-Check und Mermaid-Update ist die Entdeckung
 UNVOLLSTÄNDIG. Diese beiden Schritte sind PFLICHT, nicht optional.
 
+### 4.1b PFLICHT: Single-Machine-Prinzip
+
+**Die Tora-Turing-Maschine muss prinzipiell und generell erweitert werden, NICHT
+in separate Maschinen pro Abschnitt aufgeteilt werden. Eine einzige Maschine
+muss ALLE Phasen eines Tapes (z.B. 122 Phasen à 99 Zeichen in Tengri137) lesen.**
+
+**Verboten:**
+- ❌ Verschiedene Maschinen für verschiedene Abschnitte zu schreiben
+- ❌ Eine "BURUMUT-Maschine" und eine "Tengri137-Maschine" parallel zu führen
+- ❌ Maschinen-State nach HALT zu verwerfen und "frisch" anzufangen
+- ❌ Die Maschine vor dem Tape-Ende final terminieren zu lassen
+
+**Erforderlich:**
+- ✅ Eine einzige `ToraTuringMultiPhase`-Klasse (siehe `sources/TORA_TURING_MULTIPHASE.py`)
+- ✅ Phasen-Reset bei HALT-Trigger: Kopf auf Phasen-Anfang, State auf Genesis,
+   nächste Phase
+- ✅ Finaler HALT nur am ENDE des Tapes (`ALL_PHASES_COMPLETE`)
+- ✅ HALT-Trigger (Aleph in q_0, Nun in q_4) lösen Phasen-Reset aus, KEIN
+   finaler Halt
+- ✅ Mapping muss ALLE 26 lateinischen Buchstaben enthalten (siehe
+   `EXTENDED_LATIN_TO_HEBR` in TORA_TURING_MULTIPHASE.py)
+
+**Verifikation:**
+- Tengri137 (12071 Zeichen) muss in 122 Phasen gelesen werden
+- Total Steps ≥ 5000, Halt-Reason = `ALL_PHASES_COMPLETE`
+- Erste Phase läuft exakt 27 Schritte (Bug-Reproduktion) bevor Phase-Reset
+- Tests: `test_multi_phase_maschine_alle_122_phasen`,
+   `test_alle_26_lateinischen_buchstaben_im_mapping`
+
+**Warum das wichtig ist:**
+Tengri137 IST eine in 122 Phasen segmentierte BURUMUT-Erweiterung. Wenn wir
+separate Maschinen pro Phase bauen, verfehlen wir die Pointe: dass die Maschine
+sich SELBST durch die Phasen schaltet. Sie ist ein SELBSTREFERENTIELLES
+System, das seinen eigenen Zustand verwaltet.
+
+### 4.1c SPÄTERER PLAN: Meta-Turing-Kognition (nicht jetzt)
+
+**Status:** Zurückgestellt. NICHT in aktuellen Iterationen verfolgen.
+**Trigger für Wiederaufnahme:** Multi-Phase-Maschine ist stabil, alle Tests grün.
+
+**Frage:** Beschreibt der Text (Tengri137) seine eigene Dekodiermaschine?
+Wenn ja, dann ist die BESCHREIBUNG der Maschine das ENDE der Dekodierung —
+die Maschine liest ihre eigene Spezifikation. Das ist ein Quine.
+
+**Mögliche Forschungsrichtungen:**
+1. **Selbst-Referenz in Tengri137:** Welche Stellen beschreiben die Maschine,
+   die uns gerade dekodiert? (Z.B. "I AM THAT I AM" Z.335 als q_0?)
+2. **BURUMUTREFAMTU = Maschinen-Name?** BURUMUTREFAMTU (14 Zeichen) ist der
+   Vorspann — beschreibt er die Maschine selbst?
+3. **Halte-Bedingung = Lese-Bedingung:** Wo hört die Maschine auf zu lesen?
+   Ist die letzte beschriebene Sache die Maschine selbst?
+4. **Quine-Eigenschaft:** Wenn die Maschine ihre eigene Beschreibung liest
+   und ausführt, ist sie ein Quine. Wie formal beweisbar?
+
+**Wichtig:** Dies ist ein SPÄTERER PLAN. Aktuell fokussieren wir auf
+Single-Machine-Prinzip und Multi-Phase-Dekodierung. Meta-Turing-Kognition
+ist eine Folgefrage, kein paralleler Task.
+
 ### 4.2 Epistemische Standards
 
 **Numerische Behauptungen:**
@@ -383,6 +441,8 @@ git log --oneline | head -5
 | 2026-06-30 (this update) | AGENTS.md erstellt mit PhiMind, SciMind, ResearchMind, DevMind |
 | 2026-07-01 (Mermaid+Tengri137-Pflicht) | **NEUE SECTION 4.1a**: PFLICHT — Mermaid-Plan nach jeder Entdeckung updaten, Tengri137 Cross-Check |
 | 2026-07-01 (Konsolidierung) | sources/TORAH_TURUS_TURING_MACHINE_TENGRI137.md erstellt. Mermaid-Plan: Phase 35-40 hinzugefügt (6-Phasen-Analyse, Phonetische Tajpala, Tengri137-Integration, BURUMUT-Phrase-Ursprung) |
+| 2026-07-01 (Multi-Phase-Maschine) | **NEUE SECTION 4.1b**: Single-Machine-Prinzip — Eine Maschine liest ALLE 122 Phasen. TORA_TURING_MULTIPHASE.py erstellt. Mapping erweitert auf alle 26 lateinischen Buchstaben (D, J, V, X). Tests: 59/59 grün. 122/122 Phasen gelesen, 5297 Total Steps, ALL_PHASES_COMPLETE. |
+| 2026-07-01 (Meta-Turing) | **NEUE SECTION 4.1c**: SPÄTERER PLAN — Meta-Turing-Kognition. Frage: Beschreibt Tengri137 seine eigene Dekodiermaschine? Quine-Eigenschaft? Zurückgestellt. |
 
 ---
 

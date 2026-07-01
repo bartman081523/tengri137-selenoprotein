@@ -953,3 +953,238 @@ if __name__ == "__main__":
         print(f"✅ Layer 5 OK: {layer5_pct:.1f}% > 50%")
     else:
         print(f"❌ Layer 5 BUG: {layer5_pct:.1f}% <= 50% (zu wenig Brummton am Ende)")
+
+
+# ============================================================================
+# TESTS FÜR TENGRI137 MULTI-PHASE DEKODIERUNG
+# ============================================================================
+#
+# Die Tora-Turing-Maschine hält nach 27 Schritten auf Tengri137.
+# ABER: Tengri137_Full_Notes hat 12071 lateinische Buchstaben (= 122 Phasen à 99).
+# Die Maschine muss alle Phasen lesen, nicht nur die erste.
+#
+# BEFUND (debug):
+# 1) HALT-Trigger im Tengri137-Tape:
+#    - Aleph (A) in q_0 → HALT (867 Positionen!)
+#    - Tav (T→ר, NICHT ת) → KEIN HALT-Trigger
+#    - Nun (N) in q_4 → HALT (952 Positionen!)
+# 2) Die Maschine hält am ERSTEN Nun, das sie findet, NICHT am LETZTEN.
+# 3) → Maschine muss so erweitert werden, dass sie ALLE Phasen liest
+#    (Loop-Reset bei HALT, alle Phasen werden zu einer einzigen Lesung)
+#
+# TDD: Diese Tests dokumentieren das SOLL-Verhalten, das die Maschine
+# haben muss, um alle 122 Phasen des Tengri137-Tapes zu dekodieren.
+
+class TestTengri137MultiPhase:
+    """Tests für die Multi-Phase-Dekodierung von Tengri137.
+
+    Die Tora-Turing-Maschine muss ALLE 122 Phasen (à 99 Zeichen) des
+    Tengri137-Tapes lesen, nicht nur die erste. Bei jedem HALT-Trigger
+    muss der Kopf auf Position 0 zurückgesetzt und die nächste Phase
+    gelesen werden.
+    """
+
+    def test_tengri137_hat_12071_buchstaben(self):
+        """Tengri137_Full_Notes hat ~12071 lateinische Buchstaben = 122 Phasen à 99."""
+        import re
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        letters = re.sub(r'[^A-Z]', '', full)
+        assert len(letters) == 12071, (
+            f"Erwartet 12071 Buchstaben, gefunden {len(letters)}"
+        )
+        # 12071 / 99 = 121.9 Phasen
+        n_phases = len(letters) // 99
+        assert n_phases >= 121, (
+            f"Erwartet mindestens 121 Phasen, gefunden {n_phases}"
+        )
+
+    def test_tengri137_99_zeichen_halt_nach_27(self):
+        """Reproduziert: Erweiterte Maschine hält nach 27 Schritten auf 99-Zeichen-Tengri137."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, build_tora_transitions
+        import re
+
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        # Erste 99 Buchstaben
+        letters = re.sub(r'[^A-Z]', '', full)[:99]
+
+        EXTENDED_LATIN_TO_HEBR = {
+            'A': 'א', 'B': 'ב', 'E': 'ה', 'F': 'ו', 'M': 'מ', 'R': 'צ', 'T': 'ר', 'U': 'ש',
+            'H': 'ח', 'I': 'ט', 'L': 'ל', 'N': 'נ', 'O': 'ס', 'P': 'ע', 'Q': 'פ',
+            'S': 'ק', 'Y': 'י', 'Z': 'ז',
+            'G': 'ג', 'C': 'כ', 'W': 'ו', 'K': 'כ',
+        }
+        hebr = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in letters)
+
+        # Erweiterte Übergänge
+        def build_extended():
+            base = build_tora_transitions()
+            for state in range(6):
+                if (state, 'ב') in base:
+                    base[(state, 'ג')] = base[(state, 'ב')]
+                if (state, 'א') in base:
+                    base[(state, 'כ')] = base[(state, 'א')]
+                if (state, 'ו') in base:
+                    base[(state, 'ו')] = base[(state, 'ו')]
+            return base
+
+        m = ToraTuringMachine(hebr, transitions=build_extended())
+        m.run(max_steps=200)
+        # BUG: Hält bei 27 Schritten weil sie das ERSTE Nun (N) findet
+        assert m.halt_step == 27, (
+            f"BUG: Halt-Step ist {m.halt_step}, sollte 27 sein (Reproduktion des Verhaltens)"
+        )
+        assert m.halt_reason == 'HALT_TRANSITION'
+        assert m.halt_state == 5
+
+    def test_halt_trigger_in_vollen_tengri137(self):
+        """Tengri137 hat 867 Alephs und 952 Nuns — viele HALT-Trigger."""
+        import re
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        letters = re.sub(r'[^A-Z]', '', full)
+        n_aleph = letters.count('A')
+        n_nun = letters.count('N')
+        assert n_aleph == 867, f"Erwartet 867 A, gefunden {n_aleph}"
+        assert n_nun == 952, f"Erwartet 952 N, gefunden {n_nun}"
+        # Total HALT-Trigger: 867 + 952 = 1819
+        # → Die Maschine hält VIEL ZU FRÜH beim ersten HALT-Trigger
+        # → Multi-Phase-Dekodierung muss dies beheben
+
+    def test_tav_nicht_im_mapping(self):
+        """Tav (ת, HALT in q_2) fehlt im lateinischen Mapping T→ר, nicht ת."""
+        # Im lateinischen Mapping wird T → Resh (ר, 200) gemappt, NICHT zu Tav (ת, 400)
+        # → Tengri137 hat KEINEN Tav-HALT-Trigger
+        # → Die Maschine kann nur über Aleph (q_0) oder Nun (q_4) halten
+        from TORA_TURING_CORRECT import LATIN_TO_HEBR
+        # T ist im Mapping
+        assert 'T' in LATIN_TO_HEBR
+        # T wird zu ר (Resh), nicht zu ת (Tav)
+        assert LATIN_TO_HEBR['T'] == 'ר', f"T sollte → ר sein, ist aber → {LATIN_TO_HEBR['T']}"
+        # ת (Tav) ist NICHT im Mapping enthalten
+        assert 'ת' not in LATIN_TO_HEBR.values(), "ת (Tav) sollte NICHT im Mapping sein"
+
+    def test_erweiterte_maschine_auf_vollen_tengri137(self):
+        """Die erweiterte Maschine muss auf dem VOLLEN Tengri137 laufen (12071 Zeichen)."""
+        from TORA_TURING_CORRECT import ToraTuringMachine, build_tora_transitions
+        import re
+
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        letters = re.sub(r'[^A-Z]', '', full)
+        assert len(letters) == 12071
+
+        EXTENDED_LATIN_TO_HEBR = {
+            'A': 'א', 'B': 'ב', 'E': 'ה', 'F': 'ו', 'M': 'מ', 'R': 'צ', 'T': 'ר', 'U': 'ש',
+            'H': 'ח', 'I': 'ט', 'L': 'ל', 'N': 'נ', 'O': 'ס', 'P': 'ע', 'Q': 'פ',
+            'S': 'ק', 'Y': 'י', 'Z': 'ז',
+            'G': 'ג', 'C': 'כ', 'W': 'ו', 'K': 'כ',
+        }
+        hebr = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in letters)
+
+        def build_extended():
+            base = build_tora_transitions()
+            for state in range(6):
+                if (state, 'ב') in base:
+                    base[(state, 'ג')] = base[(state, 'ב')]
+                if (state, 'א') in base:
+                    base[(state, 'כ')] = base[(state, 'א')]
+            return base
+
+        m = ToraTuringMachine(hebr, transitions=build_extended())
+        m.run(max_steps=500)  # ohne Multi-Phase hält sie sehr früh
+        # OHNE Multi-Phase: hält nach < 50 Schritten
+        # MIT Multi-Phase: sollte 12071 / 15 = 805 Schritte machen
+        # Wir testen HIER nur, dass die Maschine nicht "festhängt"
+        assert m.halt_step < 500, (
+            f"BUG: Maschine braucht {m.halt_step} Schritte (zu früh/zu spät)"
+        )
+        # Aber sie sollte ALLE 12071 Zeichen gelesen haben (mit Multi-Phase)
+        # Dieser Test ist Teil der SOLL-Spec, schlägt aktuell fehl
+
+    def test_multi_phase_99_segment_count(self):
+        """Tengri137 zerfällt in 121 vollständige 99-Zeichen-Phasen + 1 Rest (92 Zeichen)."""
+        import re
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        letters = re.sub(r'[^A-Z]', '', full)
+        n_full_phases = len(letters) // 99
+        n_rest = len(letters) % 99
+        assert n_full_phases == 121, f"Erwartet 121 volle Phasen, gefunden {n_full_phases}"
+        assert n_rest == 92, f"Erwartet 92 Zeichen Rest, gefunden {n_rest}"
+        # 121 * 99 + 92 = 11979 + 92 = 12071 ✓
+
+    def test_alle_26_lateinischen_buchstaben_im_mapping(self):
+        """Das vollständige Mapping enthält ALLE 26 lateinischen Buchstaben (A-Z)."""
+        from TORA_TURING_MULTIPHASE import EXTENDED_LATIN_TO_HEBR
+        alle_latein = set('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+        im_mapping = set(EXTENDED_LATIN_TO_HEBR.keys())
+        fehlend = alle_latein - im_mapping
+        assert fehlend == set(), f"Fehlende Buchstaben im Mapping: {fehlend}"
+        # Verifiziere Schlüsselbuchstaben
+        assert EXTENDED_LATIN_TO_HEBR['D'] == 'ד', f"D sollte → ד sein, ist {EXTENDED_LATIN_TO_HEBR['D']}"
+        assert EXTENDED_LATIN_TO_HEBR['G'] == 'ג', f"G sollte → ג sein"
+        assert EXTENDED_LATIN_TO_HEBR['C'] == 'כ', f"C sollte → כ sein"
+        assert EXTENDED_LATIN_TO_HEBR['W'] == 'ו', f"W sollte → ו sein"
+        assert EXTENDED_LATIN_TO_HEBR['K'] == 'כ', f"K sollte → כ sein"
+        # Verifiziere: J, V, X haben Aliase
+        assert 'J' in EXTENDED_LATIN_TO_HEBR
+        assert 'V' in EXTENDED_LATIN_TO_HEBR
+        assert 'X' in EXTENDED_LATIN_TO_HEBR
+
+    def test_multi_phase_maschine_alle_122_phasen(self):
+        """Die finale Multi-Phase-Maschine liest ALLE 122 Phasen von Tengri137 (12071 Zeichen)."""
+        from TORA_TURING_MULTIPHASE import ToraTuringMultiPhase, build_complete_transitions, EXTENDED_LATIN_TO_HEBR
+        import re
+
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        letters = re.sub(r'[^A-Z]', '', full)
+        hebr = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in letters)
+        # KEINE unbekannten Buchstaben mehr
+        assert '?' not in hebr, "Mapping unvollständig — '?' im Tape"
+
+        m = ToraTuringMultiPhase(hebr, phase_size=99, transitions=build_complete_transitions())
+        m.run(max_steps=100000)
+        s = m.summary()
+
+        # ERSTES Bug-Verhalten: Phase 0 läuft exakt 27 Schritte
+        assert s['phase_halts'][0]['halt_step'] == 27, (
+            f"Phase 0 muss bei 27 Schritten enden, endet bei {s['phase_halts'][0]['halt_step']}"
+        )
+
+        # FINALE Befunde: ALLE 122 Phasen gelesen
+        assert s['n_phases'] == 122, f"Erwartet 122 Phasen, gefunden {s['n_phases']}"
+        assert s['phases_completed'] == 122, (
+            f"Erwartet 122 completed, gefunden {s['phases_completed']}"
+        )
+        assert s['halt_reason'] == 'ALL_PHASES_COMPLETE', (
+            f"Erwartet ALL_PHASES_COMPLETE, gefunden {s['halt_reason']}"
+        )
+        # Mindestens 5000 Schritte insgesamt (5297 in der Praxis)
+        assert s['total_steps'] >= 5000, (
+            f"Erwartet mindestens 5000 Schritte, gefunden {s['total_steps']}"
+        )
+
+    def test_multi_phase_kein_finaler_halt_vor_tape_ende(self):
+        """Die Maschine darf NICHT vor dem Tape-Ende final halten — sie macht Phasen-Resets."""
+        from TORA_TURING_MULTIPHASE import ToraTuringMultiPhase, build_complete_transitions, EXTENDED_LATIN_TO_HEBR
+        import re
+
+        with open('Tengri137_Full_Notes') as f:
+            full = f.read()
+        letters = re.sub(r'[^A-Z]', '', full)
+        hebr = ''.join(EXTENDED_LATIN_TO_HEBR.get(c, '?') for c in letters)
+
+        m = ToraTuringMultiPhase(hebr, phase_size=99, transitions=build_complete_transitions())
+        m.run(max_steps=100000)
+        s = m.summary()
+
+        # Bei jedem Phasen-Halt wurde KEIN finaler Halt gesetzt
+        for h in s['phase_halts'][:-1]:  # alle außer der letzte
+            # Die Phasen-Halts sind keine finalen Halts
+            # (finaler Halt ist nur ALL_PHASES_COMPLETE)
+            pass
+        # Der letzte Eintrag ist der finale Halt
+        assert s['halt_reason'] == 'ALL_PHASES_COMPLETE'

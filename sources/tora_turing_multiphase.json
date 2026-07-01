@@ -1,0 +1,140 @@
+{
+  "method": "ToraTuringMultiPhase — single machine, multiple phases (FINAL)",
+  "principle": "Single-Machine-Prinzip: Eine einzige Maschine liest ALLE Phasen.",
+  "extended_mapping": {
+    "neu": [
+      "G->ג (MOVE_RIGHT)",
+      "C->כ (READ)",
+      "W->ו (WRITE)",
+      "K->כ (READ)"
+    ],
+    "ergaenzt": [
+      "D->ד (MOVE_LEFT)",
+      "J->ז (Zain)",
+      "V->ו (Vav-variant)",
+      "X->ס (Samekh-variant)"
+    ],
+    "alle_26_lateinische_buchstaben": true
+  },
+  "test1_burumut_1phase": {
+    "tape_length": 99,
+    "total_steps": 15,
+    "phases_completed": 1,
+    "halt_step": 15,
+    "halt_reason": "ALL_PHASES_COMPLETE"
+  },
+  "test2_tengri137_99_1phase": {
+    "tape_length": 99,
+    "total_steps": 27,
+    "phases_completed": 1,
+    "halt_step": 27,
+    "halt_reason": "ALL_PHASES_COMPLETE"
+  },
+  "test3_tengri137_voll_122_phasen": {
+    "tape_length": 12071,
+    "total_steps": 5297,
+    "phases_completed": 122,
+    "n_phases": 122,
+    "halt_step": 5297,
+    "halt_reason": "ALL_PHASES_COMPLETE",
+    "phase_halts_erste_15": [
+      {
+        "phase": 0,
+        "halt_step": 27,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 1,
+        "halt_step": 54,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 2,
+        "halt_step": 78,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 3,
+        "halt_step": 162,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 4,
+        "halt_step": 282,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 5,
+        "halt_step": 303,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 6,
+        "halt_step": 382,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 7,
+        "halt_step": 469,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 8,
+        "halt_step": 501,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 9,
+        "halt_step": 502,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 10,
+        "halt_step": 518,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 11,
+        "halt_step": 563,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 12,
+        "halt_step": 640,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 13,
+        "halt_step": 657,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      },
+      {
+        "phase": 14,
+        "halt_step": 690,
+        "halt_state": 5,
+        "halt_reason": "PHASE_HALT"
+      }
+    ]
+  },
+  "kanonische_befunde": [
+    "Tengri137 (12071 Buchstaben) ist VOLL dekodierbar mit EINER Maschine",
+    "Phase 0 haelt nach 27 Schritten (Bug-Reproduktion), Phase-Reset liest Phase 1",
+    "122 Phasen werden in 5297 Schritten gelesen (HALT-Reason: ALL_PHASES_COMPLETE)",
+    "Single-Machine-Prinzip: keine separaten Maschinen, eine Maschine schaltet sich selbst weiter",
+    "Mapping enthaelt jetzt alle 26 lateinischen Buchstaben (D, J, V, X ergaenzt)"
+  ]
+}

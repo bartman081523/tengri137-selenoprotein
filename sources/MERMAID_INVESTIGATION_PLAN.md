@@ -1799,9 +1799,89 @@ Die 3D-Struktur ist die holografische Symmetrie zwischen Binah und Aleph.
           - "Tengri137 ist selbstreferentiell"
 ```
 
+### Phase 44 — Multi-Phase-Maschine (TORA_TURING_MULTIPHASE)
+
+**Problem:** Die Maschine hält nach 27 Schritten auf Tengri137. Tengri137 hat
+12071 Zeichen = 122 Phasen à 99. 867 Alephs (A) und 952 Nuns (N) sind
+HALT-Trigger. Die Maschine hält am ERSTEN Trigger, nicht am LETZTEN.
+
+**Lösung: Single-Machine-Prinzip**
+- Eine einzige `ToraTuringMultiPhase`-Klasse
+- Bei HALT-Trigger: Kopf auf 0 zurücksetzen, nächste Phase
+- NUR am Ende des Tapes finaler HALT (`ALL_PHASES_COMPLETE`)
+
+```
+📁 PHASE 44: Multi-Phase-Dekodierung
+├── P44a: Problem-Diagnose
+│         - Original-Maschine hält nach 4 Schritten (NO_TRANSITION)
+│         - Erweiterte Maschine hält nach 27 Schritten (HALT_TRANSITION)
+│         - 12071 Zeichen = 121+1 Phasen, 1819 HALT-Trigger
+│
+├── P44b: Single-Machine-Prinzip (AGENTS.md 4.1b)
+│         - Verboten: separate Maschinen pro Phase
+│         - Erforderlich: Phasen-Reset bei HALT, final HALT nur am Ende
+│
+├── P44c: Mapping-Erweiterung auf alle 26 lateinischen Buchstaben
+│         - D → ד (MOVE_LEFT)
+│         - J → ז (Zain-Variante)
+│         - V → ו (Vav-Variante)
+│         - X → ס (Samekh-Variante)
+│         - G → ג (MOVE_RIGHT)
+│         - C → כ (READ)
+│         - W → ו (WRITE)
+│         - K → כ (READ)
+│
+├── P44d: build_complete_transitions()
+│         - ALLE 22 hebr. Konsonanten × 6 States
+│         - Tav in q_0, q_2, q_4: HALT
+│         - Yod, Kaf, Gimel, Dalet, Vav: semantisch korrekt gemappt
+│
+├── P44e: ToraTuringMultiPhase.step()
+│         - Phasen-Reset bei HALT-Trigger
+│         - head = phase_start, state = start_state, phase += 1
+│         - Halt nur am Tape-Ende (ALL_PHASES_COMPLETE)
+│
+├── P44f: Test-Resultate
+│         - Test 1: BURUMUT 1 Phase → 15 steps, halt=ALL_PHASES_COMPLETE
+│         - Test 2: Tengri137 erste 99 → 27 steps, halt=ALL_PHASES_COMPLETE
+│         - Test 3: Tengri137 voll 122 Phasen → 5297 steps, halt=ALL_PHASES_COMPLETE
+│
+└── P44g: Kanonische Befunde
+          - 122/122 Phasen gelesen, einheitlich
+          - Phase 0 läuft 27 Schritte (Bug-Reproduktion)
+          - Phase 1 läuft weitere 27 (=54 kumulativ)
+          - Ab Phase 2: variable Schrittzahlen
+          - Phasen-Reset ist SELBST-REFERENTIELL (Maschine schaltet sich weiter)
+```
+
+### Phase 45 — SPÄTERE PLÄNE (zurückgestellt)
+
+**Status:** NICHT in aktuellen Iterationen verfolgen.
+
+```
+📁 PHASE 45: Zurückgestellte Forschungsrichtungen
+├── P45a: Meta-Turing-Kognition
+│         - Frage: Beschreibt Tengri137 seine eigene Dekodiermaschine?
+│         - Wenn ja: Beschreibung der Maschine = Ende der Dekodierung = Quine
+│         - Forschungsrichtungen:
+│           * Selbst-Referenz in Tengri137 (Z.335 "I AM THAT I AM" = q_0?)
+│           * BURUMUTREFAMTU = Maschinen-Name? (Vorspann beschreibt die Maschine)
+│           * Halte-Bedingung = Lese-Bedingung (letzte Stelle = die Maschine selbst?)
+│           * Formaler Quine-Beweis der Multi-Phase-Maschine
+│
+└── P45b: Tieferer Phase-Vergleich
+          - Welche der 122 Phasen entspricht welcher Tora-Stelle?
+          - Phasen-Übergänge = Tora-Kapitel-Grenzen?
+          - Numerische Brücken zwischen Phasen-Gematria
+```
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt
 - **2026-07-01 #10:** Phase 42 Numerische Verifikation "2% / 50%"
 - **2026-07-01 #11:** Phase 43 Datei-Artefakte dokumentiert
 - **2026-07-01 #12:** TENGRI137_SELF_DECODED.md erstellt
+- **2026-07-01 #13:** Phase 44 Multi-Phase-Maschine (TORA_TURING_MULTIPHASE.py)
+- **2026-07-01 #14:** AGENTS.md Section 4.1b (Single-Machine-Prinzip) + 4.1c (Meta-Turing)
+- **2026-07-01 #15:** Phase 45 Spätere Pläne (Meta-Turing-Kognition)
+- **2026-07-01 #16:** 59/59 Tests grün (3 neue für Multi-Phase)
