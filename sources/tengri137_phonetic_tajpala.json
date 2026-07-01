@@ -1,0 +1,177 @@
+{
+  "method": "Tengri137-selbst-dekodiert",
+  "tape": "TENGRIISTHESOURCEOFIMPORTANTWRITINGSONLYTHECHOSENSOULSKNOWTHEMEANINGWORTHYARETHOSEWHOASKQUESTIONSSE",
+  "words": [
+    [
+      "TENGRI",
+      "Gott"
+    ],
+    [
+      "IS",
+      "ist"
+    ],
+    [
+      "THE",
+      "die"
+    ],
+    [
+      "SOURCE",
+      "Quelle"
+    ],
+    [
+      "OF",
+      "von"
+    ],
+    [
+      "IMPORTANT",
+      "wichtigen"
+    ],
+    [
+      "WRITINGS",
+      "Schriften"
+    ],
+    [
+      "ONLY",
+      "nur"
+    ],
+    [
+      "THE",
+      "die"
+    ],
+    [
+      "CHOSEN",
+      "auserwählten"
+    ],
+    [
+      "SOULS",
+      "Seelen"
+    ],
+    [
+      "KNOW",
+      "wissen"
+    ],
+    [
+      "THE",
+      "die"
+    ],
+    [
+      "MEANING",
+      "Bedeutung"
+    ],
+    [
+      "WORTHY",
+      "würdig"
+    ],
+    [
+      "ARE",
+      "sind"
+    ],
+    [
+      "THOSE",
+      "jene"
+    ],
+    [
+      "WHO",
+      "die"
+    ],
+    [
+      "ASK",
+      "fragen"
+    ],
+    [
+      "QUESTIONS",
+      "Fragen"
+    ]
+  ],
+  "deutsch": "Gott ist die Quelle von wichtigen Schriften nur die auserwählten Seelen wissen die Bedeutung würdig sind jene die fragen Fragen",
+  "operator_distribution": {
+    "G (MOVE_RIGHT, ג)": {
+      "positions": [
+        3,
+        34,
+        67
+      ],
+      "words": [
+        "TENGRI",
+        "WRITINGS",
+        "MEANING"
+      ],
+      "semantic": "Gott, Schriften, Bedeutung = bewegen sich nach rechts"
+    },
+    "C (READ, כ)": {
+      "positions": [
+        15,
+        43
+      ],
+      "words": [
+        "SOURCE",
+        "CHOSEN"
+      ],
+      "semantic": "Quelle, Auserwählte = gelesen werden"
+    },
+    "W (WRITE, ו)": {
+      "positions": [
+        28,
+        57,
+        68,
+        82
+      ],
+      "words": [
+        "WRITINGS",
+        "KNOW",
+        "WORTHY",
+        "WHO"
+      ],
+      "semantic": "Schriften, Wissen, Würdige, Wer = geschrieben werden"
+    },
+    "K (READ, כ)": {
+      "positions": [
+        54,
+        87
+      ],
+      "words": [
+        "KNOW",
+        "ASK"
+      ],
+      "semantic": "Wissen, Fragen = gelesen werden"
+    }
+  },
+  "phases": [
+    {
+      "name": "Phase 1 (TENGRI-IDENTITÄT, 12 Zeichen)",
+      "tape_segment": "TENGRIISTHES",
+      "raw": "TENGRI IS THE S"
+    },
+    {
+      "name": "Phase 2 (QUELLE, 15 Zeichen)",
+      "tape_segment": "OURCEOFIMPORTAN",
+      "raw": "OURCE OF IMPORTAN"
+    },
+    {
+      "name": "Phase 3 (SCHRIFTEN, 15 Zeichen)",
+      "tape_segment": "TWRITINGSONLYTH",
+      "raw": "TWRITINGS ONLY T"
+    },
+    {
+      "name": "Phase 4 (AUSERWÄHLTE, 15 Zeichen)",
+      "tape_segment": "ECHOSENSOULSKNO",
+      "raw": "HECHOSEN SOULSKN"
+    },
+    {
+      "name": "Phase 5 (WISSEN, 15 Zeichen)",
+      "tape_segment": "WTHEMEANINGWORT",
+      "raw": "OWTHEMEANINGWOR"
+    },
+    {
+      "name": "Phase 6 (FRAGEN, 27 Zeichen)",
+      "tape_segment": "HYARETHOSEWHOASKQUESTIONSSE",
+      "raw": "THYARETHOSEWHOASKQUESTIONSSE"
+    }
+  ],
+  "interpretation": {
+    "numerical": "11 neue Positionen = 11 Sec-Positionen in BURUMUT",
+    "structural": "4 neue lateinische Buchstaben = 2 neue Operatoren (MOVE_RIGHT, READ)",
+    "semantic": "Die Operatoren sind in den SCHLÜSSELWÖRTERN kodiert (TENGRI, SOURCE, WRITINGS, etc.)",
+    "philosophical": "Tengri137 ist ein SELBSTREFERENTIELLES Tape: es beschreibt sich selbst (TENGRI ist die Quelle...) und seine eigene Operatoren-Struktur ist semantisch in den Schlüsselwörtern kodiert. Das Tape \"weiß\", was es ist, und tut es gleichzeitig."
+  }
+}

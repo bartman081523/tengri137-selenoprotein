@@ -1,0 +1,102 @@
+{
+  "method": "TENGRI137-angewandte Tora-Turing-Maschine",
+  "tengri137_tape": "TENGRIISTHESOURCEOFIMPORTANTWRITINGSONLYTHECHOSENSOULSKNOWTHEMEANINGWORTHYARETHOSEWHOASKQUESTIONSSE",
+  "tengri137_tape_hebrew": "רהנגצטטקרחהקסשצכהסוטמעסצראנרוצטרטנגקסנלירחהכחסקהנקסשלקכנסורחהמהאנטנגוסצרחיאצהרחסקהוחסאקכפשהקרטסנקקה",
+  "tengri137_gematria": 6257,
+  "unmapped_letters_tengri137": [
+    "G",
+    "C",
+    "W",
+    "K"
+  ],
+  "burumut_unmapped": [
+    "C",
+    "D",
+    "J",
+    "K",
+    "V",
+    "W",
+    "X"
+  ],
+  "intersection": [
+    "C",
+    "K",
+    "W"
+  ],
+  "tengri137_only": [
+    "G"
+  ],
+  "burumut_only": [
+    "D",
+    "J",
+    "V",
+    "X"
+  ],
+  "tengri137_brings_new_operators": {
+    "G": "Gimel (ג) = MOVE_RIGHT",
+    "C": "Kaf (כ) = READ",
+    "W": "Vav (ו) = WRITE (already in BURUMUT as F)",
+    "K": "Kaf (כ) = READ (alternative)"
+  },
+  "test1_burumut_machine_on_tengri": {
+    "halt_step": 4,
+    "halt_state": 1,
+    "halt_reason": "NO_TRANSITION: (1, ג)",
+    "steps": 4,
+    "final_tape": "רהנגצטטקרחהקסשצכהסוטמעסצראנרוצטרטנגקסנלירחהכחסקהנקסשלקכנסורחהמהאנטנגוסצרחיאצהרחסקהוחסאקכפשהקרטסנקקה",
+    "original_tape": "רהנגצטטקרחהקסשצכהסוטמעסצראנרוצטרטנגקסנלירחהכחסקהנקסשלקכנסורחהמהאנטנגוסצרחיאצהרחסקהוחסאקכפשהקרטסנקקה",
+    "states_visited": [
+      1,
+      1,
+      1
+    ],
+    "word": "רהנגצטטקרחהקסשצ",
+    "word_translated": "Anfang der/die/das Same ג er-ward ט ט ק Anfang ח der/die/das ק ס er/sein er-ward",
+    "gematria_sum": 1229
+  },
+  "test2_extended_machine_on_tengri": {
+    "halt_step": 27,
+    "halt_state": 5,
+    "halt_reason": "HALT_TRANSITION",
+    "steps": 27,
+    "final_tape": "רהנבצטטקרחהקסשצאהסוטמעסצראנרוצטרטנגקסנלירחהכחסקהנקסשלקכנסורחהמהאנטנגוסצרחיאצהרחסקהוחסאקכפשהקרטסנקקה",
+    "original_tape": "רהנגצטטקרחהקסשצכהסוטמעסצראנרוצטרטנגקסנלירחהכחסקהנקסשלקכנסורחהמהאנטנגוסצרחיאצהרחסקהוחסאקכפשהקרטסנקקה",
+    "states_visited": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "word": "רהנבצטטקרחהקסשצ",
+    "word_translated": "Anfang der/die/das Same in/als er-ward ט ט ק Anfang ח der/die/das ק ס er/sein er-ward",
+    "gematria_sum": 1228
+  },
+  "interpretation": {
+    "numerical": "TENGRI137-Gematria 6257 ≈ BURUMUT 6503 (Differenz -246)",
+    "structural": "Tengri137 hat 4 neue lateinische Buchstaben G, C, W, K = 2 neue Operatoren (MOVE_RIGHT, READ)",
+    "philosophical": "Tengri137 ist die VOLLSTÄNDIGE Tape mit allen Operatoren. BURUMUT ist die SUBSET (ohne diese 4). BURUMUT läuft 15 Schritte (deterministisch), TENGRI137 bricht ab (4 Schritte) weil die ursprüngliche Maschine die neuen Operatoren nicht kennt. → Tengri137 ist die \"aktualisierte\" BURUMUT-Version mit den 4 fehlenden Operatoren."
+  }
+}

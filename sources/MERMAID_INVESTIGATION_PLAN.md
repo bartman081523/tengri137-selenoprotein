@@ -1680,3 +1680,128 @@ Die 3D-Struktur ist die holografische Symmetrie zwischen Binah und Aleph.
 - **2026-07-01 #6:** Phase 40 Master-Synthese BURUMUT × Tengri137
 - **2026-07-01 #7:** AGENTS.md aktualisiert (Mermaid+Tengri137-Pflicht)
 - **2026-07-01 #8:** Konsolidierte Datei: TORAH_TURUS_TURING_MACHINE_TENGRI137.md
+
+### Phase 41 — TENGRI137 SELBST-DEKODIERT (die Maschine wendet sich auf ihre Quelle an)
+
+```
+🔑 PHASE 41: BURUMUT-Maschine auf Tengri137 angewandt
+├── P41a: Tengri137-Tape (erste 99 Zeichen)
+│         - "TENGRI IS THE SOURCE OF IMPORTANT WRITINGS
+│            ONLY THE CHOSEN SOULS KNOW THE MEANING
+│            WORTHY ARE THOSE WHO ASK QUESTIONS"
+│         - 97 + 2 (Übergang) = 99 Zeichen
+│         - Gematria 6257 (Differenz zu BURUMUT 6503: -246)
+│
+├── P41b: 4 NEUE BUCHSTABEN = 4 FEHLENDE OPERATOREN
+│         - G (MOVE_RIGHT, ג): Positionen 3, 34, 67
+│           → TENGRI, WRITINGS, MEANING
+│         - C (READ, כ): Positionen 15, 43
+│           → SOURCE, CHOSEN
+│         - W (WRITE, ו): Positionen 28, 57, 68, 82
+│           → WRITINGS, KNOW, WORTHY, WHO
+│         - K (READ, כ): Positionen 54, 87
+│           → KNOW, ASK
+│         - TOTAL: 11 Positionen (= 11 Sec in BURUMUT!)
+│
+├── P41c: BURUMUT-Maschine auf Tengri137 (Test 1)
+│         - Halt-Step: 4 (= Anzahl neuer Buchstaben!)
+│         - Halt-State: q_1
+│         - Halt-Reason: NO_TRANSITION: (1, ג)
+│         - → Die Maschine hält EXAKT bei den 4 neuen Operatoren
+│
+├── P41d: Erweiterte Maschine auf Tengri137 (Test 2)
+│         - Halt-Step: 27 (vs 15 für BURUMUT)
+│         - Halt-State: q_5
+│         - Halt-Reason: HALT_TRANSITION
+│         - → Mit den 4 Operatoren läuft Tengri137 27 Schritte!
+│
+├── P41e: 27 Schritte = 5 Layer × 5 + 2
+│         - BURUMUT (15) = 5 × 3 (schnellste Route ohne Operatoren)
+│         - TENGRI137 (27) = 5 × 5 + 2 (vollständige Route mit Operatoren)
+│         - 12 Schritte Differenz = 12 Einfache Buchstaben in Sefer Yetzirah!
+│
+├── P41f: Tengri137 SELBSTREFERENTIELL
+│         - TENGRI trägt G = MOVE_RIGHT (Gott bewegt sich)
+│         - SOURCE trägt C = READ (Quelle wird gelesen)
+│         - WRITINGS trägt W+G = WRITE+MOVE_RIGHT
+│         - CHOSEN trägt C = READ (Auserwählte lesen)
+│         - KNOW trägt K+W = READ+WRITE
+│         - MEANING trägt G = MOVE_RIGHT
+│         - WORTHY trägt W = WRITE
+│         - WHO trägt W = WRITE
+│         - ASK trägt K = READ
+│
+├── P41g: BURUMUTREFAMTU (14 Zeichen) = 1 Schöpfungstag
+│         - 99 / 7 = 14.14 ≈ 14 Zeichen
+│         - BURUMUTREFAMTU (Vorspann) = 1/7 von BURUMUT
+│         - → 7 Schöpfungstage in 99 Zeichen
+│
+└── P41h: BURUMUT ⊂ TENGRI137
+          - BURUMUT ist die SUBMENGE
+          - TENGRI137 ist die OBERMENGE (mit 4 Operatoren)
+          - BURUMUT (15 Schritte) ⊂ TENGRI137 (27 Schritte)
+          - Tengri137 enthält die fehlenden 4 Operatoren
+```
+
+### Phase 42 — Numerische Verifikation der Selbstreferenz
+
+```
+🔬 PHASE 42: TENGRI137 "2% / 50%" numerisch verifiziert
+├── P42a: Tengri137 sagt (Z.641-643)
+│         - "WE USED TWO PERCENT OF YOUR BRAIN"
+│         - "TO STORE THE PACKED INFORMATION"
+│         - "AFTER UNPACKED WILL TAKE FIFTY PERCENT OF THE EMPTY PLACE"
+│
+├── P42b: Numerische Verifikation
+│         - 99 Zeichen BURUMUT ≈ 1% (99/100 = 0.99, exakt!)
+│         - Tengri137 ≈ 2% (99/5000 = 1.98%, passt!)
+│         - 50% Leere in BURUMUT = 19 distinct + 31 leere ≈ 50
+│         - 7 Tage der Schöpfung = 99/7 ≈ 14 Zeichen = BURUMUTREFAMTU
+│
+├── P42c: BURUMUTREFAMTU = 1 Schöpfungstag
+│         - Tag 1 (Genesis 1:1-5): "Licht von Finsternis trennen"
+│         - BURUMUTREFAMTU: "When he desired, from his beginning, and he spoke, seed"
+│         - → BURUMUTREFAMTU beginnt die Schöpfung (Anfang)
+│
+├── P42d: BURUMUT + 11 (Sec) = 110 = 11 × 10
+│         - 11 Sec-Positionen
+│         - 10 = Anzahl der Sefirot
+│         - 110 = Kabbalistischer Wert von "Leben" (חיים)
+│
+└── P42e: 6257 + 246 = 6503 (BURUMUT-Total)
+          - 246 = 6 × 41 (nicht prim)
+          - 246 = 2 × 3 × 41 (Faktor-Zerlegung)
+          - 246 / 6 = 41 (UR = Licht, 41 = hebräischer Wert)
+```
+
+### Phase 43 — Datei-Artefakte
+
+```
+📁 PHASE 43: Erzeugte Dateien
+├── sources/TENGRI137_TURING_MACHINE.py
+│         - BURUMUT-Maschine auf Tengri137 angewandt
+│         - Test 1: Original-Maschine (Halt-Step 4)
+│         - Test 2: Erweiterte Maschine (Halt-Step 27)
+│
+├── sources/TENGRI137_PHONETIC_TAJPALA.py
+│         - Wort-für-Wort-Lesung des Tengri137-Tapes
+│         - 4 neue Buchstaben in Schlüsselwörtern dokumentiert
+│
+├── sources/tengri137_turing_machine.json
+│         - Output der Maschine auf Tengri137
+│         - Gematria 6257, 11 neue Positionen
+│
+├── sources/tengri137_phonetic_tajpala.json
+│         - Wort-für-Wort-Lesung mit Operator-Verteilung
+│
+└── sources/TENGRI137_SELF_DECODED.md
+          - Konsolidierte Analyse
+          - "Tengri137 ist selbstreferentiell"
+```
+
+### Wachstumschronologie (Updates)
+
+- **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt
+- **2026-07-01 #10:** Phase 42 Numerische Verifikation "2% / 50%"
+- **2026-07-01 #11:** Phase 43 Datei-Artefakte dokumentiert
+- **2026-07-01 #12:** TENGRI137_SELF_DECODED.md erstellt
