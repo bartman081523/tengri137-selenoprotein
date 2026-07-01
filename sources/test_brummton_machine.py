@@ -500,6 +500,44 @@ class TestBurumutPhases:
                 f"Phase {key} fehlt in der vollen Geschichte: {full}"
             )
 
+    def test_burumut_phonetische_tajpala_alle_phasen(self):
+        """Die phonetische Tajpala-Methode übersetzt ALLE 6 Phasen + Übergang.
+
+        Heuristik: 2-3 Zeichen-Schnitte + Google Translate gtx API.
+        Volle Geschichte: in the sun ran ... Eq ... that time in her needle
+        """
+        import json
+        from pathlib import Path
+        path = Path(__file__).parent / "burumut_phonetic_translation.json"
+        with open(path) as f:
+            data = json.load(f)
+        # 7 Phasen muessen existieren
+        expected_keys = [
+            "phase_1_schoepfungs_akt", "phase_2_schoepfungs_wurzeln",
+            "uebergang_eq", "phase_3_wanderung",
+            "phase_4_schrift_vollendung", "phase_5_wiederholung",
+            "phase_6_vollendung"
+        ]
+        for key in expected_keys:
+            assert key in data["phases"], f"Phase {key} fehlt"
+            assert "chunks" in data["phases"][key]
+            assert len(data["phases"][key]["chunks"]) > 0
+        # Phase 1 muss "sun" enthalten (Shemesh = Sonne)
+        p1 = data["phases"]["phase_1_schoepfungs_akt"]["full_english"]
+        assert "sun" in p1.lower(), f"Phase 1 ohne 'sun': {p1}"
+        # Phase 3 muss "needle" enthalten (Chet-Tet = needle/sin)
+        p3 = data["phases"]["phase_3_wanderung"]["full_english"]
+        assert "needle" in p3.lower(), f"Phase 3 ohne 'needle': {p3}"
+        # Phase 4 muss "miracle" enthalten (Nun-Samekh = miracle)
+        p4 = data["phases"]["phase_4_schrift_vollendung"]["full_english"]
+        assert "miracle" in p4.lower(), f"Phase 4 ohne 'miracle': {p4}"
+        # Volle Geschichte muss alle 7 Phasen kombinieren
+        full_en = data["complete_story_english"]
+        for key in expected_keys:
+            assert data["phases"][key]["full_english"] in full_en
+        # Methode muss dokumentiert sein
+        assert "gtx" in data["method"].lower() or "google" in data["method"].lower()
+
 
 # ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL

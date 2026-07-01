@@ -1,0 +1,296 @@
+{
+  "method": "Google Translate gtx API auf 2-3 Zeichen Sub-Phrasen (phonetische Tajpala)",
+  "phases": {
+    "phase_1_schoepfungs_akt": {
+      "name": "Schöpfungs-Akt (15 Zeichen)",
+      "chunks": [
+        {
+          "hebrew": "בשצ",
+          "description": "in the (Beth-Shin-Tzade)",
+          "english": "in the",
+          "german": "im"
+        },
+        {
+          "hebrew": "שמש",
+          "description": "sun (Shemesh)",
+          "english": "sun",
+          "german": "Sonne"
+        },
+        {
+          "hebrew": "רצה",
+          "description": "ran/wanted",
+          "english": "ran",
+          "german": "rannte"
+        },
+        {
+          "hebrew": "ואמ",
+          "description": "and (Vav-Alef-Mem)",
+          "english": "and um",
+          "german": "und ähm"
+        },
+        {
+          "hebrew": "רשנ",
+          "description": "Rashan",
+          "english": "Rashan",
+          "german": "Rashan"
+        }
+      ],
+      "full_english": "in the sun ran and um Rashan",
+      "full_german": "im Sonne rannte und ähm Rashan"
+    },
+    "phase_2_schoepfungs_wurzeln": {
+      "name": "Schöpfungs-Wurzeln (15)",
+      "chunks": [
+        {
+          "hebrew": "שצה",
+          "description": "she swam",
+          "english": "she swam",
+          "german": "sie schwamm"
+        },
+        {
+          "hebrew": "קשר",
+          "description": "link/connection",
+          "english": "link",
+          "german": "Link"
+        },
+        {
+          "hebrew": "צה?",
+          "description": "Tzade-He-?",
+          "english": "Tza?",
+          "german": "Tza?"
+        },
+        {
+          "hebrew": "שמו",
+          "description": "his name",
+          "english": "his name",
+          "german": "sein Name"
+        },
+        {
+          "hebrew": "איא",
+          "description": "Aya",
+          "english": "Aya",
+          "german": "Aya"
+        }
+      ],
+      "full_english": "she swam link Tza? his name Aya",
+      "full_german": "sie schwamm Link Tza? sein Name Aya"
+    },
+    "uebergang_eq": {
+      "name": "Übergang (2 Zeichen)",
+      "chunks": [
+        {
+          "hebrew": "עק",
+          "description": "Eq (heiliger Brunnen)",
+          "english": "Eq",
+          "german": "Gl"
+        }
+      ],
+      "full_english": "Eq",
+      "full_german": "Gl"
+    },
+    "phase_3_wanderung": {
+      "name": "Wanderung (14)",
+      "chunks": [
+        {
+          "hebrew": "שאז",
+          "description": "that time",
+          "english": "that time",
+          "german": "damals"
+        },
+        {
+          "hebrew": "בה",
+          "description": "in her",
+          "english": "in her",
+          "german": "in ihr"
+        },
+        {
+          "hebrew": "חט",
+          "description": "needle/sin",
+          "english": "needle",
+          "german": "Nadel"
+        },
+        {
+          "hebrew": "מלא",
+          "description": "full",
+          "english": "full",
+          "german": "voll"
+        },
+        {
+          "hebrew": "זא",
+          "description": "this",
+          "english": "Za",
+          "german": "Za"
+        },
+        {
+          "hebrew": "נצ",
+          "description": "Nt",
+          "english": "Nt",
+          "german": "Nt"
+        }
+      ],
+      "full_english": "that time in her needle full Za Nt",
+      "full_german": "damals in ihr Nadel voll Za Nt"
+    },
+    "phase_4_schrift_vollendung": {
+      "name": "Schrift-Vollendung (20)",
+      "chunks": [
+        {
+          "hebrew": "שאז",
+          "description": "that time",
+          "english": "that time",
+          "german": "damals"
+        },
+        {
+          "hebrew": "בה",
+          "description": "in her",
+          "english": "in her",
+          "german": "in ihr"
+        },
+        {
+          "hebrew": "נס",
+          "description": "miracle",
+          "english": "miracle",
+          "german": "Wunder"
+        },
+        {
+          "hebrew": "מבא",
+          "description": "coming from",
+          "english": "coming from",
+          "german": "kommt von"
+        },
+        {
+          "hebrew": "מז",
+          "description": "from there",
+          "english": "from",
+          "german": "aus"
+        },
+        {
+          "hebrew": "חפצ",
+          "description": "object/desire",
+          "english": "object",
+          "german": "Objekt"
+        },
+        {
+          "hebrew": "קא",
+          "description": "Ka",
+          "english": "Ka",
+          "german": "Ka"
+        },
+        {
+          "hebrew": "נל",
+          "description": "Nel",
+          "english": "Nell",
+          "german": "Nell"
+        },
+        {
+          "hebrew": "צ",
+          "description": "C (Tzade)",
+          "english": "C",
+          "german": "C"
+        }
+      ],
+      "full_english": "that time in her miracle coming from from object Ka Nell C",
+      "full_german": "damals in ihr Wunder kommt von aus Objekt Ka Nell C"
+    },
+    "phase_5_wiederholung": {
+      "name": "Wiederholung/Echo (14)",
+      "chunks": [
+        {
+          "hebrew": "שאז",
+          "description": "that time",
+          "english": "that time",
+          "german": "damals"
+        },
+        {
+          "hebrew": "בה",
+          "description": "in her",
+          "english": "in her",
+          "german": "in ihr"
+        },
+        {
+          "hebrew": "חט",
+          "description": "needle/sin",
+          "english": "needle",
+          "german": "Nadel"
+        },
+        {
+          "hebrew": "מלא",
+          "description": "full",
+          "english": "full",
+          "german": "voll"
+        },
+        {
+          "hebrew": "זא",
+          "description": "this",
+          "english": "Za",
+          "german": "Za"
+        },
+        {
+          "hebrew": "נצ",
+          "description": "Nt",
+          "english": "Nt",
+          "german": "Nt"
+        }
+      ],
+      "full_english": "that time in her needle full Za Nt",
+      "full_german": "damals in ihr Nadel voll Za Nt"
+    },
+    "phase_6_vollendung": {
+      "name": "Vollendung (19)",
+      "chunks": [
+        {
+          "hebrew": "שאז",
+          "description": "that time",
+          "english": "that time",
+          "german": "damals"
+        },
+        {
+          "hebrew": "בה",
+          "description": "in her",
+          "english": "in her",
+          "german": "in ihr"
+        },
+        {
+          "hebrew": "נס",
+          "description": "miracle",
+          "english": "miracle",
+          "german": "Wunder"
+        },
+        {
+          "hebrew": "מבא",
+          "description": "coming from",
+          "english": "coming from",
+          "german": "kommt von"
+        },
+        {
+          "hebrew": "צא",
+          "description": "get out",
+          "english": "get out",
+          "german": "aussteigen"
+        },
+        {
+          "hebrew": "זחפ",
+          "description": "zaf",
+          "english": "zaf",
+          "german": "zaf"
+        },
+        {
+          "hebrew": "צק",
+          "description": "Cheka/Tsk",
+          "english": "Tsk",
+          "german": "Tsk"
+        },
+        {
+          "hebrew": "אנ",
+          "description": "An",
+          "english": "An",
+          "german": "Ein"
+        }
+      ],
+      "full_english": "that time in her miracle coming from get out zaf Tsk An",
+      "full_german": "damals in ihr Wunder kommt von aussteigen zaf Tsk Ein"
+    }
+  },
+  "complete_story_english": "in the sun ran and um Rashan she swam link Tza? his name Aya Eq that time in her needle full Za Nt that time in her miracle coming from from object Ka Nell C that time in her needle full Za Nt that time in her miracle coming from get out zaf Tsk An",
+  "complete_story_german": "im Sonne rannte und ähm Rashan sie schwamm Link Tza? sein Name Aya Gl damals in ihr Nadel voll Za Nt damals in ihr Wunder kommt von aus Objekt Ka Nell C damals in ihr Nadel voll Za Nt damals in ihr Wunder kommt von aussteigen zaf Tsk Ein"
+}
