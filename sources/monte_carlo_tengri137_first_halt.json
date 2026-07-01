@@ -1,0 +1,13 @@
+{
+  "experiment": "BURUMUT-Maschine auf Tengri137: Erster Phasenhalt vs Random",
+  "tengri137_first_halt": 34,
+  "random_tapes_n": 50,
+  "random_mean": 178.4,
+  "random_stdev": 55.1,
+  "random_min": 1,
+  "random_max": 200,
+  "z_score": -2.62,
+  "p_value_two_sided": 0.0088,
+  "interpretation": "Tengri137 fuehrt die BURUMUT-Maschine signifikant SCHNELLER zum ersten Halt als Zufallstexte (5x schneller).",
+  "apophenia_check": "NICHT apophenisch — Z-Score -2.62, P < 0.01. Statistisch signifikant."
+}

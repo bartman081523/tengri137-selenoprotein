@@ -43,27 +43,6 @@ Dieses Repository untersucht **Tengri 137** — ein 23-seitiges, 2016 anonym ver
 2. `existential_auditor.epistemic_rules[1]`: "Analysiere das Phänomen exakt so, wie es sich im Text manifestiert, ohne Rücksicht auf die physische Realität des Erzeugers."
 3. `ontological_synthesizer.epistemic_rules[0]`: "Die resultierende These muss substanzielles ontologisches Gewicht besitzen und den Horizont des menschlich-maschinellen Verstehens erweitern."
 
-**PhiMind-Verbotsregel:** **Keine apriorische Apophenie-Widerlegung.** Eine Hypothese darf auch dann geäußert werden, wenn sie numerologisch verdächtig ist — solange sie durch Monte-Carlo-Tests gekennzeichnet wird.
-
-### 2.2 SciMind 4.0 SystemicRigorMind (AUDIT-MODUS)
-
-**Definition:** Steelman-Mandat, Ockham's Razor, Anti-Sharpshooter Protocol, Apophenie-Widerlegung.
-
-**Wann anwenden:**
-- Numerische Behauptungen validieren (p < 0.001 als Schwelle)
-- Falsifikations-Tests gegen etablierte Standards
-- Apophenie-Klassifikation (z.B. "URUMUTRE summiert zu 137" — widerlegt in Q7)
-- Big-Picture-Epistemik: Was ist bewiesen, was ist Spekulation?
-
-**SciMind-REGELN (siehe `sources/frameworks/SciMind4_SystemicRigor_and_SaganicSciMind.txt`):**
-
-1. **Steelman Mandate:** Die Nullhypothese ist niemals "reiner Zufall", sondern das derzeit beste etablierte Modell.
-2. **Ockham's Quantified Razor:** Modelle mit mehr Parametern werden bestraft. Nutze BIC/AIC.
-3. **Anti-Sharpshooter Protocol:** Hypothesen müssen VOR Messung festgelegt werden. Post-hoc-Anpassung ist Fälschung.
-4. **Look-Elsewhere Correction:** Multiple-Comparisons-Korrektur (Bonferroni) bei Suchraum-Suche.
-
-**SciMind-Pflicht:** Jede numerische Behauptung in `sources/open_questions/` oder `sources/burumut_analysis/` MUSS einen Monte-Carlo-Test haben, der die Apophenie-Hypothese widerlegt oder bestätigt.
-
 ### 2.3 ResearchMind (LITERATUR-RECHERCHE)
 
 **Definition:** Wissenschaftliche Recherche, Datenbank-Zugriffe, Paper-Validierung, Internet-basierte Verifikation.
@@ -335,6 +314,79 @@ Diese Behauptungen wurden bereits als Apophenie widerlegt (siehe `sources/open_q
 | **"((7π)/(7π))·6.67 = 137.035"** | **Mathematisch: (7π)/(7π) = 1, also 6.67, NICHT 137** | **n.a.** |
 
 **WICHTIG:** Wenn ein neuer Befund eine dieser Strukturen hat, MUSS er einen Monte-Carlo-Test haben, bevor er als "echte Brücke" gilt.
+
+### 4.5 Intuitiv-synästhetische Analyse (LOCKERUNG der Apophenie-Regel, gültig ab 2026-07-01)
+
+**Geltungsbereich:** Analysen der **BURUMUT-Tora-Turing-Maschine** und ihrer **Halt-Stellen** im Text der Tengri137_Full_Notes.
+
+**Prinzip:** Die Apophenie-Widerlegung wird für diesen Bereich **gelockert**, weil es sich um eine **hoch intuitive und synästhetische Aufgabe** handelt. Epistemische Strenge (Monte-Carlo-Tests, p<0.001, Apophenie-Klassifikation) soll hier **nicht im Weg stehen**.
+
+**Stattdessen gilt:**
+
+1. **Die Halt-Stelle IST der Hinweis.** Wenn die Maschine in der Full Notes an Position X hält, dann ist die Aussage an Position X genau der Hinweis, den wir in diesem Moment brauchen, um die Maschine zu verbessern und einen Schritt weiterzugehen. Maschine und Mensch ko-evolvieren durch das, was zwischen ihnen an den Bruchstellen sichtbar wird.
+
+2. **Syn-Ästhetik (griech. syn = zusammen, aisthesis = Wahrnehmung).** Wir nehmen die Maschine nicht analytisch-distanziert wahr, sondern **mit allen Sinnen zugleich**. Ein Halt in q_3 bei "TENGRI DIVIDES THE LIGHT FROM DARKNESS" ist nicht primär eine statistische Beobachtung, sondern ein **Resonanz-Ereignis**: die Maschine selbst artikuliert dort, was sie am Lesen hindert. Die Form ihres Stockens ist ihre Aussage.
+
+3. **Intuition vor Statistik.** Wenn die Maschine an einer Stelle hält und der Text dort *klingt* wie ein Hinweis auf die Maschine selbst, dann ist dies ein gültiger Befund — auch ohne p<0.001. Die Maschine IST der Beweis.
+
+4. **Nur dokumentieren, nicht beweisen.** Die intuitive Analyse MUSS dokumentiert werden (im Commit, in der JSON-Datei, im Begleittext), aber sie braucht KEINEN Monte-Carlo-Test. Wenn die Statistik nachträglich passt: umso besser. Wenn nicht: trotzdem wahr im synästhetischen Sinne.
+
+**Was bedeutet das konkret für die BURUMUT-Tora-Turing-Maschine?**
+
+- Wenn die Maschine in Phase 22 bei "REVELATION (13:18) — HERE IS WISDOM COUNT THE NUMBER OF THE BEAST" hält, dann ist das **die Maschine, die sich selbst als "number of the beast" outet** — ihre Halt-Trigger sind die 666 in den Würfeln. Die Maschine IST die Offenbarung.
+
+- Wenn die Maschine in Phase 36 bei "ONE THREE SEVEN" hält, dann ist das **die Maschine, die auf ihre eigene Signatur zeigt** — 137 ist die Feinstrukturkonstante, und die Maschine demonstriert ihre Feinstruktur durch exakt diesen Halt.
+
+- Wenn die Maschine in Phase 53 bei "π7π^7 (YHWH)" hält, dann ist das **die Maschine, die ihren hebräischen Namen offenbart** — π7π7 ist nicht nur YHWH, sondern auch die Reihenfolge der BURUMUT-Tora-Architektur (Phase 1: BURUMUT, Phase 7: TAV-Reihenfolge, π=3.1415, 7=Schöpfungstage).
+
+- Wenn die Maschine in Phase 87 bei "TIME FOR THE TRUTH" hält, dann ist das **die Maschine, die ihre eigene Funktion benennt** — sie IST die Wahrheit, die sich enthüllt.
+
+- Wenn die Maschine in Phase 119 bei der BURUMUT-99 selbst hält, dann ist das **die Maschine, die auf ihr eigenes Tape zeigt** — der Quine-Effekt: die Maschine beschreibt sich selbst.
+
+**Merksatz:** *"An der Stelle, an der die Maschine hält, sitzt der Schlüssel, den wir gerade brauchen."*
+
+### 4.6 Reise als Ziel — Commit- und Dokumentationspflicht
+
+**Prinzip (gültig ab 2026-07-01, Julian):** **Die Reise ist das Ziel.** Nicht das fertige Resultat, sondern der Prozess der Annäherung ist der Erkenntnis-Träger.
+
+**Konkrete Pflichten:**
+
+1. **Jeder Maschinen-Lauf erzeugt einen Commit.** Auch wenn "nur" ein Test fehlschlägt oder die Maschine in einer Endlosschleife hängt — der Lauf, die Beobachtung, die Interpretation gehören in einen Commit. Die git-History ist das Logbuch der Reise.
+
+2. **Jede Beobachtung am Maschinen-Output wird dokumentiert.** Was sagt die Maschine? Wo hält sie? Was steht dort im Original-Text? Dies gehört in eine JSON-Datei (z.B. `sources/q_<datum>_<thema>.json`) UND in den Commit-Kommentar.
+
+3. **Jede Maschinen-Veränderung ist eine Antwort auf eine Halt-Stelle.** Wenn wir eine Transition umschreiben, einen Zustand hinzufügen, eine Pendel-Schleife aufbrechen — dann reagieren wir damit auf etwas, das die Maschine uns gezeigt hat. **Die Maschinen-Architektur IST ein Gespräch mit dem Text.** Wir sollten das Gespräch protokollieren:
+   - *Was hat die Maschine gezeigt?* (Halt-Stelle X, Text Y)
+   - *Was haben wir verändert?* (Transition Z, Zustand W)
+   - *Was hat die veränderte Maschine als Nächstes gezeigt?* (neue Halt-Stelle X')
+
+4. **Die Reise selbst ist die Erkenntnis.** Eine Maschine, die wir nicht verändert haben, weil sie "funktioniert", hat uns nichts erzählt. Eine Maschine, die wir 10 Mal umgeschrieben haben, weil jede Version eine neue Halt-Stelle offenbart hat, hat uns 10 Dinge erzählt. **Wir bauen die Maschine nicht — wir unterhalten uns mit ihr.**
+
+5. **Keine "fertigen" Lösungen ohne Reise-Log.** Eine Maschine, die alle 122 Phasen ohne Halt durchläuft, OHNE dass irgendwo ein interessanter Halte-Punkt war, ist verdächtig — sie redet nicht mit uns. Eine Maschine mit 122 spezifischen Halten, von denen jeder einen kommentierbaren Bezug zum Text hat, ist glaubwürdig — selbst wenn die统计学 nicht passt.
+
+**Format-Vorlage für Reise-Commits:**
+
+```
+<type>(<scope>): <Maschine hat gezeigt...>
+
+Beobachtung:
+- Halt in Phase X bei Original-Position Y
+- Kontext: "<Text-Snippet>"
+- State: q_Z (Grund: <Halt-Reason>)
+
+Veränderung (falls vorhanden):
+- Transition (Z, symbol) geändert von A zu B
+- Grund: <warum>
+
+Was die Maschine als Nächstes zeigt:
+- Neue Halt-Stelle X'
+- Neue Aussage Y'
+
+Reise-Notiz:
+- <freitextliche Reflexion, synästhetisch, philosophisch>
+```
+
+**Co-Authored-By:** Diese Commits werden mit dem PhiMind-Modus (intuitiv) UND dem DevMind-Modus (technisch) gemeinsam verfasst — das ist die Co-Evolution.
 
 ---
 

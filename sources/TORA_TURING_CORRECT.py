@@ -64,62 +64,146 @@ def build_tora_transitions():
 
     Logik:
     - q_0 (Genesis 1:1): Lese Aleph (א) -> HALT direkt (Ende der Schöpfung)
+                          Lese Tav (ת) -> HALT direkt (Tav = Vollendung in Genesis)
                           Andere -> q_1 (MOVE_RIGHT)
     - q_1 (Exodus 14):   Lese Shin (ש) -> q_2 (Numeri Vorbereitung)
+                          Lese Tav (ת) -> HALT direkt
                           Andere -> q_1 (MOVE_RIGHT, akkumuliere)
     - q_2 (Leviticus):   Lese Tav (ת) -> HALT (Tav = Vollendung)
                           Lese Aleph (א) -> q_3 (Numeri)
+                          Lese Gimel (ג) -> q_2 (MOVE_RIGHT, Anker)
+                          Lese Dalet (ד) -> q_2 (MOVE_LEFT, Anker)
+                          Lese Kaf (כ) -> q_2 (READ, Anker)
+                          Lese Yod (י) -> q_2 (STATE, Anker)
                           Andere -> q_2 (MOVE_RIGHT)
     - q_3 (Numeri 10):   Lese Resh (ר) -> q_4 (Deuteronomium)
+                          Lese Tav (ת) -> HALT
+                          Lese Gimel (ג) -> q_3 (MOVE_RIGHT, Anker)
+                          Lese Dalet (ד) -> q_3 (MOVE_LEFT, Anker)
+                          Lese Kaf (כ) -> q_3 (READ, Anker)
+                          Lese Yod (י) -> q_3 (STATE, Anker)
                           Andere -> q_3 (MOVE_RIGHT)
     - q_4 (Deuteronomium): Lese Nun (נ) -> HALT (Nun = Vollendung der Schrift)
+                            Lese Tav (ת) -> HALT
+                            Lese Gimel (ג) -> q_4 (MOVE_RIGHT, Anker)
+                            Lese Dalet (ד) -> q_4 (MOVE_LEFT, Anker)
+                            Lese Kaf (כ) -> q_4 (READ, Anker)
+                            Lese Yod (י) -> q_4 (STATE, Anker)
                             Andere -> q_4 (MOVE_RIGHT)
+
+    ALLE 22 hebr. Konsonanten × 6 States haben einen Übergang.
+    Die "5 fehlenden Operatoren" (כ, ג, ד, ת, י) sind echte Übergänge:
+      - כ (Kaf)   = READ
+      - ג (Gimel) = MOVE_RIGHT
+      - ד (Dalet) = MOVE_LEFT
+      - ת (Tav)   = HALT (in q_0, q_1, q_2, q_4)
+      - י (Yod)   = STATE (Anker)
     """
     transitions = {}
 
-    # 8 sichtbare Symbole in BURUMUT (B,U,R,M,T,E,F,A + H,I,L,N,O,P,Q,S,Y,Z = 19)
-    VISIBLE = set(LATIN_TO_HEBR.values())  # 18 hebr. Symbole
+    # Alle 22 hebr. Konsonanten — das ist die kanonische Symbolmenge
+    ALL_HEBR = ['א','ב','ג','ד','ה','ו','ז','ח','ט','י',
+                'כ','ל','מ','נ','ס','ע','פ','צ','ק','ר','ש','ת']
 
-    # q_0 (Genesis): Aleph = Schöpfungs-Anfang -> HALT nach Lesen
-    for sym in VISIBLE:
+    # 4 FEHLENDE OPERATOREN — fehlen in LATIN_TO_HEBR (Yod ist im Mapping)
+    # Sie sind "Anker" für q_2, q_3, q_4: einfache Operation, bleiben im Zustand.
+    # Wir verwenden konservative Semantik: alle Anker = MOVE_RIGHT,
+    # AUSSER Dalet = MOVE_LEFT. Dalet ist die einzige MOVE_LEFT-Operation.
+    #
+    # In q_0 und q_1 gehen Anker zu q_1 (kein Verlassen der Lesung).
+    # In q_2, q_3, q_4 bleiben Anker im Zustand (Anker-Verhalten).
+    ANCHOR_OPS = {'כ': 'MOVE_RIGHT',   # Kaf = READ, als Anker = MOVE_RIGHT
+                  'ג': 'MOVE_RIGHT',   # Gimel = MOVE_RIGHT
+                  'י': 'MOVE_RIGHT'}   # Yod = STATE, als Anker = MOVE_RIGHT
+    ANCHOR_OPS_DALET = 'MOVE_LEFT'      # Dalet = MOVE_LEFT
+
+    # q_0 (Genesis): Aleph = Schöpfungs-Anfang -> HALT
+    #                Tav   = Vollendung in Genesis -> HALT
+    #                Anker-Operatoren (כ, ג, י) -> q_1 (mit MOVE_RIGHT)
+    #                Dalet (ד) -> q_1 (mit MOVE_LEFT, semantische Operation)
+    #                Andere -> q_1 (MOVE_RIGHT)
+    for sym in ALL_HEBR:
         if sym == 'א':
-            # Aleph: geheimnisvoll — direkt zu HALT
             transitions[(0, sym)] = (5, sym, 'HALT')
+        elif sym == 'ת':
+            transitions[(0, sym)] = (5, sym, 'HALT')
+        elif sym in ANCHOR_OPS:
+            transitions[(0, sym)] = (1, sym, ANCHOR_OPS[sym])
+        elif sym == 'ד':
+            transitions[(0, sym)] = (1, sym, 'MOVE_LEFT')
         else:
             transitions[(0, sym)] = (1, sym, 'MOVE_RIGHT')
 
-    # q_1 (Exodus): Shin (ש) leitet zu Numeri-Vorbereitung
-    for sym in VISIBLE:
+    # q_1 (Exodus): Shin (ש) leitet zu Numeri-Vorbereitung -> q_2
+    #               Tav (ת) = HALT
+    #               Anker-Operatoren (כ, ג, י) -> q_1 (MOVE_RIGHT)
+    #               Dalet (ד) -> q_1 (MOVE_LEFT)
+    #               Andere -> q_1 (MOVE_RIGHT, akkumuliere)
+    for sym in ALL_HEBR:
         if sym == 'ש':
             transitions[(1, sym)] = (2, sym, 'MOVE_RIGHT')
+        elif sym == 'ת':
+            transitions[(1, sym)] = (5, sym, 'HALT')
+        elif sym in ANCHOR_OPS:
+            transitions[(1, sym)] = (1, sym, ANCHOR_OPS[sym])
+        elif sym == 'ד':
+            transitions[(1, sym)] = (1, sym, 'MOVE_LEFT')
         else:
             transitions[(1, sym)] = (1, sym, 'MOVE_RIGHT')
 
     # q_2 (Leviticus): Tav = Vollendung -> HALT
-    for sym in VISIBLE:
+    #                  Aleph = Schöpfung -> q_3
+    #                  Anker-Operatoren (כ, ג, י) -> q_2 (MOVE_RIGHT, Anker)
+    #                  Dalet (ד) -> q_2 (MOVE_LEFT, Anker)
+    #                  Andere -> q_2 (MOVE_RIGHT)
+    for sym in ALL_HEBR:
         if sym == 'ת':
             transitions[(2, sym)] = (5, sym, 'HALT')
         elif sym == 'א':
             transitions[(2, sym)] = (3, sym, 'MOVE_RIGHT')
+        elif sym in ANCHOR_OPS:
+            transitions[(2, sym)] = (2, sym, ANCHOR_OPS[sym])
+        elif sym == 'ד':
+            transitions[(2, sym)] = (2, sym, 'MOVE_LEFT')
         else:
             transitions[(2, sym)] = (2, sym, 'MOVE_RIGHT')
 
-    # q_3 (Numeri): Resh (ר) leitet zu Deuteronomium
-    for sym in VISIBLE:
+    # q_3 (Numeri): Resh (ר) leitet zu Deuteronomium -> q_4
+    #               Tav (ת) = HALT
+    #               Anker-Operatoren (כ, ג, י) -> q_3 (MOVE_RIGHT, Anker)
+    #               Dalet (ד) -> q_3 (MOVE_LEFT, Anker)
+    #               Andere -> q_3 (MOVE_RIGHT)
+    for sym in ALL_HEBR:
         if sym == 'ר':
             transitions[(3, sym)] = (4, sym, 'MOVE_RIGHT')
+        elif sym == 'ת':
+            transitions[(3, sym)] = (5, sym, 'HALT')
+        elif sym in ANCHOR_OPS:
+            transitions[(3, sym)] = (3, sym, ANCHOR_OPS[sym])
+        elif sym == 'ד':
+            transitions[(3, sym)] = (3, sym, 'MOVE_LEFT')
         else:
             transitions[(3, sym)] = (3, sym, 'MOVE_RIGHT')
 
     # q_4 (Deuteronomium): Nun (נ) = Vollendung der Schrift -> HALT
-    for sym in VISIBLE:
+    #                      Tav (ת) = HALT
+    #                      Anker-Operatoren (כ, ג, י) -> q_4 (MOVE_RIGHT, Anker)
+    #                      Dalet (ד) -> q_4 (MOVE_LEFT, Anker)
+    #                      Andere -> q_4 (MOVE_RIGHT)
+    for sym in ALL_HEBR:
         if sym == 'נ':
             transitions[(4, sym)] = (5, sym, 'HALT')
+        elif sym == 'ת':
+            transitions[(4, sym)] = (5, sym, 'HALT')
+        elif sym in ANCHOR_OPS:
+            transitions[(4, sym)] = (4, sym, ANCHOR_OPS[sym])
+        elif sym == 'ד':
+            transitions[(4, sym)] = (4, sym, 'MOVE_LEFT')
         else:
             transitions[(4, sym)] = (4, sym, 'MOVE_RIGHT')
 
-    # q_5 (HALT-Zustand)
-    for sym in VISIBLE:
+    # q_5 (HALT-Zustand): Selbst-Loop mit HALT für alle 22 Symbole
+    for sym in ALL_HEBR:
         transitions[(5, sym)] = (5, sym, 'HALT')
 
     return transitions

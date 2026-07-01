@@ -54,87 +54,29 @@ EXTENDED_LATIN_TO_HEBR.update({
 
 
 def build_extended_transitions():
-    """Erweiterte Übergangstabelle mit den 4 zusätzlichen Symbolen (Gimel, Kaf, Dalet, Vav)."""
-    base = build_tora_transitions()
-    for state in range(6):
-        # ג (Gimel) = MOVE_RIGHT - wie Beth
-        if (state, 'ב') in base:
-            base[(state, 'ג')] = base[(state, 'ב')]
-        # כ (Kaf) = READ - wie Aleph
-        if (state, 'א') in base:
-            base[(state, 'כ')] = base[(state, 'א')]
-        # ד (Dalet) = MOVE_LEFT - wie Gimel
-        if (state, 'ג') in base:
-            base[(state, 'ד')] = base[(state, 'ג')]
-        # ו (Vav) = WRITE - ist schon im Basis-Mapping
-        if (state, 'ו') in base:
-            base[(state, 'ו')] = base[(state, 'ו')]
-    return base
+    """Erweiterte Übergangstabelle: alle 22 hebr. Konsonanten.
+
+    Seit Bug-Fix 2026-07-01: build_tora_transitions() enthält bereits alle
+    22 Konsonanten × 6 States. Diese Funktion ist ein dünner Wrapper für
+    Rückwärtskompatibilität.
+    """
+    return build_tora_transitions()
 
 
 def build_fully_extended_transitions():
-    """Vollständig erweiterte Übergangstabelle mit ALLEN 5 fehlenden Operatoren.
+    """Vollständig erweiterte Übergangstabelle: alle 22 hebr. Konsonanten.
 
-    Fügt hinzu: ג (MOVE_RIGHT), ד (MOVE_LEFT), כ (READ), ת (HALT), י (STATE)
+    Seit Bug-Fix 2026-07-01: identisch mit build_tora_transitions().
     """
-    base = build_tora_transitions()
-    for state in range(6):
-        # ג (Gimel) = MOVE_RIGHT
-        if (state, 'ב') in base:
-            base[(state, 'ג')] = base[(state, 'ב')]
-        # ד (Dalet) = MOVE_LEFT (wie Gimel, aber entgegengesetzt)
-        if (state, 'ג') in base:
-            base[(state, 'ד')] = base[(state, 'ג')]
-        # כ (Kaf) = READ
-        if (state, 'א') in base:
-            base[(state, 'כ')] = base[(state, 'א')]
-        # ת (Tav) = HALT (vollständiger HALT-Trigger)
-        if (state, 'ת') in base:
-            base[(state, 'ת')] = base[(state, 'ת')]
-        # י (Yod) = STATE TRANSITION
-        if (state, 'י') in base:
-            base[(state, 'י')] = base[(state, 'י')]
-    return base
+    return build_tora_transitions()
 
 
 def build_complete_transitions():
-    """Vollständige Übergangstabelle: alle 22 hebr. Konsonanten haben Übergänge.
+    """Vollständige Übergangstabelle: alle 22 hebr. Konsonanten.
 
-    Jeder State hat für jedes mögliche Symbol einen Übergang definiert.
-    Operatoren werden semantisch korrekt gemappt.
+    Seit Bug-Fix 2026-07-01: identisch mit build_tora_transitions().
     """
-    base = build_tora_transitions()
-
-    # Alle 22 hebr. Konsonanten
-    ALL_HEBR = ['א','ב','ג','ד','ה','ו','ז','ח','ט','י',
-                'כ','ל','מ','נ','ס','ע','פ','צ','ק','ר','ש','ת']
-
-    for state in range(6):
-        for sym in ALL_HEBR:
-            if (state, sym) in base:
-                continue  # schon definiert
-            # Wähle Default-Übergang basierend auf Symbol
-            if sym in ['ג', 'ד']:  # MOVE_LEFT/RIGHT
-                if (state, 'ב') in base:
-                    base[(state, sym)] = base[(state, 'ב')]
-            elif sym == 'כ':  # READ
-                if (state, 'א') in base:
-                    base[(state, sym)] = base[(state, 'א')]
-            elif sym == 'ת':  # HALT
-                # Tav in q_0, q_2, q_4: HALT (Vollendung)
-                if state in [0, 2, 4]:
-                    base[(state, sym)] = (5, sym, 'HALT')
-                else:
-                    if (state, 'א') in base:
-                        base[(state, sym)] = base[(state, 'א')]
-            elif sym == 'י':  # STATE
-                if (state, 'י') in base:
-                    base[(state, sym)] = base[(state, 'י')]
-            else:
-                # Default: wie Aleph (Anker)
-                if (state, 'א') in base:
-                    base[(state, sym)] = base[(state, 'א')]
-    return base
+    return build_tora_transitions()
 
 
 class ToraTuringMultiPhase:
@@ -171,7 +113,7 @@ class ToraTuringMultiPhase:
         self.n_phases = (len(self.tape) + phase_size - 1) // phase_size
 
     def _reset_for_next_phase(self):
-        """Setze den Kopf auf 0 zurück und beginne die nächste Phase."""
+        """Setze den Kopf auf Phasen-Anfang zurück und beginne die nächste Phase."""
         # Phase-Halt aufzeichnen
         self.phase_halts.append({
             'phase': self.phase,
@@ -179,12 +121,13 @@ class ToraTuringMultiPhase:
             'halt_state': self.state,
             'halt_reason': 'PHASE_HALT',
         })
-        # Zurück auf Phase-Anfang
-        self.head = 0
-        # State auf start_state zurücksetzen (Genesis)
-        self.state = self.start_state
         # Nächste Phase
         self.phase += 1
+        # Zurück auf PHASE-Anfang (nicht 0!)
+        self.phase_start = self.phase * self.phase_size
+        self.head = self.phase_start
+        # State auf start_state zurücksetzen (Genesis)
+        self.state = self.start_state
 
     def step(self):
         """Führe einen Schritt aus.
@@ -193,6 +136,10 @@ class ToraTuringMultiPhase:
         ABER: Statt komplett zu stoppen, setzt sie den Kopf zurück
         und liest die nächste Phase — NUR wenn noch weitere Phasen da sind.
         """
+        if self.halted:
+            # Bereits gehalten (z.B. MAX_STEPS_EXCEEDED oder ALL_PHASES_COMPLETE)
+            return False
+
         if self.phase >= self.n_phases:
             # Alle Phasen gelesen — finaler HALT
             self.halted = True
@@ -201,11 +148,12 @@ class ToraTuringMultiPhase:
             self.halt_reason = 'ALL_PHASES_COMPLETE'
             return False
 
-        # Phasen-Grenze prüfen
+        # Phasen-Grenze prüfen — BEVOR wir einen Schritt machen
         phase_start = self.phase * self.phase_size
         phase_end = min((self.phase + 1) * self.phase_size, len(self.tape))
         if self.head >= phase_end:
             # Phasenende erreicht — automatisch nächste Phase
+            # WICHTIG: KEIN Schritt zählen, nur Reset
             self._reset_for_next_phase()
             return True  # Weiter
 
@@ -273,10 +221,19 @@ class ToraTuringMultiPhase:
         return True
 
     def run(self, max_steps=10000):
-        """Laufe die Maschine durch alle Phasen."""
+        """Laufe die Maschine durch alle Phasen.
+
+        Wenn max_steps erreicht wird, hält die Maschine mit halt_reason='MAX_STEPS_EXCEEDED'.
+        Das schützt vor Endlosschleifen (z.B. Dalet-Nun-Pendel).
+        """
         while not self.halted and self.total_steps < max_steps:
             if not self.step():
                 break
+        if not self.halted and self.total_steps >= max_steps:
+            self.halted = True
+            self.halt_step = self.total_steps
+            self.halt_state = self.state
+            self.halt_reason = 'MAX_STEPS_EXCEEDED'
         return self
 
     def summary(self):

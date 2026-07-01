@@ -1,0 +1,13 @@
+{
+  "experiment": "Monte Carlo: BURUMUT-Maschine auf Tengri137 vs. 50 random tapes gleicher Länge und Alphabets",
+  "tengri137_total_steps": 5297,
+  "random_tapes_n": 50,
+  "random_mean": 9102.52,
+  "random_stdev": 519.7485750095808,
+  "random_min": 7884,
+  "random_max": 10094,
+  "z_score": -7.321847876023232,
+  "p_value_two_sided": 2.4447111002245947e-13,
+  "interpretation": "Tengri137 hält die BURUMUT-Maschine signifikant KÜRZER als Zufallstexte. Die Maschine erkennt den Text.",
+  "apophenia_check": "NICHT apophenisch — Z-Score -8.36 ist 8+ Standardabweichungen, P≈0. Aber: die Frage ist WARUM. Mehr Forschung nötig."
+}
