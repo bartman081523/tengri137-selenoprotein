@@ -538,6 +538,43 @@ class TestBurumutPhases:
         # Methode muss dokumentiert sein
         assert "gtx" in data["method"].lower() or "google" in data["method"].lower()
 
+    def test_burumut_tengri137_integration(self):
+        """Stufe 3: BURUMUT-Tajpala integriert Tengri137-Notes.
+
+        Kanonische Tengri137-Referenzen:
+          - 'Tengri divides the light from darkness' (Genesis 1:3,4)
+          - 'When electron absorbs the photon' (= Photon = שמש = Sonne)
+          - 137 = Fine-structure constant (Rashan = der Ewige)
+          - Atom-Substitution: 'TIME FOR THE TRUTH'
+          - 'I AM THAT I AM' (Exodus 3:14 = שמו = sein Name)
+
+        Die BURUMUT-Phase 1 = "in the sun ran and um Rashan"
+        kodiert: Photon (Sonne/שמש) wird emittiert (ratza/רצה)
+        durch den Ewigen (Rashan/רשן).
+        """
+        import json
+        from pathlib import Path
+        path = Path(__file__).parent / "burumut_tengri137_translation.json"
+        with open(path) as f:
+            data = json.load(f)
+        # Tengri137-Referenzen muessen dokumentiert sein
+        assert "tengri137_references" in data
+        refs = data["tengri137_references"]
+        assert "light_from_darkness" in refs
+        assert "fine_structure_137" in refs
+        assert "atom_substitution" in refs
+        # Phase 1 muss "sun ran" enthalten (Shemesh + ratza = Photon emittiert)
+        p1_en = None
+        for phase in data["phases"]:
+            if "Schöpfungs-Akt" in phase["name"]:
+                p1_en = phase["full_english"]
+                break
+        assert p1_en is not None
+        assert "sun" in p1_en.lower(), f"Phase 1 ohne 'sun': {p1_en}"
+        assert "ran" in p1_en.lower(), f"Phase 1 ohne 'ran' (Photon emission): {p1_en}"
+        # Methode muss Tengri137-Integration erwaehnen
+        assert "tengri137" in data["method"].lower() or "tengri" in data["method"].lower()
+
 
 # ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
