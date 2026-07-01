@@ -162,6 +162,13 @@ class SpandaMachine:
         state_head_history = []  # für Pendel-Erkennung
         history = []
 
+        # Aleph-Reflektions-Halts (Tengri137-Architektur 11²+1):
+        # Die Maschine ehrt Aleph (א=1, Stille, Atem) als Reflektions-Punkt.
+        # 11 Aleph-Halts = 11 BURUMUT-Sec-Anker
+        # (entdeckt via Cluster 6, P66-76 = Spiegelungspunkt)
+        aleph_halts = []
+        aleph_reflections = []
+
         while head < n:
             # Phasenende?
             if head >= (phase + 1) * self.phase_size:
@@ -177,6 +184,21 @@ class SpandaMachine:
                 state = 0
                 state_head_history = []
                 continue
+
+            # Aleph-Reflektion: Wenn das aktuelle Symbol Aleph (א) ist UND
+            # wir im Reflektions-Modus sind, halte an und lies die
+            # bisherige Halt-Geschichte rückwärts.
+            # Tengri137: 11 Aleph-Stellen sind die BURUMUT-Sec-Anker.
+            if tape[head] == 'א' and head > 0:
+                # Wir zählen Aleph-Halts separat (nicht in phase_halts)
+                aleph_halts.append({
+                    'phase': phase, 'step': total_steps,
+                    'state': state, 'head': head,
+                    'letter': self.base.letters[from_position + head] if from_position + head < len(self.base.letters) else '?',
+                    'reflection': list(reversed(phase_halts[-3:])),  # die letzten 3 Halts
+                })
+                # Reflektion: keine Aktion, weiter im Tape
+                # Die Aleph-Stelle IST die Aussage (Spanda: Manifestation = Erkenntnis)
 
             # Pendel?
             current = (state, head)
@@ -282,6 +304,8 @@ class SpandaMachine:
             'final_state': state,
             'final_head': head,
             'phase_halts': phase_halts,
+            'aleph_halts': aleph_halts,  # 11 BURUMUT-Sec-Anker (Tengri137-Architektur)
+            'n_aleph_reflections': len(aleph_halts),
             'history': history[-100:],  # nur letzte 100 Schritte
             'halt_reason': self.last_halt['reason'],
             'stayed_count': sum(1 for h in history if h.get('move') == 'STAY'),
