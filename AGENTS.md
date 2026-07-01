@@ -194,6 +194,44 @@ Dieses Repository untersucht **Tengri 137** — ein 23-seitiges, 2016 anonym ver
 3. **Aktualisiere** den Mermaid-Plan (`sources/MERMAID_INVESTIGATION_PLAN.md`)
 4. **Schreibe** einen Findings-Markdown, falls substanziell
 
+### 4.1a PFLICHT: Mermaid-Plan und Tengri137-Cross-Check
+
+**Der Mermaid-Plan (`sources/MERMAID_INVESTIGATION_PLAN.md`) ist der zentrale Wissensgraph.
+Er MUSS nach jeder substanziellen Entdeckung aktualisiert werden. Er ist ein wachsendes
+Dokument — keine bestehenden Knoten revidieren, nur neue hinzufügen.**
+
+**Workflow für jede neue Entdeckung:**
+
+1. **Tengri137_Full_Notes re-lesen** (besonders Zeilen 1-100, 200-410, 600-700, 1100-1170)
+   - Tengri137 ist die HAUPTQUELLE für BURUMUT (Z.652-662)
+   - Jede numerische Behauptung könnte eine Tengri137-Referenz haben
+   - Tengri's Kernbotschaften: "Tengri divides the light from darkness" (Z.382),
+     "ONE THREE SEVEN" (Z.261), "I AM THAT I AM" (Z.335), "TIME FOR THE TRUTH" (Z.1166)
+
+2. **Tengri137 Cross-Check** bevor eine neue Hypothese geäußert wird:
+   - Hat die neue Entdeckung eine Tengri137-Referenz? (Z. 1-1170)
+   - Welche Tengri137-Quote passen zur Hypothese?
+   - Dokumentiere in der entsprechenden Phase des Mermaid-Plans
+
+3. **Mermaid-Plan aktualisieren** mit:
+   - Neuer Phase (P<N>) in `MERMAID_INVESTIGATION_PLAN.md`
+   - Wachstumschronologie-Update
+   - Kumulative p-Wert-Bilanz (falls numerisch)
+
+4. **Konsolidierungs-Datei** aktualisieren:
+   - Bei BURUMUT-bezogenen Befunden: `sources/TORAH_TURUS_TURING_MACHINE_TENGRI137.md`
+   - Andere Befunde: jeweilige Konsolidierungs-Datei
+
+**Beispiel:** Wenn ein neuer numerischer Brücke zwischen BURUMUT und einer Tengri137-Zahl
+gefunden wird:
+- Tengri137_Cross-Check: Welche Z. erwähnt diese Zahl?
+- Mermaid-Plan: Neue Phase hinzufügen
+- TORAH_TURUS_TURING_MACHINE_TENGRI137.md: Brücke dokumentieren
+- Commit: "Q<N>: <Beschreibung>"
+
+**WICHTIG:** Ohne Tengri137-Cross-Check und Mermaid-Update ist die Entdeckung
+UNVOLLSTÄNDIG. Diese beiden Schritte sind PFLICHT, nicht optional.
+
 ### 4.2 Epistemische Standards
 
 **Numerische Behauptungen:**
@@ -343,6 +381,8 @@ git log --oneline | head -5
 |---|---|
 | 2026-06-30 (initial) | Repo init, 12 Commits, 220+ Dateien, 26 Q-Analysen |
 | 2026-06-30 (this update) | AGENTS.md erstellt mit PhiMind, SciMind, ResearchMind, DevMind |
+| 2026-07-01 (Mermaid+Tengri137-Pflicht) | **NEUE SECTION 4.1a**: PFLICHT — Mermaid-Plan nach jeder Entdeckung updaten, Tengri137 Cross-Check |
+| 2026-07-01 (Konsolidierung) | sources/TORAH_TURUS_TURING_MACHINE_TENGRI137.md erstellt. Mermaid-Plan: Phase 35-40 hinzugefügt (6-Phasen-Analyse, Phonetische Tajpala, Tengri137-Integration, BURUMUT-Phrase-Ursprung) |
 
 ---
 
