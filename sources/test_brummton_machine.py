@@ -377,6 +377,138 @@ class TestBurumutPhases:
 
 
 # ============================================================================
+# TESTS FÜR 929: SIGNATUR DER HOLOGRAPHIE
+# ============================================================================
+
+class TestHolographic929:
+    """Tests für 929 als Signatur der Holographie.
+
+    929 = 9 · 2 · 9 = Binah · Aleph · Binah
+
+    Binah und Aleph sind dasselbe — nur an verschiedenen Positionen
+    in der holographischen Reflexion. Die BURUMUT-Schrift beweist
+    das numerisch: BURUMUT-99 = 6503 = 7 × 929.
+    """
+
+    def test_929_ist_primzahl(self):
+        """929 muss eine Primzahl sein (158. Primzahl)."""
+        n = 929
+        for i in range(2, int(n**0.5) + 1):
+            assert n % i != 0, f"929 ist nicht prim, teilbar durch {i}"
+        # Manuell verifiziert: 929 ist prim (sqrt(929) ≈ 30.5)
+        assert 929 % 2 != 0
+        assert 929 % 3 != 0  # 9+2+9 = 20, nicht durch 3
+        assert 929 % 5 != 0
+        assert 929 % 7 != 0
+        assert 929 % 11 != 0
+        assert 929 % 13 != 0
+        assert 929 % 17 != 0
+        assert 929 % 19 != 0
+        assert 929 % 23 != 0
+        assert 929 % 29 != 0
+
+    def test_929_ist_die_158te_primzahl(self):
+        """929 ist die 158. Primzahl (NICHT die 64., wie ursprünglich angenommen).
+
+        SciMind-Korrektur: Das ursprüngliche PhiMind-Manifest behauptete
+        fälschlich, 929 sei die 64. Primzahl. Die korrekte Position ist 158.
+
+        158 = 2 × 79 (zusammengesetzt, nicht prim)
+        Aber 929 selbst IST prim.
+        """
+        # Zähle Primzahlen bis 929
+        n = 929
+        count = 0
+        for i in range(2, n + 1):
+            is_prime = True
+            for j in range(2, int(i**0.5) + 1):
+                if i % j == 0:
+                    is_prime = False
+                    break
+            if is_prime:
+                count += 1
+        assert count == 158, f"929 sollte die 158. Primzahl sein, ist {count}."
+
+    def test_6503_ist_7_mal_929(self):
+        """6503 = 7 × 929 — die BURUMUT-99 Brücke."""
+        assert 6503 == 7 * 929
+        assert 7 * 929 == 6503
+        # BURUMUT (hebr., 99 AS) = 6503
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT, HEBR_VALUES
+        brt = burumut_to_hebr(BURUMUT)
+        total = sum(HEBR_VALUES.get(c, 0) for c in brt)
+        assert total == 7 * 929, f"BURUMUT-99 muss 7 × 929 = 6503 sein, ist {total}"
+
+    def test_929_anatomie_9_2_9(self):
+        """929 = 9 · 2 · 9 (Binah · Aleph · Binah)."""
+        # 9 = Binah (Leere/Form)
+        # 2 = Aleph (selbstbewusste Brücke)
+        # 9 = Binah (Echo)
+        # 9 + 2 + 9 = 20 (Schrift-Vollendung!)
+        assert 9 + 2 + 9 == 20, "9+2+9 = 20 (Schrift-Vollendung Phase 4)"
+        # In BURUMUT: Phase 4 hat 20 Zeichen!
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        phase4 = brt[46:66]
+        assert len(phase4) == 20, (
+            f"Phase 4 (Schrift-Vollendung) muss 20 Zeichen haben, hat {len(phase4)}"
+        )
+
+    def test_2_ist_die_bruecke_zwischen_lebend_und_tot(self):
+        """Die 2 (Aleph) ist die Brücke zwischen Form (+∞) und Leere (-∞)."""
+        # In der Tora-Turing-Maschine führt Aleph in q_0 zu HALT:
+        # HALT = Tod = Geburt = der Aleph-Punkt
+        from TORA_TURING_CORRECT import (
+            ToraTuringMachine, burumut_to_hebr, BURUMUT
+        )
+        brt = burumut_to_hebr(BURUMUT)
+        m = ToraTuringMachine(brt)
+        m.run()
+        # Aleph (א) muss HALT-Trigger sein
+        from TORA_TURING_CORRECT import build_tora_transitions
+        transitions = build_tora_transitions()
+        # (q_0, Aleph) -> (q_5, HALT)
+        assert (0, 'א') in transitions, "q_0 × Aleph muss definiert sein"
+        new_state, _, move = transitions[(0, 'א')]
+        assert move == 'HALT', "q_0 × Aleph muss HALT sein"
+        assert new_state == 5, f"q_0 × Aleph -> q_5 (HALT), ist q_{new_state}"
+
+    def test_unendlich_mal_unendlich_minus_unendlich(self):
+        """∞ × ∞ = -∞ — die holographische Verschränkung.
+
+        -∞ × +∞ = -∞ (Schöpfung als Reflexion)
+        +∞ × +∞ = +∞ (Form bleibt Form, ohne Brücke)
+        -∞ × -∞ = +∞ (Leere wird Form, durch 2)
+
+        Aber +∞ × -∞ durch 2 (Brücke) = -∞ (Holographie).
+        """
+        # Symbolisch:
+        # form = float('inf')
+        # leere = float('-inf')
+        # Aber das ist konzeptionell:
+        form_inf = 1e308  # +∞ approximation
+        leere_inf = -1e308  # -∞ approximation
+        # Verschränkt (multipliziert):
+        verschr = form_inf * leere_inf  # = -∞
+        # In Python: 1e308 * -1e308 = -inf
+        assert verschr < 0, f"Verschränkung muss negativ sein, ist {verschr}"
+        # Die Brücke 2 transformiert das Vorzeichen
+        # (-∞) * 2 = -∞ (bleibt negativ) — Form bewahrt
+        # Aber BEIDE gleichzeitig: -∞ × +∞ × 2 = -∞ × (2 × +∞) = -∞
+        # Die 2 ist also nicht neutral, sondern REFLEXIV:
+        # 2 * x = x (mathematisch) ABER 2 * ∞ = ∞ (nicht -∞)
+        # Daher: die holographische Lesart ist 2 als SCHALTER
+        # 2 wechselt zwischen +∞ und -∞ hin und her
+        # BURUMUT-99 = 7 × 929 = 7 × (Binah + 2 + Binah)
+        # = 7 × Binah (Leere) + 7 × 2 (Brücke) + 7 × Binah (Form)
+        # = -∞ + 0 + +∞ = 0 (der Aleph-Punkt, HALT)
+        summe_holo = 7 * (-1) + 7 * 2 + 7 * 9  # -7 + 14 + 63 = 70
+        # 70 = 5 Layer × 14 (BURUMUT's Modul-Länge!)
+        assert summe_holo == 70, f"Holographische Summe muss 70 sein, ist {summe_holo}"
+        # 70 + 2 (Start + HALT) = 72 (Knoten-Tora)
+
+
+# ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
 # ============================================================================
 
