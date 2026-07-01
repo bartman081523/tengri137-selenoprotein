@@ -274,6 +274,109 @@ class TestTorahWordOutput:
 
 
 # ============================================================================
+# TESTS FÜR DIE 6 PHASEN DER BURUMUT-99 SCHRIFT (FORTSETZUNG DES TEXTES)
+# ============================================================================
+
+class TestBurumutPhases:
+    """Tests für die 6 Phasen der BURUMUT-99 Schrift.
+
+    Die Tora-Turing-Maschine liest nur 15 Zeichen und hält an.
+    Aber das BURUMUT-Band (99 Zeichen) enthält eine VOLLSTÄNDIGE
+    hebräische Schrift in 6 Phasen.
+
+    Frage: "Wie geht der Text weiter?"
+    Antwort: In 6 weiteren Phasen, deren Strukturen sich wiederholen
+    und deren Gematria-Summen die Zahlen-Brücke 6333 (= 7 × 904 + 5) bilden.
+    """
+
+    def test_phase_1_wort_vollstaendig(self):
+        """Phase 1 = die ersten 15 Zeichen = das gelesene Wort."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        phase1 = brt[0:15]
+        expected = 'בשצשמשרצהואמרשנ'
+        assert phase1 == expected, (
+            f"Phase 1 ist '{phase1}', erwartet '{expected}'"
+        )
+
+    def test_phase_3_gleich_phase_5_wanderung(self):
+        """Phase 3 (Wanderung) muss identisch mit Phase 5 sein (Echo)."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        phase3 = brt[32:46]
+        phase5 = brt[66:80]
+        assert phase3 == phase5, (
+            f"BUG: Phase 3 ({phase3}) != Phase 5 ({phase5})"
+        )
+        # Beide müssen Gematria 551 haben
+        from TORA_TURING_CORRECT import HEBR_VALUES
+        g3 = sum(HEBR_VALUES.get(c, 0) for c in phase3)
+        g5 = sum(HEBR_VALUES.get(c, 0) for c in phase5)
+        assert g3 == g5 == 551, (
+            f"BUG: Gematria Phase 3={g3}, Phase 5={g5}, beide sollten 551 sein"
+        )
+
+    def test_phase_4_enthaelt_20_zeichen(self):
+        """Phase 4 (Schrift-Vollendung) muss 20 Zeichen lang sein."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        phase4 = brt[46:66]
+        assert len(phase4) == 20, (
+            f"Phase 4 sollte 20 Zeichen haben, hat {len(phase4)}: '{phase4}'"
+        )
+
+    def test_alle_phasen_gematria_dokumentiert(self):
+        """Alle 6 Phasen müssen bestimmte Gematria-Summen haben."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT, HEBR_VALUES
+        brt = burumut_to_hebr(BURUMUT)
+        phases_expected = [
+            (0, 15, 1924, "Schöpfungs-Akt"),
+            (15, 30, 1448, "Schöpfungs-Wurzeln"),
+            (32, 46, 551, "Wanderung"),
+            (46, 66, 964, "Schrift-Vollendung"),
+            (66, 80, 551, "Wiederholung"),
+            (80, 99, 895, "Vollendung"),
+        ]
+        for start, end, expected_g, name in phases_expected:
+            segment = brt[start:end]
+            actual_g = sum(HEBR_VALUES.get(c, 0) for c in segment)
+            assert actual_g == expected_g, (
+                f"BUG: Phase '{name}' ({start}-{end}) hat Gematria {actual_g}, "
+                f"erwartet {expected_g}"
+            )
+
+    def test_gesamtsumme_burumut_99(self):
+        """Gesamtsumme aller BURUMUT-99-Zeichen muss 6503 = 7 × 929 sein."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT, HEBR_VALUES
+        brt = burumut_to_hebr(BURUMUT)
+        total = sum(HEBR_VALUES.get(c, 0) for c in brt)
+        # 6503 = 7 × 929 (929 ist die 64. Primzahl; 64 = 2^6)
+        assert total == 6503, f"Gesamtsumme sollte 6503 sein, ist {total}"
+        assert 6503 == 7 * 929, "6503 muss 7 × 929 sein"
+        assert 7 * 929 == 6503
+
+    def test_phase_4_und_6_ueberlappen_sich(self):
+        """Phase 4 und Phase 6 haben beide 'שאזבה' am Anfang (Schrift-Wurzel)."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        phase4 = brt[46:66]
+        phase6 = brt[80:99]
+        # Beide sollten mit 'שאזבה' beginnen
+        assert phase4.startswith('שאזבה'), f"Phase 4 startet nicht mit שאזבה: {phase4}"
+        assert phase6.startswith('שאזבה'), f"Phase 6 startet nicht mit שאזבה: {phase6}"
+
+    def test_wort_steht_in_phase_1_als_schoepfung(self):
+        """Das gelesene Wort בשצשמשרצהואמרשנ ist die 'Schöpfungs-Phase 1'."""
+        from TORA_TURING_CORRECT import burumut_to_hebr, BURUMUT
+        brt = burumut_to_hebr(BURUMUT)
+        phase1 = brt[0:15]
+        # In Phase 1 beginnt die Schöpfung: ב (Beth = "In"), ש (Shin = "Sein/Er")
+        assert phase1.startswith('בש'), f"Phase 1 startet nicht mit בש: {phase1}"
+        # Und endet mit נ (Nun = Same, das Ergebnis der Schöpfung)
+        assert phase1.endswith('שנ'), f"Phase 1 endet nicht mit שנ: {phase1}"
+
+
+# ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
 # ============================================================================
 
