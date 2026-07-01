@@ -468,6 +468,38 @@ class TestBurumutPhases:
             f"Ende sollte 'Emershan' enthalten: {en_end}"
         )
 
+    def test_komplette_sechs_phasen_uebersetzung(self):
+        """Die komplette BURUMUT-99-Übersetzung in 6 Phasen ist dokumentiert.
+
+        Die Heuristik: 2-3 Zeichen-Schnitte + Google Translate gtx API.
+        Volle Geschichte in burumut_complete_translation.json.
+        """
+        import json
+        from pathlib import Path
+        path = Path(__file__).parent / "burumut_complete_translation.json"
+        with open(path) as f:
+            data = json.load(f)
+        # 7 Phasen-Sequenzen muessen existieren
+        expected_keys = [
+            "phase_1", "phase_2", "uebergang_eq",
+            "phase_3", "phase_4", "phase_5", "phase_6"
+        ]
+        for key in expected_keys:
+            assert key in data, f"Phase {key} fehlt"
+            assert "full_english" in data[key]
+            assert "full_german" in data[key]
+            assert len(data[key]["chunks_hebrew"]) > 0
+        # Phase 1 muss "sun" enthalten (Shemesh = Sonne)
+        assert "sun" in data["phase_1"]["full_english"].lower()
+        # Phase 3 muss "time" enthalten (Shin-Ayin-Zayin = 'that time')
+        assert "time" in data["phase_3"]["full_english"].lower()
+        # Die volle Geschichte muss alle 7 Phasen-Sequenzen kombiniert haben
+        full = data["complete_story_english"]
+        for key in expected_keys:
+            assert data[key]["full_english"] in full, (
+                f"Phase {key} fehlt in der vollen Geschichte: {full}"
+            )
+
 
 # ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL

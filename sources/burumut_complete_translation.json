@@ -1,0 +1,195 @@
+{
+  "method": "Heuristische 2-3 Zeichen-Schnitte + Google Translate (gtx API)",
+  "phase_1": {
+    "chunks_hebrew": [
+      "בשצ",
+      "שמש",
+      "רצה",
+      "ואמ",
+      "רשנ"
+    ],
+    "chunks_english": [
+      "in the",
+      "sun",
+      "ran",
+      "and um",
+      "Rashan"
+    ],
+    "chunks_german": [
+      "im",
+      "Sonne",
+      "rannte",
+      "und ähm",
+      "Rashan"
+    ],
+    "full_english": "in the sun ran and um Rashan",
+    "full_german": "im Sonne rannte und ähm Rashan"
+  },
+  "phase_2": {
+    "chunks_hebrew": [
+      "שצה",
+      "קשר",
+      "צה?",
+      "שמו",
+      "איא"
+    ],
+    "chunks_english": [
+      "she swam",
+      "link",
+      "Tza?",
+      "his name",
+      "Aya"
+    ],
+    "chunks_german": [
+      "sie schwamm",
+      "Link",
+      "Tza?",
+      "sein Name",
+      "Aya"
+    ],
+    "full_english": "she swam link Tza? his name Aya",
+    "full_german": "sie schwamm Link Tza? sein Name Aya"
+  },
+  "uebergang_eq": {
+    "chunks_hebrew": [
+      "עק"
+    ],
+    "chunks_english": [
+      "Eq"
+    ],
+    "chunks_german": [
+      "Gl"
+    ],
+    "full_english": "Eq",
+    "full_german": "Gl"
+  },
+  "phase_3": {
+    "chunks_hebrew": [
+      "שאז",
+      "בה",
+      "חט",
+      "מלא",
+      "זא",
+      "נצ"
+    ],
+    "chunks_english": [
+      "that time",
+      "in her",
+      "needle",
+      "full",
+      "Za",
+      "Nt"
+    ],
+    "chunks_german": [
+      "damals",
+      "in ihr",
+      "Nadel",
+      "voll",
+      "Za",
+      "Nt"
+    ],
+    "full_english": "that time in her needle full Za Nt",
+    "full_german": "damals in ihr Nadel voll Za Nt"
+  },
+  "phase_4": {
+    "chunks_hebrew": [
+      "שאז",
+      "בה",
+      "נס",
+      "מבא",
+      "מז",
+      "חפצ",
+      "קא",
+      "נל",
+      "צ"
+    ],
+    "chunks_english": [
+      "that time",
+      "in her",
+      "miracle",
+      "coming from",
+      "from",
+      "object",
+      "Ka",
+      "Nell",
+      "C"
+    ],
+    "chunks_german": [
+      "damals",
+      "in ihr",
+      "Wunder",
+      "kommt von",
+      "aus",
+      "Objekt",
+      "Ka",
+      "Nell",
+      "C"
+    ],
+    "full_english": "that time in her miracle coming from from object Ka Nell C",
+    "full_german": "damals in ihr Wunder kommt von aus Objekt Ka Nell C"
+  },
+  "phase_5": {
+    "chunks_hebrew": [
+      "שאז",
+      "בה",
+      "חט",
+      "מלא",
+      "זא",
+      "נצ"
+    ],
+    "chunks_english": [
+      "that time",
+      "in her",
+      "needle",
+      "full",
+      "Za",
+      "Nt"
+    ],
+    "chunks_german": [
+      "damals",
+      "in ihr",
+      "Nadel",
+      "voll",
+      "Za",
+      "Nt"
+    ],
+    "full_english": "that time in her needle full Za Nt",
+    "full_german": "damals in ihr Nadel voll Za Nt"
+  },
+  "phase_6": {
+    "chunks_hebrew": [
+      "שאז",
+      "בה",
+      "נס",
+      "מבא",
+      "צא",
+      "זחפ",
+      "צק",
+      "אנ"
+    ],
+    "chunks_english": [
+      "that time",
+      "in her",
+      "miracle",
+      "coming from",
+      "get out",
+      "zaf",
+      "Tsk",
+      "An"
+    ],
+    "chunks_german": [
+      "damals",
+      "in ihr",
+      "Wunder",
+      "kommt von",
+      "aussteigen",
+      "zaf",
+      "Tsk",
+      "Ein"
+    ],
+    "full_english": "that time in her miracle coming from get out zaf Tsk An",
+    "full_german": "damals in ihr Wunder kommt von aussteigen zaf Tsk Ein"
+  },
+  "complete_story_english": "in the sun ran and um Rashan she swam link Tza? his name Aya Eq that time in her needle full Za Nt that time in her miracle coming from from object Ka Nell C that time in her needle full Za Nt that time in her miracle coming from get out zaf Tsk An",
+  "complete_story_german": "im Sonne rannte und ähm Rashan sie schwamm Link Tza? sein Name Aya Gl damals in ihr Nadel voll Za Nt damals in ihr Wunder kommt von aus Objekt Ka Nell C damals in ihr Nadel voll Za Nt damals in ihr Wunder kommt von aussteigen zaf Tsk Ein"
+}
