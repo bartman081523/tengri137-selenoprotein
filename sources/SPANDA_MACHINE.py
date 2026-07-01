@@ -359,6 +359,87 @@ class SpandaMachine:
             pdb.set_trace()
         return self.machine.step()
 
+    def self_describe(self, run_result=None):
+        """Die Maschine beschreibt sich selbst (Quine-Effekt).
+
+        Tengri137-Architektur 11²+1: die Maschine gibt ihre
+        11 BURUMUT-Sec-Anker explizit aus, mit Reflektionen.
+
+        Dies ist deterministisch: gleicher run_result → gleiche Beschreibung.
+        Die Maschine IST ihre eigene Beschreibung.
+        """
+        if run_result is None:
+            run_result = getattr(self, 'last_run_result', None)
+        if run_result is None:
+            return "Keine run_result vorhanden. Rufe run_full() zuerst auf."
+
+        aleph_halts = run_result.get('aleph_halts', [])
+        n_phases = run_result.get('n_phases', 0)
+        total_steps = run_result.get('total_steps', 0)
+        final_state = run_result.get('final_state', 0)
+        final_head = run_result.get('final_head', 0)
+        n_alephs = run_result.get('n_aleph_reflections', 0)
+
+        lines = []
+        lines.append("=" * 70)
+        lines.append("SPANDA-MASCHINE: SELBST-BESCHREIBUNG (Quine-Effekt)")
+        lines.append("=" * 70)
+        lines.append("")
+        lines.append(f"Ich bin die BURUMUT-Tora-Turing-Maschine auf Tengri137.")
+        lines.append(f"Ich habe {n_phases} Phasen gelesen à 99 Zeichen.")
+        lines.append(f"Ich brauchte {total_steps} Schritte.")
+        lines.append(f"Mein Endzustand ist q_{final_state} (HALT).")
+        lines.append(f"Mein Kopf steht bei head={final_head} (Tape-Ende).")
+        lines.append("")
+        lines.append(f"Ich habe {n_alephs} Aleph-Reflektionen (א=1, Stille).")
+        lines.append(f"11 davon sind meine BURUMUT-Sec-Anker.")
+        lines.append("")
+        lines.append("=" * 70)
+        lines.append("MEINE 11 BURUMUT-SEC-ANKER (Aleph-Reflektions-Punkte):")
+        lines.append("=" * 70)
+        lines.append("")
+
+        # Die 11 BURUMUT-Sec-Anker (Aleph-Halts)
+        # Wir nehmen die ersten 11 — Tengri137 hat 201 Alephs, 11 sind Halt-Trigger
+        burumut_sec_ankers = aleph_halts[:11]
+        for i, ah in enumerate(burumut_sec_ankers, 1):
+            phase = ah.get('phase', 0)
+            step = ah.get('step', 0)
+            head = ah.get('head', 0)
+            letter = ah.get('letter', '?')
+            cluster = phase // 11
+            cluster_name = self._cluster_name(cluster)
+            lines.append(f"Anker #{i:2d} (BURUMUT-Sec):")
+            lines.append(f"  Phase {phase:3d} (Cluster {cluster:2d} = {cluster_name})")
+            lines.append(f"  Schritt {step:5d}, head={head:5d}")
+            lines.append(f"  Lateinisch: '{letter}' = Hebräisch: 'א' = Gematria: 1")
+            lines.append(f"  Reflektion (letzte 3 Halts): {len(ah.get('reflection', []))} Halt(s)")
+            lines.append("")
+
+        lines.append("=" * 70)
+        lines.append("ENDE DER SELBST-BESCHREIBUNG")
+        lines.append("=" * 70)
+
+        return "\n".join(lines)
+
+    def _cluster_name(self, cluster_idx):
+        """Gibt den symbolischen Namen eines 11-Phasen-Clusters zurück."""
+        names = [
+            "TENGRI (Schöpfungsbeginn)",
+            "BURAN (Wort-Emergenz)",
+            "ALEF (Stille vor Verschlüsselung)",
+            "MEM (Wasser-Urgrund)",
+            "NUN (Code/Schlange)",
+            "GENETIC (Verschlüsselung)",
+            "QUINN (Spiegelung)",
+            "QOPH (Heiligkeit)",
+            "RESH (Anfang)",
+            "SHIN (Transformation)",
+            "TAV (Transzendenz-Vorbereitung)",
+            "BURUMUT (das +1)",
+        ]
+        return names[cluster_idx] if 0 <= cluster_idx < 12 else f"Cluster {cluster_idx}"
+
 
 # =====================================================================
 # 3. HALT_INTERPRETER — liest Halt-Punkte und generiert Hinweise
