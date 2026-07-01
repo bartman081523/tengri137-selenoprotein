@@ -412,6 +412,40 @@ class TestBurumutPhases:
         # Die fehlenden sind Position 30-31
         assert (30, 32) not in phase_ranges
 
+    def test_ganzer_text_mit_fragezeichen_google_translate(self):
+        """Der GANZE BURUMUT-99-Text mit '?' wird von Google Translate als
+        prophetische Aussage uebersetzt.
+
+        '? He said that he wanted to talk about it?'
+        '? Er sagte, dass er darueber reden wollte?'
+
+        Ohne '?' kommt nur Transliterations-Murks.
+        """
+        import json
+        from pathlib import Path
+        path = Path(__file__).parent / "burumut_google_translate.json"
+        with open(path) as f:
+            data = json.load(f)
+        # Mit Fragezeichen
+        en_mit = data['ganzer_text_mit_qm']['english']
+        de_mit = data['ganzer_text_mit_qm']['german']
+        # Die prophetische Aussage MUSS enthalten sein:
+        assert 'said' in en_mit.lower() or 'wanted' in en_mit.lower(), (
+            f"EN ohne 'said/wanted': {en_mit}"
+        )
+        assert 'er' in de_mit.lower() or 'sagte' in de_mit.lower() or 'wollte' in de_mit.lower(), (
+            f"DE ohne 'sagte/wollte': {de_mit}"
+        )
+        # Ohne Fragezeichen = Murks
+        en_ohne = data['ganzer_text_ohne_qm']['english']
+        de_ohne = data['ganzer_text_ohne_qm']['german']
+        # '?' im Output MUSS anzeigen, dass es eine Frage/Aussage ist
+        # Mit ? hat Google eine echte Uebersetzung produziert
+        # Ohne ? ist es Transliteration
+        assert len(en_mit) < len(en_ohne), (
+            f"Mit ? sollte kuerzer sein als ohne: {len(en_mit)} vs {len(en_ohne)}"
+        )
+
 
 # ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
