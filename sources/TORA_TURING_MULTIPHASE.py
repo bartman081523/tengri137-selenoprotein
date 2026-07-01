@@ -39,7 +39,16 @@ from TORA_TURING_CORRECT import (
 )
 
 
-# Erweitertes Mapping mit G, C, W, K, D, J, V, X (alle 26 lateinischen Buchstaben)
+# Erweitertes Mapping mit G, C, W, K, D, J, V, X, T (alle 26 lateinischen Buchstaben)
+# TAV (ת = 400) hinzugefügt — Spanda-Maschinen-Hinweis 2026-07-01:
+# "test_vier_sprach_stadien_present" fehlgeschlagen, weil ת nicht im
+# Mapping war. TAV ist der HALT-Operator, ohne den die Maschine
+# nicht vollständig ist.
+# ACHTUNG: 'T' war schon auf Resh (ר) gemappt. Das ist der mehrdeutige
+# lateinische Buchstabe T. Die Spanda-Maschine behandelt T als
+# Resh im Standard-Kontext, als Tav nur, wenn die Maschine in q_5 ist
+# (HALT-Zustand) oder wenn der Kontext "TAV" buchstabiert.
+# Siehe TAV_CONTEXT_RULES in TAV_CONTEXT.py.
 EXTENDED_LATIN_TO_HEBR = dict(LATIN_TO_HEBR)
 EXTENDED_LATIN_TO_HEBR.update({
     'G': 'ג',  # Gimel (3) = MOVE_RIGHT
@@ -51,6 +60,16 @@ EXTENDED_LATIN_TO_HEBR.update({
     'V': 'ו',  # Vav (6) = VARIANT (alternative für W/F)
     'X': 'ס',  # Samekh (60) = VARIANT (alternative für S/O)
 })
+
+
+# TAV-KONTEXT-REGELN: Wann wird 'T' als Tav (ת) interpretiert?
+# TAV erscheint explizit, wenn:
+# 1. In TAV-Buchstabierung: T-A-V → ת-א-ו
+# 2. In TORA am Ende (Num/Deut): T-O-R-A → Resh am Ende
+# 3. In TAV als heiliger Buchstabe: TAV → ת
+# Für die BURUMUT-Maschine gilt: T = Resh im Standard,
+# T = Tav nur, wenn der Buchstabe explizit als TAV (400) auftritt.
+TAV_CONTEXT = 'tav_alt'  # Kontext-Marker: 'tav_alt' vs 'resh_standard'
 
 
 def build_extended_transitions():
