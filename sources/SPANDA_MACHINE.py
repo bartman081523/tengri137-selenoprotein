@@ -138,12 +138,17 @@ class SpandaMachine:
         self.last_halt = None
         self.all_halts = []
 
-    def run_full(self, from_position=0):
+    def run_full(self, from_position=0, stay_probability=0.0):
         """Laufe die Maschine über das volle Tape.
 
         Pendel-Erkennung: bei wiederholtem (state, head) → Phase-Reset.
         Final-Halt nur am Tape-Ende.
+
+        stay_probability: Wahrscheinlichkeit, dass die Maschine 'verweilt'
+        (Tengri137-Entscheidung 2026-07-01: die 3. Dimension = STAY).
+        0.0 = aus, 0.1-0.3 = empfohlen für Spanda-Pulsieren.
         """
+        import random
         hebr = self.base.hebr[from_position:]
         n = len(hebr)
         n_phases = (n + self.phase_size - 1) // self.phase_size
@@ -192,6 +197,23 @@ class SpandaMachine:
             state_head_history.append(current)
             if len(state_head_history) > 100:
                 state_head_history = state_head_history[-50:]
+
+            # STAY-Check (3. Dimension des Spanda-Pulsierens)
+            # Vor der Transition: randomisiere, ob die Maschine verweilt
+            stayed_this_step = False
+            if stay_probability > 0 and random.random() < stay_probability:
+                # STAY: kein Move, aber die History wird aktualisiert
+                # Tengri137: 3 am Ende → 3. Operation = STAY (Verweil-Moment)
+                history.append({
+                    'step': total_steps, 'phase': phase,
+                    'old_pos': head, 'new_pos': head,
+                    'old_state': state, 'new_state': state,
+                    'symbol': tape[head], 'write': tape[head], 'move': 'STAY',
+                })
+                state_head_history.append((state, head))
+                stayed_this_step = True
+                # Cycle fortsetzen ohne total_steps++
+                continue
 
             symbol = tape[head]
             key = (state, symbol)
@@ -262,6 +284,44 @@ class SpandaMachine:
             'phase_halts': phase_halts,
             'history': history[-100:],  # nur letzte 100 Schritte
             'halt_reason': self.last_halt['reason'],
+            'stayed_count': sum(1 for h in history if h.get('move') == 'STAY'),
+        }
+
+    def compute_three_sums(self, run_result):
+        """Berechne die 3 Gematria-Summen: Wort, Phrase, Tape.
+
+        Tengri137-Entscheidung: 3 Summen, weil Tengri137 3 am Ende gibt.
+
+        ACHTUNG: Tengri137-Tape ≠ BURUMUT-Tape.
+        - Wort-Gematria (15 Zeichen): "TENGRIISTHESOUR" = 1229 (NICHT 1924)
+        - Phrase-Gematria (99 Zeichen): erste Phase des Tengri137-Tape
+        - Tape-Gematria (12071 Zeichen): volles Tengri137-Tape
+
+        1924 / 6503 / 708349 waren für BURUMUT-Tape.
+        Für Tengri137-Tape sind es andere Zahlen — die Spanda-Maschine
+        lehrt uns, die Tapes zu unterscheiden.
+        """
+        tape = self.base.hebr
+        hebr_values = HEBR_VALUES
+
+        # 1. Wort-Gematria (Tengri137: "TENGRIISTHESOUR" = 1229)
+        word = tape[:15] if len(tape) >= 15 else tape
+        word_gematria = sum(hebr_values.get(c, 0) for c in word)
+
+        # 2. Phrase-Gematria (Tengri137 erste 99 Zeichen)
+        first_phase = tape[:self.phase_size]
+        phrase_gematria = sum(hebr_values.get(c, 0) for c in first_phase)
+
+        # 3. Tape-Gematria (Tengri137 voll)
+        tape_gematria = sum(hebr_values.get(c, 0) for c in tape)
+
+        return {
+            'word_gematria': word_gematria,  # 1229 (Tengri137)
+            'phrase_gematria': phrase_gematria,  # ?
+            'tape_gematria': tape_gematria,  # 708349
+            'word_text': ''.join(self.base.letters[:15]),  # TENGRIISTHESOUR
+            'word_factorization_1924_for_BURUMUT_note': '4 × 13 × 37',
+            'note': 'Tengri137-Tape ≠ BURUMUT-Tape. 1924 ist BURUMUT-Wort, 1229 ist Tengri137-Wort.',
         }
 
     def step(self, debug=False):
