@@ -1,0 +1,548 @@
+{
+  "method": "Q_FORMAL_PROOF_BURUMUT_TENGRI137",
+  "principle": "Formaler Beweis / Widerlegung BURUMUT ⊂ Tengri137 mit Monte-Carlo-Tests",
+  "question_1": {
+    "question": "1. Ist BURUMUT als String in Tengri137 enthalten?",
+    "burumut_length": 99,
+    "tengri_length": 12071,
+    "method": "str.find mit Burumut-Len = 99",
+    "full_text_substring": false,
+    "full_text_position": -1,
+    "block_substring": false,
+    "block_position": -1,
+    "block_length": 154,
+    "burumut7_occurrences_in_full_text": [
+      11740
+    ],
+    "burumut7_count_in_full_text": 1
+  },
+  "question_2": {
+    "question": "2. Was sind die genauen Unterschiede?",
+    "burumut_length": 99,
+    "block_length": 154,
+    "common_prefix_length": 56,
+    "common_prefix_text": "BURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZBENOMBA",
+    "chunk_by_chunk_comparison": [
+      {
+        "chunk_idx": 0,
+        "line_in_tengri": 652,
+        "burumut": "BURUMUTREFAMTU",
+        "block": "BURUMUTREFAMTU",
+        "equal": true
+      },
+      {
+        "chunk_idx": 1,
+        "line_in_tengri": 653,
+        "burumut": "NURESUTREGUMFA",
+        "block": "NURESUTREGUMFA",
+        "equal": true
+      },
+      {
+        "chunk_idx": 2,
+        "line_in_tengri": 654,
+        "burumut": "YAPSUAZBEHIMLA",
+        "block": "YAPSUAZBEHIMLA",
+        "equal": true
+      },
+      {
+        "chunk_idx": 3,
+        "line_in_tengri": 655,
+        "burumut": "ZANRUAZBENOMBA",
+        "block": "ZANRUAZBENOMBA",
+        "equal": true
+      },
+      {
+        "chunk_idx": 4,
+        "line_in_tengri": 656,
+        "burumut": "MZHQRSANLRUAZB",
+        "block": "TOBIKOTLUBUMYO",
+        "equal": false
+      },
+      {
+        "chunk_idx": 5,
+        "line_in_tengri": 657,
+        "burumut": "EHIMLAZANRUAZB",
+        "block": "SUNOKURGANOZYI",
+        "equal": false
+      },
+      {
+        "chunk_idx": 6,
+        "line_in_tengri": 658,
+        "burumut": "ENOMBARAZHQRSA",
+        "block": "OKUZIKUFAUSIHE",
+        "equal": false
+      }
+    ],
+    "divergence_position": 56,
+    "letter_counts": [
+      {
+        "letter": "A",
+        "burumut_count": 16,
+        "block_count": 19,
+        "delta": 3
+      },
+      {
+        "letter": "B",
+        "burumut_count": 7,
+        "block_count": 10,
+        "delta": 3
+      },
+      {
+        "letter": "E",
+        "burumut_count": 7,
+        "block_count": 12,
+        "delta": 5
+      },
+      {
+        "letter": "F",
+        "burumut_count": 2,
+        "block_count": 6,
+        "delta": 4
+      },
+      {
+        "letter": "G",
+        "burumut_count": 1,
+        "block_count": 2,
+        "delta": 1
+      },
+      {
+        "letter": "H",
+        "burumut_count": 4,
+        "block_count": 4,
+        "delta": 0
+      },
+      {
+        "letter": "I",
+        "burumut_count": 2,
+        "block_count": 7,
+        "delta": 5
+      },
+      {
+        "letter": "K",
+        "burumut_count": 0,
+        "block_count": 7,
+        "delta": 7
+      },
+      {
+        "letter": "L",
+        "burumut_count": 3,
+        "block_count": 2,
+        "delta": -1
+      },
+      {
+        "letter": "M",
+        "burumut_count": 8,
+        "block_count": 9,
+        "delta": 1
+      },
+      {
+        "letter": "N",
+        "burumut_count": 7,
+        "block_count": 10,
+        "delta": 3
+      },
+      {
+        "letter": "O",
+        "burumut_count": 2,
+        "block_count": 12,
+        "delta": 10
+      },
+      {
+        "letter": "P",
+        "burumut_count": 1,
+        "block_count": 1,
+        "delta": 0
+      },
+      {
+        "letter": "Q",
+        "burumut_count": 2,
+        "block_count": 0,
+        "delta": -2
+      },
+      {
+        "letter": "R",
+        "burumut_count": 10,
+        "block_count": 12,
+        "delta": 2
+      },
+      {
+        "letter": "S",
+        "burumut_count": 4,
+        "block_count": 7,
+        "delta": 3
+      },
+      {
+        "letter": "T",
+        "burumut_count": 3,
+        "block_count": 6,
+        "delta": 3
+      },
+      {
+        "letter": "U",
+        "burumut_count": 11,
+        "block_count": 18,
+        "delta": 7
+      },
+      {
+        "letter": "Y",
+        "burumut_count": 1,
+        "block_count": 4,
+        "delta": 3
+      },
+      {
+        "letter": "Z",
+        "burumut_count": 8,
+        "block_count": 6,
+        "delta": -2
+      }
+    ],
+    "letters_in_block_but_not_in_burumut": [
+      "K"
+    ],
+    "letters_in_burumut_but_not_in_block": [
+      "Q"
+    ],
+    "phase_letter_counts": {
+      "C": {
+        "total_in_tengri137": 365,
+        "phases_with_letter": 110,
+        "n_phases_total": 122
+      },
+      "D": {
+        "total_in_tengri137": 361,
+        "phases_with_letter": 112,
+        "n_phases_total": 122
+      },
+      "G": {
+        "total_in_tengri137": 273,
+        "phases_with_letter": 106,
+        "n_phases_total": 122
+      },
+      "K": {
+        "total_in_tengri137": 86,
+        "phases_with_letter": 58,
+        "n_phases_total": 122
+      },
+      "W": {
+        "total_in_tengri137": 298,
+        "phases_with_letter": 104,
+        "n_phases_total": 122
+      },
+      "J": {
+        "total_in_tengri137": 19,
+        "phases_with_letter": 8,
+        "n_phases_total": 122
+      },
+      "V": {
+        "total_in_tengri137": 133,
+        "phases_with_letter": 82,
+        "n_phases_total": 122
+      },
+      "X": {
+        "total_in_tengri137": 46,
+        "phases_with_letter": 34,
+        "n_phases_total": 122
+      },
+      "T": {
+        "total_in_tengri137": 1097,
+        "phases_with_letter": 122,
+        "n_phases_total": 122
+      },
+      "Y": {
+        "total_in_tengri137": 295,
+        "phases_with_letter": 117,
+        "n_phases_total": 122
+      }
+    },
+    "5_missing_hebrew_analysis": {
+      "כ (Kaf, READ)": {
+        "mapping_in_extended": "C, K",
+        "in_burumut": "C nein, K nein",
+        "in_tengri137": "C ja, K ja",
+        "in_extended_mapping_yes_no": "JA"
+      },
+      "ג (Gimel, MOVE_RIGHT)": {
+        "mapping_in_extended": "G",
+        "in_burumut": "G ja (aber als Variante?)",
+        "in_tengri137": "G ja",
+        "in_extended_mapping_yes_no": "JA"
+      },
+      "ד (Dalet, MOVE_LEFT)": {
+        "mapping_in_extended": "D",
+        "in_burumut": "D nein",
+        "in_tengri137": "D ja",
+        "in_extended_mapping_yes_no": "JA"
+      },
+      "ת (Tav, HALT)": {
+        "mapping_in_extended": "FEHLT (nicht gemappt)",
+        "in_burumut": "Tav nein",
+        "in_tengri137": "lateinisch nicht abgedeckt",
+        "in_extended_mapping_yes_no": "NEIN"
+      },
+      "י (Yod, STATE)": {
+        "mapping_in_extended": "Y (existiert in base)",
+        "in_burumut": "Y ja",
+        "in_tengri137": "Y ja",
+        "in_extended_mapping_yes_no": "JA (aber schon vorher da)"
+      }
+    },
+    "n_5_missing_in_tengri137_via_latin": 4,
+    "n_5_missing_NOT_in_tengri137_via_latin": 1,
+    "interpretation": "Von den 5 'fehlenden' hebraeischen Operatoren sind 3-4 in Tengri137 lateinisch repraesentiert (כ via C/K, ג via G, ד via D, י via Y). ת (Tav) ist im extended Mapping NICHT abgedeckt. Die Behauptung 'BURUMUT hat 5 fehlende Operatoren, Tengri137 hat 4 neue Buchstaben' ist also schief: BURUMUT hat 19 distinkte lateinische Buchstaben, Tengri137 hat 26 (= 7 neue). Nur 3-4 der 5 fehlenden Operatoren sind lateinisch kodiert."
+  },
+  "question_3": {
+    "question": "3. Formaler Beweis BURUMUT ⊂ Tengri137",
+    "definitions": {
+      "BURUMUT": "|BURUMUT| = 99, distinct letters = 19",
+      "Tengri137": "|Tengri137| = 12071, distinct letters = 26"
+    },
+    "set_inclusion_letters_only_in_burumut": [],
+    "set_inclusion_holds": true,
+    "substring_in_full_text": false,
+    "substring_position_in_full_text": -1,
+    "substring_in_block": false,
+    "substring_position_in_block": -1,
+    "formal_conclusion": "WIDERLEGT: BURUMUT ist NICHT kontiguierlicher Substring von Tengri137",
+    "proof_status": "DISPROVEN",
+    "weaker_inclusion": "Schwaechere Inclusion gilt: alle Buchstaben in BURUMUT sind in Tengri137 (set-inclusion), aber nicht als Substring.",
+    "weaker_inclusion_status": "PROVEN (set-inclusion)",
+    "monte_carlo": {
+      "method": "Monte-Carlo: 1000 random Substrings mit BURUMUT-Counts, gesucht in 1000 random Tengri137-Permutationen",
+      "n_trials": 1000,
+      "n_hits": 0,
+      "hit_rate": 0.0,
+      "interpretation": "Wenn hit_rate hoch, dann ist die (nicht vorhandene) Substring-Beziehung plausibel zufaellig. Wenn niedrig, dann ist sie signifikant.",
+      "example_hits": []
+    }
+  },
+  "question_4": {
+    "question": "4. Topologische Aequivalenz: 11 Sec-Pos (BURUMUT) vs 11 G/C/W/K (Tengri137)?",
+    "burumut_sec_positions": [
+      1,
+      3,
+      5,
+      13,
+      15,
+      19,
+      24,
+      32,
+      46,
+      66,
+      80
+    ],
+    "burumut_sec_letters": [
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U"
+    ],
+    "tengri99_new_positions": [
+      3,
+      15,
+      28,
+      34,
+      43,
+      54,
+      57,
+      67,
+      68,
+      82,
+      87
+    ],
+    "tengri99_new_letters": [
+      "G",
+      "C",
+      "W",
+      "G",
+      "C",
+      "K",
+      "W",
+      "G",
+      "W",
+      "W",
+      "K"
+    ],
+    "burumut_sorted": [
+      1,
+      3,
+      5,
+      13,
+      15,
+      19,
+      24,
+      32,
+      46,
+      66,
+      80
+    ],
+    "tengri99_sorted": [
+      3,
+      15,
+      28,
+      34,
+      43,
+      54,
+      57,
+      67,
+      68,
+      82,
+      87
+    ],
+    "position_diffs": [
+      2,
+      12,
+      23,
+      21,
+      28,
+      35,
+      33,
+      35,
+      22,
+      16,
+      7
+    ],
+    "mean_diff": 21.272727272727273,
+    "spearman_rho": 1.0,
+    "spearman_warning": "ACHTUNG: Da beide Listen bereits sortiert sind (jeder Wert unique), ist rho=1.0 TRIVIAL und sagt NICHTS ueber die 'topologische Aequivalenz'. Beide Listen sind monoton wachsend nach dem Sortieren — rho=1 folgt daraus zwangslaeufig. Der relevante Test ist: sind die konkret markierten Positionen in einer sinnvollen Beziehung? Siehe 'overlap_test' und 'consecutive_pair_test' unten.",
+    "monte_carlo_position_overlap": {
+      "actual_overlap": 2,
+      "mean_random_overlap": 1.219,
+      "expected_random_overlap": 1.2222222222222223,
+      "n_trials": 10000,
+      "interpretation": "Tatsaechlicher Overlap = 2, im Mittel erwartet bei Zufall = 1.22, theoretisch = 1.22"
+    },
+    "monte_carlo_spearman": {
+      "actual_rho": 1.0,
+      "rho_5th_percentile": 1.0,
+      "rho_95th_percentile": 1.0,
+      "p_value_rho_gt_0": 1.0,
+      "interpretation": "rho = 1.0000. Unter 10000 Random-Trials: 5% Quantil = 1.0000, 95% Quantil = 1.0000. Wahrscheinlichkeit rho >= 1.0000 unter Nullhypothese = 1.0000"
+    },
+    "consecutive_pairs_burumut": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        24,
+        32
+      ],
+      [
+        32,
+        46
+      ],
+      [
+        46,
+        66
+      ],
+      [
+        66,
+        80
+      ]
+    ],
+    "consecutive_pairs_tengri": [
+      [
+        3,
+        15
+      ],
+      [
+        15,
+        28
+      ],
+      [
+        28,
+        34
+      ],
+      [
+        34,
+        43
+      ],
+      [
+        43,
+        54
+      ],
+      [
+        54,
+        57
+      ],
+      [
+        57,
+        67
+      ],
+      [
+        67,
+        68
+      ],
+      [
+        68,
+        82
+      ],
+      [
+        82,
+        87
+      ]
+    ],
+    "consecutive_pairs_common": [],
+    "pearson_r": 0.9118560631215209,
+    "pearson_monte_carlo": {
+      "actual_r": 0.9118560631215209,
+      "p_value": 0.5946,
+      "mean_random_r": 0.9160303297632377,
+      "max_random_r": 0.9983150260559097,
+      "interpretation": "Pearson r = 0.9119. Unter 10000 random Tengri137-Positionen mit gleichem n=11: max r = 0.9983, mean r = 0.9160. p(r >= 0.9119 | H0) = 0.5946"
+    },
+    "shift_analysis": {
+      "diffs": [
+        2,
+        12,
+        23,
+        21,
+        28,
+        35,
+        33,
+        35,
+        22,
+        16,
+        7
+      ],
+      "mean_diff": 21.272727272727273,
+      "std_diff": 10.669335065682475,
+      "interpretation": "Wenn BURUMUT- und Tengri137-Positionen durch einen konstanten Shift verbunden waeren, waere std_diff = 0. Aktuelle std_diff = 10.67 (gross gegenueber mean_diff = 21.27). KEIN konstanter Shift erkennbar."
+    }
+  },
+  "summary": {
+    "burumut_substring_in_tengri137": false,
+    "burumut_substring_in_block": false,
+    "set_inclusion_holds": true,
+    "proof_status": "DISPROVEN",
+    "sec_pos_eq_new_letter_pos_rho": 1.0,
+    "sec_pos_eq_new_letter_pos_p_value": 1.0
+  }
+}
