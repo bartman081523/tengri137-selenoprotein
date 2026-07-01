@@ -446,6 +446,28 @@ class TestBurumutPhases:
             f"Mit ? sollte kuerzer sein als ohne: {len(en_mit)} vs {len(en_ohne)}"
         )
 
+    def test_burumut_subphrasen_phonetisch(self):
+        """Die BURUMUT-Sub-Phrasen sind phonetische Tajpalot hebr. Wörter.
+
+        Google's AI 'erkennt' in BURUMUT-99 bekannte hebr. Phrasen:
+          - 'ואמרשנ' → 'And we promised' (= אמר + שנ)
+          - 'רצה'    → 'ran/wanted' (Wurzel)
+          - 'שרצה'   → 'wanted' (mit Shin = 'that')
+          - 'שמש'    → 'sun' (Shemesh = Sonne)
+          - 'בשצ'    → 'in the' (Beth = 'in')
+        """
+        import json
+        from pathlib import Path
+        path = Path(__file__).parent / "burumut_google_translate.json"
+        with open(path) as f:
+            data = json.load(f)
+        # אמרשנ sollte als 'Emerson' oder aehnliches erkannt werden
+        en_end = data['phase_1_schoepfungs_akt']['english']
+        # 'Beschasmeshresh and Emershan' enthält 'Emershan' (phonetisch אמרשן)
+        assert 'mersh' in en_end.lower() or 'emershan' in en_end.lower(), (
+            f"Ende sollte 'Emershan' enthalten: {en_end}"
+        )
+
 
 # ============================================================================
 # TESTS FÜR BRUMMTON-GRADUELL
