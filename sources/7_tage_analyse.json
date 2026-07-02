@@ -1,0 +1,1566 @@
+{
+  "method": "P68 7-Tage-Architektur mit KVM",
+  "architecture": "Tengri137 = 168 Phasen = 7 × 24",
+  "tengri_length": 16576,
+  "n_phases": 168,
+  "days": [
+    {
+      "day_idx": 1,
+      "start": 0,
+      "end": 2376,
+      "n_phases": 24,
+      "length": 2376,
+      "gematria": 134286,
+      "expected_gematria": 134286,
+      "n_sec_operators": 310,
+      "n_violations_total": 3457,
+      "n_violations_avg": 144.04166666666666,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Genesis",
+      "book_distribution": {
+        "Genesis": 24
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 0,
+          "phase_idx_in_day": 0,
+          "book": "Genesis",
+          "chapter": 1,
+          "n_violations": 33,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 1,
+          "phase_idx_in_day": 1,
+          "book": "Genesis",
+          "chapter": 2,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 2,
+          "phase_idx_in_day": 2,
+          "book": "Genesis",
+          "chapter": 3,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 3,
+          "phase_idx_in_day": 3,
+          "book": "Genesis",
+          "chapter": 4,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 4,
+          "phase_idx_in_day": 4,
+          "book": "Genesis",
+          "chapter": 5,
+          "n_violations": 20,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 5,
+          "phase_idx_in_day": 5,
+          "book": "Genesis",
+          "chapter": 6,
+          "n_violations": 197,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 6,
+          "phase_idx_in_day": 6,
+          "book": "Genesis",
+          "chapter": 7,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 7,
+          "phase_idx_in_day": 7,
+          "book": "Genesis",
+          "chapter": 8,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 8,
+          "phase_idx_in_day": 8,
+          "book": "Genesis",
+          "chapter": 9,
+          "n_violations": 56,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 9,
+          "phase_idx_in_day": 9,
+          "book": "Genesis",
+          "chapter": 11,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 10,
+          "phase_idx_in_day": 10,
+          "book": "Genesis",
+          "chapter": 12,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 11,
+          "phase_idx_in_day": 11,
+          "book": "Genesis",
+          "chapter": 13,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 12,
+          "phase_idx_in_day": 12,
+          "book": "Genesis",
+          "chapter": 14,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 13,
+          "phase_idx_in_day": 13,
+          "book": "Genesis",
+          "chapter": 15,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 14,
+          "phase_idx_in_day": 14,
+          "book": "Genesis",
+          "chapter": 16,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 15,
+          "phase_idx_in_day": 15,
+          "book": "Genesis",
+          "chapter": 17,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 16,
+          "phase_idx_in_day": 16,
+          "book": "Genesis",
+          "chapter": 18,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 17,
+          "phase_idx_in_day": 17,
+          "book": "Genesis",
+          "chapter": 19,
+          "n_violations": 36,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 18,
+          "phase_idx_in_day": 18,
+          "book": "Genesis",
+          "chapter": 21,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 19,
+          "phase_idx_in_day": 19,
+          "book": "Genesis",
+          "chapter": 22,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 20,
+          "phase_idx_in_day": 20,
+          "book": "Genesis",
+          "chapter": 23,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 21,
+          "phase_idx_in_day": 21,
+          "book": "Genesis",
+          "chapter": 24,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 22,
+          "phase_idx_in_day": 22,
+          "book": "Genesis",
+          "chapter": 25,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 23,
+          "phase_idx_in_day": 23,
+          "book": "Genesis",
+          "chapter": 26,
+          "n_violations": 192,
+          "n_backtracks_strict": 1
+        }
+      ]
+    },
+    {
+      "day_idx": 2,
+      "start": 2376,
+      "end": 4752,
+      "n_phases": 24,
+      "length": 2376,
+      "gematria": 139337,
+      "expected_gematria": 139337,
+      "n_sec_operators": 256,
+      "n_violations_total": 3258,
+      "n_violations_avg": 135.75,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Genesis",
+      "book_distribution": {
+        "Genesis": 21,
+        "Exodus": 3
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 24,
+          "phase_idx_in_day": 0,
+          "book": "Genesis",
+          "chapter": 27,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 25,
+          "phase_idx_in_day": 1,
+          "book": "Genesis",
+          "chapter": 28,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 26,
+          "phase_idx_in_day": 2,
+          "book": "Genesis",
+          "chapter": 29,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 27,
+          "phase_idx_in_day": 3,
+          "book": "Genesis",
+          "chapter": 31,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 28,
+          "phase_idx_in_day": 4,
+          "book": "Genesis",
+          "chapter": 32,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 29,
+          "phase_idx_in_day": 5,
+          "book": "Genesis",
+          "chapter": 33,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 30,
+          "phase_idx_in_day": 6,
+          "book": "Genesis",
+          "chapter": 34,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 31,
+          "phase_idx_in_day": 7,
+          "book": "Genesis",
+          "chapter": 35,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 32,
+          "phase_idx_in_day": 8,
+          "book": "Genesis",
+          "chapter": 36,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 33,
+          "phase_idx_in_day": 9,
+          "book": "Genesis",
+          "chapter": 37,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 34,
+          "phase_idx_in_day": 10,
+          "book": "Genesis",
+          "chapter": 38,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 35,
+          "phase_idx_in_day": 11,
+          "book": "Genesis",
+          "chapter": 39,
+          "n_violations": 42,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 36,
+          "phase_idx_in_day": 12,
+          "book": "Genesis",
+          "chapter": 41,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 37,
+          "phase_idx_in_day": 13,
+          "book": "Genesis",
+          "chapter": 42,
+          "n_violations": 193,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 38,
+          "phase_idx_in_day": 14,
+          "book": "Genesis",
+          "chapter": 43,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 39,
+          "phase_idx_in_day": 15,
+          "book": "Genesis",
+          "chapter": 44,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 40,
+          "phase_idx_in_day": 16,
+          "book": "Genesis",
+          "chapter": 45,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 41,
+          "phase_idx_in_day": 17,
+          "book": "Genesis",
+          "chapter": 46,
+          "n_violations": 21,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 42,
+          "phase_idx_in_day": 18,
+          "book": "Genesis",
+          "chapter": 47,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 43,
+          "phase_idx_in_day": 19,
+          "book": "Genesis",
+          "chapter": 48,
+          "n_violations": 8,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 44,
+          "phase_idx_in_day": 20,
+          "book": "Genesis",
+          "chapter": 49,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 45,
+          "phase_idx_in_day": 21,
+          "book": "Exodus",
+          "chapter": 1,
+          "n_violations": 42,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 46,
+          "phase_idx_in_day": 22,
+          "book": "Exodus",
+          "chapter": 2,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 47,
+          "phase_idx_in_day": 23,
+          "book": "Exodus",
+          "chapter": 3,
+          "n_violations": 24,
+          "n_backtracks_strict": 1
+        }
+      ]
+    },
+    {
+      "day_idx": 3,
+      "start": 4752,
+      "end": 7128,
+      "n_phases": 24,
+      "length": 2376,
+      "gematria": 135819,
+      "expected_gematria": 135819,
+      "n_sec_operators": 244,
+      "n_violations_total": 3466,
+      "n_violations_avg": 144.41666666666666,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Exodus",
+      "book_distribution": {
+        "Exodus": 24
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 48,
+          "phase_idx_in_day": 0,
+          "book": "Exodus",
+          "chapter": 4,
+          "n_violations": 27,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 49,
+          "phase_idx_in_day": 1,
+          "book": "Exodus",
+          "chapter": 5,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 50,
+          "phase_idx_in_day": 2,
+          "book": "Exodus",
+          "chapter": 6,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 51,
+          "phase_idx_in_day": 3,
+          "book": "Exodus",
+          "chapter": 7,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 52,
+          "phase_idx_in_day": 4,
+          "book": "Exodus",
+          "chapter": 8,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 53,
+          "phase_idx_in_day": 5,
+          "book": "Exodus",
+          "chapter": 9,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 54,
+          "phase_idx_in_day": 6,
+          "book": "Exodus",
+          "chapter": 11,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 55,
+          "phase_idx_in_day": 7,
+          "book": "Exodus",
+          "chapter": 12,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 56,
+          "phase_idx_in_day": 8,
+          "book": "Exodus",
+          "chapter": 13,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 57,
+          "phase_idx_in_day": 9,
+          "book": "Exodus",
+          "chapter": 14,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 58,
+          "phase_idx_in_day": 10,
+          "book": "Exodus",
+          "chapter": 15,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 59,
+          "phase_idx_in_day": 11,
+          "book": "Exodus",
+          "chapter": 16,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 60,
+          "phase_idx_in_day": 12,
+          "book": "Exodus",
+          "chapter": 17,
+          "n_violations": 29,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 61,
+          "phase_idx_in_day": 13,
+          "book": "Exodus",
+          "chapter": 18,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 62,
+          "phase_idx_in_day": 14,
+          "book": "Exodus",
+          "chapter": 19,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 63,
+          "phase_idx_in_day": 15,
+          "book": "Exodus",
+          "chapter": 21,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 64,
+          "phase_idx_in_day": 16,
+          "book": "Exodus",
+          "chapter": 22,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 65,
+          "phase_idx_in_day": 17,
+          "book": "Exodus",
+          "chapter": 23,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 66,
+          "phase_idx_in_day": 18,
+          "book": "Exodus",
+          "chapter": 24,
+          "n_violations": 39,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 67,
+          "phase_idx_in_day": 19,
+          "book": "Exodus",
+          "chapter": 25,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 68,
+          "phase_idx_in_day": 20,
+          "book": "Exodus",
+          "chapter": 26,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 69,
+          "phase_idx_in_day": 21,
+          "book": "Exodus",
+          "chapter": 27,
+          "n_violations": 56,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 70,
+          "phase_idx_in_day": 22,
+          "book": "Exodus",
+          "chapter": 28,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 71,
+          "phase_idx_in_day": 23,
+          "book": "Exodus",
+          "chapter": 29,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        }
+      ]
+    },
+    {
+      "day_idx": 4,
+      "start": 7128,
+      "end": 9504,
+      "n_phases": 24,
+      "length": 2376,
+      "gematria": 140842,
+      "expected_gematria": 140842,
+      "n_sec_operators": 243,
+      "n_violations_total": 3037,
+      "n_violations_avg": 126.54166666666667,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Leviticus",
+      "book_distribution": {
+        "Exodus": 9,
+        "Leviticus": 15
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 72,
+          "phase_idx_in_day": 0,
+          "book": "Exodus",
+          "chapter": 31,
+          "n_violations": 32,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 73,
+          "phase_idx_in_day": 1,
+          "book": "Exodus",
+          "chapter": 32,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 74,
+          "phase_idx_in_day": 2,
+          "book": "Exodus",
+          "chapter": 33,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 75,
+          "phase_idx_in_day": 3,
+          "book": "Exodus",
+          "chapter": 34,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 76,
+          "phase_idx_in_day": 4,
+          "book": "Exodus",
+          "chapter": 35,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 77,
+          "phase_idx_in_day": 5,
+          "book": "Exodus",
+          "chapter": 36,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 78,
+          "phase_idx_in_day": 6,
+          "book": "Exodus",
+          "chapter": 37,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 79,
+          "phase_idx_in_day": 7,
+          "book": "Exodus",
+          "chapter": 38,
+          "n_violations": 22,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 80,
+          "phase_idx_in_day": 8,
+          "book": "Exodus",
+          "chapter": 39,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 81,
+          "phase_idx_in_day": 9,
+          "book": "Leviticus",
+          "chapter": 1,
+          "n_violations": 20,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 82,
+          "phase_idx_in_day": 10,
+          "book": "Leviticus",
+          "chapter": 2,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 83,
+          "phase_idx_in_day": 11,
+          "book": "Leviticus",
+          "chapter": 3,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 84,
+          "phase_idx_in_day": 12,
+          "book": "Leviticus",
+          "chapter": 4,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 85,
+          "phase_idx_in_day": 13,
+          "book": "Leviticus",
+          "chapter": 5,
+          "n_violations": 96,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 86,
+          "phase_idx_in_day": 14,
+          "book": "Leviticus",
+          "chapter": 6,
+          "n_violations": 25,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 87,
+          "phase_idx_in_day": 15,
+          "book": "Leviticus",
+          "chapter": 7,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 88,
+          "phase_idx_in_day": 16,
+          "book": "Leviticus",
+          "chapter": 8,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 89,
+          "phase_idx_in_day": 17,
+          "book": "Leviticus",
+          "chapter": 10,
+          "n_violations": 84,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 90,
+          "phase_idx_in_day": 18,
+          "book": "Leviticus",
+          "chapter": 11,
+          "n_violations": 28,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 91,
+          "phase_idx_in_day": 19,
+          "book": "Leviticus",
+          "chapter": 12,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 92,
+          "phase_idx_in_day": 20,
+          "book": "Leviticus",
+          "chapter": 13,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 93,
+          "phase_idx_in_day": 21,
+          "book": "Leviticus",
+          "chapter": 14,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 94,
+          "phase_idx_in_day": 22,
+          "book": "Leviticus",
+          "chapter": 15,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 95,
+          "phase_idx_in_day": 23,
+          "book": "Leviticus",
+          "chapter": 16,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        }
+      ]
+    },
+    {
+      "day_idx": 5,
+      "start": 9504,
+      "end": 11880,
+      "n_phases": 24,
+      "length": 2376,
+      "gematria": 138930,
+      "expected_gematria": 138930,
+      "n_sec_operators": 259,
+      "n_violations_total": 3470,
+      "n_violations_avg": 144.58333333333334,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Numeri",
+      "book_distribution": {
+        "Leviticus": 9,
+        "Numeri": 15
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 96,
+          "phase_idx_in_day": 0,
+          "book": "Leviticus",
+          "chapter": 17,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 97,
+          "phase_idx_in_day": 1,
+          "book": "Leviticus",
+          "chapter": 19,
+          "n_violations": 8,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 98,
+          "phase_idx_in_day": 2,
+          "book": "Leviticus",
+          "chapter": 20,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 99,
+          "phase_idx_in_day": 3,
+          "book": "Leviticus",
+          "chapter": 21,
+          "n_violations": 51,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 100,
+          "phase_idx_in_day": 4,
+          "book": "Leviticus",
+          "chapter": 22,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 101,
+          "phase_idx_in_day": 5,
+          "book": "Leviticus",
+          "chapter": 23,
+          "n_violations": 22,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 102,
+          "phase_idx_in_day": 6,
+          "book": "Leviticus",
+          "chapter": 24,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 103,
+          "phase_idx_in_day": 7,
+          "book": "Leviticus",
+          "chapter": 25,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 104,
+          "phase_idx_in_day": 8,
+          "book": "Leviticus",
+          "chapter": 26,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 105,
+          "phase_idx_in_day": 9,
+          "book": "Numeri",
+          "chapter": 1,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 106,
+          "phase_idx_in_day": 10,
+          "book": "Numeri",
+          "chapter": 2,
+          "n_violations": 13,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 107,
+          "phase_idx_in_day": 11,
+          "book": "Numeri",
+          "chapter": 3,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 108,
+          "phase_idx_in_day": 12,
+          "book": "Numeri",
+          "chapter": 4,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 109,
+          "phase_idx_in_day": 13,
+          "book": "Numeri",
+          "chapter": 5,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 110,
+          "phase_idx_in_day": 14,
+          "book": "Numeri",
+          "chapter": 6,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 111,
+          "phase_idx_in_day": 15,
+          "book": "Numeri",
+          "chapter": 7,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 112,
+          "phase_idx_in_day": 16,
+          "book": "Numeri",
+          "chapter": 8,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 113,
+          "phase_idx_in_day": 17,
+          "book": "Numeri",
+          "chapter": 10,
+          "n_violations": 13,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 114,
+          "phase_idx_in_day": 18,
+          "book": "Numeri",
+          "chapter": 11,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 115,
+          "phase_idx_in_day": 19,
+          "book": "Numeri",
+          "chapter": 12,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 116,
+          "phase_idx_in_day": 20,
+          "book": "Numeri",
+          "chapter": 13,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 117,
+          "phase_idx_in_day": 21,
+          "book": "Numeri",
+          "chapter": 14,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 118,
+          "phase_idx_in_day": 22,
+          "book": "Numeri",
+          "chapter": 15,
+          "n_violations": 53,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 119,
+          "phase_idx_in_day": 23,
+          "book": "Numeri",
+          "chapter": 16,
+          "n_violations": 192,
+          "n_backtracks_strict": 1
+        }
+      ]
+    },
+    {
+      "day_idx": 6,
+      "start": 11880,
+      "end": 14256,
+      "n_phases": 24,
+      "length": 2376,
+      "gematria": 133345,
+      "expected_gematria": 133345,
+      "n_sec_operators": 297,
+      "n_violations_total": 3787,
+      "n_violations_avg": 157.79166666666666,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Numeri",
+      "book_distribution": {
+        "Numeri": 17,
+        "Deuteronomium": 7
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 120,
+          "phase_idx_in_day": 0,
+          "book": "Numeri",
+          "chapter": 17,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 121,
+          "phase_idx_in_day": 1,
+          "book": "Numeri",
+          "chapter": 19,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 122,
+          "phase_idx_in_day": 2,
+          "book": "Numeri",
+          "chapter": 20,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 123,
+          "phase_idx_in_day": 3,
+          "book": "Numeri",
+          "chapter": 21,
+          "n_violations": 193,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 124,
+          "phase_idx_in_day": 4,
+          "book": "Numeri",
+          "chapter": 22,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 125,
+          "phase_idx_in_day": 5,
+          "book": "Numeri",
+          "chapter": 23,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 126,
+          "phase_idx_in_day": 6,
+          "book": "Numeri",
+          "chapter": 24,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 127,
+          "phase_idx_in_day": 7,
+          "book": "Numeri",
+          "chapter": 25,
+          "n_violations": 193,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 128,
+          "phase_idx_in_day": 8,
+          "book": "Numeri",
+          "chapter": 26,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 129,
+          "phase_idx_in_day": 9,
+          "book": "Numeri",
+          "chapter": 28,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 130,
+          "phase_idx_in_day": 10,
+          "book": "Numeri",
+          "chapter": 29,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 131,
+          "phase_idx_in_day": 11,
+          "book": "Numeri",
+          "chapter": 30,
+          "n_violations": 36,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 132,
+          "phase_idx_in_day": 12,
+          "book": "Numeri",
+          "chapter": 31,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 133,
+          "phase_idx_in_day": 13,
+          "book": "Numeri",
+          "chapter": 32,
+          "n_violations": 10,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 134,
+          "phase_idx_in_day": 14,
+          "book": "Numeri",
+          "chapter": 33,
+          "n_violations": 38,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 135,
+          "phase_idx_in_day": 15,
+          "book": "Numeri",
+          "chapter": 34,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 136,
+          "phase_idx_in_day": 16,
+          "book": "Numeri",
+          "chapter": 35,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 137,
+          "phase_idx_in_day": 17,
+          "book": "Deuteronomium",
+          "chapter": 1,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 138,
+          "phase_idx_in_day": 18,
+          "book": "Deuteronomium",
+          "chapter": 2,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 139,
+          "phase_idx_in_day": 19,
+          "book": "Deuteronomium",
+          "chapter": 3,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 140,
+          "phase_idx_in_day": 20,
+          "book": "Deuteronomium",
+          "chapter": 4,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 141,
+          "phase_idx_in_day": 21,
+          "book": "Deuteronomium",
+          "chapter": 5,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 142,
+          "phase_idx_in_day": 22,
+          "book": "Deuteronomium",
+          "chapter": 6,
+          "n_violations": 1,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 143,
+          "phase_idx_in_day": 23,
+          "book": "Deuteronomium",
+          "chapter": 7,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        }
+      ]
+    },
+    {
+      "day_idx": 7,
+      "start": 14256,
+      "end": 16576,
+      "n_phases": 24,
+      "length": 2320,
+      "gematria": 136938,
+      "expected_gematria": 136938,
+      "n_sec_operators": 265,
+      "n_violations_total": 2952,
+      "n_violations_avg": 123.0,
+      "n_backtracks_strict_total": 24,
+      "n_backtracks_strict_avg": 1.0,
+      "dominant_book": "Deuteronomium",
+      "book_distribution": {
+        "Deuteronomium": 24
+      },
+      "phase_results": [
+        {
+          "phase_idx_global": 144,
+          "phase_idx_in_day": 0,
+          "book": "Deuteronomium",
+          "chapter": 8,
+          "n_violations": 34,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 145,
+          "phase_idx_in_day": 1,
+          "book": "Deuteronomium",
+          "chapter": 9,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 146,
+          "phase_idx_in_day": 2,
+          "book": "Deuteronomium",
+          "chapter": 10,
+          "n_violations": 196,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 147,
+          "phase_idx_in_day": 3,
+          "book": "Deuteronomium",
+          "chapter": 11,
+          "n_violations": 32,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 148,
+          "phase_idx_in_day": 4,
+          "book": "Deuteronomium",
+          "chapter": 13,
+          "n_violations": 35,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 149,
+          "phase_idx_in_day": 5,
+          "book": "Deuteronomium",
+          "chapter": 14,
+          "n_violations": 54,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 150,
+          "phase_idx_in_day": 6,
+          "book": "Deuteronomium",
+          "chapter": 15,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 151,
+          "phase_idx_in_day": 7,
+          "book": "Deuteronomium",
+          "chapter": 16,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 152,
+          "phase_idx_in_day": 8,
+          "book": "Deuteronomium",
+          "chapter": 17,
+          "n_violations": 194,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 153,
+          "phase_idx_in_day": 9,
+          "book": "Deuteronomium",
+          "chapter": 18,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 154,
+          "phase_idx_in_day": 10,
+          "book": "Deuteronomium",
+          "chapter": 19,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 155,
+          "phase_idx_in_day": 11,
+          "book": "Deuteronomium",
+          "chapter": 20,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 156,
+          "phase_idx_in_day": 12,
+          "book": "Deuteronomium",
+          "chapter": 21,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 157,
+          "phase_idx_in_day": 13,
+          "book": "Deuteronomium",
+          "chapter": 22,
+          "n_violations": 33,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 158,
+          "phase_idx_in_day": 14,
+          "book": "Deuteronomium",
+          "chapter": 24,
+          "n_violations": 193,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 159,
+          "phase_idx_in_day": 15,
+          "book": "Deuteronomium",
+          "chapter": 25,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 160,
+          "phase_idx_in_day": 16,
+          "book": "Deuteronomium",
+          "chapter": 26,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 161,
+          "phase_idx_in_day": 17,
+          "book": "Deuteronomium",
+          "chapter": 27,
+          "n_violations": 195,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 162,
+          "phase_idx_in_day": 18,
+          "book": "Deuteronomium",
+          "chapter": 28,
+          "n_violations": 89,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 163,
+          "phase_idx_in_day": 19,
+          "book": "Deuteronomium",
+          "chapter": 29,
+          "n_violations": 17,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 164,
+          "phase_idx_in_day": 20,
+          "book": "Deuteronomium",
+          "chapter": 30,
+          "n_violations": 11,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 165,
+          "phase_idx_in_day": 21,
+          "book": "Deuteronomium",
+          "chapter": 31,
+          "n_violations": 40,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 166,
+          "phase_idx_in_day": 22,
+          "book": "Deuteronomium",
+          "chapter": 32,
+          "n_violations": 32,
+          "n_backtracks_strict": 1
+        },
+        {
+          "phase_idx_global": 167,
+          "phase_idx_in_day": 23,
+          "book": "Deuteronomium",
+          "chapter": 33,
+          "n_violations": 43,
+          "n_backtracks_strict": 1
+        }
+      ]
+    }
+  ],
+  "sabbat_day": {
+    "day_idx": 7,
+    "violations_avg": 123.0,
+    "dominant_book": "Deuteronomium",
+    "book_distribution": {
+      "Deuteronomium": 24
+    }
+  },
+  "chaos_day": {
+    "day_idx": 6,
+    "violations_avg": 157.79166666666666,
+    "dominant_book": "Numeri",
+    "book_distribution": {
+      "Numeri": 17,
+      "Deuteronomium": 7
+    }
+  },
+  "sabbat_vs_chaos": {
+    "differenz_avg": 34.79166666666666,
+    "faktor": 1.2828590785907859
+  },
+  "phase_26_in_day": {
+    "day_idx": 2,
+    "offset_in_day": 2,
+    "day_violations_avg": 135.75,
+    "rank_in_day": 4,
+    "total_phases_in_day": 24
+  },
+  "sec_per_day": [
+    310,
+    256,
+    244,
+    243,
+    259,
+    297,
+    265
+  ],
+  "correlation_gematria_violations": -0.6670293943400808,
+  "determinism_check": {
+    "runs": [
+      [
+        3457,
+        3258,
+        3466,
+        3037,
+        3470,
+        3787,
+        2952
+      ],
+      [
+        3457,
+        3258,
+        3466,
+        3037,
+        3470,
+        3787,
+        2952
+      ],
+      [
+        3457,
+        3258,
+        3466,
+        3037,
+        3470,
+        3787,
+        2952
+      ]
+    ],
+    "all_identical": true
+  }
+}
