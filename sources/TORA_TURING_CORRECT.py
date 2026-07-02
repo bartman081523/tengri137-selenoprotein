@@ -58,6 +58,107 @@ MISSING_OPERATORS = {
     'י': 'STATE',
 }
 
+# =====================================================================
+# 5-LAYER-REGISTER DER TORA
+# =====================================================================
+# Die 5 Bücher Mose sind die 5 Register der Tora-Turing-Maschine.
+# Jeder Zustand q_0..q_4 entspricht einem Buch + hebräischem Anker.
+# q_5 = HALT (Sabbat / Vollendung der Schrift).
+#
+# BURUMUT-Architektur:
+#   - 5 Layer = 5 Bücher Mose (50+40+27+36+34 = 187 Kapitel)
+#   - 1 HALT-Layer = Sabbat
+#   - = 6 Maschinen-Zustände insgesamt
+#   - 187 = 11 × 17 (BURUMUT-Architektur)
+#
+# Quellen: Tengri137 Z.335 ("I AM THAT I AM" = Aleph = q_0),
+#          Z.1166 ("TIME FOR THE TRUTH" = Aleph-Klartext).
+# AGENTS.md Section 4.1b (Single-Machine-Prinzip): Die 5 Layer sind
+# REGISTER, keine separaten Maschinen.
+LAYER_REGISTER = [
+    {
+        'state': 0,
+        'name': 'Genesis',
+        'book': 'Genesis',
+        'chapters': 50,
+        'hebrew_anchor': 'א',  # Aleph = Schöpfungs-Anfang, "I AM"
+        'gematria': 1,
+        'meaning': 'Schöpfung (Bereshit)',
+        'next_layer': 1,  # → Exodus
+        'anchor_trigger': 'א',  # Aleph in q_0 = HALT
+    },
+    {
+        'state': 1,
+        'name': 'Exodus',
+        'book': 'Exodus',
+        'chapters': 40,
+        'hebrew_anchor': 'ש',  # Shin = Shem HaMephorash
+        'gematria': 300,
+        'meaning': 'Befreiung (Shemot)',
+        'next_layer': 2,  # → Leviticus
+        'anchor_trigger': 'ש',  # Shin in q_1 = q_2
+    },
+    {
+        'state': 2,
+        'name': 'Leviticus',
+        'book': 'Leviticus',
+        'chapters': 27,
+        'hebrew_anchor': 'ת',  # Tav = Vollendung der Ordnung
+        'gematria': 400,
+        'meaning': 'Ordnung (Vayikra)',
+        'next_layer': 3,  # → Numeri
+        'anchor_trigger': 'ת',  # Tav in q_2 = HALT
+    },
+    {
+        'state': 3,
+        'name': 'Numeri',
+        'book': 'Numbers',
+        'chapters': 36,
+        'hebrew_anchor': 'ר',  # Resh = Rosh (Anfang der Wüstenwanderung)
+        'gematria': 200,
+        'meaning': 'Wüstenwanderung (Bemidbar)',
+        'next_layer': 4,  # → Deuteronomium
+        'anchor_trigger': 'ר',  # Resh in q_3 = q_4
+    },
+    {
+        'state': 4,
+        'name': 'Deuteronomium',
+        'book': 'Deuteronomy',
+        'chapters': 34,
+        'hebrew_anchor': 'נ',  # Nun = Vollendung der Schrift
+        'gematria': 50,
+        'meaning': 'Vollendung (Devarim)',
+        'next_layer': 5,  # → HALT
+        'anchor_trigger': 'נ',  # Nun in q_4 = HALT
+    },
+    {
+        'state': 5,
+        'name': 'HALT',
+        'book': None,  # Kein Buch, sondern End-Zustand
+        'chapters': 0,
+        'hebrew_anchor': 'ת',  # Tav = Vollendung
+        'gematria': 400,
+        'meaning': 'Sabbat / Vollendung der Schrift',
+        'next_layer': None,
+        'anchor_trigger': None,
+    },
+]
+
+
+def get_layer_name(state):
+    """Konvertiere Maschinen-Zustand zu Layer-Namen."""
+    if 0 <= state < len(LAYER_REGISTER):
+        return LAYER_REGISTER[state]['name']
+    return f'UNKNOWN({state})'
+
+
+def get_layer_by_name(name):
+    """Finde Layer-Register-Eintrag nach Name."""
+    for layer in LAYER_REGISTER:
+        if layer['name'] == name:
+            return layer
+    return None
+
 
 def build_tora_transitions():
     """Baue die nicht-triviale Übergangstabelle der Tora-Turing-Maschine.
@@ -215,7 +316,26 @@ def burumut_to_hebr(burumut_str):
 
 
 class ToraTuringMachine:
-    """Tora-Turing-Maschine mit nicht-trivialen Übergängen."""
+    """Tora-Turing-Maschine mit nicht-trivialen Übergängen.
+
+    Die 5 Bücher Mose sind als REGISTER (LAYER_REGISTER) verfügbar.
+    Jeder Zustand q_0..q_4 entspricht einem Buch + hebräischem Anker.
+    q_5 = HALT (Sabbat / Vollendung).
+
+    BURUMUT-Architektur (5 Layer + 1 HALT = 6 Zustände):
+      q_0 = Genesis       (Aleph=א, Schöpfung)
+      q_1 = Exodus        (Shin=ש, Befreiung)
+      q_2 = Leviticus     (Tav=ת, Ordnung)
+      q_3 = Numeri        (Resh=ר, Wüstenwanderung)
+      q_4 = Deuteronomium (Nun=נ, Vollendung)
+      q_5 = HALT          (Tav=ת, Sabbat)
+
+    Verwendung:
+      m = ToraTuringMachine(hebr)
+      m.run()
+      layer = m.layer_register[m.state]  # Aktuelles Layer
+      name = m.state_to_layer(m.state)   # 'Genesis', 'Exodus', ...
+    """
 
     def __init__(self, tape_str, transitions=None):
         self.tape = list(tape_str)
@@ -229,6 +349,21 @@ class ToraTuringMachine:
         self.history = []
         self.step_count = 0
         self.transitions = transitions or build_tora_transitions()
+        # 5-Layer-Register (AGENTS.md Section 4.1b)
+        self.layer_register = LAYER_REGISTER
+
+    def state_to_layer(self, state=None):
+        """Konvertiere Maschinen-Zustand zu Layer-Namen.
+
+        Default: aktueller Zustand.
+        """
+        if state is None:
+            state = self.state
+        return get_layer_name(state)
+
+    def current_layer(self):
+        """Gibt das aktuelle Layer-Register zurück (dict)."""
+        return self.layer_register[self.state]
 
     def step(self):
         """Führe einen Schritt aus."""

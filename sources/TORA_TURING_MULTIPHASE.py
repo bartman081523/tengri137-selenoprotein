@@ -106,6 +106,9 @@ class ToraTuringMultiPhase:
 
     Dies ist eine SINGLE MACHINE mit Multi-Phase-Verhalten, NICHT mehrere
     separate Maschinen für jeden Abschnitt.
+
+    Die 5 Bücher Mose sind als REGISTER (LAYER_REGISTER) verfügbar.
+    AGENTS.md Section 4.1b: Single-Machine-Prinzip mit 5-Layer-Register.
     """
 
     def __init__(self, tape_str, phase_size=99, transitions=None, start_state=0):
@@ -127,6 +130,11 @@ class ToraTuringMultiPhase:
         self.history = []
 
         self.transitions = transitions or build_extended_transitions()
+
+        # 5-Layer-Register (AGENTS.md Section 4.1b)
+        from TORA_TURING_CORRECT import LAYER_REGISTER, get_layer_name
+        self.layer_register = LAYER_REGISTER
+        self._get_layer_name = get_layer_name
 
         # Tape ist in Phasen zu je phase_size Zeichen aufgeteilt
         self.n_phases = (len(self.tape) + phase_size - 1) // phase_size
@@ -265,7 +273,22 @@ class ToraTuringMultiPhase:
             'halt_reason': self.halt_reason,
             'phase_halts': self.phase_halts,
             'tape_length': len(self.tape),
+            'current_layer': self.state_to_layer(),
         }
+
+    def state_to_layer(self, state=None):
+        """Konvertiere Maschinen-Zustand zu Layer-Namen.
+
+        Default: aktueller Zustand.
+        Die 5 Layer sind REGISTER, nicht separate Maschinen.
+        """
+        if state is None:
+            state = self.state
+        return self._get_layer_name(state)
+
+    def current_layer(self):
+        """Gibt das aktuelle Layer-Register zurück (dict)."""
+        return self.layer_register[self.state]
 
 
 # ============================================================================
