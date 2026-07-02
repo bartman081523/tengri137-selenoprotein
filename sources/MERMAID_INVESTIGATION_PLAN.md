@@ -2396,6 +2396,62 @@ halluziniert oder falsch.
           - TestM4NumerischeBrucken (3): 1232+137=37², 6503=7×929
           - TestM4ApophenieCheck (2): kein Quine, mehr Operatoren
           - 388/388 Tests gesamt grün (371 alt + 17 neu)
+```
+
+### Phase 59 — PHASEN-ÜBERGANGS-MAPPING Tora ↔ Tengri137 (Weg 2)
+
+```
+🗺️ PHASE 59: 168 PHASEN ↔ 187 TORA-KAPITEL
+├── P59a: Numerische Brücke
+│         - 187 Tora-Kapitel = 50+40+27+36+34 = 11×17
+│         - 168 Tengri137-Phasen à 99 Zeichen = 16632 (vs 16576)
+│         - 187 - 168 = 19 = BURUMUT-Sec (Selenocystein)
+│         - 168 × 99 - 16576 = 56 = BURUMUTREFAMTU-Länge
+│
+├── P59b: Tora-Buch-Mapping (Verhältnis)
+│         - Genesis (50) → 45 Phasen (0..44)
+│         - Exodus (40) → 36 Phasen (45..80)
+│         - Leviticus (27) → 24 Phasen (81..104)
+│         - Numeri (36) → 32 Phasen (105..136)
+│         - Deuteronomium (34) → 31 Phasen (137..167)
+│         - Total: 168 Phasen = 5 Bücher Mose
+│
+├── P59c: Phasen-Verteilung
+│         - 55 saubere Phasen (ALL_PHASES_COMPLETE)
+│         - 113 Pendel-Phasen (MAX_STEPS_EXCEEDED)
+│         - 15 Phasen halten in 1 Schritt (Aleph am Anfang)
+│         - 3 Phasen halten in 34 Schritten (5×7-1 = volle 5 Layer)
+│
+├── P59d: Pro Buch Verteilung
+│         - Genesis: 12 clean / 45 (26.7%)
+│         - Exodus: 13 clean / 36 (36.1%)
+│         - Leviticus: 11 clean / 24 (45.8%)
+│         - Numeri: 7 clean / 32 (21.9%) [am wenigsten]
+│         - Deuteronomium: 12 clean / 31 (38.7%)
+│         - Numeri = Wüstenwanderung = am wenigsten "stabil"
+│
+├── P59e: BURUMUT-Architektur in Phasen
+│         - 11²+1 = 122 (BURUMUT-Architektur)
+│         - Phase 121 = Numeri 19 (Wüstenwanderung)
+│         - Phase 167 = Deuteronomium 33 (Moses' Segen/Tod)
+│         - 11² = 121 = "die 11×11 Immanenz"
+│         - +1 = BURUMUT als Transzendenz
+│
+├── P59f: Kanonische Resonanz fehlt!
+│         - Erwartet: Schritt-Zahlen 1, 3, 4, 5, 6, 7, 10, 12, 15
+│         - Realität: Nur 1, 8, 11, 13, 14, 18, 20-22, 24-25, 29-30, 33-44, 51, 56-57, 59, 86, 91, 98
+│         - 3, 4, 5, 6, 7, 10, 12, 15: KEINE Phasen!
+│         - → BURUMUT-Maschine produziert EIGENE Schritt-Verteilung
+│         - → NICHT die kanonischen Tora-Schritt-Zahlen
+│
+└── P59g: 32 TDD-Tests (test_phase_mapping.py, alle grün)
+          - TestNumerischeBrucke (5): 187=11×17, Differenz 19
+          - TestToraBuchMapping (10): Phase 0..167 → Gen..Deut
+          - TestBurumutArchitektur (4): 11²+1=122, 99=3²×11
+          - TestPhasenVerteilung (4): 55+113, 34-Schritt-Phasen
+          - TestToraBuchVerteilung (5): 45/36/24/32/31
+          - TestWichtigePhasen (3): Phase 0, 121, 167
+          - 420/420 Tests gesamt grün (388 alt + 32 neu)
 
 ### Wachstumschronologie (Updates)
 
