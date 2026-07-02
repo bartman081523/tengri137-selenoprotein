@@ -1,0 +1,211 @@
+{
+  "method": "Was steht an: Tengri137 + Tora",
+  "pendel_phasen": {
+    "total": 113,
+    "pro_Buch": {
+      "Genesis": 33,
+      "Exodus": 23,
+      "Leviticus": 13,
+      "Numeri": 25,
+      "Deuteronomium": 19
+    },
+    "numeri_pendel_first_10": [
+      {
+        "phase": 105,
+        "halt_state": 1,
+        "tape_gematria": 4877
+      },
+      {
+        "phase": 107,
+        "halt_state": 1,
+        "tape_gematria": 5844
+      },
+      {
+        "phase": 108,
+        "halt_state": 1,
+        "tape_gematria": 5499
+      },
+      {
+        "phase": 109,
+        "halt_state": 1,
+        "tape_gematria": 5669
+      },
+      {
+        "phase": 110,
+        "halt_state": 3,
+        "tape_gematria": 5117
+      },
+      {
+        "phase": 111,
+        "halt_state": 1,
+        "tape_gematria": 5707
+      },
+      {
+        "phase": 112,
+        "halt_state": 4,
+        "tape_gematria": 5762
+      },
+      {
+        "phase": 114,
+        "halt_state": 1,
+        "tape_gematria": 4854
+      },
+      {
+        "phase": 115,
+        "halt_state": 2,
+        "tape_gematria": 5547
+      },
+      {
+        "phase": 116,
+        "halt_state": 3,
+        "tape_gematria": 5167
+      }
+    ]
+  },
+  "burumutrefamtu_position": {
+    "tengri_position": 15986,
+    "phase": 161,
+    "in_phase_offset": 47,
+    "context_before": "ארהסומטנדרחהצהוסצמאררטנגסורחהבצאטנכאננסרבהצהוהצקהד",
+    "context_after": "נשצהקשרצהגשמואיאעקשאזבהחטמלאזאנצשאזבהנסמבארסבטכסרל",
+    "m4_auf_refamtu": 14,
+    "m4_auf_kontext": {
+      "total_steps": 2,
+      "halt_state": 0,
+      "halt_reason": "ALL_PHASES_COMPLETE"
+    }
+  },
+  "7_tage_tengri137": [
+    {
+      "day": 1,
+      "start": 0,
+      "end": 2376,
+      "length": 2376,
+      "gematria": 134286,
+      "n_sec_chars": 310
+    },
+    {
+      "day": 2,
+      "start": 2376,
+      "end": 4752,
+      "length": 2376,
+      "gematria": 139337,
+      "n_sec_chars": 256
+    },
+    {
+      "day": 3,
+      "start": 4752,
+      "end": 7128,
+      "length": 2376,
+      "gematria": 135819,
+      "n_sec_chars": 244
+    },
+    {
+      "day": 4,
+      "start": 7128,
+      "end": 9504,
+      "length": 2376,
+      "gematria": 140842,
+      "n_sec_chars": 243
+    },
+    {
+      "day": 5,
+      "start": 9504,
+      "end": 11880,
+      "length": 2376,
+      "gematria": 138930,
+      "n_sec_chars": 259
+    },
+    {
+      "day": 6,
+      "start": 11880,
+      "end": 14256,
+      "length": 2376,
+      "gematria": 133345,
+      "n_sec_chars": 297
+    },
+    {
+      "day": 7,
+      "start": 14256,
+      "end": 16576,
+      "length": 2320,
+      "gematria": 136938,
+      "n_sec_chars": 265
+    }
+  ],
+  "spanda_top_phasen": [
+    [
+      26,
+      20
+    ],
+    [
+      91,
+      19
+    ],
+    [
+      6,
+      18
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      97,
+      17
+    ],
+    [
+      155,
+      17
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      36,
+      16
+    ],
+    [
+      107,
+      16
+    ]
+  ],
+  "sec_buchstaben_volltext": {
+    "כ": {
+      "count": 647,
+      "name": "READ",
+      "first": 15,
+      "last": 16566
+    },
+    "ג": {
+      "count": 347,
+      "name": "MOVE_RIGHT",
+      "first": 3,
+      "last": 16568
+    },
+    "ד": {
+      "count": 524,
+      "name": "MOVE_LEFT",
+      "first": 111,
+      "last": 16431
+    },
+    "ת": {
+      "count": 0,
+      "name": "HALT",
+      "first": -1,
+      "last": -1
+    },
+    "י": {
+      "count": 356,
+      "name": "STATE",
+      "first": 39,
+      "last": 16540
+    }
+  },
+  "total_sec": 1874
+}
