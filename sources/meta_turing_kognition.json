@@ -1,0 +1,143 @@
+{
+  "method": "Meta-Turing-Kognition: BURUMUTREFAMTU = Maschinen-Name?",
+  "test_burumutrefamtu": {
+    "total_steps": 14,
+    "halt_state": 0,
+    "halt_reason": "ALL_PHASES_COMPLETE",
+    "unique_states": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_unique_states": 4
+  },
+  "test_burumut_99": {
+    "total_steps": 15,
+    "halt_state": 0,
+    "halt_reason": "ALL_PHASES_COMPLETE",
+    "unique_states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_unique_states": 5
+  },
+  "test_random_14": {
+    "n_trials": 10,
+    "avg_steps": 65.3,
+    "results": [
+      {
+        "total_steps": 14,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          1
+        ],
+        "n_unique_states": 1
+      },
+      {
+        "total_steps": 200,
+        "halt_state": 1,
+        "halt_reason": "MAX_STEPS_EXCEEDED",
+        "unique_states": [
+          1
+        ],
+        "n_unique_states": 1
+      },
+      {
+        "total_steps": 6,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          0,
+          1
+        ],
+        "n_unique_states": 2
+      },
+      {
+        "total_steps": 14,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          1,
+          2
+        ],
+        "n_unique_states": 2
+      },
+      {
+        "total_steps": 200,
+        "halt_state": 1,
+        "halt_reason": "MAX_STEPS_EXCEEDED",
+        "unique_states": [
+          1
+        ],
+        "n_unique_states": 1
+      },
+      {
+        "total_steps": 14,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          1,
+          2
+        ],
+        "n_unique_states": 2
+      },
+      {
+        "total_steps": 3,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          0,
+          1
+        ],
+        "n_unique_states": 2
+      },
+      {
+        "total_steps": 1,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          0
+        ],
+        "n_unique_states": 1
+      },
+      {
+        "total_steps": 200,
+        "halt_state": 1,
+        "halt_reason": "MAX_STEPS_EXCEEDED",
+        "unique_states": [
+          1
+        ],
+        "n_unique_states": 1
+      },
+      {
+        "total_steps": 1,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "unique_states": [
+          0
+        ],
+        "n_unique_states": 1
+      }
+    ]
+  },
+  "test_phase_161_with_refamtu": {
+    "total_steps": 200,
+    "halt_state": 1,
+    "halt_reason": "MAX_STEPS_EXCEEDED",
+    "unique_states": [
+      1
+    ],
+    "n_unique_states": 1
+  },
+  "interpretation": {
+    "refamtu_ist_name": true,
+    "m4_erkennt_refamtu": true,
+    "m4_modifiziert_sich_nicht": true,
+    "deterministisch": true
+  }
+}
