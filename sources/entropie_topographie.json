@@ -1,0 +1,1453 @@
+{
+  "method": "P72 — Entropie-Topographie (Shannon H(X))",
+  "principle": "Reines informationstheoretisches Wissen. H(X) ist maßstabsfrei, deterministisch, interpretationsfrei.",
+  "constants": {
+    "H_MAX_LATIN": 4.700439718141092,
+    "log2_16": 4.0
+  },
+  "n_total": 168,
+  "mean": 3.9938109470226775,
+  "std": 0.09868700767173039,
+  "min": 3.638505989113761,
+  "max": 4.184405892805923,
+  "pole_min": {
+    "phase_idx": 3,
+    "entropy": 3.638505989113761,
+    "n_unique_symbols": 16,
+    "top_symbol": "I",
+    "top_freq": 12,
+    "alphabet_size_eff": 12.453729892537067
+  },
+  "pole_max": {
+    "phase_idx": 122,
+    "entropy": 4.184405892805923,
+    "n_unique_symbols": 22,
+    "top_symbol": "E",
+    "top_freq": 11,
+    "alphabet_size_eff": 18.18158278638164
+  },
+  "per_day": [
+    {
+      "day_idx": 1,
+      "n_phases": 24,
+      "mean_entropy": 4.031396907429801,
+      "median_entropy": 4.066060225452835,
+      "min_entropy": 3.638505989113761,
+      "max_entropy": 4.155385570696485
+    },
+    {
+      "day_idx": 2,
+      "n_phases": 24,
+      "mean_entropy": 4.011415791448534,
+      "median_entropy": 4.027483920329635,
+      "min_entropy": 3.8397013016283306,
+      "max_entropy": 4.135943734441165
+    },
+    {
+      "day_idx": 3,
+      "n_phases": 24,
+      "mean_entropy": 3.9959480654014294,
+      "median_entropy": 4.008433346303809,
+      "min_entropy": 3.729946613276297,
+      "max_entropy": 4.109883472674241
+    },
+    {
+      "day_idx": 4,
+      "n_phases": 24,
+      "mean_entropy": 3.97532101050276,
+      "median_entropy": 3.9886681414053253,
+      "min_entropy": 3.71247171784836,
+      "max_entropy": 4.16350482966043
+    },
+    {
+      "day_idx": 5,
+      "n_phases": 24,
+      "mean_entropy": 3.9757097491601887,
+      "median_entropy": 3.973960078886738,
+      "min_entropy": 3.8422201919239907,
+      "max_entropy": 4.130958542599408
+    },
+    {
+      "day_idx": 6,
+      "n_phases": 24,
+      "mean_entropy": 3.9831811375946145,
+      "median_entropy": 3.9914449487909227,
+      "min_entropy": 3.7058100183081883,
+      "max_entropy": 4.184405892805923
+    },
+    {
+      "day_idx": 7,
+      "n_phases": 24,
+      "mean_entropy": 3.9837039676214165,
+      "median_entropy": 4.0002527148629285,
+      "min_entropy": 3.8429157402977,
+      "max_entropy": 4.128680133617764
+    }
+  ],
+  "per_book": {
+    "Genesis": 4.021863206317282,
+    "Exodus": 4.003235143355464,
+    "Leviticus": 3.9536190249732197,
+    "Numeri": 3.9910139226944787,
+    "Deuteronomium": 3.9761492751340284
+  },
+  "phase_5": {
+    "phase_idx": 5,
+    "entropy": 4.031820216732737,
+    "mean": 3.9938109470226775,
+    "std": 0.09868700767173039,
+    "z_score": 0.38514968288928914,
+    "percentile": 60.714285714285715,
+    "distance_from_mean": 0.0380092697100598,
+    "is_above_mean": true,
+    "interpretation": "Phase 5 (das Orakel) hat H=4.032, liegt bei Perzentil 60.7, Z-Score 0.39. Phase 5 ist über dem globalen Mittel."
+  },
+  "correlation_h_gematria": 0.036106166732255154,
+  "correlation_h_violations": null,
+  "records": [
+    {
+      "phase_idx": 0,
+      "entropy": 3.9401407787225833,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 15.34972366791327
+    },
+    {
+      "phase_idx": 1,
+      "entropy": 4.082204283639282,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.938148566811876
+    },
+    {
+      "phase_idx": 2,
+      "entropy": 3.985090225295507,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.835496814291325
+    },
+    {
+      "phase_idx": 3,
+      "entropy": 3.638505989113761,
+      "n_unique_symbols": 16,
+      "top_symbol": "I",
+      "top_freq": 12,
+      "alphabet_size_eff": 12.453729892537067
+    },
+    {
+      "phase_idx": 4,
+      "entropy": 3.9090897689766613,
+      "n_unique_symbols": 18,
+      "top_symbol": "I",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.022882698494524
+    },
+    {
+      "phase_idx": 5,
+      "entropy": 4.031820216732737,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.35681803718117
+    },
+    {
+      "phase_idx": 6,
+      "entropy": 3.968615621245241,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.655694687469856
+    },
+    {
+      "phase_idx": 7,
+      "entropy": 4.11496618005929,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 13,
+      "alphabet_size_eff": 17.327194536153822
+    },
+    {
+      "phase_idx": 8,
+      "entropy": 4.117421681001395,
+      "n_unique_symbols": 22,
+      "top_symbol": "N",
+      "top_freq": 12,
+      "alphabet_size_eff": 17.356710941077136
+    },
+    {
+      "phase_idx": 9,
+      "entropy": 4.099705228395352,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 17.144872000609322
+    },
+    {
+      "phase_idx": 10,
+      "entropy": 4.116195182678773,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 17.341961510397205
+    },
+    {
+      "phase_idx": 11,
+      "entropy": 3.9946301937511044,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 15.940557635843005
+    },
+    {
+      "phase_idx": 12,
+      "entropy": 4.029981865798002,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.335988672021728
+    },
+    {
+      "phase_idx": 13,
+      "entropy": 4.006297528556014,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 16.069994482422
+    },
+    {
+      "phase_idx": 14,
+      "entropy": 4.065260030280296,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 10,
+      "alphabet_size_eff": 16.740376037697583
+    },
+    {
+      "phase_idx": 15,
+      "entropy": 4.104754511571706,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 17.204982405095514
+    },
+    {
+      "phase_idx": 16,
+      "entropy": 4.13816100241958,
+      "n_unique_symbols": 22,
+      "top_symbol": "S",
+      "top_freq": 11,
+      "alphabet_size_eff": 17.608022666900197
+    },
+    {
+      "phase_idx": 17,
+      "entropy": 4.066860420625376,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 15,
+      "alphabet_size_eff": 16.758956542034955
+    },
+    {
+      "phase_idx": 18,
+      "entropy": 4.141665909723846,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 10,
+      "alphabet_size_eff": 17.65085189369595
+    },
+    {
+      "phase_idx": 19,
+      "entropy": 4.113478655490656,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 17.30933813293181
+    },
+    {
+      "phase_idx": 20,
+      "entropy": 4.155385570696485,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 10,
+      "alphabet_size_eff": 17.819507647776774
+    },
+    {
+      "phase_idx": 21,
+      "entropy": 3.8603751839834706,
+      "n_unique_symbols": 18,
+      "top_symbol": "E",
+      "top_freq": 17,
+      "alphabet_size_eff": 14.52408309392449
+    },
+    {
+      "phase_idx": 22,
+      "entropy": 4.0998027439386435,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 17.14603090666047
+    },
+    {
+      "phase_idx": 23,
+      "entropy": 3.973117005619463,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.704618647799464
+    },
+    {
+      "phase_idx": 24,
+      "entropy": 3.876119147984932,
+      "n_unique_symbols": 18,
+      "top_symbol": "T",
+      "top_freq": 12,
+      "alphabet_size_eff": 14.683450730372456
+    },
+    {
+      "phase_idx": 25,
+      "entropy": 3.9865392324656175,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.851409584977462
+    },
+    {
+      "phase_idx": 26,
+      "entropy": 4.046792425356131,
+      "n_unique_symbols": 20,
+      "top_symbol": "D",
+      "top_freq": 10,
+      "alphabet_size_eff": 16.527452065714105
+    },
+    {
+      "phase_idx": 27,
+      "entropy": 4.015256547883831,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.170098343029643
+    },
+    {
+      "phase_idx": 28,
+      "entropy": 4.118677415341951,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 17.37182495031914
+    },
+    {
+      "phase_idx": 29,
+      "entropy": 4.115680573235917,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 17.335776734383334
+    },
+    {
+      "phase_idx": 30,
+      "entropy": 4.039711292775439,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.446529673581974
+    },
+    {
+      "phase_idx": 31,
+      "entropy": 4.070373539640665,
+      "n_unique_symbols": 23,
+      "top_symbol": "N",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.799816148837103
+    },
+    {
+      "phase_idx": 32,
+      "entropy": 3.9317457241633997,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.260662871045989
+    },
+    {
+      "phase_idx": 33,
+      "entropy": 4.102415335469882,
+      "n_unique_symbols": 22,
+      "top_symbol": "O",
+      "top_freq": 13,
+      "alphabet_size_eff": 17.17710896456795
+    },
+    {
+      "phase_idx": 34,
+      "entropy": 3.8397013016283306,
+      "n_unique_symbols": 18,
+      "top_symbol": "N",
+      "top_freq": 11,
+      "alphabet_size_eff": 14.317436518209217
+    },
+    {
+      "phase_idx": 35,
+      "entropy": 4.097101087608766,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 17.113952514692745
+    },
+    {
+      "phase_idx": 36,
+      "entropy": 3.9621733453717702,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.58594089508299
+    },
+    {
+      "phase_idx": 37,
+      "entropy": 3.960360771391133,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.566371318170855
+    },
+    {
+      "phase_idx": 38,
+      "entropy": 4.135943734441165,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 17.580981804057895
+    },
+    {
+      "phase_idx": 39,
+      "entropy": 3.8942476694693164,
+      "n_unique_symbols": 19,
+      "top_symbol": "I",
+      "top_freq": 12,
+      "alphabet_size_eff": 14.869123172030648
+    },
+    {
+      "phase_idx": 40,
+      "entropy": 4.073732156959789,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.838971951720186
+    },
+    {
+      "phase_idx": 41,
+      "entropy": 4.08623031129062,
+      "n_unique_symbols": 22,
+      "top_symbol": "I",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.985482682802974
+    },
+    {
+      "phase_idx": 42,
+      "entropy": 3.8502786837677556,
+      "n_unique_symbols": 16,
+      "top_symbol": "A",
+      "top_freq": 13,
+      "alphabet_size_eff": 14.422793167330942
+    },
+    {
+      "phase_idx": 43,
+      "entropy": 4.082202616172883,
+      "n_unique_symbols": 23,
+      "top_symbol": "O",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.938128989717292
+    },
+    {
+      "phase_idx": 44,
+      "entropy": 3.945035593543179,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 11,
+      "alphabet_size_eff": 15.401891073683498
+    },
+    {
+      "phase_idx": 45,
+      "entropy": 4.113927472792108,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 17.314723844220794
+    },
+    {
+      "phase_idx": 46,
+      "entropy": 3.9540489598775883,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 15.498416979196731
+    },
+    {
+      "phase_idx": 47,
+      "entropy": 3.975684056132637,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 15.732587439692557
+    },
+    {
+      "phase_idx": 48,
+      "entropy": 3.9528507592334257,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 15.485550432031653
+    },
+    {
+      "phase_idx": 49,
+      "entropy": 4.0967327681510515,
+      "n_unique_symbols": 23,
+      "top_symbol": "T",
+      "top_freq": 15,
+      "alphabet_size_eff": 17.109583887247958
+    },
+    {
+      "phase_idx": 50,
+      "entropy": 4.057486946544275,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.65042326052583
+    },
+    {
+      "phase_idx": 51,
+      "entropy": 4.000692134866505,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.007677862885775
+    },
+    {
+      "phase_idx": 52,
+      "entropy": 3.9696903166274473,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 19,
+      "alphabet_size_eff": 15.66736130484942
+    },
+    {
+      "phase_idx": 53,
+      "entropy": 3.9088565610341934,
+      "n_unique_symbols": 18,
+      "top_symbol": "T",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.020454484410653
+    },
+    {
+      "phase_idx": 54,
+      "entropy": 4.031131292000315,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.349009092069103
+    },
+    {
+      "phase_idx": 55,
+      "entropy": 3.9245311475338593,
+      "n_unique_symbols": 18,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.184538404807478
+    },
+    {
+      "phase_idx": 56,
+      "entropy": 3.729946613276297,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 21,
+      "alphabet_size_eff": 13.268621720496657
+    },
+    {
+      "phase_idx": 57,
+      "entropy": 4.109704611738366,
+      "n_unique_symbols": 23,
+      "top_symbol": "A",
+      "top_freq": 15,
+      "alphabet_size_eff": 17.264116636752714
+    },
+    {
+      "phase_idx": 58,
+      "entropy": 4.004681686468767,
+      "n_unique_symbols": 20,
+      "top_symbol": "I",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.052005900896106
+    },
+    {
+      "phase_idx": 59,
+      "entropy": 4.101162686310114,
+      "n_unique_symbols": 23,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 17.162201065138692
+    },
+    {
+      "phase_idx": 60,
+      "entropy": 4.019259046931397,
+      "n_unique_symbols": 22,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.215021672355473
+    },
+    {
+      "phase_idx": 61,
+      "entropy": 4.012185006138851,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.135708332142382
+    },
+    {
+      "phase_idx": 62,
+      "entropy": 3.967347621852319,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.64194078276488
+    },
+    {
+      "phase_idx": 63,
+      "entropy": 3.8777416825598015,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 11,
+      "alphabet_size_eff": 14.699973840218066
+    },
+    {
+      "phase_idx": 64,
+      "entropy": 3.9683059220663917,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.652334285391717
+    },
+    {
+      "phase_idx": 65,
+      "entropy": 3.929453530905989,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.236435564956079
+    },
+    {
+      "phase_idx": 66,
+      "entropy": 4.109883472674241,
+      "n_unique_symbols": 23,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 17.2662571220194
+    },
+    {
+      "phase_idx": 67,
+      "entropy": 4.0513820866441845,
+      "n_unique_symbols": 23,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.580114750930843
+    },
+    {
+      "phase_idx": 68,
+      "entropy": 4.039535618529366,
+      "n_unique_symbols": 19,
+      "top_symbol": "O",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.44452713269978
+    },
+    {
+      "phase_idx": 69,
+      "entropy": 3.9747605645012416,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 15.722519987230939
+    },
+    {
+      "phase_idx": 70,
+      "entropy": 4.048880794932006,
+      "n_unique_symbols": 21,
+      "top_symbol": "A",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.55139366147801
+    },
+    {
+      "phase_idx": 71,
+      "entropy": 4.016550698113898,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.184610020576876
+    },
+    {
+      "phase_idx": 72,
+      "entropy": 4.096558761371377,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 17.10752038527829
+    },
+    {
+      "phase_idx": 73,
+      "entropy": 4.080228300464937,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.914965159795912
+    },
+    {
+      "phase_idx": 74,
+      "entropy": 3.9802967403259175,
+      "n_unique_symbols": 20,
+      "top_symbol": "I",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.78296925367382
+    },
+    {
+      "phase_idx": 75,
+      "entropy": 4.0698306325193485,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.793495323127377
+    },
+    {
+      "phase_idx": 76,
+      "entropy": 4.06854718138426,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.778562128245486
+    },
+    {
+      "phase_idx": 77,
+      "entropy": 4.063900087908825,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.72460332110446
+    },
+    {
+      "phase_idx": 78,
+      "entropy": 3.9970395424847336,
+      "n_unique_symbols": 21,
+      "top_symbol": "A",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.967201139199986
+    },
+    {
+      "phase_idx": 79,
+      "entropy": 3.862724637933309,
+      "n_unique_symbols": 19,
+      "top_symbol": "N",
+      "top_freq": 12,
+      "alphabet_size_eff": 14.54775508558202
+    },
+    {
+      "phase_idx": 80,
+      "entropy": 3.9509252179673306,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.464895910078042
+    },
+    {
+      "phase_idx": 81,
+      "entropy": 4.142617550790704,
+      "n_unique_symbols": 20,
+      "top_symbol": "A",
+      "top_freq": 10,
+      "alphabet_size_eff": 17.66249871872833
+    },
+    {
+      "phase_idx": 82,
+      "entropy": 4.097729245221008,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 11,
+      "alphabet_size_eff": 17.121405649239293
+    },
+    {
+      "phase_idx": 83,
+      "entropy": 3.8848527802853527,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 14,
+      "alphabet_size_eff": 14.772609424856265
+    },
+    {
+      "phase_idx": 84,
+      "entropy": 3.9503108446308555,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.458311568506343
+    },
+    {
+      "phase_idx": 85,
+      "entropy": 3.71247171784836,
+      "n_unique_symbols": 18,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 13.108872671845518
+    },
+    {
+      "phase_idx": 86,
+      "entropy": 3.8868526659465146,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 14.793101639244965
+    },
+    {
+      "phase_idx": 87,
+      "entropy": 3.9453590769977946,
+      "n_unique_symbols": 20,
+      "top_symbol": "T",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.405344898225469
+    },
+    {
+      "phase_idx": 88,
+      "entropy": 3.902224826638883,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 14.951567390211604
+    },
+    {
+      "phase_idx": 89,
+      "entropy": 3.764755128449869,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 13.592652681953211
+    },
+    {
+      "phase_idx": 90,
+      "entropy": 4.064773137631971,
+      "n_unique_symbols": 21,
+      "top_symbol": "T",
+      "top_freq": 10,
+      "alphabet_size_eff": 16.734727310452573
+    },
+    {
+      "phase_idx": 91,
+      "entropy": 3.7778815886359407,
+      "n_unique_symbols": 17,
+      "top_symbol": "D",
+      "top_freq": 11,
+      "alphabet_size_eff": 13.71689070552009
+    },
+    {
+      "phase_idx": 92,
+      "entropy": 4.029385091045009,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.329232643009604
+    },
+    {
+      "phase_idx": 93,
+      "entropy": 4.16350482966043,
+      "n_unique_symbols": 24,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 17.920075736890684
+    },
+    {
+      "phase_idx": 94,
+      "entropy": 4.011150113179384,
+      "n_unique_symbols": 21,
+      "top_symbol": "A",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.12413780432385
+    },
+    {
+      "phase_idx": 95,
+      "entropy": 3.903784552744124,
+      "n_unique_symbols": 18,
+      "top_symbol": "N",
+      "top_freq": 11,
+      "alphabet_size_eff": 14.967740566039538
+    },
+    {
+      "phase_idx": 96,
+      "entropy": 3.8644641797414008,
+      "n_unique_symbols": 18,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 14.56530674433307
+    },
+    {
+      "phase_idx": 97,
+      "entropy": 3.8422201919239907,
+      "n_unique_symbols": 18,
+      "top_symbol": "A",
+      "top_freq": 12,
+      "alphabet_size_eff": 14.342456049322214
+    },
+    {
+      "phase_idx": 98,
+      "entropy": 4.00625948654955,
+      "n_unique_symbols": 21,
+      "top_symbol": "I",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.069570742992205
+    },
+    {
+      "phase_idx": 99,
+      "entropy": 4.038759503465583,
+      "n_unique_symbols": 20,
+      "top_symbol": "R",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.435682981638255
+    },
+    {
+      "phase_idx": 100,
+      "entropy": 3.8885497519173318,
+      "n_unique_symbols": 18,
+      "top_symbol": "T",
+      "top_freq": 14,
+      "alphabet_size_eff": 14.81051345277483
+    },
+    {
+      "phase_idx": 101,
+      "entropy": 4.045844243353108,
+      "n_unique_symbols": 22,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.516593302389467
+    },
+    {
+      "phase_idx": 102,
+      "entropy": 3.9159982537341858,
+      "n_unique_symbols": 20,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.094993743044066
+    },
+    {
+      "phase_idx": 103,
+      "entropy": 3.9809315904257825,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.789915991709067
+    },
+    {
+      "phase_idx": 104,
+      "entropy": 4.066176248540141,
+      "n_unique_symbols": 21,
+      "top_symbol": "A",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.751010793575063
+    },
+    {
+      "phase_idx": 105,
+      "entropy": 3.9641866414256515,
+      "n_unique_symbols": 21,
+      "top_symbol": "I",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.607706422473976
+    },
+    {
+      "phase_idx": 106,
+      "entropy": 4.032274059055412,
+      "n_unique_symbols": 21,
+      "top_symbol": "O",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.361964366674915
+    },
+    {
+      "phase_idx": 107,
+      "entropy": 4.130958542599408,
+      "n_unique_symbols": 22,
+      "top_symbol": "O",
+      "top_freq": 11,
+      "alphabet_size_eff": 17.520336059678822
+    },
+    {
+      "phase_idx": 108,
+      "entropy": 3.9755078010026366,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 15.730665495147038
+    },
+    {
+      "phase_idx": 109,
+      "entropy": 3.997300467221732,
+      "n_unique_symbols": 21,
+      "top_symbol": "I",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.970089216315232
+    },
+    {
+      "phase_idx": 110,
+      "entropy": 3.941607177475295,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.365333521831893
+    },
+    {
+      "phase_idx": 111,
+      "entropy": 3.8586198706952617,
+      "n_unique_symbols": 17,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 14.506422526532019
+    },
+    {
+      "phase_idx": 112,
+      "entropy": 3.9648914385172733,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.615333088670814
+    },
+    {
+      "phase_idx": 113,
+      "entropy": 3.9448511600425613,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 18,
+      "alphabet_size_eff": 15.399922228541609
+    },
+    {
+      "phase_idx": 114,
+      "entropy": 4.057906527827793,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 16.655266433731466
+    },
+    {
+      "phase_idx": 115,
+      "entropy": 4.06868844634818,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 16.780205122054518
+    },
+    {
+      "phase_idx": 116,
+      "entropy": 4.019770197310418,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 16.22076771202232
+    },
+    {
+      "phase_idx": 117,
+      "entropy": 3.972412356770839,
+      "n_unique_symbols": 19,
+      "top_symbol": "O",
+      "top_freq": 11,
+      "alphabet_size_eff": 15.69694998667696
+    },
+    {
+      "phase_idx": 118,
+      "entropy": 3.903664312087115,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 14.966493139582894
+    },
+    {
+      "phase_idx": 119,
+      "entropy": 3.935191531813884,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.297155793075117
+    },
+    {
+      "phase_idx": 120,
+      "entropy": 3.99159018310837,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.907003459074547
+    },
+    {
+      "phase_idx": 121,
+      "entropy": 4.048315776921309,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 16.54491273223414
+    },
+    {
+      "phase_idx": 122,
+      "entropy": 4.184405892805923,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 18.18158278638164
+    },
+    {
+      "phase_idx": 123,
+      "entropy": 4.03310560770826,
+      "n_unique_symbols": 20,
+      "top_symbol": "A",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.371397885803763
+    },
+    {
+      "phase_idx": 124,
+      "entropy": 4.183023258661144,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 18.16416646877218
+    },
+    {
+      "phase_idx": 125,
+      "entropy": 4.0443101926929526,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 10,
+      "alphabet_size_eff": 16.49904016464794
+    },
+    {
+      "phase_idx": 126,
+      "entropy": 3.9912997144734748,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 17,
+      "alphabet_size_eff": 15.90380110490976
+    },
+    {
+      "phase_idx": 127,
+      "entropy": 4.098228402921696,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 17.12733050505954
+    },
+    {
+      "phase_idx": 128,
+      "entropy": 4.069830632519349,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.793495323127388
+    },
+    {
+      "phase_idx": 129,
+      "entropy": 3.9972620513322217,
+      "n_unique_symbols": 22,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.969663972589204
+    },
+    {
+      "phase_idx": 130,
+      "entropy": 3.957647329383804,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.537121374012806
+    },
+    {
+      "phase_idx": 131,
+      "entropy": 3.8709869222774493,
+      "n_unique_symbols": 20,
+      "top_symbol": "I",
+      "top_freq": 19,
+      "alphabet_size_eff": 14.631308801706583
+    },
+    {
+      "phase_idx": 132,
+      "entropy": 3.9296169400996974,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.238161442282568
+    },
+    {
+      "phase_idx": 133,
+      "entropy": 3.946778368775056,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.420507796304356
+    },
+    {
+      "phase_idx": 134,
+      "entropy": 3.799693878360465,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 21,
+      "alphabet_size_eff": 13.925853809185577
+    },
+    {
+      "phase_idx": 135,
+      "entropy": 3.8841531564579515,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 14.765447298659042
+    },
+    {
+      "phase_idx": 136,
+      "entropy": 3.9143666875307375,
+      "n_unique_symbols": 18,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.077932229822512
+    },
+    {
+      "phase_idx": 137,
+      "entropy": 3.902266327709181,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 14.951997498416507
+    },
+    {
+      "phase_idx": 138,
+      "entropy": 3.979976715935138,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.779468600514937
+    },
+    {
+      "phase_idx": 139,
+      "entropy": 3.9944530002816285,
+      "n_unique_symbols": 20,
+      "top_symbol": "T",
+      "top_freq": 10,
+      "alphabet_size_eff": 15.93859991838928
+    },
+    {
+      "phase_idx": 140,
+      "entropy": 3.893867233202235,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 15,
+      "alphabet_size_eff": 14.865202726072665
+    },
+    {
+      "phase_idx": 141,
+      "entropy": 3.7058100183081883,
+      "n_unique_symbols": 18,
+      "top_symbol": "T",
+      "top_freq": 15,
+      "alphabet_size_eff": 13.048481487421814
+    },
+    {
+      "phase_idx": 142,
+      "entropy": 4.109443687001368,
+      "n_unique_symbols": 20,
+      "top_symbol": "A",
+      "top_freq": 10,
+      "alphabet_size_eff": 17.26099454397677
+    },
+    {
+      "phase_idx": 143,
+      "entropy": 4.065915323803141,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.747981492343545
+    },
+    {
+      "phase_idx": 144,
+      "entropy": 4.0117639056319305,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.130999254187692
+    },
+    {
+      "phase_idx": 145,
+      "entropy": 3.8928439776772192,
+      "n_unique_symbols": 20,
+      "top_symbol": "O",
+      "top_freq": 12,
+      "alphabet_size_eff": 14.854663071210409
+    },
+    {
+      "phase_idx": 146,
+      "entropy": 4.032501559583716,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 16.36454471036437
+    },
+    {
+      "phase_idx": 147,
+      "entropy": 3.989066675014943,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.879203844926634
+    },
+    {
+      "phase_idx": 148,
+      "entropy": 4.076769082421733,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.874455933728065
+    },
+    {
+      "phase_idx": 149,
+      "entropy": 3.8429157402977,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 17,
+      "alphabet_size_eff": 14.34937246398679
+    },
+    {
+      "phase_idx": 150,
+      "entropy": 4.003000052240117,
+      "n_unique_symbols": 20,
+      "top_symbol": "I",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.033306261841577
+    },
+    {
+      "phase_idx": 151,
+      "entropy": 4.128680133617764,
+      "n_unique_symbols": 23,
+      "top_symbol": "E",
+      "top_freq": 11,
+      "alphabet_size_eff": 17.49268850742181
+    },
+    {
+      "phase_idx": 152,
+      "entropy": 3.9975053774857394,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.972357656638817
+    },
+    {
+      "phase_idx": 153,
+      "entropy": 3.9417104004327497,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.366432930830253
+    },
+    {
+      "phase_idx": 154,
+      "entropy": 3.9199305801499467,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 16,
+      "alphabet_size_eff": 15.13619400407961
+    },
+    {
+      "phase_idx": 155,
+      "entropy": 4.022808961733715,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 17,
+      "alphabet_size_eff": 16.254969700726722
+    },
+    {
+      "phase_idx": 156,
+      "entropy": 3.926460147863791,
+      "n_unique_symbols": 19,
+      "top_symbol": "E",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.204854944131998
+    },
+    {
+      "phase_idx": 157,
+      "entropy": 4.10038715213026,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 10,
+      "alphabet_size_eff": 17.15297784306611
+    },
+    {
+      "phase_idx": 158,
+      "entropy": 4.053105802827061,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.599936328800787
+    },
+    {
+      "phase_idx": 159,
+      "entropy": 4.008567451287077,
+      "n_unique_symbols": 20,
+      "top_symbol": "E",
+      "top_freq": 17,
+      "alphabet_size_eff": 16.095298761272893
+    },
+    {
+      "phase_idx": 160,
+      "entropy": 3.984876283402921,
+      "n_unique_symbols": 20,
+      "top_symbol": "T",
+      "top_freq": 14,
+      "alphabet_size_eff": 15.833148691593621
+    },
+    {
+      "phase_idx": 161,
+      "entropy": 4.013385353624328,
+      "n_unique_symbols": 21,
+      "top_symbol": "E",
+      "top_freq": 12,
+      "alphabet_size_eff": 16.14913910999642
+    },
+    {
+      "phase_idx": 162,
+      "entropy": 3.943929335877565,
+      "n_unique_symbols": 18,
+      "top_symbol": "O",
+      "top_freq": 12,
+      "alphabet_size_eff": 15.390085439982983
+    },
+    {
+      "phase_idx": 163,
+      "entropy": 3.8441004178120726,
+      "n_unique_symbols": 19,
+      "top_symbol": "A",
+      "top_freq": 14,
+      "alphabet_size_eff": 14.361160374738708
+    },
+    {
+      "phase_idx": 164,
+      "entropy": 3.9149895116118634,
+      "n_unique_symbols": 19,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 15.084442910443542
+    },
+    {
+      "phase_idx": 165,
+      "entropy": 4.067987256563391,
+      "n_unique_symbols": 20,
+      "top_symbol": "T",
+      "top_freq": 13,
+      "alphabet_size_eff": 16.772051458791957
+    },
+    {
+      "phase_idx": 166,
+      "entropy": 4.032416889976718,
+      "n_unique_symbols": 20,
+      "top_symbol": "T",
+      "top_freq": 15,
+      "alphabet_size_eff": 16.363584327974422
+    },
+    {
+      "phase_idx": 167,
+      "entropy": 3.8591931736496754,
+      "n_unique_symbols": 17,
+      "top_symbol": "R",
+      "top_freq": 6,
+      "alphabet_size_eff": 14.512188282502395
+    }
+  ]
+}
