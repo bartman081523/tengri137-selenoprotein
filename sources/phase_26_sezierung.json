@@ -1,0 +1,208 @@
+{
+  "operator_map": {
+    "n_sec_total": 20,
+    "sec_positions": [
+      0,
+      7,
+      11,
+      20,
+      23,
+      28,
+      31,
+      35,
+      36,
+      41,
+      44,
+      49,
+      55,
+      67,
+      70,
+      75,
+      78,
+      81,
+      84,
+      96
+    ],
+    "sec_letters": [
+      "ד",
+      "ד",
+      "כ",
+      "ד",
+      "ד",
+      "י",
+      "ד",
+      "כ",
+      "כ",
+      "כ",
+      "ד",
+      "כ",
+      "כ",
+      "ד",
+      "כ",
+      "ד",
+      "ד",
+      "י",
+      "ד",
+      "כ"
+    ],
+    "sec_distribution": {
+      "ד": 10,
+      "כ": 8,
+      "י": 2
+    },
+    "sec_gaps": [
+      7,
+      4,
+      9,
+      3,
+      5,
+      3,
+      4,
+      1,
+      5,
+      3,
+      5,
+      6,
+      12,
+      3,
+      5,
+      3,
+      3,
+      3,
+      12
+    ],
+    "avg_gap": 5.052631578947368,
+    "positions_by_type": {
+      "כ": [
+        11,
+        35,
+        36,
+        41,
+        49,
+        55,
+        70,
+        96
+      ],
+      "ג": [],
+      "ד": [
+        0,
+        7,
+        20,
+        23,
+        31,
+        44,
+        67,
+        75,
+        78,
+        84
+      ],
+      "ת": [],
+      "י": [
+        28,
+        81
+      ]
+    }
+  },
+  "point_of_failure": {
+    "failure_step": 1,
+    "failure_position": 0,
+    "failure_symbol": "ד",
+    "failure_gematria": 4,
+    "failure_state": 1,
+    "failure_gematria_acc": 4,
+    "last_valid_state": 0,
+    "last_valid_position": 0,
+    "last_valid_gematria_acc": 0,
+    "phase_26_length": 99,
+    "total_steps_executed": 1
+  },
+  "resonanz_echo": {
+    "n_restores": 10,
+    "last_restore_state": 0,
+    "last_restore_position": 0,
+    "last_restore_gematria_acc": 0,
+    "restore_to_step": 0,
+    "restore_history": [
+      {
+        "restore_n": 1,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 2,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 3,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 4,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 5,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 6,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 7,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 8,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 9,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      },
+      {
+        "restore_n": 10,
+        "state": 0,
+        "position": 0,
+        "gematria_acc": 0,
+        "step": 0
+      }
+    ],
+    "total_steps_executed": 10,
+    "halt_reason": null
+  },
+  "phase_26_meta": {
+    "book": "Genesis",
+    "chapter": 29,
+    "phase_idx": 26,
+    "length": 99,
+    "n_sec_operators": 20,
+    "gematria": 4481
+  }
+}
