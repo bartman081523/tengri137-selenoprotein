@@ -1,0 +1,7963 @@
+{
+  "n_phases": 122,
+  "total_steps": 3473,
+  "final_state": 5,
+  "final_head": 12071,
+  "phase_halts": [
+    {
+      "phase": 0,
+      "step": 34,
+      "state": 5,
+      "head": 33,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 1,
+      "step": 57,
+      "state": 3,
+      "head": 110,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 2,
+      "step": 94,
+      "state": 1,
+      "head": 223,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 3,
+      "step": 140,
+      "state": 1,
+      "head": 331,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 4,
+      "step": 161,
+      "state": 5,
+      "head": 416,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 5,
+      "step": 234,
+      "state": 2,
+      "head": 556,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 6,
+      "step": 262,
+      "state": 1,
+      "head": 610,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 7,
+      "step": 285,
+      "state": 2,
+      "head": 704,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 8,
+      "step": 286,
+      "state": 5,
+      "head": 792,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 9,
+      "step": 302,
+      "state": 5,
+      "head": 906,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 10,
+      "step": 350,
+      "state": 2,
+      "head": 1026,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 11,
+      "step": 364,
+      "state": 1,
+      "head": 1091,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 12,
+      "step": 377,
+      "state": 1,
+      "head": 1187,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 13,
+      "step": 411,
+      "state": 3,
+      "head": 1309,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 14,
+      "step": 447,
+      "state": 4,
+      "head": 1410,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 15,
+      "step": 484,
+      "state": 2,
+      "head": 1510,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 16,
+      "step": 529,
+      "state": 5,
+      "head": 1628,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 17,
+      "step": 530,
+      "state": 5,
+      "head": 1683,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 18,
+      "step": 575,
+      "state": 3,
+      "head": 1815,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 19,
+      "step": 601,
+      "state": 2,
+      "head": 1895,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 20,
+      "step": 615,
+      "state": 1,
+      "head": 1982,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 21,
+      "step": 649,
+      "state": 3,
+      "head": 2101,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 22,
+      "step": 685,
+      "state": 5,
+      "head": 2213,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 23,
+      "step": 720,
+      "state": 3,
+      "head": 2300,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 24,
+      "step": 737,
+      "state": 1,
+      "head": 2381,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 25,
+      "step": 755,
+      "state": 1,
+      "head": 2481,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 26,
+      "step": 768,
+      "state": 1,
+      "head": 2573,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 27,
+      "step": 806,
+      "state": 5,
+      "head": 2710,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 28,
+      "step": 853,
+      "state": 3,
+      "head": 2807,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 29,
+      "step": 907,
+      "state": 3,
+      "head": 2913,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 30,
+      "step": 937,
+      "state": 2,
+      "head": 2988,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 31,
+      "step": 985,
+      "state": 2,
+      "head": 3105,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 32,
+      "step": 1018,
+      "state": 3,
+      "head": 3189,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 33,
+      "step": 1038,
+      "state": 1,
+      "head": 3275,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 34,
+      "step": 1069,
+      "state": 5,
+      "head": 3396,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 35,
+      "step": 1101,
+      "state": 5,
+      "head": 3496,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 36,
+      "step": 1147,
+      "state": 5,
+      "head": 3609,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 37,
+      "step": 1160,
+      "state": 1,
+      "head": 3664,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 38,
+      "step": 1235,
+      "state": 4,
+      "head": 3825,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 39,
+      "step": 1248,
+      "state": 1,
+      "head": 3862,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 40,
+      "step": 1286,
+      "state": 5,
+      "head": 3997,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 41,
+      "step": 1299,
+      "state": 1,
+      "head": 4060,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 42,
+      "step": 1341,
+      "state": 5,
+      "head": 4199,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 43,
+      "step": 1393,
+      "state": 1,
+      "head": 4297,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 44,
+      "step": 1406,
+      "state": 1,
+      "head": 4357,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 45,
+      "step": 1433,
+      "state": 1,
+      "head": 4470,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 46,
+      "step": 1477,
+      "state": 1,
+      "head": 4586,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 47,
+      "step": 1503,
+      "state": 2,
+      "head": 4667,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 48,
+      "step": 1522,
+      "state": 2,
+      "head": 4759,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 49,
+      "step": 1535,
+      "state": 1,
+      "head": 4852,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 50,
+      "step": 1577,
+      "state": 5,
+      "head": 4991,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 51,
+      "step": 1625,
+      "state": 5,
+      "head": 5096,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 52,
+      "step": 1642,
+      "state": 1,
+      "head": 5153,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 53,
+      "step": 1679,
+      "state": 2,
+      "head": 5272,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 54,
+      "step": 1697,
+      "state": 1,
+      "head": 5352,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 55,
+      "step": 1731,
+      "state": 3,
+      "head": 5467,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 56,
+      "step": 1769,
+      "state": 4,
+      "head": 5570,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 57,
+      "step": 1805,
+      "state": 1,
+      "head": 5667,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 58,
+      "step": 1843,
+      "state": 5,
+      "head": 5779,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 59,
+      "step": 1861,
+      "state": 1,
+      "head": 5847,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 60,
+      "step": 1917,
+      "state": 5,
+      "head": 5995,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 61,
+      "step": 1963,
+      "state": 3,
+      "head": 6073,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 62,
+      "step": 1992,
+      "state": 5,
+      "head": 6166,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 63,
+      "step": 2018,
+      "state": 5,
+      "head": 6262,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 64,
+      "step": 2037,
+      "state": 1,
+      "head": 6343,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 65,
+      "step": 2079,
+      "state": 2,
+      "head": 6465,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 66,
+      "step": 2099,
+      "state": 1,
+      "head": 6542,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 67,
+      "step": 2115,
+      "state": 5,
+      "head": 6648,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 68,
+      "step": 2116,
+      "state": 5,
+      "head": 6732,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 69,
+      "step": 2141,
+      "state": 5,
+      "head": 6855,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 70,
+      "step": 2159,
+      "state": 5,
+      "head": 6947,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 71,
+      "step": 2186,
+      "state": 5,
+      "head": 7055,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 72,
+      "step": 2223,
+      "state": 2,
+      "head": 7153,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 73,
+      "step": 2231,
+      "state": 5,
+      "head": 7234,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 74,
+      "step": 2232,
+      "state": 5,
+      "head": 7326,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 75,
+      "step": 2308,
+      "state": 5,
+      "head": 7500,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 76,
+      "step": 2321,
+      "state": 1,
+      "head": 7523,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 77,
+      "step": 2342,
+      "state": 5,
+      "head": 7643,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 78,
+      "step": 2383,
+      "state": 1,
+      "head": 7751,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 79,
+      "step": 2408,
+      "state": 4,
+      "head": 7834,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 80,
+      "step": 2437,
+      "state": 3,
+      "head": 7937,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 81,
+      "step": 2450,
+      "state": 1,
+      "head": 8020,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 82,
+      "step": 2467,
+      "state": 1,
+      "head": 8123,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 83,
+      "step": 2480,
+      "state": 1,
+      "head": 8216,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 84,
+      "step": 2493,
+      "state": 5,
+      "head": 8328,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 85,
+      "step": 2506,
+      "state": 1,
+      "head": 8414,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 86,
+      "step": 2507,
+      "state": 5,
+      "head": 8514,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 87,
+      "step": 2534,
+      "state": 3,
+      "head": 8628,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 88,
+      "step": 2549,
+      "state": 1,
+      "head": 8715,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 89,
+      "step": 2590,
+      "state": 2,
+      "head": 8840,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 90,
+      "step": 2612,
+      "state": 5,
+      "head": 8931,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 91,
+      "step": 2662,
+      "state": 5,
+      "head": 9058,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 92,
+      "step": 2698,
+      "state": 2,
+      "head": 9132,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 93,
+      "step": 2736,
+      "state": 2,
+      "head": 9233,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 94,
+      "step": 2751,
+      "state": 1,
+      "head": 9309,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 95,
+      "step": 2785,
+      "state": 3,
+      "head": 9427,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 96,
+      "step": 2816,
+      "state": 1,
+      "head": 9523,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 97,
+      "step": 2849,
+      "state": 1,
+      "head": 9624,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 98,
+      "step": 2880,
+      "state": 1,
+      "head": 9721,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 99,
+      "step": 2935,
+      "state": 3,
+      "head": 9844,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 100,
+      "step": 2948,
+      "state": 1,
+      "head": 9899,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 101,
+      "step": 2993,
+      "state": 5,
+      "head": 10043,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 102,
+      "step": 3024,
+      "state": 3,
+      "head": 10117,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 103,
+      "step": 3074,
+      "state": 3,
+      "head": 10235,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 104,
+      "step": 3087,
+      "state": 1,
+      "head": 10297,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 105,
+      "step": 3135,
+      "state": 5,
+      "head": 10442,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 106,
+      "step": 3202,
+      "state": 5,
+      "head": 10560,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 107,
+      "step": 3237,
+      "state": 5,
+      "head": 10627,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 108,
+      "step": 3255,
+      "state": 2,
+      "head": 10698,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 109,
+      "step": 3272,
+      "state": 1,
+      "head": 10796,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 110,
+      "step": 3297,
+      "state": 5,
+      "head": 10914,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 111,
+      "step": 3310,
+      "state": 1,
+      "head": 10990,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 112,
+      "step": 3311,
+      "state": 5,
+      "head": 11088,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 113,
+      "step": 3331,
+      "state": 1,
+      "head": 11195,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 114,
+      "step": 3332,
+      "state": 5,
+      "head": 11286,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 115,
+      "step": 3350,
+      "state": 1,
+      "head": 11391,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 116,
+      "step": 3372,
+      "state": 3,
+      "head": 11494,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 117,
+      "step": 3393,
+      "state": 1,
+      "head": 11592,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 118,
+      "step": 3409,
+      "state": 5,
+      "head": 11697,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 119,
+      "step": 3410,
+      "state": 5,
+      "head": 11781,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 120,
+      "step": 3472,
+      "state": 5,
+      "head": 11941,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 121,
+      "step": 3473,
+      "state": 5,
+      "head": 11979,
+      "reason": "HALT_TRANSITION"
+    }
+  ],
+  "aleph_halts": [
+    {
+      "phase": 0,
+      "step": 25,
+      "state": 2,
+      "head": 25,
+      "letter": "A",
+      "reflection": []
+    },
+    {
+      "phase": 1,
+      "step": 44,
+      "state": 2,
+      "head": 109,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 0,
+          "step": 34,
+          "state": 5,
+          "head": 33,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "step": 110,
+      "state": 1,
+      "head": 313,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 0,
+          "step": 34,
+          "state": 5,
+          "head": 33,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "step": 113,
+      "state": 1,
+      "head": 316,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 0,
+          "step": 34,
+          "state": 5,
+          "head": 33,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "step": 117,
+      "state": 1,
+      "head": 320,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 0,
+          "step": 34,
+          "state": 5,
+          "head": 33,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "step": 123,
+      "state": 1,
+      "head": 326,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 0,
+          "step": 34,
+          "state": 5,
+          "head": 33,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "step": 127,
+      "state": 1,
+      "head": 330,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 0,
+          "step": 34,
+          "state": 5,
+          "head": 33,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "step": 146,
+      "state": 2,
+      "head": 402,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 3,
+          "step": 140,
+          "state": 1,
+          "head": 331,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "step": 159,
+      "state": 4,
+      "head": 415,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 3,
+          "step": 140,
+          "state": 1,
+          "head": 331,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 1,
+          "step": 57,
+          "state": 3,
+          "head": 110,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "step": 189,
+      "state": 1,
+      "head": 523,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 4,
+          "step": 161,
+          "state": 5,
+          "head": 416,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 3,
+          "step": 140,
+          "state": 1,
+          "head": 331,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 2,
+          "step": 94,
+          "state": 1,
+          "head": 223,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 8,
+      "step": 285,
+      "state": 0,
+      "head": 792,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 7,
+          "step": 285,
+          "state": 2,
+          "head": 704,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 6,
+          "step": 262,
+          "state": 1,
+          "head": 610,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 5,
+          "step": 234,
+          "state": 2,
+          "head": 556,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 9,
+      "step": 292,
+      "state": 1,
+      "head": 897,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 8,
+          "step": 286,
+          "state": 5,
+          "head": 792,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 7,
+          "step": 285,
+          "state": 2,
+          "head": 704,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 6,
+          "step": 262,
+          "state": 1,
+          "head": 610,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 9,
+      "step": 297,
+      "state": 2,
+      "head": 902,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 8,
+          "step": 286,
+          "state": 5,
+          "head": 792,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 7,
+          "step": 285,
+          "state": 2,
+          "head": 704,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 6,
+          "step": 262,
+          "state": 1,
+          "head": 610,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 11,
+      "step": 351,
+      "state": 1,
+      "head": 1090,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 10,
+          "step": 350,
+          "state": 2,
+          "head": 1026,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 9,
+          "step": 302,
+          "state": 5,
+          "head": 906,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 8,
+          "step": 286,
+          "state": 5,
+          "head": 792,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 13,
+      "step": 398,
+      "state": 2,
+      "head": 1308,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 12,
+          "step": 377,
+          "state": 1,
+          "head": 1187,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 11,
+          "step": 364,
+          "state": 1,
+          "head": 1091,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 10,
+          "step": 350,
+          "state": 2,
+          "head": 1026,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 14,
+      "step": 415,
+      "state": 1,
+      "head": 1390,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 12,
+          "step": 377,
+          "state": 1,
+          "head": 1187,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 11,
+          "step": 364,
+          "state": 1,
+          "head": 1091,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 14,
+      "step": 428,
+      "state": 2,
+      "head": 1403,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 12,
+          "step": 377,
+          "state": 1,
+          "head": 1187,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 11,
+          "step": 364,
+          "state": 1,
+          "head": 1091,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 14,
+      "step": 433,
+      "state": 3,
+      "head": 1408,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 12,
+          "step": 377,
+          "state": 1,
+          "head": 1187,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 11,
+          "step": 364,
+          "state": 1,
+          "head": 1091,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 15,
+      "step": 450,
+      "state": 1,
+      "head": 1488,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 14,
+          "step": 447,
+          "state": 4,
+          "head": 1410,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 12,
+          "step": 377,
+          "state": 1,
+          "head": 1187,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 15,
+      "step": 457,
+      "state": 1,
+      "head": 1495,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 14,
+          "step": 447,
+          "state": 4,
+          "head": 1410,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 12,
+          "step": 377,
+          "state": 1,
+          "head": 1187,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 16,
+      "step": 505,
+      "state": 2,
+      "head": 1605,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 15,
+          "step": 484,
+          "state": 2,
+          "head": 1510,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 14,
+          "step": 447,
+          "state": 4,
+          "head": 1410,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 16,
+      "step": 509,
+      "state": 3,
+      "head": 1609,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 15,
+          "step": 484,
+          "state": 2,
+          "head": 1510,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 14,
+          "step": 447,
+          "state": 4,
+          "head": 1410,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 13,
+          "step": 411,
+          "state": 3,
+          "head": 1309,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 17,
+      "step": 529,
+      "state": 0,
+      "head": 1683,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 16,
+          "step": 529,
+          "state": 5,
+          "head": 1628,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 15,
+          "step": 484,
+          "state": 2,
+          "head": 1510,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 14,
+          "step": 447,
+          "state": 4,
+          "head": 1410,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 18,
+      "step": 557,
+      "state": 2,
+      "head": 1809,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 17,
+          "step": 530,
+          "state": 5,
+          "head": 1683,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 16,
+          "step": 529,
+          "state": 5,
+          "head": 1628,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 15,
+          "step": 484,
+          "state": 2,
+          "head": 1510,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 18,
+      "step": 559,
+      "state": 3,
+      "head": 1811,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 17,
+          "step": 530,
+          "state": 5,
+          "head": 1683,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 16,
+          "step": 529,
+          "state": 5,
+          "head": 1628,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 15,
+          "step": 484,
+          "state": 2,
+          "head": 1510,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 18,
+      "step": 562,
+      "state": 3,
+      "head": 1814,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 17,
+          "step": 530,
+          "state": 5,
+          "head": 1683,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 16,
+          "step": 529,
+          "state": 5,
+          "head": 1628,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 15,
+          "step": 484,
+          "state": 2,
+          "head": 1510,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 21,
+      "step": 623,
+      "state": 2,
+      "head": 2087,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 19,
+          "step": 601,
+          "state": 2,
+          "head": 1895,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 18,
+          "step": 575,
+          "state": 3,
+          "head": 1815,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 21,
+      "step": 629,
+      "state": 3,
+      "head": 2093,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 19,
+          "step": 601,
+          "state": 2,
+          "head": 1895,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 18,
+          "step": 575,
+          "state": 3,
+          "head": 1815,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 22,
+      "step": 658,
+      "state": 2,
+      "head": 2187,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 21,
+          "step": 649,
+          "state": 3,
+          "head": 2101,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 19,
+          "step": 601,
+          "state": 2,
+          "head": 1895,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 22,
+      "step": 680,
+      "state": 3,
+      "head": 2209,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 21,
+          "step": 649,
+          "state": 3,
+          "head": 2101,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 19,
+          "step": 601,
+          "state": 2,
+          "head": 1895,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 23,
+      "step": 703,
+      "state": 2,
+      "head": 2295,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 22,
+          "step": 685,
+          "state": 5,
+          "head": 2213,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 21,
+          "step": 649,
+          "state": 3,
+          "head": 2101,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 23,
+      "step": 705,
+      "state": 3,
+      "head": 2297,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 22,
+          "step": 685,
+          "state": 5,
+          "head": 2213,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 21,
+          "step": 649,
+          "state": 3,
+          "head": 2101,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 23,
+      "step": 707,
+      "state": 3,
+      "head": 2299,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 22,
+          "step": 685,
+          "state": 5,
+          "head": 2213,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 21,
+          "step": 649,
+          "state": 3,
+          "head": 2101,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 20,
+          "step": 615,
+          "state": 1,
+          "head": 1982,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 24,
+      "step": 724,
+      "state": 1,
+      "head": 2380,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 23,
+          "step": 720,
+          "state": 3,
+          "head": 2300,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 22,
+          "step": 685,
+          "state": 5,
+          "head": 2213,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 21,
+          "step": 649,
+          "state": 3,
+          "head": 2101,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 27,
+      "step": 787,
+      "state": 2,
+      "head": 2692,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 26,
+          "step": 768,
+          "state": 1,
+          "head": 2573,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 25,
+          "step": 755,
+          "state": 1,
+          "head": 2481,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 24,
+          "step": 737,
+          "state": 1,
+          "head": 2381,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 27,
+      "step": 795,
+      "state": 4,
+      "head": 2700,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 26,
+          "step": 768,
+          "state": 1,
+          "head": 2573,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 25,
+          "step": 755,
+          "state": 1,
+          "head": 2481,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 24,
+          "step": 737,
+          "state": 1,
+          "head": 2381,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 28,
+      "step": 809,
+      "state": 1,
+      "head": 2775,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 27,
+          "step": 806,
+          "state": 5,
+          "head": 2710,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 26,
+          "step": 768,
+          "state": 1,
+          "head": 2573,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 25,
+          "step": 755,
+          "state": 1,
+          "head": 2481,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 28,
+      "step": 836,
+      "state": 2,
+      "head": 2802,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 27,
+          "step": 806,
+          "state": 5,
+          "head": 2710,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 26,
+          "step": 768,
+          "state": 1,
+          "head": 2573,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 25,
+          "step": 755,
+          "state": 1,
+          "head": 2481,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 29,
+      "step": 856,
+      "state": 1,
+      "head": 2874,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 28,
+          "step": 853,
+          "state": 3,
+          "head": 2807,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 27,
+          "step": 806,
+          "state": 5,
+          "head": 2710,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 26,
+          "step": 768,
+          "state": 1,
+          "head": 2573,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 29,
+      "step": 877,
+      "state": 2,
+      "head": 2895,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 28,
+          "step": 853,
+          "state": 3,
+          "head": 2807,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 27,
+          "step": 806,
+          "state": 5,
+          "head": 2710,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 26,
+          "step": 768,
+          "state": 1,
+          "head": 2573,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 31,
+      "step": 939,
+      "state": 1,
+      "head": 3071,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 30,
+          "step": 937,
+          "state": 2,
+          "head": 2988,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 29,
+          "step": 907,
+          "state": 3,
+          "head": 2913,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 28,
+          "step": 853,
+          "state": 3,
+          "head": 2807,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 32,
+      "step": 1000,
+      "state": 2,
+      "head": 3183,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 30,
+          "step": 937,
+          "state": 2,
+          "head": 2988,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 29,
+          "step": 907,
+          "state": 3,
+          "head": 2913,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 32,
+      "step": 1003,
+      "state": 3,
+      "head": 3186,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 30,
+          "step": 937,
+          "state": 2,
+          "head": 2988,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 29,
+          "step": 907,
+          "state": 3,
+          "head": 2913,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 33,
+      "step": 1023,
+      "state": 1,
+      "head": 3272,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 30,
+          "step": 937,
+          "state": 2,
+          "head": 2988,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 34,
+      "step": 1048,
+      "state": 2,
+      "head": 3376,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 34,
+      "step": 1051,
+      "state": 3,
+      "head": 3379,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 34,
+      "step": 1055,
+      "state": 3,
+      "head": 3383,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 34,
+      "step": 1057,
+      "state": 3,
+      "head": 3385,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 34,
+      "step": 1059,
+      "state": 3,
+      "head": 3387,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 34,
+      "step": 1064,
+      "state": 3,
+      "head": 3392,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 31,
+          "step": 985,
+          "state": 2,
+          "head": 3105,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 35,
+      "step": 1079,
+      "state": 1,
+      "head": 3475,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 34,
+          "step": 1069,
+          "state": 5,
+          "head": 3396,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 35,
+      "step": 1091,
+      "state": 2,
+      "head": 3487,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 34,
+          "step": 1069,
+          "state": 5,
+          "head": 3396,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 35,
+      "step": 1099,
+      "state": 4,
+      "head": 3495,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 34,
+          "step": 1069,
+          "state": 5,
+          "head": 3396,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 32,
+          "step": 1018,
+          "state": 3,
+          "head": 3189,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 36,
+      "step": 1130,
+      "state": 2,
+      "head": 3593,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 35,
+          "step": 1101,
+          "state": 5,
+          "head": 3496,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 34,
+          "step": 1069,
+          "state": 5,
+          "head": 3396,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 33,
+          "step": 1038,
+          "state": 1,
+          "head": 3275,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 38,
+      "step": 1184,
+      "state": 2,
+      "head": 3786,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 36,
+          "step": 1147,
+          "state": 5,
+          "head": 3609,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 35,
+          "step": 1101,
+          "state": 5,
+          "head": 3496,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 38,
+      "step": 1192,
+      "state": 4,
+      "head": 3794,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 36,
+          "step": 1147,
+          "state": 5,
+          "head": 3609,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 35,
+          "step": 1101,
+          "state": 5,
+          "head": 3496,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 38,
+      "step": 1195,
+      "state": 4,
+      "head": 3797,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 36,
+          "step": 1147,
+          "state": 5,
+          "head": 3609,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 35,
+          "step": 1101,
+          "state": 5,
+          "head": 3496,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 38,
+      "step": 1205,
+      "state": 4,
+      "head": 3807,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 36,
+          "step": 1147,
+          "state": 5,
+          "head": 3609,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 35,
+          "step": 1101,
+          "state": 5,
+          "head": 3496,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 38,
+      "step": 1214,
+      "state": 4,
+      "head": 3816,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 36,
+          "step": 1147,
+          "state": 5,
+          "head": 3609,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 35,
+          "step": 1101,
+          "state": 5,
+          "head": 3496,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 40,
+      "step": 1262,
+      "state": 2,
+      "head": 3974,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 39,
+          "step": 1248,
+          "state": 1,
+          "head": 3862,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 38,
+          "step": 1235,
+          "state": 4,
+          "head": 3825,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 40,
+      "step": 1267,
+      "state": 4,
+      "head": 3979,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 39,
+          "step": 1248,
+          "state": 1,
+          "head": 3862,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 38,
+          "step": 1235,
+          "state": 4,
+          "head": 3825,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 40,
+      "step": 1278,
+      "state": 4,
+      "head": 3990,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 39,
+          "step": 1248,
+          "state": 1,
+          "head": 3862,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 38,
+          "step": 1235,
+          "state": 4,
+          "head": 3825,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 37,
+          "step": 1160,
+          "state": 1,
+          "head": 3664,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 42,
+      "step": 1303,
+      "state": 1,
+      "head": 4162,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 41,
+          "step": 1299,
+          "state": 1,
+          "head": 4060,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 40,
+          "step": 1286,
+          "state": 5,
+          "head": 3997,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 39,
+          "step": 1248,
+          "state": 1,
+          "head": 3862,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 42,
+      "step": 1318,
+      "state": 2,
+      "head": 4177,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 41,
+          "step": 1299,
+          "state": 1,
+          "head": 4060,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 40,
+          "step": 1286,
+          "state": 5,
+          "head": 3997,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 39,
+          "step": 1248,
+          "state": 1,
+          "head": 3862,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 43,
+      "step": 1347,
+      "state": 1,
+      "head": 4263,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 42,
+          "step": 1341,
+          "state": 5,
+          "head": 4199,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 41,
+          "step": 1299,
+          "state": 1,
+          "head": 4060,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 40,
+          "step": 1286,
+          "state": 5,
+          "head": 3997,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 43,
+      "step": 1350,
+      "state": 1,
+      "head": 4266,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 42,
+          "step": 1341,
+          "state": 5,
+          "head": 4199,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 41,
+          "step": 1299,
+          "state": 1,
+          "head": 4060,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 40,
+          "step": 1286,
+          "state": 5,
+          "head": 3997,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 43,
+      "step": 1351,
+      "state": 1,
+      "head": 4267,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 42,
+          "step": 1341,
+          "state": 5,
+          "head": 4199,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 41,
+          "step": 1299,
+          "state": 1,
+          "head": 4060,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 40,
+          "step": 1286,
+          "state": 5,
+          "head": 3997,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 46,
+      "step": 1447,
+      "state": 1,
+      "head": 4568,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 45,
+          "step": 1433,
+          "state": 1,
+          "head": 4470,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 44,
+          "step": 1406,
+          "state": 1,
+          "head": 4357,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 43,
+          "step": 1393,
+          "state": 1,
+          "head": 4297,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 46,
+      "step": 1453,
+      "state": 1,
+      "head": 4574,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 45,
+          "step": 1433,
+          "state": 1,
+          "head": 4470,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 44,
+          "step": 1406,
+          "state": 1,
+          "head": 4357,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 43,
+          "step": 1393,
+          "state": 1,
+          "head": 4297,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 46,
+      "step": 1464,
+      "state": 1,
+      "head": 4585,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 45,
+          "step": 1433,
+          "state": 1,
+          "head": 4470,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 44,
+          "step": 1406,
+          "state": 1,
+          "head": 4357,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 43,
+          "step": 1393,
+          "state": 1,
+          "head": 4297,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 47,
+      "step": 1484,
+      "state": 1,
+      "head": 4660,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 46,
+          "step": 1477,
+          "state": 1,
+          "head": 4586,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 45,
+          "step": 1433,
+          "state": 1,
+          "head": 4470,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 44,
+          "step": 1406,
+          "state": 1,
+          "head": 4357,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 50,
+      "step": 1543,
+      "state": 1,
+      "head": 4958,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 49,
+          "step": 1535,
+          "state": 1,
+          "head": 4852,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 48,
+          "step": 1522,
+          "state": 2,
+          "head": 4759,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 47,
+          "step": 1503,
+          "state": 2,
+          "head": 4667,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 50,
+      "step": 1566,
+      "state": 2,
+      "head": 4981,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 49,
+          "step": 1535,
+          "state": 1,
+          "head": 4852,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 48,
+          "step": 1522,
+          "state": 2,
+          "head": 4759,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 47,
+          "step": 1503,
+          "state": 2,
+          "head": 4667,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 51,
+      "step": 1591,
+      "state": 2,
+      "head": 5063,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 50,
+          "step": 1577,
+          "state": 5,
+          "head": 4991,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 49,
+          "step": 1535,
+          "state": 1,
+          "head": 4852,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 48,
+          "step": 1522,
+          "state": 2,
+          "head": 4759,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 51,
+      "step": 1604,
+      "state": 3,
+      "head": 5076,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 50,
+          "step": 1577,
+          "state": 5,
+          "head": 4991,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 49,
+          "step": 1535,
+          "state": 1,
+          "head": 4852,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 48,
+          "step": 1522,
+          "state": 2,
+          "head": 4759,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 52,
+      "step": 1629,
+      "state": 1,
+      "head": 5152,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 51,
+          "step": 1625,
+          "state": 5,
+          "head": 5096,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 50,
+          "step": 1577,
+          "state": 5,
+          "head": 4991,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 49,
+          "step": 1535,
+          "state": 1,
+          "head": 4852,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 53,
+      "step": 1644,
+      "state": 1,
+      "head": 5249,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 52,
+          "step": 1642,
+          "state": 1,
+          "head": 5153,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 51,
+          "step": 1625,
+          "state": 5,
+          "head": 5096,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 50,
+          "step": 1577,
+          "state": 5,
+          "head": 4991,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 53,
+      "step": 1651,
+      "state": 1,
+      "head": 5256,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 52,
+          "step": 1642,
+          "state": 1,
+          "head": 5153,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 51,
+          "step": 1625,
+          "state": 5,
+          "head": 5096,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 50,
+          "step": 1577,
+          "state": 5,
+          "head": 4991,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 54,
+      "step": 1683,
+      "state": 1,
+      "head": 5350,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 53,
+          "step": 1679,
+          "state": 2,
+          "head": 5272,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 52,
+          "step": 1642,
+          "state": 1,
+          "head": 5153,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 51,
+          "step": 1625,
+          "state": 5,
+          "head": 5096,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 55,
+      "step": 1700,
+      "state": 1,
+      "head": 5448,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 53,
+          "step": 1679,
+          "state": 2,
+          "head": 5272,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 52,
+          "step": 1642,
+          "state": 1,
+          "head": 5153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 55,
+      "step": 1704,
+      "state": 1,
+      "head": 5452,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 53,
+          "step": 1679,
+          "state": 2,
+          "head": 5272,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 52,
+          "step": 1642,
+          "state": 1,
+          "head": 5153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 55,
+      "step": 1716,
+      "state": 2,
+      "head": 5464,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 53,
+          "step": 1679,
+          "state": 2,
+          "head": 5272,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 52,
+          "step": 1642,
+          "state": 1,
+          "head": 5153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 56,
+      "step": 1733,
+      "state": 1,
+      "head": 5546,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 53,
+          "step": 1679,
+          "state": 2,
+          "head": 5272,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 56,
+      "step": 1746,
+      "state": 2,
+      "head": 5559,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 53,
+          "step": 1679,
+          "state": 2,
+          "head": 5272,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 57,
+      "step": 1771,
+      "state": 1,
+      "head": 5645,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 57,
+      "step": 1782,
+      "state": 1,
+      "head": 5656,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 57,
+      "step": 1792,
+      "state": 1,
+      "head": 5666,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 54,
+          "step": 1697,
+          "state": 1,
+          "head": 5352,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 58,
+      "step": 1818,
+      "state": 2,
+      "head": 5755,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 58,
+      "step": 1824,
+      "state": 4,
+      "head": 5761,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 58,
+      "step": 1833,
+      "state": 4,
+      "head": 5770,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 58,
+      "step": 1838,
+      "state": 4,
+      "head": 5775,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 56,
+          "step": 1769,
+          "state": 4,
+          "head": 5570,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 55,
+          "step": 1731,
+          "state": 3,
+          "head": 5467,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 60,
+      "step": 1863,
+      "state": 1,
+      "head": 5942,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 60,
+      "step": 1907,
+      "state": 2,
+      "head": 5986,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 60,
+      "step": 1912,
+      "state": 3,
+      "head": 5991,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 57,
+          "step": 1805,
+          "state": 1,
+          "head": 5667,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1949,
+      "state": 2,
+      "head": 6071,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1951,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1953,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1955,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1957,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1959,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1961,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 61,
+      "step": 1963,
+      "state": 3,
+      "head": 6073,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 58,
+          "step": 1843,
+          "state": 5,
+          "head": 5779,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 62,
+      "step": 1983,
+      "state": 2,
+      "head": 6158,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 61,
+          "step": 1963,
+          "state": 3,
+          "head": 6073,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 62,
+      "step": 1987,
+      "state": 4,
+      "head": 6162,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 61,
+          "step": 1963,
+          "state": 3,
+          "head": 6073,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 59,
+          "step": 1861,
+          "state": 1,
+          "head": 5847,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 63,
+      "step": 2004,
+      "state": 1,
+      "head": 6249,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 62,
+          "step": 1992,
+          "state": 5,
+          "head": 6166,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 61,
+          "step": 1963,
+          "state": 3,
+          "head": 6073,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 63,
+      "step": 2008,
+      "state": 1,
+      "head": 6253,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 62,
+          "step": 1992,
+          "state": 5,
+          "head": 6166,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 61,
+          "step": 1963,
+          "state": 3,
+          "head": 6073,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 63,
+      "step": 2013,
+      "state": 2,
+      "head": 6258,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 62,
+          "step": 1992,
+          "state": 5,
+          "head": 6166,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 61,
+          "step": 1963,
+          "state": 3,
+          "head": 6073,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 60,
+          "step": 1917,
+          "state": 5,
+          "head": 5995,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 66,
+      "step": 2086,
+      "state": 1,
+      "head": 6541,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 65,
+          "step": 2079,
+          "state": 2,
+          "head": 6465,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 64,
+          "step": 2037,
+          "state": 1,
+          "head": 6343,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 63,
+          "step": 2018,
+          "state": 5,
+          "head": 6262,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 67,
+      "step": 2105,
+      "state": 1,
+      "head": 6639,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 66,
+          "step": 2099,
+          "state": 1,
+          "head": 6542,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 65,
+          "step": 2079,
+          "state": 2,
+          "head": 6465,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 64,
+          "step": 2037,
+          "state": 1,
+          "head": 6343,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 67,
+      "step": 2110,
+      "state": 2,
+      "head": 6644,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 66,
+          "step": 2099,
+          "state": 1,
+          "head": 6542,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 65,
+          "step": 2079,
+          "state": 2,
+          "head": 6465,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 64,
+          "step": 2037,
+          "state": 1,
+          "head": 6343,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 68,
+      "step": 2115,
+      "state": 0,
+      "head": 6732,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 67,
+          "step": 2115,
+          "state": 5,
+          "head": 6648,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 66,
+          "step": 2099,
+          "state": 1,
+          "head": 6542,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 65,
+          "step": 2079,
+          "state": 2,
+          "head": 6465,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 69,
+      "step": 2121,
+      "state": 1,
+      "head": 6836,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 68,
+          "step": 2116,
+          "state": 5,
+          "head": 6732,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 67,
+          "step": 2115,
+          "state": 5,
+          "head": 6648,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 66,
+          "step": 2099,
+          "state": 1,
+          "head": 6542,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 69,
+      "step": 2131,
+      "state": 1,
+      "head": 6846,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 68,
+          "step": 2116,
+          "state": 5,
+          "head": 6732,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 67,
+          "step": 2115,
+          "state": 5,
+          "head": 6648,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 66,
+          "step": 2099,
+          "state": 1,
+          "head": 6542,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 69,
+      "step": 2136,
+      "state": 2,
+      "head": 6851,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 68,
+          "step": 2116,
+          "state": 5,
+          "head": 6732,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 67,
+          "step": 2115,
+          "state": 5,
+          "head": 6648,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 66,
+          "step": 2099,
+          "state": 1,
+          "head": 6542,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 70,
+      "step": 2149,
+      "state": 1,
+      "head": 6938,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 69,
+          "step": 2141,
+          "state": 5,
+          "head": 6855,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 68,
+          "step": 2116,
+          "state": 5,
+          "head": 6732,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 67,
+          "step": 2115,
+          "state": 5,
+          "head": 6648,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 70,
+      "step": 2154,
+      "state": 2,
+      "head": 6943,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 69,
+          "step": 2141,
+          "state": 5,
+          "head": 6855,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 68,
+          "step": 2116,
+          "state": 5,
+          "head": 6732,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 67,
+          "step": 2115,
+          "state": 5,
+          "head": 6648,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 71,
+      "step": 2174,
+      "state": 2,
+      "head": 7044,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 70,
+          "step": 2159,
+          "state": 5,
+          "head": 6947,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 69,
+          "step": 2141,
+          "state": 5,
+          "head": 6855,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 68,
+          "step": 2116,
+          "state": 5,
+          "head": 6732,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 72,
+      "step": 2189,
+      "state": 1,
+      "head": 7131,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 71,
+          "step": 2186,
+          "state": 5,
+          "head": 7055,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 70,
+          "step": 2159,
+          "state": 5,
+          "head": 6947,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 69,
+          "step": 2141,
+          "state": 5,
+          "head": 6855,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 73,
+      "step": 2226,
+      "state": 2,
+      "head": 7230,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 71,
+          "step": 2186,
+          "state": 5,
+          "head": 7055,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 70,
+          "step": 2159,
+          "state": 5,
+          "head": 6947,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 74,
+      "step": 2231,
+      "state": 0,
+      "head": 7326,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 71,
+          "step": 2186,
+          "state": 5,
+          "head": 7055,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2247,
+      "state": 1,
+      "head": 7440,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2253,
+      "state": 1,
+      "head": 7446,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2274,
+      "state": 1,
+      "head": 7467,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2281,
+      "state": 1,
+      "head": 7474,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2287,
+      "state": 1,
+      "head": 7480,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2296,
+      "state": 1,
+      "head": 7489,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2298,
+      "state": 1,
+      "head": 7491,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 75,
+      "step": 2303,
+      "state": 2,
+      "head": 7496,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 73,
+          "step": 2231,
+          "state": 5,
+          "head": 7234,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 72,
+          "step": 2223,
+          "state": 2,
+          "head": 7153,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 77,
+      "step": 2331,
+      "state": 2,
+      "head": 7633,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 76,
+          "step": 2321,
+          "state": 1,
+          "head": 7523,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 75,
+          "step": 2308,
+          "state": 5,
+          "head": 7500,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 74,
+          "step": 2232,
+          "state": 5,
+          "head": 7326,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 78,
+      "step": 2364,
+      "state": 1,
+      "head": 7744,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 76,
+          "step": 2321,
+          "state": 1,
+          "head": 7523,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 75,
+          "step": 2308,
+          "state": 5,
+          "head": 7500,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 78,
+      "step": 2366,
+      "state": 1,
+      "head": 7746,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 76,
+          "step": 2321,
+          "state": 1,
+          "head": 7523,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 75,
+          "step": 2308,
+          "state": 5,
+          "head": 7500,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 79,
+      "step": 2391,
+      "state": 2,
+      "head": 7829,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 76,
+          "step": 2321,
+          "state": 1,
+          "head": 7523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 79,
+      "step": 2393,
+      "state": 3,
+      "head": 7831,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 76,
+          "step": 2321,
+          "state": 1,
+          "head": 7523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2419,
+      "state": 2,
+      "head": 7931,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2425,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2427,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2429,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2431,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2433,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2435,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 80,
+      "step": 2437,
+      "state": 3,
+      "head": 7937,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 79,
+          "step": 2408,
+          "state": 4,
+          "head": 7834,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 78,
+          "step": 2383,
+          "state": 1,
+          "head": 7751,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 77,
+          "step": 2342,
+          "state": 5,
+          "head": 7643,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 84,
+      "step": 2483,
+      "state": 1,
+      "head": 8319,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 83,
+          "step": 2480,
+          "state": 1,
+          "head": 8216,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 82,
+          "step": 2467,
+          "state": 1,
+          "head": 8123,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 81,
+          "step": 2450,
+          "state": 1,
+          "head": 8020,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 84,
+      "step": 2488,
+      "state": 2,
+      "head": 8324,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 83,
+          "step": 2480,
+          "state": 1,
+          "head": 8216,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 82,
+          "step": 2467,
+          "state": 1,
+          "head": 8123,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 81,
+          "step": 2450,
+          "state": 1,
+          "head": 8020,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 86,
+      "step": 2506,
+      "state": 0,
+      "head": 8514,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 85,
+          "step": 2506,
+          "state": 1,
+          "head": 8414,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 84,
+          "step": 2493,
+          "state": 5,
+          "head": 8328,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 83,
+          "step": 2480,
+          "state": 1,
+          "head": 8216,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 87,
+      "step": 2513,
+      "state": 1,
+      "head": 8619,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 86,
+          "step": 2507,
+          "state": 5,
+          "head": 8514,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 85,
+          "step": 2506,
+          "state": 1,
+          "head": 8414,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 84,
+          "step": 2493,
+          "state": 5,
+          "head": 8328,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 87,
+      "step": 2521,
+      "state": 2,
+      "head": 8627,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 86,
+          "step": 2507,
+          "state": 5,
+          "head": 8514,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 85,
+          "step": 2506,
+          "state": 1,
+          "head": 8414,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 84,
+          "step": 2493,
+          "state": 5,
+          "head": 8328,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 90,
+      "step": 2596,
+      "state": 1,
+      "head": 8916,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 89,
+          "step": 2590,
+          "state": 2,
+          "head": 8840,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 88,
+          "step": 2549,
+          "state": 1,
+          "head": 8715,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 87,
+          "step": 2534,
+          "state": 3,
+          "head": 8628,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 90,
+      "step": 2605,
+      "state": 2,
+      "head": 8925,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 89,
+          "step": 2590,
+          "state": 2,
+          "head": 8840,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 88,
+          "step": 2549,
+          "state": 1,
+          "head": 8715,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 87,
+          "step": 2534,
+          "state": 3,
+          "head": 8628,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 91,
+      "step": 2636,
+      "state": 1,
+      "head": 9033,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 90,
+          "step": 2612,
+          "state": 5,
+          "head": 8931,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 89,
+          "step": 2590,
+          "state": 2,
+          "head": 8840,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 88,
+          "step": 2549,
+          "state": 1,
+          "head": 8715,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 91,
+      "step": 2651,
+      "state": 2,
+      "head": 9048,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 90,
+          "step": 2612,
+          "state": 5,
+          "head": 8931,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 89,
+          "step": 2590,
+          "state": 2,
+          "head": 8840,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 88,
+          "step": 2549,
+          "state": 1,
+          "head": 8715,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 92,
+      "step": 2668,
+      "state": 1,
+      "head": 9114,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 91,
+          "step": 2662,
+          "state": 5,
+          "head": 9058,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 90,
+          "step": 2612,
+          "state": 5,
+          "head": 8931,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 89,
+          "step": 2590,
+          "state": 2,
+          "head": 8840,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 93,
+      "step": 2720,
+      "state": 1,
+      "head": 9229,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 92,
+          "step": 2698,
+          "state": 2,
+          "head": 9132,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 91,
+          "step": 2662,
+          "state": 5,
+          "head": 9058,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 90,
+          "step": 2612,
+          "state": 5,
+          "head": 8931,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 95,
+      "step": 2766,
+      "state": 2,
+      "head": 9420,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 94,
+          "step": 2751,
+          "state": 1,
+          "head": 9309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 93,
+          "step": 2736,
+          "state": 2,
+          "head": 9233,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 92,
+          "step": 2698,
+          "state": 2,
+          "head": 9132,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 96,
+      "step": 2791,
+      "state": 1,
+      "head": 9510,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 95,
+          "step": 2785,
+          "state": 3,
+          "head": 9427,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 94,
+          "step": 2751,
+          "state": 1,
+          "head": 9309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 93,
+          "step": 2736,
+          "state": 2,
+          "head": 9233,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 96,
+      "step": 2802,
+      "state": 1,
+      "head": 9521,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 95,
+          "step": 2785,
+          "state": 3,
+          "head": 9427,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 94,
+          "step": 2751,
+          "state": 1,
+          "head": 9309,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 93,
+          "step": 2736,
+          "state": 2,
+          "head": 9233,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 97,
+      "step": 2822,
+      "state": 1,
+      "head": 9609,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 95,
+          "step": 2785,
+          "state": 3,
+          "head": 9427,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 94,
+          "step": 2751,
+          "state": 1,
+          "head": 9309,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 98,
+      "step": 2859,
+      "state": 1,
+      "head": 9712,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 95,
+          "step": 2785,
+          "state": 3,
+          "head": 9427,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 98,
+      "step": 2865,
+      "state": 1,
+      "head": 9718,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 95,
+          "step": 2785,
+          "state": 3,
+          "head": 9427,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 99,
+      "step": 2887,
+      "state": 1,
+      "head": 9808,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 99,
+      "step": 2891,
+      "state": 1,
+      "head": 9812,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 99,
+      "step": 2901,
+      "state": 2,
+      "head": 9822,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 99,
+      "step": 2905,
+      "state": 3,
+      "head": 9826,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 99,
+      "step": 2914,
+      "state": 3,
+      "head": 9835,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 99,
+      "step": 2917,
+      "state": 3,
+      "head": 9838,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 97,
+          "step": 2849,
+          "state": 1,
+          "head": 9624,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 96,
+          "step": 2816,
+          "state": 1,
+          "head": 9523,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 101,
+      "step": 2954,
+      "state": 1,
+      "head": 10005,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 99,
+          "step": 2935,
+          "state": 3,
+          "head": 9844,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 101,
+      "step": 2971,
+      "state": 1,
+      "head": 10022,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 99,
+          "step": 2935,
+          "state": 3,
+          "head": 9844,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 101,
+      "step": 2980,
+      "state": 2,
+      "head": 10031,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 99,
+          "step": 2935,
+          "state": 3,
+          "head": 9844,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 98,
+          "step": 2880,
+          "state": 1,
+          "head": 9721,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 102,
+      "step": 2995,
+      "state": 1,
+      "head": 10100,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 101,
+          "step": 2993,
+          "state": 5,
+          "head": 10043,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 99,
+          "step": 2935,
+          "state": 3,
+          "head": 9844,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 102,
+      "step": 3009,
+      "state": 2,
+      "head": 10114,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 101,
+          "step": 2993,
+          "state": 5,
+          "head": 10043,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 99,
+          "step": 2935,
+          "state": 3,
+          "head": 9844,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 103,
+      "step": 3027,
+      "state": 1,
+      "head": 10200,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 101,
+          "step": 2993,
+          "state": 5,
+          "head": 10043,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 103,
+      "step": 3061,
+      "state": 2,
+      "head": 10234,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 101,
+          "step": 2993,
+          "state": 5,
+          "head": 10043,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 100,
+          "step": 2948,
+          "state": 1,
+          "head": 9899,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 105,
+      "step": 3094,
+      "state": 1,
+      "head": 10402,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 105,
+      "step": 3096,
+      "state": 1,
+      "head": 10404,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 105,
+      "step": 3101,
+      "state": 1,
+      "head": 10409,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 105,
+      "step": 3111,
+      "state": 2,
+      "head": 10419,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 105,
+      "step": 3113,
+      "state": 3,
+      "head": 10421,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 102,
+          "step": 3024,
+          "state": 3,
+          "head": 10117,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 106,
+      "step": 3141,
+      "state": 1,
+      "head": 10500,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 105,
+          "step": 3135,
+          "state": 5,
+          "head": 10442,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 106,
+      "step": 3194,
+      "state": 2,
+      "head": 10553,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 105,
+          "step": 3135,
+          "state": 5,
+          "head": 10442,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 103,
+          "step": 3074,
+          "state": 3,
+          "head": 10235,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 107,
+      "step": 3215,
+      "state": 2,
+      "head": 10606,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 106,
+          "step": 3202,
+          "state": 5,
+          "head": 10560,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 105,
+          "step": 3135,
+          "state": 5,
+          "head": 10442,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 107,
+      "step": 3232,
+      "state": 4,
+      "head": 10623,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 106,
+          "step": 3202,
+          "state": 5,
+          "head": 10560,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 105,
+          "step": 3135,
+          "state": 5,
+          "head": 10442,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 104,
+          "step": 3087,
+          "state": 1,
+          "head": 10297,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 110,
+      "step": 3278,
+      "state": 1,
+      "head": 10896,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 109,
+          "step": 3272,
+          "state": 1,
+          "head": 10796,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 108,
+          "step": 3255,
+          "state": 2,
+          "head": 10698,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 107,
+          "step": 3237,
+          "state": 5,
+          "head": 10627,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 110,
+      "step": 3292,
+      "state": 2,
+      "head": 10910,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 109,
+          "step": 3272,
+          "state": 1,
+          "head": 10796,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 108,
+          "step": 3255,
+          "state": 2,
+          "head": 10698,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 107,
+          "step": 3237,
+          "state": 5,
+          "head": 10627,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 112,
+      "step": 3310,
+      "state": 0,
+      "head": 11088,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 111,
+          "step": 3310,
+          "state": 1,
+          "head": 10990,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 110,
+          "step": 3297,
+          "state": 5,
+          "head": 10914,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 109,
+          "step": 3272,
+          "state": 1,
+          "head": 10796,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 114,
+      "step": 3331,
+      "state": 0,
+      "head": 11286,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 113,
+          "step": 3331,
+          "state": 1,
+          "head": 11195,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 112,
+          "step": 3311,
+          "state": 5,
+          "head": 11088,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 111,
+          "step": 3310,
+          "state": 1,
+          "head": 10990,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 115,
+      "step": 3335,
+      "state": 1,
+      "head": 11388,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 114,
+          "step": 3332,
+          "state": 5,
+          "head": 11286,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 113,
+          "step": 3331,
+          "state": 1,
+          "head": 11195,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 112,
+          "step": 3311,
+          "state": 5,
+          "head": 11088,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 116,
+      "step": 3357,
+      "state": 2,
+      "head": 11491,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 115,
+          "step": 3350,
+          "state": 1,
+          "head": 11391,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 114,
+          "step": 3332,
+          "state": 5,
+          "head": 11286,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 113,
+          "step": 3331,
+          "state": 1,
+          "head": 11195,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 117,
+      "step": 3373,
+      "state": 1,
+      "head": 11584,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 116,
+          "step": 3372,
+          "state": 3,
+          "head": 11494,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 115,
+          "step": 3350,
+          "state": 1,
+          "head": 11391,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 114,
+          "step": 3332,
+          "state": 5,
+          "head": 11286,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    },
+    {
+      "phase": 118,
+      "step": 3394,
+      "state": 1,
+      "head": 11683,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 116,
+          "step": 3372,
+          "state": 3,
+          "head": 11494,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 115,
+          "step": 3350,
+          "state": 1,
+          "head": 11391,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 118,
+      "step": 3401,
+      "state": 2,
+      "head": 11690,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 116,
+          "step": 3372,
+          "state": 3,
+          "head": 11494,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 115,
+          "step": 3350,
+          "state": 1,
+          "head": 11391,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 119,
+      "step": 3409,
+      "state": 0,
+      "head": 11781,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        },
+        {
+          "phase": 116,
+          "step": 3372,
+          "state": 3,
+          "head": 11494,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3413,
+      "state": 2,
+      "head": 11883,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3418,
+      "state": 3,
+      "head": 11888,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3423,
+      "state": 3,
+      "head": 11893,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3427,
+      "state": 3,
+      "head": 11897,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3431,
+      "state": 3,
+      "head": 11901,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3435,
+      "state": 3,
+      "head": 11905,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3439,
+      "state": 3,
+      "head": 11909,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3443,
+      "state": 3,
+      "head": 11913,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3447,
+      "state": 3,
+      "head": 11917,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 120,
+      "step": 3451,
+      "state": 3,
+      "head": 11921,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 117,
+          "step": 3393,
+          "state": 1,
+          "head": 11592,
+          "reason": "PENDULUM_DETECTED"
+        }
+      ]
+    },
+    {
+      "phase": 121,
+      "step": 3472,
+      "state": 0,
+      "head": 11979,
+      "letter": "A",
+      "reflection": [
+        {
+          "phase": 120,
+          "step": 3472,
+          "state": 5,
+          "head": 11941,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 119,
+          "step": 3410,
+          "state": 5,
+          "head": 11781,
+          "reason": "HALT_TRANSITION"
+        },
+        {
+          "phase": 118,
+          "step": 3409,
+          "state": 5,
+          "head": 11697,
+          "reason": "HALT_TRANSITION"
+        }
+      ]
+    }
+  ],
+  "n_aleph_reflections": 201,
+  "history": [
+    {
+      "step": 3373,
+      "phase": 117,
+      "old_pos": 11583,
+      "new_pos": 11584,
+      "old_state": 0,
+      "new_state": 1,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3374,
+      "phase": 117,
+      "old_pos": 11584,
+      "new_pos": 11585,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3375,
+      "phase": 117,
+      "old_pos": 11585,
+      "new_pos": 11586,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "כ",
+      "write": "כ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3376,
+      "phase": 117,
+      "old_pos": 11586,
+      "new_pos": 11587,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3377,
+      "phase": 117,
+      "old_pos": 11587,
+      "new_pos": 11588,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "נ",
+      "write": "נ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3378,
+      "phase": 117,
+      "old_pos": 11588,
+      "new_pos": 11589,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3379,
+      "phase": 117,
+      "old_pos": 11589,
+      "new_pos": 11590,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ח",
+      "write": "ח",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3380,
+      "phase": 117,
+      "old_pos": 11590,
+      "new_pos": 11591,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3381,
+      "phase": 117,
+      "old_pos": 11591,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "מ",
+      "write": "מ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3382,
+      "phase": 117,
+      "old_pos": 11592,
+      "new_pos": 11593,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3383,
+      "phase": 117,
+      "old_pos": 11593,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ד",
+      "write": "ד",
+      "move": "MOVE_LEFT"
+    },
+    {
+      "step": 3384,
+      "phase": 117,
+      "old_pos": 11592,
+      "new_pos": 11593,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3385,
+      "phase": 117,
+      "old_pos": 11593,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ד",
+      "write": "ד",
+      "move": "MOVE_LEFT"
+    },
+    {
+      "step": 3386,
+      "phase": 117,
+      "old_pos": 11592,
+      "new_pos": 11593,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3387,
+      "phase": 117,
+      "old_pos": 11593,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ד",
+      "write": "ד",
+      "move": "MOVE_LEFT"
+    },
+    {
+      "step": 3388,
+      "phase": 117,
+      "old_pos": 11592,
+      "new_pos": 11593,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3389,
+      "phase": 117,
+      "old_pos": 11593,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ד",
+      "write": "ד",
+      "move": "MOVE_LEFT"
+    },
+    {
+      "step": 3390,
+      "phase": 117,
+      "old_pos": 11592,
+      "new_pos": 11593,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3391,
+      "phase": 117,
+      "old_pos": 11593,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ד",
+      "write": "ד",
+      "move": "MOVE_LEFT"
+    },
+    {
+      "step": 3392,
+      "phase": 117,
+      "old_pos": 11592,
+      "new_pos": 11593,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3393,
+      "phase": 117,
+      "old_pos": 11593,
+      "new_pos": 11592,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ד",
+      "write": "ד",
+      "move": "MOVE_LEFT"
+    },
+    {
+      "step": 3394,
+      "phase": 118,
+      "old_pos": 11682,
+      "new_pos": 11683,
+      "old_state": 0,
+      "new_state": 1,
+      "symbol": "ח",
+      "write": "ח",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3395,
+      "phase": 118,
+      "old_pos": 11683,
+      "new_pos": 11684,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3396,
+      "phase": 118,
+      "old_pos": 11684,
+      "new_pos": 11685,
+      "old_state": 1,
+      "new_state": 1,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3397,
+      "phase": 118,
+      "old_pos": 11685,
+      "new_pos": 11686,
+      "old_state": 1,
+      "new_state": 2,
+      "symbol": "ש",
+      "write": "ש",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3398,
+      "phase": 118,
+      "old_pos": 11686,
+      "new_pos": 11687,
+      "old_state": 2,
+      "new_state": 2,
+      "symbol": "צ",
+      "write": "צ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3399,
+      "phase": 118,
+      "old_pos": 11687,
+      "new_pos": 11688,
+      "old_state": 2,
+      "new_state": 2,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3400,
+      "phase": 118,
+      "old_pos": 11688,
+      "new_pos": 11689,
+      "old_state": 2,
+      "new_state": 2,
+      "symbol": "ק",
+      "write": "ק",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3401,
+      "phase": 118,
+      "old_pos": 11689,
+      "new_pos": 11690,
+      "old_state": 2,
+      "new_state": 2,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3402,
+      "phase": 118,
+      "old_pos": 11690,
+      "new_pos": 11691,
+      "old_state": 2,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3403,
+      "phase": 118,
+      "old_pos": 11691,
+      "new_pos": 11692,
+      "old_state": 3,
+      "new_state": 4,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3404,
+      "phase": 118,
+      "old_pos": 11692,
+      "new_pos": 11693,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3405,
+      "phase": 118,
+      "old_pos": 11693,
+      "new_pos": 11694,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ס",
+      "write": "ס",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3406,
+      "phase": 118,
+      "old_pos": 11694,
+      "new_pos": 11695,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ו",
+      "write": "ו",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3407,
+      "phase": 118,
+      "old_pos": 11695,
+      "new_pos": 11696,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "מ",
+      "write": "מ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3408,
+      "phase": 118,
+      "old_pos": 11696,
+      "new_pos": 11697,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3409,
+      "phase": 119,
+      "old_pos": 11697,
+      "new_pos": 11781,
+      "old_state": 4,
+      "new_state": 0,
+      "symbol": "נ",
+      "write": "נ",
+      "move": "HALT"
+    },
+    {
+      "step": 3410,
+      "phase": 120,
+      "old_pos": 11781,
+      "new_pos": 11880,
+      "old_state": 0,
+      "new_state": 0,
+      "symbol": "א",
+      "write": "א",
+      "move": "HALT"
+    },
+    {
+      "step": 3411,
+      "phase": 120,
+      "old_pos": 11880,
+      "new_pos": 11881,
+      "old_state": 0,
+      "new_state": 1,
+      "symbol": "ק",
+      "write": "ק",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3412,
+      "phase": 120,
+      "old_pos": 11881,
+      "new_pos": 11882,
+      "old_state": 1,
+      "new_state": 2,
+      "symbol": "ש",
+      "write": "ש",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3413,
+      "phase": 120,
+      "old_pos": 11882,
+      "new_pos": 11883,
+      "old_state": 2,
+      "new_state": 2,
+      "symbol": "נ",
+      "write": "נ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3414,
+      "phase": 120,
+      "old_pos": 11883,
+      "new_pos": 11884,
+      "old_state": 2,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3415,
+      "phase": 120,
+      "old_pos": 11884,
+      "new_pos": 11885,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "כ",
+      "write": "כ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3416,
+      "phase": 120,
+      "old_pos": 11885,
+      "new_pos": 11886,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3417,
+      "phase": 120,
+      "old_pos": 11886,
+      "new_pos": 11887,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "צ",
+      "write": "צ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3418,
+      "phase": 120,
+      "old_pos": 11887,
+      "new_pos": 11888,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ו",
+      "write": "ו",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3419,
+      "phase": 120,
+      "old_pos": 11888,
+      "new_pos": 11889,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3420,
+      "phase": 120,
+      "old_pos": 11889,
+      "new_pos": 11890,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "נ",
+      "write": "נ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3421,
+      "phase": 120,
+      "old_pos": 11890,
+      "new_pos": 11891,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3422,
+      "phase": 120,
+      "old_pos": 11891,
+      "new_pos": 11892,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "מ",
+      "write": "מ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3423,
+      "phase": 120,
+      "old_pos": 11892,
+      "new_pos": 11893,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ב",
+      "write": "ב",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3424,
+      "phase": 120,
+      "old_pos": 11893,
+      "new_pos": 11894,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3425,
+      "phase": 120,
+      "old_pos": 11894,
+      "new_pos": 11895,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3426,
+      "phase": 120,
+      "old_pos": 11895,
+      "new_pos": 11896,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "כ",
+      "write": "כ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3427,
+      "phase": 120,
+      "old_pos": 11896,
+      "new_pos": 11897,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3428,
+      "phase": 120,
+      "old_pos": 11897,
+      "new_pos": 11898,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3429,
+      "phase": 120,
+      "old_pos": 11898,
+      "new_pos": 11899,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3430,
+      "phase": 120,
+      "old_pos": 11899,
+      "new_pos": 11900,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3431,
+      "phase": 120,
+      "old_pos": 11900,
+      "new_pos": 11901,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3432,
+      "phase": 120,
+      "old_pos": 11901,
+      "new_pos": 11902,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3433,
+      "phase": 120,
+      "old_pos": 11902,
+      "new_pos": 11903,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3434,
+      "phase": 120,
+      "old_pos": 11903,
+      "new_pos": 11904,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3435,
+      "phase": 120,
+      "old_pos": 11904,
+      "new_pos": 11905,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3436,
+      "phase": 120,
+      "old_pos": 11905,
+      "new_pos": 11906,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3437,
+      "phase": 120,
+      "old_pos": 11906,
+      "new_pos": 11907,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3438,
+      "phase": 120,
+      "old_pos": 11907,
+      "new_pos": 11908,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3439,
+      "phase": 120,
+      "old_pos": 11908,
+      "new_pos": 11909,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3440,
+      "phase": 120,
+      "old_pos": 11909,
+      "new_pos": 11910,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3441,
+      "phase": 120,
+      "old_pos": 11910,
+      "new_pos": 11911,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3442,
+      "phase": 120,
+      "old_pos": 11911,
+      "new_pos": 11912,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3443,
+      "phase": 120,
+      "old_pos": 11912,
+      "new_pos": 11913,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3444,
+      "phase": 120,
+      "old_pos": 11913,
+      "new_pos": 11914,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3445,
+      "phase": 120,
+      "old_pos": 11914,
+      "new_pos": 11915,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3446,
+      "phase": 120,
+      "old_pos": 11915,
+      "new_pos": 11916,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3447,
+      "phase": 120,
+      "old_pos": 11916,
+      "new_pos": 11917,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3448,
+      "phase": 120,
+      "old_pos": 11917,
+      "new_pos": 11918,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3449,
+      "phase": 120,
+      "old_pos": 11918,
+      "new_pos": 11919,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3450,
+      "phase": 120,
+      "old_pos": 11919,
+      "new_pos": 11920,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3451,
+      "phase": 120,
+      "old_pos": 11920,
+      "new_pos": 11921,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3452,
+      "phase": 120,
+      "old_pos": 11921,
+      "new_pos": 11922,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "א",
+      "write": "א",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3453,
+      "phase": 120,
+      "old_pos": 11922,
+      "new_pos": 11923,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ג",
+      "write": "ג",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3454,
+      "phase": 120,
+      "old_pos": 11923,
+      "new_pos": 11924,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3455,
+      "phase": 120,
+      "old_pos": 11924,
+      "new_pos": 11925,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3456,
+      "phase": 120,
+      "old_pos": 11925,
+      "new_pos": 11926,
+      "old_state": 3,
+      "new_state": 3,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3457,
+      "phase": 120,
+      "old_pos": 11926,
+      "new_pos": 11927,
+      "old_state": 3,
+      "new_state": 4,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3458,
+      "phase": 120,
+      "old_pos": 11927,
+      "new_pos": 11928,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ע",
+      "write": "ע",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3459,
+      "phase": 120,
+      "old_pos": 11928,
+      "new_pos": 11929,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "צ",
+      "write": "צ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3460,
+      "phase": 120,
+      "old_pos": 11929,
+      "new_pos": 11930,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3461,
+      "phase": 120,
+      "old_pos": 11930,
+      "new_pos": 11931,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "מ",
+      "write": "מ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3462,
+      "phase": 120,
+      "old_pos": 11931,
+      "new_pos": 11932,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ה",
+      "write": "ה",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3463,
+      "phase": 120,
+      "old_pos": 11932,
+      "new_pos": 11933,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3464,
+      "phase": 120,
+      "old_pos": 11933,
+      "new_pos": 11934,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "צ",
+      "write": "צ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3465,
+      "phase": 120,
+      "old_pos": 11934,
+      "new_pos": 11935,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "י",
+      "write": "י",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3466,
+      "phase": 120,
+      "old_pos": 11935,
+      "new_pos": 11936,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3467,
+      "phase": 120,
+      "old_pos": 11936,
+      "new_pos": 11937,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ר",
+      "write": "ר",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3468,
+      "phase": 120,
+      "old_pos": 11937,
+      "new_pos": 11938,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "כ",
+      "write": "כ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3469,
+      "phase": 120,
+      "old_pos": 11938,
+      "new_pos": 11939,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "ט",
+      "write": "ט",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3470,
+      "phase": 120,
+      "old_pos": 11939,
+      "new_pos": 11940,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "צ",
+      "write": "צ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3471,
+      "phase": 120,
+      "old_pos": 11940,
+      "new_pos": 11941,
+      "old_state": 4,
+      "new_state": 4,
+      "symbol": "מ",
+      "write": "מ",
+      "move": "MOVE_RIGHT"
+    },
+    {
+      "step": 3472,
+      "phase": 121,
+      "old_pos": 11941,
+      "new_pos": 11979,
+      "old_state": 4,
+      "new_state": 0,
+      "symbol": "נ",
+      "write": "נ",
+      "move": "HALT"
+    }
+  ],
+  "halt_reason": "TAPE_END",
+  "stayed_count": 0
+}
