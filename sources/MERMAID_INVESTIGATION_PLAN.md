@@ -2256,6 +2256,52 @@ halluziniert oder falsch.
           - 6 Varianten-Tests (nur V1 hat 30/30)
 ```
 
+### Phase 56 — 5-Layer-Register implementiert
+
+```
+📁 PHASE 56: LAYER_REGISTER ALS ZENTRALE DATENSTRUKTUR
+├── P56a: Vorher — Layer nur als q_0..q_4 hardcoded
+│         - Kommentare wie "# q_0 = Genesis" im Code
+│         - Keine zentrale Datenstruktur
+│         - Keine Abfrage-Funktionen
+│         - User-Frage: "hatten wir eigentlich die 5 Layer der Torah
+│           als Register in der ToraTorusTuringMaschine?"
+│
+├── P56b: LAYER_REGISTER implementiert (TORA_TURING_CORRECT.py)
+│         Jeder Layer hat 9 Felder:
+│         - state (q_i)
+│         - name ('Genesis', 'Exodus', ...)
+│         - book ('Genesis', 'Exodus', ...)
+│         - chapters (50, 40, 27, 36, 34)
+│         - hebrew_anchor ('א', 'ש', 'ת', 'ר', 'נ')
+│         - gematria (1, 300, 400, 200, 50)
+│         - meaning ('Schöpfung (Bereshit)', ...)
+│         - next_layer (0→1, 1→2, 2→3, 3→4, 4→5)
+│         - anchor_trigger (Symbol, das zum nächsten Layer führt)
+│
+├── P56c: Methoden zu ToraTuringMachine + ToraTuringMultiPhase
+│         - self.layer_register (Instanz-Zugriff)
+│         - state_to_layer(state) → 'Genesis', 'Exodus', etc.
+│         - current_layer() → dict des aktuellen Layers
+│         - get_layer_name(state) (Modul-Funktion)
+│
+├── P56d: 5 Layer + 1 HALT = 6 Zustände (BURUMUT-Architektur)
+│         - q_0 = Genesis       (Aleph=א, 50 Kap)
+│         - q_1 = Exodus        (Shin=ש,  40 Kap)
+│         - q_2 = Leviticus     (Tav=ת,   27 Kap)
+│         - q_3 = Numeri        (Resh=ר,  36 Kap)
+│         - q_4 = Deuteronomium (Nun=נ,   34 Kap)
+│         - q_5 = HALT          (Tav=ת,   Sabbat)
+│         - 50+40+27+36+34 = 187 = 11 × 17
+│
+└── P56e: 23 TDD-Tests (test_layer_register.py, alle grün)
+          - Existenz + Struktur (11 Tests)
+          - Maschine-Integration (4 Tests)
+          - Übergänge q_i → q_{i+1} (4 Tests)
+          - 5-Layer-Architektur (4 Tests)
+          - 294/294 Tests gesamt grün
+```
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt
@@ -2280,3 +2326,5 @@ halluziniert oder falsch.
 - **2026-07-01 #28:** Phase 55 M4 Determinismus + 5 Varianten
 - **2026-07-01 #29:** AGENTS.md Section 4.1d (PFLICHT: Determinismus)
 - **2026-07-01 #30:** 271/271 Tests grün (40 neue für Determinismus)
+- **2026-07-01 #31:** Phase 56 5-Layer-Register implementiert
+- **2026-07-01 #32:** 294/294 Tests grün (23 neue für Layer-Register)
