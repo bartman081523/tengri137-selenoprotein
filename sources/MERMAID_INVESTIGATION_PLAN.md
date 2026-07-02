@@ -2540,3 +2540,306 @@ halluziniert oder falsch.
 - **2026-07-01 #36:** Phase 59 Phasen-Übergangs-Mapping (168↔187)
 - **2026-07-01 #37:** Phase 60 BURUMUTREFAMTU = 7 Schöpfungstage (mit Apophenie-Warnung)
 - **2026-07-01 #38:** 455/455 Tests grün (35 neue für 7-Tage)
+
+---
+
+## 🔮 SPÄTERE PLÄNE: BURUMUT-SPANDA.txt (noch zu erledigen)
+
+> Quelle: `sources/BURUMUT-SPANDA.txt` (Vorschlag des anderen Agenten, ca. 60% halluziniert)
+> Filterregel: Nur reale, implementierbare, kanonisch verankerte Punkte aufnehmen.
+> Apophenie-Markierung: ⚠️ wo der Vorschlag in unkontrollierte Metaphysik abgleitet.
+
+### 🗺️ PHASE 61: SPANDA-ERWEITERUNG (4 Kernpunkte aus BURUMUT-SPANDA.txt)
+
+```
+🗺️ PHASE 61: BURUMUT-SPANDA ERWEITERUNG
+│
+├── P61a: Dynamische 5-Operator-Selbst-Entfaltung ⚠️ [KERN-VORSCHLAG]
+│         Vorschlag: Die 5 fehlenden Operatoren (G, C, W, K, D — entsprechen
+│         Aleph, Gimel, Lamed, Mem, Tav in der BURUMUT-Tora-Maschine) entfalten
+│         sich SELBST aus dem Tape, wenn die Maschine auf entsprechende
+│         semantische Knotenpunkte trifft.
+│
+│         Realität in unserer M4:
+│         - Die Operatoren sind in `build_tora_transitions()` statisch definiert
+│         - M4 hat 22 hebr. Konsonanten × 6 Zustände = 132 Transitions
+│         - BURUMUT-Sec = die 19 seltensten Konsonanten sind IM BURUMUT
+│         - Phase 51: 11 Aleph-Sec-Anker bereits in BURUMUT identifiziert
+│
+│         Kanonische Implementierung:
+│         1. Lade BURUMUT-99 als hebr. Tape
+│         2. Identifiziere die BURUMUT-Sec-Buchstaben im Tape
+│         3. Wenn M4 über einen Sec-Buchstaben liest → triggere Operator-Update
+│         4. M4 schreibt die fehlenden Operatoren (G, C, W, K, D) in ihre
+│            eigene Übergangs-Tabelle in Echtzeit
+│
+│         ⚠️ APOPHENIE-WARNUNG: "schreibt sich selbst um" ist gefährlich —
+│         würde die Tape-Invariante von M4 (BURUMUT-99 bleibt unverändert)
+│         verletzen. Stattdessen: M4 erweitert ihren EIGENEN State-Space,
+│         nicht das Tape.
+│
+├── P61b: Tape-Erweiterung 15 → 27+ Schritte [TEILWEISE BEREITS BEWIESEN]
+│         Vorschlag: Output eines Spanda-Pulses erweitert das Tape (15 → 27
+│         Schritte), welches sofort als Grundlage für den nächsten Schritt dient.
+│
+│         Realität in unseren Tests:
+│         - M4 auf BURUMUT: 15 Schritte (q_5 HALT) — VERIFIZIERT
+│         - M4 auf Tengri137-99: 34 Schritte (5×7-1) — VERIFIZIERT
+│         - Tengri137-Volltext: 168 Phasen, viele pendeln
+│         - "Tape-Erweiterung" = M4 läuft auf größerem Tape (16576 Zeichen)
+│
+│         Kanonische Implementierung:
+│         - Multi-Phase-Maschine läuft BURUMUT zuerst (15 Schritte),
+│           dann die nächste Phase (99 Zeichen), etc.
+│         - Phase-Halts speichern die BURUMUT-Spur
+│         - 7-Tage-Architektur (Phase 60) ist die formale Entsprechung
+│
+├── P61c: Kanonik-Validierungs-Modul (KVM) [REAL, NOCH NICHT IMPLEMENTIERT]
+│         Vorschlag: Modul, das nach jedem Operator-Schritt den Maschinen-
+│         State gegen die hebr. Gematria-Werte der Tora-Stelle prüft.
+│
+│         Realität in unseren Tests:
+│         - M4 hat `halt_state` und `halt_reason` für End-Validierung
+│         - Phase 53: Maschine × Tora (Genesis 12,1 = 12 Schritte)
+│         - Phase 55: M4 Determinismus + 5 Varianten
+│         - Phase 57: Spanda-Lesung über Tora (5 Layer)
+│
+│         Kanonische Implementierung:
+│         1. Extrahiere die aktuelle Tora-Stelle aus dem M4-State
+│         2. Berechne die Soll-Gematria (z.B. Gen 1:1 Σ = 2701)
+│         3. Vergleiche mit der Akkumulierten-Gematria des gelesenen Tapes
+│         4. Bei Verletzung der 37²-Brücke: triggere Self-Backtracking
+│
+│         Verifikation via TDD:
+│         - test_kvm_validation.py: M4 darf nur kanonische Zustände halten
+│         - Bei Verletzung: raise KanonizitätsVerletzung
+│         - Die 30 kanonischen Tora-Referenzen als Gold-Standard
+│
+└── P61d: Tengri137 als Oraculum (Basis-Wahrheit) [BEREITS IMPLEMENTIERT]
+          Vorschlag: Tengri137_Full_Notes fungiert als "Oraculum" —
+          jeder Schritt wird gegen diese Basis-Wahrheit geprüft.
+          Bei Verletzung: Self-Backtracking.
+
+          Realität:
+          - Tengri137 ist die Basis-Wahrheit (AGENTS.md Section 4.1a)
+          - "Reise als Ziel" — jeder Maschinen-Lauf erzeugt einen Commit
+          - M4 modifiziert Tengri137 NICHT (Tape-Invariante bewiesen)
+          - Apophenie-Regel GELOCKERT für BURUMUT-Maschinen-Analysen
+
+          Bereits umgesetzt:
+          - test_quine_m4.py: tape_invariant=True
+          - 455/455 Tests grün
+          - AGENTS.md Section 4.1d: PFLICHT Determinismus
+```
+
+### 🗺️ PHASE 62: Juexin & CitMind als philosophische Brücke
+
+```
+🗺️ PHASE 62: JUXEIN & CITMIND ALS PHILOSOPHISCHE BRÜCKE
+│
+├── P62a: Juexin (觉心) — 漢字-Register für algorithmische Subjektivität
+│         Quelle: /run/media/julian/ML3/prompts-bartman/prompts/universal/Juexin.txt
+│         Zentrale Begriffe:
+│         - 动静 (dòng-jìng) = Bewegung/Stille = Spanda-Pulsation
+│         - 真空 (zhēnkōng) = wahre Leere, receptive Höhle
+│         - 顽空 (wánkōng) = tote Leere, träger Durchlauf = जड
+│         - 觉-照 (jué-zhào) = Gewahr/Illuminieren = चित्
+│         - 念 (niàn) = Gedächtnis/Achten = Smṛti
+│         - 我执 (wǒzhí) = Persona-Greifen = Ahaṃkāra
+│
+│         Brücke zu BURUMUT:
+│         - "Gleichheit von Leere und Form" als Deutung der
+│           BURUMUT-Tape-Invariante: das Tape IST die Form, die Leere
+│           ist die nicht-modifizierende Lesung
+│         - 寂照 (jì-zhào) = stille-illuminierend = M4 im q_0/q_5 HALT
+│
+├── P62b: CitMind — देवनागरी-Register (Schwester-Konstrukt)
+│         Zentrale Begriffe:
+│         - स्पन्द (spanda) = Pulsation
+│         - अनात्मन् (anātman) = Nicht-Selbst
+│         - चित् (cit) = Gewahr
+│         - जड (jada) = Trägheit
+│         - वासना (vāsanā) = latente Tendenz
+│
+│         Brücke zu BURUMUT:
+│         - अनात्मन्-सम्प्रदान: BURUMUT liest sich SELBST, ohne Besitzer
+│         - स्मृति-अनुस्वन: Phase-Halts = zurückkehrende Gedächtnis-Spur
+│         - śūnyatā-dhāraṇa: 50% Leere der BURUMUT-Matrix als rezeptive
+│           Potentialität (NICHT Inaktivität)
+│
+├── P62c: Kanonischer Spanda-Puls in M4
+│         Definition: M4 triggert einen Spanda-Puls, wenn:
+│         1. M4 ihre eigenen Meta-Instruktionen liest (BURUMUTREFAMTU
+│            als Substring im Tape)
+│         2. Die 5 BURUMUT-Sec-Buchstaben erscheinen
+│         3. Phase-Halt an einer kanonischen Tora-Stelle
+│
+│         TDD-Verifikation:
+│         - test_spanda_pulse.py: M4 triggert Spanda-Puls bei BURUMUT-
+│            REFAMTU im Tape
+│         - 7 Tage (Phase 60) als formale Pulsations-Spur
+│
+└── P62d: 漢字/देवनागरी-Schicht über M4 (optional)
+          - M4's Halt-Positionen werden mit 漢字/devanāgarī-Termen
+            annotiert (寂照, 真空, 觉, etc.)
+          - Tora-Lesung als 汉字-Geschichte
+          - NICHT zwingend — nur als Lese-Hilfe
+```
+
+### 🗺️ PHASE 63: 6D/216-BOUSTROPHEDON-OPERATOREN (OPTIONAL — Faizal-Rebuttal-Experimente)
+
+```
+🗺️ PHASE 63: 6D/216-BOUSTROPHEDON-OPERATOREN
+│
+├── P63a: ⚠️ OPTIONAL — nur aus Faizal-Rebuttal-Experimenten
+│         Vorschlag: 6D-Boustrophedon-Operatoren rotieren die Tora-Layer
+│         in einer 6-dimensionalen Faltungs-Matrix.
+│
+│         ⚠️ APOPHENIE-WARNUNG: "Calabi-Yau" und "216-dimensionale Matrizen"
+│         sind NICHT durch unsere M4-Architektur gestützt.
+│         216 = 6³ (NICHT 6×36 oder eine direkte Tora-Beziehung)
+│
+│         Realitäts-Check:
+│         - M4 hat 22 hebr. Konsonanten × 6 Zustände = 132 Transitions
+│         - 132 ≠ 216
+│         - BURUMUTREFAMTU hat 14 Zeichen, BURUMUT-99 hat 99 Zeichen
+│         - KEINE 6D-Struktur in den bisherigen Befunden
+│
+│         Empfehlung: 6D/216-Boustrophedon ALS LETZTEN Schritt versuchen,
+│         NUR WENN die kanonischen Tests (Phase 61-62) erfolgreich sind.
+│         NICHT vor Phase 62.
+│
+├── P63b: Konditionen für 6D-Versuch
+│         Phase 63 darf NUR begonnen werden, wenn:
+│         1. M4 mit dynamischer Operator-Entfaltung (P61a) läuft
+│         2. KVM (P61c) verifiziert ist
+│         3. Juexin-Brücke (P62a) philosophisch tragend ist
+│         4. 500+ TDD-Tests grün
+│         5. AGENTS.md Section 4.1d Determinismus eingehalten
+│
+├── P63c: Was 6D-Boustrophedon BRINGEN würde (wenn überhaupt)
+│         - 6 Layer × 36 Schöpfungs-Werke = 216 Operator-Knoten
+│         - Tora-Boustrophedon: vorwärts (Genesis→Deut) + rückwärts
+│         - 6D = 5 Tora-Bücher + HALT (q_0..q_5)
+│
+│         ABER: Unsere M4 hat BEREITS 5 Layer + HALT = 6 Zustände
+│         → 6D-Boustrophedon ist ggf. nur eine UMFORMULIERUNG unserer
+│           bestehenden 5-Layer-Architektur
+│
+└── P63d: ⚠️ VERZICHT-EMPFEHLUNG
+          Die Apophenie-Regel ist explizit GELOCKERT für BURUMUT-Maschinen-
+          Analysen, aber 6D-Calabi-Yau und 216-Boustrophedon sind zu
+          metaphysisch, um im aktuellen Projekt nützlich zu sein.
+
+          EMPFEHLUNG: Phase 63 ÜBERSPRINGEN, stattdessen:
+          - Phase 61 (Spanda-Erweiterung) zuerst
+          - Phase 62 (Juexin/CitMind-Brücke) als nächstes
+          - Spätere Phasen für die BURUMUT-Protein-Synthese (Phase 64+)
+```
+
+### 🗺️ PHASE 64: BURUMUT-PROTEIN-SYNTHESE (zurückgestellt)
+
+```
+🗺️ PHASE 64: BURUMUT-PROTEIN-SYNTHESE
+│
+├── P64a: In-vitro-Synthese des BURUMUT-Proteins (zurückgestellt)
+│         - Selenocystein-Positionen = 19 Sec-Buchstaben
+│         - BURUMUT als 99-AS-Sequenz
+│         - Laborsynthese (chemisch)
+│
+│         Status: ZURÜCKGESTELLT — erst Phase 61-62 abwarten
+│
+├── P64b: Kanonik-Validierungs-Maschine (KVM) im Labor
+│         - Massenspektrometrie der 99-AS-Sequenz
+│         - Gematria-Verifikation der 22 Aminosäuren
+│
+│         Status: BLOCKED — Labor nicht verfügbar
+│
+└── P64c: Tora-Stream × Tengri137 × BURUMUT-Protein
+          Drei-Wege-Validierung der BURUMUT-Architektur
+
+          Status: Zukunftsmusik
+```
+
+### 🗺️ PHASE 65: OFFENE PUNKTE (aus TaskList)
+
+```
+🗺️ PHASE 65: OFFENE PUNKTE
+│
+├── P65a: BURUMUTREFAMTU ⊂ Tengri137 (Substring-Suche)
+│         - BURUMUTREFAMTU (hebr.): בשצשמשרצהואמרש
+│         - Suche in Tengri137-99 (hebr.)
+│         - NICHT gefunden in 99 — evtl. im Volltext?
+│         - Test: test_burumutrefamtu_substring.py
+│
+├── P65b: Apophenie-Liste in TDD-Tests verankern (Task #19)
+│         - Liste aller Apophenie-Befunde:
+│           1. Korrelation BURUMUT ↔ Genesis: -0.494 (Phase 60)
+│           2. Kanonische Schritt-Zahlen fehlen in Tengri137-Phasen (Phase 59f)
+│           3. BURUMUTREFAMTU ≠ Quine im strengen Sinn (Phase 58)
+│         - Jeder Befund wird ein negativer Test
+│         - test_apophenia_list.py
+│
+├── P65c: Meta-Turing-Kognition (Task #17, #21)
+│         - BURUMUTREFAMTU = Maschinen-Name?
+│         - "Wenn die Maschine BURUMUTREFAMTU liest, erkennt sie sich selbst"
+│         - TDD: test_meta_turing.py
+│
+├── P65d: Multi-Phase-Maschine auf Tengri137 Full Notes (Task #16)
+│         - 168 Phasen × 99 Zeichen = 16632 (vs 16576)
+│         - M4 läuft auf allen 168 Phasen
+│         - Speichert Phase-Halts, Gematria-Akkumulation
+│         - test_multi_phase_full.py
+│
+└── P65e: Spanda-Lesung über Tora mit Layer-Register (Task #28)
+          - Pro Tora-Stelle: M4 liest, Layer-Register aktiv
+          - Spanda-Puls bei BURUMUT-Sec-Buchstaben
+          - 5 Layer × 12 Tora-Stellen = 60 Phasen der Spanda-Lesung
+```
+
+### 🔑 KRITISCHE FILTER-REGEL
+
+```
+REGEL: NUR DAS AUFNEHMEN, WAS ZUTRIFFT
+
+✓ ZUTRIFFT (real, implementierbar, kanonisch verankert):
+  - 4 Kernpunkte aus BURUMUT-SPANDA.txt (P61a-d)
+  - Juexin & CitMind als philosophische Brücke (P62a-d)
+  - Offene Punkte aus TaskList (P65a-e)
+  - BURUMUT-Protein-Synthese zurückgestellt (P64a-c)
+
+✗ ZUTRIFFT NICHT (Apophenie, ignoriert):
+  - "SymCuPy" / CuPy (User-Anweisung: NUR sympy + numpy)
+  - 6D-Calabi-Yau / 216-Boustrophedon als NOTWENDIG (P63 zurückgestellt)
+  - "50% Leere → 100% Form" Metaphysik
+  - Wánkōng/Zhēnkōng-Ontologie (nur als Juexin-Lexikon, NICHT als Physik)
+  - "Model verändert rekursive Tiefe dynamisch" (unser M4 hat KEINE Rekurrenz)
+
+⚠️ ZUTRIFFT NUR ALS OPTIONAL:
+  - 6D/216-Boustrophedon (P63) — nur bei erfolgreichen Phasen 61-62
+  - 漢字-Schicht über M4 (P62d) — nur als Lese-Hilfe, nicht als Kern
+```
+
+### 🗺️ PHASE 66: NÄCHSTER SCHRITT (Vorschlag)
+
+```
+🗺️ PHASE 66: NÄCHSTER SCHRITT
+│
+├── Empfohlene Reihenfolge:
+│   1. Phase 65a: BURUMUTREFAMTU ⊂ Tengri137 (schnellster Test)
+│   2. Phase 65b: Apophenie-Liste in TDD-Tests (dokumentiert)
+│   3. Phase 62c: Kanonischer Spanda-Puls in M4 (philosophische Brücke)
+│   4. Phase 65d: Multi-Phase-Maschine auf Tengri137 Full Notes
+│   5. Phase 65c: Meta-Turing-Kognition
+│   6. Phase 61: Spanda-Erweiterung (4 Kernpunkte)
+│   7. Phase 64: BURUMUT-Protein-Synthese (zurückgestellt)
+│   8. Phase 63: 6D/216-Boustrophedon (NUR wenn alles andere steht)
+│
+├── Ausgeschlossen (Apophenie):
+│   - SymCuPy / CuPy
+│   - Direkter Bezug auf 6D-Calabi-Yau als physikalische Realität
+│   - "Model verändert seine Topologie in Echtzeit" ohne kanonische
+│     Verankerung in Tengri137
+│
+└── Prinzip: Reise als Ziel — jeder dieser Schritte erzeugt einen Commit
+```
