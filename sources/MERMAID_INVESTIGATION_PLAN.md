@@ -2842,4 +2842,60 @@ REGEL: NUR DAS AUFNEHMEN, WAS ZUTRIFFT
 │     Verankerung in Tengri137
 │
 └── Prinzip: Reise als Ziel — jeder dieser Schritte erzeugt einen Commit
+
+---
+
+## ✅ IMPLEMENTIERTE PHASEN (P65a-c, P62c, P65d) — Stand 2026-07-01
+
+```
+🗺️ PHASE 65a: BURUMUTREFAMTU ⊂ Tengri137 (IMPLEMENTIERT)
+├── BEFUND: BURUMUTREFAMTU ⊂ Tengri137 an Position 15986
+├── Kontext: ...RAINCANNOTBEREVERSEDBURUMUTREFAMTUNURESUTREGUMFAYAPSUA...
+├── Phase 161 enthält BURUMUTREFAMTU an Position 47
+├── 28 TDD-Tests in test_burumutrefamtu_substring.py, alle grün
+└── Commit: 158159d
+
+🗺️ PHASE 65b: APOPHENIE-LISTE (IMPLEMENTIERT)
+├── 7 Apophenie-Befunde als negative Tests verankert
+├── 0 Phasen halten in 3, 4, 5, 6, 7, 10 oder 12 Schritten
+├── BURUMUT ≠ Genesis (6503 vs 2701)
+├── BURUMUTREFAMTU ≠ Quine
+├── 23 TDD-Tests in test_apophenia_list.py, alle grün
+└── Commit: 5b0a995
+
+🗺️ PHASE 62c: KANONISCHER SPANDA-PULS (IMPLEMENTIERT)
+├── SpandaPulsDetector (passiv, BEOBACHTUNG)
+├── 3 Auslöser: BURUMUTREFAMTU, 5 Sec-Buchstaben, Position 15986
+├── M4 auf BURUMUT-99: 1 Sec-Event an Position 28
+├── M4 auf Tengri137-99: 2 Sec-Events in 34 Schritten
+├── 27 TDD-Tests in test_spanda_pulse.py, alle grün
+└── Commit: c280d67
+
+🗺️ PHASE 65d: MULTI-PHASE-MASCHINE AUF FULL NOTES (IMPLEMENTIERT)
+├── 168 Phasen total, 55 clean + 113 pendel
+├── Pro Buch: Gen 12/45, Exo 13/36, Lev 11/24, Num 7/32, Deut 12/31
+├── Numeri am wenigsten stabil (21.9%)
+├── Total-Gematria: 959497, Avg 5711
+├── 24 TDD-Tests in test_multi_phase_full.py, alle grün
+└── Commit: 1533d73
+
+🗺️ PHASE 65c: META-TURING-KOGNITION (IMPLEMENTIERT)
+├── M4 auf BURUMUTREFAMTU (14 Zch): 14 Schritte (1/Zch = KANONISCH)
+├── M4 auf BURUMUT-99 (beginnt mit Refamtu): 15 Schritte (14+1 HALT)
+├── M4 auf zufällige 14-Zeichen: variabel (avg 65.3)
+├── M4 auf Phase 161 (mit Refamtu an Pos 47): pendelt
+├── BURUMUTREFAMTU = Maschinen-Name (deterministisch, NICHT selbsterkennend)
+├── 22 TDD-Tests in test_meta_turing.py, alle grün
+└── Commit: a46c08e
+
+GESAMTSTAND: 208/208 TDD-Tests grün
+- Phase 58: 17 Tests (Quine)
+- Phase 59: 32 Tests (Mapping)
+- Phase 60: 35 Tests (7-Tage)
+- Phase 65a: 28 Tests (Refamtu)
+- Phase 65b: 23 Tests (Apophenie)
+- Phase 62c: 27 Tests (Spanda)
+- Phase 65d: 24 Tests (Multi-Phase)
+- Phase 65c: 22 Tests (Meta-Turing)
+- Total: 208 Tests, 0 Failures
 ```
