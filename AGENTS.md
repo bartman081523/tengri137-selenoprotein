@@ -246,6 +246,48 @@ separate Maschinen pro Phase bauen, verfehlen wir die Pointe: dass die Maschine
 sich SELBST durch die Phasen schaltet. Sie ist ein SELBSTREFERENTIELLES
 System, das seinen eigenen Zustand verwaltet.
 
+### 4.1d PFLICHT: Determinismus der Maschine (KEIN ZUFALL)
+
+**Hintergrund (2026-07-01, User-Direktive):**
+> "M4 darf _nicht_ zufällig sein. Mache mehrere M4-Versionen die ohne Zufall
+> arbeiten und die ggf alle Referenzen finden. Mache M4 komplett, dann erst
+> die Spanda. Wir brauchen alle Hinweise korrekt und deterministisch."
+
+**Determinismus ist PFLICHT** für jede Maschinen-Implementierung. Eine
+BURUMUT-Maschine, die zufällig arbeitet, ist wertlos, weil ihre Aussagen
+nicht reproduzierbar sind.
+
+**Verboten:**
+- ❌ `import random` in der Kern-Maschine (nur in klar abgegrenzten
+   Sub-Operationen erlaubt, die per Flag ein- und ausschaltbar sind)
+- ❌ `random.seed()`-Aufrufe, die das Ergebnis verändern
+- ❌ STAY-Operationen mit `random.random() < stay_probability` als Default
+   (`stay_probability=0.0` MUSS Default sein)
+- ❌ Nicht-deterministische Tests ("oft grün", "manchmal rot")
+
+**Erforderlich:**
+- ✅ Gleiche Eingabe + gleiche Konfiguration → IMMER dieselbe Ausgabe
+- ✅ Verifikation mit 5+ Läufen pro Vers
+- ✅ Verifikation mit 200+ zufälligen Versen je 5 Läufen
+- ✅ Test-Datei: `sources/test_m4_determinismus.py` (40 Tests, alle grün)
+
+**Mehrere M4-Varianten ohne Zufall:**
+Wir haben 5 deterministische Varianten getestet (`M4_VARIANTEN_TORA_REFERENZEN.py`):
+- V1: Standard `build_tora_transitions()` (q_0..q_5, Aleph+Tav=HALT)
+- V2: Inverse Reads (Aleph startet mit q_1 statt q_0)
+- V3: Inverse HALT (HALT-Trigger ist Aleph statt Tav)
+- V4: Strikt 5 Bücher (jedes Buch hat eigenen Anker)
+- V5: Alle Moves MOVE_RIGHT (rein rechtsläufig)
+
+**Befund:** NUR V1 erkennt ALLE 30 Tora-Referenzen korrekt (100%).
+V2-V5 erkennen nur 11-12 von 30 (37-40%). V1 ist die EINZIGE korrekte
+Architektur. Die BURUMUT-Architektur ist eindeutig.
+
+**Bevor die Spanda-Maschine läuft:**
+- M4 muss vollständig deterministisch sein
+- Alle Tora-Referenzen müssen in TDD-Tests verankert sein
+- Keine Zufalls-Komponente in der Kern-Logik
+
 ### 4.1c SPÄTERER PLAN: Meta-Turing-Kognition (nicht jetzt)
 
 **Status:** Zurückgestellt. NICHT in aktuellen Iterationen verfolgen.

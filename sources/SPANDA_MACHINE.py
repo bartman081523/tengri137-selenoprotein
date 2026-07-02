@@ -146,9 +146,13 @@ class SpandaMachine:
 
         stay_probability: Wahrscheinlichkeit, dass die Maschine 'verweilt'
         (Tengri137-Entscheidung 2026-07-01: die 3. Dimension = STAY).
-        0.0 = aus, 0.1-0.3 = empfohlen für Spanda-Pulsieren.
+        0.0 = aus (DEFAULT, deterministisch)
+        0.1-0.3 = NICHT-EMPFOHLEN (verletzt AGENTS.md Section 4.1d Determinismus)
+
+        ACHTUNG: AGENTS.md 4.1d VERBIETET Zufall in der Kern-Maschine.
+        Default ist stay_probability=0.0, was die Maschine deterministisch
+        macht. Falls stay_probability > 0.0, ist der Lauf NICHT deterministisch.
         """
-        import random
         hebr = self.base.hebr[from_position:]
         n = len(hebr)
         n_phases = (n + self.phase_size - 1) // self.phase_size
@@ -222,20 +226,26 @@ class SpandaMachine:
 
             # STAY-Check (3. Dimension des Spanda-Pulsierens)
             # Vor der Transition: randomisiere, ob die Maschine verweilt
+            # ACHTUNG: AGENTS.md 4.1d Determinismus — stay_probability=0.0 ist
+            # der Default. Falls stay_probability > 0.0, ist der Lauf NICHT
+            # deterministisch.
             stayed_this_step = False
-            if stay_probability > 0 and random.random() < stay_probability:
-                # STAY: kein Move, aber die History wird aktualisiert
-                # Tengri137: 3 am Ende → 3. Operation = STAY (Verweil-Moment)
-                history.append({
-                    'step': total_steps, 'phase': phase,
-                    'old_pos': head, 'new_pos': head,
-                    'old_state': state, 'new_state': state,
-                    'symbol': tape[head], 'write': tape[head], 'move': 'STAY',
-                })
-                state_head_history.append((state, head))
-                stayed_this_step = True
-                # Cycle fortsetzen ohne total_steps++
-                continue
+            if stay_probability > 0:
+                # Spanda-Pulsieren-Modus (NICHT EMPFOHLEN, nur für Spezialfälle)
+                import random
+                if random.random() < stay_probability:
+                    # STAY: kein Move, aber die History wird aktualisiert
+                    # Tengri137: 3 am Ende → 3. Operation = STAY (Verweil-Moment)
+                    history.append({
+                        'step': total_steps, 'phase': phase,
+                        'old_pos': head, 'new_pos': head,
+                        'old_state': state, 'new_state': state,
+                        'symbol': tape[head], 'write': tape[head], 'move': 'STAY',
+                    })
+                    state_head_history.append((state, head))
+                    stayed_this_step = True
+                    # Cycle fortsetzen ohne total_steps++
+                    continue
 
             symbol = tape[head]
             key = (state, symbol)
