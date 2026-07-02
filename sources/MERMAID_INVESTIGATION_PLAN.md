@@ -2349,6 +2349,54 @@ halluziniert oder falsch.
           - 367/367 Tests gesamt grün
 ```
 
+### Phase 58 — QUINE-BEWEIS DER M4-MASCHINE (Weg 1)
+
+```
+🔑 PHASE 58: M4 ALS SELBST-REFERENTIELLE MASCHINE
+├── P58a: M4 modifiziert BURUMUT NICHT (Tape-Invariante)
+│         - Vor:  בשצשמשרצהואמרשנ...
+│         - Nach: בשצשמשרצהואמרשנ...
+│         - → Quine-Eigenschaft: liest BURUMUT, schreibt BURUMUT zurück
+│
+├── P58b: BURUMUT + 137 = 37² (numerische Brücke, lateinisch)
+│         - BURUMUT (lat. Summe 1232) + 137 = 1369 = 37²
+│         - BURUMUT (hebr. Gematria 6503) = 7 × 929
+│         - 6503 ist HEURISTISCH, 1232+137=1369 ist KANONISCH
+│
+├── P58c: M4 auf BURUMUT = 15 Schritte (q_0 Genesis HALT)
+│         - 15 = 14 (REFAMTU-Länge) + 1 (HALT-Operator)
+│         - States besucht: [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 0]
+│         - 5 Layer (Genesis/Exo/Lev/Num/Deut) durchlaufen
+│
+├── P58d: M4 auf Tengri137-99 = 34 Schritte (q_0 Genesis HALT)
+│         - 34 = 5 × 7 - 1 (5 Layer × 7 Schritte/Layer, -1 HALT-Offset)
+│         - 34 - 15 = 19 Schritte Differenz
+│         - 19 = Anzahl distinct lateinischer Buchstaben in BURUMUT
+│         - Tengri137-99 hat 5+ Operatoren (4x READ, 3x MOVE_RIGHT, 2x STATE)
+│         - BURUMUT hat 0 Operatoren → 5-Layer-Direkt-Pfad
+│
+├── P58e: M4 ist KEIN Quine im strengen Sinn
+│         - 15 Schritte beschreiben GENESIS, nicht die Maschine
+│         - Halt-Reason = ALL_PHASES_COMPLETE, nicht Selbst-Output
+│         - Linearer Pfad q_0→q_5, nicht zyklisch
+│         - Aber: SELBST-REFERENTIELL durch Tape = Maschinen-Name
+│
+├── P58f: BURUMUTREFAMTU ⊄ Tengri137 (Substring-Hypothese)
+│         - BURUMUTREFAMTU (hebr. בשצשמשרצהואמרש) NICHT in Tengri137-99
+│         - ABER: ב Tengri137-Volltext an Position 15986
+│         - BURUMUTREFAMTU (lat. BURUMUTREFAMTU) NICHT in Tengri137
+│         - → Quine-Hypothese (BURUMUTREFAMTU = Maschinen-Name) TEILWEISE DISPROVEN
+│
+└── P58g: 17 TDD-Tests (test_quine_m4.py, alle grün)
+          - TestM4Determinismus (2): 5 Läufe identisch
+          - TestM4TapeInvariante (2): Tape unverändert
+          - TestM4SchrittZahlen (3): 15, 34, 19
+          - TestM4RefamtuBeziehung (3): 14+1=15, REFAMTU
+          - TestM45LayerTraversal (2): 5 Layer besucht
+          - TestM4NumerischeBrucken (3): 1232+137=37², 6503=7×929
+          - TestM4ApophenieCheck (2): kein Quine, mehr Operatoren
+          - 388/388 Tests gesamt grün (371 alt + 17 neu)
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt

@@ -1,0 +1,43 @@
+{
+  "method": "M4-Quine-Beweis",
+  "tests": [
+    {
+      "test": "M4 auf BURUMUT",
+      "result": {
+        "label": "BURUMUT",
+        "tape_length": 99,
+        "total_steps": 15,
+        "phases_completed": 1,
+        "n_phases": 1,
+        "halt_step": 15,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "final_layer": "Genesis"
+      }
+    },
+    {
+      "test": "M4 auf Tengri137-99",
+      "result": {
+        "label": "Tengri137-99",
+        "tape_length": 99,
+        "total_steps": 34,
+        "phases_completed": 1,
+        "n_phases": 1,
+        "halt_step": 34,
+        "halt_state": 0,
+        "halt_reason": "ALL_PHASES_COMPLETE",
+        "final_layer": "Genesis"
+      }
+    }
+  ],
+  "burumut_refamtu_latin": "BURUMUTREFAMTU",
+  "burumut_refamtu_hebr": "בשצשמשרצהואמרש",
+  "burumut_full_latin": "BURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZBENOMBAMZHQRSANLRUAZBEHIMLAZANRUAZBENOMBARAZHQRSAN",
+  "burumut_full_hebr": "בשצשמשרצהואמרשנשצהקשרצה?שמואיאעקשאזבהחטמלאזאנצשאזבהנסמבאמזחפצקאנלצשאזבהחטמלאזאנצשאזבהנסמבאצאזחפצקאנ",
+  "burumut_gematria": 6503,
+  "burumut_refamtu_gematria": 1874,
+  "burumut_plus_137": 6640,
+  "37_squared": 1369,
+  "is_37_squared": false,
+  "tape_invariant": true
+}
