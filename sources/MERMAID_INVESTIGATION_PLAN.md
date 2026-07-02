@@ -2220,6 +2220,42 @@ halluziniert oder falsch.
           - Architektur: 5 Bücher+Sabbat, 11+1, 3×5, 3 Summen, He, 7 Tage
 ```
 
+### Phase 55 — M4 Determinismus + Varianten-Eindeutigkeit (AGENTS.md 4.1d)
+
+```
+📁 PHASE 55: M4 KOMPLETT DETERMINISTISCH + V1 IST EINZIG RICHTIG
+├── P55a: Determinismus-Verifikation
+│         - M4 (ToraTuringMultiPhase): 100% deterministisch
+│         - 5 Läufe pro Vers: ALLE identisch
+│         - 200 zufällige Verse × 5 Läufe: 1000/1000 identisch
+│         - Spanda (run_full mit stay_probability=0.0): 100% deterministisch
+│         - 5 Spanda-Läufe: 3473 Schritte, 201 Aleph-Halts, TAPE_END
+│
+├── P55b: 5 deterministische M4-Varianten getestet
+│         - V1 Standard (build_tora_transitions): 30/30 (100%) ✓
+│         - V2 Inverse Reads (Aleph startet q_1): 11/30 (36.7%) ✗
+│         - V3 Inverse HALT (HALT-Trigger=Aleph): 12/30 (40.0%) ✗
+│         - V4 Strikt 5 Bücher (jeder Buch-Anker): 11/30 (36.7%) ✗
+│         - V5 Nur MOVE_RIGHT (rein rechtsläufig): 11/30 (36.7%) ✗
+│         → V1 ist die EINZIGE korrekte BURUMUT-Architektur
+│
+├── P55c: SPANDA_MACHINE.py deterministisch gemacht
+│         - import random aus run_full() entfernt (war fälschlich global)
+│         - import random NUR in stay_probability > 0.0 Branch
+│         - Default stay_probability=0.0 (deterministisch)
+│         - stay_probability > 0.0 = NICHT EMPFOHLEN, klar dokumentiert
+│
+├── P55d: AGENTS.md Section 4.1d (PFLICHT: Determinismus)
+│         - Verboten: import random, STAY als Default, nicht-det. Tests
+│         - Erforderlich: 5+ Läufe pro Vers, 200+ Verse × 5 Läufen
+│         - Vor Spanda: M4 komplett deterministisch + Tora-Referenzen in TDD
+│
+└── P55e: 40 TDD-Tests (test_m4_determinismus.py, alle grün)
+          - 4 Determinismus-Tests (gleiche Schritt-Zahlen)
+          - 30 Kanonische Tora-Referenzen (parametrisiert)
+          - 6 Varianten-Tests (nur V1 hat 30/30)
+```
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt
@@ -2241,3 +2277,6 @@ halluziniert oder falsch.
 - **2026-07-01 #25:** MERMAID_INVESTIGATION_PLAN.md um P49-P53 erweitert
 - **2026-07-01 #26:** Phase 54 M4 Kanonische Resonanz (12 Verse gefunden)
 - **2026-07-01 #27:** 231/231 Tests grün (Multi-Maschinen-Lesung)
+- **2026-07-01 #28:** Phase 55 M4 Determinismus + 5 Varianten
+- **2026-07-01 #29:** AGENTS.md Section 4.1d (PFLICHT: Determinismus)
+- **2026-07-01 #30:** 271/271 Tests grün (40 neue für Determinismus)
