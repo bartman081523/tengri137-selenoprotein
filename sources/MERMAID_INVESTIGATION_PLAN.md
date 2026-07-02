@@ -2302,6 +2302,53 @@ halluziniert oder falsch.
           - 294/294 Tests gesamt grün
 ```
 
+### Phase 57 — SPANDA × TORA × LAYER-REGISTER
+
+```
+📁 PHASE 57: M5 (SPANDA) LIEST TORA MIT LAYER-REGISTER
+├── P57a: Spanda validiert M4-Schritt-Zahlen
+│         - 30 Tora-Referenzen getestet
+│         - Spanda liefert EXAKT dieselben Schritt-Zahlen wie M4
+│         - 6, 5, 12, 15, 7, 3, 10, 4 — alle bestätigt
+│         → M4 + M5 bestätigen sich gegenseitig
+│
+├── P57b: Layer-Besuche korrelieren mit Schritt-Zahlen
+│         - 3 Schritte (Lev 19,18) → 1 Layer-Wechsel (Gen→Exo)
+│         - 6 Schritte (Gen 1,1) → 2 Layer-Wechsel (Gen→Exo, Exo→Lev)
+│         - 12 Schritte (Gen 3,4) → 2-3 Layer-Wechsel
+│         - 7 Schritte (Gen 3,24 Cherubim) → 3 Layer (Gen→Exo→Lev→Num)
+│         → Mehr Schritte = mehr Layer-Besuche
+│
+├── P57c: Aleph-Halts korrelieren mit BURUMUT-Sec-Architektur
+│         - Gen 6,7 (Noah, 15 = 3×5 Binah) → 3 Aleph-Halts
+│         - Gen 1,1 (Schöpfung) → 1 Aleph-Halt (Anfang)
+│         - 14/30 Verse haben 0 Aleph-Halts
+│         - 10/30 Verse haben 2 Aleph-Halts (BURUMUT-Sec-Paar)
+│         - 1/30 Verse (Gen 6,7) hat 3 Aleph-Halts (Binah 3×5)
+│         → Spanda ist SELEKTIVER als M4 (zeigt BURUMUT-Architektur)
+│
+├── P57d: Aleph-Dichte in Tora vs Tengri137
+│         - Tengri137: 201/12071 = 1.67% (BURUMUT-Architektur)
+│         - Tora-Verse: 3-21% Aleph-Anteil
+│         - Kürzere Texte haben höhere Aleph-Dichte
+│         - Gen 1,1: 6/28 = 21.4% (12.87× Tengri137)
+│         - Gen 12,1: 10/57 = 17.5% (10.54× Tengri137)
+│
+├── P57e: ToraBaseTruth für Spanda-Kompatibilität
+│         - Erbt alle Attribute von BaseTruth (hebr, position_map, ...)
+│         - Eigene SHA-256-Fingerprint (deterministisch)
+│         - Spanda-Maschine läuft ohne Änderung
+│
+└── P57f: 73 TDD-Tests (test_spanda_tora_layer.py, alle grün)
+          - 30 Spanda-validiert-M4 Tests (parametrisiert)
+          - 30 Spanda-Layer-Besuche (parametrisiert)
+          - 3 Spezielle Layer-Tests (Gen 1,1, Gen 3,4, Gen 3,24)
+          - 3 Aleph-Architektur-Tests
+          - 5 Determinismus-Tests
+          - 2 Layer-Register-Integration-Tests
+          - 367/367 Tests gesamt grün
+```
+
 ### Wachstumschronologie (Updates)
 
 - **2026-07-01 #9:** Phase 41 Tengri137-Tape extrahiert + Maschine angewandt
