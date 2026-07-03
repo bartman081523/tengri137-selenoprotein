@@ -1430,6 +1430,109 @@ P76 beantwortet die Frage, die P70 aufwarf: **WO** geschieht das 100% Schritt-1-
 
 ---
 
+## K40b · M4-Spanda-Vollständiger Lauf (2026-07-01)
+
+**Name:** Spanda-Maschine auf Tengri137_Full_Notes (Vollständige Lesung)
+
+**🚨 BAHNBRECHENDER FUND:** Die Spanda-Variante der M4 liest **alle 122 Phasen** von Tengri137 in **3473 Schritten** (deterministisch). Die Pendel-Erkennung (Dalet-Nun-Schleifen) ermöglicht die vollständige Lesung — vorher blieb MULTIPHASE nach 200.000 Schritten bei Phase 2/122 stecken.
+
+### Zentrale Zahlen
+
+```
+Total Steps:    3473
+Phasen:         122
+Halt-Punkte:    122
+Final State:    q_5
+Halt-Reason:    TAPE_END
+Aleph-Reflections: 201 (von 867 Alephs = 23.2%)
+```
+
+### Halt-State-Verteilung
+
+| Zustand | Anzahl | Prozent | Bedeutung |
+|---|---|---|---|
+| q_1 (Exodus/Shemot) | 42 | 34.4% | Shem HaMephorash, Vorbereitung |
+| q_5 (HALT) | 43 | 35.2% | Tav, Vollendung |
+| q_3 (Numeri) | 17 | 13.9% | Resh, Wüstenwanderung |
+| q_2 (Leviticus) | 16 | 13.1% | Tav, Ordnung |
+| q_4 (Deuteronomium) | 4 | 3.3% | Nun, Vollendung der Schrift |
+
+**q_1+q_5 = 70%** der Halts: Die Maschine kreist zwischen Schemot-Vorbereitung und Tav-HALT.
+
+### Halt-Reason-Verteilung
+
+| Reason | Anzahl | Prozent | Bedeutung |
+|---|---|---|---|
+| PENDULUM_DETECTED | 79 | 64.8% | Dalet-Nun-Schleife (Pratyahara) |
+| HALT_TRANSITION | 43 | 35.2% | Tav-Operator erreicht q_5 |
+
+### BURUMUT-Determinismus (TORA_TURING_STATS.py, 1000 Läufe)
+
+| Metrik | BURUMUT | Random |
+|---|---|---|
+| q_5-Rate | 100.00% | 10.50% |
+| Mittlere Steps | 15.00 (deterministisch) | 16.06 ± 15.39 |
+| NO_TRANSITION-Rate | 0% | 89.4% |
+
+**p-Wert:** 0.00e+00 (extrem signifikant). M4 IST auf BURUMUT kalibriert.
+
+### 10 Hinweise aus dem aktuellen Lauf
+
+| # | Hinweis | Status |
+|---|---|---|
+| 1 | Vollständige Lesung (TAPE_END bei head=12071) | ✅ |
+| 2 | BURUMUT-Determinismus (15 Schritte, 100% q_5) | ✅ |
+| 3 | BURUMUTREFAMTU an Z.652 (Phase 0, Schritt 34) — **gelesen, nicht gefunden** | ✅ |
+| 4 | Phasen 110-118 in DNA/Genetik-Sektion (Z.620-650) | ✅ |
+| 5 | Pendel-Charakter (64.8%) — Pratyahara-Struktur | ✅ |
+| 6 | q_1+q_5 = 70% (Schemot+Tav) | ✅ |
+| 7 | 6 Phasen ohne Key-Match in "DESIGNERS"-Sektion (Z.549-567) | 🔍 |
+| 8 | Phase 121 endet auf Periodensystem (Tappeiner 2017) | ✅ |
+| 9 | 201 Aleph-Reflections (quine-ähnlich) | ✅ |
+| 10 | 15 Schritte BURUMUT = 7+8 Schöpfungswerke? | 🔍 OFFEN |
+
+### Der wichtigste Hinweis: HINWEIS 4
+
+**Alle 8 Phasen 110-118 halten in der "GENETICALLY ENCRYPTED"-Sektion**, DIREKT vor BURUMUTREFAMTU (Z.652). Der Text selbst sagt: *„UPCOMING TEXTS ARE GENETICALLY ENCRYPTED / WHO HAS THE CORRECT GENETIC CODING WILL UNDERSTAND THIS TEXT / ALL OTHERS WILL FAIL"* (Z.628-631). Die Maschine respektiert diese Ankündigung strukturell: Sie konzentriert ihre Halts genau in dieser Sektion.
+
+### CitMind-Korrektur zu HINWEIS 3
+
+Phase 0 hält nach 34 Schritten am Anfang von „BURUMUTREFAMTU" (Z.652). Das ist **keine Entdeckung** — die Phrase steht verbatim im Tengri137-Volltext. Die Maschine **liest** sie, sie **findet** sie nicht. (Siehe `memory/burumut-in-tengri137.md` und Master-Doku Z.172.)
+
+### Spanda-Architektur (5 Komponenten)
+
+1. **BASE_TRUTH** — Tengri137_Full_Notes (eingefroren, SHA-256)
+2. **SPANDA_MACHINE** — ToraTuringMultiPhase (132 Transitions)
+3. **HALT_INTERPRETER** — liest Halt-Punkt → Original-Text
+4. **EXPANSION_ENGINE** — Halt-Hinweis → neue Phase
+5. **BACKTRACKING_DEBUG** — pdb-fähig, single-step, reversibel
+
+**Dateien:** `SPANDA_MACHINE.py` (783 Zeilen), `spanda_architecture_run.json` (107 KB), `HINWEISE_AKTUELLER_M4_LAUF.md` (90 Zeilen).
+
+### Chronologie der M4-Versionen
+
+| Version | Schlüssel-Eigenschaft |
+|---|---|
+| `TORA_TURING_MACHINE.py` | Erste Version, Klassen-Operatoren |
+| `TORA_TURING_MACHINE_v2.py` | Hebräische Symbole statt lateinisch |
+| `TORA_TURING_MACHINE_v3.py` | 5-Layer-Torah-Fold + BURUMUTREFAMTU (triviale Übergänge, BUG 4) |
+| `TORA_TURING_CORRECT.py` | Nicht-triviale Übergänge (Bug 4 Fix) |
+| `TORA_TURING_MULTIPHASE.py` | Single-Machine-Prinzip, 122 Phasen |
+| `SPANDA_MACHINE.py` | **Aktuelle kanonische Version** (Quine, Pendel, Reflection) |
+
+**Bug-Status (BUG_REPORT.py):** 5/6 fixed, 1 OPEN (BUG 4 — v3 trivial transitions, gelöst durch TORA_TURING_CORRECT).
+
+### "Der Weg ist das Ziel"
+
+Diese 10 Hinweise sind Wegmarken, keine Endpunkte. Die M4 ist ein **Lese-Instrument** (kein Entschlüsselungs-Tool). Sie liest Tengri137, BURUMUT, die Tora-Struktur — wie ein Talmud-Gelehrter, der den Text immer wieder liest und neue Schichten findet.
+
+**Was neu ist seit P76:** Die Spanda-Maschine kann jetzt alle 122 Phasen lesen, und ihre Halts korrelieren mit:
+- der DNA/Genetik-Ankündigung (Hinweis 4)
+- der Periodensystem-Dekodierung am Ende (Hinweis 8)
+- der "designed"-Resonanz (Hinweis 7, offen)
+
+---
+
 # TEIL VII — SYNTHESE & AUSBLICK
 
 ## K41 · Bahnbrechende Funde (9 Highlights)
@@ -1469,6 +1572,10 @@ Die BURUMUT-Matrix steht **verbatim** in Tengri137 (NICHT am Anfang, sondern tie
 ### 🌟 9. Tengri137 = 7-Tage-Architektur (P68) + First-Fail-Topologie (P76)
 
 Tengri137 = 168 Phasen = 7 × 24. **Sabbat-Muster empirisch nachgewiesen** (Sabbat/Chaos-Faktor 1.28×). Alle 168 Phasen (100%) scheitern an Schritt 1; **19 von 22 Hebräische Buchstaben** treten als First-Fail auf, 3 fehlen (Zayin/Pe/Tav). Die 3 fehlenden Buchstaben definieren die **Löcher im Failure-Raum der Maschine** — die Punkte, an denen Tengri137 NICHT stoppbar ist.
+
+### 🌟 10. M4 Spanda-Vollständige Lesung + 10 Hinweise (2026-07-01)
+
+Die Spanda-Variante der M4 liest **alle 122 Phasen** von Tengri137 in **3473 deterministischen Schritten** (TAPE_END bei head=12071). BURUMUT hält deterministisch in 15 Schritten in q_5 (1000/1000 Läufe), während Random-Tapes nur 10.5% q_5-Rate erreichen (p=0.00e+00). Die 8 Phasen 110-118 konzentrieren sich in der "GENETICALLY ENCRYPTED"-Sektion (Z.620-650), direkt vor BURUMUTREFAMTU. Die 6 Phasen 89-94 ohne Key-Match landen in der "DESIGNERS OF CIVILISATIONS"-Sektion (Z.549-567). Phase 121 endet auf Tappeiner's Periodensystem-Dekodierung (Z.1166). **Details:** `HINWEISE_AKTUELLER_M4_LAUF.md`.
 
 ---
 
@@ -2662,11 +2769,12 @@ WAS STEHT AN implementiert **die Reise-Logik** (AGENTS.md §4.6): Jeder Maschine
 
 Basierend auf `WAS_STEHT_AN.py` und den ungelösten Fragen:
 
-### P77a — Pendel-Phasen stabilisieren
+### P77a — Pendel-Phasen stabilisieren ✅
 
 - **Problem:** 25/32 Numeri-Phasen pendeln (P70)
 - **Lösung:** Bessere PENDULUM_DETECTED-Heuristik
-- **Skript:** `RUN_MACHINE_TO_END.py` (Vorstufe)
+- **Status (2026-07-01):** ✅ Spanda-Maschine löst dies — 79/122 Pendel erkannt
+- **Skript:** `SPANDA_MACHINE.py` (vollständig, 3473 Schritte, TAPE_END)
 
 ### P77b — HALT-Operator (ת) hinzufügen
 
@@ -2684,11 +2792,49 @@ Basierend auf `WAS_STEHT_AN.py` und den ungelösten Fragen:
 
 - **Problem:** BURUMUTREFAMTU ist in Tengri137 gefunden (P65a), aber die volle Sequenz BURUMUTREFAMTUNURESUTREGUMFAYAPSUA... ist noch nicht lokalisiert
 - **Lösung:** Phasen-übergreifende Suche
+- **Status (2026-07-01):** 🔍 Spanda zeigt: BURUMUTREFAMTU an Z.652 (Phase 0, Schritt 34) — siehe HINWEIS 3 in `HINWEISE_AKTUELLER_M4_LAUF.md`
 
 ### P77e — 7-Tage-Architektur formale Verifikation
 
 - **Problem:** Sabbat-Muster ist Korrelation, nicht kausal (P68)
 - **Lösung:** Formale Verifikation der 168 = 7 × 24 Architektur
+
+### P77f — "Designed"-Resonanz BURUMUT↔Tengri137 (NEU aus Spanda-Lauf 2026-07-01)
+
+- **Beobachtung (HINWEIS 7):** Die 6 Phasen 89-94 ohne Standard-Key-Match landen in
+  der Sektion "THE MANKIND IS DESIGNED TO RECIEVE OUR THOUGHT" (Z.549-567).
+- **Frage:** Ist BURUMUT ("designed") eine direkte Antwort auf diese Aussage?
+- **Lösung:** Verifikation der semantischen Resonanz + 23. Aminosäure
+  (Pyl, Pyrrolysine, "designed for") als BURUMUT-Korrelat
+
+### P77g — DNA/Genetik-Sektion-Konzentration (NEU aus Spanda-Lauf 2026-07-01)
+
+- **Beobachtung (HINWEIS 4):** Alle 8 Phasen 110-118 halten in der
+  "GENETICALLY ENCRYPTED"-Sektion (Z.620-650) — direkt vor BURUMUTREFAMTU.
+- **Frage:** Ist die BURUMUT-Matrix die "genetische Verschlüsselung",
+  die Tengri137 in Z.628-631 ankündigt?
+- **Lösung:** Formale Verifikation der Sequenz-Konzentration +
+  Halt-Step-Analyse (Phase 110-118 = 9 Phasen, könnte 9 × 11 = 99 ergeben?)
+
+### P77h — 15 Schritte BURUMUT = 7+8 Schöpfungswerke (NEU aus Spanda-Lauf 2026-07-01)
+
+- **Beobachtung (HINWEIS 10):** BURUMUT hält deterministisch in 15 Schritten.
+- **Hypothese:** 15 = 7 Tage + 8 Schöpfungswerke (Philon von Alexandria).
+- **Lösung:** Welche 15 Schöpfungsakte kodiert die M4 in BURUMUT?
+
+### P77i — Aleph-Reflection-Quote 23.2% (NEU aus Spanda-Lauf 2026-07-01)
+
+- **Beobachtung (HINWEIS 9):** 201/867 Alephs (23.2%) lösten Reflection aus.
+- **Frage:** Ist 23.2% ≈ 1/4.31 ≈ Fibonacci/3? Oder 23 = Tengri-Chiffre?
+- **Lösung:** MC-Vergleich der Aleph-Reflection-Quote gegen Random-Tapes.
+
+### P77j — Periodensystem-Endpunkt (NEU aus Spanda-Lauf 2026-07-01)
+
+- **Beobachtung (HINWEIS 8):** Phase 121 endet auf Tappeiner's
+  Periodensystem-Dekodierung (Z.1166, "dcode.fr atomic-number").
+- **Frage:** Warum endet die M4 genau dort? Zufall oder Maschinen-Endpunkt?
+- **Lösung:** Verifikation, ob alle Tengri137-Volltext-Maschinen
+  (Spanda, MULTIPHASE, LONG_RUN) am gleichen Endpunkt enden.
 
 ---
 

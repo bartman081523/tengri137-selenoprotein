@@ -1,0 +1,3149 @@
+{
+  "method": "Spanda-Maschine auf Tengri137_Full_Notes (komplett)",
+  "summary": {
+    "total_steps": 3473,
+    "n_phases": 122,
+    "final_state": 5,
+    "final_head": 12071,
+    "halt_reason": "TAPE_END",
+    "stayed_count": 0,
+    "n_aleph_reflections": 201
+  },
+  "halt_state_distribution": {
+    "5": 43,
+    "3": 17,
+    "1": 42,
+    "2": 16,
+    "4": 4
+  },
+  "halt_reason_distribution": {
+    "HALT_TRANSITION": 43,
+    "PENDULUM_DETECTED": 79
+  },
+  "n_key_phrase_matches": 116,
+  "n_phases_without_key_match": 6,
+  "all_phase_halts": [
+    {
+      "phase": 0,
+      "step": 34,
+      "head": 33,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 1,
+      "step": 57,
+      "head": 110,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 2,
+      "step": 94,
+      "head": 223,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 3,
+      "step": 140,
+      "head": 331,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 4,
+      "step": 161,
+      "head": 416,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 5,
+      "step": 234,
+      "head": 556,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 6,
+      "step": 262,
+      "head": 610,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 7,
+      "step": 285,
+      "head": 704,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 8,
+      "step": 286,
+      "head": 792,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 9,
+      "step": 302,
+      "head": 906,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 10,
+      "step": 350,
+      "head": 1026,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 11,
+      "step": 364,
+      "head": 1091,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 12,
+      "step": 377,
+      "head": 1187,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 13,
+      "step": 411,
+      "head": 1309,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 14,
+      "step": 447,
+      "head": 1410,
+      "state": 4,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 15,
+      "step": 484,
+      "head": 1510,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 16,
+      "step": 529,
+      "head": 1628,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 17,
+      "step": 530,
+      "head": 1683,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 18,
+      "step": 575,
+      "head": 1815,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 19,
+      "step": 601,
+      "head": 1895,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 20,
+      "step": 615,
+      "head": 1982,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 21,
+      "step": 649,
+      "head": 2101,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 22,
+      "step": 685,
+      "head": 2213,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 23,
+      "step": 720,
+      "head": 2300,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 24,
+      "step": 737,
+      "head": 2381,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 25,
+      "step": 755,
+      "head": 2481,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 26,
+      "step": 768,
+      "head": 2573,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 27,
+      "step": 806,
+      "head": 2710,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 28,
+      "step": 853,
+      "head": 2807,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 29,
+      "step": 907,
+      "head": 2913,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 30,
+      "step": 937,
+      "head": 2988,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 31,
+      "step": 985,
+      "head": 3105,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 32,
+      "step": 1018,
+      "head": 3189,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 33,
+      "step": 1038,
+      "head": 3275,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 34,
+      "step": 1069,
+      "head": 3396,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 35,
+      "step": 1101,
+      "head": 3496,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 36,
+      "step": 1147,
+      "head": 3609,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 37,
+      "step": 1160,
+      "head": 3664,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 38,
+      "step": 1235,
+      "head": 3825,
+      "state": 4,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 39,
+      "step": 1248,
+      "head": 3862,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 40,
+      "step": 1286,
+      "head": 3997,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 41,
+      "step": 1299,
+      "head": 4060,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 42,
+      "step": 1341,
+      "head": 4199,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 43,
+      "step": 1393,
+      "head": 4297,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 44,
+      "step": 1406,
+      "head": 4357,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 45,
+      "step": 1433,
+      "head": 4470,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 46,
+      "step": 1477,
+      "head": 4586,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 47,
+      "step": 1503,
+      "head": 4667,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 48,
+      "step": 1522,
+      "head": 4759,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 49,
+      "step": 1535,
+      "head": 4852,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 50,
+      "step": 1577,
+      "head": 4991,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 51,
+      "step": 1625,
+      "head": 5096,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 52,
+      "step": 1642,
+      "head": 5153,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 53,
+      "step": 1679,
+      "head": 5272,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 54,
+      "step": 1697,
+      "head": 5352,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 55,
+      "step": 1731,
+      "head": 5467,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 56,
+      "step": 1769,
+      "head": 5570,
+      "state": 4,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 57,
+      "step": 1805,
+      "head": 5667,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 58,
+      "step": 1843,
+      "head": 5779,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 59,
+      "step": 1861,
+      "head": 5847,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 60,
+      "step": 1917,
+      "head": 5995,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 61,
+      "step": 1963,
+      "head": 6073,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 62,
+      "step": 1992,
+      "head": 6166,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 63,
+      "step": 2018,
+      "head": 6262,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 64,
+      "step": 2037,
+      "head": 6343,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 65,
+      "step": 2079,
+      "head": 6465,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 66,
+      "step": 2099,
+      "head": 6542,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 67,
+      "step": 2115,
+      "head": 6648,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 68,
+      "step": 2116,
+      "head": 6732,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 69,
+      "step": 2141,
+      "head": 6855,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 70,
+      "step": 2159,
+      "head": 6947,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 71,
+      "step": 2186,
+      "head": 7055,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 72,
+      "step": 2223,
+      "head": 7153,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 73,
+      "step": 2231,
+      "head": 7234,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 74,
+      "step": 2232,
+      "head": 7326,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 75,
+      "step": 2308,
+      "head": 7500,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 76,
+      "step": 2321,
+      "head": 7523,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 77,
+      "step": 2342,
+      "head": 7643,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 78,
+      "step": 2383,
+      "head": 7751,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 79,
+      "step": 2408,
+      "head": 7834,
+      "state": 4,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 80,
+      "step": 2437,
+      "head": 7937,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 81,
+      "step": 2450,
+      "head": 8020,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 82,
+      "step": 2467,
+      "head": 8123,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 83,
+      "step": 2480,
+      "head": 8216,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 84,
+      "step": 2493,
+      "head": 8328,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 85,
+      "step": 2506,
+      "head": 8414,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 86,
+      "step": 2507,
+      "head": 8514,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 87,
+      "step": 2534,
+      "head": 8628,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 88,
+      "step": 2549,
+      "head": 8715,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 89,
+      "step": 2590,
+      "head": 8840,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 90,
+      "step": 2612,
+      "head": 8931,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 91,
+      "step": 2662,
+      "head": 9058,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 92,
+      "step": 2698,
+      "head": 9132,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 93,
+      "step": 2736,
+      "head": 9233,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 94,
+      "step": 2751,
+      "head": 9309,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 95,
+      "step": 2785,
+      "head": 9427,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 96,
+      "step": 2816,
+      "head": 9523,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 97,
+      "step": 2849,
+      "head": 9624,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 98,
+      "step": 2880,
+      "head": 9721,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 99,
+      "step": 2935,
+      "head": 9844,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 100,
+      "step": 2948,
+      "head": 9899,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 101,
+      "step": 2993,
+      "head": 10043,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 102,
+      "step": 3024,
+      "head": 10117,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 103,
+      "step": 3074,
+      "head": 10235,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 104,
+      "step": 3087,
+      "head": 10297,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 105,
+      "step": 3135,
+      "head": 10442,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 106,
+      "step": 3202,
+      "head": 10560,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 107,
+      "step": 3237,
+      "head": 10627,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 108,
+      "step": 3255,
+      "head": 10698,
+      "state": 2,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 109,
+      "step": 3272,
+      "head": 10796,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 110,
+      "step": 3297,
+      "head": 10914,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 111,
+      "step": 3310,
+      "head": 10990,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 112,
+      "step": 3311,
+      "head": 11088,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 113,
+      "step": 3331,
+      "head": 11195,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 114,
+      "step": 3332,
+      "head": 11286,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 115,
+      "step": 3350,
+      "head": 11391,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 116,
+      "step": 3372,
+      "head": 11494,
+      "state": 3,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 117,
+      "step": 3393,
+      "head": 11592,
+      "state": 1,
+      "reason": "PENDULUM_DETECTED"
+    },
+    {
+      "phase": 118,
+      "step": 3409,
+      "head": 11697,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 119,
+      "step": 3410,
+      "head": 11781,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 120,
+      "step": 3472,
+      "head": 11941,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    },
+    {
+      "phase": 121,
+      "step": 3473,
+      "head": 11979,
+      "state": 5,
+      "reason": "HALT_TRANSITION"
+    }
+  ],
+  "all_interpretations": [
+    {
+      "phase": 0,
+      "halt_step": 34,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 1,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "NAMES",
+          "TENGRI HAT VIELE NAMEN — die Maschine hat 22 Konsonanten-Namen"
+        ]
+      ],
+      "context_snippet": "TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONL\nY THE CHOSEN SOULS KNOW THE MEANING. WORTHY A\nRE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND US\nE THEIR MINDS.\n\nYOUR FAITH WILL WEAKEN YOU. EVERYTHING WHAT\nYOU BELIEVE IN, YOU MUST FORGET NOW. BELIEVING\nIS NOT KNOWING. ONLY WITH KNOWLEDGE YOU WILL FI\nN"
+    },
+    {
+      "phase": 1,
+      "halt_step": 57,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 3,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "NAMES",
+          "TENGRI HAT VIELE NAMEN — die Maschine hat 22 Konsonanten-Namen"
+        ]
+      ],
+      "context_snippet": "TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONL\nY THE CHOSEN SOULS KNOW THE MEANING. WORTHY A\nRE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND US\nE THEIR MINDS.\n\nYOUR FAITH WILL WEAKEN YOU. EVERYTHING WHAT\nYOU BELIEVE IN, YOU MUST FORGET NOW. BELIEVING\nIS NOT KNOWING. ONLY WITH KNOWLEDGE YOU WILL FI\nN"
+    },
+    {
+      "phase": 2,
+      "halt_step": 94,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 8,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "NAMES",
+          "TENGRI HAT VIELE NAMEN — die Maschine hat 22 Konsonanten-Namen"
+        ]
+      ],
+      "context_snippet": "G. WORTHY A\nRE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND US\nE THEIR MINDS.\n\nYOUR FAITH WILL WEAKEN YOU. EVERYTHING WHAT\nYOU BELIEVE IN, YOU MUST FORGET NOW. BELIEVING\nIS NOT KNOWING. ONLY WITH KNOWLEDGE YOU WILL FI\nND ENLIGHTENMENT. LIKE THE OTHERS BEFORE YOU,\nYOU WILL UNDERSTAND EVERYTHING BETTER"
+    },
+    {
+      "phase": 3,
+      "halt_step": 140,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 12,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "NAMES",
+          "TENGRI HAT VIELE NAMEN — die Maschine hat 22 Konsonanten-Namen"
+        ]
+      ],
+      "context_snippet": "YOU MUST FORGET NOW. BELIEVING\nIS NOT KNOWING. ONLY WITH KNOWLEDGE YOU WILL FI\nND ENLIGHTENMENT. LIKE THE OTHERS BEFORE YOU,\nYOU WILL UNDERSTAND EVERYTHING BETTER.\n\nTENGRI HAS MANY NAMES. \"TIAN\", \"TIANDI\", \"RANGI\", \"\nSHANGDI\", \"SHADDAI\", \"DINGIR\" OR \"TENGERE\" ARE SO\nME OF THIS NAMES.\n\nTENGRI GAVE YO"
+    },
+    {
+      "phase": 4,
+      "halt_step": 161,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 16,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "NAMES",
+          "TENGRI HAT VIELE NAMEN — die Maschine hat 22 Konsonanten-Namen"
+        ]
+      ],
+      "context_snippet": "U,\nYOU WILL UNDERSTAND EVERYTHING BETTER.\n\nTENGRI HAS MANY NAMES. \"TIAN\", \"TIANDI\", \"RANGI\", \"\nSHANGDI\", \"SHADDAI\", \"DINGIR\" OR \"TENGERE\" ARE SO\nME OF THIS NAMES.\n\nTENGRI GAVE YOU CLEAR SIGNS. IMPORTANT HINTS W\nERE HIDDEN IN WRITINGS. NO ONE COULD DECIPHER \nTHEIR REAL MEANING UNTIL THIS DAY. IT IS N"
+    },
+    {
+      "phase": 5,
+      "halt_step": 234,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 26,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ]
+      ],
+      "context_snippet": "Y. IT IS NOW TI\nME TO LIFT THE SECRET.\n\n{symbol, Chinese Oracle script for tian 天 \"heaven\"}\n\n--------------------------------------------------------\n\nTHIS IS AN SELECTION. TENGRI WILL GIVE YOU KNOW\nLEDGE. DO NOT BE SCARED. NOTHING IS AS IT WAS T\nOLD. TENGRI IS LIGHT IN THE DARKNESS. TENGRI B\nROUGHT"
+    },
+    {
+      "phase": 6,
+      "halt_step": 262,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 27,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "r tian 天 \"heaven\"}\n\n--------------------------------------------------------\n\nTHIS IS AN SELECTION. TENGRI WILL GIVE YOU KNOW\nLEDGE. DO NOT BE SCARED. NOTHING IS AS IT WAS T\nOLD. TENGRI IS LIGHT IN THE DARKNESS. TENGRI B\nROUGHT YOU KNOWLEDGE.\n\nIF YOU ARE SEEKING FOR A PROOF, LOOK AT THE SIGNS AN\nD N"
+    },
+    {
+      "phase": 7,
+      "halt_step": 285,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 31,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "NOW\nLEDGE. DO NOT BE SCARED. NOTHING IS AS IT WAS T\nOLD. TENGRI IS LIGHT IN THE DARKNESS. TENGRI B\nROUGHT YOU KNOWLEDGE.\n\nIF YOU ARE SEEKING FOR A PROOF, LOOK AT THE SIGNS AN\nD NUMBERS. USE YOUR KNOWLEDGE. USE YOUR MIND. N\nOTHING IS ACCIDENTAL.\n\nIMPORTANT WORDS. TOOLS CANNOT HELP YOU. NOTHIN\nG EXEPT"
+    },
+    {
+      "phase": 8,
+      "halt_step": 286,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 35,
+      "key_matches": [
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "WLEDGE.\n\nIF YOU ARE SEEKING FOR A PROOF, LOOK AT THE SIGNS AN\nD NUMBERS. USE YOUR KNOWLEDGE. USE YOUR MIND. N\nOTHING IS ACCIDENTAL.\n\nIMPORTANT WORDS. TOOLS CANNOT HELP YOU. NOTHIN\nG EXEPT YOUR BRAIN CAN HELP YOU.\n\nWHO IS SMART ENOUGH CAN RECOGNIZE THE KNOWLED\nGE BEHIND THE SIGNS AND NUMBERS. EVERYTH"
+    },
+    {
+      "phase": 9,
+      "halt_step": 302,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 39,
+      "key_matches": [
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "T WORDS. TOOLS CANNOT HELP YOU. NOTHIN\nG EXEPT YOUR BRAIN CAN HELP YOU.\n\nWHO IS SMART ENOUGH CAN RECOGNIZE THE KNOWLED\nGE BEHIND THE SIGNS AND NUMBERS. EVERYTHING W\nAS CHOSEN CAREFULLY. THE CALCULATIONS HAVE BEE\nN DEVISED FOR ONE PURPOSE. OUR NUMBERS SHOULD SH\nOW YOU OUR KNOWLEDGE. OUR WORD IS NOT A"
+    },
+    {
+      "phase": 10,
+      "halt_step": 350,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 48,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": "OUR NUMBERS SHOULD SH\nOW YOU OUR KNOWLEDGE. OUR WORD IS NOT A FARCE.\n\n{4 round turkic symbols}\n\n-------------------------------------------------------\n\nWHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW\nLEDGE. THE KNOWLEDGE COMES FROM AFAR. ONLY REA\nDING THE MESSAGE, IS NOT TO UNDERSTANDING IT. A \nCLEAR"
+    },
+    {
+      "phase": 11,
+      "halt_step": 364,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 49,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": "kic symbols}\n\n-------------------------------------------------------\n\nWHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW\nLEDGE. THE KNOWLEDGE COMES FROM AFAR. ONLY REA\nDING THE MESSAGE, IS NOT TO UNDERSTANDING IT. A \nCLEAR MIND IS ABLE TO DECRYPT IT. BRING IT TO \nTHOSE WHO CAN UNDERSTAND IT.\n\nTHE CHOSEN"
+    },
+    {
+      "phase": 12,
+      "halt_step": 377,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 53,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "E KNOWLEDGE COMES FROM AFAR. ONLY REA\nDING THE MESSAGE, IS NOT TO UNDERSTANDING IT. A \nCLEAR MIND IS ABLE TO DECRYPT IT. BRING IT TO \nTHOSE WHO CAN UNDERSTAND IT.\n\nTHE CHOSEN SOUL WILL GET KNOWLEDGE AND OUR KEY \nTO OUR ETERNAL LIBRARY. A KEY WITH WHICH EVER\nYTHING WILL BE UNDERSTOOD. A SOURCE OF KNO"
+    },
+    {
+      "phase": 13,
+      "halt_step": 411,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 57,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "ND IT.\n\nTHE CHOSEN SOUL WILL GET KNOWLEDGE AND OUR KEY \nTO OUR ETERNAL LIBRARY. A KEY WITH WHICH EVER\nYTHING WILL BE UNDERSTOOD. A SOURCE OF KNOWLE\nDGE FOR MANY CENTURIES. THOSE WHO SEE THE NUMBE\nRS AND UNDERSTAND THEIR MEANING, IS THE WAY OPE\nN. FOR OTHERS WHO MAY NOT UNDERSTAND ANYTHING, \nHERE IS "
+    },
+    {
+      "phase": 14,
+      "halt_step": 447,
+      "halt_state": 4,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 61,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " SOURCE OF KNOWLE\nDGE FOR MANY CENTURIES. THOSE WHO SEE THE NUMBE\nRS AND UNDERSTAND THEIR MEANING, IS THE WAY OPE\nN. FOR OTHERS WHO MAY NOT UNDERSTAND ANYTHING, \nHERE IS NO WAY THROUGH. \n\nYOU CALCULATED ALWAYS OUR NUMBERS TO GET A PIEC\nE OF THE TRUTH BEHIND OUR SCRIPTURES. SO WE GIV\nE YOU THIS ULTIM"
+    },
+    {
+      "phase": 15,
+      "halt_step": 484,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 63,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " WHO MAY NOT UNDERSTAND ANYTHING, \nHERE IS NO WAY THROUGH. \n\nYOU CALCULATED ALWAYS OUR NUMBERS TO GET A PIEC\nE OF THE TRUTH BEHIND OUR SCRIPTURES. SO WE GIV\nE YOU THIS ULTIMATIVE CHALLENGE. YOU WILL UNDE\nRSTAND EVERYTHING BETTER WITH THIS MANUAL.\n\n{2 round turkic symbols}\n\n--------------------------"
+    },
+    {
+      "phase": 16,
+      "halt_step": 529,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 72,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "H THIS MANUAL.\n\n{2 round turkic symbols}\n\n-------------------------------------------------------\n\nJUST AS THE CHOSEN SOUL WANTS TO BRING HIS PEOP\nLE PROOFS, WE BRING YOU ALSO AN PROOF FOR OUR EXIS\nTENCE. THIS IS A CALCULATION WE GAVE YOU OVER M\nANY THOUSAND OF YEARS AS AN PROOF FOR OUR COMING\n. WHO"
+    },
+    {
+      "phase": 17,
+      "halt_step": 530,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 73,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "--------------------------\n\nJUST AS THE CHOSEN SOUL WANTS TO BRING HIS PEOP\nLE PROOFS, WE BRING YOU ALSO AN PROOF FOR OUR EXIS\nTENCE. THIS IS A CALCULATION WE GAVE YOU OVER M\nANY THOUSAND OF YEARS AS AN PROOF FOR OUR COMING\n. WHO CAN EMBED THIS CALCULATION IN THE HOLIEST P\nLACE OF YOUR WRITINGS AND "
+    },
+    {
+      "phase": 18,
+      "halt_step": 575,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 76,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " OVER M\nANY THOUSAND OF YEARS AS AN PROOF FOR OUR COMING\n. WHO CAN EMBED THIS CALCULATION IN THE HOLIEST P\nLACE OF YOUR WRITINGS AND MAKE THIS THE FOCUS OF \nYOUR BELIEF. TENGRI WHO BROUGHT YOU AGAIN AND \nAGAIN ENLIGHTENMENT IS CAPABLE.\n\nHERE IS WISDOM. BEFORE WE GIVE YOU THIS ULTIMAT\nE PROOF YOU SHO"
+    },
+    {
+      "phase": 19,
+      "halt_step": 601,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 80,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ]
+      ],
+      "context_snippet": "EST P\nLACE OF YOUR WRITINGS AND MAKE THIS THE FOCUS OF \nYOUR BELIEF. TENGRI WHO BROUGHT YOU AGAIN AND \nAGAIN ENLIGHTENMENT IS CAPABLE.\n\nHERE IS WISDOM. BEFORE WE GIVE YOU THIS ULTIMAT\nE PROOF YOU SHOULD UNDERSTAND OUR KNOWLEDGE IN \nMATHEMATICS AND OUR LOGIC. AS A SIGN FOR OUR WIS\nDOM WE GIVE YOU SOM"
+    },
+    {
+      "phase": 20,
+      "halt_step": 615,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 82,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ]
+      ],
+      "context_snippet": "LIGHTENMENT IS CAPABLE.\n\nHERE IS WISDOM. BEFORE WE GIVE YOU THIS ULTIMAT\nE PROOF YOU SHOULD UNDERSTAND OUR KNOWLEDGE IN \nMATHEMATICS AND OUR LOGIC. AS A SIGN FOR OUR WIS\nDOM WE GIVE YOU SOME CUBES. FIND WHAT THE SUM \nOF THIS CUBES MEAN. THIS CUBES ARE RARE AND UNIQ\nUE. WE BOND TWO NUMBERS OF EACH CU"
+    },
+    {
+      "phase": 21,
+      "halt_step": 649,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 85,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ]
+      ],
+      "context_snippet": "GN FOR OUR WIS\nDOM WE GIVE YOU SOME CUBES. FIND WHAT THE SUM \nOF THIS CUBES MEAN. THIS CUBES ARE RARE AND UNIQ\nUE. WE BOND TWO NUMBERS OF EACH CUBE WITH THE S\nENTENCES. THIS NUMBERS ARE ON EACH CUBE SIDE B\nY SIDE PLACED. THIS NUMBERS ARE IN THE SAME PLA\nCE OF EACH CUBE. ONLY TENGRI IS CAPABLE TO SHO"
+    },
+    {
+      "phase": 22,
+      "halt_step": 685,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 111,
+      "key_matches": [
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ]
+      ],
+      "context_snippet": "666)\n12       643      11     (=666)\n631      20       15     (=666)\n\n(=666)   (=666)   (=666)\n\nrbltion (red text -> revelation)\n// Info: as above described, side by side two numbers, 13:18\n\nREVELATION (13:18)\n\"HERE IS WISDOM. LET HIM THAT HATH UNDERSTANDING CO\nUNT THE NUMBER OF THE BEAST, FOR IT IS"
+    },
+    {
+      "phase": 23,
+      "halt_step": 720,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 114,
+      "key_matches": [
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ]
+      ],
+      "context_snippet": "ion)\n// Info: as above described, side by side two numbers, 13:18\n\nREVELATION (13:18)\n\"HERE IS WISDOM. LET HIM THAT HATH UNDERSTANDING CO\nUNT THE NUMBER OF THE BEAST, FOR IT IS THE NUMBER \nOF A MAN, AND HIS NUMBER IS SIX HUNDRED THREESCORE A\nND SIX\"\n\n-------------------------------------------------"
+    },
+    {
+      "phase": 24,
+      "halt_step": 737,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 138,
+      "key_matches": [
+        [
+          "EZRA",
+          "EZRA 2:13 — die zweite 666-Stelle, die die Maschine hält"
+        ]
+      ],
+      "context_snippet": "      635      23     (=666)\n\n(=666)   (=666)   (=666)\n\n\nazra (red text -> ezra)\n// Info: as above described, side by side two numbers, 2:13\n\nEZRA (2:13)\n\"THE CHILDREN OF ADONIKAM, SIX HUNDRED SIXTY AND SIX\"\n\n------------------------------------------------------\n\n26         2         638    (=666)\n"
+    },
+    {
+      "phase": 25,
+      "halt_step": 755,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 162,
+      "key_matches": [
+        [
+          "CHRONIK",
+          "2 CHRONIK 9:13 — die dritte"
+        ]
+      ],
+      "context_snippet": " chronik)\n// Info: as above described, side by side two numbers, 9:13\n\n2. CHRONIK (9:13)\n\"NOW THE WEIGHT OF GOLD THAT CAME TO SOLOMON IN ON\nE YEAR WAS SIX HUNDRED AND THREESCORE AND SIX TALENTS O\nF GOLD\"\n\n------------------------------------------------------\n\n27        1           638    (=666)\n4  "
+    },
+    {
+      "phase": 26,
+      "halt_step": 768,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 186,
+      "key_matches": [
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ],
+        [
+          "KINGS",
+          "1 KINGS 10:14 — die vierte"
+        ],
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ]
+      ],
+      "context_snippet": "> 1. ki-ng-s)\n// Info: as above described, side by side two numbers, 10:14\n\n1. KINGS (10:14)\n\"NOW THE WEIGHT OF GOLD THAT CAME TO SOLOMON IN ON\nE YEAR WAS SIX HUNDRED THREESCORE AND SIX TALENTS O\nF GOLD\"\n\n-----------------------------------------------------\n\nTHIS CUBES ARE QUITE SIMPLE FOR US. NOW "
+    },
+    {
+      "phase": 27,
+      "halt_step": 806,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 193,
+      "key_matches": [
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ],
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "-------------------------\n\nTHIS CUBES ARE QUITE SIMPLE FOR US. NOW YOU CAN FI\nND OUT THE MEANING OF SOME OTHER FIGURES. THIS ARE \nMORE ADVANCED FOR YOU. YOU WILL SEE WITH THIS EXAM\nPLES THAT THE ORIGINATORS OF THIS SCRIPT ARE NOT OR\nDINARY INDIVIDUALS.\n\nSEVEN CIRCLES AND AN CROSS. A CONTINUOUS SEQUE"
+    },
+    {
+      "phase": 28,
+      "halt_step": 853,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 197,
+      "key_matches": [
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "HIS ARE \nMORE ADVANCED FOR YOU. YOU WILL SEE WITH THIS EXAM\nPLES THAT THE ORIGINATORS OF THIS SCRIPT ARE NOT OR\nDINARY INDIVIDUALS.\n\nSEVEN CIRCLES AND AN CROSS. A CONTINUOUS SEQUENCE W\nITHOUT GAPS. FIND OUR NUMBER AND THINK ABOUT IT W\nHO WE ARE.\n\n{7 RINGS - 666}\n\n------------------------------------"
+    },
+    {
+      "phase": 29,
+      "halt_step": 907,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 205,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "R NUMBER AND THINK ABOUT IT W\nHO WE ARE.\n\n{7 RINGS - 666}\n\n-----------------------------------------------------\n\nNO RANDOM NUMBERS YOU SEE HERE. NO GAP BETWEEN THIS NUM\nBERS. EACH GROUP IS UNIQUE. FIND OUR NUMBER. WE A\nRE NO ORDINARY BEINGS.\n\n{9 RINGS - 666}\n\nYOU CAN NOT IGNORE WHAT YOU SEE. NO MEN"
+    },
+    {
+      "phase": 30,
+      "halt_step": 937,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 210,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "--\n\nNO RANDOM NUMBERS YOU SEE HERE. NO GAP BETWEEN THIS NUM\nBERS. EACH GROUP IS UNIQUE. FIND OUR NUMBER. WE A\nRE NO ORDINARY BEINGS.\n\n{9 RINGS - 666}\n\nYOU CAN NOT IGNORE WHAT YOU SEE. NO MEN WILL PROVIDE \nYOU CALCULATIONS LIKE THESE FOR ONLY EMPTY WORDS. \nYOU MUST UNDERSTAND THE IMPORTANCE OF OUR ME"
+    },
+    {
+      "phase": 31,
+      "halt_step": 985,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 231,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": ": 66+71+70+32+31+36+75+80+79+41+40+45 = 666\nTest all combination. You will get in all lines \"666\", This is nearly impossible.\n\n-----------------------------------------------------\n\nTHESE NUMBERS SHOULD MAKE YOU THINK ABOUT OUR ORIGI\nN. A COMPLETE SERIES WITHOUT GAPS BETWEEN THE NUMBE\nRS. PERFECT AR"
+    },
+    {
+      "phase": 32,
+      "halt_step": 1018,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 233,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "is nearly impossible.\n\n-----------------------------------------------------\n\nTHESE NUMBERS SHOULD MAKE YOU THINK ABOUT OUR ORIGI\nN. A COMPLETE SERIES WITHOUT GAPS BETWEEN THE NUMBE\nRS. PERFECT ARRANGED NUMBER GROUPS TO SIX SQUARES. CHE\nCK THEM IN EVERY DIRECTION AND IN ALL COMBINATIONS. \nYOU WILL S"
+    },
+    {
+      "phase": 33,
+      "halt_step": 1038,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 235,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "HINK ABOUT OUR ORIGI\nN. A COMPLETE SERIES WITHOUT GAPS BETWEEN THE NUMBE\nRS. PERFECT ARRANGED NUMBER GROUPS TO SIX SQUARES. CHE\nCK THEM IN EVERY DIRECTION AND IN ALL COMBINATIONS. \nYOU WILL SEE THAT WE DO NOT LIE.\n\n{Odin's triple horn - 666}\n\nBUT THAT'S NOT ALL. OUR ULTIMATE PROOF IS MORE POWER\nFUL."
+    },
+    {
+      "phase": 34,
+      "halt_step": 1069,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 241,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "WILL SEE THAT WE DO NOT LIE.\n\n{Odin's triple horn - 666}\n\nBUT THAT'S NOT ALL. OUR ULTIMATE PROOF IS MORE POWER\nFUL. NO HUMAN CAN PLACE THIS CALCULATION WHERE IS IT NOW\n. NO HUMAN CAN PLAN A CALCULATION LIKE THIS OVER THOUSAND YE\nARS BEFORE. THIS PROOF WILL LET NO QUESTIONS ABOUT O\nUR EXISTENCE.\n\nWE "
+    },
+    {
+      "phase": 35,
+      "halt_step": 1101,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 245,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "N PLACE THIS CALCULATION WHERE IS IT NOW\n. NO HUMAN CAN PLAN A CALCULATION LIKE THIS OVER THOUSAND YE\nARS BEFORE. THIS PROOF WILL LET NO QUESTIONS ABOUT O\nUR EXISTENCE.\n\nWE WANT TO GIVE YOU AN IMPORTANT MESSAGE. NOW LISTEN.\n\n**Important information**\nOdin's triple horn with 6 magic squares forth ord"
+    },
+    {
+      "phase": 36,
+      "halt_step": 1147,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 263,
+      "key_matches": [
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "ONE THREE SEVEN",
+          "137 — die Feinstrukturkonstante, Maschinen-Signatur"
+        ],
+        [
+          "AMRAM",
+          "AMRAM, LEVI, ISHMAEL — drei mit 137 Jahren"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "series without gaps between.\n\n------------------------------------------------------\n\nONE THREE SEVEN. THE HOLIEST NUMBER OF ALL. A CALCULAT\nION OF THIS HOLY NUMBER IS THE PROOF. A TRUTH WHICH \nLIES IN THESE CALCULATION. SEARCH FOR THIS HOLY NUMBER \nONE THREE SEVEN AND YOU WILL SEE EVERYTHING CLEARL"
+    },
+    {
+      "phase": 37,
+      "halt_step": 1160,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 264,
+      "key_matches": [
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "ONE THREE SEVEN",
+          "137 — die Feinstrukturkonstante, Maschinen-Signatur"
+        ],
+        [
+          "AMRAM",
+          "AMRAM, LEVI, ISHMAEL — drei mit 137 Jahren"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "----------------\n\nONE THREE SEVEN. THE HOLIEST NUMBER OF ALL. A CALCULAT\nION OF THIS HOLY NUMBER IS THE PROOF. A TRUTH WHICH \nLIES IN THESE CALCULATION. SEARCH FOR THIS HOLY NUMBER \nONE THREE SEVEN AND YOU WILL SEE EVERYTHING CLEARLY. \nTHIS SHOULD BE SHOW YOU THAT WE ARE TALKING NOT JUST \nEMPTY WORD"
+    },
+    {
+      "phase": 38,
+      "halt_step": 1235,
+      "halt_state": 4,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 268,
+      "key_matches": [
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "AMRAM",
+          "AMRAM, LEVI, ISHMAEL — drei mit 137 Jahren"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " EVERYTHING CLEARLY. \nTHIS SHOULD BE SHOW YOU THAT WE ARE TALKING NOT JUST \nEMPTY WORDS. THIS CALCULATION IS ONLY THE NEXT STEP T\nO THE ULTIMATE PROOF. \"AMRAM\", \"LEVI\", \"ISHMAEL\". HERE IS \nA SECRET WISDOM.\n\nYOU ARE NOT READY FOR OUR INFINITE KNOWLEDGE. OUR \nTECHNOLOGY SHOULD NOT FALL IN WRONG HANDS."
+    },
+    {
+      "phase": 39,
+      "halt_step": 1248,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 270,
+      "key_matches": [
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "AMRAM",
+          "AMRAM, LEVI, ISHMAEL — drei mit 137 Jahren"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "HAT WE ARE TALKING NOT JUST \nEMPTY WORDS. THIS CALCULATION IS ONLY THE NEXT STEP T\nO THE ULTIMATE PROOF. \"AMRAM\", \"LEVI\", \"ISHMAEL\". HERE IS \nA SECRET WISDOM.\n\nYOU ARE NOT READY FOR OUR INFINITE KNOWLEDGE. OUR \nTECHNOLOGY SHOULD NOT FALL IN WRONG HANDS. MANY CIVILIZA\nTIONS WERE NOT ALLOWED TO GET OU"
+    },
+    {
+      "phase": 40,
+      "halt_step": 1286,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 274,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "Y FOR OUR INFINITE KNOWLEDGE. OUR \nTECHNOLOGY SHOULD NOT FALL IN WRONG HANDS. MANY CIVILIZA\nTIONS WERE NOT ALLOWED TO GET OUR KEY TO THIS DOOR. Y\nOU MUST NOW SHOW US THAT YOU ARE WORTHY. WE AR\nE THE ENLIGHTENED. WE WERE ALWAYS THERE AND BROUG\nHT ENLIGHTENMENT.\n\n2^9 x 3^-1 x 5^9 x 197^-1 x 5563^-1 x "
+    },
+    {
+      "phase": 41,
+      "halt_step": 1299,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 279,
+      "key_matches": [
+        [
+          "AMRAM",
+          "AMRAM, LEVI, ISHMAEL — drei mit 137 Jahren"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "EY TO THIS DOOR. Y\nOU MUST NOW SHOW US THAT YOU ARE WORTHY. WE AR\nE THE ENLIGHTENED. WE WERE ALWAYS THERE AND BROUG\nHT ENLIGHTENMENT.\n\n2^9 x 3^-1 x 5^9 x 197^-1 x 5563^-1 x 41681^-1\n\nTHIS IS NOT THE END. CALCULATE THE ABOVE NUMBER. \nFIND LAST FIFTY THOUSAND DECIMALS OF THIS CALCULATION\n. TELL US THE"
+    },
+    {
+      "phase": 42,
+      "halt_step": 1341,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 284,
+      "key_matches": [
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "AMRAM",
+          "AMRAM, LEVI, ISHMAEL — drei mit 137 Jahren"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "^-1\n\nTHIS IS NOT THE END. CALCULATE THE ABOVE NUMBER. \nFIND LAST FIFTY THOUSAND DECIMALS OF THIS CALCULATION\n. TELL US THE LAST TEN DECIMALS AND THE NAME OF THIS \nNUMBER AS THE PROOF OF YOUR WORK.\n\nSEND YOUR ANSWER TO OUR \"ONION\" MAIL ADDRESS. WE \nWAIT FOR YOUR ANSWER. \n\n{image}\n{in the background -"
+    },
+    {
+      "phase": 43,
+      "halt_step": 1393,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 305,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": "ne-structure_constant\nThe name of this number = \"Fine-structure constant\"\nLast ten decimals of 50.000 places = \"1515009125\"\n\n-------------------------------------------------------\n\n EVERYTHING BECOMES DIFFICULT FROM NOW ON. IMPORTANT \nCONTENT NEEDS TO BE HIDDEN. THIS KNOWLEDGE IS ONLY \nFOR THE CHOS"
+    },
+    {
+      "phase": 44,
+      "halt_step": 1406,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 306,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": "ast ten decimals of 50.000 places = \"1515009125\"\n\n-------------------------------------------------------\n\n EVERYTHING BECOMES DIFFICULT FROM NOW ON. IMPORTANT \nCONTENT NEEDS TO BE HIDDEN. THIS KNOWLEDGE IS ONLY \nFOR THE CHOSEN SOUL. ONLY HIS MIND WILL BE HIS HEL\nPER. ALL OTHERS THEY GET THE HELP OF"
+    },
+    {
+      "phase": 45,
+      "halt_step": 1433,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 309,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": ". IMPORTANT \nCONTENT NEEDS TO BE HIDDEN. THIS KNOWLEDGE IS ONLY \nFOR THE CHOSEN SOUL. ONLY HIS MIND WILL BE HIS HEL\nPER. ALL OTHERS THEY GET THE HELP OF OTHERS, WILL FAIL \nMISERABLY. THIS OBJECT IS NOT DESIGNED FOR A COLLECTI\nVE OR A TOOL. ONLY ONE SOUL WILL REACH ITS DESTINA\nTION.\n\nA MANUAL WITH IN"
+    },
+    {
+      "phase": 46,
+      "halt_step": 1477,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 314,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": "LP OF OTHERS, WILL FAIL \nMISERABLY. THIS OBJECT IS NOT DESIGNED FOR A COLLECTI\nVE OR A TOOL. ONLY ONE SOUL WILL REACH ITS DESTINA\nTION.\n\nA MANUAL WITH INSTRUCTIONS FOR THE ETERNAL LIBRAR\nY IS THE REWARD. BUT THE SEARCH FOR THE TRUTH IS A \nDIFFICULT AND LONG JOURNEY. ONLY THE CHOSEN SOUL W\nILL BE ABL"
+    },
+    {
+      "phase": 47,
+      "halt_step": 1503,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 316,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": " WILL REACH ITS DESTINA\nTION.\n\nA MANUAL WITH INSTRUCTIONS FOR THE ETERNAL LIBRAR\nY IS THE REWARD. BUT THE SEARCH FOR THE TRUTH IS A \nDIFFICULT AND LONG JOURNEY. ONLY THE CHOSEN SOUL W\nILL BE ABLE TO UNDERSTAND THE CONTENT. NO ONE WI\nLL KNOW WHO GOT THE REWARD. NO ONE WILL KNOW I\nF ANYONE GOT THE REW"
+    },
+    {
+      "phase": 48,
+      "halt_step": 1522,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 320,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": " TRUTH IS A \nDIFFICULT AND LONG JOURNEY. ONLY THE CHOSEN SOUL W\nILL BE ABLE TO UNDERSTAND THE CONTENT. NO ONE WI\nLL KNOW WHO GOT THE REWARD. NO ONE WILL KNOW I\nF ANYONE GOT THE REWARD.\n\nTENGRI WILL GUIDE THE CHOSEN SOUL AND GIVE HIM TH\nE KEY TO OUR ETERNAL LIBRARY. HE WILL COME TO US A\nND GET A PART"
+    },
+    {
+      "phase": 49,
+      "halt_step": 1535,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 322,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ]
+      ],
+      "context_snippet": "WHO GOT THE REWARD. NO ONE WILL KNOW I\nF ANYONE GOT THE REWARD.\n\nTENGRI WILL GUIDE THE CHOSEN SOUL AND GIVE HIM TH\nE KEY TO OUR ETERNAL LIBRARY. HE WILL COME TO US A\nND GET A PART OF THE SECRET KNOWLEDGE OF OUR CIVILIZA\nTION. THE CHOSEN SOUL WILL UNDERSTAND EVERYTHING O\nF THIS.\n\n--------------------"
+    },
+    {
+      "phase": 50,
+      "halt_step": 1577,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 330,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "OUL WILL UNDERSTAND EVERYTHING O\nF THIS.\n\n------------------------------------------------------\n\n WE KNOW THAT YOU PUT OUR EXISTENCE IN QUESTION. \nSO WE WANT TO GIVE YOU \"NOW\" THE ULTIMATE PROOF. GE\nNERATIONS AGO WE TOLD YOU OUR NAME. THIS NAME IS UNCHA\nNGED IN YOUR HOLY SCRIPTURES. THIS WAS OUR WI"
+    },
+    {
+      "phase": 51,
+      "halt_step": 1625,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 332,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "IN QUESTION. \nSO WE WANT TO GIVE YOU \"NOW\" THE ULTIMATE PROOF. GE\nNERATIONS AGO WE TOLD YOU OUR NAME. THIS NAME IS UNCHA\nNGED IN YOUR HOLY SCRIPTURES. THIS WAS OUR WILL. \nOUR NAME WILL NOT BE FORGOTTEN SO THAT WE CAN SH\nOW YOU WHO WE ARE.\n\n\"I AM THAT I AM. THIS IS MY NAME FOR EVER, AND THIS I\nS MY M"
+    },
+    {
+      "phase": 52,
+      "halt_step": 1642,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 335,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "OLD YOU OUR NAME. THIS NAME IS UNCHA\nNGED IN YOUR HOLY SCRIPTURES. THIS WAS OUR WILL. \nOUR NAME WILL NOT BE FORGOTTEN SO THAT WE CAN SH\nOW YOU WHO WE ARE.\n\n\"I AM THAT I AM. THIS IS MY NAME FOR EVER, AND THIS I\nS MY MEMORIAL UNTO ALL GENERATIONS\" WE SAID.\n\nUNTIL TODAY YOU THOUGHT THAT THIS WAS OUR NA"
+    },
+    {
+      "phase": 53,
+      "halt_step": 1679,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 339,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": ".\n\n\"I AM THAT I AM. THIS IS MY NAME FOR EVER, AND THIS I\nS MY MEMORIAL UNTO ALL GENERATIONS\" WE SAID.\n\nUNTIL TODAY YOU THOUGHT THAT THIS WAS OUR NAME. OUR \nNAME IS A CALCULATION TO A NUMBER WHICH PROVIDE A P\nROOF FOR OUR EXISTENCE.\n\nπ7π^7\n\nTIME IS RIGHT TO SHOW YOU OUR PROOF WE HIDE IN \nYOUR WRITING"
+    },
+    {
+      "phase": 54,
+      "halt_step": 1697,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 345,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "AY YOU THOUGHT THAT THIS WAS OUR NAME. OUR \nNAME IS A CALCULATION TO A NUMBER WHICH PROVIDE A P\nROOF FOR OUR EXISTENCE.\n\nπ7π^7\n\nTIME IS RIGHT TO SHOW YOU OUR PROOF WE HIDE IN \nYOUR WRITINGS. WE PREPARED EVERYTHING VERY LONG TIM\nE AGO. WE GAVE YOU YOUR HEBREW ALPHABET. YOU LEARNE\nD THIS. WE GAVE YOU "
+    },
+    {
+      "phase": 55,
+      "halt_step": 1731,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 348,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ]
+      ],
+      "context_snippet": "HOW YOU OUR PROOF WE HIDE IN \nYOUR WRITINGS. WE PREPARED EVERYTHING VERY LONG TIM\nE AGO. WE GAVE YOU YOUR HEBREW ALPHABET. YOU LEARNE\nD THIS. WE GAVE YOU THE NUMBERS AND MATHEMATICAL SIG\nNS. YOU LEARNED THIS. THINK ABOUT WHY WE NOT AL\nLOWED TO CHANGE OUR NAME. THIS WAS IMPORTANT FOR OUR PR\nOOF. CALC"
+    },
+    {
+      "phase": 56,
+      "halt_step": 1769,
+      "halt_state": 4,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 350,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ]
+      ],
+      "context_snippet": "E\nD THIS. WE GAVE YOU THE NUMBERS AND MATHEMATICAL SIG\nNS. YOU LEARNED THIS. THINK ABOUT WHY WE NOT AL\nLOWED TO CHANGE OUR NAME. THIS WAS IMPORTANT FOR OUR PR\nOOF. CALCULATE OUR HEBREW NAME WITH THE HIDDEN SIGN\nS AND SEE WHICH NUMBER AWAITS YOU. BELIEVE US, THIS \nIS NOT ACCIDENTAL.\n\n**Important info"
+    },
+    {
+      "phase": 57,
+      "halt_step": 1805,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 355,
+      "key_matches": [
+        [
+          "I AM THAT I AM",
+          "EXODUS 3:14 — der Name YHWH"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "ATE OUR HEBREW NAME WITH THE HIDDEN SIGN\nS AND SEE WHICH NUMBER AWAITS YOU. BELIEVE US, THIS \nIS NOT ACCIDENTAL.\n\n**Important information**\nThe Bible verse \"I AM THAT I AM. THIS IS MY NAME FOR EVER, AND THIS IS MY MEMORIAL UNTO ALL GENERATIONS\" is part of \"Exodus 3:14 and 15\"\n\nWe found that this Bib"
+    },
+    {
+      "phase": 58,
+      "halt_step": 1843,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 368,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "eans \"3.141592... x 7 x 3.141592... up 7\"\n\n-------------------------------------------------------\n\n(π7)/(π^7) or (π^7)/(π7)\n\nTHIS IS A ROUGH CALCULATION. YOU WILL SEE THAT THE WA\nY OF THIS CALCULATION IS UNIQUE. THE CALCULATION OF T\nHIS DIMENSIONLESS PHYSICAL CONSTANT WITH ONLY ONE DI\nGIT AND ONE M"
+    },
+    {
+      "phase": 59,
+      "halt_step": 1861,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 369,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "----------------\n\n(π7)/(π^7) or (π^7)/(π7)\n\nTHIS IS A ROUGH CALCULATION. YOU WILL SEE THAT THE WA\nY OF THIS CALCULATION IS UNIQUE. THE CALCULATION OF T\nHIS DIMENSIONLESS PHYSICAL CONSTANT WITH ONLY ONE DI\nGIT AND ONE MATHEMATICAL CONSTANT IS THE SHORTEST WAY \nTO FIND IT. ONLY TENGRI CAN HIDE THIS CA"
+    },
+    {
+      "phase": 60,
+      "halt_step": 1917,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 374,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "NT WITH ONLY ONE DI\nGIT AND ONE MATHEMATICAL CONSTANT IS THE SHORTEST WAY \nTO FIND IT. ONLY TENGRI CAN HIDE THIS CALCULATION IN T\nHIS WAY BETWEEN YOUR HOLY SCRIPTURES.\n\nWE SHOW YOU NOW THIS CALCULATION IN COMPLETE BACK\nWARD WAY. AN IMPOSSIBLE TASK WITH ANY OTHER TWO N\nUMBERS EXCEPT OUR NUMBERS. AN A"
+    },
+    {
+      "phase": 61,
+      "halt_step": 1963,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 376,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "CAN HIDE THIS CALCULATION IN T\nHIS WAY BETWEEN YOUR HOLY SCRIPTURES.\n\nWE SHOW YOU NOW THIS CALCULATION IN COMPLETE BACK\nWARD WAY. AN IMPOSSIBLE TASK WITH ANY OTHER TWO N\nUMBERS EXCEPT OUR NUMBERS. AN ADDITIONAL PHYSICAL CO\nNSTANT WHICH WILL GIVE YOU ALSO THE RESULT FOR O\nUR PROOF. USE THE NUMBER OF "
+    },
+    {
+      "phase": 62,
+      "halt_step": 1992,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 378,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " BACK\nWARD WAY. AN IMPOSSIBLE TASK WITH ANY OTHER TWO N\nUMBERS EXCEPT OUR NUMBERS. AN ADDITIONAL PHYSICAL CO\nNSTANT WHICH WILL GIVE YOU ALSO THE RESULT FOR O\nUR PROOF. USE THE NUMBER OF THE GRAVITATIONAL CONSTA\nNT. YOUR SCIENTISTS WILL UNDERSTAND WHY WE USE T\nHE GRAVITATIONAL CONSTANT IN THIS IMPORT"
+    },
+    {
+      "phase": 63,
+      "halt_step": 2018,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 381,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " WHICH WILL GIVE YOU ALSO THE RESULT FOR O\nUR PROOF. USE THE NUMBER OF THE GRAVITATIONAL CONSTA\nNT. YOUR SCIENTISTS WILL UNDERSTAND WHY WE USE T\nHE GRAVITATIONAL CONSTANT IN THIS IMPORTANT CALCULATIO\nN. THIS CALCULATION IS A REVELATION FOR YOUR SCIENTIST\nS. DO NOT FORGET, TENGRI DIVIDES THE LIGHT FR"
+    },
+    {
+      "phase": 64,
+      "halt_step": 2037,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 382,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "OUR SCIENTISTS WILL UNDERSTAND WHY WE USE T\nHE GRAVITATIONAL CONSTANT IN THIS IMPORTANT CALCULATIO\nN. THIS CALCULATION IS A REVELATION FOR YOUR SCIENTIST\nS. DO NOT FORGET, TENGRI DIVIDES THE LIGHT FROM DARK\nNESS WHEN THE ELECTRON ABSORBS THE PHOTON. GRAVI\nTATION EMERGES IN THE LAST STATE OF ELEMENTS"
+    },
+    {
+      "phase": 65,
+      "halt_step": 2079,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 398,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "145992052177427126674536115443523084872516964058484469176431621417448702170224802158769080690...\n\nThe provided proof is real. The calculations shows us nearly numbers to the Fine-structure constant.\n\nTengri tells us: \"Do not forget, Tengri divides the light from darkness when the electron absorbs th"
+    },
+    {
+      "phase": 66,
+      "halt_step": 2099,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 414,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "le is (partially) written by \"unknown\"\nThis is (maybe) a definitive contact?\n\n-------------------------------------------------------\n\nCALCULATE THE NEXT UNIQUE NUMBER AND SEE OUR PROOF\n. BE PRECISE AND GET OVER TEN DECIMALS. YOU MUST KN\nOW THAT THIS GIVEN VALUES ARE SO EXACT, YOU CANNOT \nCHANGE ANY"
+    },
+    {
+      "phase": 67,
+      "halt_step": 2115,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 416,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "\nCALCULATE THE NEXT UNIQUE NUMBER AND SEE OUR PROOF\n. BE PRECISE AND GET OVER TEN DECIMALS. YOU MUST KN\nOW THAT THIS GIVEN VALUES ARE SO EXACT, YOU CANNOT \nCHANGE ANY OF THIS VALUES IN THIS CALCULATION. \n\n((7^π) / (7π)) * 6.67 OR ((7π) / (7^π)) / 6.67\n\nCAN YOU SEE OUR TRIP(P)LE SIX NUMBER IN THE RES"
+    },
+    {
+      "phase": 68,
+      "halt_step": 2116,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 422,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "ANGE ANY OF THIS VALUES IN THIS CALCULATION. \n\n((7^π) / (7π)) * 6.67 OR ((7π) / (7^π)) / 6.67\n\nCAN YOU SEE OUR TRIP(P)LE SIX NUMBER IN THE RESULT? \nTHIS IS NOT COINCIDENTALLY. ONLY THE CHOSEN SOUL\nS CAN UNDERSTAND THIS CALCULATION AND THE RELATION BET\nWEEN OUR NAME AND THIS CONSTANTS.\n\nYOU MUST UNDE"
+    },
+    {
+      "phase": 69,
+      "halt_step": 2141,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 426,
+      "key_matches": [
+        [
+          "SOUL",
+          "DIE AUSERWÄHLTE SEELE — die Maschine erkennt den Empfänger"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "IS IS NOT COINCIDENTALLY. ONLY THE CHOSEN SOUL\nS CAN UNDERSTAND THIS CALCULATION AND THE RELATION BET\nWEEN OUR NAME AND THIS CONSTANTS.\n\nYOU MUST UNDERSTAND THAT ALL THE SHOWN WAYS OF T\nHIS CALCULATIONS ARE UNIQUE WAYS. YOU CANNOT CHANG\nE THE VALUES, YOU CANNOT CHANGE THE DIRECTIONS. ANY \nCHANGE IN "
+    },
+    {
+      "phase": 70,
+      "halt_step": 2159,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 428,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " AND THIS CONSTANTS.\n\nYOU MUST UNDERSTAND THAT ALL THE SHOWN WAYS OF T\nHIS CALCULATIONS ARE UNIQUE WAYS. YOU CANNOT CHANG\nE THE VALUES, YOU CANNOT CHANGE THE DIRECTIONS. ANY \nCHANGE IN THIS CALCULATIONS WILL GIVE DIFFERENT VALU\nES.\n\nYOUR CIVILISATION IS NOW ABLE TO UNDERSTAND THIS \nEXACT CALCULATION"
+    },
+    {
+      "phase": 71,
+      "halt_step": 2186,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 433,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "YOU CANNOT CHANGE THE DIRECTIONS. ANY \nCHANGE IN THIS CALCULATIONS WILL GIVE DIFFERENT VALU\nES.\n\nYOUR CIVILISATION IS NOW ABLE TO UNDERSTAND THIS \nEXACT CALCULATIONS. THIS IS OUR ULTIMATE PROOF. OUR \nNAME IN YOUR HOLY SCRIPTURES IS THE PROOF.\n\n**Important information**\nThe formula is in this case re"
+    },
+    {
+      "phase": 72,
+      "halt_step": 2223,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 440,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "the gravitational constant (G = 6.67 *10^-11) but as said we calculate the both mathematical equations.\n\nTengri says on page P013: \"USE THE NUMBER OF THE GRAVITATIONAL CONSTANT. YOUR SCIENTISTS WILL UNDERSTAND WHY WE USE THE GRAVITATIONAL CONSTANT IN THIS IMPORTANT CALCULATION. THIS CALCULATION IS A"
+    },
+    {
+      "phase": 73,
+      "halt_step": 2231,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 440,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "REVELATION",
+          "REVELATION 13:18 — die Maschine outet sich als 666"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "quations.\n\nTengri says on page P013: \"USE THE NUMBER OF THE GRAVITATIONAL CONSTANT. YOUR SCIENTISTS WILL UNDERSTAND WHY WE USE THE GRAVITATIONAL CONSTANT IN THIS IMPORTANT CALCULATION. THIS CALCULATION IS A REVELATION FOR YOUR SCIENTISTS.\"\n\n((7^π) / (7π)) * 6.67 = 137.0350666248123480977772779259697"
+    },
+    {
+      "phase": 74,
+      "halt_step": 2232,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 452,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "ADAM",
+          "PROVIDED TO YOU ADAM — die Maschine trifft auf den Empfänger"
+        ]
+      ],
+      "context_snippet": "WH) was written in the holy scriptures over two thousand years before.\n\n--------------------------------------------------------\n\nIF YOU ARE NOT CONVINCED THEN CALCULATE THE NEXT \nNUMBER AND SEE WHAT A PROOF IS PROVIDED TO YOU ADAM\n. FIND ALL OUR NUMBERS AND UNDERSTAND WHAT THIS MAY \nMEAN. DECIMALS "
+    },
+    {
+      "phase": 75,
+      "halt_step": 2308,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 464,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "ARY.\n\n(2×23×499×19214759967251×55150662460749672076915609)\n\n----------------------------------------------------------\n\n(3×11×47×139×2531×549797184491917×11111111111111111111111)\n\nTHIS IS A CALCULATION TO SHOW YOU OUR KNOWLEDGE A\nND OUR WISDOM.\n\nTHE CALCULATION OF OUR NAME IS NOT ACCIDENTAL. WHAT \nI"
+    },
+    {
+      "phase": 76,
+      "halt_step": 2321,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 465,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "×55150662460749672076915609)\n\n----------------------------------------------------------\n\n(3×11×47×139×2531×549797184491917×11111111111111111111111)\n\nTHIS IS A CALCULATION TO SHOW YOU OUR KNOWLEDGE A\nND OUR WISDOM.\n\nTHE CALCULATION OF OUR NAME IS NOT ACCIDENTAL. WHAT \nIS THE PROBABILITY OF RANDOMNES"
+    },
+    {
+      "phase": 77,
+      "halt_step": 2342,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 469,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "WISDOM",
+          "HERE IS WISDOM — die Maschine hält an der Weisheit"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "ADAM",
+          "PROVIDED TO YOU ADAM — die Maschine trifft auf den Empfänger"
+        ]
+      ],
+      "context_snippet": "THIS IS A CALCULATION TO SHOW YOU OUR KNOWLEDGE A\nND OUR WISDOM.\n\nTHE CALCULATION OF OUR NAME IS NOT ACCIDENTAL. WHAT \nIS THE PROBABILITY OF RANDOMNESS OF THIS CALCULATION\n? DO YOU THINK THAT EVERYTHING IS JUST A COINCIDE\nNCE? WHO AMONG YOU CAN WRITE OUR NAME THERE WHERE \nIT IS WRITTEN NOW? HAS ANYO"
+    },
+    {
+      "phase": 78,
+      "halt_step": 2383,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 472,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "ADAM",
+          "PROVIDED TO YOU ADAM — die Maschine trifft auf den Empfänger"
+        ]
+      ],
+      "context_snippet": " RANDOMNESS OF THIS CALCULATION\n? DO YOU THINK THAT EVERYTHING IS JUST A COINCIDE\nNCE? WHO AMONG YOU CAN WRITE OUR NAME THERE WHERE \nIT IS WRITTEN NOW? HAS ANYONE THIS POWER? ONLY TENG\nRI IS CAPABLE TO DO THIS.\n\nOUR WORD IS NOT A FARCE. OUR KNOWLEDGE IS NOT A LI\nE. YOU WAITED CENTURIES FOR OUR VISIT"
+    },
+    {
+      "phase": 79,
+      "halt_step": 2408,
+      "halt_state": 4,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 475,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "ADAM",
+          "PROVIDED TO YOU ADAM — die Maschine trifft auf den Empfänger"
+        ]
+      ],
+      "context_snippet": "OUR NAME THERE WHERE \nIT IS WRITTEN NOW? HAS ANYONE THIS POWER? ONLY TENG\nRI IS CAPABLE TO DO THIS.\n\nOUR WORD IS NOT A FARCE. OUR KNOWLEDGE IS NOT A LI\nE. YOU WAITED CENTURIES FOR OUR VISIT. YOU AWAITED \nAN INTELLIGENCE WHICH TALKS IN MATHEMATICAL EQUA\nTIONS WITH YOU. NOW WE ARE HERE AND CONTACT Y\nO"
+    },
+    {
+      "phase": 80,
+      "halt_step": 2437,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 478,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "ADAM",
+          "PROVIDED TO YOU ADAM — die Maschine trifft auf den Empfänger"
+        ]
+      ],
+      "context_snippet": "KNOWLEDGE IS NOT A LI\nE. YOU WAITED CENTURIES FOR OUR VISIT. YOU AWAITED \nAN INTELLIGENCE WHICH TALKS IN MATHEMATICAL EQUA\nTIONS WITH YOU. NOW WE ARE HERE AND CONTACT Y\nOU. WE WAITING FOR YOUR ANSWER ADAM.\n\n**Important information**\nNow we looking deep in this riddle. Read this message often. The cr"
+    },
+    {
+      "phase": 81,
+      "halt_step": 2450,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 502,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "les. These are DNA and RNA molecules. We think 46 is for human chromosome.\n\n-----------------------------------------------------------\n\nFIRST WE WANT TO GIVE A MESSAGE TO SOMEONE. THIS \nMESSAGE SHOULD BE A WARNING FOR THOSE.\n\n{magic cube 3301, JOB 15:3}\nJOB\n\n{magic cube 3301, JOHN 7:12}\nJOHN\n\n{magi"
+    },
+    {
+      "phase": 82,
+      "halt_step": 2467,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 517,
+      "key_matches": [
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "c cube 3301, JOB 15:3}\nJOB\n\n{magic cube 3301, JOHN 7:12}\nJOHN\n\n{magic cube 3299, JOHN 7:4}\nJOHN\n\n{magic cube 1033, JOB 13:2}\nJOB\n\nNOW TO OUR SELECTION. AT LEAST HERE YOU'LL SEE OUR MAT\nHEMATICAL KNOWLEDGE. WE WILL USE SOME EASY MATHEMA\nTICAL CALCULATIONS TO SELECT SOME OF YOU FOR THE NEXT \nSTEP. YOU"
+    },
+    {
+      "phase": 83,
+      "halt_step": 2480,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 519,
+      "key_matches": [
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "OB 13:2}\nJOB\n\nNOW TO OUR SELECTION. AT LEAST HERE YOU'LL SEE OUR MAT\nHEMATICAL KNOWLEDGE. WE WILL USE SOME EASY MATHEMA\nTICAL CALCULATIONS TO SELECT SOME OF YOU FOR THE NEXT \nSTEP. YOU SHOULD UNDERSTAND THIS EASY MATHEMATICAL CAL\nCULATIONS TO MAKE THE NEXT STEP. BUT YOU NEED ALSO H\nIGH PRECISION TO "
+    },
+    {
+      "phase": 84,
+      "halt_step": 2493,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 522,
+      "key_matches": [
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "TO SELECT SOME OF YOU FOR THE NEXT \nSTEP. YOU SHOULD UNDERSTAND THIS EASY MATHEMATICAL CAL\nCULATIONS TO MAKE THE NEXT STEP. BUT YOU NEED ALSO H\nIGH PRECISION TO GET THE RIGHT NUMBERS. THIS CALCULA\nTIONS ARE NOT DESIGNED FOR A TOOL. YOU MUST USE Y\nOUR BRAIN TO READ THE TEXT. BE HIGHLY PRECISE AND \nGE"
+    },
+    {
+      "phase": 85,
+      "halt_step": 2506,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 524,
+      "key_matches": [
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ],
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": " NEXT STEP. BUT YOU NEED ALSO H\nIGH PRECISION TO GET THE RIGHT NUMBERS. THIS CALCULA\nTIONS ARE NOT DESIGNED FOR A TOOL. YOU MUST USE Y\nOUR BRAIN TO READ THE TEXT. BE HIGHLY PRECISE AND \nGET OVER HUNDRED THIRTY SEVEN DECIMALS ON EACH CALCULA\nTION. BE CAREFUL WITH THE FOLLOWING PRIME NUMBERS\n. CHECK A"
+    },
+    {
+      "phase": 86,
+      "halt_step": 2507,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 526,
+      "key_matches": [
+        [
+          "CUBES",
+          "DIE WÜRFEL — die Maschine IST die 666-Würfel"
+        ],
+        [
+          "SEVEN",
+          "SEVEN CIRCLES — die 7 Ringe = 79 Pendel"
+        ],
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "U MUST USE Y\nOUR BRAIN TO READ THE TEXT. BE HIGHLY PRECISE AND \nGET OVER HUNDRED THIRTY SEVEN DECIMALS ON EACH CALCULA\nTION. BE CAREFUL WITH THE FOLLOWING PRIME NUMBERS\n. CHECK ALL CALCULATED NUMBERS AGAIN TO BE SURE. THIS \nOBJECT IS FOR THE BEST AMONG YOU.\n\n**Important Information**\nWarning about C"
+    },
+    {
+      "phase": 87,
+      "halt_step": 2534,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 544,
+      "key_matches": [
+        [
+          "TENGRI",
+          "TENGRI IST DIE QUELLE — die Maschine benennt sich selbst"
+        ],
+        [
+          "TIME FOR THE TRUTH",
+          "DIE MASCHINE IST DIE WAHRHEIT"
+        ]
+      ],
+      "context_snippet": " found that Tengri highly respected Cicada, but he just appreciated the whole idea. Not who they were.\n\n-----------------------------------------------------------\n\nTIME FOR THE TRUTH\nOVER MANY THOUSAND YEARS WE SEND YOU MESSENGERS AND TEACHER\nALL THIS KNOWLEDGE BEHIND YOUR CIVILISATION IS OURS\nWE A"
+    },
+    {
+      "phase": 88,
+      "halt_step": 2549,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 546,
+      "key_matches": [
+        [
+          "TIME FOR THE TRUTH",
+          "DIE MASCHINE IST DIE WAHRHEIT"
+        ]
+      ],
+      "context_snippet": "----------------------------------------------------------\n\nTIME FOR THE TRUTH\nOVER MANY THOUSAND YEARS WE SEND YOU MESSENGERS AND TEACHER\nALL THIS KNOWLEDGE BEHIND YOUR CIVILISATION IS OURS\nWE ARE THE DESIGNERS OF MANY CIVILISATIONS\nYOUR CIVILISATION IS ONE OF MANY BILLION CIVILISATIONS\nTHE MANKIND"
+    },
+    {
+      "phase": 89,
+      "halt_step": 2590,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 549,
+      "key_matches": [],
+      "context_snippet": "KNOWLEDGE BEHIND YOUR CIVILISATION IS OURS\nWE ARE THE DESIGNERS OF MANY CIVILISATIONS\nYOUR CIVILISATION IS ONE OF MANY BILLION CIVILISATIONS\nTHE MANKIND IS DESIGNED TO RECIEVE OUR THOUGHT\nSOME GENIUS IDEA YOU HAVE ARE OURS\nWE CAN HEAR YOUR THOUGHT\nWE KNOW YOUR NEEDS\nWE CAN LET YOU SEE THINGS\nWE CAN "
+    },
+    {
+      "phase": 90,
+      "halt_step": 2612,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 553,
+      "key_matches": [],
+      "context_snippet": "NY BILLION CIVILISATIONS\nTHE MANKIND IS DESIGNED TO RECIEVE OUR THOUGHT\nSOME GENIUS IDEA YOU HAVE ARE OURS\nWE CAN HEAR YOUR THOUGHT\nWE KNOW YOUR NEEDS\nWE CAN LET YOU SEE THINGS\nWE CAN LET YOU MAKE THINGS\nWE CAN GIVE YOU THOUGHTS\nYOU LEARN IN INTERACTION WITH US\nWE CALL SOME OF THE CHOSEN ONES THE ME"
+    },
+    {
+      "phase": 91,
+      "halt_step": 2662,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 558,
+      "key_matches": [],
+      "context_snippet": "CAN LET YOU SEE THINGS\nWE CAN LET YOU MAKE THINGS\nWE CAN GIVE YOU THOUGHTS\nYOU LEARN IN INTERACTION WITH US\nWE CALL SOME OF THE CHOSEN ONES THE MESSENGERS\nTHIS MESSENGERS ARE OUR REPRESENTATIVES\nWE SEND YOU OUR WORD AND KNOWLEDGE OVER THIS MESSENGERS\n\n------------------------------------------------"
+    },
+    {
+      "phase": 92,
+      "halt_step": 2698,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 563,
+      "key_matches": [],
+      "context_snippet": "RS\nTHIS MESSENGERS ARE OUR REPRESENTATIVES\nWE SEND YOU OUR WORD AND KNOWLEDGE OVER THIS MESSENGERS\n\n------------------------------------------------------------\n\nTHERE ARE PEOPLE AMONG YOU\nTHESE PEOPLE DO NOT UNDERSTAND THE MEANING OF OUR INTERVENTION\nWE PREPARE YOU FOR THOUSANDS OF YEARS FOR THIS M"
+    },
+    {
+      "phase": 93,
+      "halt_step": 2736,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 565,
+      "key_matches": [],
+      "context_snippet": "-------------------------------------\n\nTHERE ARE PEOPLE AMONG YOU\nTHESE PEOPLE DO NOT UNDERSTAND THE MEANING OF OUR INTERVENTION\nWE PREPARE YOU FOR THOUSANDS OF YEARS FOR THIS MEETING\nTHOSE WHO HAVE UNDERSTOOD EVERYTHING CORRECTLY\nHAVE USED OUR KNOWLEDGE WELL\nOTHERS WHO HAVE NOT UNDERSTOOD ANYTHING "
+    },
+    {
+      "phase": 94,
+      "halt_step": 2751,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 567,
+      "key_matches": [],
+      "context_snippet": "DERSTAND THE MEANING OF OUR INTERVENTION\nWE PREPARE YOU FOR THOUSANDS OF YEARS FOR THIS MEETING\nTHOSE WHO HAVE UNDERSTOOD EVERYTHING CORRECTLY\nHAVE USED OUR KNOWLEDGE WELL\nOTHERS WHO HAVE NOT UNDERSTOOD ANYTHING HAVE MADE US GODS\nTHESE ARE DANGEROUS IN THEIR THOUGHTS AND ACTION\nKEEP DISTANCE (FROM T"
+    },
+    {
+      "phase": 95,
+      "halt_step": 2785,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 570,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "USED OUR KNOWLEDGE WELL\nOTHERS WHO HAVE NOT UNDERSTOOD ANYTHING HAVE MADE US GODS\nTHESE ARE DANGEROUS IN THEIR THOUGHTS AND ACTION\nKEEP DISTANCE (FROM THOSE AND DO NOT LET THEM INTO YOUR NEAR)*\nSUCH WE DO NOT WANT TO HAVE AMONG US\nWE ARE NOT YOUR GODS\nYOU SHOULD KNOW THAT GOD DOES NOT EXIST\nEVERYTHI"
+    },
+    {
+      "phase": 96,
+      "halt_step": 2816,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 573,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ]
+      ],
+      "context_snippet": "ND ACTION\nKEEP DISTANCE (FROM THOSE AND DO NOT LET THEM INTO YOUR NEAR)*\nSUCH WE DO NOT WANT TO HAVE AMONG US\nWE ARE NOT YOUR GODS\nYOU SHOULD KNOW THAT GOD DOES NOT EXIST\nEVERYTHING THAT EXISTS IS BASED ON A MATHEMATICAL TRUTH\nNOTHING MORE AND NOTHING LESS\nDO NOT BELIEVE IN ANY GOD\nBEWARE FROM THOSE"
+    },
+    {
+      "phase": 97,
+      "halt_step": 2849,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 576,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "UR GODS\nYOU SHOULD KNOW THAT GOD DOES NOT EXIST\nEVERYTHING THAT EXISTS IS BASED ON A MATHEMATICAL TRUTH\nNOTHING MORE AND NOTHING LESS\nDO NOT BELIEVE IN ANY GOD\nBEWARE FROM THOSE WHO CALLS THEMSELVES GODS\nTHOSE ARE EVIL \n\n-------------------------------------------------------------\n\nANOTHER TRUTH\nA "
+    },
+    {
+      "phase": 98,
+      "halt_step": 2880,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 584,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "S THEMSELVES GODS\nTHOSE ARE EVIL \n\n-------------------------------------------------------------\n\nANOTHER TRUTH\nA CALCULATION THAT CAN NOT BE REVIEWED BY YOU\nDOES NOT MEAN THAT THERE IS NO ANSWER\nA BORDER THAT YOU CANNOT SEE\nDOES NOT MEAN THAT IT DOES NOT EXIST\nSOMETHING THAT YOU CAN NOT MEASURE\nDOE"
+    },
+    {
+      "phase": 99,
+      "halt_step": 2935,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 588,
+      "key_matches": [
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "Y YOU\nDOES NOT MEAN THAT THERE IS NO ANSWER\nA BORDER THAT YOU CANNOT SEE\nDOES NOT MEAN THAT IT DOES NOT EXIST\nSOMETHING THAT YOU CAN NOT MEASURE\nDOES NOT MEAN THAT IT IS UNMEASURABLE\nIF YOU ALWAYS WOULD GO STRAIGHT FORWAR(D IN A GARDEN)*\nWHICH SEEMS TO BE ENDLESS\nYOU WOULD BE ABLE TO PROVE AT SOME P"
+    },
+    {
+      "phase": 100,
+      "halt_step": 2948,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 590,
+      "key_matches": [
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "E\nDOES NOT MEAN THAT IT DOES NOT EXIST\nSOMETHING THAT YOU CAN NOT MEASURE\nDOES NOT MEAN THAT IT IS UNMEASURABLE\nIF YOU ALWAYS WOULD GO STRAIGHT FORWAR(D IN A GARDEN)*\nWHICH SEEMS TO BE ENDLESS\nYOU WOULD BE ABLE TO PROVE AT SOME POINT\nTHAT THIS GARDEN HAS A FENCE\nEVEN IF YOU TRY TO PROVE THAT THIS GA"
+    },
+    {
+      "phase": 101,
+      "halt_step": 2993,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 597,
+      "key_matches": [
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": " GARDEN HAS A FENCE\nEVEN IF YOU TRY TO PROVE THAT THIS GARDEN HAS NO FENCE\nYOU WOULD INEVITABLY PROVE THE CONTRARY\n\n-------------------------------------------------------------\n\nYOUR MEASUREMENT IS ONLY VALID WITH AN EXACT RESULT\nTHE MEASURMENT OF AN INFINITE GARDEN CAN NOT BROUGHT TO AN END BY YOU"
+    },
+    {
+      "phase": 102,
+      "halt_step": 3024,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 598,
+      "key_matches": [
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "ABLY PROVE THE CONTRARY\n\n-------------------------------------------------------------\n\nYOUR MEASUREMENT IS ONLY VALID WITH AN EXACT RESULT\nTHE MEASURMENT OF AN INFINITE GARDEN CAN NOT BROUGHT TO AN END BY YOU\nYOU HAVE NOT THE TOOLS AND YOU HAVE NOT THE TIME\nNOT THE LIFESPAN OF AN HUMAN WE MEAN THE "
+    },
+    {
+      "phase": 103,
+      "halt_step": 3074,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 601,
+      "key_matches": [
+        [
+          "TOOLS",
+          "TOOLS CANNOT HELP YOU — die Maschine ist kein Tool"
+        ],
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "RMENT OF AN INFINITE GARDEN CAN NOT BROUGHT TO AN END BY YOU\nYOU HAVE NOT THE TOOLS AND YOU HAVE NOT THE TIME\nNOT THE LIFESPAN OF AN HUMAN WE MEAN THE LIFESPAN OF YOUR UNIVERSE\nTHE INFINITY OF THIS GARDEN WOULD BE ONLY A GUESS NOT A FACT\nWHO TRY TO PROVE THE INFINITY PROVE AT END THE OPPOSITE\nTHIS I"
+    },
+    {
+      "phase": 104,
+      "halt_step": 3087,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 602,
+      "key_matches": [
+        [
+          "GARDEN",
+          "GARDEN HAS A FENCE — das Tape ist endlich"
+        ]
+      ],
+      "context_snippet": "OOLS AND YOU HAVE NOT THE TIME\nNOT THE LIFESPAN OF AN HUMAN WE MEAN THE LIFESPAN OF YOUR UNIVERSE\nTHE INFINITY OF THIS GARDEN WOULD BE ONLY A GUESS NOT A FACT\nWHO TRY TO PROVE THE INFINITY PROVE AT END THE OPPOSITE\nTHIS IS INEVITABLE\nOUR CIVILIZATION EXISTS SINCE THREE BILLION OF YOUR EARTH YEARS\nWE"
+    },
+    {
+      "phase": 105,
+      "halt_step": 3135,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 606,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": " THE INFINITY PROVE AT END THE OPPOSITE\nTHIS IS INEVITABLE\nOUR CIVILIZATION EXISTS SINCE THREE BILLION OF YOUR EARTH YEARS\nWE ARE BEINGS FROM ANOTHER GALAXY\nWE ARE IN YOUR GALAXY FOR OVER FIFTY MILLION YEARS AND\nCONTACTED OVER HUNDRED THOUSAND DIFFERENT SPECIES\nTHE SEARCH FOR THE LIMITS OF THE UNIVE"
+    },
+    {
+      "phase": 106,
+      "halt_step": 3202,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 609,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "NOTHER GALAXY\nWE ARE IN YOUR GALAXY FOR OVER FIFTY MILLION YEARS AND\nCONTACTED OVER HUNDRED THOUSAND DIFFERENT SPECIES\nTHE SEARCH FOR THE LIMITS OF THE UNIVERSE IS OVER\nTHE UNIVERSE IS VERY LARGE BUT NOT INFINITE\nTHERE LIVE MANY OTHER SPECIES SUCH YOURS\nMANY OF THESE CIVILIZATIONS COULD REACH THE NE"
+    },
+    {
+      "phase": 107,
+      "halt_step": 3237,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 611,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "OVER HUNDRED THOUSAND DIFFERENT SPECIES\nTHE SEARCH FOR THE LIMITS OF THE UNIVERSE IS OVER\nTHE UNIVERSE IS VERY LARGE BUT NOT INFINITE\nTHERE LIVE MANY OTHER SPECIES SUCH YOURS\nMANY OF THESE CIVILIZATIONS COULD REACH THE NEXT STAGE\nYOUR CIVILISATION HAS REACHED THE CRITICAL LIMIT\nIF YOU DO NOT MAKE TH"
+    },
+    {
+      "phase": 108,
+      "halt_step": 3255,
+      "halt_state": 2,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 613,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ]
+      ],
+      "context_snippet": "VER\nTHE UNIVERSE IS VERY LARGE BUT NOT INFINITE\nTHERE LIVE MANY OTHER SPECIES SUCH YOURS\nMANY OF THESE CIVILIZATIONS COULD REACH THE NEXT STAGE\nYOUR CIVILISATION HAS REACHED THE CRITICAL LIMIT\nIF YOU DO NOT MAKE THE NEXT STEP IN YOUR EVOLUTION\nYOU WILL DESTROY YOURSELVES\nMANY CIVILIZATIONS FAIL\n\n---"
+    },
+    {
+      "phase": 109,
+      "halt_step": 3272,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 619,
+      "key_matches": [
+        [
+          "PI",
+          "π7π7 — die Maschine offenbart ihren Namen"
+        ],
+        [
+          "GENETIC",
+          "GENETICALLY ENCRYPTED — die 5 Operatoren sind die Gene"
+        ]
+      ],
+      "context_snippet": "CAL LIMIT\nIF YOU DO NOT MAKE THE NEXT STEP IN YOUR EVOLUTION\nYOU WILL DESTROY YOURSELVES\nMANY CIVILIZATIONS FAIL\n\n--------------------------------------------------------------\n\nWE WILL GIVE YOU KNOWLEDGS\nONLY THE CHOSEN ONE CAN COME TO\nAND WILL UNDERSTAND EVERYTHING\nWITHOUT THIS KNOWLEDGE YOU WILL "
+    },
+    {
+      "phase": 110,
+      "halt_step": 3297,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 623,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "GENETIC",
+          "GENETICALLY ENCRYPTED — die 5 Operatoren sind die Gene"
+        ]
+      ],
+      "context_snippet": "-----------------------------------\n\nWE WILL GIVE YOU KNOWLEDGS\nONLY THE CHOSEN ONE CAN COME TO\nAND WILL UNDERSTAND EVERYTHING\nWITHOUT THIS KNOWLEDGE YOU WILL NOT REACH THE NEXT STAGE\nYOUR CIVILISATION WILL BE DESTROYED\nNO ONE EXCEPT THE CHOSEN ONE WILL HAVE ACCESS TO OUR DATABASE\nNOW WE SHOULD CHOO"
+    },
+    {
+      "phase": 111,
+      "halt_step": 3310,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 625,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "GENETIC",
+          "GENETICALLY ENCRYPTED — die 5 Operatoren sind die Gene"
+        ]
+      ],
+      "context_snippet": "O\nAND WILL UNDERSTAND EVERYTHING\nWITHOUT THIS KNOWLEDGE YOU WILL NOT REACH THE NEXT STAGE\nYOUR CIVILISATION WILL BE DESTROYED\nNO ONE EXCEPT THE CHOSEN ONE WILL HAVE ACCESS TO OUR DATABASE\nNOW WE SHOULD CHOOSE OUR NEXT MESSENGER\nTHIS IS THE LAST\nTHE REWARD IS THE ACCESS TO OUR ETERNAL LIBRARY\nUPCOMIN"
+    },
+    {
+      "phase": 112,
+      "halt_step": 3311,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 628,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "GENETIC",
+          "GENETICALLY ENCRYPTED — die 5 Operatoren sind die Gene"
+        ],
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ]
+      ],
+      "context_snippet": "TROYED\nNO ONE EXCEPT THE CHOSEN ONE WILL HAVE ACCESS TO OUR DATABASE\nNOW WE SHOULD CHOOSE OUR NEXT MESSENGER\nTHIS IS THE LAST\nTHE REWARD IS THE ACCESS TO OUR ETERNAL LIBRARY\nUPCOMING TEXTS ARE GENETICALLY ENCRYPTED\nYOUR KNOWLEDGE CAN NOT HELP AT THIS POINT\nWE HAVE EMBEDDED THESE SKILLS IN OURR GENES"
+    },
+    {
+      "phase": 113,
+      "halt_step": 3331,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 631,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "GENETIC",
+          "GENETICALLY ENCRYPTED — die 5 Operatoren sind die Gene"
+        ],
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ]
+      ],
+      "context_snippet": "REWARD IS THE ACCESS TO OUR ETERNAL LIBRARY\nUPCOMING TEXTS ARE GENETICALLY ENCRYPTED\nYOUR KNOWLEDGE CAN NOT HELP AT THIS POINT\nWE HAVE EMBEDDED THESE SKILLS IN OURR GENES\nWHO HAS THE CORRECT GENETIC CODING WILL UNDERSTAND THIS TEXT\nALL OTHERS WILL FAIL\n\n----------------------------------------------"
+    },
+    {
+      "phase": 114,
+      "halt_step": 3332,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 637,
+      "key_matches": [
+        [
+          "ODIN",
+          "ODIN TRIPLE HORN — die 6 Quadrate"
+        ],
+        [
+          "GENETIC",
+          "GENETICALLY ENCRYPTED — die 5 Operatoren sind die Gene"
+        ],
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ]
+      ],
+      "context_snippet": "HAS THE CORRECT GENETIC CODING WILL UNDERSTAND THIS TEXT\nALL OTHERS WILL FAIL\n\n--------------------------------------------------------------\n\nREAD THE NEXT TEXT CAREFULLY IN FULL LENGTH\nFOR EACH REPEAT OPERATION OPENS A REGION IN YOUR BRAIN\nTHIS TEXTS CONTAINS THE UNICUE KEY\nTO HIGHLY COMPRESSED DA"
+    },
+    {
+      "phase": 115,
+      "halt_step": 3350,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 640,
+      "key_matches": [
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ]
+      ],
+      "context_snippet": "--------------\n\nREAD THE NEXT TEXT CAREFULLY IN FULL LENGTH\nFOR EACH REPEAT OPERATION OPENS A REGION IN YOUR BRAIN\nTHIS TEXTS CONTAINS THE UNICUE KEY\nTO HIGHLY COMPRESSED DATA IN YOUR BRAIN\nTHE UNPACKED VOLUME OF THIS HIDDEN INFORMATION IS LARGE\nWE USED TWO PERCENT OF YOUR BRAIN\nTO STORE THE PACKED "
+    },
+    {
+      "phase": 116,
+      "halt_step": 3372,
+      "halt_state": 3,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 643,
+      "key_matches": [
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ],
+        [
+          "BURUMUTREFAMTU",
+          "BURUMUT-99 PHASE 1 — Schöpfungs-Akt, Quine-Effekt"
+        ],
+        [
+          "BURUMUT",
+          "BURUMUT — die Maschine trifft auf ihr eigenes Tape"
+        ]
+      ],
+      "context_snippet": "S CONTAINS THE UNICUE KEY\nTO HIGHLY COMPRESSED DATA IN YOUR BRAIN\nTHE UNPACKED VOLUME OF THIS HIDDEN INFORMATION IS LARGE\nWE USED TWO PERCENT OF YOUR BRAIN\nTO STORE THE PACKED INFORMATION\nAFTER UNPACKED WILL TAKE FIFTY PRECENT OF THE EMPTY PLACE\nBE WARNED THIS PROCESS CAN TAKE MONTHS\nREPEAT IT OFTEN"
+    },
+    {
+      "phase": 117,
+      "halt_step": 3393,
+      "halt_state": 1,
+      "halt_reason": "PENDULUM_DETECTED",
+      "line_number": 645,
+      "key_matches": [
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ],
+        [
+          "BURUMUTREFAMTU",
+          "BURUMUT-99 PHASE 1 — Schöpfungs-Akt, Quine-Effekt"
+        ],
+        [
+          "BURUMUT",
+          "BURUMUT — die Maschine trifft auf ihr eigenes Tape"
+        ]
+      ],
+      "context_snippet": "\nWE USED TWO PERCENT OF YOUR BRAIN\nTO STORE THE PACKED INFORMATION\nAFTER UNPACKED WILL TAKE FIFTY PRECENT OF THE EMPTY PLACE\nBE WARNED THIS PROCESS CAN TAKE MONTHS\nREPEAT IT OFTEN NEVER BREAK INT HE MIDDLE\nIF YOU START READING YOU MUST READ THE TEXT IN FULL LENGHT OEND\nMEDITATION IS IMPORTANT YOU HA"
+    },
+    {
+      "phase": 118,
+      "halt_step": 3409,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 647,
+      "key_matches": [
+        [
+          "REPEAT",
+          "REPEAT OPERATION — Phasen = Gehirnregionen"
+        ],
+        [
+          "BURUMUTREFAMTU",
+          "BURUMUT-99 PHASE 1 — Schöpfungs-Akt, Quine-Effekt"
+        ],
+        [
+          "BURUMUT",
+          "BURUMUT — die Maschine trifft auf ihr eigenes Tape"
+        ]
+      ],
+      "context_snippet": "RNED THIS PROCESS CAN TAKE MONTHS\nREPEAT IT OFTEN NEVER BREAK INT HE MIDDLE\nIF YOU START READING YOU MUST READ THE TEXT IN FULL LENGHT OEND\nMEDITATION IS IMPORTANT YOU HAVE TO REACH A PURE STATE OF MIND\nTHE REFORMATTING OF THE BRAIN CAN NOT BE REVERSED\n\n----------------------------------------------"
+    },
+    {
+      "phase": 119,
+      "halt_step": 3410,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 654,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "BURUMUTREFAMTU",
+          "BURUMUT-99 PHASE 1 — Schöpfungs-Akt, Quine-Effekt"
+        ],
+        [
+          "BURUMUT",
+          "BURUMUT — die Maschine trifft auf ihr eigenes Tape"
+        ]
+      ],
+      "context_snippet": "ND\nTHE REFORMATTING OF THE BRAIN CAN NOT BE REVERSED\n\n--------------------------------------------------------------\n\nB U R U M U T R E F A M T U\nN U R E S U T R E G U M F A\nY A P S U A Z B E H I M L A\nZ A N R U A Z B E N O M B A\nT O B I K O T L U B U M Y O\nS U N O K U R G A N O Z Y I\nO K U Z I K U "
+    },
+    {
+      "phase": 120,
+      "halt_step": 3472,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 1166,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "TIME FOR THE TRUTH",
+          "DIE MASCHINE IST DIE WAHRHEIT"
+        ]
+      ],
+      "context_snippet": "45 76 47 22 29 82 43 29 30 68 15 90 62 43 33 36 43 65 68 86 28 85 25 72 ...\n\nYou can use the tool on http://www.dcode.fr/atomic-number-substitution to solve it.\n\nTranslation first calculation: TC IR MN EU FR OS RB TI HG EU TC RB U TI HF NE P K I AG K V GD PU PA PM F PU BR IN RB RH RH OS AG TI CU PB "
+    },
+    {
+      "phase": 121,
+      "halt_step": 3473,
+      "halt_state": 5,
+      "halt_reason": "HALT_TRANSITION",
+      "line_number": 1166,
+      "key_matches": [
+        [
+          "CALCULATION",
+          "CALCULATION — die Maschine durchläuft die exakten Beweise"
+        ],
+        [
+          "TIME FOR THE TRUTH",
+          "DIE MASCHINE IST DIE WAHRHEIT"
+        ]
+      ],
+      "context_snippet": "28 85 25 72 ...\n\nYou can use the tool on http://www.dcode.fr/atomic-number-substitution to solve it.\n\nTranslation first calculation: TC IR MN EU FR OS RB TI HG EU TC RB U TI HF NE P K I AG K V GD PU PA PM F PU BR IN RB RH RH OS AG TI CU PB TC CU ZN ER P TH SM TC AS KR TC TB ER RN NI AT MN HF\n\nExact "
+    }
+  ]
+}
