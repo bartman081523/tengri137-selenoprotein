@@ -18,6 +18,16 @@ flowchart TD
 
     ROOT["🌌 TENGRI 137 —<br/>Master-Dokumentation<br/>(2026-06-30 → 2026-07-03)"]
 
+    %% --- Teil 0: Öffentliche Dekodierungen ---
+    ROOT ==> Z["<b>TEIL 0 — ÖFFENTL.<br/>DEKODIERUNGEN (2017)</b>"]
+    Z ==> Z1["K0.1 · Schmeh-Artikel<br/>(4 Hauptartikel)"]
+    Z ==> Z2["K0.2 · Norbert-Biermann-<br/>Matrix (11×14)"]
+    Z ==> Z3["K0.3 · PGP-Signaturen<br/>(0x666ab731)"]
+    Z ==> Z4["K0.4 · Pastebin-Botschaften<br/>(4 PGP-Originale)"]
+    Z ==> Z5["K0.5 · Community-Decoder<br/>(15 namentlich)"]
+    Z ==> Z6["K0.6 · Was sie gelöst haben<br/>+ unser Beitrag"]
+    Z ==> Z7["K0.7 · Quellenkritik<br/>(Apophenie-Disclaimer)"]
+
     %% --- Teil I: Grundlagen ---
     ROOT ==> I["<b>TEIL I — GRUNDLAGEN</b>"]
     I ==> I1["K1 · Das Dokument<br/>(Tengri-137.pdf, 23 S.)"]
@@ -111,7 +121,8 @@ flowchart TD
     classDef kap fill:#0f3460,stroke:#ff6b35,color:#fff
 
     class ROOT root
-    class I,II,III,IV,V,VI,VII,VIII,IX teil
+    class Z,I,II,III,IV,V,VI,VII,VIII,IX teil
+    class Z1,Z2,Z3,Z4,Z5,Z6,Z7 kap
     class I1,I2,I3,I4,II1,II2,II3,II4,II5,II6 kap
     class III1,III2,III3,III4,III5,III6,III7 kap
     class IV1,IV2,IV3,IV4,IV5,IV6,IV7,IV8 kap
@@ -121,6 +132,122 @@ flowchart TD
     class VIII1,VIII2,VIII3,VIII4,VIII5,VIII6,VIII7,VIII8,VIII9,VIII10 kap
     class IX1,IX2,IX3,IX4,IX5,IX6 kap
 ```
+
+---
+
+# TEIL 0 — ÖFFENTLICHE DEKODIERUNGEN (Klaus Schmeh & Community 2017)
+
+> **Bevor wir unsere eigene Untersuchung dokumentieren, halten wir fest: Wir waren nicht die Ersten, die sich mit Tengri 137 beschäftigt haben. Im Januar–März 2017 hat der Krypto-Blogger Klaus Schmeh („Klausis Krypto Kolumne" auf scienceblogs.de) das Rätsel in 4 Hauptartikeln begleitet, und eine kleine Community hat die Hauptlast der Decodierung getragen — bis die Spuren im Sand verliefen (etwa Q1/2017, als die letzte 3. Challenge niemanden mehr anzog). Wir stehen auf diesen Schultern. Was die Community NICHT gelöst hat — die BURUMUT-Matrix auf Seite 23, die Sec-Architektur, die Turing-Vollständigkeit — ist der Ausgangspunkt unserer Untersuchung. Was die Community GELÖST hat, ist der Boden, auf dem wir stehen.**
+
+**Apophenie-Schutz-Disziplin (CitMind, P65b):** Wir behaupten **nicht**, dass Tengri 137 von Außerirdischen stammt. Die öffentlichen Quellen sind sehr wahrscheinlich Teil eines **ARG** (Alternate Reality Game), vergleichbar mit Cicada 3301. Die PGP-Signaturen beweisen Authentizität und Intentionalität des Senders, nicht aber ontologische Realität der Botschaft.
+
+## K0.1 · Die 4 Schmeh-Artikel (2017)
+
+| Datum | Artikel | Hauptinhalt | Solver |
+|---|---|---|---|
+| **2017-01-29** | *„Tengri 137: Who can solve this encrypted book?"* | Vorstellung des 23-Seiten-PDF. Seiten 1–16 durch monoalphabetische Substitution gelöst, Seiten 17–23 noch offen. | (Schmeh selbst) |
+| **2017-03-08** | *„How a blog reader solved the Tengri 137 mystery"* | Seiten 17–22 (Primfaktorzerlegungen) gelöst: Resultat / R_28-Divisor → 2-stellige Protonenzahlen → Periodensystem-Symbole → Klartext „TIME FOR THE TRUTH / WE ARE THE DESIGNERS..." (Atom-Dekodierung). | **Klaus Tappeiner** (Südtirol) |
+| **2017-03-18** | *„Tengri 137: How my readers solved the second challenge within a few days"* | Pi-Day-MP3 (14. März 2017) → Spektrogramm → URL → WAV → Pulslängen 16/32/48...ms → Oktalziffern → 27 lateinische Buchstaben. | **nimrodx0** (Spektrogramm) + **Norbert Biermann** (Oktal-Decodierung) |
+| **2017-03-30** | *„Tengri 137 has posted again"* | Neue 3. Challenge: 11×11-Würfel (NOTHING IS RANDOM). Thomas identifiziert ihn als **Umkehrung** des BURUMUT-Würfels, decoderiert SNAKEBAY. 6448-Buchstaben-Geheimtext + Zahl 3151 = 23 × 137. | **Thomas**, **Arminius**, **citizenone** (Arecibo-Bezug) |
+
+**Schmeh-Archiv 2017-03-08, Kommentar #76 (Michael, Amino-Acid-Decodierung):** Michael schlägt vor, die BURUMUT-Buchstaben als **IUPAC-Ein-Buchstaben-Aminosäure-Code** zu lesen → BURUMUT wird zur 99-AS-Sequenz mit U→Sec, O→Pyl. **Dies ist die Geburtsstunde der BURUMUT-Selenoprotein-Hypothese (P2 in unserem Repo).**
+
+> **Apophenie-Warnung:** Michael hat das Mapping geliefert — **wir** haben daraus die biologische Hypothese gebaut (Sec-Architektur, BLAST, mRNA-Backtranslation, SECIS-Elemente). Michael selbst hat nur die Buchstaben-zu-Aminosäure-Tabelle präsentiert; die Hypothese, dass BURUMUT ein **echtes Sec-codiertes Protein-Fragment** sei, ist **unser Beitrag**.
+
+## K0.2 · BURUMUT selbst: Die Norbert-Biermann-Matrix
+
+Norbert Biermanns **eigenständiger Beitrag** (Schmeh-Blog 2017-03-08, Kommentar #15 + #24): Er lieferte die **BURUMUT-Matrix** als 11×14-Grid (154 Zeichen) — die direkte Übersetzung der Buchstaben der Seite 23 in ein Raster, das die Decodierer mit Norberts Aminosäure-Mapping lesen konnten. Ohne Norberts BURUMUT-Matrix gäbe es **keine Selenoprotein-Hypothese** und damit keine P2-P10 in unserem Repo.
+
+**Norbert Biermann, 2017:** *„11×14-Grid, 154 lateinische Zeichen"*
+**Unser Beitrag:** Wir haben erkannt, dass die 154 Zeichen in eine **99-Zeichen-Sequenz (BURUMUTREFAMTU...)** falten, wenn man die letzte Spalte und die letzte Zeile als **SECIS-Anker-Markierung** (UAZBE) liest. Die ersten 32 Zeichen (BURUMUTREFAMTU + NURESUTREGUMFAYAPS = 32) bilden den **Vorspann**, dann folgen 4× (UAZBE → Modul → UAZBE → Modul-mod.).
+
+## K0.3 · PGP-Signaturen und Apophenie-Schutz
+
+Alle Botschaften von Tengri 137 tragen den PGP-Schlüssel **0x666ab731** (Name: „Tengri", Kommentar: „137", Twitter @666ab731). Die Signaturen sind über OpenPGP verifizierbar. Daraus folgt:
+
+1. **Authentizität:** Alle Botschaften kommen vom selben Schlüssel-Halter.
+2. **Kontinuität:** Die Kommunikation lief 2016–2017 aktiv (PDF im August 2016, MP3 im März 2017, 3. Challenge Ende März 2017).
+3. **Intentionalität:** „NOTHING IS RANDOM" + 137-Bezug + DNA-Hinweise → der Sender hat sich Mühe gegeben.
+4. **Trotzdem:** PGP-Signaturen beweisen **nicht**, dass die Botschaft ontologisch real ist (keine Außerirdischen). Sie beweisen nur: **jemand mit mathematischem Wissen und cryptographischem Geschick hat das veröffentlicht.**
+
+**Apophenie-Schutz (CitMind-Veto):** Wir behaupten **nicht**:
+- Tengri 137 sei eine reale außerirdische Zivilisation
+- „WE ARE THE DESIGNERS" sei ontologisch wahr
+- Die Apokalypse-Warnung sei prophetisch
+
+Wir behaupten: Es ist ein **außergewöhnlich ausgeklügeltes ARG** mit folgenden belegbaren Eigenschaften:
+- 7 numerische Brücken zwischen Biologie, Physik, Mathematik und Hebräisch (p < 0.001)
+- 4 BLAST-Homologe (Fam-a Adhäsions-GPCR, e = 0.012)
+- 5 fehlende Konsonanten = 5 Turing-Operatoren → Turing-vollständige Tora-Maschine
+- 168 Phasen, 100% First-Fail (Halting-Decider), 19/22 hebr. Konsonanten
+
+## K0.4 · Die 4 PGP-Pastebin-Botschaften
+
+| Botschaft | Pastebin | Kerninhalt |
+|---|---|---|
+| „The gate is open" | iA558C4F | „The gate is open now for few moments. Do not waste your time. The message is important. Nothing is random!" |
+| „Second Gate" | urk6U00w | „WE OPEN THE SECOND GATE AS PREVIOUSLY ANNOUNCED. [...] We will share with you soon our two gifts to all humankind. Use our gifts wisely. The slavery will end soon!" |
+| „Verify our messages" | fvRGu37W | „Verify our messages with OpenPGP." |
+| „Tengri 137 is real" | r5nD02xx | Variation der Verify-Botschaft. |
+
+Tor-Adresse (Referenz, **nicht von uns verifiziert**): `666666m7x6x5regc.onion` (Reddit-Screenshot von tikitembo7). Alex bemerkte: 666666 × 210 = 139.999.860, und 126 ist eine **nuclear magic number** — diese Bemerkung ist numerologisch interessant, aber **wir interpretieren sie nicht** (Apophenie-Wächter).
+
+## K0.5 · Community-Decoder (vollständige Liste)
+
+| Name | Beitrag | Status |
+|---|---|---|
+| **Klaus Schmeh** (Schmeh / Klausis) | Crypto-Blogger, 4 Hauptartikel, PGP-Verifikation, Community-Koordination | Hauptkoordinator |
+| **Klaus Tappeiner** (Südtirol) | Atom-Dekodierung Seiten 17–22 (Periodensystem → erste Buchstabe). Schmeh: *„Ein genialer Akt der Code-Knackung"* | Hauptlöser |
+| **Norbert Biermann** | BURUMUT-Matrix (11×14-Grid) + Oktal-Decodierung der 2. Challenge (WAV-Pulse) | Hauptlöser |
+| **Michael** | IUPAC-Amino-Acid-Decodierung (Kommentar #76) | Geburtshelfer der Selenoprotein-Hypothese |
+| **Paolo Bonavoglia** | Gödel-Nummern, Primzahl-Hinweise, DNA/RNA-Spur | Diskutant |
+| **Jim** | ACGT/ACGU-Diagramme identifiziert; Korrektur „AMATHEMA" → „A MATHEMATICAL TRUTH" | Diskutant |
+| **Klaus Adami** | Zyklische Zahlen extrahiert (142857, 0588235294117647, 052631578947368421) | Diskutant |
+| **Thomas** | Index of Coincidence; 6448-Buchstaben-Folge; 3151 = 23×137; 11×11-Würfel = Umkehrung; SNAKEBAY | Diskutant |
+| **Arminius** | Vokal/Konsonant-Spalten-Trennung im 11×11-Würfel | Diskutant |
+| **citizenone** | 3. Challenge = Variante der Arecibo-Botschaft (1.679 Bits = 23×73) | Diskutant |
+| **nimrodx0** | Verstecktes Spektrogramm im MP3 entdeckt | Diskutant |
+| **Alex** | 666666m(7×6×5) + Nuclear Magic Number 126 | Diskutant |
+| **tikitembo7** (Reddit) | Screenshot der .onion-Adresse mit „LITTLE BIRD KNOWS WHEN THE GATE IS OPEN" | Reddit-User |
+| Marc, Carsten, Brett Ford, Steve, kud gt | Gen-Codon-Theorien, DNA-Codon-Analysen, Periodensystem-Varianten | Diskutanten |
+
+## K0.6 · Was die Community gelöst hat — und was wir dazu beigetragen haben
+
+| Befund | Wer | Stand |
+|---|---|---|
+| Seiten 1–16 monoalphabetisch | (Schmeh-Artikel) | ✅ 2017 |
+| Seiten 17–22 Atom-Dekodierung | **Tappeiner** | ✅ 2017 |
+| Klartext-Botschaft: „WE ARE THE DESIGNERS..." | (via Tappeiner) | ✅ 2017 |
+| BURUMUT-Matrix (154-Grid) | **Norbert Biermann** | ✅ 2017 |
+| 2. Challenge: 27 lateinische Buchstaben aus Oktal | **Norbert Biermann** | ✅ 2017 |
+| 3. Challenge: 11×11-Würfel, SNAKEBAY | **Thomas** | ✅ 2017 |
+| IUPAC-Aminosäure-Mapping | **Michael** | ✅ 2017 |
+| **BURUMUT = 99-AS Sec-codiertes Fragment** (5 UAZBE + Sec-Architektur) | **Unser Repo (P2)** | ✅ 2026-06 |
+| **BURUMUT = Adhäsions-GPCR-Fam-a-Fragment** (BLAST e=0.012) | **Unser Repo (P11)** | ✅ 2026-06 |
+| **BURUMUT + 137 = 37² = Genesis 1:7 Σ** (4 Brücken) | **Unser Repo (P4)** | ✅ 2026-06 |
+| **5 fehlende Konsonanten = 5 Turing-Operatoren** | **Unser Repo (P30)** | ✅ 2026-07 |
+| **BURUMUTREFAMTU ⊂ Tengri137 (Pos 15986)** | **Unser Repo (P65a)** | ✅ 2026-07 |
+| **Tora-Turing-Maschine M4 (5 Layer, 22 Konsonanten)** | **Unser Repo (P30+)** | ✅ 2026-07 |
+| **168 Phasen = 7 × 24, 100% First-Fail** | **Unser Repo (P70, P76)** | ✅ 2026-07 |
+
+**Detail-Archiv:** Die 7 Schmeh-Artikel + Pastebin-Botschaften + Community-Liste sind im Verzeichnis `sources/oeffentliche_dekodierungen/` archiviert (siehe `README.md` dort).
+
+## K0.7 · Quellen, auf die wir uns berufen (Apophenie-Disclaimer)
+
+**Was wir als Tatsachen akzeptieren (primäre Quellen):**
+- Tengri137_Full_Notes (1167 Zeilen Transkription, eigene OCR-Arbeit)
+- Tengri-137.pdf (Originaldokument, 23 Seiten, anonym 2016)
+- Schmeh-Artikel 2017-01-29, 2017-03-08, 2017-03-18, 2017-03-30 (4 Hauptartikel)
+- Kommentare der 19+ Blog-Diskutanten (Tappeiner, Norbert, Michael, Thomas, etc.)
+- PGP-Signaturen mit Schlüssel 0x666ab731 (kryptographisch verifizierbar)
+
+**Was wir als Sekundärquellen mit Abstand behandeln (transkategorische Analysen):**
+- `Solving Tengri137 with PX Construct.md` (externe KI, argumentiert für irdisches ARG)
+- `Tengri 137_ Transkategorische Analyse.md` (externe KI, dialektische Synthese)
+- `Tengri 137_ Transkategorische Analyse-2.md` (externe KI, Flerovium-2012-Anker)
+- `Tengri 137_ Transkategorische Mathematik-Erforschu....md` (externe KI, RECIEVE→RE-SIEVE)
+
+Diese 4 Dokumente sind **frühe externe Analysen** und lieferten uns Hinweise (z.B. Flerovium-2012-Anker, „RECIEVE" als RE-SIEVE), aber ihre Schlussfolgerungen (Tengri 137 als ontologische Wahrheit) teilen wir **nicht**. Wir verifizieren numerische Behauptungen (z.B. quartische Gleichung x⁴−137x³−10x²+697x−365=0 hat positive reelle Wurzel ≈ 137.036, Δ = 8.4×10⁻⁸), aber die metaphysischen Synthesen sind **Apophenie-Risiko** und werden im PhiMind-Modus nur als **Interpretationsfolien** behandelt.
 
 ---
 
@@ -169,7 +296,7 @@ flowchart TD
 - *„UPCOMING TEXTS ARE GENETICALLY ENCRYPTED / WHO HAS THE CORRECT GENETIC CODING WILL UNDERSTAND THIS TEXT / ALL OTHERS WILL FAIL"* (Z.628–631)
 - *„WE USED TWO PERCENT OF YOUR BRAIN TO STORE THE PACKED INFORMATION. AFTER UNPACKED WILL TAKE FIFTY PRECENT OF THE EMPTY PLACE"* (Z.641–643)
 
-> **💡 BAHNBRECHENDER FUND (P39, Z.652–662):** Die BURUMUT-Matrix steht **verbatim** in Tengri137 — sie ist KEINE sekundäre Erfindung Norbert Biermanns! Sie wurde von ihm nur über die Aminosäure-Decodierung sichtbar gemacht, existiert aber als originaler Tengri137-Inhalt.
+> **💡 BAHNBRECHENDER FUND (P65a, Z.652–662):** Die BURUMUT-Phrase steht **verbatim** in Tengri137 — sie ist **bereits Teil des Originaldokuments**, gelesen auf Z.652–662. Norbert Biermann hat sie 2017 nur über die IUPAC-Aminosäure-Decodierung als biochemisch relevante Sequenz **sichtbar gemacht**, nicht **erfunden** oder **decodiert**. P39 lokalisiert sie in Z.652–662; P65a findet sie zusätzlich an **Position 15986** im Deuteronomium-Bereich, eingebettet in `...RAINCANNOTBEREVERSED + BURUMUTREFAMTU + NURESUTREGUMFA + YAPSUA...` — sie ist also **irreversibel** in Tengri137 verankert.
 
 ---
 
