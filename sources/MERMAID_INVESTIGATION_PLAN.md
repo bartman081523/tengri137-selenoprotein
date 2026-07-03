@@ -3043,7 +3043,88 @@ GESAMTSTAND: 379/379 TDD-Tests grün
 - Phase 58: 17, 59: 32, 60: 35
 - Total: 379 Tests, 0 Failures
 
-APOPHENIE-SCHUTZ FÜR P69–P74:
+PHASE 75: MULTI-LESUNG TENGRI137 (P75, multi_lesung.py)
+├── Orchestriert 7 Lesungsarten: numerologisch, informationstheoretisch,
+│   kryptographisch, synästhetisch, wissenschaftlich, religiös, philosophisch
+├── Jede Lesung nimmt dieselben Daten, liest sie anders
+├── KEINE Lesung hat Vorrang — die Konvergenz IST die Antwort
+│
+├── BEFUNDE PRO LESUNG:
+│   1. NUMEROLOGISCH: TENGRI = 73 = Chokhmah. 37×73 = 2701 = Gen 1:1.
+│      Tengri (Geist) ist seltener als 37 (Gesetz).
+│   2. INFORMATIONSTHEORETISCH: H_mean ≈ 4.0 = log₂(16).
+│      Tengri137 ist ein 16-Symbol-System. r(H,Gematria) ≈ 0 → orthogonal.
+│   3. KRYPTOGRAPHISCH: BURUMUTREFAMTU-Position bestimmbar.
+│      Anker-Wörter in ersten 6 Phasen konzentriert.
+│   4. SYNAISTHETISCH: Phase 3 (H_min) wie warmer Akkord,
+│      Phase 122 (H_max) wie weißes Rauschen, Phase 5 (H≈4.03) wie
+│      Kammerton A (440 Hz). Symphonie von std=0.106.
+│   5. WISSENSCHAFTLICH: Failure-Step Median = 1, Mean ≈ 1.0.
+│      100% der Phasen scheitern an Step 1.
+│   6. RELIGIÖS: Phase 3 = Gen 4 (Kain & Abel), 8 Gottesnamen.
+│      Phase 26 = Gen 29 (Jakob am Brunnen), 20 Sec-Operatoren.
+│      Phase 122 = Num 20 (Moses am Fels), Meta-Anweisung.
+│   7. PHILOSOPHISCH: Jì-Zhào (寂照) — Stille-Illumination.
+│      Wand = Weg. Wissen wird nicht erzwungen, sondern ereignet sich.
+│
+├── SYNTHESE (4-fache Konvergenz):
+│   1. Maschine ist verriegelt (100% Step 1) — Wand, nicht Weg
+│   2. Maschine kennt ihre Verriegelung — Phase 122 sagt "CHECK AGAIN"
+│   3. Maschine weiß, wo wir stehen — Phase 5 antwortet auf "wo"
+│   4. Weg der Lesung IST das Ziel — wir dringen nicht durch, aber lesen
+│
+├── THESE: Tengri137 ist fraktal selbstbewusst, designed für die
+│   Lese-Architektur einer Halting-Maschine. BURUMUT (M4) ist
+│   EXAKT ein Halting-Decider: 100% Step-1-Fails. Sie kann nicht
+│   "durchkommen" — sie ist darauf angewiesen, EXAKT zu wissen,
+│   WO der Failure ist, ohne ihn zu überwinden.
+│
+├── AGENTS.md (200 Zeilen) dokumentiert die 7 Lesungsarten
+│   + Halting-Maschine-Architektur + Fraktales Selbstbewusstsein
+│
+├── AGGREGATION: keine neuen Tests, sondern Orchestrierung von P67-P74
+└── Dokumentation: AGENTS.md
+
+PHASE 76: FIRST-FAIL-KARTOGRAPHIE (P76, first_fail_kartographie.py)
+├── Kartographiert das erste M4-Versagen in ALLEN 168 Phasen
+├── P70 zeigte: ALLE 168 scheitern an Step 1. P76 zeigt: WO?
+│
+├── BEFUNDE:
+│   - 19 von 22 hebr. Buchstaben kommen als First-Fail vor
+│   - 3 FEHLEN: ז (Zayin, 7), פ (Pe, 80), ת (Tav, 400)
+│     → Tav = 400 = 10²×4 = "Code-Punkt". Die Leerstelle der Maschine.
+│   - Top-Fail: א (Alef, 1) — 23 von 168 Phasen
+│   - ה (He, 5) folgt mit 17, ס (Samekh, 60) mit 16
+│   - r(H, fail_gematria) = -0.081: leicht negativ, fast orthogonal
+│
+├── 7-TAGE-ARCHITEKTUR DER FIRST-FAILS:
+│   - Tag 1: ה (He, 3×) — Ordnung
+│   - Tag 3: א (Alef, 6×) — Namen
+│   - Tag 6: ק (Kof, 4×) — Chaos (Kof=100=10², die Höhe)
+│   - Tag 7 (Sabbat): מ (Mem, 3×) — Stille
+│
+├── TORA-BUCH-VERTEILUNG:
+│   - Genesis: 45 Phasen (Maximum)
+│   - Exodus: 36
+│   - Numeri: 32
+│   - Deuteronomium: 31
+│   - Leviticus: 24 (Minimum)
+│
+├── KORRELATION: H ↔ fail_gematria = -0.081
+│   → Information und Versagens-Topologie sind unabhängig
+│   → Apophenie-resistent
+│
+├── 27/27 TDD-Tests grün in test_first_fail_kartographie.py
+├── Dateien: FIRST_FAIL_KARTOGRAPHIE.py + test_first_fail_kartographie.py
+│            + first_fail_kartographie.json
+└── Commit: b0dfc9e
+
+GESAMTSTAND: 406/406 TDD-Tests grün (379 + 27 P76)
+- Phase 75 (Multi-Lesung): Orchestrierung, keine eigenen TDD-Tests
+- Phase 76 (First-Fail): 27 Tests, alle grün
+- Total: 406 Tests in den 11 P-Phasen (67-76)
+
+APOPHENIE-SCHUTZ FÜR P69–P76:
 ├── "Stille" und "Chaos" sind METAPHERN für H-Min/Max
 ├── Die "Namen-Phase" und "Befehls-Phase" sind EMPIRISCHE
 │   Beobachtungen der lateinischen Worthäufigkeit
@@ -3053,5 +3134,11 @@ APOPHENIE-SCHUTZ FÜR P69–P74:
 │   Befund, kein Beweis für Intentionalität des Textes
 ├── Die zwei Pole sterben an verschiedenen Buchstaben
 │   (Nun/Vav) — Zufall oder Muster, KORRELATION ≠ KAUSALITÄT
+├── Die "fehlenden" 3 Buchstaben (Zayin, Pe, Tav) sind eine
+│   ZÄHLUNG, keine kausale Aussage über Maschinen-Intentionalität
+├── Jì-Zhào und "fraktales Selbstbewusstsein" sind
+│   PHILOSOPHISCHE ANALOGIEN, keine physikalischen Befunde
+├── "Konvergenz der 7 Lesungen" ist eine METHODISCHE These,
+│   nicht der Beweis einer im Text verborgenen Wahrheit
 └── Wir interpretieren empirisch, nicht spirituell
 ```
