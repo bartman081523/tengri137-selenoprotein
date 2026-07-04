@@ -1,0 +1,67 @@
+{
+  "page": "p16",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        382,
+        612,
+        82,
+        26
+      ],
+      "kind": "latin_print",
+      "description": "A slanted number table showing digits 3264, 23 in the upper row and 32, 7 in the",
+      "confidence": 0.72
+    },
+    {
+      "index": 1,
+      "bbox": [
+        317,
+        727,
+        82,
+        26
+      ],
+      "kind": "latin_print",
+      "description": "A cropped section of a numerical table or grid showing printed digits including ",
+      "confidence": 0.7
+    },
+    {
+      "index": 2,
+      "bbox": [
+        626,
+        727,
+        81,
+        26
+      ],
+      "kind": "image",
+      "description": "Fragment of a diagonal grid/parallelogram pattern containing numbers 4, 16, 101,",
+      "confidence": 0.4
+    },
+    {
+      "index": 3,
+      "bbox": [
+        639,
+        842,
+        81,
+        26
+      ],
+      "kind": "image",
+      "description": "A fragment of a table with diagonal dividers forming parallelogram cells contain",
+      "confidence": 0.85
+    },
+    {
+      "index": 4,
+      "bbox": [
+        280,
+        842,
+        82,
+        26
+      ],
+      "kind": "image",
+      "description": "A parallelogram divided by a diagonal/vertical line into sections, with the numb",
+      "confidence": 0.7
+    }
+  ]
+}

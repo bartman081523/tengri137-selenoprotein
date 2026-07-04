@@ -1,0 +1,47 @@
+{
+  "page_summary": "A page with three paragraphs of text in Old Turkic runic script, followed by two circular illustrations at the bottom.",
+  "text_blocks": [
+    "ⴹⴹⴷ ⴷⴷⴹ ⴻⴷⵎⴺ ⴷⴹⴹⴹⴷⴹⴹ ⴷⴹ ⴵⴵⴹⴷⴷⴹ ⴷⴹ ⴹⴹⴹⴷⴹⴷⴹⴷⴹ ⴹⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ ⴷⴹ ⴹⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ ⴷⴹ ⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ ⴷⴹ ⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ",
+    "ⴷⴹⴹⴷⴷ ⴷⴹⴹⴷⴹⴹ ⴹⴹⴷⴹⴹ ⴹⴹⴷⴹⴷⴹⴷⴹⴷ ⴹⴹⴹⴷⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ ⴹⴹⴷⴹⴹⴷ ⴹⴹⴹⴷⴹⴹ ⴹⴹⴹⴷⴹⴷⴹⴷ ⴹⴹⴷⴹⴹⴷ ⴹⴹⴹⴷ ⴹⴹⴹⴷ ⴹⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ ⴹⴹⴹⴷⴹⴷⴹⴷ ⴹⴹⴹⴷⴹⴹ ⴹⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ ⴹⴹⴷⴹⴹⴷ ⴹⴹⴹⴷⴹⴹ ⴹⴹⴹⴷⴹⴷⴹⴷ ⴹⴹⴹⴷ ⴹⴹⴹⴷ ⴹⴹⴹⴹⴷ ⴹⴹⴷⴹⴷⴹⴷ",
+    "ⴹⴹⴷⴹⴹ ⴹⴹⴹⴷⴹⴹ ⴷⴹⴹⴷⴹⴹ ⴷⴹⴹⴹⴷⴹⴹⴷ ⴷⴹⴹⴷⴹⴹ ⴷⴹⴹⴹⴷⴹⴹⴷ ⴹⴹⴹⴷ ⴹⴹⴹⴷ ⴹⴹⴹⴷⴹⴹ ⴷⴹⴹⴹⴷⴹⴹⴷ ⴷⴹⴹⴷⴹⴹ ⴹⴹⴹⴷⴹⴷⴹⴷⴹⴷ ⴷⴹⴹⴷⴹⴹ ⴹⴹⴹⴷⴹⴷⴹⴷ ⴷⴹⴹⴷⴹⴹ ⴹⴹⴹⴷ ⴹⴹⴹⴷⴹⴹ ⴷⴹⴹⴹⴷ ⴹⴹⴹⴷⴹⴷⴹⴷ"
+  ],
+  "colored_text": [],
+  "symbols": [],
+  "decorations": [
+    {
+      "description": "A circle divided by a cross/plus sign into four quadrants, each quadrant containing a group of small dots (3 dots arranged in a triangle in each quadrant).",
+      "type": "magic_cube_3x3",
+      "position": "bottom left of the page",
+      "components": [
+        "outer circle",
+        "horizontal bar",
+        "vertical bar",
+        "small dots in upper-left quadrant (triangle of 3)",
+        "small dots in upper-right quadrant (triangle of 3)",
+        "small dots in lower-left quadrant (triangle of 3)",
+        "small dots in lower-right quadrant (triangle of 3)"
+      ]
+    },
+    {
+      "description": "A complex circular illustration resembling a ceremonial shield or tree-of-life composition with a central tree, a serpentine/spiral trunk, two four-pointed star/rosette medallions (sun and moon) in the lower portion, human warrior figures standing on platforms or branches on either side of the tree, and decorative elements. This is the famous Noin-Ula / Xiongnu ceremonial badge motif (sometimes associated with the Hungarian 'kettős kereszt' / tree of life symbol).",
+      "type": "face_circle_three_dots",
+      "position": "bottom right of the page",
+      "components": [
+        "outer circle border",
+        "central tree with branching crown",
+        "serpentine/spiral trunk of the tree",
+        "small bird/figure perched at top of tree",
+        "two human warrior figures on horizontal branches on the left side",
+        "two human warrior figures on horizontal branches on the right side",
+        "two four-pointed star/rosette medallions in the lower quadrants (sun and moon)",
+        "small dots between/around the medallions",
+        "horizontal cross-bars or platforms supporting the figures"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The exact reading of the Old Turkic runic characters cannot be transcribed confidently as Unicode codepoints; the transcription uses ⴷ/ⴹ/ⴺ/ⵎ as placeholders that may not match the original glyph forms.",
+    "The exact number and arrangement of dots in the quadrants of the left circle may vary slightly (likely 3 dots per quadrant).",
+    "The two figures on each side of the tree in the right medallion may represent warriors, deer, or stylized humans — exact identification is uncertain."
+  ]
+}

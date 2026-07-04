@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "required": ["page_summary", "text_blocks", "colored_text", "symbols", "decorations"],
+  "properties": {
+    "page_summary": {
+      "type": "string",
+      "description": "One short sentence describing what the page is about."
+    },
+    "text_blocks": {
+      "type": "array",
+      "description": "All textual paragraphs on the page, in reading order. Each block is a single string. Do not split mid-sentence; use \\n only between distinct blocks.",
+      "items": {"type": "string"}
+    },
+    "colored_text": {
+      "type": "array",
+      "description": "Words or short phrases printed in a non-black, non-grey color (e.g. red, blue, orange). Each item: object with text and color_description.",
+      "items": {
+        "type": "object",
+        "required": ["text", "color"],
+        "properties": {
+          "text": {"type": "string"},
+          "color": {"type": "string", "description": "color name, e.g. 'red', 'dark red', 'orange', 'blue'"},
+          "approximate_position": {"type": "string", "description": "e.g. 'centered below the 3x3 grid', 'bottom of page'"}
+        }
+      }
+    },
+    "symbols": {
+      "type": "array",
+      "description": "Non-alphanumeric symbols/glyphs (Chinese, Turkic runes, math, special punctuation). Each item: object with description, kind, position.",
+      "items": {
+        "type": "object",
+        "required": ["description", "kind", "position"],
+        "properties": {
+          "description": {"type": "string", "description": "Visual description of the glyph (e.g. 'Chinese character for tian (heaven) in oracle script', 'circular turkic rune', 'red question-mark glyph')"},
+          "kind": {"type": "string", "description": "Family, e.g. 'chinese_oracle', 'chinese_seal', 'turkic_round_rune', 'geometric_circle', 'geometric_diamond_with_dot', 'face_circle_three_dots', 'math_pi', 'math_times'"},
+          "position": {"type": "string", "description": "approximate location, e.g. 'centered below text blocks', 'bottom row of page'"},
+          "size_estimate": {"type": "string", "description": "relative size, e.g. 'large (a few cm)', 'small (line height)'"}
+        }
+      }
+    },
+    "decorations": {
+      "type": "array",
+      "description": "Decorative drawings that are not single-glyph symbols (e.g. Odin's triple horn, 7 connected rings, 9 connected rings, a face made of a circle with three dots). Each item: object with description, type, position, components.",
+      "items": {
+        "type": "object",
+        "required": ["description", "type", "position"],
+        "properties": {
+          "description": {"type": "string", "description": "What it depicts."},
+          "type": {"type": "string", "description": "e.g. 'odin_triple_horn', 'seven_rings', 'nine_rings', 'face_circle_three_dots', 'magic_cube_3x3', 'magic_cube_4x4'"},
+          "position": {"type": "string"},
+          "components": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List the parts (e.g. ['three interlocking horn shapes', 'a central cross']) "
+          }
+        }
+      }
+    },
+    "uncertain_or_unreadable": {
+      "type": "array",
+      "description": "Anything on the page that you cannot confidently read or classify. Be honest.",
+      "items": {"type": "string"}
+    }
+  }
+}

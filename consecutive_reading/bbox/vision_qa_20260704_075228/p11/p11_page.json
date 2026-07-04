@@ -1,0 +1,209 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      900,
+      1200
+    ],
+    "text_words": [
+      {
+        "id": "t1",
+        "text": "⊙34Y1Rf • ») «») 84Y1 M9A11IX 188A8 1F7H9Y8J",
+        "position": "top, paragraph 1, line 1",
+        "language": "constructed/cipher",
+        "color": "black"
+      },
+      {
+        "id": "t2",
+        "text": "D») 1F JEYY«») 1F7h • 4XXX7 J8 X8 IXJ4Y ⊙©») 7Y8 1F7 J8 YYF⊙ 1F D») • J»)Y 4I)Y7 J8 4Y1 1F",
+        "position": "top, paragraph 1, line 2",
+        "language": "constructed/cipher",
+        "color": "black"
+      },
+      {
+        "id": "t3",
+        "text": "Y8 YYY⊙ • 1F788 1F 1F7 J4h h8 99h IY9») J») • 99J9Y 1F 1Yh7 F7 4Y1 8h7Y) 8») 1F hA9J) 1F8 • D»)4I)8 7hI)X 1h1 hA1Y YYYF «»)Y 8hY D») • J»)8 J 7 8 J8 7h",
+        "position": "top, paragraph 1, line 3",
+        "language": "constructed/cipher",
+        "color": "black"
+      },
+      {
+        "id": "t4",
+        "text": "44B7Y J»)YhJ J78 4Y1 «»)YhA)4hI)F 7hF⊙ «»)»)8 J J 1F 1884h J78 4Y1 hA)4I J78 8»J • 84⊗Y 8)Yh 1F D«») »)Y h1)YhA J78 D») • 9h44»)Y 1J ⊙ M9A11IX 1F8 hY) 8»)Y 1J J 1F J • 84⊗Y J78 8)F h1)Yh⊗ 1F7h D») • 84⊗Y J78 8)F 8)F hY») 1 8Y8 8)F",
+        "position": "middle, paragraph 2, lines 4-6",
+        "language": "constructed/cipher",
+        "color": "black"
+      },
+      {
+        "id": "t5",
+        "text": "7h 8F8 J81F ⊙ J»)Y 41)YhA J8Y hY)F YYF⊗ YMh J 7 8 J 8F8 1 J 7h 1F 7h 1F • D44B7Y J»)YhJ 4») 8 7h 1 J J 4FY1BF 7») 1F JEYY«») 8 hY71 8Y 1 hF ⊙ J J 1F7J J J8 ⊙81F J ⊙⊗ YYF⊗ J»)Y 41)YhA J78 • »)h 1F88 1",
+        "position": "lower, paragraph 3, lines 7-9",
+        "language": "constructed/cipher",
+        "color": "black"
+      }
+    ],
+    "symbols": [
+      {
+        "id": "s1",
+        "type": "cipher_glyph",
+        "character": "⊙",
+        "description": "circle with dot inside, recurring separator/symbol",
+        "position": "throughout text",
+        "count": "many"
+      },
+      {
+        "id": "s2",
+        "type": "cipher_glyph",
+        "character": "«",
+        "description": "guillemet-like bracket, recurring",
+        "position": "throughout text",
+        "count": "many"
+      },
+      {
+        "id": "s3",
+        "type": "cipher_glyph",
+        "character": "»",
+        "description": "guillemet-like bracket, recurring",
+        "position": "throughout text",
+        "count": "many"
+      },
+      {
+        "id": "s4",
+        "type": "cipher_glyph",
+        "character": "©",
+        "description": "circled c-like glyph",
+        "position": "paragraph 1, line 2",
+        "count": 1
+      },
+      {
+        "id": "s5",
+        "type": "cipher_glyph",
+        "character": "®",
+        "description": "registered trademark-like glyph",
+        "position": "throughout text",
+        "count": "several"
+      },
+      {
+        "id": "s6",
+        "type": "cipher_glyph",
+        "character": "⊗",
+        "description": "circle with x inside",
+        "position": "throughout text",
+        "count": "several"
+      },
+      {
+        "id": "s7",
+        "type": "cipher_glyph",
+        "character": "•",
+        "description": "bullet/separator dot",
+        "position": "throughout text",
+        "count": "many"
+      },
+      {
+        "id": "s8",
+        "type": "cipher_glyph",
+        "character": "1",
+        "description": "numeral 1 used as letter",
+        "position": "throughout text",
+        "count": "many"
+      },
+      {
+        "id": "s9",
+        "type": "cipher_glyph",
+        "character": "7",
+        "description": "numeral 7 used as letter",
+        "position": "throughout text",
+        "count": "many"
+      }
+    ],
+    "drawings": [
+      {
+        "id": "d1",
+        "type": "illustration",
+        "style": "rough hand-drawn sketch, stick-figure style",
+        "subject": "scene with two stick figures around a pool/pond",
+        "position": "bottom center of page",
+        "elements": [
+          "left: standing stick figure (taller) holding a long pole/stick",
+          "right/top: smaller stick figure appearing to fall or jump toward water",
+          "center: oval/circular shape representing a pool or pond of water with internal ripple/swirl marks",
+          "dashed lines around the pool suggesting ground/terrain boundaries",
+          "small additional marks/arrows around the pool"
+        ],
+        "color": "black ink",
+        "bounding_box": [
+          220,
+          850,
+          680,
+          1150
+        ]
+      }
+    ],
+    "digits": [
+      {
+        "id": "dg1",
+        "value": "1",
+        "position": "embedded throughout text as part of cipher",
+        "context": "used as letter-substitute in cipher script"
+      },
+      {
+        "id": "dg2",
+        "value": "4",
+        "position": "embedded throughout text as part of cipher",
+        "context": "used as letter-substitute in cipher script"
+      },
+      {
+        "id": "dg3",
+        "value": "7",
+        "position": "embedded throughout text as part of cipher",
+        "context": "used as letter-substitute in cipher script"
+      },
+      {
+        "id": "dg4",
+        "value": "8",
+        "position": "embedded throughout text as part of cipher",
+        "context": "used as letter-substitute in cipher script"
+      },
+      {
+        "id": "dg5",
+        "value": "9",
+        "position": "embedded throughout text as part of cipher",
+        "context": "used as letter-substitute in cipher script"
+      }
+    ],
+    "formulas": [],
+    "mixed_media_regions": [
+      {
+        "id": "mm1",
+        "region_type": "text_plus_drawing",
+        "description": "Page contains three paragraphs of cipher/constructed-script text in upper ~75% of page, and a hand-drawn illustration in the lower ~25%.",
+        "position": "full page, vertical layout",
+        "components": [
+          "text_block_upper",
+          "text_block_middle",
+          "text_block_lower",
+          "drawing_bottom"
+        ]
+      }
+    ],
+    "uncertain": [
+      "The script used in the text blocks is not a recognized natural language - it appears to be a constructed language, cipher, or fictional script. The exact reading/transcription is uncertain as the characters are a mixture of Latin letters, digits (1,4,7,8,9), and special glyphs (⊙, ⊗, «, », ©, ®, •) that may represent a custom alphabet.",
+      "The illustration's exact narrative meaning is unclear - it shows two stick figures and a pool, possibly depicting a scene of someone falling into or being pushed into water.",
+      "Whether the small marks inside the pool represent water ripples, a vortex, or something else is not certain.",
+      "The purpose/origin of the page (fiction, puzzle, game manual, or other) cannot be determined from the image alone."
+    ]
+  }
+}

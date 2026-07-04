@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      870,
+      1180
+    ],
+    "text_words": [
+      {
+        "text": "Paragraph 1 in constructed/unknown script (approx. 4 lines)",
+        "position": [
+          165,
+          175,
+          705,
+          335
+        ],
+        "color": "black"
+      },
+      {
+        "text": "Paragraph 2 in constructed/unknown script (approx. 5 lines)",
+        "position": [
+          185,
+          580,
+          700,
+          760
+        ],
+        "color": "black"
+      },
+      {
+        "text": "Paragraph 3 in constructed/unknown script (approx. 5 lines)",
+        "position": [
+          185,
+          775,
+          705,
+          935
+        ],
+        "color": "black"
+      },
+      {
+        "text": "Paragraph 4 in constructed/unknown script (approx. 3 lines)",
+        "position": [
+          185,
+          950,
+          705,
+          1085
+        ],
+        "color": "black"
+      }
+    ],
+    "symbols": [
+      {
+        "type": "geometric/constructed characters",
+        "description": "Repetitive decorative glyphs resembling a constructed writing system with circular, cross-hatched and angular forms",
+        "position": [
+          165,
+          175,
+          705,
+          1085
+        ],
+        "color": "black"
+      }
+    ],
+    "drawings": [],
+    "digits": [
+      {
+        "value": "7",
+        "position": [
+          318,
+          405,
+          340,
+          445
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7",
+        "position": [
+          415,
+          405,
+          440,
+          445
+        ],
+        "color": "black"
+      },
+      {
+        "value": "6.67",
+        "position": [
+          512,
+          405,
+          580,
+          445
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7",
+        "position": [
+          313,
+          510,
+          340,
+          550
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7",
+        "position": [
+          418,
+          510,
+          445,
+          550
+        ],
+        "color": "black"
+      },
+      {
+        "value": "6.67",
+        "position": [
+          513,
+          510,
+          580,
+          550
+        ],
+        "color": "black"
+      }
+    ],
+    "formulas": [
+      {
+        "expression": "((7^π)/(7π)) x 6.67  /  ((7π)/(7^π))/6.67",
+        "type": "mathematical fraction",
+        "latex": "\\frac{\\frac{7^{\\pi}}{7\\pi} \\times 6.67}{\\frac{7\\pi}{7^{\\pi}} / 6.67}",
+        "position": [
+          310,
+          395,
+          590,
+          565
+        ],
+        "color": "black",
+        "notes": "Numerator and denominator shown as a large fraction with horizontal bar between them; uses Greek letter pi (π) as superscript and base"
+      }
+    ],
+    "mixed_media_regions": [
+      {
+        "region": "central formula block",
+        "description": "Centered area combining text, digits, Greek symbol (π) and mathematical operators (parentheses, fraction bar, division, multiplication)",
+        "position": [
+          295,
+          385,
+          600,
+          575
+        ]
+      }
+    ],
+    "uncertain": [
+      "The script used in all four text paragraphs is not a known natural language; it appears to be a constructed/decorative writing system (possibly an invented or cipher script). Individual characters cannot be mapped to a real alphabet.",
+      "Cannot determine meaning/translation of any paragraph.",
+      "Possible punctuation marks (dots) visible in paragraphs but their linguistic role is unclear.",
+      "The exact page number or any header/footer is not present."
+    ]
+  }
+}

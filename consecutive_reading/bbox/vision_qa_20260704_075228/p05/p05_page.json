@@ -1,0 +1,698 @@
+{
+  "page": "p01",
+  "image_size": [
+    880,
+    1130
+  ],
+  "text_words": [
+    {
+      "text": "rot-runic-title-1",
+      "color": "red",
+      "bbox": [
+        400,
+        455,
+        525,
+        480
+      ],
+      "lang": "runic/unknown",
+      "position": "center, below top diagram"
+    },
+    {
+      "text": "black-runic-paragraph-1 line 1",
+      "color": "black",
+      "bbox": [
+        170,
+        490,
+        780,
+        515
+      ],
+      "lang": "runic/unknown",
+      "position": "center, below red title 1"
+    },
+    {
+      "text": "black-runic-paragraph-1 line 2",
+      "color": "black",
+      "bbox": [
+        170,
+        515,
+        780,
+        540
+      ],
+      "lang": "runic/unknown",
+      "position": "center"
+    },
+    {
+      "text": "black-runic-paragraph-1 line 3",
+      "color": "black",
+      "bbox": [
+        170,
+        540,
+        780,
+        565
+      ],
+      "lang": "runic/unknown",
+      "position": "center"
+    },
+    {
+      "text": "black-runic-paragraph-1 line 4",
+      "color": "black",
+      "bbox": [
+        170,
+        565,
+        780,
+        590
+      ],
+      "lang": "runic/unknown",
+      "position": "center"
+    },
+    {
+      "text": "black-runic-paragraph-1 line 5",
+      "color": "black",
+      "bbox": [
+        400,
+        590,
+        525,
+        615
+      ],
+      "lang": "runic/unknown",
+      "position": "center"
+    },
+    {
+      "text": "rot-runic-title-2",
+      "color": "red",
+      "bbox": [
+        430,
+        935,
+        500,
+        960
+      ],
+      "lang": "runic/unknown",
+      "position": "center, below second diagram"
+    },
+    {
+      "text": "black-runic-paragraph-2",
+      "color": "black",
+      "bbox": [
+        150,
+        985,
+        800,
+        1010
+      ],
+      "lang": "runic/unknown",
+      "position": "bottom center, single line"
+    }
+  ],
+  "symbols": [],
+  "drawings": [
+    {
+      "type": "3D-stacked-grid",
+      "bbox": [
+        180,
+        130,
+        740,
+        440
+      ],
+      "description": "Three stacked horizontal layers, each layer is a 3x3 grid drawn in isometric/parallel projection. The top layer has a diamond-shaped central cell. Cells contain numbers. Dashed vertical lines connect corresponding cells of the three layers."
+    },
+    {
+      "type": "3D-stacked-grid",
+      "bbox": [
+        180,
+        630,
+        740,
+        920
+      ],
+      "description": "Three stacked horizontal layers in isometric/parallel projection with the same structure as the upper diagram. Each layer is a 3x3 grid with numbers, dashed lines connect cells vertically between layers."
+    }
+  ],
+  "digits": [
+    {
+      "value": "638",
+      "bbox": [
+        400,
+        142,
+        470,
+        162
+      ],
+      "layer": "top-diagram-top-layer-row1-col1"
+    },
+    {
+      "value": "24",
+      "bbox": [
+        500,
+        142,
+        555,
+        162
+      ],
+      "layer": "top-diagram-top-layer-row1-col2"
+    },
+    {
+      "value": "4",
+      "bbox": [
+        615,
+        142,
+        660,
+        162
+      ],
+      "layer": "top-diagram-top-layer-row1-col3"
+    },
+    {
+      "value": "19",
+      "bbox": [
+        370,
+        165,
+        415,
+        185
+      ],
+      "layer": "top-diagram-top-layer-row2-col1"
+    },
+    {
+      "value": "10",
+      "bbox": [
+        475,
+        165,
+        525,
+        185
+      ],
+      "layer": "top-diagram-top-layer-row2-col2"
+    },
+    {
+      "value": "637",
+      "bbox": [
+        575,
+        165,
+        645,
+        185
+      ],
+      "layer": "top-diagram-top-layer-row2-col3"
+    },
+    {
+      "value": "9",
+      "bbox": [
+        340,
+        188,
+        380,
+        208
+      ],
+      "layer": "top-diagram-top-layer-row3-col1"
+    },
+    {
+      "value": "632",
+      "bbox": [
+        445,
+        188,
+        515,
+        208
+      ],
+      "layer": "top-diagram-top-layer-row3-col2"
+    },
+    {
+      "value": "25",
+      "bbox": [
+        540,
+        188,
+        590,
+        208
+      ],
+      "layer": "top-diagram-top-layer-row3-col3"
+    },
+    {
+      "value": "5",
+      "bbox": [
+        445,
+        211,
+        490,
+        231
+      ],
+      "layer": "top-diagram-middle-layer-row1-col1"
+    },
+    {
+      "value": "639",
+      "bbox": [
+        510,
+        211,
+        580,
+        231
+      ],
+      "layer": "top-diagram-middle-layer-row1-col2"
+    },
+    {
+      "value": "22",
+      "bbox": [
+        615,
+        211,
+        660,
+        231
+      ],
+      "layer": "top-diagram-middle-layer-row1-col3"
+    },
+    {
+      "value": "635",
+      "bbox": [
+        370,
+        234,
+        435,
+        254
+      ],
+      "layer": "top-diagram-middle-layer-row2-col1"
+    },
+    {
+      "value": "13",
+      "bbox": [
+        475,
+        234,
+        525,
+        254
+      ],
+      "layer": "top-diagram-middle-layer-row2-col2"
+    },
+    {
+      "value": "18",
+      "bbox": [
+        575,
+        234,
+        625,
+        254
+      ],
+      "layer": "top-diagram-middle-layer-row2-col3"
+    },
+    {
+      "value": "26",
+      "bbox": [
+        340,
+        257,
+        385,
+        277
+      ],
+      "layer": "top-diagram-middle-layer-row3-col1"
+    },
+    {
+      "value": "14",
+      "bbox": [
+        445,
+        257,
+        490,
+        277
+      ],
+      "layer": "top-diagram-middle-layer-row3-col2"
+    },
+    {
+      "value": "626",
+      "bbox": [
+        515,
+        257,
+        580,
+        277
+      ],
+      "layer": "top-diagram-middle-layer-row3-col3"
+    },
+    {
+      "value": "23",
+      "bbox": [
+        445,
+        280,
+        490,
+        300
+      ],
+      "layer": "top-diagram-bottom-layer-row1-col1"
+    },
+    {
+      "value": "3",
+      "bbox": [
+        510,
+        280,
+        545,
+        300
+      ],
+      "layer": "top-diagram-bottom-layer-row1-col2"
+    },
+    {
+      "value": "640",
+      "bbox": [
+        590,
+        280,
+        655,
+        300
+      ],
+      "layer": "top-diagram-bottom-layer-row1-col3"
+    },
+    {
+      "value": "12",
+      "bbox": [
+        395,
+        303,
+        430,
+        323
+      ],
+      "layer": "top-diagram-bottom-layer-row2-col1"
+    },
+    {
+      "value": "643",
+      "bbox": [
+        475,
+        303,
+        530,
+        323
+      ],
+      "layer": "top-diagram-bottom-layer-row2-col2"
+    },
+    {
+      "value": "11",
+      "bbox": [
+        565,
+        303,
+        605,
+        323
+      ],
+      "layer": "top-diagram-bottom-layer-row2-col3"
+    },
+    {
+      "value": "631",
+      "bbox": [
+        340,
+        326,
+        395,
+        346
+      ],
+      "layer": "top-diagram-bottom-layer-row3-col1"
+    },
+    {
+      "value": "20",
+      "bbox": [
+        445,
+        326,
+        490,
+        346
+      ],
+      "layer": "top-diagram-bottom-layer-row3-col2"
+    },
+    {
+      "value": "15",
+      "bbox": [
+        515,
+        326,
+        555,
+        346
+      ],
+      "layer": "top-diagram-bottom-layer-row3-col3"
+    },
+    {
+      "value": "7",
+      "bbox": [
+        420,
+        645,
+        455,
+        665
+      ],
+      "layer": "bottom-diagram-top-layer-row1-col1"
+    },
+    {
+      "value": "19",
+      "bbox": [
+        510,
+        645,
+        555,
+        665
+      ],
+      "layer": "bottom-diagram-top-layer-row1-col2"
+    },
+    {
+      "value": "640",
+      "bbox": [
+        595,
+        645,
+        660,
+        665
+      ],
+      "layer": "bottom-diagram-top-layer-row1-col3"
+    },
+    {
+      "value": "12",
+      "bbox": [
+        395,
+        668,
+        430,
+        688
+      ],
+      "layer": "bottom-diagram-top-layer-row2-col1"
+    },
+    {
+      "value": "638",
+      "bbox": [
+        475,
+        668,
+        525,
+        688
+      ],
+      "layer": "bottom-diagram-top-layer-row2-col2"
+    },
+    {
+      "value": "16",
+      "bbox": [
+        565,
+        668,
+        605,
+        688
+      ],
+      "layer": "bottom-diagram-top-layer-row2-col3"
+    },
+    {
+      "value": "647",
+      "bbox": [
+        340,
+        691,
+        395,
+        711
+      ],
+      "layer": "bottom-diagram-top-layer-row3-col1"
+    },
+    {
+      "value": "9",
+      "bbox": [
+        445,
+        691,
+        480,
+        711
+      ],
+      "layer": "bottom-diagram-top-layer-row3-col2"
+    },
+    {
+      "value": "10",
+      "bbox": [
+        510,
+        691,
+        555,
+        711
+      ],
+      "layer": "bottom-diagram-top-layer-row3-col3"
+    },
+    {
+      "value": "4",
+      "bbox": [
+        475,
+        714,
+        505,
+        734
+      ],
+      "layer": "bottom-diagram-middle-layer-row1-col1"
+    },
+    {
+      "value": "642",
+      "bbox": [
+        510,
+        714,
+        580,
+        734
+      ],
+      "layer": "bottom-diagram-middle-layer-row1-col2"
+    },
+    {
+      "value": "20",
+      "bbox": [
+        615,
+        714,
+        660,
+        734
+      ],
+      "layer": "bottom-diagram-middle-layer-row1-col3"
+    },
+    {
+      "value": "651",
+      "bbox": [
+        385,
+        737,
+        445,
+        757
+      ],
+      "layer": "bottom-diagram-middle-layer-row2-col1"
+    },
+    {
+      "value": "2",
+      "bbox": [
+        475,
+        737,
+        505,
+        757
+      ],
+      "layer": "bottom-diagram-middle-layer-row2-col2"
+    },
+    {
+      "value": "13",
+      "bbox": [
+        540,
+        737,
+        580,
+        757
+      ],
+      "layer": "bottom-diagram-middle-layer-row2-col3"
+    },
+    {
+      "value": "11",
+      "bbox": [
+        370,
+        760,
+        405,
+        780
+      ],
+      "layer": "bottom-diagram-middle-layer-row3-col1"
+    },
+    {
+      "value": "22",
+      "bbox": [
+        475,
+        760,
+        510,
+        780
+      ],
+      "layer": "bottom-diagram-middle-layer-row3-col2"
+    },
+    {
+      "value": "633",
+      "bbox": [
+        515,
+        760,
+        580,
+        780
+      ],
+      "layer": "bottom-diagram-middle-layer-row3-col3"
+    },
+    {
+      "value": "655",
+      "bbox": [
+        420,
+        783,
+        485,
+        803
+      ],
+      "layer": "bottom-diagram-bottom-layer-row1-col1"
+    },
+    {
+      "value": "5",
+      "bbox": [
+        510,
+        783,
+        540,
+        803
+      ],
+      "layer": "bottom-diagram-bottom-layer-row1-col2"
+    },
+    {
+      "value": "6",
+      "bbox": [
+        595,
+        783,
+        625,
+        803
+      ],
+      "layer": "bottom-diagram-bottom-layer-row1-col3"
+    },
+    {
+      "value": "3",
+      "bbox": [
+        430,
+        806,
+        455,
+        826
+      ],
+      "layer": "bottom-diagram-bottom-layer-row2-col1"
+    },
+    {
+      "value": "26",
+      "bbox": [
+        500,
+        806,
+        540,
+        826
+      ],
+      "layer": "bottom-diagram-bottom-layer-row2-col2"
+    },
+    {
+      "value": "637",
+      "bbox": [
+        565,
+        806,
+        625,
+        826
+      ],
+      "layer": "bottom-diagram-bottom-layer-row2-col3"
+    },
+    {
+      "value": "8",
+      "bbox": [
+        375,
+        829,
+        410,
+        849
+      ],
+      "layer": "bottom-diagram-bottom-layer-row3-col1"
+    },
+    {
+      "value": "635",
+      "bbox": [
+        475,
+        829,
+        530,
+        849
+      ],
+      "layer": "bottom-diagram-bottom-layer-row3-col2"
+    },
+    {
+      "value": "23",
+      "bbox": [
+        560,
+        829,
+        605,
+        849
+      ],
+      "layer": "bottom-diagram-bottom-layer-row3-col3"
+    }
+  ],
+  "formulas": [],
+  "mixed_media_regions": [
+    {
+      "bbox": [
+        180,
+        130,
+        740,
+        615
+      ],
+      "contains": "3D stacked grid diagram (numbers) + red runic title + black runic paragraph (5 lines) with embedded circled-glyph symbols within the text"
+    },
+    {
+      "bbox": [
+        180,
+        630,
+        740,
+        1010
+      ],
+      "contains": "3D stacked grid diagram (numbers) + red runic title + black runic single-line text with embedded circled-glyph symbols"
+    }
+  ],
+  "uncertain": [
+    "The script in all text blocks (red and black) appears to be a runic/constructed script (possibly Cirth/Tolkien-inspired or similar esoteric runic writing) and cannot be transcribed into Latin letters with confidence.",
+    "Embedded circled-glyph symbols within the black runic text paragraphs (positions: after 'X' in line 2 of paragraph 1, after 'h' in line 3, after 'X' in line 4) — these appear to be circled variant glyphs of characters already present in the text, used for emphasis or marking.",
+    "Page number not visible on the image.",
+    "Exact cell boundary lines in the 3D diagrams — only approximate grid positions estimated from digit centers.",
+    "Whether the dashed vertical lines in the 3D diagrams carry additional meaning (e.g., indicating projection, axis, or correspondence) is not determinable from the image alone."
+  ]
+}

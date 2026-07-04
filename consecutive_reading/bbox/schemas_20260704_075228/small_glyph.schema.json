@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "required": ["kind", "description", "position"],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "description": "Single-word classification. Allowed values include: chinese_oracle_script, chinese_seal_script, turkic_round_rune, geometric_circle, geometric_circle_with_dot, geometric_circle_with_x, geometric_circle_with_cross, geometric_diamond, geometric_diamond_with_dot, geometric_filled_square, geometric_bracket, face_circle_three_dots, math_pi, math_caret, math_asterisk, math_times, latin_print, red_label_stenographic, dash_frac_bar, prime_digit, stick_figure, image, address_hex, unknown."
+    },
+    "description": {
+      "type": "string",
+      "description": "Concrete visual description of what you see in this single glyph crop."
+    },
+    "position": {
+      "type": "string",
+      "description": "Where on the parent page the glyph is located, e.g. 'centered below the 3x3 cube', 'top-left corner'."
+    },
+    "unicode_codepoint": {
+      "type": "string",
+      "description": "Best Unicode match (e.g. U+5929, U+25CB). Empty if you cannot identify."
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "How confident you are in the kind+description. 1.0 = certain."
+    }
+  }
+}

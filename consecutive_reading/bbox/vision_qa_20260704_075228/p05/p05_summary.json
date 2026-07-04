@@ -1,0 +1,67 @@
+{
+  "page": "p05",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        443,
+        479,
+        126,
+        40
+      ],
+      "kind": "latin_print",
+      "description": "Printed numeral '14' in a sans-serif font, with diagonal hatching lines crossing",
+      "confidence": 0.95
+    },
+    {
+      "index": 1,
+      "bbox": [
+        479,
+        978,
+        125,
+        39
+      ],
+      "kind": "image",
+      "description": "A parallelogram (slanted quadrilateral) outline containing the numeral '7' insid",
+      "confidence": 0.45
+    },
+    {
+      "index": 2,
+      "bbox": [
+        556,
+        532,
+        126,
+        39
+      ],
+      "kind": "image",
+      "description": "A portion of a table or diagram with parallel diagonal lines slanting from upper",
+      "confidence": 0.4
+    },
+    {
+      "index": 3,
+      "bbox": [
+        500,
+        1154,
+        126,
+        39
+      ],
+      "kind": "red_label_stenographic",
+      "description": "Row of digits ('31', '2', '1') with diagonal slashes crossing through them in a ",
+      "confidence": 0.75
+    },
+    {
+      "index": 4,
+      "bbox": [
+        423,
+        1289,
+        126,
+        39
+      ],
+      "kind": "image",
+      "description": "A slanted parallelogram diagram with a dashed vertical line on the left side, co",
+      "confidence": 0.82
+    }
+  ]
+}

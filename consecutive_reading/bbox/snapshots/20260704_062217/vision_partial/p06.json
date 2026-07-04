@@ -1,0 +1,116 @@
+{
+  "page_summary": "A page displaying two 3x3x3 magic cubes with numbers in each cell, each accompanied by a red alphanumeric label and a paragraph of text written in an alien/constructed script.",
+  "text_blocks": [
+    "⤜⤛<<?>>⤜⤛⤜⤛ ⤜⤛M<>⤜⤛ ⤛<>⤜⤛⤛ MXXV 1Ↄ MHEIↃ <>M<><> <<>\"\n⤜ 1⊗X<> MHI <⊗> <>MXX<>>H⊗<X MHE<⊗>H MHEI <⤜<> 4<M ♢⤜⤛\n\"MXX 1",
+    "⤜⤛<<?>>⤜⤛⤜⤛ ⤜⤛M<>⤜⤛ ⤛<>⤜⤛⤛ MXXV 1Ↄ MHEIↃ <>M<><> <<>\"\n⤜ 1⊗X<> MHI <⊗> <>MXX<>>H⊗<X MHE<⊗>H MHEI <⤜<> 4<M ♢⤜⤛\n\"MXX 1"
+  ],
+  "colored_text": [
+    {
+      "text": "ƎH∀H∀H∀ · 2",
+      "color": "red",
+      "approximate_position": "centered between the upper magic cube and the upper text block (top half of page)"
+    },
+    {
+      "text": "IHN · 1",
+      "color": "red",
+      "approximate_position": "centered between the lower magic cube and the lower text block (bottom half of page)"
+    }
+  ],
+  "symbols": [
+    {
+      "description": "Arrow-like bracket glyph resembling a left-pointing angle with a hook",
+      "kind": "alien_rune_bracket",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Arrow-like bracket glyph resembling a right-pointing angle with a hook",
+      "kind": "alien_rune_bracket",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Circle with a dot in the center",
+      "kind": "geometric_circle_with_dot",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Diamond/lozenge shape",
+      "kind": "geometric_diamond",
+      "position": "end of lines in the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Triangular glyphs pointing in various directions",
+      "kind": "alien_rune_triangle",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "X-shape glyphs",
+      "kind": "alien_rune_x",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "M-like glyphs with extended strokes",
+      "kind": "alien_rune_m",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "H-like glyphs with curved or extended strokes",
+      "kind": "alien_rune_h",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "C-like and D-like curved glyphs",
+      "kind": "alien_rune_curve",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Cross/plus-like glyphs",
+      "kind": "geometric_cross",
+      "position": "throughout the text paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Middle dot separator (·)",
+      "kind": "middle_dot",
+      "position": "in the red labels between cubes and text",
+      "size_estimate": "small (line height)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "Upper 3x3x3 magic cube drawn in isometric perspective with three visible layers (top, middle, bottom) shown as parallelograms connected by dashed vertical lines on the right edge. Each cell contains a 1-3 digit number.",
+      "type": "magic_cube_3x3",
+      "position": "upper half of page, centered",
+      "components": [
+        "Top layer parallelogram with numbers: 26, 2, 638 / 3, 656, 7 / 637, 8, 21",
+        "Middle layer parallelogram with numbers: 4, 640, 22 / 644, 9, 13 / 18, 17, 631",
+        "Bottom layer parallelogram with numbers: 636, 24, 6 / 19, 1, 646 / 11, 641, 14",
+        "Dashed vertical lines on the right side connecting the layers"
+      ]
+    },
+    {
+      "description": "Lower 3x3x3 magic cube drawn in isometric perspective with three visible layers (top, middle, bottom) shown as parallelograms connected by dashed vertical lines on the right edge. Each cell contains a 1-3 digit number.",
+      "type": "magic_cube_3x3",
+      "position": "lower half of page, centered",
+      "components": [
+        "Top layer parallelogram with numbers: 27, 1, 638 / 4, 641, 21 / 635, 24, 7",
+        "Middle layer parallelogram with numbers: 2, 648, 16 / 642, 10, 14 / 22, 8, 636",
+        "Bottom layer parallelogram with numbers: 637, 17, 12 / 20, 15, 631 / 9, 634, 23",
+        "Dashed vertical lines on the right side connecting the layers"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The text paragraphs are written in a constructed/alien script (resembling Klingon pIqaD or a similar fictional alphabet); the individual glyphs cannot be confidently transliterated into Latin letters.",
+    "The red labels 'ƎH∀H∀H∀ · 2' and 'IHN · 1' appear to be in a mirrored/constructed script; the exact intended reading is uncertain (possibly 'AHAHAHA · 2' and 'MHI · 1' or similar, but the mirror/flip orientation is ambiguous).",
+    "The exact line-by-line content of the alien text is not parseable; only the rough glyph shapes and approximate layout can be reported."
+  ]
+}

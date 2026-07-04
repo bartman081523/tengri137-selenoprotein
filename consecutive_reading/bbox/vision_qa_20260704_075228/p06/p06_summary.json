@@ -1,0 +1,67 @@
+{
+  "page": "p06",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        443,
+        479,
+        126,
+        40
+      ],
+      "kind": "image",
+      "description": "A sequence diagram showing the numbers 8, 17, and 63 (partially cut off) arrange",
+      "confidence": 0.75
+    },
+    {
+      "index": 1,
+      "bbox": [
+        499,
+        573,
+        127,
+        39
+      ],
+      "kind": "image",
+      "description": "Fragment of a table with diagonal slash lines dividing cells containing numbers ",
+      "confidence": 0.6
+    },
+    {
+      "index": 2,
+      "bbox": [
+        366,
+        1161,
+        125,
+        40
+      ],
+      "kind": "image",
+      "description": "Fragment of a crystallographic or Miller indices diagram showing diagonal parall",
+      "confidence": 0.85
+    },
+    {
+      "index": 3,
+      "bbox": [
+        577,
+        303,
+        127,
+        39
+      ],
+      "kind": "red_label_stenographic",
+      "description": "A parallelogram/rhombus shape formed by diagonal lines containing the numeral '7",
+      "confidence": 0.7
+    },
+    {
+      "index": 4,
+      "bbox": [
+        521,
+        1026,
+        126,
+        39
+      ],
+      "kind": "image",
+      "description": "A diagram showing a parallelogram divided diagonally, containing the digits '4' ",
+      "confidence": 0.72
+    }
+  ]
+}

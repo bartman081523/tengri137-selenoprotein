@@ -1,0 +1,341 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      960,
+      1170
+    ],
+    "text_words": [],
+    "symbols": [],
+    "drawings": [
+      {
+        "type": "silhouette_figure",
+        "position": [
+          240,
+          920,
+          305,
+          1130
+        ],
+        "description": "Black silhouette of a human figure, appears to be standing, possibly with arms raised/holding an object"
+      },
+      {
+        "type": "silhouette_figure",
+        "position": [
+          310,
+          920,
+          385,
+          1100
+        ],
+        "description": "Black silhouette of a human figure, side profile, appears to be holding something up (perhaps a cup or object)"
+      },
+      {
+        "type": "silhouette_figure",
+        "position": [
+          470,
+          950,
+          530,
+          1110
+        ],
+        "description": "Black silhouette of a human figure, elongated/abstracted shape"
+      },
+      {
+        "type": "silhouette_figure",
+        "position": [
+          555,
+          935,
+          615,
+          1110
+        ],
+        "description": "Black silhouette of a standing human figure, abstracted/elongated"
+      },
+      {
+        "type": "silhouette_figure",
+        "position": [
+          650,
+          920,
+          720,
+          1110
+        ],
+        "description": "Black silhouette of a human figure in dynamic pose, possibly walking or with one leg forward"
+      }
+    ],
+    "digits": [
+      {
+        "text": "2⁴ x 3² x 73 x 21354551",
+        "position": [
+          95,
+          173,
+          365,
+          195
+        ]
+      },
+      {
+        "text": "5 x 7 x 1597 x 30615947",
+        "position": [
+          95,
+          200,
+          350,
+          222
+        ]
+      },
+      {
+        "text": "419 x 33479011 x 1377671157383 x 565557579946159",
+        "position": [
+          95,
+          248,
+          695,
+          270
+        ]
+      },
+      {
+        "text": "2 x 3 x 59 x 93763084373795259902/189010980831729",
+        "position": [
+          95,
+          275,
+          640,
+          297
+        ]
+      },
+      {
+        "text": "3 x 17 x 163 x 879581 x 6282109 x 109238762041793",
+        "position": [
+          95,
+          323,
+          600,
+          345
+        ]
+      },
+      {
+        "text": "5 x 151483 x 882481 x 67416301 x 166783050929",
+        "position": [
+          95,
+          350,
+          565,
+          372
+        ]
+      },
+      {
+        "text": "51637 x 1579057038864411599",
+        "position": [
+          95,
+          400,
+          395,
+          422
+        ]
+      },
+      {
+        "text": "2³ x 3 x 5 x 31 x 37 x 1255549 x 6955146255349",
+        "position": [
+          95,
+          427,
+          555,
+          449
+        ]
+      },
+      {
+        "text": "19 x 4643 x 10127813039 x 48480118007129",
+        "position": [
+          95,
+          477,
+          490,
+          499
+        ]
+      },
+      {
+        "text": "3 x 23 x 79 x 109 x 92363 x 11821524961462696933",
+        "position": [
+          95,
+          504,
+          630,
+          526
+        ]
+      },
+      {
+        "text": "2⁹ x 4591 x 1301543 x 1105143144365655163",
+        "position": [
+          95,
+          554,
+          580,
+          576
+        ]
+      },
+      {
+        "text": "3 x 5 x 22857300372360659243611303999",
+        "position": [
+          95,
+          581,
+          530,
+          603
+        ]
+      },
+      {
+        "text": "5 x 491 x 1445671 x 180057067 x 32261166135199",
+        "position": [
+          95,
+          631,
+          525,
+          653
+        ]
+      },
+      {
+        "text": "11 x 149 x 34027682734593 x 823276438824053",
+        "position": [
+          95,
+          658,
+          525,
+          680
+        ]
+      },
+      {
+        "text": "17 x 179 x 1236970263209 x 631537482347585925429133421",
+        "position": [
+          95,
+          736,
+          690,
+          758
+        ]
+      },
+      {
+        "text": "2⁴ x 53 x 1531 x 116436444287539 x 80794149528284258442157",
+        "position": [
+          95,
+          763,
+          715,
+          785
+        ]
+      },
+      {
+        "text": "1049150954343473676427",
+        "position": [
+          95,
+          811,
+          310,
+          833
+        ]
+      },
+      {
+        "text": "3 x 7 x 227 x 294202421132734019",
+        "position": [
+          95,
+          838,
+          365,
+          860
+        ]
+      },
+      {
+        "text": "2⁴ x 441716239 x 19367429650730547196299",
+        "position": [
+          95,
+          888,
+          475,
+          910
+        ]
+      },
+      {
+        "text": "29 x 6696377 x 4435296360728852843481091",
+        "position": [
+          95,
+          915,
+          525,
+          937
+        ]
+      },
+      {
+        "text": "301682422016229122477237",
+        "position": [
+          95,
+          965,
+          350,
+          987
+        ]
+      },
+      {
+        "text": "2² x 5 x 73 x 359 x 86179 x 29394606489877",
+        "position": [
+          95,
+          992,
+          460,
+          1014
+        ]
+      },
+      {
+        "text": "7⁹ x 4099 x 137432243658767328901555581909932976371",
+        "position": [
+          95,
+          1042,
+          710,
+          1064
+        ]
+      },
+      {
+        "text": "2 x 13 x 307 x 13633 x 76617889042 x 3664884054616850727656269",
+        "position": [
+          95,
+          1069,
+          770,
+          1091
+        ]
+      },
+      {
+        "text": "7 x 103 x 20894347 x 96597344975787088554999",
+        "position": [
+          95,
+          1119,
+          530,
+          1141
+        ]
+      },
+      {
+        "text": "3² x 5 x 505123 x 16098002006842900000040401",
+        "position": [
+          95,
+          1146,
+          600,
+          1168
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "type": "factorization_product",
+        "position": [
+          90,
+          165,
+          720,
+          1170
+        ],
+        "description": "Multiple pairs of multiplicative factorizations (factorizations and their products), each pair connected by a thin horizontal line above and below. Black text on white background. Approximately 13 pairs of equations total."
+      }
+    ],
+    "mixed_media_regions": [
+      {
+        "region": "bottom",
+        "position": [
+          220,
+          910,
+          740,
+          1130
+        ],
+        "description": "Row of five black human silhouette figures of varying heights, abstract/stylized, appearing to depict people in different poses or activities. Some figures are very elongated/distorted."
+      }
+    ],
+    "uncertain": [
+      "Exact reading of the very small subscript/superscript exponents in factorizations (e.g., 2⁴ vs 2^4)",
+      "Precise figure count and pose of silhouettes - hard to tell exact number and orientation of each figure",
+      "Whether the long number '93763084373795259902/189010980831729' is one number with a slash or two separate values (likely a fraction with a typo or formatting issue)"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page": "p14",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        692,
+        733,
+        17,
+        26
+      ],
+      "kind": "latin_print",
+      "description": "A single printed character resembling a Cyrillic letter 'б' or digit '6', with a",
+      "confidence": 0.62
+    },
+    {
+      "index": 1,
+      "bbox": [
+        747,
+        733,
+        17,
+        26
+      ],
+      "kind": "latin_print",
+      "description": "The digit '6' in a serif/print typeface, showing a curved top stroke descending ",
+      "confidence": 0.97
+    },
+    {
+      "index": 2,
+      "bbox": [
+        749,
+        587,
+        16,
+        25
+      ],
+      "kind": "prime_digit",
+      "description": "A handwritten/printed digit '6' with a curved loop at the bottom and a curling t",
+      "confidence": 0.95
+    },
+    {
+      "index": 3,
+      "bbox": [
+        694,
+        587,
+        17,
+        25
+      ],
+      "kind": "prime_digit",
+      "description": "Handwritten or serif-style digit '6' with a curved top and a looped bottom",
+      "confidence": 0.95
+    },
+    {
+      "index": 4,
+      "bbox": [
+        611,
+        952,
+        17,
+        17
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A circle containing three dots arranged in a triangular pattern (two dots on top",
+      "confidence": 0.82
+    }
+  ]
+}

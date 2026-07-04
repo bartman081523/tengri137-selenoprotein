@@ -1,0 +1,48 @@
+{
+  "page_summary": "A page containing several paragraphs of Ge'ez/Ethiopian script surrounding a centered mathematical formula involving the number 7, π, and 6.67.",
+  "text_blocks": [
+    "እንግዳ እግዚ ኦ እግ የኦሪት ዕምባ ኅዝበ ድሕነ የሕማማ ዕለ ንጽሕሉ እልፎ ።አግዚኣቢ እለ የኦሪት ሕቀኛ አሐደ ፡ ግልጽ እምነ ላዕለ ሊቀመና መድኃኒ አንተሆቅ ነአእሙ ፡። ኢያልብአልኡ ብእልፎሆሆ ኢናንሆ ነቢሊ እግዚ ኣቦ ።",
+    "((7^π)/(7π)) x 6.67 / ((7π)/(7^π))/6.67",
+    "እምያቅ አሀ እለ የኦሪት እም ንግዕግዕቶ ኅዝበ ና በዙ ዕለ ክርኤሃ ብእዕለ ድጀ ። ዲጃጅእግዚኣቢአስ ናቁሆ ሀ በአንቀህቅ አለ እግ አሕድሕድ አሁህ እልኤነህ ዕለ አ ።እእዕርህኣሆቅ አሁህ እል አኔ እግዚኣ ።",
+    "ና ሀ ኅዶ እለሃህ አሁህ ድጄ ነቢህ እልኤነሆቅ ዕለኅህ እልኤህ ዕለድጀ አንቅህቅ ፡አሆ እሕሃህቅ እምድቁን ዕለ ሐዋርያ እምሕዋ እለ እግዚኣ ።እሕሃህዋ እለ ዕለ አሕድሕድ ኢያልአል አንቅህቅ ኢናሁህ እሕአ ።",
+    "አሁህ እልኤነሆቅ ሐ ልምድጀ እሕህ ሀ ዕለሃኤድጀብ ኅዝበ ኅጃ ፡እሕሃ እሕሃህህህ ኅጃ ሀ አንቅህቅ ።እሕሃህቅ አንቀህህ ።እሕሃ እሕህህ ሀ ዕለህህህህቅ ድጃህ ኅዝበ እሕ እኀህህ ።"
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Mathematical expression: ((7^π)/(7π)) x 6.67 / ((7π)/(7^π))/6.67",
+      "kind": "math_expression",
+      "position": "centered in the middle of the page, between the upper and lower text blocks",
+      "size_estimate": "large (several cm tall)"
+    },
+    {
+      "description": "The Greek letter pi (π) used as a mathematical symbol",
+      "kind": "math_pi",
+      "position": "within the central mathematical formula",
+      "size_estimate": "small to medium (within formula)"
+    },
+    {
+      "description": "The number 7 used as a base, with pi written as a superscript exponent",
+      "kind": "math_superscript_pi",
+      "position": "within the central mathematical formula",
+      "size_estimate": "small (within formula)"
+    },
+    {
+      "description": "Decimal number 6.67 used as a multiplier/divisor",
+      "kind": "math_decimal",
+      "position": "right side of the mathematical formula",
+      "size_estimate": "small (within formula)"
+    },
+    {
+      "description": "Ethiopic/Ge'ez script characters (Amharic Fidäl) used throughout the text",
+      "kind": "ethiopic_syllabary",
+      "position": "all text blocks above and below the formula",
+      "size_estimate": "medium (body text)"
+    }
+  ],
+  "decorations": [],
+  "uncertain_or_unreadable": [
+    "The exact reading and meaning of the Ge'ez/Amharic text cannot be transcribed confidently, as the resolution of the script is not clear enough to distinguish every fidäl character precisely.",
+    "It is unclear whether the small mark above the first '7' in the formula is a decoration, a prime symbol, or part of the exponent notation."
+  ]
+}

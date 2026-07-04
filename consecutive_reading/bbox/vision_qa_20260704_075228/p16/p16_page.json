@@ -1,0 +1,1565 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      880,
+      1140
+    ],
+    "text_words": [
+      {
+        "text": "ᛁᛒᛗ · ᛗᛖᛚᛗᛁᛒᛁ ᛋᛒᛁᛁᛗ ᛋᛗᛁᛗᛒᛁ ᛒ ᚱᚱᛁᛗᛁ ᛋᛒ ᛚᛒ",
+        "color": "black",
+        "position": "top",
+        "bbox": [
+          105,
+          105,
+          770,
+          138
+        ]
+      },
+      {
+        "text": "· ᛁᛗᛒ ᛒᛖᛁ ᚱᚱᛁᛗᛁᛒ ᛒ ᛒ ᛗᛒᚱᚺᛁ ᛋᛒᛁᛁᛗ",
+        "color": "black",
+        "position": "top",
+        "bbox": [
+          160,
+          138,
+          720,
+          172
+        ]
+      },
+      {
+        "text": "ᛋᛗᛁ ᛒᛒᛋᛋ ᛋᛁ ᛋᛁᛋᛋ ᛋᛗᛁᛗ ᛋᛗᛁᚱ ᛋᛒ · ᛋᛋᛋᛗᛁᚱᛁ ᛒᛋᛋ ᛋᛒ ᛒᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          745,
+          770,
+          770
+        ]
+      },
+      {
+        "text": "ᚺᛋᛋᛋᛋ ᛗᛋᛋᛋ ᛋᛋᛋᛋᛋ ᛋᛁ ᛋᛋᚱᛒ ᛋᛒ · ᛋᛋᚱᛒᛋᛋᛋ ᛋᛋᚱᛋᛋᚱ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          770,
+          770,
+          800
+        ]
+      },
+      {
+        "text": "ᚺᛋᛋᛋ ᛋᛒᛋᛋ ᛒᛁ ᛋᛋᛋ ᛁᛋ ᛋᛋᛋᛋ ᚺᛁ ᛋᛋ ᛋᛋᛋᛋᛋᛋᚱ ᛋᛋᛋ ᛋᛋᚱ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          800,
+          770,
+          830
+        ]
+      },
+      {
+        "text": "ᛋᛋ ᛋᛋᚺᛋᛋᛋᛋ ᛗᛋᛋᛋ ᛋᛋᛋᛋ ᛋᛋᛋᚱᛋᛋᛋ ᛗᛋᛋᛋ ᛋᛋᛋ · ᛁᚺᛁ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          830,
+          770,
+          860
+        ]
+      },
+      {
+        "text": "ᛋ ᛋᛋᛋ ᛋᛁᛋ ᛋᛋᛋ ᛋᛋᛋᛋ · ᛁᚺᛁ ᚺᛋᛋ ᛋᛋᛋ ᛋᛋᛋᛋ ᛋᛋ ᛋᛋᛋᚱᛋᛋᚱ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          860,
+          770,
+          888
+        ]
+      },
+      {
+        "text": "ᛋᛋᛋ ᛋᛋᚺᛋᛋᛋᛋᛋ · ᛁᛋᛋᛋᛋᛋ ᛋᚺᛋᛋᛋᛋ ᛋᛋᛋ ᚺᛋ ᛋᛋ ᛋᛋᛋᛋᛋᛋᛋ ᛋᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          888,
+          770,
+          918
+        ]
+      },
+      {
+        "text": "ᛋ ᛋᛋ ᛋᛋᛋᛋᛋ ᛋᛋᛋ · ᛋᛋᛋᛋ ᛋ ᛒᛁ ᛋᛋᛋᚱᛋᛋ ᛋᛋᛋ ᛋᛋᛋ ᛋᛋᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          918,
+          770,
+          945
+        ]
+      },
+      {
+        "text": "ᛋᛋ ᛋᛋᛋᛋᛋ ᛋᛋᚱᛋᛋᛋ ᛋᛋᛋ · ᚺᛋ ᛋᛋᛋ ᛋᛋᛋᛋ ᛋᛋ ᛋᛋᛋᛋᛋ ᛒᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          945,
+          770,
+          975
+        ]
+      },
+      {
+        "text": "ᛋᛋᛋ ᚺᛋᛋ ᛋᛋ ᛋᛋᛋᛋᛋ ᛗᛋᛋᛁ ᛋᛋᛁ ᛋᚺᛋᛋᚺᛋ ᛋᛋᚱᛒᛋ ᛗᛋᛋᛋ ᚺᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          975,
+          770,
+          1002
+        ]
+      },
+      {
+        "text": "ᛁᛋᛋᛋᛋᛋ ᛋᛋᛋᛋᛁ ᛋᛒᛋᛋᛋᛁ ᛋᛋᛋ ᛋᛋᛒ ᛋᛋᛋᛋ ᛋᛋ · ᛋᛋᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          1002,
+          770,
+          1032
+        ]
+      },
+      {
+        "text": "ᛋᛋᛋ · ᛋᛋᛋ ᛋᛋ ᛋᛋ ᛋᛋᛋᛋ ᛁᛋᛋᛋᛋᛋ ᛋᚺᛋᛋᛋ ᛋᛋ ᛋᛋᛋᛋᛁ ᚺᛋᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          110,
+          1032,
+          770,
+          1058
+        ]
+      },
+      {
+        "text": "· ᛋᛋᛋ ᛋᛋᛋᛋ ᚺᛋᛋ ᛋᛋᛋ ᛒᛁ ᛁᚺ ᚺᛋᛋᛋ",
+        "color": "black",
+        "position": "bottom",
+        "bbox": [
+          205,
+          1058,
+          670,
+          1088
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "magical_script_characters",
+        "description": "Constructed/magical alphabet glyphs (similar to Theban/Honorian/Futhorc-style runes) used throughout the document",
+        "color": "black",
+        "position": "throughout",
+        "bbox": [
+          105,
+          105,
+          770,
+          1088
+        ]
+      }
+    ],
+    "drawings": [
+      {
+        "type": "parallelogram_grid_3d",
+        "description": "Upper-left: 3D stacked parallelogram grid (4 layers) with numerical entries, zigzag pattern",
+        "color": "black_lines",
+        "position": "upper_middle_left",
+        "bbox": [
+          190,
+          200,
+          440,
+          440
+        ]
+      },
+      {
+        "type": "parallelogram_grid_3d",
+        "description": "Upper-right: 3D stacked parallelogram grid (4 layers) with numerical entries",
+        "color": "black_lines",
+        "position": "upper_middle_right",
+        "bbox": [
+          445,
+          200,
+          695,
+          440
+        ]
+      },
+      {
+        "type": "parallelogram_grid_3d",
+        "description": "Lower-left: 3D stacked parallelogram grid (4 layers) with numerical entries",
+        "color": "black_lines",
+        "position": "lower_middle_left",
+        "bbox": [
+          190,
+          480,
+          440,
+          720
+        ]
+      },
+      {
+        "type": "parallelogram_grid_3d",
+        "description": "Lower-right: 3D stacked parallelogram grid (4 layers) with numerical entries",
+        "color": "black_lines",
+        "position": "lower_middle_right",
+        "bbox": [
+          445,
+          480,
+          695,
+          720
+        ]
+      }
+    ],
+    "digits": [
+      {
+        "value": "3267",
+        "color": "black",
+        "position": "upper_left_grid_top",
+        "bbox": [
+          275,
+          220,
+          320,
+          232
+        ]
+      },
+      {
+        "value": "21",
+        "color": "black",
+        "position": "upper_left_grid_top",
+        "bbox": [
+          340,
+          220,
+          358,
+          232
+        ]
+      },
+      {
+        "value": "13",
+        "color": "black",
+        "position": "upper_left_grid_top",
+        "bbox": [
+          390,
+          220,
+          410,
+          232
+        ]
+      },
+      {
+        "value": "9",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          250,
+          247,
+          268,
+          259
+        ]
+      },
+      {
+        "value": "25",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          320,
+          247,
+          345,
+          259
+        ]
+      },
+      {
+        "value": "3267",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          370,
+          247,
+          420,
+          259
+        ]
+      },
+      {
+        "value": "3",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          225,
+          273,
+          235,
+          285
+        ]
+      },
+      {
+        "value": "8",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          260,
+          273,
+          275,
+          285
+        ]
+      },
+      {
+        "value": "3262",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          340,
+          273,
+          385,
+          285
+        ]
+      },
+      {
+        "value": "31",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          225,
+          300,
+          240,
+          312
+        ]
+      },
+      {
+        "value": "3258",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          275,
+          300,
+          318,
+          312
+        ]
+      },
+      {
+        "value": "12",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          360,
+          300,
+          380,
+          312
+        ]
+      },
+      {
+        "value": "9",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          310,
+          327,
+          320,
+          339
+        ]
+      },
+      {
+        "value": "3275",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          355,
+          327,
+          395,
+          339
+        ]
+      },
+      {
+        "value": "17",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          415,
+          327,
+          435,
+          339
+        ]
+      },
+      {
+        "value": "3284",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          250,
+          355,
+          295,
+          367
+        ]
+      },
+      {
+        "value": "15",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          330,
+          355,
+          350,
+          367
+        ]
+      },
+      {
+        "value": "2",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          390,
+          355,
+          400,
+          367
+        ]
+      },
+      {
+        "value": "8",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          225,
+          382,
+          235,
+          394
+        ]
+      },
+      {
+        "value": "11",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          260,
+          382,
+          275,
+          394
+        ]
+      },
+      {
+        "value": "3282",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          305,
+          382,
+          350,
+          394
+        ]
+      },
+      {
+        "value": "2",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          225,
+          410,
+          235,
+          422
+        ]
+      },
+      {
+        "value": "23",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          260,
+          410,
+          280,
+          422
+        ]
+      },
+      {
+        "value": "3276",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          300,
+          410,
+          345,
+          422
+        ]
+      },
+      {
+        "value": "5",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          375,
+          410,
+          385,
+          422
+        ]
+      },
+      {
+        "value": "14",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          250,
+          437,
+          268,
+          449
+        ]
+      },
+      {
+        "value": "3264",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          305,
+          437,
+          350,
+          449
+        ]
+      },
+      {
+        "value": "23",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          390,
+          437,
+          410,
+          449
+        ]
+      },
+      {
+        "value": "3262",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          225,
+          462,
+          270,
+          474
+        ]
+      },
+      {
+        "value": "32",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          305,
+          462,
+          325,
+          474
+        ]
+      },
+      {
+        "value": "7",
+        "color": "black",
+        "position": "upper_left_grid",
+        "bbox": [
+          355,
+          462,
+          365,
+          474
+        ]
+      },
+      {
+        "value": "9",
+        "color": "black",
+        "position": "upper_right_grid_top",
+        "bbox": [
+          560,
+          220,
+          575,
+          232
+        ]
+      },
+      {
+        "value": "25",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          620,
+          220,
+          645,
+          232
+        ]
+      },
+      {
+        "value": "3267",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          670,
+          220,
+          715,
+          232
+        ]
+      },
+      {
+        "value": "8",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          490,
+          247,
+          505,
+          259
+        ]
+      },
+      {
+        "value": "3262",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          555,
+          247,
+          600,
+          259
+        ]
+      },
+      {
+        "value": "31",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          635,
+          247,
+          650,
+          259
+        ]
+      },
+      {
+        "value": "3284",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          460,
+          273,
+          505,
+          285
+        ]
+      },
+      {
+        "value": "14",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          540,
+          273,
+          555,
+          285
+        ]
+      },
+      {
+        "value": "3",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          600,
+          273,
+          610,
+          285
+        ]
+      },
+      {
+        "value": "12",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          650,
+          273,
+          668,
+          285
+        ]
+      },
+      {
+        "value": "17",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          585,
+          300,
+          600,
+          312
+        ]
+      },
+      {
+        "value": "3271",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          620,
+          300,
+          660,
+          312
+        ]
+      },
+      {
+        "value": "13",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          685,
+          300,
+          700,
+          312
+        ]
+      },
+      {
+        "value": "3282",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          510,
+          327,
+          555,
+          339
+        ]
+      },
+      {
+        "value": "7",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          590,
+          327,
+          600,
+          339
+        ]
+      },
+      {
+        "value": "12",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          630,
+          327,
+          648,
+          339
+        ]
+      },
+      {
+        "value": "2",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          460,
+          355,
+          470,
+          367
+        ]
+      },
+      {
+        "value": "23",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          490,
+          355,
+          510,
+          367
+        ]
+      },
+      {
+        "value": "3276",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          540,
+          355,
+          585,
+          367
+        ]
+      },
+      {
+        "value": "5",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          615,
+          355,
+          625,
+          367
+        ]
+      },
+      {
+        "value": "11",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          490,
+          382,
+          505,
+          394
+        ]
+      },
+      {
+        "value": "32",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          540,
+          382,
+          555,
+          394
+        ]
+      },
+      {
+        "value": "3258",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          580,
+          382,
+          625,
+          394
+        ]
+      },
+      {
+        "value": "15",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          460,
+          410,
+          475,
+          422
+        ]
+      },
+      {
+        "value": "3264",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          510,
+          410,
+          555,
+          422
+        ]
+      },
+      {
+        "value": "22",
+        "color": "black",
+        "position": "upper_right_grid",
+        "bbox": [
+          600,
+          410,
+          620,
+          422
+        ]
+      },
+      {
+        "value": "33",
+        "color": "black",
+        "position": "lower_left_grid_top",
+        "bbox": [
+          265,
+          500,
+          290,
+          512
+        ]
+      },
+      {
+        "value": "3258",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          325,
+          500,
+          365,
+          512
+        ]
+      },
+      {
+        "value": "8",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          395,
+          500,
+          410,
+          512
+        ]
+      },
+      {
+        "value": "1",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          255,
+          527,
+          268,
+          539
+        ]
+      },
+      {
+        "value": "16",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          310,
+          527,
+          330,
+          539
+        ]
+      },
+      {
+        "value": "3282",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          365,
+          527,
+          410,
+          539
+        ]
+      },
+      {
+        "value": "3285",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          225,
+          553,
+          270,
+          565
+        ]
+      },
+      {
+        "value": "25",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          305,
+          553,
+          325,
+          565
+        ]
+      },
+      {
+        "value": "9",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          360,
+          553,
+          370,
+          565
+        ]
+      },
+      {
+        "value": "5",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          310,
+          580,
+          320,
+          592
+        ]
+      },
+      {
+        "value": "30",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          345,
+          580,
+          370,
+          592
+        ]
+      },
+      {
+        "value": "3264",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          395,
+          580,
+          440,
+          592
+        ]
+      },
+      {
+        "value": "3288",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          240,
+          608,
+          285,
+          620
+        ]
+      },
+      {
+        "value": "7",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          320,
+          608,
+          330,
+          620
+        ]
+      },
+      {
+        "value": "4",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          370,
+          608,
+          380,
+          620
+        ]
+      },
+      {
+        "value": "6",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          225,
+          635,
+          235,
+          647
+        ]
+      },
+      {
+        "value": "3262",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          260,
+          635,
+          305,
+          647
+        ]
+      },
+      {
+        "value": "31",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          340,
+          635,
+          355,
+          647
+        ]
+      },
+      {
+        "value": "1",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          355,
+          662,
+          365,
+          674
+        ]
+      },
+      {
+        "value": "11",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          395,
+          662,
+          410,
+          674
+        ]
+      },
+      {
+        "value": "27",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          430,
+          662,
+          450,
+          674
+        ]
+      },
+      {
+        "value": "3261",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          320,
+          690,
+          365,
+          702
+        ]
+      },
+      {
+        "value": "11",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          255,
+          717,
+          268,
+          729
+        ]
+      },
+      {
+        "value": "10",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          300,
+          717,
+          318,
+          729
+        ]
+      },
+      {
+        "value": "3276",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          345,
+          717,
+          390,
+          729
+        ]
+      },
+      {
+        "value": "13",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          420,
+          717,
+          440,
+          729
+        ]
+      },
+      {
+        "value": "28",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          225,
+          745,
+          245,
+          757
+        ]
+      },
+      {
+        "value": "12",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          280,
+          745,
+          298,
+          757
+        ]
+      },
+      {
+        "value": "3259",
+        "color": "black",
+        "position": "lower_left_grid",
+        "bbox": [
+          325,
+          745,
+          365,
+          757
+        ]
+      },
+      {
+        "value": "17",
+        "color": "black",
+        "position": "lower_right_grid_top",
+        "bbox": [
+          505,
+          500,
+          520,
+          512
+        ]
+      },
+      {
+        "value": "6",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          550,
+          500,
+          562,
+          512
+        ]
+      },
+      {
+        "value": "1010",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          580,
+          500,
+          615,
+          512
+        ]
+      },
+      {
+        "value": "4",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          540,
+          527,
+          555,
+          539
+        ]
+      },
+      {
+        "value": "1011",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          580,
+          527,
+          620,
+          539
+        ]
+      },
+      {
+        "value": "18",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          650,
+          527,
+          670,
+          539
+        ]
+      },
+      {
+        "value": "1012",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          460,
+          553,
+          505,
+          565
+        ]
+      },
+      {
+        "value": "16",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          540,
+          553,
+          560,
+          565
+        ]
+      },
+      {
+        "value": "5",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          600,
+          553,
+          612,
+          565
+        ]
+      },
+      {
+        "value": "1",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          565,
+          580,
+          575,
+          592
+        ]
+      },
+      {
+        "value": "1017",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          595,
+          580,
+          640,
+          592
+        ]
+      },
+      {
+        "value": "15",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          665,
+          580,
+          680,
+          592
+        ]
+      },
+      {
+        "value": "1018",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          490,
+          608,
+          535,
+          620
+        ]
+      },
+      {
+        "value": "13",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          570,
+          608,
+          585,
+          620
+        ]
+      },
+      {
+        "value": "2",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          615,
+          608,
+          625,
+          620
+        ]
+      },
+      {
+        "value": "14",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          460,
+          635,
+          475,
+          647
+        ]
+      },
+      {
+        "value": "3",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          510,
+          635,
+          520,
+          647
+        ]
+      },
+      {
+        "value": "1015",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          545,
+          635,
+          590,
+          647
+        ]
+      },
+      {
+        "value": "1015",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          520,
+          662,
+          565,
+          674
+        ]
+      },
+      {
+        "value": "10",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          600,
+          662,
+          618,
+          674
+        ]
+      },
+      {
+        "value": "8",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          645,
+          662,
+          660,
+          674
+        ]
+      },
+      {
+        "value": "11",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          490,
+          690,
+          505,
+          702
+        ]
+      },
+      {
+        "value": "9",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          540,
+          690,
+          552,
+          702
+        ]
+      },
+      {
+        "value": "1013",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          580,
+          690,
+          620,
+          702
+        ]
+      },
+      {
+        "value": "7",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          460,
+          717,
+          470,
+          729
+        ]
+      },
+      {
+        "value": "1014",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          495,
+          717,
+          540,
+          729
+        ]
+      },
+      {
+        "value": "12",
+        "color": "black",
+        "position": "lower_right_grid",
+        "bbox": [
+          570,
+          717,
+          588,
+          729
+        ]
+      }
+    ],
+    "formulas": [],
+    "mixed_media_regions": [
+      {
+        "description": "Upper-left grid: 3D parallelogram structure with numerical values (3xxx series) inside cells, connected by zigzag edges",
+        "position": "upper_middle_left",
+        "bbox": [
+          190,
+          200,
+          440,
+          480
+        ],
+        "components": [
+          "drawing_3d_grid",
+          "numerical_digits"
+        ]
+      },
+      {
+        "description": "Upper-right grid: 3D parallelogram structure with numerical values (3xxx series) inside cells",
+        "position": "upper_middle_right",
+        "bbox": [
+          445,
+          200,
+          695,
+          480
+        ],
+        "components": [
+          "drawing_3d_grid",
+          "numerical_digits"
+        ]
+      },
+      {
+        "description": "Lower-left grid: 3D parallelogram structure with numerical values (3xxx series) inside cells",
+        "position": "lower_middle_left",
+        "bbox": [
+          190,
+          480,
+          440,
+          760
+        ],
+        "components": [
+          "drawing_3d_grid",
+          "numerical_digits"
+        ]
+      },
+      {
+        "description": "Lower-right grid: 3D parallelogram structure with numerical values (10xx series) inside cells",
+        "position": "lower_middle_right",
+        "bbox": [
+          445,
+          480,
+          695,
+          760
+        ],
+        "components": [
+          "drawing_3d_grid",
+          "numerical_digits"
+        ]
+      },
+      {
+        "description": "Four short red labels in magical script beneath each of the four grid diagrams",
+        "position": "between_grids",
+        "bbox": [
+          285,
+          478,
+          605,
+          765
+        ],
+        "components": [
+          "red_text_magical_script"
+        ]
+      }
+    ],
+    "uncertain": [
+      "Exact meaning/identification of magical/constructed script characters - they resemble Theban, Enochian, or Futhark-derived alphabets but cannot be definitively matched",
+      "Specific red glyph labels under each grid - the characters are in the same magical alphabet but rendered in red, exact transcription impossible",
+      "Whether the magical script is a known cipher (Honorian, Theban, etc.) or a custom constructed alphabet",
+      "The semantic meaning of the numerical patterns in the grids (possibly magic squares, planetary tables, or kamea variations)"
+    ]
+  }
+}

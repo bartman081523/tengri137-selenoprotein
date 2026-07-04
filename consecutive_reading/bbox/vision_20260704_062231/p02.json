@@ -1,0 +1,91 @@
+{
+  "page_summary": "A page with several paragraphs of text written in a constructed/angular runic-style script, accompanied by four circular diagrams at the bottom depicting the Norse world tree (Yggdrasil) dividing the cosmos into realms.",
+  "text_blocks": [
+    "◊◊ᴴ ˑˑᴰ ᴶᴿ ᴱ ʏʏʀ◊ ᴹᶜᴴᴴ·˃˃ᴴʌʏᴶᴵ ᴶᴶ ᴵᶠ ᴵᶠᵇ⟨ ˋ ʸᴶ◊ ʰᶠ 'ʸʲ ᴵᶜ ᶜʰᶠᵇ˃˃⟩·ˣᴹʏᴶᴵ ᴶˣ ˋ˃ ˣˣ·ᴶᵉˣʏʸ ˣ ᴹᶜᴴᴴ·ᴵᴵᴶᴴʜʜᶻ ᴶʰʰ ʰᶠ ʰᶜᶜʸᴵᴵ ᴹᶜᴴᴴ·ˣᴶ⟩ ·ᴶᵉˣʏʸ◊˃ᴴ ˃˃ᴰ ˋʜʸ˃˃ʜ",
+    "ᴶᴵ ᴵᶠᶜᴵᴵ ᴶᵖˣ ᶜᴶ ᶠᴶ˃˃ᴵ ʸˣˣʜᴴ ᴶ ʸᴶᴵ ᶜʰᶠᵇᴶᴵ ᴶᶜ ᴹʸ ˃˃ᴰ ᴵᶠ ·ˣʜʰᵇ ʸᴶ˃˃ᴰ ᴵᴵ◊ ·ᴶᵉˣʸʸ◊˃ᴴ ʸ˃˃ᴰ ᴵᴵ◊ ·ᴵᶜ ᴶˣˣ˃˃ ᶻ ·ᴶᴶˣʰˣʸᴶᴶʸᴵ ᴵᶜ ᶜʰᶠᵇᵇ˃˃",
+    "ʰᶠᵇ˃˃⟩·˃˃ᴰ ᴛʸᴶ ᶜ˃˃˃ᴶ ᶜʸᴶ˃˃ᵉ·ᶜᵇʜᵟ◊ ᶻᴶᴶᶜʰʸʜᶠ ·˃˃ᴰ ᴛʸᴶ ᴶᶻᴶ·ʜᴴˢʜᵟ ᴶ ʸᴶᴶ ᶜ",
+    "ˣᴶʸ◊˃˃ᴶ ᴶʰ ʜʰʰᵇᵇᴶʸᶜᴹ ᴶᴶᴶ ʜʸ˃˃ᴶ ʜʜᵇʜʸᴵᴵ ᴵᶠ ʸʰ◊◊ ᶜʰᶠʰʜᶜʸʜʸᴶ·ᴵᶜ ᴶˣˣ˃˃ ˋᴶᴵᶜᴵᴵ ᴶʰ ˣʜʰᵇᴶˣ ˶ᵃ ˶ᶜ ᴶᴶ ᴶˣʜ ᴶᶜʰʜ ᶻ ʜʜᴶʜᶜᴹˇ ·ᴰᴵᴶᴶ ʸᴶˣʰʜʜᴶ ʸʜ ʜ·ᴹʸᴵᴵᶜᶜᴶʜʰᴵ ᴹʸ ᴶᶜ ʰᶜ ʰ ʜ ˃ᴶᶜʜʸᴵʜ ᴶ ʸʜ ᴶᶜ ʰ ʰ·ᴶᴶᴴᶜʜᶜᴵ ᶻᴶ ᶻ ᴶ ʜʰ˟ᴺᴵ ʸᴶ·ᴶᵉˣʸʸ◊˃ᴴ ʸ˃˃ᴰ◊",
+    ""
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "A constructed script glyph resembling a diamond with a dot",
+      "kind": "geometric_diamond_with_dot",
+      "position": "throughout text blocks",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "A constructed script glyph resembling a cross/plus with extensions",
+      "kind": "geometric_cross",
+      "position": "throughout text blocks",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Runiform/angular characters of an unknown constructed alphabet",
+      "kind": "constructed_runic_glyph",
+      "position": "throughout text blocks",
+      "size_estimate": "small (line height)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "Circular cosmological diagram showing the world tree with a sun/circle at the top, stick-figure humans in the middle, and small animals (dogs/horses) at the base",
+      "type": "norse_cosmic_circle",
+      "position": "bottom-left, upper of the four circles",
+      "components": [
+        "outer circle",
+        "central vertical axis (world tree trunk)",
+        "sun/disk at top",
+        "two small human stick figures in middle",
+        "four-legged animal figures at base",
+        "small circle at bottom",
+        "cross-beam with tick marks (branches)"
+      ]
+    },
+    {
+      "description": "Circular cosmological diagram showing the world tree with a sun on the left and moon on the right at the top, a serpentine creature in the lower-left, and a disk with a cross on the right",
+      "type": "norse_cosmic_circle",
+      "position": "bottom-right, upper of the four circles",
+      "components": [
+        "outer circle",
+        "central vertical axis (world tree)",
+        "sun and moon glyphs at top corners",
+        "serpent/dragon figure in lower-left",
+        "disk with cross on right",
+        "star/dot patterns in background",
+        "mountain-like shapes at base"
+      ]
+    },
+    {
+      "description": "Circular cosmological diagram showing a moon at the top, a central figure, a human figure on the left, and circles/ovals arranged at the bottom",
+      "type": "norse_cosmic_circle",
+      "position": "bottom-left, lower of the four circles",
+      "components": [
+        "outer circle",
+        "central vertical axis with disc/moon at top",
+        "human figure on the left",
+        "small standing figure with staff on the right",
+        "row of circles/ovals at the bottom"
+      ]
+    },
+    {
+      "description": "Circular cosmological diagram showing a figure atop a vertical axis, with two architectural structures (temples/halls) flanking the central tree, and a ship at the bottom",
+      "type": "norse_cosmic_circle",
+      "position": "bottom-right, lower of the four circles",
+      "components": [
+        "outer circle",
+        "central vertical axis (world tree)",
+        "figure or symbol at the very top",
+        "two rectangular building/hall structures on left and right",
+        "human figures within the structures",
+        "ship-shaped object at the bottom center",
+        "water/wave patterns around the ship"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The script used in the text blocks is not a standard alphabet; it appears to be a constructed or encoded script that I cannot transliterate or identify with confidence.",
+    "Individual glyphs in the text are difficult to classify beyond general geometric/runic appearance."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page_summary": "A page of Ge'ez (Ethiopic) text presenting four labeled 3x3x3 magic cubes filled with numbers, accompanied by a descriptive paragraph in Ge'ez.",
+  "text_blocks": [
+    "አግህ • ምሥጢር ጥበብና ምሥጢር ጽሑፍ ሓድሽ ጥበብ ምስል⊗⊗ ሓ •\nአህጉል ሓያ ሓምሽቅለቅ። ጽሓ ምሥሒሊ ሓንተ።",
+    "ፈለገ ዓይነት ነገር ያምሕሩ ቅዳሴ ኣሎ • አናህይ ሓይል ገጽ ሓይ\nየብሉ ድርብ ስእሊ ስእልን ስለ የርገሥ ወይም ምስ • ገይምሕልን አርትዕት\nአቦ አርትዕት ሓይ ስዕልት • ሓይ አቦ ኣህጉል ሕማ ጠርሐ ሓንተ።\nአላላ አርትዕትት ዕርቅ ገጽ አሓይሕ • ምዕራብ አሕዝብ አህጉል ድልት አም\nድ አሓ ዕኩር ስዕል • አሓይ አቦ እንስላ ቅርጺም ክርአርት ብሓይ\nአማን አሕምሕም ቁልፊ ሐረግ አንበልት ምሥሌ ገጽን አምአምን • ሓ\nአማን እርት አቦ ምሓይ ምሥሒሌ Xhንአላ ሰለ ዝናሓሓ\nአሓሓለ • አብልሒ አሓላንሓ።"
+  ],
+  "colored_text": [
+    {
+      "text": "ሀፓፓ",
+      "color": "red",
+      "approximate_position": "below top-left magic cube"
+    },
+    {
+      "text": "ሐፓፓ",
+      "color": "red",
+      "approximate_position": "below top-right magic cube"
+    },
+    {
+      "text": "መፓፓ",
+      "color": "red",
+      "approximate_position": "below bottom-left magic cube"
+    },
+    {
+      "text": "ሠፓፓ",
+      "color": "red",
+      "approximate_position": "below bottom-right magic cube"
+    }
+  ],
+  "symbols": [
+    {
+      "description": "Ge'ez syllabic characters forming words",
+      "kind": "geez_script",
+      "position": "header line and body paragraph"
+    },
+    {
+      "description": "Two circular symbols resembling circled X or crossed circles",
+      "kind": "geometric_circle",
+      "position": "within the header text line"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "A 3x3x3 magic cube filled with integers, drawn in isometric projection with three visible faces. The numbers include values like 3267, 21, 13, 3, 22, 3276, 31, 3258, 12, 3264, 9, 3275, 17, 3284, 15, 2, 8, 11, 3202, 25, 5, 3271, 14, 3264, 23, 3262, 32, 7.",
+      "type": "magic_cube_3x3",
+      "position": "top-left of the four-cube grid",
+      "components": [
+        "27 numeric cells arranged in 3 layers of 3x3",
+        "isometric cube outline with dashed hidden edges"
+      ]
+    },
+    {
+      "description": "A 3x3x3 magic cube in isometric projection containing numbers such as 9, 25, 3267, 8, 3262, 31, 3284, 14, 3, 17, 3271, 13, 3282, 7, 12, 2, 23, 3276, 3275, 5, 21, 11, 32, 3258, 15, 3264, 22.",
+      "type": "magic_cube_3x3",
+      "position": "top-right of the four-cube grid",
+      "components": [
+        "27 numeric cells arranged in 3 layers of 3x3",
+        "isometric cube outline with dashed hidden edges"
+      ]
+    },
+    {
+      "description": "A 3x3x3 magic cube in isometric projection containing numbers such as 33, 3258, 8, 1, 16, 3282, 3285, 25, 9, 5, 30, 3264, 3288, 7, 4, 6, 3262, 31, 3261, 11, 27, 10, 3276, 13, 20, 12, 3259.",
+      "type": "magic_cube_3x3",
+      "position": "bottom-left of the four-cube grid",
+      "components": [
+        "27 numeric cells arranged in 3 layers of 3x3",
+        "isometric cube outline with dashed hidden edges"
+      ]
+    },
+    {
+      "description": "A 3x3x3 magic cube in isometric projection containing numbers such as 17, 6, 1010, 4, 1011, 18, 1012, 16, 5, 1, 1017, 15, 1018, 13, 2, 14, 3, 1015, 1015, 10, 8, 11, 9, 1013, 7, 1014, 12.",
+      "type": "magic_cube_3x3",
+      "position": "bottom-right of the four-cube grid",
+      "components": [
+        "27 numeric cells arranged in 3 layers of 3x3",
+        "isometric cube outline with dashed hidden edges"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "Exact transcription of all Ge'ez text in the header and body paragraph is approximate; some characters may be misread.",
+    "The two circular symbols in the header are unclear — they may be circled crosses, circled Xs, or stylized ornaments rather than standard punctuation."
+  ]
+}

@@ -1,0 +1,1325 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      885,
+      1130
+    ],
+    "text_words": [
+      {
+        "text": "x",
+        "position": [
+          78,
+          137
+        ],
+        "color": "black",
+        "note": "multiplication variable, repeated throughout"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          159
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          216
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          238
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          295
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          317
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          374
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          396
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          453
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          475
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          532
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          554
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          610
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          632
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          691
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          713
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          770
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          792
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          849
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          871
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          928
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          950
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          1007
+        ],
+        "color": "black"
+      },
+      {
+        "text": "x",
+        "position": [
+          78,
+          1029
+        ],
+        "color": "black"
+      }
+    ],
+    "symbols": [],
+    "drawings": [
+      {
+        "type": "sketch_figures",
+        "position": [
+          180,
+          720,
+          870,
+          1100
+        ],
+        "description": "Rough, sketchy black-and-white drawing of approximately 7-8 standing human-like figures or sculptural forms, arranged in a row. Figures vary in height, with a tall rectangular monolith-like figure in the center-left, smaller figures to the left, and a group of figures on the right side. Rendered in a charcoal/graphite-like, heavily textured style. Appear to be ancient statues or totemic figures. The largest central figure is roughly rectangular and dark, while surrounding figures have more varied silhouettes."
+      }
+    ],
+    "digits": [
+      {
+        "value": "3²",
+        "position": [
+          60,
+          130
+        ],
+        "color": "black"
+      },
+      {
+        "value": "97",
+        "position": [
+          80,
+          130
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1012525120849035427757",
+        "position": [
+          100,
+          130
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2⁸",
+        "position": [
+          60,
+          152
+        ],
+        "color": "black"
+      },
+      {
+        "value": "17²",
+        "position": [
+          80,
+          152
+        ],
+        "color": "black"
+      },
+      {
+        "value": "513314323",
+        "position": [
+          105,
+          152
+        ],
+        "color": "black"
+      },
+      {
+        "value": "199582356039",
+        "position": [
+          200,
+          152
+        ],
+        "color": "black"
+      },
+      {
+        "value": "15173",
+        "position": [
+          60,
+          209
+        ],
+        "color": "black"
+      },
+      {
+        "value": "420029",
+        "position": [
+          115,
+          209
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2506281",
+        "position": [
+          175,
+          209
+        ],
+        "color": "black"
+      },
+      {
+        "value": "951116303",
+        "position": [
+          240,
+          209
+        ],
+        "color": "black"
+      },
+      {
+        "value": "11",
+        "position": [
+          60,
+          231
+        ],
+        "color": "black"
+      },
+      {
+        "value": "4813",
+        "position": [
+          85,
+          231
+        ],
+        "color": "black"
+      },
+      {
+        "value": "112908376318275371473",
+        "position": [
+          120,
+          231
+        ],
+        "color": "black"
+      },
+      {
+        "value": "3²",
+        "position": [
+          60,
+          288
+        ],
+        "color": "black"
+      },
+      {
+        "value": "19",
+        "position": [
+          80,
+          288
+        ],
+        "color": "black"
+      },
+      {
+        "value": "45453190027830655938296603",
+        "position": [
+          100,
+          288
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2",
+        "position": [
+          60,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "5²",
+        "position": [
+          80,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "17",
+        "position": [
+          105,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7723",
+        "position": [
+          130,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "309251",
+        "position": [
+          170,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "22459781",
+        "position": [
+          235,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1299616523",
+        "position": [
+          320,
+          310
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2⁵",
+        "position": [
+          60,
+          367
+        ],
+        "color": "black"
+      },
+      {
+        "value": "15215835347",
+        "position": [
+          80,
+          367
+        ],
+        "color": "black"
+      },
+      {
+        "value": "79663934553380055964798988524114025289",
+        "position": [
+          180,
+          367
+        ],
+        "color": "black"
+      },
+      {
+        "value": "211",
+        "position": [
+          60,
+          389
+        ],
+        "color": "black"
+      },
+      {
+        "value": "568549",
+        "position": [
+          90,
+          389
+        ],
+        "color": "black"
+      },
+      {
+        "value": "54051962355997823295252012560503940816437",
+        "position": [
+          155,
+          389
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1416525263",
+        "position": [
+          60,
+          446
+        ],
+        "color": "black"
+      },
+      {
+        "value": "3940426553179214931027431",
+        "position": [
+          150,
+          446
+        ],
+        "color": "black"
+      },
+      {
+        "value": "3³",
+        "position": [
+          60,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7",
+        "position": [
+          80,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "17",
+        "position": [
+          95,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "41",
+        "position": [
+          115,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "137",
+        "position": [
+          135,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2011",
+        "position": [
+          160,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "91463",
+        "position": [
+          200,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "4228123215012546761",
+        "position": [
+          265,
+          468
+        ],
+        "color": "black"
+      },
+      {
+        "value": "31",
+        "position": [
+          60,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "53",
+        "position": [
+          80,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "241",
+        "position": [
+          100,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "349",
+        "position": [
+          125,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "401",
+        "position": [
+          150,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "613",
+        "position": [
+          175,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "24431715458133232988371222942469171271",
+        "position": [
+          200,
+          525
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2",
+        "position": [
+          60,
+          547
+        ],
+        "color": "black"
+      },
+      {
+        "value": "167",
+        "position": [
+          80,
+          547
+        ],
+        "color": "black"
+      },
+      {
+        "value": "21115483084221960437399059945198532902958910826889",
+        "position": [
+          105,
+          547
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7",
+        "position": [
+          60,
+          684
+        ],
+        "color": "black"
+      },
+      {
+        "value": "6860",
+        "position": [
+          80,
+          684
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1598195879939",
+        "position": [
+          115,
+          684
+        ],
+        "color": "black"
+      },
+      {
+        "value": "29391490070272643",
+        "position": [
+          220,
+          684
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2³",
+        "position": [
+          60,
+          706
+        ],
+        "color": "black"
+      },
+      {
+        "value": "3",
+        "position": [
+          80,
+          706
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1973",
+        "position": [
+          95,
+          706
+        ],
+        "color": "black"
+      },
+      {
+        "value": "9767",
+        "position": [
+          135,
+          706
+        ],
+        "color": "black"
+      },
+      {
+        "value": "771046247",
+        "position": [
+          175,
+          706
+        ],
+        "color": "black"
+      },
+      {
+        "value": "53824510304279881",
+        "position": [
+          260,
+          706
+        ],
+        "color": "black"
+      },
+      {
+        "value": "872353",
+        "position": [
+          60,
+          763
+        ],
+        "color": "black"
+      },
+      {
+        "value": "69723963623",
+        "position": [
+          115,
+          763
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1657",
+        "position": [
+          60,
+          785
+        ],
+        "color": "black"
+      },
+      {
+        "value": "87433",
+        "position": [
+          95,
+          785
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1840749227",
+        "position": [
+          150,
+          785
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2⁵",
+        "position": [
+          60,
+          842
+        ],
+        "color": "black"
+      },
+      {
+        "value": "4926371",
+        "position": [
+          80,
+          842
+        ],
+        "color": "black"
+      },
+      {
+        "value": "34760972864100820818272798606999",
+        "position": [
+          150,
+          842
+        ],
+        "color": "black"
+      },
+      {
+        "value": "5",
+        "position": [
+          60,
+          864
+        ],
+        "color": "black"
+      },
+      {
+        "value": "7",
+        "position": [
+          80,
+          864
+        ],
+        "color": "black"
+      },
+      {
+        "value": "37",
+        "position": [
+          95,
+          864
+        ],
+        "color": "black"
+      },
+      {
+        "value": "4638564013204322320836193705592599813",
+        "position": [
+          115,
+          864
+        ],
+        "color": "black"
+      },
+      {
+        "value": "28277",
+        "position": [
+          60,
+          921
+        ],
+        "color": "black"
+      },
+      {
+        "value": "50989",
+        "position": [
+          105,
+          921
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1995988499",
+        "position": [
+          155,
+          921
+        ],
+        "color": "black"
+      },
+      {
+        "value": "416279139223284593",
+        "position": [
+          260,
+          921
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1571",
+        "position": [
+          60,
+          943
+        ],
+        "color": "black"
+      },
+      {
+        "value": "31718741397877",
+        "position": [
+          95,
+          943
+        ],
+        "color": "black"
+      },
+      {
+        "value": "260014484594247187101",
+        "position": [
+          235,
+          943
+        ],
+        "color": "black"
+      },
+      {
+        "value": "18693038502007",
+        "position": [
+          60,
+          1000
+        ],
+        "color": "black"
+      },
+      {
+        "value": "8035506624595999831927",
+        "position": [
+          180,
+          1000
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2³",
+        "position": [
+          60,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "3",
+        "position": [
+          80,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "5",
+        "position": [
+          95,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2287",
+        "position": [
+          110,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "2505263",
+        "position": [
+          145,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "3498101",
+        "position": [
+          220,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "11272843",
+        "position": [
+          295,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "27863153639",
+        "position": [
+          380,
+          1022
+        ],
+        "color": "black"
+      },
+      {
+        "value": "59",
+        "position": [
+          60,
+          1079
+        ],
+        "color": "black"
+      },
+      {
+        "value": "179",
+        "position": [
+          80,
+          1079
+        ],
+        "color": "black"
+      },
+      {
+        "value": "287053673",
+        "position": [
+          105,
+          1079
+        ],
+        "color": "black"
+      },
+      {
+        "value": "21934757881286541877248343",
+        "position": [
+          205,
+          1079
+        ],
+        "color": "black"
+      },
+      {
+        "value": "41",
+        "position": [
+          60,
+          1101
+        ],
+        "color": "black"
+      },
+      {
+        "value": "427421",
+        "position": [
+          80,
+          1101
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1051789",
+        "position": [
+          150,
+          1101
+        ],
+        "color": "black"
+      },
+      {
+        "value": "45849978173",
+        "position": [
+          220,
+          1101
+        ],
+        "color": "black"
+      },
+      {
+        "value": "105423664894993",
+        "position": [
+          340,
+          1101
+        ],
+        "color": "black"
+      },
+      {
+        "value": "263",
+        "position": [
+          60,
+          1040
+        ],
+        "color": "black"
+      },
+      {
+        "value": "5351",
+        "position": [
+          95,
+          1040
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1937197",
+        "position": [
+          130,
+          1040
+        ],
+        "color": "black"
+      },
+      {
+        "value": "22527396440528058533718667231175023739511",
+        "position": [
+          200,
+          1040
+        ],
+        "color": "black"
+      },
+      {
+        "value": "109",
+        "position": [
+          60,
+          1062
+        ],
+        "color": "black"
+      },
+      {
+        "value": "199",
+        "position": [
+          90,
+          1062
+        ],
+        "color": "black"
+      },
+      {
+        "value": "431",
+        "position": [
+          120,
+          1062
+        ],
+        "color": "black"
+      },
+      {
+        "value": "997",
+        "position": [
+          150,
+          1062
+        ],
+        "color": "black"
+      },
+      {
+        "value": "8817430129857493019484483815897537411630089",
+        "position": [
+          180,
+          1062
+        ],
+        "color": "black"
+      },
+      {
+        "value": "5²",
+        "position": [
+          60,
+          1140
+        ],
+        "color": "black"
+      },
+      {
+        "value": "379",
+        "position": [
+          80,
+          1140
+        ],
+        "color": "black"
+      },
+      {
+        "value": "1051",
+        "position": [
+          105,
+          1140
+        ],
+        "color": "black"
+      },
+      {
+        "value": "305563",
+        "position": [
+          135,
+          1140
+        ],
+        "color": "black"
+      },
+      {
+        "value": "675131",
+        "position": [
+          200,
+          1140
+        ],
+        "color": "black"
+      },
+      {
+        "value": "23",
+        "position": [
+          60,
+          1162
+        ],
+        "color": "black"
+      },
+      {
+        "value": "17491",
+        "position": [
+          85,
+          1162
+        ],
+        "color": "black"
+      },
+      {
+        "value": "37615219743481",
+        "position": [
+          135,
+          1162
+        ],
+        "color": "black"
+      }
+    ],
+    "formulas": [
+      {
+        "type": "fraction",
+        "numerator": "3² x 97 x 1012525120849035427757",
+        "denominator": "2⁸ x 17² x 513314323 x 199582356039",
+        "position": [
+          60,
+          130,
+          470,
+          155
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "15173 x 420029 x 2506281 x 951116303",
+        "denominator": "11 x 4813 x 112908376318275371473",
+        "position": [
+          60,
+          209,
+          470,
+          234
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "3² x 19 x 45453190027830655938296603",
+        "denominator": "2 x 5² x 17 x 7723 x 309251 x 22459781 x 1299616523",
+        "position": [
+          60,
+          288,
+          470,
+          313
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "2⁵ x 15215835347 x 79663934553380055964798988524114025289",
+        "denominator": "211 x 568549 x 54051962355997823295252012560503940816437",
+        "position": [
+          60,
+          367,
+          600,
+          392
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "1416525263 x 3940426553179214931027431",
+        "denominator": "3³ x 7 x 17 x 41 x 137 x 2011 x 91463 x 4228123215012546761",
+        "position": [
+          60,
+          446,
+          470,
+          471
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "31 x 53 x 241 x 349 x 401 x 613 x 24431715458133232988371222942469171271",
+        "denominator": "2 x 167 x 21115483084221960437399059945198532902958910826889",
+        "position": [
+          60,
+          525,
+          650,
+          550
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "7 x 6860 x 1598195879939 x 29391490070272643",
+        "denominator": "2³ x 3 x 1973 x 9767 x 771046247 x 53824510304279881",
+        "position": [
+          60,
+          684,
+          440,
+          709
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "872353 x 69723963623",
+        "denominator": "1657 x 87433 x 1840749227",
+        "position": [
+          60,
+          763,
+          250,
+          788
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "2⁵ x 4926371 x 34760972864100820818272798606999",
+        "denominator": "5 x 7 x 37 x 4638564013204322320836193705592599813",
+        "position": [
+          60,
+          842,
+          530,
+          867
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "28277 x 50989 x 1995988499 x 416279139223284593",
+        "denominator": "1571 x 31718741397877 x 260014484594247187101",
+        "position": [
+          60,
+          921,
+          470,
+          946
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "18693038502007 x 8035506624595999831927",
+        "denominator": "2³ x 3 x 5 x 2287 x 2505263 x 3498101 x 11272843 x 27863153639",
+        "position": [
+          60,
+          1000,
+          500,
+          1025
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "59 x 179 x 287053673 x 21934757881286541877248343",
+        "denominator": "41 x 427421 x 1051789 x 45849978173 x 105423664894993",
+        "position": [
+          60,
+          1040,
+          500,
+          1065
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "263 x 5351 x 1937197 x 22527396440528058533718667231175023739511",
+        "denominator": "109 x 199 x 431 x 997 x 8817430129857493019484483815897537411630089",
+        "position": [
+          60,
+          1079,
+          620,
+          1104
+        ]
+      },
+      {
+        "type": "fraction",
+        "numerator": "5² x 379 x 1051 x 305563 x 675131",
+        "denominator": "23 x 17491 x 37615219743481",
+        "position": [
+          60,
+          1140,
+          280,
+          1165
+        ]
+      }
+    ],
+    "mixed_media_regions": [
+      {
+        "region": "right_lower",
+        "bounding_box": [
+          180,
+          700,
+          870,
+          1130
+        ],
+        "description": "Mixed-media area where a rough charcoal/ink sketch of standing sculptural figures overlaps with the bottom portion of the mathematical formula text. The figures are dark, textured and abstract, resembling totems or ancient stone statues arranged in a row of varying heights."
+      }
+    ],
+    "uncertain": [
+      "Exact identification of individual figures in the sketch - whether they represent specific artifacts or are purely abstract",
+      "The very long numerical values in formulas may contain OCR errors due to image resolution",
+      "Some formula exponents (small superscripts) are hard to read precisely"
+    ]
+  }
+}

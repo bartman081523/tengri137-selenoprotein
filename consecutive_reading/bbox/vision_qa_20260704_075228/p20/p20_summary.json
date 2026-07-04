@@ -1,0 +1,55 @@
+{
+  "page": "p20",
+  "page_vision_status": "ok",
+  "glyphs_processed": 4,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        802,
+        502,
+        41,
+        24
+      ],
+      "kind": "chinese_seal_script",
+      "description": "Stylized calligraphic glyph with a curved upper hook stroke and a thick lower bo",
+      "confidence": 0.45
+    },
+    {
+      "index": 1,
+      "bbox": [
+        803,
+        414,
+        52,
+        19
+      ],
+      "kind": "image",
+      "description": "Abstract black and white shape resembling a stylized leaf, feather, or blade-lik",
+      "confidence": 0.6
+    },
+    {
+      "index": 2,
+      "bbox": [
+        963,
+        405,
+        23,
+        12
+      ],
+      "kind": "latin_print",
+      "description": "A bold, serif-style capital letter 'A' in white/light color against a dark backg",
+      "confidence": 0.82
+    },
+    {
+      "index": 3,
+      "bbox": [
+        789,
+        698,
+        25,
+        17
+      ],
+      "kind": "dash_frac_bar",
+      "description": "A short, thick diagonal white stroke oriented from lower-left to upper-right on ",
+      "confidence": 0.55
+    }
+  ]
+}

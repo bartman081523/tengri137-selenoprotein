@@ -1,0 +1,67 @@
+{
+  "page": "p10",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        529,
+        1411,
+        67,
+        56
+      ],
+      "kind": "geometric_circle",
+      "description": "A circle outline with four arrowheads placed around its circumference, all point",
+      "confidence": 0.62
+    },
+    {
+      "index": 1,
+      "bbox": [
+        657,
+        1058,
+        17,
+        17
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A circle outline containing three small filled dots arranged in a triangular pat",
+      "confidence": 0.95
+    },
+    {
+      "index": 2,
+      "bbox": [
+        446,
+        1145,
+        17,
+        17
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A circle containing three small dots arranged like a simple face (two dots on to",
+      "confidence": 0.82
+    },
+    {
+      "index": 3,
+      "bbox": [
+        881,
+        1102,
+        17,
+        16
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A circle containing three filled dots arranged in a triangular pattern (one at b",
+      "confidence": 0.85
+    },
+    {
+      "index": 4,
+      "bbox": [
+        596,
+        1102,
+        17,
+        16
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A circle containing three dots arranged in a triangular pattern: two dots on top",
+      "confidence": 0.95
+    }
+  ]
+}

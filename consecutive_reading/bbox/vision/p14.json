@@ -1,0 +1,53 @@
+{
+  "page_summary": "A page with four blocks of Ethiopic/Ge'ez script text separated by a central mathematical expression containing pi symbols.",
+  "text_blocks": [
+    "Block of Ethiopic/Ge'ez script text at the top of the page (unreadable to me).",
+    "Block of Ethiopic/Ge'ez script text in the middle of the page, below the formula (unreadable to me).",
+    "Block of Ethiopic/Ge'ez script text below the previous block (unreadable to me).",
+    "Block of Ethiopic/Ge'ez script text at the bottom of the page (unreadable to me)."
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Greek small letter pi (π) used as a superscript exponent",
+      "kind": "math_pi",
+      "position": "center of the page, upper part of the formula",
+      "size_estimate": "medium (line height)"
+    },
+    {
+      "description": "Greek small letter pi (π) in the denominator of the upper fraction",
+      "kind": "math_pi",
+      "position": "center of the page, upper part of the formula",
+      "size_estimate": "medium (line height)"
+    },
+    {
+      "description": "Greek small letter pi (π) as a superscript exponent",
+      "kind": "math_pi",
+      "position": "center of the page, lower part of the formula",
+      "size_estimate": "medium (line height)"
+    },
+    {
+      "description": "Greek small letter pi (π) in the numerator of the lower fraction",
+      "kind": "math_pi",
+      "position": "center of the page, lower part of the formula",
+      "size_estimate": "medium (line height)"
+    },
+    {
+      "description": "Multiplication sign (×) and division sign (÷) between the two fractions",
+      "kind": "math_operators",
+      "position": "center of the page, between the two fractions",
+      "size_estimate": "medium"
+    },
+    {
+      "description": "Forward slash (/) used as division between numerator and denominator of each fraction",
+      "kind": "math_slash",
+      "position": "within each of the two fractions",
+      "size_estimate": "medium"
+    }
+  ],
+  "decorations": [],
+  "uncertain_or_unreadable": [
+    "All four blocks of text are written in Ethiopic/Ge'ez script and I cannot read or transliterate their content.",
+    "Some characters in the script (e.g. circled glyphs such as ⊕, ⊗, ⊙, ⊕⊙, and the character that looks like 7 with a dot, which resembles a Ge'ez numeral) appear in the text but I cannot identify them precisely."
+  ]
+}

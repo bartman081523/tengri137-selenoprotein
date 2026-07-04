@@ -1,0 +1,349 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      1024,
+      1300
+    ],
+    "text_words": [],
+    "symbols": [],
+    "drawings": [
+      {
+        "type": "stylized_humanoid_figure",
+        "position": "upper_right",
+        "bbox": [
+          720,
+          200,
+          870,
+          600
+        ],
+        "description": "Schwarz-weiß stilisierte Zeichnung einer bärtigen, stehenden Figur mit gehörntem/zackigem Kopfschmuck (khurri/kuburrī-Krone), langem Bart, gefalteten Händen auf der Brust und einem langen Gewand mit horizontalen Bänderstreifen. Möglicherweise eine mesopotamische/assyrische Götterdarstellung. Standfläche als einfache Linie darunter."
+      },
+      {
+        "type": "cylindrical_seal_impression",
+        "position": "bottom_center",
+        "bbox": [
+          400,
+          980,
+          720,
+          1250
+        ],
+        "description": "Trapezförmiges/abgerundetes Bildfeld im Stil eines Rollsiegel-Abdrucks. Dargestellt sind zwei geflügelte, aufrecht stehende Mischwesen (Lamasu/Sphinx-Genien) mit Menschenkopf, die symmetrisch ein zentrales Emblem (Lebensbaum oder Stele) flankieren. Im unteren Bereich ein kleinerer kugeliger/geriefter Gegenstand. Stilistisch altorientalisch (mesopotamisch/syro-hethitisch)."
+      }
+    ],
+    "digits": [],
+    "formulas": [
+      {
+        "id": "f01",
+        "bbox": [
+          100,
+          200,
+          620,
+          230
+        ],
+        "latex_approx": "7 \\times 71 \\times 2531 \\times 2142246150104069499213988688179"
+      },
+      {
+        "id": "f02",
+        "bbox": [
+          100,
+          235,
+          620,
+          265
+        ],
+        "latex_approx": "2^2 \\times 3 \\times 5 \\times 11 \\times 23 \\times 127 \\times 983 \\times 9649 \\times 161477910294299418586237",
+        "note": "Trennlinie über dieser Zeile"
+      },
+      {
+        "id": "f03",
+        "bbox": [
+          100,
+          290,
+          620,
+          320
+        ],
+        "latex_approx": "3 \\times 5 \\times 2707 \\times 21496397249459617078066056180280195644731"
+      },
+      {
+        "id": "f04",
+        "bbox": [
+          100,
+          320,
+          620,
+          350
+        ],
+        "latex_approx": "7 \\times 17 \\times 97 \\times 1607 \\times 2166980210482551601 \\times 2474232115437357717"
+      },
+      {
+        "id": "f05",
+        "bbox": [
+          100,
+          380,
+          620,
+          405
+        ],
+        "latex_approx": "3^2 \\times 41 \\times 1881070713468301024893\\underline{312491}",
+        "note": "rechte Hälfte der Zahl unterstrichen"
+      },
+      {
+        "id": "f06",
+        "bbox": [
+          100,
+          405,
+          620,
+          430
+        ],
+        "latex_approx": "39054601 \\times 779251196925756972907"
+      },
+      {
+        "id": "f07",
+        "bbox": [
+          100,
+          460,
+          620,
+          485
+        ],
+        "latex_approx": "3 \\times 257 \\times 1267471493 \\times 5010223863 \\times 2063839233617"
+      },
+      {
+        "id": "f08",
+        "bbox": [
+          100,
+          485,
+          620,
+          510
+        ],
+        "latex_approx": "2 \\times 5569 \\times 3985064544648106166364130928237"
+      },
+      {
+        "id": "f09",
+        "bbox": [
+          100,
+          540,
+          620,
+          565
+        ],
+        "latex_approx": "5 \\times 26982625984148481 \\times 3850455187186739 \\times 45776241136064119"
+      },
+      {
+        "id": "f10",
+        "bbox": [
+          100,
+          565,
+          620,
+          590
+        ],
+        "latex_approx": "2 \\times 3 \\times 11 \\times 838141 \\times 6410531 \\times 41798905019917 \\times 703444647960888642207"
+      },
+      {
+        "id": "f11",
+        "bbox": [
+          100,
+          620,
+          620,
+          645
+        ],
+        "latex_approx": "241 \\times 338419248403 \\times 342619244842791"
+      },
+      {
+        "id": "f12",
+        "bbox": [
+          100,
+          645,
+          620,
+          670
+        ],
+        "latex_approx": "2 \\times 3 \\times 11 \\times 2033338559 \\times 233375338216614827"
+      },
+      {
+        "id": "f13",
+        "bbox": [
+          100,
+          700,
+          620,
+          720
+        ],
+        "latex_approx": "191 \\times 3490418110238161077128069"
+      },
+      {
+        "id": "f14",
+        "bbox": [
+          100,
+          720,
+          620,
+          745
+        ],
+        "latex_approx": "3 \\times 5^2 \\times 19 \\times 71 \\times 233 \\times 124245961466395393267",
+        "note": "Trennlinie über dieser Zeile"
+      },
+      {
+        "id": "f15",
+        "bbox": [
+          100,
+          840,
+          620,
+          865
+        ],
+        "latex_approx": "3 \\times 47 \\times 6761 \\times 7982059384643350465299646442225802135087904807321545421"
+      },
+      {
+        "id": "f16",
+        "bbox": [
+          100,
+          865,
+          620,
+          890
+        ],
+        "latex_approx": "2 \\times 41 \\times 53 \\times 79 \\times 751 \\times 212703769042871238596527587366150369161057215315202393"
+      },
+      {
+        "id": "f17",
+        "bbox": [
+          100,
+          920,
+          620,
+          940
+        ],
+        "latex_approx": "90263 \\times 6800307633305722816783002263"
+      },
+      {
+        "id": "f18",
+        "bbox": [
+          100,
+          940,
+          620,
+          965
+        ],
+        "latex_approx": "3833 \\times 88883 \\times 6887059147 \\times 312877334406541"
+      },
+      {
+        "id": "f19",
+        "bbox": [
+          100,
+          990,
+          620,
+          1010
+        ],
+        "latex_approx": "409 \\times 230830057 \\times 32983601797 \\times 55407152161267"
+      },
+      {
+        "id": "f20",
+        "bbox": [
+          100,
+          1010,
+          620,
+          1035
+        ],
+        "latex_approx": "2 \\times 3 \\times 2221 \\times 75530563 \\times 415134277 \\times 904780332748549"
+      },
+      {
+        "id": "f21",
+        "bbox": [
+          100,
+          1060,
+          620,
+          1085
+        ],
+        "latex_approx": "7 \\times 139 \\times 8434617371 \\times 65777261720705168197845440110846634447549"
+      },
+      {
+        "id": "f22",
+        "bbox": [
+          100,
+          1085,
+          620,
+          1110
+        ],
+        "latex_approx": "2 \\times 346602330955516653108467394113710646758478359192665439"
+      },
+      {
+        "id": "f23",
+        "bbox": [
+          100,
+          1140,
+          620,
+          1160
+        ],
+        "latex_approx": "7 \\times 347 \\times 52505491 \\times 33841385526806019481648977685421009461799"
+      },
+      {
+        "id": "f24",
+        "bbox": [
+          100,
+          1160,
+          620,
+          1185
+        ],
+        "latex_approx": "79 \\times 827 \\times 8951 \\times 326966417 \\times 32885655239 \\times 2677935933457250292247221"
+      },
+      {
+        "id": "f25",
+        "bbox": [
+          100,
+          1215,
+          620,
+          1235
+        ],
+        "latex_approx": "2 \\times 24196810277737 \\times 416335806841947415161525857"
+      },
+      {
+        "id": "f26",
+        "bbox": [
+          100,
+          1235,
+          620,
+          1260
+        ],
+        "latex_approx": "7393 \\times 49791927797 \\times 240020342892463483759638901"
+      }
+    ],
+    "mixed_media_regions": [
+      {
+        "id": "mm01",
+        "bbox": [
+          720,
+          200,
+          870,
+          600
+        ],
+        "components": [
+          "drawing: stylized_bearded_deity_figure"
+        ],
+        "description": "Isolierte Schwarzweiß-Zeichnung im Stil altorientalischer Ikonographie, kein umgebender Text."
+      },
+      {
+        "id": "mm02",
+        "bbox": [
+          400,
+          980,
+          720,
+          1250
+        ],
+        "components": [
+          "drawing: cylinder_seal_with_winged_genii_and_central_tree"
+        ],
+        "description": "Rollsiegelartige Komposition, möglicherweise Rollsiegelabdruck mit Lebensbaum- und Lamasu-Motiv."
+      }
+    ],
+    "uncertain": [
+      "Exakte Lesbarkeit einzelner sehr langer Ziffernfolgen (z.B. 2142246150104069499213988688179) — Tesseract hat sie zwar rekonstruiert, aber Ziffernverwechslungen (0/o, 1/l) sind in einzelnen Stellen möglich.",
+      "Ob in f05/f14 die Unterstreichung dekorativ oder semantisch (z.B. abgeschnittene Restzahl) ist, ist unklar.",
+      "Die schmalen horizontalen Linien zwischen den Zeilen wirken wie Trennstriche; ob es sich um durchgehende Linien oder nur um Unterstreichungen handelt, ist nicht eindeutig.",
+      "Kulturelle Zuordnung der rechten Figur (sumerisch/akkadisch/assyrisch/hethitisch) und des unteren Rollsiegel-Motivs nicht sicher bestimmbar.",
+      "Anzahl der Federn/Flügelpaare der Lamasu-Figuren im unteren Bild ist nicht exakt zählbar."
+    ]
+  }
+}

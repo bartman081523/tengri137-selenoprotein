@@ -1,0 +1,67 @@
+{
+  "page": "p08",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        634,
+        659,
+        198,
+        402
+      ],
+      "kind": "image",
+      "description": "Partial view of a circular/elliptical graph diagram with numbered nodes (61, 56,",
+      "confidence": 0.9
+    },
+    {
+      "index": 1,
+      "bbox": [
+        293,
+        660,
+        195,
+        401
+      ],
+      "kind": "image",
+      "description": "A cropped fragment of a graph diagram showing numbered circular nodes (70, 71, 3",
+      "confidence": 0.85
+    },
+    {
+      "index": 2,
+      "bbox": [
+        247,
+        655,
+        122,
+        410
+      ],
+      "kind": "unknown",
+      "description": "A circular node containing the number '71', part of a larger graph diagram with ",
+      "confidence": 0.3
+    },
+    {
+      "index": 3,
+      "bbox": [
+        754,
+        655,
+        122,
+        409
+      ],
+      "kind": "image",
+      "description": "A section of a graph or network diagram showing several circular nodes labeled w",
+      "confidence": 0.3
+    },
+    {
+      "index": 4,
+      "bbox": [
+        820,
+        668,
+        108,
+        380
+      ],
+      "kind": "prime_digit",
+      "description": "The number 63 inside a small circle, positioned along a curved arc. Other number",
+      "confidence": 0.82
+    }
+  ]
+}

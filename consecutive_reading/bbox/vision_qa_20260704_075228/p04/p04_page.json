@@ -1,0 +1,255 @@
+{
+  "page": "p01",
+  "image_size": [
+    900,
+    1200
+  ],
+  "text_words": [
+    {
+      "id": "tw01",
+      "text": "encoded/fictional script line 1",
+      "position": [
+        170,
+        150
+      ],
+      "color": "black",
+      "block": "upper",
+      "note": "Tengwar-like or invented script, not Latin"
+    },
+    {
+      "id": "tw02",
+      "text": "encoded/fictional script line 2",
+      "position": [
+        180,
+        180
+      ],
+      "color": "black",
+      "block": "upper"
+    },
+    {
+      "id": "tw03",
+      "text": "encoded/fictional script line 3",
+      "position": [
+        170,
+        210
+      ],
+      "color": "black",
+      "block": "upper"
+    },
+    {
+      "id": "tw04",
+      "text": "encoded/fictional script line 4",
+      "position": [
+        170,
+        240
+      ],
+      "color": "black",
+      "block": "upper"
+    },
+    {
+      "id": "tw05",
+      "text": "encoded/fictional script line 5",
+      "position": [
+        170,
+        270
+      ],
+      "color": "black",
+      "block": "upper"
+    },
+    {
+      "id": "tw06",
+      "text": "encoded/fictional script line 6",
+      "position": [
+        170,
+        300
+      ],
+      "color": "black",
+      "block": "upper"
+    },
+    {
+      "id": "tw07",
+      "text": "encoded/fictional script line 7",
+      "position": [
+        180,
+        330
+      ],
+      "color": "black",
+      "block": "upper"
+    },
+    {
+      "id": "tw08",
+      "text": "encoded/fictional script line 8",
+      "position": [
+        240,
+        360
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw09",
+      "text": "encoded/fictional script line 9",
+      "position": [
+        200,
+        390
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw10",
+      "text": "encoded/fictional script line 10",
+      "position": [
+        170,
+        420
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw11",
+      "text": "encoded/fictional script line 11",
+      "position": [
+        170,
+        450
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw12",
+      "text": "encoded/fictional script line 12",
+      "position": [
+        170,
+        480
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw13",
+      "text": "encoded/fictional script line 13",
+      "position": [
+        170,
+        510
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw14",
+      "text": "encoded/fictional script line 14",
+      "position": [
+        170,
+        540
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw15",
+      "text": "encoded/fictional script line 15",
+      "position": [
+        170,
+        570
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw16",
+      "text": "encoded/fictional script line 16",
+      "position": [
+        180,
+        600
+      ],
+      "color": "black",
+      "block": "lower"
+    },
+    {
+      "id": "tw17",
+      "text": "encoded/fictional script line 17",
+      "position": [
+        250,
+        630
+      ],
+      "color": "black",
+      "block": "lower"
+    }
+  ],
+  "symbols": [
+    {
+      "id": "sym01",
+      "type": "sigil_glyph",
+      "position": [
+        300,
+        720
+      ],
+      "size": [
+        300,
+        220
+      ],
+      "color": "black",
+      "description": "Large standalone sigil at bottom center: horizontal bar at top, short vertical stem, a small head/oval node, two curving side strokes, and a large X-shaped base with splayed legs",
+      "style": "calligraphic brush stroke",
+      "centered": true
+    }
+  ],
+  "drawings": [
+    {
+      "id": "dr01",
+      "type": "sigil",
+      "position": [
+        300,
+        720
+      ],
+      "size": [
+        300,
+        220
+      ],
+      "color": "black",
+      "description": "Stylized humanoid/esoteric symbol resembling a figure with outstretched arms and crossed legs, drawn in bold brush-like strokes"
+    }
+  ],
+  "digits": [],
+  "formulas": [],
+  "mixed_media_regions": [
+    {
+      "id": "mm01",
+      "bbox": [
+        150,
+        140,
+        750,
+        640
+      ],
+      "components": [
+        "text_word_block",
+        "encoded_script"
+      ],
+      "description": "Upper text area containing two paragraphs of constructed/fictional script (resembling Tengwar or similar)"
+    },
+    {
+      "id": "mm02",
+      "bbox": [
+        300,
+        720,
+        600,
+        940
+      ],
+      "components": [
+        "symbol",
+        "drawing"
+      ],
+      "description": "Large centered sigil/glyph illustration in lower portion of page"
+    }
+  ],
+  "uncertain": [
+    "The script is not standard Latin, Arabic, Hebrew, or any common writing system I can identify with confidence. It most closely resembles Tolkien's Tengwar or a similar constructed/fantasy script, but could also be a cipher, a stylized artistic font, or an obscure writing system (possibly Ethiopic, Mandaic, or a decorative pseudo-script).",
+    "Cannot determine if the script carries semantic meaning, is decorative, or is an undeciphered cipher.",
+    "The sigil at the bottom is not a standard alchemical, astrological, or runic symbol I can identify; it may be an invented/mystical mark.",
+    "No page number, header, footer, or marginal text visible.",
+    "No colored text detected — all marks appear in black/very dark gray.",
+    "No mathematical formulas, digits, or equations present.",
+    "Unknown author, source, or context for the page."
+  ]
+}

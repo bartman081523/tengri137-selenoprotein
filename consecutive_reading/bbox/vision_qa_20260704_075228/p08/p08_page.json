@@ -1,0 +1,691 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      866,
+      1140
+    ],
+    "text_words": [
+      {
+        "text": "Ж»» ІГҔһ дГ◊һк ІҰ » » • ǂҐ Л »»D ІЧ®»» »»◊ҐЧ »",
+        "bbox": [
+          170,
+          175,
+          740,
+          200
+        ],
+        "color": "black",
+        "language": "unknown/constructed script"
+      },
+      {
+        "text": "Ј ل◊ • Ұ®»» 4»» ⊗М • ل»һГһ»» ІҐ І»»ҰҰҰ ҐЛЈТ • ІЧ®",
+        "bbox": [
+          110,
+          205,
+          780,
+          230
+        ],
+        "color": "black",
+        "language": "unknown/constructed script"
+      },
+      {
+        "text": "• ҐІ® DҐЛІЧҐЧ »» ҐМ",
+        "bbox": [
+          310,
+          240,
+          510,
+          265
+        ],
+        "color": "black",
+        "language": "unknown/constructed script"
+      },
+      {
+        "text": "ЈХІ®һҐІ ҰҰҰ◊ дҰ® »» • Л »»D ®һ◊ ҐҰҰ»»ҐҐ ®»» »» »»D",
+        "bbox": [
+          130,
+          945,
+          760,
+          970
+        ],
+        "color": "black",
+        "language": "unknown/constructed script"
+      },
+      {
+        "text": "• Ч®ҰҰ◊ 9һҐһ»» DЛ»» 4ҰІ ЛҐГһ ҐҰҐҐҰ »»ҐһЛҐ»» »»D",
+        "bbox": [
+          130,
+          975,
+          760,
+          1000
+        ],
+        "color": "black",
+        "language": "unknown/constructed script"
+      },
+      {
+        "text": "• ЄһІ® 4Ұ»» І» ѬЛҐЧҐІһ»» ҐІҐ ®◊ІҰҰ◊◊ ®Ұ»»® »»D",
+        "bbox": [
+          130,
+          1005,
+          760,
+          1030
+        ],
+        "color": "black",
+        "language": "unknown/constructed script"
+      }
+    ],
+    "symbols": [
+      {
+        "type": "sigil/constructed_glyphs",
+        "bbox": [
+          170,
+          175,
+          740,
+          265
+        ],
+        "description": "Block of unknown/fictional script glyphs at top of page (3 lines)"
+      },
+      {
+        "type": "sigil/constructed_glyphs",
+        "bbox": [
+          130,
+          945,
+          760,
+          1030
+        ],
+        "description": "Block of unknown/fictional script glyphs at bottom of page (3 lines)"
+      }
+    ],
+    "drawings": [
+      {
+        "type": "geometric_diagram",
+        "bbox": [
+          160,
+          290,
+          770,
+          905
+        ],
+        "color": "black/grey",
+        "description": "Large sigil-like diagram with multiple overlapping circles forming concentric/intersecting loops, containing many small numbered circular nodes connected by curved arcs. Center appears to be a vertical vesica/eye-shape."
+      }
+    ],
+    "digits": [
+      {
+        "value": "68",
+        "bbox": [
+          263,
+          336,
+          295,
+          358
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "67",
+        "bbox": [
+          313,
+          348,
+          345,
+          370
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "72",
+        "bbox": [
+          372,
+          365,
+          404,
+          387
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "57",
+        "bbox": [
+          428,
+          373,
+          460,
+          395
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "64",
+        "bbox": [
+          488,
+          348,
+          520,
+          370
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "59",
+        "bbox": [
+          548,
+          340,
+          580,
+          362
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "73",
+        "bbox": [
+          223,
+          381,
+          255,
+          403
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "69",
+        "bbox": [
+          278,
+          385,
+          310,
+          407
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "65",
+        "bbox": [
+          328,
+          390,
+          360,
+          412
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "30",
+        "bbox": [
+          420,
+          403,
+          452,
+          425
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "62",
+        "bbox": [
+          493,
+          393,
+          525,
+          415
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "60",
+        "bbox": [
+          548,
+          388,
+          580,
+          410
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "58",
+        "bbox": [
+          613,
+          395,
+          645,
+          417
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "71",
+        "bbox": [
+          258,
+          411,
+          290,
+          433
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "70",
+        "bbox": [
+          303,
+          415,
+          335,
+          437
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "37",
+        "bbox": [
+          395,
+          428,
+          427,
+          450
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "35",
+        "bbox": [
+          430,
+          428,
+          462,
+          450
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "61",
+        "bbox": [
+          533,
+          423,
+          565,
+          445
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "56",
+        "bbox": [
+          598,
+          430,
+          630,
+          452
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "66",
+        "bbox": [
+          195,
+          430,
+          227,
+          452
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "32",
+        "bbox": [
+          388,
+          451,
+          420,
+          473
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "33",
+        "bbox": [
+          430,
+          451,
+          462,
+          473
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "34",
+        "bbox": [
+          450,
+          451,
+          482,
+          473
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "63",
+        "bbox": [
+          628,
+          458,
+          660,
+          480
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "31",
+        "bbox": [
+          413,
+          471,
+          445,
+          493
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "29",
+        "bbox": [
+          448,
+          471,
+          480,
+          493
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "36",
+        "bbox": [
+          435,
+          501,
+          467,
+          523
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "75",
+        "bbox": [
+          425,
+          608,
+          457,
+          630
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "80",
+        "bbox": [
+          385,
+          638,
+          417,
+          660
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "82",
+        "bbox": [
+          445,
+          638,
+          477,
+          660
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "45",
+        "bbox": [
+          193,
+          686,
+          225,
+          708
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "48",
+        "bbox": [
+          633,
+          686,
+          665,
+          708
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "40",
+        "bbox": [
+          258,
+          711,
+          290,
+          733
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "41",
+        "bbox": [
+          308,
+          711,
+          340,
+          733
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "79",
+        "bbox": [
+          383,
+          678,
+          415,
+          700
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "78",
+        "bbox": [
+          425,
+          678,
+          457,
+          700
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "77",
+        "bbox": [
+          465,
+          678,
+          497,
+          700
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "50",
+        "bbox": [
+          503,
+          711,
+          535,
+          733
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "55",
+        "bbox": [
+          568,
+          711,
+          600,
+          733
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "38",
+        "bbox": [
+          213,
+          736,
+          245,
+          758
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "42",
+        "bbox": [
+          278,
+          736,
+          310,
+          758
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "46",
+        "bbox": [
+          333,
+          736,
+          365,
+          758
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "74",
+        "bbox": [
+          378,
+          718,
+          410,
+          740
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "76",
+        "bbox": [
+          435,
+          718,
+          467,
+          740
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "81",
+        "bbox": [
+          403,
+          738,
+          435,
+          760
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "49",
+        "bbox": [
+          493,
+          736,
+          525,
+          758
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "51",
+        "bbox": [
+          553,
+          736,
+          585,
+          758
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "53",
+        "bbox": [
+          613,
+          736,
+          645,
+          758
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "43",
+        "bbox": [
+          243,
+          763,
+          275,
+          785
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "44",
+        "bbox": [
+          298,
+          763,
+          330,
+          785
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "39",
+        "bbox": [
+          358,
+          763,
+          390,
+          785
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "54",
+        "bbox": [
+          433,
+          763,
+          465,
+          785
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "47",
+        "bbox": [
+          493,
+          763,
+          525,
+          785
+        ],
+        "shape": "circle"
+      },
+      {
+        "value": "52",
+        "bbox": [
+          568,
+          763,
+          600,
+          785
+        ],
+        "shape": "circle"
+      }
+    ],
+    "formulas": [],
+    "mixed_media_regions": [
+      {
+        "bbox": [
+          160,
+          290,
+          770,
+          905
+        ],
+        "description": "Central sigil diagram: combination of geometric drawing (multiple overlapping circles/ovals with curved connecting arcs) and embedded text (numbered circular nodes). Functions as a magic/occult-style figure combining structure and labels.",
+        "components": [
+          "geometric_circles",
+          "numbered_nodes",
+          "curved_arcs"
+        ]
+      }
+    ],
+    "uncertain": [
+      "Top text block: appears to be a constructed/fictional script - not recognizable as any natural language; transcriptions are approximate best-guesses of glyph shapes (Ж, », І, Г, Ҕ, һ, д, ◊, һ, к, Ұ, ǂ, Ґ, Л, D, І, Ч, ®, Ұ, Ґ, Ч, etc.)",
+      "Bottom text block: same constructed/fictional script - not recognizable as any natural language",
+      "Exact pixel boundaries of individual digits are approximate; some numbers in the densely packed central cluster (around nodes 30, 37, 35, 31, 29, 32, 33, 34, 36) may be slightly off",
+      "The full set of node numbers - diagram appears to be a partial view of a larger sigil (numbers visible range roughly 29-82, suggesting nodes 1-28 and possibly 83+ exist elsewhere or are occluded)",
+      "Whether the central vertical lens/vesica shape at center (around y=540-590, x=420-450) contains any additional content"
+    ]
+  }
+}

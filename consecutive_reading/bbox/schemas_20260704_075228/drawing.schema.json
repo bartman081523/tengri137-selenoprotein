@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["drawing_id", "page", "bbox", "type", "description"],
+  "properties": {
+    "drawing_id": {"type": "string", "description": "e.g. p02_D1"},
+    "page": {"type": "string", "pattern": "^p\\d{2}$"},
+    "bbox": {
+      "type": "array",
+      "items": {"type": "integer"},
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "type": {"type": "string", "description": "e.g. odin_triple_horn, seven_rings, nine_rings, norse_cosmic_circle, face_circle_three_dots, magic_cube_3x3_exploded, magic_cube_4x4_block, stick_figure, image_onion, burumut_block"},
+    "description": {"type": "string"},
+    "components": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "vision_verified": {"type": "boolean", "default": false}
+  }
+}

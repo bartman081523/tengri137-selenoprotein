@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "required": ["description", "components"],
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "One sentence describing what this region as a whole depicts."
+    },
+    "components": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "List each visible sub-element (text, symbol, drawing) as a separate string."
+    },
+    "primary_kinds": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Top-level classification tags, e.g. ['magic_cube_3x3', 'red_label', 'caption_text']."
+    },
+    "text_content": {
+      "type": "string",
+      "description": "Verbatim transcription of any readable text in this region. Empty if there is none or it is in an invented script."
+    },
+    "uncertain": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Anything you cannot confidently identify."
+    }
+  }
+}

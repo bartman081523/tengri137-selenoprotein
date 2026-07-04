@@ -1,0 +1,93 @@
+{
+  "page_summary": "Page showing two 3x3x3 magic cubes (each with magic sum 666), separated by paragraphs of a constructed geometric/runic script, with Hebrew labels 'והדברים 2' and 'והדברים 1' in red.",
+  "text_blocks": [
+    "First block of constructed geometric script (approx. 30+ glyphs, two lines) with red label 'והדברים • 2' centered above it.",
+    "Second block of constructed geometric script (approx. 30+ glyphs, two lines) with red label 'והדברים • 1' centered above it."
+  ],
+  "colored_text": [
+    {
+      "text": "והדברים • 2",
+      "color": "red",
+      "approximate_position": "centered between the top magic cube and the first paragraph of runic script"
+    },
+    {
+      "text": "והדברים • 1",
+      "color": "red",
+      "approximate_position": "centered between the bottom magic cube and the second paragraph of runic script"
+    }
+  ],
+  "symbols": [
+    {
+      "description": "A three-pronged (Y-shaped) glyph in the constructed script",
+      "kind": "geometric_three_prong",
+      "position": "throughout the runic paragraphs, repeated many times",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "An X / cross-times glyph",
+      "kind": "math_times",
+      "position": "throughout the runic paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "A circle (O) glyph",
+      "kind": "geometric_circle",
+      "position": "throughout the runic paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "A circle with a dot inside (⊙)",
+      "kind": "geometric_circle_with_dot",
+      "position": "near the end of each runic paragraph",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "A 3x3 grid-of-dots / dice-face glyph (⋮⋮⋮)",
+      "kind": "geometric_nine_dot_grid",
+      "position": "in the middle of each runic paragraph",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Chevron/angle brackets '>' and '<' combined as doubled/tripled pairs (e.g. ≫, ≪)",
+      "kind": "geometric_chevron",
+      "position": "near the end of each runic paragraph",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Hebrew letters in red: ו (vav), ה (he), ד (dalet), ב (bet), ר (resh), י (yod), ם (final mem), forming 'והדברים'",
+      "kind": "hebrew_letters",
+      "position": "as red labels between the cube and text",
+      "size_estimate": "small (line height)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "Upper 3x3x3 magic cube drawn in isometric projection; each face is a 3x3 grid of cells containing a number. Outer cells are connected by dashed vertical lines to the corresponding cells in the middle and bottom layers. Magic sum of every row, column, pillar and space diagonal is 666.",
+      "type": "magic_cube_3x3",
+      "position": "top half of the page",
+      "components": [
+        "27 cells arranged in 3 horizontal layers of 3x3",
+        "Top layer: 26,2,638 / 3,656,7 / 637,8,21",
+        "Middle layer: 4,640,22 / 644,9,13 / 18,17,631",
+        "Bottom layer: 636,24,6 / 19,1,646 / 11,641,14",
+        "dashed vertical edges linking the three layers"
+      ]
+    },
+    {
+      "description": "Lower 3x3x3 magic cube drawn in isometric projection, same style as the upper one. Magic sum is also 666.",
+      "type": "magic_cube_3x3",
+      "position": "lower half of the page",
+      "components": [
+        "27 cells arranged in 3 horizontal layers of 3x3",
+        "Top layer: 27,1,638 / 4,641,21 / 635,24,7",
+        "Middle layer: 2,648,16 / 642,10,14 / 22,8,636",
+        "Bottom layer: 637,17,12 / 20,15,631 / 9,634,23",
+        "dashed vertical edges linking the three layers"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The exact transcription of the constructed geometric/runic script could not be performed; individual glyphs are reported only by shape category.",
+    "Whether the two paragraphs of runic text are the same sentence or two different ones is unclear from the image alone."
+  ]
+}

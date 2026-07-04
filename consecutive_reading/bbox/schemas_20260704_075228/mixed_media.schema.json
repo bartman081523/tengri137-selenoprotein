@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["region_id", "bbox", "components"],
+  "properties": {
+    "region_id": {"type": "string", "description": "e.g. p05_M1"},
+    "bbox": {
+      "type": "array",
+      "items": {"type": "integer"},
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "components": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "List of sub-elements, e.g. ['3x3 magic cube', 'red header word', 'caption text']"
+    },
+    "description": {"type": "string"}
+  }
+}

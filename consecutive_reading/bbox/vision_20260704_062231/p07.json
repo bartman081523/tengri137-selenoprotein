@@ -1,0 +1,38 @@
+{
+  "page_summary": "A page with a paragraph of text in an unreadable runic/constructed script, followed by a geometric diagram of a large circle containing numbered smaller circles connected by lines.",
+  "text_blocks": [
+    "ᛗ ᚨ ᚨᛞ ᚦᛃ · ᛫ ᛏ ᛏᛁ ᚠᚢ ᚦᛁᚾ ᚺᛁᛚᛞ ᛏᛉᛏ ᛁᛋᛁ ᛁᚾ ᚦ ᛋᛖᛁᛞ ᚺᛁᛚ · ᛁᛏ ᛋᛖᛁᛞ ᛒᛖᛃ ᛋᚢᛁᛏ ᛁᛏ ᚠᛁᚾᛞᛋ ᛁᚾ ᚦ ᛏᛁᛒᛁ ᚺᛁᛚᛞ ᚺᛁ ᚠᚢ ᛏᛁᛒᛁ ᚺᛁᛚᛞ ᚺᛁ ᛋᛁ ᛏᛁᛒᛁ ᚺᛁᛚᛞ ᚠᛚᛁ ᚺᛁᛚᛞ ᚺᛁᛚᛞ ᚺᛁ ᛋᛁ ᚨ ᛏᛁᛒᛁ ᚺᛁᛚᛞ ᚠᚢ ᚨ ᛏᛁᛒᛁ ᚺᛁᛚᛞ ᚠᛁᚾᛞᛋ · ᚠᛁᛏ ᛏᚢᛁᛋᛁᛋ ᛞᛁᚾᛁᛉ",
+    "ᛞ ᚢᚾᛞᛁᛏᛁ ᚠᛁᛁᛁᛃᚨᚨ · ᛫ᛏᛁᛒᛁ ᛋᛁᛞᛁ ᛋᛁ ᛏᛁᛒᛁ ᚠᛁᛁᛁᛁᛚᛞ ᛞᛁᛉ ᛏᛁᛒᛁ ᛏᚢᛁᛋᛁᛋ ᚺᛁ ᛏᛁᛒᛁ ᚠᛁᛁᛁᛁᛚᛞ ᚠᛁᛁᛁᛁᛁᛚᛞ · ᛏᛁᛒᛁ ᚺᛁᛚᛞ ᚺᛁ · ᛋᛁ ᛁᛋ ᚺᛁᛚᛞ"
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Text written in an unidentified runic/constructed script resembling a phonetic alphabet with characters like ᛗ, ᚨ, ᛞ, ᚦ, ᛃ, ᛏ, ᚠ, ᚢ, ᚾ, ᚺ, ᛁ, ᛚ, ᛋ, ᛖ, ᛒ, ᛒ, ᚱ, ᚴ, ᛉ, ᛊ, ᛏᛟ",
+      "kind": "constructed_runic_script",
+      "position": "top of page, two paragraphs",
+      "size_estimate": "medium (body text)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "A large outer circle containing a network of smaller circles connected by straight lines (forming a vertical and horizontal cross) and curved arcs, each circle containing a number.",
+      "type": "geometric_circle_diagram",
+      "position": "center-bottom of page",
+      "components": [
+        "large outer circle",
+        "top node labeled 161 (on outer circle)",
+        "bottom node labeled 164 (on outer circle)",
+        "left node labeled 169 (on outer circle)",
+        "right node labeled 172 (on outer circle)",
+        "inner ring: 168 (upper-left), 166 (upper-right), 167 (lower-left), 165 (lower-right)",
+        "central cluster: 171 (upper center), 162 and 163 (middle), 170 (lower center)",
+        "straight lines connecting the cardinal outer nodes (161-164 vertical, 169-172 horizontal) through the center",
+        "curved arcs connecting the four inner ring nodes to adjacent outer nodes",
+        "small curved arcs between the four central cluster nodes forming a flower-like pattern"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The text is written in a constructed/unidentified runic script that I cannot read; I have attempted a phonetic-style transcription of the visible glyphs but cannot confirm meaning."
+  ]
+}

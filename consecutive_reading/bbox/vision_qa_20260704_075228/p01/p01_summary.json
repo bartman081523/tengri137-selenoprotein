@@ -1,0 +1,31 @@
+{
+  "page": "p01",
+  "page_vision_status": "ok",
+  "glyphs_processed": 2,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        537,
+        1251,
+        24,
+        22
+      ],
+      "kind": "geometric_circle_with_dot",
+      "description": "A thick black circular ring (annulus) with a white circular hole in the center, ",
+      "confidence": 0.72
+    },
+    {
+      "index": 1,
+      "bbox": [
+        808,
+        1070,
+        14,
+        22
+      ],
+      "kind": "latin_print",
+      "description": "Two bold uppercase Latin letter 'X' characters in serif print, with a partial ve",
+      "confidence": 0.95
+    }
+  ]
+}

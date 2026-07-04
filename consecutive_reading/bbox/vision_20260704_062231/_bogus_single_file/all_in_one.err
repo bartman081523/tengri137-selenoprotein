@@ -1,0 +1,168 @@
+xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+error: model did not return valid JSON: Invalid control character at: line 7 column 222 (char 784)
+--- raw ---
+```json
+{
+  "page_summary": "A page of mystical or runic text with four circular symbolic illustrations arranged in a 2x2 grid at the bottom, depicting various ritual or magical scenes.",
+  "text_blocks": [
+    "«»>ℏ ⅁⅁ ⅁⟨ℙ⟨ ʸʸᴿ◊ ℙʸℰℏℋ· ⫸⫸ℋʰʰ⅁ʸɹ⫻ ⅁⅁ ʲ⅁ ɪɪℱℰ ⅁ ⫤◊ ℏ´ ⅁ʲ ɪɪ ℰℋʸℱℰ»· ʰʸℙʸɹ⫻ ⅁⟨ ⅁» ⫸⟨· ⅁ℰʰ⅁ʸ ⫼ ʸℙʸℰℏℋ· ɪɪ⫸ℋℋℋ⫸ ⅁ℋ ℋʲ ℋʰℰ⅁ʸ ɪɪ ℙʸℰℏℋℋ· ⅁⫸ ⅁ℰʰ⅁ʸ◊»ℋ ⫸⫸⅁ ⅁ℋʸ⫸»ℋ",
+    "⫸⅁ ɪ⅁ℰɪ ⅁ℱℰ ⅁⫼ ⅁»⫸⫼ ⫸⫼ʰ»ℋ ⫼ ⫤⫼ ⅁ℰℋʸℱℰ ⅁ℙʸ⫸ ⫸⫸⅁ ⫼ ʰʸℋℱℰ ⫤»⫸⅁ ɪɪ»· ⅁ℰʰ⅁ʸ◊»ℋ ⫤»⫸⅁ ɪɪ· ɪℙʸℱℰ» ⅁ ⅁⫸ℱℏ»ʰʸ⅁ʸ⅁ ⅁ℋ ⅁ℋʸℱℰ»",
+    "ℋℱℰ»»· ⫸⫸⅁ ʸʸ⅁ ⅁⫸⫸⫸⅁ ⫤ʰ»⫸⅁· ⫤⅁ℏ◊ ⅁⫸⅁ℏ⅁ℋʰℱ⅁⫸⅁ ⫸⫸⅁ ʸʸ⅁ ⅁⫸ʰ·ℋʸℋʰ⅁ ⫤»⫸⅁ ℋℏ⅁⅁ ⅁",
+    "ʰ⅁ʸ◊»⫼⅁ ⅁ℱℋ ℋℋℋℙʸ⅁⅁ʸℙ ⅁⫸⅁ ℋʸ⫼»»⅁ ⅁ℏ⅁ℋʰɪ ɪℋ ʸℋ◊ ℰ ℋℱℰℋʸℙʸ⅁⅁ℰ· ɪℙʸℱℰ» ⅁ℰ⅁ ɪℋℰɪ ⅁ℋ ℋʸℱℱ⫼ ⅁ℰ ʰʸ⅁ ⅁ℰ⅁ ʸ⫸⅁⅁⫸ℋʰ⅁ℋ⫼⅁⅁ ⅁⅁ℰ· ⅁⅁⅁⅁ʸℋʰ⅁ℋ ʸ⫼ ⅁⅁⅁ ⅁ℋ ⅁⫸ ⅁⫸ℋ⅁ɪ ɪℏ⅁ ʸ⫼⅁⫸ℋ⫸ ⫤»· ʰʸℋℏʸ⅁ ⅁ ⅁ℋ ʸ⫸· ⅁⫸⫼⅁⅁ ⅁⅁ ⅁ℏ⅁ℋ ℋ⅁⅁ ⅁ℋ ⫸⫸⅁◊· ⅁ℰℰℏ⅁ ⫼ ⅁⅁ ⅁ℏ·
+  "],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Circle containing a trident-like shape at top, two small circles, stick figures of people, and various dots and small symbols",
+      "kind": "geometric_circle",
+      "position": "top-left of the 2x2 grid at bottom of page",
+      "size_estimate": "large (several cm in diameter)"
+    },
+    {
+      "description": "Circle containing a serpentine/dragon figure, a diamond shape, a circle with a cross inside, and decorative elements",
+      "kind": "geometric_circle",
+      "position": "top-right of the 2x2 grid at bottom of page",
+      "size_estimate": "large (several cm in diameter)"
+    },
+    {
+      "description": "Circle containing a vertical sword or dagger shape, small human figures, and circles arranged around the perimeter",
+      "kind": "geometric_circle",
+      "position": "bottom-left of the 2x2 grid at bottom of page",
+      "size_estimate": "large (several cm in diameter)"
+    },
+    {
+      "description": "Circle containing a central cross/sword shape, human figures, a patterned square motif resembling a labyrinth, and decorative elements",
+      "kind": "geometric_circle",
+      "position": "bottom-right of the 2x2 grid at bottom of page",
+      "size_estimate": "large (several cm in diameter)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "Circular diagram with ritual scene featuring a three-pronged/trident symbol at top, two crescent-like circles, small human stick figures, and dots representing stars or particles",
+      "type": "face_circle_three_dots",
+      "position": "top-left circle in the 2x2 grid",
+      "components": [
+        "trident/three-pronged symbol at top center",
+        "two small circles flanking the trident",
+        "horizontal line with hanging fringe",
+        "stick figures of two people",
+        "scattered dots",
+        "small geometric shapes at bottom"
+      ]
+    },
+    {
+      "description": "Circular diagram with a serpentine creature, geometric shapes, and a diamond/cross-in-circle symbol",
+      "type": "face_circle_three_dots",
+      "position": "top-right circle in the 2x2 grid",
+      "components": [
+        "serpent/dragon figure on the left",
+        "diamond shape in upper right",
+        "circle with cross inside in center-right",
+        "horizontal line with fringe/hanging elements",
+        "scattered small circles and dots"
+      ]
+    },
+    {
+      "description": "Circular diagram with a sword or dagger pointing downward, surrounded by figures and circles",
+      "type": "face_circle_three_dots",
+      "position": "bottom-left circle in the 2x2 grid",
+      "components": [
+        "circle at top",
+        "horizontal line with fringe/hanging elements",
+        "vertical sword or dagger shape",
+        "human stick figures on either side",
+        "small circles arranged in arc below"
+      ]
+    },
+    {
+      "description": "Circular diagram with a central cross, two geometric/labyrinth-like square patterns, and figures",
+      "type": "face_circle_three_dots",
+      "position": "bottom-right circle in the 2x2 grid",
+      "components": [
+        "central cross/sword shape",
+        "two square labyrinth/maze-like patterns on either side",
+        "human stick figures",
+        "horizontal line with fringe",
+        "small circles and dots"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The text on the page appears to be in a constructed, coded, or runic script that I cannot confidently transcribe or identify",
+    "Many individual glyphs in the text resemble modified Latin letters, mathematical symbols, and special Unicode characters but do not form recognizable words in any language I can identify",
+    "The exact nature and meaning of the symbols within the four circles is unclear, though they appear to depict ritual or alchemical scenes"
+  ]
+}
+```
+error: model did not return valid JSON: Invalid \escape: line 4 column 99 (char 367)
+--- raw ---
+```json
+{
+  "page_summary": "A page of text in a highly stylized decorative/ornamental font (resembling an alien or futuristic typeface) accompanied by a hand-drawn illustration of a stick-figure person encountering a UFO with a small alien figure on top.",
+  "text_blocks": [
+    "©34Y1Kf · >> <>» ))4l M)A1ffX I&>>X IFlh9ffX| D>> IT >EYY<>>l IF1h · f°XXf° JX X8 IXf1H ©f°>)\ Y1 IF1 JX YYf°©f° IF1 DJJ> · J>>4 fl1)H J1X 4Yl YM YYY© ,If°48> 1> 1Y1 f1h h° 99h l1°48> JJJ · °1 f1h)JX J 4Y1 XH°E1X 8») IT hA9d) l1°48 · DJJ41l8 Jf1lX IHH hAJ° YYf° J>>4 JH° DJJ · J>>X J° 4> JX · >>H",
+    "4HXY JY°hf J1X 4Y1 ©))MhA°HhH° 9hH° J>>X J IT h8°4h J1X 4Y1 hA4fl J1X 8°J · 84©° 7°9h IT D ©J>>4 ,f1)H J1X DJJ · 9h4°>D 4) ©f° M)A1ffX f° JH° >> · ©f°>\ J1X ©8|f°©>X8 YYJ JX YYf° <>» YYf° JH° >> · 84©° J1X 8)f° XH° <>» JX YY f° 84©° J1X 8)f° JH°Efl 1",
+    "9h Hfl J1X ©f° J>>4 ,fl1)H J1h JXf° YYf° Y°Hh J 4> X8 JX>>X YYf° Jf° · D4HXYY JY°hJ 4)» X8 93 J 4H YYX8 4)» 1> J°EXY<>)X H°Xl J1X 1> 84l J h°© <>» f1h9ffX| ©8|f°©>\ YYf° J>>4 ,fl1)H J1X 8°>»h · l1X 1"
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Recurring glyph resembling a circled 'C' or copyright-style symbol (©) used frequently throughout the text, appearing to represent the letter 'O' in this font",
+      "kind": "decorative_circled_c",
+      "position": "scattered throughout all three paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Glyph resembling 'f°' (f followed by a small superscript circle) used as a unit to represent a specific letter, likely 'o' or 'a'",
+      "kind": "decorative_ligature",
+      "position": "scattered throughout the text",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Diamond/lozenge character (<>) used as a recurring letter substitute",
+      "kind": "decorative_diamond",
+      "position": "scattered throughout all three paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Right-pointing guillemet or angle quote (») used repeatedly as a letter substitute",
+      "kind": "decorative_angle_quote",
+      "position": "scattered throughout all three paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Middle dot separator (·) used to separate words/sentences",
+      "kind": "middle_dot",
+      "position": "appears between word groups in all paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Vertical bar (|) used as a punctuation/letter substitute",
+      "kind": "decorative_vertical_bar",
+      "position": "appears in first and second paragraphs",
+      "size_estimate": "small (line height)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "Hand-drawn ink illustration showing a stick-figure man (left) holding a flashlight-like device, standing next to a large circular UFO or crater with concentric rings. A small alien or creature figure is shown on top of the UFO. Dashed lines radiate from the UFO suggesting a light beam, landing path, or motion.",
+      "type": "ufo_encounter_scene",
+      "position": "bottom of page, centered below the third text block",
+      "components": [
+        "stick-figure man with simple round head and rectangular body",
+        "humanoid figure/astronaut lying or floating above the UFO",
+        "large circular UFO with concentric oval rings (dome shape)",
+        "small alien/creature on top of the UFO",
+        "dashed lines radiating outward suggesting beam or trajectory",
+        "ground line beneath the man and UFO"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The main body text is written in a highly stylized decorative/symbolic font (resembling the 'Visitor' or 'Martian' typeface) that substitutes standard letters with symbols like ©, f°, <>, », |, etc. The actual semantic content cannot be reliably read from the glyphs alone.",
+    "The exact mapping of the symbol-glyphs to actual Latin letters is not confidently identifiable without knowing the specific font name.",
+    "The small humanoid/astronaut figure floating above the UFO in the illustration is somewhat ambiguous in detail."
+  ]
+}
+```

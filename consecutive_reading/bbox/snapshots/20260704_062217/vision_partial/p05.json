@@ -1,0 +1,48 @@
+{
+  "page_summary": "A page showing two 3D magic cubes made of 3x3 rhombic grids with numbers, accompanied by headings and explanatory text in Ethiopic (Ge'ez) script.",
+  "text_blocks": [
+    "የአራተኛውን ቁልፍ ማጠቃለያ እና ዕለታዊ አጠቃቀም፤ አምስቱ እና ስድስቱ ቁልፎች ጋር የሚሰሩ ምሳጌዎች።",
+    "የአምስተኛው ቁልፍ ዋና ባህሪዎች እና ልዩ ሥራዎች።"
+  ],
+  "colored_text": [
+    {
+      "text": "የአራተኛው",
+      "color": "red",
+      "approximate_position": "centered between the first (upper) and second (lower) magic cube"
+    },
+    {
+      "text": "የአምስተኛው",
+      "color": "red",
+      "approximate_position": "centered below the second (lower) magic cube"
+    }
+  ],
+  "symbols": [],
+  "decorations": [
+    {
+      "description": "Upper 3D magic cube composed of three stacked 3x3 rhombic grids (parallelogram cells) with numerical entries, drawn with dashed vertical edges to convey 3D depth.",
+      "type": "magic_cube_3x3",
+      "position": "top half of the page",
+      "components": [
+        "top layer rhombi: 638/24/4, 19/10/637, 9/632/25",
+        "middle layer rhombi: 5/639/22, 635/13/18, 26/14/626",
+        "bottom layer rhombi: 23/3/640, 12/643/11, 631/20/15",
+        "dashed vertical lines connecting the three layers"
+      ]
+    },
+    {
+      "description": "Lower 3D magic cube composed of three stacked 3x3 rhombic grids with numerical entries, drawn with dashed vertical edges to convey 3D depth.",
+      "type": "magic_cube_3x3",
+      "position": "lower half of the page",
+      "components": [
+        "top layer rhombi: 7/19/640, 12/638/16, 647/9/10",
+        "middle layer rhombi: 4/642/20, 651/2/13, 11/22/633",
+        "bottom layer rhombi: 655/5/6, 3/26/637, 8/635/23",
+        "dashed vertical lines connecting the three layers"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The Ethiopic/Ge'ez text content is partially uncertain; characters such as the circled numerals and certain conjuncts (e.g. ፤፤, ሐ, ጐ, ጸ) could not be transcribed with full confidence.",
+    "Exact transliteration of the red subheadings is approximate."
+  ]
+}

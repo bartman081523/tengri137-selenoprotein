@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["geometry_id", "kind", "bounding_box_normalized"],
+  "properties": {
+    "geometry_id": {"type": "string", "description": "e.g. GEOM_TIAN_ORACLE"},
+    "kind": {"type": "string"},
+    "aspect_ratio": {"type": "number"},
+    "stroke_count_estimate": {"type": "integer"},
+    "bounding_box_normalized": {
+      "type": "array",
+      "items": {"type": "number"},
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "[x0, y0, x1, y1] in 0..1 of the symbol's own bounding box"
+    },
+    "fingerprint_hash": {"type": "string", "description": "sha256 of normalized bitmap"},
+    "centroid": {
+      "type": "array",
+      "items": {"type": "number"},
+      "minItems": 2,
+      "maxItems": 2
+    }
+  }
+}

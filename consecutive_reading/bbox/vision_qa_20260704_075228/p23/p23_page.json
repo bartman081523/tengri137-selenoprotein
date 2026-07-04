@@ -1,0 +1,491 @@
+{
+  "page": "p01",
+  "image_size": [
+    1073,
+    1413
+  ],
+  "text_words": [
+    {
+      "text": "NH2",
+      "position": "top-left, upper part of adenine structure",
+      "color": "black"
+    },
+    {
+      "text": "NH2",
+      "position": "top-right, upper part of guanine structure",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "position": "middle-right, left side of uracil/pyrimidine structure",
+      "color": "black"
+    },
+    {
+      "text": "O",
+      "position": "middle-right, top of uracil structure",
+      "color": "black"
+    },
+    {
+      "text": "O",
+      "position": "middle-right, bottom-left of uracil structure",
+      "color": "black"
+    },
+    {
+      "text": "NH2",
+      "position": "bottom-left, upper part of cytosine structure",
+      "color": "black"
+    },
+    {
+      "text": "O",
+      "position": "bottom-left, lower-left of cytosine structure",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "position": "bottom-left, lower-right of cytosine structure",
+      "color": "black"
+    },
+    {
+      "text": "O",
+      "position": "bottom-right, top of thymine structure",
+      "color": "black"
+    },
+    {
+      "text": "O",
+      "position": "bottom-right, bottom-left of thymine structure",
+      "color": "black"
+    },
+    {
+      "text": "NH",
+      "position": "bottom-right, lower-right of thymine structure",
+      "color": "black"
+    },
+    {
+      "text": "CH3",
+      "position": "bottom-right, right side of thymine structure",
+      "color": "black"
+    },
+    {
+      "text": "N",
+      "position": "various positions within chemical ring structures",
+      "color": "black"
+    },
+    {
+      "text": "C",
+      "position": "various positions within chemical ring structures",
+      "color": "black"
+    },
+    {
+      "text": "H",
+      "position": "various positions within chemical ring structures",
+      "color": "black"
+    }
+  ],
+  "symbols": [
+    {
+      "symbol": "x (multiplication sign)",
+      "position": "throughout formulas in center",
+      "color": "black"
+    },
+    {
+      "symbol": "/ (fraction bar)",
+      "position": "between numerator and denominator in each formula",
+      "color": "black"
+    },
+    {
+      "symbol": "superscript exponents",
+      "position": "in formulas (e.g., 2², 2³, 3², 3³, 2⁷)",
+      "color": "black"
+    }
+  ],
+  "drawings": [
+    {
+      "type": "chemical_structure",
+      "description": "Adenine molecule (purine base with NH2 group) drawn as hexagonal+pentagonal fused ring system",
+      "position": "top-left corner",
+      "labels": [
+        "NH2",
+        "N",
+        "C",
+        "H",
+        "CH"
+      ]
+    },
+    {
+      "type": "chemical_structure",
+      "description": "Guanine molecule (purine base with NH2 and C=O groups) drawn as hexagonal+pentagonal fused ring system",
+      "position": "top-right corner",
+      "labels": [
+        "O",
+        "NH2",
+        "HN",
+        "N",
+        "C",
+        "H",
+        "CH"
+      ]
+    },
+    {
+      "type": "chemical_structure",
+      "description": "Uracil or pyrimidine derivative (six-membered ring with two C=O groups)",
+      "position": "middle-right, between formulas",
+      "labels": [
+        "O",
+        "NH",
+        "O",
+        "N",
+        "C",
+        "H",
+        "CH"
+      ]
+    },
+    {
+      "type": "chemical_structure",
+      "description": "Cytosine molecule (pyrimidine with NH2 and C=O groups)",
+      "position": "bottom-left corner",
+      "labels": [
+        "NH2",
+        "N",
+        "C",
+        "H",
+        "O",
+        "NH"
+      ]
+    },
+    {
+      "type": "chemical_structure",
+      "description": "Thymine molecule (pyrimidine with CH3 and two C=O groups)",
+      "position": "bottom-right corner",
+      "labels": [
+        "O",
+        "CH3",
+        "N",
+        "C",
+        "H",
+        "O",
+        "NH"
+      ]
+    }
+  ],
+  "digits": [
+    {
+      "value": "2²",
+      "position": "formula 1, numerator start"
+    },
+    {
+      "value": "17",
+      "position": "formula 1"
+    },
+    {
+      "value": "19",
+      "position": "formula 1"
+    },
+    {
+      "value": "55627057",
+      "position": "formula 1"
+    },
+    {
+      "value": "7200332325968813",
+      "position": "formula 1, numerator end"
+    },
+    {
+      "value": "3²",
+      "position": "formula 1, denominator start"
+    },
+    {
+      "value": "29",
+      "position": "formula 1, denominator"
+    },
+    {
+      "value": "101",
+      "position": "formula 1, denominator"
+    },
+    {
+      "value": "239",
+      "position": "formula 1, denominator"
+    },
+    {
+      "value": "281",
+      "position": "formula 1, denominator"
+    },
+    {
+      "value": "4649",
+      "position": "formula 1, denominator"
+    },
+    {
+      "value": "909091",
+      "position": "formula 1, denominator"
+    },
+    {
+      "value": "121499449",
+      "position": "formula 1, denominator end"
+    },
+    {
+      "value": "22441",
+      "position": "formula 2, numerator"
+    },
+    {
+      "value": "26807952781",
+      "position": "formula 2, numerator"
+    },
+    {
+      "value": "220238942717",
+      "position": "formula 2, numerator"
+    },
+    {
+      "value": "2633",
+      "position": "formula 3, numerator"
+    },
+    {
+      "value": "8867291",
+      "position": "formula 3, numerator"
+    },
+    {
+      "value": "37287337",
+      "position": "formula 3, numerator"
+    },
+    {
+      "value": "1498430561",
+      "position": "formula 3, numerator"
+    },
+    {
+      "value": "7",
+      "position": "formula 4, numerator"
+    },
+    {
+      "value": "3386469421",
+      "position": "formula 4, numerator"
+    },
+    {
+      "value": "14123028175936831",
+      "position": "formula 4, numerator"
+    },
+    {
+      "value": "2³",
+      "position": "formula 5, numerator"
+    },
+    {
+      "value": "20359",
+      "position": "formula 5, numerator"
+    },
+    {
+      "value": "346559",
+      "position": "formula 5, numerator"
+    },
+    {
+      "value": "13445817584622779",
+      "position": "formula 5, numerator"
+    },
+    {
+      "value": "4174409",
+      "position": "formula 6, numerator"
+    },
+    {
+      "value": "13716463",
+      "position": "formula 6, numerator"
+    },
+    {
+      "value": "11670170507",
+      "position": "formula 6, numerator"
+    },
+    {
+      "value": "1889",
+      "position": "formula 7, numerator"
+    },
+    {
+      "value": "13446133893063855901211189",
+      "position": "formula 7, numerator"
+    },
+    {
+      "value": "2²",
+      "position": "formula 8, numerator"
+    },
+    {
+      "value": "47",
+      "position": "formula 8, numerator"
+    },
+    {
+      "value": "79",
+      "position": "formula 8, numerator"
+    },
+    {
+      "value": "102359",
+      "position": "formula 8, numerator"
+    },
+    {
+      "value": "2468021",
+      "position": "formula 8, numerator"
+    },
+    {
+      "value": "347713522439",
+      "position": "formula 8, numerator"
+    },
+    {
+      "value": "293",
+      "position": "formula 9, numerator"
+    },
+    {
+      "value": "2551",
+      "position": "formula 9, numerator"
+    },
+    {
+      "value": "330206236792383668191",
+      "position": "formula 9, numerator"
+    },
+    {
+      "value": "3³",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "13",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "31",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "37",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "211",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "241",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "271",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "2161",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "9091",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "2906161",
+      "position": "formula 9, denominator"
+    },
+    {
+      "value": "2⁷",
+      "position": "formula 10, numerator"
+    },
+    {
+      "value": "2729",
+      "position": "formula 10, numerator"
+    },
+    {
+      "value": "486954583",
+      "position": "formula 10, numerator"
+    },
+    {
+      "value": "1056312876821",
+      "position": "formula 10, numerator"
+    },
+    {
+      "value": "19",
+      "position": "formula 11, numerator"
+    },
+    {
+      "value": "31",
+      "position": "formula 11, numerator"
+    },
+    {
+      "value": "73151809",
+      "position": "formula 11, numerator"
+    },
+    {
+      "value": "3847851920700457",
+      "position": "formula 11, numerator"
+    }
+  ],
+  "formulas": [
+    {
+      "formula": "(2² × 17 × 19 × 55627057 × 7200332325968813) / (3² × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "upper center, formula 1"
+    },
+    {
+      "formula": "(22441 × 26807952781 × 220238942717) / (11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "center, formula 2"
+    },
+    {
+      "formula": "(2633 × 8867291 × 37287337 × 1498430561) / (3 × 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "center, formula 3"
+    },
+    {
+      "formula": "(7 × 3386469421 × 14123028175936831) / (11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "center, formula 4"
+    },
+    {
+      "formula": "(2³ × 20359 × 346559 × 13445817584622779) / (3 × 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "center, formula 5"
+    },
+    {
+      "formula": "(7 × 4174409 × 13716463 × 11670170507) / (3² × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "center, formula 6"
+    },
+    {
+      "formula": "(1889 × 13446133893063855901211189) / (3 × 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "center, formula 7"
+    },
+    {
+      "formula": "(2² × 47 × 79 × 102359 × 2468021 × 347713522439) / (3 × 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "lower center, formula 8"
+    },
+    {
+      "formula": "(293 × 2551 × 330206236792383668191) / (3³ × 7 × 13 × 31 × 37 × 211 × 241 × 271 × 2161 × 9091 × 2906161)",
+      "position": "lower center, formula 9"
+    },
+    {
+      "formula": "(2⁷ × 2729 × 486954583 × 1056312876821) / (3² × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "lower center, formula 10"
+    },
+    {
+      "formula": "(19 × 31 × 73151809 × 3847851920700457) / (11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "position": "bottom center, formula 11"
+    }
+  ],
+  "mixed_media_regions": [
+    {
+      "region": "top-left corner",
+      "components": "chemical structure drawing of adenine with text labels (NH2, N, C, H, CH)",
+      "type": "chemical_diagram"
+    },
+    {
+      "region": "top-right corner",
+      "components": "chemical structure drawing of guanine with text labels (O, NH2, HN, N, C, H, CH)",
+      "type": "chemical_diagram"
+    },
+    {
+      "region": "middle-right",
+      "components": "chemical structure drawing (uracil-like) with text labels (O, NH, O, N, C, H, CH)",
+      "type": "chemical_diagram"
+    },
+    {
+      "region": "bottom-left corner",
+      "components": "chemical structure drawing of cytosine with text labels (NH2, N, C, H, O, NH)",
+      "type": "chemical_diagram"
+    },
+    {
+      "region": "bottom-right corner",
+      "components": "chemical structure drawing of thymine with text labels (O, CH3, N, C, H, O, NH)",
+      "type": "chemical_diagram"
+    },
+    {
+      "region": "center column",
+      "components": "11 stacked mathematical fraction expressions with digits, multiplication signs, and fraction bars",
+      "type": "formula_list"
+    }
+  ],
+  "uncertain": [
+    "Exact identity of the middle-right chemical structure (appears to be uracil or a related pyrimidine)",
+    "Whether the four corner structures are explicitly labeled as adenine, guanine, cytosine, thymine (no textual labels are visible beyond atomic symbols)",
+    "The exact relationship between the DNA/RNA base structures and the mathematical factorizations (context not provided)"
+  ]
+}

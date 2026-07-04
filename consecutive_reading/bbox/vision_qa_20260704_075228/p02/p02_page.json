@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      758,
+      975
+    ],
+    "text_words": [
+      {
+        "text": "Esoteric script - line 1: Q>H >>>JQTE YYT<> MYEJ,H · >>,hAJYJ] JJ IT ITHE 8 YJ< HT YJ IT E,HTHEX> · XJM YXI J< 8>> 8 · JEXJY X MYEJ,H · IIJ,HHYJ8 J7h HT HTEIY IT MYEJ,H · 8J · JEXJY<>H >>> 8hYY>H",
+        "position": [
+          120,
+          130
+        ],
+        "bbox": [
+          120,
+          130,
+          638,
+          270
+        ],
+        "color": "black",
+        "language": "unknown_script",
+        "certainty": "low"
+      },
+      {
+        "text": "Esoteric script - line 2: J] IHTHI JTH8 8J 8>>X],15YH] J YJX] E,HTHEJI JYJ >>> J[ · X,HTHE 4>>] J]X · JEXJY<>J8H 4>>] J]X · I'MXHEX>> 8 · JJ8,HJ'XIXJ IT E,HTHEX>",
+        "position": [
+          120,
+          280
+        ],
+        "bbox": [
+          120,
+          280,
+          638,
+          380
+        ],
+        "color": "black",
+        "language": "unknown_script",
+        "certainty": "low"
+      },
+      {
+        "text": "Esoteric script - line 3: ,HTHEX> · >>> 1YJ7 E>>>>J Y4J8 · YEHX<> 8J] 8hYIHT · >>> 1YJ7 J]X ,HT4J 4>>] hIJX] 9",
+        "position": [
+          120,
+          395
+        ],
+        "bbox": [
+          120,
+          395,
+          638,
+          470
+        ],
+        "color": "black",
+        "language": "unknown_script",
+        "certainty": "low"
+      },
+      {
+        "text": "Esoteric script - line 4: XEXJY<>J8 J7h J'4h,JY)XJY J]X JYYY)J 8HJHI IT J'h< <> E,HTXH9T'JX] · I'MXHEX>> 8JJ 1HTHI J7h X,HT'JX] J JX< J]XJX JYJX] 'J))J'XIJ)J8 J]X · DJJ1JYYJX] JX]'JXHXJ 'J · 1J]M1J J,5 4JX XIJ]X)JX Y HJ J8JJh] IJY8X>> 4)> · J1J']H J,J,1X 4JX X,1TJ)X)JX 4J · JEXJY<>JH 4>>] 8 · J,HJ'XIJ 8X> IT 8H<> 4>>",
+        "position": [
+          120,
+          485
+        ],
+        "bbox": [
+          120,
+          485,
+          638,
+          625
+        ],
+        "color": "black",
+        "language": "unknown_script",
+        "certainty": "low"
+      }
+    ],
+    "symbols": [],
+    "drawings": [
+      {
+        "type": "sigils_2x2_grid",
+        "position": [
+          200,
+          630
+        ],
+        "bbox": [
+          200,
+          630,
+          565,
+          945
+        ],
+        "description": "Four circular sigils arranged in a 2x2 grid. Each sigil has a circular border, a central vertical structure resembling a pillar or staff with a sphere/head on top, and contains various symbols, figures, and marks.",
+        "color": "black",
+        "details": {
+          "sigil_top_left": "Circle with central pillar topped by a small figure/face with antennae. Top has radial lines/sun rays. Two small circles with eyes/faces in upper area. Lower section shows human-like figures on either side of the pillar base, with small circles.",
+          "sigil_top_right": "Circle with central pillar, top has a face/head symbol. Upper section has wavy water-like lines and a sun symbol. Middle-right has a circle with cross/plus inside. Lower-left has an animal figure (possibly a goat or beast).",
+          "sigil_bottom_left": "Circle with central pillar topped by a face/head with circles on sides. Horizontal line with hash marks. Lower section shows human-like figures on either side, with several circles on the right side.",
+          "sigil_bottom_right": "Circle with central pillar, top has face symbol and wavy lines. Lower section has two square panels with figures inside, each panel containing a cross/plus symbol and human figures."
+        }
+      }
+    ],
+    "digits": [],
+    "formulas": [],
+    "mixed_media_regions": [
+      {
+        "type": "text_with_sigil_marginalia",
+        "position": [
+          120,
+          130
+        ],
+        "bbox": [
+          120,
+          130,
+          638,
+          625
+        ],
+        "description": "Main text block in esoteric/constructed script occupying the upper two-thirds of the page. The script contains a mix of alphabetic-like characters, punctuation, and unusual symbols that do not match any known natural language.",
+        "components": [
+          "text_block",
+          "unknown_script"
+        ]
+      },
+      {
+        "type": "esoteric_diagrams",
+        "position": [
+          200,
+          630
+        ],
+        "bbox": [
+          200,
+          630,
+          565,
+          945
+        ],
+        "description": "Four ceremonial/magical sigils that combine text-like markings, symbolic figures (humans, animals, celestial symbols), and structural elements (pillars, circles, crosses).",
+        "components": [
+          "drawings",
+          "symbols",
+          "human_figures",
+          "animal_figures",
+          "geometric_shapes"
+        ]
+      }
+    ],
+    "uncertain": [
+      "The script used in the text blocks cannot be identified as any known natural or constructed language - it appears to be a fictional/ceremonial script, possibly from a magical or esoteric grimoire tradition",
+      "Characters that resemble 'Q', 'H', 'X', 'Y', 'J', 'T', 'E', 'I', 'B', '8', '0', '<', '>', '[', ']', '*', '+' may be transcription artifacts or actual script elements",
+      "The exact meaning and identity of the four sigils is unclear - they appear to be ceremonial magic seals possibly from a fictional magical system",
+      "Whether the script is an original invention or based on an existing cipher/alphabet cannot be determined from the image alone"
+    ]
+  }
+}

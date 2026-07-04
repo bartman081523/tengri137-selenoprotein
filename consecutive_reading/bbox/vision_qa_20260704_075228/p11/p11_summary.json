@@ -1,0 +1,67 @@
+{
+  "page": "p11",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        495,
+        1262,
+        234,
+        210
+      ],
+      "kind": "geometric_circle",
+      "description": "Hand-drawn sketch of multiple concentric circles forming a target or bullseye pa",
+      "confidence": 0.75
+    },
+    {
+      "index": 1,
+      "bbox": [
+        530,
+        1290,
+        151,
+        133
+      ],
+      "kind": "image",
+      "description": "Hand-drawn spiral shape with concentric loops starting from the center and expan",
+      "confidence": 0.6
+    },
+    {
+      "index": 2,
+      "bbox": [
+        489,
+        1255,
+        248,
+        223
+      ],
+      "kind": "geometric_circle",
+      "description": "Hand-drawn spiral or coil pattern consisting of multiple concentric oval/circula",
+      "confidence": 0.6
+    },
+    {
+      "index": 3,
+      "bbox": [
+        523,
+        1283,
+        167,
+        149
+      ],
+      "kind": "image",
+      "description": "Hand-drawn sketch of a bowl or circular container viewed from above, with curved",
+      "confidence": 0.85
+    },
+    {
+      "index": 4,
+      "bbox": [
+        345,
+        1350,
+        42,
+        77
+      ],
+      "kind": "image",
+      "description": "A hand-drawn teardrop or pear-shaped figure with a thin stem-like line at the to",
+      "confidence": 0.82
+    }
+  ]
+}

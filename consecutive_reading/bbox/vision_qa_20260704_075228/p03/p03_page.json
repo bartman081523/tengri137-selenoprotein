@@ -1,0 +1,109 @@
+{
+  "page": "p01",
+  "image_size": [
+    850,
+    1100
+  ],
+  "text_words": [
+    {
+      "id": "t01",
+      "text": "[fictional/encoded script - paragraph 1]",
+      "bbox": [
+        120,
+        160,
+        730,
+        330
+      ],
+      "color": "black",
+      "language": "unreadable_constructed_script",
+      "notes": "Appears to be a fictional or cipher script resembling stylized Middle Eastern/Aramaic-like characters. Not a real natural language. Approximately 5 lines."
+    },
+    {
+      "id": "t02",
+      "text": "[fictional/encoded script - paragraph 2]",
+      "bbox": [
+        120,
+        365,
+        730,
+        600
+      ],
+      "color": "black",
+      "language": "unreadable_constructed_script",
+      "notes": "Second paragraph, approximately 8 lines of the same fictional script."
+    },
+    {
+      "id": "t03",
+      "text": "[fictional/encoded script - paragraph 3]",
+      "bbox": [
+        120,
+        630,
+        730,
+        755
+      ],
+      "color": "black",
+      "language": "unreadable_constructed_script",
+      "notes": "Third paragraph, approximately 4 lines of the same fictional script."
+    }
+  ],
+  "symbols": [
+    {
+      "id": "s01",
+      "type": "sigils_pair",
+      "bbox": [
+        190,
+        790,
+        720,
+        1000
+      ],
+      "color": "black",
+      "description": "Two circular sigil drawings side by side at the bottom of the page. Left sigil: circle divided by a cross/plus into four quadrants, each containing small circles (3-4 per quadrant), with a small mark or numeral at the top center inside the circle. Right sigil: more complex circular composition with a central column/tree motif, what appears to be small human figures (a larger standing figure and smaller figures), an architectural element resembling a gate or temple with pillars/columns, small circles in the lower corners (possibly wheels or rosettes), and dots/sand-like texture at the bottom."
+    }
+  ],
+  "drawings": [
+    {
+      "id": "d01",
+      "subject": "sigil_circle_left",
+      "bbox": [
+        190,
+        790,
+        450,
+        1000
+      ],
+      "style": "line drawing, monochrome",
+      "description": "Geometric sigil: circle with cross/plus dividing it into four quadrants, populated with small open circles. A small mark at top inside circle."
+    },
+    {
+      "id": "d02",
+      "subject": "sigil_circle_right",
+      "bbox": [
+        460,
+        790,
+        720,
+        1000
+      ],
+      "style": "line drawing, monochrome",
+      "description": "Figurative sigil: circle containing a central vertical element (tree/column) with a figure on top, smaller human figures on either side, a horizontal architectural band with pillars/columns across the middle, two small rosette/wheel symbols in lower left and right, and dots at the base."
+    }
+  ],
+  "digits": [],
+  "formulas": [],
+  "mixed_media_regions": [
+    {
+      "id": "mm01",
+      "bbox": [
+        190,
+        790,
+        720,
+        1000
+      ],
+      "description": "Combined region at bottom containing two hand-drawn sigils: the right sigil mixes text-like marks, symbolic figures (anthropomorphic), geometric elements (cross, circles, wheels) and architectural drawing (pillars/gate) — clearly a mixed-media magical/ritual diagram accompanying the script text above."
+    }
+  ],
+  "uncertain": [
+    "All textual content: the script is a fictional/constructed/cipher alphabet and cannot be reliably transcribed character by character. Individual glyphs resemble stylized Semitic letter forms (resembling Hebrew/Aramaic/Thaana-like shapes) but do not correspond to a known natural language.",
+    "Whether the small mark at the top of the left sigil is a numeral, letter, or other symbol is unclear.",
+    "The exact identity/meaning of the figures in the right sigil (deity? person? stylized human?) cannot be determined.",
+    "The two small rosette/wheel-like circles in the lower corners of the right sigil are ambiguous symbols.",
+    "The small mark/numeral at the apex of the right sigil's central column is not identifiable."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "page_summary": "A page from an occult or grimoire-style text featuring a large triangular magic diagram of numbered interconnected circles, surrounded by paragraphs of text written in Theban (Witch's/Honorian) script.",
+  "text_blocks": [
+    "N⟨MMY ⟩⟨N ⟨M⟨JJM O⟨MDO N⟨MDO MMXMJI MGMMJ⟩JI JM N⟨⟩M J⟨MMD OJMDM NDM YDM⟨MDO JMMI JMYJOXJM · N· M⟨I· JMIJM⟨JI RI XI YMDN⟨M N⟨MDJO MNDJ N⟨JM R M MIYXMD NDM JMYJ O M I M · MIY ⟨N⟩ MD · MX OJ MD JO N⟨ N⟨MDJO X · MJM MD ⟨J⟨X M JMYJJJI · JX Y⟨N⟨X MD JXYJMYJI J⟨MDJI MIY JMYX M YJM JXO OJM N⟨MM MJJOMNJI R JM M N⟨JM M MM OXYMIY M · J⟨M MX MDJ · M R⟨N⟨M R · J⟨M JMR JY⟨OM⟨MX · JXYM N⟨MDJ OXYMYM I R MM· J⟨M N⟨MDJI J M O OJO ⟨MJJ⟨JO I I MIYX MJM O N⟨M · J⟨M JYJ·",
+    "T⟨OY JMYMJI JY⟨NYI JhhMY YM⟨· JJJ ⟨N⟩ YMNO OXJ M⟨Y⟨MYJM JYJ⟨NMDJ· O XJ JXYMYJ⟨M⟨M JMJ JMJXOX JM · O MJ· JJO JXMOO JM YMOO JX JXO N MD MJO JMN JMJ MX JXMDJX JXJO · JXM O· JX MY YJM J⟨N⟨O YJYRJ OYJ N⟨M JMYO J⟨OM⟨M J M· JYJMIYMDJM M· J⟨M JMYJ·",
+    "M· N⟨M· JYJ O MD JX R N⟨MDJ OXJO ⟨O⟨MYO O YMJX O JM · YMYO JM JYJ JY JXYJ OJ⟨N⟨M O N⟨MDJ OJM O · J⟨M OJ MJ MY M JX· JXO JX O OJJ⟨JYM M JM YM⟨MD OYMYO JM J X JY JX O⟨M⟨M JM JM Y O· O· JYJO Y OJ⟨M⟨M MJ·"
+  ],
+  "colored_text": [],
+  "symbols": [],
+  "decorations": [
+    {
+      "description": "A large triangular magic-square diagram composed of numbered circles (numbers roughly 121–214) connected by straight black lines, forming a nested series of concentric triangles and a grid-like interior. The apex is at the top with circle 131, and the diagram widens downward to a base containing circles such as 188, 193, 142, 187, 144, 156, 164, 121, 211, 170.",
+      "type": "magic_triangle_diagram",
+      "position": "center of the page, between upper and lower text blocks",
+      "components": [
+        "apex circle (131) at top",
+        "nested concentric triangles of circles",
+        "central cluster of circles (around 126, 127, 149, 159, 195, 209)",
+        "lines connecting each circle to multiple neighbors forming a triangular lattice",
+        "bottom base of circles forming the wide base of the triangle"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The script in the text blocks is Theban (Honorian/Witch's alphabet) and cannot be reliably transcribed into Latin letters from the image alone; the character transcriptions above are best-effort approximations of the glyph shapes only.",
+    "The exact connection pattern of the lower circles in the triangular diagram is partially obscured and hard to trace."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "page_summary": "A page showing two exploded 3D cube diagrams filled with numbers, each accompanied by a red header word and a caption written in an invented/decorative script.",
+  "text_blocks": [
+    "I cannot read the main text blocks — they are written in an invented/decorative script that resembles a fantasy alphabet (similar in style to Tolkien's Tengwar or a custom constructed writing system).",
+    "A line of caption text appears beneath the second (lower) cube, also in the same invented script."
+  ],
+  "colored_text": [
+    {
+      "text": "Header word above the middle paragraph (invented-script word, possibly 'Fantasy' or similar label in constructed alphabet)",
+      "color": "red",
+      "approximate_position": "centered between the two cubes, just above the first paragraph of invented-script text"
+    },
+    {
+      "text": "Header word above the bottom caption (invented-script word, likely a label/name in constructed alphabet)",
+      "color": "red",
+      "approximate_position": "centered below the second (lower) cube, above the bottom caption line"
+    }
+  ],
+  "symbols": [
+    {
+      "description": "Rows of glyphs in an invented alphabet resembling Tengwar-style constructed script, used for both the red headers and the black body text",
+      "kind": "decorative_constructed_script",
+      "position": "middle and bottom of page",
+      "size_estimate": "small to medium (line height)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "Exploded 3D cube structure made of 3 horizontal layers, each layer a 3x3 grid of parallelograms drawn in oblique/perspective view, with dashed lines connecting the layers to suggest vertical edges. Each cell contains a number (mostly small integers, plus a few three-digit numbers in the 600s).",
+      "type": "magic_cube_3x3_exploded",
+      "position": "top half of the page",
+      "components": [
+        "three stacked oblique 3x3 rhombus grids",
+        "vertical dashed lines connecting corresponding cells between layers",
+        "numbers inside each cell, e.g. 638, 24, 4, 19, 10, 637, 9, 632, 25, 5, 639, 22, 635, 13, 18, 26, 14, 626, 23, 3, 640, 12, 643, 11, 631, 20, 15"
+      ]
+    },
+    {
+      "description": "Second exploded 3D cube structure, same construction as the first, with numbers inside each cell of three oblique 3x3 layers connected by vertical dashed lines.",
+      "type": "magic_cube_3x3_exploded",
+      "position": "bottom half of the page",
+      "components": [
+        "three stacked oblique 3x3 rhombus grids",
+        "vertical dashed lines connecting layers",
+        "numbers inside each cell, e.g. 7, 19, 640, 12, 638, 16, 647, 9, 10, 4, 642, 20, 651, 2, 13, 11, 22, 633, 655, 5, 6, 3, 26, 637, 8, 635, 23"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "All text written in the invented/decorative script cannot be transcribed — it is not a natural language I can identify and may be a fantasy/constructed writing system.",
+    "The two red header words are in the same constructed script and their meaning is unknown.",
+    "The exact semantic relationship between the two cubes and the surrounding text is unclear."
+  ]
+}

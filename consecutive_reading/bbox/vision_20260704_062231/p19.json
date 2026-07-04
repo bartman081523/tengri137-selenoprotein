@@ -1,0 +1,39 @@
+{
+  "page_summary": "A page displaying a long list of factorizations of very large integers, accompanied at the bottom by silhouettes of elongated human figures.",
+  "text_blocks": [
+    "2^6 x 3^2 x 73 x 21354551\n5 x 7 x 1597 x 30615947\n\n419 x 33479011 x 1377671157383 x 565557579946189\n2 x 3 x 59 x 937638084373795259902189010980831729\n\n3 x 17 x 163 x 879581 x 6282109 x 109238762041793\n5 x 151483 x 882481 x 67416301 x 166783950929\n\n51637 x 1579057038864411599\n2^2 x 3 x 5 x 31 x 37 x 1255549 x 6955146255349\n\n19 x 4643 x 10127813039 x 48480118007129\n3 x 23 x 79 x 109 x 92363 x 1182152496146269693\n\n2^8 x 4591 x 1301543 x 1105143144365655163\n3 x 5 x 228573003723606592436411303999\n\n5 x 491 x 1445671 x 180057067 x 32261166135199\n11 x 149 x 24027682734593 x 823276438824053",
+    "17 x 179 x 1236970263209 x 631537482347585925429133421\n2^2 x 53 x 1531 x 116406444287839 x 80794149528284258442157\n\n1049150954343473676427\n3 x 7 x 227 x 294202421132734019\n\n2^3 x 441716239 x 193674296507305471962999\n29 x 6696377 x 4435296360728852873438481091\n\n301682422016229122477237\n2^2 x 5 x 73 x 359 x 86179 x 29394606489877\n\n7^3 x 4099 x 137432243658763328901558581909932976371\n2 x 13 x 307 x 13633 x 76617889043 x 3664864054616850727656269\n\n7 x 103 x 20894347 x 96597344975787088554999\n3^3 x 5 x 505123 x 160980002006842500000046401"
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Exponentiation notation such as 2^6, 3^2, 7^3 used throughout the factorization lines",
+      "kind": "math_exponent_caret",
+      "position": "throughout the text blocks",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Multiplication sign x used between factors",
+      "kind": "math_times",
+      "position": "throughout the text blocks",
+      "size_estimate": "small (line height)"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "A row of five black silhouette figures of elongated, abstract human forms. The figures appear thin and stylized, reminiscent of Giacometti-style sculptures. They stand vertically and are arranged side by side along the bottom of the page.",
+      "type": "elongated_human_silhouettes",
+      "position": "bottom of page, spanning roughly the lower third below the numerical text",
+      "components": [
+        "left figure: tall figure with a small round head, raised arm holding an object",
+        "second figure: tall thin figure with a small head, slight leg bend",
+        "third figure (center): two overlapping very tall thin forms, one taller than the other",
+        "fourth figure: tall thin form leaning slightly",
+        "right figure: figure with a small head and a defined foot extending to the right"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "Exact meaning or artwork origin of the silhouettes at the bottom is not certain, though they resemble elongated modernist figurative sculptures."
+  ]
+}

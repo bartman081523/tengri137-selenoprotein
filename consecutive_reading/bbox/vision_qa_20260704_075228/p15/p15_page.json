@@ -1,0 +1,114 @@
+{
+  "page": "p01",
+  "image_size": [
+    1067,
+    1300
+  ],
+  "text_words": [
+    {
+      "id": "tw01",
+      "text": "constructed-script paragraph 1",
+      "bbox": [
+        235,
+        170,
+        820,
+        330
+      ],
+      "color": "black",
+      "confidence": "low"
+    },
+    {
+      "id": "tw02",
+      "text": "constructed-script paragraph 2",
+      "bbox": [
+        510,
+        568,
+        815,
+        610
+      ],
+      "color": "black",
+      "confidence": "low"
+    },
+    {
+      "id": "tw03",
+      "text": "constructed-script paragraph 3",
+      "bbox": [
+        225,
+        650,
+        820,
+        820
+      ],
+      "color": "black",
+      "confidence": "low"
+    },
+    {
+      "id": "tw04",
+      "text": "constructed-script paragraph 4",
+      "bbox": [
+        225,
+        850,
+        820,
+        990
+      ],
+      "color": "black",
+      "confidence": "low"
+    }
+  ],
+  "symbols": [],
+  "drawings": [],
+  "digits": [
+    {
+      "id": "d01",
+      "text": "2 x 23 x 499 x 19214759967251 x 55150662460749672076915669",
+      "bbox": [
+        230,
+        435,
+        855,
+        455
+      ],
+      "color": "black"
+    },
+    {
+      "id": "d02",
+      "text": "3 x 11 x 47 x 139 x 2531 x 549707184491917 x 111111111111111111111111",
+      "bbox": [
+        230,
+        455,
+        860,
+        475
+      ],
+      "color": "black"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "f01",
+      "latex": "\\frac{2 \\times 23 \\times 499 \\times 19214759967251 \\times 55150662460749672076915669}{3 \\times 11 \\times 47 \\times 139 \\times 2531 \\times 549707184491917 \\times 111111111111111111111111}",
+      "bbox": [
+        225,
+        430,
+        865,
+        480
+      ],
+      "color": "black"
+    }
+  ],
+  "mixed_media_regions": [
+    {
+      "id": "mm01",
+      "description": "horizontal fraction bar separating two long integer factorizations",
+      "bbox": [
+        225,
+        430,
+        865,
+        480
+      ]
+    }
+  ],
+  "uncertain": [
+    "All text is rendered in an angular constructed/cipher script (resembling Voynich-style or Toltec-inspired glyphs); individual glyphs cannot be mapped to a known alphabet.",
+    "Whether the angular script encodes natural-language text, numerology, or pure symbol art is not determinable from the image alone.",
+    "Exact word boundaries within each constructed-script paragraph are unclear due to the cursive/script-like ligatures.",
+    "Possible ligature '83' or 'B3' style combined glyphs in the second paragraph could not be resolved into separate characters."
+  ]
+}

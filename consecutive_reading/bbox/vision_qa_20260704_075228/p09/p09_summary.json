@@ -1,0 +1,67 @@
+{
+  "page": "p09",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        502,
+        873,
+        118,
+        108
+      ],
+      "kind": "address_hex",
+      "description": "Circular node containing the decimal number 127, connected by curved black lines",
+      "confidence": 0.62
+    },
+    {
+      "index": 1,
+      "bbox": [
+        776,
+        804,
+        106,
+        166
+      ],
+      "kind": "image",
+      "description": "Partial diagram showing numbered circles (207, 325, 11, 166) connected by curved",
+      "confidence": 0.75
+    },
+    {
+      "index": 2,
+      "bbox": [
+        350,
+        626,
+        109,
+        162
+      ],
+      "kind": "image",
+      "description": "A fragment of a graph or network diagram showing circular nodes labeled with num",
+      "confidence": 0.85
+    },
+    {
+      "index": 3,
+      "bbox": [
+        365,
+        1144,
+        176,
+        52
+      ],
+      "kind": "image",
+      "description": "A graph/network diagram showing circular nodes containing numbers (41, 175, 144,",
+      "confidence": 0.92
+    },
+    {
+      "index": 4,
+      "bbox": [
+        578,
+        1142,
+        175,
+        54
+      ],
+      "kind": "image",
+      "description": "A portion of a graph or network diagram showing circular nodes labeled with numb",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "page": "p01",
+  "image_size": [
+    850,
+    1100
+  ],
+  "text_words": [
+    {
+      "text": "Unknown script paragraph 1",
+      "bbox": [
+        110,
+        140,
+        740,
+        280
+      ],
+      "color": "black",
+      "confidence": "low"
+    },
+    {
+      "text": "Unknown script paragraph 2",
+      "bbox": [
+        110,
+        320,
+        740,
+        470
+      ],
+      "color": "black",
+      "confidence": "low"
+    },
+    {
+      "text": "Unknown script paragraph 3",
+      "bbox": [
+        110,
+        600,
+        740,
+        750
+      ],
+      "color": "black",
+      "confidence": "low"
+    },
+    {
+      "text": "Unknown script paragraph 4",
+      "bbox": [
+        110,
+        780,
+        740,
+        870
+      ],
+      "color": "black",
+      "confidence": "low"
+    }
+  ],
+  "symbols": [
+    {
+      "symbol": "decimal point (·)",
+      "bbox": [
+        155,
+        867,
+        165,
+        875
+      ],
+      "color": "black",
+      "meaning": "punctuation"
+    },
+    {
+      "symbol": "semicolon/colon (·:)",
+      "bbox": [
+        380,
+        867,
+        395,
+        875
+      ],
+      "color": "black",
+      "meaning": "punctuation"
+    }
+  ],
+  "drawings": [
+    {
+      "type": "diagram",
+      "bbox": [
+        315,
+        900,
+        530,
+        960
+      ],
+      "description": "A small central circle with a small filled dot at top and bottom (perpendicular axis through circle), and wavy/zigzag lines extending left and right from the circle, each terminating in forked/branched endpoints. Resembles a Feynman-diagram-style vertex or a stylized molecular/symbolic glyph.",
+      "stroke_color": "black"
+    }
+  ],
+  "digits": [
+    {
+      "value": "2",
+      "bbox": [
+        275,
+        525,
+        290,
+        545
+      ],
+      "exponent": true
+    },
+    {
+      "value": "9",
+      "bbox": [
+        283,
+        517,
+        295,
+        530
+      ],
+      "exponent": true
+    },
+    {
+      "value": "3",
+      "bbox": [
+        305,
+        525,
+        320,
+        545
+      ]
+    },
+    {
+      "value": "-1",
+      "bbox": [
+        322,
+        517,
+        340,
+        530
+      ],
+      "exponent": true
+    },
+    {
+      "value": "5",
+      "bbox": [
+        355,
+        525,
+        370,
+        545
+      ]
+    },
+    {
+      "value": "9",
+      "bbox": [
+        363,
+        517,
+        375,
+        530
+      ],
+      "exponent": true
+    },
+    {
+      "value": "197",
+      "bbox": [
+        390,
+        525,
+        415,
+        545
+      ]
+    },
+    {
+      "value": "-1",
+      "bbox": [
+        417,
+        517,
+        435,
+        530
+      ],
+      "exponent": true
+    },
+    {
+      "value": "5563",
+      "bbox": [
+        450,
+        525,
+        485,
+        545
+      ]
+    },
+    {
+      "value": "-1",
+      "bbox": [
+        487,
+        517,
+        505,
+        530
+      ],
+      "exponent": true
+    },
+    {
+      "value": "41681",
+      "bbox": [
+        520,
+        525,
+        555,
+        545
+      ]
+    },
+    {
+      "value": "-1",
+      "bbox": [
+        557,
+        517,
+        575,
+        530
+      ],
+      "exponent": true
+    }
+  ],
+  "formulas": [
+    {
+      "expression": "2^9 × 3^-1 × 5^9 × 197^-1 × 5563^-1 × 41681^-1",
+      "bbox": [
+        270,
+        515,
+        580,
+        550
+      ],
+      "type": "mathematical_product",
+      "latex": "2^{9} \\cdot 3^{-1} \\cdot 5^{9} \\cdot 197^{-1} \\cdot 5563^{-1} \\cdot 41681^{-1}"
+    }
+  ],
+  "mixed_media_regions": [
+    {
+      "bbox": [
+        270,
+        510,
+        580,
+        555
+      ],
+      "components": [
+        "formula",
+        "digits",
+        "symbols"
+      ],
+      "description": "Centered mathematical product expression with superscript exponents and multiplication operators between integer factors"
+    },
+    {
+      "bbox": [
+        110,
+        780,
+        740,
+        970
+      ],
+      "components": [
+        "text",
+        "punctuation",
+        "drawing"
+      ],
+      "description": "Final paragraph of unknown script ending with punctuation, followed directly below by a small symbolic diagram (circle with axial dots and wavy extending tendrils)"
+    }
+  ],
+  "uncertain": [
+    "The script used in all four text blocks does not match any known natural or constructed writing system I can identify; characters resemble a glyph-based or syllabic cipher (possibly Voynich-like or an invented script). Individual glyphs cannot be mapped to Latin letters with confidence.",
+    "Meaning of the bottom diagram is unclear — it may represent a sigil, a graph-theoretic node, a molecular sketch, or a stylized symbol associated with the preceding text.",
+    "Whether the formula is part of the same 'language' (e.g., a coded clue) or is an inserted mathematical expression is not determinable from the image alone."
+  ]
+}

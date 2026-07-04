@@ -1,0 +1,48 @@
+{
+  "page_summary": "A page of text written in a fictional/constructed script with a large calligraphic word centered as a title or heading, surrounded by paragraphs of smaller text.",
+  "text_blocks": [
+    "First paragraph (top, ~7 lines): A block of text in the constructed script, reading top to bottom, right to left per line, with bullet/dot markers at the start of several lines.",
+    "Second paragraph (~3 lines): Shorter paragraph below the first, also with a bullet marker.",
+    "Third paragraph (~4 lines): Medium-length paragraph below the second.",
+    "Large centered word: A single large calligraphic word in the middle of the page serving as a heading/title.",
+    "Final paragraph (bottom, ~10 lines): The longest block at the bottom of the page, with bullet markers."
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "A character resembling the Hebrew letter פ (pe) with extended descender",
+      "kind": "geometric_circle",
+      "position": "throughout text blocks, especially prominent in the large centered word",
+      "size_estimate": "small (line height) in paragraphs, large in the centered title"
+    },
+    {
+      "description": "Characters resembling Hebrew ה, ז, ח, ס combined with dots and circles",
+      "kind": "geometric_diamond_with_dot",
+      "position": "throughout the text blocks",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Multiplication-like cross symbol ×",
+      "kind": "math_times",
+      "position": "scattered throughout paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Filled circle/dot bullet markers •",
+      "kind": "geometric_circle",
+      "position": "at the start of multiple lines and at line breaks throughout all paragraphs",
+      "size_estimate": "small (line height)"
+    },
+    {
+      "description": "Diamond/rhombus shapes with internal dots",
+      "kind": "geometric_diamond_with_dot",
+      "position": "scattered throughout paragraphs",
+      "size_estimate": "small (line height)"
+    }
+  ],
+  "decorations": [],
+  "uncertain_or_unreadable": [
+    "The script appears to be a constructed/cipher alphabet that I cannot decode; the actual linguistic content of all text blocks is unreadable.",
+    "The large centered title is in a calligraphic version of the same script and its meaning is unknown."
+  ]
+}

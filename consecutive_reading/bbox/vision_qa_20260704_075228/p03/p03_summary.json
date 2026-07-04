@@ -1,0 +1,67 @@
+{
+  "page": "p03",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        579,
+        1078,
+        345,
+        345
+      ],
+      "kind": "image",
+      "description": "Complex alchemical or hermetic diagram: a large circle containing a central vert",
+      "confidence": 0.92
+    },
+    {
+      "index": 1,
+      "bbox": [
+        201,
+        1245,
+        149,
+        174
+      ],
+      "kind": "image",
+      "description": "Quarter-circle shape (quadrant) with double horizontal lines at top and double v",
+      "confidence": 0.78
+    },
+    {
+      "index": 2,
+      "bbox": [
+        403,
+        1068,
+        153,
+        154
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A quarter-circle wedge containing three small circles arranged in a triangular p",
+      "confidence": 0.72
+    },
+    {
+      "index": 3,
+      "bbox": [
+        399,
+        1267,
+        155,
+        154
+      ],
+      "kind": "image",
+      "description": "Hand-drawn heraldic shield outline, quartered at the top, with a pointed base. T",
+      "confidence": 0.72
+    },
+    {
+      "index": 4,
+      "bbox": [
+        204,
+        1067,
+        150,
+        148
+      ],
+      "kind": "face_circle_three_dots",
+      "description": "A quarter-circle (pie-slice) shape with a flat horizontal bottom and a vertical ",
+      "confidence": 0.55
+    }
+  ]
+}

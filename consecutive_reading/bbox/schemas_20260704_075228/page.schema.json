@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["page", "image_size", "text_words", "symbols", "drawings", "digits", "formulas", "mixed_media_regions", "uncertain"],
+  "properties": {
+    "page": {"type": "string", "pattern": "^p\\d{2}$"},
+    "image_size": {
+      "type": "array",
+      "items": {"type": "integer"},
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[width, height] in pixels"
+    },
+    "text_words": {
+      "type": "array",
+      "items": {"$ref": "text_word.schema.json"}
+    },
+    "symbols": {
+      "type": "array",
+      "items": {"$ref": "symbol.schema.json"}
+    },
+    "drawings": {
+      "type": "array",
+      "items": {"$ref": "drawing.schema.json"}
+    },
+    "digits": {
+      "type": "array",
+      "items": {"$ref": "digit.schema.json"}
+    },
+    "formulas": {
+      "type": "array",
+      "items": {"$ref": "formula.schema.json"}
+    },
+    "mixed_media_regions": {
+      "type": "array",
+      "items": {"$ref": "mixed_media.schema.json"}
+    },
+    "uncertain": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Anything that neither Tesseract nor Vision could classify confidently."
+    }
+  }
+}

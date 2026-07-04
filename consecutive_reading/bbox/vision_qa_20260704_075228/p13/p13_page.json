@@ -1,0 +1,114 @@
+{
+  "page": "p01",
+  "image_size": [
+    920,
+    1170
+  ],
+  "text_words": [
+    {
+      "text": "(π7)/π7",
+      "bbox": [
+        120,
+        217,
+        425,
+        312
+      ],
+      "font": "large_bold",
+      "color": "black",
+      "position": "top_center_left"
+    },
+    {
+      "text": "π7/(π7)",
+      "bbox": [
+        450,
+        217,
+        755,
+        312
+      ],
+      "font": "large_bold",
+      "color": "black",
+      "position": "top_center_right"
+    },
+    {
+      "text": "constructe_paragraph_1",
+      "bbox": [
+        110,
+        442,
+        770,
+        597
+      ],
+      "font": "constructed_script",
+      "color": "black",
+      "position": "upper_middle_block"
+    },
+    {
+      "text": "constructe_paragraph_2",
+      "bbox": [
+        110,
+        640,
+        770,
+        1030
+      ],
+      "font": "constructed_script",
+      "color": "black",
+      "position": "lower_middle_block"
+    }
+  ],
+  "symbols": [],
+  "drawings": [],
+  "digits": [
+    {
+      "value": "7",
+      "bbox": [
+        180,
+        220,
+        210,
+        305
+      ],
+      "color": "black",
+      "position": "title_left_subscript_style"
+    },
+    {
+      "value": "7",
+      "bbox": [
+        360,
+        220,
+        390,
+        305
+      ],
+      "color": "black",
+      "position": "title_left_superscript_style"
+    },
+    {
+      "value": "7",
+      "bbox": [
+        510,
+        220,
+        540,
+        305
+      ],
+      "color": "black",
+      "position": "title_right_superscript_style"
+    },
+    {
+      "value": "7",
+      "bbox": [
+        685,
+        220,
+        715,
+        305
+      ],
+      "color": "black",
+      "position": "title_right_subscript_style"
+    }
+  ],
+  "formulas": [],
+  "mixed_media_regions": [],
+  "uncertain": [
+    "Tiny symbol/character below the main title at approximately (425, 318) - possibly a small constructed-script character, illegible",
+    "All characters in the two body text blocks are written in a constructed/artificial script that cannot be deciphered",
+    "Paragraph 1: ~7 lines of constructed script text, each character composed of circular and angular strokes",
+    "Paragraph 2: ~12 lines of constructed script text with similar character style",
+    "Direction of text appears to be left-to-right, but individual glyphs do not correspond to any known alphabet"
+  ]
+}

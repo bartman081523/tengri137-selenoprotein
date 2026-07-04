@@ -1,0 +1,640 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "page",
+    "image_size",
+    "text_words",
+    "symbols",
+    "drawings",
+    "digits",
+    "formulas",
+    "mixed_media_regions",
+    "uncertain"
+  ],
+  "properties": {
+    "page": "p01",
+    "image_size": [
+      1075,
+      1300
+    ],
+    "text_words": [],
+    "symbols": [],
+    "drawings": [
+      {
+        "type": "inkblot",
+        "position": [
+          675,
+          130
+        ],
+        "bbox": [
+          675,
+          130,
+          825,
+          1200
+        ],
+        "description": "Large vertical black organic shape resembling dripping ink or a stylized figure. Has a rounded 'head' at the top with a small protrusion, tapering into a long vertical body with bulges and constrictions, ending in scattered droplets at the bottom. Appears to drip down the entire right side of the page."
+      }
+    ],
+    "digits": [
+      {
+        "content": "2⁸ × 13 × 37 × 179 × 471077143",
+        "position": [
+          195,
+          195
+        ],
+        "bbox": [
+          80,
+          185,
+          415,
+          210
+        ],
+        "description": "First line: prime factorization expression with superscript exponent 8"
+      },
+      {
+        "content": "23 × 53 × 2711 × 897232321",
+        "position": [
+          195,
+          220
+        ],
+        "bbox": [
+          80,
+          210,
+          360,
+          230
+        ]
+      },
+      {
+        "content": "307 × 1481 × 1087329742917134306161 × 19193689163997857327327",
+        "position": [
+          195,
+          265
+        ],
+        "bbox": [
+          80,
+          258,
+          685,
+          278
+        ]
+      },
+      {
+        "content": "7 × 1778087184185525795019197103144880245068986055043",
+        "position": [
+          195,
+          295
+        ],
+        "bbox": [
+          80,
+          285,
+          605,
+          305
+        ]
+      },
+      {
+        "content": "2 × 11 × 31 × 13859 × 36840963534592182127348765844882931423",
+        "position": [
+          195,
+          340
+        ],
+        "bbox": [
+          80,
+          332,
+          620,
+          350
+        ]
+      },
+      {
+        "content": "25649821274850734656854890069058197080762302797",
+        "position": [
+          195,
+          367
+        ],
+        "bbox": [
+          80,
+          360,
+          475,
+          378
+        ]
+      },
+      {
+        "content": "20824027380475657 × 652793699238832001551",
+        "position": [
+          195,
+          413
+        ],
+        "bbox": [
+          80,
+          405,
+          535,
+          423
+        ]
+      },
+      {
+        "content": "2 × 17 × 1621 × 32297 × 111623 × 916730334122429468089",
+        "position": [
+          195,
+          440
+        ],
+        "bbox": [
+          80,
+          432,
+          590,
+          452
+        ]
+      },
+      {
+        "content": "5 × 61 × 103 × 11386749548448417833130415308007900064363783",
+        "position": [
+          195,
+          485
+        ],
+        "bbox": [
+          80,
+          478,
+          645,
+          498
+        ]
+      },
+      {
+        "content": "17 × 179 × 3467 × 3219088991 × 26485049655159797818922424250101",
+        "position": [
+          195,
+          513
+        ],
+        "bbox": [
+          80,
+          505,
+          700,
+          525
+        ]
+      },
+      {
+        "content": "7² × 51749 × 163247627663 × 326153706904016588185517",
+        "position": [
+          195,
+          605
+        ],
+        "bbox": [
+          80,
+          597,
+          605,
+          617
+        ],
+        "description": "Contains superscript 2"
+      },
+      {
+        "content": "6932277120159617 × 85305751599324144680923657",
+        "position": [
+          195,
+          632
+        ],
+        "bbox": [
+          80,
+          625,
+          560,
+          645
+        ]
+      },
+      {
+        "content": "2 × 3 × 5 × 397 × 6798111767 × 39981184788031",
+        "position": [
+          195,
+          678
+        ],
+        "bbox": [
+          80,
+          670,
+          555,
+          690
+        ]
+      },
+      {
+        "content": "37 × 21503 × 10258109 × 6747307626087311",
+        "position": [
+          195,
+          705
+        ],
+        "bbox": [
+          80,
+          698,
+          490,
+          718
+        ]
+      },
+      {
+        "content": "2² × 3 × 11 × 521 × 1951 × 3373 × 8521 × 184669",
+        "position": [
+          195,
+          750
+        ],
+        "bbox": [
+          80,
+          743,
+          530,
+          763
+        ],
+        "description": "Contains superscript 2"
+      },
+      {
+        "content": "7 × 53 × 709 × 3627657401137709",
+        "position": [
+          195,
+          778
+        ],
+        "bbox": [
+          80,
+          770,
+          410,
+          790
+        ]
+      },
+      {
+        "content": "2 × 3³ × 55751765471057",
+        "position": [
+          195,
+          823
+        ],
+        "bbox": [
+          80,
+          815,
+          360,
+          835
+        ],
+        "description": "Contains superscript 3"
+      },
+      {
+        "content": "61 × 317 × 443 × 470896109",
+        "position": [
+          195,
+          850
+        ],
+        "bbox": [
+          80,
+          843,
+          345,
+          863
+        ]
+      },
+      {
+        "content": "2 × 3 × 5 × 13 × 157 × 8663 × 68813 × 21019979",
+        "position": [
+          195,
+          945
+        ],
+        "bbox": [
+          80,
+          938,
+          530,
+          958
+        ]
+      },
+      {
+        "content": "23 × 83 × 11949331 × 45067300603",
+        "position": [
+          195,
+          973
+        ],
+        "bbox": [
+          80,
+          965,
+          400,
+          985
+        ]
+      },
+      {
+        "content": "2 × 105557 × 12578337 × 153880609",
+        "position": [
+          195,
+          1018
+        ],
+        "bbox": [
+          80,
+          1010,
+          415,
+          1030
+        ]
+      },
+      {
+        "content": "431 × 563 × 3257 × 167597 × 41337883",
+        "position": [
+          195,
+          1045
+        ],
+        "bbox": [
+          80,
+          1038,
+          395,
+          1058
+        ]
+      },
+      {
+        "content": "2³ × 5 × 7² × 461 × 96681715401559",
+        "position": [
+          195,
+          1090
+        ],
+        "bbox": [
+          80,
+          1083,
+          400,
+          1103
+        ],
+        "description": "Contains superscripts 3 and 2"
+      },
+      {
+        "content": "109 × 1741 × 308405893690931",
+        "position": [
+          195,
+          1118
+        ],
+        "bbox": [
+          80,
+          1110,
+          365,
+          1130
+        ]
+      },
+      {
+        "content": "7196993 × 63653689179445812751",
+        "position": [
+          195,
+          1163
+        ],
+        "bbox": [
+          80,
+          1155,
+          400,
+          1175
+        ]
+      },
+      {
+        "content": "9928974360853 × 116017446409097",
+        "position": [
+          195,
+          1190
+        ],
+        "bbox": [
+          80,
+          1183,
+          375,
+          1203
+        ]
+      },
+      {
+        "content": "2⁵ × 3² × 151 × 929 × 2851 × 71777 × 17179879599815040097271",
+        "position": [
+          195,
+          1235
+        ],
+        "bbox": [
+          80,
+          1228,
+          620,
+          1248
+        ],
+        "description": "Contains superscripts 5 and 2"
+      },
+      {
+        "content": "139 × 10380937 × 239135080477 × 55157555001341549",
+        "position": [
+          195,
+          1263
+        ],
+        "bbox": [
+          80,
+          1255,
+          560,
+          1275
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "content": "2⁸ × 13 × 37 × 179 × 471077143 = 23 × 53 × 2711 × 897232321",
+        "position": [
+          195,
+          195
+        ],
+        "bbox": [
+          80,
+          185,
+          685,
+          230
+        ],
+        "description": "Two-line product equality. Top line factors left side, bottom line factors right side."
+      },
+      {
+        "content": "307 × 1481 × 1087329742917134306161 × 19193689163997857327327 = 7 × 1778087184185525795019197103144880245068986055043",
+        "position": [
+          195,
+          265
+        ],
+        "bbox": [
+          80,
+          258,
+          700,
+          305
+        ],
+        "description": "Product equality with large factors"
+      },
+      {
+        "content": "2 × 11 × 31 × 13859 × 36840963534592182127348765844882931423 = 25649821274850734656854890069058197080762302797",
+        "position": [
+          195,
+          340
+        ],
+        "bbox": [
+          80,
+          332,
+          645,
+          378
+        ]
+      },
+      {
+        "content": "20824027380475657 × 652793699238832001551 = 2 × 17 × 1621 × 32297 × 111623 × 916730334122429468089",
+        "position": [
+          195,
+          413
+        ],
+        "bbox": [
+          80,
+          405,
+          590,
+          452
+        ]
+      },
+      {
+        "content": "5 × 61 × 103 × 11386749548448417833130415308007900064363783 = 17 × 179 × 3467 × 3219088991 × 26485049655159797818922424250101",
+        "position": [
+          195,
+          485
+        ],
+        "bbox": [
+          80,
+          478,
+          700,
+          525
+        ]
+      },
+      {
+        "content": "7² × 51749 × 163247627663 × 326153706904016588185517 = 6932277120159617 × 85305751599324144680923657",
+        "position": [
+          195,
+          605
+        ],
+        "bbox": [
+          80,
+          597,
+          605,
+          645
+        ]
+      },
+      {
+        "content": "2 × 3 × 5 × 397 × 6798111767 × 39981184788031 = 37 × 21503 × 10258109 × 6747307626087311",
+        "position": [
+          195,
+          678
+        ],
+        "bbox": [
+          80,
+          670,
+          555,
+          718
+        ]
+      },
+      {
+        "content": "2² × 3 × 11 × 521 × 1951 × 3373 × 8521 × 184669 = 7 × 53 × 709 × 3627657401137709",
+        "position": [
+          195,
+          750
+        ],
+        "bbox": [
+          80,
+          743,
+          530,
+          790
+        ]
+      },
+      {
+        "content": "2 × 3³ × 55751765471057 = 61 × 317 × 443 × 470896109",
+        "position": [
+          195,
+          823
+        ],
+        "bbox": [
+          80,
+          815,
+          360,
+          863
+        ]
+      },
+      {
+        "content": "2 × 3 × 5 × 13 × 157 × 8663 × 68813 × 21019979 = 23 × 83 × 11949331 × 45067300603",
+        "position": [
+          195,
+          945
+        ],
+        "bbox": [
+          80,
+          938,
+          530,
+          985
+        ]
+      },
+      {
+        "content": "2 × 105557 × 12578337 × 153880609 = 431 × 563 × 3257 × 167597 × 41337883",
+        "position": [
+          195,
+          1018
+        ],
+        "bbox": [
+          80,
+          1010,
+          415,
+          1058
+        ]
+      },
+      {
+        "content": "2³ × 5 × 7² × 461 × 96681715401559 = 109 × 1741 × 308405893690931",
+        "position": [
+          195,
+          1090
+        ],
+        "bbox": [
+          80,
+          1083,
+          400,
+          1130
+        ]
+      },
+      {
+        "content": "7196993 × 63653689179445812751 = 9928974360853 × 116017446409097",
+        "position": [
+          195,
+          1163
+        ],
+        "bbox": [
+          80,
+          1155,
+          400,
+          1203
+        ]
+      },
+      {
+        "content": "2⁵ × 3² × 151 × 929 × 2851 × 71777 × 17179879599815040097271 = 139 × 10380937 × 239135080477 × 55157555001341549",
+        "position": [
+          195,
+          1235
+        ],
+        "bbox": [
+          80,
+          1228,
+          620,
+          1275
+        ]
+      },
+      {
+        "content": "2663 × 527321833009330157320330830319 = 2 × 986094191 × 3121883712968346492645571",
+        "position": [
+          195,
+          1380
+        ],
+        "bbox": [
+          80,
+          1372,
+          540,
+          1410
+        ]
+      },
+      {
+        "content": "3 × 4351757 × 21485973838025664080646395598811170316033 = 2 × 18792640842998671405611426760855001373737954283",
+        "position": [
+          195,
+          1428
+        ],
+        "bbox": [
+          80,
+          1420,
+          685,
+          1458
+        ]
+      }
+    ],
+    "mixed_media_regions": [
+      {
+        "bbox": [
+          675,
+          130,
+          825,
+          1200
+        ],
+        "description": "Right side of page: a large black inkblot/ink drip drawing visually contrasts with the column of numerical product equalities on the left. The organic black shape overlays and partially crosses into the right edge of some text lines (e.g., the last digit of line 4 '6055043' is partially obscured)."
+      }
+    ],
+    "uncertain": [
+      "Last digit of line 4 (1778087184185525795019197103144880245068986055043) may be partially occluded by the inkblot",
+      "Exact transcription of very large numbers with full precision — some digits are difficult to verify due to image resolution",
+      "Whether the inkblot is intentional artistic overlay or accidental ink mark is unclear from content alone"
+    ]
+  }
+}

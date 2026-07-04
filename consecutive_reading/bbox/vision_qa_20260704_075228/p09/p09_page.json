@@ -1,0 +1,1046 @@
+{
+  "page": "p01",
+  "image_size": [
+    916,
+    1280
+  ],
+  "text_words": [
+    {
+      "text": "Row 1 (top, ~y 140-185): block of 5 lines of constructed/esoteric script",
+      "position": "top",
+      "color": "black",
+      "bbox": [
+        150,
+        140,
+        765,
+        185
+      ]
+    },
+    {
+      "text": "Row 2 (bottom, ~y 870-1075): block of 5 lines of constructed/esoteric script",
+      "position": "bottom",
+      "color": "black",
+      "bbox": [
+        110,
+        870,
+        805,
+        950
+      ]
+    },
+    {
+      "text": "Row 3 (very bottom, ~y 1010-1040): one line of constructed/esoteric script",
+      "position": "bottom",
+      "color": "black",
+      "bbox": [
+        195,
+        1010,
+        720,
+        1040
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "type": "esoteric_script",
+      "description": "Constructed/encoded alphabet (resembles Theban, Malachim, or a custom magical script); glyphs have no standard Unicode mapping",
+      "position": "top_block",
+      "color": "black",
+      "bbox": [
+        150,
+        140,
+        765,
+        185
+      ]
+    },
+    {
+      "type": "esoteric_script",
+      "description": "Same constructed alphabet as in top block, also containing dot-bullets (·) and diamond/lozenge separators (◇)",
+      "position": "bottom_block",
+      "color": "black",
+      "bbox": [
+        110,
+        870,
+        805,
+        950
+      ]
+    },
+    {
+      "type": "esoteric_script",
+      "description": "Same constructed alphabet, concluding line with ◇ separator",
+      "position": "bottom_line",
+      "color": "black",
+      "bbox": [
+        195,
+        1010,
+        720,
+        1040
+      ]
+    }
+  ],
+  "drawings": [
+    {
+      "type": "triangular_lattice_diagram",
+      "description": "Large equilateral triangle composed of small circular nodes connected by straight lines; nodes are arranged in a hexagonal/triangular grid pattern (resembles a triangular number/figure with multiple concentric triangular layers). Approximately 50+ nodes total. Outer triangle spans most of the central area of the page.",
+      "position": "center",
+      "color": "black_lines_black_node_outlines",
+      "bbox": [
+        125,
+        215,
+        800,
+        855
+      ]
+    }
+  ],
+  "digits": [
+    {
+      "value": "131",
+      "position": "top apex of triangle",
+      "bbox": [
+        478,
+        224,
+        510,
+        240
+      ]
+    },
+    {
+      "value": "154",
+      "position": "row 2, left-of-center",
+      "bbox": [
+        395,
+        250,
+        430,
+        268
+      ]
+    },
+    {
+      "value": "200",
+      "position": "row 2, right-of-center",
+      "bbox": [
+        510,
+        250,
+        545,
+        268
+      ]
+    },
+    {
+      "value": "153",
+      "position": "row 2, far right",
+      "bbox": [
+        605,
+        250,
+        640,
+        268
+      ]
+    },
+    {
+      "value": "180",
+      "position": "row 3, far left",
+      "bbox": [
+        283,
+        280,
+        318,
+        298
+      ]
+    },
+    {
+      "value": "181",
+      "position": "row 3, left-center",
+      "bbox": [
+        420,
+        280,
+        455,
+        298
+      ]
+    },
+    {
+      "value": "132",
+      "position": "row 3, right-center",
+      "bbox": [
+        538,
+        280,
+        573,
+        298
+      ]
+    },
+    {
+      "value": "182",
+      "position": "row 3, far right",
+      "bbox": [
+        635,
+        280,
+        670,
+        298
+      ]
+    },
+    {
+      "value": "201",
+      "position": "row 4, far left",
+      "bbox": [
+        222,
+        310,
+        257,
+        328
+      ]
+    },
+    {
+      "value": "134",
+      "position": "row 4, left-center",
+      "bbox": [
+        370,
+        310,
+        405,
+        328
+      ]
+    },
+    {
+      "value": "202",
+      "position": "row 4, center",
+      "bbox": [
+        490,
+        310,
+        525,
+        328
+      ]
+    },
+    {
+      "value": "199",
+      "position": "row 4, right-center",
+      "bbox": [
+        570,
+        310,
+        605,
+        328
+      ]
+    },
+    {
+      "value": "179",
+      "position": "row 5, left-center",
+      "bbox": [
+        400,
+        340,
+        435,
+        358
+      ]
+    },
+    {
+      "value": "133",
+      "position": "row 5, right-center",
+      "bbox": [
+        520,
+        340,
+        555,
+        358
+      ]
+    },
+    {
+      "value": "152",
+      "position": "row 6, center",
+      "bbox": [
+        483,
+        370,
+        518,
+        388
+      ]
+    },
+    {
+      "value": "150",
+      "position": "row 7, left-center",
+      "bbox": [
+        355,
+        400,
+        390,
+        418
+      ]
+    },
+    {
+      "value": "135",
+      "position": "row 7, center",
+      "bbox": [
+        455,
+        400,
+        490,
+        418
+      ]
+    },
+    {
+      "value": "123",
+      "position": "row 7, right-center",
+      "bbox": [
+        555,
+        400,
+        590,
+        418
+      ]
+    },
+    {
+      "value": "208",
+      "position": "row 7, far right",
+      "bbox": [
+        600,
+        400,
+        635,
+        418
+      ]
+    },
+    {
+      "value": "184",
+      "position": "row 8, left",
+      "bbox": [
+        308,
+        430,
+        343,
+        448
+      ]
+    },
+    {
+      "value": "196",
+      "position": "row 8, left-center",
+      "bbox": [
+        395,
+        430,
+        430,
+        448
+      ]
+    },
+    {
+      "value": "162",
+      "position": "row 8, right-center",
+      "bbox": [
+        555,
+        430,
+        590,
+        448
+      ]
+    },
+    {
+      "value": "161",
+      "position": "row 8, right",
+      "bbox": [
+        610,
+        430,
+        645,
+        448
+      ]
+    },
+    {
+      "value": "173",
+      "position": "row 8, far right",
+      "bbox": [
+        660,
+        430,
+        695,
+        448
+      ]
+    },
+    {
+      "value": "174",
+      "position": "row 8, far right outer",
+      "bbox": [
+        705,
+        430,
+        740,
+        448
+      ]
+    },
+    {
+      "value": "197",
+      "position": "row 9, far left",
+      "bbox": [
+        195,
+        460,
+        230,
+        478
+      ]
+    },
+    {
+      "value": "185",
+      "position": "row 9, left",
+      "bbox": [
+        345,
+        460,
+        380,
+        478
+      ]
+    },
+    {
+      "value": "147",
+      "position": "row 9, left-center",
+      "bbox": [
+        345,
+        490,
+        380,
+        508
+      ]
+    },
+    {
+      "value": "149",
+      "position": "row 9, center",
+      "bbox": [
+        432,
+        490,
+        467,
+        508
+      ]
+    },
+    {
+      "value": "172",
+      "position": "row 9, right-center",
+      "bbox": [
+        550,
+        490,
+        585,
+        508
+      ]
+    },
+    {
+      "value": "124",
+      "position": "row 9, right",
+      "bbox": [
+        625,
+        490,
+        660,
+        508
+      ]
+    },
+    {
+      "value": "159",
+      "position": "row 9, right",
+      "bbox": [
+        600,
+        460,
+        635,
+        478
+      ]
+    },
+    {
+      "value": "207",
+      "position": "row 9, far right",
+      "bbox": [
+        685,
+        490,
+        720,
+        508
+      ]
+    },
+    {
+      "value": "138",
+      "position": "row 10, left",
+      "bbox": [
+        275,
+        520,
+        310,
+        538
+      ]
+    },
+    {
+      "value": "198",
+      "position": "row 10, left-center",
+      "bbox": [
+        345,
+        520,
+        380,
+        538
+      ]
+    },
+    {
+      "value": "183",
+      "position": "row 11, left",
+      "bbox": [
+        312,
+        550,
+        347,
+        568
+      ]
+    },
+    {
+      "value": "195",
+      "position": "row 11, center",
+      "bbox": [
+        395,
+        550,
+        430,
+        568
+      ]
+    },
+    {
+      "value": "186",
+      "position": "row 10, center",
+      "bbox": [
+        438,
+        520,
+        473,
+        538
+      ]
+    },
+    {
+      "value": "209",
+      "position": "row 10, right-center",
+      "bbox": [
+        548,
+        520,
+        583,
+        538
+      ]
+    },
+    {
+      "value": "210",
+      "position": "row 10, right",
+      "bbox": [
+        615,
+        520,
+        650,
+        538
+      ]
+    },
+    {
+      "value": "126",
+      "position": "row 11, right-center",
+      "bbox": [
+        560,
+        550,
+        595,
+        568
+      ]
+    },
+    {
+      "value": "125",
+      "position": "row 11, right",
+      "bbox": [
+        630,
+        550,
+        665,
+        568
+      ]
+    },
+    {
+      "value": "171",
+      "position": "row 11, far right",
+      "bbox": [
+        600,
+        580,
+        635,
+        598
+      ]
+    },
+    {
+      "value": "160",
+      "position": "row 11, right",
+      "bbox": [
+        640,
+        580,
+        675,
+        598
+      ]
+    },
+    {
+      "value": "139",
+      "position": "row 11, far left outer",
+      "bbox": [
+        205,
+        580,
+        240,
+        598
+      ]
+    },
+    {
+      "value": "192",
+      "position": "row 12, left",
+      "bbox": [
+        263,
+        610,
+        298,
+        628
+      ]
+    },
+    {
+      "value": "148",
+      "position": "row 12, left-center",
+      "bbox": [
+        355,
+        610,
+        390,
+        628
+      ]
+    },
+    {
+      "value": "145",
+      "position": "row 12, left",
+      "bbox": [
+        285,
+        640,
+        320,
+        658
+      ]
+    },
+    {
+      "value": "190",
+      "position": "row 12, center-left",
+      "bbox": [
+        370,
+        640,
+        405,
+        658
+      ]
+    },
+    {
+      "value": "127",
+      "position": "row 12, center",
+      "bbox": [
+        475,
+        610,
+        510,
+        628
+      ]
+    },
+    {
+      "value": "204",
+      "position": "row 12, center-right",
+      "bbox": [
+        540,
+        640,
+        575,
+        658
+      ]
+    },
+    {
+      "value": "157",
+      "position": "row 12, right-center",
+      "bbox": [
+        570,
+        640,
+        605,
+        658
+      ]
+    },
+    {
+      "value": "168",
+      "position": "row 12, right",
+      "bbox": [
+        640,
+        610,
+        675,
+        628
+      ]
+    },
+    {
+      "value": "166",
+      "position": "row 12, far right",
+      "bbox": [
+        680,
+        610,
+        715,
+        628
+      ]
+    },
+    {
+      "value": "212",
+      "position": "row 12, far right outer",
+      "bbox": [
+        715,
+        610,
+        750,
+        628
+      ]
+    },
+    {
+      "value": "178",
+      "position": "row 13, right-center",
+      "bbox": [
+        620,
+        670,
+        655,
+        688
+      ]
+    },
+    {
+      "value": "213",
+      "position": "row 13, right",
+      "bbox": [
+        605,
+        640,
+        640,
+        658
+      ]
+    },
+    {
+      "value": "169",
+      "position": "row 13, right",
+      "bbox": [
+        675,
+        640,
+        710,
+        658
+      ]
+    },
+    {
+      "value": "165",
+      "position": "row 13, far right",
+      "bbox": [
+        715,
+        640,
+        750,
+        658
+      ]
+    },
+    {
+      "value": "188",
+      "position": "row 13, far left",
+      "bbox": [
+        180,
+        670,
+        215,
+        688
+      ]
+    },
+    {
+      "value": "189",
+      "position": "row 13, left",
+      "bbox": [
+        250,
+        670,
+        285,
+        688
+      ]
+    },
+    {
+      "value": "140",
+      "position": "row 13, left",
+      "bbox": [
+        290,
+        700,
+        325,
+        718
+      ]
+    },
+    {
+      "value": "191",
+      "position": "row 13, left-center",
+      "bbox": [
+        350,
+        700,
+        385,
+        718
+      ]
+    },
+    {
+      "value": "205",
+      "position": "row 13, center",
+      "bbox": [
+        388,
+        670,
+        423,
+        688
+      ]
+    },
+    {
+      "value": "176",
+      "position": "row 13, center",
+      "bbox": [
+        438,
+        700,
+        473,
+        718
+      ]
+    },
+    {
+      "value": "130",
+      "position": "row 14, left-center",
+      "bbox": [
+        395,
+        730,
+        430,
+        748
+      ]
+    },
+    {
+      "value": "158",
+      "position": "row 13, center",
+      "bbox": [
+        465,
+        670,
+        500,
+        688
+      ]
+    },
+    {
+      "value": "177",
+      "position": "row 14, center",
+      "bbox": [
+        465,
+        730,
+        500,
+        748
+      ]
+    },
+    {
+      "value": "128",
+      "position": "row 14, right-center",
+      "bbox": [
+        525,
+        730,
+        560,
+        748
+      ]
+    },
+    {
+      "value": "163",
+      "position": "row 14, right",
+      "bbox": [
+        670,
+        700,
+        705,
+        718
+      ]
+    },
+    {
+      "value": "120",
+      "position": "row 14, far right",
+      "bbox": [
+        720,
+        700,
+        755,
+        718
+      ]
+    },
+    {
+      "value": "193",
+      "position": "row 14, far left",
+      "bbox": [
+        165,
+        730,
+        200,
+        748
+      ]
+    },
+    {
+      "value": "143",
+      "position": "row 14, left",
+      "bbox": [
+        225,
+        730,
+        260,
+        748
+      ]
+    },
+    {
+      "value": "194",
+      "position": "row 14, left",
+      "bbox": [
+        275,
+        730,
+        310,
+        748
+      ]
+    },
+    {
+      "value": "141",
+      "position": "row 14, left-center",
+      "bbox": [
+        305,
+        760,
+        340,
+        778
+      ]
+    },
+    {
+      "value": "175",
+      "position": "row 15, left-center",
+      "bbox": [
+        438,
+        760,
+        473,
+        778
+      ]
+    },
+    {
+      "value": "206",
+      "position": "row 15, center",
+      "bbox": [
+        468,
+        760,
+        503,
+        778
+      ]
+    },
+    {
+      "value": "129",
+      "position": "row 15, right-center",
+      "bbox": [
+        548,
+        760,
+        583,
+        778
+      ]
+    },
+    {
+      "value": "203",
+      "position": "row 15, right",
+      "bbox": [
+        590,
+        730,
+        625,
+        748
+      ]
+    },
+    {
+      "value": "167",
+      "position": "row 15, right",
+      "bbox": [
+        625,
+        760,
+        660,
+        778
+      ]
+    },
+    {
+      "value": "170",
+      "position": "row 15, far right",
+      "bbox": [
+        730,
+        730,
+        765,
+        748
+      ]
+    },
+    {
+      "value": "142",
+      "position": "row 15, left",
+      "bbox": [
+        195,
+        790,
+        230,
+        808
+      ]
+    },
+    {
+      "value": "187",
+      "position": "row 15, left-center",
+      "bbox": [
+        253,
+        820,
+        288,
+        838
+      ]
+    },
+    {
+      "value": "144",
+      "position": "row 15, center-left",
+      "bbox": [
+        320,
+        820,
+        355,
+        838
+      ]
+    },
+    {
+      "value": "156",
+      "position": "row 16 (bottom edge), center",
+      "bbox": [
+        465,
+        820,
+        500,
+        838
+      ]
+    },
+    {
+      "value": "164",
+      "position": "row 16 (bottom edge), right-center",
+      "bbox": [
+        625,
+        820,
+        660,
+        838
+      ]
+    },
+    {
+      "value": "121",
+      "position": "row 16 (bottom edge), right",
+      "bbox": [
+        660,
+        820,
+        695,
+        838
+      ]
+    },
+    {
+      "value": "211",
+      "position": "row 16 (bottom edge), far right",
+      "bbox": [
+        700,
+        820,
+        735,
+        838
+      ]
+    },
+    {
+      "value": "214",
+      "position": "row 16 (bottom edge), right",
+      "bbox": [
+        680,
+        790,
+        715,
+        808
+      ]
+    },
+    {
+      "value": "119",
+      "position": "row 11, far right outer",
+      "bbox": [
+        725,
+        580,
+        760,
+        598
+      ]
+    }
+  ],
+  "formulas": [],
+  "mixed_media_regions": [
+    {
+      "description": "Central large triangle: hand-drawn / digitally rendered equilateral lattice of circular numbered nodes connected by straight line segments. The lattice contains concentric triangular sub-structures (multiple nested equilateral triangles formed by the connection lines). Approximately 50 visible numbered nodes arranged in 15-16 horizontal rows tapering from 1 node at the apex to ~9 nodes at the base.",
+      "bbox": [
+        125,
+        215,
+        800,
+        855
+      ],
+      "components": [
+        "drawings",
+        "digits"
+      ]
+    },
+    {
+      "description": "Top text block: 5 lines of constructed/esoteric glyphs without standard Latin characters, with bullet (·) and lozenge (◇) separators between segments",
+      "bbox": [
+        150,
+        140,
+        765,
+        185
+      ],
+      "components": [
+        "symbols",
+        "text_words"
+      ]
+    },
+    {
+      "description": "Bottom text block: 5 lines of the same esoteric script with bullet and lozenge separators",
+      "bbox": [
+        110,
+        870,
+        805,
+        950
+      ],
+      "components": [
+        "symbols",
+        "text_words"
+      ]
+    }
+  ],
+  "uncertain": [
+    "Exact identity of the constructed script (resembles Theban/Honorian, Malachim, or a custom magical alphabet); no definitive Unicode match possible.",
+    "Whether the diamond/lozenge (◇) characters are decorative separators or encoded symbols with meaning.",
+    "Exact total node count of the triangle (50+ visible, some may be hidden by overlap).",
+    "Whether the numbering scheme (e.g., 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135) follows a specific mathematical or gematria scheme.",
+    "Possible image artifacts: any faint/illegible numbers obscured by the connecting lines of the lattice.",
+    "Whether the triangle is associated with a specific grimoire, magical tradition, or numerical system (e.g., it resembles structures found in Trithemius, Agrippa, or modern chaos magic)."
+  ]
+}

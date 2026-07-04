@@ -1,0 +1,71 @@
+{
+  "page_summary": "A page displaying a column of prime-factorization fractions flanked by structural formulas of the four DNA nucleotide bases (adenine, guanine, cytosine, thymine).",
+  "text_blocks": [
+    "2² x 17 x 19 x 55627057 x 7200332325968813 / 3² x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "22441 x 26807952781 x 220238942717 / 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "2633 x 8867291 x 37287337 x 1498430561 / 3 x 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "7 x 3386469421 x 14123028175936831 / 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "2³ x 20359 x 346559 x 13445817584622779 / 3 x 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "7 x 4174409 x 13716463 x 11670170507 / 3² x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "1889 x 1344613389306385590121189 / 3 x 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "2² x 47 x 79 x 102359 x 2468021 x 347713522439 / 3 x 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "293 x 2551 x 330206236792383668191 / 3³ x 7 x 13 x 31 x 37 x 211 x 241 x 271 x 2161 x 9091 x 2906161",
+    "2⁷ x 2729 x 486954583 x 1056312876821 / 3² x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449",
+    "19 x 31 x 73151809 x 3847851920700457 / 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449"
+  ],
+  "colored_text": [],
+  "symbols": [],
+  "decorations": [
+    {
+      "description": "Structural formula of adenine (6-aminopurine): a fused bicyclic purine ring system with an NH2 substituent and an N-H in the five-membered imidazole ring, with HC and CH labels on ring carbons.",
+      "type": "chemical_structure_adenine",
+      "position": "top-left corner of the page",
+      "components": [
+        "six-membered pyrimidine ring",
+        "five-membered imidazole ring",
+        "NH2 group",
+        "ring nitrogens and CH/HC labels"
+      ]
+    },
+    {
+      "description": "Structural formula of guanine (2-amino-6-oxopurine): a fused bicyclic purine ring system with an NH2 group, two ring C=O groups, ring NH, and CH/HC labels.",
+      "type": "chemical_structure_guanine",
+      "position": "top-right corner of the page",
+      "components": [
+        "six-membered pyrimidine ring",
+        "five-membered imidazole ring",
+        "NH2 group",
+        "two C=O groups",
+        "ring NH",
+        "CH/HC labels"
+      ]
+    },
+    {
+      "description": "Structural formula of cytosine (4-amino-2-oxopyrimidine): a single six-membered pyrimidine ring with an NH2 group, a C=O group, an N-H, and CH/HC labels.",
+      "type": "chemical_structure_cytosine",
+      "position": "bottom-left corner of the page",
+      "components": [
+        "six-membered pyrimidine ring",
+        "NH2 group",
+        "C=O group",
+        "N-H",
+        "CH/HC labels"
+      ]
+    },
+    {
+      "description": "Structural formula of thymine (5-methyl-2,4-dioxopyrimidine): a single six-membered pyrimidine ring with a CH3 group, two C=O groups, an N-H, and CH/HC labels.",
+      "type": "chemical_structure_thymine",
+      "position": "bottom-right corner of the page",
+      "components": [
+        "six-membered pyrimidine ring",
+        "CH3 group",
+        "two C=O groups",
+        "N-H",
+        "CH/HC labels"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "It is unclear what the column of fractions represents mathematically (e.g., factorizations of binomial coefficients, factorials, or a single large number); the pattern of common prime factors (29, 101, 239, 281, 4649, 909091, 121499449) in many denominators suggests a shared underlying value, but the source/caption is not visible on the page."
+  ]
+}

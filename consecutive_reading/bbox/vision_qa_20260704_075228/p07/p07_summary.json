@@ -1,0 +1,67 @@
+{
+  "page": "p07",
+  "page_vision_status": "ok",
+  "glyphs_processed": 5,
+  "glyphs": [
+    {
+      "index": 0,
+      "bbox": [
+        214,
+        927,
+        224,
+        148
+      ],
+      "kind": "latin_print",
+      "description": "Two-digit number '69' printed in serif font inside a small circle at the bottom-",
+      "confidence": 0.9
+    },
+    {
+      "index": 1,
+      "bbox": [
+        688,
+        928,
+        223,
+        147
+      ],
+      "kind": "geometric_circle",
+      "description": "Large arc forming nearly a complete circle, with a straight horizontal line clos",
+      "confidence": 0.62
+    },
+    {
+      "index": 2,
+      "bbox": [
+        419,
+        1197,
+        143,
+        229
+      ],
+      "kind": "geometric_circle",
+      "description": "Curved black lines forming part of a circular or oval shape on white background,",
+      "confidence": 0.4
+    },
+    {
+      "index": 3,
+      "bbox": [
+        565,
+        1201,
+        143,
+        225
+      ],
+      "kind": "stick_figure",
+      "description": "Simple stick figure with a small circular head and a larger curved oval/bean-sha",
+      "confidence": 0.82
+    },
+    {
+      "index": 4,
+      "bbox": [
+        684,
+        1078,
+        227,
+        143
+      ],
+      "kind": "image",
+      "description": "A cropped section of a graph diagram showing two circular nodes labeled '5' and ",
+      "confidence": 0.9
+    }
+  ]
+}

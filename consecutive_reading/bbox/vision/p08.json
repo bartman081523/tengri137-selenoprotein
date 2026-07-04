@@ -1,0 +1,75 @@
+{
+  "page_summary": "A page with mysterious cipher-like script at top and bottom surrounding a complex circular diagram of 54 numbered nodes (29-82) connected by curved arcs forming nested concentric circles and ovals.",
+  "text_blocks": [
+    "»»» II◁h ǁΓ◁hʁ ǁϱ »>· ǁ¶ ]| »»D |Ψ&»») »»⊗4 ]>",
+    "] ]◁· ǁ&»») 4)> ⊗Γl · J»hΓh>) II I»>Ψϱ Ψ[∫] · IΨ&",
+    "· h]Ψ DH]XΨ) ») ]Ψ",
+    "]X|ΨhI YYΨ◁ »Ψ ») · ]| »»D δh◁ ]Ψ»)ε1 δ») ]Ψ D",
+    "· ϱ8Ψ)◁ 9hIΨ] D]») 4Ψ1 J]Ψh ]ΨΨ Ψ»]ΨI∫>]| »»D",
+    "· εΨIΨ 4»») I» ∫>JδΨhIΨI J»]Ψ ⊗δIΨI◁») δ4»)Ψ »»D"
+  ],
+  "colored_text": [],
+  "symbols": [
+    {
+      "description": "Glyph resembling '»' (double closing angle quote / guillemet) used as a word/letter separator throughout the cipher text",
+      "kind": "geometric_double_guillemet",
+      "position": "throughout the top and bottom text blocks"
+    },
+    {
+      "description": "Glyph '⊗' (circled cross / circled times)",
+      "kind": "geometric_circled_cross",
+      "position": "top text block, line 1 near end; line 2"
+    },
+    {
+      "description": "Glyph '⊙' or circled-dot symbol used in cipher text",
+      "kind": "geometric_circled_dot",
+      "position": "top text block line 2"
+    },
+    {
+      "description": "Triangle/arrowhead glyph '◁' used in cipher text",
+      "kind": "geometric_left_triangle",
+      "position": "throughout the cipher text"
+    },
+    {
+      "description": "Symbol '∫' (integral sign) used within the cipher text",
+      "kind": "math_integral",
+      "position": "top text line 2; bottom text lines 2 and 3"
+    },
+    {
+      "description": "Symbol 'ϱ' (Greek rho with tail) used in cipher text",
+      "kind": "greek_variant",
+      "position": "top text line 1"
+    },
+    {
+      "description": "Symbol 'δ' (Greek delta) used in cipher text",
+      "kind": "greek_delta",
+      "position": "bottom text block, multiple lines"
+    },
+    {
+      "description": "Symbol 'ε' (Greek epsilon) used in cipher text",
+      "kind": "greek_epsilon",
+      "position": "bottom text block, line 1 and 3"
+    }
+  ],
+  "decorations": [
+    {
+      "description": "A large circular diagram composed of multiple nested ovals/arcs and 54 small circular nodes labeled with the numbers 29 through 82 (some numbers like 1-28 appear to be missing or placed elsewhere).",
+      "type": "numbered_node_diagram",
+      "position": "center of page",
+      "components": [
+        "outer circular ring containing nodes 56, 58, 59, 60, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73",
+        "middle oval/ellipse ring containing nodes 45, 48, 50, 51, 52, 53, 54, 55, 74, 76, 77, 78, 79, 80, 81, 82",
+        "inner cluster at top: nodes 29, 30, 31, 32, 33, 34, 35, 36, 37",
+        "central node 75 connected to nodes 80, 82, 79, 78, 77, 76",
+        "lower-left cluster: nodes 38, 39, 40, 41, 42, 43, 44, 45, 46, 47",
+        "lower-right cluster: nodes 49, 50, 51, 52, 53, 54, 55",
+        "curved arcs connecting nodes between rings",
+        "small lens/vesica shape at the very center between nodes 31/36"
+      ]
+    }
+  ],
+  "uncertain_or_unreadable": [
+    "The top and bottom text appear to be written in a constructed or cipher script mixing Latin letters with diacritics, Greek letters (δ, ε, ϱ), geometric symbols (◁, ⊗, ⊙, »), and the integral sign (∫). It does not correspond to any natural language I can identify, so the transcription is approximate and the actual meaning is unreadable.",
+    "Some nodes in the diagram may have number labels that are too small or overlapped to read confidently; a complete numbering from 1 to 82 may exist but only 29-82 are clearly visible in this view."
+  ]
+}
