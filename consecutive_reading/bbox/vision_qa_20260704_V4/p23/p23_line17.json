@@ -1,0 +1,280 @@
+{
+  "page": "p23",
+  "line_id": 17,
+  "line_bbox": [
+    29,
+    1315,
+    1073,
+    286
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile aus zwei chemischen Strukturdiagrammen (Cytosin links, Thymin rechts) flankiert zwei gestapelte mathematische Bruchgleichungen mit Primfaktorzerlegungen in der Mitte. Keine unbekannte Schrift oder Tengri-Glyphen sichtbar; der angegebene Schmeh-Hinweis 'Y A P S U A Z B E H I M L A' lässt sich im Bild nicht verifizieren.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 17,
+  "n_numerics": 2,
+  "n_formulas": 2,
+  "n_graphics": 4,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "NH2",
+      "bbox": [
+        85,
+        50,
+        45,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "C",
+      "bbox": [
+        120,
+        90,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "N",
+      "bbox": [
+        40,
+        130,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "CH",
+      "bbox": [
+        180,
+        130,
+        30,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "C",
+      "bbox": [
+        45,
+        200,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "O",
+      "bbox": [
+        18,
+        222,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "NH",
+      "bbox": [
+        115,
+        260,
+        30,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "O",
+      "bbox": [
+        710,
+        50,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "C",
+      "bbox": [
+        675,
+        80,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "CH3",
+      "bbox": [
+        735,
+        80,
+        40,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "HN",
+      "bbox": [
+        625,
+        130,
+        30,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "C",
+      "bbox": [
+        675,
+        160,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "O",
+      "bbox": [
+        620,
+        200,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "C",
+      "bbox": [
+        675,
+        200,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "NH",
+      "bbox": [
+        705,
+        240,
+        30,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "CH",
+      "bbox": [
+        715,
+        285,
+        30,
+        22
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "N",
+      "bbox": [
+        740,
+        260,
+        18,
+        22
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        108,
+        55,
+        10,
+        14
+      ],
+      "note": "Subscript in NH2"
+    },
+    {
+      "value": "3",
+      "bbox": [
+        760,
+        85,
+        10,
+        14
+      ],
+      "note": "Subscript in CH3"
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2^7 × 2729 × 486954583 × 1056312876821 / 3^2 × 29 × 101 × 239 × 281 × 4649 × 909091 × 1214994449",
+      "bbox": [
+        245,
+        18,
+        535,
+        100
+      ],
+      "description": "Obere Bruchgleichung: Zähler mit vier Faktoren, Nenner mit acht Faktoren (Primfaktorzerlegung)"
+    },
+    {
+      "raw": "19 × 31 × 73151809 × 3847851920700457 / 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 1214994449",
+      "bbox": [
+        245,
+        160,
+        535,
+        105
+      ],
+      "description": "Untere Bruchgleichung: Zähler mit vier Faktoren, Nenner mit acht Faktoren (Primfaktorzerlegung)"
+    }
+  ],
+  "graphics": [
+    {
+      "type": "chemical_structure_diagram",
+      "description": "Strukturformel von Cytosin: Pyrimidin-Ring mit NH2-Gruppe (oben), N (links), CH (rechts), C (unten links) und C=O (unten) sowie NH (unten rechts). Doppelbindungen als parallele Linien dargestellt.",
+      "bbox": [
+        10,
+        30,
+        215,
+        270
+      ]
+    },
+    {
+      "type": "chemical_structure_diagram",
+      "description": "Strukturformel von Thymin: Pyrimidin-Ring mit O (oben, C=O), C mit CH3-Verzweigung (oben rechts), HN (links), C (mitte), C=O (unten links), NH (unten), N (rechts unten) und CH (rechts).",
+      "bbox": [
+        610,
+        30,
+        175,
+        280
+      ]
+    },
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Bruchstrich der oberen Gleichung",
+      "bbox": [
+        245,
+        63,
+        535,
+        3
+      ]
+    },
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Bruchstrich der unteren Gleichung",
+      "bbox": [
+        245,
+        208,
+        535,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 17: latin -> Y A P S U A Z B E H I M L A"
+}

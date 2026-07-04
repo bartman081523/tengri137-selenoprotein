@@ -1,0 +1,120 @@
+{
+  "page": "p18",
+  "line_id": 5,
+  "line_bbox": [
+    173,
+    587,
+    317,
+    54
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematische Zeile mit zwei Produkten, getrennt durch einen horizontalen Bruchstrich – wirkt wie eine Faktor- bzw. Quotientendarstellung (oben: 673 × N1, unten: 2 × 13 × 17 × 19 × N2).",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 7,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "673",
+      "bbox": [
+        0,
+        5,
+        55,
+        65
+      ]
+    },
+    {
+      "value": "482510108893443417506747",
+      "bbox": [
+        90,
+        5,
+        605,
+        65
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        0,
+        105,
+        28,
+        65
+      ]
+    },
+    {
+      "value": "13",
+      "bbox": [
+        65,
+        105,
+        50,
+        65
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        150,
+        105,
+        50,
+        65
+      ]
+    },
+    {
+      "value": "19",
+      "bbox": [
+        235,
+        105,
+        50,
+        65
+      ]
+    },
+    {
+      "value": "536062522094285543969119",
+      "bbox": [
+        320,
+        105,
+        380,
+        65
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "673 × 482510108893443417506747",
+      "bbox": [
+        0,
+        5,
+        695,
+        65
+      ]
+    },
+    {
+      "raw": "2 × 13 × 17 × 19 × 536062522094285543969119",
+      "bbox": [
+        0,
+        105,
+        700,
+        65
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Durchgehender horizontaler Strich, der die beiden Produktausdrücke als Zähler und Nenner eines Bruchs trennt.",
+      "bbox": [
+        0,
+        78,
+        700,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 5: unknown -> --------------------------------------------------------------------"
+}

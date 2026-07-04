@@ -1,0 +1,111 @@
+{
+  "page": "p22",
+  "line_id": 13,
+  "line_bbox": [
+    173,
+    1108,
+    385,
+    54
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Die Zeile enthält zwei große Multiplikationsausdrücke (oben und unten) aus reinen Ziffernblöcken, jeweils durch 'x' (Multiplikationszeichen) getrennt. Eine durchgehende horizontale Trennlinie liegt zwischen den beiden Teilen. Es kommen keine unbekannten Glyphen und keine lateinischen Wörter vor.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 6,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        15,
+        18,
+        20,
+        38
+      ]
+    },
+    {
+      "value": "241996810277737",
+      "bbox": [
+        85,
+        18,
+        260,
+        38
+      ]
+    },
+    {
+      "value": "416335806841947415161528857",
+      "bbox": [
+        390,
+        18,
+        525,
+        38
+      ]
+    },
+    {
+      "value": "7393",
+      "bbox": [
+        15,
+        128,
+        75,
+        38
+      ]
+    },
+    {
+      "value": "49791927797",
+      "bbox": [
+        135,
+        128,
+        195,
+        38
+      ]
+    },
+    {
+      "value": "2400203428924634837959638901",
+      "bbox": [
+        370,
+        128,
+        540,
+        38
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 x 241996810277737 x 416335806841947415161528857",
+      "bbox": [
+        10,
+        15,
+        920,
+        45
+      ]
+    },
+    {
+      "raw": "7393 x 49791927797 x 2400203428924634837959638901",
+      "bbox": [
+        10,
+        125,
+        920,
+        45
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehende horizontale Trennlinie, die den oberen und unteren Multiplikationsausdruck optisch trennt (Vorgabe-Strich / Bruchstrich).",
+      "bbox": [
+        0,
+        90,
+        1200,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 13: latin -> THE UNIVERSE IS VERY LARGE BUT NOT INFINITE"
+}

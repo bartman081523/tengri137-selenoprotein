@@ -1,0 +1,49 @@
+{
+  "page": "p19",
+  "line_id": 19,
+  "line_bbox": [
+    246,
+    1380,
+    147,
+    104
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Zwei nicht-lateinische Glyphen mit kalligrafischem, möglicherweise semitischem oder pseudo-schriftlichem Duktus auf hellem Hintergrund. Kein lateinischer Text, keine Zahlen, keine Formeln erkennbar.",
+  "n_glyphs_vision": 2,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        40,
+        20,
+        130,
+        250
+      ],
+      "visual_kind": "unknown",
+      "description": "Linke Glyphe: vertikaler Schaft auf der linken Seite mit einer kurzen horizontalen Haste oben; darunter ein bogenförmiger/abgewinkelter Ausläufer nach rechts unten. Erinnert entfernt an hebräisches He/Het oder eine stilisierte Sigille.",
+      "confidence": 0.35
+    },
+    {
+      "bbox": [
+        200,
+        30,
+        130,
+        230
+      ],
+      "visual_kind": "unknown",
+      "description": "Rechte Glyphe: kompakter, geschwungener Buchstabenkörper mit bogenförmigem oberem Element und einem nach unten links auslaufenden Schwanz. Wirkt kalligrafisch, möglicherweise pseudo-hebräische oder ornamental verzierte Form.",
+      "confidence": 0.3
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 19: unknown -> - no sigils, no images, no non-Latin glyphs."
+}

@@ -1,0 +1,90 @@
+{
+  "page": "p23",
+  "line_id": 1,
+  "line_bbox": [
+    127,
+    42,
+    836,
+    70
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Ausschnitt einer chemischen Strukturformel: NH2-Gruppe mit abgehender Einfachbindung links und C=O-Gruppe mit Doppelbindung rechts; die dazwischenliegende Molekülkette liegt außerhalb dieses Zeilenausschnitts.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 2,
+  "n_numerics": 1,
+  "n_formulas": 1,
+  "n_graphics": 2,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "NH",
+      "bbox": [
+        0,
+        10,
+        50,
+        45
+      ],
+      "confidence": 0.97
+    },
+    {
+      "text": "O",
+      "bbox": [
+        1545,
+        10,
+        30,
+        45
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        48,
+        35,
+        25,
+        30
+      ],
+      "confidence": 0.96
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "NH2— ... —C(=O)",
+      "bbox": [
+        0,
+        10,
+        1640,
+        90
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "graphics": [
+    {
+      "type": "single_bond",
+      "description": "Vertikale Einfachbindung (dünne Linie) abwärts vom 'N' der NH2-Gruppe",
+      "bbox": [
+        22,
+        50,
+        25,
+        35
+      ]
+    },
+    {
+      "type": "double_bond",
+      "description": "Vertikale Doppelbindung (zwei parallele Linien) abwärts vom 'O' der Carbonylgruppe",
+      "bbox": [
+        1555,
+        50,
+        30,
+        35
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> WE WILL GIVE YOU KNOWLEDGS"
+}

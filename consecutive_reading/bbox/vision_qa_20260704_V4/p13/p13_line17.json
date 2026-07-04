@@ -1,0 +1,669 @@
+{
+  "page": "p13",
+  "line_id": 17,
+  "line_bbox": [
+    193,
+    1282,
+    746,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus geometrisch-eckigen, runenartigen Glyphen in einer unbekannten Schrift. Ein einzelnes face_circle_three_dots-Glyph erscheint früh, ein Punctum und ein D-/C-förmiges Schlusszeichen markieren das Zeilenende. Keine eindeutig lateinischen Wortgruppen erkennbar; einzelne Glyphenformen (H, I, D) sind formal lateinischen Buchstaben ähnlich, gehören aber offenbar zur selben Schriftsippe.",
+  "n_glyphs_vision": 41,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 22,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          15,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Schaft mit kurzem Querbalken oben links – wirkt wie Γ oder F ohne Unterbalken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zweites Γ-/Bracket-Glyph gleicher Form wie das erste",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          25,
+          50,
+          50
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei schwarzen Punkten im Innenraum (Dreipunkt-Gesicht / triquetra-artige Komposition)",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Λ-förmiger Winkel mit zwei auseinanderlaufenden Schrägschäften",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-/Gabel-Glyph mit kurzem vertikalem Schaft und zwei Aufspreizungen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Drei parallele vertikale Striche (E-artig, ohne Horizontalbalken)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          260,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "D-förmiges Glyph: vertikaler Schaft links, geschlossene Halbkreis-/Bogenform rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          300,
+          25,
+          40,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Komplexes Winkel-Glyph mit zwei gegeneinander versetzten Schrägschäften",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeil-/Chevron-Glyph, nach rechts geöffnet",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Λ mit kurzem Querbalken unten (gekreuzter Winkel)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          25,
+          25,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines kompaktes Winkel-Glyph",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          455,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kreuz-/Plus-Glyph aus zwei sich schneidenden Strichen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          490,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines V-/Pfeil-nach-unten-Glyph",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Λ-förmiger Winkel",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          560,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Komplexes asymmetrisches Winkel-Glyph",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Doppelstamm-Glyph mit Querbalken",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          25,
+          15,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmaler vertikaler Strich (I-förmig)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeil-nach-unten mit kurzem vertikalem Schaft",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          25,
+          40,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Komplexes Winkel-Glyph mit Doppelschenkel",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 665,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        203,
+        1292,
+        727,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        735,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Asymmetrischer Winkel, ähnelt einer stilisierter Ziffer",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        775,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Λ-/Winkel-Glyph, mittlere Größe",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        810,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-/Gabel-Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        850,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmales vertikales Element mit kleinem oberen Querstrich",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        885,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "M- oder W-artiges Doppelwinkel-Glyph",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        925,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleiner nach unten zeigender Winkel/Pfeil",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        960,
+        25,
+        40,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "W-förmiges Doppelwinkel-Glyph",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        1005,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines Winkel-Glyph",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1040,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmaler vertikaler Strich (I-ähnlich)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1075,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines kompaktes Winkel-Glyph",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1110,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Λ-förmiger Winkel",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1145,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Komplexes asymmetrisches Winkel-Glyph",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1185,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines vertikales Strichelement",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1220,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-/Gabel-Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1260,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Λ mit kurzem Mittelbalken",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        1300,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines Winkel-Glyph",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1340,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Λ- oder A-förmiges Winkel-Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1375,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmaler vertikaler Strich (I)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1410,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Λ-Winkel mit kurzem Querstrich",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        1450,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "D-/P-förmiges Glyph: vertikaler Schaft mit geschlossener Bogenform rechts",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1495,
+        35,
+        20,
+        30
+      ],
+      "visual_kind": "punctum",
+      "description": "Schwarzer runder Punkt/Punctum als Interpunktionszeichen",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1525,
+        25,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "C-/D-förmiges Schluss-Glyph mit offenem Bogen",
+      "confidence": 0.65
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 17: latin -> TION. THE CHOSEN SOUL WILL UNDERSTAND EVERYTHING O"
+}

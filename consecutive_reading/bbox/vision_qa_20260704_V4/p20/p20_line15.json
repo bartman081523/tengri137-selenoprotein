@@ -1,0 +1,237 @@
+{
+  "page": "p20",
+  "line_id": 15,
+  "line_bbox": [
+    173,
+    1257,
+    437,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Two mathematical factorization expressions consisting of large integers joined by multiplication signs, separated by a horizontal rule. Top: '2 x 580196214258247 x 9760125279827915430013996319'. Bottom: '3³ x 38867 x 126052981 x 3239107785911 x 66464494999823411'. No Latin text or unknown geometric glyphs are present — the content is purely numeric/formulaic.",
+  "n_glyphs_vision": 7,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          45,
+          30,
+          20,
+          20
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplication sign (x) between 2 and 580196214258247",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 926,
+      "iou": 0.475,
+      "page_glyph_bbox": [
+        183,
+        1267,
+        418,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          30,
+          20,
+          20
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplication sign (x) between 580196214258247 and 9760125279827915430013996319",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 926,
+      "iou": 0.475,
+      "page_glyph_bbox": [
+        183,
+        1267,
+        418,
+        39
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        60,
+        130,
+        20,
+        20
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign (x) after 3³",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        185,
+        130,
+        20,
+        20
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign (x) between 38867 and 126052981",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        370,
+        130,
+        20,
+        20
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign (x) between 126052981 and 3239107785911",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        605,
+        130,
+        20,
+        20
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign (x) between 3239107785911 and 66464494999823411",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        38,
+        102,
+        18,
+        22
+      ],
+      "visual_kind": "math_exponentiation",
+      "description": "Superscript exponent 3 attached to the base digit 3 (3³ = 27)",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        15,
+        0,
+        25,
+        60
+      ]
+    },
+    {
+      "value": "580196214258247",
+      "bbox": [
+        70,
+        0,
+        200,
+        60
+      ]
+    },
+    {
+      "value": "9760125279827915430013996319",
+      "bbox": [
+        300,
+        0,
+        510,
+        60
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        20,
+        100,
+        30,
+        60
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        38,
+        102,
+        18,
+        22
+      ]
+    },
+    {
+      "value": "38867",
+      "bbox": [
+        85,
+        100,
+        90,
+        60
+      ]
+    },
+    {
+      "value": "126052981",
+      "bbox": [
+        210,
+        100,
+        150,
+        60
+      ]
+    },
+    {
+      "value": "3239107785911",
+      "bbox": [
+        390,
+        100,
+        200,
+        60
+      ]
+    },
+    {
+      "value": "66464494999823411",
+      "bbox": [
+        620,
+        100,
+        195,
+        60
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 x 580196214258247 x 9760125279827915430013996319",
+      "bbox": [
+        15,
+        0,
+        800,
+        60
+      ]
+    },
+    {
+      "raw": "3^3 x 38867 x 126052981 x 3239107785911 x 66464494999823411",
+      "bbox": [
+        20,
+        100,
+        800,
+        60
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_rule",
+      "description": "Thin horizontal separator line dividing the two multiplicative expressions (acts as a fraction-style or equation separator)",
+      "bbox": [
+        0,
+        82,
+        820,
+        6
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 15: latin -> BEWARE FROM THOSE WHO CALLS THEMSELVES GODS"
+}

@@ -1,0 +1,271 @@
+{
+  "page": "p18",
+  "line_id": 1,
+  "line_bbox": [
+    173,
+    242,
+    826,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematische Zeile (Zähler eines Bruchs): Produkt aus 2, 3 hoch 2, 5, 163, 179, 643, 1557763 und 5161229, getrennt durch Multiplikationszeichen. Unter der Zeile verläuft eine horizontale Trennlinie.",
+  "n_glyphs_vision": 8,
+  "n_latin_tokens": 0,
+  "n_numerics": 8,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 6,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          48,
+          30,
+          18,
+          16
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen 'x' zwischen 2 und 3, kursiv gesetzt",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 840,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        252,
+        322,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          110,
+          30,
+          18,
+          16
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen 'x' zwischen 3² und 5",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 840,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        252,
+        322,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          162,
+          30,
+          18,
+          16
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen 'x' zwischen 5 und 163",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 840,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        252,
+        322,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          30,
+          18,
+          16
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen 'x' zwischen 163 und 179",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 840,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        252,
+        322,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          300,
+          30,
+          18,
+          16
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen 'x' zwischen 179 und 643",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 840,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        252,
+        322,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          92,
+          20,
+          14,
+          14
+        ],
+        "visual_kind": "math_exponentiation",
+        "description": "Hochgestellte 2 als Exponent der Ziffer 3 (3²)",
+        "unicode_codepoint_candidate": "U+00B2",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 840,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        252,
+        322,
+        39
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        368,
+        30,
+        18,
+        16
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen 'x' zwischen 643 und 1557763",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        475,
+        30,
+        18,
+        16
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen 'x' zwischen 1557763 und 5161229",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        25,
+        28,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        75,
+        28,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        140,
+        28,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "163",
+      "bbox": [
+        188,
+        28,
+        36,
+        22
+      ]
+    },
+    {
+      "value": "179",
+      "bbox": [
+        255,
+        28,
+        36,
+        22
+      ]
+    },
+    {
+      "value": "643",
+      "bbox": [
+        325,
+        28,
+        36,
+        22
+      ]
+    },
+    {
+      "value": "1557763",
+      "bbox": [
+        393,
+        28,
+        72,
+        22
+      ]
+    },
+    {
+      "value": "5161229",
+      "bbox": [
+        500,
+        28,
+        72,
+        22
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 * 3^2 * 5 * 163 * 179 * 643 * 1557763 * 5161229",
+      "bbox": [
+        20,
+        20,
+        552,
+        38
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Lange horizontale Trennlinie (Bruchstrich) unter dem Zähler, erstreckt sich über die gesamte Länge des mathematischen Ausdrucks",
+      "bbox": [
+        18,
+        52,
+        525,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: numeric -> 2 * 3^2 * 5 * 163 * 179 * 643 * 1557763 * 5161229"
+}

@@ -1,0 +1,480 @@
+{
+  "page": "p10",
+  "line_id": 9,
+  "line_bbox": [
+    204,
+    607,
+    735,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "A line from a historical manuscript combining unknown geometric glyphs (angular shapes, a diamond, a dot) with clear Latin letter clusters 'EXY' and several isolated 'D' characters. The line reads as a sequence of stylized characters where only a few are unambiguously Latin.",
+  "n_glyphs_vision": 22,
+  "n_latin_tokens": 3,
+  "n_numerics": 2,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          75,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Initial angular glyph cluster resembling 'Y>>' or '4>>'",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 492,
+      "iou": 0.199,
+      "page_glyph_bbox": [
+        214,
+        617,
+        127,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          75,
+          0,
+          15,
+          95
+        ],
+        "visual_kind": "punctum",
+        "description": "Small dot/point separating the first glyph from the next",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 492,
+      "iou": 0.142,
+      "page_glyph_bbox": [
+        214,
+        617,
+        127,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          0,
+          50,
+          95
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Diamond/lozenge shape with a small central dot",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          0,
+          65,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Pair of angular '>>' arrow-like glyphs",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          0,
+          40,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Curved character resembling Latin 'C' or Cyrillic 'Э'",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          360,
+          0,
+          30,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular 'J' or gamma 'Г' shape",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          0,
+          35,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Lowercase 'h'-like glyph",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          0,
+          40,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Gamma 'Γ' or angular 'h' shape",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          0,
+          25,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Vertical stroke 'l' or 'I' or digit '1'",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          490,
+          0,
+          35,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Letter 'H' shape",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          0,
+          35,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Letter 'Y' or '4' shape",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          560,
+          0,
+          55,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Pair of '>>' angular shapes",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          615,
+          0,
+          25,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Vertical 'l' / 'I' / '1' stroke",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          640,
+          0,
+          30,
+          95
+        ],
+        "visual_kind": "digit",
+        "description": "Digit '3' or angular glyph",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          670,
+          0,
+          30,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Gamma 'Г' / 'F' shape",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          0,
+          30,
+          95
+        ],
+        "visual_kind": "unknown",
+        "description": "Letter 'F' or angular shape",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 493,
+      "iou": 0.114,
+      "page_glyph_bbox": [
+        341,
+        618,
+        589,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        730,
+        0,
+        30,
+        95
+      ],
+      "visual_kind": "digit",
+      "description": "Digit '8' or angular glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        760,
+        0,
+        35,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Cyrillic 'Э' or angular shape",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        795,
+        0,
+        30,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Gamma 'Г' shape",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        825,
+        0,
+        30,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Letter 'Y' or angular glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        855,
+        0,
+        30,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Letter 'J' or angular glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        885,
+        0,
+        50,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Pair of '>>' angular shapes",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "EXY",
+      "bbox": [
+        90,
+        0,
+        115,
+        95
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "D",
+      "bbox": [
+        580,
+        0,
+        35,
+        95
+      ],
+      "confidence": 0.78
+    },
+    {
+      "text": "D",
+      "bbox": [
+        935,
+        0,
+        35,
+        95
+      ],
+      "confidence": 0.72
+    }
+  ],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        640,
+        0,
+        30,
+        95
+      ]
+    },
+    {
+      "value": "8",
+      "bbox": [
+        730,
+        0,
+        30,
+        95
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 9: unknown -> \"9 RINGS - 666\"; the nine rings form a continuous sequence without"
+}

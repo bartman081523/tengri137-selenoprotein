@@ -1,0 +1,82 @@
+{
+  "page": "p11",
+  "line_id": 7,
+  "line_bbox": [
+    520,
+    498,
+    99,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine kurze Zeile mit fünf geometrischen Glyphen: ein Punctum, ein bumerang-/Ɛ-förmiges Zeichen, ein X-förmiges Zeichen, ein H-förmiges Zeichen und ein abschließendes I-förmiges Zeichen mit horizontalen Serifen. Keine lateinischen Wortformen erkennbar.",
+  "n_glyphs_vision": 5,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        15,
+        55,
+        15,
+        15
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder schwarzer Punkt/Punctum am linken Zeilenanfang",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        55,
+        35,
+        45,
+        65
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Bumerang- bzw. Ɛ-förmiges Zeichen mit zwei bogenförmigen Öffnungen nach rechts (ähnelt einer stilisierten '3' oder einem umgedrehten 'E' mit gerundeten Kanten)",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        115,
+        30,
+        40,
+        70
+      ],
+      "visual_kind": "math_times",
+      "description": "X-förmiges Zeichen aus zwei gekreuzten, nach außen hin breiter werdenden Diagonalstrichen (stilisiertes Kreuz/großes 'X')",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        165,
+        25,
+        35,
+        80
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-förmiges Zeichen mit zwei vertikalen Balken und einer horizontalen Verbindung in der Mitte; wirkt wie eine archaische 'H'-Rune",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        215,
+        30,
+        30,
+        70
+      ],
+      "visual_kind": "chinese_seal_script",
+      "description": "I-förmiges Zeichen mit ausgeprägten horizontalen Serifen oben und unten, evtl. stilisiertes 'I' oder Siegel-artiges Element",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 7: latin -> BUT THAT'S NOT ALL. OUR ULTIMATE PROOF IS MORE POWER"
+}

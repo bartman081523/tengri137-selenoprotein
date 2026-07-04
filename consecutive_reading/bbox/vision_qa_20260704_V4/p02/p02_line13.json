@@ -1,0 +1,519 @@
+{
+  "page": "p02",
+  "line_id": 13,
+  "line_bbox": [
+    196,
+    851,
+    742,
+    44
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ca. 30–31 geometrisch-eckigen Glyphen in einer unbekannten Schrift. Keine erkennbaren lateinischen Buchstaben, Zahlen oder mathematischen Formeln. Stil wirkt konsistent (dicke, kantige Striche) – ähnelt keinem vertrauten Alphabet.",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 16,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Form ähnelt einem auf den Kopf gestellten T bzw. ⊥ – oben Querbalken, kurzer vertikaler Schaft nach unten",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 44,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        206,
+        861,
+        196,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Chevron-/4-Form: zwei schräge Striche, oben mit kurzem Querbalken verbunden",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 44,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        206,
+        861,
+        196,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          110,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zickzack-/W-ähnliche Form mit drei Spitzen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 44,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        206,
+        861,
+        196,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          165,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfaches nach rechts offenes >-Chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 44,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        206,
+        861,
+        196,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-förmiger Haken (oben Bogen, unten vertikaler Schaft)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.174,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          250,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "H-förmiges Zeichen: zwei vertikale Schäfte mit Querbalken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          10,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Einfacher vertikaler Strich (I)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          335,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-/4-ähnliche Form: oben V, unten vertikaler Schaft",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-Haken mit zusätzlicher horizontaler Verbindung oben (ähnelt T mit Bein)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          440,
+          10,
+          55,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Zwei vertikal gestapelte Kreise / 8-Form",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "S-/5-förmiger Haken mit zwei Biegungen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          550,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossene Klammer ) – einfacher Bogen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "4-/Chevron-Form mit Querbalken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zickzack-/W-Form",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          25,
+          25,
+          35
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kleiner gefüllter Punkt/Kreis – wahrscheinlich Interpunktionszeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 45,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        402,
+        861,
+        527,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        735,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-Haken mit horizontaler Verbindung oben",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        790,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfaches >-Chevron",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        830,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "4-Form mit Querbalken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        880,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-Haken mit horizontaler Verbindung oben",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        935,
+        10,
+        25,
+        70
+      ],
+      "visual_kind": "digit",
+      "description": "Einfacher vertikaler Strich (1)",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        965,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "C-förmiger Bogen, nach rechts offen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1015,
+        10,
+        55,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-Form mit verlängertem rechtem Schaft (ähnelt Pfeilspitze)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1075,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "4-Form mit Querbalken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1125,
+        10,
+        25,
+        70
+      ],
+      "visual_kind": "digit",
+      "description": "Einfacher vertikaler Strich (1)",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1155,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-Form, zwei gekreuzte Diagonalen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1210,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-förmiger Haken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1250,
+        10,
+        20,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Kurzer vertikaler Strich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1275,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_circle_with_cross",
+      "description": "Φ-ähnliche Form: Kreis mit vertikalem Schaft",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1330,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "C-förmiger Bogen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1380,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-Form mit zusätzlicher Verlängerung",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1435,
+        10,
+        55,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-Form mit verlängertem rechtem Schaft",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 13: latin -> N DEVISED FOR ONE PURPOSE. OUR NUMBERS SHOULD SH"
+}

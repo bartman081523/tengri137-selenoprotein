@@ -1,0 +1,278 @@
+{
+  "page": "p19",
+  "line_id": 3,
+  "line_bbox": [
+    173,
+    375,
+    363,
+    54
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch mit zwei langen Produkten aus kleinen Primfaktoren und sehr großen Zahlen, getrennt durch einen horizontalen Bruchstrich.",
+  "n_glyphs_vision": 9,
+  "n_latin_tokens": 0,
+  "n_numerics": 11,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          32,
+          26,
+          36
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (kursives x) zwischen 3 und 17 im Zähler",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 866,
+      "iou": 0.181,
+      "page_glyph_bbox": [
+        183,
+        385,
+        344,
+        35
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          138,
+          32,
+          26,
+          36
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen zwischen 17 und 163 im Zähler",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 866,
+      "iou": 0.181,
+      "page_glyph_bbox": [
+        183,
+        385,
+        344,
+        35
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          238,
+          32,
+          26,
+          36
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen zwischen 163 und 879581 im Zähler",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 866,
+      "iou": 0.181,
+      "page_glyph_bbox": [
+        183,
+        385,
+        344,
+        35
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        388,
+        32,
+        26,
+        36
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 879581 und 6282109 im Zähler",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        543,
+        32,
+        26,
+        36
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 6282109 und 109238762041793 im Zähler",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        42,
+        128,
+        26,
+        36
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 5 und 151483 im Nenner",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        192,
+        128,
+        26,
+        36
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 151483 und 882481 im Nenner",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        343,
+        128,
+        26,
+        36
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 882481 und 67416301 im Nenner",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        513,
+        128,
+        26,
+        36
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 67416301 und 166783950929 im Nenner",
+      "confidence": 0.99
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        5,
+        32,
+        32,
+        40
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        78,
+        32,
+        55,
+        40
+      ]
+    },
+    {
+      "value": "163",
+      "bbox": [
+        170,
+        32,
+        65,
+        40
+      ]
+    },
+    {
+      "value": "879581",
+      "bbox": [
+        270,
+        32,
+        110,
+        40
+      ]
+    },
+    {
+      "value": "6282109",
+      "bbox": [
+        420,
+        32,
+        118,
+        40
+      ]
+    },
+    {
+      "value": "109238762041793",
+      "bbox": [
+        575,
+        32,
+        300,
+        40
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        5,
+        128,
+        32,
+        40
+      ]
+    },
+    {
+      "value": "151483",
+      "bbox": [
+        78,
+        128,
+        108,
+        40
+      ]
+    },
+    {
+      "value": "882481",
+      "bbox": [
+        225,
+        128,
+        112,
+        40
+      ]
+    },
+    {
+      "value": "67416301",
+      "bbox": [
+        375,
+        128,
+        132,
+        40
+      ]
+    },
+    {
+      "value": "166783950929",
+      "bbox": [
+        545,
+        128,
+        330,
+        40
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(3 * 17 * 163 * 879581 * 6282109 * 109238762041793) / (5 * 151483 * 882481 * 67416301 * 166783950929)",
+      "bbox": [
+        0,
+        25,
+        880,
+        160
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Horizontaler Bruchstrich, der Zähler und Nenner trennt",
+      "bbox": [
+        0,
+        95,
+        880,
+        6
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: latin -> ALL THIS KNOWLEDGE BEHIND YOUR CIVILISATION IS OURS"
+}

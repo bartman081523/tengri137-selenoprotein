@@ -1,0 +1,181 @@
+{
+  "page": "p06",
+  "line_id": 2,
+  "line_bbox": [
+    349,
+    250,
+    427,
+    155
+  ],
+  "line_type": "graphic_line",
+  "line_description": "Skewed 3x3 grid of rhombus-shaped cells (parallelogram arrangement) containing numbers, with a dashed right edge and small tick marks below. Resembles a 'magic cube line' / 3x3 numeric grid pattern.",
+  "n_glyphs_vision": 1,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 1,
+  "n_graphics": 4,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          20,
+          10,
+          360,
+          160
+        ],
+        "visual_kind": "other",
+        "description": "Outer parallelogram frame, slightly slanted to the right, divided into a 3x3 grid of rhombus cells",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 254,
+      "iou": 0.763,
+      "page_glyph_bbox": [
+        359,
+        260,
+        408,
+        136
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "26",
+      "bbox": [
+        128,
+        30,
+        38,
+        26
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        243,
+        32,
+        18,
+        24
+      ]
+    },
+    {
+      "value": "638",
+      "bbox": [
+        335,
+        30,
+        50,
+        26
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        85,
+        80,
+        20,
+        24
+      ]
+    },
+    {
+      "value": "656",
+      "bbox": [
+        213,
+        80,
+        50,
+        26
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        320,
+        82,
+        18,
+        24
+      ]
+    },
+    {
+      "value": "637",
+      "bbox": [
+        48,
+        132,
+        50,
+        26
+      ]
+    },
+    {
+      "value": "8",
+      "bbox": [
+        182,
+        134,
+        20,
+        24
+      ]
+    },
+    {
+      "value": "21",
+      "bbox": [
+        285,
+        132,
+        38,
+        26
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "26+2+638 = 666 ; 26+3+637 = 666 (diagonal sums)",
+      "bbox": [
+        20,
+        10,
+        360,
+        160
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "parallelogram_frame",
+      "description": "Outer parallelogram with slanted right side; top and bottom edges horizontal, left and right edges slanted",
+      "bbox": [
+        20,
+        10,
+        360,
+        160
+      ]
+    },
+    {
+      "type": "internal_grid",
+      "description": "Two internal slanted lines forming the 3x3 rhombic grid division (top-right to bottom-left diagonals repeated)",
+      "bbox": [
+        20,
+        10,
+        360,
+        160
+      ]
+    },
+    {
+      "type": "dashed_line",
+      "description": "Vertical dashed line on the right edge below the top-right cell, suggesting extension or projection",
+      "bbox": [
+        365,
+        50,
+        12,
+        110
+      ]
+    },
+    {
+      "type": "tick_marks",
+      "description": "Small vertical tick marks below the bottom edge of the parallelogram, one per column",
+      "bbox": [
+        50,
+        158,
+        320,
+        12
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: magic_cube_line -> 12        638      16     (=666)"
+}

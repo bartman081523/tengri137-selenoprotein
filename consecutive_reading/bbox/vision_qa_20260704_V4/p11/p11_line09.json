@@ -1,0 +1,516 @@
+{
+  "page": "p11",
+  "line_id": 9,
+  "line_bbox": [
+    191,
+    622,
+    746,
+    47
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile überwiegend unbekannter geometrischer Glyphen (rune-/sigillenartig, angular und rund) mit einem lateinischen 'D' am Zeilenende und einem kleinen Punkt/Punctum im mittleren Bereich.",
+  "n_glyphs_vision": 27,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          18,
+          8,
+          38,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Angular hook/J-ähnlicher Glyph, bestehend aus einer vertikalen und einer diagonalen Linie, die unten zusammenlaufen.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          68,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei vertikale Striche oben durch einen Bogen/Querbalken verbunden (n- oder pi-Form).",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          108,
+          8,
+          32,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Komplexes Winkelsymbol mit zwei schrägen Linien, die eine Rauten-/Schleifenform bilden.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          148,
+          8,
+          32,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Wiederholung des vorigen Schleifenmusters, leicht variiert (geschwungene Enden).",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H- oder n-ähnliches Symbol mit zwei Vertikalen und einer Querverbindung.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Winkelsymbol mit diagonalem Querstrich, ähnlich der Form eines auf den Kopf gestellten V mit Häkchen.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          278,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Schleifen-/Rauten-Glyph, ähnlich Glyph #3.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          8,
+          32,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Symbol mit zwei Vertikalen und oberem Querbalken (pi-Form) plus angedeuteter Krümmung.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          360,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Wiederholung der pi-Form mit zwei Vertikalen und oberer Verbindung.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          8,
+          32,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Schleifenmuster mit geschwungenen Enden.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          442,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "pi-Form mit zwei Vertikalen und oberer Querverbindung.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          482,
+          8,
+          32,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Wiederholung der pi-Form, leicht variiert.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          524,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "pi-ähnliches Symbol mit gerundetem Bogen oben.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          562,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines eckiges Symbol, möglicherweise 'J' oder Häkchenform.",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Winkelsymbol mit zwei diagonalen Strichen, die sich kreuzen (X-ähnlich, aber eckig).",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          650,
+          22,
+          16,
+          16
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner schwarzer Punkt / Punctum in der Mittellinie, möglicherweise ein Interpunktionszeichen oder Trenn-Punkt.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Winkelsymbol mit zwei diagonalen Strichen und Häkchen, ähnlich '>4' kombiniert.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.292,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          722,
+          8,
+          30,
+          48
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Winkelsymbol mit zwei schrägen Linien (geöffnete Raute).",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 541,
+      "iou": 0.146,
+      "page_glyph_bbox": [
+        201,
+        632,
+        727,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        760,
+        8,
+        35,
+        48
+      ],
+      "visual_kind": "geometric_circle_with_cross",
+      "description": "Kreis/Raute mit kreuzförmigem Innenmuster (zentraler Punkt oder kleines Kreuz).",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        802,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "pi-Form mit zwei Vertikalen und einer gebogenen oberen Verbindung.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        842,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Wiederholung der pi-Form, möglicherweise mit zusätzlicher Innenlinie.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        882,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Winkelsymbol mit Häkchen, ähnlich einem Y oder Gabelform.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        922,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "pi-Form mit zwei Vertikalen und oberer Verbindung.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        962,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Winkelsymbol mit zwei diagonalen Strichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1002,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Wiederholung des Rauten-/Schleifenmusters.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1042,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "pi-Form mit zwei Vertikalen und gebogenem Querbalken.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1082,
+        8,
+        30,
+        48
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "pi-ähnliches Symbol, das dem vorigen ähnelt.",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "D",
+      "bbox": [
+        1126,
+        8,
+        32,
+        48
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 9: unknown -> . NO HUMAN CAN PLAN A CALCULATION LIKE THIS OVER THOUSAND YE"
+}

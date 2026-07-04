@@ -1,0 +1,177 @@
+{
+  "page": "p06",
+  "line_id": 12,
+  "line_bbox": [
+    465,
+    672,
+    190,
+    45
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile in unbekannter/archaischer Schrift, deren Glyphen stark alten kirchenslawischen Buchstaben ähneln (З Г Л Ѵ Ѱ Ч Н А), gefolgt von einem Mittelpunkt-Trenner und der Ziffer 2. Eine lateinische Lesung 'EZRA' (laut Schmeh-Hinweis möglich) ist visuell nicht erkennbar.",
+  "n_glyphs_vision": 9,
+  "n_latin_tokens": 0,
+  "n_numerics": 1,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 4,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          5,
+          40,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "C-förmiger Glyph mit drei Horizontalstrichen, visuell identisch mit kyrillisch З (Ze)",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 302,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        475,
+        682,
+        171,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          5,
+          30,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Rechtwinkliger L-förmiger Glyph (umgekehrtes L), ähnelt kyrillisch Г (Ge)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 302,
+      "iou": 0.289,
+      "page_glyph_bbox": [
+        475,
+        682,
+        171,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          90,
+          5,
+          40,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Λ-förmiger Glyph (umgekehrtes V), ähnelt kyrillisch Л (El)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 302,
+      "iou": 0.289,
+      "page_glyph_bbox": [
+        475,
+        682,
+        171,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          135,
+          5,
+          35,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "V-förmiger Glyph mit langem absteigendem Strich, ähnelt kyrillisch Ѵ (Izhitsa)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 302,
+      "iou": 0.236,
+      "page_glyph_bbox": [
+        475,
+        682,
+        171,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        175,
+        5,
+        50,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Drei horizontale Balken auf vertikalem Stamm mit Unterlänge, ähnelt kyrillisch Ѱ (Psi)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        230,
+        5,
+        40,
+        45
+      ],
+      "visual_kind": "unknown",
+      "description": "4-förmiger Glyph mit geschlossener rechter Schlinge, ähnelt kyrillisch Ч (Tsch)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        275,
+        5,
+        35,
+        45
+      ],
+      "visual_kind": "unknown",
+      "description": "Zwei Vertikalstriche mit horizontaler Verbindung, identisch mit lateinisch/kyrillisch H (En)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        315,
+        5,
+        40,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "Dreiecksförmiger Glyph mit horizontalem Querbalken, ähnelt kyrillisch А (A)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        380,
+        22,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Mittelpunkt (Interpunktions-Trenner, ·)",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        410,
+        5,
+        35,
+        50
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 12: latin -> EZRA (2:13)"
+}

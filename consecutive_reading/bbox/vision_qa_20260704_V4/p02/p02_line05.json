@@ -1,0 +1,167 @@
+{
+  "page": "p02",
+  "line_id": 5,
+  "line_bbox": [
+    186,
+    449,
+    753,
+    50
+  ],
+  "line_type": "pure_latin_line",
+  "line_description": "Stylisierte lateinische Zeile, vermutlich in einer dekorativen/cipher-artigen Schrift, die als 'IF YOU ARE SEEKING FOR A PROOF, LOOK AT THE SIGNS AN' gelesen werden kann.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 14,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "IF",
+      "bbox": [
+        5,
+        10,
+        90,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "YOU",
+      "bbox": [
+        100,
+        10,
+        130,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "ARE",
+      "bbox": [
+        235,
+        10,
+        110,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "SEEKING",
+      "bbox": [
+        350,
+        10,
+        230,
+        130
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "FOR",
+      "bbox": [
+        585,
+        10,
+        125,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": ",",
+      "bbox": [
+        710,
+        10,
+        20,
+        130
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "A",
+      "bbox": [
+        735,
+        10,
+        55,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "PROOF",
+      "bbox": [
+        795,
+        10,
+        180,
+        130
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": ",",
+      "bbox": [
+        970,
+        10,
+        20,
+        130
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "LOOK",
+      "bbox": [
+        995,
+        10,
+        175,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "AT",
+      "bbox": [
+        1175,
+        10,
+        105,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "THE",
+      "bbox": [
+        1285,
+        10,
+        95,
+        130
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "SIGNS",
+      "bbox": [
+        1385,
+        10,
+        130,
+        130
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "AN",
+      "bbox": [
+        1500,
+        10,
+        50,
+        130
+      ],
+      "confidence": 0.55
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 5: latin -> IF YOU ARE SEEKING FOR A PROOF, LOOK AT THE SIGNS AN"
+}

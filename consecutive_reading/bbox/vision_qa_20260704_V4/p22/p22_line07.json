@@ -1,0 +1,151 @@
+{
+  "page": "p22",
+  "line_id": 7,
+  "line_bbox": [
+    173,
+    640,
+    784,
+    69
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Mathematische Faktorisierungszeile mit zwei Zeilen Zahlen/Multiplikatoren links und einem großen schwarzen Glyphen/Sigil rechts.",
+  "n_glyphs_vision": 1,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        830,
+        0,
+        480,
+        250
+      ],
+      "visual_kind": "unknown",
+      "description": "Großes schwarzes, kalligraphisch wirkendes Sigil/Zeichen mit geschwungenen, hakenartigen Pinselstrichen und einem horizontalen Balken am unteren Ende. Möglicherweise ein dekoratives Initial-Glyph oder ein asiatisch anmutendes Siegelzeichen.",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.4
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "191",
+      "bbox": [
+        0,
+        0,
+        55,
+        50
+      ]
+    },
+    {
+      "value": "3490418110238161077328069",
+      "bbox": [
+        80,
+        0,
+        475,
+        50
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        0,
+        50,
+        20,
+        110
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        45,
+        50,
+        20,
+        110
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        70,
+        50,
+        25,
+        90
+      ]
+    },
+    {
+      "value": "19",
+      "bbox": [
+        120,
+        50,
+        35,
+        110
+      ]
+    },
+    {
+      "value": "71",
+      "bbox": [
+        180,
+        50,
+        35,
+        110
+      ]
+    },
+    {
+      "value": "233",
+      "bbox": [
+        240,
+        50,
+        55,
+        110
+      ]
+    },
+    {
+      "value": "124245961466395393267",
+      "bbox": [
+        325,
+        50,
+        365,
+        110
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "191 x 3490418110238161077328069",
+      "bbox": [
+        0,
+        0,
+        555,
+        50
+      ]
+    },
+    {
+      "raw": "3 x 5² x 19 x 71 x 233 x 124245961466395393267",
+      "bbox": [
+        0,
+        50,
+        690,
+        110
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_underline",
+      "description": "Dünne, durchgehende horizontale Linie unter der oberen Formelzeile, die die beiden Zeilen der Faktorisierung visuell als Zähler/Nenner-ähnliche Struktur trennt.",
+      "bbox": [
+        0,
+        50,
+        690,
+        60
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: latin -> THIS IS INEVITABLE"
+}

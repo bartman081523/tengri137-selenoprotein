@@ -1,0 +1,111 @@
+{
+  "page": "p18",
+  "line_id": 10,
+  "line_bbox": [
+    173,
+    990,
+    209,
+    55
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch: Zähler mit vier Faktoren (3, 227, 259009, 84754841) multipliziert mit x-Operatoren, Nenner mit drei Faktoren (5, 15901, 251947913683), getrennt durch horizontalen Bruchstrich.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 7,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        5,
+        5,
+        15,
+        30
+      ]
+    },
+    {
+      "value": "227",
+      "bbox": [
+        40,
+        5,
+        50,
+        30
+      ]
+    },
+    {
+      "value": "259009",
+      "bbox": [
+        115,
+        5,
+        100,
+        30
+      ]
+    },
+    {
+      "value": "84754841",
+      "bbox": [
+        240,
+        5,
+        140,
+        30
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        5,
+        100,
+        15,
+        30
+      ]
+    },
+    {
+      "value": "15901",
+      "bbox": [
+        40,
+        100,
+        75,
+        30
+      ]
+    },
+    {
+      "value": "251947913683",
+      "bbox": [
+        140,
+        100,
+        210,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3 x 227 x 259009 x 84754841 / 5 x 15901 x 251947913683",
+      "bbox": [
+        0,
+        0,
+        400,
+        150
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich, trennt Zähler und Nenner horizontal",
+      "bbox": [
+        0,
+        70,
+        400,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 10: numeric -> 7349 * 67171373 * 473610727 * 758327329194582826829"
+}

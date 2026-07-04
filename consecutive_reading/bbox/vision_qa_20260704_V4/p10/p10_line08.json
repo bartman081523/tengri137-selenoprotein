@@ -1,0 +1,221 @@
+{
+  "page": "p10",
+  "line_id": 8,
+  "line_bbox": [
+    442,
+    528,
+    247,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit unbekannten geometrischen Glyphen, beginnend mit einem Punkt, gefolgt von H-artigen, pfeilförmigen und rautenförmigen Zeichen, mit einer Lücke und weiteren Glyphen rechts.",
+  "n_glyphs_vision": 13,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 5,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          30,
+          18,
+          30
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner schwarzer Punkt/Punkt oben links der Zeile",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 491,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        452,
+        538,
+        228,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          15,
+          55,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "H-ähnliches Glyph mit zwei vertikalen Strichen und einer schrägen oder horizontalen Verbindung, leicht sternförmig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 491,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        452,
+        538,
+        228,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          25,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts zeigender Chevron/pfeilartiges Zeichen >",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 491,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        452,
+        538,
+        228,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          25,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zweiter nach rechts zeigender Chevron >",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 491,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        452,
+        538,
+        228,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          20,
+          12,
+          65
+        ],
+        "visual_kind": "unknown",
+        "description": "Dünner vertikaler Strich I, möglicherweise mit kleinem oberen Haken",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 491,
+      "iou": 0.123,
+      "page_glyph_bbox": [
+        452,
+        538,
+        228,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        230,
+        25,
+        45,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Γ-ähnliches Zeichen (Gamma), nach links geöffneter rechter Winkel",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        295,
+        25,
+        50,
+        50
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rhombus/rautenförmiges Zeichen mit zentralem Punkt",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        405,
+        15,
+        50,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "H-förmiges Glyph mit zwei vertikalen Strichen und Verbindung",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        460,
+        15,
+        45,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Aufwärts zeigender pfeilartiger Glyph mit vertikalem Schaft und Querbalken oben (T-ähnlich)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        510,
+        15,
+        50,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "X-förmiges Glyph, zwei sich kreuzende Diagonalen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        570,
+        20,
+        12,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "Einfacher vertikaler Strich",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        615,
+        20,
+        40,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "H-ähnliches kleines Glyph mit zwei vertikalen Strichen und Querverbindung",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        660,
+        20,
+        30,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "Kleines gebogenes oder hakenförmiges Zeichen, möglicherweise Fragment",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 8: glyph_description -> {PAGE 10 — visual elements}"
+}

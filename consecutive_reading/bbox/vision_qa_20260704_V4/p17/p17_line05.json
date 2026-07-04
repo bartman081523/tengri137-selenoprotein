@@ -1,0 +1,138 @@
+{
+  "page": "p17",
+  "line_id": 5,
+  "line_bbox": [
+    173,
+    507,
+    485,
+    53
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Bruch-/Faktorisierungs-Formel: zwei Zeilen großer Ganzzahlen, getrennt durch einen horizontalen Strich, verbunden mit Multiplikationszeichen 'x'. Keine unbekannten Glyphen, kein lateinischer Text.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "5",
+      "bbox": [
+        10,
+        5,
+        14,
+        30
+      ]
+    },
+    {
+      "value": "61",
+      "bbox": [
+        55,
+        5,
+        22,
+        30
+      ]
+    },
+    {
+      "value": "103",
+      "bbox": [
+        100,
+        5,
+        32,
+        30
+      ]
+    },
+    {
+      "value": "113867495484484178331304153088007990064363783",
+      "bbox": [
+        160,
+        5,
+        700,
+        30
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        10,
+        55,
+        22,
+        30
+      ]
+    },
+    {
+      "value": "179",
+      "bbox": [
+        55,
+        55,
+        32,
+        30
+      ]
+    },
+    {
+      "value": "3467",
+      "bbox": [
+        110,
+        55,
+        42,
+        30
+      ]
+    },
+    {
+      "value": "3219088991",
+      "bbox": [
+        180,
+        55,
+        110,
+        30
+      ]
+    },
+    {
+      "value": "264850496551597978818922424250101",
+      "bbox": [
+        320,
+        55,
+        600,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "5 x 61 x 103 x 113867495484484178331304153088007990064363783",
+      "bbox": [
+        10,
+        5,
+        850,
+        35
+      ]
+    },
+    {
+      "raw": "17 x 179 x 3467 x 3219088991 x 264850496551597978818922424250101",
+      "bbox": [
+        10,
+        55,
+        910,
+        35
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Horizontale Trennlinie (Bruchstrich) zwischen Zähler und Nenner, erstreckt sich fast über die volle Zeilenbreite",
+      "bbox": [
+        5,
+        40,
+        990,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 5: latin -> INTERVAL OF EXACT FORTY SIX. THIS INTERVAL IS NOT A"
+}

@@ -1,0 +1,704 @@
+{
+  "page": "p10",
+  "line_id": 3,
+  "line_bbox": [
+    187,
+    328,
+    745,
+    44
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ca. 34 stilisierten, geometrisch-angularen Glyphen in einem runen-/magischen Alphabet (möglicherweise Thebanisch o.ä.). Die Zeichenformen erinnern visuell an lateinische Großbuchstaben (T, X, D, J, H, I, Y, M) und Ziffern (1, 7, 8), sind aber durchgehend in einem nicht-standardisierten, eckigen Stil ausgeführt. Ein Punctum (Trennpunkt) erscheint mittig als Wort-/Phrasentrenner.",
+  "n_glyphs_vision": 35,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 29,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Eckige T-Form: vertikaler Schaft mit horizontaler Kappe; erinnert an lateinisches T im Runenstil",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.086,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          28,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          82,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige D-Form: vertikaler linker Schaft mit eckiger Klammer rechts; erinnert an lateinisches D",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          114,
+          15,
+          20,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "J-Form: geschwungener Haken mit absteigendem Schwanz unter Grundlinie; erinnert an lateinisches J",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          136,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          163,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-Form: zwei vertikale Schäfte mit horizontaler Querverbindung; erinnert an lateinisches H",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          193,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          208,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Eckige Form mit kurzem oberem Querstrich und abgewinkeltem/absteigendem Schaft; erinnert an Ziffer 7 oder stilisiertes Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          237,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Acht-/8-Form: zwei vertikal gestapelte ovale/runde Bögen; erinnert an Ziffer 8 oder lateinisches B",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          266,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Y-Form: gegabelter Kopf mit zentralem vertikalem Schaft; erinnert an lateinisches Y",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          295,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          311,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-Form: zwei vertikale Schäfte mit horizontaler Querverbindung; erinnert an lateinisches H",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          338,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          367,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-Form: zwei vertikale Schäfte mit horizontaler Querverbindung; erinnert an lateinisches H",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          397,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          438,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige D-Form: vertikaler linker Schaft mit eckiger Klammer rechts; erinnert an lateinisches D",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          497,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          512,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-Form: zwei vertikale Schäfte mit horizontaler Querverbindung; erinnert an lateinisches H",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          582,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          597,
+          15,
+          20,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "J-Form: geschwungener Haken mit absteigendem Schwanz unter Grundlinie; erinnert an lateinisches J",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz-/X-Form: zwei sich diagonal kreuzende Striche; erinnert an lateinisches X",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          663,
+          15,
+          20,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "J-Form: geschwungener Haken mit absteigendem Schwanz unter Grundlinie; erinnert an lateinisches J",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          686,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          701,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-Form: zwei vertikale Schäfte mit horizontaler Querverbindung; erinnert an lateinisches H",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 484,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        197,
+        338,
+        726,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        418,
+        45,
+        10,
+        10
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt (Interpunkt/Trennpunkt) auf Mittellinienhöhe; fungiert als Wort-/Phrasenseparator",
+      "confidence": 0.95,
+      "unicode_codepoint_candidate": "U+00B7"
+    },
+    {
+      "bbox": [
+        729,
+        15,
+        38,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "M-Form: drei vertikale Schäfte mit zwei schrägen/eingeknickten Verbindungen; erinnert an lateinisches M",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        770,
+        15,
+        12,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        785,
+        15,
+        12,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        800,
+        15,
+        12,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Einzelner vertikaler Strich; erinnert an lateinisches I oder Ziffer 1",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        815,
+        15,
+        25,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Y-Form: gegabelter Kopf mit zentralem vertikalem Schaft; erinnert an lateinisches Y",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 3: latin -> RE NO ORDINARY BEINGS."
+}

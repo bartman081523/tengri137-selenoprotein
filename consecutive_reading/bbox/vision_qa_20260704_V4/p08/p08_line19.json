@@ -1,0 +1,569 @@
+{
+  "page": "p08",
+  "line_id": 19,
+  "line_bbox": [
+    210,
+    1436,
+    701,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile aus einer kontinuierlichen Glyphen-Sequenz einer unbekannten geometrischen/eckigen Schrift, abgeschlossen durch ein lateinisches Großbuchstaben-D. Einleitendes Punctum links.",
+  "n_glyphs_vision": 30,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 20,
+  "n_unmatched_vision_glyphs": 10,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          22,
+          18,
+          28,
+          66
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offene nach links gewölbte Form ähnlich einem gespiegelten 'c' oder 'e' ohne Querstrich.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          16,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Pfeil-/K-förmige Glyphe: Vertikalstrich mit zwei nach rechts oben und rechts unten abgehenden Diagonalen (K/Pfeilspitze).",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          102,
+          16,
+          8,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Dünner, hoher Vertikalstrich (i/l-ähnlich, ohne Punkt).",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          16,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "K-/Pfeil-Glyphe, zweiteilig wirkend: Vertikale mit zwei rechten Diagonalen.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          162,
+          16,
+          8,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Hoher dünner Vertikalstrich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          184,
+          32,
+          22,
+          38
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinklige '>'-ähnliche Glyphe (rechts zeigender Chevron).",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.066,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          218,
+          16,
+          8,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Hoher dünner Vertikalstrich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          236,
+          16,
+          18,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/J-förmige Glyphe: Vertikalstrich mit Haken nach links unten.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          266,
+          18,
+          34,
+          38
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "V-/Λ-förmige Glyphe, oben spitz, unten offen (Dreieck, Spitze oben).",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.25,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          308,
+          16,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "K-/Pfeil-Glyphe mit Vertikale und zwei rechten Diagonalen.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          348,
+          16,
+          26,
+          70
+        ],
+        "visual_kind": "digit",
+        "description": "'4'-ähnliche Glyphe: Vertikale, Querstrich und absteigender Schrägstrich (eher stilisiert).",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          386,
+          18,
+          26,
+          66
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "'D'/')'-ähnliche Glyphe: nach links offener Halbkreis, oben und unten mit kleinen Ansätzen.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          422,
+          30,
+          32,
+          38
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "V-/Λ-förmige Glyphe, oben spitz.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.092,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          462,
+          16,
+          8,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Hoher dünner Vertikalstrich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          482,
+          16,
+          18,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/J-förmige Glyphe mit linkem Haken unten.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          510,
+          16,
+          18,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/J-förmige Glyphe mit linkem Haken unten.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          16,
+          26,
+          70
+        ],
+        "visual_kind": "digit",
+        "description": "'3'-ähnliche Glyphe: zwei nach links offene Bögen übereinander.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          580,
+          22,
+          32,
+          56
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kreis mit zentralem Innenpunkt (Zielscheibe / ⊕-ähnlich).",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          624,
+          16,
+          32,
+          68
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis/Θ-förmige Glyphe, evtl. mit zentralem Querstrich.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.154,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          666,
+          16,
+          8,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Hoher dünner Vertikalstrich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 462,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        220,
+        1446,
+        682,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        4,
+        36,
+        8,
+        8
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt, isoliert am Zeilenanfang (Punctum/Trenner).",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        684,
+        16,
+        26,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Y-förmige Glyphe: Vertikale unten, oben in zwei Diagonalen gespalten.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        720,
+        16,
+        18,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Haken-/J-förmige Glyphe.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        748,
+        16,
+        32,
+        68
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis/Θ-förmige Glyphe, evtl. mit zentralem Querstrich.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        790,
+        30,
+        22,
+        38
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinklige '>'-ähnliche Glyphe.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        824,
+        22,
+        32,
+        56
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Kreis mit zentralem Innenpunkt (Zielscheibe / ⊕-ähnlich).",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        864,
+        16,
+        26,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Y-förmige Glyphe: Vertikale unten, oben in zwei Diagonalen gespalten.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        900,
+        30,
+        22,
+        38
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinklige '>'-ähnliche Glyphe.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        930,
+        16,
+        32,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "K-/Pfeil-Glyphe mit Vertikale und zwei rechten Diagonalen.",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        970,
+        30,
+        44,
+        38
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelter Chevron '>>' (zwei hintereinander gesetzte '>'-Glyph en).",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "D",
+      "bbox": [
+        1024,
+        16,
+        38,
+        70
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 19: unknown -> - red text label \"1. ki?s\" — the \"?\" is a literal question-mark"
+}

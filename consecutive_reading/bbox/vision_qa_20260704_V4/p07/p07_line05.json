@@ -1,0 +1,188 @@
+{
+  "page": "p07",
+  "line_id": 5,
+  "line_bbox": [
+    418,
+    419,
+    304,
+    45
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Reihe runisch-wirkender Glyphen (offenbar Ziffern einer Magic-Cube-Lesart) gefolgt von vier lateinischen Großbuchstaben 'DHJG'. Der führende Punkt wirkt wie ein Punctum/Trenner.",
+  "n_glyphs_vision": 9,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 5,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          20,
+          30,
+          18,
+          28
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner, isolierter schwarzer Punkt/Punctum am Zeilenanfang (evtl. Trennzeichen)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 378,
+      "iou": 0.107,
+      "page_glyph_bbox": [
+        428,
+        429,
+        285,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          5,
+          55,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmige Rune mit gegabeltem Kopf und geradem Schaft (ähnelt einer angelsächsischen Wyn-Rune oder einem 'Y')",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 378,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        428,
+        429,
+        285,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          5,
+          40,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Schmale vertikale Figur mit zwei kurzen, nach links unten gerichteten Füßchen (ähnelt 'I'/'1' mit Serifen)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 378,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        428,
+        429,
+        285,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          5,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer nach rechts offen ('J'-/']'-Form) mit kurzem vertikalem Schaft",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 378,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        428,
+        429,
+        285,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          265,
+          5,
+          55,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Pfeil-/Winkel-Glyphe nach rechts ('>' oder '3'-ähnlich), Spitze in der Mitte",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 378,
+      "iou": 0.095,
+      "page_glyph_bbox": [
+        428,
+        429,
+        285,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        330,
+        5,
+        50,
+        75
+      ],
+      "visual_kind": "other",
+      "description": "Doppelbogen-Glyphe ('B'/'8'-förmig) mit zwei aufeinanderliegenden Halbkreisen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        395,
+        5,
+        50,
+        75
+      ],
+      "visual_kind": "other",
+      "description": "Z-förmige/zickzack-artige Rune mit zwei Diagonalstrichen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        460,
+        5,
+        65,
+        75
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Kreis mit zentralem Punkt und zwei weiteren Punkten darin (Drei-Punkt-Gesicht / 'magisches' Sigill)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        540,
+        5,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Klammer nach rechts offen (Spiegelung der vorherigen Klammer, '['-Form)",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "DHJG",
+      "bbox": [
+        640,
+        0,
+        290,
+        90
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 5: magic_cube_line -> 644        9         13     (=666)"
+}

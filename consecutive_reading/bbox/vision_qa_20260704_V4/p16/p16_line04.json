@@ -1,0 +1,126 @@
+{
+  "page": "p16",
+  "line_id": 4,
+  "line_bbox": [
+    378,
+    642,
+    367,
+    41
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zwei Gruppen roter, stilisierter Glyphen in einer dekorativ-verschnörkelten Schrift, links 3 Zeichen, rechts 4 Zeichen, mit reichlich Leerraum dazwischen. Keine klaren lateinischen Wörter oder Zahlen erkennbar.",
+  "n_glyphs_vision": 7,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          50,
+          60
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Erstes Glyph links: stilisiertes o/δ mit oben ansetzendem, abwärts geschwungenem Schwanz (wie ein lateinisches o mit Häkchen oder ein runenartiges Zeichen)",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 787,
+      "iou": 0.273,
+      "page_glyph_bbox": [
+        388,
+        653,
+        39,
+        21
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        50,
+        0,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zweites Glyph links: öffnende Klammer oder gamma-förmiges Zeichen mit ausgeprägter Vertikale und nach links geöffnetem Bogen",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        100,
+        0,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Drittes Glyph links: stilisiertes D oder liegendes Rechteck mit gerundeter linker Seite",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        550,
+        0,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Erstes Glyph rechts: nach links geöffnete Klammer bzw. umgedrehtes c mit spitzem Endpunkt",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        600,
+        0,
+        50,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "Zweites Glyph rechts: stilisiertes H oder A mit zwei parallelen Vertikalen und Querstrich, oben in Bögen auslaufend",
+      "confidence": 0.35
+    },
+    {
+      "bbox": [
+        650,
+        0,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Drittes Glyph rechts: gamma- oder y-förmiges Zeichen mit abwärts zeigendem Haken",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        700,
+        0,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Letztes Glyph rechts: stilisiertes D oder liegendes Rechteck mit gerundeter linker Kante, ähnlich dem dritten Glyph der linken Gruppe",
+      "confidence": 0.45
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "horizontal_whitespace",
+      "description": "Großer freier Bereich zwischen linker und rechter Glyphengruppe (deutliche Trennung)",
+      "bbox": [
+        150,
+        0,
+        400,
+        60
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 4: latin -> CHANGE ANY OF THIS VALUES IN THIS CALCULATION."
+}

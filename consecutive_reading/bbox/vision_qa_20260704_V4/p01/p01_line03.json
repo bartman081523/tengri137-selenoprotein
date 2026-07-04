@@ -1,0 +1,530 @@
+{
+  "page": "p01",
+  "line_id": 3,
+  "line_bbox": [
+    188,
+    455,
+    752,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile unbekannter geometrischer Glyphen (Tengri/Runen-artig). Keine lateinischen Buchstaben, Zahlen oder Formeln sichtbar; mittig ein einzelnes Punctum als Trenner.",
+  "n_glyphs_vision": 32,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 17,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          5,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geöffneter, nach links gewölbter Bogen / Klammer-Glyphe (C-Form mit geraden Enden)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.159,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          5,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Geschlossene D-Form / Rechteck mit gerundeter rechter Seite (D-Glyph)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          5,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "H-förmiger Glyph mit zwei vertikalen Stegen und Querbalken",
+        "confidence": 0.88
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          5,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Doppelkreis / 8-förmiger Glyph (zwei vertikal gestapelte Ovale mit Verbindung)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          215,
+          5,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y- oder gabelartiger Glyph (oben gegabelt, unten zu einem Stamm vereint)",
+        "confidence": 0.82
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          265,
+          5,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rautenförmiger Glyph (X mit vier ausgeprägten Spitzen)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          5,
+          25,
+          70
+        ],
+        "visual_kind": "punctum",
+        "description": "Punkt/Punctum als Wort- oder Phrasentrenner",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          360,
+          5,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiger Glyph (vertikaler Steg mit drei waagerechten Zinken nach rechts)",
+        "confidence": 0.88
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          415,
+          5,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "H-Glyph mit kräftigem Querbalken mittig",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          5,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "T-förmiger oder pfeilartiger Glyph (vertikaler Stamm mit kurzem Querbalken oben)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          5,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "K-förmiger Glyph (vertikaler Stamm mit zwei nach rechts oben gerichteten Diagonalen)",
+        "confidence": 0.87
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          5,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Haken-Glyph (nach links unten offener Bogen)",
+        "confidence": 0.86
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          610,
+          5,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Haken-Glyph (zweiter, leicht abweichender Bogen)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          5,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "X- oder Gabel-Glyph (gekreuzte Diagonalen)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          710,
+          5,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiger Glyph mit drei Zinken (Variante)",
+        "confidence": 0.84
+      },
+      "matched_glyph_index": 6,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        198,
+        465,
+        733,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        765,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "9- oder B-förmiger Glyph (geschlossener oberer Bogen, gerader Steg unten)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        815,
+        5,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rauten-Glyph mit zentralem Punkt / Mandorla mit Auge",
+      "confidence": 0.92
+    },
+    {
+      "bbox": [
+        875,
+        5,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "?- oder hakenförmiger Glyph mit Diagonale nach unten rechts",
+      "confidence": 0.83
+    },
+    {
+      "bbox": [
+        930,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-förmiger Glyph mit Querbalken",
+      "confidence": 0.88
+    },
+    {
+      "bbox": [
+        980,
+        5,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "X-Glyph / gekreuzte Diagonalen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1035,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "K-förmiger Glyph (vertikaler Stamm, Diagonale oben rechts)",
+      "confidence": 0.86
+    },
+    {
+      "bbox": [
+        1085,
+        5,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "X-Glyph / gekreuzte Diagonalen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1140,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "4-förmiger Glyph (Winkel mit Querstrich)",
+      "confidence": 0.84
+    },
+    {
+      "bbox": [
+        1190,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-förmiger Glyph",
+      "confidence": 0.88
+    },
+    {
+      "bbox": [
+        1240,
+        5,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-/Haken-Glyph",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1285,
+        5,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "T-förmiger Glyph (vertikaler Stamm, kurzer Querbalken)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1330,
+        5,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "X-Glyph / gekreuzte Diagonalen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1385,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-förmiger Glyph",
+      "confidence": 0.88
+    },
+    {
+      "bbox": [
+        1435,
+        5,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "X-Glyph / gekreuzte Diagonalen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1490,
+        5,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "3- oder E-förmiger Glyph (zwei nach rechts offene Bögen)",
+      "confidence": 0.84
+    },
+    {
+      "bbox": [
+        1545,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "9-/B-förmiger Glyph",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1595,
+        5,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Schließender D-Glyph am Zeilenende",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 3: latin -> RE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND US"
+}

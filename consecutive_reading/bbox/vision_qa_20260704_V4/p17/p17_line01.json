@@ -1,0 +1,152 @@
+{
+  "page": "p17",
+  "line_id": 1,
+  "line_bbox": [
+    173,
+    242,
+    826,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch als Faktorisierung: Zähler mit 2^5 · 13 · 37 · 179 · 471077143 über Nenner 23 · 53 · 2711 · 897232321, getrennt durch horizontalen Bruchstrich; rechts ein Tintenklecks/Fragment und ein kleiner Punkt oben rechts.",
+  "n_glyphs_vision": 2,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        530,
+        55,
+        130,
+        100
+      ],
+      "visual_kind": "unknown",
+      "description": "Großer unregelmäßiger schwarzer Tintenfleck/Klecks, möglicherweise Fragment eines Glyphs oder Stempelabdrucks",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        710,
+        5,
+        15,
+        20
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner schwarzer Punkt/Punktuation oben rechts",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2^5",
+      "bbox": [
+        5,
+        5,
+        35,
+        45
+      ]
+    },
+    {
+      "value": "13",
+      "bbox": [
+        45,
+        10,
+        45,
+        40
+      ]
+    },
+    {
+      "value": "37",
+      "bbox": [
+        105,
+        10,
+        45,
+        40
+      ]
+    },
+    {
+      "value": "179",
+      "bbox": [
+        165,
+        10,
+        70,
+        40
+      ]
+    },
+    {
+      "value": "471077143",
+      "bbox": [
+        245,
+        10,
+        220,
+        45
+      ]
+    },
+    {
+      "value": "23",
+      "bbox": [
+        5,
+        85,
+        40,
+        40
+      ]
+    },
+    {
+      "value": "53",
+      "bbox": [
+        55,
+        85,
+        40,
+        40
+      ]
+    },
+    {
+      "value": "2711",
+      "bbox": [
+        110,
+        85,
+        85,
+        40
+      ]
+    },
+    {
+      "value": "897232321",
+      "bbox": [
+        210,
+        85,
+        255,
+        45
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(2^5 · 13 · 37 · 179 · 471077143) / (23 · 53 · 2711 · 897232321)",
+      "bbox": [
+        5,
+        5,
+        460,
+        130
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Horizontale Bruchlinie/Trennstrich zwischen Zähler und Nenner",
+      "bbox": [
+        0,
+        60,
+        465,
+        8
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> IF YOU ARE NOT CONVINCED THEN CALCULATE THE NEXT"
+}

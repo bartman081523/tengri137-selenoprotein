@@ -1,0 +1,120 @@
+{
+  "page": "p20",
+  "line_id": 1,
+  "line_bbox": [
+    173,
+    241,
+    421,
+    59
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Zwei übereinanderstehende Faktorisierungs-Zeilen mit langen Dezimalzahlen, getrennt durch eine horizontale Trennlinie. Keine unbekannten Glyphen, keine lateinischen Wörter.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 7,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3^3",
+      "bbox": [
+        10,
+        20,
+        50,
+        45
+      ]
+    },
+    {
+      "value": "181",
+      "bbox": [
+        105,
+        20,
+        50,
+        45
+      ]
+    },
+    {
+      "value": "2189063462133001",
+      "bbox": [
+        185,
+        20,
+        215,
+        45
+      ]
+    },
+    {
+      "value": "2200090878113885145223181",
+      "bbox": [
+        425,
+        20,
+        365,
+        45
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        20,
+        130,
+        20,
+        45
+      ]
+    },
+    {
+      "value": "7229",
+      "bbox": [
+        85,
+        130,
+        60,
+        45
+      ]
+    },
+    {
+      "value": "1637366199410300672118977525754965751629",
+      "bbox": [
+        175,
+        130,
+        705,
+        45
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3^3 x 181 x 2189063462133001 x 2200090878113885145223181",
+      "bbox": [
+        5,
+        15,
+        790,
+        55
+      ]
+    },
+    {
+      "raw": "5 x 7229 x 1637366199410300672118977525754965751629",
+      "bbox": [
+        15,
+        125,
+        870,
+        55
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_separator_line",
+      "description": "Durchgehende waagerechte schwarze Linie zwischen den beiden Faktorisierungs-Zeilen",
+      "bbox": [
+        5,
+        90,
+        880,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> THERE ARE PEOPLE AMONG YOU"
+}

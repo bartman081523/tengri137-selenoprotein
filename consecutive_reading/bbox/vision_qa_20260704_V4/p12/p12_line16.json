@@ -1,0 +1,577 @@
+{
+  "page": "p12",
+  "line_id": 16,
+  "line_bbox": [
+    198,
+    1146,
+    741,
+    45
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile mit stilisierten geometrischen Glyphen und lateinischen Großbuchstaben sowie Ziffern, getrennt durch einen Punkt-Separator. Die Zeichen wirken kantig/eckig, möglicherweise eine Kombination aus unbekannter historischer Schrift (linke Hälfte, stärker verziert) und lateinischem Text.",
+  "n_glyphs_vision": 22,
+  "n_latin_tokens": 8,
+  "n_numerics": 6,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          10,
+          70,
+          80
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Stark verzierte X-/T-förmige Figur mit Serifen oben und unten, ähnelt einem okkulten Sigill",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.139,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen mit doppelten Vertikalen und Querbalken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "S-förmige Kurve, ähnlich einem Runen- oder Sigmoid",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 9 oder g-förmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "F-förmiges Zeichen mit zwei Querbalken",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          270,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Doppelte Rundung / Ziffer 8",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "F-förmiges Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 9",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "F-förmiges Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "J-förmiges Zeichen mit unterer Kurve",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          10,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "X-förmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          625,
+          10,
+          25,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 1 (vertikaler Strich)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 605,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        208,
+        1156,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          650,
+          10,
+          25,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 1",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 606,
+      "iou": 0.082,
+      "page_glyph_bbox": [
+        862,
+        1156,
+        68,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          10,
+          25,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 1",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 606,
+      "iou": 0.208,
+      "page_glyph_bbox": [
+        862,
+        1156,
+        68,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          10,
+          25,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 1",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 606,
+      "iou": 0.208,
+      "page_glyph_bbox": [
+        862,
+        1156,
+        68,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        725,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Zeichen mit unterer Kurve (Endschwung)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        780,
+        10,
+        30,
+        80
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer 0 / O",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        820,
+        10,
+        25,
+        80
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer 1 (vertikaler Strich)",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        845,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        895,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "S-förmige Kurve",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        945,
+        10,
+        25,
+        80
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer 1 / I",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "XHSII",
+      "bbox": [
+        0,
+        10,
+        175,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "FF",
+      "bbox": [
+        220,
+        10,
+        100,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "HF",
+      "bbox": [
+        320,
+        10,
+        100,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "FFJ",
+      "bbox": [
+        470,
+        10,
+        100,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "X",
+      "bbox": [
+        570,
+        10,
+        50,
+        80
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "J",
+      "bbox": [
+        725,
+        10,
+        50,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "IHSII",
+      "bbox": [
+        820,
+        10,
+        150,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "FFD",
+      "bbox": [
+        995,
+        10,
+        100,
+        80
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "numerics": [
+    {
+      "value": "9",
+      "bbox": [
+        170,
+        10,
+        50,
+        80
+      ]
+    },
+    {
+      "value": "8",
+      "bbox": [
+        270,
+        10,
+        50,
+        80
+      ]
+    },
+    {
+      "value": "9",
+      "bbox": [
+        420,
+        10,
+        50,
+        80
+      ]
+    },
+    {
+      "value": "1111",
+      "bbox": [
+        625,
+        10,
+        100,
+        80
+      ]
+    },
+    {
+      "value": "0",
+      "bbox": [
+        780,
+        10,
+        30,
+        80
+      ]
+    },
+    {
+      "value": "4",
+      "bbox": [
+        975,
+        10,
+        30,
+        80
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctum",
+      "description": "Mittelpunkt/Punkt als Wortseparator",
+      "bbox": [
+        815,
+        40,
+        10,
+        15
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> THIS IS NOT THE END. CALCULATE THE ABOVE NUMBER."
+}

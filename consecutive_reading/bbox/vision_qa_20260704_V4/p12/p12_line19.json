@@ -1,0 +1,564 @@
+{
+  "page": "p12",
+  "line_id": 19,
+  "line_bbox": [
+    190,
+    1270,
+    748,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile aus überwiegend unbekannten geometrischen Glyphen (diamantförmige, pfeilartige, vertikale Formen) mit vereinzelten lateinisch anmutenden Buchstaben (D, H, X, I, V, Y). Zwei erkennbare Puncta gliedern die Zeile in drei Abschnitte.",
+  "n_glyphs_vision": 25,
+  "n_latin_tokens": 9,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 17,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          12,
+          5,
+          35,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Angulare Form, ähnelt einer geschwungenen Klammer oder einem stilisierten 'I' mit oberem Haken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 612,
+      "iou": 0.208,
+      "page_glyph_bbox": [
+        200,
+        1280,
+        142,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          8,
+          38,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmige/rhombische Figur mit zentralem Punkt (Medialpunkt) im Inneren",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 612,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        200,
+        1280,
+        142,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          12,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleine angulare Form, möglicherweise ein Pfeil oder Winkel",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 612,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        200,
+        1280,
+        142,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          10,
+          35,
+          58
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Angulare Form mit Haken, ähnlich einem kleinen 'J' oder Winkel",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 613,
+      "iou": 0.25,
+      "page_glyph_bbox": [
+        352,
+        1281,
+        62,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          8,
+          38,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Zweite Raute mit zentralem Punkt im Inneren",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 613,
+      "iou": 0.24,
+      "page_glyph_bbox": [
+        352,
+        1281,
+        62,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          240,
+          8,
+          45,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Bogenförmige Form ähnlich lateinischem 'D', möglicherweise aber ein eigenständiges Sigill",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          295,
+          8,
+          40,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Kreuz/H-ähnliche Form mit vertikalem Schaft und zwei Querstrichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          8,
+          38,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Dritte Raute mit zentralem Punkt im Inneren",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          10,
+          35,
+          58
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Raute/Rhombus ohne Innenpunkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.233,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          12,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeilartige nach links offene Winkelform",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          460,
+          10,
+          32,
+          58
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Angulare Form ähnlich '>'-Spitze",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.233,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          10,
+          30,
+          58
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Schaft mit kurzem Querstrich (T-ähnlich oder Kreuzform)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.233,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          560,
+          8,
+          18,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schlanker vertikaler Strich, ähnelt einem stilisierten 'I'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          585,
+          8,
+          38,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Form ähnlich lateinischem 'H' mit vertikalem Schaft und Querstrich",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          8,
+          18,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schlanker vertikaler Strich ('I'-ähnlich)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          8,
+          45,
+          60
+        ],
+        "visual_kind": "math_times",
+        "description": "Kreuzförmiges 'X'-Zeichen aus zwei sich schneidenden Diagonalen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          710,
+          8,
+          40,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Form ähnlich lateinischem 'H' oder Ziffer '4' mit Querstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 614,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        424,
+        1280,
+        505,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        530,
+        38,
+        10,
+        10
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines Punctum/Trennzeichen",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        755,
+        8,
+        18,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schlanker vertikaler Strich ('I')",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        780,
+        8,
+        40,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "V- oder Y-förmige Gabelung nach oben",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        825,
+        12,
+        28,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeil-/Winkelform '>'",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        860,
+        12,
+        28,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zweiter Pfeil '>'",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        895,
+        8,
+        42,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Bogenförmige Form ähnlich lateinischem 'D'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        945,
+        38,
+        10,
+        10
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines Punctum/Trennzeichen",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        970,
+        8,
+        40,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Letztes Zeichen: 'H'-ähnliche Form mit vertikalem Schaft und zwei Querstrichen",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "D",
+      "bbox": [
+        240,
+        8,
+        45,
+        60
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "H",
+      "bbox": [
+        295,
+        8,
+        40,
+        60
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "I",
+      "bbox": [
+        560,
+        8,
+        18,
+        60
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "H",
+      "bbox": [
+        585,
+        8,
+        38,
+        60
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "X",
+      "bbox": [
+        655,
+        8,
+        45,
+        60
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "H",
+      "bbox": [
+        710,
+        8,
+        40,
+        60
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "I",
+      "bbox": [
+        755,
+        8,
+        18,
+        60
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "V",
+      "bbox": [
+        780,
+        8,
+        40,
+        60
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "D",
+      "bbox": [
+        895,
+        8,
+        42,
+        60
+      ],
+      "confidence": 0.55
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 19: latin -> NUMBER AS THE PROOF OF YOUR WORK."
+}

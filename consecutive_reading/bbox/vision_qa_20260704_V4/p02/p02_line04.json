@@ -1,0 +1,268 @@
+{
+  "page": "p02",
+  "line_id": 4,
+  "line_bbox": [
+    388,
+    369,
+    363,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile mit rund 20 unbekannten geometrischen/verschlüsselten Glyphen. Keine direkt lesbaren lateinischen Wörter erkennbar. Vorherrschend sind winkel-/klammerförmige Zeichen, eine Raute mit Mittelpunkt und wenige ziffernähnliche Formen.",
+  "n_glyphs_vision": 20,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 18,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          25,
+          50,
+          100
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelform mit horizontalem Oberbalken und absteigendem Schaft, ähnelt einem umgekehrten L oder Integralzeichen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 34,
+      "iou": 0.06,
+      "page_glyph_bbox": [
+        398,
+        379,
+        344,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          25,
+          50,
+          100
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Wiederholung der Winkelform (wie Glyphe 2)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 34,
+      "iou": 0.06,
+      "page_glyph_bbox": [
+        398,
+        379,
+        344,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        8,
+        70,
+        18,
+        18
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kleiner gefüllter Punkt/Bullet am Zeilenanfang",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        110,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "E-ähnliche Form mit gebogener linker Kante und horizontaler Linie (∈-Variante)",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        165,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "math_times",
+      "description": "Kreuzförmiges X mit zwei diagonalen Strichen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        275,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmiges Zeichen mit gegabeltem Oberteil",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        330,
+        20,
+        60,
+        110
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Symbol mit zentralem Punkt (◇ mit •)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        395,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spiegelverkehrte E-Form (∋-Variante)",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        450,
+        25,
+        50,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "d- oder ∂-ähnliches Zeichen mit modifiziertem Schaft",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        505,
+        20,
+        50,
+        110
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit zwei vertikalen Schäften und Querbalken",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        560,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffernähnliches Zeichen, ähnlich 3 oder rückwärts E mit gebogenen Enden",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        615,
+        25,
+        50,
+        100
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Wiederholung der Winkelform (wie Glyphen 2 und 5)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        670,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "digit",
+      "description": "Zweite ziffernähnliche Form, ähnlich 3",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        725,
+        20,
+        50,
+        110
+      ],
+      "visual_kind": "other",
+      "description": "D-förmiges Zeichen mit geradem Rücken und gebogener Vorderseite",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        780,
+        25,
+        50,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "8-förmiges Zeichen aus zwei verbundenen Kreisen/Bögen",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        835,
+        20,
+        50,
+        110
+      ],
+      "visual_kind": "other",
+      "description": "Zweites H-förmiges Zeichen (Wiederholung von Glyphe 10)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        890,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rechtswinklige Klammer (›-Form), nach rechts geöffnet",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        940,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zweite rechtswinklige Klammer (›)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        990,
+        30,
+        50,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Dritte rechtswinklige Klammer (›)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1035,
+        20,
+        30,
+        110
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffernähnliches Zeichen, ähnlich 4 mit Querstrich",
+      "confidence": 0.75
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 4: latin -> ROUGHT YOU KNOWLEDGE."
+}

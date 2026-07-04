@@ -1,0 +1,84 @@
+{
+  "page": "p20",
+  "line_id": 13,
+  "line_bbox": [
+    173,
+    1058,
+    680,
+    157
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Diese Zeile enthält mehrere Primfaktorzerlegungen sehr großer Zahlen, die über mehrere visuelle Zeilen umbrechen. Am rechten Rand befinden sich dunkle Figurensilhouetten als Verzierung.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 1,
+  "n_formulas": 4,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "10426002464101768760301375509008902142020785467",
+      "bbox": [
+        0,
+        120,
+        440,
+        22
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3 × 5 × 193 × 177007 × 145352101 × 11126669689629957731",
+      "bbox": [
+        0,
+        0,
+        540,
+        22
+      ]
+    },
+    {
+      "raw": "2^4 × 7 × 31 × 1949 × 3572351 × 7440934973 × 20202063303883",
+      "bbox": [
+        0,
+        24,
+        590,
+        22
+      ]
+    },
+    {
+      "raw": "3 × 5^2 × 11 × 71 × 24071 × 3024277907615975519721629",
+      "bbox": [
+        0,
+        60,
+        510,
+        22
+      ]
+    },
+    {
+      "raw": "8893 × 171917 × 12229404472908215507578351",
+      "bbox": [
+        0,
+        84,
+        470,
+        22
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "silhouette_figure",
+      "description": "Dunkle, fragmentarische Figurensilhouetten am rechten Rand – wirken wie mehrere verschachtelte menschliche oder abstrakte Gestalten in Schwarz",
+      "bbox": [
+        620,
+        0,
+        80,
+        145
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 13: latin -> NOTHING MORE AND NOTHING LESS"
+}

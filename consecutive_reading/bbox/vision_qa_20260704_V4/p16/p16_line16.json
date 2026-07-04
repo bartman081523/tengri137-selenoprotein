@@ -1,0 +1,570 @@
+{
+  "page": "p16",
+  "line_id": 16,
+  "line_bbox": [
+    199,
+    1404,
+    739,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Reihe unbekannter geometrischer Glyphen mit Winkelhaken, Kreisen und Rauten; gegen Ende ein einzelner Punkt (Bullet) als Trenner, gefolgt von weiteren Glyphen. Kein erkennbarer lateinischer Text sichtbar.",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit kurzer oberer Biegung nach links, ähnlich einem offenen Winkel",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          38,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Gebilde, zwei nach oben divergierende Striche, vereint in vertikalem Schaft",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          76,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Raute / rhombusförmiges geschlossenes Polygon",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          114,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Offener Kreis oder gebogener Winkel, möglicherweise Rest einer Kreisform",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          152,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X- oder stundenglasförmiges Gebilde, zwei sich kreuzende Dreiecke",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach links offene Klammer / Winkel mit absteigendem Strich",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          228,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Komplexes Winkelzeichen, Y-ähnlich mit zusätzlichem Haken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          266,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkliges Zeichen, ähnlich einem kleinen Dach über Vertikalem",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          304,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppel-Y oder M-förmiges Gebilde mit zwei Spitzen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          342,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "T-förmiges oder p-förmiges Zeichen mit Querbalken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          380,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach links offener Winkel, spitzwinklig",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          418,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis, leicht offen oder mit Lochung",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          456,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt / Dot",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          494,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkliges Winkelzeichen, zwei nach unten konvergierende Striche",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          532,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelzeichen ähnlich, nach oben offen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkliges Gebilde mit abwärts gerichtetem Haken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          608,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Komplexeres Zeichen mit oberem Querstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          646,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "W-förmiges oder doppelt-V-förmiges Gebilde",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          684,
+          5,
+          35,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiges Zeichen mit zwei Querstrichen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 809,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        209,
+        1414,
+        720,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        722,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Ähnliches E- oder M-artiges Gebilde",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        760,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Punkt, zweite Instanz",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        798,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinkliges Winkelzeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        836,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Gebilde, zwei nach oben offene Striche",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        874,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikaler Strich mit kleinem oberen Haken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        912,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y- oder V-artiges Gebilde",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        950,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfacher Winkelstrich",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        988,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X- oder kreuzförmiges Zeichen",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1026,
+        25,
+        12,
+        25
+      ],
+      "visual_kind": "punctum",
+      "description": "Eigenständiger Punkt / Bullet als Trennzeichen",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1050,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinkliges Winkelzeichen nach Ende des Punktes",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1088,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y- oder V-förmiges Gebilde, finales Zeichen der Zeile",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1126,
+        5,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikaler Strich mit Haken, letztes Zeichen",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctum_separator",
+      "description": "Einzelner Punkt (Bullet) als Wort- oder Phrasentrenner etwa bei 75% der Zeilenbreite",
+      "bbox": [
+        1024,
+        22,
+        16,
+        30
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> EXACT CALCULATIONS. THIS IS OUR ULTIMATE PROOF. OUR"
+}

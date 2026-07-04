@@ -1,0 +1,504 @@
+{
+  "page": "p12",
+  "line_id": 4,
+  "line_bbox": [
+    186,
+    387,
+    752,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "A horizontal sequence of approximately 26 unknown geometric/runic glyphs separated by two small dots. The glyphs include diamond-with-dot motifs, Y-shapes, H-shapes, chevrons, X-shapes, arrows, and complex multi-stroke figures resembling a Turkic runic script.",
+  "n_glyphs_vision": 26,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 7,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          12,
+          5,
+          55,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Two adjacent Y-shaped glyphs joined at the baseline, like 'YY'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 583,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        213,
+        397,
+        81,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          72,
+          5,
+          22,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Upward-pointing arrow / chevron (like an inverted V with a vertical stem)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 583,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        213,
+        397,
+        81,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rhombus/diamond outline containing a small central dot",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          140,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "H-shaped glyph: two vertical strokes joined by a horizontal crossbar",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          5,
+          50,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Two consecutive right-pointing chevrons/arrowheads '>>'",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "K-like glyph: vertical stroke with two diagonal arms opening to the right",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rhombus/diamond outline containing a small central dot",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          5,
+          12,
+          50
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Single thick vertical bar (resembles the letter I)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          332,
+          5,
+          28,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Reversed-E or '3'-shaped glyph with three horizontal bars and a vertical spine on the right",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          5,
+          30,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Hook-shaped glyph resembling lowercase 'h': vertical stroke with a rightward arch at top",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          25,
+          8,
+          10
+        ],
+        "visual_kind": "punctum",
+        "description": "Small filled round dot (punctum) acting as separator",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          415,
+          5,
+          40,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Complex multi-stroke glyph: vertical bar on left with curved/branching elements to the right",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          460,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Plain rhombus/diamond outline (no visible center dot)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          5,
+          40,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Complex multi-stroke glyph resembling a figure with diagonal arms and a base",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          545,
+          5,
+          28,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Y-shaped glyph with two upper diagonals meeting on a single vertical stem",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          578,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Angular glyph resembling '4': vertical stroke with a horizontal/diagonal cross",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          618,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "D-shaped glyph: vertical bar on left with a rounded/curved right side",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 584,
+      "iou": 0.162,
+      "page_glyph_bbox": [
+        304,
+        397,
+        521,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          658,
+          5,
+          50,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Two consecutive right-pointing chevrons/arrowheads '>>'",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 585,
+      "iou": 0.363,
+      "page_glyph_bbox": [
+        834,
+        397,
+        95,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          713,
+          5,
+          30,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Hook-shaped glyph resembling lowercase 'h' with a rightward arch",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 585,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        834,
+        397,
+        95,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        25,
+        8,
+        10
+      ],
+      "visual_kind": "punctum",
+      "description": "Small filled round dot (punctum) at the very start of the line",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        748,
+        5,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Complex multi-stroke glyph: vertical bar with diagonal branches",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        793,
+        5,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Plain rhombus/diamond outline",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        833,
+        5,
+        28,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Y-shaped glyph",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        866,
+        5,
+        30,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "X-shaped glyph: two crossed diagonal strokes",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        901,
+        5,
+        22,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Upward-pointing arrow / chevron",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        928,
+        5,
+        30,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Angular glyph resembling '4' with vertical stroke and diagonal/horizontal cross",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 4: latin -> ONE THREE SEVEN AND YOU WILL SEE EVERYTHING CLEARLY."
+}

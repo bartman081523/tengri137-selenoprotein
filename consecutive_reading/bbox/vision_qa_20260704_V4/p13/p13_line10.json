@@ -1,0 +1,457 @@
+{
+  "page": "p13",
+  "line_id": 10,
+  "line_bbox": [
+    200,
+    990,
+    739,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ausschließlich unbekannten geometrischen/rune-artigen Glyphen, ohne erkennbare lateinische Buchstaben, Zahlen oder Formeln.",
+  "n_glyphs_vision": 29,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 11,
+  "n_unmatched_vision_glyphs": 18,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          25,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen mit gebogenem unterem Querbalken, ähnlich einem lateinischen H mit angeschwungener Basis.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 647,
+      "iou": 0.086,
+      "page_glyph_bbox": [
+        210,
+        1000,
+        195,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          20,
+          40,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Hakenförmiges Zeichen, ähnlich einem vertikalen J oder hakenartigen Sigill.",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 647,
+      "iou": 0.106,
+      "page_glyph_bbox": [
+        210,
+        1000,
+        195,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          25,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "T-förmiges Zeichen mit nach unten geschwungenem Querbalken und vertikalem Schaft.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 647,
+      "iou": 0.08,
+      "page_glyph_bbox": [
+        210,
+        1000,
+        195,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          25,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines, nach unten offenes bogenförmiges Zeichen mit vertikalem Schaft (ähnelt h oder n).",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 647,
+      "iou": 0.062,
+      "page_glyph_bbox": [
+        210,
+        1000,
+        195,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          25,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei vertikale Schäfte mit Verbindungsbalken, evtl. Y-ähnlich oder als Ligatur Y1 zu lesen.",
+        "confidence": 0.35
+      },
+      "matched_glyph_index": 648,
+      "iou": 0.08,
+      "page_glyph_bbox": [
+        414,
+        1000,
+        260,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          20,
+          55,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "T- oder stuhlartiges Zeichen mit oberer T-Querleiste und zwei absteigenden Schäften.",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 648,
+      "iou": 0.106,
+      "page_glyph_bbox": [
+        414,
+        1000,
+        260,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          25,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen mit zusätzlicher eckiger Klammer rechts.",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 648,
+      "iou": 0.078,
+      "page_glyph_bbox": [
+        414,
+        1000,
+        260,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          480,
+          25,
+          35,
+          75
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Bogen-/C-förmiges Zeichen, nach links geöffnet.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 649,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        684,
+        1000,
+        115,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          30,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "X-förmiges gekreuztes Zeichen.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 649,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        684,
+        1000,
+        115,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          25,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines bogenförmiges Zeichen mit Vertikale (h-/n-artig).",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 649,
+      "iou": 0.06,
+      "page_glyph_bbox": [
+        684,
+        1000,
+        115,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          615,
+          25,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/J-förmiges Zeichen mit zusätzlicher Horizontaler oben.",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 650,
+      "iou": 0.093,
+      "page_glyph_bbox": [
+        807,
+        1000,
+        123,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        280,
+        30,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Geschlossene ovale/achtförmige Figur, an X erinnernd.",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        330,
+        40,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilspitzen- oder >-förmiges Zeichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        670,
+        40,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilspitzen- oder >-förmiges Zeichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        705,
+        25,
+        50,
+        75
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "X-förmiges oder gekreuztes Zeichen mit vertikaler Verlängerung.",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        760,
+        25,
+        15,
+        75
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Schmales vertikales Strichzeichen (wie I oder |).",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        780,
+        30,
+        40,
+        65
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Klammerartiges Zeichen mit kleinen runden Verdickungen an den Endpunkten.",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        825,
+        20,
+        40,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Acht-/B-förmiges Zeichen aus zwei verbundenen Kreisen.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        870,
+        30,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt, klarer Diamond-Mittelpunkt-Glyph.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        925,
+        40,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilspitzen- oder >-förmiges Zeichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        960,
+        30,
+        35,
+        60
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "C- oder bogenförmiges Zeichen, links offen.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1000,
+        40,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilspitzen- oder >-förmiges Zeichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1035,
+        30,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppel-Pfeilspitze gefolgt von einem bogenförmigen Element (>>D-artig).",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1095,
+        30,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1150,
+        40,
+        30,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilspitzen- oder >-förmiges Zeichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1185,
+        25,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges oder bogenförmiges Zeichen mit Vertikale.",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1230,
+        25,
+        15,
+        75
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Schmales vertikales Strichzeichen (I-artig).",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1250,
+        25,
+        35,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Haken-/J-förmiges Zeichen.",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        1290,
+        30,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt (letztes Zeichen der Zeile).",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 10: latin -> DIFFICULT AND LONG JOURNEY. ONLY THE CHOSEN SOUL W"
+}

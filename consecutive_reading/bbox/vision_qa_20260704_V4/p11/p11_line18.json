@@ -1,0 +1,104 @@
+{
+  "page": "p11",
+  "line_id": 18,
+  "line_bbox": [
+    501,
+    1038,
+    120,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile mit einem einzelnen Punctum, gefolgt von mehreren unbekannten geometrischen Glyphen (vertikaler Strich, brakettenartiges Zeichen, quadratisches Siegelzeichen, rautenförmiges Glyph) und einer abschließenden Ziffer '1'.",
+  "n_glyphs_vision": 5,
+  "n_latin_tokens": 0,
+  "n_numerics": 1,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          15,
+          14,
+          100
+        ],
+        "visual_kind": "unknown",
+        "description": "Hoher, dünner vertikaler Strich, möglicherweise ein stilisiertes 'I' oder '1', aber ohne Serifen oder Basisstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 559,
+      "iou": 0.11,
+      "page_glyph_bbox": [
+        511,
+        1048,
+        101,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        10,
+        55,
+        20,
+        20
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner, gefüllter schwarzer Punkt/Punctum, isoliert am Zeilenanfang",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        98,
+        18,
+        55,
+        95
+      ],
+      "visual_kind": "chinese_seal_script",
+      "description": "Braketten-/winkelartiges Zeichen, ähnlich einem stilisierten '7' oder umgekehrten 'L' mit kurzem horizontalem Strich oben und längerem vertikalem Strich – erinnert an chinesisches Siegelschriftzeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        165,
+        15,
+        60,
+        100
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Quadratisches/rahmenartiges Glyph mit interner vertikaler Linie – möglicherweise ein chinesisches Siegelschriftzeichen oder ein dekoratives Symbol",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        238,
+        20,
+        55,
+        90
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rauten-/diamantförmiges Glyph mit internem vertikalem Element, möglicherweise ein stilisiertes Siegelzeichen oder ein geometrisches Ornament",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "1",
+      "bbox": [
+        305,
+        18,
+        18,
+        95
+      ],
+      "description": "Klare lateinische Ziffer '1' mit Serife oben und Basisstrich"
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 18: unknown -> the triple-horn layout) whose row, column, and diagonal sums are"
+}

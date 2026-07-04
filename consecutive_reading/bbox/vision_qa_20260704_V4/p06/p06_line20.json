@@ -1,0 +1,105 @@
+{
+  "page": "p06",
+  "line_id": 20,
+  "line_bbox": [
+    350,
+    1053,
+    426,
+    76
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Horizontaler Streifen mit diagonal geteilten Parallelogramm-Segmenten, gestrichelten vertikalen Linien am linken und rechten Rand und Zahlen '2', '648', '16' in den mittleren Segmenten.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 0,
+  "n_graphics": 5,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        370,
+        60,
+        25,
+        30
+      ]
+    },
+    {
+      "value": "648",
+      "bbox": [
+        540,
+        60,
+        45,
+        30
+      ]
+    },
+    {
+      "value": "16",
+      "bbox": [
+        735,
+        60,
+        35,
+        30
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "dashed_vertical_line",
+      "description": "Erste gestrichelte vertikale Linie am linken Rand",
+      "bbox": [
+        10,
+        0,
+        15,
+        145
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Zweite gestrichelte vertikale Linie, linke Sektion",
+      "bbox": [
+        145,
+        0,
+        15,
+        145
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dritte gestrichelte vertikale Linie, Trennung links/Mitte",
+      "bbox": [
+        295,
+        0,
+        15,
+        145
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Gestrichelte vertikale Linie am rechten Rand",
+      "bbox": [
+        915,
+        0,
+        15,
+        145
+      ]
+    },
+    {
+      "type": "parallelogram_chain",
+      "description": "Horizontaler Streifen, unterteilt in schräge Parallelogramm-Segmente durch diagonale Linien; enthält die Zahlen 2, 648, 16 in den drei mittleren Zellen",
+      "bbox": [
+        0,
+        15,
+        950,
+        125
+      ]
+    }
+  ],
+  "schmeh_hint": "Schmeh has 18 lines for this page"
+}

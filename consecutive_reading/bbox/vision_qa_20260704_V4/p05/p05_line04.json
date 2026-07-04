@@ -1,0 +1,160 @@
+{
+  "page": "p05",
+  "line_id": 4,
+  "line_bbox": [
+    350,
+    371,
+    426,
+    76
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Row of four connected parallelogram cells forming one line of a magic-cube pattern. Three of the cells contain the numbers 5, 639 and 22, which together sum to 666. Dashed vertical lines mark the cell boundaries and the row edges.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 1,
+  "n_graphics": 5,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        10,
+        15,
+        320,
+        190
+      ],
+      "visual_kind": "magic_cube_3x3",
+      "description": "First (leftmost) parallelogram-shaped cell of the magic-cube line; appears empty (no number drawn inside).",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        340,
+        15,
+        320,
+        190
+      ],
+      "visual_kind": "magic_cube_3x3",
+      "description": "Second parallelogram cell, contains the digit '5' in its lower half.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        670,
+        15,
+        320,
+        190
+      ],
+      "visual_kind": "magic_cube_3x3",
+      "description": "Third parallelogram cell, contains the number '639' in its lower half.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1000,
+        15,
+        320,
+        190
+      ],
+      "visual_kind": "magic_cube_3x3",
+      "description": "Fourth (rightmost) parallelogram cell, contains the number '22' in its lower half.",
+      "confidence": 0.8
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "5",
+      "bbox": [
+        430,
+        130,
+        50,
+        55
+      ]
+    },
+    {
+      "value": "639",
+      "bbox": [
+        735,
+        130,
+        135,
+        55
+      ]
+    },
+    {
+      "value": "22",
+      "bbox": [
+        1090,
+        130,
+        85,
+        55
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "5 + 639 + 22 = 666",
+      "bbox": [
+        10,
+        200,
+        1300,
+        15
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line at the very left edge of the row.",
+      "bbox": [
+        0,
+        0,
+        10,
+        215
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line between the first and second cell.",
+      "bbox": [
+        330,
+        0,
+        10,
+        215
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line between the second and third cell.",
+      "bbox": [
+        660,
+        0,
+        10,
+        215
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line between the third and fourth cell.",
+      "bbox": [
+        990,
+        0,
+        10,
+        215
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line at the very right edge of the row.",
+      "bbox": [
+        1310,
+        0,
+        10,
+        215
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 4: magic_cube_line -> 5        639      22     (=666)"
+}

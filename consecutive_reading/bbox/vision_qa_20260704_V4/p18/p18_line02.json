@@ -1,0 +1,82 @@
+{
+  "page": "p18",
+  "line_id": 2,
+  "line_bbox": [
+    173,
+    312,
+    516,
+    53
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Eine durchgehende Multiplikationskette aus großen ganzen Zahlen, verbunden durch 'x' als Multiplikationsoperator.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 5,
+  "n_formulas": 1,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "17",
+      "bbox": [
+        0,
+        0,
+        28,
+        58
+      ]
+    },
+    {
+      "value": "58909",
+      "bbox": [
+        64,
+        0,
+        86,
+        58
+      ]
+    },
+    {
+      "value": "307301",
+      "bbox": [
+        186,
+        0,
+        92,
+        58
+      ]
+    },
+    {
+      "value": "34373828321747",
+      "bbox": [
+        314,
+        0,
+        202,
+        58
+      ]
+    },
+    {
+      "value": "37252411960004762373768239509",
+      "bbox": [
+        550,
+        0,
+        456,
+        58
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "17 x 58909 x 307301 x 34373828321747 x 37252411960004762373768239509",
+      "bbox": [
+        0,
+        0,
+        1008,
+        60
+      ]
+    }
+  ],
+  "graphics": [],
+  "schmeh_hint": "Line 2: unknown -> --------------------------------------------------"
+}

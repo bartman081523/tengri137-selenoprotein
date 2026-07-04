@@ -1,0 +1,529 @@
+{
+  "page": "p04",
+  "line_id": 14,
+  "line_bbox": [
+    190,
+    810,
+    748,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile unbekannter geometrisch-runeartiger Glyphen ohne erkennbare lateinische Buchstaben, Zahlen oder Formeln. Mehrere Diamantformen, Kreisformen und kompakte Winkelzeichen dominieren.",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          30,
+          100
+        ],
+        "visual_kind": "line",
+        "description": "Einfache vertikale Linie / Balken am Zeilenanfang",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.09,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          30,
+          10,
+          35,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines eckiges Klammer-ähnliches Zeichen, oben und unten offen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          5,
+          40,
+          90
+        ],
+        "visual_kind": "unknown",
+        "description": "Vertikaler Stamm mit kurzem Querbalken, ähnlich einer stilisierten 'F'",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          5,
+          55,
+          90
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexe Verbindung zweier Bögen / Halbkreise mit Vertikalstrich",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          5,
+          55,
+          90
+        ],
+        "visual_kind": "unknown",
+        "description": "Wiederholtes Bogenmuster, möglicherweise Ligatur",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          15,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Klar erkennbares Rauten-/Diamantzeichen mit innerem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          270,
+          10,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Winkelform mit Spitze nach rechts",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          5,
+          50,
+          90
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexes Bogenzeichen, ähnlich einer Acht oder verschlungenen Figur",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          375,
+          10,
+          40,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Zwei spitze Winkel/Dreiecke, vertikal gestapelt",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          10,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Form mit Querbalken",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          5,
+          50,
+          90
+        ],
+        "visual_kind": "unknown",
+        "description": "Großes Bogenmuster mit Vertikalstrich",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          10,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Form, möglicherweise stilisiertes 'H' oder 'F'",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          575,
+          10,
+          45,
+          80
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis-/Bogenform, öffnet nach unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          625,
+          5,
+          50,
+          90
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexe Bogen-Ligatur, ähnelt einer verschlungenen 8",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          10,
+          40,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Wiederholtes Winkel-/Pfeilmuster",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          725,
+          10,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Dreieckige Winkelform",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 125,
+      "iou": 0.052,
+      "page_glyph_bbox": [
+        200,
+        820,
+        729,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        775,
+        10,
+        40,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Schmales vertikales Zeichen mit zwei Spitzen",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        820,
+        5,
+        50,
+        90
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexe Bogenverbindung",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        875,
+        15,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Zweites Rauten-/Diamantzeichen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        920,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit innerem Detail/Punkt, möglicherweise 'face_circle_three_dots'-ähnlich",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        975,
+        10,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Doppelte Winkelform, pfeilartig",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1025,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexes Bogenzeichen mit Vertikalstrich",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1080,
+        10,
+        40,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Form mit Dreiecksspitze",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1125,
+        10,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Bogenform mit Vertikalstrich",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1175,
+        15,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Drittes Rauten-/Diamantzeichen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1220,
+        30,
+        25,
+        40
+      ],
+      "visual_kind": "punctum",
+      "description": "Isolierter Punkt / Punctum, möglicherweise Wort- oder Satztrenner",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1260,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexe Bogen-Ligatur, möglicherweise 'TH' oder verschlungene Form",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1315,
+        10,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Winkelform, pfeilartig nach rechts",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1365,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Form mit Vertikalstrich",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1420,
+        10,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Form, möglicherweise Bogen mit Vertikalstrich",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1470,
+        10,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexes abschließendes Bogenmuster",
+      "confidence": 0.4
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 14: latin -> UE. WE BOND TWO NUMBERS OF EACH CUBE WITH THE S"
+}

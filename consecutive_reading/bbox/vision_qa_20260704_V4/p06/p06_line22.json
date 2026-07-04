@@ -1,0 +1,95 @@
+{
+  "page": "p06",
+  "line_id": 22,
+  "line_bbox": [
+    350,
+    1152,
+    426,
+    56
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Ein Parallelogramm, das durch zwei diagonale Linien in drei Felder unterteilt ist. Jedes Feld enthält eine Zahl: 22, 8 und 636. Rechts neben dem Parallelogramm befinden sich gestrichelte vertikale Linien.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 0,
+  "n_graphics": 4,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "22",
+      "bbox": [
+        178,
+        22,
+        88,
+        46
+      ]
+    },
+    {
+      "value": "8",
+      "bbox": [
+        418,
+        22,
+        52,
+        46
+      ]
+    },
+    {
+      "value": "636",
+      "bbox": [
+        628,
+        22,
+        130,
+        46
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "parallelogram_divided",
+      "description": "Parallelogramm mit oberer und unterer horizontaler Begrenzung, durch zwei diagonale Linien von oben-links nach unten-rechts in drei trapezförmige Felder unterteilt",
+      "bbox": [
+        0,
+        0,
+        880,
+        90
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Gestrichelte vertikale Trennlinie rechts neben dem Parallelogramm",
+      "bbox": [
+        915,
+        0,
+        6,
+        90
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Zweite gestrichelte vertikale Trennlinie weiter rechts",
+      "bbox": [
+        1170,
+        0,
+        6,
+        90
+      ]
+    },
+    {
+      "type": "dashed_horizontal_segments",
+      "description": "Kurze gestrichelte horizontale Segmente unterhalb des Parallelogramms an mehreren Positionen",
+      "bbox": [
+        0,
+        90,
+        1175,
+        15
+      ]
+    }
+  ],
+  "schmeh_hint": "Schmeh has 18 lines for this page"
+}

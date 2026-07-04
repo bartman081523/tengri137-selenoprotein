@@ -1,0 +1,625 @@
+{
+  "page": "p01",
+  "line_id": 8,
+  "line_bbox": [
+    187,
+    697,
+    746,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Reihe geometrischer Glyphen in unbekannter Schrift. Mehrere diamond-with-dot-Formen wiederholen sich als Schlüsselmotive. Kein lateinischer Text, keine Zahlen, keine Formeln sichtbar.",
+  "n_glyphs_vision": 37,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 18,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          25,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "M-ähnliches Zeichen mit doppeltem Aufstrich und abgesenkten Außenschenkeln",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 13,
+      "iou": 0.11,
+      "page_glyph_bbox": [
+        197,
+        707,
+        23,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen mit gegabeltem Oberteil",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          90,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen mit gegabeltem Oberteil",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          125,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen, schmaler",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          20,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen mit Gabelung",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          280,
+          20,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "D-förmiges Zeichen mit gerader rechter Seite",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J- oder hakenförmiges Zeichen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          20,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiges Zeichen mit drei horizontalen Strichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          20,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Zeichen mit gekreuzten Diagonalen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/hakenförmiges Zeichen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          20,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          625,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "F-förmiges Zeichen mit zwei horizontalen Strichen rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          660,
+          20,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "F-/3-förmiges Zeichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          695,
+          20,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen mit zwei vertikalen Strichen und Querbalken",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 14,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        229,
+        707,
+        695,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        735,
+        20,
+        10,
+        55
+      ],
+      "visual_kind": "punctum",
+      "description": "Schmaler vertikaler Strich (I oder 1)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        755,
+        20,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Punkt",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        805,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "D-förmiges Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        845,
+        20,
+        10,
+        55
+      ],
+      "visual_kind": "punctum",
+      "description": "Schmaler vertikaler Strich (I)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        865,
+        20,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-/hakenförmiges Zeichen",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        900,
+        20,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        935,
+        40,
+        10,
+        10
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kleiner isolierter Punkt/Trenner",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        960,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "E-förmiges Zeichen mit drei horizontalen Strichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1000,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1040,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "A-/Dreieck-förmiges Zeichen mit Querbalken",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1080,
+        20,
+        10,
+        55
+      ],
+      "visual_kind": "punctum",
+      "description": "Schmaler vertikaler Strich (I)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1100,
+        20,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Punkt",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1150,
+        20,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1185,
+        20,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "F-/3-förmiges Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1220,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1260,
+        20,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Kreuz/Punkt-Variante",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1310,
+        20,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1345,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "D-förmiges Zeichen",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 8: latin -> ND ENLIGHTENMENT. LIKE THE OTHERS BEFORE YOU,"
+}

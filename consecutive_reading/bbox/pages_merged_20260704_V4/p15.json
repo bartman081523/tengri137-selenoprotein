@@ -1,0 +1,2718 @@
+{
+  "page_id": "p15",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 48,
+  "n_latin_tokens": 25,
+  "n_regions": 21,
+  "n_glyphs_with_vision_match": 29,
+  "schmeh_hint": {
+    "n_latin": 18,
+    "n_glyphs": 1,
+    "has_glyphs": true,
+    "has_magic_cube": false,
+    "has_rings": false,
+    "has_burumut_block": false
+  },
+  "regions": [
+    {
+      "region_id": "p15_R1",
+      "bbox": [
+        204,
+        255,
+        736,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 1, y_center=278.6, glyphs=4, latin=1",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 730,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 1,
+          "bbox": [
+            214,
+            266,
+            256,
+            27
+          ],
+          "size_px": 2650,
+          "fill_ratio": 0.3834,
+          "n_components": 13,
+          "components": [
+            8587,
+            8590,
+            8589,
+            8588,
+            8595,
+            8592,
+            8586,
+            8593,
+            8591,
+            8594,
+            8597,
+            8596,
+            8598
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Angular glyph resembling a small 'h' with two vertical strokes joined by a short horizontal bar near the top, plus a diagonal cross-stroke on the right.",
+          "vision_confidence": 0.55,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 731,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 1,
+          "bbox": [
+            479,
+            266,
+            60,
+            27
+          ],
+          "size_px": 696,
+          "fill_ratio": 0.4296,
+          "n_components": 3,
+          "components": [
+            8600,
+            8599,
+            8601
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "unknown",
+          "vision_description": "Shape resembling a stylized 'h' or 'n': two vertical strokes connected by a low horizontal bar.",
+          "vision_confidence": 0.55,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 732,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 1,
+          "bbox": [
+            548,
+            266,
+            41,
+            27
+          ],
+          "size_px": 457,
+          "fill_ratio": 0.4128,
+          "n_components": 1,
+          "components": [
+            8602
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "unknown",
+          "vision_description": "Hooked glyph resembling a 'J' or reversed 'L': vertical stroke on the right with a small hook at the bottom-left.",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 733,
+          "page": "p15",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 1,
+          "bbox": [
+            590,
+            265,
+            341,
+            28
+          ],
+          "size_px": 3336,
+          "fill_ratio": 0.3494,
+          "n_components": 16,
+          "components": [
+            8611,
+            8616,
+            8617,
+            8604,
+            8585,
+            8612,
+            8610,
+            8608,
+            8609,
+            8603,
+            8606,
+            8614,
+            8613,
+            8615,
+            8605,
+            8607
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Vertical stroke on the left with a horizontal arm extending to the right near mid-height, resembling a flag or 'F'-like shape.",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THIS IS A ROUGH CALCULATION. YOU WILL SEE THAT THE WA",
+          "bbox": [
+            204,
+            255,
+            736,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 1,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R2",
+      "bbox": [
+        194,
+        299,
+        746,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 2, y_center=321.2, glyphs=5, latin=1",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 734,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 2,
+          "bbox": [
+            204,
+            309,
+            525,
+            27
+          ],
+          "size_px": 5422,
+          "fill_ratio": 0.3825,
+          "n_components": 28,
+          "components": [
+            8629,
+            8636,
+            8640,
+            8632,
+            8639,
+            8633,
+            8635,
+            8626,
+            8642,
+            8655,
+            8644,
+            8619,
+            8620,
+            8625,
+            8631,
+            8634,
+            8618,
+            8621,
+            8623,
+            8624,
+            8627,
+            8628,
+            8637,
+            8622,
+            8638,
+            8641,
+            8630,
+            8643
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "X-/Kreuzform mit zwei sich kreuzenden Diagonalen",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 735,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 2,
+          "bbox": [
+            737,
+            309,
+            82,
+            27
+          ],
+          "size_px": 880,
+          "fill_ratio": 0.3975,
+          "n_components": 7,
+          "components": [
+            8653,
+            8654,
+            8648,
+            8647,
+            8645,
+            8646,
+            8656
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "line",
+          "vision_description": "Kurzer vertikaler Strich",
+          "vision_confidence": 0.9,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 736,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 2,
+          "bbox": [
+            828,
+            309,
+            24,
+            27
+          ],
+          "size_px": 254,
+          "fill_ratio": 0.392,
+          "n_components": 1,
+          "components": [
+            8649
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "X-Kreuzform",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 737,
+          "page": "p15",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 2,
+          "bbox": [
+            852,
+            309,
+            47,
+            27
+          ],
+          "size_px": 627,
+          "fill_ratio": 0.4941,
+          "n_components": 1,
+          "components": [
+            8650
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Dreieck nach oben (▲)",
+          "vision_confidence": 0.8,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 738,
+          "page": "p15",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 2,
+          "bbox": [
+            901,
+            309,
+            30,
+            27
+          ],
+          "size_px": 319,
+          "fill_ratio": 0.3938,
+          "n_components": 2,
+          "components": [
+            8652,
+            8651
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "Rauten-/Diamantform ◇",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "Y OF THIS CALCULATION IS UNIQUE. THE CALCULATION OF T",
+          "bbox": [
+            194,
+            299,
+            746,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 2,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R3",
+      "bbox": [
+        206,
+        342,
+        732,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=364.4, glyphs=4, latin=1",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 739,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 3,
+          "bbox": [
+            216,
+            352,
+            190,
+            27
+          ],
+          "size_px": 2148,
+          "fill_ratio": 0.4187,
+          "n_components": 10,
+          "components": [
+            8659,
+            8660,
+            8698,
+            8661,
+            8662,
+            8657,
+            8658,
+            8684,
+            8683,
+            8663
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Halbkreisförmiger Bogen links, mit vertikaler Linie rechts – D-/P-förmiges Zeichen",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 740,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 3,
+          "bbox": [
+            414,
+            352,
+            242,
+            27
+          ],
+          "size_px": 2695,
+          "fill_ratio": 0.4125,
+          "n_components": 20,
+          "components": [
+            8667,
+            8673,
+            8693,
+            8689,
+            8690,
+            8691,
+            8692,
+            8694,
+            8665,
+            8664,
+            8668,
+            8669,
+            8671,
+            8672,
+            8666,
+            8670,
+            8685,
+            8699,
+            8700,
+            8701
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Geschwungene S-Form, ähnlich dem Voynich EVA-s",
+          "vision_confidence": 0.65,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 741,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 3,
+          "bbox": [
+            655,
+            352,
+            47,
+            27
+          ],
+          "size_px": 606,
+          "fill_ratio": 0.4775,
+          "n_components": 1,
+          "components": [
+            8674
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "S-/8-förmige geschwungene Figur",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 742,
+          "page": "p15",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 3,
+          "bbox": [
+            704,
+            352,
+            225,
+            27
+          ],
+          "size_px": 2040,
+          "fill_ratio": 0.3358,
+          "n_components": 15,
+          "components": [
+            8681,
+            8696,
+            8676,
+            8695,
+            8682,
+            8697,
+            8680,
+            8675,
+            8679,
+            8686,
+            8687,
+            8688,
+            8677,
+            8678,
+            8702
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "Y-förmiges Zeichen mit zentralem Knoten",
+          "vision_confidence": 0.65,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "HIS DIMENSIONLESS PHYSICAL CONSTANT WITH ONLY ONE DI",
+          "bbox": [
+            206,
+            342,
+            732,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 3,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R4",
+      "bbox": [
+        193,
+        385,
+        746,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 4, y_center=407.1, glyphs=3, latin=1",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 743,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 4,
+          "bbox": [
+            203,
+            395,
+            146,
+            27
+          ],
+          "size_px": 1688,
+          "fill_ratio": 0.4282,
+          "n_components": 8,
+          "components": [
+            8710,
+            8705,
+            8709,
+            8707,
+            8703,
+            8704,
+            8706,
+            8708
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Winkelartiges S/G-ähnliches Zeichen mit zwei Knicken",
+          "vision_confidence": 0.75,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 744,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 4,
+          "bbox": [
+            358,
+            395,
+            487,
+            27
+          ],
+          "size_px": 4833,
+          "fill_ratio": 0.3676,
+          "n_components": 23,
+          "components": [
+            8719,
+            8713,
+            8720,
+            8729,
+            8726,
+            8721,
+            8715,
+            8737,
+            8712,
+            8735,
+            8734,
+            8711,
+            8718,
+            8714,
+            8717,
+            8723,
+            8728,
+            8716,
+            8724,
+            8730,
+            8727,
+            8722,
+            8725
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Einfache vertikale Linie mit kurzem oberen Haken",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 745,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 4,
+          "bbox": [
+            854,
+            395,
+            76,
+            27
+          ],
+          "size_px": 715,
+          "fill_ratio": 0.3484,
+          "n_components": 4,
+          "components": [
+            8736,
+            8731,
+            8732,
+            8733
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "J-/winkelförmiges Zeichen mit Haken unten",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "GIT AND ONE MATHEMATICAL CONSTANT IS THE SHORTEST WAY",
+          "bbox": [
+            193,
+            385,
+            746,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 4,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "punctum_separator",
+          "description": "Drei kleine Punkte als Wort-/Phrasentrenner bei x≈255, x≈1025, möglicherweise auch zwischen anderen Glyphengruppen",
+          "bbox": [
+            250,
+            40,
+            790,
+            15
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R5",
+      "bbox": [
+        186,
+        427,
+        754,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 5, y_center=450.3, glyphs=1, latin=1",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 746,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 5,
+          "bbox": [
+            196,
+            437,
+            735,
+            28
+          ],
+          "size_px": 7383,
+          "fill_ratio": 0.3587,
+          "n_components": 43,
+          "components": [
+            8770,
+            8748,
+            8775,
+            8776,
+            8777,
+            8774,
+            8757,
+            8760,
+            8745,
+            8762,
+            8766,
+            8773,
+            8751,
+            8753,
+            8754,
+            8756,
+            8738,
+            8740,
+            8778,
+            8739,
+            8743,
+            8752,
+            8765,
+            8741,
+            8742,
+            8744,
+            8758,
+            8761,
+            8767,
+            8772,
+            8749,
+            8750,
+            8759,
+            8771,
+            8755,
+            8764,
+            8746,
+            8769,
+            8768,
+            8747,
+            8763,
+            8780,
+            8779
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "TO FIND IT. ONLY TENGRI CAN HIDE THIS CALCULATION IN T",
+          "bbox": [
+            186,
+            427,
+            754,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 5,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R6",
+      "bbox": [
+        477,
+        471,
+        168,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 6, y_center=492.9, glyphs=1, latin=3",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 747,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 6,
+          "bbox": [
+            487,
+            481,
+            149,
+            27
+          ],
+          "size_px": 1696,
+          "fill_ratio": 0.4216,
+          "n_components": 8,
+          "components": [
+            8787,
+            8783,
+            8785,
+            8782,
+            8788,
+            8781,
+            8786,
+            8784
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "punctum",
+          "vision_description": "Kleiner schwarzer Punkt/Punkt links vor der Zeichenfolge, wirkt wie ein Interpunktions- oder Trennzeichen.",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "D",
+          "bbox": [
+            25,
+            8,
+            35,
+            45
+          ],
+          "conf": 0.85,
+          "line_id": 6,
+          "source": "vision"
+        },
+        {
+          "text": "H",
+          "bbox": [
+            60,
+            8,
+            35,
+            45
+          ],
+          "conf": 0.85,
+          "line_id": 6,
+          "source": "vision"
+        },
+        {
+          "text": "HH",
+          "bbox": [
+            135,
+            8,
+            80,
+            45
+          ],
+          "conf": 0.8,
+          "line_id": 6,
+          "source": "vision"
+        }
+      ],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "4",
+          "bbox": [
+            315,
+            8,
+            35,
+            45
+          ]
+        }
+      ],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R7",
+      "bbox": [
+        253,
+        666,
+        620,
+        61
+      ],
+      "region_type": "latin_text",
+      "description": "Line 7, y_center=695.6, glyphs=1, latin=1",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 748,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 7,
+          "bbox": [
+            263,
+            676,
+            601,
+            42
+          ],
+          "size_px": 4772,
+          "fill_ratio": 0.189,
+          "n_components": 115,
+          "components": [
+            8807,
+            8789,
+            8790,
+            8821,
+            8797,
+            8806,
+            8814,
+            8817,
+            8808,
+            8820,
+            8822,
+            8805,
+            8800,
+            8801,
+            8809,
+            8791,
+            8793,
+            8824,
+            8802,
+            8819,
+            8827,
+            8828,
+            8794,
+            8796,
+            8803,
+            8811,
+            8812,
+            8816,
+            8825,
+            8798,
+            8799,
+            8818,
+            8792,
+            8815,
+            8835,
+            8836,
+            8795,
+            8829,
+            8810,
+            8813,
+            8834,
+            8823,
+            8804,
+            8830,
+            8833,
+            8837,
+            8826,
+            8831,
+            8832,
+            8838,
+            8840,
+            8841,
+            8842,
+            8839,
+            8843,
+            8844,
+            8845,
+            8846,
+            8847,
+            8848,
+            8849,
+            8874,
+            8854,
+            8867,
+            8865,
+            8859,
+            8860,
+            8856,
+            8872,
+            8862,
+            8864,
+            8870,
+            8857,
+            8866,
+            8893,
+            8852,
+            8888,
+            8850,
+            8855,
+            8875,
+            8879,
+            8881,
+            8886,
+            8871,
+            8876,
+            8878,
+            8882,
+            8890,
+            8892,
+            8894,
+            8868,
+            8880,
+            8885,
+            8887,
+            8897,
+            8869,
+            8858,
+            8861,
+            8863,
+            8873,
+            8877,
+            8895,
+            8896,
+            8891,
+            8851,
+            8853,
+            8884,
+            8889,
+            8883,
+            8902,
+            8898,
+            8899,
+            8900,
+            8901,
+            8903
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WE SHOW YOU NOW THIS CALCULATION IN COMPLETE BACK",
+          "bbox": [
+            253,
+            666,
+            620,
+            61
+          ],
+          "conf": 0.5,
+          "line_id": 7,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R8",
+      "bbox": [
+        193,
+        876,
+        746,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 8, y_center=899.1, glyphs=3, latin=1",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 749,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 8,
+          "bbox": [
+            203,
+            886,
+            103,
+            28
+          ],
+          "size_px": 1093,
+          "fill_ratio": 0.379,
+          "n_components": 4,
+          "components": [
+            8904,
+            8921,
+            8919,
+            8920
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 750,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 8,
+          "bbox": [
+            307,
+            886,
+            195,
+            28
+          ],
+          "size_px": 1925,
+          "fill_ratio": 0.3526,
+          "n_components": 11,
+          "components": [
+            8907,
+            8940,
+            8922,
+            8905,
+            8908,
+            8924,
+            8925,
+            8923,
+            8926,
+            8927,
+            8906
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 751,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 8,
+          "bbox": [
+            512,
+            886,
+            418,
+            28
+          ],
+          "size_px": 4164,
+          "fill_ratio": 0.3558,
+          "n_components": 23,
+          "components": [
+            8910,
+            8938,
+            8932,
+            8937,
+            8939,
+            8911,
+            8918,
+            8928,
+            8941,
+            8917,
+            8912,
+            8916,
+            8929,
+            8936,
+            8930,
+            8931,
+            8934,
+            8913,
+            8909,
+            8933,
+            8935,
+            8915,
+            8914
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WARD WAY. AN IMPOSSIBLE TASK WITH ANY OTHER TWO N",
+          "bbox": [
+            193,
+            876,
+            746,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 8,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R9",
+      "bbox": [
+        448,
+        920,
+        246,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 9, y_center=941.9, glyphs=2, latin=1",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 752,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 9,
+          "bbox": [
+            458,
+            930,
+            133,
+            27
+          ],
+          "size_px": 1388,
+          "fill_ratio": 0.3865,
+          "n_components": 9,
+          "components": [
+            8947,
+            8953,
+            8956,
+            8948,
+            8942,
+            8944,
+            8945,
+            8943,
+            8946
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "punctum",
+          "vision_description": "Small isolated dot left of the word",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 753,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 9,
+          "bbox": [
+            600,
+            930,
+            85,
+            27
+          ],
+          "size_px": 923,
+          "fill_ratio": 0.4022,
+          "n_components": 7,
+          "components": [
+            8954,
+            8955,
+            8949,
+            8952,
+            8950,
+            8951,
+            8957
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_diamond_with_dot",
+          "vision_description": "Rhombus/diamond outline with a single dot at its center",
+          "vision_confidence": 0.9,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WARD",
+          "bbox": [
+            48,
+            12,
+            152,
+            56
+          ],
+          "conf": 0.7,
+          "line_id": 9,
+          "source": "vision"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R10",
+      "bbox": [
+        194,
+        1005,
+        745,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 10, y_center=1028.1, glyphs=1, latin=1",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 754,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 10,
+          "bbox": [
+            204,
+            1015,
+            726,
+            27
+          ],
+          "size_px": 6976,
+          "fill_ratio": 0.3559,
+          "n_components": 40,
+          "components": [
+            8980,
+            8994,
+            8995,
+            8984,
+            8973,
+            8967,
+            8992,
+            8977,
+            8960,
+            8959,
+            8958,
+            8993,
+            8974,
+            8996,
+            8962,
+            8966,
+            8969,
+            8979,
+            8982,
+            8965,
+            8970,
+            8971,
+            8972,
+            8975,
+            8978,
+            8983,
+            8987,
+            8964,
+            8976,
+            8981,
+            8991,
+            8961,
+            8985,
+            8989,
+            8968,
+            8963,
+            8986,
+            8990,
+            8988,
+            8997
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Zwei vertikal verbundene Kreise, ähnlich einer 8 oder Unendlichkeitszeichen, jeweils mit zentralem Punkt",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NSTANT WHICH WILL GIVE YOU ALSO THE RESULT FOR O",
+          "bbox": [
+            194,
+            1005,
+            745,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 10,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R11",
+      "bbox": [
+        195,
+        1047,
+        745,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 11, y_center=1070.5, glyphs=1, latin=1",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 755,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 11,
+          "bbox": [
+            205,
+            1057,
+            726,
+            28
+          ],
+          "size_px": 7506,
+          "fill_ratio": 0.3692,
+          "n_components": 42,
+          "components": [
+            9025,
+            9001,
+            9019,
+            9031,
+            9030,
+            9011,
+            9037,
+            9038,
+            9020,
+            9036,
+            9024,
+            9026,
+            9022,
+            9033,
+            9009,
+            9010,
+            8998,
+            9032,
+            9008,
+            9013,
+            9035,
+            9004,
+            9014,
+            9015,
+            9000,
+            9012,
+            9016,
+            9017,
+            9021,
+            9029,
+            8999,
+            9018,
+            9027,
+            9002,
+            9023,
+            9034,
+            9003,
+            9006,
+            9005,
+            9007,
+            9028,
+            9039
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Offener, nach rechts gewölbter Bogen mit kurzem vertikalem Strich (ähnelt einem lateinischen C oder offener Klammer)",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "UR PROOF. USE THE NUMBER OF THE GRAVITATIONAL CONSTA",
+          "bbox": [
+            195,
+            1047,
+            745,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 11,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R12",
+      "bbox": [
+        189,
+        1090,
+        750,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 12, y_center=1113.4, glyphs=1, latin=1",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 756,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 12,
+          "bbox": [
+            199,
+            1100,
+            731,
+            28
+          ],
+          "size_px": 7504,
+          "fill_ratio": 0.3666,
+          "n_components": 38,
+          "components": [
+            9076,
+            9061,
+            9055,
+            9047,
+            9057,
+            9051,
+            9058,
+            9060,
+            9068,
+            9044,
+            9069,
+            9066,
+            9040,
+            9056,
+            9042,
+            9041,
+            9043,
+            9054,
+            9071,
+            9073,
+            9074,
+            9046,
+            9048,
+            9052,
+            9053,
+            9075,
+            9063,
+            9067,
+            9070,
+            9072,
+            9050,
+            9062,
+            9064,
+            9065,
+            9059,
+            9045,
+            9049,
+            9077
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NT. YOUR SCIENTISTS WILL UNDERSTAND WHY WE USE T",
+          "bbox": [
+            189,
+            1090,
+            750,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 12,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R13",
+      "bbox": [
+        186,
+        1134,
+        753,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 13, y_center=1156.7, glyphs=2, latin=1",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 757,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 13,
+          "bbox": [
+            196,
+            1144,
+            89,
+            28
+          ],
+          "size_px": 939,
+          "fill_ratio": 0.3768,
+          "n_components": 5,
+          "components": [
+            9079,
+            9080,
+            9112,
+            9109,
+            9078
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Haken-/J-förmiges Glyph mit kurzer horizontaler Linie oben",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 758,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 13,
+          "bbox": [
+            294,
+            1144,
+            636,
+            28
+          ],
+          "size_px": 6356,
+          "fill_ratio": 0.3569,
+          "n_components": 33,
+          "components": [
+            9106,
+            9094,
+            9082,
+            9088,
+            9093,
+            9083,
+            9114,
+            9108,
+            9113,
+            9087,
+            9110,
+            9100,
+            9111,
+            9085,
+            9089,
+            9095,
+            9086,
+            9090,
+            9097,
+            9099,
+            9104,
+            9091,
+            9101,
+            9098,
+            9102,
+            9103,
+            9081,
+            9092,
+            9105,
+            9084,
+            9107,
+            9096,
+            9115
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "E- oder 3-förmiges Glyph mit zwei offenen Bögen",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "HE GRAVITATIONAL CONSTANT IN THIS IMPORTANT CALCULATIO",
+          "bbox": [
+            186,
+            1134,
+            753,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 13,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R14",
+      "bbox": [
+        197,
+        1177,
+        734,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 14, y_center=1199.7, glyphs=2, latin=1",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 759,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 14,
+          "bbox": [
+            207,
+            1187,
+            378,
+            28
+          ],
+          "size_px": 3923,
+          "fill_ratio": 0.3707,
+          "n_components": 22,
+          "components": [
+            9122,
+            9123,
+            9128,
+            9126,
+            9129,
+            9124,
+            9152,
+            9116,
+            9120,
+            9127,
+            9132,
+            9118,
+            9121,
+            9134,
+            9135,
+            9125,
+            9133,
+            9131,
+            9117,
+            9130,
+            9119,
+            9155
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 760,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 14,
+          "bbox": [
+            595,
+            1187,
+            327,
+            28
+          ],
+          "size_px": 3333,
+          "fill_ratio": 0.364,
+          "n_components": 19,
+          "components": [
+            9138,
+            9146,
+            9136,
+            9145,
+            9149,
+            9151,
+            9153,
+            9154,
+            9147,
+            9139,
+            9141,
+            9148,
+            9142,
+            9140,
+            9137,
+            9143,
+            9144,
+            9150,
+            9156
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "N. THIS CALCULATION IS A REVELATION FOR YOUR SCIENTIST",
+          "bbox": [
+            197,
+            1177,
+            734,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 14,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R15",
+      "bbox": [
+        382,
+        1220,
+        377,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 15, y_center=1242.2, glyphs=1, latin=1",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 761,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 15,
+          "bbox": [
+            392,
+            1230,
+            358,
+            27
+          ],
+          "size_px": 3280,
+          "fill_ratio": 0.3393,
+          "n_components": 19,
+          "components": [
+            9174,
+            9170,
+            9163,
+            9171,
+            9173,
+            9172,
+            9164,
+            9158,
+            9159,
+            9175,
+            9169,
+            9162,
+            9157,
+            9167,
+            9168,
+            9166,
+            9165,
+            9160,
+            9161
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Schlankes vertikales I-förmiges Glyph, oben und unten mit kleinen Endstrichen",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "S. DO NOT FORGET, TENGRI DIVIDES THE LIGHT FROM DARK",
+          "bbox": [
+            382,
+            1220,
+            377,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 15,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R16",
+      "bbox": [
+        193,
+        1305,
+        746,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 16, y_center=1328.1, glyphs=3, latin=1",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 762,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 16,
+          "bbox": [
+            203,
+            1315,
+            239,
+            28
+          ],
+          "size_px": 2272,
+          "fill_ratio": 0.3395,
+          "n_components": 11,
+          "components": [
+            9180,
+            9179,
+            9185,
+            9177,
+            9187,
+            9176,
+            9184,
+            9181,
+            9182,
+            9183,
+            9186
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Zwei vertikale Striche, einer mit kurzem Querbalken oben (ähnelt 'IY' oder stilisiertem 'S')",
+          "vision_confidence": 0.4,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 763,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 16,
+          "bbox": [
+            442,
+            1315,
+            429,
+            28
+          ],
+          "size_px": 3978,
+          "fill_ratio": 0.3312,
+          "n_components": 24,
+          "components": [
+            9196,
+            9204,
+            9191,
+            9195,
+            9201,
+            9178,
+            9212,
+            9209,
+            9189,
+            9203,
+            9210,
+            9188,
+            9211,
+            9200,
+            9202,
+            9213,
+            9192,
+            9193,
+            9198,
+            9199,
+            9205,
+            9197,
+            9190,
+            9194
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Zwei verbundene Zeichen, ähnlich 'EX' oder 'C<' - kantige Form",
+          "vision_confidence": 0.4,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 764,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 16,
+          "bbox": [
+            880,
+            1316,
+            50,
+            27
+          ],
+          "size_px": 549,
+          "fill_ratio": 0.4067,
+          "n_components": 3,
+          "components": [
+            9206,
+            9207,
+            9208
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "other",
+          "vision_description": "Zwei aufeinanderfolgende bogenförmige Zeichen (ähnlich '33' oder '))')",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NESS WHEN THE ELECTRON ABSORBS THE PHOTON. GRAVI",
+          "bbox": [
+            193,
+            1305,
+            746,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 16,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "punctum_separator",
+          "description": "Zentraler Punkt/Punkt-Trenner in der Mitte der Zeile (Position ca. 60% der Zeilenbreite) - möglicherweise Satzzeichen wie Komma oder Punkt",
+          "bbox": [
+            770,
+            60,
+            15,
+            15
+          ]
+        }
+      ],
+      "uncertain": [
+        762,
+        763
+      ]
+    },
+    {
+      "region_id": "p15_R17",
+      "bbox": [
+        199,
+        1349,
+        740,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=1371.2, glyphs=2, latin=1",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 765,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 17,
+          "bbox": [
+            209,
+            1359,
+            463,
+            27
+          ],
+          "size_px": 4533,
+          "fill_ratio": 0.3626,
+          "n_components": 25,
+          "components": [
+            9236,
+            9225,
+            9230,
+            9216,
+            9223,
+            9227,
+            9232,
+            9235,
+            9234,
+            9251,
+            9249,
+            9217,
+            9219,
+            9229,
+            9214,
+            9218,
+            9220,
+            9221,
+            9224,
+            9231,
+            9233,
+            9228,
+            9226,
+            9215,
+            9222
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Angular crossing X-shape, two diagonals meeting at center, thick strokes",
+          "vision_confidence": 0.9,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 766,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 17,
+          "bbox": [
+            674,
+            1359,
+            256,
+            27
+          ],
+          "size_px": 2478,
+          "fill_ratio": 0.3585,
+          "n_components": 15,
+          "components": [
+            9241,
+            9247,
+            9248,
+            9242,
+            9243,
+            9252,
+            9250,
+            9246,
+            9237,
+            9239,
+            9245,
+            9244,
+            9240,
+            9238,
+            9253
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Two vertical bars joined by central horizontal crossbar, H-like",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "TATION EMERGES IN THE LAST STATE OF ELEMENTS. THIS IS O",
+          "bbox": [
+            199,
+            1349,
+            740,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 17,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R18",
+      "bbox": [
+        202,
+        1391,
+        737,
+        48
+      ],
+      "region_type": "latin_text",
+      "description": "Line 18, y_center=1414.4, glyphs=4, latin=1",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 767,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 18,
+          "bbox": [
+            212,
+            1402,
+            234,
+            27
+          ],
+          "size_px": 2658,
+          "fill_ratio": 0.4207,
+          "n_components": 12,
+          "components": [
+            9261,
+            9264,
+            9265,
+            9258,
+            9255,
+            9256,
+            9263,
+            9266,
+            9257,
+            9259,
+            9262,
+            9260
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 768,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 18,
+          "bbox": [
+            455,
+            1402,
+            229,
+            27
+          ],
+          "size_px": 2367,
+          "fill_ratio": 0.3828,
+          "n_components": 12,
+          "components": [
+            9268,
+            9269,
+            9273,
+            9275,
+            9276,
+            9272,
+            9290,
+            9277,
+            9267,
+            9270,
+            9271,
+            9274
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 769,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 18,
+          "bbox": [
+            692,
+            1401,
+            138,
+            29
+          ],
+          "size_px": 1480,
+          "fill_ratio": 0.3698,
+          "n_components": 6,
+          "components": [
+            9282,
+            9281,
+            9254,
+            9278,
+            9280,
+            9279
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 770,
+          "page": "p15",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 18,
+          "bbox": [
+            830,
+            1402,
+            100,
+            27
+          ],
+          "size_px": 1079,
+          "fill_ratio": 0.3996,
+          "n_components": 8,
+          "components": [
+            9289,
+            9288,
+            9285,
+            9286,
+            9284,
+            9287,
+            9283,
+            9291
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NE OF THE SECRETS IN THE UNIVERSE.",
+          "bbox": [
+            202,
+            1391,
+            737,
+            48
+          ],
+          "conf": 0.5,
+          "line_id": 18,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R19",
+      "bbox": [
+        195,
+        1434,
+        744,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 19, y_center=1457.2, glyphs=3, latin=0",
+      "lines": [
+        19
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 771,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 19,
+          "bbox": [
+            205,
+            1444,
+            396,
+            28
+          ],
+          "size_px": 3996,
+          "fill_ratio": 0.3604,
+          "n_components": 24,
+          "components": [
+            9305,
+            9302,
+            9326,
+            9327,
+            9324,
+            9325,
+            9303,
+            9292,
+            9329,
+            9304,
+            9300,
+            9308,
+            9293,
+            9296,
+            9299,
+            9307,
+            9297,
+            9301,
+            9295,
+            9306,
+            9298,
+            9294,
+            9333,
+            9332
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 772,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 19,
+          "bbox": [
+            611,
+            1445,
+            224,
+            27
+          ],
+          "size_px": 2129,
+          "fill_ratio": 0.352,
+          "n_components": 13,
+          "components": [
+            9317,
+            9315,
+            9309,
+            9331,
+            9330,
+            9328,
+            9318,
+            9311,
+            9310,
+            9312,
+            9314,
+            9313,
+            9316
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 773,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 19,
+          "bbox": [
+            845,
+            1445,
+            85,
+            27
+          ],
+          "size_px": 897,
+          "fill_ratio": 0.3908,
+          "n_components": 5,
+          "components": [
+            9319,
+            9322,
+            9320,
+            9321,
+            9323
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R20",
+      "bbox": [
+        278,
+        1478,
+        568,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 20, y_center=1499.9, glyphs=3, latin=0",
+      "lines": [
+        20
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 774,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 20,
+          "bbox": [
+            288,
+            1488,
+            84,
+            27
+          ],
+          "size_px": 873,
+          "fill_ratio": 0.3849,
+          "n_components": 5,
+          "components": [
+            9359,
+            9337,
+            9334,
+            9335,
+            9336
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 775,
+          "page": "p15",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 20,
+          "bbox": [
+            380,
+            1488,
+            343,
+            27
+          ],
+          "size_px": 3470,
+          "fill_ratio": 0.3747,
+          "n_components": 19,
+          "components": [
+            9338,
+            9346,
+            9339,
+            9342,
+            9350,
+            9352,
+            9348,
+            9361,
+            9362,
+            9357,
+            9356,
+            9349,
+            9340,
+            9341,
+            9343,
+            9345,
+            9347,
+            9344,
+            9351
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 776,
+          "page": "p15",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 20,
+          "bbox": [
+            731,
+            1488,
+            106,
+            27
+          ],
+          "size_px": 834,
+          "fill_ratio": 0.2914,
+          "n_components": 6,
+          "components": [
+            9360,
+            9363,
+            9358,
+            9354,
+            9353,
+            9355
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R21",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "footer",
+      "description": "Line 21, y_center=1624.0, glyphs=1, latin=0",
+      "lines": [
+        21
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 777,
+          "page": "p15",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+          "line_id": 21,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            9364
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R22_SCHMEH",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "latin_text",
+      "description": "Schmeh 2017 vollständige lateinische Sätze (5 lines, joined)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "(π7)/(π^7) or (π^7)/(π7)THIS IS A ROUGH CALCULATION. YOU WILL SEE THAT THE WAY OF THIS CALCULATION IS UNIQUE. THE CALCULATION OF THIS DIMENSIONLESS PHYSICAL CONSTANT WITH ONLY ONE DIGIT AND ONE MATHEMATICAL CONSTANT IS THE SHORTEST WAYTO FIND IT. ONLY TENGRI CAN HIDE THIS CALCULATION IN THIS WAY BETWEEN YOUR HOLY SCRIPTURES.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "WE SHOW YOU NOW THIS CALCULATION IN COMPLETE BACKWARD WAY. AN IMPOSSIBLE TASK WITH ANY OTHER TWO NUMBERS EXCEPT OUR NUMBERS. AN ADDITIONAL PHYSICAL CONSTANT WHICH WILL GIVE YOU ALSO THE RESULT FOR OUR PROOF. USE THE NUMBER OF THE GRAVITATIONAL CONSTA",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 2,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "NT. YOUR SCIENTISTS WILL UNDERSTAND WHY WE USE THE GRAVITATIONAL CONSTANT IN THIS IMPORTANT CALCULATIO",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "N. THIS CALCULATION IS A REVELATION FOR YOUR SCIENTIST",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "S. DO NOT FORGET, TENGRI DIVIDES THE LIGHT FROM DARKNESS WHEN THE ELECTRON ABSORBS THE PHOTON. GRAVITATION EMERGES IN THE LAST STATE OF ELEMENTS. THIS IS ONE OF THE SECRETS IN THE UNIVERSE.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 5,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "page": "p20",
+  "line_id": 8,
+  "line_bbox": [
+    173,
+    684,
+    850,
+    267
+  ],
+  "line_type": "mixed_line",
+  "line_description": "A multi-row block of prime factorizations (8 rows, top row partially clipped) with thin horizontal separator lines under each row. The right portion of the image contains four large vertical black ink shapes that resemble stylized unknown-script characters or ink blots/scribbles.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 0,
+  "n_numerics": 42,
+  "n_formulas": 8,
+  "n_graphics": 8,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          660,
+          80,
+          30,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Small compact black ink shape with two short vertical lobes, separated by a thin gap near the top.",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 910,
+      "iou": 0.094,
+      "page_glyph_bbox": [
+        854,
+        779,
+        13,
+        23
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        558,
+        8,
+        58,
+        220
+      ],
+      "visual_kind": "unknown",
+      "description": "Large vertical black ink mass with irregular organic edges, taller and thicker in the upper half; resembles a stylized tall rune or ink blot.",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        623,
+        10,
+        32,
+        200
+      ],
+      "visual_kind": "unknown",
+      "description": "Medium-height vertical black ink stroke with small rounded protrusions/bulges along its right edge; appears as a decorated vertical bar.",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        697,
+        8,
+        42,
+        380
+      ],
+      "visual_kind": "unknown",
+      "description": "Tall vertical black ink mass dominating the right edge, narrowing toward the bottom, with a small detached dot/circular punctum below the main stroke at the lower right.",
+      "confidence": 0.3
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        3,
+        0,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "191",
+      "bbox": [
+        22,
+        0,
+        33,
+        22
+      ]
+    },
+    {
+      "value": "2414653",
+      "bbox": [
+        58,
+        0,
+        78,
+        22
+      ]
+    },
+    {
+      "value": "281236289",
+      "bbox": [
+        142,
+        0,
+        100,
+        22
+      ]
+    },
+    {
+      "value": "557",
+      "bbox": [
+        3,
+        36,
+        33,
+        58
+      ]
+    },
+    {
+      "value": "1935683",
+      "bbox": [
+        40,
+        36,
+        80,
+        58
+      ]
+    },
+    {
+      "value": "150911387503",
+      "bbox": [
+        126,
+        36,
+        128,
+        58
+      ]
+    },
+    {
+      "value": "108436578076472505712663800554190467",
+      "bbox": [
+        260,
+        36,
+        392,
+        58
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        3,
+        78,
+        14,
+        100
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        26,
+        78,
+        12,
+        100
+      ]
+    },
+    {
+      "value": "37",
+      "bbox": [
+        42,
+        78,
+        22,
+        100
+      ]
+    },
+    {
+      "value": "1681290073",
+      "bbox": [
+        70,
+        78,
+        100,
+        100
+      ]
+    },
+    {
+      "value": "30725657676416953981381442781670603943498057",
+      "bbox": [
+        176,
+        78,
+        460,
+        100
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        3,
+        120,
+        14,
+        142
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        22,
+        120,
+        22,
+        142
+      ]
+    },
+    {
+      "value": "83",
+      "bbox": [
+        48,
+        120,
+        22,
+        142
+      ]
+    },
+    {
+      "value": "563",
+      "bbox": [
+        74,
+        120,
+        30,
+        142
+      ]
+    },
+    {
+      "value": "619",
+      "bbox": [
+        108,
+        120,
+        30,
+        142
+      ]
+    },
+    {
+      "value": "9391883",
+      "bbox": [
+        142,
+        120,
+        70,
+        142
+      ]
+    },
+    {
+      "value": "854182925753",
+      "bbox": [
+        218,
+        120,
+        116,
+        142
+      ]
+    },
+    {
+      "value": "631",
+      "bbox": [
+        3,
+        162,
+        28,
+        184
+      ]
+    },
+    {
+      "value": "952363",
+      "bbox": [
+        36,
+        162,
+        60,
+        184
+      ]
+    },
+    {
+      "value": "11830363",
+      "bbox": [
+        102,
+        162,
+        80,
+        184
+      ]
+    },
+    {
+      "value": "1486991193763",
+      "bbox": [
+        186,
+        162,
+        130,
+        184
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        3,
+        204,
+        14,
+        226
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        26,
+        204,
+        12,
+        226
+      ]
+    },
+    {
+      "value": "43",
+      "bbox": [
+        42,
+        204,
+        22,
+        226
+      ]
+    },
+    {
+      "value": "456603883",
+      "bbox": [
+        70,
+        204,
+        100,
+        226
+      ]
+    },
+    {
+      "value": "2039521481153546502556210219039121",
+      "bbox": [
+        176,
+        204,
+        360,
+        226
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        3,
+        246,
+        12,
+        268
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        22,
+        246,
+        18,
+        268
+      ]
+    },
+    {
+      "value": "23",
+      "bbox": [
+        44,
+        246,
+        18,
+        268
+      ]
+    },
+    {
+      "value": "19026713441",
+      "bbox": [
+        66,
+        246,
+        116,
+        268
+      ]
+    },
+    {
+      "value": "12097591526569",
+      "bbox": [
+        188,
+        246,
+        140,
+        268
+      ]
+    },
+    {
+      "value": "26324722890373835077",
+      "bbox": [
+        334,
+        246,
+        200,
+        268
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        3,
+        288,
+        14,
+        310
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        26,
+        288,
+        12,
+        310
+      ]
+    },
+    {
+      "value": "883",
+      "bbox": [
+        42,
+        288,
+        32,
+        310
+      ]
+    },
+    {
+      "value": "1097",
+      "bbox": [
+        78,
+        288,
+        38,
+        310
+      ]
+    },
+    {
+      "value": "40725653",
+      "bbox": [
+        122,
+        288,
+        80,
+        310
+      ]
+    },
+    {
+      "value": "1529749193461",
+      "bbox": [
+        208,
+        288,
+        134,
+        310
+      ]
+    },
+    {
+      "value": "14518170468716369099",
+      "bbox": [
+        348,
+        288,
+        200,
+        310
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 x 191 x 2414653 x 281236289",
+      "bbox": [
+        3,
+        0,
+        540,
+        22
+      ]
+    },
+    {
+      "raw": "557 x 1935683 x 150911387503 x 108436578076472505712663800554190467",
+      "bbox": [
+        3,
+        36,
+        656,
+        58
+      ]
+    },
+    {
+      "raw": "2^2 x 3 x 37 x 1681290073 x 30725657676416953981381442781670603943498057",
+      "bbox": [
+        3,
+        78,
+        642,
+        100
+      ]
+    },
+    {
+      "raw": "2 x 17 x 83 x 563 x 619 x 9391883 x 854182925753",
+      "bbox": [
+        3,
+        120,
+        340,
+        142
+      ]
+    },
+    {
+      "raw": "631 x 952363 x 11830363 x 1486991193763",
+      "bbox": [
+        3,
+        162,
+        320,
+        184
+      ]
+    },
+    {
+      "raw": "2^2 x 5 x 43 x 456603883 x 2039521481153546502556210219039121",
+      "bbox": [
+        3,
+        204,
+        542,
+        226
+      ]
+    },
+    {
+      "raw": "7 x 11 x 23 x 19026713441 x 12097591526569 x 26324722890373835077",
+      "bbox": [
+        3,
+        246,
+        540,
+        268
+      ]
+    },
+    {
+      "raw": "2^2 x 3 x 883 x 1097 x 40725653 x 1529749193461 x 14518170468716369099",
+      "bbox": [
+        3,
+        288,
+        554,
+        310
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the first (clipped) row",
+      "bbox": [
+        0,
+        22,
+        540,
+        24
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the second row",
+      "bbox": [
+        0,
+        58,
+        660,
+        60
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the third row",
+      "bbox": [
+        0,
+        100,
+        650,
+        102
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the fourth row",
+      "bbox": [
+        0,
+        142,
+        350,
+        144
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the fifth row",
+      "bbox": [
+        0,
+        184,
+        330,
+        186
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the sixth row",
+      "bbox": [
+        0,
+        226,
+        552,
+        228
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the seventh row",
+      "bbox": [
+        0,
+        268,
+        550,
+        270
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin black horizontal underline beneath the eighth row",
+      "bbox": [
+        0,
+        310,
+        562,
+        312
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 8: latin -> KEEP DISTANCE (FROM THOSE AND DO NOT LET THEM INTO YOUR NEAR)"
+}

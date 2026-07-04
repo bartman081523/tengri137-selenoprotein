@@ -1,0 +1,595 @@
+{
+  "page": "p04",
+  "line_id": 2,
+  "line_bbox": [
+    193,
+    287,
+    746,
+    50
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile aus 30 überwiegend unbekannten geometrisch-angulären Glyphen, ähnlich stilisierten Runen oder Ziffern, abgeschlossen durch Komma und lateinisches 'Y'. Die Glyphenformen (Winkel, Spitzen, D-Form, Raute mit Punkt) wirken konstruiert/runisch.",
+  "n_glyphs_vision": 30,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 21,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          15,
+          25,
+          15,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "Dünner vertikaler Strich, ähnlich 'I' oder '1'",
+        "unicode_codepoint_candidate": "U+007C",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Keilförmiges Glyph, Spitze nach links unten, ähnlich '<' oder auf den Kopf gestelltem 'V'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          75,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "S-förmige geschwungene Figur mit zwei Bögen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Winkel mit horizontalem Querstrich oben, ähnlich '7'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze, nach rechts geöffneter Winkel, ähnlich '>'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "Ziffernähnliche Form mit vertikalem Strich und rechtwinkliger Ausladung, ähnlich '4'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          25,
+          15,
+          50
+        ],
+        "visual_kind": "digit",
+        "description": "Vertikaler Strich, identisch zu Glyph 1",
+        "unicode_codepoint_candidate": "U+0031",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          25,
+          15,
+          50
+        ],
+        "visual_kind": "digit",
+        "description": "Vertikaler Strich, ähnlich '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          280,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze nach rechts geöffnet, '>'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze nach rechts geöffnet, '>'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "Form mit Vertikalstrich und Winkel, ähnlich '4'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          25,
+          15,
+          50
+        ],
+        "visual_kind": "digit",
+        "description": "Vertikaler Strich, ähnlich '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          30,
+          20,
+          45
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rechte Klammer ']'",
+        "unicode_codepoint_candidate": "U+005D",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel mit Horizontalstrich oben und Vertikalstrich rechts, ähnlich 'Γ' oder umgekehrtes 'L'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          485,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze nach rechts geöffnet, '>'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze nach links geöffnet, '<'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "Form mit Vertikalstrich und Winkel, ähnlich '4'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          25,
+          15,
+          50
+        ],
+        "visual_kind": "digit",
+        "description": "Vertikaler Strich, ähnlich '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze nach rechts geöffnet, '>'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          30,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitze nach rechts geöffnet, '>'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          25,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "Halbkreis mit gerader Vertikale, D-förmige Figur",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 108,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        203,
+        297,
+        727,
+        31
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        730,
+        25,
+        40,
+        50
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rhombus/Quadrat mit zentralem Punkt, lozenge-with-dot Ornament",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        780,
+        50,
+        10,
+        25
+      ],
+      "visual_kind": "punctum",
+      "description": "Komma, kleines Häkchen unten rechts",
+      "unicode_codepoint_candidate": "U+002C",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        800,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "Form mit Vertikalstrich und Winkel, ähnlich '4'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        840,
+        25,
+        15,
+        50
+      ],
+      "visual_kind": "digit",
+      "description": "Vertikaler Strich, ähnlich '1'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        865,
+        30,
+        25,
+        45
+      ],
+      "visual_kind": "unknown",
+      "description": "Spitze nach rechts geöffnet, '>'-artig",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        900,
+        30,
+        25,
+        45
+      ],
+      "visual_kind": "unknown",
+      "description": "Spitze nach rechts geöffnet, '>'-artig",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        935,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "Form mit Vertikalstrich und Winkel, ähnlich '4'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        975,
+        25,
+        15,
+        50
+      ],
+      "visual_kind": "digit",
+      "description": "Vertikaler Strich, ähnlich '1'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1000,
+        25,
+        30,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-förmiges lateinisches Zeichen mit zwei oberen Armen und Vertikalstrich; einziges eindeutig lateinisches Element der Zeile",
+      "unicode_codepoint_candidate": "U+0059",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "Y",
+      "bbox": [
+        1000,
+        25,
+        30,
+        50
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "lozenge_with_center_dot",
+      "description": "Rhombusförmiges Ornament mit zentralem Punkt, vermutlich dekoratives Trenn- oder Schlusszeichen",
+      "bbox": [
+        730,
+        25,
+        40,
+        50
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: latin -> LE PROOFS, WE BRING YOU ALSO AN PROOF FOR OUR EXIS"
+}

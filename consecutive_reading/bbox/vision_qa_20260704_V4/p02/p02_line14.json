@@ -1,0 +1,589 @@
+{
+  "page": "p02",
+  "line_id": 14,
+  "line_bbox": [
+    202,
+    890,
+    721,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Reihe von ~29 unbekannten geometrischen/eckigen Glyphen ohne erkennbaren lateinischen Text. Die Glyphen wirken wie ein konstruiertes Schriftsystem mit sich wiederholenden Motiven (Diamanten, Pfeile, Winkel, Punkte).",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 22,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          15,
+          10,
+          70
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner runder Punkt/Punktus am Zeilenanfang",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          25,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel-/Hakenförmiges Glyph, ähnlich einem umgekehrten L oder Häkchen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Λ-förmiges oder pfeilartiges Glyph mit zwei abwärts gerichteten Schenkeln",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          90,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Geometrische Form, entfernt an '4' erinnernd, mit geschlossener Kontur",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          15,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Geschlossene Form, entfernt an '5' oder 'S' erinnernd",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          15,
+          18,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Schmales vertikales Glyph, entfernt an '1' oder 'I' erinnernd",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          175,
+          15,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/Winkel-Glyph, spiegelbildlich zum ersten",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene rauten-/spindelförmige Form, möglicherweise Punze/Siegel",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeilartiges Glyph nach rechts weisend (>'-Form)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          280,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeil-/Dreiecks-Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          15,
+          18,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Schmales vertikales Glyph mit Querbalken, entfernt an 'I' mit Serifen erinnernd",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeilartiges Glyph nach rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          375,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelförmiges Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rautenförmiges Glyph mit zentralem Punkt (Diamond mit Dot)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pfeil-/Winkel-Glyph nach rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          480,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelförmiges Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelförmiges Glyph, spiegelbildlich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          550,
+          15,
+          12,
+          70
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner Punkt als Trenner in der Zeilenmitte",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/Winkel-Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          605,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiges oder pfeilartiges Glyph mit doppelten Querstrichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges oder gekreuztes Glyph",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 46,
+      "iou": 0.085,
+      "page_glyph_bbox": [
+        212,
+        900,
+        654,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Λ-förmiges oder Y-förmiges Glyph",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 47,
+      "iou": 0.226,
+      "page_glyph_bbox": [
+        875,
+        901,
+        39,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        720,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Glyph mit zentralem Punkt (Diamond mit Dot)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        755,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeil-/Winkel-Glyph nach rechts",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        790,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges oder doppelschenkliges Glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        825,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkelförmiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        860,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeil-/Winkel-Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        895,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilartiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        930,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "D-förmiges oder halbgeschlossenes Glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        965,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenförmiges Glyph",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1000,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Letztes pfeil-/winkelförmiges Glyph am Zeilenende",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 14: latin -> OW YOU OUR KNOWLEDGE. OUR WORD IS NOT A FARCE."
+}

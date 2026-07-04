@@ -1,0 +1,600 @@
+{
+  "page": "p04",
+  "line_id": 11,
+  "line_bbox": [
+    186,
+    690,
+    753,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "A single line of stylized angular/geometric script in an unknown font, likely representing the Latin phrase 'MATHEMATICS AND OUR LOGIC. AS A SIGN FOR OUR WIS' in a stylized cipher or custom font. The characters are composed of vertical bars, diamonds, angle brackets, plus signs, and hook shapes.",
+  "n_glyphs_vision": 32,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 22,
+  "n_unmatched_vision_glyphs": 10,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          25,
+          85
+        ],
+        "visual_kind": "line",
+        "description": "Vertical bar (resembles a stylized I or l)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 119,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        196,
+        700,
+        46,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          30,
+          15,
+          35,
+          65
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Diamond/rhombus with a center dot",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 119,
+      "iou": 0.187,
+      "page_glyph_bbox": [
+        196,
+        700,
+        46,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          75,
+          5,
+          35,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular shape with diagonal strokes meeting at the bottom (resembles a stylized M or N)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          110,
+          5,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Two stacked right-angle brackets pointing right (resembles a stylized A or Λ)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          5,
+          35,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular shape with diagonal strokes (resembles a stylized M or N)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          15,
+          25,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Single right-angle bracket pointing right (resembles >)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          5,
+          25,
+          85
+        ],
+        "visual_kind": "line",
+        "description": "Vertical bar (resembles a stylized I)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          240,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "math_times",
+        "description": "Plus/cross sign (resembles a stylized T)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          270,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "E-like shape with three horizontal strokes and a vertical (resembles Ǝ or E)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          300,
+          5,
+          25,
+          85
+        ],
+        "visual_kind": "line",
+        "description": "Vertical bar (resembles a stylized I)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          335,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Hook shape resembling a J (could be a stylized S or 5)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          15,
+          25,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Single left-angle bracket pointing left (resembles < or stylized C)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          415,
+          5,
+          25,
+          85
+        ],
+        "visual_kind": "line",
+        "description": "Vertical bar (resembles a stylized I)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "math_times",
+        "description": "Plus/cross sign (resembles a stylized T)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          475,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "E-like shape (resembles Ǝ or E)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          15,
+          25,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Single right-angle bracket (resembles >)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          5,
+          25,
+          85
+        ],
+        "visual_kind": "line",
+        "description": "Vertical bar (resembles a stylized I)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          5,
+          35,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular shape (resembles a stylized M or N)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          5,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Two stacked right-angle brackets (resembles a stylized A or Λ)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          640,
+          5,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Two stacked right-angle brackets (resembles a stylized A or Λ)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Hook shape resembling a J (could be a stylized S)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          5,
+          25,
+          85
+        ],
+        "visual_kind": "line",
+        "description": "Vertical bar (resembles a stylized I)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 120,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        252,
+        700,
+        678,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        395,
+        40,
+        10,
+        10
+      ],
+      "visual_kind": "punctum",
+      "description": "Small period or dot punctuation",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        740,
+        5,
+        30,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Caret/triangle shape pointing up (resembles a stylized A or V)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        770,
+        5,
+        30,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Gamma-like or rotated L shape (resembles Γ)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        800,
+        5,
+        30,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "L-shape with vertical stroke and right-angled base",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        830,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "math_times",
+      "description": "Plus/cross sign (resembles a stylized T)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        860,
+        15,
+        25,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "Single right-angle bracket (resembles >)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        885,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "math_times",
+      "description": "Plus/cross sign (resembles a stylized T)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        915,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "E-like shape (resembles Ǝ or E)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        945,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Hook shape resembling a J (could be a stylized S)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        975,
+        15,
+        25,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "Single right-angle bracket (resembles >)",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 11: latin -> MATHEMATICS AND OUR LOGIC. AS A SIGN FOR OUR WIS"
+}

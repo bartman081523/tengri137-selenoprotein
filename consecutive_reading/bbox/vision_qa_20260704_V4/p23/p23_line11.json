@@ -1,0 +1,108 @@
+{
+  "page": "p23",
+  "line_id": 11,
+  "line_bbox": [
+    954,
+    801,
+    117,
+    48
+  ],
+  "line_type": "pure_latin_line",
+  "line_description": "Zwei fragmentarische lateinische Buchstabengruppen in Spaltensatz (vertikal gestapelte Großbuchstaben): links 'N / I / S' und rechts 'C / II / C' (oder 'C / II / L'). Großer Leerraum in der Mitte. Sieht aus wie abgeschnittener oder stark beschädigter Antiqua-Drucktext; Lesung unsicher.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 6,
+  "n_numerics": 1,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "N",
+      "bbox": [
+        3,
+        0,
+        28,
+        34
+      ],
+      "confidence": 0.75
+    },
+    {
+      "text": "I",
+      "bbox": [
+        12,
+        38,
+        8,
+        26
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "S",
+      "bbox": [
+        3,
+        72,
+        28,
+        26
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "C",
+      "bbox": [
+        180,
+        0,
+        24,
+        34
+      ],
+      "confidence": 0.65
+    },
+    {
+      "text": "II",
+      "bbox": [
+        178,
+        38,
+        30,
+        26
+      ],
+      "confidence": 0.8
+    },
+    {
+      "text": "C",
+      "bbox": [
+        180,
+        72,
+        24,
+        26
+      ],
+      "confidence": 0.65
+    }
+  ],
+  "numerics": [
+    {
+      "value": "II",
+      "bbox": [
+        178,
+        38,
+        30,
+        26
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "fragmented_layout",
+      "description": "Große horizontale Lücke zwischen linker und rechter Buchstabengruppe; die Zeile wirkt wie zwei abgeschnittene Wort-/Buchstabenfragmente mit weitem Mittelbereich.",
+      "bbox": [
+        35,
+        0,
+        140,
+        100
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 11: latin -> YOUR KNOWLEDGE CAN NOT HELP AT THIS POINT"
+}

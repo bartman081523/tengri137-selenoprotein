@@ -1,0 +1,111 @@
+{
+  "page": "p17",
+  "line_id": 2,
+  "line_bbox": [
+    173,
+    312,
+    476,
+    53
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Two-row mathematical expression showing products of large integers separated by '×' multiplication operators, with a horizontal fraction bar between the upper product and the lower product.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 6,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "307",
+      "bbox": [
+        30,
+        50,
+        50,
+        55
+      ]
+    },
+    {
+      "value": "1481",
+      "bbox": [
+        120,
+        50,
+        80,
+        55
+      ]
+    },
+    {
+      "value": "10873297429171343046161",
+      "bbox": [
+        245,
+        50,
+        460,
+        55
+      ]
+    },
+    {
+      "value": "19193689163997857327327",
+      "bbox": [
+        745,
+        50,
+        280,
+        55
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        30,
+        195,
+        25,
+        55
+      ]
+    },
+    {
+      "value": "17780871841855257950191971103144880245068986055043",
+      "bbox": [
+        85,
+        195,
+        940,
+        55
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "307 × 1481 × 10873297429171343046161 × 19193689163997857327327",
+      "bbox": [
+        25,
+        45,
+        1030,
+        65
+      ]
+    },
+    {
+      "raw": "7 × 17780871841855257950191971103144880245068986055043",
+      "bbox": [
+        25,
+        195,
+        1030,
+        60
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Full-width horizontal fraction bar separating the upper and lower multiplication expressions",
+      "bbox": [
+        20,
+        155,
+        1020,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: latin -> NUMBER AND SEE WHAT A PROOF IS PROVIDED TO YOU ADAM"
+}

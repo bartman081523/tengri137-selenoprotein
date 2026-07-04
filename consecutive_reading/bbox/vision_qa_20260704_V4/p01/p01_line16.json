@@ -1,0 +1,344 @@
+{
+  "page": "p01",
+  "line_id": 16,
+  "line_bbox": [
+    193,
+    1099,
+    738,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Zeile mit reinen unbekannten Glyphen im Stil einer konstruierten/alphabetischen Geheimschrift (Voynich-ähnlich, EVA-artig). Keine lateinischen Buchstaben visuell erkennbar; der Schmeh-2017-Hinweis 'ME TO LIFT THE SECRET' ist eine Interpretationshypothese, kein sichtbarer Inhalt.",
+  "n_glyphs_vision": 15,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          28,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Glyphenverbund: kurzer vertikaler Strich mit Haken links, gefolgt von einem zweiten aufrechten Strich (EVA-ähnlich 'lh' oder 'l+h').",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.139,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          5,
+          42,
+          50
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges Zeichen mit zentralem Punkt (EVA-typisch 'd' mit Punkt).",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          98,
+          5,
+          30,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Bogenförmige Glyphe, ähnelt einem umgedrehten 'C' oder '3' mit angesetztem Haken (EVA 'y' oder '3').",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          138,
+          0,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Zwei aufrechte Striche, der rechte mit kurzem Querbalken oben (EVA 'lГ' oder 'i+gamma').",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          178,
+          0,
+          28,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Schleifenförmige Glyphe, einer Acht ähnlich, oben geschlossen (EVA '8' oder 'g').",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          214,
+          28,
+          8,
+          8
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner Punkt/Punctum als Worttrenner.",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          232,
+          0,
+          75,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Glyphenverbund aus grossem Bogen, gefolgt von zwei schrägen Strichen (EVA 'DГ3' oder 'ch+gamma+3').",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          318,
+          0,
+          55,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Drei aufrechte Striche, der dritte mit zwei Querbalken (EVA 'llh' oder 'l+l+h').",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          382,
+          0,
+          60,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmige Glyphe gefolgt von zwei aufrechten Strichen mit Mittelbalken (EVA 'YГhD' oder 'y+gamma+h+d').",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          452,
+          0,
+          65,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "e-förmige Schleife gefolgt von einer Kette aufrechter Striche mit Häkchen (EVA 'eГhГh').",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          528,
+          0,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Geschlossene schleifenartige Glyphe, ähnelt 'G' (EVA 'g' oder 'e').",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          568,
+          0,
+          75,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Kette von drei schräg/vertikal verbundenen Strichen (EVA 'ГJX' oder 'i+gamma+x').",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 25,
+      "iou": 0.185,
+      "page_glyph_bbox": [
+        203,
+        1109,
+        622,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          653,
+          0,
+          60,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Zwei aufrechte Striche mit oberem Querbalken und angedeuteter Schlaufe (EVA 'lJh' oder 'l+j+h').",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 26,
+      "iou": 0.358,
+      "page_glyph_bbox": [
+        833,
+        1109,
+        89,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          722,
+          0,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Zwei parallele aufrechte Striche ohne Querbalken (EVA 'll' oder 'i+i').",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 26,
+      "iou": 0.051,
+      "page_glyph_bbox": [
+        833,
+        1109,
+        89,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        760,
+        0,
+        60,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmige Glyphe gefolgt von einem aufrechten Strich mit zwei Häkchen (EVA 'YГeh' oder 'y+gamma+e+h').",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "baseline",
+      "description": "Implizite horizontale Grundlinie, an der alle Glyphen ausgerichtet sind (reine Leseraster-Hilfe, keine gezeichnete Linie).",
+      "bbox": [
+        0,
+        56,
+        820,
+        2
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> ME TO LIFT THE SECRET."
+}

@@ -1,0 +1,194 @@
+{
+  "page": "p20",
+  "line_id": 3,
+  "line_bbox": [
+    173,
+    247,
+    856,
+    358
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Ausdruck: Primfaktorzerlegung 2² × 3² × 19 × 31 × 103 × 74471 × 1040965627066935438079 × 9345780681437209204918379. Kein lateinischer Text, keine unbekannten Glyphen – ausschließlich Ziffern, Multiplikationszeichen (×) und Hochstellung-Indikatoren (²).",
+  "n_glyphs_vision": 7,
+  "n_latin_tokens": 0,
+  "n_numerics": 8,
+  "n_formulas": 1,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 7,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        16,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 2² und 3²",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        44,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 3² und 19",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        72,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 19 und 31",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        103,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 31 und 103",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        141,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 103 und 74471",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        196,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 74471 und 1040965627066935438079",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        380,
+        9,
+        9,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen × zwischen 1040965627066935438079 und 9345780681437209204918379",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        0,
+        4,
+        9,
+        20
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        28,
+        4,
+        9,
+        20
+      ]
+    },
+    {
+      "value": "19",
+      "bbox": [
+        54,
+        4,
+        16,
+        20
+      ]
+    },
+    {
+      "value": "31",
+      "bbox": [
+        85,
+        4,
+        16,
+        20
+      ]
+    },
+    {
+      "value": "103",
+      "bbox": [
+        117,
+        4,
+        23,
+        20
+      ]
+    },
+    {
+      "value": "74471",
+      "bbox": [
+        155,
+        4,
+        38,
+        20
+      ]
+    },
+    {
+      "value": "1040965627066935438079",
+      "bbox": [
+        210,
+        4,
+        165,
+        20
+      ]
+    },
+    {
+      "value": "9345780681437209204918379",
+      "bbox": [
+        395,
+        4,
+        188,
+        20
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2² × 3² × 19 × 31 × 103 × 74471 × 1040965627066935438079 × 9345780681437209204918379",
+      "bbox": [
+        0,
+        0,
+        585,
+        28
+      ]
+    }
+  ],
+  "graphics": [],
+  "schmeh_hint": "Line 3: latin -> WE PREPARE YOU FOR THOUSANDS OF YEARS FOR THIS MEETING"
+}

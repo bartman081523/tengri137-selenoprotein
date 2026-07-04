@@ -1,0 +1,438 @@
+{
+  "page": "p07",
+  "line_id": 2,
+  "line_bbox": [
+    211,
+    295,
+    729,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile mit geometrisch-unbekannten Glyphen, mathematischen Symbolen (=) und einer face_circle_three_dots am Ende – möglicherweise eine numerische Formel/Verrechnungszeile (magic_cube_line).",
+  "n_glyphs_vision": 20,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          22,
+          28,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "J-förmige geometrische Initiale, dünnwandig, oben offen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 372,
+      "iou": 0.11,
+      "page_glyph_bbox": [
+        221,
+        306,
+        249,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          33,
+          22,
+          28,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "N-förmige geometrische Initiale, mit Querstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 372,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        221,
+        306,
+        249,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          62,
+          22,
+          28,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "V-/A-förmige geometrische Initiale, spitz zulaufend",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 372,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        221,
+        306,
+        249,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          92,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "A-förmige Initiale mit Querbalken",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 372,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        221,
+        306,
+        249,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          218,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "N-förmige geometrische Initiale (andere Stilfamilie)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 372,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        221,
+        306,
+        249,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          252,
+          22,
+          34,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "F-förmige Initiale mit horizontaler Mittelstrebe",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.067,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "3-förmige Initiale mit Doppelkrümmung",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          324,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "N-förmige Initiale, kleinere Variante",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          380,
+          22,
+          34,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "X- oder Y-förmige Initiale, gekreuzt",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          422,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          458,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          494,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          566,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          602,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          638,
+          22,
+          30,
+          56
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geometrische Initiale",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 373,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        480,
+        305,
+        451,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        140,
+        42,
+        10,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner Punkt/Punctum als Trenner",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        170,
+        40,
+        36,
+        18
+      ],
+      "visual_kind": "math_equals",
+      "description": "Gleichheitszeichen (zwei horizontale Striche)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1080,
+        40,
+        36,
+        18
+      ],
+      "visual_kind": "math_equals",
+      "description": "Gleichheitszeichen (zwei horizontale Striche)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1170,
+        15,
+        60,
+        70
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Kreis mit drei inneren Punkten (Gesicht/Sigil), vermutlich symbolische Verdichtung einer Zahl (666)",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [
+    {
+      "raw": "=",
+      "bbox": [
+        170,
+        40,
+        36,
+        18
+      ]
+    },
+    {
+      "raw": "=",
+      "bbox": [
+        1080,
+        40,
+        36,
+        18
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "face_circle_three_dots",
+      "description": "Kreisförmiges Sigil mit drei Punkten im Inneren, am rechten Zeilenende – mögliche symbolische Darstellung einer Zahl (z.B. 666)",
+      "bbox": [
+        1170,
+        15,
+        60,
+        70
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: magic_cube_line -> 3          656       7      (=666)"
+}

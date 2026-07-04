@@ -1,0 +1,502 @@
+{
+  "page": "p13",
+  "line_id": 6,
+  "line_bbox": [
+    187,
+    781,
+    751,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile mit ~24 unbekannten geometrischen Glyphen, die wie eine konstruierte/runenartige Schrift wirkt; keine lateinischen Buchstaben sichtbar.",
+  "n_glyphs_vision": 24,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 21,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Zwei vertikale Striche mit überkreuzenden Diagonalen, ähnlich einem stilisierten 'rx' oder Andreaskreuz mit Stielen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.135,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "T-förmiges Zeichen, vertikaler Schaft mit kurzem horizontalem Querbalken oben",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          74,
+          15,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Doppel-T / h-Podest, zwei kurze Vertikalen mit verbindenden Horizontalbalken oben und unten",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          116,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "D-förmiges oder p-förmiges Zeichen, links Vertikale mit bogenförmigem Anschluss rechts",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          154,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Wiederholung des 'rx'-förmigen Andreaskreuz-Glyphs",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          191,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Klammerartiges Zeichen, vertikale Linie mit kurzem horizontalem Arm nach links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          223,
+          15,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen mit doppelten Querbalken (oberer und unterer Anschlag)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 638,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        197,
+        792,
+        254,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          266,
+          25,
+          40,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges (rhombisches) Zeichen mit deutlichem Mittelpunkt/Punkt",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.085,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          25,
+          40,
+          60
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreisförmiges Zeichen, möglicherweise mit drei kleinen Punkten im Inneren (Gesicht-Glyphe)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossenes rhombisches/rautenförmiges Zeichen ohne erkennbaren Innenpunkt",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          393,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Y- oder gabelförmiges Zeichen mit zwei nach oben auseinanderlaufenden Schenkeln",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          431,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "J- oder hakenförmiges Zeichen, Vertikale mit kurzem Bogen unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          464,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "1- oder l-förmiges Zeichen, schlank mit angedeutetem oberem Haken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          502,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "digit",
+        "description": "9- oder g-förmiges Zeichen, bogenförmige Rundung mit nach unten gerichteter Vertikale",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "T-förmiges Zeichen mit kurzem Querbalken oben und langem Schaft",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          574,
+          15,
+          15,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich (I) ohne Verzierungen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          594,
+          15,
+          15,
+          70
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich (I) ohne Verzierungen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          614,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen mit zwei oben auseinanderlaufenden Schenkeln",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          652,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "J-förmiges Zeichen mit Vertikale und unterem Haken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          15,
+          30,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Wiederholung des J-Hakens, sehr ähnlich zum vorherigen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          718,
+          15,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen mit doppelten Querbalken und X-förmiger Überkreuzung",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 639,
+      "iou": 0.094,
+      "page_glyph_bbox": [
+        459,
+        791,
+        470,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        761,
+        15,
+        35,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "X-förmiges Zeichen (Andreaskreuz), zwei gekreuzte Diagonalen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        799,
+        15,
+        15,
+        70
+      ],
+      "visual_kind": "line",
+      "description": "Einfacher vertikaler Strich (I)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        819,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "C- oder klammerförmiges Zeichen, gebogene/rechteckige Öffnung",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 6: latin -> VE OR A TOOL. ONLY ONE SOUL WILL REACH ITS DESTINA"
+}

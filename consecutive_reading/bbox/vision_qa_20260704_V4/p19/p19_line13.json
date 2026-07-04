@@ -1,0 +1,289 @@
+{
+  "page": "p19",
+  "line_id": 13,
+  "line_bbox": [
+    173,
+    1128,
+    345,
+    57
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "A two-row mathematical fraction (numerator over denominator) showing a prime factorization-like product expression, separated by a long horizontal bar. No unknown script glyphs present; entirely composed of Latin/digit characters and multiplication signs.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 15,
+  "n_numerics": 9,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "7",
+      "bbox": [
+        18,
+        5,
+        22,
+        55
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "x",
+      "bbox": [
+        48,
+        5,
+        22,
+        55
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "103",
+      "bbox": [
+        76,
+        5,
+        52,
+        55
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "x",
+      "bbox": [
+        134,
+        5,
+        22,
+        55
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "20894347",
+      "bbox": [
+        162,
+        5,
+        138,
+        55
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "x",
+      "bbox": [
+        306,
+        5,
+        22,
+        55
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "96597344975787088534999",
+      "bbox": [
+        334,
+        5,
+        508,
+        55
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "3",
+      "bbox": [
+        18,
+        100,
+        22,
+        60
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "2",
+      "bbox": [
+        32,
+        88,
+        18,
+        28
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "x",
+      "bbox": [
+        70,
+        110,
+        22,
+        50
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "5",
+      "bbox": [
+        98,
+        110,
+        22,
+        50
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "x",
+      "bbox": [
+        126,
+        110,
+        22,
+        50
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "505123",
+      "bbox": [
+        154,
+        110,
+        92,
+        50
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "x",
+      "bbox": [
+        252,
+        110,
+        22,
+        50
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "16098000200684290000046401",
+      "bbox": [
+        280,
+        110,
+        510,
+        50
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "numerics": [
+    {
+      "value": "7",
+      "bbox": [
+        18,
+        5,
+        22,
+        55
+      ]
+    },
+    {
+      "value": "103",
+      "bbox": [
+        76,
+        5,
+        52,
+        55
+      ]
+    },
+    {
+      "value": "20894347",
+      "bbox": [
+        162,
+        5,
+        138,
+        55
+      ]
+    },
+    {
+      "value": "96597344975787088534999",
+      "bbox": [
+        334,
+        5,
+        508,
+        55
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        18,
+        100,
+        22,
+        60
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        32,
+        88,
+        18,
+        28
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        98,
+        110,
+        22,
+        50
+      ]
+    },
+    {
+      "value": "505123",
+      "bbox": [
+        154,
+        110,
+        92,
+        50
+      ]
+    },
+    {
+      "value": "16098000200684290000046401",
+      "bbox": [
+        280,
+        110,
+        510,
+        50
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "7 × 103 × 20894347 × 96597344975787088534999",
+      "bbox": [
+        15,
+        5,
+        835,
+        55
+      ]
+    },
+    {
+      "raw": "3^2 × 5 × 505123 × 16098000200684290000046401",
+      "bbox": [
+        15,
+        88,
+        790,
+        72
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Long horizontal line spanning nearly the full line width, positioned between the two numeric rows, serving as a fraction/vinculum separator.",
+      "bbox": [
+        10,
+        72,
+        838,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 13: latin -> YOU LEARN IN INTERACTION WITH US"
+}

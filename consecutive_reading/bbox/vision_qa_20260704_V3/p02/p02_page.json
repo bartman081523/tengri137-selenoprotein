@@ -1,0 +1,236 @@
+{
+  "page": "p01",
+  "image_size": [
+    756,
+    1013
+  ],
+  "text_words": [
+    {
+      "id": "tw1",
+      "text": "Paragraph 1 (constructed/unreadable script)",
+      "position": [
+        104,
+        169
+      ],
+      "bbox": [
+        104,
+        169,
+        615,
+        247
+      ],
+      "color": "black",
+      "language": "unknown_constructed_script",
+      "confidence": "low",
+      "lines": 4
+    },
+    {
+      "id": "tw2",
+      "text": "Paragraph 2 (constructed/unreadable script)",
+      "position": [
+        111,
+        279
+      ],
+      "bbox": [
+        111,
+        279,
+        612,
+        345
+      ],
+      "color": "black",
+      "language": "unknown_constructed_script",
+      "confidence": "low",
+      "lines": 3
+    },
+    {
+      "id": "tw3",
+      "text": "Paragraph 3 (constructed/unreadable script)",
+      "position": [
+        113,
+        372
+      ],
+      "bbox": [
+        113,
+        372,
+        612,
+        412
+      ],
+      "color": "black",
+      "language": "unknown_constructed_script",
+      "confidence": "low",
+      "lines": 2
+    },
+    {
+      "id": "tw4",
+      "text": "Paragraph 4 (constructed/unreadable script)",
+      "position": [
+        111,
+        443
+      ],
+      "bbox": [
+        111,
+        443,
+        614,
+        545
+      ],
+      "color": "black",
+      "language": "unknown_constructed_script",
+      "confidence": "low",
+      "lines": 7
+    }
+  ],
+  "symbols": [
+    {
+      "id": "s1",
+      "type": "sigil",
+      "description": "Top-left circular sigil: contains crescent/moon at top, sun symbol, stick figures (human-like), small animal figures, geometric circles, horizontal divider lines",
+      "position": [
+        190,
+        568
+      ],
+      "bbox": [
+        190,
+        568,
+        370,
+        770
+      ],
+      "color": "black"
+    },
+    {
+      "id": "s2",
+      "type": "sigil",
+      "description": "Top-right circular sigil: contains scorpion-like creature on left, sun/face symbol in upper area, stars, horizontal divider, central vertical axis, small figures",
+      "position": [
+        407,
+        568
+      ],
+      "bbox": [
+        407,
+        568,
+        587,
+        770
+      ],
+      "color": "black"
+    },
+    {
+      "id": "s3",
+      "type": "sigil",
+      "description": "Bottom-left circular sigil: contains moon at top, human stick figures, arch/doorway shape, circles, horizontal divider",
+      "position": [
+        190,
+        778
+      ],
+      "bbox": [
+        190,
+        778,
+        370,
+        967
+      ],
+      "color": "black"
+    },
+    {
+      "id": "s4",
+      "type": "sigil",
+      "description": "Bottom-right circular sigil: contains wave patterns at top, central vertical axis/column, human figures, sun/face symbol, circular emblems, cross-like patterns",
+      "position": [
+        407,
+        778
+      ],
+      "bbox": [
+        407,
+        778,
+        587,
+        967
+      ],
+      "color": "black"
+    }
+  ],
+  "drawings": [
+    {
+      "id": "d1",
+      "type": "circular_diagram",
+      "description": "Four circular esoteric/magical diagrams arranged in 2x2 grid, line drawings in black ink, hand-drawn style with simple stroke work",
+      "position": [
+        190,
+        568
+      ],
+      "bbox": [
+        190,
+        568,
+        587,
+        967
+      ],
+      "style": "line_art",
+      "color": "black"
+    }
+  ],
+  "digits": [],
+  "formulas": [],
+  "mixed_media_regions": [
+    {
+      "id": "mm1",
+      "description": "Top-left sigil: combines geometric circles, stick-figure humanoids, animal figures (possibly a dog/quadruped), a sun symbol with rays, and a crescent moon — appears to depict a cosmological or zodiacal scene",
+      "bbox": [
+        190,
+        568,
+        370,
+        770
+      ],
+      "components": [
+        "text",
+        "symbol",
+        "drawing"
+      ]
+    },
+    {
+      "id": "mm2",
+      "description": "Top-right sigil: combines a scorpion-like creature, stars/asterisks, a sun-face symbol, stick figures, and a cross-axis — appears to be an astrological/zodiacal diagram",
+      "bbox": [
+        407,
+        568,
+        587,
+        770
+      ],
+      "components": [
+        "symbol",
+        "drawing"
+      ]
+    },
+    {
+      "id": "mm3",
+      "description": "Bottom-left sigil: combines a moon, stick figures, an archway/portal, and circular elements",
+      "bbox": [
+        190,
+        778,
+        370,
+        967
+      ],
+      "components": [
+        "symbol",
+        "drawing"
+      ]
+    },
+    {
+      "id": "mm4",
+      "description": "Bottom-right sigil: combines water/wave patterns, a central column or tree-of-life motif, human figures, and circular medallions with cross patterns",
+      "bbox": [
+        407,
+        778,
+        587,
+        967
+      ],
+      "components": [
+        "symbol",
+        "drawing"
+      ]
+    }
+  ],
+  "uncertain": [
+    "All four text blocks are in an unknown/constructed script that cannot be deciphered — characters resemble stylized letters but do not match any known alphabet (possibly a private cipher, fictional script such as from a fantasy/grimoire publication, or decorative pseudo-script)",
+    "The text is arranged in justified paragraphs with center-aligned final lines, suggesting formatted prose but actual words cannot be read",
+    "Exact identification of creatures inside the sigils (scorpion vs. lobster, dog vs. other quadruped) is uncertain due to small size and stylized drawing",
+    "Whether the page originates from a published occult/fantasy work, a private manuscript, or a constructed language exercise cannot be determined from visual analysis alone",
+    "No page number, title, or header/footer text is visible"
+  ],
+  "_v3_page_type": "mixed",
+  "_v3_skip_glyphs": false
+}

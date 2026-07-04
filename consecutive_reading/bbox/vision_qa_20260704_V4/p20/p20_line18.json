@@ -1,0 +1,47 @@
+{
+  "page": "p20",
+  "line_id": 18,
+  "line_bbox": [
+    11,
+    1614,
+    1104,
+    11
+  ],
+  "line_type": "empty_line",
+  "line_description": "Empty line consisting only of two thin horizontal border lines (top and bottom) with no visible content, glyphs, or text between them.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Thin horizontal border line at the top of the line, spanning nearly the full width.",
+      "bbox": [
+        0,
+        0,
+        1100,
+        1
+      ]
+    },
+    {
+      "type": "horizontal_line",
+      "description": "Thin horizontal border line at the bottom of the line, spanning nearly the full width.",
+      "bbox": [
+        0,
+        15,
+        1100,
+        1
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 18: unknown -> around the warning line and the comma in the second line)."
+}

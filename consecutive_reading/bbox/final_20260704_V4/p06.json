@@ -1,0 +1,4927 @@
+{
+  "page_id": "p06",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 121,
+  "n_latin_tokens": 4,
+  "n_regions": 32,
+  "schmeh_hint": {
+    "n_latin": 1,
+    "n_glyphs": 1,
+    "has_glyphs": true,
+    "has_magic_cube": true,
+    "has_rings": false,
+    "has_burumut_block": false
+  },
+  "schmeh_validation": {
+    "n_glyph_pages_match": true,
+    "n_latin_pages_match": false,
+    "n_latin_pages_mismatch": true,
+    "issues": [
+      "V4 found MORE latin tokens (4) than Schmeh hints (1)"
+    ]
+  },
+  "regions": [
+    {
+      "region_id": "p06_R1",
+      "bbox": [
+        517,
+        264,
+        259,
+        37
+      ],
+      "region_type": "latin_text",
+      "description": "Line 1, y_center=281.4, glyphs=4, latin=1",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 249,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 1,
+          "bbox": [
+            527,
+            274,
+            22,
+            16
+          ],
+          "size_px": 134,
+          "fill_ratio": 0.3807,
+          "n_components": 2,
+          "components": [
+            2996,
+            2997
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 250,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 1,
+          "bbox": [
+            608,
+            274,
+            11,
+            15
+          ],
+          "size_px": 58,
+          "fill_ratio": 0.3515,
+          "n_components": 1,
+          "components": [
+            2998
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 251,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 1,
+          "bbox": [
+            678,
+            274,
+            34,
+            16
+          ],
+          "size_px": 221,
+          "fill_ratio": 0.4062,
+          "n_components": 3,
+          "components": [
+            3001,
+            2999,
+            3000
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 252,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 1,
+          "bbox": [
+            763,
+            281,
+            4,
+            11
+          ],
+          "size_px": 30,
+          "fill_ratio": 0.6818,
+          "n_components": 1,
+          "components": [
+            3002
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "EZRA (2:13)",
+          "bbox": [
+            517,
+            264,
+            259,
+            37
+          ],
+          "conf": 0.5,
+          "line_id": 1,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R2",
+      "bbox": [
+        349,
+        250,
+        427,
+        155
+      ],
+      "region_type": "graphic_line",
+      "description": "Line 2, y_center=320.3, glyphs=5, latin=0",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 253,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 2,
+          "bbox": [
+            481,
+            314,
+            10,
+            15
+          ],
+          "size_px": 65,
+          "fill_ratio": 0.4333,
+          "n_components": 1,
+          "components": [
+            3004
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 254,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0021",
+          "line_id": 2,
+          "bbox": [
+            359,
+            260,
+            408,
+            136
+          ],
+          "size_px": 3900,
+          "fill_ratio": 0.0703,
+          "n_components": 4,
+          "components": [
+            3006,
+            3005,
+            3007,
+            2995
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": "other",
+          "vision_description": "Outer parallelogram frame, slightly slanted to the right, divided into a 3x3 grid of rhombus cells",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 255,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 2,
+          "bbox": [
+            639,
+            314,
+            10,
+            15
+          ],
+          "size_px": 46,
+          "fill_ratio": 0.3067,
+          "n_components": 1,
+          "components": [
+            3008
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 256,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 2,
+          "bbox": [
+            684,
+            325,
+            4,
+            11
+          ],
+          "size_px": 30,
+          "fill_ratio": 0.6818,
+          "n_components": 1,
+          "components": [
+            3010
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 257,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 2,
+          "bbox": [
+            763,
+            301,
+            4,
+            32
+          ],
+          "size_px": 61,
+          "fill_ratio": 0.4766,
+          "n_components": 2,
+          "components": [
+            3003,
+            3009
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [
+        {
+          "raw": "26+2+638 = 666 ; 26+3+637 = 666 (diagonal sums)",
+          "bbox": [
+            20,
+            10,
+            360,
+            160
+          ],
+          "line_id": 2
+        }
+      ],
+      "numerics": [
+        {
+          "value": "26",
+          "bbox": [
+            128,
+            30,
+            38,
+            26
+          ]
+        },
+        {
+          "value": "2",
+          "bbox": [
+            243,
+            32,
+            18,
+            24
+          ]
+        },
+        {
+          "value": "638",
+          "bbox": [
+            335,
+            30,
+            50,
+            26
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            85,
+            80,
+            20,
+            24
+          ]
+        },
+        {
+          "value": "656",
+          "bbox": [
+            213,
+            80,
+            50,
+            26
+          ]
+        },
+        {
+          "value": "7",
+          "bbox": [
+            320,
+            82,
+            18,
+            24
+          ]
+        },
+        {
+          "value": "637",
+          "bbox": [
+            48,
+            132,
+            50,
+            26
+          ]
+        },
+        {
+          "value": "8",
+          "bbox": [
+            182,
+            134,
+            20,
+            24
+          ]
+        },
+        {
+          "value": "21",
+          "bbox": [
+            285,
+            132,
+            38,
+            26
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "parallelogram_frame",
+          "description": "Outer parallelogram with slanted right side; top and bottom edges horizontal, left and right edges slanted",
+          "bbox": [
+            20,
+            10,
+            360,
+            160
+          ]
+        },
+        {
+          "type": "internal_grid",
+          "description": "Two internal slanted lines forming the 3x3 rhombic grid division (top-right to bottom-left diagonals repeated)",
+          "bbox": [
+            20,
+            10,
+            360,
+            160
+          ]
+        },
+        {
+          "type": "dashed_line",
+          "description": "Vertical dashed line on the right edge below the top-right cell, suggesting extension or projection",
+          "bbox": [
+            365,
+            50,
+            12,
+            110
+          ]
+        },
+        {
+          "type": "tick_marks",
+          "description": "Small vertical tick marks below the bottom edge of the parallelogram, one per column",
+          "bbox": [
+            50,
+            158,
+            320,
+            12
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R3",
+      "bbox": [
+        404,
+        331,
+        372,
+        54
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=361.2, glyphs=5, latin=0",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 258,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 3,
+          "bbox": [
+            414,
+            357,
+            33,
+            15
+          ],
+          "size_px": 164,
+          "fill_ratio": 0.3313,
+          "n_components": 3,
+          "components": [
+            3015,
+            3013,
+            3014
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 259,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 3,
+          "bbox": [
+            501,
+            357,
+            11,
+            15
+          ],
+          "size_px": 76,
+          "fill_ratio": 0.4606,
+          "n_components": 1,
+          "components": [
+            3016
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 260,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 3,
+          "bbox": [
+            571,
+            357,
+            22,
+            15
+          ],
+          "size_px": 123,
+          "fill_ratio": 0.3727,
+          "n_components": 2,
+          "components": [
+            3018,
+            3017
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 261,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 3,
+          "bbox": [
+            684,
+            345,
+            4,
+            31
+          ],
+          "size_px": 59,
+          "fill_ratio": 0.4758,
+          "n_components": 2,
+          "components": [
+            3012,
+            3020
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 262,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 3,
+          "bbox": [
+            763,
+            341,
+            4,
+            32
+          ],
+          "size_px": 62,
+          "fill_ratio": 0.4844,
+          "n_components": 2,
+          "components": [
+            3011,
+            3019
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R4",
+      "bbox": [
+        350,
+        371,
+        426,
+        76
+      ],
+      "region_type": "latin_text",
+      "description": "Line 4, y_center=411.9, glyphs=7, latin=0",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 263,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 4,
+          "bbox": [
+            360,
+            405,
+            3,
+            32
+          ],
+          "size_px": 42,
+          "fill_ratio": 0.4375,
+          "n_components": 2,
+          "components": [
+            3026,
+            3036
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 264,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 4,
+          "bbox": [
+            417,
+            387,
+            3,
+            51
+          ],
+          "size_px": 62,
+          "fill_ratio": 0.4052,
+          "n_components": 3,
+          "components": [
+            3023,
+            3028,
+            3037
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 265,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 4,
+          "bbox": [
+            473,
+            387,
+            4,
+            31
+          ],
+          "size_px": 61,
+          "fill_ratio": 0.4919,
+          "n_components": 2,
+          "components": [
+            3024,
+            3027
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 266,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 4,
+          "bbox": [
+            536,
+            409,
+            11,
+            15
+          ],
+          "size_px": 59,
+          "fill_ratio": 0.3576,
+          "n_components": 1,
+          "components": [
+            3029
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 267,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 4,
+          "bbox": [
+            600,
+            409,
+            34,
+            15
+          ],
+          "size_px": 202,
+          "fill_ratio": 0.3961,
+          "n_components": 3,
+          "components": [
+            3032,
+            3030,
+            3031
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 268,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 4,
+          "bbox": [
+            688,
+            409,
+            22,
+            15
+          ],
+          "size_px": 110,
+          "fill_ratio": 0.3333,
+          "n_components": 2,
+          "components": [
+            3033,
+            3034
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 269,
+          "page": "p06",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 4,
+          "bbox": [
+            763,
+            381,
+            4,
+            52
+          ],
+          "size_px": 93,
+          "fill_ratio": 0.4471,
+          "n_components": 3,
+          "components": [
+            3021,
+            3025,
+            3035
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R5",
+      "bbox": [
+        350,
+        375,
+        426,
+        155
+      ],
+      "region_type": "graphic_line",
+      "description": "Line 5, y_center=457.2, glyphs=7, latin=0",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 270,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 5,
+          "bbox": [
+            360,
+            445,
+            3,
+            32
+          ],
+          "size_px": 44,
+          "fill_ratio": 0.4583,
+          "n_components": 2,
+          "components": [
+            3039,
+            3049
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 271,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 5,
+          "bbox": [
+            417,
+            447,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3040
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 272,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            468,
+            450,
+            35,
+            16
+          ],
+          "size_px": 187,
+          "fill_ratio": 0.3339,
+          "n_components": 3,
+          "components": [
+            3041,
+            3042,
+            3043
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 273,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0021",
+          "line_id": 5,
+          "bbox": [
+            360,
+            385,
+            407,
+            136
+          ],
+          "size_px": 3573,
+          "fill_ratio": 0.0646,
+          "n_components": 2,
+          "components": [
+            3022,
+            3044
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": "magic_cube_3x3",
+          "vision_description": "Gesamte 3x3-Magic-Cube-Struktur in Parallelogramm-Projektion (isometrisch). Drei Zeilen mit je drei Zellen, alle Diagonalen der Zellen verlaufen parallel nach rechts-unten. Vertikale gestrichelte Linien an den Außenkanten erzeugen 3D-Eindruck eines flachen Quaders.",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 274,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            633,
+            450,
+            21,
+            16
+          ],
+          "size_px": 116,
+          "fill_ratio": 0.3452,
+          "n_components": 2,
+          "components": [
+            3046,
+            3045
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 275,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 5,
+          "bbox": [
+            684,
+            460,
+            4,
+            12
+          ],
+          "size_px": 31,
+          "fill_ratio": 0.6458,
+          "n_components": 1,
+          "components": [
+            3047
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 276,
+          "page": "p06",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 5,
+          "bbox": [
+            763,
+            442,
+            4,
+            31
+          ],
+          "size_px": 60,
+          "fill_ratio": 0.4839,
+          "n_components": 2,
+          "components": [
+            3038,
+            3048
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [
+        {
+          "raw": "4 + 640 + 22 = 666",
+          "bbox": [
+            0,
+            0,
+            400,
+            200
+          ],
+          "line_id": 5
+        },
+        {
+          "raw": "644 + 9 + 13 = 666",
+          "bbox": [
+            0,
+            0,
+            400,
+            200
+          ],
+          "line_id": 5
+        },
+        {
+          "raw": "18 + 17 + 631 = 666",
+          "bbox": [
+            0,
+            0,
+            400,
+            200
+          ],
+          "line_id": 5
+        }
+      ],
+      "numerics": [
+        {
+          "value": "4",
+          "bbox": [
+            180,
+            40,
+            20,
+            22
+          ]
+        },
+        {
+          "value": "640",
+          "bbox": [
+            220,
+            40,
+            42,
+            22
+          ]
+        },
+        {
+          "value": "22",
+          "bbox": [
+            293,
+            40,
+            28,
+            22
+          ]
+        },
+        {
+          "value": "644",
+          "bbox": [
+            97,
+            90,
+            42,
+            22
+          ]
+        },
+        {
+          "value": "9",
+          "bbox": [
+            185,
+            90,
+            16,
+            22
+          ]
+        },
+        {
+          "value": "13",
+          "bbox": [
+            233,
+            90,
+            28,
+            22
+          ]
+        },
+        {
+          "value": "18",
+          "bbox": [
+            45,
+            140,
+            30,
+            22
+          ]
+        },
+        {
+          "value": "17",
+          "bbox": [
+            130,
+            140,
+            28,
+            22
+          ]
+        },
+        {
+          "value": "631",
+          "bbox": [
+            192,
+            140,
+            42,
+            22
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "solid_diagonal_line",
+          "description": "Durchgezogene Diagonalen, die die Zellen des Magischen Quadrats in Parallelogramm-Form trennen. Verlaufen parallel von links-oben nach rechts-unten. Pro Zelle vier Diagonal-Begrenzungen, insgesamt bilden sie die 3x3-Struktur ab.",
+          "bbox": [
+            10,
+            20,
+            360,
+            170
+          ]
+        },
+        {
+          "type": "dashed_vertical_line_top_left",
+          "description": "Gestrichelte vertikale Linie an der oberen linken Außenkante des Cubes zur 3D-Tiefenwirkung.",
+          "bbox": [
+            10,
+            15,
+            5,
+            165
+          ]
+        },
+        {
+          "type": "dashed_vertical_line_top_right",
+          "description": "Gestrichelte vertikale Linie an der oberen rechten Außenkante des Cubes zur 3D-Tiefenwirkung.",
+          "bbox": [
+            340,
+            15,
+            5,
+            165
+          ]
+        },
+        {
+          "type": "dashed_vertical_line_inner_left",
+          "description": "Gestrichelte vertikale Linie zwischen oberer und mittlerer Zelle der linken Spalte.",
+          "bbox": [
+            78,
+            15,
+            5,
+            165
+          ]
+        },
+        {
+          "type": "dashed_vertical_line_inner_right",
+          "description": "Gestrichelte vertikale Linie zwischen oberer und mittlerer Zelle der rechten Spalte.",
+          "bbox": [
+            285,
+            15,
+            5,
+            165
+          ]
+        },
+        {
+          "type": "horizontal_top_edge",
+          "description": "Durchgezogene horizontale Linie am oberen Rand des Cubes.",
+          "bbox": [
+            10,
+            18,
+            360,
+            3
+          ]
+        },
+        {
+          "type": "horizontal_bottom_edge",
+          "description": "Durchgezogene horizontale Linie am unteren Rand des Cubes.",
+          "bbox": [
+            10,
+            178,
+            360,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R6",
+      "bbox": [
+        350,
+        470,
+        426,
+        56
+      ],
+      "region_type": "latin_text",
+      "description": "Line 6, y_center=498.3, glyphs=6, latin=0",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 277,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 6,
+          "bbox": [
+            360,
+            485,
+            3,
+            32
+          ],
+          "size_px": 42,
+          "fill_ratio": 0.4375,
+          "n_components": 2,
+          "components": [
+            3052,
+            3062
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 278,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            417,
+            491,
+            22,
+            16
+          ],
+          "size_px": 133,
+          "fill_ratio": 0.3778,
+          "n_components": 2,
+          "components": [
+            3053,
+            3056
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 279,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            498,
+            492,
+            22,
+            15
+          ],
+          "size_px": 91,
+          "fill_ratio": 0.2758,
+          "n_components": 2,
+          "components": [
+            3058,
+            3057
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 280,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            568,
+            491,
+            33,
+            16
+          ],
+          "size_px": 181,
+          "fill_ratio": 0.3428,
+          "n_components": 3,
+          "components": [
+            3054,
+            3055,
+            3059
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 281,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 6,
+          "bbox": [
+            684,
+            480,
+            4,
+            32
+          ],
+          "size_px": 62,
+          "fill_ratio": 0.4844,
+          "n_components": 2,
+          "components": [
+            3050,
+            3060
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 282,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 6,
+          "bbox": [
+            763,
+            482,
+            4,
+            32
+          ],
+          "size_px": 63,
+          "fill_ratio": 0.4922,
+          "n_components": 2,
+          "components": [
+            3051,
+            3061
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "18",
+          "bbox": [
+            195,
+            50,
+            70,
+            60
+          ]
+        },
+        {
+          "value": "17",
+          "bbox": [
+            415,
+            50,
+            70,
+            60
+          ]
+        },
+        {
+          "value": "631",
+          "bbox": [
+            615,
+            50,
+            100,
+            60
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "parallelogram",
+          "description": "Large slanted parallelogram (leaning right) spanning the full width of the line, divided internally by two diagonal lines into three sub-parallelogram cells",
+          "bbox": [
+            0,
+            0,
+            980,
+            140
+          ]
+        },
+        {
+          "type": "diagonal_divider",
+          "description": "First internal diagonal line separating the '18' cell from the '17' cell",
+          "bbox": [
+            280,
+            0,
+            70,
+            140
+          ]
+        },
+        {
+          "type": "diagonal_divider",
+          "description": "Second internal diagonal line separating the '17' cell from the '631' cell",
+          "bbox": [
+            500,
+            0,
+            70,
+            140
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Dashed vertical line on the right side, likely a column/row boundary marker",
+          "bbox": [
+            835,
+            0,
+            8,
+            140
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Dashed vertical line on the far right edge, likely a column/row boundary marker",
+          "bbox": [
+            965,
+            0,
+            8,
+            140
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R7",
+      "bbox": [
+        350,
+        512,
+        136,
+        34
+      ],
+      "region_type": "latin_text",
+      "description": "Line 7, y_center=527.9, glyphs=3, latin=0",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 283,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 7,
+          "bbox": [
+            360,
+            526,
+            3,
+            11
+          ],
+          "size_px": 20,
+          "fill_ratio": 0.6061,
+          "n_components": 1,
+          "components": [
+            3066
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 284,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 7,
+          "bbox": [
+            417,
+            522,
+            3,
+            12
+          ],
+          "size_px": 21,
+          "fill_ratio": 0.5833,
+          "n_components": 1,
+          "components": [
+            3064
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 285,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 7,
+          "bbox": [
+            474,
+            522,
+            3,
+            11
+          ],
+          "size_px": 20,
+          "fill_ratio": 0.6061,
+          "n_components": 1,
+          "components": [
+            3065
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R8",
+      "bbox": [
+        350,
+        531,
+        358,
+        55
+      ],
+      "region_type": "latin_text",
+      "description": "Line 8, y_center=553.6, glyphs=6, latin=0",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 286,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 8,
+          "bbox": [
+            360,
+            546,
+            3,
+            31
+          ],
+          "size_px": 40,
+          "fill_ratio": 0.4301,
+          "n_components": 2,
+          "components": [
+            3075,
+            3077
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 287,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 8,
+          "bbox": [
+            417,
+            542,
+            3,
+            31
+          ],
+          "size_px": 41,
+          "fill_ratio": 0.4409,
+          "n_components": 2,
+          "components": [
+            3068,
+            3076
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 288,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 8,
+          "bbox": [
+            474,
+            541,
+            3,
+            12
+          ],
+          "size_px": 21,
+          "fill_ratio": 0.5833,
+          "n_components": 1,
+          "components": [
+            3067
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 289,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 8,
+          "bbox": [
+            525,
+            545,
+            34,
+            15
+          ],
+          "size_px": 210,
+          "fill_ratio": 0.4118,
+          "n_components": 3,
+          "components": [
+            3070,
+            3069,
+            3071
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 290,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 8,
+          "bbox": [
+            601,
+            545,
+            22,
+            15
+          ],
+          "size_px": 124,
+          "fill_ratio": 0.3758,
+          "n_components": 2,
+          "components": [
+            3072,
+            3073
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 291,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 8,
+          "bbox": [
+            688,
+            545,
+            11,
+            15
+          ],
+          "size_px": 75,
+          "fill_ratio": 0.4545,
+          "n_components": 1,
+          "components": [
+            3074
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R9",
+      "bbox": [
+        350,
+        511,
+        426,
+        156
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 9, y_center=590.3, glyphs=5, latin=0",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 292,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 9,
+          "bbox": [
+            360,
+            586,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3085
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 293,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 9,
+          "bbox": [
+            417,
+            582,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3078
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 294,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 9,
+          "bbox": [
+            478,
+            584,
+            22,
+            16
+          ],
+          "size_px": 112,
+          "fill_ratio": 0.3182,
+          "n_components": 2,
+          "components": [
+            3079,
+            3082
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 295,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0021",
+          "line_id": 9,
+          "bbox": [
+            360,
+            521,
+            407,
+            137
+          ],
+          "size_px": 3780,
+          "fill_ratio": 0.0678,
+          "n_components": 2,
+          "components": [
+            3063,
+            3083
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 296,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 9,
+          "bbox": [
+            623,
+            584,
+            34,
+            16
+          ],
+          "size_px": 218,
+          "fill_ratio": 0.4007,
+          "n_components": 3,
+          "components": [
+            3080,
+            3084,
+            3081
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "636",
+          "bbox": [
+            168,
+            48,
+            52,
+            22
+          ]
+        },
+        {
+          "value": "24",
+          "bbox": [
+            275,
+            48,
+            32,
+            22
+          ]
+        },
+        {
+          "value": "6",
+          "bbox": [
+            378,
+            48,
+            24,
+            22
+          ]
+        },
+        {
+          "value": "19",
+          "bbox": [
+            178,
+            108,
+            40,
+            22
+          ]
+        },
+        {
+          "value": "1",
+          "bbox": [
+            280,
+            108,
+            14,
+            22
+          ]
+        },
+        {
+          "value": "646",
+          "bbox": [
+            320,
+            108,
+            52,
+            22
+          ]
+        },
+        {
+          "value": "11",
+          "bbox": [
+            38,
+            168,
+            32,
+            22
+          ]
+        },
+        {
+          "value": "641",
+          "bbox": [
+            145,
+            168,
+            52,
+            22
+          ]
+        },
+        {
+          "value": "14",
+          "bbox": [
+            245,
+            168,
+            32,
+            22
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "parallelogram_outer_frame",
+          "description": "Solid outline of a slanted parallelogram (top, right, bottom, left edges all solid)",
+          "bbox": [
+            0,
+            18,
+            470,
+            210
+          ]
+        },
+        {
+          "type": "horizontal_internal_lines",
+          "description": "Two horizontal lines dividing the parallelogram into three horizontal rows",
+          "bbox": [
+            0,
+            85,
+            470,
+            2
+          ]
+        },
+        {
+          "type": "diagonal_internal_lines",
+          "description": "Diagonal lines slanting from upper-right to lower-left, dividing the parallelogram into three slanted columns",
+          "bbox": [
+            0,
+            18,
+            470,
+            210
+          ]
+        },
+        {
+          "type": "dashed_cell_top_left",
+          "description": "Dashed outline of the empty top-left cell in the top row (no number)",
+          "bbox": [
+            5,
+            18,
+            90,
+            70
+          ]
+        },
+        {
+          "type": "dashed_cell_top_right",
+          "description": "Dashed outline of the empty top-right cell in the top row (no number)",
+          "bbox": [
+            410,
+            18,
+            60,
+            70
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R10",
+      "bbox": [
+        350,
+        596,
+        22,
+        31
+      ],
+      "region_type": "latin_text",
+      "description": "Line 10, y_center=611.0, glyphs=1, latin=0",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 297,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 10,
+          "bbox": [
+            360,
+            606,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3086
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R11",
+      "bbox": [
+        350,
+        616,
+        253,
+        36
+      ],
+      "region_type": "latin_text",
+      "description": "Line 11, y_center=634.0, glyphs=4, latin=0",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 298,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 11,
+          "bbox": [
+            360,
+            626,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3087
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 299,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 11,
+          "bbox": [
+            420,
+            628,
+            22,
+            14
+          ],
+          "size_px": 91,
+          "fill_ratio": 0.2955,
+          "n_components": 2,
+          "components": [
+            3089,
+            3090
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 300,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 11,
+          "bbox": [
+            490,
+            627,
+            33,
+            16
+          ],
+          "size_px": 186,
+          "fill_ratio": 0.3523,
+          "n_components": 3,
+          "components": [
+            3091,
+            3088,
+            3092
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 301,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 11,
+          "bbox": [
+            573,
+            628,
+            21,
+            14
+          ],
+          "size_px": 112,
+          "fill_ratio": 0.381,
+          "n_components": 2,
+          "components": [
+            3094,
+            3093
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R12",
+      "bbox": [
+        465,
+        672,
+        190,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 12, y_center=694.0, glyphs=1, latin=0",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 302,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 12,
+          "bbox": [
+            475,
+            682,
+            171,
+            26
+          ],
+          "size_px": 1516,
+          "fill_ratio": 0.341,
+          "n_components": 9,
+          "components": [
+            3099,
+            3096,
+            3095,
+            3103,
+            3098,
+            3097,
+            3102,
+            3100,
+            3101
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "C-förmiger Glyph mit drei Horizontalstrichen, visuell identisch mit kyrillisch З (Ze)",
+          "vision_confidence": 0.45,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            410,
+            5,
+            35,
+            50
+          ]
+        }
+      ],
+      "graphics": [],
+      "uncertain": [
+        302
+      ]
+    },
+    {
+      "region_id": "p06_R13",
+      "bbox": [
+        187,
+        713,
+        752,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 13, y_center=735.2, glyphs=3, latin=0",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 303,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 13,
+          "bbox": [
+            197,
+            723,
+            390,
+            27
+          ],
+          "size_px": 3808,
+          "fill_ratio": 0.3616,
+          "n_components": 19,
+          "components": [
+            3121,
+            3114,
+            3104,
+            3105,
+            3106,
+            3115,
+            3118,
+            3111,
+            3112,
+            3113,
+            3116,
+            3117,
+            3122,
+            3124,
+            3120,
+            3123,
+            3119,
+            3126,
+            3125
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 304,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 13,
+          "bbox": [
+            599,
+            723,
+            256,
+            28
+          ],
+          "size_px": 2631,
+          "fill_ratio": 0.367,
+          "n_components": 14,
+          "components": [
+            3129,
+            3134,
+            3130,
+            3127,
+            3133,
+            3137,
+            3107,
+            3141,
+            3108,
+            3135,
+            3128,
+            3131,
+            3136,
+            3132
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 305,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 13,
+          "bbox": [
+            864,
+            723,
+            66,
+            27
+          ],
+          "size_px": 614,
+          "fill_ratio": 0.3446,
+          "n_components": 6,
+          "components": [
+            3109,
+            3110,
+            3142,
+            3138,
+            3140,
+            3139
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R14",
+      "bbox": [
+        186,
+        755,
+        754,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 14, y_center=777.2, glyphs=2, latin=0",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 306,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 14,
+          "bbox": [
+            196,
+            765,
+            644,
+            27
+          ],
+          "size_px": 6561,
+          "fill_ratio": 0.3773,
+          "n_components": 44,
+          "components": [
+            3159,
+            3154,
+            3165,
+            3146,
+            3182,
+            3178,
+            3179,
+            3180,
+            3181,
+            3183,
+            3184,
+            3185,
+            3149,
+            3172,
+            3170,
+            3169,
+            3148,
+            3147,
+            3161,
+            3144,
+            3164,
+            3186,
+            3177,
+            3143,
+            3150,
+            3155,
+            3157,
+            3171,
+            3145,
+            3151,
+            3152,
+            3162,
+            3167,
+            3166,
+            3153,
+            3158,
+            3163,
+            3160,
+            3168,
+            3156,
+            3188,
+            3189,
+            3190,
+            3187
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Spitzwinkelige Klammer nach rechts, öffnend ('>'); zwei schräge Striche, die sich rechts treffen.",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 307,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 14,
+          "bbox": [
+            850,
+            765,
+            81,
+            27
+          ],
+          "size_px": 784,
+          "fill_ratio": 0.3585,
+          "n_components": 4,
+          "components": [
+            3173,
+            3175,
+            3174,
+            3176
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "odin_triple_horn",
+          "vision_description": "Y-Form mit zusätzlicher diagonaler Verstrebung, pfeil- bzw. geweihartig nach oben.",
+          "vision_confidence": 0.75,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R15",
+      "bbox": [
+        503,
+        796,
+        107,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 15, y_center=815.0, glyphs=1, latin=0",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 308,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 15,
+          "bbox": [
+            513,
+            806,
+            88,
+            27
+          ],
+          "size_px": 822,
+          "fill_ratio": 0.346,
+          "n_components": 6,
+          "components": [
+            3191,
+            3192,
+            3195,
+            3193,
+            3196,
+            3194
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R16",
+      "bbox": [
+        522,
+        946,
+        254,
+        37
+      ],
+      "region_type": "latin_text",
+      "description": "Line 16, y_center=963.3, glyphs=4, latin=0",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 309,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 16,
+          "bbox": [
+            532,
+            956,
+            22,
+            15
+          ],
+          "size_px": 99,
+          "fill_ratio": 0.3,
+          "n_components": 2,
+          "components": [
+            3199,
+            3198
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 310,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 16,
+          "bbox": [
+            609,
+            956,
+            9,
+            15
+          ],
+          "size_px": 52,
+          "fill_ratio": 0.3852,
+          "n_components": 1,
+          "components": [
+            3200
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 311,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 16,
+          "bbox": [
+            678,
+            956,
+            34,
+            15
+          ],
+          "size_px": 215,
+          "fill_ratio": 0.4216,
+          "n_components": 3,
+          "components": [
+            3203,
+            3202,
+            3201
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 312,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 16,
+          "bbox": [
+            763,
+            963,
+            4,
+            11
+          ],
+          "size_px": 30,
+          "fill_ratio": 0.6818,
+          "n_components": 1,
+          "components": [
+            3204
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R17",
+      "bbox": [
+        753,
+        973,
+        23,
+        30
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=987.5, glyphs=1, latin=0",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 313,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 17,
+          "bbox": [
+            763,
+            983,
+            4,
+            11
+          ],
+          "size_px": 30,
+          "fill_ratio": 0.6818,
+          "n_components": 1,
+          "components": [
+            3205
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R18",
+      "bbox": [
+        349,
+        932,
+        427,
+        155
+      ],
+      "region_type": "latin_text",
+      "description": "Line 18, y_center=1004.5, glyphs=5, latin=0",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 314,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 18,
+          "bbox": [
+            477,
+            996,
+            11,
+            15
+          ],
+          "size_px": 73,
+          "fill_ratio": 0.4424,
+          "n_components": 1,
+          "components": [
+            3206
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 315,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0021",
+          "line_id": 18,
+          "bbox": [
+            359,
+            942,
+            408,
+            136
+          ],
+          "size_px": 3864,
+          "fill_ratio": 0.0696,
+          "n_components": 4,
+          "components": [
+            3208,
+            3207,
+            3209,
+            3197
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 316,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 18,
+          "bbox": [
+            630,
+            996,
+            21,
+            15
+          ],
+          "size_px": 109,
+          "fill_ratio": 0.346,
+          "n_components": 2,
+          "components": [
+            3210,
+            3211
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 317,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 18,
+          "bbox": [
+            684,
+            1007,
+            4,
+            11
+          ],
+          "size_px": 30,
+          "fill_ratio": 0.6818,
+          "n_components": 1,
+          "components": [
+            3213
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 318,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 18,
+          "bbox": [
+            763,
+            1003,
+            4,
+            12
+          ],
+          "size_px": 31,
+          "fill_ratio": 0.6458,
+          "n_components": 1,
+          "components": [
+            3212
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R19",
+      "bbox": [
+        404,
+        1013,
+        372,
+        54
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 19, y_center=1043.0, glyphs=5, latin=0",
+      "lines": [
+        19
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 319,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 19,
+          "bbox": [
+            414,
+            1039,
+            34,
+            15
+          ],
+          "size_px": 207,
+          "fill_ratio": 0.4059,
+          "n_components": 3,
+          "components": [
+            3218,
+            3216,
+            3217
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 320,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 19,
+          "bbox": [
+            495,
+            1039,
+            23,
+            15
+          ],
+          "size_px": 116,
+          "fill_ratio": 0.3362,
+          "n_components": 2,
+          "components": [
+            3220,
+            3219
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 321,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 19,
+          "bbox": [
+            577,
+            1039,
+            11,
+            15
+          ],
+          "size_px": 47,
+          "fill_ratio": 0.2848,
+          "n_components": 1,
+          "components": [
+            3221
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 322,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 19,
+          "bbox": [
+            684,
+            1027,
+            4,
+            31
+          ],
+          "size_px": 59,
+          "fill_ratio": 0.4758,
+          "n_components": 2,
+          "components": [
+            3215,
+            3223
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 323,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 19,
+          "bbox": [
+            763,
+            1023,
+            4,
+            32
+          ],
+          "size_px": 62,
+          "fill_ratio": 0.4844,
+          "n_components": 2,
+          "components": [
+            3214,
+            3222
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "635",
+          "bbox": [
+            25,
+            50,
+            130,
+            45
+          ]
+        },
+        {
+          "value": "24",
+          "bbox": [
+            220,
+            50,
+            80,
+            45
+          ]
+        },
+        {
+          "value": "7",
+          "bbox": [
+            400,
+            50,
+            30,
+            45
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagonal_lines",
+          "description": "Diagonale Linien, die die Zellen in parallelogrammartige Formen unterteilen (von oben links nach unten rechts verlaufend)",
+          "bbox": [
+            0,
+            0,
+            1024,
+            135
+          ]
+        },
+        {
+          "type": "horizontal_line_top",
+          "description": "Obere horizontale Begrenzungslinie der Zellen",
+          "bbox": [
+            0,
+            0,
+            1024,
+            5
+          ]
+        },
+        {
+          "type": "horizontal_line_bottom",
+          "description": "Untere horizontale Begrenzungslinie der Zellen",
+          "bbox": [
+            0,
+            125,
+            1024,
+            5
+          ]
+        },
+        {
+          "type": "vertical_dashed_lines",
+          "description": "Zwei vertikale gestrichelte Linien auf der rechten Seite als Tabellenbegrenzung",
+          "bbox": [
+            850,
+            0,
+            170,
+            135
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R20",
+      "bbox": [
+        350,
+        1053,
+        426,
+        76
+      ],
+      "region_type": "latin_text",
+      "description": "Line 20, y_center=1094.2, glyphs=7, latin=0",
+      "lines": [
+        20
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 324,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 20,
+          "bbox": [
+            360,
+            1087,
+            3,
+            32
+          ],
+          "size_px": 41,
+          "fill_ratio": 0.4271,
+          "n_components": 2,
+          "components": [
+            3229,
+            3239
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 325,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 20,
+          "bbox": [
+            417,
+            1069,
+            3,
+            51
+          ],
+          "size_px": 62,
+          "fill_ratio": 0.4052,
+          "n_components": 3,
+          "components": [
+            3226,
+            3231,
+            3240
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 326,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 20,
+          "bbox": [
+            473,
+            1069,
+            4,
+            31
+          ],
+          "size_px": 61,
+          "fill_ratio": 0.4919,
+          "n_components": 2,
+          "components": [
+            3227,
+            3230
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 327,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 20,
+          "bbox": [
+            537,
+            1092,
+            9,
+            15
+          ],
+          "size_px": 58,
+          "fill_ratio": 0.4296,
+          "n_components": 1,
+          "components": [
+            3232
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 328,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 20,
+          "bbox": [
+            600,
+            1092,
+            35,
+            15
+          ],
+          "size_px": 223,
+          "fill_ratio": 0.4248,
+          "n_components": 3,
+          "components": [
+            3235,
+            3233,
+            3234
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 329,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 20,
+          "bbox": [
+            683,
+            1092,
+            22,
+            15
+          ],
+          "size_px": 127,
+          "fill_ratio": 0.3848,
+          "n_components": 2,
+          "components": [
+            3237,
+            3236
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 330,
+          "page": "p06",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 20,
+          "bbox": [
+            763,
+            1063,
+            4,
+            52
+          ],
+          "size_px": 94,
+          "fill_ratio": 0.4519,
+          "n_components": 3,
+          "components": [
+            3224,
+            3228,
+            3238
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            370,
+            60,
+            25,
+            30
+          ]
+        },
+        {
+          "value": "648",
+          "bbox": [
+            540,
+            60,
+            45,
+            30
+          ]
+        },
+        {
+          "value": "16",
+          "bbox": [
+            735,
+            60,
+            35,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "dashed_vertical_line",
+          "description": "Erste gestrichelte vertikale Linie am linken Rand",
+          "bbox": [
+            10,
+            0,
+            15,
+            145
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Zweite gestrichelte vertikale Linie, linke Sektion",
+          "bbox": [
+            145,
+            0,
+            15,
+            145
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Dritte gestrichelte vertikale Linie, Trennung links/Mitte",
+          "bbox": [
+            295,
+            0,
+            15,
+            145
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Gestrichelte vertikale Linie am rechten Rand",
+          "bbox": [
+            915,
+            0,
+            15,
+            145
+          ]
+        },
+        {
+          "type": "parallelogram_chain",
+          "description": "Horizontaler Streifen, unterteilt in schräge Parallelogramm-Segmente durch diagonale Linien; enthält die Zahlen 2, 648, 16 in den drei mittleren Zellen",
+          "bbox": [
+            0,
+            15,
+            950,
+            125
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R21",
+      "bbox": [
+        350,
+        1057,
+        426,
+        155
+      ],
+      "region_type": "graphic_line",
+      "description": "Line 21, y_center=1139.7, glyphs=7, latin=0",
+      "lines": [
+        21
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 331,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 21,
+          "bbox": [
+            360,
+            1127,
+            3,
+            32
+          ],
+          "size_px": 44,
+          "fill_ratio": 0.4583,
+          "n_components": 2,
+          "components": [
+            3242,
+            3253
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 332,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 21,
+          "bbox": [
+            417,
+            1129,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3243
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 333,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 21,
+          "bbox": [
+            466,
+            1133,
+            33,
+            15
+          ],
+          "size_px": 197,
+          "fill_ratio": 0.398,
+          "n_components": 3,
+          "components": [
+            3244,
+            3245,
+            3246
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 334,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0021",
+          "line_id": 21,
+          "bbox": [
+            360,
+            1067,
+            407,
+            136
+          ],
+          "size_px": 3626,
+          "fill_ratio": 0.0655,
+          "n_components": 3,
+          "components": [
+            3225,
+            3248,
+            3247
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 335,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 21,
+          "bbox": [
+            630,
+            1133,
+            21,
+            15
+          ],
+          "size_px": 117,
+          "fill_ratio": 0.3714,
+          "n_components": 2,
+          "components": [
+            3250,
+            3249
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 336,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 21,
+          "bbox": [
+            684,
+            1142,
+            4,
+            12
+          ],
+          "size_px": 30,
+          "fill_ratio": 0.625,
+          "n_components": 1,
+          "components": [
+            3251
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 337,
+          "page": "p06",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 21,
+          "bbox": [
+            763,
+            1124,
+            4,
+            31
+          ],
+          "size_px": 60,
+          "fill_ratio": 0.4839,
+          "n_components": 2,
+          "components": [
+            3241,
+            3252
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            110,
+            18,
+            35,
+            30
+          ]
+        },
+        {
+          "value": "648",
+          "bbox": [
+            168,
+            18,
+            55,
+            30
+          ]
+        },
+        {
+          "value": "16",
+          "bbox": [
+            240,
+            18,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "642",
+          "bbox": [
+            80,
+            70,
+            50,
+            30
+          ]
+        },
+        {
+          "value": "10",
+          "bbox": [
+            160,
+            70,
+            30,
+            30
+          ]
+        },
+        {
+          "value": "14",
+          "bbox": [
+            220,
+            70,
+            35,
+            30
+          ]
+        },
+        {
+          "value": "22",
+          "bbox": [
+            18,
+            125,
+            35,
+            30
+          ]
+        },
+        {
+          "value": "8",
+          "bbox": [
+            105,
+            125,
+            25,
+            30
+          ]
+        },
+        {
+          "value": "636",
+          "bbox": [
+            195,
+            125,
+            55,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "parallelogram_grid",
+          "description": "Slanted parallelogram outline divided into 3x3 cells by internal diagonal lines",
+          "bbox": [
+            0,
+            0,
+            357,
+            180
+          ]
+        },
+        {
+          "type": "vertical_dashed_line",
+          "description": "Dashed vertical line on the left side, outside the parallelogram",
+          "bbox": [
+            22,
+            0,
+            5,
+            180
+          ]
+        },
+        {
+          "type": "vertical_dashed_line",
+          "description": "Dashed vertical line on the right side, outside the parallelogram",
+          "bbox": [
+            328,
+            0,
+            5,
+            180
+          ]
+        },
+        {
+          "type": "diagonal_dividers",
+          "description": "Internal diagonal lines slanting from lower-left to upper-right, subdividing the parallelogram into a regular grid of slanted cells",
+          "bbox": [
+            0,
+            0,
+            357,
+            180
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R22",
+      "bbox": [
+        350,
+        1152,
+        426,
+        56
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 22, y_center=1180.1, glyphs=6, latin=0",
+      "lines": [
+        22
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 338,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 22,
+          "bbox": [
+            360,
+            1167,
+            3,
+            32
+          ],
+          "size_px": 44,
+          "fill_ratio": 0.4583,
+          "n_components": 2,
+          "components": [
+            3256,
+            3265
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 339,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 22,
+          "bbox": [
+            416,
+            1174,
+            22,
+            15
+          ],
+          "size_px": 116,
+          "fill_ratio": 0.3515,
+          "n_components": 2,
+          "components": [
+            3257,
+            3258
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 340,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 22,
+          "bbox": [
+            498,
+            1174,
+            11,
+            15
+          ],
+          "size_px": 89,
+          "fill_ratio": 0.5394,
+          "n_components": 1,
+          "components": [
+            3259
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 341,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 22,
+          "bbox": [
+            568,
+            1174,
+            34,
+            15
+          ],
+          "size_px": 200,
+          "fill_ratio": 0.3922,
+          "n_components": 3,
+          "components": [
+            3261,
+            3260,
+            3262
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 342,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 22,
+          "bbox": [
+            684,
+            1162,
+            4,
+            32
+          ],
+          "size_px": 62,
+          "fill_ratio": 0.4844,
+          "n_components": 2,
+          "components": [
+            3254,
+            3263
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 343,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 22,
+          "bbox": [
+            763,
+            1164,
+            4,
+            32
+          ],
+          "size_px": 63,
+          "fill_ratio": 0.4922,
+          "n_components": 2,
+          "components": [
+            3255,
+            3264
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "22",
+          "bbox": [
+            178,
+            22,
+            88,
+            46
+          ]
+        },
+        {
+          "value": "8",
+          "bbox": [
+            418,
+            22,
+            52,
+            46
+          ]
+        },
+        {
+          "value": "636",
+          "bbox": [
+            628,
+            22,
+            130,
+            46
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "parallelogram_divided",
+          "description": "Parallelogramm mit oberer und unterer horizontaler Begrenzung, durch zwei diagonale Linien von oben-links nach unten-rechts in drei trapezförmige Felder unterteilt",
+          "bbox": [
+            0,
+            0,
+            880,
+            90
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Gestrichelte vertikale Trennlinie rechts neben dem Parallelogramm",
+          "bbox": [
+            915,
+            0,
+            6,
+            90
+          ]
+        },
+        {
+          "type": "dashed_vertical_line",
+          "description": "Zweite gestrichelte vertikale Trennlinie weiter rechts",
+          "bbox": [
+            1170,
+            0,
+            6,
+            90
+          ]
+        },
+        {
+          "type": "dashed_horizontal_segments",
+          "description": "Kurze gestrichelte horizontale Segmente unterhalb des Parallelogramms an mehreren Positionen",
+          "bbox": [
+            0,
+            90,
+            1175,
+            15
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R23",
+      "bbox": [
+        350,
+        1194,
+        136,
+        34
+      ],
+      "region_type": "latin_text",
+      "description": "Line 23, y_center=1209.9, glyphs=3, latin=0",
+      "lines": [
+        23
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 344,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 23,
+          "bbox": [
+            360,
+            1208,
+            3,
+            11
+          ],
+          "size_px": 20,
+          "fill_ratio": 0.6061,
+          "n_components": 1,
+          "components": [
+            3269
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 345,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 23,
+          "bbox": [
+            417,
+            1204,
+            3,
+            12
+          ],
+          "size_px": 21,
+          "fill_ratio": 0.5833,
+          "n_components": 1,
+          "components": [
+            3267
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 346,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 23,
+          "bbox": [
+            474,
+            1204,
+            3,
+            11
+          ],
+          "size_px": 20,
+          "fill_ratio": 0.6061,
+          "n_components": 1,
+          "components": [
+            3268
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R24",
+      "bbox": [
+        350,
+        1213,
+        364,
+        55
+      ],
+      "region_type": "latin_text",
+      "description": "Line 24, y_center=1235.7, glyphs=6, latin=0",
+      "lines": [
+        24
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 347,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 24,
+          "bbox": [
+            360,
+            1228,
+            3,
+            31
+          ],
+          "size_px": 40,
+          "fill_ratio": 0.4301,
+          "n_components": 2,
+          "components": [
+            3272,
+            3281
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 348,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 24,
+          "bbox": [
+            417,
+            1224,
+            3,
+            31
+          ],
+          "size_px": 41,
+          "fill_ratio": 0.4409,
+          "n_components": 2,
+          "components": [
+            3271,
+            3280
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 349,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 24,
+          "bbox": [
+            474,
+            1223,
+            3,
+            12
+          ],
+          "size_px": 21,
+          "fill_ratio": 0.5833,
+          "n_components": 1,
+          "components": [
+            3270
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 350,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 24,
+          "bbox": [
+            525,
+            1228,
+            34,
+            15
+          ],
+          "size_px": 182,
+          "fill_ratio": 0.3569,
+          "n_components": 3,
+          "components": [
+            3275,
+            3273,
+            3274
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 351,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 24,
+          "bbox": [
+            602,
+            1228,
+            21,
+            15
+          ],
+          "size_px": 103,
+          "fill_ratio": 0.327,
+          "n_components": 2,
+          "components": [
+            3277,
+            3276
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 352,
+          "page": "p06",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 24,
+          "bbox": [
+            684,
+            1228,
+            21,
+            15
+          ],
+          "size_px": 110,
+          "fill_ratio": 0.3492,
+          "n_components": 2,
+          "components": [
+            3279,
+            3278
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R25",
+      "bbox": [
+        350,
+        1193,
+        426,
+        156
+      ],
+      "region_type": "latin_text",
+      "description": "Line 25, y_center=1272.8, glyphs=5, latin=0",
+      "lines": [
+        25
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 353,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 25,
+          "bbox": [
+            360,
+            1268,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3290
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 354,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 25,
+          "bbox": [
+            417,
+            1264,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3282
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 355,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 25,
+          "bbox": [
+            476,
+            1267,
+            22,
+            15
+          ],
+          "size_px": 137,
+          "fill_ratio": 0.4152,
+          "n_components": 2,
+          "components": [
+            3284,
+            3283
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 356,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0021",
+          "line_id": 25,
+          "bbox": [
+            360,
+            1203,
+            407,
+            137
+          ],
+          "size_px": 3865,
+          "fill_ratio": 0.0693,
+          "n_components": 3,
+          "components": [
+            3266,
+            3286,
+            3285
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 357,
+          "page": "p06",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 25,
+          "bbox": [
+            621,
+            1267,
+            34,
+            15
+          ],
+          "size_px": 186,
+          "fill_ratio": 0.3647,
+          "n_components": 3,
+          "components": [
+            3288,
+            3287,
+            3289
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R26",
+      "bbox": [
+        350,
+        1278,
+        22,
+        31
+      ],
+      "region_type": "latin_text",
+      "description": "Line 26, y_center=1293.0, glyphs=1, latin=0",
+      "lines": [
+        26
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 358,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 26,
+          "bbox": [
+            360,
+            1288,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3291
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R27",
+      "bbox": [
+        350,
+        1298,
+        253,
+        36
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 27, y_center=1316.0, glyphs=4, latin=0",
+      "lines": [
+        27
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 359,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+          "line_id": 27,
+          "bbox": [
+            360,
+            1308,
+            3,
+            12
+          ],
+          "size_px": 22,
+          "fill_ratio": 0.6111,
+          "n_components": 1,
+          "components": [
+            3292
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 360,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 27,
+          "bbox": [
+            420,
+            1310,
+            11,
+            15
+          ],
+          "size_px": 74,
+          "fill_ratio": 0.4485,
+          "n_components": 1,
+          "components": [
+            3293
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 361,
+          "page": "p06",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 27,
+          "bbox": [
+            490,
+            1310,
+            34,
+            15
+          ],
+          "size_px": 192,
+          "fill_ratio": 0.3765,
+          "n_components": 3,
+          "components": [
+            3296,
+            3295,
+            3294
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 362,
+          "page": "p06",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 27,
+          "bbox": [
+            572,
+            1310,
+            22,
+            15
+          ],
+          "size_px": 116,
+          "fill_ratio": 0.3515,
+          "n_components": 2,
+          "components": [
+            3298,
+            3297
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "1",
+          "bbox": [
+            0,
+            15,
+            12,
+            70
+          ]
+        },
+        {
+          "value": "9",
+          "bbox": [
+            180,
+            15,
+            25,
+            70
+          ]
+        },
+        {
+          "value": "634",
+          "bbox": [
+            395,
+            15,
+            75,
+            70
+          ]
+        },
+        {
+          "value": "23",
+          "bbox": [
+            720,
+            15,
+            50,
+            70
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagonal_line",
+          "description": "Schrägstrich zwischen 1 und 9, von unten-links nach oben-rechts verlaufend",
+          "bbox": [
+            20,
+            90,
+            160,
+            5
+          ]
+        },
+        {
+          "type": "diagonal_line",
+          "description": "Schrägstrich zwischen 9 und 634, von unten-links nach oben-rechts verlaufend",
+          "bbox": [
+            215,
+            90,
+            175,
+            5
+          ]
+        },
+        {
+          "type": "diagonal_line",
+          "description": "Schrägstrich zwischen 634 und 23, von unten-links nach oben-rechts verlaufend",
+          "bbox": [
+            480,
+            90,
+            235,
+            5
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R28",
+      "bbox": [
+        517,
+        1353,
+        111,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 28, y_center=1374.3, glyphs=1, latin=0",
+      "lines": [
+        28
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 363,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 28,
+          "bbox": [
+            527,
+            1363,
+            92,
+            26
+          ],
+          "size_px": 690,
+          "fill_ratio": 0.2885,
+          "n_components": 6,
+          "components": [
+            3301,
+            3303,
+            3302,
+            3300,
+            3299,
+            3304
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R29",
+      "bbox": [
+        201,
+        1393,
+        752,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 29, y_center=1416.2, glyphs=2, latin=0",
+      "lines": [
+        29
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 364,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 29,
+          "bbox": [
+            211,
+            1404,
+            657,
+            27
+          ],
+          "size_px": 6385,
+          "fill_ratio": 0.3599,
+          "n_components": 33,
+          "components": [
+            3315,
+            3330,
+            3331,
+            3322,
+            3335,
+            3334,
+            3337,
+            3310,
+            3328,
+            3308,
+            3309,
+            3307,
+            3311,
+            3340,
+            3316,
+            3312,
+            3317,
+            3342,
+            3336,
+            3313,
+            3318,
+            3323,
+            3325,
+            3329,
+            3332,
+            3314,
+            3319,
+            3321,
+            3324,
+            3333,
+            3327,
+            3320,
+            3326
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Angular H-like glyph with downward-pointing feet, resembles an inverted U with serifs",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 365,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 29,
+          "bbox": [
+            878,
+            1403,
+            66,
+            28
+          ],
+          "size_px": 611,
+          "fill_ratio": 0.3306,
+          "n_components": 6,
+          "components": [
+            3306,
+            3305,
+            3343,
+            3341,
+            3339,
+            3338
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "1- or l-like vertical with a small horizontal tick near top",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "punctuation_mark",
+          "description": "Apostrophe or single quotation mark at the right end of the line",
+          "bbox": [
+            1065,
+            30,
+            15,
+            35
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R30",
+      "bbox": [
+        200,
+        1436,
+        753,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 30, y_center=1458.1, glyphs=2, latin=0",
+      "lines": [
+        30
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 366,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 30,
+          "bbox": [
+            210,
+            1446,
+            644,
+            27
+          ],
+          "size_px": 6549,
+          "fill_ratio": 0.3766,
+          "n_components": 44,
+          "components": [
+            3366,
+            3355,
+            3360,
+            3382,
+            3383,
+            3380,
+            3384,
+            3385,
+            3386,
+            3371,
+            3381,
+            3379,
+            3347,
+            3350,
+            3373,
+            3349,
+            3370,
+            3348,
+            3362,
+            3378,
+            3359,
+            3387,
+            3344,
+            3365,
+            3367,
+            3345,
+            3346,
+            3351,
+            3352,
+            3354,
+            3358,
+            3363,
+            3372,
+            3368,
+            3353,
+            3356,
+            3364,
+            3361,
+            3369,
+            3357,
+            3388,
+            3389,
+            3390,
+            3391
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 367,
+          "page": "p06",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 30,
+          "bbox": [
+            863,
+            1446,
+            81,
+            27
+          ],
+          "size_px": 799,
+          "fill_ratio": 0.3653,
+          "n_components": 4,
+          "components": [
+            3374,
+            3376,
+            3375,
+            3377
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R31",
+      "bbox": [
+        517,
+        1477,
+        107,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 31, y_center=1496.0, glyphs=1, latin=0",
+      "lines": [
+        31
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 368,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 31,
+          "bbox": [
+            527,
+            1487,
+            88,
+            27
+          ],
+          "size_px": 852,
+          "fill_ratio": 0.3586,
+          "n_components": 6,
+          "components": [
+            3392,
+            3393,
+            3396,
+            3397,
+            3394,
+            3395
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "punctum",
+          "vision_description": "Zwei kleine, parallele, schräg nach links geneigte Striche am oberen linken Rand, die wie ein Anführungszeichen oder ein doppelter Apostroph wirken.",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "ink_artifact",
+          "description": "Sehr leichte, unscharfe Tintenspuren unterhalb der Glyphen, möglicherweise Reste eines durchgedrückten Bogens oder Unterstreichung von der Manuskriptseite.",
+          "bbox": [
+            5,
+            88,
+            290,
+            10
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R32",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "footer",
+      "description": "Line 32, y_center=1624.0, glyphs=1, latin=0",
+      "lines": [
+        32
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 369,
+          "page": "p06",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+          "line_id": 32,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            3398
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p06_R33_SCHMEH",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "latin_text",
+      "description": "Schmeh 2017 vollständige lateinische Sätze (3 lines, joined)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "(=666) (=666) (=666)",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "azra (red text -> ezra)EZRA (2:13)",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 2,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "\"THE CHILDREN OF ADONIKAM, SIX HUNDRED SIXTY AND SIX\"",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}

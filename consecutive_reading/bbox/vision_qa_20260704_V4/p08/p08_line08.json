@@ -1,0 +1,135 @@
+{
+  "page": "p08",
+  "line_id": 8,
+  "line_bbox": [
+    507,
+    719,
+    101,
+    42
+  ],
+  "line_type": "mixed_line",
+  "line_description": "A row of a magic cube: two large circles containing the numbers 31 and 29, with partial circles visible at the edges suggesting a 3x3 grid layout. Each circle is interconnected by short straight lines to adjacent circles.",
+  "n_glyphs_vision": 5,
+  "n_latin_tokens": 0,
+  "n_numerics": 2,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          50,
+          25
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Partial arc visible at the top-left corner of the line, indicating the bottom of another circle from the row above.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 426,
+      "iou": 0.308,
+      "page_glyph_bbox": [
+        517,
+        729,
+        30,
+        22
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        0,
+        180,
+        100
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Large circle outline containing the number 31 in bold sans-serif digit form. Circle has a thin black stroke and is open at the top where it connects to a partial circle above.",
+      "unicode_codepoint_candidate": "U+2460",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        180,
+        0,
+        180,
+        100
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Large circle outline containing the number 29 in bold sans-serif digit form. Circle has a thin black stroke and is open at the top where it connects to a partial circle above, and open at the right edge connecting to a partial circle.",
+      "unicode_codepoint_candidate": "U+2461",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        155,
+        0,
+        50,
+        25
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Partial arc visible at the top-center of the line, indicating the bottom of another circle from the row above (between the two main circles).",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        340,
+        0,
+        50,
+        25
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Partial arc visible at the top-right corner of the line, indicating the bottom of another circle from the row above.",
+      "confidence": 0.8
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "31",
+      "bbox": [
+        40,
+        30,
+        100,
+        40
+      ]
+    },
+    {
+      "value": "29",
+      "bbox": [
+        230,
+        30,
+        100,
+        40
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "connector_line",
+      "description": "Short straight line segments connecting the main circles horizontally near their top arcs (between the two visible circles and from circle to image edges).",
+      "bbox": [
+        150,
+        5,
+        60,
+        15
+      ]
+    },
+    {
+      "type": "circle_grid_arcs",
+      "description": "Multiple partial circle arcs at the top edge of the line, indicating this row belongs to a larger 3x3 interconnected circle grid (magic cube structure).",
+      "bbox": [
+        0,
+        0,
+        400,
+        30
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 8: magic_cube_line -> 20        15          631    (=666)"
+}

@@ -1,0 +1,463 @@
+{
+  "page": "p09",
+  "line_id": 9,
+  "line_bbox": [
+    186,
+    1315,
+    753,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ca. 25 unbekannten geometrischen Glyphen, die entfernt an Voynich-ähnliche oder proto-semitische Schriftzeichen erinnern. Keine lateinischen Buchstaben sichtbar; die Zeile endet mit einem isolierten Punkt (Punktum).",
+  "n_glyphs_vision": 25,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          25,
+          45,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Kommutator- oder 9-förmiger Haken, oben geschlossener Bogen, unten offener Schwanz",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          25,
+          60,
+          80
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei Punkten im Inneren (Dreiecks-Anordnung), erinnert an Gesicht/face-circle-three-dots",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          130,
+          20,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen, zwei nach oben divergierende Arme, kurzer Stamm nach unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.089,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          165,
+          25,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Chevron >, nach rechts offen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          15,
+          50,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen mit Querbalken in der Mitte, vertikale Striche oben und unten mit kleinen Serifen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.105,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          250,
+          15,
+          50,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen mit Querbalken, ähnlich dem vorigen, etwas kompakter",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.105,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          20,
+          50,
+          90
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "P-förmiges Zeichen, oben geschlossener Kreis/Bogen mit Punkt oder Innenraum, unten vertikaler Stamm",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.089,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          25,
+          45,
+          80
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "8-förmiges Zeichen, zwei vertikal gestapelte kleine Kreise/Bögen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          25,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Chevron >, nach rechts offen, ähnlich früherem Chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          440,
+          15,
+          40,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "I-förmiges Zeichen mit ausgeprägten horizontalen Serifen oben und unten",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.105,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          485,
+          20,
+          50,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "F- oder E-förmiges Zeichen, vertikaler Stamm mit zwei horizontalen Querstrichen nach rechts",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.089,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          25,
+          45,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "9-förmiger Haken/Kommutator, oben geschlossener Bogen, unten offener Schwanz",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          575,
+          20,
+          45,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "I- oder H-förmiges Zeichen, schmaler vertikaler Stamm mit minimalen Auslegern",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.089,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          15,
+          45,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen, ähnlich dem dritten Glyph der Zeile",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.105,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          660,
+          25,
+          40,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Chevron >, nach rechts offen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          15,
+          50,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen mit Querbalken und Serifen, wie die früheren H-Glyphen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 476,
+      "iou": 0.092,
+      "page_glyph_bbox": [
+        196,
+        1325,
+        734,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        750,
+        15,
+        40,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Schmales I-förmiges Zeichen mit Serifen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        790,
+        25,
+        35,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Chevron >, nach rechts offen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        830,
+        15,
+        45,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "A- oder dreiecksförmiges Zeichen mit Querbalken",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        870,
+        25,
+        45,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "J- oder hakenförmiges Zeichen, oben horizontal, unten vertikal absteigend",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        915,
+        15,
+        45,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Dreieckförmiges Zeichen, Spitze oben, offene Basis unten",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        955,
+        25,
+        45,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "C- oder J-förmiges Zeichen, nach links offener Bogen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        995,
+        15,
+        35,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "1- oder I-förmiges Zeichen, schmaler vertikaler Stamm",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1030,
+        20,
+        50,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "X- oder gekreuztes Zeichen, zwei sich überlagernde Diagonalen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1075,
+        50,
+        20,
+        20
+      ],
+      "visual_kind": "punctum",
+      "description": "Isolierter Punkt am Zeilenende",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 9: glyph_description -> {7 RINGS - 666}"
+}

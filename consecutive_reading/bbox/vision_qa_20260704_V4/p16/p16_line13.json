@@ -1,0 +1,538 @@
+{
+  "page": "p16",
+  "line_id": 13,
+  "line_bbox": [
+    200,
+    1279,
+    738,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile unbekannter geometrischer Glyphen, überwiegend aus Winkelformen, Zacken und Bogenelementen zusammengesetzt, mit einem erkennbaren Punctum-Trennzeichen in der Mitte.",
+  "n_glyphs_vision": 30,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "D-ähnliche Form, vertikaler Schaft mit Halbbogen rechts oben",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          45,
+          5,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikale Linie mit J-förmigem Haken unten links und kleinem oberen Bogen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          8,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-Form mit horizontalem Querbalken oben",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          140,
+          5,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rautenförmige Figur mit gekreuzten Diagonalen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          8,
+          40,
+          72
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmige Gabelung mit zwei oberen Spitzen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.188,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          8,
+          40,
+          72
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppelzackige Gabelung, nach links öffnend",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.188,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          5,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "X-förmige Kreuzform mit vier Spitzen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          5,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Komplexe Form ähnlich einer 3 oder D mit zusätzlicher Spitze",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          35,
+          15,
+          15
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner runder Punkt/Punctum als Trennzeichen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.067,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          5,
+          35,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-Form mit Haken unten links",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          10,
+          35,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppelpfeil-Form nach links öffnend (>>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.208,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          5,
+          35,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Ziffernähnliche Form 3 oder E",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          8,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J mit kurzem Querstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          5,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Form ähnlich 4 mit überkreuzendem Querstrich und Diagonale",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          585,
+          8,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-Gabelung mit kurzem Stamm",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          625,
+          5,
+          25,
+          75
+        ],
+        "visual_kind": "digit",
+        "description": "Einfacher Vertikalstrich (1 oder I)",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          5,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Klar erkennbares X mit gekreuzten Diagonalen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          705,
+          5,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-ähnliche Form mit zusätzlichen Zacken oben",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 805,
+      "iou": 0.086,
+      "page_glyph_bbox": [
+        210,
+        1289,
+        719,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        755,
+        5,
+        45,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Form ähnlich E mit Mittelbalken und Diagonale",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        800,
+        5,
+        25,
+        75
+      ],
+      "visual_kind": "digit",
+      "description": "Schmaler Vertikalstrich (1)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        830,
+        5,
+        45,
+        75
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "X-Form mit vier ausgeprägten Spitzen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        880,
+        5,
+        45,
+        75
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rauten-/Diamantform mit zentralem Knoten",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        930,
+        5,
+        35,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Pfeilartige Form nach rechts öffnend",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        970,
+        5,
+        30,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-Form",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1005,
+        5,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmige Gabelung mit geradem Schaft",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1045,
+        5,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmige Gabelung, zweiteilig",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1085,
+        5,
+        45,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkelige Form mit 3-Zacken-Struktur",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1130,
+        5,
+        35,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Form ähnlich 3 mit zwei Bögen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1170,
+        5,
+        35,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "3-Form mit doppeltem Bogen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1205,
+        5,
+        30,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "F-ähnliche Form mit zwei Querbalken rechts",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 13: latin -> CHANGE IN THIS CALCULATIONS WILL GIVE DIFFERENT VALU"
+}

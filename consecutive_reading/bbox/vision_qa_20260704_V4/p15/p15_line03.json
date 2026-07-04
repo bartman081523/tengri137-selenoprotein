@@ -1,0 +1,496 @@
+{
+  "page": "p15",
+  "line_id": 3,
+  "line_bbox": [
+    206,
+    342,
+    732,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile unbekannter geometrischer Glyphen (ca. 27 Symbole) gefolgt von einem abschließenden Punctum. Keine lateinischen Buchstaben, Zahlen oder Formeln sichtbar.",
+  "n_glyphs_vision": 28,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Halbkreisförmiger Bogen links, mit vertikaler Linie rechts – D-/P-förmiges Zeichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 739,
+      "iou": 0.154,
+      "page_glyph_bbox": [
+        216,
+        352,
+        190,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "X-förmiges Kreuz mit zentralem Kreis/Punkt",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 739,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        216,
+        352,
+        190,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          105,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit oberem Haken, ähnlich einem umgedrehten 'h'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 739,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        216,
+        352,
+        190,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kreis mit zentralem Punkt (geschlossene Null/Dot-Variante)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 739,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        216,
+        352,
+        190,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschwungene S-Form, ähnlich dem Voynich EVA-s",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 740,
+      "iou": 0.106,
+      "page_glyph_bbox": [
+        414,
+        352,
+        242,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "N- oder M-förmiges Zeichen mit zwei vertikalen Strichen und Bogen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 740,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        414,
+        352,
+        242,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rautenförmiges/rhombisches Zeichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 740,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        414,
+        352,
+        242,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          330,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Y-förmiges Zeichen mit kleinem Kreis unten",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 740,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        414,
+        352,
+        242,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          380,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei innenliegenden Punkten (Gesichtsmotiv)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 740,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        414,
+        352,
+        242,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "S-/8-förmige geschwungene Figur",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 741,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        655,
+        352,
+        47,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit oberem Haken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 741,
+      "iou": 0.233,
+      "page_glyph_bbox": [
+        655,
+        352,
+        47,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          510,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Y-förmiges Zeichen mit zentralem Knoten",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 742,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        704,
+        352,
+        225,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kreis mit zentralem Punkt (Punkt im Kreis)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 742,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        704,
+        352,
+        225,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen mit geschwungenem Ausläufer",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 742,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        704,
+        352,
+        225,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei innenliegenden Punkten (Gesichtsmotiv)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 742,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        704,
+        352,
+        225,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          695,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/J-förmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 742,
+      "iou": 0.154,
+      "page_glyph_bbox": [
+        704,
+        352,
+        225,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        735,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikaler Strich mit oberem Haken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        775,
+        10,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Y-förmiges Zeichen mit geschwungenem Bein",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        820,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "X-förmiges Kreuz mit kleinem Kreis im Zentrum",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        870,
+        10,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Achter-/8-förmige geschwungene Figur",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        915,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinkliges >-förmiges Zeichen (offene Klammer rechts)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        955,
+        10,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "4-ähnliches Zeichen mit horizontaler Basis und vertikalem Strich",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1000,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinkliges >-förmiges Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1040,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Haken-/J-förmiges Zeichen, ähnlich dem vorherigen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1080,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Haken-/J-förmiges Zeichen, gespiegelt",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1120,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Kreis mit drei innenliegenden Punkten (Gesichtsmotiv)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1170,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "M-förmiges Zeichen mit zwei Hügeln und Vertikalen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1230,
+        30,
+        15,
+        15
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner Punkt/Punctum am Zeilenende",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 3: latin -> Y OF THIS CALCULATION IS UNIQUE. THE CALCULATION OF T"
+}

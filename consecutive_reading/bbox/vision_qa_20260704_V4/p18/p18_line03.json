@@ -1,0 +1,120 @@
+{
+  "page": "p18",
+  "line_id": 3,
+  "line_bbox": [
+    173,
+    377,
+    415,
+    57
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematische Bruchdarstellung: Zähler mit 2·29·(50-stellige Zahl), Nenner mit 3²·(50-stellige Zahl), getrennt durch horizontalen Bruchstrich.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 6,
+  "n_formulas": 3,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        18,
+        5,
+        28,
+        100
+      ]
+    },
+    {
+      "value": "29",
+      "bbox": [
+        75,
+        5,
+        50,
+        100
+      ]
+    },
+    {
+      "value": "12096868026427547373426314747359923987395057",
+      "bbox": [
+        145,
+        5,
+        830,
+        100
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        18,
+        200,
+        28,
+        100
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        30,
+        200,
+        16,
+        50
+      ]
+    },
+    {
+      "value": "10447808327328839855368873760708272880436633",
+      "bbox": [
+        95,
+        200,
+        880,
+        100
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 x 29 x 12096868026427547373426314747359923987395057 / 3² x 10447808327328839855368873760708272880436633",
+      "bbox": [
+        10,
+        5,
+        990,
+        295
+      ]
+    },
+    {
+      "raw": "2 × 29 × 12096868026427547373426314747359923987395057",
+      "bbox": [
+        10,
+        5,
+        990,
+        110
+      ]
+    },
+    {
+      "raw": "3² × 10447808327328839855368873760708272880436633",
+      "bbox": [
+        10,
+        200,
+        990,
+        295
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich (waagerechte Trennlinie zwischen Zähler und Nenner)",
+      "bbox": [
+        10,
+        140,
+        985,
+        6
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: numeric -> 19 * 23 * 131 * 1039776975733464433"
+}

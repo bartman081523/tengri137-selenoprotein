@@ -1,0 +1,338 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tengri137.local/schemas/tengri137_document_v3.schema.json",
+  "title": "Tengri137 Document v3",
+  "description": "V3 unified schema for Tengri137 PDF analysis pipeline. V3 extends V2 with: (1) strict kind-enum for symbol_instance and drawing, (2) cluster_info block per symbol with level/threshold/parent/children, (3) cluster_confidence_variance and n_similar_neighbors, (4) region_type enum, (5) page_type for downstream consumers. Each top-level JSON file (Tengri137_detailed_<TS>/doc.json or p{NN}.json) is validated against this schema.",
+  "type": "object",
+  "required": ["schema_version", "document", "pages"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^3\\.[0-9]+$",
+      "description": "Schema version, e.g. 3.0"
+    },
+    "document": {
+      "type": "object",
+      "required": ["title", "page_count", "source_pdf", "processing_run"],
+      "properties": {
+        "title": {"type": "string"},
+        "page_count": {"type": "integer", "minimum": 1, "maximum": 1000},
+        "source_pdf": {"type": "string"},
+        "processing_run": {
+          "type": "string",
+          "description": "TS folder name, e.g. 20260704_V3"
+        },
+        "generated_at": {"type": "string", "format": "date-time"},
+        "pipeline_version": {"type": "string"},
+        "description": {"type": "string"},
+        "cluster_levels": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["coarse", "medium", "fine"]},
+          "description": "Clustering thresholds used in this run (e.g. [coarse:0.40, medium:0.20, fine:0.10])"
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/page"},
+      "minItems": 1
+    }
+  },
+  "definitions": {
+    "page": {
+      "type": "object",
+      "required": ["page_id", "image_size", "regions", "page_type"],
+      "additionalProperties": true,
+      "properties": {
+        "page_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}$"
+        },
+        "image_size": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1},
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "page_type": {
+          "type": "string",
+          "enum": ["text_dense", "formula_dense", "sigill_dense", "mixed"],
+          "description": "V3 page classification: text-only (≥100 words, no blanks), formula-heavy (≥5 formulas, <5 blanks), sigill-rich (≥10 blanks), or mixed."
+        },
+        "blank_density": {
+          "type": "number",
+          "minimum": 0,
+          "description": "blanks / text_words ratio; very low = text_dense, very high = sigill_dense"
+        },
+        "vision_description": {"type": "string"},
+        "vision_classification": {
+          "type": "string",
+          "enum": ["text_only", "formula_heavy", "sigil_rich", "mixed", "uncertain", "other"],
+          "description": "Vision's page-level assessment, especially for text_dense pages that bypassed glyph vision."
+        },
+        "regions": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/region"}
+        }
+      }
+    },
+    "region": {
+      "type": "object",
+      "required": ["region_id", "bbox", "region_type"],
+      "additionalProperties": true,
+      "properties": {
+        "region_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}_R\\d+$"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "region_type": {
+          "type": "string",
+          "enum": ["text_dense", "formula_dense", "sigill_dense", "mixed_media", "header", "footer", "colored_region", "drawing_only"],
+          "description": "V3 region classification. text_dense = Tesseract-only, formula_dense = +formula tokens, sigill_dense = mostly crops, mixed_media = text+symbol."
+        },
+        "classification": {
+          "type": "string",
+          "description": "Vision classification (free-text for backward-compat with V2): magic_cube_3x3_exploded, norse_cosmic_circle, burumut_block, text_block, header, footer, mixed_media, sigil_complex, symbol_grid"
+        },
+        "description": {"type": "string"},
+        "components": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "text_words": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/text_word"}
+        },
+        "symbols": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/symbol_instance"}
+        },
+        "drawings": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/drawing"}
+        },
+        "digits": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/digit"}
+        },
+        "formulas": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/formula"}
+        },
+        "word_count": {"type": "integer", "minimum": 0},
+        "char_count": {"type": "integer", "minimum": 0},
+        "uncertain": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "text_word": {
+      "type": "object",
+      "required": ["text", "bbox"],
+      "additionalProperties": true,
+      "properties": {
+        "text": {"type": "string"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "conf_tesseract": {"type": "number", "minimum": 0, "maximum": 100},
+        "color": {
+          "type": "string",
+          "enum": ["black", "dark_grey", "light_grey", "red", "blue",
+                   "orange", "green", "yellow", "other"]
+        },
+        "verified_by_vision": {"type": "boolean"},
+        "transliteration": {"type": "string"},
+        "language": {"type": "string"},
+        "certainty": {"type": "string", "enum": ["high", "medium", "low"]}
+      }
+    },
+    "symbol_instance": {
+      "type": "object",
+      "required": ["symbol_id", "cluster_id", "bbox", "vision_kind"],
+      "additionalProperties": true,
+      "properties": {
+        "symbol_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cluster_id": {
+          "type": "string",
+          "pattern": "^[A-Z_]+_[A-Z0-9_]+_[0-9]+$|^GEOM_[A-Z0-9_]+_[0-9]+$|^GEOM_UNMATCHED_[0-9]+$"
+        },
+        "page": {"type": "string", "pattern": "^p\\d{2}$"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "vision_description": {"type": "string"},
+        "vision_kind": {
+          "type": "string",
+          "enum": [
+            "image",
+            "latin_print",
+            "face_circle_three_dots",
+            "geometric_circle",
+            "chinese_seal_script",
+            "red_label_stenographic",
+            "prime_digit",
+            "geometric_diamond",
+            "stick_figure",
+            "dash_frac_bar",
+            "geometric_bracket",
+            "address_hex",
+            "geometric_circle_with_cross",
+            "chinese_oracle_script",
+            "turkic_round_rune",
+            "math_pi",
+            "geometric_circle_with_dot",
+            "geometric_filled_square",
+            "drawing",
+            "text_block",
+            "unknown",
+            "other",
+            "singleton"
+          ],
+          "description": "V3 strict enum. Kinds not in this list are mapped to 'other'. 'singleton' = single-sample cluster (low confidence)."
+        },
+        "unicode_codepoint": {"type": "string"},
+        "vision_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "first_appearance": {"type": "boolean"},
+        "geometry_ref": {"type": "string"},
+        "crop_path": {"type": "string"},
+        "cluster_info": {
+          "type": "object",
+          "description": "V3 cluster metadata. level/parent/children form the 3-level hierarchy.",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": ["coarse", "medium", "fine"]
+            },
+            "threshold": {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0
+            },
+            "silhouette": {
+              "type": "number",
+              "minimum": -1.0,
+              "maximum": 1.0
+            },
+            "parent_cluster_id": {
+              "type": "string",
+              "description": "Coarser cluster this medium/fine cluster belongs to (e.g. GEOM_FACE_CIRCLE_0001). Null for coarse."
+            },
+            "children_cluster_ids": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Finer clusters descended from this coarse/medium cluster. Empty array for fine."
+            },
+            "cluster_size": {"type": "integer", "minimum": 1},
+            "cluster_density": {"type": "number", "minimum": 0, "maximum": 1},
+            "is_singleton": {"type": "boolean"}
+          }
+        },
+        "cluster_confidence_variance": {
+          "type": "number",
+          "minimum": 0.0,
+          "description": "V3: standard deviation of intra-cluster cosine distances. Lower = more cohesive cluster. NULL = single-sample cluster."
+        },
+        "n_similar_neighbors": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "V3: number of crops in entire dataset with cosine similarity > 0.9 to this symbol's embedding. Indicates cluster distinctiveness."
+        }
+      }
+    },
+    "drawing": {
+      "type": "object",
+      "required": ["drawing_id", "page", "bbox", "type", "description"],
+      "additionalProperties": true,
+      "properties": {
+        "drawing_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}_D\\d+$"
+        },
+        "page": {"type": "string", "pattern": "^p\\d{2}$"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "odin_triple_horn",
+            "seven_rings",
+            "nine_rings",
+            "norse_cosmic_circle",
+            "face_circle_three_dots",
+            "magic_cube_3x3_exploded",
+            "magic_cube_4x4_block",
+            "stick_figure",
+            "image_onion",
+            "burumut_block",
+            "image",
+            "geometric_circle",
+            "geometric_diamond",
+            "other"
+          ]
+        },
+        "description": {"type": "string"},
+        "components": {"type": "array", "items": {"type": "string"}},
+        "vision_verified": {"type": "boolean"}
+      }
+    },
+    "digit": {
+      "type": "object",
+      "required": ["value", "bbox"],
+      "additionalProperties": true,
+      "properties": {
+        "value": {"type": "string", "pattern": "^[0-9]+$"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "color": {
+          "type": "string",
+          "enum": ["black", "red", "blue", "orange", "green", "other"]
+        }
+      }
+    },
+    "formula": {
+      "type": "object",
+      "required": ["raw", "bbox", "symbols"],
+      "additionalProperties": true,
+      "properties": {
+        "raw": {"type": "string"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "symbols": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "color": {"type": "string"}
+      }
+    }
+  }
+}

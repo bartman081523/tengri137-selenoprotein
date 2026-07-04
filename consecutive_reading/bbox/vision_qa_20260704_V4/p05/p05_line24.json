@@ -1,0 +1,120 @@
+{
+  "page": "p05",
+  "line_id": 24,
+  "line_bbox": [
+    350,
+    1248,
+    358,
+    55
+  ],
+  "line_type": "mixed_line",
+  "line_description": "A table-like structure with three dashed vertical lines on the left and a parallelogram band to the right containing numbers (655, 5, 6) in diagonally-divided cells. Partial content is visible at the very bottom, cut off by the line boundary.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          0,
+          4,
+          150
+        ],
+        "visual_kind": "line",
+        "description": "Third dashed vertical line (short dashes) just left of the parallelogram",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 232,
+      "iou": 0.057,
+      "page_glyph_bbox": [
+        525,
+        1262,
+        34,
+        15
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        0,
+        4,
+        150
+      ],
+      "visual_kind": "line",
+      "description": "First dashed vertical line (short dashes) on the far left",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        100,
+        0,
+        4,
+        150
+      ],
+      "visual_kind": "line",
+      "description": "Second dashed vertical line (short dashes)",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "655",
+      "bbox": [
+        470,
+        45,
+        90,
+        38
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        705,
+        50,
+        35,
+        32
+      ]
+    },
+    {
+      "value": "6",
+      "bbox": [
+        905,
+        50,
+        32,
+        32
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "parallelogram_table",
+      "description": "Large parallelogram band extending to the right edge, with slanted top and bottom edges and two internal diagonal dividers forming three cell compartments",
+      "bbox": [
+        345,
+        15,
+        755,
+        110
+      ]
+    },
+    {
+      "type": "partial_row_below",
+      "description": "Lower row of the table that is heavily truncated by the line boundary; faint shapes (possibly digits or small glyphs) are barely visible",
+      "bbox": [
+        350,
+        120,
+        750,
+        30
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 24: unknown -> azra, 2. ckronik, 1. ki?s)."
+}

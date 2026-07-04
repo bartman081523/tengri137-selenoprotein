@@ -1,0 +1,334 @@
+{
+  "page": "p04",
+  "line_id": 18,
+  "line_bbox": [
+    338,
+    972,
+    437,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus unbekannten geometrisch-runicen Glyphen, beginnend mit einem Punctum und gefolgt von annähernd 16 angularen/runicen Formen. Keine klaren lateinischen Wörter, Zahlen oder Formeln erkennbar.",
+  "n_glyphs_vision": 16,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 13,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          8,
+          32,
+          18,
+          22
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner schwarzer Punkt/Punctum am Zeilenanfang",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.081,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          12,
+          14,
+          72
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Schlanker vertikaler Balken, fast strichartig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          62,
+          12,
+          12,
+          72
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Zweiter vertikaler Balken, ähnlich dem ersten (Doppelstrich-Sigille)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          80,
+          12,
+          32,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Angulares X-/Kreuz-Glyph mit zwei gekreuzten Diagonalen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          118,
+          12,
+          28,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Haken-/J-förmige Figur mit oberer Vertikale und unterem Linksbogen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          12,
+          30,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Glyph mit zwei aufsteigenden Schenkeln und kurzem Stamm",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          186,
+          12,
+          30,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Glyph mit zwei Vertikalen und einer Querverbindung (ähnlich rune ᚺ)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          12,
+          30,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "A-/dreieckförmiges Glyph mit Spitze oben und zwei absteigenden Schenkeln",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          256,
+          12,
+          28,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Hakenförmiges Glyph, einem umgekehrten 7 oder J ähnelnd",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          12,
+          30,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Y-/Gabel-Glyph mit zwei aufwärts gerichteten Schenkeln",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          326,
+          12,
+          32,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "S- oder 5-förmiges angulares Glyph, möglicherweise rune ᛋ",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          364,
+          12,
+          30,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Zweites S-/5-förmiges angulares Glyph (Wiederholung)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          12,
+          30,
+          72
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Glyph mit zwei aufsteigenden Schenkeln",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 130,
+      "iou": 0.156,
+      "page_glyph_bbox": [
+        348,
+        982,
+        418,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        436,
+        12,
+        30,
+        72
+      ],
+      "visual_kind": "other",
+      "description": "Noch ein Y-/Gabel-Glyph",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        472,
+        12,
+        28,
+        72
+      ],
+      "visual_kind": "other",
+      "description": "Winkel-/Pfeilförmiges Glyph, das einem > oder Y-Fragment ähnelt",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        504,
+        12,
+        32,
+        72
+      ],
+      "visual_kind": "other",
+      "description": "D-förmiges oder halbkreisförmiges Glyph am Zeilenende",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 18: latin -> YOU THIS RARE UNIQUE CUBES."
+}

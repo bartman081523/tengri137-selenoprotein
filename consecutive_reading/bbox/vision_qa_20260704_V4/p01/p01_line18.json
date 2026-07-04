@@ -1,0 +1,60 @@
+{
+  "page": "p01",
+  "line_id": 18,
+  "line_bbox": [
+    497,
+    1224,
+    131,
+    306
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Einzelnes anthropomorphes Glyph: stilisierte Figur mit ringförmigem Kopf, kurzem Rumpf, ausgebreiteten Armen und gespreizten Beinen — erinnert an Felsbild-Piktogramme oder bronzezeitliche Idol-Darstellungen.",
+  "n_glyphs_vision": 1,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          5,
+          180,
+          360
+        ],
+        "visual_kind": "other",
+        "description": "Anthropomorphe Figur: ovaler/ringförmiger Kopf mit ausgesparter Mitte (donut-förmig), darunter kurzer Hals/Rumpf, horizontal ausgebreitete Arme mit nach unten gebogenen Enden (Sicheln/Tropfenform), zwei gespreizte Beine mit abgerundeten Füßen. Gesamterscheinung wie ein bronzezeitliches Strichidol oder Felsritzungs-Piktogramm.",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 28,
+      "iou": 0.321,
+      "page_glyph_bbox": [
+        507,
+        1234,
+        112,
+        287
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "figure_outline",
+      "description": "Geschlossene Silhouette einer stilisierten menschlichen Figur, ausgefüllt in Schwarz, auf weißem Hintergrund; Linienführung organisch-handgezeichnet mit leichten Verdickungen an den Extremitäten.",
+      "bbox": [
+        40,
+        5,
+        180,
+        360
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 18: glyph_description -> {PAGE 1 — visual elements}"
+}

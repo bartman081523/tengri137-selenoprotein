@@ -1,0 +1,479 @@
+{
+  "page": "p01",
+  "line_id": 14,
+  "line_bbox": [
+    189,
+    1018,
+    751,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Reihe geometrischer/unbekannter Glyphen ohne erkennbare lateinische Buchstaben, Zahlen oder Formeln. Die Zeile enthält ein einzelnes Worttrennungs-Punkt-Symbol (Punctum) etwa in der Mitte und besteht aus winkelförmigen und rautenförmigen Sigille.",
+  "n_glyphs_vision": 30,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 11,
+  "n_unmatched_vision_glyphs": 19,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          25,
+          25,
+          75,
+          80
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute/Rhombus mit zentralem Punkt",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          135,
+          25,
+          25,
+          80
+        ],
+        "visual_kind": "line",
+        "description": "Senkrechter Strich (Balken)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          175,
+          25,
+          55,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "H-ähnliche Form mit zwei senkrechten Balken und Querstrich",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          240,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Inverses T mit Haken an der linken Seite",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          295,
+          25,
+          60,
+          80
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis-/Bogen-Form mit Öffnung",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          360,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Spitzwinkel-Glyphe",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          25,
+          60,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Doppelbogen-ähnliche Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          490,
+          25,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Y-/V-förmige Glyphe mit Querbalken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          25,
+          60,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexe Form mit X-Element und Häkchen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          605,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Lambda-/Ypsilon-artige Form",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          665,
+          25,
+          40,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Einfache abgewinkelte Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 22,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        199,
+        1028,
+        732,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        720,
+        55,
+        20,
+        20
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt/Punctum (Worttrenner?)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        780,
+        25,
+        30,
+        80
+      ],
+      "visual_kind": "line",
+      "description": "Senkrechter Strich (Balken)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        820,
+        25,
+        60,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "H-ähnliche Form mit zwei Senkrechten und Querbalken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        890,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "E-artige Form mit drei Querstrichen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        950,
+        25,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Rauten-/Zickzack-Glyphe",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1000,
+        25,
+        40,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Hakenförmige Glyphe",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1050,
+        25,
+        60,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "H-ähnliche Form",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1115,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexe Y-förmige Glyphe mit unterem Haken",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1170,
+        25,
+        60,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-/V-förmige Glyphe",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1230,
+        25,
+        40,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Doppelwinkel > >",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1280,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "D-ähnliche Halbkreis-Glyphe",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1335,
+        25,
+        25,
+        80
+      ],
+      "visual_kind": "line",
+      "description": "Senkrechter Strich",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1370,
+        25,
+        60,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Q-/Kreis-Glyphe mit Schweif",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1435,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexe Form mit Häkchen oben und Halbbogen unten",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1490,
+        25,
+        30,
+        80
+      ],
+      "visual_kind": "line",
+      "description": "Kurzer senkrechter Strich",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1530,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-Form mit oberem Querstrich",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1590,
+        25,
+        60,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "E-artige Form mit drei Querstrichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1655,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "H-ähnliche Form",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1715,
+        25,
+        30,
+        80
+      ],
+      "visual_kind": "line",
+      "description": "Senkrechter Strich am Zeilenende",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "word_separator",
+      "description": "Punctum (Punkt) bei x≈725, möglicher Worttrenner in der Zeilenmitte",
+      "bbox": [
+        715,
+        50,
+        30,
+        30
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 14: latin -> ERE HIDDEN IN WRITINGS. NO ONE COULD DECIPHER"
+}

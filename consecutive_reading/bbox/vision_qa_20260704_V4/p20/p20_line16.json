@@ -1,0 +1,258 @@
+{
+  "page": "p20",
+  "line_id": 16,
+  "line_bbox": [
+    173,
+    1270,
+    729,
+    257
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile enthält mehrere mathematische Faktorisierungs-Ausdrücke (Zähler/Bruchstriche) auf der linken Seite sowie drei bis vier große, dunkle, abstrakte Formen auf der rechten Seite, die wie kalligrafische oder tintenartige Verzierungen wirken. Es ist KEIN lateinischer Text 'THOSE ARE EVIL' sichtbar; die Hinweis-Angabe entspricht nicht dem tatsächlich beobachteten Zeileninhalt.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 0,
+  "n_numerics": 10,
+  "n_formulas": 7,
+  "n_graphics": 1,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          0,
+          80,
+          220
+        ],
+        "visual_kind": "other",
+        "description": "Große dunkle, vertikal ausgerichtete, unregelmäßig geformte schwarze Fläche mit ausgefranstem Rand und organisch-kalligrafischen Konturen; evtl. ein Tintenklecks oder eine stilisierte Figur.",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 928,
+      "iou": 0.242,
+      "page_glyph_bbox": [
+        731,
+        1354,
+        33,
+        164
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          25,
+          80,
+          280
+        ],
+        "visual_kind": "other",
+        "description": "Zweite große dunkle Form, etwas gebogen, mit oberer und unterer Verdickung sowie einem dünneren Mittelteil; anmutet wie ein stilisierter Pinselstrich oder eine abstrakte Glyphe.",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 930,
+      "iou": 0.517,
+      "page_glyph_bbox": [
+        830,
+        1280,
+        63,
+        233
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        720,
+        45,
+        85,
+        260
+      ],
+      "visual_kind": "other",
+      "description": "Dritte vertikale dunkle Form mit ausgeprägter Spitze oben und breitem, gerundetem unterem Ende; wirkt wie eine kalligrafische Verdickung.",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        810,
+        60,
+        55,
+        240
+      ],
+      "visual_kind": "other",
+      "description": "Vierte, schmalere dunkle Form, gekrümmt, mit tropfenartiger Verdickung im oberen Drittel; ähnelt einem stilisierten Pinselstrich.",
+      "confidence": 0.4
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2 x 58019621425824",
+      "bbox": [
+        5,
+        5,
+        280,
+        25
+      ]
+    },
+    {
+      "value": "x^9 760125279827915430013996319",
+      "bbox": [
+        10,
+        30,
+        540,
+        25
+      ]
+    },
+    {
+      "value": "3^3",
+      "bbox": [
+        10,
+        38,
+        35,
+        30
+      ]
+    },
+    {
+      "value": "x 38867 x 126052981 x 3239107785911 x 66464494999823411",
+      "bbox": [
+        50,
+        38,
+        495,
+        30
+      ]
+    },
+    {
+      "value": "397 x 739 x 33963287 x 7633357649 x 120858394790975951",
+      "bbox": [
+        5,
+        95,
+        545,
+        25
+      ]
+    },
+    {
+      "value": "2 x 41 x 2083 x 5431 x 60647 x 70586705743 x 2972552797066693",
+      "bbox": [
+        10,
+        130,
+        540,
+        25
+      ]
+    },
+    {
+      "value": "19 x 79 x 227 x 691 x 5591 x 36307 x 3442050221",
+      "bbox": [
+        5,
+        185,
+        540,
+        25
+      ]
+    },
+    {
+      "value": "5^2 x 7 x 13 x 439 x 21839 x 11782987 x 1609533119",
+      "bbox": [
+        10,
+        220,
+        540,
+        25
+      ]
+    },
+    {
+      "value": "748987 x 35084587 x 38421330977",
+      "bbox": [
+        5,
+        275,
+        540,
+        25
+      ]
+    },
+    {
+      "value": "13 x 22447 x 28520674920227643253",
+      "bbox": [
+        10,
+        285,
+        540,
+        20
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(2 x 58019621425824) / 3^3  neben  (x^9 760125279827915430013996319) / (x 38867 x 126052981 x 3239107785911 x 66464494999823411)",
+      "bbox": [
+        5,
+        5,
+        545,
+        65
+      ]
+    },
+    {
+      "raw": "397 x 739 x 33963287 x 7633357649 x 120858394790975951",
+      "bbox": [
+        5,
+        95,
+        545,
+        25
+      ]
+    },
+    {
+      "raw": "2 x 41 x 2083 x 5431 x 60647 x 70586705743 x 2972552797066693",
+      "bbox": [
+        5,
+        130,
+        545,
+        25
+      ]
+    },
+    {
+      "raw": "19 x 79 x 227 x 691 x 5591 x 36307 x 3442050221",
+      "bbox": [
+        5,
+        185,
+        545,
+        25
+      ]
+    },
+    {
+      "raw": "5^2 x 7 x 13 x 439 x 21839 x 11782987 x 1609533119",
+      "bbox": [
+        5,
+        220,
+        545,
+        25
+      ]
+    },
+    {
+      "raw": "748987 x 35084587 x 38421330977",
+      "bbox": [
+        5,
+        275,
+        545,
+        25
+      ]
+    },
+    {
+      "raw": "13 x 22447 x 28520674920227643253",
+      "bbox": [
+        5,
+        285,
+        545,
+        20
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "inkblot_or_brushstroke",
+      "description": "Drei bis vier vertikal ausgerichtete, unregelmäßig geformte schwarze Massen auf der rechten Bildhälfte; wirken wie übergroße kalligrafische Pinselstriche, Tintenklekse oder stark stilisierte, nicht entzifferbare Glyphen.",
+      "bbox": [
+        555,
+        0,
+        311,
+        305
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> THOSE ARE EVIL"
+}

@@ -1,0 +1,238 @@
+{
+  "page": "p19",
+  "line_id": 7,
+  "line_bbox": [
+    173,
+    643,
+    348,
+    54
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "A mathematical fraction: numerator 5 × 491 × 1445671 × 189057067 × 32261166135199 over denominator 11 × 149 × 24027682734593 × 823276438824053, separated by a horizontal fraction bar. No unknown glyphs or Latin text present; only standard Arabic numerals and the 'x' multiplication operator.",
+  "n_glyphs_vision": 7,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          62,
+          25,
+          20,
+          25
+        ],
+        "visual_kind": "math_times",
+        "description": "Lowercase 'x' used as multiplication operator (top row, first)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 870,
+      "iou": 0.4,
+      "page_glyph_bbox": [
+        183,
+        653,
+        329,
+        35
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          163,
+          25,
+          20,
+          25
+        ],
+        "visual_kind": "math_times",
+        "description": "Lowercase 'x' used as multiplication operator (top row, second)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 870,
+      "iou": 0.4,
+      "page_glyph_bbox": [
+        183,
+        653,
+        329,
+        35
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          25,
+          20,
+          25
+        ],
+        "visual_kind": "math_times",
+        "description": "Lowercase 'x' used as multiplication operator (top row, third)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 870,
+      "iou": 0.4,
+      "page_glyph_bbox": [
+        183,
+        653,
+        329,
+        35
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        490,
+        25,
+        20,
+        25
+      ],
+      "visual_kind": "math_times",
+      "description": "Lowercase 'x' used as multiplication operator (top row, fourth)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        85,
+        120,
+        20,
+        25
+      ],
+      "visual_kind": "math_times",
+      "description": "Lowercase 'x' used as multiplication operator (bottom row, first)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        185,
+        120,
+        20,
+        25
+      ],
+      "visual_kind": "math_times",
+      "description": "Lowercase 'x' used as multiplication operator (bottom row, second)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        415,
+        120,
+        20,
+        25
+      ],
+      "visual_kind": "math_times",
+      "description": "Lowercase 'x' used as multiplication operator (bottom row, third)",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "5",
+      "bbox": [
+        22,
+        20,
+        28,
+        35
+      ]
+    },
+    {
+      "value": "491",
+      "bbox": [
+        98,
+        20,
+        52,
+        35
+      ]
+    },
+    {
+      "value": "1445671",
+      "bbox": [
+        200,
+        20,
+        102,
+        35
+      ]
+    },
+    {
+      "value": "189057067",
+      "bbox": [
+        350,
+        20,
+        128,
+        35
+      ]
+    },
+    {
+      "value": "32261166135199",
+      "bbox": [
+        525,
+        20,
+        205,
+        35
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        42,
+        115,
+        32,
+        35
+      ]
+    },
+    {
+      "value": "149",
+      "bbox": [
+        120,
+        115,
+        52,
+        35
+      ]
+    },
+    {
+      "value": "24027682734593",
+      "bbox": [
+        220,
+        115,
+        180,
+        35
+      ]
+    },
+    {
+      "value": "823276438824053",
+      "bbox": [
+        450,
+        115,
+        185,
+        35
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(5 × 491 × 1445671 × 189057067 × 32261166135199) / (11 × 149 × 24027682734593 × 823276438824053)",
+      "bbox": [
+        0,
+        0,
+        790,
+        195
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_rule",
+      "description": "Solid black horizontal fraction bar spanning the full width between numerator and denominator",
+      "bbox": [
+        0,
+        92,
+        790,
+        6
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: latin -> SOME GENIUS IDEA YOU HAVE ARE OURS"
+}

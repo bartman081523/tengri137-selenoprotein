@@ -1,0 +1,277 @@
+{
+  "page": "p23",
+  "line_id": 6,
+  "line_bbox": [
+    235,
+    374,
+    656,
+    79
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Bruchdarstellung: Zähler mit drei Faktoren (22441, 26807952781, 220238942717) getrennt durch kursive Multiplikationszeichen, darunter horizontaler Bruchstrich und Nenner mit acht Faktoren (11, 29, 101, 239, 281, 4649, 909091, 121499449).",
+  "n_glyphs_vision": 9,
+  "n_latin_tokens": 0,
+  "n_numerics": 11,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 7,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          288,
+          18,
+          42,
+          62
+        ],
+        "visual_kind": "math_times",
+        "description": "Kursives Multiplikationszeichen (x) zwischen Zähler-Faktoren",
+        "unicode_codepoint_candidate": "U+00D7",
+        "confidence": 0.98
+      },
+      "matched_glyph_index": 981,
+      "iou": 0.419,
+      "page_glyph_bbox": [
+        245,
+        384,
+        637,
+        60
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          638,
+          18,
+          42,
+          62
+        ],
+        "visual_kind": "math_times",
+        "description": "Kursives Multiplikationszeichen (x) zwischen Zähler-Faktoren",
+        "unicode_codepoint_candidate": "U+00D7",
+        "confidence": 0.98
+      },
+      "matched_glyph_index": 981,
+      "iou": 0.09,
+      "page_glyph_bbox": [
+        245,
+        384,
+        637,
+        60
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        73,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        196,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        348,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        488,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        624,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        788,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        963,
+        147,
+        38,
+        62
+      ],
+      "visual_kind": "math_times",
+      "description": "Kursives Multiplikationszeichen (x) zwischen Nenner-Faktoren",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.98
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "22441",
+      "bbox": [
+        128,
+        18,
+        152,
+        62
+      ]
+    },
+    {
+      "value": "26807952781",
+      "bbox": [
+        346,
+        18,
+        286,
+        62
+      ]
+    },
+    {
+      "value": "220238942717",
+      "bbox": [
+        694,
+        18,
+        286,
+        62
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        15,
+        147,
+        52,
+        62
+      ]
+    },
+    {
+      "value": "29",
+      "bbox": [
+        128,
+        147,
+        60,
+        62
+      ]
+    },
+    {
+      "value": "101",
+      "bbox": [
+        254,
+        147,
+        90,
+        62
+      ]
+    },
+    {
+      "value": "239",
+      "bbox": [
+        400,
+        147,
+        84,
+        62
+      ]
+    },
+    {
+      "value": "281",
+      "bbox": [
+        536,
+        147,
+        84,
+        62
+      ]
+    },
+    {
+      "value": "4649",
+      "bbox": [
+        678,
+        147,
+        110,
+        62
+      ]
+    },
+    {
+      "value": "909091",
+      "bbox": [
+        836,
+        147,
+        124,
+        62
+      ]
+    },
+    {
+      "value": "121499449",
+      "bbox": [
+        1006,
+        147,
+        182,
+        62
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "22441 × 26807952781 × 220238942717 / (11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+      "bbox": [
+        10,
+        10,
+        1190,
+        218
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich (Fraktionslinie) zwischen Zähler und Nenner, durchgezogen",
+      "bbox": [
+        10,
+        108,
+        1190,
+        6
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 6: latin -> NO ONE EXCEPT THE CHOSEN ONE WILL HAVE ACCESS TO OUR DATABASE"
+}

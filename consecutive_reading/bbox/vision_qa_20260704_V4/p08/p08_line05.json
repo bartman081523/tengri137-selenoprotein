@@ -1,0 +1,381 @@
+{
+  "page": "p08",
+  "line_id": 5,
+  "line_bbox": [
+    259,
+    575,
+    614,
+    79
+  ],
+  "line_type": "graphic_line",
+  "line_description": "Darstellung eines magischen Würfels/Zahlenkubus: Zahlen in Kreisen, durch geschwungene Linien verbunden. Teilweise oben und unten abgeschnitten.",
+  "n_glyphs_vision": 15,
+  "n_latin_tokens": 0,
+  "n_numerics": 15,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          35,
+          60,
+          65
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis mit Zahl 73, links in der Zeile, vollständig sichtbar",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 406,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        269,
+        615,
+        30,
+        22
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          175,
+          25,
+          65,
+          65
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis mit Zahl 69, links-zentriert",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 408,
+      "iou": 0.083,
+      "page_glyph_bbox": [
+        420,
+        612,
+        31,
+        22
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          380,
+          20,
+          65,
+          65
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis mit Zahl 72, oben zentral",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 412,
+      "iou": 0.154,
+      "page_glyph_bbox": [
+        670,
+        610,
+        31,
+        21
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        70,
+        100,
+        65,
+        50
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 74, unten links, teilweise abgeschnitten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        230,
+        100,
+        70,
+        50
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 70, unten links-zentriert, teilweise abgeschnitten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        295,
+        65,
+        65,
+        65
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 65, zentral-links",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        530,
+        0,
+        65,
+        35
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 67, oben, teilweise abgeschnitten",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        555,
+        75,
+        65,
+        65
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 30, zentral",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        635,
+        20,
+        65,
+        65
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 57, oben zentral-rechts",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        825,
+        55,
+        65,
+        65
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 62, rechts-zentriert",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        890,
+        100,
+        65,
+        50
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 61, unten rechts-zentriert, teilweise abgeschnitten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        965,
+        45,
+        65,
+        65
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 60, rechts",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1000,
+        0,
+        65,
+        35
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 64, oben rechts, teilweise abgeschnitten",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1090,
+        100,
+        65,
+        50
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 51, unten rechts, teilweise abgeschnitten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1175,
+        75,
+        65,
+        65
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis mit Zahl 58, rechts am Zeilenende",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "73",
+      "bbox": [
+        10,
+        50,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "74",
+      "bbox": [
+        85,
+        115,
+        40,
+        25
+      ]
+    },
+    {
+      "value": "69",
+      "bbox": [
+        187,
+        45,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "70",
+      "bbox": [
+        245,
+        115,
+        40,
+        25
+      ]
+    },
+    {
+      "value": "65",
+      "bbox": [
+        307,
+        85,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "72",
+      "bbox": [
+        392,
+        40,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "67",
+      "bbox": [
+        545,
+        5,
+        35,
+        25
+      ]
+    },
+    {
+      "value": "30",
+      "bbox": [
+        567,
+        95,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "57",
+      "bbox": [
+        647,
+        40,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "62",
+      "bbox": [
+        837,
+        75,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "61",
+      "bbox": [
+        902,
+        115,
+        40,
+        25
+      ]
+    },
+    {
+      "value": "60",
+      "bbox": [
+        977,
+        65,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "64",
+      "bbox": [
+        1012,
+        5,
+        35,
+        25
+      ]
+    },
+    {
+      "value": "51",
+      "bbox": [
+        1102,
+        115,
+        40,
+        25
+      ]
+    },
+    {
+      "value": "58",
+      "bbox": [
+        1187,
+        95,
+        40,
+        30
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "connecting_curves",
+      "description": "Geschwungene Verbindungslinien zwischen den Zahlenkreisen, bilden das Netz eines magischen Würfels",
+      "bbox": [
+        0,
+        0,
+        1240,
+        150
+      ]
+    },
+    {
+      "type": "circle_outlines",
+      "description": "Kreisförmige Umrandungen um jede Zahl (15+ sichtbare Kreise)",
+      "bbox": [
+        0,
+        0,
+        1240,
+        150
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 5: magic_cube_line -> 642       10          14     (=666)"
+}

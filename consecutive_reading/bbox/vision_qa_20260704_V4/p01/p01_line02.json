@@ -1,0 +1,444 @@
+{
+  "page": "p01",
+  "line_id": 2,
+  "line_bbox": [
+    186,
+    415,
+    754,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ausschließlich unbekannten geometrischen Glyphen in angularer, runenartiger Form. Keine lateinischen Wörter, Zahlen oder Formeln erkennbar.",
+  "n_glyphs_vision": 26,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 13,
+  "n_unmatched_vision_glyphs": 13,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Angularer, J-ähnlicher Glyph mit zwei vertikalen Strichen und gebogener Verbindung unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 4,
+      "iou": 0.087,
+      "page_glyph_bbox": [
+        196,
+        425,
+        214,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          45,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Diamantförmiger Glyph, vertikal gestreckt",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 4,
+      "iou": 0.114,
+      "page_glyph_bbox": [
+        196,
+        425,
+        214,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          0,
+          30,
+          100
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel-/Pfeilförmiger Glyph nach rechts offen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 4,
+      "iou": 0.13,
+      "page_glyph_bbox": [
+        196,
+        425,
+        214,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          0,
+          25,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit Querbalken, I-förmig",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 4,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        196,
+        425,
+        214,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          0,
+          55,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiger oder kammartiger Glyph mit drei horizontalen Strichen an vertikaler Achse",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 4,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        196,
+        425,
+        214,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          250,
+          0,
+          60,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiger Glyph mit zwei vertikalen Strichen und Querverbindung",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          0,
+          50,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "T-förmiger Glyph mit Kreuzstruktur",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          0,
+          55,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "h-förmiger Glyph mit Bogen und absteigendem Strich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          0,
+          75,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "M-förmiger oder W-förmiger Glyph mit mehreren vertikalen Strichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          510,
+          0,
+          60,
+          130
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Diamant mit zentralem Punkt, deutlich erkennbar",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          575,
+          0,
+          55,
+          130
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Achtförmiger oder doppelschleifiger Glyph",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-förmiger Glyph mit Haken unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          0,
+          60,
+          130
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "O-förmiger oder ovaler geschlossener Glyph",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 5,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        419,
+        425,
+        512,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        135,
+        50,
+        10,
+        30
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt/Trennzeichen in der Mitte der Zeile",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        750,
+        0,
+        50,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "9-förmiger oder schleifenartiger Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        805,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines >-förmiges Winkelzeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        840,
+        0,
+        50,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "1-förmiger Glyph mit gebogenem Kopf",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        895,
+        0,
+        50,
+        130
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "8-förmiger Glyph mit doppelter Schleife",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        950,
+        0,
+        40,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "T- oder kreuzförmiger Glyph",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        995,
+        0,
+        30,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmaler 1-förmiger vertikaler Strich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1030,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleiner >-förmiger Winkel",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1065,
+        0,
+        40,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J- oder hakenförmiger Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1110,
+        0,
+        70,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "M-förmiger Glyph mit drei vertikalen Strichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1185,
+        0,
+        50,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "4- oder k-förmiger angularer Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1240,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": ">  Winkelzeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1275,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": ">  Winkelzeichen",
+      "confidence": 0.75
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 2: latin -> Y THE CHOSEN SOULS KNOW THE MEANING. WORTHY A"
+}

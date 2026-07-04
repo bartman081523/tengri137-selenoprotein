@@ -1,0 +1,133 @@
+{
+  "page": "p05",
+  "line_id": 7,
+  "line_bbox": [
+    350,
+    512,
+    136,
+    34
+  ],
+  "line_type": "graphic_line",
+  "line_description": "A long horizontal axis line spanning the full width (~640px) with two double-slash markers ('//') at the top-left and top-right ends, and three short vertical punctum strokes descending below the line at roughly equal intervals (left, middle, right).",
+  "n_glyphs_vision": 5,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        0,
+        55,
+        22
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Two parallel diagonal slashes ('//') at the top-left, oriented NE-SW, acting as an axis terminator / section marker above the horizontal line.",
+      "unicode_codepoint_candidate": "U+002F",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        530,
+        0,
+        80,
+        22
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Two parallel diagonal slashes ('//') at the top-right, oriented NE-SW, mirroring the left terminator above the horizontal line.",
+      "unicode_codepoint_candidate": "U+002F",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        25,
+        50,
+        12,
+        45
+      ],
+      "visual_kind": "punctum",
+      "description": "Short vertical stroke (tally-like punctum) below the horizontal line, near the left end of the axis.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        290,
+        50,
+        12,
+        45
+      ],
+      "visual_kind": "punctum",
+      "description": "Short vertical stroke (tally-like punctum) below the horizontal line, near the horizontal midpoint of the axis.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        555,
+        50,
+        12,
+        45
+      ],
+      "visual_kind": "punctum",
+      "description": "Short vertical stroke (tally-like punctum) below the horizontal line, near the right end of the axis.",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "23",
+      "bbox": [
+        0,
+        0,
+        55,
+        22
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        530,
+        0,
+        80,
+        22
+      ]
+    },
+    {
+      "value": "640",
+      "bbox": [
+        0,
+        18,
+        640,
+        4
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "23 + 3 + 640 = 666",
+      "bbox": [
+        0,
+        0,
+        640,
+        100
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_axis_line",
+      "description": "Single solid horizontal line spanning the full line width, acting as a number-line / magic-cube axis on which the other elements are placed.",
+      "bbox": [
+        0,
+        18,
+        640,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: magic_cube_line -> 23       3        640    (=666)"
+}

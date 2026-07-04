@@ -1,0 +1,100 @@
+{
+  "page": "p17",
+  "line_id": 7,
+  "line_bbox": [
+    173,
+    250,
+    798,
+    1189
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "A pure numeric line showing a product of two large integers separated by a multiplication sign, with a horizontal underline beneath.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 0,
+  "n_numerics": 2,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        0,
+        150,
+        25
+      ],
+      "visual_kind": "digit",
+      "description": "Integer 20824027389475657 (17 digits)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        155,
+        0,
+        18,
+        25
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between the two factors",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        178,
+        0,
+        202,
+        25
+      ],
+      "visual_kind": "digit",
+      "description": "Integer 652793699238832001551 (21 digits)",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "20824027389475657",
+      "bbox": [
+        0,
+        0,
+        150,
+        25
+      ]
+    },
+    {
+      "value": "652793699238832001551",
+      "bbox": [
+        178,
+        0,
+        202,
+        25
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "20824027389475657 x 652793699238832001551",
+      "bbox": [
+        0,
+        0,
+        380,
+        25
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_underline",
+      "description": "Continuous horizontal line drawn directly beneath the expression, spanning roughly the width of the text",
+      "bbox": [
+        0,
+        27,
+        380,
+        2
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: numeric -> (2×23×499×19214759967251×55150662460749672076915609)"
+}

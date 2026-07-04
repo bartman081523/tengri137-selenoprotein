@@ -1,0 +1,64 @@
+{
+  "page": "p18",
+  "line_id": 7,
+  "line_bbox": [
+    173,
+    250,
+    798,
+    1189
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Numeric line containing the factorization 2 * 29 * 12096868026427547373426314747359923987395057, with italic 'x' used as multiplication operator between the three factors.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 1,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        0,
+        0,
+        28,
+        28
+      ]
+    },
+    {
+      "value": "29",
+      "bbox": [
+        60,
+        0,
+        45,
+        28
+      ]
+    },
+    {
+      "value": "12096868026427547373426314747359923987395057",
+      "bbox": [
+        130,
+        0,
+        870,
+        28
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 x 29 x 12096868026427547373426314747359923987395057",
+      "bbox": [
+        0,
+        0,
+        1000,
+        28
+      ]
+    }
+  ],
+  "graphics": [],
+  "schmeh_hint": "Line 7: numeric -> 2 * 29 * 12096868026427547373426314747359923987395057"
+}

@@ -1,0 +1,432 @@
+{
+  "page": "p11",
+  "line_id": 12,
+  "line_bbox": [
+    191,
+    747,
+    747,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile mit ca. 29 geometrischen Symbolen, darunter mehrfach Rauten mit Mittelpunkt, eckige Klammern (>, Γ), Y-förmige Glyphen, hakenförmige Zeichen und verschiedene unbekannte gekrümmte Formen. Keine klar lesbaren lateinischen Wörter oder Zahlen erkennbar.",
+  "n_glyphs_vision": 24,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 10,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          15,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Γ-förmiges Zeichen, öffnet nach rechts oben",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 545,
+      "iou": 0.314,
+      "page_glyph_bbox": [
+        201,
+        758,
+        93,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          15,
+          50,
+          45
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 545,
+      "iou": 0.184,
+      "page_glyph_bbox": [
+        201,
+        758,
+        93,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          130,
+          15,
+          40,
+          45
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts offener Winkel / größer-als-Zeichen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          185,
+          15,
+          40,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Rückwärts gerichtete 3 / ∂-ähnliche geschwungene Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          10,
+          45,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Y-förmiges Zeichen mit zwei oberen Armen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          10,
+          45,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Y-förmiges Zeichen, identisch zum vorherigen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          335,
+          10,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Γ-förmiges Zeichen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          15,
+          50,
+          45
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          15,
+          45,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Haken- oder J-förmiges Zeichen, öffnet nach links unten",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.2,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          10,
+          55,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexes Zeichen, H mit linksseitigem Bogen/Schwung",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          15,
+          40,
+          45
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts offener Winkel",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 546,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        302,
+        757,
+        497,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          615,
+          20,
+          45,
+          40
+        ],
+        "visual_kind": "unknown",
+        "description": "Rückwärts gerichtetes c / ɔ",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 547,
+      "iou": 0.251,
+      "page_glyph_bbox": [
+        808,
+        758,
+        71,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          30,
+          30,
+          15
+        ],
+        "visual_kind": "punctum",
+        "description": "Zentral gesetzter Punkt",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 547,
+      "iou": 0.101,
+      "page_glyph_bbox": [
+        808,
+        758,
+        71,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          15,
+          45,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Rückwärts gerichtete 3 / Ɛ-Form",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 548,
+      "iou": 0.196,
+      "page_glyph_bbox": [
+        888,
+        758,
+        41,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        765,
+        10,
+        45,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "h-förmiges oder 4-ähnliches Zeichen mit Bogen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        815,
+        15,
+        50,
+        45
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Punkt",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        870,
+        10,
+        45,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        920,
+        15,
+        45,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "J- oder hakenförmiges Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        970,
+        15,
+        45,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "q-förmiges oder 8-förmiges Zeichen mit Schwanz unten",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1020,
+        15,
+        50,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "8- oder B-förmiges Zeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1080,
+        15,
+        40,
+        45
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Nach rechts offener Winkel",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1130,
+        15,
+        35,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "r-förmiges Zeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1170,
+        10,
+        50,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "H-förmiges Zeichen mit zwei vertikalen Strichen und Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1225,
+        15,
+        50,
+        45
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Punkt (am Zeilenende evtl. abgeschnitten)",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 12: latin -> WE WANT TO GIVE YOU AN IMPORTANT MESSAGE. NOW LISTEN."
+}

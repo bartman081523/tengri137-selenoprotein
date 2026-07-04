@@ -1,0 +1,410 @@
+{
+  "page": "p14",
+  "line_id": 15,
+  "line_bbox": [
+    192,
+    1152,
+    745,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 21 eckig-geometrischen, runenartigen Glyphen ohne lateinische Buchstaben, Ziffern oder mathematische Zeichen. Ein einzelner Interpunktionspunkt (Punctum) ist sichtbar.",
+  "n_glyphs_vision": 22,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          18,
+          10,
+          52,
+          88
+        ],
+        "visual_kind": "unknown",
+        "description": "Doppelstamm mit oben verbindender Horizontale und zwei abwärts gerichteten 'Beinen' (H-förmig auf dem Kopf); erinnert an hebräisches ה oder Runen-Stamm ᚺ",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 715,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        202,
+        1162,
+        307,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          78,
+          12,
+          46,
+          86
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute/Diamantform mit hohlem Innerem",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 715,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        202,
+        1162,
+        307,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          128,
+          14,
+          42,
+          82
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei konvexe Bögen, ähnlich '((' oder runen-artigem Klammerpaar",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 715,
+      "iou": 0.14,
+      "page_glyph_bbox": [
+        202,
+        1162,
+        307,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          178,
+          16,
+          36,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Einfache eckige Figur, möglicherweise Runen-ᛅ oder stilisiertes 'A'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 715,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        202,
+        1162,
+        307,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          14,
+          38,
+          82
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Y-förmige Figur mit kurzem Stamm",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 715,
+      "iou": 0.14,
+      "page_glyph_bbox": [
+        202,
+        1162,
+        307,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          14,
+          46,
+          84
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Raute mit zentralem Punkt/Füllung",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 715,
+      "iou": 0.08,
+      "page_glyph_bbox": [
+        202,
+        1162,
+        307,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          342,
+          18,
+          38,
+          76
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzes '>'-förmiges Chevron, einseitig offen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          12,
+          42,
+          86
+        ],
+        "visual_kind": "unknown",
+        "description": "Vertikaler Stamm mit zwei abgewinkelten Diagonalen oben, ähnlich ᚱ oder hebräisch ר",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          440,
+          14,
+          44,
+          84
+        ],
+        "visual_kind": "unknown",
+        "description": "H-ähnliche Form mit kurzem Querbalken mittig, evtl. ᚺ oder ח",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.137,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          492,
+          16,
+          40,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Form mit dominanter Vertikale und kurzem oberen Haken",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          544,
+          18,
+          38,
+          78
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkliges '<' oder '>' als Chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          594,
+          14,
+          42,
+          84
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Figur mit Vertikale und absteigender Diagonale",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.137,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          644,
+          12,
+          44,
+          86
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Form, möglicherweise stilisiertes 'R' oder Runen-ᛒ",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          696,
+          14,
+          40,
+          84
+        ],
+        "visual_kind": "unknown",
+        "description": "Eckige Figur mit zwei abwärts gerichteten Schenkeln",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 716,
+      "iou": 0.137,
+      "page_glyph_bbox": [
+        518,
+        1162,
+        410,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        266,
+        50,
+        18,
+        18
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines rundes Punctum/Trennzeichen in Mittellage",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        746,
+        16,
+        38,
+        82
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-ähnliche Figur mit zentralem Stamm und zwei kurzen oberen Ästen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        792,
+        12,
+        46,
+        86
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Form mit zentraler Vertikale und abgewinkeltem oberen Element",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        842,
+        14,
+        44,
+        84
+      ],
+      "visual_kind": "unknown",
+      "description": "Doppelstamm-Glyphe mit verbindender Oberkante, ähnlich ח oder ᚺ",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        892,
+        12,
+        46,
+        86
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Form mit dominanter Vertikale und kurzen Haken",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        944,
+        14,
+        42,
+        84
+      ],
+      "visual_kind": "unknown",
+      "description": "Spitzwinklige chevronartige Form, ähnlich '>' oder Runen-ᛏ",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        994,
+        12,
+        44,
+        86
+      ],
+      "visual_kind": "unknown",
+      "description": "Eckige Form mit Vertikale und angesetztem Diagonalelement",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1042,
+        14,
+        22,
+        84
+      ],
+      "visual_kind": "unknown",
+      "description": "Schlanker, hoher Buchstabe mit oben angesetztem Querbalken (ähnlich 'F' oder 'P' in geometrischer Form)",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 15: latin -> E AGO. WE GAVE YOU YOUR HEBREW ALPHABET. YOU LEARNE"
+}

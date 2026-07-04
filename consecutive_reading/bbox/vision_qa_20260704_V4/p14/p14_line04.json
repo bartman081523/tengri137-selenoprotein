@@ -1,0 +1,460 @@
+{
+  "page": "p14",
+  "line_id": 4,
+  "line_bbox": [
+    245,
+    386,
+    632,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile aus stilisierten, Tengwar-ähnlichen geometrischen Zeichen, die entfernt lateinischen Buchstaben (D, H, I, M, N, S) ähneln. Einleitender Punctum-Punkt, dünne vertikale Striche als mögliche Trenner, ansonsten angular-runenartige Glyphen.",
+  "n_glyphs_vision": 21,
+  "n_latin_tokens": 4,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          38,
+          8,
+          52,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Angulares Zeichen, ähnelt einem stilisierten D oder 'ando'-Tengwar-Bogen mit geradem Rücken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 685,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        255,
+        396,
+        240,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          8,
+          52,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Zweites angulares Bogenzeichen, ähnlich dem ersten (stilisiertes D)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 685,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        255,
+        396,
+        240,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          152,
+          8,
+          42,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit abgewinkeltem/kurvigem Querbalken oben, ähnelt stilisiertem H oder Tengwar-Harma",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 685,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        255,
+        396,
+        240,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          8,
+          8,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale vertikale Linie, ähnelt lateinischem I oder Tengwar-Tinco",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 685,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        255,
+        396,
+        240,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          212,
+          8,
+          50,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit zweifach abgewinkeltem Kopf, ähnelt stilisiertem M oder Tengwar-Malta",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 685,
+      "iou": 0.114,
+      "page_glyph_bbox": [
+        255,
+        396,
+        240,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          267,
+          8,
+          42,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit abgewinkeltem Querbalken, ähnelt stilisiertem H",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          318,
+          30,
+          6,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Sehr schmale vertikale Linie, möglicher Separator oder I",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.07,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          335,
+          8,
+          8,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale vertikale Linie (I / Tinco)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          352,
+          8,
+          42,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit diagonalem absteigendem Ast, ähnelt stilisiertem N oder Tengwar-Númen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          30,
+          6,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Sehr schmale vertikale Linie, möglicher Separator",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.07,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          418,
+          8,
+          8,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale vertikale Linie (I)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          8,
+          42,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit diagonalem absteigendem Ast (N)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          486,
+          8,
+          42,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Angulares Zeichen mit zwei Kurven, ähnelt stilisiertem S oder Tengwar-Esse",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          535,
+          30,
+          6,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Sehr schmale vertikale Linie, möglicher Separator",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.07,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          553,
+          8,
+          8,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale vertikale Linie (I)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          8,
+          42,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Angulares Zeichen mit zwei Kurven (S / Esse)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 686,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        504,
+        396,
+        364,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        10,
+        38,
+        16,
+        16
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt/Punctum am Zeilenanfang, isoliert",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        620,
+        8,
+        42,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Angulares Zeichen mit zwei Kurven (S / Esse)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        670,
+        8,
+        8,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmale vertikale Linie (I)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        687,
+        8,
+        42,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Angulares Zeichen mit zwei Kurven (S / Esse)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        737,
+        8,
+        42,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Vertikale Linie mit abgewinkeltem Querbalken, ähnelt stilisiertem H",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "DDHIMH",
+      "bbox": [
+        38,
+        8,
+        271,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "IN",
+      "bbox": [
+        335,
+        8,
+        59,
+        90
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "INS",
+      "bbox": [
+        418,
+        8,
+        110,
+        90
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "ISSISH",
+      "bbox": [
+        553,
+        8,
+        226,
+        90
+      ],
+      "confidence": 0.45
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 4: latin -> NGED IN YOUR HOLY SCRIPTURES. THIS WAS OUR WILL."
+}

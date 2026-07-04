@@ -1,0 +1,453 @@
+{
+  "page": "p12",
+  "line_id": 5,
+  "line_bbox": [
+    198,
+    429,
+    733,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus geometrisch-eckigen, unbekannten Schriftzeichen, die keinem lateinischen Alphabet zugeordnet werden können. Keine lateinischen Wörter, Zahlen, Formeln oder Verzierungen erkennbar.",
+  "n_glyphs_vision": 25,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 10,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          5,
+          50,
+          50
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Zwei vertikale Balken mit Querbalken, H-ähnliche Form",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 586,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        208,
+        440,
+        133,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          5,
+          40,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinklige Form, geöffneter Winkel nach rechts",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 586,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        208,
+        440,
+        133,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          105,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschwungene Klammer, wellenförmig",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 586,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        208,
+        440,
+        133,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          5,
+          45,
+          50
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges Zeichen mit zentralem Punkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.222,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          5,
+          45,
+          50
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Achtförmige Doppelkreis-Glyphe, oben und unten verbunden",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          5,
+          55,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Komplexe Glyphe mit Bogen und diagonalen Elementen",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinklige Form, geöffneter Winkel nach rechts (Winkel-Zeichen)",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          5,
+          40,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit kleinem Bogen oben, Y-ähnlich",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          5,
+          50,
+          50
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "H-förmige Glyphe mit zwei vertikalen Balken und Querbalken",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          5,
+          50,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Komplexe Form mit doppelter Acht und verbindenden Elementen",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 587,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        351,
+        439,
+        361,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          5,
+          45,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinklige Form ähnlich dem Buchstaben Lambda",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 588,
+      "iou": 0.139,
+      "page_glyph_bbox": [
+        719,
+        440,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          550,
+          5,
+          40,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Y-ähnliche Glyphe mit Gabelung oben",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 588,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        719,
+        440,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          5,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Schmaler vertikaler Balken, an 1 erinnernd",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 588,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        719,
+        440,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          5,
+          45,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Diagonal gekreuzte Linien, X-ähnlich mit Bögen",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 588,
+      "iou": 0.26,
+      "page_glyph_bbox": [
+        719,
+        440,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          5,
+          45,
+          50
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Achtförmige Doppelkreis-Glyphe",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 588,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        719,
+        440,
+        203,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        735,
+        5,
+        55,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Komplexe Glyphe mit Bogen und Diamant-Elementen",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        795,
+        5,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschwungene Klammer, wellenförmig",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        835,
+        5,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmige Glyphe mit Gabelung oben",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        880,
+        5,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmige Glyphe mit Gabelung oben",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        925,
+        5,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Schmaler vertikaler Balken",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        965,
+        5,
+        50,
+        50
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1020,
+        5,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Komplexe Form mit Diagonalen",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        1065,
+        5,
+        55,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Komplexe Glyphe mit doppelter Acht und Bögen",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        1125,
+        5,
+        50,
+        50
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "H-förmige Glyphe",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1180,
+        5,
+        35,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschwungene Klammer am Zeilenende",
+      "confidence": 0.3
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 5: latin -> THIS SHOULD BE SHOW YOU THAT WE ARE TALKING NOT JUST"
+}

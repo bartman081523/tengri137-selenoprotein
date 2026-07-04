@@ -1,0 +1,363 @@
+{
+  "page": "p20",
+  "line_id": 5,
+  "line_bbox": [
+    173,
+    514,
+    863,
+    186
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Three factorization blocks of large integers separated by 'x' (multiplication) signs, each block consisting of two sub-lines and underlined. The right side contains large, irregular black ink marks that do not appear to be recognizable geometric glyphs.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 0,
+  "n_numerics": 27,
+  "n_formulas": 3,
+  "n_graphics": 3,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        990,
+        0,
+        290,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Upper cluster of large irregular black ink blots with smaller detached droplets, opaque and formless",
+      "confidence": 0.1
+    },
+    {
+      "bbox": [
+        1000,
+        100,
+        280,
+        95
+      ],
+      "visual_kind": "unknown",
+      "description": "Middle cluster of irregular black ink blots, blob-like, no recognizable geometric form",
+      "confidence": 0.1
+    },
+    {
+      "bbox": [
+        1010,
+        200,
+        270,
+        90
+      ],
+      "visual_kind": "unknown",
+      "description": "Lower cluster of black ink blots with one separated smaller spot, irregular shape",
+      "confidence": 0.1
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        10,
+        5,
+        15,
+        25
+      ]
+    },
+    {
+      "value": "13",
+      "bbox": [
+        30,
+        5,
+        22,
+        25
+      ]
+    },
+    {
+      "value": "73",
+      "bbox": [
+        58,
+        5,
+        22,
+        25
+      ]
+    },
+    {
+      "value": "11089600421",
+      "bbox": [
+        90,
+        5,
+        115,
+        25
+      ]
+    },
+    {
+      "value": "54334455093644591",
+      "bbox": [
+        215,
+        5,
+        175,
+        25
+      ]
+    },
+    {
+      "value": "3713040755095752239",
+      "bbox": [
+        400,
+        5,
+        195,
+        25
+      ]
+    },
+    {
+      "value": "59",
+      "bbox": [
+        10,
+        50,
+        22,
+        25
+      ]
+    },
+    {
+      "value": "473369278312017275427200874776124237471907107317",
+      "bbox": [
+        40,
+        50,
+        920,
+        25
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        10,
+        105,
+        12,
+        25
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        30,
+        105,
+        18,
+        25
+      ]
+    },
+    {
+      "value": "4073",
+      "bbox": [
+        55,
+        105,
+        38,
+        25
+      ]
+    },
+    {
+      "value": "9629",
+      "bbox": [
+        100,
+        105,
+        38,
+        25
+      ]
+    },
+    {
+      "value": "1002774181049",
+      "bbox": [
+        145,
+        105,
+        125,
+        25
+      ]
+    },
+    {
+      "value": "49873655653326709392167467",
+      "bbox": [
+        280,
+        105,
+        280,
+        25
+      ]
+    },
+    {
+      "value": "23",
+      "bbox": [
+        10,
+        150,
+        22,
+        25
+      ]
+    },
+    {
+      "value": "1091",
+      "bbox": [
+        40,
+        150,
+        38,
+        25
+      ]
+    },
+    {
+      "value": "3079",
+      "bbox": [
+        85,
+        150,
+        38,
+        25
+      ]
+    },
+    {
+      "value": "747393271127258657959856169002088661097",
+      "bbox": [
+        130,
+        150,
+        830,
+        25
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        10,
+        205,
+        15,
+        25
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        30,
+        205,
+        12,
+        25
+      ]
+    },
+    {
+      "value": "61",
+      "bbox": [
+        48,
+        205,
+        22,
+        25
+      ]
+    },
+    {
+      "value": "51199",
+      "bbox": [
+        78,
+        205,
+        50,
+        25
+      ]
+    },
+    {
+      "value": "84840737",
+      "bbox": [
+        135,
+        205,
+        85,
+        25
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        10,
+        250,
+        12,
+        25
+      ]
+    },
+    {
+      "value": "191",
+      "bbox": [
+        30,
+        250,
+        30,
+        25
+      ]
+    },
+    {
+      "value": "244463",
+      "bbox": [
+        68,
+        250,
+        60,
+        25
+      ]
+    },
+    {
+      "value": "261250259",
+      "bbox": [
+        135,
+        250,
+        95,
+        25
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3 x 13 x 73 x 11089600421 x 54334455093644591 x 3713040755095752239 x 59 x 473369278312017275427200874776124237471907107317",
+      "bbox": [
+        10,
+        5,
+        960,
+        75
+      ]
+    },
+    {
+      "raw": "2 x 11 x 4073 x 9629 x 1002774181049 x 49873655653326709392167467 x 23 x 1091 x 3079 x 747393271127258657959856169002088661097",
+      "bbox": [
+        10,
+        105,
+        960,
+        75
+      ]
+    },
+    {
+      "raw": "3 x 7 x 61 x 51199 x 84840737 x 2 x 191 x 244463 x 261250259",
+      "bbox": [
+        10,
+        205,
+        230,
+        70
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "underline",
+      "description": "Horizontal line beneath the first factorization block",
+      "bbox": [
+        10,
+        38,
+        960,
+        3
+      ]
+    },
+    {
+      "type": "underline",
+      "description": "Horizontal line beneath the second factorization block",
+      "bbox": [
+        10,
+        138,
+        960,
+        3
+      ]
+    },
+    {
+      "type": "underline",
+      "description": "Horizontal line beneath the third factorization block",
+      "bbox": [
+        10,
+        238,
+        230,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 5: latin -> HAVE USED OUR KNOWLEDGE WELL"
+}

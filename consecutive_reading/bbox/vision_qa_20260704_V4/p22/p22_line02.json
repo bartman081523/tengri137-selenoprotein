@@ -1,0 +1,258 @@
+{
+  "page": "p22",
+  "line_id": 2,
+  "line_bbox": [
+    173,
+    311,
+    472,
+    53
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch mit zwei Zähler- und Nenner-Zeilen aus multiplizierten Primzahlen, getrennt durch einen horizontalen Bruchstrich.",
+  "n_glyphs_vision": 8,
+  "n_latin_tokens": 0,
+  "n_numerics": 10,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          33,
+          28,
+          17,
+          38
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (kursives 'x') zwischen 3 und 5",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 950,
+      "iou": 0.211,
+      "page_glyph_bbox": [
+        183,
+        321,
+        453,
+        34
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          73,
+          28,
+          17,
+          38
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (kursives 'x') zwischen 5 und 2707",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 950,
+      "iou": 0.211,
+      "page_glyph_bbox": [
+        183,
+        321,
+        453,
+        34
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          177,
+          28,
+          17,
+          38
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (kursives 'x') zwischen 2707 und der langen Primzahl",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 950,
+      "iou": 0.211,
+      "page_glyph_bbox": [
+        183,
+        321,
+        453,
+        34
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        35,
+        128,
+        17,
+        38
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen (kursives 'x') zwischen 7 und 17",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        97,
+        128,
+        17,
+        38
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen (kursives 'x') zwischen 17 und 97",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        156,
+        128,
+        17,
+        38
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen (kursives 'x') zwischen 97 und 1607",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        254,
+        128,
+        17,
+        38
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen (kursives 'x') zwischen 1607 und 2166980210482551601",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        568,
+        128,
+        17,
+        38
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen (kursives 'x') zwischen 2166980210482551601 und 24742321154373757717",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        10,
+        25,
+        18,
+        45
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        55,
+        25,
+        18,
+        45
+      ]
+    },
+    {
+      "value": "2707",
+      "bbox": [
+        97,
+        25,
+        70,
+        45
+      ]
+    },
+    {
+      "value": "21496397249459617078066056180280195644731",
+      "bbox": [
+        197,
+        25,
+        870,
+        45
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        10,
+        125,
+        18,
+        45
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        56,
+        125,
+        35,
+        45
+      ]
+    },
+    {
+      "value": "97",
+      "bbox": [
+        115,
+        125,
+        35,
+        45
+      ]
+    },
+    {
+      "value": "1607",
+      "bbox": [
+        175,
+        125,
+        70,
+        45
+      ]
+    },
+    {
+      "value": "2166980210482551601",
+      "bbox": [
+        273,
+        125,
+        290,
+        45
+      ]
+    },
+    {
+      "value": "24742321154373757717",
+      "bbox": [
+        588,
+        125,
+        480,
+        45
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3 × 5 × 2707 × 21496397249459617078066056180280195644731 / 7 × 17 × 97 × 1607 × 2166980210482551601 × 24742321154373757717",
+      "bbox": [
+        0,
+        15,
+        1078,
+        160
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich (Fraktions-Trennlinie) zwischen Zähler und Nenner",
+      "bbox": [
+        0,
+        92,
+        1078,
+        6
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: latin -> THE MEASURMENT OF AN INFINITE GARDEN CAN NOT BROUGHT TO AN END BY YOU"
+}

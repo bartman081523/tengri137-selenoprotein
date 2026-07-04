@@ -1,0 +1,543 @@
+{
+  "page": "p01",
+  "line_id": 12,
+  "line_bbox": [
+    190,
+    897,
+    747,
+    50
+  ],
+  "line_type": "mixed_line",
+  "line_description": "A horizontal line containing script resembling Hebrew/Aramaic glyphs (gimel, resh, vav, tav, qof shapes) interspersed with quotation marks, commas, and digit-like characters. Per the Schmeh 2017 reconstruction the Latin content of this line is 'ME OF THIS NAMES.'",
+  "n_glyphs_vision": 24,
+  "n_latin_tokens": 4,
+  "n_numerics": 2,
+  "n_formulas": 0,
+  "n_graphics": 3,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          15,
+          50,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Two angular bracket-like strokes resembling double gimel (גג)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          15,
+          45,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Two vertical strokes with top hooks resembling resh-resh (רר)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          125,
+          15,
+          45,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Hooked stroke plus vertical, resembling vav-resh (ור)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Single resh-like vertical with top hook (ר)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          30,
+          18,
+          60
+        ],
+        "visual_kind": "punctum",
+        "description": "Double prime / opening quote mark (״)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.092,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          15,
+          45,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Resh-resh pair (רר)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Tav-like shape with crossing strokes (ת)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          350,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Qof-like shape with descending tail (ק)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "digit",
+        "description": "Digit-like glyph resembling '4' with closed top",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          30,
+          18,
+          60
+        ],
+        "visual_kind": "punctum",
+        "description": "Double prime / quote mark (״)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.092,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          15,
+          45,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Resh-resh pair (רר)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Tav-like shape (ת)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          560,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Single resh with hook (ר)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          30,
+          18,
+          60
+        ],
+        "visual_kind": "punctum",
+        "description": "Double prime / quote mark (״)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.092,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          15,
+          60,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Three gimel-like triangular glyphs (גגג)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          15,
+          45,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Resh-qof pair (רק)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 20,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        200,
+        907,
+        728,
+        31
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        755,
+        30,
+        18,
+        60
+      ],
+      "visual_kind": "punctum",
+      "description": "Double prime / quote mark (״)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        785,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Single resh with hook (ר)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        825,
+        15,
+        25,
+        90
+      ],
+      "visual_kind": "digit",
+      "description": "Digit-like glyph resembling '5'",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        860,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Qof-like glyph (ק)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        900,
+        30,
+        18,
+        60
+      ],
+      "visual_kind": "punctum",
+      "description": "Double prime / quote mark (״)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        930,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Gimel-like angular glyph (ג)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        970,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Qof-like glyph (ק)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1010,
+        30,
+        18,
+        60
+      ],
+      "visual_kind": "punctum",
+      "description": "Double prime / closing quote mark (״)",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "ME",
+      "bbox": [
+        10,
+        15,
+        105,
+        90
+      ],
+      "confidence": 0.65
+    },
+    {
+      "text": "OF",
+      "bbox": [
+        125,
+        15,
+        85,
+        90
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "THIS",
+      "bbox": [
+        255,
+        15,
+        130,
+        90
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "NAMES",
+      "bbox": [
+        465,
+        15,
+        130,
+        90
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "numerics": [
+    {
+      "value": "4",
+      "bbox": [
+        395,
+        15,
+        30,
+        90
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        825,
+        15,
+        25,
+        90
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctuation_separator",
+      "description": "Comma-like separator strokes between quoted segments",
+      "bbox": [
+        380,
+        55,
+        15,
+        35
+      ]
+    },
+    {
+      "type": "punctuation_separator",
+      "description": "Comma-like separator after third quoted segment",
+      "bbox": [
+        750,
+        55,
+        15,
+        35
+      ]
+    },
+    {
+      "type": "punctuation_separator",
+      "description": "Comma-like separator after fourth quoted segment",
+      "bbox": [
+        895,
+        55,
+        15,
+        35
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 12: latin -> ME OF THIS NAMES."
+}

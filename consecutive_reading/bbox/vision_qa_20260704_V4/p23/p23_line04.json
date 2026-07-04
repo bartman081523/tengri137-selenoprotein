@@ -1,0 +1,277 @@
+{
+  "page": "p23",
+  "line_id": 4,
+  "line_bbox": [
+    62,
+    172,
+    1010,
+    131
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zwei chemische Strukturformeln (Kohlenstoff-Stickstoff-Ketten mit H-Atomen) links und rechts, zentriert darunter eine Faktorisierungsformel mit großem Produkt aus Primzahlen. Untere Trennlinie.",
+  "n_glyphs_vision": 2,
+  "n_latin_tokens": 14,
+  "n_numerics": 5,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          165,
+          105
+        ],
+        "visual_kind": "other",
+        "description": "Linke chemische Strukturformel: HN=CH-NH-CH=NH-Fragment, gezeichnet als Kette von Knotenpunkten (N, C) mit Doppel- und Einfachbindungen sowie angehängten H-Atomen.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 978,
+      "iou": 0.556,
+      "page_glyph_bbox": [
+        72,
+        183,
+        190,
+        71
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          0,
+          175,
+          105
+        ],
+        "visual_kind": "other",
+        "description": "Rechte chemische Strukturformel: H2N-C=N-C-NH-Fragment, analoges Muster mit N- und C-Atomen, Doppel- und Einfachbindungen und H-Substituenten.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 979,
+      "iou": 0.452,
+      "page_glyph_bbox": [
+        246,
+        182,
+        817,
+        112
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "HC",
+      "bbox": [
+        0,
+        25,
+        30,
+        25
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "N",
+      "bbox": [
+        25,
+        50,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "C",
+      "bbox": [
+        70,
+        5,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "N",
+      "bbox": [
+        88,
+        50,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "H",
+      "bbox": [
+        83,
+        75,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "C",
+      "bbox": [
+        120,
+        25,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "H",
+      "bbox": [
+        105,
+        0,
+        22,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "N",
+      "bbox": [
+        140,
+        0,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "H2N",
+      "bbox": [
+        620,
+        50,
+        45,
+        25
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "C",
+      "bbox": [
+        680,
+        5,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "N",
+      "bbox": [
+        700,
+        50,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "C",
+      "bbox": [
+        730,
+        25,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "N",
+      "bbox": [
+        755,
+        0,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "H",
+      "bbox": [
+        755,
+        50,
+        18,
+        22
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        230,
+        130,
+        14,
+        30
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        278,
+        130,
+        22,
+        30
+      ]
+    },
+    {
+      "value": "19",
+      "bbox": [
+        318,
+        130,
+        22,
+        30
+      ]
+    },
+    {
+      "value": "55627057",
+      "bbox": [
+        358,
+        130,
+        105,
+        30
+      ]
+    },
+    {
+      "value": "7200332325968813",
+      "bbox": [
+        488,
+        130,
+        230,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2^2 x 17 x 19 x 55627057 x 7200332325968813",
+      "bbox": [
+        220,
+        125,
+        510,
+        40
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehende horizontale Trennlinie unterhalb der Faktorisierungsformel, vermutlich Hinweis auf eine Division oder einen Bruchstrich.",
+      "bbox": [
+        170,
+        168,
+        555,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 4: latin -> WITHOUT THIS KNOWLEDGE YOU WILL NOT REACH THE NEXT STAGE"
+}

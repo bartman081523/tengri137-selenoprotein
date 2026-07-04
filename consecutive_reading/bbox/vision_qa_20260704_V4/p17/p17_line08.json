@@ -1,0 +1,166 @@
+{
+  "page": "p17",
+  "line_id": 8,
+  "line_bbox": [
+    173,
+    776,
+    629,
+    60
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Mathematischer Bruch mit Primfaktorzerlegung: Zähler 2²·3·11·521·1951·3373·8521·184669 über Nenner 7·53·709·3627657461137709, getrennt durch horizontalen Bruchstrich. Rechts daneben ein schwarz gefülltes Oval als Symbol.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 12,
+  "n_formulas": 1,
+  "n_graphics": 2,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2²",
+      "bbox": [
+        15,
+        0,
+        40,
+        55
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        75,
+        10,
+        20,
+        45
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        115,
+        10,
+        35,
+        45
+      ]
+    },
+    {
+      "value": "521",
+      "bbox": [
+        170,
+        10,
+        50,
+        45
+      ]
+    },
+    {
+      "value": "1951",
+      "bbox": [
+        240,
+        10,
+        60,
+        45
+      ]
+    },
+    {
+      "value": "3373",
+      "bbox": [
+        325,
+        10,
+        60,
+        45
+      ]
+    },
+    {
+      "value": "8521",
+      "bbox": [
+        410,
+        10,
+        60,
+        45
+      ]
+    },
+    {
+      "value": "184669",
+      "bbox": [
+        495,
+        10,
+        110,
+        45
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        15,
+        130,
+        25,
+        50
+      ]
+    },
+    {
+      "value": "53",
+      "bbox": [
+        55,
+        130,
+        35,
+        50
+      ]
+    },
+    {
+      "value": "709",
+      "bbox": [
+        110,
+        130,
+        50,
+        50
+      ]
+    },
+    {
+      "value": "3627657461137709",
+      "bbox": [
+        180,
+        130,
+        400,
+        50
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2² × 3 × 11 × 521 × 1951 × 3373 × 8521 × 184669 / (7 × 53 × 709 × 3627657461137709)",
+      "bbox": [
+        10,
+        0,
+        615,
+        180
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Horizontaler Bruchstrich zwischen Zähler und Nenner",
+      "bbox": [
+        10,
+        85,
+        615,
+        5
+      ]
+    },
+    {
+      "type": "filled_oval",
+      "description": "Schwarz gefülltes Oval-Symbol am rechten Rand der Zeile",
+      "bbox": [
+        1200,
+        145,
+        80,
+        55
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 8: numeric -> (3×11×47×139×2531×549797184491917×11111111111111111111111)"
+}

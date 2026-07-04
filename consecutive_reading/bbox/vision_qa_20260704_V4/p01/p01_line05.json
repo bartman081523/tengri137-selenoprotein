@@ -1,0 +1,189 @@
+{
+  "page": "p01",
+  "line_id": 5,
+  "line_bbox": [
+    445,
+    536,
+    248,
+    45
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile beginnt mit einem kleinen Punkt, gefolgt von römischen Ziffern 'IX' und einer Reihe von geometrisch-eckigen, runenartigen Glyphen, die alle einen ähnlichen kantigen Stil aufweisen.",
+  "n_glyphs_vision": 10,
+  "n_latin_tokens": 1,
+  "n_numerics": 1,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 7,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          5,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen mit doppelten horizontalen Querbalken und verstärkten Endpunkten (gotische/eckige Form)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 8,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        455,
+        546,
+        107,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          138,
+          8,
+          38,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer-/Gamma-förmige Glyphe, vertikaler Schaft mit kurzem horizontalem Arm nach rechts oben",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 9,
+      "iou": 0.243,
+      "page_glyph_bbox": [
+        570,
+        546,
+        114,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          185,
+          5,
+          42,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "Spiegelverkehrtes '9' oder stilisiertes 'g' mit geschlossener Schleife unten und kurzem Schwanz oben rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 9,
+      "iou": 0.249,
+      "page_glyph_bbox": [
+        570,
+        546,
+        114,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        8,
+        35,
+        10,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner gefüllter Kreis/Punkt am Zeilenanfang, möglicherweise Aufzählungsmarkierung",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        255,
+        5,
+        55,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y- oder pfeilförmige Glyphe, zwei nach unten auseinanderlaufende diagonale Schäfte von einem Punkt oben",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        320,
+        8,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Klammer-ähnliche Glyphe, vertikaler Schaft mit kurzem horizontalem Arm nach rechts unten (umgekehrtes L)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        370,
+        5,
+        42,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "Ч-ähnliche Glyphe mit zwei vertikalen Schäften und einem Querbalken, möglicherweise stilisierter Buchstabe",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        420,
+        5,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Э- oder 3-förmige Glyphe mit zwei nach links offenen Bögen/Kurven, gestapelt",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        470,
+        18,
+        28,
+        45
+      ],
+      "visual_kind": "unknown",
+      "description": "Kleine 'h'-förmige Glyphe mit kurzem vertikalem Schaft und gebogenem Bogen nach rechts",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        510,
+        5,
+        25,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "Haken- oder J-förmige Glyphe, vertikaler Schaft mit gebogenem Haken am unteren Ende nach links",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "IX",
+      "bbox": [
+        35,
+        8,
+        45,
+        60
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "numerics": [
+    {
+      "value": "IX (römisch 9)",
+      "bbox": [
+        35,
+        8,
+        45,
+        60
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 5: latin -> YOUR FAITH WILL WEAKEN YOU. EVERYTHING WHAT"
+}

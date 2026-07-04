@@ -1,0 +1,136 @@
+{
+  "page": "p15",
+  "line_id": 6,
+  "line_bbox": [
+    477,
+    471,
+    168,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Kurze Zeile mit einem führenden Punctum, einer lateinischen Großbuchstaben-Folge, einem geometrischen Sanduhr-/Diamant-Glyph und einer abschließenden Ziffer.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 3,
+  "n_numerics": 1,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          25,
+          12,
+          12
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner schwarzer Punkt/Punkt links vor der Zeichenfolge, wirkt wie ein Interpunktions- oder Trennzeichen.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 747,
+      "iou": 0.083,
+      "page_glyph_bbox": [
+        487,
+        481,
+        149,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          8,
+          35,
+          45
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen mit absteigendem Schaft, möglicherweise kyrillisches У (U) oder lateinisches Y; schwer eindeutig zuzuordnen, möglicher Mischform.",
+        "unicode_codepoint_candidate": "U+04AE",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 747,
+      "iou": 0.3,
+      "page_glyph_bbox": [
+        487,
+        481,
+        149,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        230,
+        8,
+        30,
+        45
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geöffnetes Winkel-/Klammerzeichen (Γ-Form), erinnert an kyrillisches Г oder lateinisches Gamma, fungiert hier als Einzelzeichen.",
+      "unicode_codepoint_candidate": "U+0413",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        270,
+        8,
+        45,
+        45
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Zentraler, sanduhrförmiger bzw. auf die Spitze gestellter Diamant-Glyph mit dicken, sich verjüngenden schwarzen Schenkeln, kreuzt sich mittig zu einem X mit betonten Endpunkten – vermutlich ein Tengri-Sigil.",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "D",
+      "bbox": [
+        25,
+        8,
+        35,
+        45
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "H",
+      "bbox": [
+        60,
+        8,
+        35,
+        45
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "HH",
+      "bbox": [
+        135,
+        8,
+        80,
+        45
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "numerics": [
+    {
+      "value": "4",
+      "bbox": [
+        315,
+        8,
+        35,
+        45
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 6: latin -> TO FIND IT. ONLY TENGRI CAN HIDE THIS CALCULATION IN T"
+}

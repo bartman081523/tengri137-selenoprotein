@@ -1,0 +1,322 @@
+{
+  "page": "p07",
+  "line_id": 6,
+  "line_bbox": [
+    186,
+    500,
+    750,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "A sequence of geometric/runic glyphs including a leading diamond-with-dot, a face-circle (three dots), a central punctuation dot, and a second face-circle. Schmeh hint suggests magic-cube numerology 18+17+631=666.",
+  "n_glyphs_vision": 24,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 21,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          25,
+          65,
+          75
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Outlined rhombus/lozenge with a filled central dot — typical 'seed' or 'origin' sigil.",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 379,
+      "iou": 0.08,
+      "page_glyph_bbox": [
+        196,
+        510,
+        672,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Two-legged angular glyph like a 'lambda' / inverted V with a small left descender.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 379,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        196,
+        510,
+        672,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          20,
+          65,
+          85
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Outlined circle with three filled dots arranged in a triangular face pattern (two upper, one lower).",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 379,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        196,
+        510,
+        672,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        80,
+        30,
+        35,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular rune resembling a 'J' or hooked staff, opening right.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        180,
+        30,
+        55,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Right-leaning runic glyph with diagonal crossbar resembling the Runic letter 'H' or 'ᚺ'.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        240,
+        30,
+        35,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Tall vertical stroke with a short leftward hook at the top — like a rune 'ᚱ' without bowl.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        285,
+        30,
+        50,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Caret/wedge '^' shaped glyph.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        340,
+        30,
+        35,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Lowercase 'h'-like form with descending hook on right.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        385,
+        30,
+        40,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Reversed 'C' or '>'-like angular bracket.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        500,
+        30,
+        40,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular glyph with rightward-pointing wedge apex and short verticals.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        550,
+        30,
+        50,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Two-stroke glyph resembling 'X' or crossed lines.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        615,
+        30,
+        40,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Hooked staff similar to glyph 2, repeating the 'J'-form.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        680,
+        55,
+        18,
+        18
+      ],
+      "visual_kind": "punctum",
+      "description": "Small isolated solid dot — mid-line punctuation/word divider.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        715,
+        25,
+        70,
+        85
+      ],
+      "visual_kind": "unknown",
+      "description": "Tall compound glyph: vertical with two short diagonal arms (looks like 'ψ' or trident).",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        795,
+        30,
+        50,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "'X' / crossed-bars rune.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        850,
+        30,
+        50,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Right-leaning form with diagonal crossbar (similar to glyph 4).",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        905,
+        30,
+        35,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Wedge '^'-like glyph, second occurrence.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        960,
+        30,
+        50,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Hooked 'J'-staff, third occurrence.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1020,
+        20,
+        65,
+        85
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Second outlined circle with three dots in face configuration — repetition of the central face-sigil.",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1090,
+        30,
+        40,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "'J'-hook staff, fourth occurrence.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1140,
+        30,
+        40,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Rune 'I' / vertical bar with short left tick at top.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1190,
+        30,
+        40,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Wedge '^' glyph, third occurrence.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1240,
+        25,
+        60,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Compound glyph with vertical and two upper diagonals (cross/trident variant).",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1305,
+        30,
+        50,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Final angular glyph with crossbar — closing rune of the line.",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 6: magic_cube_line -> 18         17        631    (=666)"
+}

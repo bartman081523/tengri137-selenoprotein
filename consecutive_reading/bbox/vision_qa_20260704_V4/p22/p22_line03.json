@@ -1,0 +1,120 @@
+{
+  "page": "p22",
+  "line_id": 3,
+  "line_bbox": [
+    173,
+    375,
+    298,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematische Bruchdarstellung: Zähler enthält 3² × 41 × eine lange Primzahl, Nenner enthält zwei Faktoren mit einem langen Primfaktor. Der Bruchstrich trennt beide Zeilen optisch.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 6,
+  "n_formulas": 3,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        10,
+        10,
+        20,
+        35
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        22,
+        0,
+        15,
+        20
+      ]
+    },
+    {
+      "value": "41",
+      "bbox": [
+        70,
+        15,
+        30,
+        30
+      ]
+    },
+    {
+      "value": "1881070713468301024893312491",
+      "bbox": [
+        130,
+        15,
+        680,
+        30
+      ]
+    },
+    {
+      "value": "39054601",
+      "bbox": [
+        10,
+        130,
+        140,
+        30
+      ]
+    },
+    {
+      "value": "77925119692575756972907",
+      "bbox": [
+        170,
+        130,
+        640,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3² x 41 x 1881070713468301024893312491",
+      "bbox": [
+        5,
+        0,
+        815,
+        55
+      ]
+    },
+    {
+      "raw": "39054601 x 77925119692575756972907",
+      "bbox": [
+        5,
+        120,
+        815,
+        175
+      ]
+    },
+    {
+      "raw": "(3² × 41 × 1881070713468301024893312491) / (39054601 × 77925119692575756972907)",
+      "bbox": [
+        0,
+        0,
+        820,
+        195
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich / Trennlinie zwischen Zähler und Nenner, durchgehend über die volle Breite der Zeile",
+      "bbox": [
+        0,
+        85,
+        820,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: latin -> YOU HAVE NOT THE TOOLS AND YOU HAVE NOT THE TIME"
+}

@@ -1,0 +1,506 @@
+{
+  "page": "p12",
+  "line_id": 3,
+  "line_bbox": [
+    188,
+    345,
+    751,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ausschließlich unbekannten geometrischen Glyphen, unterteilt durch einen zentralen Punctum-Trenner; keine lateinischen Buchstaben, Zahlen oder Formeln sichtbar.",
+  "n_glyphs_vision": 27,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 17,
+  "n_unmatched_vision_glyphs": 10,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges oder gespiegeltes-N-förmiges Glyph, bestehend aus zwei vertikalen Strichen mit Querbalken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.142,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          0,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geöffneter, nach links gewölbter Bogen (wie ein umgekehrtes C)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          110,
+          0,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkliges Glyph, ähnlich einem > (rechts offener Winkel)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          0,
+          15,
+          75
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich (I-förmig)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          165,
+          0,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts geöffneter Bogen (C-förmig)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          0,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkliges Glyph, ähnlich einem > (rechts offener Winkel)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          250,
+          0,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Glyph mit überkreuzten Diagonalen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          0,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts geöffneter C-Bogen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          0,
+          15,
+          75
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich (I-förmig)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          0,
+          40,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rechte Klammer / umgekehrter Bogen ]",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 580,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        198,
+        356,
+        417,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          0,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "K-förmiges Glyph mit Vertikale und zwei schrägen Ästen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.072,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          455,
+          0,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Glyph mit zwei Vertikalen und Querbalken",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          30,
+          20,
+          20
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner mittiger Punkt/Trenner zwischen den beiden Glyphengruppen",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          575,
+          0,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Glyph mit überkreuzten Diagonalen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          625,
+          0,
+          50,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts geöffneter C-Bogen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          0,
+          35,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossener bogenförmiger Bogen, ähnlich )",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          710,
+          0,
+          45,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Glyphe ähnlich einer umgedrehten 4 oder eines Hakens",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 581,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        625,
+        355,
+        305,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        755,
+        0,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzwinkliges >-förmiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        795,
+        0,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschlossener bogenförmiger Bogen, ähnlich )",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        835,
+        0,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rechte-Klammer-förmiges Glyph ]",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        875,
+        0,
+        55,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "D- oder bogenförmig geschlossenes Glyph mit Vertikale",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        930,
+        0,
+        60,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "M-förmiges Glyph mit zwei Vertikalen und zentralem V",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        990,
+        0,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rechte-Klammer-förmiges Glyph ]",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1030,
+        0,
+        50,
+        75
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "8- oder doppelschleifenförmiges rundliches Glyph",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1080,
+        0,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rechte-Klammer-förmiges Glyph ]",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1120,
+        0,
+        45,
+        75
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenförmiges Glyph (◇) mit zentralem Punkt",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1165,
+        0,
+        40,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschlossener bogenförmiger Bogen, ähnlich )",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctum_separator",
+      "description": "Mittiger Punkt/Punctum, der die Zeile in zwei Glyphengruppen teilt",
+      "bbox": [
+        530,
+        30,
+        20,
+        20
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: latin -> LIES IN THESE CALCULATION. SEARCH FOR THIS HOLY NUMBER"
+}

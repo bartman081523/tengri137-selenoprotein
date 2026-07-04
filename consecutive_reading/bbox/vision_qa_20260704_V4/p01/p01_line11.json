@@ -1,0 +1,135 @@
+{
+  "page": "p01",
+  "line_id": 11,
+  "line_bbox": [
+    194,
+    857,
+    746,
+    50
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Mixed line containing Tengri-style script characters in three quoted groups plus a final unquoted group of three words, alongside the Latin uppercase phrase 'I CAN READ' in the middle.",
+  "n_glyphs_vision": 6,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          25,
+          10,
+          100,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "First quoted group of Tengri-style glyphs; bold, geometric forms resembling stylized resh/alef/lamed/heh-like shapes, possibly rendering 'SHANGDI' in Tengri script",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 18,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        204,
+        867,
+        542,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          185,
+          10,
+          110,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Second quoted group of Tengri-style glyphs; slightly wider, possibly rendering 'SHADDAI'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 18,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        204,
+        867,
+        542,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          10,
+          100,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Third quoted group of Tengri-style glyphs; shorter, possibly rendering 'DINGIR' or 'TENGERE'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 18,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        204,
+        867,
+        542,
+        31
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        805,
+        10,
+        130,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Unquoted Tengri-style word group after Latin text; bold geometric glyphs",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        950,
+        10,
+        130,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Second unquoted Tengri-style word group; similar bold geometric forms",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1095,
+        10,
+        145,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Final Tengri-style word group at end of line; bold geometric forms",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "I CAN READ",
+      "bbox": [
+        510,
+        20,
+        280,
+        70
+      ],
+      "confidence": 0.96
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 11: latin -> SHANGDI\", \"SHADDAI\", \"DINGIR\" OR \"TENGERE\" ARE SO"
+}

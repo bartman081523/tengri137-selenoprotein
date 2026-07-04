@@ -1,0 +1,223 @@
+{
+  "page": "p23",
+  "line_id": 7,
+  "line_bbox": [
+    213,
+    488,
+    699,
+    51
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Multiplikationskette aus vier großen Zahlen, getrennt durch Multiplikationszeichen 'x', darunter eine durchgehende horizontale Trennlinie.",
+  "n_glyphs_vision": 7,
+  "n_latin_tokens": 0,
+  "n_numerics": 4,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 6,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          168,
+          0,
+          95,
+          70
+        ],
+        "visual_kind": "digit",
+        "description": "Zahl 2633 in lateinischen Ziffern",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 982,
+      "iou": 0.229,
+      "page_glyph_bbox": [
+        223,
+        498,
+        680,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          270,
+          15,
+          40,
+          50
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (Buchstabe x in kursiv)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 982,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        223,
+        498,
+        680,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          325,
+          0,
+          135,
+          70
+        ],
+        "visual_kind": "digit",
+        "description": "Zahl 8867291 in lateinischen Ziffern",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 982,
+      "iou": 0.229,
+      "page_glyph_bbox": [
+        223,
+        498,
+        680,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          15,
+          40,
+          50
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (Buchstabe x in kursiv)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 982,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        223,
+        498,
+        680,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          0,
+          135,
+          70
+        ],
+        "visual_kind": "digit",
+        "description": "Zahl 37287337 in lateinischen Ziffern",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 982,
+      "iou": 0.229,
+      "page_glyph_bbox": [
+        223,
+        498,
+        680,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          660,
+          15,
+          40,
+          50
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (Buchstabe x in kursiv)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 982,
+      "iou": 0.203,
+      "page_glyph_bbox": [
+        223,
+        498,
+        680,
+        32
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        715,
+        0,
+        175,
+        70
+      ],
+      "visual_kind": "digit",
+      "description": "Zahl 1498430561 in lateinischen Ziffern",
+      "confidence": 0.99
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2633",
+      "bbox": [
+        168,
+        0,
+        95,
+        70
+      ]
+    },
+    {
+      "value": "8867291",
+      "bbox": [
+        325,
+        0,
+        135,
+        70
+      ]
+    },
+    {
+      "value": "37287337",
+      "bbox": [
+        520,
+        0,
+        135,
+        70
+      ]
+    },
+    {
+      "value": "1498430561",
+      "bbox": [
+        715,
+        0,
+        175,
+        70
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2633 x 8867291 x 37287337 x 1498430561",
+      "bbox": [
+        168,
+        0,
+        720,
+        70
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehende horizontale Trennlinie unter der Formel",
+      "bbox": [
+        0,
+        75,
+        1000,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: latin -> NOW WE SHOULD CHOOSE OUR NEXT MESSENGER"
+}

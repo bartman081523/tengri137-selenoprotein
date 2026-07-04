@@ -1,0 +1,398 @@
+{
+  "page": "p10",
+  "line_id": 17,
+  "line_bbox": [
+    186,
+    1086,
+    753,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 20 unbekannten geometrischen/runenartigen Glyphen in dunkler Tinte auf hellem Hintergrund. Keine lateinischen Buchstaben, Zahlen oder mathematischen Symbole erkennbar. Zwei Glyphen ähneln Kreisen mit eingefügten Punkt-Tripeln (Augen-/Gesichtsmotiv).",
+  "n_glyphs_vision": 20,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          10,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts gerichtete Klammer bzw. halbmondförmiger Bogen, öffnet nach links.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.24,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          45,
+          10,
+          45,
+          50
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "X-förmiges Glyph mit zusätzlicher Vertikalen und oberer sowie unterer Anbindung, wirkt wie stilisiertes Ypsilon mit Kreuz.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          10,
+          30,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Glyph, zwei Vertikalen verbunden durch horizontale Querbalken.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          140,
+          10,
+          50,
+          50
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "X-förmige Figur mit zusätzlicher zentraler Horizontalen, ähnelt einem Andreaskreuz mit Querstrich.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          10,
+          25,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Schmale vertikale Linie mit kleinem Haken oben links.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          10,
+          45,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Glyph mit leicht gebogenen Armen.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          10,
+          50,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Komposit-Glyph: linke Vertikale mit Querbalken (I+H-Vereinigung) gefolgt von einer zweiten Vertikalen mit oberem Haken.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          10,
+          35,
+          50
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Rauten-/Diamantform, oben und unten spitz zulaufend.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          10,
+          35,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Glyphe ähnlich einer stilisierten '1' mit gebogenem oberem Ansatz und kurzem Querstrich.",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          10,
+          50,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Komplexes Glyph: zentrales X mit zusätzlichen vertikalen und diagonalen Anbindungen.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          490,
+          10,
+          40,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Glyph, dessen linke Vertikale unten zu einer Diagonalen abknickt.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          10,
+          40,
+          50
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute, ähnlich dem vorherigen Diamant-Glyph.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          10,
+          50,
+          50
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei eingefügten Punkten (zwei oben, einer unten) – deutet ein stilisiertes Gesicht an.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 503,
+      "iou": 0.112,
+      "page_glyph_bbox": [
+        196,
+        1096,
+        605,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          10,
+          40,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "O-förmiges Glyph mit einem Querbalken oder Häkchen oben.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 504,
+      "iou": 0.28,
+      "page_glyph_bbox": [
+        813,
+        1096,
+        117,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          705,
+          10,
+          45,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Glyph mit leicht geschwungenen Diagonalen.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 504,
+      "iou": 0.246,
+      "page_glyph_bbox": [
+        813,
+        1096,
+        117,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        760,
+        10,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Schmales H-Glyph mit zwei nah beieinander stehenden Vertikalen.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        810,
+        10,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Stilisierte '1' mit oberem Haken und kurzem Diagonalstrich.",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        855,
+        10,
+        45,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "M- bzw. W-förmiges Glyph aus drei Vertikalen mit Zickzack-Verbindung.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        905,
+        10,
+        50,
+        50
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Kreis mit drei eingefügten Punkten (Gesichtsmotiv), ähnlich dem früheren Kreis-Punkt-Glyph.",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        965,
+        10,
+        50,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "Schluss-Glyph: stilisierte 'M' mit zwei Spitzen oben und zwei Vertikalen, die unten zusammenlaufen.",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Schmeh has 10 lines for this page"
+}

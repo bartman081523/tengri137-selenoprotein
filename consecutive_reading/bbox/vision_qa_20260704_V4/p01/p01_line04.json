@@ -1,0 +1,717 @@
+{
+  "page": "p01",
+  "line_id": 4,
+  "line_bbox": [
+    194,
+    496,
+    746,
+    49
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile aus primär geometrisch-angularer, unbekannter Schrift mit einzelnen lateinisch anmutenden Großbuchstaben (H, F, S, D, Y, T, I), Ziffern (8, 1, 3) und einem Komma; dazwischen Winkelzeichen und ein punktgefüllter Kreis als Sonderzeichen.",
+  "n_glyphs_vision": 37,
+  "n_latin_tokens": 14,
+  "n_numerics": 2,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 12,
+  "n_unmatched_vision_glyphs": 25,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          15,
+          55,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "Hoher Vertikalstrich mit nach rechts weisendem Winkel/Kreuz am oberen Ende; wirkt wie I + >",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          58,
+          20,
+          105,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Angularer, oben offener Bogen mit absteigendem Bein (ähnelt B/r-Verbindung)",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          110,
+          30,
+          148,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Nach rechts offener Winkel/Chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          152,
+          30,
+          188,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Kurzer absteigender Strich mit Aufwärtshaken (r-förmig, angular)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          192,
+          20,
+          245,
+          80
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "H-förmige Figur mit eingeschriebenem Kreis/Punkt im Zentrum",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          248,
+          30,
+          282,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Nach rechts offener Winkel/Chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.073,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          286,
+          20,
+          326,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Klare H-Struktur (zwei Vertikalen mit Querbalken)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.158,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          330,
+          30,
+          365,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Angulares r (Vertikale mit kurzem Haken oben)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.084,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          20,
+          408,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "F-förmige Figur (Vertikale mit zwei Querbalken)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.156,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          412,
+          20,
+          450,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "F-förmige Figur (zweite Instanz)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          455,
+          20,
+          495,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "H-Struktur (zwei Vertikalen, Querbalken)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.101,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          538,
+          18,
+          560,
+          82
+        ],
+        "visual_kind": "other",
+        "description": "Schlanker Vertikalstrich (1 oder I)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 7,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        204,
+        506,
+        727,
+        30
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        500,
+        30,
+        532,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Angulares 3 oder E-förmiges Element",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        564,
+        55,
+        580,
+        80
+      ],
+      "visual_kind": "punctum",
+      "description": "Komma / Punkt",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        585,
+        28,
+        620,
+        72
+      ],
+      "visual_kind": "other",
+      "description": "Angulares S (gebrochene Zickzack-Kurve)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        625,
+        20,
+        665,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "D-förmige Figur (Vertikale mit angesetztem Halbkreis)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        670,
+        30,
+        702,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Nach rechts offener Winkel/Chevron",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        707,
+        30,
+        740,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Angulares r",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        745,
+        20,
+        785,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "H-Struktur",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        790,
+        18,
+        812,
+        82
+      ],
+      "visual_kind": "other",
+      "description": "Schlanker Vertikalstrich (1 oder I)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        817,
+        28,
+        852,
+        72
+      ],
+      "visual_kind": "other",
+      "description": "Angulares S",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        857,
+        30,
+        890,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Nach rechts offener Winkel/Chevron",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        895,
+        20,
+        935,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "H-Struktur",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        940,
+        18,
+        962,
+        82
+      ],
+      "visual_kind": "other",
+      "description": "Schlanker Vertikalstrich (1 oder I)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        967,
+        20,
+        1005,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Y-Struktur (zwei obere Schenkel, gemeinsamer Stamm)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1010,
+        30,
+        1042,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Nach links offener Winkel/Chevron",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1047,
+        30,
+        1078,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Nach rechts offener Winkel/Chevron",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1083,
+        18,
+        1105,
+        82
+      ],
+      "visual_kind": "other",
+      "description": "Schlanker Vertikalstrich (I)",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1110,
+        22,
+        1148,
+        78
+      ],
+      "visual_kind": "other",
+      "description": "8-förmige Doppelschleife (Ziffer 8 oder &-ähnlich)",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1152,
+        25,
+        1195,
+        75
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Kreis mit zentralem Punkt, klar abgesetzt",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1200,
+        18,
+        1222,
+        82
+      ],
+      "visual_kind": "other",
+      "description": "Schlanker Vertikalstrich (I)",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1227,
+        30,
+        1260,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Nach rechts offener Winkel/Chevron",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1265,
+        22,
+        1303,
+        78
+      ],
+      "visual_kind": "other",
+      "description": "8-förmige Doppelschleife",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1308,
+        20,
+        1348,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "H-Struktur",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1353,
+        30,
+        1385,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Nach rechts offener Winkel/Chevron",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1390,
+        20,
+        1432,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "T-Struktur (waagerechter Kopf mit Mittelschaft)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1437,
+        18,
+        1458,
+        82
+      ],
+      "visual_kind": "other",
+      "description": "Schlanker Vertikalstrich (I oder 1)",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "H",
+      "bbox": [
+        286,
+        20,
+        326,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "F",
+      "bbox": [
+        370,
+        20,
+        408,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "F",
+      "bbox": [
+        412,
+        20,
+        450,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "H",
+      "bbox": [
+        455,
+        20,
+        495,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "S",
+      "bbox": [
+        585,
+        28,
+        620,
+        72
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "D",
+      "bbox": [
+        625,
+        20,
+        665,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "H",
+      "bbox": [
+        745,
+        20,
+        785,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "S",
+      "bbox": [
+        817,
+        28,
+        852,
+        72
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "H",
+      "bbox": [
+        895,
+        20,
+        935,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "Y",
+      "bbox": [
+        967,
+        20,
+        1005,
+        80
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "I",
+      "bbox": [
+        1083,
+        18,
+        1105,
+        82
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "I",
+      "bbox": [
+        1200,
+        18,
+        1222,
+        82
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "H",
+      "bbox": [
+        1308,
+        20,
+        1348,
+        80
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "T",
+      "bbox": [
+        1390,
+        20,
+        1432,
+        80
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "numerics": [
+    {
+      "value": "8",
+      "bbox": [
+        1110,
+        22,
+        1148,
+        78
+      ],
+      "confidence": 0.6
+    },
+    {
+      "value": "1",
+      "bbox": [
+        1265,
+        22,
+        1303,
+        78
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 4: latin -> E THEIR MINDS."
+}

@@ -1,0 +1,422 @@
+{
+  "page": "p03",
+  "line_id": 16,
+  "line_bbox": [
+    209,
+    928,
+    709,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 22–24 geometrisch-angularen Glyphen einer unbekannten Schrift. Links beginnt die Zeile mit einem kleinen Punctum (gefüllter Punkt), gefolgt von einer Reihe vertikaler, gekreuzter, gebogener und rhombischer Formen, die entfernt an turkrunen- oder linear-A-artige Schrift erinnern. Kein lateinischer Text, keine arabischen Ziffern und keine mathematischen Formeln sichtbar.",
+  "n_glyphs_vision": 24,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 13,
+  "n_unmatched_vision_glyphs": 11,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          30,
+          20,
+          40,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Schaft mit kurzem diagonalem Haken oben links und kleinem rechten Winkel unten",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 86,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        219,
+        939,
+        263,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          78,
+          20,
+          42,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geöffneter Winkel nach rechts (>) mit vertikaler Verlängerung",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 86,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        219,
+        939,
+        263,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          128,
+          20,
+          40,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Zwei diagonale Schäfte, die ein V bilden, mit kurzem horizontalen Querstrich",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 86,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        219,
+        939,
+        263,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          20,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Schaft mit zwei kurzen abstehenden Häkchen (ähnlich einem türkischen 'gh' oder ligierten Stamm)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 86,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        219,
+        939,
+        263,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          20,
+          38,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Schmaler vertikaler Schaft mit zwei kleinen nach links geneigten Spitzchen oben",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 86,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        219,
+        939,
+        263,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          20,
+          45,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppelter, nach rechts geöffneter Winkel (>>-Form) mit Vertikale",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          20,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Komplexes Zeichen: vertikaler Schaft mit linksseitigem Haken und rechtsseitigem absteigenden Bogen",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          398,
+          20,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Stamm mit nach links gekrümmtem oberem Element (ähnelt einem 'P'-Schaft)",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          455,
+          20,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Winkelartige Form mit zwei Spitzchen oben (ähnlich 'M' oder türkrunenartig)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          20,
+          42,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Schmales vertikales Zeichen mit kleinem Diagonalstrich",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          20,
+          50,
+          55
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rhombus mit zentralem Punkt (geometrische Raute)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          622,
+          20,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Schaft mit kleinem abstehenden Strich und rhombischem Element rechts",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          20,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Komplexes Zeichen mit vertikalem Schaft, linksseitiger Spitze und rechtsseitigem absteigenden Element",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 87,
+      "iou": 0.062,
+      "page_glyph_bbox": [
+        490,
+        938,
+        419,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        8,
+        38,
+        14,
+        14
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines gefülltes rundes Punktzeichen am Zeilenanfang",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        738,
+        20,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Winkelartiges Zeichen, ähnlich 'K' oder türkischem 'k'",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        793,
+        20,
+        50,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Zwei diagonal verlaufende Schäfte mit Querstrich (ähnelt 'X' auf Stelzen)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        850,
+        20,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Schmaler vertikaler Schaft mit kleinem nach rechts gerichteten Haken oben",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        905,
+        20,
+        50,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelter nach rechts offener Winkel mit vertikalem Element",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        965,
+        20,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Winkel/Zickzack mit vertikalem Schaft",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        1018,
+        20,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Komplexes Zeichen mit zwei abstehenden vertikalen Schäften und Querstrich",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1072,
+        20,
+        50,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Winkelartiges Zeichen (Dreieck mit Spitze rechts)",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1130,
+        20,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Vertikaler Schaft mit nach links geneigter Spitze oben",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        1185,
+        20,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Doppelter nach rechts offener Winkel mit Vertikale",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1238,
+        20,
+        40,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Schmaler vertikaler Schaft am Zeilenende",
+      "confidence": 0.4
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 16: latin -> RSTAND EVERYTHING BETTER WITH THIS MANUAL."
+}

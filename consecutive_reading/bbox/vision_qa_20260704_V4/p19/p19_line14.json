@@ -1,0 +1,49 @@
+{
+  "page": "p19",
+  "line_id": 14,
+  "line_bbox": [
+    318,
+    1243,
+    27,
+    29
+  ],
+  "line_type": "graphic_line",
+  "line_description": "Die Zeile enthält einen einzelnen dunklen, ovalen Tintenklecks oder -fleck auf hellem Hintergrund. Keine identifizierbaren Buchstaben, Glyphen oder Zahlen erkennbar – möglicherweise ein Tintenfehler, Verschmutzung oder Beschädigung im Manuskript.",
+  "n_glyphs_vision": 1,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        55,
+        70,
+        90,
+        130
+      ],
+      "visual_kind": "unknown",
+      "description": "Dunkler, leicht schräg geneigter ovaler Tintenklecks ohne erkennbare interne Struktur oder symbolische Form",
+      "confidence": 0.2
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "inkblot",
+      "description": "Unförmiger schwarzer Tintenfleck, oval/elliptisch, leicht nach links oben geneigt, mit unscharfem Rand und leichter Satinierung am unteren Rand",
+      "bbox": [
+        50,
+        60,
+        100,
+        145
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 14: latin -> WE CALL SOME OF THE CHOSEN ONES THE MESSENGERS"
+}

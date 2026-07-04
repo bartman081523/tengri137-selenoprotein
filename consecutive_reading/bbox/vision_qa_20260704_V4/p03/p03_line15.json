@@ -1,0 +1,390 @@
+{
+  "page": "p03",
+  "line_id": 15,
+  "line_bbox": [
+    205,
+    889,
+    734,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ca. 16–17 unbekannten geometrischen Glyphen, getrennt durch einen Mittelpunkt. Die Zeichen wirken rune- bzw. sigillenartig mit vertikalen Schäften, Querbalken, Rauten und geschlossenen Bögen. Kein erkennbarer lateinischer Text, jedoch laut Schmeh-2017-Rekonstruktion könnte der Inhalt 'E YOU THIS ULTIMATIVE CHALLENGE. YOU WILL UNDE' entsprechen.",
+  "n_glyphs_vision": 21,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 11,
+  "n_unmatched_vision_glyphs": 10,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Schaft mit zwei nach links oben und unten auslaufenden Querbalken (umgekehrtes E, geöffnet nach rechts).",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 84,
+      "iou": 0.316,
+      "page_glyph_bbox": [
+        215,
+        899,
+        64,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          5,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spiegelverkehrtes Pendant: Schaft mit zwei nach rechts oben und unten geöffneten Querbalken (E-Form).",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          125,
+          5,
+          35,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kurze Vertikale mit kurzem oberen Haken nach links (fragmentarischer Schaft).",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          15,
+          50,
+          65
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute mit Mittelstrich oder eingeschriebenem Punkt, liegend.",
+        "unicode_codepoint_candidate": "U+25C6",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.162,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          10,
+          55,
+          75
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Komplexe Figur: zwei nach links offene Bögen übereinander, vergleichbar mit türkischen Y-Runen.",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          295,
+          5,
+          70,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Drei aufeinander folgende nach links offene Winkel (>>>>) gefolgt von einer D-förmigen Halbrundform.",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          405,
+          10,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Umgekehrtes E mit links offenen Querbalken (E-Spiegelbild).",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.173,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          5,
+          60,
+          80
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Komplexe Y-/X-förmige Figur mit zusätzlichen vertikalen Schäften, wirkt wie türkisches X/Y-Runensymbol.",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          5,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-ähnliche Figur mit Mittel- und Unterbalken nach links offen.",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          585,
+          5,
+          60,
+          80
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "X-förmige Kreuzfigur mit zusätzlichen vertikalen Erweiterungen (Doppel-Y / gekreuzte Runen).",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          5,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfache umgekehrte E-Form (Schaft mit zwei linken Querbalken).",
+        "unicode_codepoint_candidate": null,
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 85,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        286,
+        899,
+        644,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        380,
+        38,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt/Interpunktionszeichen (Trenner zwischen zwei Phrasen).",
+      "unicode_codepoint_candidate": "U+00B7",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        710,
+        5,
+        70,
+        80
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Komplexe Figur mit geschlossener Raute/Kreiselement und zusätzlichen Schäften, evtl. Schleife.",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        790,
+        5,
+        50,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "E-Form mit drei Querbalken nach links.",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        845,
+        5,
+        60,
+        80
+      ],
+      "visual_kind": "seven_rings",
+      "description": "Zwei vertikal gestapelte geschlossene Bögen/Ringe (8-Form oder liegende Acht).",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        910,
+        5,
+        55,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "E-ähnliche Form mit Mittelbalken nach links und zusätzlicher Vertikale rechts.",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        970,
+        5,
+        65,
+        80
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Komplexe Kreuz-/Verzweigungsfigur (X/Y-Kombination).",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1045,
+        5,
+        60,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikaler Schaft mit links offenem Mittel- und Unterbalken (E).",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1110,
+        5,
+        60,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spiegelverkehrtes E mit zwei nach rechts offenen Querbalken plus Vertikale.",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1175,
+        5,
+        50,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei nach links offene Winkel gefolgt von vertikalem Schaft (>>|).",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1230,
+        5,
+        55,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "D-förmige oder C-förmige Figur mit kurzer Vertikale (rechts offener Halbbogen).",
+      "unicode_codepoint_candidate": null,
+      "confidence": 0.75
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 15: latin -> E YOU THIS ULTIMATIVE CHALLENGE. YOU WILL UNDE"
+}

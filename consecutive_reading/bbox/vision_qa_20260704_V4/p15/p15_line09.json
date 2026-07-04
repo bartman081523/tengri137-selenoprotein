@@ -1,0 +1,125 @@
+{
+  "page": "p15",
+  "line_id": 9,
+  "line_bbox": [
+    448,
+    920,
+    246,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Mixed line containing a punctum dot, stylized Latin 'WARD' in a geometric/runic font, a diamond-with-dot glyph, an angular '4'-like shape, two chevron/bracket glyphs, and a three-dot face-circle sigil.",
+  "n_glyphs_vision": 6,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          30,
+          10,
+          18
+        ],
+        "visual_kind": "punctum",
+        "description": "Small isolated dot left of the word",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 752,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        458,
+        930,
+        133,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          215,
+          18,
+          42,
+          44
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rhombus/diamond outline with a single dot at its center",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 753,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        600,
+        930,
+        85,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        280,
+        18,
+        32,
+        52
+      ],
+      "visual_kind": "other",
+      "description": "Angular glyph resembling a numeral '4' or sideways 'Y' with vertical stem and angled branches",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        320,
+        28,
+        22,
+        38
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Right-pointing chevron / angular bracket (greater-than shape)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        348,
+        28,
+        22,
+        38
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Second right-pointing chevron / angular bracket",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        410,
+        14,
+        50,
+        52
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Circle containing three dots arranged in a triangular pattern (face-like sigil)",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "WARD",
+      "bbox": [
+        48,
+        12,
+        152,
+        56
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 9: latin -> WARD WAY. AN IMPOSSIBLE TASK WITH ANY OTHER TWO N"
+}

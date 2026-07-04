@@ -1,0 +1,115 @@
+{
+  "page": "p05",
+  "line_id": 6,
+  "line_bbox": [
+    350,
+    470,
+    426,
+    56
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Ein Parallelogramm, durch zwei schräge Linien in drei Zellen unterteilt, jede Zelle enthält eine arabische Zahl (26, 14, 626). Drei gestrichelte vertikale Linien begrenzen die Form links, in der Mitte und rechts.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 0,
+  "n_graphics": 6,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "26",
+      "bbox": [
+        135,
+        45,
+        80,
+        45
+      ]
+    },
+    {
+      "value": "14",
+      "bbox": [
+        365,
+        45,
+        80,
+        45
+      ]
+    },
+    {
+      "value": "626",
+      "bbox": [
+        580,
+        45,
+        130,
+        45
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "parallelogram_outline",
+      "description": "Schräges Parallelogramm als äußerer Rahmen, obere und untere Kante horizontal, linke und rechte Kante nach rechts oben geneigt.",
+      "bbox": [
+        95,
+        0,
+        780,
+        95
+      ]
+    },
+    {
+      "type": "diagonal_divider",
+      "description": "Erste schräge Trennlinie innerhalb des Parallelogramms, parallel zur rechten Schrägkante, trennt Zelle 1 von Zelle 2.",
+      "bbox": [
+        300,
+        0,
+        15,
+        95
+      ]
+    },
+    {
+      "type": "diagonal_divider",
+      "description": "Zweite schräge Trennlinie innerhalb des Parallelogramms, parallel zur rechten Schrägkante, trennt Zelle 2 von Zelle 3.",
+      "bbox": [
+        555,
+        0,
+        15,
+        95
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Gestrichelte vertikale Begrenzungslinie am linken Rand außerhalb des Parallelogramms.",
+      "bbox": [
+        0,
+        0,
+        4,
+        95
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Gestrichelte vertikale Begrenzungslinie rechts der ersten Zelle, zwischen Zelle 1 und Zelle 2.",
+      "bbox": [
+        260,
+        0,
+        4,
+        95
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Gestrichelte vertikale Begrenzungslinie am rechten Rand außerhalb des Parallelogramms.",
+      "bbox": [
+        920,
+        0,
+        4,
+        95
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 6: magic_cube_line -> 26       14       626    (=666)"
+}

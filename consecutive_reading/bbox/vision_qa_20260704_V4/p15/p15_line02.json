@@ -1,0 +1,538 @@
+{
+  "page": "p15",
+  "line_id": 2,
+  "line_bbox": [
+    194,
+    299,
+    746,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne durchgehende Zeile aus ca. 30 geometrischen, eckigen Glyphen in einer unbekannten Schrift (ähnlich Old Hungarian Rovás / runenartig). Keine lateinischen Buchstaben, keine Ziffern, keine Formeln erkennbar.",
+  "n_glyphs_vision": 30,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          25,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-/Kreuzform mit zwei sich kreuzenden Diagonalen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          25,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfache nach rechts zeigende Winkelklammer >",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          90,
+          25,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Dreieck / V-Form nach unten offen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          125,
+          25,
+          50,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei nebeneinanderliegende >-Winkel",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          25,
+          35,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "D-förmige geschlossene Figur (gerade linke Seite, gebogene rechte Seite)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          25,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelklammer > mit kurzem Strich nach links oben",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          265,
+          25,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfache >-Winkelform",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          25,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmige Kreuzfigur",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          25,
+          45,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-Kreuzform mit zusätzlichem vertikalem Strich in der Mitte",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          405,
+          25,
+          20,
+          55
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich / Pipe",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          25,
+          45,
+          55
+        ],
+        "visual_kind": "geometric_circle_with_cross",
+        "description": "Kreis mit X- oder Kreuz-Innenstruktur",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          480,
+          25,
+          45,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kreuz-/X-Form",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 734,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        204,
+        309,
+        525,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          25,
+          25,
+          55
+        ],
+        "visual_kind": "line",
+        "description": "Kurzer vertikaler Strich",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 735,
+      "iou": 0.052,
+      "page_glyph_bbox": [
+        737,
+        309,
+        82,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          560,
+          25,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Dreieck nach oben zeigend",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 735,
+      "iou": 0.109,
+      "page_glyph_bbox": [
+        737,
+        309,
+        82,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          25,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "> nach rechts zeigende Winkelform",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 735,
+      "iou": 0.095,
+      "page_glyph_bbox": [
+        737,
+        309,
+        82,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          25,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-Kreuzform",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 736,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        828,
+        309,
+        24,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          25,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Dreieck nach oben (▲)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 737,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        852,
+        309,
+        47,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          25,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Diamantform ◇",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 738,
+      "iou": 0.107,
+      "page_glyph_bbox": [
+        901,
+        309,
+        30,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        755,
+        25,
+        45,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kreuzform X mit Querbalken in der Mitte",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        805,
+        25,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreisform / 8-ähnliche Figur",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        845,
+        25,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenform mit zentralem Punkt",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        885,
+        25,
+        20,
+        55
+      ],
+      "visual_kind": "line",
+      "description": "Vertikaler Strich",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        910,
+        25,
+        50,
+        55
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Kreis mit drei inneren Punkten (Gesichts-/Augenmotiv)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        965,
+        25,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Dreieck nach oben",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1000,
+        25,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-Kreuzform",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1040,
+        25,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-/Gabelform nach oben",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1085,
+        25,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-Kreuzform",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1130,
+        25,
+        40,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-Kreuzform",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1175,
+        25,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-Gabelform nach oben",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1215,
+        25,
+        40,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "D-/Bogenförmige geschlossene Figur am Zeilenende",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 2: latin -> THIS IS A ROUGH CALCULATION. YOU WILL SEE THAT THE WA"
+}

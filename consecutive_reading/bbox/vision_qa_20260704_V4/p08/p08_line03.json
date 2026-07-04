@@ -1,0 +1,253 @@
+{
+  "page": "p08",
+  "line_id": 3,
+  "line_bbox": [
+    401,
+    351,
+    311,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus geometrisch-runenartigen Glyphen, ähnlich Voynich-Schrift, eingeleitet durch einen kleinen Punctum/Punkt. Keine lateinischen Wörter, keine Zahlen erkennbar.",
+  "n_glyphs_vision": 15,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 6,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          28,
+          28,
+          8,
+          75
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Vertikaler Balken/Stamm, isoliert stehend",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 401,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        411,
+        361,
+        292,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          28,
+          8,
+          75
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Zweiter vertikaler Balken, bildet mit dem ersten ein 'H' oder 'II' ähnliches Paar",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 401,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        411,
+        361,
+        292,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          98,
+          28,
+          32,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "D-förmige Halbkreisfigur, Öffnung nach links",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 401,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        411,
+        361,
+        292,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          138,
+          28,
+          30,
+          75
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "h- oder 4-förmige Figur mit vertikalem Stamm und gebogenem Ausläufer nach rechts oben",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 401,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        411,
+        361,
+        292,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          218,
+          28,
+          30,
+          75
+        ],
+        "visual_kind": "math_times",
+        "description": "X-förmige oder Sanduhr-förmige Figur, gekreuzte Diagonalen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 401,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        411,
+        361,
+        292,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          258,
+          28,
+          30,
+          75
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "4- oder h-förmige Figur mit vertikalem Stamm und Querbalken",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 401,
+      "iou": 0.053,
+      "page_glyph_bbox": [
+        411,
+        361,
+        292,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        10,
+        55,
+        10,
+        20
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner schwarzer Punkt/Punctum am Zeilenanfang, möglicher Worttrenner",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        60,
+        32,
+        30,
+        65
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Achterförmige Figur, zwei vertikal gestapelte geschlossene Schleifen (Voynich-typisch)",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        178,
+        35,
+        30,
+        60
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Dreiecks-/Pfeilförmige Figur, Spitze nach rechts gerichtet",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        298,
+        28,
+        30,
+        75
+      ],
+      "visual_kind": "math_times",
+      "description": "X-förmige oder Sanduhr-förmige Figur, gekreuzte Diagonalen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        340,
+        28,
+        25,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Halbkreis/Spange, Öffnung nach links gerichtet (')' oder 'C')",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        375,
+        28,
+        30,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "D-förmige Halbkreisfigur mit vertikalem Stamm, Öffnung nach links",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        415,
+        28,
+        30,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "C- oder (-förmige Figur, Öffnung nach rechts gerichtet",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        455,
+        28,
+        15,
+        75
+      ],
+      "visual_kind": "digit",
+      "description": "Schmales vertikales Element mit oberem Ausläufer, ähnelt '1'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        478,
+        28,
+        30,
+        75
+      ],
+      "visual_kind": "odin_triple_horn",
+      "description": "Y-förmige Figur mit V-Gabelung am oberen Ende und vertikalem Stamm nach unten",
+      "confidence": 0.75
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 3: magic_cube_line -> 635       24          7      (=666)"
+}

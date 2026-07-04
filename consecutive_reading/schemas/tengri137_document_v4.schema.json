@@ -1,0 +1,499 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tengri137.local/schemas/tengri137_document_v4.schema.json",
+  "title": "Tengri137 Document v4 (Glyph-First)",
+  "description": "V4 unified schema for Tengri137 PDF analysis pipeline. V4 (PIVOT from V3): (1) NO Tesseract-text for glyphs, (2) regions have glyphs[] with glyph_index (global, 1-based) referencing phase-2 glyph index, (3) each glyph has components[] (Phase-1 component IDs), type_hint (geometry-based), vision_kind (from line-vision), vision_description, (4) latin_tokens[] only with Vision-conf≥70 (NOT Tesseract), (5) schmeh_hint fields validate against Schmeh 2017 reconstruction (HINT, not truth). Each top-level JSON file (Tengri137_detailed_<TS>/doc.json or p{NN}.json) is validated against this schema.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document",
+    "pages"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^4\\.[0-9]+$",
+      "description": "Schema version, e.g. 4.0"
+    },
+    "document": {
+      "type": "object",
+      "required": [
+        "title",
+        "page_count",
+        "source_pdf",
+        "processing_run"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "page_count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "source_pdf": {
+          "type": "string"
+        },
+        "processing_run": {
+          "type": "string",
+          "description": "TS folder name, e.g. 20260704_V4"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "pipeline_version": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "cluster_levels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "coarse",
+              "medium",
+              "fine"
+            ]
+          }
+        },
+        "schmeh_validation": {
+          "type": "object",
+          "description": "Validation against Schmeh 2017 raw_text.txt (HINT, not truth)",
+          "properties": {
+            "n_glyph_pages_match": {
+              "type": "integer"
+            },
+            "n_latin_pages_match": {
+              "type": "integer"
+            },
+            "n_latin_pages_mismatch": {
+              "type": "integer"
+            },
+            "n_pages_with_known_issues": {
+              "type": "integer"
+            },
+            "known_issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/page"
+      },
+      "minItems": 1
+    }
+  },
+  "definitions": {
+    "page": {
+      "type": "object",
+      "required": [
+        "page_id",
+        "image_size",
+        "regions"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "page_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}$"
+        },
+        "image_size": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "n_glyphs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "n_latin_tokens": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "schmeh_hint": {
+          "type": "object",
+          "description": "Schmeh 2017 raw_text.txt Hint for this page (NOT truth)",
+          "properties": {
+            "n_latin": {
+              "type": "integer"
+            },
+            "n_glyphs": {
+              "type": "integer"
+            },
+            "has_magic_cube": {
+              "type": "boolean"
+            },
+            "has_rings": {
+              "type": "boolean"
+            },
+            "has_burumut_block": {
+              "type": "boolean"
+            }
+          }
+        },
+        "regions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/region"
+          }
+        }
+      }
+    },
+    "region": {
+      "type": "object",
+      "required": [
+        "region_id",
+        "bbox",
+        "region_type"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "region_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}_R\\d+(_[A-Z_]+)?$",
+          "description": "Region-ID with optional suffix for fused regions (e.g. _SCHMEH, _LETTERBLOCK)"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "region_type": {
+          "type": "string",
+          "enum": [
+            "header",
+            "footer",
+            "glyph_raster",
+            "glyph_block",
+            "single_glyph",
+            "latin_text",
+            "formula_block",
+            "numeric_table",
+            "magic_cube",
+            "rings_sigil",
+            "burumut_block",
+            "graphic_line",
+            "mixed",
+            "drawing"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "Line-IDs (1-based within page)"
+        },
+        "glyphs": {
+          "type": "array",
+          "description": "V4: Glyph instances (with global glyph_index)",
+          "items": {
+            "$ref": "#/definitions/glyph_instance"
+          }
+        },
+        "latin_tokens": {
+          "type": "array",
+          "description": "V4: Only Vision-confirmed Latin tokens (NOT Tesseract)",
+          "items": {
+            "$ref": "#/definitions/latin_token"
+          }
+        },
+        "formulas": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/formula"
+          }
+        },
+        "numerics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/numeric_token"
+          }
+        },
+        "graphics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "bbox": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "minItems": 4,
+                "maxItems": 4
+              }
+            }
+          }
+        },
+        "uncertain": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "description": "glyph_index of uncertain glyphs"
+          },
+          "description": "Glyphs with vision_confidence < 0.5"
+        }
+      }
+    },
+    "glyph_instance": {
+      "type": "object",
+      "required": [
+        "glyph_index",
+        "page",
+        "bbox",
+        "type_hint"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "glyph_index": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Global glyph index (1-based, unique across all 23 pages)"
+        },
+        "page": {
+          "type": "string",
+          "pattern": "^p\\d{2}$"
+        },
+        "page_glyph_id": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "Glyph ID within page (1-based)"
+        },
+        "cluster_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "V4: cluster_id from Phase 6 (e.g. GEOM_DIAMOND_DOT_0001)",
+          "minLength": 0
+        },
+        "line_id": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "V4: line_id from Phase 2"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "size_px": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "fill_ratio": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "n_components": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "V4: How many Phase-1 ink components make up this glyph"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "V4: List of Phase-1 component IDs that make up this glyph"
+        },
+        "type_hint": {
+          "type": "string",
+          "enum": [
+            "punctum",
+            "vertical_line",
+            "horizontal_line",
+            "horizontal_stroke",
+            "vertical_stroke",
+            "geometric_symbol",
+            "complex_symbol",
+            "macro_glyph_part",
+            "latin_word_cluster",
+            "unknown"
+          ],
+          "description": "V4: type from geometry (Phase 2)"
+        },
+        "vision_kind": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "V4: from line-vision (Phase 3) — visual_kind for this glyph",
+          "minLength": 0
+        },
+        "vision_description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 0
+        },
+        "vision_confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "unicode_codepoint_candidate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 0
+        },
+        "first_appearance": {
+          "type": "boolean",
+          "description": "True if this is the first occurrence of this cluster"
+        },
+        "schmeh_hint": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Schmeh 2017 description of this glyph (if found in raw_text.txt)",
+          "minLength": 0
+        }
+      }
+    },
+    "latin_token": {
+      "type": "object",
+      "required": [
+        "text",
+        "bbox"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "conf": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Vision confidence (NOT Tesseract)"
+        },
+        "line_id": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "V4: line_id from Phase 2"
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "vision",
+            "schmeh_hint",
+            "schmeh_complete"
+          ],
+          "description": "V4: where this latin token came from"
+        }
+      }
+    },
+    "numeric_token": {
+      "type": "object",
+      "required": [
+        "value",
+        "bbox"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4
+        }
+      }
+    },
+    "formula": {
+      "type": "object",
+      "required": [
+        "raw",
+        "bbox"
+      ],
+      "properties": {
+        "raw": {
+          "type": "string"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "line_id": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  }
+}

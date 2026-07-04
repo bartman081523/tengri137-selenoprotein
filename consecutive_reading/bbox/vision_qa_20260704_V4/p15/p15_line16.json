@@ -1,0 +1,383 @@
+{
+  "page": "p15",
+  "line_id": 16,
+  "line_bbox": [
+    193,
+    1305,
+    746,
+    47
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile in einer Tengri-runenartigen Stilschrift, die vermutlich verschlüsselten lateinischen Text enthält. In der Mitte befindet sich ein deutlicher Punkttrenner (Punkt/Komma).",
+  "n_glyphs_vision": 23,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 8,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          10,
+          70,
+          110
+        ],
+        "visual_kind": "other",
+        "description": "Zwei vertikale Striche, einer mit kurzem Querbalken oben (ähnelt 'IY' oder stilisiertem 'S')",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 762,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        203,
+        1315,
+        239,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          20,
+          25,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Einfacher vertikaler Strich (ähnlich 'I' oder 'l')",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 762,
+      "iou": 0.068,
+      "page_glyph_bbox": [
+        203,
+        1315,
+        239,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          330,
+          20,
+          80,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Zwei verbundene Zeichen, ähnlich 'EX' oder 'C<' - kantige Form",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 763,
+      "iou": 0.09,
+      "page_glyph_bbox": [
+        442,
+        1315,
+        429,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          415,
+          20,
+          50,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen mit zwei oberen Ästen und einem vertikalen Stamm",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 763,
+      "iou": 0.09,
+      "page_glyph_bbox": [
+        442,
+        1315,
+        429,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          25,
+          80,
+          90
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges Zeichen mit zentralem Punkt (◇ mit Innenpunkt)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 763,
+      "iou": 0.072,
+      "page_glyph_bbox": [
+        442,
+        1315,
+        429,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          25,
+          70,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Gebogene Form, ähnlich ')H' oder '2H' - rechts offener Bogen mit senkrechtem Strich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 763,
+      "iou": 0.072,
+      "page_glyph_bbox": [
+        442,
+        1315,
+        429,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          20,
+          55,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Winkel- oder '4'-förmiges Zeichen mit Kreuzungs-ähnlicher Struktur",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 763,
+      "iou": 0.079,
+      "page_glyph_bbox": [
+        442,
+        1315,
+        429,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          25,
+          75,
+          95
+        ],
+        "visual_kind": "other",
+        "description": "Zwei aufeinanderfolgende bogenförmige Zeichen (ähnlich '33' oder '))')",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 764,
+      "iou": 0.078,
+      "page_glyph_bbox": [
+        880,
+        1316,
+        50,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        75,
+        50,
+        20,
+        60
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines Komma- oder Apostroph-ähnliches Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        95,
+        30,
+        55,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Achter-ähnliche geschlossene Form mit zwei verschlungenen Bögen (stilisiertes '8' oder 'B')",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        150,
+        30,
+        75,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Zwei aufeinanderfolgende bogenförmige Zeichen (ähnlich '33' oder '))')",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        260,
+        30,
+        65,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Winkel- oder hakenförmiges Zeichen (ähnelt '5', 'G' oder 'J')",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        770,
+        60,
+        15,
+        15
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner zentraler Punkt/Punkt-Trenner in der Mitte der Zeile",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        830,
+        25,
+        50,
+        95
+      ],
+      "visual_kind": "other",
+      "description": "X- oder kreuzförmiges Zeichen mit zwei sich schneidenden Strichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        885,
+        25,
+        90,
+        95
+      ],
+      "visual_kind": "other",
+      "description": "Verbundene Zeichen, ähnlich '41' oder 'AI' - Winkel mit Vertikalstrich",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        980,
+        55,
+        20,
+        50
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines Komma- oder Apostroph-ähnliches Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1005,
+        30,
+        55,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Achter-ähnliche geschlossene Form mit zwei verschlungenen Bögen (stilisiertes '8' oder 'B')",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1065,
+        30,
+        75,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Zwei aufeinanderfolgende bogenförmige Zeichen (ähnlich '33' oder '))')",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1145,
+        20,
+        25,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Einfacher vertikaler Strich (ähnlich 'I' oder 'l')",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1175,
+        20,
+        90,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Winkel- oder '34'-förmiges Zeichen mit zwei verbundenen Ecken",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1270,
+        25,
+        80,
+        90
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt (◇ mit Innenpunkt)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1355,
+        20,
+        70,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Winkel- oder '4'-förmiges Zeichen mit Kreuzungs-ähnlicher Struktur",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1430,
+        25,
+        80,
+        95
+      ],
+      "visual_kind": "other",
+      "description": "Zwei aufeinanderfolgende bogenförmige Zeichen am Zeilenende (ähnlich '33' oder '))')",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "S. DO NOT FORGET, TENGRI DIVIDES THE LIGHT FROM DARK",
+      "bbox": [
+        0,
+        10,
+        1510,
+        110
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctum_separator",
+      "description": "Zentraler Punkt/Punkt-Trenner in der Mitte der Zeile (Position ca. 60% der Zeilenbreite) - möglicherweise Satzzeichen wie Komma oder Punkt",
+      "bbox": [
+        770,
+        60,
+        15,
+        15
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> S. DO NOT FORGET, TENGRI DIVIDES THE LIGHT FROM DARK"
+}

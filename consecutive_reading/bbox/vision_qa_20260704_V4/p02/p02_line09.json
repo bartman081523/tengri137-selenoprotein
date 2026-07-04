@@ -1,0 +1,308 @@
+{
+  "page": "p02",
+  "line_id": 9,
+  "line_bbox": [
+    318,
+    650,
+    505,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Reihe stark stilisierter, geometrisch-eckiger Glyphen, eingeleitet von einem einzelnen Punkt. Keine erkennbaren lateinischen Großbuchstaben, keine Zahlen, keine Formeln erkennbar. Optisch wirkt die Schrift runisch/eckig, vergleichbar mit frühen Alphabetschriften (Sinaitisch/Proto-kanaanäisch/Italic).",
+  "n_glyphs_vision": 20,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 6,
+  "n_unmatched_vision_glyphs": 14,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          15,
+          60,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer-/Ypsilon-Form mit zwei schräg nach unten auseinanderlaufenden Schenkeln, oben angesetzter kurzer Stamm",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 39,
+      "iou": 0.111,
+      "page_glyph_bbox": [
+        328,
+        660,
+        486,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          15,
+          60,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spiegelverkehrte eckige Klammer, vergleichbar mit '>'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 39,
+      "iou": 0.111,
+      "page_glyph_bbox": [
+        328,
+        660,
+        486,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          15,
+          60,
+          95
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Rechteckiger/quadratischer Block mit gerader linker Kante, möglicherweise halbgeschlossenes 'D'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 39,
+      "iou": 0.111,
+      "page_glyph_bbox": [
+        328,
+        660,
+        486,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          15,
+          35,
+          95
+        ],
+        "visual_kind": "line",
+        "description": "Schlanker vertikaler Strich, möglicherweise 'I' oder '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 39,
+      "iou": 0.111,
+      "page_glyph_bbox": [
+        328,
+        660,
+        486,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          360,
+          15,
+          60,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Ypsilon-ähnliche Form, oben Gabelung, unten Stamm",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 39,
+      "iou": 0.111,
+      "page_glyph_bbox": [
+        328,
+        660,
+        486,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          15,
+          60,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer '[' oder '<', nach links offen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 39,
+      "iou": 0.111,
+      "page_glyph_bbox": [
+        328,
+        660,
+        486,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        25,
+        50,
+        15,
+        15
+      ],
+      "visual_kind": "punctum",
+      "description": "Einzelner runder Punkt am linken Zeilenanfang",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        510,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Klammerartiges Zeichen, möglicherweise 'C' oder ')'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        585,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Dreieckige/Λ-förmige Glyphe, oben spitz, unten zwei schräge Striche",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        660,
+        15,
+        70,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H- oder N-förmige eckige Glyphe mit zwei Vertikalen und Querstrich",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        745,
+        15,
+        35,
+        95
+      ],
+      "visual_kind": "line",
+      "description": "Schlanker vertikaler Strich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        795,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Klammer '['",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        870,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Ypsilon-ähnliche Form mit oberer Gabel",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        945,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Ring/O-förmige Glyphe",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1020,
+        15,
+        35,
+        95
+      ],
+      "visual_kind": "line",
+      "description": "Schlanker vertikaler Strich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1070,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Ypsilon mit zusätzlichem abwärts gerichteten Schwanz",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1145,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "Rechteckige, D-artig geschlossene Form",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1220,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Klammer '['",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1295,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Ypsilon-ähnliche Form",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1370,
+        15,
+        60,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Klammer '['",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 9: latin -> G EXCEPT YOUR BRAIN CAN HELP YOU."
+}

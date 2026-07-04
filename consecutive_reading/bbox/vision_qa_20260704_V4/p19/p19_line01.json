@@ -1,0 +1,281 @@
+{
+  "page": "p19",
+  "line_id": 1,
+  "line_bbox": [
+    173,
+    240,
+    178,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch: Zähler enthält faktorisierte Potenzen 2^4 · 3^2 · 73 · 21354551, Nenner 5 · 7 · 1597 · 30615947, getrennt durch horizontalen Bruchstrich.",
+  "n_glyphs_vision": 10,
+  "n_latin_tokens": 0,
+  "n_numerics": 8,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 4,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          20,
+          10,
+          50,
+          65
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 2 mit hochgestelltem Exponenten 4 (2^4)",
+        "unicode_codepoint_candidate": "U+0032",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 864,
+      "iou": 0.3,
+      "page_glyph_bbox": [
+        183,
+        250,
+        159,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          75,
+          30,
+          22,
+          30
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (Kreuz/×) zwischen 2^4 und 3^2",
+        "unicode_codepoint_candidate": "U+00D7",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 864,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        183,
+        250,
+        159,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          10,
+          55,
+          65
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer 3 mit hochgestelltem Exponenten 2 (3^2)",
+        "unicode_codepoint_candidate": "U+0033",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 864,
+      "iou": 0.3,
+      "page_glyph_bbox": [
+        183,
+        250,
+        159,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          30,
+          22,
+          30
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen zwischen 3^2 und 73",
+        "unicode_codepoint_candidate": "U+00D7",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 864,
+      "iou": 0.13,
+      "page_glyph_bbox": [
+        183,
+        250,
+        159,
+        39
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        185,
+        25,
+        55,
+        55
+      ],
+      "visual_kind": "digit",
+      "description": "Zweistellige Zahl 73",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        245,
+        30,
+        22,
+        30
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen zwischen 73 und 21354551",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        30,
+        140,
+        30,
+        55
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer 5 im Nenner",
+      "unicode_codepoint_candidate": "U+0035",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        70,
+        160,
+        22,
+        30
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen im Nenner",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        95,
+        140,
+        30,
+        55
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer 7 im Nenner",
+      "unicode_codepoint_candidate": "U+0037",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        130,
+        160,
+        22,
+        30
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen im Nenner",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.99
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2^4",
+      "bbox": [
+        20,
+        10,
+        50,
+        65
+      ]
+    },
+    {
+      "value": "3^2",
+      "bbox": [
+        100,
+        10,
+        55,
+        65
+      ]
+    },
+    {
+      "value": "73",
+      "bbox": [
+        185,
+        25,
+        55,
+        55
+      ]
+    },
+    {
+      "value": "21354551",
+      "bbox": [
+        270,
+        25,
+        200,
+        55
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        30,
+        140,
+        30,
+        55
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        95,
+        140,
+        30,
+        55
+      ]
+    },
+    {
+      "value": "1597",
+      "bbox": [
+        155,
+        140,
+        90,
+        55
+      ]
+    },
+    {
+      "value": "30615947",
+      "bbox": [
+        280,
+        140,
+        180,
+        55
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(2^4 × 3^2 × 73 × 21354551) / (5 × 7 × 1597 × 30615947)",
+      "bbox": [
+        0,
+        0,
+        470,
+        220
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Horizontaler Bruchstrich (Fraktionsbalken), trennt Zähler und Nenner, erstreckt sich über die volle Zeilenbreite",
+      "bbox": [
+        0,
+        95,
+        470,
+        8
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> TIME FOR THE TRUTH"
+}

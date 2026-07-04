@@ -1,0 +1,321 @@
+{
+  "page": "p12",
+  "line_id": 17,
+  "line_bbox": [
+    192,
+    1187,
+    747,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus unbekannten geometrischen Glyphen in schwarzer Tinte. Mehrere Winkelzeichen, Diamantformen mit Innenpunkt, vertikale Striche und kleine Puncta sind erkennbar. Keine lateinischen Buchstaben oder arabischen Ziffern sichtbar.",
+  "n_glyphs_vision": 14,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          8,
+          55,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Cluster aus Winkelzeichen, geöffnete Chevron-artige Formen, linksbündig beginnend",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.221,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          58,
+          12,
+          22,
+          40
+        ],
+        "visual_kind": "other",
+        "description": "Schmales vertikales Element, möglicherweise zwei verbundene Striche oder ein zweizackiges Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.312,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          24,
+          8,
+          8
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner runder Punkt, Punctum",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          8,
+          50,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelzeichen-Cluster mit Chevron- und Y-förmigen Elementen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          8,
+          60,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Komplexe geometrische Form, möglicherweise H-ähnlich mit zusätzlichen vertikalen Elementen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          218,
+          14,
+          30,
+          32
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges Zeichen mit zentralem Innenpunkt, deutlich erkennbar",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.359,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          252,
+          8,
+          60,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelcluster, Chevron-artige Symbole",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 607,
+      "iou": 0.126,
+      "page_glyph_bbox": [
+        202,
+        1197,
+        270,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          318,
+          8,
+          60,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Geometrisches Formcluster mit Y- und Chevron-Elementen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          382,
+          8,
+          60,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Winkelcluster ähnlich vorherigen, mehrere Chevron-Formen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          446,
+          8,
+          30,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Schmales vertikales Formelement, möglicherweise J- oder H-ähnlich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          478,
+          14,
+          28,
+          32
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Zweite Raute mit zentralem Innenpunkt, symmetrisch zur ersten",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.359,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          512,
+          24,
+          8,
+          8
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner runder Punkt, Punctum",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          8,
+          60,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Winkelcluster mit Chevron-ähnlichen Symbolen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          8,
+          30,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Schmales vertikales Element, Y- oder Ypsilon-förmig",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 608,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        481,
+        1197,
+        449,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 17: latin -> FIND LAST FIFTY THOUSAND DECIMALS OF THIS CALCULATION"
+}

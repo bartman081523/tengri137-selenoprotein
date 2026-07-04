@@ -1,0 +1,2364 @@
+{
+  "page_id": "p16",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 38,
+  "n_latin_tokens": 15,
+  "n_regions": 19,
+  "n_glyphs_with_vision_match": 0,
+  "schmeh_hint": {
+    "n_latin": 15,
+    "n_glyphs": 1,
+    "has_magic_cube": false,
+    "has_rings": false,
+    "has_burumut_block": false
+  },
+  "regions": [
+    {
+      "region_id": "p16_R1",
+      "bbox": [
+        186,
+        249,
+        754,
+        49
+      ],
+      "region_type": "latin_text",
+      "description": "Line 1, y_center=272.9, glyphs=3, latin=1",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 778,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 1,
+          "bbox": [
+            196,
+            259,
+            350,
+            30
+          ],
+          "size_px": 3594,
+          "fill_ratio": 0.3423,
+          "n_components": 17,
+          "components": [
+            9370,
+            9372,
+            9381,
+            9365,
+            9382,
+            9371,
+            9397,
+            9367,
+            9369,
+            9373,
+            9384,
+            9387,
+            9388,
+            9385,
+            9386,
+            9383,
+            9368
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 779,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 1,
+          "bbox": [
+            556,
+            259,
+            319,
+            30
+          ],
+          "size_px": 3460,
+          "fill_ratio": 0.3615,
+          "n_components": 18,
+          "components": [
+            9375,
+            9392,
+            9398,
+            9399,
+            9377,
+            9366,
+            9374,
+            9400,
+            9379,
+            9394,
+            9380,
+            9391,
+            9389,
+            9393,
+            9378,
+            9390,
+            9376,
+            9402
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 780,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 1,
+          "bbox": [
+            884,
+            261,
+            47,
+            27
+          ],
+          "size_px": 509,
+          "fill_ratio": 0.4011,
+          "n_components": 3,
+          "components": [
+            9401,
+            9396,
+            9395
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "CALCULATE THE NEXT UNIQUE NUMBER AND SEE OUR PROOF",
+          "bbox": [
+            186,
+            249,
+            754,
+            49
+          ],
+          "conf": 0.5,
+          "line_id": 1,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R2",
+      "bbox": [
+        269,
+        294,
+        560,
+        48
+      ],
+      "region_type": "latin_text",
+      "description": "Line 2, y_center=317.3, glyphs=3, latin=1",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 781,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 2,
+          "bbox": [
+            279,
+            304,
+            260,
+            29
+          ],
+          "size_px": 2708,
+          "fill_ratio": 0.3592,
+          "n_components": 14,
+          "components": [
+            9406,
+            9411,
+            9407,
+            9409,
+            9428,
+            9405,
+            9408,
+            9429,
+            9403,
+            9410,
+            9424,
+            9422,
+            9423,
+            9404
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 782,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 2,
+          "bbox": [
+            547,
+            304,
+            71,
+            29
+          ],
+          "size_px": 730,
+          "fill_ratio": 0.3545,
+          "n_components": 3,
+          "components": [
+            9412,
+            9413,
+            9414
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 783,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 2,
+          "bbox": [
+            627,
+            304,
+            193,
+            29
+          ],
+          "size_px": 2244,
+          "fill_ratio": 0.4009,
+          "n_components": 10,
+          "components": [
+            9420,
+            9415,
+            9419,
+            9421,
+            9417,
+            9418,
+            9425,
+            9427,
+            9426,
+            9416
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "OW THAT THIS GIVEN VALUES ARE SO EXACT, YOU CANNOT",
+          "bbox": [
+            269,
+            294,
+            560,
+            48
+          ],
+          "conf": 0.5,
+          "line_id": 2,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R3",
+      "bbox": [
+        266,
+        371,
+        594,
+        279
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=507.4, glyphs=3, latin=1",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 784,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 3,
+          "bbox": [
+            276,
+            476,
+            3,
+            152
+          ],
+          "size_px": 168,
+          "fill_ratio": 0.3684,
+          "n_components": 12,
+          "components": [
+            9494,
+            9512,
+            9514,
+            9532,
+            9536,
+            9554,
+            9558,
+            9565,
+            9578,
+            9594,
+            9595,
+            9596
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 785,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 3,
+          "bbox": [
+            276,
+            381,
+            266,
+            260
+          ],
+          "size_px": 7574,
+          "fill_ratio": 0.1095,
+          "n_components": 95,
+          "components": [
+            9436,
+            9435,
+            9433,
+            9440,
+            9437,
+            9432,
+            9434,
+            9439,
+            9438,
+            9448,
+            9449,
+            9450,
+            9455,
+            9456,
+            9452,
+            9453,
+            9454,
+            9451,
+            9464,
+            9465,
+            9466,
+            9468,
+            9469,
+            9474,
+            9478,
+            9473,
+            9476,
+            9471,
+            9475,
+            9472,
+            9477,
+            9486,
+            9487,
+            9488,
+            9489,
+            9491,
+            9430,
+            9492,
+            9493,
+            9495,
+            9499,
+            9502,
+            9496,
+            9497,
+            9500,
+            9501,
+            9498,
+            9511,
+            9513,
+            9520,
+            9517,
+            9515,
+            9516,
+            9518,
+            9519,
+            9521,
+            9529,
+            9531,
+            9533,
+            9535,
+            9543,
+            9541,
+            9538,
+            9539,
+            9540,
+            9542,
+            9537,
+            9551,
+            9553,
+            9556,
+            9559,
+            9560,
+            9569,
+            9563,
+            9567,
+            9566,
+            9570,
+            9562,
+            9568,
+            9571,
+            9585,
+            9581,
+            9583,
+            9580,
+            9582,
+            9584,
+            9555,
+            9579,
+            9603,
+            9597,
+            9599,
+            9601,
+            9600,
+            9598,
+            9602
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 786,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 3,
+          "bbox": [
+            585,
+            381,
+            266,
+            260
+          ],
+          "size_px": 7357,
+          "fill_ratio": 0.1064,
+          "n_components": 74,
+          "components": [
+            9447,
+            9443,
+            9446,
+            9441,
+            9444,
+            9442,
+            9445,
+            9461,
+            9459,
+            9460,
+            9458,
+            9462,
+            9463,
+            9457,
+            9467,
+            9470,
+            9481,
+            9479,
+            9485,
+            9480,
+            9482,
+            9483,
+            9484,
+            9490,
+            9504,
+            9507,
+            9505,
+            9508,
+            9503,
+            9509,
+            9510,
+            9506,
+            9431,
+            9526,
+            9523,
+            9522,
+            9527,
+            9524,
+            9528,
+            9525,
+            9530,
+            9534,
+            9549,
+            9546,
+            9544,
+            9545,
+            9548,
+            9547,
+            9550,
+            9552,
+            9557,
+            9561,
+            9573,
+            9564,
+            9575,
+            9574,
+            9577,
+            9572,
+            9576,
+            9592,
+            9588,
+            9593,
+            9590,
+            9589,
+            9587,
+            9591,
+            9586,
+            9605,
+            9606,
+            9610,
+            9607,
+            9609,
+            9604,
+            9608
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "CHANGE ANY OF THIS VALUES IN THIS CALCULATION.",
+          "bbox": [
+            266,
+            371,
+            594,
+            279
+          ],
+          "conf": 0.5,
+          "line_id": 3,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R4",
+      "bbox": [
+        378,
+        642,
+        367,
+        41
+      ],
+      "region_type": "glyph_raster",
+      "description": "Line 4, y_center=662.5, glyphs=2, latin=1",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 787,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 4,
+          "bbox": [
+            388,
+            653,
+            39,
+            21
+          ],
+          "size_px": 262,
+          "fill_ratio": 0.3199,
+          "n_components": 3,
+          "components": [
+            9616,
+            9617,
+            9615
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 788,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 4,
+          "bbox": [
+            686,
+            652,
+            50,
+            21
+          ],
+          "size_px": 313,
+          "fill_ratio": 0.2981,
+          "n_components": 4,
+          "components": [
+            9613,
+            9614,
+            9611,
+            9612
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "CAN YOU SEE OUR TRIP(P)LE SIX NUMBER IN THE RESULT?",
+          "bbox": [
+            378,
+            642,
+            367,
+            41
+          ],
+          "conf": 0.5,
+          "line_id": 4,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R5",
+      "bbox": [
+        266,
+        689,
+        594,
+        279
+      ],
+      "region_type": "latin_text",
+      "description": "Line 5, y_center=827.4, glyphs=4, latin=1",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 789,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 5,
+          "bbox": [
+            276,
+            794,
+            3,
+            152
+          ],
+          "size_px": 153,
+          "fill_ratio": 0.3355,
+          "n_components": 12,
+          "components": [
+            9676,
+            9693,
+            9695,
+            9713,
+            9717,
+            9735,
+            9736,
+            9739,
+            9754,
+            9770,
+            9771,
+            9772
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 790,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 5,
+          "bbox": [
+            276,
+            699,
+            266,
+            260
+          ],
+          "size_px": 7677,
+          "fill_ratio": 0.111,
+          "n_components": 73,
+          "components": [
+            9620,
+            9625,
+            9621,
+            9622,
+            9626,
+            9623,
+            9624,
+            9647,
+            9649,
+            9645,
+            9646,
+            9650,
+            9644,
+            9648,
+            9652,
+            9655,
+            9661,
+            9659,
+            9657,
+            9660,
+            9665,
+            9666,
+            9658,
+            9672,
+            9677,
+            9679,
+            9678,
+            9680,
+            9681,
+            9683,
+            9684,
+            9682,
+            9700,
+            9618,
+            9701,
+            9699,
+            9698,
+            9696,
+            9697,
+            9710,
+            9714,
+            9718,
+            9721,
+            9719,
+            9723,
+            9720,
+            9722,
+            9727,
+            9732,
+            9737,
+            9746,
+            9740,
+            9742,
+            9741,
+            9745,
+            9743,
+            9744,
+            9759,
+            9757,
+            9762,
+            9760,
+            9756,
+            9758,
+            9761,
+            9755,
+            9776,
+            9778,
+            9773,
+            9777,
+            9774,
+            9775,
+            9781,
+            9782
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 791,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 5,
+          "bbox": [
+            539,
+            713,
+            3,
+            152
+          ],
+          "size_px": 168,
+          "fill_ratio": 0.3684,
+          "n_components": 12,
+          "components": [
+            9634,
+            9635,
+            9651,
+            9654,
+            9671,
+            9674,
+            9675,
+            9692,
+            9694,
+            9712,
+            9716,
+            9734
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 792,
+          "page": "p16",
+          "page_glyph_id": 4,
+          "cluster_id": null,
+          "line_id": 5,
+          "bbox": [
+            585,
+            699,
+            266,
+            260
+          ],
+          "size_px": 7444,
+          "fill_ratio": 0.1076,
+          "n_components": 73,
+          "components": [
+            9628,
+            9629,
+            9633,
+            9631,
+            9632,
+            9627,
+            9630,
+            9637,
+            9638,
+            9641,
+            9639,
+            9642,
+            9640,
+            9643,
+            9636,
+            9653,
+            9656,
+            9662,
+            9664,
+            9670,
+            9663,
+            9667,
+            9669,
+            9668,
+            9673,
+            9689,
+            9691,
+            9687,
+            9685,
+            9688,
+            9686,
+            9690,
+            9707,
+            9703,
+            9702,
+            9705,
+            9706,
+            9619,
+            9704,
+            9708,
+            9709,
+            9711,
+            9715,
+            9729,
+            9725,
+            9726,
+            9724,
+            9728,
+            9730,
+            9731,
+            9733,
+            9738,
+            9748,
+            9752,
+            9753,
+            9750,
+            9749,
+            9747,
+            9751,
+            9765,
+            9769,
+            9767,
+            9763,
+            9766,
+            9768,
+            9764,
+            9783,
+            9779,
+            9780,
+            9784,
+            9787,
+            9785,
+            9786
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THIS IS NOT COINCIDENTALLY. ONLY THE CHOSEN SOUL",
+          "bbox": [
+            266,
+            689,
+            594,
+            279
+          ],
+          "conf": 0.5,
+          "line_id": 5,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R6",
+      "bbox": [
+        364,
+        958,
+        376,
+        41
+      ],
+      "region_type": "glyph_block",
+      "description": "Line 6, y_center=978.7, glyphs=2, latin=1",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 793,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 6,
+          "bbox": [
+            374,
+            970,
+            50,
+            20
+          ],
+          "size_px": 307,
+          "fill_ratio": 0.307,
+          "n_components": 4,
+          "components": [
+            9791,
+            9793,
+            9794,
+            9792
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 794,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 6,
+          "bbox": [
+            692,
+            968,
+            39,
+            21
+          ],
+          "size_px": 260,
+          "fill_ratio": 0.3175,
+          "n_components": 3,
+          "components": [
+            9789,
+            9790,
+            9788
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "S CAN UNDERSTAND THIS CALCULATION AND THE RELATION BET",
+          "bbox": [
+            364,
+            958,
+            376,
+            41
+          ],
+          "conf": 0.5,
+          "line_id": 6,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R7",
+      "bbox": [
+        188,
+        1030,
+        751,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 7, y_center=1052.5, glyphs=3, latin=1",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 795,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 7,
+          "bbox": [
+            198,
+            1040,
+            41,
+            27
+          ],
+          "size_px": 554,
+          "fill_ratio": 0.5005,
+          "n_components": 2,
+          "components": [
+            9795,
+            9800
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 796,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 7,
+          "bbox": [
+            248,
+            1040,
+            617,
+            27
+          ],
+          "size_px": 5560,
+          "fill_ratio": 0.3338,
+          "n_components": 32,
+          "components": [
+            9796,
+            9812,
+            9822,
+            9816,
+            9820,
+            9801,
+            9814,
+            9824,
+            9813,
+            9798,
+            9797,
+            9799,
+            9815,
+            9804,
+            9831,
+            9811,
+            9805,
+            9809,
+            9823,
+            9802,
+            9803,
+            9808,
+            9810,
+            9817,
+            9819,
+            9825,
+            9826,
+            9827,
+            9818,
+            9821,
+            9806,
+            9807
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 797,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 7,
+          "bbox": [
+            874,
+            1041,
+            56,
+            26
+          ],
+          "size_px": 554,
+          "fill_ratio": 0.3805,
+          "n_components": 4,
+          "components": [
+            9830,
+            9832,
+            9828,
+            9829
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WEEN OUR NAME AND THIS CONSTANTS.",
+          "bbox": [
+            188,
+            1030,
+            751,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 7,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R8",
+      "bbox": [
+        203,
+        1072,
+        734,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 8, y_center=1094.2, glyphs=3, latin=1",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 798,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 8,
+          "bbox": [
+            213,
+            1082,
+            305,
+            27
+          ],
+          "size_px": 3183,
+          "fill_ratio": 0.3865,
+          "n_components": 15,
+          "components": [
+            9844,
+            9834,
+            9838,
+            9835,
+            9839,
+            9840,
+            9841,
+            9833,
+            9837,
+            9843,
+            9845,
+            9846,
+            9836,
+            9842,
+            9847
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 799,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 8,
+          "bbox": [
+            525,
+            1082,
+            217,
+            27
+          ],
+          "size_px": 1909,
+          "fill_ratio": 0.3258,
+          "n_components": 10,
+          "components": [
+            9848,
+            9849,
+            9851,
+            9852,
+            9866,
+            9867,
+            9863,
+            9865,
+            9862,
+            9850
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 800,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 8,
+          "bbox": [
+            742,
+            1082,
+            186,
+            27
+          ],
+          "size_px": 1985,
+          "fill_ratio": 0.3953,
+          "n_components": 11,
+          "components": [
+            9861,
+            9858,
+            9868,
+            9864,
+            9854,
+            9853,
+            9860,
+            9859,
+            9855,
+            9856,
+            9857
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "YOU MUST UNDERSTAND THAT ALL THE SHOWN WAYS OF T",
+          "bbox": [
+            203,
+            1072,
+            734,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 8,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R9",
+      "bbox": [
+        195,
+        1113,
+        743,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 9, y_center=1136.0, glyphs=1, latin=1",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 801,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 9,
+          "bbox": [
+            205,
+            1123,
+            724,
+            27
+          ],
+          "size_px": 6933,
+          "fill_ratio": 0.3547,
+          "n_components": 38,
+          "components": [
+            9890,
+            9878,
+            9896,
+            9887,
+            9875,
+            9882,
+            9872,
+            9905,
+            9876,
+            9893,
+            9870,
+            9869,
+            9880,
+            9881,
+            9884,
+            9891,
+            9894,
+            9873,
+            9877,
+            9879,
+            9883,
+            9885,
+            9886,
+            9899,
+            9892,
+            9895,
+            9874,
+            9871,
+            9906,
+            9888,
+            9897,
+            9901,
+            9898,
+            9903,
+            9900,
+            9904,
+            9889,
+            9902
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "HIS CALCULATIONS ARE UNIQUE WAYS. YOU CANNOT CHANG",
+          "bbox": [
+            195,
+            1113,
+            743,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 9,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R10",
+      "bbox": [
+        198,
+        1155,
+        738,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 10, y_center=1177.4, glyphs=1, latin=1",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 802,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 10,
+          "bbox": [
+            208,
+            1165,
+            719,
+            27
+          ],
+          "size_px": 7113,
+          "fill_ratio": 0.3664,
+          "n_components": 43,
+          "components": [
+            9928,
+            9936,
+            9917,
+            9925,
+            9943,
+            9946,
+            9940,
+            9944,
+            9945,
+            9914,
+            9920,
+            9924,
+            9932,
+            9907,
+            9909,
+            9947,
+            9908,
+            9926,
+            9930,
+            9919,
+            9939,
+            9923,
+            9927,
+            9942,
+            9922,
+            9931,
+            9934,
+            9916,
+            9918,
+            9933,
+            9937,
+            9921,
+            9938,
+            9929,
+            9941,
+            9915,
+            9935,
+            9910,
+            9912,
+            9913,
+            9911,
+            9948,
+            9949
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "E THE VALUES, YOU CANNOT CHANGE THE DIRECTIONS. ANY",
+          "bbox": [
+            198,
+            1155,
+            738,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 10,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R11",
+      "bbox": [
+        186,
+        1196,
+        753,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 11, y_center=1218.9, glyphs=1, latin=1",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 803,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 11,
+          "bbox": [
+            196,
+            1206,
+            734,
+            27
+          ],
+          "size_px": 6857,
+          "fill_ratio": 0.346,
+          "n_components": 37,
+          "components": [
+            9965,
+            9972,
+            9975,
+            9981,
+            9954,
+            9978,
+            9952,
+            9969,
+            9950,
+            9951,
+            9986,
+            9974,
+            9959,
+            9967,
+            9957,
+            9960,
+            9979,
+            9953,
+            9958,
+            9962,
+            9963,
+            9971,
+            9976,
+            9977,
+            9980,
+            9984,
+            9956,
+            9970,
+            9961,
+            9982,
+            9968,
+            9973,
+            9966,
+            9964,
+            9955,
+            9983,
+            9985
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "CHANGE IN THIS CALCULATIONS WILL GIVE DIFFERENT VALU",
+          "bbox": [
+            186,
+            1196,
+            753,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 11,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R12",
+      "bbox": [
+        193,
+        1238,
+        746,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 12, y_center=1260.0, glyphs=1, latin=1",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 804,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 12,
+          "bbox": [
+            203,
+            1248,
+            727,
+            27
+          ],
+          "size_px": 6818,
+          "fill_ratio": 0.3473,
+          "n_components": 39,
+          "components": [
+            10009,
+            10021,
+            10002,
+            10019,
+            10008,
+            10022,
+            10024,
+            10011,
+            10023,
+            9998,
+            10017,
+            9999,
+            9987,
+            9991,
+            9988,
+            9989,
+            10025,
+            9990,
+            10010,
+            10015,
+            9993,
+            10006,
+            9997,
+            10001,
+            10004,
+            10005,
+            10014,
+            10018,
+            10016,
+            10003,
+            10000,
+            10012,
+            10013,
+            10007,
+            9995,
+            9992,
+            10020,
+            9994,
+            9996
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "ES.",
+          "bbox": [
+            193,
+            1238,
+            746,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 12,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R13",
+      "bbox": [
+        200,
+        1279,
+        738,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 13, y_center=1301.4, glyphs=1, latin=1",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 805,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 13,
+          "bbox": [
+            210,
+            1289,
+            719,
+            27
+          ],
+          "size_px": 6871,
+          "fill_ratio": 0.3539,
+          "n_components": 37,
+          "components": [
+            10046,
+            10030,
+            10050,
+            10035,
+            10048,
+            10036,
+            10040,
+            10039,
+            10033,
+            10043,
+            10047,
+            10029,
+            10062,
+            10027,
+            10028,
+            10037,
+            10038,
+            10041,
+            10042,
+            10045,
+            10026,
+            10055,
+            10031,
+            10044,
+            10049,
+            10052,
+            10053,
+            10054,
+            10058,
+            10034,
+            10059,
+            10060,
+            10061,
+            10057,
+            10056,
+            10051,
+            10032
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "YOUR CIVILISATION IS NOW ABLE TO UNDERSTAND THIS",
+          "bbox": [
+            200,
+            1279,
+            738,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 13,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R14",
+      "bbox": [
+        207,
+        1320,
+        731,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 14, y_center=1342.6, glyphs=1, latin=1",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 806,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 14,
+          "bbox": [
+            217,
+            1330,
+            712,
+            28
+          ],
+          "size_px": 6848,
+          "fill_ratio": 0.3435,
+          "n_components": 39,
+          "components": [
+            10088,
+            10070,
+            10073,
+            10092,
+            10068,
+            10095,
+            10098,
+            10099,
+            10074,
+            10075,
+            10076,
+            10071,
+            10093,
+            10072,
+            10083,
+            10063,
+            10080,
+            10084,
+            10090,
+            10077,
+            10100,
+            10067,
+            10085,
+            10086,
+            10097,
+            10064,
+            10087,
+            10096,
+            10082,
+            10089,
+            10065,
+            10066,
+            10091,
+            10078,
+            10079,
+            10081,
+            10094,
+            10069,
+            10101
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "EXACT CALCULATIONS. THIS IS OUR ULTIMATE PROOF. OUR",
+          "bbox": [
+            207,
+            1320,
+            731,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 14,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R15",
+      "bbox": [
+        191,
+        1361,
+        748,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 15, y_center=1384.7, glyphs=2, latin=1",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 807,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 15,
+          "bbox": [
+            201,
+            1372,
+            533,
+            27
+          ],
+          "size_px": 5288,
+          "fill_ratio": 0.3675,
+          "n_components": 27,
+          "components": [
+            10125,
+            10117,
+            10123,
+            10114,
+            10126,
+            10127,
+            10112,
+            10113,
+            10116,
+            10119,
+            10122,
+            10104,
+            10120,
+            10129,
+            10110,
+            10111,
+            10121,
+            10124,
+            10108,
+            10115,
+            10128,
+            10103,
+            10106,
+            10107,
+            10109,
+            10118,
+            10105
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 808,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 15,
+          "bbox": [
+            734,
+            1371,
+            196,
+            28
+          ],
+          "size_px": 2059,
+          "fill_ratio": 0.3752,
+          "n_components": 11,
+          "components": [
+            10133,
+            10137,
+            10138,
+            10130,
+            10102,
+            10135,
+            10131,
+            10134,
+            10136,
+            10132,
+            10139
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NAME IN YOUR HOLY SCRIPTURES IS THE PROOF.",
+          "bbox": [
+            191,
+            1361,
+            748,
+            47
+          ],
+          "conf": 0.5,
+          "line_id": 15,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R16",
+      "bbox": [
+        199,
+        1404,
+        739,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 16, y_center=1425.7, glyphs=1, latin=0",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 809,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 16,
+          "bbox": [
+            209,
+            1414,
+            720,
+            26
+          ],
+          "size_px": 6985,
+          "fill_ratio": 0.3731,
+          "n_components": 40,
+          "components": [
+            10141,
+            10149,
+            10167,
+            10148,
+            10150,
+            10163,
+            10159,
+            10157,
+            10152,
+            10173,
+            10161,
+            10166,
+            10151,
+            10175,
+            10179,
+            10177,
+            10178,
+            10176,
+            10140,
+            10153,
+            10158,
+            10165,
+            10169,
+            10143,
+            10144,
+            10145,
+            10147,
+            10156,
+            10171,
+            10172,
+            10146,
+            10170,
+            10142,
+            10162,
+            10174,
+            10160,
+            10155,
+            10154,
+            10164,
+            10168
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R17",
+      "bbox": [
+        199,
+        1445,
+        738,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=1467.4, glyphs=2, latin=0",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 810,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 17,
+          "bbox": [
+            209,
+            1455,
+            236,
+            27
+          ],
+          "size_px": 2182,
+          "fill_ratio": 0.3424,
+          "n_components": 12,
+          "components": [
+            10184,
+            10181,
+            10186,
+            10182,
+            10190,
+            10215,
+            10185,
+            10189,
+            10180,
+            10187,
+            10188,
+            10183
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 811,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 17,
+          "bbox": [
+            455,
+            1455,
+            473,
+            27
+          ],
+          "size_px": 4732,
+          "fill_ratio": 0.3705,
+          "n_components": 25,
+          "components": [
+            10196,
+            10193,
+            10192,
+            10213,
+            10211,
+            10194,
+            10200,
+            10210,
+            10195,
+            10216,
+            10199,
+            10201,
+            10191,
+            10198,
+            10204,
+            10197,
+            10202,
+            10208,
+            10209,
+            10206,
+            10203,
+            10207,
+            10212,
+            10205,
+            10214
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R18",
+      "bbox": [
+        325,
+        1486,
+        475,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 18, y_center=1508.8, glyphs=3, latin=0",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 812,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 18,
+          "bbox": [
+            335,
+            1496,
+            355,
+            27
+          ],
+          "size_px": 3383,
+          "fill_ratio": 0.3529,
+          "n_components": 19,
+          "components": [
+            10232,
+            10230,
+            10229,
+            10234,
+            10239,
+            10217,
+            10221,
+            10219,
+            10223,
+            10233,
+            10218,
+            10220,
+            10222,
+            10226,
+            10228,
+            10231,
+            10224,
+            10227,
+            10225
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 813,
+          "page": "p16",
+          "page_glyph_id": 2,
+          "cluster_id": null,
+          "line_id": 18,
+          "bbox": [
+            700,
+            1497,
+            37,
+            26
+          ],
+          "size_px": 420,
+          "fill_ratio": 0.4366,
+          "n_components": 1,
+          "components": [
+            10235
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 814,
+          "page": "p16",
+          "page_glyph_id": 3,
+          "cluster_id": null,
+          "line_id": 18,
+          "bbox": [
+            737,
+            1497,
+            54,
+            26
+          ],
+          "size_px": 577,
+          "fill_ratio": 0.411,
+          "n_components": 3,
+          "components": [
+            10236,
+            10238,
+            10237
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R19",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "footer",
+      "description": "Line 19, y_center=1624.0, glyphs=1, latin=0",
+      "lines": [
+        19
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 815,
+          "page": "p16",
+          "page_glyph_id": 1,
+          "cluster_id": null,
+          "line_id": 19,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            10240
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}

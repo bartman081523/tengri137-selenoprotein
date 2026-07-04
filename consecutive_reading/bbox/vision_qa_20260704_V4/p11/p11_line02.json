@@ -1,0 +1,128 @@
+{
+  "page": "p11",
+  "line_id": 2,
+  "line_bbox": [
+    188,
+    290,
+    743,
+    46
+  ],
+  "line_type": "pure_latin_line",
+  "line_description": "A single horizontal line of uppercase Latin text rendered in an angular, runic-style font. The text reads 'N. A COMPLETE SERIES WITHOUT GAPS BETWEEN THE NUMBE' (the final word is the start of 'NUMBERS' and is cut off at the line end). The font is reminiscent of an angular blackletter/runic hand but the underlying characters are Latin capitals.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 9,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "N.",
+      "bbox": [
+        0,
+        5,
+        60,
+        85
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "A",
+      "bbox": [
+        82,
+        5,
+        30,
+        85
+      ],
+      "confidence": 0.9
+    },
+    {
+      "text": "COMPLETE",
+      "bbox": [
+        132,
+        5,
+        215,
+        85
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "SERIES",
+      "bbox": [
+        367,
+        5,
+        165,
+        85
+      ],
+      "confidence": 0.8
+    },
+    {
+      "text": "WITHOUT",
+      "bbox": [
+        552,
+        5,
+        215,
+        85
+      ],
+      "confidence": 0.8
+    },
+    {
+      "text": "GAPS",
+      "bbox": [
+        787,
+        5,
+        110,
+        85
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "BETWEEN",
+      "bbox": [
+        917,
+        5,
+        195,
+        85
+      ],
+      "confidence": 0.8
+    },
+    {
+      "text": "THE",
+      "bbox": [
+        1132,
+        5,
+        85,
+        85
+      ],
+      "confidence": 0.9
+    },
+    {
+      "text": "NUMBE",
+      "bbox": [
+        1237,
+        5,
+        145,
+        85
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "decorative_punctuation_dot",
+      "description": "A small filled circular dot/period between the words 'SERIES' and 'WITHOUT', sitting roughly at mid-line height. It is larger than the period after 'N' and appears to act as a decorative mid-line separator (like a bullet).",
+      "bbox": [
+        495,
+        38,
+        14,
+        14
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: latin -> N. A COMPLETE SERIES WITHOUT GAPS BETWEEN THE NUMBE"
+}

@@ -1,0 +1,159 @@
+{
+  "page": "p06",
+  "line_id": 9,
+  "line_bbox": [
+    350,
+    511,
+    426,
+    156
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Magic rhombus 3x3 grid (slanted parallelogram) containing 9 numbers. Each horizontal row sums to 666. The two outer cells of the top row are empty (rendered with dashed outlines).",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 0,
+  "n_graphics": 5,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "636",
+      "bbox": [
+        168,
+        48,
+        52,
+        22
+      ]
+    },
+    {
+      "value": "24",
+      "bbox": [
+        275,
+        48,
+        32,
+        22
+      ]
+    },
+    {
+      "value": "6",
+      "bbox": [
+        378,
+        48,
+        24,
+        22
+      ]
+    },
+    {
+      "value": "19",
+      "bbox": [
+        178,
+        108,
+        40,
+        22
+      ]
+    },
+    {
+      "value": "1",
+      "bbox": [
+        280,
+        108,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "646",
+      "bbox": [
+        320,
+        108,
+        52,
+        22
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        38,
+        168,
+        32,
+        22
+      ]
+    },
+    {
+      "value": "641",
+      "bbox": [
+        145,
+        168,
+        52,
+        22
+      ]
+    },
+    {
+      "value": "14",
+      "bbox": [
+        245,
+        168,
+        32,
+        22
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "parallelogram_outer_frame",
+      "description": "Solid outline of a slanted parallelogram (top, right, bottom, left edges all solid)",
+      "bbox": [
+        0,
+        18,
+        470,
+        210
+      ]
+    },
+    {
+      "type": "horizontal_internal_lines",
+      "description": "Two horizontal lines dividing the parallelogram into three horizontal rows",
+      "bbox": [
+        0,
+        85,
+        470,
+        2
+      ]
+    },
+    {
+      "type": "diagonal_internal_lines",
+      "description": "Diagonal lines slanting from upper-right to lower-left, dividing the parallelogram into three slanted columns",
+      "bbox": [
+        0,
+        18,
+        470,
+        210
+      ]
+    },
+    {
+      "type": "dashed_cell_top_left",
+      "description": "Dashed outline of the empty top-left cell in the top row (no number)",
+      "bbox": [
+        5,
+        18,
+        90,
+        70
+      ]
+    },
+    {
+      "type": "dashed_cell_top_right",
+      "description": "Dashed outline of the empty top-right cell in the top row (no number)",
+      "bbox": [
+        410,
+        18,
+        60,
+        70
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 9: magic_cube_line -> 8         635      23     (=666)"
+}

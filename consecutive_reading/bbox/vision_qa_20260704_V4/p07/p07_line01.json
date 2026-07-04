@@ -1,0 +1,476 @@
+{
+  "page": "p07",
+  "line_id": 1,
+  "line_bbox": [
+    206,
+    254,
+    732,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus unbekannten geometrischen Glyphen (Runen-/Siegel-ähnlich) mit einem mittigen Punctum; gemäß Hinweis möglicherweise eine 'magic_cube_line' mit verborgenen Zahlen 26, 2, 638 (=666).",
+  "n_glyphs_vision": 25,
+  "n_latin_tokens": 0,
+  "n_numerics": 1,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 11,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          5,
+          50,
+          120
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Person/M-förmige Figur mit zwei nach unten gespreizten Beinen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 370,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        216,
+        265,
+        125,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          5,
+          35,
+          120
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts gekrümmter Bogen, ähnlich ')'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 370,
+      "iou": 0.139,
+      "page_glyph_bbox": [
+        216,
+        265,
+        125,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          5,
+          40,
+          120
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinklige Pfeil-/X-Form mit nach links geöffneten Schenkeln",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 370,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        216,
+        265,
+        125,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          5,
+          35,
+          120
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Halbgeschlossener D-Bogen, nach links geöffnet",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          185,
+          5,
+          35,
+          120
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rautenförmige Figur (Karomuster mit Diagonalen)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          5,
+          35,
+          120
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts gekrümmter Bogen ')'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          5,
+          40,
+          120
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Spitzwinklige X-/Pfeilform",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          5,
+          40,
+          120
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "M-förmige Figur mit zwei Beinen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          5,
+          40,
+          120
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitze Klammer '<'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          480,
+          5,
+          45,
+          120
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Y-/T-förmige Figur mit langem absteigendem Schaft",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          5,
+          50,
+          120
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Komplexe Rune mit Rautenelement und Beinen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          585,
+          5,
+          30,
+          120
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale vertikale 'I'-Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          5,
+          45,
+          120
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "M-förmige Rune mit absteigendem Fuß",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          670,
+          5,
+          50,
+          120
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Komplexe Rune mit Bogenelement",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 371,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        350,
+        264,
+        579,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        725,
+        5,
+        45,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "M-förmige Figur mit zwei Beinen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        775,
+        5,
+        30,
+        120
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmale 'I' mit kleinem Fuß",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        810,
+        5,
+        40,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "X-förmige Kreuzrune",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        855,
+        5,
+        40,
+        120
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitze Klammer '>'",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        900,
+        5,
+        40,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Y-förmige Rune mit absteigendem Bein",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        945,
+        5,
+        40,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "M-förmige Figur",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        990,
+        5,
+        50,
+        120
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Komplexe Rune mit bogenförmigem Element",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1045,
+        5,
+        50,
+        120
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schmale 'I'/'1'-Form",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1100,
+        5,
+        40,
+        120
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitze Klammer '<'",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1145,
+        5,
+        40,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Y-förmige Rune",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1190,
+        5,
+        50,
+        120
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenförmige Figur mit Zentralelement",
+      "confidence": 0.65
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        275,
+        55,
+        15,
+        15
+      ],
+      "note": "Kleines Punctum in der Zeilenmitte; gemäß Hinweis als '2' interpretierbar"
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "26 + 2 + 638 = 666",
+      "bbox": [
+        0,
+        0,
+        1240,
+        130
+      ],
+      "note": "Gemäß Schmeh 2017 Rekonstruktion verborgene numerische Struktur der magic_cube_line"
+    }
+  ],
+  "graphics": [
+    {
+      "type": "punctum",
+      "description": "Isolierter Mittelpunkt/Trenner in Zeilenmitte",
+      "bbox": [
+        273,
+        55,
+        18,
+        18
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: magic_cube_line -> 26         2         638    (=666)"
+}

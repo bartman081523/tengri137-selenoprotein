@@ -1,0 +1,145 @@
+{
+  "page": "p17",
+  "line_id": 16,
+  "line_bbox": [
+    173,
+    1378,
+    669,
+    74
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Zwei-Zeilen-Multiplikation langer ganzer Zahlen mit 'x' als Multiplikationsoperator, getrennt durch eine horizontale Trennlinie. Rechts unten ein kleiner kalligrafischer Fleck/Glyphe.",
+  "n_glyphs_vision": 1,
+  "n_latin_tokens": 3,
+  "n_numerics": 5,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        795,
+        25,
+        45,
+        90
+      ],
+      "visual_kind": "unknown",
+      "description": "Kleiner kalligrafischer Tintenklecks oder stilisiertes Zeichen im unteren rechten Bereich, möglicherweise eine beschädigte Initiale, ein Fleck oder ein dekoratives Element. Form unregelmäßig, dunkel/schwarz, ungefähr tropfenförmig.",
+      "confidence": 0.45
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "x",
+      "bbox": [
+        25,
+        8,
+        12,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "x",
+      "bbox": [
+        102,
+        8,
+        12,
+        22
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "x",
+      "bbox": [
+        25,
+        60,
+        12,
+        22
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        8,
+        8,
+        12,
+        22
+      ]
+    },
+    {
+      "value": "4351757",
+      "bbox": [
+        44,
+        8,
+        55,
+        22
+      ]
+    },
+    {
+      "value": "21485973838025664080646395598811170316033",
+      "bbox": [
+        122,
+        8,
+        615,
+        22
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        8,
+        60,
+        12,
+        22
+      ]
+    },
+    {
+      "value": "187926408429986714056114267608550013734737954283",
+      "bbox": [
+        44,
+        60,
+        700,
+        22
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3 x 4351757 x 21485973838025664080646395598811170316033",
+      "bbox": [
+        8,
+        8,
+        735,
+        22
+      ]
+    },
+    {
+      "raw": "2 x 187926408429986714056114267608550013734737954283",
+      "bbox": [
+        8,
+        60,
+        740,
+        22
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehende horizontale Trennlinie zwischen den beiden Multiplikationszeilen, vermutlich ein Bruchstrich oder Trennstrich. Erstreckt sich über nahezu die gesamte Zeilenbreite.",
+      "bbox": [
+        0,
+        42,
+        760,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> RI IS CAPABLE TO DO THIS."
+}

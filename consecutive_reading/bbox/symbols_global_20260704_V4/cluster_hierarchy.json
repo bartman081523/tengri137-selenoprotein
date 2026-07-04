@@ -1,0 +1,501 @@
+{
+  "medium_parents": {
+    "GEOM_MEDIUM_MATH_TIMES_0018": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 294,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 189,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_PUNCTUM_0013": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 93,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_MATH_TIMES_0017": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 85,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0003": {
+      "parent_cluster_id": "GEOM_COARSE_UNKNOWN_0001",
+      "overlap_count": 58,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0002": {
+      "parent_cluster_id": "GEOM_COARSE_UNKNOWN_0001",
+      "overlap_count": 53,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 37,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 35,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0005": {
+      "parent_cluster_id": "GEOM_COARSE_UNKNOWN_0001",
+      "overlap_count": 32,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0012": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 23,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_OTHER_0011": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 16,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0024": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 15,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_OTHER_0021": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 15,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_OTHER_0015": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 13,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_MATH_TIMES_0016": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 7,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0004": {
+      "parent_cluster_id": "GEOM_COARSE_UNKNOWN_0001",
+      "overlap_count": 6,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0014": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 5,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_LINE_0020": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 5,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0023": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 4,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0006": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0001": {
+      "parent_cluster_id": "GEOM_COARSE_UNKNOWN_0001",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0007": {
+      "parent_cluster_id": "GEOM_COARSE_GEOMETRIC_CIRCLE_WIT_0002",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_UNKNOWN_0019": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_MEDIUM_SINGLETON_0022": {
+      "parent_cluster_id": "GEOM_COARSE_MATH_TIMES_0003",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    }
+  },
+  "fine_parents": {
+    "GEOM_FINE_FACE_CIRCLE_THREE_DO_0057": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 110,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_DIAMOND_0052": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+      "overlap_count": 69,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_CIRCLE_WIT_0022": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+      "overlap_count": 62,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_BRACKET_0060": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 60,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_PUNCTUM_0058": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 48,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_LINE_0020": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+      "overlap_count": 45,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0019": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+      "overlap_count": 41,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_PUNCTUM_0040": {
+      "parent_cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+      "overlap_count": 37,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0004": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+      "overlap_count": 36,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_MATH_EXPONENTIATION_0061": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 34,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_MATH_TIMES_0059": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 33,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0008": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+      "overlap_count": 30,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_FACE_CIRCLE_THREE_DO_0041": {
+      "parent_cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+      "overlap_count": 29,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_DIAMOND_WI_0021": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+      "overlap_count": 27,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_PUNCTUM_0042": {
+      "parent_cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+      "overlap_count": 27,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0014": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+      "overlap_count": 25,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0039": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+      "overlap_count": 23,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0007": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+      "overlap_count": 20,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0003": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+      "overlap_count": 14,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_OTHER_0066": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0021",
+      "overlap_count": 13,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_BRACKET_0017": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+      "overlap_count": 11,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0030": {
+      "parent_cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+      "overlap_count": 10,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_TURKIC_ROUND_RUNE_0031": {
+      "parent_cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+      "overlap_count": 9,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0072": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0024",
+      "overlap_count": 9,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0033": {
+      "parent_cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+      "overlap_count": 9,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0028": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 8,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_CIRCLE_WIT_0029": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 8,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_MATH_TIMES_0053": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+      "overlap_count": 8,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0035": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0011",
+      "overlap_count": 8,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_OTHER_0062": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 7,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0032": {
+      "parent_cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+      "overlap_count": 7,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_MATH_TIMES_0054": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+      "overlap_count": 7,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0027": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 7,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_MATH_TIMES_0050": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+      "overlap_count": 6,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0023": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 5,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_OTHER_0046": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0015",
+      "overlap_count": 5,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0005": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+      "overlap_count": 4,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0006": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+      "overlap_count": 4,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0036": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0011",
+      "overlap_count": 4,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0026": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 4,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0010": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+      "overlap_count": 4,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0073": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0024",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0070": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0023",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0043": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0014",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0011": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_TURKIC_ROUND_RUNE_0025": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0015": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0006",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0001": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0001",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_GEOMETRIC_BRACKET_0018": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0047": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0015",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0002": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0002",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0016": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0007",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_LINE_0065": {
+      "parent_cluster_id": "GEOM_MEDIUM_LINE_0020",
+      "overlap_count": 3,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_OTHER_0048": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0015",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0044": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0014",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0024": {
+      "parent_cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0074": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0024",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0009": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0063": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0019",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0013": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0045": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0015",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0012": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0034": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0011",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0064": {
+      "parent_cluster_id": "GEOM_MEDIUM_LINE_0020",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_UNKNOWN_0056": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+      "overlap_count": 2,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0068": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0021",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0038": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0011",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0067": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0021",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_OTHER_0037": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0011",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0071": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0023",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0075": {
+      "parent_cluster_id": "GEOM_MEDIUM_UNKNOWN_0024",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0049": {
+      "parent_cluster_id": "GEOM_MEDIUM_OTHER_0015",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0055": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_OTHER_0051": {
+      "parent_cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    },
+    "GEOM_FINE_SINGLETON_0069": {
+      "parent_cluster_id": "GEOM_MEDIUM_SINGLETON_0022",
+      "overlap_count": 1,
+      "overlap_ratio": 1.0
+    }
+  }
+}

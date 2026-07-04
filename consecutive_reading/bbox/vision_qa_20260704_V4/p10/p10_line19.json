@@ -1,0 +1,358 @@
+{
+  "page": "p10",
+  "line_id": 19,
+  "line_bbox": [
+    290,
+    1173,
+    555,
+    47
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile in unbekannter (möglicherweise alt-turkischer/runischer) Schrift, durchsetzt mit lateinischen Großbuchstaben H und D. Verschiedene geometrische Glyphen dominieren visuell.",
+  "n_glyphs_vision": 19,
+  "n_latin_tokens": 2,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 10,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          18,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei vertikale Striche mit Querbalken, ähnelt lateinischem H",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 511,
+      "iou": 0.13,
+      "page_glyph_bbox": [
+        300,
+        1184,
+        100,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          22,
+          32,
+          50
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Winkelartiges/runeähnliches Zeichen mit zwei Schenkeln",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 512,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        410,
+        1183,
+        263,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          25,
+          30,
+          45
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Chevron-/Pfeil-nach-rechts-ähnliche Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 512,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        410,
+        1183,
+        263,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          22,
+          38,
+          50
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 512,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        410,
+        1183,
+        263,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          18,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppelstrich-Glyph mit Querbalken (runeähnlich)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 512,
+      "iou": 0.182,
+      "page_glyph_bbox": [
+        410,
+        1183,
+        263,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          22,
+          32,
+          50
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Winkelförmiges Glyph ähnlich früherem Chevron",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 512,
+      "iou": 0.16,
+      "page_glyph_bbox": [
+        410,
+        1183,
+        263,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          18,
+          40,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Großes D-/Bogen-förmiges Glyph (lateinisch D? oder Rune)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 513,
+      "iou": 0.235,
+      "page_glyph_bbox": [
+        684,
+        1184,
+        39,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          20,
+          32,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei Vertikalen mit Schräg-Querung",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 514,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        732,
+        1183,
+        104,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          20,
+          30,
+          50
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Spitzwinkliges Glyph",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 514,
+      "iou": 0.18,
+      "page_glyph_bbox": [
+        732,
+        1183,
+        104,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          535,
+          18,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Doppelstrich-Glyph",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 514,
+      "iou": 0.057,
+      "page_glyph_bbox": [
+        732,
+        1183,
+        104,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        35,
+        8,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner Punkt/Punktuierung am Zeilenanfang",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        580,
+        18,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelstrich-Glyph mit Querbalken",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        625,
+        18,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelstrich-Glyph, ähnlich H",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        670,
+        22,
+        35,
+        48
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Kreis/oval mit zentralem Punkt",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        715,
+        18,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Rune-Glyph",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        760,
+        22,
+        30,
+        48
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Winkelförmiges Glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        800,
+        20,
+        32,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelstrich-Glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        840,
+        22,
+        35,
+        48
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "X-/Kreuz-förmiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        880,
+        20,
+        32,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelstrich-Glyph am Zeilenende",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "H",
+      "bbox": [
+        85,
+        18,
+        35,
+        55
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "D",
+      "bbox": [
+        385,
+        18,
+        40,
+        55
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Schmeh has 10 lines for this page"
+}

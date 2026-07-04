@@ -1,0 +1,500 @@
+{
+  "page": "p11",
+  "line_id": 16,
+  "line_bbox": [
+    198,
+    955,
+    740,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Durchgehende Reihe von ca. 33 unbekannten geometrischen Sigill-Glyphen, vermutlich 4×4-Magic-Square-Notation im Stil von Wotan-Sigillen. Keine lateinischen Wörter, Zahlen oder Formeln sichtbar; letztes Zeichen ist ein Kreis mit drei Punkten (Gesichtsmotiv).",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 12,
+  "n_unmatched_vision_glyphs": 19,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          18,
+          42,
+          110
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-ähnliches oder 4-förmiges Zeichen: vertikaler Schaft mit kurzer oberer und mittlerer Querlinie, serifenartig verdickt (linker Auftakt).",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.069,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          20,
+          40,
+          108
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Γ-förmiges Zeichen: obere Horizontale mit absteigender rechter Vertikale, serifenartige Endpunkte.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.083,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          82,
+          22,
+          40,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y- oder gabelförmiges Zeichen: zwei auseinanderlaufende Schäfte oben, gemeinsamer Stamm unten.",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          122,
+          18,
+          36,
+          110
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Aufwärts-Pfeil / nach oben offener Winkel mit kurzem vertikalem Schaft, serifenartig.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.091,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          158,
+          22,
+          40,
+          106
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "A-förmiges Zeichen: dreieckige Form mit Querbalken, serifenartige Füße.",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          234,
+          22,
+          42,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Zeichen: zwei parallele Vertikalen mit mittlerer Querverbindung, serifenartige Enden.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          276,
+          22,
+          40,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-/Gabel-Zeichen, ähnlich Position 3.",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 555,
+      "iou": 0.07,
+      "page_glyph_bbox": [
+        208,
+        965,
+        303,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          388,
+          22,
+          34,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schlanker Vertikalstrich / '1'-förmiges Zeichen mit oberer Serife.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 556,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        511,
+        965,
+        418,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          458,
+          22,
+          40,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J- oder hakenförmiges Zeichen: Vertikale mit unten links gebogenem Fuß.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 556,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        511,
+        965,
+        418,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          498,
+          22,
+          40,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E- oder dreizackförmiges Zeichen: vertikale Spindel mit drei nach rechts weisenden Zinken oben/mittig/unten.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 556,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        511,
+        965,
+        418,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          538,
+          26,
+          42,
+          102
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Zeichen (gekreuzte Diagonalen), serifenartig verdickt.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 556,
+      "iou": 0.059,
+      "page_glyph_bbox": [
+        511,
+        965,
+        418,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          580,
+          22,
+          40,
+          106
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-/Gabel-Zeichen, identische Form wie Position 3 und 8.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 556,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        511,
+        965,
+        418,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        198,
+        30,
+        36,
+        96
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfaches nach rechts offenes Winkelzeichen (Chevron >).",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        316,
+        30,
+        72,
+        96
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppel-Chevron (>>) – zwei unmittelbar aufeinanderfolgende nach rechts offene Winkel.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        422,
+        30,
+        36,
+        96
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfaches nach rechts offenes Winkelzeichen (>).",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        620,
+        30,
+        44,
+        96
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen (◊) mit deutlichem zentralem Punkt/Loch.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        664,
+        30,
+        36,
+        96
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfaches nach rechts offenes Winkelzeichen (>).",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        700,
+        26,
+        42,
+        100
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Umgekehrtes C / Ɔ-förmiges Zeichen, Öffnung nach rechts.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        742,
+        22,
+        42,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "F-förmiges Zeichen: Vertikale mit zwei kurzen oberen/mittleren Querbalken nach rechts, serifenartig.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        784,
+        22,
+        42,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen, ähnlich Position 7.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        826,
+        22,
+        40,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-/Gabel-Zeichen.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        866,
+        22,
+        34,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schlanker Vertikalstrich ('1').",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        900,
+        22,
+        40,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-/Haken-Zeichen, ähnlich Position 12.",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        940,
+        22,
+        42,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Umgekehrtes E / Ǝ-förmiges Zeichen: Vertikale rechts mit drei nach links weisenden Zinken.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        982,
+        22,
+        42,
+        106
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "A-förmiges Zeichen mit Serifen, ähnlich Position 5.",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1024,
+        22,
+        34,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schlanker Vertikalstrich ('1').",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1058,
+        30,
+        44,
+        96
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt, identisch zu Position 16.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1102,
+        22,
+        42,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1144,
+        22,
+        34,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schlanker Vertikalstrich ('1').",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1178,
+        22,
+        40,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-/Haken-Zeichen.",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1218,
+        22,
+        30,
+        106
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Sehr kurze vertikale Spindel, möglicherweise Fragment / Spatium-Marker.",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "circular_sigil",
+      "description": "Kreis mit drei schwarzen Punkten im Inneren (Dreiecksanordnung: zwei oben, einer unten) – ein 'Gesichts'-Motiv / Abschluss-Sigil am Zeilenende.",
+      "bbox": [
+        1200,
+        30,
+        48,
+        96
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: formula -> (Wotan). In this puzzle the sigil is composed of six 4×4 magic"
+}

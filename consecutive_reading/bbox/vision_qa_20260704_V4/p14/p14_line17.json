@@ -1,0 +1,487 @@
+{
+  "page": "p14",
+  "line_id": 17,
+  "line_bbox": [
+    198,
+    1238,
+    742,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus geometrisch-eckigen, runenartigen Glyphen, gruppiert in Wortblöcke durch kleine Abstände. Keine lateinischen Buchstaben, keine Zahlen erkennbar.",
+  "n_glyphs_vision": 29,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          50,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Geöffneter Winkel / Chevron nach links geöffnet, ähnlich '>' oder Pfeilspitze",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 719,
+      "iou": 0.112,
+      "page_glyph_bbox": [
+        208,
+        1248,
+        253,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          0,
+          35,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Haken-/J-Form, vertikaler Strich mit Bogen unten links",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 719,
+      "iou": 0.14,
+      "page_glyph_bbox": [
+        208,
+        1248,
+        253,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          0,
+          45,
+          100
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "U-förmige offene Schale, abgerundeter Boden",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 719,
+      "iou": 0.14,
+      "page_glyph_bbox": [
+        208,
+        1248,
+        253,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          0,
+          70,
+          100
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei Punkten innen (Gesichtsmotiv: zwei Augen + Mund)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 719,
+      "iou": 0.162,
+      "page_glyph_bbox": [
+        208,
+        1248,
+        253,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          220,
+          0,
+          45,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Zwei parallele vertikale Striche mit kurzem Querbalken oben, ähnlich 'Y' oder 'Π'",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 719,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        208,
+        1248,
+        253,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          270,
+          0,
+          30,
+          100
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 720,
+      "iou": 0.183,
+      "page_glyph_bbox": [
+        468,
+        1249,
+        83,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          0,
+          40,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Gamma- oder L-förmiger Haken mit Querbalken oben",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 720,
+      "iou": 0.209,
+      "page_glyph_bbox": [
+        468,
+        1249,
+        83,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          350,
+          0,
+          50,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Kreuz aus zwei sich schneidenden Diagonalen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 721,
+      "iou": 0.103,
+      "page_glyph_bbox": [
+        560,
+        1249,
+        241,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          0,
+          35,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Haken-/J-Form, vertikaler Strich mit Bogen unten",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 721,
+      "iou": 0.135,
+      "page_glyph_bbox": [
+        560,
+        1249,
+        241,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          460,
+          0,
+          55,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Zwei vertikal gestapelte kleine Kreise/Ringe, '8'-artig",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 721,
+      "iou": 0.141,
+      "page_glyph_bbox": [
+        560,
+        1249,
+        241,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          0,
+          55,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "E-förmiges Zeichen mit drei waagerechten Strichen und Vertikalbalken, oberer Arm endet in kurzem Haken",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 721,
+      "iou": 0.141,
+      "page_glyph_bbox": [
+        560,
+        1249,
+        241,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          0,
+          45,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Y-ähnliches Zeichen mit Gabelung oben",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 722,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        811,
+        1249,
+        120,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          0,
+          45,
+          100
+        ],
+        "visual_kind": "other",
+        "description": "Y-ähnliches Zeichen, Wiederholung",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 722,
+      "iou": 0.186,
+      "page_glyph_bbox": [
+        811,
+        1249,
+        120,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          695,
+          0,
+          30,
+          100
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 722,
+      "iou": 0.149,
+      "page_glyph_bbox": [
+        811,
+        1249,
+        120,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        730,
+        0,
+        65,
+        100
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmige Figur in einem Rahmen, innen liegendes Viereck mit Punkt/Auge",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        810,
+        0,
+        45,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Y-ähnliches Gabelzeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        860,
+        0,
+        35,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Haken/J-Form, oben offener Bogen mit vertikalem Strich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        900,
+        0,
+        40,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmiges Gabelzeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        945,
+        0,
+        40,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "h-ähnliches Zeichen mit kurzem Vertikalstrich und Bogen rechts",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        990,
+        0,
+        25,
+        100
+      ],
+      "visual_kind": "line",
+      "description": "Kurzer vertikaler Strich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1020,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Haken/J-Form, kompakt",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1070,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "line",
+      "description": "Dünner vertikaler Strich",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1105,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Haken/J-Form",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1140,
+        0,
+        40,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit zwei Vertikalstrichen und Querbalken",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1200,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "H-ähnliches Zeichen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1235,
+        0,
+        45,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "T- oder pfeilartiges Zeichen mit kurzem vertikalem Strich und kurzem Querbalken oben",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1285,
+        0,
+        30,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "Haken/J-Form",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1320,
+        0,
+        40,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1365,
+        0,
+        50,
+        100
+      ],
+      "visual_kind": "other",
+      "description": "A-förmiges Zeichen mit zwei schrägen Strichen und Querbalken",
+      "confidence": 0.8
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 17: latin -> NS. YOU LEARNED THIS. THINK ABOUT WHY WE NOT AL"
+}

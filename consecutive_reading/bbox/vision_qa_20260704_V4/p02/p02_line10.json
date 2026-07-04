@@ -1,0 +1,486 @@
+{
+  "page": "p02",
+  "line_id": 10,
+  "line_bbox": [
+    200,
+    730,
+    739,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile aus einem Manuskript mit unbekannter, eckig-geometrischer Schrift. Die Glyphen wirken stark stilisiert (X-, Y-, H-, J-Formen, Rauten, Kreise mit Punkt), ohne klar lesbare lateinische Buchstaben.",
+  "n_glyphs_vision": 28,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 13,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          45,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Zeichen, zwei sich kreuzende Diagonalen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 40,
+      "iou": 0.179,
+      "page_glyph_bbox": [
+        210,
+        741,
+        125,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          10,
+          40,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen, oben gegabelt mit langem absteigendem Schaft",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 40,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        210,
+        741,
+        125,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach rechts zeigendes Chevron/Ypsilon",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          10,
+          40,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiges Zeichen mit drei horizontalen Anstrichen an vertikalem Schaft",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.137,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Hakenförmiges Zeichen, oben offen, unten geschwungen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          15,
+          40,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts-h-förmiges Zeichen, vertikaler Schaft mit Bogen nach rechts oben",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          330,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Hakenförmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          375,
+          15,
+          40,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts-h-ähnliches Zeichen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rechts zeigendes Chevron, nach rechts geöffneter Winkel",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          460,
+          10,
+          40,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.137,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Hakenförmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          545,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Hakenförmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          10,
+          40,
+          95
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.137,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          20,
+          35,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken-/Spielkartenherz-ähnliches Zeichen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.094,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J-/Hakenförmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 41,
+      "iou": 0.117,
+      "page_glyph_bbox": [
+        345,
+        740,
+        585,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        110,
+        25,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute mit zentralem Punkt",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        720,
+        10,
+        45,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen, zwei vertikale Schäfte mit Querbalken",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        770,
+        10,
+        45,
+        95
+      ],
+      "visual_kind": "punctum",
+      "description": "Komma-/Apostroph-artiges Zeichen gefolgt von Y-Form",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        820,
+        10,
+        40,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        865,
+        10,
+        40,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        910,
+        20,
+        35,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Haken-/C-förmiges Zeichen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        955,
+        15,
+        45,
+        90
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis-/Schneckenförmiges Zeichen mit eingedrehtem Inneren",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1005,
+        15,
+        45,
+        90
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Schnecken-/Spiral-förmiges Zeichen",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1055,
+        20,
+        40,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Dreieck-/Deltaförmiges Zeichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1100,
+        15,
+        40,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei parallele vertikale Striche",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1145,
+        10,
+        45,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-förmiges Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1195,
+        10,
+        45,
+        95
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-förmiges Zeichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1245,
+        20,
+        45,
+        80
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Kreis mit zentralem Punkt",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 10: latin -> WHO IS SMART ENOUGH CAN RECOGNIZE THE KNOWLED"
+}

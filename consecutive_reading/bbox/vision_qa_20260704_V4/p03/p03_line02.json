@@ -1,0 +1,619 @@
+{
+  "page": "p03",
+  "line_id": 2,
+  "line_bbox": [
+    193,
+    290,
+    746,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 30–37 angularen, runisch wirkenden Glyphen einer unbekannten Schrift. Sichtbar sind zwei Punkt-Trenner (Punctum) und eine eingebettete Rauten-/Diamantform in der mittleren Zeilenhälfte. Keine lateinischen Buchstaben erkennbar.",
+  "n_glyphs_vision": 30,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 24,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Angular vertical stroke with hooked base, resembles inverted 'J' or rune ᛁ variant",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          10,
+          28,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Similar hooked vertical glyph, mirrored or repeated form",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          72,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Upward stem with horizontal top bar (T-like or rune ᛏ-like)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          104,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Hooked vertical glyph, similar to first two",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          136,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Right-pointing angular chevron, >-shape",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          35,
+          8,
+          8
+        ],
+        "visual_kind": "punctum",
+        "description": "Small square/dot separator",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.062,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          185,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Angular glyph resembling a '4' or rune with vertical stem and horizontal mid-bar",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          217,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Hooked J-like vertical glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          249,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Gamma/L-shape glyph, vertical with horizontal foot extending right",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          281,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Right-pointing chevron, >-shape",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          313,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Hooked vertical glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "X-like or hourglass glyph with crossing diagonals",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          377,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Complex glyph with vertical stem and lateral bars (Y or H variant)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          409,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Y-shaped or trident glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          441,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "X-shaped glyph with crossing strokes",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          473,
+          20,
+          24,
+          36
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Clear diamond/rhombus outline shape with hollow center, embedded mid-line",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.222,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Right-pointing chevron with stem, >-like",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          532,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "L-shaped or hooked glyph",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          564,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Hooked vertical glyph, J-mirror form",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          596,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "h-like or n-like glyph with arch",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          628,
+          35,
+          8,
+          8
+        ],
+        "visual_kind": "punctum",
+        "description": "Small square/dot separator, second of two",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.062,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          643,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Y or trident glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "Hooked vertical glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          707,
+          10,
+          30,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "X-shaped glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 65,
+      "iou": 0.217,
+      "page_glyph_bbox": [
+        203,
+        300,
+        727,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        739,
+        10,
+        30,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Y or trident glyph, similar to position 21",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        771,
+        10,
+        30,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Hooked glyph with extended foot, J-mirror variant",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        803,
+        10,
+        30,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "X-shaped crossing glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        835,
+        10,
+        30,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Y/trident glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        867,
+        10,
+        30,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Trident or Y-shape with central vertical",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        899,
+        10,
+        30,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "Final glyph, angular hooked form",
+      "confidence": 0.45
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "baseline_implicit",
+      "description": "Implicit horizontal baseline along which the angular glyphs are aligned; no visible ruling line, but glyph bases sit on a common y-coordinate",
+      "bbox": [
+        0,
+        70,
+        1000,
+        4
+      ]
+    },
+    {
+      "type": "embedded_diamond",
+      "description": "A rhombus/diamond outline glyph visually distinct from the surrounding angular runic characters, positioned approximately mid-line",
+      "bbox": [
+        473,
+        20,
+        24,
+        36
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: latin -> LEDGE. THE KNOWLEDGE COMES FROM AFAR. ONLY REA"
+}

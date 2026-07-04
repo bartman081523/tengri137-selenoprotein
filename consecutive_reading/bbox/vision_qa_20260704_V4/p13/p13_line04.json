@@ -1,0 +1,557 @@
+{
+  "page": "p13",
+  "line_id": 4,
+  "line_bbox": [
+    186,
+    698,
+    752,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Durchgehende Zeile aus unbekannter geometrisch-runenartiger Schrift. Keine lateinischen Wörter, Ziffern oder Formeln erkennbar. Mehrere rhombenförmige Sonderzeichen und ein zentrales Punctum.",
+  "n_glyphs_vision": 28,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 20,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          15,
+          50,
+          90
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Großes Rhombus-/Diamantzeichen mit zentralem Punkt (ausgefüllt)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 635,
+      "iou": 0.13,
+      "page_glyph_bbox": [
+        196,
+        708,
+        188,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rune in Form einer nach links offenen eckigen Klammer",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 635,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        196,
+        708,
+        188,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          15,
+          40,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Epsilon-/Drei-artiges Symbol mit zwei gebogenen Querstrichen nach links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 635,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        196,
+        708,
+        188,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          135,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Kleines Rautenzeichen ohne Mittelpunkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 635,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        196,
+        708,
+        188,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Gebogenes/rundes Rune, ähnelt liegendem 'C' oder Komma",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 635,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        196,
+        708,
+        188,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "H-förmige Rune mit zwei vertikalen Strichen und Querbalken (Runen-Stil, nicht lateinisch)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.073,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Einfache vertikale Rune, leicht gebogen (J-ähnlich, aber nicht lateinisch)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Einfache vertikale Rune (I-ähnlich, aber als Runenstrich stilisiert)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "V- oder Y-förmige Rune mit gegabeltem oberem Ende",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmige Rune mit kurzem Stamm",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          15,
+          30,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Einfache vertikale Rune (1-ähnlich)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          15,
+          40,
+          90
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Diamant/Rhombus mit zentralem Punkt (mittleres Sonderzeichen)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          15,
+          40,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Doppeltes Chevon-/'>>'-artiges Symbol mit zwei nach rechts offenen Winkeln",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          15,
+          45,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Doppelbogen-Symbol (DD-ähnlich, aber als Rune stilisiert)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Rune mit gebogenem Mittelteil, ähnelt auf dem Kopf stehendem 'h'",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Rune mit kurzem Querstrich oben",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Doppelstrich-Rune, ähnelt 'II' oder 'll'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Einfache vertikale Rune",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          670,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Rune mit gebogenem/gespaltenem oberem Element",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          705,
+          15,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Rune mit kleinem Querstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 636,
+      "iou": 0.122,
+      "page_glyph_bbox": [
+        393,
+        708,
+        536,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        505,
+        40,
+        15,
+        30
+      ],
+      "visual_kind": "punctum",
+      "description": "Mittiges Punctum/Punkt (Trennzeichen zwischen zwei Wortgruppen)",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        745,
+        15,
+        35,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "H-förmige Rune mit Serifen, größer als vorherige H-Variante",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        780,
+        15,
+        35,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Rune mit doppeltem Winkel/Cheveron nach rechts",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        815,
+        15,
+        35,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Rune mit zwei gegabelten unteren Elementen",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        850,
+        15,
+        35,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Y- oder gabelförmige Rune",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        895,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Einfache vertikale Rune (I- oder 1-ähnlich)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        930,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Einfache vertikale Rune (I- oder 1-ähnlich)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        965,
+        15,
+        30,
+        90
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Schließende Rauten-/Diamantform am Zeilenende (ohne sichtbaren Punkt)",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "decorative_diamond_markers",
+      "description": "Drei rhombenförmige Sonderzeichen (zwei mit zentralem Punkt, eines am Zeilenende ohne Punkt) fungieren als grafische Marker/Trenner",
+      "bbox": [
+        10,
+        15,
+        50,
+        90
+      ]
+    },
+    {
+      "type": "central_punctum",
+      "description": "Kleiner Punkt in der Bildmitte als Wort-/Phrasentrenner",
+      "bbox": [
+        505,
+        40,
+        15,
+        30
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 4: latin -> PER. ALL OTHERS THEY GET THE HELP OF OTHERS, WILL FAIL"
+}

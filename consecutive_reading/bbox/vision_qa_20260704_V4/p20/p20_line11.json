@@ -1,0 +1,179 @@
+{
+  "page": "p20",
+  "line_id": 11,
+  "line_bbox": [
+    173,
+    763,
+    769,
+    520
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Mathematical prime factorizations (with 'x' as multiplication operator, including some superscript exponents) on the left side; large dark, organic, irregular silhouettes resembling stylized humanoid/figure-like shapes on the right side. No Latin words detected.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 0,
+  "n_numerics": 11,
+  "n_formulas": 2,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        800,
+        30,
+        110,
+        660
+      ],
+      "visual_kind": "other",
+      "description": "Large dark vertical shape with a pointed/tapered top, irregular jagged outline, resembling a stylized humanoid silhouette or organic figure; spans nearly the full height of the line",
+      "confidence": 0.35
+    },
+    {
+      "bbox": [
+        915,
+        80,
+        55,
+        580
+      ],
+      "visual_kind": "unknown",
+      "description": "Smaller dark vertical shape, similar style to the larger figure, possibly a secondary silhouette or fragment",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        980,
+        200,
+        25,
+        350
+      ],
+      "visual_kind": "unknown",
+      "description": "Small dark irregular blob, fragment or smallest figure element on the far right",
+      "confidence": 0.25
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        0,
+        0,
+        18,
+        25
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        30,
+        0,
+        30,
+        25
+      ]
+    },
+    {
+      "value": "83",
+      "bbox": [
+        70,
+        0,
+        30,
+        25
+      ]
+    },
+    {
+      "value": "563",
+      "bbox": [
+        110,
+        0,
+        40,
+        25
+      ]
+    },
+    {
+      "value": "619",
+      "bbox": [
+        160,
+        0,
+        40,
+        25
+      ]
+    },
+    {
+      "value": "9391883",
+      "bbox": [
+        210,
+        0,
+        80,
+        25
+      ]
+    },
+    {
+      "value": "854182925753",
+      "bbox": [
+        300,
+        0,
+        145,
+        25
+      ]
+    },
+    {
+      "value": "631",
+      "bbox": [
+        0,
+        40,
+        35,
+        25
+      ]
+    },
+    {
+      "value": "952363",
+      "bbox": [
+        45,
+        40,
+        70,
+        25
+      ]
+    },
+    {
+      "value": "11830363",
+      "bbox": [
+        125,
+        40,
+        95,
+        25
+      ]
+    },
+    {
+      "value": "1486991193763",
+      "bbox": [
+        230,
+        40,
+        145,
+        25
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2 x 17 x 83 x 563 x 619 x 9391883 x 854182925753",
+      "bbox": [
+        0,
+        0,
+        450,
+        30
+      ]
+    },
+    {
+      "raw": "631 x 952363 x 11830363 x 1486991193763",
+      "bbox": [
+        0,
+        35,
+        380,
+        30
+      ]
+    }
+  ],
+  "graphics": [],
+  "schmeh_hint": "Line 11: latin -> YOU SHOULD KNOW THAT GOD DOES NOT EXIST"
+}

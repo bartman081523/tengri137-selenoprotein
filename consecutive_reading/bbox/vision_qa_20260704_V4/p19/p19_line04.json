@@ -1,0 +1,237 @@
+{
+  "page": "p19",
+  "line_id": 4,
+  "line_bbox": [
+    173,
+    440,
+    333,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematical fraction (Zähler über Nenner): 51637 × 1579057038864411599 geteilt durch 2² × 3 × 5 × 31 × 37 × 1255549 × 6955146255349. Darstellung einer Faktorisierungs- bzw. Quotientenbeziehung.",
+  "n_glyphs_vision": 8,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 7,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          9,
+          11,
+          15
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (klein, italic, wie x/×)",
+        "unicode_codepoint_candidate": "U+00D7",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 867,
+      "iou": 0.467,
+      "page_glyph_bbox": [
+        183,
+        450,
+        314,
+        39
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        22,
+        50,
+        9,
+        8
+      ],
+      "visual_kind": "math_exponentiation",
+      "description": "Hochgestellte 2 (Exponent)",
+      "unicode_codepoint_candidate": "U+00B2",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        38,
+        53,
+        11,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        67,
+        53,
+        11,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        96,
+        53,
+        11,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        133,
+        53,
+        11,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        164,
+        53,
+        11,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        233,
+        53,
+        11,
+        15
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen",
+      "unicode_codepoint_candidate": "U+00D7",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "51637",
+      "bbox": [
+        7,
+        7,
+        38,
+        18
+      ]
+    },
+    {
+      "value": "1579057038864411599",
+      "bbox": [
+        64,
+        7,
+        142,
+        18
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        12,
+        53,
+        9,
+        13
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        55,
+        53,
+        9,
+        13
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        84,
+        53,
+        9,
+        13
+      ]
+    },
+    {
+      "value": "31",
+      "bbox": [
+        113,
+        53,
+        18,
+        13
+      ]
+    },
+    {
+      "value": "37",
+      "bbox": [
+        150,
+        53,
+        18,
+        13
+      ]
+    },
+    {
+      "value": "1255549",
+      "bbox": [
+        180,
+        53,
+        49,
+        13
+      ]
+    },
+    {
+      "value": "6955146255349",
+      "bbox": [
+        248,
+        53,
+        92,
+        13
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "51637 × 1579057038864411599 / 2² × 3 × 5 × 31 × 37 × 1255549 × 6955146255349",
+      "bbox": [
+        0,
+        0,
+        345,
+        72
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Vinculum (Bruchstrich) — durchgezogene horizontale Linie, die Zähler und Nenner trennt",
+      "bbox": [
+        0,
+        30,
+        345,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 4: latin -> WE ARE THE DESIGNERS OF MANY CIVILISATIONS"
+}

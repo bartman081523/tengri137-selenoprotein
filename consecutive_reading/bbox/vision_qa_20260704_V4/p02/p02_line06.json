@@ -1,0 +1,571 @@
+{
+  "page": "p02",
+  "line_id": 6,
+  "line_bbox": [
+    186,
+    489,
+    752,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile aus unbekannter angularer geometrischer Schrift mit Punkt-Interpunktion und chevron-förmigen Elementen. Die Glyphen ähneln stilisierten lateinischen Großbuchstaben (D, N, X, M, H, I, E). Schmeh-2017-Hinweis deutet auf möglichen Inhalt 'D NUMBERS. USE YOUR KNOWLEDGE. USE YOUR MIND. N', dies ist jedoch unbewiesen und nicht visuell verifizierbar.",
+  "n_glyphs_vision": 33,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          4,
+          12,
+          28,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "D-Form, Halbkreis nach rechts geöffnet, ähnelt lateinischem D",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          57,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "math_times",
+        "description": "X-Form, zwei gekreuzte diagonale Striche",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          92,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "Angulare N-Form, drei verbundene Striche",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          127,
+          12,
+          26,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "Invertiertes Gamma oder Lambda-artig (Λ)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          158,
+          12,
+          34,
+          76
+        ],
+        "visual_kind": "digit",
+        "description": "Triangulare Form, ähnelt Ziffer 4 mit horizontaler Basis",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          197,
+          26,
+          48,
+          48
+        ],
+        "visual_kind": "other",
+        "description": "Doppeltes rechtsweisendes Chevron »»",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.115,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          250,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "D-Form, Halbkreis nach rechts geöffnet",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          12,
+          48,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "JI-Ligatur, J mit Descender neben I",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          338,
+          26,
+          34,
+          48
+        ],
+        "visual_kind": "other",
+        "description": "Einfaches rechtsweisendes Chevron »",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.115,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          398,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "J mit Descender, vertikale Linie mit Haken unten",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          433,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "E oder ∈-Symbol, drei horizontale Striche an Vertikale",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          468,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "math_times",
+        "description": "X-Form, zwei gekreuzte diagonale Striche",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          503,
+          12,
+          17,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "I oder 1, vertikaler Strich",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          12,
+          52,
+          76
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Y/X-Form mit zentralem Punkt, drei Striche treffen sich im Zentrum um Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          582,
+          26,
+          48,
+          48
+        ],
+        "visual_kind": "other",
+        "description": "Doppeltes rechtsweisendes Chevron »»",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.115,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          12,
+          30,
+          76
+        ],
+        "visual_kind": "other",
+        "description": "H-Form, zwei Vertikale mit horizontaler Verbindung",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          670,
+          12,
+          34,
+          76
+        ],
+        "visual_kind": "digit",
+        "description": "Triangulare Form, ähnelt Ziffer 4 mit horizontaler Basis",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          709,
+          26,
+          48,
+          48
+        ],
+        "visual_kind": "other",
+        "description": "Doppeltes rechtsweisendes Chevron »»",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 36,
+      "iou": 0.081,
+      "page_glyph_bbox": [
+        196,
+        499,
+        733,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        40,
+        36,
+        11,
+        11
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt, Interpunktions-Trenner",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        380,
+        36,
+        11,
+        11
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt, Interpunktions-Trenner",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        762,
+        12,
+        30,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "D-Form, Halbkreis nach rechts geöffnet",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        797,
+        12,
+        48,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "JI-Ligatur, J mit Descender neben I",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        850,
+        26,
+        34,
+        48
+      ],
+      "visual_kind": "other",
+      "description": "Einfaches rechtsweisendes Chevron »",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        892,
+        36,
+        11,
+        11
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt, Interpunktions-Trenner",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        910,
+        12,
+        17,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "I, vertikaler Strich",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        932,
+        12,
+        44,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "M-Form, zwei verbundene V-Formen (umgekehrtes W)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        981,
+        12,
+        30,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "5 oder S-Form, gekrümmter angularer Charakter",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1016,
+        12,
+        30,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "J mit Descender, vertikale Linie mit Haken unten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1051,
+        12,
+        48,
+        76
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Acht oder Unendlich ∞, zwei verbundene Kreise",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1104,
+        12,
+        44,
+        76
+      ],
+      "visual_kind": "math_times",
+      "description": "Horizontales X oder Schmetterlings-Form, gekreuzte Diagonalen",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1153,
+        26,
+        34,
+        48
+      ],
+      "visual_kind": "other",
+      "description": "Einfaches rechtsweisendes Chevron »",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1192,
+        12,
+        30,
+        76
+      ],
+      "visual_kind": "other",
+      "description": "D-Form, Halbkreis nach rechts geöffnet",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1227,
+        26,
+        48,
+        48
+      ],
+      "visual_kind": "other",
+      "description": "Doppeltes rechtsweisendes Chevron »»",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 6: latin -> D NUMBERS. USE YOUR KNOWLEDGE. USE YOUR MIND. N"
+}

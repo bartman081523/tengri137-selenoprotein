@@ -1,0 +1,82 @@
+{
+  "page": "p18",
+  "line_id": 17,
+  "line_bbox": [
+    778,
+    1440,
+    108,
+    73
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Zeile mit drei dunklen Tintenklecksen/-markierungen ohne erkennbare Struktur: zwei kleine Punkte links und rechts sowie ein größerer geschwungener Fleck in der Mitte. Wahrscheinlich stark verschmierte oder unleserliche Glyphen.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          25,
+          38,
+          30,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Kleiner unregelmäßiger schwarzer Fleck/Punkt, möglicherweise Tintenklecks oder stark abstrahiertes Glyph",
+        "confidence": 0.2
+      },
+      "matched_glyph_index": 861,
+      "iou": 0.371,
+      "page_glyph_bbox": [
+        788,
+        1450,
+        45,
+        54
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        78,
+        18,
+        85,
+        115
+      ],
+      "visual_kind": "unknown",
+      "description": "Großer geschwungener/geschwungener Tintenstrich, vertikal orientiert, mit tropfenartiger Verdickung am unteren Ende; möglicherweise verschmierte Glyphe oder Tintenklecks",
+      "confidence": 0.2
+    },
+    {
+      "bbox": [
+        235,
+        40,
+        25,
+        30
+      ],
+      "visual_kind": "unknown",
+      "description": "Kleiner unregelmäßiger schwarzer Fleck, ähnlich dem linken Mark; möglicherweise Tintenklecks oder stark abstrahiertes Glyph",
+      "confidence": 0.2
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "ink_blob",
+      "description": "Drei unregelmäßige Tintenflecken/-kleckse, die wie stark verlaufene Tinte oder kaum erkennbare Glyphen wirken",
+      "bbox": [
+        20,
+        15,
+        250,
+        130
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 17: unknown -> -------------------------------------------------------------------"
+}

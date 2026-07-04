@@ -1,0 +1,264 @@
+{
+  "page": "p20",
+  "line_id": 10,
+  "line_bbox": [
+    173,
+    890,
+    699,
+    84
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematische Zeile mit Primfaktorzerlegung als Bruch (Zähler/Nenner), Fortsetzung aus vorheriger Zeile, plus unbekannte schwarze Glyphen am rechten Rand.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 0,
+  "n_numerics": 16,
+  "n_formulas": 4,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        820,
+        5,
+        35,
+        75
+      ],
+      "visual_kind": "unknown",
+      "description": "Schwarze, tropfenförmige Silhouette mit Auswuchs oben – wirkt wie ein unklarer Figurenglyph oder Tintenfleck",
+      "confidence": 0.3
+    },
+    {
+      "bbox": [
+        885,
+        30,
+        10,
+        10
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kleiner schwarzer Punkt/Punktkreis",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        915,
+        15,
+        8,
+        70
+      ],
+      "visual_kind": "line",
+      "description": "Schwarzer vertikaler Strich/Glyphenstrich, leicht geschwungen",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        955,
+        25,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Schwarze unklare Form, möglicherweise Abdruck eines Sigillums oder Tintenklecks",
+      "confidence": 0.2
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "11",
+      "bbox": [
+        85,
+        5,
+        20,
+        18
+      ]
+    },
+    {
+      "value": "23",
+      "bbox": [
+        140,
+        5,
+        22,
+        18
+      ]
+    },
+    {
+      "value": "19020715441",
+      "bbox": [
+        200,
+        5,
+        110,
+        18
+      ]
+    },
+    {
+      "value": "1209759152659",
+      "bbox": [
+        340,
+        5,
+        140,
+        18
+      ]
+    },
+    {
+      "value": "20324722696375655677",
+      "bbox": [
+        510,
+        5,
+        220,
+        18
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        10,
+        60,
+        14,
+        25
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        95,
+        60,
+        12,
+        25
+      ]
+    },
+    {
+      "value": "883",
+      "bbox": [
+        140,
+        60,
+        38,
+        25
+      ]
+    },
+    {
+      "value": "1097",
+      "bbox": [
+        210,
+        60,
+        50,
+        25
+      ]
+    },
+    {
+      "value": "40725653",
+      "bbox": [
+        290,
+        60,
+        95,
+        25
+      ]
+    },
+    {
+      "value": "1529749193461",
+      "bbox": [
+        415,
+        60,
+        150,
+        25
+      ]
+    },
+    {
+      "value": "14518170468716369099",
+      "bbox": [
+        590,
+        60,
+        215,
+        25
+      ]
+    },
+    {
+      "value": "2273",
+      "bbox": [
+        10,
+        130,
+        45,
+        25
+      ]
+    },
+    {
+      "value": "23783743",
+      "bbox": [
+        90,
+        130,
+        100,
+        25
+      ]
+    },
+    {
+      "value": "212978053187693",
+      "bbox": [
+        220,
+        130,
+        175,
+        25
+      ]
+    },
+    {
+      "value": "5141192502437845253419",
+      "bbox": [
+        425,
+        130,
+        250,
+        25
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "11 × 23 × 19020715441 × 1209759152659 × 20324722696375655677",
+      "bbox": [
+        75,
+        0,
+        670,
+        25
+      ]
+    },
+    {
+      "raw": "2² × 3 × 883 × 1097 × 40725653 × 1529749193461 × 14518170468716369099",
+      "bbox": [
+        5,
+        55,
+        805,
+        30
+      ]
+    },
+    {
+      "raw": "2273 × 23783743 × 212978053187693 × 5141192502437845253419",
+      "bbox": [
+        5,
+        125,
+        690,
+        30
+      ]
+    },
+    {
+      "raw": "(numerator) / (denominator) – Bruchdarstellung",
+      "bbox": [
+        0,
+        95,
+        850,
+        5
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Durchgehende horizontale Linie zwischen Zähler (2² × 3 × …) und Nenner (2273 × 23783743 × …) – deutet auf Bruchdarstellung hin",
+      "bbox": [
+        0,
+        95,
+        850,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 10: latin -> WE ARE NOT YOUR GODS"
+}

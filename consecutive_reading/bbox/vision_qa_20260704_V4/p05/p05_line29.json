@@ -1,0 +1,563 @@
+{
+  "page": "p05",
+  "line_id": 29,
+  "line_bbox": [
+    186,
+    1452,
+    754,
+    50
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile in unbekannter Schrift (Voynich-ähnlich), in Anführungszeichen eingeschlossen. Enthält geometrische Symbole (Gesicht mit drei Punkten, Y mit Kreis in der Mitte), latinisierende Glyphen (F, H, M, X, Y, J, B-Formen), eine Ziffern-ähnliche '1' und '9', ein Komma sowie schließendes Anführungszeichen.",
+  "n_glyphs_vision": 27,
+  "n_latin_tokens": 0,
+  "n_numerics": 4,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          18,
+          90
+        ],
+        "visual_kind": "punctum",
+        "description": "Öffnendes doppeltes Anführungszeichen, zwei kurze vertikale Striche oben links",
+        "unicode_codepoint_candidate": "U+201C",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 246,
+      "iou": 0.064,
+      "page_glyph_bbox": [
+        196,
+        1462,
+        101,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          22,
+          10,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "F-ähnliche Figur: vertikaler Schaft mit zwei horizontalen Querstrichen oben und mittig rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 246,
+      "iou": 0.184,
+      "page_glyph_bbox": [
+        196,
+        1462,
+        101,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          10,
+          28,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Einfacher vertikaler Strich, wirkt wie '1'",
+        "unicode_codepoint_candidate": "U+0031",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 246,
+      "iou": 0.176,
+      "page_glyph_bbox": [
+        196,
+        1462,
+        101,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          88,
+          18,
+          45,
+          75
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei kleinen Punkten innen (Gesicht/Antlitz), drei Punkte im Dreieck angeordnet",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 246,
+      "iou": 0.074,
+      "page_glyph_bbox": [
+        196,
+        1462,
+        101,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          140,
+          10,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "J- oder hakenförmige Figur mit Vertikale und Bogen unten links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          188,
+          10,
+          32,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Bogenförmige Figur wie '9' oder 'g', oben offen mit Rundung unten",
+        "unicode_codepoint_candidate": "U+0039",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          222,
+          10,
+          36,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "H-ähnliche Figur: zwei Vertikalen mit Horizontalverbindung in der Mitte",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          260,
+          10,
+          32,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "F-ähnliche Figur mit Vertikale und zwei rechten Querstrichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          10,
+          38,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "X-förmige Kreuzfigur mit zwei sich diagonal kreuzenden Strichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          12,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Y- oder Kompass-Form: zwei auseinanderlaufende Diagonalen oben, unten ein Kreis mit zentralem Punkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.181,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          398,
+          10,
+          32,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Hakenförmige Figur ähnlich 'h' mit Vertikale und Bogen rechts",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          10,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "F-förmige Figur mit Vertikale und zwei rechten Querstrichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          482,
+          35,
+          12,
+          35
+        ],
+        "visual_kind": "punctum",
+        "description": "Komma-Punkt mittig unten",
+        "unicode_codepoint_candidate": "U+002C",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.086,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          10,
+          48,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "X-förmige Kreuzfigur mit zusätzlichen kleinen Strichen (wirkt verdoppelt/verziert)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          552,
+          10,
+          36,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "H-förmige Figur mit zwei Vertikalen und mittlerem Querstrich",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          592,
+          10,
+          42,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "M-förmige Figur mit zwei Vertikalen und einem V in der Mitte, plus zusätzlicher Schrägstrich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          638,
+          10,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexe M-/H-Figur mit zusätzlichen schrägen Verzierungsstrichen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          688,
+          10,
+          28,
+          80
+        ],
+        "visual_kind": "digit",
+        "description": "Einfacher vertikaler Strich, ähnlich '1'",
+        "unicode_codepoint_candidate": "U+0031",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.194,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          718,
+          10,
+          36,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Y-förmige Figur mit zwei oberen Diagonalen und Vertikale unten",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 247,
+      "iou": 0.145,
+      "page_glyph_bbox": [
+        306,
+        1462,
+        625,
+        31
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        762,
+        10,
+        36,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "H- oder M-förmige Figur mit Vertikalen und Mittelbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        800,
+        10,
+        36,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-förmige Figur mit zwei oberen Diagonalen und kurzem Stamm",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        838,
+        10,
+        42,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "M-förmige Figur mit Vertikalen und V-Bogen, plus Diagonalstrich",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        884,
+        10,
+        42,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexe Figur aus M-/H-Elementen mit zusätzlichen Verzierungsstrichen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        928,
+        10,
+        30,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "J-/hakenförmige Figur mit Vertikale und Bogen unten",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        960,
+        10,
+        32,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "F-förmige Figur mit Vertikale und zwei rechten Querstrichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        995,
+        10,
+        36,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "B- oder 6-förmige Figur mit zwei geschwungenen Bögen rechts",
+      "unicode_codepoint_candidate": "U+0036",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1035,
+        5,
+        18,
+        90
+      ],
+      "visual_kind": "punctum",
+      "description": "Schließendes doppeltes Anführungszeichen, zwei kurze vertikale Striche oben rechts",
+      "unicode_codepoint_candidate": "U+201D",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "1",
+      "bbox": [
+        55,
+        10,
+        28,
+        80
+      ],
+      "confidence": 0.4
+    },
+    {
+      "value": "9",
+      "bbox": [
+        188,
+        10,
+        32,
+        80
+      ],
+      "confidence": 0.4
+    },
+    {
+      "value": "1",
+      "bbox": [
+        688,
+        10,
+        28,
+        80
+      ],
+      "confidence": 0.4
+    },
+    {
+      "value": "6",
+      "bbox": [
+        995,
+        10,
+        36,
+        80
+      ],
+      "confidence": 0.35
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Schmeh has 27 lines for this page"
+}

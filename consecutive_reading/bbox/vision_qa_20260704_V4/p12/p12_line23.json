@@ -1,0 +1,189 @@
+{
+  "page": "p12",
+  "line_id": 23,
+  "line_bbox": [
+    424,
+    1437,
+    276,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile ausschließlich aus unbekannten geometrischen Glyphen im Stil einer kalligrafischen Manuskriptschrift, ohne lateinische Buchstaben, Zahlen oder Verzierungen.",
+  "n_glyphs_vision": 11,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 4,
+  "n_unmatched_vision_glyphs": 7,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          38,
+          22,
+          22,
+          48
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner gefüllter schwarzer Punkt/Punktus am Zeilenanfang",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 618,
+      "iou": 0.156,
+      "page_glyph_bbox": [
+        434,
+        1447,
+        257,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          72,
+          16,
+          78,
+          72
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppelte gebogene Haken, ähnlich zwei verschmolzenen 'J'-Formen, linker unterer Haken und rechter unterer Haken, oben offen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 618,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        434,
+        1447,
+        257,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          162,
+          18,
+          68,
+          66
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei kleinen Punkten im Inneren (zwei oben, einer unten mittig) – klassisches Voynich-Gesichtsmotiv",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 618,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        434,
+        1447,
+        257,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          242,
+          14,
+          60,
+          76
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Kreuzförmiges 'X'-Glyph mit zwei sich diagonal kreuzenden dicken Strichen",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 618,
+      "iou": 0.063,
+      "page_glyph_bbox": [
+        434,
+        1447,
+        257,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        314,
+        16,
+        54,
+        72
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "L-förmiges oder 'Γ'-förmiges Glyph mit vertikalem Schaft links und horizontalem Querbalken oben, unten ein Haken",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        382,
+        16,
+        60,
+        72
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Dreieckiges 'Λ'-förmiges Glyph mit zwei nach oben konvergierenden dicken Strichen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        454,
+        18,
+        58,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Hakenförmiges Glyph ähnlich einem lateinischen 'J', vertikaler Schaft mit linksseitigem Haken unten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        538,
+        18,
+        90,
+        68
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Komplexes kreisförmiges Glyph mit eingeschlossenem verschlungenem S- oder Knotenmuster, möglicherweise stilisierte Schlaufe",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        642,
+        18,
+        56,
+        70
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Chevron- oder '>'-förmiges Glyph mit zwei nach rechts spitz zulaufenden Strichen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        712,
+        16,
+        60,
+        74
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "'D'- oder bogenförmiges Glyph, gebogener Schaft rechts, oben und unten mit kurzen horizontalen Ansätzen",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        798,
+        16,
+        76,
+        72
+      ],
+      "visual_kind": "unknown",
+      "description": "Vertikales 'II'-förmiges Glyph, zwei parallele vertikale Striche mit kleinen oberen Häkchen/Serifen",
+      "confidence": 0.75
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 23: glyph_description -> {in the background -> @666ab731}"
+}

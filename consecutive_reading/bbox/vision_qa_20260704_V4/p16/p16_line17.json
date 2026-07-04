@@ -1,0 +1,552 @@
+{
+  "page": "p16",
+  "line_id": 17,
+  "line_bbox": [
+    199,
+    1445,
+    738,
+    46
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile aus einer Mischung aus unbekannten geometrischen/rune-artigen Glyphen, mit eingestreuten lateinischen Buchstaben (h, T, X) und Punkten als Worttrennern.",
+  "n_glyphs_vision": 23,
+  "n_latin_tokens": 7,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 20,
+  "n_unmatched_vision_glyphs": 3,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          20,
+          18,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich / einfacher I-förmiger Pfosten, möglicherweise linker Randmarkierer",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 810,
+      "iou": 0.058,
+      "page_glyph_bbox": [
+        209,
+        1455,
+        236,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          22,
+          20,
+          38,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Tür-/Gamma-förmiges Glyph, offene Klammer nach rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 810,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        209,
+        1455,
+        236,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          62,
+          18,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Acht/Figure-8 aus zwei vertikal gestapelten Ringen, angedeutete Doppelkreis-Rune",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 810,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        209,
+        1455,
+        236,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          140,
+          18,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-/Lambda-förmiges Glyph mit gegabelten oberen Enden, rune-artig",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 810,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        209,
+        1455,
+        236,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräg verlaufendes Y-ähnliches Glyph mit zwei diagonalen Schenkeln",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 810,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        209,
+        1455,
+        236,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          218,
+          18,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmaleres gekreuztes/X-ähnliches Glyph mit kurzen Querbalken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 810,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        209,
+        1455,
+        236,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          252,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offene Klammer / Gamma-Glyph mit kleinem Querbalken oben",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.119,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          288,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "T-förmiges Glyph mit langem absteigendem Schaft und Querbalken oben",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          324,
+          18,
+          14,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmaler vertikaler Strich, evtl. Bestandteil eines komplexeren Zeichens",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Pi-/T-förmiges Glyph mit kurzem vertikalem Schaft",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          378,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges gekreuztes Glyph mit zwei sich diagonal kreuzenden Balken",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          415,
+          20,
+          30,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräg verlaufendes Glyph mit zwei verbundenen Schenkeln, ähnlich Lambda",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          18,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-Glyph mit ausgeprägten, langen Diagonalstrichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          485,
+          18,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräges Y-/Z-förmiges Glyph mit zwei kurzen Diagonalen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          18,
+          12,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmaler vertikaler Strich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          535,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräges Glyph mit zwei sich nach unten spreizenden Schenkeln",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          572,
+          18,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Glyph mit klaren, ausgeglichenen Diagonalen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          607,
+          18,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräges Glyph / offene Klammer, nach rechts offen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          642,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Glyph mit langen Diagonalstrichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          18,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräges Glyph / umgekehrte Klammer mit zwei diagonalen Schenkeln",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 811,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        455,
+        1455,
+        473,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        120,
+        45,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt / Interpunktions-Punkt zwischen Wörtern",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        720,
+        18,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-förmiges Glyph am Zeilenende",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        758,
+        45,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt am Zeilenende, Worttrenner / Interpunktion",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "h",
+      "bbox": [
+        100,
+        30,
+        16,
+        42
+      ],
+      "confidence": 0.75
+    },
+    {
+      "text": "h",
+      "bbox": [
+        277,
+        30,
+        16,
+        42
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "T",
+      "bbox": [
+        300,
+        22,
+        22,
+        18
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "I",
+      "bbox": [
+        365,
+        22,
+        10,
+        60
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "h",
+      "bbox": [
+        448,
+        30,
+        16,
+        42
+      ],
+      "confidence": 0.75
+    },
+    {
+      "text": "h",
+      "bbox": [
+        635,
+        30,
+        16,
+        42
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "h",
+      "bbox": [
+        722,
+        30,
+        16,
+        42
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 17: latin -> NAME IN YOUR HOLY SCRIPTURES IS THE PROOF."
+}

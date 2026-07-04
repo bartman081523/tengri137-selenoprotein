@@ -1,0 +1,487 @@
+{
+  "page": "p14",
+  "line_id": 1,
+  "line_bbox": [
+    195,
+    257,
+    744,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ca. 29 unbekannten geometrischen Glyphen, darunter ein auffälliges Kreis-Symbol mit drei Punkten. Kein sichtbarer lateinischer Text.",
+  "n_glyphs_vision": 29,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 14,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit kurzer Biegung oben, ähnelt '1' mit Haken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 674,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        205,
+        267,
+        229,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          65,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach links offene Bogenform, ähnelt 'Ɛ' oder '3'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 674,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        205,
+        267,
+        229,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offene Form mit Querstrich, ähnelt '4'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 674,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        205,
+        267,
+        229,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          175,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfacher Vertikalstrich '1'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 674,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        205,
+        267,
+        229,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelform ähnlich '4'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 674,
+      "iou": 0.112,
+      "page_glyph_bbox": [
+        205,
+        267,
+        229,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          265,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Nach links offener Bogen 'Ɛ'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 675,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        443,
+        267,
+        291,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikalstrich '1'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 675,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        443,
+        267,
+        291,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          10,
+          55,
+          70
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei Punkten im Inneren (Gesichts-Symbol)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 675,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        443,
+        267,
+        291,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Bogenform mit Vertikalstrich, ähnelt 'd' oder 'q'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 675,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        443,
+        267,
+        291,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelform mit Vertikalstrich, ähnelt 'K' oder '4'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 675,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        443,
+        267,
+        291,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Zwei verschlungene Bögen, ähnelt '8' oder 'X'",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 676,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        743,
+        267,
+        187,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          580,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschwungene Form ähnlich '2' oder 'Ƨ'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 676,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        743,
+        267,
+        187,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          10,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschwungene Form ähnlich '2'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 676,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        743,
+        267,
+        187,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          10,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Nach links offener Bogen 'C' oder '3'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 676,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        743,
+        267,
+        187,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        735,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikaler Strich mit oberer Verzierung",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        785,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschwungene Form ähnlich '2'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        835,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei Vertikalstriche mit Querbalken, ähnelt 'H'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        890,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkelform 'K' mit Vertikalstrich",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        945,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkelform ähnlich '4' oder 'h'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        995,
+        10,
+        25,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfacher Vertikalstrich '1'",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1025,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei Vertikalstriche mit Querbalken, 'H'-ähnlich",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1080,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Offener Bogen '3' oder 'C'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1135,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkelform 'K' oder 'h'",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1185,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Form ähnlich '1' oder 'A' mit Querstrich",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1240,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschwungene Form '2'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1295,
+        10,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Bogenform '3' oder 'Ɛ'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1345,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Gekreuzte Diagonalen 'X'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1400,
+        10,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschwungene Form '2'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1455,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitze Form ähnlich 'A' oder 'Λ'",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 1: latin -> WE KNOW THAT YOU PUT OUR EXISTENCE IN QUESTION."
+}

@@ -1,0 +1,339 @@
+{
+  "page": "p07",
+  "line_id": 7,
+  "line_bbox": [
+    201,
+    541,
+    739,
+    45
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Magic cube formula line: stylized glyphs encoding the arithmetic identity 636 + 24 + 6 = 666, with diamond and face-circle sigils bracketing the expression.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 18,
+  "n_numerics": 4,
+  "n_formulas": 1,
+  "n_graphics": 2,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          45,
+          45
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Hollow diamond/rhombus with a small filled dot in its center, used as an opening sigil.",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 381,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        211,
+        551,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          550,
+          8,
+          42,
+          42
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Circle containing three dots (two upper, one lower), resembling a stylized face; equals-sign equivalent in the formula.",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 381,
+      "iou": 0.31,
+      "page_glyph_bbox": [
+        211,
+        551,
+        720,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          722,
+          22,
+          16,
+          16
+        ],
+        "visual_kind": "punctum",
+        "description": "Small isolated dot serving as a separator between the two addends and the equals-glyph.",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 381,
+      "iou": 0.219,
+      "page_glyph_bbox": [
+        211,
+        551,
+        720,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "H",
+      "bbox": [
+        60,
+        10,
+        35,
+        40
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "r",
+      "bbox": [
+        115,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "S",
+      "bbox": [
+        170,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": ")",
+      "bbox": [
+        220,
+        12,
+        25,
+        38
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "J",
+      "bbox": [
+        265,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "S",
+      "bbox": [
+        330,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "9",
+      "bbox": [
+        390,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "4",
+      "bbox": [
+        440,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "4",
+      "bbox": [
+        490,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "I",
+      "bbox": [
+        615,
+        12,
+        18,
+        38
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": ")",
+      "bbox": [
+        655,
+        12,
+        25,
+        38
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "M",
+      "bbox": [
+        765,
+        12,
+        45,
+        38
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "I",
+      "bbox": [
+        830,
+        12,
+        18,
+        38
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "IY",
+      "bbox": [
+        870,
+        12,
+        50,
+        38
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "S",
+      "bbox": [
+        965,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "ss",
+      "bbox": [
+        1020,
+        12,
+        45,
+        38
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "H",
+      "bbox": [
+        1190,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.85
+    },
+    {
+      "text": "H",
+      "bbox": [
+        1245,
+        12,
+        35,
+        38
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "numerics": [
+    {
+      "value": "636",
+      "bbox": [
+        60,
+        12,
+        240,
+        38
+      ]
+    },
+    {
+      "value": "24",
+      "bbox": [
+        330,
+        12,
+        145,
+        38
+      ]
+    },
+    {
+      "value": "6",
+      "bbox": [
+        440,
+        12,
+        85,
+        38
+      ]
+    },
+    {
+      "value": "414",
+      "bbox": [
+        765,
+        12,
+        155,
+        38
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "636 + 24 + 6 = 666",
+      "bbox": [
+        0,
+        8,
+        1280,
+        42
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "sigil_bracket",
+      "description": "Opening diamond-with-dot sigil marking the start of the formula",
+      "bbox": [
+        0,
+        5,
+        45,
+        45
+      ]
+    },
+    {
+      "type": "sigil_face",
+      "description": "Face-circle (three-dot) sigil acting as the equals operator",
+      "bbox": [
+        550,
+        8,
+        42,
+        42
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: magic_cube_line -> 636        24        6      (=666)"
+}

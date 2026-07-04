@@ -1,0 +1,229 @@
+{
+  "page": "p06",
+  "line_id": 5,
+  "line_bbox": [
+    350,
+    375,
+    426,
+    155
+  ],
+  "line_type": "graphic_line",
+  "line_description": "Isometrische/isoparallelogramm-Projektion eines 3x3-Magischen Quadrats (Magic Cube). Jede der drei Zeilen summiert sich zu 666. Solide diagonale Trennlinien zwischen Zellen, gestrichelte vertikale Linien suggerieren räumliche Tiefe. Neun Zahlen beschriften die Zellen.",
+  "n_glyphs_vision": 1,
+  "n_latin_tokens": 0,
+  "n_numerics": 9,
+  "n_formulas": 3,
+  "n_graphics": 7,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          400,
+          200
+        ],
+        "visual_kind": "magic_cube_3x3",
+        "description": "Gesamte 3x3-Magic-Cube-Struktur in Parallelogramm-Projektion (isometrisch). Drei Zeilen mit je drei Zellen, alle Diagonalen der Zellen verlaufen parallel nach rechts-unten. Vertikale gestrichelte Linien an den Außenkanten erzeugen 3D-Eindruck eines flachen Quaders.",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 273,
+      "iou": 0.644,
+      "page_glyph_bbox": [
+        360,
+        385,
+        407,
+        136
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "4",
+      "bbox": [
+        180,
+        40,
+        20,
+        22
+      ]
+    },
+    {
+      "value": "640",
+      "bbox": [
+        220,
+        40,
+        42,
+        22
+      ]
+    },
+    {
+      "value": "22",
+      "bbox": [
+        293,
+        40,
+        28,
+        22
+      ]
+    },
+    {
+      "value": "644",
+      "bbox": [
+        97,
+        90,
+        42,
+        22
+      ]
+    },
+    {
+      "value": "9",
+      "bbox": [
+        185,
+        90,
+        16,
+        22
+      ]
+    },
+    {
+      "value": "13",
+      "bbox": [
+        233,
+        90,
+        28,
+        22
+      ]
+    },
+    {
+      "value": "18",
+      "bbox": [
+        45,
+        140,
+        30,
+        22
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        130,
+        140,
+        28,
+        22
+      ]
+    },
+    {
+      "value": "631",
+      "bbox": [
+        192,
+        140,
+        42,
+        22
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "4 + 640 + 22 = 666",
+      "bbox": [
+        0,
+        0,
+        400,
+        200
+      ]
+    },
+    {
+      "raw": "644 + 9 + 13 = 666",
+      "bbox": [
+        0,
+        0,
+        400,
+        200
+      ]
+    },
+    {
+      "raw": "18 + 17 + 631 = 666",
+      "bbox": [
+        0,
+        0,
+        400,
+        200
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "solid_diagonal_line",
+      "description": "Durchgezogene Diagonalen, die die Zellen des Magischen Quadrats in Parallelogramm-Form trennen. Verlaufen parallel von links-oben nach rechts-unten. Pro Zelle vier Diagonal-Begrenzungen, insgesamt bilden sie die 3x3-Struktur ab.",
+      "bbox": [
+        10,
+        20,
+        360,
+        170
+      ]
+    },
+    {
+      "type": "dashed_vertical_line_top_left",
+      "description": "Gestrichelte vertikale Linie an der oberen linken Außenkante des Cubes zur 3D-Tiefenwirkung.",
+      "bbox": [
+        10,
+        15,
+        5,
+        165
+      ]
+    },
+    {
+      "type": "dashed_vertical_line_top_right",
+      "description": "Gestrichelte vertikale Linie an der oberen rechten Außenkante des Cubes zur 3D-Tiefenwirkung.",
+      "bbox": [
+        340,
+        15,
+        5,
+        165
+      ]
+    },
+    {
+      "type": "dashed_vertical_line_inner_left",
+      "description": "Gestrichelte vertikale Linie zwischen oberer und mittlerer Zelle der linken Spalte.",
+      "bbox": [
+        78,
+        15,
+        5,
+        165
+      ]
+    },
+    {
+      "type": "dashed_vertical_line_inner_right",
+      "description": "Gestrichelte vertikale Linie zwischen oberer und mittlerer Zelle der rechten Spalte.",
+      "bbox": [
+        285,
+        15,
+        5,
+        165
+      ]
+    },
+    {
+      "type": "horizontal_top_edge",
+      "description": "Durchgezogene horizontale Linie am oberen Rand des Cubes.",
+      "bbox": [
+        10,
+        18,
+        360,
+        3
+      ]
+    },
+    {
+      "type": "horizontal_bottom_edge",
+      "description": "Durchgezogene horizontale Linie am unteren Rand des Cubes.",
+      "bbox": [
+        10,
+        178,
+        360,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 5: magic_cube_line -> 651       2        13     (=666)"
+}

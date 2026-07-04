@@ -1,0 +1,446 @@
+{
+  "page": "p10",
+  "line_id": 5,
+  "line_bbox": [
+    196,
+    408,
+    743,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ~28 geometrisch/runisch wirkenden Glyphen. Keine lesbaren lateinischen Wörter in Großbuchstaben, keine Zahlen, keine Formeln erkennbar. Die Symbole bestehen aus Kombinationen von Winkeln, Bögen, Rauten, Achten und 'H'-artigen Formen.",
+  "n_glyphs_vision": 28,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 11,
+  "n_unmatched_vision_glyphs": 17,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          80,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Komplexes Glyph: vertikale Acht/Schleife mit absteigendem J-Haken rechts unten",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.126,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          5,
+          60,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen mit kurzem vertikalem Stamm und zwei gespreizten Diagonalen oben",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          5,
+          70,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer/D-Form: vertikaler Stamm mit geschlossener rechter Seite (D-förmig)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          5,
+          75,
+          90
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Vertikale Doppel-Acht (8): zwei übereinanderliegende geschlossene Bögen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          5,
+          60,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          5,
+          70,
+          90
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer/D-Form (Wiederholung)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          5,
+          65,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen: vertikaler Stamm mit kurzem horizontalen Querbalken in der Mitte",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          5,
+          70,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "F-förmiges Zeichen: vertikaler Stamm mit zwei kurzen horizontalen Auslegern (oben und Mitte)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          5,
+          40,
+          90
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich (I)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          5,
+          60,
+          90
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Leere Raute/Diamant",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.144,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          5,
+          60,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Zeichen mit Querbalken",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 487,
+      "iou": 0.082,
+      "page_glyph_bbox": [
+        206,
+        418,
+        724,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        765,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Zeichen: vertikaler Stamm mit Haken unten links",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        830,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        895,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        960,
+        5,
+        70,
+        90
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Raute/Diamant mit zentralem Punkt",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1035,
+        5,
+        85,
+        90
+      ],
+      "visual_kind": "geometric_circle_with_cross",
+      "description": "Komplexes Zeichen: liegende Acht mit angefügtem H-Element rechts",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1125,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1190,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1255,
+        5,
+        70,
+        90
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Klammer/D-Form",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1330,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Leere Raute/Diamant",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1395,
+        5,
+        80,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmiges Zeichen mit zusätzlichem vertikalem Element",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1480,
+        5,
+        40,
+        90
+      ],
+      "visual_kind": "line",
+      "description": "Einfacher vertikaler Strich (I)",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1525,
+        5,
+        75,
+        90
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Komplexes Zeichen: J-Haken kombiniert mit Kreis/Acht-Element",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1605,
+        5,
+        80,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "M-förmiges Zeichen: zwei vertikale Striche mit V-förmigem Mittelteil",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1690,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "Y-förmiges Zeichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1755,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1820,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1885,
+        5,
+        60,
+        90
+      ],
+      "visual_kind": "other",
+      "description": "F-förmiges Zeichen: vertikaler Stamm mit horizontalem Ausleger",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 5: latin -> YOU CAN NOT IGNORE WHAT YOU SEE. NO MEN WILL PROVIDE"
+}

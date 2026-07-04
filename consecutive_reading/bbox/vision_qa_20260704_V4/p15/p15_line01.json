@@ -1,0 +1,450 @@
+{
+  "page": "p15",
+  "line_id": 1,
+  "line_bbox": [
+    204,
+    255,
+    736,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "A single horizontal line of approximately 22 angular, runic-looking geometric glyphs. No clear Latin letters, no clearly identifiable mathematical symbols, no numerals, and no decorative graphics are present. The glyphs consist of straight strokes, angles, crosses, bracket-like shapes and looped elements, separated roughly in the middle by a small visual gap.",
+  "n_glyphs_vision": 22,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          8,
+          8,
+          42,
+          78
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph resembling a small 'h' with two vertical strokes joined by a short horizontal bar near the top, plus a diagonal cross-stroke on the right.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 730,
+      "iou": 0.165,
+      "page_glyph_bbox": [
+        214,
+        266,
+        256,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          52,
+          10,
+          44,
+          76
+        ],
+        "visual_kind": "unknown",
+        "description": "Two parallel vertical strokes connected by two short horizontal bars (ladder-like or double-h shape).",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 730,
+      "iou": 0.178,
+      "page_glyph_bbox": [
+        214,
+        266,
+        256,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          8,
+          32,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Tall narrow bracket-like glyph: vertical stroke on the left with a small hook/serif at top and bottom, no horizontal arms.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 730,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        214,
+        266,
+        256,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          134,
+          8,
+          42,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Glyph with vertical left stroke, a top horizontal bar reaching right, and a second shorter horizontal/diagonal arm mid-height.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 730,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        214,
+        266,
+        256,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          180,
+          10,
+          42,
+          76
+        ],
+        "visual_kind": "unknown",
+        "description": "Shape similar to a lowercase 'h': two vertical strokes joined by a short connector at mid-height, with an additional diagonal tick at the top-right.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 730,
+      "iou": 0.178,
+      "page_glyph_bbox": [
+        214,
+        266,
+        256,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          8,
+          32,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Tall narrow bracket-like glyph similar to the third glyph, vertical stroke with small top/bottom serifs.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 730,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        214,
+        266,
+        256,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          260,
+          10,
+          40,
+          76
+        ],
+        "visual_kind": "unknown",
+        "description": "Shape resembling a stylized 'h' or 'n': two vertical strokes connected by a low horizontal bar.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 731,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        479,
+        266,
+        60,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          8,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Single tall vertical stroke, very narrow, like a slim '1' or 'I'.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 731,
+      "iou": 0.252,
+      "page_glyph_bbox": [
+        479,
+        266,
+        60,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          338,
+          8,
+          36,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Hooked glyph resembling a 'J' or reversed 'L': vertical stroke on the right with a small hook at the bottom-left.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 732,
+      "iou": 0.255,
+      "page_glyph_bbox": [
+        548,
+        266,
+        41,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          374,
+          8,
+          44,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Vertical stroke on the left with a horizontal arm extending to the right near mid-height, resembling a flag or 'F'-like shape.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          10,
+          42,
+          76
+        ],
+        "visual_kind": "unknown",
+        "description": "Glyph with two parallel vertical strokes joined by a short horizontal bar, similar to earlier 'h'-shaped glyphs.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.184,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          466,
+          8,
+          44,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Cross/X-like glyph: two diagonal strokes crossing at mid-height with small angular serifs at the top and bottom of each stroke.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          512,
+          8,
+          30,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Single tall vertical stroke with a small diagonal tick at the top, similar to the earlier slim '1'-like glyph.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          545,
+          10,
+          40,
+          76
+        ],
+        "visual_kind": "unknown",
+        "description": "Shape resembling a small 'h' or 'n' with two vertical strokes and a connecting bar.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.184,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          8,
+          44,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Loop-like glyph: angular 'D' or 'P' shape with a vertical stroke on the left and a curved/angular closed bowl on the right.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          8,
+          42,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Compact glyph with a rounded upper bowl and a short descender/tail to the left, resembling a small 'e' or loop.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          8,
+          32,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Narrow bracket-like glyph: vertical stroke with small top and bottom serifs, no horizontal arms.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          714,
+          8,
+          44,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Glyph with a vertical left stroke and a short horizontal/diagonal arm extending right near the top, similar to the earlier flag-like glyph.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 733,
+      "iou": 0.052,
+      "page_glyph_bbox": [
+        590,
+        265,
+        341,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        760,
+        10,
+        40,
+        76
+      ],
+      "visual_kind": "unknown",
+      "description": "Two vertical strokes joined by a short horizontal bar at mid-height, very similar to the 'h'-shaped glyphs earlier in the line.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        804,
+        8,
+        44,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-shaped or V-shaped glyph: two diagonal strokes meeting at a central point with a short vertical/diagonal stem below.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        850,
+        8,
+        42,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Closed loop glyph resembling an angular 'D' or 'O' with a vertical stroke on the left and a closed angular bowl on the right.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        896,
+        8,
+        30,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Final narrow vertical stroke with a small top tick, similar to the earlier slim '1'-like glyphs.",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 1: formula -> (π7)/(π^7) or (π^7)/(π7)"
+}

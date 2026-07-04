@@ -1,0 +1,622 @@
+{
+  "page": "p03",
+  "line_id": 11,
+  "line_bbox": [
+    195,
+    689,
+    743,
+    49
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile mit etwa 32–34 unbekannten geometrischen Glyphen in einem runenartigen/alphabetartigen Schriftsystem (Tengri-ähnlich); keine lateinischen Buchstaben oder arabischen Ziffern direkt sichtbar.",
+  "n_glyphs_vision": 34,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 22,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          18,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Epsilon-/ε-ähnliches Zeichen, geöffnet nach rechts, mit gebogenem Rücken und kurzem Mittelstrich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "H-ähnliches Zeichen mit zwei vertikalen Schäften und einer horizontalen Querverbindung in der Mitte.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          92,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Invertiertes L bzw. ⅃ mit kurzem oberen Querbalken links.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          122,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Diamantform mit innerer Linie, wirkt geschlossen.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          154,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "⅃-Form, invertiertes L mit zwei kurzen Querstrichen oben.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          184,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "⅃-Form, ähnlich wie das vorhergehende invertierte L.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          214,
+          10,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "E/3-ähnliches Zeichen mit drei horizontalen Querbalken und Serifenansätzen, vertikal gestreckt.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          256,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "⅃-Form, invertiertes L mit oberem Querstrich.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          286,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "H-ähnliches Zeichen mit zwei Vertikalen und mittlerem Querbalken.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          323,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfacher vertikaler Schaft mit kurzem oberen Ansatz, 1-ähnlich.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          353,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "L-Form, vertikaler Schaft mit kurzem Fußbalken rechts.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geöffneter Winkel <, Spitze nach links zeigend.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          417,
+          10,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "D-Form, halbkreisförmige Wölbung rechts mit geradem linken Schaft.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          451,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossener Winkel >, Spitze nach rechts zeigend.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          483,
+          10,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kreis-/6-Form mit innerem Punkt oder vertikalem Innenstrich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          517,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "3-Form mit zwei horizontalen Bogenelementen und Serifen, E-ähnlich.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          549,
+          10,
+          32,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "D-Form, halbkreisförmige Wölbung rechts mit geradem Schaft links.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          583,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfacher vertikaler Schaft mit kurzem oberen Ansatz, 1-ähnlich.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          613,
+          10,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "X-Form mit Serifen an den Enden der Diagonalen, kreuzförmig.",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          650,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "7-Form, horizontaler Schaft oben mit absteigendem Winkel.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          10,
+          28,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfacher vertikaler Schaft, 1-ähnlich, ohne Serifen.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          710,
+          10,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenform mit zentralem Punkt, geschlossen.",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 79,
+      "iou": 0.171,
+      "page_glyph_bbox": [
+        205,
+        699,
+        724,
+        30
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        55,
+        12,
+        30
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines Komma/Punctum am unteren Zeilenrand, links angeordnet.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        742,
+        10,
+        28,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfacher vertikaler Schaft, 1-ähnlich.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        772,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Offene C-Form, nach rechts geöffnet.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        804,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-Form, vertikaler Schaft mit linksseitigem Haken unten.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        836,
+        10,
+        28,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "7-Form, horizontaler Schaft oben mit absteigender Diagonale.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        866,
+        10,
+        30,
+        70
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis-/6-Form mit kleiner Öffnung unten.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        898,
+        10,
+        28,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "7-Form, Winkel mit horizontalem Schaft oben.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        928,
+        10,
+        32,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "4-ähnliche Form mit Vertikale, kurzem Querstrich und absteigender Diagonale.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        962,
+        10,
+        28,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfacher vertikaler Schaft, 1-ähnlich.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        992,
+        25,
+        18,
+        40
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt in mittlerer Höhe, möglicherweise Trenn- oder Satzzeichen.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1015,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "H-ähnliches Zeichen mit zwei Vertikalen und mittlerer Querverbindung.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1052,
+        10,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "T-ähnliches Zeichen mit horizontalem Schaft oben und vertikalem Stamm, Kreuz/T-Form mit Serifen.",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 11: latin -> N. FOR OTHERS WHO MAY NOT UNDERSTAND ANYTHING,"
+}

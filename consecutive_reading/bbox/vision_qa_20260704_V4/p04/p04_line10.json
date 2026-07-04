@@ -1,0 +1,507 @@
+{
+  "page": "p04",
+  "line_id": 10,
+  "line_bbox": [
+    206,
+    649,
+    732,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ungefähr 28–30 geometrischen Glyphen, die entfernt an lateinische Buchstaben (H, X, D, Y) und Ziffern (1, 2, 3, 4) erinnern, jedoch stark stilisiert sind. Doppelte Chevron-Motive (>>) wiederholen sich mehrfach. Keine eindeutig lesbaren lateinischen Wörter erkennbar.",
+  "n_glyphs_vision": 29,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 13,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          20,
+          50,
+          45
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei vertikale Striche mit horizontaler Querverbindung, ähnelt stark stilisiertem 'H'",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          15,
+          60,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "Verbund aus zwei glyphischen Elementen, erinnert an stilisierte 'EX'- oder 'FX'-Sequenz",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.22,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          165,
+          15,
+          25,
+          55
+        ],
+        "visual_kind": "digit",
+        "description": "Vertikaler Strich mit kurzer Oberlänge, ähnelt Ziffer '1' mit kleinem Anstrich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.2,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Glyph mit zwei divergierenden oberen Schenkeln",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          15,
+          45,
+          50
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges (rhombisches) Glyph mit zentralem Punkt oder Mittelstrich",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.22,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          295,
+          20,
+          35,
+          45
+        ],
+        "visual_kind": "other",
+        "description": "Doppelter Chevron '>>' nach rechts zeigend",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          335,
+          20,
+          35,
+          45
+        ],
+        "visual_kind": "digit",
+        "description": "Gebogenes Glyph, ähnelt Ziffer '2' oder geschlossener Klammer",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          375,
+          15,
+          55,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Stilisiertes 'H' mit Querbalken, ähnelt vorherigem H-Glyph",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.22,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          435,
+          10,
+          45,
+          60
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer '4' mit vertikaler Oberlänge",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          485,
+          20,
+          35,
+          45
+        ],
+        "visual_kind": "other",
+        "description": "Doppelter Chevron '>>' nach rechts",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          20,
+          35,
+          45
+        ],
+        "visual_kind": "digit",
+        "description": "Gebogenes Glyph, ähnelt Ziffer '3'",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          20,
+          30,
+          45
+        ],
+        "visual_kind": "other",
+        "description": "Geschlossene Klammer ')' oder Bögen-Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          20,
+          30,
+          45
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Bogen- oder Klammer-Glyph, ähnelt '(' oder geschwungener Klammer",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          20,
+          30,
+          45
+        ],
+        "visual_kind": "digit",
+        "description": "Ziffer '1' oder vertikales Glyph mit kleinem Anstrich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          670,
+          15,
+          25,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Schlankes vertikales Glyph mit kleinem Querbalken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.2,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          15,
+          50,
+          50
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Glyph mit zwei sich kreuzenden Diagonalen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 118,
+      "iou": 0.101,
+      "page_glyph_bbox": [
+        216,
+        659,
+        713,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        65,
+        35,
+        30,
+        25
+      ],
+      "visual_kind": "other",
+      "description": "Kleine angewinkelte Marke, ähnelt einer spitzen Klammer oder Häkchen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        755,
+        20,
+        30,
+        45
+      ],
+      "visual_kind": "other",
+      "description": "Geschlossene Klammer ')'",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        790,
+        20,
+        35,
+        45
+      ],
+      "visual_kind": "digit",
+      "description": "Gebogenes Glyph, ähnelt Ziffer '3'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        830,
+        20,
+        30,
+        45
+      ],
+      "visual_kind": "other",
+      "description": "J- oder hakenförmiges Glyph mit gekrümmter Unterlänge",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        865,
+        20,
+        35,
+        45
+      ],
+      "visual_kind": "other",
+      "description": "Doppelter Chevron '>>' nach rechts",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        905,
+        15,
+        50,
+        50
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Stilisiertes 'H' oder '4' mit Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        960,
+        20,
+        35,
+        45
+      ],
+      "visual_kind": "other",
+      "description": "Doppelter Chevron '>>' nach rechts",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1000,
+        15,
+        40,
+        50
+      ],
+      "visual_kind": "other",
+      "description": "D-förmiges oder halbkreisförmiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1045,
+        20,
+        30,
+        45
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer '1' oder vertikales Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1080,
+        20,
+        35,
+        45
+      ],
+      "visual_kind": "other",
+      "description": "Doppelter Chevron '>>' nach rechts",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1120,
+        15,
+        35,
+        50
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer '4' oder H-ähnliches Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1160,
+        20,
+        30,
+        45
+      ],
+      "visual_kind": "digit",
+      "description": "Ziffer '1'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1195,
+        25,
+        25,
+        40
+      ],
+      "visual_kind": "other",
+      "description": "Kleines j- oder hakenförmiges Glyph am Zeilenende",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 10: latin -> E PROOF YOU SHOULD UNDERSTAND OUR KNOWLEDGE IN"
+}

@@ -1,0 +1,309 @@
+{
+  "page": "p18",
+  "line_id": 4,
+  "line_bbox": [
+    173,
+    518,
+    453,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Zweizeilige Faktorisierungsgleichung mit Produkten von Zahlen, getrennt durch eine horizontale Trennlinie. Obere Zeile zeigt das zusammengesetzte Produkt, untere Zeile die Primfaktorzerlegung mit Exponenten.",
+  "n_glyphs_vision": 10,
+  "n_latin_tokens": 0,
+  "n_numerics": 10,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 5,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          78,
+          5,
+          14,
+          35
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationssymbol (schmales 'x')",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 844,
+      "iou": 0.429,
+      "page_glyph_bbox": [
+        183,
+        528,
+        434,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          5,
+          14,
+          35
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationssymbol (schmales 'x')",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 844,
+      "iou": 0.429,
+      "page_glyph_bbox": [
+        183,
+        528,
+        434,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          5,
+          14,
+          35
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationssymbol (schmales 'x')",
+        "confidence": 0.99
+      },
+      "matched_glyph_index": 844,
+      "iou": 0.429,
+      "page_glyph_bbox": [
+        183,
+        528,
+        434,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          20,
+          8,
+          12,
+          12
+        ],
+        "visual_kind": "math_exponentiation",
+        "description": "Hochgestellte '3' als Exponent",
+        "confidence": 0.98
+      },
+      "matched_glyph_index": 844,
+      "iou": 0.417,
+      "page_glyph_bbox": [
+        183,
+        528,
+        434,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          8,
+          12,
+          12
+        ],
+        "visual_kind": "math_exponentiation",
+        "description": "Hochgestellte '2' als Exponent",
+        "confidence": 0.98
+      },
+      "matched_glyph_index": 844,
+      "iou": 0.417,
+      "page_glyph_bbox": [
+        183,
+        528,
+        434,
+        39
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        35,
+        90,
+        14,
+        35
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationssymbol (schmales 'x')",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        90,
+        90,
+        14,
+        35
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationssymbol (schmales 'x')",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        145,
+        90,
+        14,
+        35
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationssymbol (schmales 'x')",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        215,
+        90,
+        14,
+        35
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationssymbol (schmales 'x')",
+      "confidence": 0.99
+    },
+    {
+      "bbox": [
+        365,
+        90,
+        14,
+        35
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationssymbol (schmales 'x')",
+      "confidence": 0.99
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "7349",
+      "bbox": [
+        0,
+        5,
+        75,
+        35
+      ]
+    },
+    {
+      "value": "67171373",
+      "bbox": [
+        95,
+        5,
+        110,
+        35
+      ]
+    },
+    {
+      "value": "473610727",
+      "bbox": [
+        225,
+        5,
+        135,
+        35
+      ]
+    },
+    {
+      "value": "758327329194582826829",
+      "bbox": [
+        380,
+        5,
+        380,
+        35
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        0,
+        90,
+        18,
+        35
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        55,
+        90,
+        18,
+        35
+      ]
+    },
+    {
+      "value": "13",
+      "bbox": [
+        110,
+        90,
+        30,
+        35
+      ]
+    },
+    {
+      "value": "433",
+      "bbox": [
+        165,
+        90,
+        50,
+        35
+      ]
+    },
+    {
+      "value": "34538589661",
+      "bbox": [
+        235,
+        90,
+        130,
+        35
+      ]
+    },
+    {
+      "value": "20061849662752419964530223",
+      "bbox": [
+        385,
+        90,
+        440,
+        35
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "7349 × 67171373 × 473610727 × 758327329194582826829",
+      "bbox": [
+        0,
+        5,
+        760,
+        35
+      ]
+    },
+    {
+      "raw": "2³ × 5² × 13 × 433 × 34538589661 × 20061849662752419964530223",
+      "bbox": [
+        0,
+        90,
+        825,
+        35
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_separator_line",
+      "description": "Durchgehende horizontale Trennlinie zwischen den beiden Produktzeilen (deutet auf Bruchstrich oder mathematische Trennung hin)",
+      "bbox": [
+        0,
+        55,
+        830,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 4: numeric -> 17 * 58909 * 307301 * 34373828321747 * 37252411960004762373768239509"
+}

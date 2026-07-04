@@ -1,0 +1,66 @@
+{
+  "page": "p18",
+  "line_id": 8,
+  "line_bbox": [
+    173,
+    783,
+    629,
+    53
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematische Zeile mit einem Bruch: zwei Produkt-Faktorisierungen (Zähler über Nenner), getrennt durch einen horizontalen Bruchstrich, gefolgt von einem schwarzen gefüllten Kreis-Sigil rechts.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 2,
+  "n_graphics": 2,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [
+    {
+      "raw": "3 x 101 x 4799 x 1152039491 x 8780382483780105999747382526800373",
+      "bbox": [
+        0,
+        15,
+        1095,
+        95
+      ]
+    },
+    {
+      "raw": "2 x 11 x 17 x 43 x 113 x 163 x 23669 x 316964629 x 18066117527601618948520456393",
+      "bbox": [
+        0,
+        135,
+        1345,
+        95
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehender horizontaler Bruchstrich zwischen Zähler und Nenner",
+      "bbox": [
+        0,
+        110,
+        1345,
+        12
+      ]
+    },
+    {
+      "type": "filled_circle",
+      "description": "Schwarzes, gefülltes Kreissigil (Punkt) am rechten Rand",
+      "bbox": [
+        1395,
+        150,
+        55,
+        55
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 8: unknown -> -----------------------------------------------------"
+}

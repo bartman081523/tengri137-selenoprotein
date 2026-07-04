@@ -1,0 +1,175 @@
+{
+  "page": "p20",
+  "line_id": 7,
+  "line_bbox": [
+    173,
+    641,
+    778,
+    254
+  ],
+  "line_type": "mixed_line",
+  "line_description": "A wide line containing eight sub-lines of prime factorizations of large integers (using lowercase 'x' for multiplication), with abstract black ink silhouettes/figures occupying the right portion of the line. No legible Latin text, no identifiable known-script glyphs, no readable characters in any of the world's main writing systems in the right-side shapes.",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 8,
+  "n_graphics": 2,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          468,
+          4,
+          100,
+          95
+        ],
+        "visual_kind": "other",
+        "description": "Large abstract black blob/silhouette with rounded lobes and an angular protrusion at top",
+        "confidence": 0.15
+      },
+      "matched_glyph_index": 905,
+      "iou": 0.055,
+      "page_glyph_bbox": [
+        183,
+        723,
+        519,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          602,
+          70,
+          80,
+          180
+        ],
+        "visual_kind": "other",
+        "description": "Lower abstract black shape resembling a seated/bent figure",
+        "confidence": 0.15
+      },
+      "matched_glyph_index": 906,
+      "iou": 0.577,
+      "page_glyph_bbox": [
+        769,
+        651,
+        71,
+        235
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        560,
+        12,
+        40,
+        130
+      ],
+      "visual_kind": "other",
+      "description": "Vertical abstract black smear/figure, vaguely anthropomorphic",
+      "confidence": 0.15
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [
+    {
+      "raw": "3 x 7 x 61 x 51199 x 84840737",
+      "bbox": [
+        3,
+        10,
+        295,
+        18
+      ]
+    },
+    {
+      "raw": "2 x 191 x 244463 x 261250259",
+      "bbox": [
+        3,
+        38,
+        270,
+        18
+      ]
+    },
+    {
+      "raw": "557 x 1935683 x 150911387503 x 108436578076472505712663800554190467",
+      "bbox": [
+        3,
+        68,
+        460,
+        18
+      ]
+    },
+    {
+      "raw": "2² x 3 x 37 x 1681290073 x 30725657676416953981381442781670603943498057",
+      "bbox": [
+        3,
+        94,
+        460,
+        18
+      ]
+    },
+    {
+      "raw": "2 x 17 x 83 x 563 x 619 x 9391883 x 854182925753",
+      "bbox": [
+        3,
+        124,
+        390,
+        18
+      ]
+    },
+    {
+      "raw": "631 x 952363 x 11830363 x 1486991193763",
+      "bbox": [
+        3,
+        150,
+        360,
+        18
+      ]
+    },
+    {
+      "raw": "2² x 5 x 43 x 456603883 x 20395214811535465025556210219039121",
+      "bbox": [
+        3,
+        180,
+        460,
+        18
+      ]
+    },
+    {
+      "raw": "7 x 11 x 23 x 19026713441 x 12097591526569 x 26324722890373835077",
+      "bbox": [
+        3,
+        206,
+        460,
+        18
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "ink_silhouette_cluster",
+      "description": "Three connected abstract black ink shapes on the right side of the line, appearing as silhouetted human-like figures or inkblot forms; no readable characters",
+      "bbox": [
+        460,
+        0,
+        225,
+        245
+      ]
+    },
+    {
+      "type": "horizontal_separator_implied",
+      "description": "Faint horizontal break between math block and graphic block, not a true drawn line",
+      "bbox": [
+        460,
+        0,
+        2,
+        245
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 7: latin -> THESE ARE DANGEROUS IN THEIR THOUGHTS AND ACTION"
+}

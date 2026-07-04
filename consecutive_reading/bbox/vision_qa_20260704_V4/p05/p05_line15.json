@@ -1,0 +1,485 @@
+{
+  "page": "p05",
+  "line_id": 15,
+  "line_bbox": [
+    193,
+    804,
+    754,
+    51
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ca. 26 unbekannten geometrischen Glyphen, überwiegend eckige Klammer-/Diamantformen, zwei runde Gesichtsglyphen mit Punkten sowie ein Komma-ähnliches Punctum. Keine klar lesbaren lateinischen Buchstaben visuell erkennbar.",
+  "n_glyphs_vision": 27,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 11,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          25,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige, nach unten geöffnete Klammer mit kurzem Querstrich am oberen Ende",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          5,
+          35,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Ähnliche eckige Klammer wie Glyphe 1, leicht spiegelbildlich",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Spitzwinklige Raute/Dreieck mit gerader Basis",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schräge Strichgabel, V-Form mit kurzem Querbalken oben",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          210,
+          5,
+          35,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikale Linie mit kurzen abgewinkelten Häkchen oben und unten",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Spitzwinklige Form ähnlich Glyphe 3, Raute mit aufrechter Spitze",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          300,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "h-ähnliche Form, vertikaler Schaft mit gebogenem Bogen rechts",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          350,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmiges Kreuz mit zwei gekreuzten Diagonalstrichen",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          5,
+          25,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale Vertikale mit kleinem Haken oben links",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          5,
+          55,
+          125
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Runder Kreis mit drei kleinen Punkten innen (Gesichtsglyphe)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige, links offene Klammer mit kurzem Querstrich",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "h-ähnliche Form wie Glyphe 7, vertikaler Schaft mit Bogen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Form mit zwei parallelen Schrägstrichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          640,
+          5,
+          35,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikale mit kurzem Häkchen, ähnelt einer '1' mit Dach",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 189,
+      "iou": 0.128,
+      "page_glyph_bbox": [
+        203,
+        814,
+        670,
+        32
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          5,
+          40,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-ähnliche Gabelung mit kurzem vertikalem Stamm",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 190,
+      "iou": 0.174,
+      "page_glyph_bbox": [
+        881,
+        815,
+        57,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          730,
+          5,
+          45,
+          125
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "X-förmige Figur mit zusätzlichen kleinen Häkchen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 190,
+      "iou": 0.058,
+      "page_glyph_bbox": [
+        881,
+        815,
+        57,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        785,
+        5,
+        30,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Geschlossene Klammer nach rechts ')'",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        825,
+        5,
+        35,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige links offene Klammer",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        870,
+        5,
+        40,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Schräge, an Winkel erinnernde Form",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        920,
+        5,
+        55,
+        125
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Zweiter runder Kreis mit drei Punkten innen (Gesichtsglyphe)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        985,
+        5,
+        35,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikale mit kurzem Haken oben, ähnlich Glyphe 14",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1025,
+        5,
+        25,
+        40
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines Komma-ähnliches Punctum, sitzt auf der Grundlinie",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1055,
+        5,
+        45,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Eckige Form mit kurzen Schrägstrichen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1105,
+        5,
+        40,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikale Linie mit kurzem oberen Haken",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1150,
+        5,
+        40,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kurze vertikale Form mit abgewinkeltem oberen Element",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1195,
+        5,
+        45,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "W- oder M-ähnliche Doppelspitze",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1240,
+        5,
+        40,
+        125
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Vertikale Linie mit kurzem Häkchen am oberen Ende",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 15: latin -> OF A MAN, AND HIS NUMBER IS SIX HUNDRED THREESCORE A"
+}

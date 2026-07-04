@@ -1,0 +1,105 @@
+{
+  "page": "p06",
+  "line_id": 6,
+  "line_bbox": [
+    350,
+    470,
+    426,
+    56
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Slanted parallelogram divided by diagonal lines into three sections, each containing a number (18, 17, 631). Dashed vertical lines on the right side suggest column boundaries.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 0,
+  "n_graphics": 5,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "18",
+      "bbox": [
+        195,
+        50,
+        70,
+        60
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        415,
+        50,
+        70,
+        60
+      ]
+    },
+    {
+      "value": "631",
+      "bbox": [
+        615,
+        50,
+        100,
+        60
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "parallelogram",
+      "description": "Large slanted parallelogram (leaning right) spanning the full width of the line, divided internally by two diagonal lines into three sub-parallelogram cells",
+      "bbox": [
+        0,
+        0,
+        980,
+        140
+      ]
+    },
+    {
+      "type": "diagonal_divider",
+      "description": "First internal diagonal line separating the '18' cell from the '17' cell",
+      "bbox": [
+        280,
+        0,
+        70,
+        140
+      ]
+    },
+    {
+      "type": "diagonal_divider",
+      "description": "Second internal diagonal line separating the '17' cell from the '631' cell",
+      "bbox": [
+        500,
+        0,
+        70,
+        140
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line on the right side, likely a column/row boundary marker",
+      "bbox": [
+        835,
+        0,
+        8,
+        140
+      ]
+    },
+    {
+      "type": "dashed_vertical_line",
+      "description": "Dashed vertical line on the far right edge, likely a column/row boundary marker",
+      "bbox": [
+        965,
+        0,
+        8,
+        140
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 6: magic_cube_line -> 11        22       633    (=666)"
+}

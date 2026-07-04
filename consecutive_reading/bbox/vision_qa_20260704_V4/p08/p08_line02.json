@@ -1,0 +1,624 @@
+{
+  "page": "p08",
+  "line_id": 2,
+  "line_bbox": [
+    186,
+    310,
+    753,
+    45
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine Zeile mit geometrisch-runenartigen Glyphen, gruppiert durch Punkttrenner (Punctum). Enthält Diamant-Glyphen, bracket-ähnliche Zeichen, eine Gesichts-Kreis-Glyphe, H/J/l/Γ-ähnliche Formen sowie mögliche Ziffern 1 und 8 am Ende. Visuell passend zu einer magischen-Würfel-Zeile.",
+  "n_glyphs_vision": 34,
+  "n_latin_tokens": 3,
+  "n_numerics": 2,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 17,
+  "n_unmatched_vision_glyphs": 17,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          20,
+          25,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzer, nach links offener Bracket-Winkel (umgekehrtes L), wie ein auf den Kopf gestelltes Eckzeichen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 399,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        196,
+        320,
+        121,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          25,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zweiter identischer Bracket-Winkel, spiegelsymmetrisch oder wiederholt zum ersten Glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 399,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        196,
+        320,
+        121,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          90,
+          20,
+          40,
+          65
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute (Diamant) mit zentralem Punkt; deutliches Punkt-in-Diamant-Motiv",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 399,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        196,
+        320,
+        121,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          25,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitze nach rechts geöffnete Klammer / chevronartiges Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          25,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitze nach links geöffnete Klammer / chevronartiges Zeichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          25,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Chevron, nach rechts offen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          265,
+          25,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Chevron, nach rechts offen (zweite Variante)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          300,
+          15,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Sanduhrförmiges / X-artiges Glyph mit zwei gegeneinander laufenden Keilen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          350,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Y- oder gabelartiges Glyph mit zwei auseinanderlaufenden oberen Schenkeln",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Zweite Gabel-/Y-Form, ähnlich der vorherigen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          440,
+          15,
+          50,
+          70
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis-Glyph mit drei innenliegenden Punkten (Gesichtsmotiv)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "M-förmiges / tridentartiges Glyph mit zwei Spitzen oben und Mittelschaft",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          20,
+          25,
+          60
+        ],
+        "visual_kind": "other",
+        "description": "J- oder hakenförmiges Glyph mit abwärts gerichteter Spitze",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          600,
+          25,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschweifte Klammer, nach rechts offen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.1,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          15,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Glyph mit zwei vertikalen Balken und Querstrich (gotisch wirkend)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          15,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "X- oder sanduhrförmiges Glyph (gekreuzte Keile)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.15,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          720,
+          25,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Chevron, nach rechts offen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 400,
+      "iou": 0.096,
+      "page_glyph_bbox": [
+        318,
+        320,
+        612,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        140,
+        50,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Trenn-Punkt (Punctum) zwischen Gruppen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        545,
+        50,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Trenn-Punkt zwischen Gruppen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        760,
+        15,
+        15,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Schmaler vertikaler Strich / Pipe / l-förmiges Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        785,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Γ-förmiges (gamma-artiges) Glyph mit oberem Querbalken und absteigendem Schaft",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        825,
+        15,
+        20,
+        70
+      ],
+      "visual_kind": "digit",
+      "description": "Vertikale 1 / schmaler Strich mit möglicher Serife oben",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        855,
+        25,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Chevron, nach rechts offen",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        890,
+        25,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Chevron, nach rechts offen (zweite Variante)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        925,
+        15,
+        40,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "K- oder winkelartiges Glyph mit zwei divergierenden Schenkeln nach rechts unten",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        970,
+        15,
+        15,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Schmaler vertikaler Strich / l",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        995,
+        15,
+        40,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Glyph (zweite Instanz, ähnlich der ersten)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1040,
+        15,
+        40,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "L- oder winkelartiges Glyph mit abgewinkeltem Schaft (wie lateinisches L, gotisch)",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1080,
+        20,
+        25,
+        60
+      ],
+      "visual_kind": "other",
+      "description": "J- oder hakenförmiges Glyph (zweite Instanz)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1110,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Γ-förmiges Glyph (zweite Instanz)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1160,
+        50,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Trenn-Punkt vor der letzten Gruppe",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1185,
+        15,
+        15,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Schmaler vertikaler Strich / l (dritte Instanz)",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1210,
+        25,
+        25,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Chevron, nach rechts offen",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1240,
+        15,
+        30,
+        70
+      ],
+      "visual_kind": "digit",
+      "description": "8- oder ∞-förmiges Glyph (zwei verschlungene Schleifen) – wahrscheinlich Ziffer 8",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "M",
+      "bbox": [
+        495,
+        15,
+        35,
+        70
+      ],
+      "confidence": 0.5
+    },
+    {
+      "text": "H",
+      "bbox": [
+        635,
+        15,
+        40,
+        70
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "H",
+      "bbox": [
+        995,
+        15,
+        40,
+        70
+      ],
+      "confidence": 0.55
+    }
+  ],
+  "numerics": [
+    {
+      "value": "1",
+      "bbox": [
+        825,
+        15,
+        20,
+        70
+      ],
+      "confidence": 0.65
+    },
+    {
+      "value": "8",
+      "bbox": [
+        1240,
+        15,
+        30,
+        70
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 2: magic_cube_line -> 4         641         21     (=666)"
+}

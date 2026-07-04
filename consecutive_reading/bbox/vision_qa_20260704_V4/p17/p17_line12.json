@@ -1,0 +1,138 @@
+{
+  "page": "p17",
+  "line_id": 12,
+  "line_bbox": [
+    173,
+    1108,
+    253,
+    59
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch-Ausdruck mit Faktorisierung in Zähler und Nenner, getrennt durch einen horizontalen Bruchstrich.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 10,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        10,
+        8,
+        18,
+        30
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        22,
+        4,
+        14,
+        18
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        70,
+        10,
+        16,
+        30
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        120,
+        8,
+        18,
+        30
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        132,
+        4,
+        14,
+        18
+      ]
+    },
+    {
+      "value": "461",
+      "bbox": [
+        180,
+        10,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "96681715401559",
+      "bbox": [
+        260,
+        10,
+        215,
+        30
+      ]
+    },
+    {
+      "value": "109",
+      "bbox": [
+        170,
+        120,
+        45,
+        30
+      ]
+    },
+    {
+      "value": "1741",
+      "bbox": [
+        250,
+        120,
+        55,
+        30
+      ]
+    },
+    {
+      "value": "308405893609031",
+      "bbox": [
+        340,
+        120,
+        200,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(2^2 x 5 x 7^2 x 461 x 96681715401559) / (109 x 1741 x 308405893609031)",
+      "bbox": [
+        5,
+        0,
+        555,
+        160
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Durchgehender horizontaler Bruchstrich, der Zähler und Nenner trennt.",
+      "bbox": [
+        0,
+        75,
+        560,
+        3
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 12: latin -> IS THE PROBABILITY OF RANDOMNESS OF THIS CALCULATION"
+}

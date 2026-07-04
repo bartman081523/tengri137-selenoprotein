@@ -1,0 +1,184 @@
+{
+  "page": "p03",
+  "line_id": 1,
+  "line_bbox": [
+    197,
+    250,
+    742,
+    49
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Zeile mit drei dekorativen Rauten-Glyphen (◊) als Trennzeichen und stilisierten lateinisch anmutenden Zeichen, die laut Hinweis 'WHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW' kodieren könnten. Die visuellen Zeichen wirken wie ein cipher-/rune-artiger Stil mit geometrischen Formen.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 7,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          50,
+          90
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Diamantform am Zeilenanfang, offene Kontur mit Strichstärke",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 64,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        207,
+        260,
+        723,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          5,
+          50,
+          90
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Diamantform in der Zeilenmitte, offene Kontur",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 64,
+      "iou": 0.167,
+      "page_glyph_bbox": [
+        207,
+        260,
+        723,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          10,
+          20,
+          80
+        ],
+        "visual_kind": "punctum",
+        "description": "Komma-artiges Trennzeichen (Virgel/Punctum) zwischen Token-Gruppen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 64,
+      "iou": 0.188,
+      "page_glyph_bbox": [
+        207,
+        260,
+        723,
+        30
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        945,
+        5,
+        50,
+        90
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rauten-/Diamantform am Zeilenende, offene Kontur",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "WHENEVER",
+      "bbox": [
+        50,
+        5,
+        305,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "THE",
+      "bbox": [
+        355,
+        5,
+        470,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "TIME",
+      "bbox": [
+        470,
+        5,
+        580,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "IS",
+      "bbox": [
+        580,
+        5,
+        660,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "RIGHT",
+      "bbox": [
+        660,
+        5,
+        800,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "WE",
+      "bbox": [
+        810,
+        5,
+        870,
+        90
+      ],
+      "confidence": 0.3
+    },
+    {
+      "text": "BRING",
+      "bbox": [
+        870,
+        5,
+        945,
+        90
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "decorative_diamond_separators",
+      "description": "Drei gleichförmige Rauten-Symbole dienen als dekorative Wort-/Phrasen-Trenner und strukturieren die Zeile in mehrere Abschnitte",
+      "bbox": [
+        0,
+        5,
+        1000,
+        90
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> WHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW"
+}

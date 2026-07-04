@@ -1,0 +1,675 @@
+{
+  "page": "p03",
+  "line_id": 10,
+  "line_bbox": [
+    190,
+    649,
+    748,
+    50
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine dichte, einzeilige Folge von 38–40 eckigen, geometrischen Glyphen einer unbekannten Schrift mit stark stilisierten Formen. Vereinzelte Zeichen (D, H, X) ähneln lateinischen Großbuchstaben; ein Komma ist sichtbar. Klar abgegrenzte lateinische Wörter in Großbuchstaben sind nicht erkennbar.",
+  "n_glyphs_vision": 39,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 21,
+  "n_unmatched_vision_glyphs": 18,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts-C bzw. liegendes J mit offenem Winkel",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Zwei vertikale Striche mit verbindendem Querbalken oben, ähnlich stilisierter 'R'- oder 'N'-Form",
+        "confidence": 0.3
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Klar erkennbares 'D' mit gerader Vertikale und halbkreisförmiger Wölbung",
+        "confidence": 0.85,
+        "unicode_codepoint_candidate": "U+0044"
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          18,
+          22,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Schmaler vertikaler Strich, möglicherweise 'I' oder 'l'",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          18,
+          38,
+          35
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Hohle Raute / Rombus mit dicken Konturen, möglicherweise dekorativer Trenner",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          18,
+          32,
+          35
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "C-förmiges Zeichen mit zusätzlichen inneren Strichen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          227,
+          18,
+          25,
+          35
+        ],
+        "visual_kind": "digit",
+        "description": "Stilisierte '3' mit abgeflachten Bögen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          252,
+          18,
+          28,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Kleinbuchstabe-ähnliche 'h'-Form mit kurzem Aufstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          18,
+          22,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Einfacher vertikaler Strich ('l' oder 'I')",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          18,
+          32,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Winkelzeichen, ähnlich kyrillisch 'Г' oder auf dem Kopf stehendes 'L'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.329,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          355,
+          30,
+          14,
+          20
+        ],
+        "visual_kind": "punctum",
+        "description": "Komma, leicht abgesetzt unter der Grundlinie",
+        "confidence": 0.95,
+        "unicode_codepoint_candidate": "U+002C"
+      },
+      "matched_glyph_index": 77,
+      "iou": 0.138,
+      "page_glyph_bbox": [
+        200,
+        659,
+        352,
+        31
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Epsilon-ähnliche Form ('є' oder kleines 'e') mit offenem Bogen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          405,
+          18,
+          32,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Klar erkennbares 'H' mit zwei vertikalen Balken und Querstrich",
+        "confidence": 0.9,
+        "unicode_codepoint_candidate": "U+0048"
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          440,
+          18,
+          32,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Winkelzeichen 'Г' mit rechtwinkliger Form",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          478,
+          18,
+          32,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Nochmals 'H'-ähnliches Zeichen",
+        "confidence": 0.85,
+        "unicode_codepoint_candidate": "U+0048"
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Rückwärts gerichtetes 'C' mit dicken Konturen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          552,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Weiteres rückwärtiges 'C'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          588,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "math_times",
+        "description": "Kreuz- oder 'x'-Form mit zwei diagonalen Strichen",
+        "confidence": 0.85,
+        "unicode_codepoint_candidate": "U+0078"
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          632,
+          18,
+          30,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Stilisierte '4' oder kyrillisches 'ч' mit offener Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          665,
+          18,
+          32,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Winkelzeichen 'Г'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.257,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          18,
+          25,
+          35
+        ],
+        "visual_kind": "digit",
+        "description": "Stilisierte '3' mit kantigen Bögen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 78,
+      "iou": 0.247,
+      "page_glyph_bbox": [
+        560,
+        659,
+        369,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        742,
+        18,
+        26,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Kleinbuchstabe-ähnliche 'h'-Form",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        777,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "S-förmige Schlaufe ('s' oder 'S')",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        801,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Zweite S-förmige Schlaufe",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        845,
+        18,
+        30,
+        35
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rückwärts-'C'",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        876,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "'h'-ähnliche Form",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        920,
+        18,
+        32,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Stilisierte '4' oder 'ч'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        956,
+        18,
+        28,
+        35
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rückwärts-'C'",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        988,
+        18,
+        30,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Klar erkennbares 'X' mit zwei sich kreuzenden Diagonalen",
+      "confidence": 0.9,
+      "unicode_codepoint_candidate": "U+0058"
+    },
+    {
+      "bbox": [
+        1040,
+        18,
+        32,
+        35
+      ],
+      "visual_kind": "geometric_filled_square",
+      "description": "'D'-Form mit gerader Vertikale und Halbkreis",
+      "confidence": 0.85,
+      "unicode_codepoint_candidate": "U+0044"
+    },
+    {
+      "bbox": [
+        1075,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "S-Schlaufe",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1100,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Zweite S-Schlaufe",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1145,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Schmaler Vertikalstrich 'l'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1170,
+        18,
+        32,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Stilisierte '4' / 'ч'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1220,
+        18,
+        32,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "'H'-Form mit zwei Vertikalen und Querstrich",
+      "confidence": 0.9,
+      "unicode_codepoint_candidate": "U+0048"
+    },
+    {
+      "bbox": [
+        1255,
+        18,
+        32,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Stilisierte '4' / 'ч'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1300,
+        18,
+        30,
+        35
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Rückwärts-'C'",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1330,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "Schmaler Vertikalstrich 'l'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1355,
+        18,
+        22,
+        35
+      ],
+      "visual_kind": "unknown",
+      "description": "'h'-Form mit Aufstrich",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 10: latin -> RS AND UNDERSTAND THEIR MEANING, IS THE WAY OPE"
+}

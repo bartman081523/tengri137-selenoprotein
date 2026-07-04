@@ -1,0 +1,3667 @@
+{
+  "page_id": "p23",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 30,
+  "n_latin_tokens": 65,
+  "n_regions": 18,
+  "n_glyphs_with_vision_match": 4,
+  "schmeh_hint": {
+    "n_latin": 30,
+    "n_glyphs": 1,
+    "has_glyphs": true,
+    "has_magic_cube": false,
+    "has_rings": false,
+    "has_burumut_block": true
+  },
+  "regions": [
+    {
+      "region_id": "p23_R1",
+      "bbox": [
+        127,
+        42,
+        836,
+        70
+      ],
+      "region_type": "header",
+      "description": "Line 1, y_center=74.0, glyphs=2, latin=2",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 968,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 1,
+          "bbox": [
+            137,
+            54,
+            49,
+            49
+          ],
+          "size_px": 604,
+          "fill_ratio": 0.2516,
+          "n_components": 4,
+          "components": [
+            18555,
+            18556,
+            18557,
+            18560
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 969,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_OTHER_0011",
+          "line_id": 1,
+          "bbox": [
+            935,
+            52,
+            19,
+            49
+          ],
+          "size_px": 411,
+          "fill_ratio": 0.4415,
+          "n_components": 3,
+          "components": [
+            18554,
+            18558,
+            18559
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NH",
+          "bbox": [
+            0,
+            10,
+            50,
+            45
+          ],
+          "conf": 0.97,
+          "line_id": 1,
+          "source": "vision"
+        },
+        {
+          "text": "O",
+          "bbox": [
+            1545,
+            10,
+            30,
+            45
+          ],
+          "conf": 0.98,
+          "line_id": 1,
+          "source": "vision"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "NH2— ... —C(=O)",
+          "bbox": [
+            0,
+            10,
+            1640,
+            90
+          ],
+          "line_id": 1
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            48,
+            35,
+            25,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "single_bond",
+          "description": "Vertikale Einfachbindung (dünne Linie) abwärts vom 'N' der NH2-Gruppe",
+          "bbox": [
+            22,
+            50,
+            25,
+            35
+          ]
+        },
+        {
+          "type": "double_bond",
+          "description": "Vertikale Doppelbindung (zwei parallele Linien) abwärts vom 'O' der Carbonylgruppe",
+          "bbox": [
+            1555,
+            50,
+            30,
+            35
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R2",
+      "bbox": [
+        79,
+        93,
+        993,
+        78
+      ],
+      "region_type": "formula_block",
+      "description": "Line 2, y_center=134.2, glyphs=2, latin=1",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 970,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_LINE_0020",
+          "line_id": 2,
+          "bbox": [
+            89,
+            104,
+            173,
+            58
+          ],
+          "size_px": 1320,
+          "fill_ratio": 0.1316,
+          "n_components": 10,
+          "components": [
+            18562,
+            18564,
+            18565,
+            18568,
+            18569,
+            18571,
+            18579,
+            18573,
+            18580,
+            18575
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 971,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_LINE_0020",
+          "line_id": 2,
+          "bbox": [
+            868,
+            103,
+            195,
+            57
+          ],
+          "size_px": 1456,
+          "fill_ratio": 0.131,
+          "n_components": 10,
+          "components": [
+            18561,
+            18563,
+            18566,
+            18567,
+            18570,
+            18577,
+            18578,
+            18576,
+            18572,
+            18574
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "ONLY THE CHOSEN ONE CAN COME TO",
+          "bbox": [
+            79,
+            93,
+            993,
+            78
+          ],
+          "conf": 0.5,
+          "line_id": 2,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "N=C-N=C-CH",
+          "bbox": [
+            0,
+            0,
+            300,
+            120
+          ],
+          "line_id": 2
+        },
+        {
+          "raw": "N=C-N=C-CH",
+          "bbox": [
+            900,
+            0,
+            1280,
+            120
+          ],
+          "line_id": 2
+        }
+      ],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "chemical_bond_double",
+          "description": "Doppelbindung (zwei parallele Linien) zwischen N und C",
+          "bbox": [
+            40,
+            10,
+            100,
+            60
+          ]
+        },
+        {
+          "type": "chemical_bond_double",
+          "description": "Doppelbindung zwischen C und N",
+          "bbox": [
+            200,
+            30,
+            260,
+            80
+          ]
+        },
+        {
+          "type": "chemical_bond_single",
+          "description": "Einfachbindung zwischen C und N",
+          "bbox": [
+            130,
+            40,
+            200,
+            60
+          ]
+        },
+        {
+          "type": "chemical_bond_double",
+          "description": "Doppelbindung in rechter Struktur",
+          "bbox": [
+            1000,
+            10,
+            1060,
+            60
+          ]
+        },
+        {
+          "type": "chemical_bond_double",
+          "description": "Doppelbindung in rechter Struktur",
+          "bbox": [
+            1170,
+            30,
+            1230,
+            80
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R3",
+      "bbox": [
+        86,
+        146,
+        1014,
+        48
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=169.7, glyphs=6, latin=6",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 972,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 3,
+          "bbox": [
+            96,
+            157,
+            5,
+            28
+          ],
+          "size_px": 107,
+          "fill_ratio": 0.7643,
+          "n_components": 1,
+          "components": [
+            18584
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 973,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+          "line_id": 3,
+          "bbox": [
+            186,
+            157,
+            10,
+            28
+          ],
+          "size_px": 215,
+          "fill_ratio": 0.7679,
+          "n_components": 2,
+          "components": [
+            18586,
+            18585
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 974,
+          "page": "p23",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 3,
+          "bbox": [
+            257,
+            162,
+            33,
+            20
+          ],
+          "size_px": 361,
+          "fill_ratio": 0.547,
+          "n_components": 2,
+          "components": [
+            18590,
+            18589
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 975,
+          "page": "p23",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 3,
+          "bbox": [
+            898,
+            156,
+            5,
+            28
+          ],
+          "size_px": 93,
+          "fill_ratio": 0.6643,
+          "n_components": 1,
+          "components": [
+            18581
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 976,
+          "page": "p23",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+          "line_id": 3,
+          "bbox": [
+            987,
+            156,
+            10,
+            28
+          ],
+          "size_px": 216,
+          "fill_ratio": 0.7714,
+          "n_components": 2,
+          "components": [
+            18582,
+            18583
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 977,
+          "page": "p23",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 3,
+          "bbox": [
+            1057,
+            160,
+            34,
+            20
+          ],
+          "size_px": 355,
+          "fill_ratio": 0.5221,
+          "n_components": 2,
+          "components": [
+            18588,
+            18587
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "N",
+          "bbox": [
+            0,
+            0,
+            18,
+            60
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            40,
+            0,
+            18,
+            60
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "vision"
+        },
+        {
+          "text": "CH",
+          "bbox": [
+            85,
+            0,
+            28,
+            60
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "vision"
+        },
+        {
+          "text": "HN",
+          "bbox": [
+            745,
+            0,
+            32,
+            60
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            820,
+            0,
+            18,
+            60
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "vision"
+        },
+        {
+          "text": "CH",
+          "bbox": [
+            875,
+            0,
+            28,
+            60
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "vision"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "separator",
+          "description": "Kleiner vertikaler Strich/Trennmarke zwischen C und CH auf der linken Seite",
+          "bbox": [
+            68,
+            5,
+            5,
+            50
+          ]
+        },
+        {
+          "type": "separator",
+          "description": "Kleiner vertikaler Strich/Trennmarke zwischen C und CH auf der rechten Seite",
+          "bbox": [
+            858,
+            5,
+            5,
+            50
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R4",
+      "bbox": [
+        62,
+        172,
+        1010,
+        131
+      ],
+      "region_type": "header",
+      "description": "Line 4, y_center=249.4, glyphs=2, latin=14",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 978,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_LINE_0020",
+          "line_id": 4,
+          "bbox": [
+            72,
+            183,
+            190,
+            71
+          ],
+          "size_px": 1635,
+          "fill_ratio": 0.1212,
+          "n_components": 11,
+          "components": [
+            18595,
+            18592,
+            18597,
+            18596,
+            18600,
+            18601,
+            18604,
+            18606,
+            18608,
+            18610,
+            18615
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Linke chemische Strukturformel: HN=CH-NH-CH=NH-Fragment, gezeichnet als Kette von Knotenpunkten (N, C) mit Doppel- und Einfachbindungen sowie angehängten H-Atomen.",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 979,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 4,
+          "bbox": [
+            246,
+            182,
+            817,
+            112
+          ],
+          "size_px": 5978,
+          "fill_ratio": 0.0653,
+          "n_components": 54,
+          "components": [
+            18593,
+            18591,
+            18594,
+            18598,
+            18599,
+            18602,
+            18603,
+            18605,
+            18607,
+            18609,
+            18612,
+            18611,
+            18613,
+            18614,
+            18616,
+            18617,
+            18637,
+            18630,
+            18631,
+            18620,
+            18627,
+            18651,
+            18622,
+            18641,
+            18623,
+            18629,
+            18640,
+            18635,
+            18624,
+            18644,
+            18628,
+            18633,
+            18646,
+            18634,
+            18636,
+            18638,
+            18643,
+            18626,
+            18632,
+            18619,
+            18645,
+            18621,
+            18625,
+            18618,
+            18642,
+            18639,
+            18647,
+            18648,
+            18649,
+            18650,
+            18652,
+            18653,
+            18654,
+            18655
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Rechte chemische Strukturformel: H2N-C=N-C-NH-Fragment, analoges Muster mit N- und C-Atomen, Doppel- und Einfachbindungen und H-Substituenten.",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "HC",
+          "bbox": [
+            0,
+            25,
+            30,
+            25
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            25,
+            50,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            70,
+            5,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            88,
+            50,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "H",
+          "bbox": [
+            83,
+            75,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            120,
+            25,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "H",
+          "bbox": [
+            105,
+            0,
+            22,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            140,
+            0,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "H2N",
+          "bbox": [
+            620,
+            50,
+            45,
+            25
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            680,
+            5,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            700,
+            50,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            730,
+            25,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            755,
+            0,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        },
+        {
+          "text": "H",
+          "bbox": [
+            755,
+            50,
+            18,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "vision"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "2^2 x 17 x 19 x 55627057 x 7200332325968813",
+          "bbox": [
+            220,
+            125,
+            510,
+            40
+          ],
+          "line_id": 4
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            230,
+            130,
+            14,
+            30
+          ]
+        },
+        {
+          "value": "17",
+          "bbox": [
+            278,
+            130,
+            22,
+            30
+          ]
+        },
+        {
+          "value": "19",
+          "bbox": [
+            318,
+            130,
+            22,
+            30
+          ]
+        },
+        {
+          "value": "55627057",
+          "bbox": [
+            358,
+            130,
+            105,
+            30
+          ]
+        },
+        {
+          "value": "7200332325968813",
+          "bbox": [
+            488,
+            130,
+            230,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Durchgehende horizontale Trennlinie unterhalb der Faktorisierungsformel, vermutlich Hinweis auf eine Division oder einen Bruchstrich.",
+          "bbox": [
+            170,
+            168,
+            555,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R5",
+      "bbox": [
+        239,
+        291,
+        648,
+        48
+      ],
+      "region_type": "latin_text",
+      "description": "Line 5, y_center=319.4, glyphs=1, latin=1",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 980,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 5,
+          "bbox": [
+            249,
+            301,
+            629,
+            29
+          ],
+          "size_px": 3045,
+          "fill_ratio": 0.1669,
+          "n_components": 46,
+          "components": [
+            18656,
+            18666,
+            18680,
+            18664,
+            18688,
+            18695,
+            18672,
+            18673,
+            18675,
+            18684,
+            18657,
+            18659,
+            18677,
+            18683,
+            18686,
+            18665,
+            18663,
+            18679,
+            18662,
+            18671,
+            18660,
+            18668,
+            18669,
+            18682,
+            18685,
+            18658,
+            18661,
+            18667,
+            18676,
+            18678,
+            18681,
+            18674,
+            18670,
+            18689,
+            18692,
+            18693,
+            18690,
+            18694,
+            18687,
+            18691,
+            18696,
+            18697,
+            18698,
+            18699,
+            18700,
+            18701
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "YOUR CIVILISATION WILL BE DESTROYED",
+          "bbox": [
+            239,
+            291,
+            648,
+            48
+          ],
+          "conf": 0.5,
+          "line_id": 5,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R6",
+      "bbox": [
+        235,
+        374,
+        656,
+        79
+      ],
+      "region_type": "formula_block",
+      "description": "Line 6, y_center=416.9, glyphs=1, latin=1",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 981,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 6,
+          "bbox": [
+            245,
+            384,
+            637,
+            60
+          ],
+          "size_px": 6712,
+          "fill_ratio": 0.1756,
+          "n_components": 78,
+          "components": [
+            18702,
+            18726,
+            18715,
+            18729,
+            18711,
+            18727,
+            18722,
+            18712,
+            18713,
+            18707,
+            18719,
+            18721,
+            18724,
+            18718,
+            18728,
+            18703,
+            18714,
+            18706,
+            18717,
+            18709,
+            18723,
+            18710,
+            18705,
+            18716,
+            18720,
+            18704,
+            18725,
+            18708,
+            18731,
+            18730,
+            18733,
+            18732,
+            18734,
+            18759,
+            18745,
+            18742,
+            18744,
+            18752,
+            18751,
+            18754,
+            18763,
+            18756,
+            18762,
+            18766,
+            18738,
+            18743,
+            18755,
+            18746,
+            18753,
+            18740,
+            18760,
+            18765,
+            18748,
+            18750,
+            18761,
+            18758,
+            18764,
+            18737,
+            18739,
+            18741,
+            18747,
+            18736,
+            18735,
+            18749,
+            18757,
+            18768,
+            18769,
+            18770,
+            18767,
+            18773,
+            18771,
+            18772,
+            18774,
+            18777,
+            18776,
+            18775,
+            18779,
+            18778
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "math_times",
+          "vision_description": "Kursives Multiplikationszeichen (x) zwischen Zähler-Faktoren",
+          "vision_confidence": 0.98,
+          "unicode_codepoint_candidate": "U+00D7"
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NO ONE EXCEPT THE CHOSEN ONE WILL HAVE ACCESS TO OUR DATABASE",
+          "bbox": [
+            235,
+            374,
+            656,
+            79
+          ],
+          "conf": 0.5,
+          "line_id": 6,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "22441 × 26807952781 × 220238942717 / (11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449)",
+          "bbox": [
+            10,
+            10,
+            1190,
+            218
+          ],
+          "line_id": 6
+        }
+      ],
+      "numerics": [
+        {
+          "value": "22441",
+          "bbox": [
+            128,
+            18,
+            152,
+            62
+          ]
+        },
+        {
+          "value": "26807952781",
+          "bbox": [
+            346,
+            18,
+            286,
+            62
+          ]
+        },
+        {
+          "value": "220238942717",
+          "bbox": [
+            694,
+            18,
+            286,
+            62
+          ]
+        },
+        {
+          "value": "11",
+          "bbox": [
+            15,
+            147,
+            52,
+            62
+          ]
+        },
+        {
+          "value": "29",
+          "bbox": [
+            128,
+            147,
+            60,
+            62
+          ]
+        },
+        {
+          "value": "101",
+          "bbox": [
+            254,
+            147,
+            90,
+            62
+          ]
+        },
+        {
+          "value": "239",
+          "bbox": [
+            400,
+            147,
+            84,
+            62
+          ]
+        },
+        {
+          "value": "281",
+          "bbox": [
+            536,
+            147,
+            84,
+            62
+          ]
+        },
+        {
+          "value": "4649",
+          "bbox": [
+            678,
+            147,
+            110,
+            62
+          ]
+        },
+        {
+          "value": "909091",
+          "bbox": [
+            836,
+            147,
+            124,
+            62
+          ]
+        },
+        {
+          "value": "121499449",
+          "bbox": [
+            1006,
+            147,
+            182,
+            62
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Bruchstrich (Fraktionslinie) zwischen Zähler und Nenner, durchgezogen",
+          "bbox": [
+            10,
+            108,
+            1190,
+            6
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R7",
+      "bbox": [
+        213,
+        488,
+        699,
+        51
+      ],
+      "region_type": "formula_block",
+      "description": "Line 7, y_center=508.3, glyphs=1, latin=1",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 982,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 7,
+          "bbox": [
+            223,
+            498,
+            680,
+            32
+          ],
+          "size_px": 3842,
+          "fill_ratio": 0.1766,
+          "n_components": 36,
+          "components": [
+            18787,
+            18780,
+            18806,
+            18803,
+            18804,
+            18805,
+            18790,
+            18788,
+            18796,
+            18808,
+            18783,
+            18799,
+            18784,
+            18785,
+            18793,
+            18797,
+            18792,
+            18794,
+            18800,
+            18782,
+            18798,
+            18791,
+            18807,
+            18786,
+            18795,
+            18789,
+            18802,
+            18781,
+            18801,
+            18810,
+            18809,
+            18811,
+            18812,
+            18813,
+            18814,
+            18815
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "digit",
+          "vision_description": "Zahl 2633 in lateinischen Ziffern",
+          "vision_confidence": 0.99,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NOW WE SHOULD CHOOSE OUR NEXT MESSENGER",
+          "bbox": [
+            213,
+            488,
+            699,
+            51
+          ],
+          "conf": 0.5,
+          "line_id": 7,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "2633 x 8867291 x 37287337 x 1498430561",
+          "bbox": [
+            168,
+            0,
+            720,
+            70
+          ],
+          "line_id": 7
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2633",
+          "bbox": [
+            168,
+            0,
+            95,
+            70
+          ]
+        },
+        {
+          "value": "8867291",
+          "bbox": [
+            325,
+            0,
+            135,
+            70
+          ]
+        },
+        {
+          "value": "37287337",
+          "bbox": [
+            520,
+            0,
+            135,
+            70
+          ]
+        },
+        {
+          "value": "1498430561",
+          "bbox": [
+            715,
+            0,
+            175,
+            70
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Durchgehende horizontale Trennlinie unter der Formel",
+          "bbox": [
+            0,
+            75,
+            1000,
+            5
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R8",
+      "bbox": [
+        216,
+        528,
+        693,
+        40
+      ],
+      "region_type": "single_glyph",
+      "description": "Line 8, y_center=548.5, glyphs=1, latin=1",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 983,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 8,
+          "bbox": [
+            226,
+            538,
+            674,
+            21
+          ],
+          "size_px": 3108,
+          "fill_ratio": 0.2196,
+          "n_components": 44,
+          "components": [
+            18821,
+            18850,
+            18823,
+            18837,
+            18818,
+            18829,
+            18830,
+            18838,
+            18832,
+            18834,
+            18840,
+            18831,
+            18816,
+            18828,
+            18833,
+            18820,
+            18822,
+            18847,
+            18836,
+            18819,
+            18826,
+            18846,
+            18839,
+            18843,
+            18825,
+            18817,
+            18824,
+            18844,
+            18835,
+            18842,
+            18827,
+            18845,
+            18841,
+            18854,
+            18855,
+            18856,
+            18849,
+            18851,
+            18852,
+            18848,
+            18853,
+            18857,
+            18858,
+            18859
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THIS IS THE LAST",
+          "bbox": [
+            216,
+            528,
+            693,
+            40
+          ],
+          "conf": 0.5,
+          "line_id": 8,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R9",
+      "bbox": [
+        235,
+        603,
+        656,
+        79
+      ],
+      "region_type": "formula_block",
+      "description": "Line 9, y_center=646.9, glyphs=1, latin=1",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 984,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 9,
+          "bbox": [
+            245,
+            613,
+            637,
+            60
+          ],
+          "size_px": 7473,
+          "fill_ratio": 0.1955,
+          "n_components": 79,
+          "components": [
+            18876,
+            18860,
+            18879,
+            18866,
+            18880,
+            18881,
+            18882,
+            18875,
+            18884,
+            18863,
+            18877,
+            18862,
+            18874,
+            18885,
+            18861,
+            18867,
+            18872,
+            18868,
+            18870,
+            18878,
+            18883,
+            18864,
+            18871,
+            18865,
+            18886,
+            18873,
+            18869,
+            18887,
+            18888,
+            18889,
+            18890,
+            18891,
+            18894,
+            18902,
+            18927,
+            18930,
+            18909,
+            18920,
+            18908,
+            18911,
+            18919,
+            18901,
+            18913,
+            18923,
+            18895,
+            18897,
+            18903,
+            18910,
+            18912,
+            18900,
+            18922,
+            18907,
+            18918,
+            18905,
+            18917,
+            18921,
+            18915,
+            18898,
+            18896,
+            18906,
+            18904,
+            18893,
+            18892,
+            18899,
+            18916,
+            18914,
+            18925,
+            18931,
+            18932,
+            18926,
+            18924,
+            18929,
+            18928,
+            18933,
+            18934,
+            18936,
+            18937,
+            18935,
+            18938
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THE REWARD IS THE ACCESS TO OUR ETERNAL LIBRARY",
+          "bbox": [
+            235,
+            603,
+            656,
+            79
+          ],
+          "conf": 0.5,
+          "line_id": 9,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "7 × 3386469421 × 1412302817593683 / 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 121499449",
+          "bbox": [
+            25,
+            20,
+            720,
+            165
+          ],
+          "line_id": 9
+        }
+      ],
+      "numerics": [
+        {
+          "value": "7",
+          "bbox": [
+            90,
+            20,
+            20,
+            55
+          ]
+        },
+        {
+          "value": "3386469421",
+          "bbox": [
+            145,
+            20,
+            180,
+            55
+          ]
+        },
+        {
+          "value": "1412302817593683",
+          "bbox": [
+            360,
+            20,
+            280,
+            55
+          ]
+        },
+        {
+          "value": "11",
+          "bbox": [
+            25,
+            130,
+            40,
+            55
+          ]
+        },
+        {
+          "value": "29",
+          "bbox": [
+            95,
+            130,
+            40,
+            55
+          ]
+        },
+        {
+          "value": "101",
+          "bbox": [
+            165,
+            130,
+            55,
+            55
+          ]
+        },
+        {
+          "value": "239",
+          "bbox": [
+            245,
+            130,
+            55,
+            55
+          ]
+        },
+        {
+          "value": "281",
+          "bbox": [
+            325,
+            130,
+            55,
+            55
+          ]
+        },
+        {
+          "value": "4649",
+          "bbox": [
+            405,
+            130,
+            65,
+            55
+          ]
+        },
+        {
+          "value": "909091",
+          "bbox": [
+            495,
+            130,
+            90,
+            55
+          ]
+        },
+        {
+          "value": "121499449",
+          "bbox": [
+            610,
+            130,
+            135,
+            55
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "fraction_bar",
+          "description": "Horizontale Trennlinie zwischen Zähler und Nenner des Bruchs",
+          "bbox": [
+            25,
+            90,
+            720,
+            5
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R10",
+      "bbox": [
+        213,
+        698,
+        880,
+        123
+      ],
+      "region_type": "latin_text",
+      "description": "Line 10, y_center=766.2, glyphs=2, latin=1",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 985,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 10,
+          "bbox": [
+            223,
+            725,
+            680,
+            69
+          ],
+          "size_px": 7196,
+          "fill_ratio": 0.1534,
+          "n_components": 83,
+          "components": [
+            18940,
+            18966,
+            18942,
+            18971,
+            18961,
+            18969,
+            18968,
+            18951,
+            18948,
+            18970,
+            18953,
+            18946,
+            18947,
+            18952,
+            18958,
+            18962,
+            18945,
+            18944,
+            18959,
+            18963,
+            18955,
+            18964,
+            18943,
+            18956,
+            18957,
+            18949,
+            18954,
+            18960,
+            18965,
+            18950,
+            18967,
+            18972,
+            18974,
+            18973,
+            18975,
+            18976,
+            18977,
+            18978,
+            18980,
+            18989,
+            18985,
+            19001,
+            19009,
+            19010,
+            18999,
+            19012,
+            18991,
+            18998,
+            19003,
+            18981,
+            18987,
+            18993,
+            18990,
+            19000,
+            19002,
+            19005,
+            19007,
+            18982,
+            18994,
+            18995,
+            19011,
+            18986,
+            18988,
+            18996,
+            18997,
+            19008,
+            18992,
+            18984,
+            18983,
+            19006,
+            19004,
+            19016,
+            19022,
+            19019,
+            19021,
+            19015,
+            19018,
+            19017,
+            19020,
+            19023,
+            19024,
+            19025,
+            19026
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 986,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+          "line_id": 10,
+          "bbox": [
+            936,
+            708,
+            148,
+            104
+          ],
+          "size_px": 1595,
+          "fill_ratio": 0.1036,
+          "n_components": 9,
+          "components": [
+            18939,
+            18941,
+            18979,
+            19013,
+            19014,
+            19028,
+            19027,
+            19029,
+            19030
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "UPCOMING TEXTS ARE GENETICALLY ENCRYPTED",
+          "bbox": [
+            213,
+            698,
+            880,
+            123
+          ],
+          "conf": 0.5,
+          "line_id": 10,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R11",
+      "bbox": [
+        954,
+        801,
+        117,
+        48
+      ],
+      "region_type": "latin_text",
+      "description": "Line 11, y_center=824.7, glyphs=2, latin=1",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 987,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0003",
+          "line_id": 11,
+          "bbox": [
+            964,
+            811,
+            5,
+            29
+          ],
+          "size_px": 99,
+          "fill_ratio": 0.6828,
+          "n_components": 1,
+          "components": [
+            19031
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 988,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+          "line_id": 11,
+          "bbox": [
+            1053,
+            812,
+            9,
+            28
+          ],
+          "size_px": 191,
+          "fill_ratio": 0.7579,
+          "n_components": 1,
+          "components": [
+            19032
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "II",
+          "bbox": [
+            178,
+            38,
+            30,
+            26
+          ],
+          "conf": 0.8,
+          "line_id": 11,
+          "source": "vision"
+        }
+      ],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "II",
+          "bbox": [
+            178,
+            38,
+            30,
+            26
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "fragmented_layout",
+          "description": "Große horizontale Lücke zwischen linker und rechter Buchstabengruppe; die Zeile wirkt wie zwei abgeschnittene Wort-/Buchstabenfragmente mit weitem Mittelbereich.",
+          "bbox": [
+            35,
+            0,
+            140,
+            100
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R12",
+      "bbox": [
+        264,
+        831,
+        829,
+        96
+      ],
+      "region_type": "latin_text",
+      "description": "Line 12, y_center=882.0, glyphs=2, latin=1",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 989,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 12,
+          "bbox": [
+            274,
+            849,
+            579,
+            66
+          ],
+          "size_px": 6247,
+          "fill_ratio": 0.1635,
+          "n_components": 70,
+          "components": [
+            19039,
+            19058,
+            19062,
+            19036,
+            19055,
+            19046,
+            19043,
+            19060,
+            19051,
+            19059,
+            19052,
+            19061,
+            19038,
+            19044,
+            19057,
+            19037,
+            19041,
+            19042,
+            19045,
+            19047,
+            19049,
+            19056,
+            19040,
+            19053,
+            19048,
+            19050,
+            19054,
+            19064,
+            19065,
+            19063,
+            19072,
+            19073,
+            19094,
+            19102,
+            19078,
+            19080,
+            19101,
+            19086,
+            19091,
+            19089,
+            19098,
+            19097,
+            19087,
+            19074,
+            19082,
+            19079,
+            19088,
+            19090,
+            19076,
+            19083,
+            19084,
+            19099,
+            19075,
+            19081,
+            19092,
+            19077,
+            19096,
+            19095,
+            19100,
+            19093,
+            19085,
+            19105,
+            19106,
+            19108,
+            19109,
+            19107,
+            19104,
+            19112,
+            19110,
+            19111
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 990,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_LINE_0020",
+          "line_id": 12,
+          "bbox": [
+            911,
+            841,
+            173,
+            77
+          ],
+          "size_px": 1567,
+          "fill_ratio": 0.1176,
+          "n_components": 10,
+          "components": [
+            19034,
+            19033,
+            19035,
+            19066,
+            19067,
+            19068,
+            19069,
+            19070,
+            19071,
+            19103
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WE HAVE EMBEDDED THESE SKILLS IN OURR GENES",
+          "bbox": [
+            264,
+            831,
+            829,
+            96
+          ],
+          "conf": 0.5,
+          "line_id": 12,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R13",
+      "bbox": [
+        213,
+        960,
+        699,
+        79
+      ],
+      "region_type": "formula_block",
+      "description": "Line 13, y_center=1002.6, glyphs=1, latin=1",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 991,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 13,
+          "bbox": [
+            223,
+            970,
+            680,
+            60
+          ],
+          "size_px": 6304,
+          "fill_ratio": 0.1545,
+          "n_components": 77,
+          "components": [
+            19129,
+            19142,
+            19131,
+            19125,
+            19140,
+            19116,
+            19118,
+            19132,
+            19133,
+            19126,
+            19136,
+            19138,
+            19134,
+            19113,
+            19121,
+            19127,
+            19130,
+            19135,
+            19137,
+            19122,
+            19123,
+            19124,
+            19115,
+            19117,
+            19114,
+            19139,
+            19119,
+            19128,
+            19120,
+            19141,
+            19143,
+            19144,
+            19145,
+            19149,
+            19157,
+            19150,
+            19163,
+            19168,
+            19175,
+            19166,
+            19156,
+            19164,
+            19174,
+            19177,
+            19154,
+            19146,
+            19147,
+            19155,
+            19172,
+            19158,
+            19167,
+            19170,
+            19171,
+            19153,
+            19159,
+            19165,
+            19151,
+            19152,
+            19162,
+            19160,
+            19173,
+            19176,
+            19148,
+            19169,
+            19161,
+            19183,
+            19179,
+            19181,
+            19184,
+            19185,
+            19182,
+            19180,
+            19178,
+            19186,
+            19187,
+            19188,
+            19189
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WHO HAS THE CORRECT GENETIC CODING WILL UNDERSTAND THIS TEXT",
+          "bbox": [
+            213,
+            960,
+            699,
+            79
+          ],
+          "conf": 0.5,
+          "line_id": 13,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "1889 x 1344613389306385590121189 / (3 x 11 x 29 x 101 x 239 x 281 x 4649 x 909091 x 121499449)",
+          "bbox": [
+            10,
+            5,
+            980,
+            145
+          ],
+          "line_id": 13
+        }
+      ],
+      "numerics": [
+        {
+          "value": "1889",
+          "bbox": [
+            180,
+            8,
+            70,
+            45
+          ]
+        },
+        {
+          "value": "1344613389306385590121189",
+          "bbox": [
+            300,
+            8,
+            600,
+            45
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            20,
+            100,
+            30,
+            45
+          ]
+        },
+        {
+          "value": "11",
+          "bbox": [
+            115,
+            100,
+            45,
+            45
+          ]
+        },
+        {
+          "value": "29",
+          "bbox": [
+            215,
+            100,
+            50,
+            45
+          ]
+        },
+        {
+          "value": "101",
+          "bbox": [
+            310,
+            100,
+            65,
+            45
+          ]
+        },
+        {
+          "value": "239",
+          "bbox": [
+            420,
+            100,
+            65,
+            45
+          ]
+        },
+        {
+          "value": "281",
+          "bbox": [
+            530,
+            100,
+            65,
+            45
+          ]
+        },
+        {
+          "value": "4649",
+          "bbox": [
+            635,
+            100,
+            80,
+            45
+          ]
+        },
+        {
+          "value": "909091",
+          "bbox": [
+            760,
+            100,
+            90,
+            45
+          ]
+        },
+        {
+          "value": "121499449",
+          "bbox": [
+            885,
+            100,
+            100,
+            45
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "fraction_bar",
+          "description": "Horizontale durchgehende Trennlinie zwischen Zähler und Nenner, dünner schwarzer Strich über die volle Breite der Zeile.",
+          "bbox": [
+            5,
+            62,
+            985,
+            5
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R14",
+      "bbox": [
+        213,
+        1072,
+        699,
+        60
+      ],
+      "region_type": "single_glyph",
+      "description": "Line 14, y_center=1100.7, glyphs=1, latin=1",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 992,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 14,
+          "bbox": [
+            223,
+            1082,
+            680,
+            41
+          ],
+          "size_px": 4908,
+          "fill_ratio": 0.176,
+          "n_components": 47,
+          "components": [
+            19190,
+            19217,
+            19221,
+            19191,
+            19216,
+            19211,
+            19212,
+            19194,
+            19193,
+            19225,
+            19205,
+            19219,
+            19228,
+            19201,
+            19195,
+            19220,
+            19215,
+            19200,
+            19209,
+            19199,
+            19197,
+            19206,
+            19196,
+            19214,
+            19210,
+            19203,
+            19208,
+            19213,
+            19202,
+            19192,
+            19218,
+            19198,
+            19207,
+            19204,
+            19226,
+            19223,
+            19224,
+            19227,
+            19222,
+            19229,
+            19232,
+            19230,
+            19233,
+            19231,
+            19234,
+            19235,
+            19236
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "ALL OTHERS WILL FAIL",
+          "bbox": [
+            213,
+            1072,
+            699,
+            60
+          ],
+          "conf": 0.5,
+          "line_id": 14,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R15",
+      "bbox": [
+        216,
+        1121,
+        693,
+        39
+      ],
+      "region_type": "latin_text",
+      "description": "Line 15, y_center=1140.5, glyphs=1, latin=1",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 993,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 15,
+          "bbox": [
+            226,
+            1131,
+            674,
+            20
+          ],
+          "size_px": 3060,
+          "fill_ratio": 0.227,
+          "n_components": 47,
+          "components": [
+            19262,
+            19240,
+            19248,
+            19270,
+            19275,
+            19279,
+            19265,
+            19268,
+            19259,
+            19241,
+            19247,
+            19254,
+            19255,
+            19237,
+            19257,
+            19266,
+            19245,
+            19238,
+            19246,
+            19263,
+            19261,
+            19244,
+            19249,
+            19250,
+            19258,
+            19242,
+            19243,
+            19239,
+            19256,
+            19253,
+            19264,
+            19251,
+            19260,
+            19267,
+            19252,
+            19271,
+            19276,
+            19278,
+            19272,
+            19273,
+            19274,
+            19277,
+            19269,
+            19280,
+            19282,
+            19283,
+            19281
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "B U R U M U T R E F A M T U",
+          "bbox": [
+            216,
+            1121,
+            693,
+            39
+          ],
+          "conf": 0.5,
+          "line_id": 15,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R16",
+      "bbox": [
+        186,
+        1195,
+        754,
+        86
+      ],
+      "region_type": "latin_text",
+      "description": "Line 16, y_center=1242.8, glyphs=1, latin=1",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 994,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0016",
+          "line_id": 16,
+          "bbox": [
+            196,
+            1205,
+            735,
+            67
+          ],
+          "size_px": 6895,
+          "fill_ratio": 0.14,
+          "n_components": 83,
+          "components": [
+            19287,
+            19294,
+            19310,
+            19307,
+            19285,
+            19305,
+            19297,
+            19299,
+            19308,
+            19288,
+            19301,
+            19286,
+            19300,
+            19295,
+            19303,
+            19284,
+            19290,
+            19289,
+            19292,
+            19304,
+            19306,
+            19291,
+            19298,
+            19309,
+            19302,
+            19293,
+            19296,
+            19311,
+            19312,
+            19313,
+            19314,
+            19315,
+            19316,
+            19317,
+            19318,
+            19328,
+            19330,
+            19338,
+            19343,
+            19344,
+            19348,
+            19358,
+            19339,
+            19334,
+            19336,
+            19319,
+            19322,
+            19324,
+            19335,
+            19329,
+            19321,
+            19323,
+            19337,
+            19340,
+            19342,
+            19345,
+            19347,
+            19333,
+            19320,
+            19346,
+            19327,
+            19331,
+            19350,
+            19341,
+            19332,
+            19326,
+            19325,
+            19349,
+            19355,
+            19352,
+            19354,
+            19361,
+            19351,
+            19353,
+            19356,
+            19357,
+            19359,
+            19360,
+            19362,
+            19363,
+            19365,
+            19364,
+            19366
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "N U R E S U T R E G U M F A",
+          "bbox": [
+            186,
+            1195,
+            754,
+            86
+          ],
+          "conf": 0.5,
+          "line_id": 16,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R17",
+      "bbox": [
+        29,
+        1315,
+        1073,
+        286
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=1441.1, glyphs=2, latin=17",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 995,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0014",
+          "line_id": 17,
+          "bbox": [
+            39,
+            1371,
+            169,
+            208
+          ],
+          "size_px": 3335,
+          "fill_ratio": 0.0949,
+          "n_components": 24,
+          "components": [
+            19401,
+            19402,
+            19435,
+            19444,
+            19449,
+            19451,
+            19452,
+            19455,
+            19459,
+            19461,
+            19460,
+            19498,
+            19499,
+            19500,
+            19544,
+            19545,
+            19543,
+            19551,
+            19553,
+            19552,
+            19554,
+            19558,
+            19560,
+            19563
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 996,
+          "page": "p23",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_SINGLETON_0022",
+          "line_id": 17,
+          "bbox": [
+            245,
+            1325,
+            848,
+            267
+          ],
+          "size_px": 17222,
+          "fill_ratio": 0.0761,
+          "n_components": 174,
+          "components": [
+            19367,
+            19369,
+            19370,
+            19390,
+            19372,
+            19376,
+            19377,
+            19379,
+            19384,
+            19381,
+            19386,
+            19371,
+            19374,
+            19394,
+            19380,
+            19383,
+            19368,
+            19382,
+            19389,
+            19373,
+            19387,
+            19392,
+            19378,
+            19388,
+            19385,
+            19393,
+            19375,
+            19391,
+            19396,
+            19397,
+            19395,
+            19398,
+            19399,
+            19400,
+            19403,
+            19436,
+            19423,
+            19405,
+            19417,
+            19406,
+            19419,
+            19427,
+            19426,
+            19429,
+            19404,
+            19409,
+            19421,
+            19410,
+            19416,
+            19412,
+            19407,
+            19422,
+            19408,
+            19420,
+            19411,
+            19418,
+            19431,
+            19415,
+            19413,
+            19428,
+            19430,
+            19432,
+            19425,
+            19433,
+            19424,
+            19414,
+            19434,
+            19443,
+            19437,
+            19440,
+            19442,
+            19441,
+            19438,
+            19439,
+            19445,
+            19446,
+            19447,
+            19448,
+            19450,
+            19454,
+            19453,
+            19458,
+            19456,
+            19457,
+            19478,
+            19467,
+            19485,
+            19490,
+            19462,
+            19492,
+            19480,
+            19470,
+            19489,
+            19464,
+            19482,
+            19465,
+            19474,
+            19488,
+            19477,
+            19463,
+            19471,
+            19476,
+            19466,
+            19473,
+            19479,
+            19481,
+            19483,
+            19486,
+            19472,
+            19475,
+            19484,
+            19487,
+            19468,
+            19469,
+            19493,
+            19491,
+            19494,
+            19495,
+            19496,
+            19497,
+            19501,
+            19502,
+            19511,
+            19503,
+            19534,
+            19518,
+            19524,
+            19512,
+            19526,
+            19533,
+            19523,
+            19535,
+            19519,
+            19528,
+            19516,
+            19531,
+            19530,
+            19532,
+            19515,
+            19517,
+            19520,
+            19525,
+            19510,
+            19513,
+            19521,
+            19527,
+            19529,
+            19509,
+            19514,
+            19505,
+            19508,
+            19504,
+            19506,
+            19507,
+            19522,
+            19538,
+            19536,
+            19542,
+            19537,
+            19539,
+            19540,
+            19541,
+            19546,
+            19547,
+            19549,
+            19548,
+            19550,
+            19555,
+            19556,
+            19557,
+            19559,
+            19561,
+            19562,
+            19564
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NH2",
+          "bbox": [
+            85,
+            50,
+            45,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            120,
+            90,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            40,
+            130,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "CH",
+          "bbox": [
+            180,
+            130,
+            30,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            45,
+            200,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "O",
+          "bbox": [
+            18,
+            222,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "NH",
+          "bbox": [
+            115,
+            260,
+            30,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "O",
+          "bbox": [
+            710,
+            50,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            675,
+            80,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "CH3",
+          "bbox": [
+            735,
+            80,
+            40,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "HN",
+          "bbox": [
+            625,
+            130,
+            30,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            675,
+            160,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "O",
+          "bbox": [
+            620,
+            200,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "C",
+          "bbox": [
+            675,
+            200,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "NH",
+          "bbox": [
+            705,
+            240,
+            30,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "CH",
+          "bbox": [
+            715,
+            285,
+            30,
+            22
+          ],
+          "conf": 0.98,
+          "line_id": 17,
+          "source": "vision"
+        },
+        {
+          "text": "N",
+          "bbox": [
+            740,
+            260,
+            18,
+            22
+          ],
+          "conf": 0.99,
+          "line_id": 17,
+          "source": "vision"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "2^7 × 2729 × 486954583 × 1056312876821 / 3^2 × 29 × 101 × 239 × 281 × 4649 × 909091 × 1214994449",
+          "bbox": [
+            245,
+            18,
+            535,
+            100
+          ],
+          "line_id": 17
+        },
+        {
+          "raw": "19 × 31 × 73151809 × 3847851920700457 / 11 × 29 × 101 × 239 × 281 × 4649 × 909091 × 1214994449",
+          "bbox": [
+            245,
+            160,
+            535,
+            105
+          ],
+          "line_id": 17
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            108,
+            55,
+            10,
+            14
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            760,
+            85,
+            10,
+            14
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "chemical_structure_diagram",
+          "description": "Strukturformel von Cytosin: Pyrimidin-Ring mit NH2-Gruppe (oben), N (links), CH (rechts), C (unten links) und C=O (unten) sowie NH (unten rechts). Doppelbindungen als parallele Linien dargestellt.",
+          "bbox": [
+            10,
+            30,
+            215,
+            270
+          ]
+        },
+        {
+          "type": "chemical_structure_diagram",
+          "description": "Strukturformel von Thymin: Pyrimidin-Ring mit O (oben, C=O), C mit CH3-Verzweigung (oben rechts), HN (links), C (mitte), C=O (unten links), NH (unten), N (rechts unten) und CH (rechts).",
+          "bbox": [
+            610,
+            30,
+            175,
+            280
+          ]
+        },
+        {
+          "type": "horizontal_fraction_bar",
+          "description": "Bruchstrich der oberen Gleichung",
+          "bbox": [
+            245,
+            63,
+            535,
+            3
+          ]
+        },
+        {
+          "type": "horizontal_fraction_bar",
+          "description": "Bruchstrich der unteren Gleichung",
+          "bbox": [
+            245,
+            208,
+            535,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R18",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "footer",
+      "description": "Line 18, y_center=1624.0, glyphs=1, latin=1",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 997,
+          "page": "p23",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+          "line_id": 18,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            19565
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "Z A N R U A Z B E N O M B A",
+          "bbox": [
+            11,
+            1614,
+            1104,
+            11
+          ],
+          "conf": 0.5,
+          "line_id": 18,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R19_SCHMEH",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "latin_text",
+      "description": "Schmeh 2017 vollständige lateinische Sätze (1 lines, joined)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "WE WILL GIVE YOU KNOWLEDGSONLY THE CHOSEN ONE CAN COME TOAND WILL UNDERSTAND EVERYTHINGWITHOUT THIS KNOWLEDGE YOU WILL NOT REACH THE NEXT STAGEYOUR CIVILISATION WILL BE DESTROYEDNO ONE EXCEPT THE CHOSEN ONE WILL HAVE ACCESS TO OUR DATABASENOW WE SHOULD CHOOSE OUR NEXT MESSENGERTHIS IS THE LASTTHE REWARD IS THE ACCESS TO OUR ETERNAL LIBRARYUPCOMING TEXTS ARE GENETICALLY ENCRYPTEDYOUR KNOWLEDGE CAN NOT HELP AT THIS POINTWE HAVE EMBEDDED THESE SKILLS IN OURR GENESWHO HAS THE CORRECT GENETIC CODING WILL UNDERSTAND THIS TEXTALL OTHERS WILL FAIL",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R20_LETTERBLOCK",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "burumut_block",
+      "description": "Schmeh letter-block (11 Zeilen, BURUMUT-Style)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "B U R U M U T R E F A M T U",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "N U R E S U T R E G U M F A",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 2,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "Y A P S U A Z B E H I M L A",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "Z A N R U A Z B E N O M B A",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "T O B I K O T L U B U M Y O",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 5,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "S U N O K U R G A N O Z Y I",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 6,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "O K U Z I K U F A U S I H E",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 7,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "Y A B E K A N S A B E R H O",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 8,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "N A F E R A N S A H O T F E",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 9,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "K O R E M O R B I Z U M R O",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 10,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "S U N A K I R F A N E M B A",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 11,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "page": "p21",
+  "line_id": 3,
+  "line_bbox": [
+    173,
+    379,
+    371,
+    63
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Single mathematical fraction expression: numerator 3² × 19 × 45453199027830655938296603, denominator 2 × 5² × 17 × 7723 × 309251 × 22459781 × 1299616523, separated by a horizontal fraction bar. Purely mathematical/Arabic-numeric content, no Latin words and no unknown glyphs.",
+  "n_glyphs_vision": 10,
+  "n_latin_tokens": 0,
+  "n_numerics": 10,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          12,
+          13,
+          22
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplication sign 'x' between 3² and 19",
+        "confidence": 0.97
+      },
+      "matched_glyph_index": 935,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        389,
+        352,
+        44
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          97,
+          12,
+          13,
+          22
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplication sign 'x' between 19 and 45453199027830655938296603",
+        "confidence": 0.97
+      },
+      "matched_glyph_index": 935,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        389,
+        352,
+        44
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        22,
+        0,
+        13,
+        11
+      ],
+      "visual_kind": "math_exponentiation",
+      "description": "Superscript '2' as exponent of the leading 3 in numerator",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        37,
+        112,
+        13,
+        22
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between 2 and 5² in denominator",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        76,
+        99,
+        13,
+        11
+      ],
+      "visual_kind": "math_exponentiation",
+      "description": "Superscript '2' as exponent of 5 in denominator",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        96,
+        112,
+        13,
+        22
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between 5² and 17",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        157,
+        112,
+        13,
+        22
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between 17 and 7723",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        230,
+        112,
+        13,
+        22
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between 7723 and 309251",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        320,
+        112,
+        13,
+        22
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between 309251 and 22459781",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        415,
+        112,
+        13,
+        22
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication sign 'x' between 22459781 and 1299616523",
+      "confidence": 0.97
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "3",
+      "bbox": [
+        10,
+        12,
+        12,
+        22
+      ]
+    },
+    {
+      "value": "19",
+      "bbox": [
+        60,
+        12,
+        24,
+        22
+      ]
+    },
+    {
+      "value": "45453199027830655938296603",
+      "bbox": [
+        115,
+        12,
+        325,
+        22
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        12,
+        112,
+        12,
+        22
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        60,
+        112,
+        12,
+        22
+      ]
+    },
+    {
+      "value": "17",
+      "bbox": [
+        115,
+        112,
+        22,
+        22
+      ]
+    },
+    {
+      "value": "7723",
+      "bbox": [
+        175,
+        112,
+        42,
+        22
+      ]
+    },
+    {
+      "value": "309251",
+      "bbox": [
+        248,
+        112,
+        60,
+        22
+      ]
+    },
+    {
+      "value": "22459781",
+      "bbox": [
+        338,
+        112,
+        80,
+        22
+      ]
+    },
+    {
+      "value": "1299616523",
+      "bbox": [
+        433,
+        112,
+        117,
+        22
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "3² × 19 × 45453199027830655938296603",
+      "bbox": [
+        5,
+        0,
+        445,
+        50
+      ]
+    },
+    {
+      "raw": "2 × 5² × 17 × 7723 × 309251 × 22459781 × 1299616523",
+      "bbox": [
+        5,
+        90,
+        555,
+        150
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Continuous horizontal fraction bar spanning the width of the expression, separating numerator and denominator",
+      "bbox": [
+        0,
+        68,
+        555,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: latin -> DOES NOT MEAN THAT THERE IS NO ANSWER"
+}

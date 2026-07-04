@@ -1,0 +1,349 @@
+{
+  "page": "p03",
+  "line_id": 5,
+  "line_bbox": [
+    344,
+    410,
+    454,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ausschließlich unbekannten geometrischen/angularen Glyphen in einer konstruierten oder verschlüsselten Schrift. Keine lateinischen Buchstaben, Zahlen oder Formeln sichtbar. Die Zeichen wirken wie eine Mischung aus Runen-ähnlichen und geometrischen Symbolen.",
+  "n_glyphs_vision": 21,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 9,
+  "n_unmatched_vision_glyphs": 12,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          20,
+          50,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-ähnliches Zeichen: zwei vertikale Striche mit horizontaler Verbindung am oberen Ende, ähnlich einem aufrechten 'h' ohne Bogen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          20,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Gamma-/Γ-förmiges Zeichen mit horizontaler Oberkante und vertikalem absteigendem Strich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          20,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "B- oder 3-förmiges Zeichen mit zwei nach links offenen Halbbögen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          20,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "B- oder 3-förmiges Zeichen, ähnlich dem vorherigen, mit zwei nach links offenen Halbbögen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          240,
+          20,
+          50,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "J- oder hakenförmiges Zeichen mit vertikalem Strich und Bogen unten links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          20,
+          40,
+          60
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Figur-8 oder 6-ähnliches Zeichen mit zwei verschlungenen Schleifen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          330,
+          20,
+          30,
+          60
+        ],
+        "visual_kind": "geometric_filled_square",
+        "description": "Schmaler vertikaler Strich, möglicherweise 'i' oder 'l'",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          360,
+          20,
+          40,
+          60
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Invertiertes T oder scherenähnliches Zeichen mit zwei diagonal auseinanderlaufenden Strichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.133,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          20,
+          50,
+          60
+        ],
+        "visual_kind": "geometric_circle_with_cross",
+        "description": "X-förmiges Zeichen mit zwei sich kreuzenden Diagonalen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 68,
+      "iou": 0.12,
+      "page_glyph_bbox": [
+        354,
+        420,
+        435,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        10,
+        35,
+        20,
+        20
+      ],
+      "visual_kind": "punctum",
+      "description": "Einzelner schwarzer Punkt, links der Zeile als Satzzeichen oder Markierung",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        450,
+        20,
+        45,
+        60
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "D-förmiges Zeichen, nach links offener Halbkreis mit vertikaler rechter Kante",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        500,
+        20,
+        45,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "K-förmiges Zeichen mit vertikalem Strich und zwei diagonalen Schenkeln",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        545,
+        20,
+        45,
+        60
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "D-förmiges Zeichen, nach links offener Halbkreis mit vertikaler rechter Kante",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        590,
+        20,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Hakenförmiges Zeichen mit vertikalem Strich und kleinem Bogen unten links",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        630,
+        20,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Angulares, V- oder A-ähnliches Zeichen mit nach oben offenen Diagonalen",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        680,
+        20,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H- oder N-förmiges Zeichen mit zwei vertikalen Strichen und einer diagonalen oder horizontalen Verbindung",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        730,
+        20,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenförmiges Zeichen (◇) mit klarer Diamantkontur",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        780,
+        20,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "J-förmiges Zeichen mit vertikalem Strich und Haken unten links",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        820,
+        20,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Angulares Zeichen, möglicherweise halbes H oder einzelner Vertikalstrich mit Querbalken",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        860,
+        20,
+        50,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H- oder N-förmiges Zeichen mit zwei Vertikalstrichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        910,
+        20,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Figur-8 oder 6-ähnliches Zeichen mit verschlungenen Schleifen, ähnlich Glyph #7",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 5: latin -> THOSE WHO CAN UNDERSTAND IT."
+}

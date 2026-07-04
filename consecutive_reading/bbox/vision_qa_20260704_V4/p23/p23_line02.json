@@ -1,0 +1,98 @@
+{
+  "page": "p23",
+  "line_id": 2,
+  "line_bbox": [
+    79,
+    93,
+    993,
+    78
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Zwei chemische Strukturformeln mit Stickstoff- (N) und Kohlenstoff- (C) Atomen, verbunden durch Einfach- und Doppelbindungen. Es handelt sich nicht um eine historische Manuskriptzeile mit unbekannter Schrift, sondern um ein chemisches Strukturdiagramm.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 2,
+  "n_graphics": 5,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [
+    {
+      "raw": "N=C-N=C-CH",
+      "bbox": [
+        0,
+        0,
+        300,
+        120
+      ],
+      "description": "Linke chemische Struktur: N=C-N=C-CH Kette mit Doppel- und Einfachbindungen"
+    },
+    {
+      "raw": "N=C-N=C-CH",
+      "bbox": [
+        900,
+        0,
+        1280,
+        120
+      ],
+      "description": "Rechte chemische Struktur: ähnliche N=C-N=C Anordnung mit HN und CH Gruppen"
+    }
+  ],
+  "graphics": [
+    {
+      "type": "chemical_bond_double",
+      "description": "Doppelbindung (zwei parallele Linien) zwischen N und C",
+      "bbox": [
+        40,
+        10,
+        100,
+        60
+      ]
+    },
+    {
+      "type": "chemical_bond_double",
+      "description": "Doppelbindung zwischen C und N",
+      "bbox": [
+        200,
+        30,
+        260,
+        80
+      ]
+    },
+    {
+      "type": "chemical_bond_single",
+      "description": "Einfachbindung zwischen C und N",
+      "bbox": [
+        130,
+        40,
+        200,
+        60
+      ]
+    },
+    {
+      "type": "chemical_bond_double",
+      "description": "Doppelbindung in rechter Struktur",
+      "bbox": [
+        1000,
+        10,
+        1060,
+        60
+      ]
+    },
+    {
+      "type": "chemical_bond_double",
+      "description": "Doppelbindung in rechter Struktur",
+      "bbox": [
+        1170,
+        30,
+        1230,
+        80
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 2: latin -> ONLY THE CHOSEN ONE CAN COME TO"
+}

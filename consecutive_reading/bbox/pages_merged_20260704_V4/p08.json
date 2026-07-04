@@ -1,0 +1,2899 @@
+{
+  "page_id": "p08",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 67,
+  "n_latin_tokens": 7,
+  "n_regions": 20,
+  "n_glyphs_with_vision_match": 12,
+  "schmeh_hint": {
+    "n_latin": 2,
+    "n_glyphs": 1,
+    "has_glyphs": true,
+    "has_magic_cube": true,
+    "has_rings": false,
+    "has_burumut_block": false
+  },
+  "regions": [
+    {
+      "region_id": "p08_R1",
+      "bbox": [
+        195,
+        268,
+        743,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 1, y_center=289.9, glyphs=2, latin=1",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 397,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 1,
+          "bbox": [
+            205,
+            278,
+            522,
+            26
+          ],
+          "size_px": 4787,
+          "fill_ratio": 0.3527,
+          "n_components": 27,
+          "components": [
+            3728,
+            3717,
+            3720,
+            3721,
+            3716,
+            3709,
+            3710,
+            3741,
+            3708,
+            3713,
+            3739,
+            3724,
+            3727,
+            3707,
+            3738,
+            3718,
+            3719,
+            3723,
+            3725,
+            3726,
+            3705,
+            3706,
+            3722,
+            3712,
+            3715,
+            3714,
+            3711
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 398,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 1,
+          "bbox": [
+            726,
+            278,
+            203,
+            26
+          ],
+          "size_px": 2158,
+          "fill_ratio": 0.4089,
+          "n_components": 11,
+          "components": [
+            3735,
+            3740,
+            3734,
+            3737,
+            3730,
+            3731,
+            3733,
+            3732,
+            3736,
+            3729,
+            3742
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "E YEAR WAS SIX HUNDRED THREESCORE AND SIX TALENTS O",
+          "bbox": [
+            195,
+            268,
+            743,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 1,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R2",
+      "bbox": [
+        186,
+        310,
+        753,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 2, y_center=331.5, glyphs=2, latin=1",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 399,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 2,
+          "bbox": [
+            196,
+            320,
+            121,
+            26
+          ],
+          "size_px": 882,
+          "fill_ratio": 0.2804,
+          "n_components": 6,
+          "components": [
+            3746,
+            3745,
+            3775,
+            3743,
+            3780,
+            3744
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Spitzer, nach links offener Bracket-Winkel (umgekehrtes L), wie ein auf den Kopf gestelltes Eckzeichen",
+          "vision_confidence": 0.55,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 400,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 2,
+          "bbox": [
+            318,
+            320,
+            612,
+            26
+          ],
+          "size_px": 5725,
+          "fill_ratio": 0.3598,
+          "n_components": 33,
+          "components": [
+            3773,
+            3767,
+            3762,
+            3776,
+            3777,
+            3754,
+            3766,
+            3750,
+            3758,
+            3763,
+            3778,
+            3779,
+            3751,
+            3756,
+            3759,
+            3748,
+            3752,
+            3755,
+            3761,
+            3765,
+            3771,
+            3749,
+            3753,
+            3760,
+            3772,
+            3747,
+            3764,
+            3770,
+            3774,
+            3757,
+            3768,
+            3769,
+            3781
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Spitze nach rechts geöffnete Klammer / chevronartiges Zeichen",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "F GOLD\"",
+          "bbox": [
+            186,
+            310,
+            753,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 2,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "1",
+          "bbox": [
+            825,
+            15,
+            20,
+            70
+          ]
+        },
+        {
+          "value": "8",
+          "bbox": [
+            1240,
+            15,
+            30,
+            70
+          ]
+        }
+      ],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R3",
+      "bbox": [
+        401,
+        351,
+        311,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=372.4, glyphs=1, latin=0",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 401,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 3,
+          "bbox": [
+            411,
+            361,
+            292,
+            26
+          ],
+          "size_px": 2788,
+          "fill_ratio": 0.3672,
+          "n_components": 16,
+          "components": [
+            3796,
+            3789,
+            3787,
+            3791,
+            3784,
+            3783,
+            3797,
+            3788,
+            3794,
+            3795,
+            3782,
+            3786,
+            3790,
+            3792,
+            3793,
+            3785
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "turkic_round_rune",
+          "vision_description": "Vertikaler Balken/Stamm, isoliert stehend",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R4",
+      "bbox": [
+        324,
+        542,
+        478,
+        50
+      ],
+      "region_type": "latin_text",
+      "description": "Line 4, y_center=566.6, glyphs=4, latin=0",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 402,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 4,
+          "bbox": [
+            334,
+            552,
+            30,
+            21
+          ],
+          "size_px": 284,
+          "fill_ratio": 0.4508,
+          "n_components": 2,
+          "components": [
+            3800,
+            3799
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 403,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 4,
+          "bbox": [
+            419,
+            562,
+            31,
+            21
+          ],
+          "size_px": 236,
+          "fill_ratio": 0.3625,
+          "n_components": 2,
+          "components": [
+            3806,
+            3805
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 404,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 4,
+          "bbox": [
+            669,
+            561,
+            32,
+            21
+          ],
+          "size_px": 265,
+          "fill_ratio": 0.3943,
+          "n_components": 2,
+          "components": [
+            3804,
+            3803
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 405,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 4,
+          "bbox": [
+            762,
+            554,
+            31,
+            21
+          ],
+          "size_px": 279,
+          "fill_ratio": 0.4286,
+          "n_components": 2,
+          "components": [
+            3801,
+            3802
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R5",
+      "bbox": [
+        259,
+        575,
+        614,
+        79
+      ],
+      "region_type": "graphic_line",
+      "description": "Line 5, y_center=615.8, glyphs=9, latin=0",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 406,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            269,
+            615,
+            30,
+            22
+          ],
+          "size_px": 215,
+          "fill_ratio": 0.3258,
+          "n_components": 2,
+          "components": [
+            3819,
+            3820
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Kreis mit Zahl 73, links in der Zeile, vollständig sichtbar",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 407,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            350,
+            602,
+            31,
+            21
+          ],
+          "size_px": 284,
+          "fill_ratio": 0.4363,
+          "n_components": 2,
+          "components": [
+            3812,
+            3811
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 408,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            420,
+            612,
+            31,
+            22
+          ],
+          "size_px": 283,
+          "fill_ratio": 0.415,
+          "n_components": 2,
+          "components": [
+            3818,
+            3817
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Kreis mit Zahl 69, links-zentriert",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 409,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            486,
+            588,
+            31,
+            21
+          ],
+          "size_px": 196,
+          "fill_ratio": 0.3011,
+          "n_components": 2,
+          "components": [
+            3810,
+            3809
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 410,
+          "page": "p08",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            542,
+            624,
+            31,
+            21
+          ],
+          "size_px": 248,
+          "fill_ratio": 0.381,
+          "n_components": 2,
+          "components": [
+            3823,
+            3824
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 411,
+          "page": "p08",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            600,
+            585,
+            31,
+            21
+          ],
+          "size_px": 229,
+          "fill_ratio": 0.3518,
+          "n_components": 2,
+          "components": [
+            3808,
+            3807
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 412,
+          "page": "p08",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            670,
+            610,
+            31,
+            21
+          ],
+          "size_px": 262,
+          "fill_ratio": 0.4025,
+          "n_components": 2,
+          "components": [
+            3816,
+            3815
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Kreis mit Zahl 72, oben zentral",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 413,
+          "page": "p08",
+          "page_glyph_id": 8,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            740,
+            602,
+            32,
+            21
+          ],
+          "size_px": 288,
+          "fill_ratio": 0.4286,
+          "n_components": 2,
+          "components": [
+            3814,
+            3813
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 414,
+          "page": "p08",
+          "page_glyph_id": 9,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 5,
+          "bbox": [
+            833,
+            622,
+            31,
+            21
+          ],
+          "size_px": 287,
+          "fill_ratio": 0.4409,
+          "n_components": 2,
+          "components": [
+            3821,
+            3822
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "73",
+          "bbox": [
+            10,
+            50,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "74",
+          "bbox": [
+            85,
+            115,
+            40,
+            25
+          ]
+        },
+        {
+          "value": "69",
+          "bbox": [
+            187,
+            45,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "70",
+          "bbox": [
+            245,
+            115,
+            40,
+            25
+          ]
+        },
+        {
+          "value": "65",
+          "bbox": [
+            307,
+            85,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "72",
+          "bbox": [
+            392,
+            40,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "67",
+          "bbox": [
+            545,
+            5,
+            35,
+            25
+          ]
+        },
+        {
+          "value": "30",
+          "bbox": [
+            567,
+            95,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "57",
+          "bbox": [
+            647,
+            40,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "62",
+          "bbox": [
+            837,
+            75,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "61",
+          "bbox": [
+            902,
+            115,
+            40,
+            25
+          ]
+        },
+        {
+          "value": "60",
+          "bbox": [
+            977,
+            65,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "64",
+          "bbox": [
+            1012,
+            5,
+            35,
+            25
+          ]
+        },
+        {
+          "value": "51",
+          "bbox": [
+            1102,
+            115,
+            40,
+            25
+          ]
+        },
+        {
+          "value": "58",
+          "bbox": [
+            1187,
+            95,
+            40,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "connecting_curves",
+          "description": "Geschwungene Verbindungslinien zwischen den Zahlenkreisen, bilden das Netz eines magischen Würfels",
+          "bbox": [
+            0,
+            0,
+            1240,
+            150
+          ]
+        },
+        {
+          "type": "circle_outlines",
+          "description": "Kreisförmige Umrandungen um jede Zahl (15+ sichtbare Kreise)",
+          "bbox": [
+            0,
+            0,
+            1240,
+            150
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R6",
+      "bbox": [
+        293,
+        634,
+        538,
+        54
+      ],
+      "region_type": "latin_text",
+      "description": "Line 6, y_center=660.3, glyphs=6, latin=0",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 415,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            303,
+            650,
+            30,
+            21
+          ],
+          "size_px": 188,
+          "fill_ratio": 0.2984,
+          "n_components": 2,
+          "components": [
+            3829,
+            3830
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 416,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            371,
+            645,
+            31,
+            22
+          ],
+          "size_px": 224,
+          "fill_ratio": 0.3284,
+          "n_components": 2,
+          "components": [
+            3828,
+            3827
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 417,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            507,
+            659,
+            31,
+            20
+          ],
+          "size_px": 187,
+          "fill_ratio": 0.3016,
+          "n_components": 2,
+          "components": [
+            3835,
+            3834
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 418,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            578,
+            658,
+            30,
+            21
+          ],
+          "size_px": 226,
+          "fill_ratio": 0.3587,
+          "n_components": 2,
+          "components": [
+            3833,
+            3836
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 419,
+          "page": "p08",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            722,
+            644,
+            30,
+            21
+          ],
+          "size_px": 241,
+          "fill_ratio": 0.3825,
+          "n_components": 2,
+          "components": [
+            3825,
+            3826
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 420,
+          "page": "p08",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 6,
+          "bbox": [
+            791,
+            651,
+            31,
+            22
+          ],
+          "size_px": 264,
+          "fill_ratio": 0.3871,
+          "n_components": 2,
+          "components": [
+            3831,
+            3832
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R7",
+      "bbox": [
+        213,
+        679,
+        706,
+        47
+      ],
+      "region_type": "latin_text",
+      "description": "Line 7, y_center=703.1, glyphs=5, latin=0",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 421,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 7,
+          "bbox": [
+            223,
+            689,
+            31,
+            20
+          ],
+          "size_px": 288,
+          "fill_ratio": 0.4645,
+          "n_components": 2,
+          "components": [
+            3838,
+            3837
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 422,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 7,
+          "bbox": [
+            481,
+            696,
+            30,
+            21
+          ],
+          "size_px": 230,
+          "fill_ratio": 0.3651,
+          "n_components": 2,
+          "components": [
+            3841,
+            3842
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 423,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 7,
+          "bbox": [
+            542,
+            689,
+            31,
+            22
+          ],
+          "size_px": 233,
+          "fill_ratio": 0.3416,
+          "n_components": 2,
+          "components": [
+            3839,
+            3840
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 424,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 7,
+          "bbox": [
+            604,
+            696,
+            31,
+            21
+          ],
+          "size_px": 242,
+          "fill_ratio": 0.3717,
+          "n_components": 2,
+          "components": [
+            3843,
+            3844
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 425,
+          "page": "p08",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 7,
+          "bbox": [
+            879,
+            697,
+            31,
+            20
+          ],
+          "size_px": 250,
+          "fill_ratio": 0.4032,
+          "n_components": 2,
+          "components": [
+            3846,
+            3845
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R8",
+      "bbox": [
+        507,
+        719,
+        101,
+        42
+      ],
+      "region_type": "latin_text",
+      "description": "Line 8, y_center=740.0, glyphs=2, latin=0",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 426,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 8,
+          "bbox": [
+            517,
+            729,
+            30,
+            22
+          ],
+          "size_px": 230,
+          "fill_ratio": 0.3485,
+          "n_components": 2,
+          "components": [
+            3847,
+            3848
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Partial arc visible at the top-left corner of the line, indicating the bottom of another circle from the row above.",
+          "vision_confidence": 0.8,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 427,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 8,
+          "bbox": [
+            568,
+            731,
+            31,
+            21
+          ],
+          "size_px": 243,
+          "fill_ratio": 0.3733,
+          "n_components": 2,
+          "components": [
+            3850,
+            3849
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "31",
+          "bbox": [
+            40,
+            30,
+            100,
+            40
+          ]
+        },
+        {
+          "value": "29",
+          "bbox": [
+            230,
+            30,
+            100,
+            40
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "connector_line",
+          "description": "Short straight line segments connecting the main circles horizontally near their top arcs (between the two visible circles and from circle to image edges).",
+          "bbox": [
+            150,
+            5,
+            60,
+            15
+          ]
+        },
+        {
+          "type": "circle_grid_arcs",
+          "description": "Multiple partial circle arcs at the top edge of the line, indicating this row belongs to a larger 3x3 interconnected circle grid (magic cube structure).",
+          "bbox": [
+            0,
+            0,
+            400,
+            30
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R9",
+      "bbox": [
+        535,
+        765,
+        50,
+        40
+      ],
+      "region_type": "latin_text",
+      "description": "Line 9, y_center=784.8, glyphs=1, latin=0",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 428,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 9,
+          "bbox": [
+            545,
+            775,
+            31,
+            21
+          ],
+          "size_px": 255,
+          "fill_ratio": 0.3917,
+          "n_components": 2,
+          "components": [
+            3852,
+            3851
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R10",
+      "bbox": [
+        186,
+        484,
+        754,
+        753
+      ],
+      "region_type": "single_glyph",
+      "description": "Line 10, y_center=860.0, glyphs=1, latin=0",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 429,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0023",
+          "line_id": 10,
+          "bbox": [
+            196,
+            494,
+            735,
+            734
+          ],
+          "size_px": 28177,
+          "fill_ratio": 0.0522,
+          "n_components": 1,
+          "components": [
+            3798
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R11",
+      "bbox": [
+        537,
+        918,
+        50,
+        40
+      ],
+      "region_type": "single_glyph",
+      "description": "Line 11, y_center=935.8, glyphs=1, latin=0",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 430,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 11,
+          "bbox": [
+            547,
+            928,
+            31,
+            21
+          ],
+          "size_px": 220,
+          "fill_ratio": 0.3379,
+          "n_components": 2,
+          "components": [
+            3853,
+            3854
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R12",
+      "bbox": [
+        506,
+        961,
+        102,
+        41
+      ],
+      "region_type": "latin_text",
+      "description": "Line 12, y_center=981.3, glyphs=2, latin=0",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 431,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 12,
+          "bbox": [
+            516,
+            971,
+            32,
+            21
+          ],
+          "size_px": 311,
+          "fill_ratio": 0.4628,
+          "n_components": 2,
+          "components": [
+            3856,
+            3855
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 432,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 12,
+          "bbox": [
+            569,
+            972,
+            30,
+            21
+          ],
+          "size_px": 270,
+          "fill_ratio": 0.4286,
+          "n_components": 2,
+          "components": [
+            3857,
+            3858
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R13",
+      "bbox": [
+        207,
+        982,
+        717,
+        60
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 13, y_center=1014.7, glyphs=5, latin=0",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 433,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 13,
+          "bbox": [
+            217,
+            1012,
+            32,
+            21
+          ],
+          "size_px": 253,
+          "fill_ratio": 0.3765,
+          "n_components": 2,
+          "components": [
+            3866,
+            3865
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 434,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 13,
+          "bbox": [
+            482,
+            1006,
+            31,
+            22
+          ],
+          "size_px": 238,
+          "fill_ratio": 0.349,
+          "n_components": 2,
+          "components": [
+            3862,
+            3861
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 435,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 13,
+          "bbox": [
+            542,
+            1013,
+            32,
+            20
+          ],
+          "size_px": 223,
+          "fill_ratio": 0.3484,
+          "n_components": 2,
+          "components": [
+            3867,
+            3868
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 436,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 13,
+          "bbox": [
+            606,
+            1007,
+            30,
+            21
+          ],
+          "size_px": 168,
+          "fill_ratio": 0.2667,
+          "n_components": 2,
+          "components": [
+            3863,
+            3864
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 437,
+          "page": "p08",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 13,
+          "bbox": [
+            883,
+            992,
+            32,
+            21
+          ],
+          "size_px": 278,
+          "fill_ratio": 0.4137,
+          "n_components": 2,
+          "components": [
+            3860,
+            3859
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_circle_with_dot",
+          "vision_description": "Circular node containing '80', top-center, partially clipped at top edge",
+          "vision_confidence": 0.97,
+          "unicode_codepoint_candidate": "U+0038 U+0030"
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "45",
+          "bbox": [
+            20,
+            40,
+            90,
+            90
+          ]
+        },
+        {
+          "value": "80",
+          "bbox": [
+            640,
+            0,
+            70,
+            60
+          ]
+        },
+        {
+          "value": "82",
+          "bbox": [
+            790,
+            0,
+            70,
+            60
+          ]
+        },
+        {
+          "value": "79",
+          "bbox": [
+            615,
+            60,
+            100,
+            100
+          ]
+        },
+        {
+          "value": "78",
+          "bbox": [
+            720,
+            60,
+            100,
+            100
+          ]
+        },
+        {
+          "value": "77",
+          "bbox": [
+            825,
+            60,
+            100,
+            100
+          ]
+        },
+        {
+          "value": "48",
+          "bbox": [
+            1370,
+            40,
+            90,
+            90
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "line",
+          "description": "Straight line connecting node 45 (left) to a smaller partial circle near top",
+          "bbox": [
+            0,
+            0,
+            90,
+            60
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Straight line connecting node 80 down toward node 79",
+          "bbox": [
+            660,
+            30,
+            60,
+            60
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Straight line connecting node 82 down toward node 78",
+          "bbox": [
+            800,
+            30,
+            60,
+            60
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Straight line connecting node 77 up to node 82 area",
+          "bbox": [
+            850,
+            0,
+            40,
+            60
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Long diagonal line connecting node 77 area to node 48 on the far right",
+          "bbox": [
+            900,
+            30,
+            500,
+            80
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Diagonal line from upper region down toward node 48",
+          "bbox": [
+            1320,
+            0,
+            150,
+            60
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Short connector between nodes 79 and 78",
+          "bbox": [
+            715,
+            100,
+            10,
+            20
+          ]
+        },
+        {
+          "type": "line",
+          "description": "Short connector between nodes 78 and 77",
+          "bbox": [
+            820,
+            100,
+            10,
+            20
+          ]
+        },
+        {
+          "type": "decorative",
+          "description": "Several small partial circles clipped at bottom edge (4-5), appearing as a row beneath the main graph",
+          "bbox": [
+            600,
+            150,
+            400,
+            60
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R14",
+      "bbox": [
+        295,
+        1034,
+        541,
+        51
+      ],
+      "region_type": "graphic_line",
+      "description": "Line 14, y_center=1057.8, glyphs=6, latin=0",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 438,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 14,
+          "bbox": [
+            305,
+            1052,
+            32,
+            21
+          ],
+          "size_px": 241,
+          "fill_ratio": 0.3586,
+          "n_components": 2,
+          "components": [
+            3875,
+            3876
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Circle containing the number 40",
+          "vision_confidence": 0.97,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 439,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 14,
+          "bbox": [
+            371,
+            1055,
+            31,
+            21
+          ],
+          "size_px": 216,
+          "fill_ratio": 0.3318,
+          "n_components": 2,
+          "components": [
+            3879,
+            3880
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 440,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 14,
+          "bbox": [
+            508,
+            1044,
+            31,
+            20
+          ],
+          "size_px": 199,
+          "fill_ratio": 0.321,
+          "n_components": 2,
+          "components": [
+            3869,
+            3870
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 441,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 14,
+          "bbox": [
+            577,
+            1044,
+            31,
+            22
+          ],
+          "size_px": 239,
+          "fill_ratio": 0.3504,
+          "n_components": 2,
+          "components": [
+            3871,
+            3872
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 442,
+          "page": "p08",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 14,
+          "bbox": [
+            722,
+            1053,
+            32,
+            22
+          ],
+          "size_px": 274,
+          "fill_ratio": 0.3892,
+          "n_components": 2,
+          "components": [
+            3877,
+            3878
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 443,
+          "page": "p08",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 14,
+          "bbox": [
+            797,
+            1044,
+            30,
+            21
+          ],
+          "size_px": 246,
+          "fill_ratio": 0.3905,
+          "n_components": 2,
+          "components": [
+            3873,
+            3874
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [
+        {
+          "value": "40",
+          "bbox": [
+            10,
+            30,
+            75,
+            85
+          ]
+        },
+        {
+          "value": "41",
+          "bbox": [
+            115,
+            40,
+            170,
+            95
+          ]
+        },
+        {
+          "value": "74",
+          "bbox": [
+            445,
+            15,
+            495,
+            70
+          ]
+        },
+        {
+          "value": "76",
+          "bbox": [
+            565,
+            15,
+            615,
+            70
+          ]
+        },
+        {
+          "value": "81",
+          "bbox": [
+            660,
+            85,
+            715,
+            130
+          ]
+        },
+        {
+          "value": "50",
+          "bbox": [
+            965,
+            35,
+            1015,
+            90
+          ]
+        },
+        {
+          "value": "55",
+          "bbox": [
+            1185,
+            15,
+            1240,
+            75
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "node_graph",
+          "description": "Connected graph/network of numbered circular nodes joined by curved arcs, possibly representing a relationship or sequence diagram",
+          "bbox": [
+            0,
+            0,
+            1395,
+            140
+          ]
+        },
+        {
+          "type": "arc",
+          "description": "Curved connector between node 40 and 41",
+          "bbox": [
+            50,
+            5,
+            200,
+            105
+          ]
+        },
+        {
+          "type": "arc",
+          "description": "Long sweeping curve passing through upper region from left cluster to node 74",
+          "bbox": [
+            180,
+            0,
+            560,
+            90
+          ]
+        },
+        {
+          "type": "arc",
+          "description": "Curve traversing from 76 area to 50",
+          "bbox": [
+            510,
+            5,
+            1010,
+            100
+          ]
+        },
+        {
+          "type": "arc",
+          "description": "Curve from 50 to 55 and continuing right",
+          "bbox": [
+            1030,
+            0,
+            1320,
+            110
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R15",
+      "bbox": [
+        263,
+        1069,
+        610,
+        79
+      ],
+      "region_type": "magic_cube",
+      "description": "Line 15, y_center=1106.9, glyphs=9, latin=0",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 444,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            273,
+            1093,
+            31,
+            22
+          ],
+          "size_px": 274,
+          "fill_ratio": 0.4018,
+          "n_components": 2,
+          "components": [
+            3889,
+            3890
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 445,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            353,
+            1104,
+            31,
+            20
+          ],
+          "size_px": 225,
+          "fill_ratio": 0.3629,
+          "n_components": 2,
+          "components": [
+            3894,
+            3893
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 446,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            427,
+            1091,
+            32,
+            22
+          ],
+          "size_px": 258,
+          "fill_ratio": 0.3665,
+          "n_components": 2,
+          "components": [
+            3885,
+            3888
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 447,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            490,
+            1118,
+            31,
+            21
+          ],
+          "size_px": 277,
+          "fill_ratio": 0.4255,
+          "n_components": 2,
+          "components": [
+            3898,
+            3897
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 448,
+          "page": "p08",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            545,
+            1079,
+            31,
+            21
+          ],
+          "size_px": 256,
+          "fill_ratio": 0.3932,
+          "n_components": 2,
+          "components": [
+            3881,
+            3882
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 449,
+          "page": "p08",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            605,
+            1117,
+            31,
+            20
+          ],
+          "size_px": 245,
+          "fill_ratio": 0.3952,
+          "n_components": 2,
+          "components": [
+            3895,
+            3896
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 450,
+          "page": "p08",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            668,
+            1091,
+            32,
+            20
+          ],
+          "size_px": 243,
+          "fill_ratio": 0.3797,
+          "n_components": 2,
+          "components": [
+            3887,
+            3886
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 451,
+          "page": "p08",
+          "page_glyph_id": 8,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            741,
+            1101,
+            31,
+            22
+          ],
+          "size_px": 236,
+          "fill_ratio": 0.346,
+          "n_components": 2,
+          "components": [
+            3891,
+            3892
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 452,
+          "page": "p08",
+          "page_glyph_id": 9,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 15,
+          "bbox": [
+            833,
+            1081,
+            31,
+            21
+          ],
+          "size_px": 236,
+          "fill_ratio": 0.3625,
+          "n_components": 2,
+          "components": [
+            3884,
+            3883
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R16",
+      "bbox": [
+        327,
+        1130,
+        477,
+        51
+      ],
+      "region_type": "latin_text",
+      "description": "Line 16, y_center=1153.6, glyphs=4, latin=0",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 453,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 16,
+          "bbox": [
+            337,
+            1151,
+            31,
+            21
+          ],
+          "size_px": 260,
+          "fill_ratio": 0.3994,
+          "n_components": 2,
+          "components": [
+            3905,
+            3906
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 454,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 16,
+          "bbox": [
+            426,
+            1142,
+            32,
+            21
+          ],
+          "size_px": 263,
+          "fill_ratio": 0.3914,
+          "n_components": 2,
+          "components": [
+            3901,
+            3902
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 455,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 16,
+          "bbox": [
+            675,
+            1140,
+            32,
+            21
+          ],
+          "size_px": 228,
+          "fill_ratio": 0.3393,
+          "n_components": 2,
+          "components": [
+            3900,
+            3899
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 456,
+          "page": "p08",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 16,
+          "bbox": [
+            765,
+            1144,
+            30,
+            21
+          ],
+          "size_px": 230,
+          "fill_ratio": 0.3651,
+          "n_components": 2,
+          "components": [
+            3903,
+            3904
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R17",
+      "bbox": [
+        186,
+        1357,
+        754,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=1378.6, glyphs=3, latin=0",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 457,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 17,
+          "bbox": [
+            196,
+            1367,
+            114,
+            26
+          ],
+          "size_px": 1241,
+          "fill_ratio": 0.4187,
+          "n_components": 7,
+          "components": [
+            3909,
+            3913,
+            3912,
+            3907,
+            3908,
+            3911,
+            3910
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 458,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 17,
+          "bbox": [
+            318,
+            1367,
+            78,
+            26
+          ],
+          "size_px": 762,
+          "fill_ratio": 0.3757,
+          "n_components": 4,
+          "components": [
+            3914,
+            3915,
+            3944,
+            3941
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 459,
+          "page": "p08",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 17,
+          "bbox": [
+            406,
+            1367,
+            525,
+            26
+          ],
+          "size_px": 4742,
+          "fill_ratio": 0.3474,
+          "n_components": 28,
+          "components": [
+            3928,
+            3932,
+            3931,
+            3943,
+            3925,
+            3945,
+            3933,
+            3919,
+            3942,
+            3930,
+            3935,
+            3936,
+            3916,
+            3917,
+            3929,
+            3940,
+            3922,
+            3924,
+            3939,
+            3918,
+            3921,
+            3923,
+            3934,
+            3920,
+            3927,
+            3938,
+            3926,
+            3937
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R18",
+      "bbox": [
+        206,
+        1397,
+        726,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 18, y_center=1418.9, glyphs=2, latin=0",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 460,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 18,
+          "bbox": [
+            216,
+            1407,
+            116,
+            26
+          ],
+          "size_px": 1120,
+          "fill_ratio": 0.3714,
+          "n_components": 8,
+          "components": [
+            3949,
+            3946,
+            3985,
+            3950,
+            3984,
+            3947,
+            3948,
+            3986
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Y/K-förmiges Glyph mit diagonalem Arm und Vertikalstrich",
+          "vision_confidence": 0.55,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 461,
+          "page": "p08",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 18,
+          "bbox": [
+            341,
+            1407,
+            582,
+            26
+          ],
+          "size_px": 5734,
+          "fill_ratio": 0.3789,
+          "n_components": 33,
+          "components": [
+            3970,
+            3969,
+            3960,
+            3962,
+            3953,
+            3971,
+            3968,
+            3974,
+            3951,
+            3965,
+            3955,
+            3956,
+            3958,
+            3963,
+            3964,
+            3967,
+            3977,
+            3981,
+            3982,
+            3983,
+            3954,
+            3959,
+            3961,
+            3972,
+            3973,
+            3966,
+            3952,
+            3957,
+            3975,
+            3976,
+            3979,
+            3980,
+            3978
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Winkel-Glyph ähnlich der Ziffer 4 mit Spitze nach unten",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R19",
+      "bbox": [
+        210,
+        1436,
+        701,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 19, y_center=1458.9, glyphs=1, latin=1",
+      "lines": [
+        19
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 462,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 19,
+          "bbox": [
+            220,
+            1446,
+            682,
+            27
+          ],
+          "size_px": 6719,
+          "fill_ratio": 0.3649,
+          "n_components": 42,
+          "components": [
+            4012,
+            4025,
+            4024,
+            4023,
+            4026,
+            3993,
+            4005,
+            3987,
+            3996,
+            4003,
+            4009,
+            4016,
+            3999,
+            4007,
+            3989,
+            3992,
+            3991,
+            4022,
+            3990,
+            3988,
+            4001,
+            4013,
+            3995,
+            4000,
+            4004,
+            4014,
+            4020,
+            3994,
+            3997,
+            3998,
+            4006,
+            4008,
+            4010,
+            4011,
+            4015,
+            4017,
+            4018,
+            4019,
+            4021,
+            4002,
+            4027,
+            4028
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Offene nach links gewölbte Form ähnlich einem gespiegelten 'c' oder 'e' ohne Querstrich.",
+          "vision_confidence": 0.55,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "D",
+          "bbox": [
+            1024,
+            16,
+            38,
+            70
+          ],
+          "conf": 0.9,
+          "line_id": 19,
+          "source": "vision"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R20",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "footer",
+      "description": "Line 20, y_center=1624.0, glyphs=1, latin=0",
+      "lines": [
+        20
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 463,
+          "page": "p08",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+          "line_id": 20,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            4029
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p08_R21_SCHMEH",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "latin_text",
+      "description": "Schmeh 2017 vollständige lateinische Sätze (4 lines, joined)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "(=666) (=666) (=666)",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "1. ki?s (red text -> 1. ki-ng-s)",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 2,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "1. KINGS (10:14)",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "\"NOW THE WEIGHT OF GOLD THAT CAME TO SOLOMON IN ONE YEAR WAS SIX HUNDRED THREESCORE AND SIX TALENTS OF GOLD\"",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}

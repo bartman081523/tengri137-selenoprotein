@@ -1,0 +1,529 @@
+{
+  "page": "p15",
+  "line_id": 11,
+  "line_bbox": [
+    195,
+    1047,
+    745,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile aus etwa 31 unbekannten geometrischen Glyphen (Rauten, Kreise mit Punkten, V-Formen, H-Formen, Bögen). Kein lateinischer Text, keine Zahlen, keine Formeln sichtbar.",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          5,
+          50,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offener, nach rechts gewölbter Bogen mit kurzem vertikalem Strich (ähnelt einem lateinischen C oder offener Klammer)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.132,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          5,
+          90,
+          85
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute/Diamant mit vertikalem Mittelstrich",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.165,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          5,
+          130,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei vertikale Striche mit Querbalken (ähnelt einem stilisierten H)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.165,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          130,
+          5,
+          165,
+          85
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Spitzwinkliges V nach unten mit kurzem linken Anstrich (Pfeil-/Winkel-Form)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.165,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          165,
+          5,
+          195,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel nach unten rechts (V-Form)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.174,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          5,
+          230,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit kurzem Winkel unten",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          5,
+          275,
+          85
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.214,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          5,
+          305,
+          85
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Kreis mit zentralem Punkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.226,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          5,
+          345,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel nach rechts (1>-Form)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.242,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          5,
+          380,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "V-Form nach unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.253,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          385,
+          5,
+          420,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppelter Vertikalstrich (II)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.213,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          5,
+          460,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei Vertikalstriche mit Verbindungsbogen (h-ähnlich)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          460,
+          5,
+          495,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Gebogener Haken mit Vertikalstrich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.141,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          5,
+          530,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel nach rechts (>-Form)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.115,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          5,
+          575,
+          85
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei inneren Punkten (Gesichtsmotiv / Sonne mit Augen)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.091,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          580,
+          5,
+          620,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei Vertikalstriche mit Querbalken und Schwanz (H-ähnlich)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 755,
+      "iou": 0.064,
+      "page_glyph_bbox": [
+        205,
+        1057,
+        726,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        620,
+        5,
+        660,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkel rechts (1>)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        660,
+        5,
+        700,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Hakenform mit oberem Bogen (9-/g-ähnlich)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        700,
+        5,
+        740,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei Vertikalstriche mit Querbalken (h-ähnlich)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        740,
+        5,
+        780,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkel mit Vertikalstrich (7-ähnlich)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        780,
+        5,
+        820,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmige Gabelung",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        820,
+        5,
+        855,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzer Winkel nach rechts oben (7-ähnlich)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        855,
+        5,
+        895,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-förmiges Kreuz mit Endpunkten",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        895,
+        5,
+        935,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "Komplexe verschlungene Form mit Bogen unten (&-/S-ähnlich)",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        935,
+        5,
+        970,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Hakenform (J-ähnlich)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        970,
+        5,
+        1000,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzer Winkel nach unten (>-Form)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1000,
+        5,
+        1035,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei Vertikalstriche mit Querbalken (h-ähnlich)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1035,
+        5,
+        1070,
+        85
+      ],
+      "visual_kind": "digit",
+      "description": "Einfacher Vertikalstrich (1-ähnlich)",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1075,
+        5,
+        1115,
+        85
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Geschlossene Raute",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1115,
+        5,
+        1150,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Zwei Vertikalstriche mit Querbalken (H-ähnlich)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1150,
+        5,
+        1190,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelter Vertikalstrich (II)",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 11: latin -> NSTANT WHICH WILL GIVE YOU ALSO THE RESULT FOR O"
+}

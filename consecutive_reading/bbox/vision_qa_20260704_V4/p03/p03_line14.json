@@ -1,0 +1,424 @@
+{
+  "page": "p03",
+  "line_id": 14,
+  "line_bbox": [
+    186,
+    849,
+    753,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 26 unbekannten geometrisch-runischen Glyphen ohne erkennbare lateinische Buchstaben, Ziffern oder Formeln. Kein dekorativer Rahmen, keine Linien oder Bögen sichtbar – nur die Glyphen in einer horizontalen Reihe.",
+  "n_glyphs_vision": 26,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 11,
+  "n_unmatched_vision_glyphs": 15,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          15,
+          25,
+          50,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Saltaire-/X-förmiges Zeichen, zwei sich kreuzende Diagonalen, evtl. mit kleinen Endverdickungen.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 82,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        196,
+        859,
+        52,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          118,
+          25,
+          25,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Haken- oder J-förmiges Zeichen, vertikaler Schaft mit kurzer Biegung am oberen Ende.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.067,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          25,
+          35,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen, oben Gabelung, unten gemeinsamer Schaft.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.067,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          25,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "F- oder P-ähnliches Zeichen mit Winkel oben und absteigendem Schaft.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          25,
+          40,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Y- oder 9-ähnliches Zeichen mit Kreiselement am oberen Bereich.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          25,
+          30,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen mit deutlicher Gabelung oben.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.067,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          25,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Zeichen mit zwei gekreuzten Diagonalen.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          585,
+          25,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "Winkel- oder 4-förmiges Zeichen mit geschlossenen Ecken.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          25,
+          30,
+          75
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Zeichen mit Gabelung oben.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.067,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          670,
+          25,
+          35,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Kreuzzeichen.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          25,
+          25,
+          70
+        ],
+        "visual_kind": "other",
+        "description": "7- oder winkelförmiges Zeichen mit Diagonale.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 83,
+      "iou": 0.071,
+      "page_glyph_bbox": [
+        255,
+        859,
+        675,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        70,
+        30,
+        45,
+        65
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "E-förmiges oder kammartiges Zeichen mit drei waagerechten Zinken an einer vertikalen Achse.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        150,
+        30,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenförmiges Zeichen (◇) mit klaren geraden Diagonalen.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        305,
+        65,
+        15,
+        15
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt/Punctum, deutlich kleiner als umgebende Glyphen, sitzt auf Grundlinie.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        335,
+        30,
+        18,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Schlanker vertikaler Strich, möglicherweise einfaches 'I'-Glyph.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        365,
+        30,
+        35,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "Umgekehrtes T oder Y, oben breite waagerechte Kappe mit kurzem Schaft nach unten.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        415,
+        50,
+        25,
+        35
+      ],
+      "visual_kind": "other",
+      "description": "Kleines, kompaktes Zeichen, möglicherweise verkürzte Variante.",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        750,
+        25,
+        30,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "P- oder 9-förmiges Zeichen mit gebogenem Element oben.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        790,
+        30,
+        40,
+        55
+      ],
+      "visual_kind": "nine_rings",
+      "description": "Zwei übereinanderliegende Kreise, evtl. 8-Form oder Doppelring.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        840,
+        25,
+        35,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Zeichen mit zwei vertikalen Pfosten und Querbalken.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        885,
+        25,
+        30,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "4- oder H-förmiges Zeichen mit ausgeprägten waagerechten Querbalken.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        925,
+        25,
+        35,
+        70
+      ],
+      "visual_kind": "other",
+      "description": "9- oder P-förmiges Zeichen mit gebogenem Oberteil.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        970,
+        30,
+        40,
+        60
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Kreis- oder Ovalform mit möglicher innerer Struktur.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1020,
+        30,
+        45,
+        55
+      ],
+      "visual_kind": "nine_rings",
+      "description": "Zwei verschachtelte oder nebeneinanderliegende Kreise.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1080,
+        25,
+        18,
+        75
+      ],
+      "visual_kind": "digit",
+      "description": "Schlanker vertikaler Strich, ähnelt '1' oder 'I'.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1110,
+        25,
+        35,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkel- oder >-förmiges Zeichen, möglicherweise Klammer.",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 14: latin -> E OF THE TRUTH BEHIND OUR SCRIPTURES. SO WE GIV"
+}

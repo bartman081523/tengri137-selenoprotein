@@ -1,0 +1,573 @@
+{
+  "page": "p13",
+  "line_id": 16,
+  "line_bbox": [
+    195,
+    1240,
+    743,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "A dense horizontal sequence of angular, geometric glyphs resembling an unknown constructed or ancient script. No Latin letters or numerals are visible; the line consists entirely of non-alphanumeric symbols (chevrons, vertical strokes, person-like figures, figure-eight loops, bracketed shapes, and a circle with three dots appearing twice).",
+  "n_glyphs_vision": 35,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 16,
+  "n_unmatched_vision_glyphs": 19,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          15,
+          15,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Left-pointing chevron / angular bracket opening to the left",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.147,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          20,
+          25,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertical stroke with small right-leaning serif/tick (looks like a tall 'l' or rune)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          15,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Left-pointing chevron / angular bracket opening to the left",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.147,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          15,
+          50,
+          75
+        ],
+        "visual_kind": "unknown",
+        "description": "Figure resembling a small human shape (vertical trunk with two angled legs at base and short arms)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.147,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          200,
+          15,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Left-pointing chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.147,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          20,
+          20,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Single vertical stroke",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          20,
+          40,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Right-facing curve/bracket resembling ')'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          15,
+          55,
+          70
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Circle with three internal dots arranged in a triangle (face/eye motif)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          380,
+          15,
+          45,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Two stacked loops forming a figure-eight / '8' shape",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          20,
+          40,
+          65
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular shape resembling a '4' (vertical bar with cross-stroke and horizontal foot)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          475,
+          15,
+          55,
+          75
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Left-pointing chevron",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.147,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          15,
+          30,
+          75
+        ],
+        "visual_kind": "digit",
+        "description": "Tall vertical stroke with short top flag, resembling a '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.147,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          15,
+          45,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Figure-eight / double-loop glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          615,
+          20,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Right-facing curve / 'C' shape",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          650,
+          20,
+          20,
+          65
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Single vertical stroke",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.131,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          15,
+          45,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "H-like shape (two vertical strokes connected by a horizontal bar)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 664,
+      "iou": 0.157,
+      "page_glyph_bbox": [
+        205,
+        1250,
+        724,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        725,
+        15,
+        45,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Lowercase 'h' or small person-shape (vertical stem with hump on right)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        775,
+        20,
+        20,
+        65
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Single vertical stroke",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        800,
+        15,
+        60,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "M-like shape with three vertical legs (zigzag base)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        865,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Right-facing curve ')' ",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        900,
+        15,
+        55,
+        70
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Circle with three internal dots in triangular arrangement",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        960,
+        20,
+        40,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular '4'-like glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1005,
+        15,
+        55,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Left-pointing chevron",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1060,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Right-facing curve ')'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1095,
+        20,
+        35,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "'X' / cross shape",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1135,
+        20,
+        20,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Right square bracket ']'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1155,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Right-facing curve ')'",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1185,
+        15,
+        55,
+        75
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Left-pointing chevron",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1240,
+        15,
+        45,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "'h' / person-shape with stem and right hump",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1285,
+        15,
+        40,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Figure-eight / double loop",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1330,
+        20,
+        40,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular '4'-like glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1370,
+        20,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Right-facing 'C' curve",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1405,
+        20,
+        40,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular shape resembling '5' or 'S'-like figure with two horizontal bars",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1450,
+        20,
+        20,
+        60
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Left square bracket '['",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1475,
+        20,
+        40,
+        65
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular glyph resembling '7' or hooked stroke",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 16: latin -> ND GET A PART OF THE SECRET KNOWLEDGE OF OUR CIVILIZA"
+}

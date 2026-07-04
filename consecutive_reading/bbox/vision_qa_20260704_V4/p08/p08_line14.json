@@ -1,0 +1,285 @@
+{
+  "page": "p08",
+  "line_id": 14,
+  "line_bbox": [
+    295,
+    1034,
+    541,
+    51
+  ],
+  "line_type": "graphic_line",
+  "line_description": "A graphical diagram showing numbered circles (nodes) connected by curved lines (edges), resembling a graph or network sketch. Visible node labels are 40, 41, 74, 76, 81 (partial), 50, 55, with additional partial circles at the line edges.",
+  "n_glyphs_vision": 12,
+  "n_latin_tokens": 0,
+  "n_numerics": 7,
+  "n_formulas": 0,
+  "n_graphics": 5,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 11,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          20,
+          85,
+          95
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Circle containing the number 40",
+        "confidence": 0.97
+      },
+      "matched_glyph_index": 438,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        305,
+        1052,
+        32,
+        21
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        105,
+        35,
+        180,
+        105
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Circle containing the number 41",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        430,
+        0,
+        510,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Circle containing the number 74",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        550,
+        0,
+        625,
+        80
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Circle containing the number 76",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        650,
+        75,
+        720,
+        135
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Partially visible circle at bottom edge, appears to contain the number 81",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        950,
+        20,
+        1030,
+        100
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Circle containing the number 50",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        1170,
+        0,
+        1250,
+        90
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Circle containing the number 55",
+      "confidence": 0.97
+    },
+    {
+      "bbox": [
+        1310,
+        20,
+        1390,
+        100
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Partial circle at right edge, content not visible",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        50,
+        0,
+        200,
+        110
+      ],
+      "visual_kind": "line",
+      "description": "Curved arc connecting circle 40 and 41 and continuing rightward",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        180,
+        0,
+        550,
+        90
+      ],
+      "visual_kind": "line",
+      "description": "Long curved line/arc traversing from circle 41 across to circle 74",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        510,
+        0,
+        1000,
+        100
+      ],
+      "visual_kind": "line",
+      "description": "Curved line connecting from circle 74/76 region to circle 50",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1030,
+        0,
+        1320,
+        110
+      ],
+      "visual_kind": "line",
+      "description": "Curved line from circle 50 to circle 55 and beyond",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "40",
+      "bbox": [
+        10,
+        30,
+        75,
+        85
+      ]
+    },
+    {
+      "value": "41",
+      "bbox": [
+        115,
+        40,
+        170,
+        95
+      ]
+    },
+    {
+      "value": "74",
+      "bbox": [
+        445,
+        15,
+        495,
+        70
+      ]
+    },
+    {
+      "value": "76",
+      "bbox": [
+        565,
+        15,
+        615,
+        70
+      ]
+    },
+    {
+      "value": "81",
+      "bbox": [
+        660,
+        85,
+        715,
+        130
+      ]
+    },
+    {
+      "value": "50",
+      "bbox": [
+        965,
+        35,
+        1015,
+        90
+      ]
+    },
+    {
+      "value": "55",
+      "bbox": [
+        1185,
+        15,
+        1240,
+        75
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "node_graph",
+      "description": "Connected graph/network of numbered circular nodes joined by curved arcs, possibly representing a relationship or sequence diagram",
+      "bbox": [
+        0,
+        0,
+        1395,
+        140
+      ]
+    },
+    {
+      "type": "arc",
+      "description": "Curved connector between node 40 and 41",
+      "bbox": [
+        50,
+        5,
+        200,
+        105
+      ]
+    },
+    {
+      "type": "arc",
+      "description": "Long sweeping curve passing through upper region from left cluster to node 74",
+      "bbox": [
+        180,
+        0,
+        560,
+        90
+      ]
+    },
+    {
+      "type": "arc",
+      "description": "Curve traversing from 76 area to 50",
+      "bbox": [
+        510,
+        5,
+        1010,
+        100
+      ]
+    },
+    {
+      "type": "arc",
+      "description": "Curve from 50 to 55 and continuing right",
+      "bbox": [
+        1030,
+        0,
+        1320,
+        110
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 14: latin -> E YEAR WAS SIX HUNDRED THREESCORE AND SIX TALENTS O"
+}

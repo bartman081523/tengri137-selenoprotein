@@ -1,0 +1,120 @@
+{
+  "page": "p17",
+  "line_id": 9,
+  "line_bbox": [
+    173,
+    843,
+    202,
+    56
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch mit Multiplikation: Zähler 2 × 3³ × 55751765473057 über Nenner 61 × 317 × 443 × 470896109, getrennt durch horizontalen Bruchstrich.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 8,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        10,
+        28,
+        18,
+        30
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        55,
+        28,
+        16,
+        30
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        70,
+        8,
+        12,
+        18
+      ]
+    },
+    {
+      "value": "55751765473057",
+      "bbox": [
+        105,
+        28,
+        175,
+        30
+      ]
+    },
+    {
+      "value": "61",
+      "bbox": [
+        10,
+        85,
+        25,
+        30
+      ]
+    },
+    {
+      "value": "317",
+      "bbox": [
+        55,
+        85,
+        40,
+        30
+      ]
+    },
+    {
+      "value": "443",
+      "bbox": [
+        115,
+        85,
+        35,
+        30
+      ]
+    },
+    {
+      "value": "470896109",
+      "bbox": [
+        170,
+        85,
+        140,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(2 × 3³ × 55751765473057) / (61 × 317 × 443 × 470896109)",
+      "bbox": [
+        5,
+        5,
+        320,
+        130
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Horizontale Trennlinie zwischen Zähler und Nenner",
+      "bbox": [
+        5,
+        65,
+        310,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 9: latin -> THIS IS A CALCULATION TO SHOW YOU OUR KNOWLEDGE A"
+}

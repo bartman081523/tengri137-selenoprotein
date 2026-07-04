@@ -1,0 +1,152 @@
+{
+  "page": "p22",
+  "line_id": 11,
+  "line_bbox": [
+    173,
+    978,
+    491,
+    54
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Zwei übereinander angeordnete Multiplikationsausdrücke, getrennt durch eine durchgehende horizontale Linie (vermutlich Bruchstrich). Obere Zeile: 7 × 139 × 8434613731 × 65777261720705168197845440110846634447549. Untere Zeile: 2 × 346602330955516653198467394113710646758478359192665439.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 4,
+  "n_numerics": 6,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "x",
+      "bbox": [
+        30,
+        18,
+        28,
+        35
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "x",
+      "bbox": [
+        130,
+        18,
+        28,
+        35
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "x",
+      "bbox": [
+        332,
+        18,
+        28,
+        35
+      ],
+      "confidence": 0.6
+    },
+    {
+      "text": "x",
+      "bbox": [
+        30,
+        115,
+        28,
+        35
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "numerics": [
+    {
+      "value": "7",
+      "bbox": [
+        0,
+        15,
+        25,
+        40
+      ]
+    },
+    {
+      "value": "139",
+      "bbox": [
+        60,
+        15,
+        70,
+        40
+      ]
+    },
+    {
+      "value": "8434613731",
+      "bbox": [
+        162,
+        15,
+        170,
+        40
+      ]
+    },
+    {
+      "value": "65777261720705168197845440110846634447549",
+      "bbox": [
+        365,
+        15,
+        685,
+        40
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        0,
+        110,
+        25,
+        45
+      ]
+    },
+    {
+      "value": "346602330955516653198467394113710646758478359192665439",
+      "bbox": [
+        60,
+        110,
+        990,
+        45
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "7 x 139 x 8434613731 x 65777261720705168197845440110846634447549",
+      "bbox": [
+        0,
+        10,
+        1050,
+        55
+      ]
+    },
+    {
+      "raw": "2 x 346602330955516653198467394113710646758478359192665439",
+      "bbox": [
+        0,
+        105,
+        1050,
+        55
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehende horizontale Trennlinie zwischen oberer und unterer Zeile, vermutlich Bruchstrich",
+      "bbox": [
+        0,
+        78,
+        1050,
+        7
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 11: latin -> CONTACTED OVER HUNDRED THOUSAND DIFFERENT SPECIES"
+}

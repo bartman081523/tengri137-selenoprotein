@@ -1,0 +1,666 @@
+{
+  "page": "p11",
+  "line_id": 3,
+  "line_bbox": [
+    186,
+    331,
+    742,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 33 geometrisch-eckigen Glyphen, getrennt durch einen Mittelpunkt in der Zeilenmitte; keine lateinischen Buchstaben erkennbar.",
+  "n_glyphs_vision": 34,
+  "n_latin_tokens": 0,
+  "n_numerics": 8,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 16,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmiges Glyph, zwei Schenkel oben, kurzer Stamm unten",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 527,
+      "iou": 0.209,
+      "page_glyph_bbox": [
+        196,
+        342,
+        37,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          35,
+          0,
+          30,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Geschwungene 9-förmige Figur mit oberem Bogen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 527,
+      "iou": 0.102,
+      "page_glyph_bbox": [
+        196,
+        342,
+        37,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          0,
+          20,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Einfacher vertikaler Strich (I)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 528,
+      "iou": 0.163,
+      "page_glyph_bbox": [
+        245,
+        342,
+        88,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          0,
+          55,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Winkel-M, zwei schräge Stämme mit Mittelstrich",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 528,
+      "iou": 0.253,
+      "page_glyph_bbox": [
+        245,
+        342,
+        88,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          0,
+          30,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "J-förmiges Glyph mit Haken unten links",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 529,
+      "iou": 0.211,
+      "page_glyph_bbox": [
+        339,
+        342,
+        80,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          0,
+          40,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Doppelschleife wie liegende 8",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 529,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        339,
+        342,
+        80,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          0,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Y-ähnliches Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.14,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          0,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Y-ähnliches Glyph, leicht spiegelbildlich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          315,
+          0,
+          45,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Γ-förmiges Glyph mit oberem Querbalken",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          0,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmige Figur mit zentralem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          0,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_circle_with_cross",
+        "description": "Kreis mit kreuzförmigen Strichen / Punkten innen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          475,
+          0,
+          20,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Strich (I)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          0,
+          40,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "H-förmiges Winkel-Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          545,
+          0,
+          20,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Strich (I)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          0,
+          55,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Winkel-M mit Mittelstrich",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          0,
+          45,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "D-förmiges Glyph mit gerundeter linker Seite",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          0,
+          30,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "J-förmiges Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.169,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          0,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "2-förmiges Glyph mit gebogener Oberkante",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 530,
+      "iou": 0.087,
+      "page_glyph_bbox": [
+        427,
+        341,
+        492,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        755,
+        0,
+        15,
+        80
+      ],
+      "visual_kind": "punctum",
+      "description": "Mittelpunkt / Interpunktions-Punkt als Trenner",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        775,
+        0,
+        30,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        810,
+        0,
+        35,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "2-förmiges Glyph",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        850,
+        0,
+        35,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "2-förmiges Glyph",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        890,
+        0,
+        40,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "k- oder X-förmiges Winkelhaken-Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        935,
+        0,
+        40,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "F-förmiges Glyph mit zwei Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        980,
+        0,
+        20,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Vertikaler Strich (I)",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1005,
+        0,
+        35,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Y-ähnliches Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1045,
+        0,
+        40,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Winkel-Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1090,
+        0,
+        45,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "A-förmiges Winkelhaken-Glyph mit Querbalken",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1140,
+        0,
+        30,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1175,
+        0,
+        35,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "9-förmiges Glyph mit Bogen oben",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1215,
+        0,
+        40,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Doppelschleifen-Glyph (8)",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1260,
+        0,
+        35,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "4-förmiges Winkel-Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1300,
+        0,
+        30,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Y-ähnliches Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1335,
+        0,
+        20,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Einfacher vertikaler Strich (1)",
+      "confidence": 0.8
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "8",
+      "bbox": [
+        190,
+        0,
+        40,
+        80
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        715,
+        0,
+        35,
+        80
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        810,
+        0,
+        35,
+        80
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        850,
+        0,
+        35,
+        80
+      ]
+    },
+    {
+      "value": "9",
+      "bbox": [
+        1175,
+        0,
+        35,
+        80
+      ]
+    },
+    {
+      "value": "8",
+      "bbox": [
+        1215,
+        0,
+        40,
+        80
+      ]
+    },
+    {
+      "value": "4",
+      "bbox": [
+        1260,
+        0,
+        35,
+        80
+      ]
+    },
+    {
+      "value": "1",
+      "bbox": [
+        1335,
+        0,
+        20,
+        80
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "separator_dot",
+      "description": "Punkt-Glyph bei x≈755 als Wort-/Gruppentrenner in der Zeilenmitte",
+      "bbox": [
+        750,
+        25,
+        15,
+        25
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: latin -> RS. PERFECT ARRANGED NUMBER GROUPS TO SIX SQUARES. CHE"
+}

@@ -1,0 +1,168 @@
+{
+  "page": "p23",
+  "line_id": 3,
+  "line_bbox": [
+    86,
+    146,
+    1014,
+    48
+  ],
+  "line_type": "pure_latin_line",
+  "line_description": "Schmale Zeile mit lateinischen Buchstabenfragmenten an beiden Enden; die Mitte ist leer. Sichtbar sind N, C, H und weitere Glyphen (vermutlich S/G/6) in Großbuchstaben, dazu Schrägstriche/Trennstriche. Entspricht Fragmenten von 'AND WILL UNDERSTAND EVERYTHING'.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 12,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [
+    {
+      "text": "N",
+      "bbox": [
+        0,
+        0,
+        18,
+        60
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "G",
+      "bbox": [
+        0,
+        40,
+        18,
+        35
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "C",
+      "bbox": [
+        40,
+        0,
+        18,
+        60
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "G",
+      "bbox": [
+        40,
+        40,
+        18,
+        35
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "CH",
+      "bbox": [
+        85,
+        0,
+        28,
+        60
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "/",
+      "bbox": [
+        88,
+        45,
+        12,
+        25
+      ],
+      "confidence": 0.7
+    },
+    {
+      "text": "HN",
+      "bbox": [
+        745,
+        0,
+        32,
+        60
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "G",
+      "bbox": [
+        755,
+        40,
+        18,
+        35
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "C",
+      "bbox": [
+        820,
+        0,
+        18,
+        60
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "G",
+      "bbox": [
+        820,
+        40,
+        18,
+        35
+      ],
+      "confidence": 0.55
+    },
+    {
+      "text": "CH",
+      "bbox": [
+        875,
+        0,
+        28,
+        60
+      ],
+      "confidence": 0.95
+    },
+    {
+      "text": "/",
+      "bbox": [
+        878,
+        45,
+        12,
+        25
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "separator",
+      "description": "Kleiner vertikaler Strich/Trennmarke zwischen C und CH auf der linken Seite",
+      "bbox": [
+        68,
+        5,
+        5,
+        50
+      ]
+    },
+    {
+      "type": "separator",
+      "description": "Kleiner vertikaler Strich/Trennmarke zwischen C und CH auf der rechten Seite",
+      "bbox": [
+        858,
+        5,
+        5,
+        50
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 3: latin -> AND WILL UNDERSTAND EVERYTHING"
+}

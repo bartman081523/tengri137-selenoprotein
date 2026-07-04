@@ -1,0 +1,165 @@
+{
+  "page": "p17",
+  "line_id": 14,
+  "line_bbox": [
+    173,
+    1243,
+    439,
+    58
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematical expression with two products of integers. The upper row contains 2^5 × 3^2 × 151 × 929 × 2851 × 71777 × 17179879599815040097271 and the lower row contains 139 × 103800937 × 239135080477 × 5515755001341549, separated by a horizontal fraction-style rule. All characters are standard ASCII digits and the multiplication sign (×) in a modern mathematical typesetting style — no unknown glyphs, runes, or Latin text are present.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 13,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        10,
+        5,
+        28,
+        50
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        32,
+        -8,
+        22,
+        30
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        62,
+        5,
+        28,
+        50
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        86,
+        -8,
+        22,
+        30
+      ]
+    },
+    {
+      "value": "151",
+      "bbox": [
+        115,
+        5,
+        70,
+        50
+      ]
+    },
+    {
+      "value": "929",
+      "bbox": [
+        200,
+        5,
+        75,
+        50
+      ]
+    },
+    {
+      "value": "2851",
+      "bbox": [
+        290,
+        5,
+        95,
+        50
+      ]
+    },
+    {
+      "value": "71777",
+      "bbox": [
+        400,
+        5,
+        115,
+        50
+      ]
+    },
+    {
+      "value": "17179879599815040097271",
+      "bbox": [
+        530,
+        5,
+        450,
+        50
+      ]
+    },
+    {
+      "value": "139",
+      "bbox": [
+        95,
+        140,
+        60,
+        50
+      ]
+    },
+    {
+      "value": "103800937",
+      "bbox": [
+        175,
+        140,
+        165,
+        50
+      ]
+    },
+    {
+      "value": "239135080477",
+      "bbox": [
+        360,
+        140,
+        220,
+        50
+      ]
+    },
+    {
+      "value": "5515755001341549",
+      "bbox": [
+        600,
+        140,
+        285,
+        50
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2^5 × 3^2 × 151 × 929 × 2851 × 71777 × 17179879599815040097271 / 139 × 103800937 × 239135080477 × 5515755001341549",
+      "bbox": [
+        0,
+        0,
+        994,
+        200
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Long horizontal rule spanning the full width, visually functioning as a fraction bar separating the two products.",
+      "bbox": [
+        0,
+        95,
+        994,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 14: latin -> NCE? WHO AMONG YOU CAN WRITE OUR NAME THERE WHERE"
+}

@@ -1,0 +1,191 @@
+{
+  "page": "p20",
+  "line_id": 9,
+  "line_bbox": [
+    173,
+    828,
+    739,
+    77
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Ausdruck in Form einer Primfaktorzerlegung: 2² × 5 × 43 × 456603883 × 20395214811535465025556210219039121, abgeschlossen durch eine horizontale Trennlinie (Bruchstrich) zur folgenden Zeile.",
+  "n_glyphs_vision": 5,
+  "n_latin_tokens": 0,
+  "n_numerics": 5,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 4,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          12,
+          14,
+          22
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen x (kursiv, zwischen 2² und 5)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 912,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        183,
+        856,
+        467,
+        40
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          12,
+          14,
+          22
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen x (zwischen 5 und 43)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 912,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        183,
+        856,
+        467,
+        40
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          12,
+          14,
+          22
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen x (zwischen 43 und 456603883)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 912,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        183,
+        856,
+        467,
+        40
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          12,
+          14,
+          22
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen x (zwischen 456603883 und der langen Zahl)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 912,
+      "iou": 0.136,
+      "page_glyph_bbox": [
+        183,
+        856,
+        467,
+        40
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        25,
+        5,
+        20,
+        18
+      ],
+      "visual_kind": "math_exponentiation",
+      "description": "Hochzahl 2 als Superscript (Quadrat)",
+      "unicode_codepoint_candidate": "U+00B2",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "2",
+      "bbox": [
+        5,
+        12,
+        18,
+        22
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        72,
+        12,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "43",
+      "bbox": [
+        115,
+        12,
+        28,
+        22
+      ]
+    },
+    {
+      "value": "456603883",
+      "bbox": [
+        170,
+        12,
+        140,
+        22
+      ]
+    },
+    {
+      "value": "20395214811535465025556210219039121",
+      "bbox": [
+        340,
+        12,
+        430,
+        22
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "2² × 5 × 43 × 456603883 × 20395214811535465025556210219039121",
+      "bbox": [
+        5,
+        5,
+        770,
+        30
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Durchgehende horizontale Trennlinie unterhalb der Zeile (vermutlich Bruchstrich oder Trenner zur Folgezeile mit 7 × 11 × ...)",
+      "bbox": [
+        0,
+        38,
+        800,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 9: latin -> SUCH WE DO NOT WANT TO HAVE AMONG US"
+}

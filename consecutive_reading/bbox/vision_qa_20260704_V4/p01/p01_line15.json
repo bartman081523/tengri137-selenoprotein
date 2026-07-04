@@ -1,0 +1,570 @@
+{
+  "page": "p01",
+  "line_id": 15,
+  "line_bbox": [
+    189,
+    1059,
+    751,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile ausschließlich aus unbekannten geometrischen/runischen Glyphen. Keine lateinischen Buchstaben erkennbar; einzelne Puncta und ein zentrales Raute-mit-Punkt-Motiv sind sichtbar.",
+  "n_glyphs_vision": 32,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 13,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geöffneter Winkel nach rechts, V-förmig, mit kurzem Querstrich unten links – erinnert an ein umgekehrtes 'F' oder runisches Zeichen.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.164,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          45,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel aus zwei schrägen Strichen mit kurzem vertikalem Ansatz, ähnlich einer gotischen '7'-Form mit Anstrich.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Beinahe geschlossener runder Bogen mit kleiner Öffnung unten, erinnert an ein lateinisches 'C' in rune-treuer Ausführung.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          125,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Zwei parallel verlaufende Schrägstriche, runenartig, ähnlich dem Turk-Runen-Symbol für 'i'.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          165,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Spitz zulaufender Winkel nach oben (umgekehrtes V), rune-treue Form.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kleines Kreuz oder X mit kurzen Hasten, möglicherweise Worttrenner oder eigenes Glyph.",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel nach rechts, spitzes '>'-förmiges Glyph.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          285,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzes '>'-förmiges Glyph, möglicherweise identisch mit Vorgänger.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          325,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppeltes '>'-förmiges Glyph, zwei eng nebeneinanderliegende spitze Winkel.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Spitz nach oben offene Winkelform, runische 'Λ'-Form.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer-Form nach links, '['-förmig mit kurzen Hasten.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei parallele Vertikalstriche, ähnlich '||' oder 'h' ohne Querbalken.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          490,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Spitz nach oben, Winkel mit angedeutetem linken Anstrich.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 23,
+      "iou": 0.146,
+      "page_glyph_bbox": [
+        199,
+        1069,
+        503,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          530,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelform mit kurzem Querbalken unten, komplexeres runisches Zeichen.",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 24,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        711,
+        1069,
+        220,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          570,
+          15,
+          10,
+          10
+        ],
+        "visual_kind": "punctum",
+        "description": "Mittiges Punctum, Worttrenner oder Satzzeichen.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 24,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        711,
+        1069,
+        220,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          595,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit kurzem Anstrich oben, erinnert an '1' oder 'I' in rune-treuer Form.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 24,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        711,
+        1069,
+        220,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          640,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Eckige Klammer-Form mit Querstrich in der Mitte, 'Ħ'-ähnlich.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 24,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        711,
+        1069,
+        220,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          680,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkelform nach oben, 'Λ'-förmig.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 24,
+      "iou": 0.191,
+      "page_glyph_bbox": [
+        711,
+        1069,
+        220,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          715,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Eckige 'h'- oder 'n'-ähnliche Form mit zwei Vertikalstrichen und kurzem Querbalken.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 24,
+      "iou": 0.172,
+      "page_glyph_bbox": [
+        711,
+        1069,
+        220,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        750,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines Ypsilon oder 'Y'-ähnliches runisches Zeichen.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        790,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzes Winkel-Glyph nach links, ähnlich '<'.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        835,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Zentrale Raute mit Punkt in der Mitte, klares Schmuck-/Trennglyph.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        885,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Großes 'H'-förmiges Glyph mit zwei parallelen Vertikalen und Querstrich.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        925,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines nach unten spitzes V mit Anstrich, kompakte Rune.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        965,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleine Winkelform mit zwei Vertikalstrichen, 'n'-artig.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1005,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines spitzes 'X' mit verlängerten Hasten, runisches Zeichen.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1045,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines spitzes 'X', identisch zum vorigen Muster.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1085,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleine Winkelform, 'L'-artig oder 'h'-artig mit Anstrich.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1130,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Winkel nach oben, 'Λ'-förmig mit kurzem linken Anstrich.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1170,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkelform mit zwei Strichen, möglicherweise 'Y'-förmig.",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        1210,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitzes Winkel-Glyph '>' mit kurzem linken Anstrich.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1255,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Letztes Winkel-Glyph am Zeilenende, '<'-förmig.",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 15: latin -> THEIR REAL MEANING UNTIL THIS DAY. IT IS NOW TI"
+}

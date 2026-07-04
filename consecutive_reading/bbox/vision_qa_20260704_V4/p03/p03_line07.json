@@ -1,0 +1,557 @@
+{
+  "page": "p03",
+  "line_id": 7,
+  "line_bbox": [
+    202,
+    530,
+    736,
+    44
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit durchgehend unbekannten geometrischen/turkrunenartigen Glyphen, unterbrochen durch ein einzelnes Punctum (Punkt) ungefähr in der Mitte. Kein lateinischer Text sichtbar.",
+  "n_glyphs_vision": 29,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 21,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph, resembles an upside-down Y with a vertical stroke",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          40,
+          5,
+          25,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph with a hook-like top and a vertical stem",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Diamond/lozenge shape with internal cross stroke",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          105,
+          5,
+          25,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Y-like glyph with diverging upper arms",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          135,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph resembling a hooked Y",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          170,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Diamond shape with central dot and bracketing strokes",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          5,
+          25,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Hooked Y-like glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Reversed-Z-like angular glyph with hooks",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 72,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        212,
+        540,
+        257,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          270,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph with a diamond/leaf motif",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.189,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Hooked glyph with multiple angular branches",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          5,
+          25,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph similar to earlier ones",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          378,
+          20,
+          12,
+          15
+        ],
+        "visual_kind": "punctum",
+        "description": "Small round dot (possibly a word/phrase separator or period)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Reversed angular glyph with descending tail",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Y-shaped angular glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          480,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Hooked glyph with a top curl",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph with two upper branches",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          550,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Glyph resembling a leaf or eye motif",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          585,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph with a diamond center",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Hooked Y-like glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Angular glyph resembling the letter K with hooks",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          5,
+          30,
+          55
+        ],
+        "visual_kind": "unknown",
+        "description": "Glyph with double-curl at top",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 73,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        477,
+        540,
+        452,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        725,
+        5,
+        25,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular Y-like glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        755,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Hooked glyph with elongated descender",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        790,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular glyph with crossed top branches",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        825,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Glyph with hooked top arms",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        860,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Reversed Y-shaped glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        895,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Angular glyph with leaf-like center",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        930,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Final angular glyph, similar to leading glyphs",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        965,
+        5,
+        30,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Closing glyph with a curled motif",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 7: latin -> TO OUR ETERNAL LIBRARY. A KEY WITH WHICH EVER"
+}

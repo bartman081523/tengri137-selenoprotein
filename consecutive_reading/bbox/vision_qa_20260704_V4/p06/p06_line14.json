@@ -1,0 +1,581 @@
+{
+  "page": "p06",
+  "line_id": 14,
+  "line_bbox": [
+    186,
+    755,
+    754,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile unbekannter geometrischer/rune-artiger Glyphen ohne lateinische Einsprengsel, Zahlen oder Formeln. Mehrere Gesichter-Kreise (zwei Punkte) und trident-/geweih-artige Symbole dominieren.",
+  "n_glyphs_vision": 33,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 14,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitzwinkelige Klammer nach rechts, öffnend ('>'); zwei schräge Striche, die sich rechts treffen.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.081,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          0,
+          18,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich (I) ohne Verzierungen.",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          72,
+          0,
+          55,
+          130
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit zwei oder drei Punkten im Inneren (Gesichtsmotiv), offene bzw. nur teilweise geschlossene Kreislinie.",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          132,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "odin_triple_horn",
+        "description": "Dreizack-/Y-Form mit vertikalem Schaft und zwei symmetrischen Aufwärtsästen.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          182,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "other",
+        "description": "Rune-artiges Zeichen ähnlich '$' mit vertikalem Schaft und zwei gekrümmten Diagonalen, möglicherweise Tengwar-/Turkic-Rune.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          230,
+          0,
+          38,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Umgedrehtes E (Ǝ) bzw. rechts offene Klammer mit drei horizontalen Strichen an vertikaler Linie.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          272,
+          0,
+          32,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Vertikaler Strich mit kleinem Bogen/Haken am oberen Ende, nach links geöffnet.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          308,
+          0,
+          55,
+          130
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Zweiter Gesichts-Kreis mit zwei inneren Punkten, sehr ähnlich dem vorherigen.",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          368,
+          0,
+          28,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Hakenförmiges Zeichen ('J' oder Häkchen), vertikaler Schaft mit kurzem Bogen unten links.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          0,
+          30,
+          130
+        ],
+        "visual_kind": "odin_triple_horn",
+        "description": "Pfeil-/Geweih-ähnliches Zeichen, nach oben zeigend, mit zwei kurzen diagonalen Spitzen.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          434,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "odin_triple_horn",
+        "description": "Dreizack-Form mit zusätzlicher horizontaler Querlinie in der Mitte (gekreuzter Trident).",
+        "confidence": 0.78
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          482,
+          0,
+          38,
+          130
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Wieder umgedrehtes E (Ǝ), drei horizontale Striche an rechter Vertikale.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          523,
+          0,
+          25,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Schlanker vertikaler Strich mit kurzem Haken oben rechts.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          551,
+          0,
+          28,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Vertikaler Strich mit kurzer diagonaler Linie (nach rechts unten) etwa in der Mitte.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          582,
+          0,
+          25,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Vertikaler Strich mit kurzer horizontaler Querlinie oben (T-artige Variante).",
+        "confidence": 0.72
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          610,
+          0,
+          38,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Vertikaler Strich, der sich unten in zwei diagonalen Ästen gabelt (umgedrehter Y-Ansatz).",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 306,
+      "iou": 0.104,
+      "page_glyph_bbox": [
+        196,
+        765,
+        644,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          652,
+          0,
+          45,
+          130
+        ],
+        "visual_kind": "odin_triple_horn",
+        "description": "Y-Form mit zusätzlicher diagonaler Verstrebung, pfeil- bzw. geweihartig nach oben.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 307,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        850,
+        765,
+        81,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          0,
+          25,
+          130
+        ],
+        "visual_kind": "line",
+        "description": "Einfacher vertikaler Strich mit kurzer horizontaler Markierung, schlank.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 307,
+      "iou": 0.142,
+      "page_glyph_bbox": [
+        850,
+        765,
+        81,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          728,
+          0,
+          55,
+          130
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Dritter Gesichts-Kreis mit zwei inneren Punkten, gleiche Familie wie zuvor.",
+        "confidence": 0.93
+      },
+      "matched_glyph_index": 307,
+      "iou": 0.052,
+      "page_glyph_bbox": [
+        850,
+        765,
+        81,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        788,
+        0,
+        28,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Haken-/J-Form, vertikaler Schaft mit kleinem Bogen am Fuß.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        820,
+        0,
+        32,
+        130
+      ],
+      "visual_kind": "math_times",
+      "description": "Einfaches X (gekreuzte Diagonalen), dünne Strichstärke.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        855,
+        0,
+        45,
+        130
+      ],
+      "visual_kind": "odin_triple_horn",
+      "description": "Dreizack-Form (Y), mittlere Höhe, symmetrisch aufgefächert.",
+      "confidence": 0.82
+    },
+    {
+      "bbox": [
+        903,
+        0,
+        55,
+        130
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Vierter Gesichts-Kreis mit zwei inneren Punkten, identische Stilistik.",
+      "confidence": 0.93
+    },
+    {
+      "bbox": [
+        962,
+        0,
+        35,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkel/Klammer nach rechts mit kleinem innerem Anhängsel, möglicherweise '>' mit Punkt.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1000,
+        0,
+        40,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-ähnliches Zeichen, zwei vertikale Schäfte mit kurzer horizontaler Verbindung in der Mitte.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1043,
+        0,
+        38,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Umgedrehtes E (Ǝ) bzw. nach rechts offene Klammer, drei horizontale Striche.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1084,
+        0,
+        25,
+        130
+      ],
+      "visual_kind": "line",
+      "description": "Vertikaler Strich mit kleinem Bogen oben links (eingerolltes Kopfstück).",
+      "confidence": 0.72
+    },
+    {
+      "bbox": [
+        1112,
+        0,
+        45,
+        130
+      ],
+      "visual_kind": "odin_triple_horn",
+      "description": "Dreizack-Form, bei der die obere Spitze zu einer kleinen Rauten-/Diamantspitze ausgebildet ist.",
+      "confidence": 0.78
+    },
+    {
+      "bbox": [
+        1160,
+        0,
+        42,
+        130
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Geschlossene Raute (Diamant) mit zentralem Punkt im Inneren.",
+      "confidence": 0.88
+    },
+    {
+      "bbox": [
+        1205,
+        0,
+        40,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-/N-artiges Zeichen mit zwei Vertikalen und kurzer Diagonale, wirkt eckig-klammerartig.",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        1248,
+        0,
+        28,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kurze J-/Hakenform, vertikaler Schaft mit Bogen unten links.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1278,
+        0,
+        32,
+        130
+      ],
+      "visual_kind": "nine_rings",
+      "description": "Bogenförmiges Zeichen ähnlich der Ziffer 9 oder einem nach unten offenen Halbkreis mit kurzem Schaft.",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1312,
+        0,
+        28,
+        130
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Letztes J-/Haken-Glyph, gleiche Familie wie die vorherigen Hakenformen.",
+      "confidence": 0.8
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 14: glyph_description -> {PAGE 6 — visual elements}"
+}

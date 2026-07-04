@@ -1,0 +1,472 @@
+{
+  "page": "p16",
+  "line_id": 11,
+  "line_bbox": [
+    186,
+    1196,
+    753,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile mit ca. 24 geometrisch-eckigen Glyphen einer unbekannten Schrift, unterbrochen durch einen einzelnen Punctum-Punkt in der Zeilenmitte. Keine lateinischen Buchstaben sichtbar.",
+  "n_glyphs_vision": 24,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          12,
+          28,
+          56
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikale Stange mit drei nach links geöffneten Winkeln (umgekehrtes 'E' oder '3'-Form)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.143,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          38,
+          18,
+          28,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfaches nach rechts geöffnetes '>'-Winkelzeichen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.198,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          75,
+          12,
+          40,
+          58
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexes Y-förmiges Glyph mit zusätzlichen Querstrichen oben",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          122,
+          14,
+          30,
+          54
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spiegelverkehrtes 'J' oder Hakenform, öffnet nach rechts",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.213,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          12,
+          36,
+          58
+        ],
+        "visual_kind": "unknown",
+        "description": "Doppelstangiges X/H-ähnliches Glyph mit Kreuzungspunkt",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          203,
+          12,
+          38,
+          58
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Mehrfach gestaffeltes Glyph mit zwei vertikalen Stangen und Querverbindungen",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          248,
+          18,
+          44,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Doppeltes '>>' - zwei aufeinander folgende Winkelzeichen",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.198,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          298,
+          12,
+          38,
+          58
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "D-förmiges Glyph mit geschlossener rechter Seite und vertikaler Stange",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          346,
+          12,
+          40,
+          58
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschwungenes Glyph mit öffnender Spirale oder 8-förmigem Element",
+        "confidence": 0.35
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          18,
+          42,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel kombiniert mit spiegelverkehrten J-Haken",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.198,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          32,
+          14,
+          16
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner runder Punkt / Punctum als Trennzeichen",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.156,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          475,
+          12,
+          36,
+          58
+        ],
+        "visual_kind": "unknown",
+        "description": "Vertikale 1 mit kleinem h oder Haken unten rechts",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          516,
+          12,
+          42,
+          58
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Glyphenkombination mit eckigem Klammerelement und geraden Stangen",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          12,
+          36,
+          58
+        ],
+        "visual_kind": "unknown",
+        "description": "H-förmiges Glyph mit zwei vertikalen Stangen und Querbalken",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          608,
+          14,
+          32,
+          54
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spiegelverkehrtes J / einfacher Haken, öffnet nach rechts",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.213,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          650,
+          12,
+          42,
+          58
+        ],
+        "visual_kind": "unknown",
+        "description": "Komplexes Glyph mit gebogenem Element und geraden Stangen",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.216,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          14,
+          28,
+          54
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfacher vertikaler Haken / spiegelverkehrtes J",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.213,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          735,
+          18,
+          22,
+          48
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfaches nach rechts geöffnetes '>'-Winkelzeichen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 803,
+      "iou": 0.081,
+      "page_glyph_bbox": [
+        196,
+        1206,
+        734,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        766,
+        18,
+        24,
+        48
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfaches nach rechts geöffnetes '>'-Winkelzeichen",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        800,
+        12,
+        38,
+        58
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexes Glyph mit Mittelstange und zwei seitlichen Häkchen",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        848,
+        12,
+        36,
+        58
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Glyphenkombination aus '>' und J-Haken",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        895,
+        12,
+        36,
+        58
+      ],
+      "visual_kind": "unknown",
+      "description": "Komplexes geschwungenes Glyph mit Hakenelementen",
+      "confidence": 0.4
+    },
+    {
+      "bbox": [
+        942,
+        12,
+        38,
+        58
+      ],
+      "visual_kind": "unknown",
+      "description": "Mehrteiliges Glyph mit vertikaler Stange und seitlichen Haken",
+      "confidence": 0.45
+    },
+    {
+      "bbox": [
+        988,
+        12,
+        30,
+        58
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Abschließendes Glyph mit diagonalem Strich nach rechts unten",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 11: latin -> HIS CALCULATIONS ARE UNIQUE WAYS. YOU CANNOT CHANG"
+}

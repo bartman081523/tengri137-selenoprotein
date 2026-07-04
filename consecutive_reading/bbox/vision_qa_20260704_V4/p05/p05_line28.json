@@ -1,0 +1,82 @@
+{
+  "page": "p05",
+  "line_id": 28,
+  "line_bbox": [
+    519,
+    1412,
+    96,
+    44
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit fünf roten geometrischen Glyphen, die entfernt an lateinische Zeichen erinnern (Ziffer 5, Ziffer 4, Ziffer 4, Buchstabe N, Buchstabe J).",
+  "n_glyphs_vision": 5,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 5,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        35,
+        50,
+        75
+      ],
+      "visual_kind": "other",
+      "description": "Geometrische Form ähnlich der Ziffer 5 oder einem stilisierten S: obere horizontale Linie, abwärts zur unteren linken Seite, untere horizontale Linie, alles in einer geschlossenen Kontur.",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        60,
+        30,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Geometrische Form ähnlich der Ziffer 4 oder einem stilisierten h: vertikale Linie rechts über volle Höhe, obere horizontale Verbindung zu einer kürzeren vertikalen Linie links, optionale horizontale Mittelstrebe.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        115,
+        30,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Geometrische Form identisch zum vorherigen Glyph (4-/h-Form), als Wiederholung des gleichen Zeichens in der Zeile.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        170,
+        30,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Geometrische Form ähnlich dem lateinischen Buchstaben N oder dem kyrillischen И: zwei vertikale Linien verbunden durch eine diagonale Linie (Verlauf von oben-links nach unten-rechts bzw. umgekehrt).",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        225,
+        35,
+        50,
+        75
+      ],
+      "visual_kind": "other",
+      "description": "Geometrische Form ähnlich dem Buchstaben J: vertikale Linie auf der linken Seite mit einem Haken nach rechts an der Unterseite.",
+      "confidence": 0.75
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Schmeh has 27 lines for this page"
+}

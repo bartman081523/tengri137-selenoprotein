@@ -1,0 +1,149 @@
+{
+  "page": "p17",
+  "line_id": 6,
+  "line_bbox": [
+    173,
+    637,
+    398,
+    59
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Ausdruck: 7 hoch 2 multipliziert mit 51749 multipliziert mit 163247627663 multipliziert mit 326153710690401658818517. Wirkt wie der Anfang einer Primfaktorzerlegung (RSA-artig). Es sind keine lateinischen Buchstaben oder unbekannten geometrischen Glyphen erkennbar; die Zeile besteht ausschließlich aus Ziffern und Multiplikationssymbolen.",
+  "n_glyphs_vision": 4,
+  "n_latin_tokens": 0,
+  "n_numerics": 4,
+  "n_formulas": 1,
+  "n_graphics": 0,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          62,
+          25,
+          20,
+          25
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (×) zwischen 7² und 51749",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 822,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        647,
+        379,
+        40
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          25,
+          20,
+          25
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplikationszeichen (×) zwischen 51749 und 163247627663",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 822,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        183,
+        647,
+        379,
+        40
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          42,
+          8,
+          14,
+          18
+        ],
+        "visual_kind": "math_exponentiation",
+        "description": "Hoch-2 Exponent (²) über dem ersten 7",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 822,
+      "iou": 0.444,
+      "page_glyph_bbox": [
+        183,
+        647,
+        379,
+        40
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        455,
+        25,
+        20,
+        25
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplikationszeichen (×) zwischen 163247627663 und 326153710690401658818517",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "7",
+      "bbox": [
+        25,
+        25,
+        16,
+        32
+      ]
+    },
+    {
+      "value": "51749",
+      "bbox": [
+        85,
+        25,
+        95,
+        32
+      ]
+    },
+    {
+      "value": "163247627663",
+      "bbox": [
+        230,
+        25,
+        205,
+        32
+      ]
+    },
+    {
+      "value": "326153710690401658818517",
+      "bbox": [
+        480,
+        25,
+        285,
+        32
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "7² × 51749 × 163247627663 × 326153710690401658818517",
+      "bbox": [
+        20,
+        0,
+        720,
+        72
+      ]
+    }
+  ],
+  "graphics": [],
+  "schmeh_hint": "Line 6: latin -> RBITRARY."
+}

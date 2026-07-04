@@ -1,0 +1,549 @@
+{
+  "page": "p10",
+  "line_id": 13,
+  "line_bbox": [
+    198,
+    767,
+    741,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Lange Zeile aus ~30 unbekannten geometrischen Glyphen, darunter Diamantformen, ein Gesicht-Kreis-mit-drei-Punkten, mehrere Klammer-/Bogenformen, gegabelte Y- und H-Formen sowie ein einzelner Punkt. Kein lateinischer Text erkennbar.",
+  "n_glyphs_vision": 31,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 18,
+  "n_unmatched_vision_glyphs": 13,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmige gegabelte Form mit drei Strängen (ähnelt einem Tripod/Tuning-Fork)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.154,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          0,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offene Winkelform, ähnlich '>' oder '7' mit zwei Schenkeln",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          0,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H/Y-förmige gegabelte Struktur mit Mittelstrich",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          0,
+          55,
+          70
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei kleinen Punkten im Inneren (Gesicht/Gesichtsmaske)",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          215,
+          0,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Invertierte L-Form / Haken nach unten",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          255,
+          0,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossene Klammer ']'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          0,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikale Linie mit Haken oben ('1'-ähnlich mit oberem Querstrich)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          325,
+          0,
+          40,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitze Winkelform, '7' oder '/\\' ähnlich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          0,
+          35,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschwungene '3' oder '8'-Form",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          0,
+          50,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-Form mit kurzem vertikalem Stamm (gegabelt)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          0,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Leere Rautenform (Diamant) ohne zentralen Punkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          0,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfacher vertikaler Strich 'I'/'1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          545,
+          0,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossene Klammer ']'",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          580,
+          0,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfache Vertikale '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          610,
+          0,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossene Klammer ']'",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          0,
+          25,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Einfache Vertikale '1'",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          0,
+          30,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossene Klammer ']'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          710,
+          0,
+          45,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenform mit zentralem Punkt/Punkt im Inneren",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 499,
+      "iou": 0.11,
+      "page_glyph_bbox": [
+        208,
+        777,
+        722,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        760,
+        0,
+        12,
+        70
+      ],
+      "visual_kind": "punctum",
+      "description": "Punkt / Interpunktions-Trenner",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        785,
+        0,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "X-förmige Kreuzstruktur (zwei gekreuzte Diagonalen)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        840,
+        0,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-Form mit zwei vertikalen Strichen und Mittelbalken",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        895,
+        0,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-Form mit drei Strängen (gegabelt)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        950,
+        0,
+        50,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-ähnliche Struktur mit vertikalen Strichen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1005,
+        0,
+        55,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Gegabelte Struktur mit mehreren Ästen",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1065,
+        0,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-Form mit gegabelter Spitze",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1115,
+        0,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "K-ähnliche Form mit zwei Schenkeln und Stamm",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1165,
+        0,
+        25,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfache Vertikale '1'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1195,
+        0,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Spitze Winkelform '7' oder '>'",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1240,
+        0,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "H-Form mit Querbalken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1290,
+        0,
+        25,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Einfache Vertikale '1'",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1320,
+        0,
+        35,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleine gegabelte 'V'-Form",
+      "confidence": 0.5
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Schmeh has 10 lines for this page"
+}

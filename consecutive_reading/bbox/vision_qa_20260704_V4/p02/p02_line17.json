@@ -1,0 +1,150 @@
+{
+  "page": "p02",
+  "line_id": 17,
+  "line_bbox": [
+    341,
+    1241,
+    462,
+    100
+  ],
+  "line_type": "graphic_line",
+  "line_description": "Zwei gewölbte/flachgewölbte Formen (Dome) nebeneinander, jede mit einem zentralen Kreis (möglicherweise runde Turk-Runen enthaltend), flankiert von wellenförmigen Linienmustern und kleinen Markierungen am Sockel. Überwiegend grafisch/dekorativ.",
+  "n_glyphs_vision": 2,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 8,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          10,
+          90,
+          90
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Kreis im linken Dom mit kleiner innerer Markierung (möglicherweise alttürkische Glyphe/Runen-Zeichen innen)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 55,
+      "iou": 0.345,
+      "page_glyph_bbox": [
+        405,
+        1259,
+        67,
+        72
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          415,
+          10,
+          90,
+          90
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Kreis im rechten Dom mit mehreren inneren Strichen/Markierungen (mögliche alttürkische Runen-Glyphen)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 57,
+      "iou": 0.155,
+      "page_glyph_bbox": [
+        749,
+        1282,
+        45,
+        34
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "dome_arch",
+      "description": "Linke gewölbte/flachgewölbte Form als Halboval-Dom",
+      "bbox": [
+        0,
+        0,
+        295,
+        100
+      ]
+    },
+    {
+      "type": "dome_arch",
+      "description": "Rechte gewölbte/flachgewölbte Form als Halboval-Dom",
+      "bbox": [
+        310,
+        0,
+        290,
+        100
+      ]
+    },
+    {
+      "type": "wavy_lines",
+      "description": "Wellenförmige Linien links der Kreis-Markierung im linken Dom (3-4 horizontale Wellen)",
+      "bbox": [
+        10,
+        45,
+        70,
+        45
+      ]
+    },
+    {
+      "type": "wavy_lines",
+      "description": "Wellenförmige Linien rechts der Kreis-Markierung im linken Dom",
+      "bbox": [
+        180,
+        45,
+        70,
+        45
+      ]
+    },
+    {
+      "type": "wavy_lines",
+      "description": "Wellenförmige Linien links der Kreis-Markierung im rechten Dom",
+      "bbox": [
+        325,
+        45,
+        70,
+        45
+      ]
+    },
+    {
+      "type": "wavy_lines",
+      "description": "Wellenförmige Linien rechts der Kreis-Markierung im rechten Dom",
+      "bbox": [
+        500,
+        45,
+        70,
+        45
+      ]
+    },
+    {
+      "type": "base_marks",
+      "description": "Kleine vertikale Strich-/Zacken-Markierungen am Sockel des linken Doms",
+      "bbox": [
+        0,
+        85,
+        295,
+        15
+      ]
+    },
+    {
+      "type": "base_marks",
+      "description": "Kleine vertikale Strich-/Zacken-Markierungen am Sockel des rechten Doms",
+      "bbox": [
+        310,
+        85,
+        290,
+        15
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 17: unknown -> page; round turkic runes (also called Old Turkic / Orkhon-derived"
+}

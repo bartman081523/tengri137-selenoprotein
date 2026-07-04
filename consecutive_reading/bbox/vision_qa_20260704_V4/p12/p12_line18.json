@@ -1,0 +1,497 @@
+{
+  "page": "p12",
+  "line_id": 18,
+  "line_bbox": [
+    194,
+    1229,
+    746,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile mit 28 dicht gesetzten geometrischen Glyphen einer unbekannten kantigen Schrift, ohne erkennbare lateinische Wörter, Zahlen oder Formeln. Einziges Schmuckelement ist ein einzelner Punkttrenner.",
+  "n_glyphs_vision": 28,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 13,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Spiegelverkehrtes 'E' mit drei horizontalen Zinken nach links, kantig",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 609,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        204,
+        1239,
+        200,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          10,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel wie '7' mit kurzem Querbalken oben links",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 609,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        204,
+        1239,
+        200,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          105,
+          10,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Hakiger J-förmiger Strich, oben kurz abgewinkelt",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 609,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        204,
+        1239,
+        200,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          145,
+          10,
+          50,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Λ (Lambda) – aufrechtes Dreieck mit zwei Schenkeln",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 609,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        204,
+        1239,
+        200,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          10,
+          35,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Kleines 'h' – Vertikalstrich mit Bogen nach rechts oben",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 610,
+      "iou": 0.165,
+      "page_glyph_bbox": [
+        411,
+        1240,
+        88,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          250,
+          10,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "'H' mit Querbalken in der Mitte und zusätzlicher Diagonale (ähnlich K/H-Komposit)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 610,
+      "iou": 0.348,
+      "page_glyph_bbox": [
+        411,
+        1240,
+        88,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Umgedrehtes '3' / 'ε' – zwei rechts offene Bögen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          10,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "'K'-förmiges Zeichen mit Vertikalstrich und zwei nach rechts offenen Winkeln",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei inneren Punkten (zwei oben, einer unten) – 'Gesicht'-Glyph",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          480,
+          10,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit kurzem Haken oben rechts",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          520,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Pfeil-/Y-förmiges Zeichen mit geknicktem Schaft",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          575,
+          10,
+          50,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "'&' / liegende 8 – zwei verschlungene Schlaufen",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          635,
+          10,
+          45,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "K mit Diagonalschnitt (schmales 'K' oder 'X'-Hybrid)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          10,
+          25,
+          55
+        ],
+        "visual_kind": "math_paren",
+        "description": "Schließende runde Klammer ')' ",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.245,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          725,
+          10,
+          35,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "'J' mit kurzem Querbalken oben (gespiegeltes F ohne oberen Zinken)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 611,
+      "iou": 0.084,
+      "page_glyph_bbox": [
+        498,
+        1239,
+        433,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        770,
+        10,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkel '7' mit kurzem horizontalem Ansatz",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        815,
+        10,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Umgedrehtes 'B' / 'Ɛ' mit zwei linken Bögen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        870,
+        10,
+        45,
+        30
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Doppelter nach rechts zeigender Winkel '>>' in der oberen Hälfte",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        925,
+        10,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Halbkreis / 'D' mit gerader linker und gerundeter rechter Seite",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        980,
+        10,
+        35,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "'J' mit Querbalken oben – Variante",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1025,
+        10,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Liegende Acht / '8' mit zwei gleichgroßen Schleifen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1080,
+        10,
+        45,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Komplexes Zeichen mit Vertikalstrich und überkreuzendem Schrägbalken (kreuzförmig)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1135,
+        10,
+        35,
+        35
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Rautenförmiges Zeichen (gepunktete/freie Raute) in der oberen Zeilenhälfte",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1180,
+        30,
+        10,
+        10
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner Punkt / Interpunktionspunkt auf Grundlinie",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1200,
+        10,
+        15,
+        55
+      ],
+      "visual_kind": "line",
+      "description": "Einfacher Vertikalstrich",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        1225,
+        10,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Winkel '7' mit horizontalem oberen Ansatz",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1270,
+        10,
+        35,
+        55
+      ],
+      "visual_kind": "other",
+      "description": "Kleines 'h' – Vertikalstrich mit kurzem Bogen oben rechts",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        1315,
+        10,
+        45,
+        55
+      ],
+      "visual_kind": "math_times",
+      "description": "Kreuz 'X' / Multiplikationszeichen",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctuation_dot",
+      "description": "Einzelner Mittelpunkt als Worttrenner zwischen Raute und Vertikalstrich",
+      "bbox": [
+        1180,
+        30,
+        10,
+        10
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 18: unknown -> . TELL US THE LAST TEN DECIMALS AND THE NAME OF THIS"
+}

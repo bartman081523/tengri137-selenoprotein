@@ -1,0 +1,614 @@
+{
+  "page": "p03",
+  "line_id": 3,
+  "line_bbox": [
+    214,
+    330,
+    725,
+    49
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile in unbekannter geometrischer/rune-artiger Schrift mit etwa 35-36 Glyphen, eingeleitet durch ein hakenförmiges Initialzeichen und einen Punctum. Keine klar lesbaren lateinischen Wortformen erkennbar – die Zeichen wirken wie eine konstruierte/verschlüsselte Schrift.",
+  "n_glyphs_vision": 36,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 17,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          20,
+          35,
+          90
+        ],
+        "visual_kind": "other",
+        "description": "Haken-/Anfangszeichen, links offene Schleife mit kurzem vertikalen Schaft, ähnlich einem stilisierten J oder Anfangs-Sigle.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.095,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          80,
+          20,
+          28,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "h-förmiges Glyph mit zwei vertikalen Schäften und kurzem Querbalken unten, rune-artig.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          20,
+          28,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Γ-förmiges Glyph (Gamma), oben offener Winkel mit horizontaler Basis, kein erkennbarer Unicode-Charakter.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          150,
+          20,
+          30,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "E-förmiges Glyph mit drei horizontalen Zinken, rune-artig stilisiert.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          188,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "Klar H-förmiges Glyph mit zwei vertikalen Schäften und mittlerem Querbalken, leicht abgerundete Winkel.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          20,
+          28,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Wiederholtes Γ-förmiges Glyph, oben offener Winkel mit kurzer horizontaler Basis.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          260,
+          20,
+          30,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Glyph, gekreuzte Diagonalen gleicher Stärke.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          298,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "D-förmiges Glyph mit gerader Vertikale und geschwungener rechter Seite.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          335,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "J-förmiges Glyph mit geradem Schaft und geschwungenem Haken unten links.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kreis mit zentralem Punkt und kurzem vertikalen Stamm nach oben, erinnert an ein türkisches tamga/Runen-Glyph.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          405,
+          25,
+          18,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Schlankes I-Glyph, einfache Vertikale ohne Serifen.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.094,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          20,
+          32,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "T-förmiges Glyph mit breitem oberen Querbalken und zentralem Schaft.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "J-förmiges Glyph mit geschwungenem Haken unten links, ähnlich dem vorherigen J.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          20,
+          30,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "X-förmiges Glyph, gekreuzte Diagonalen.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.125,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "D-förmiges Glyph mit gerader Vertikale und gebogener rechter Seite.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          578,
+          20,
+          32,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "R-förmiges Glyph mit gerader Vertikale, oberem Bogen und diagonalem Bein.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          615,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Geschlossenes ovales/ringförmiges Glyph, ähnelt einer 6 oder o-Form mit Mittelraum.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          652,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Geschlossenes ovales Glyph, ähnlich dem vorherigen Ring-Glyph.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.118,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          20,
+          30,
+          85
+        ],
+        "visual_kind": "other",
+        "description": "D-förmiges Glyph mit gerader Vertikale und gebogener rechter Seite.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 66,
+      "iou": 0.102,
+      "page_glyph_bbox": [
+        224,
+        340,
+        706,
+        30
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        55,
+        70,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Punktförmiger Punctum-Trenner zwischen Initial und erstem Wort.",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        725,
+        25,
+        18,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Schlankes I-Glyph, einfache Vertikale.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        750,
+        20,
+        32,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "T-förmiges Glyph mit oberem Querbalken und zentralem Schaft.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        790,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Glyph mit Haken unten links.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        825,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "G-förmiges Glyph mit offenem rechten Bogen und kurzem internem Haken.",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        862,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Glyph mit geradem Schaft und Haken unten links.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        898,
+        20,
+        32,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "V- oder Y-förmiges Glyph mit zwei konvergierenden/begrenzten Diagonalen.",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        935,
+        25,
+        18,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "Schlankes I-Glyph, einfache Vertikale.",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        960,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Glyph mit Haken unten links.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        997,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Ovales/ringförmiges Glyph, Mittelraum erkennbar.",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1035,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "J-förmiges Glyph mit geradem Schaft und geschwungenem Haken unten links.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1070,
+        20,
+        30,
+        80
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "7- oder umgekehrt-Γ-förmiges Glyph mit horizontaler Oberkante und absteigender Diagonale.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1105,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Glyph mit zwei vertikalen Schäften und mittlerem Querbalken.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1142,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "G-förmiges Glyph mit offenem Bogen und innerem Haken.",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1180,
+        20,
+        30,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "H-förmiges Glyph, ähnlich dem vorherigen.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1218,
+        20,
+        32,
+        85
+      ],
+      "visual_kind": "other",
+      "description": "T-förmiges Glyph mit oberem Querbalken.",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        1258,
+        20,
+        30,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "X-förmiges Glyph, gekreuzte Diagonalen, letztes Zeichen der Zeile.",
+      "confidence": 0.8
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 3: latin -> DING THE MESSAGE, IS NOT TO UNDERSTANDING IT. A"
+}

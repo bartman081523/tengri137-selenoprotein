@@ -1,0 +1,182 @@
+{
+  "page": "p01",
+  "line_id": 17,
+  "line_bbox": [
+    380,
+    1139,
+    363,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ca. 14 unbekannten geometrischen Glyphen, darunter ein lozenge-/rautenförmiges Symbol, das dem Oracle-Bone-Script für tian (天, Himmel) ähnelt.",
+  "n_glyphs_vision": 14,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 14,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        0,
+        50,
+        35,
+        60
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner schwarzer Punkt / Troph-Punkt am Zeilenanfang",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        45,
+        30,
+        75,
+        110
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "H-förmiges Glyph mit zwei vertikalen Balken und einem Querbalken, wirkt wie ein rune-artiges 'h'",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        125,
+        25,
+        80,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Y-förmiges oder trident-artiges Glyph mit zwei auseinanderlaufenden Schenkeln oben und vertikalem Stamm",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        210,
+        30,
+        70,
+        115
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Invertiertes V / Lambda-förmiges Glyph (spitzwinklig), zwei nach oben auseinanderlaufende Striche",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        285,
+        30,
+        60,
+        120
+      ],
+      "visual_kind": "digit",
+      "description": "Schmaler vertikaler Strich, möglicherweise '1' oder einzelner Rune-Stab",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        350,
+        30,
+        75,
+        115
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Weiteres H-förmiges rune-artiges Glyph mit Querbalken",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        430,
+        30,
+        70,
+        120
+      ],
+      "visual_kind": "geometric_circle",
+      "description": "Geschlossene Schleife / oval-9-ähnliches Glyph",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        505,
+        30,
+        75,
+        115
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "H-förmiges rune-artiges Glyph, identisch zu vorherigen 'h'",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        580,
+        30,
+        60,
+        120
+      ],
+      "visual_kind": "digit",
+      "description": "Schmaler vertikaler Strich / '1'-ähnlicher Rune-Stab",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        640,
+        25,
+        80,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Y-förmiges / trident-artiges Glyph mit zwei Schenkeln oben",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        720,
+        30,
+        70,
+        115
+      ],
+      "visual_kind": "unknown",
+      "description": "Geschwungenes, komma- oder hakenförmiges Glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        790,
+        30,
+        80,
+        115
+      ],
+      "visual_kind": "chinese_oracle_script",
+      "description": "Lozenge-/Rauten-förmiges Symbol mit dicker Kontur, möglicherweise das Oracle-Bone-Script-Glyph für tian 天 (Himmel)",
+      "unicode_codepoint_candidate": "U+5929",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        865,
+        30,
+        60,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Haken- oder J-förmiges Glyph mit gebogenem unterem Ende",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        925,
+        25,
+        75,
+        120
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Y- oder trident-förmiges Glyph mit Querbalken (ähnlich 'Psi'-Form)",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 17: glyph_description -> {symbol, Chinese Oracle script for tian 天 \"heaven\"}"
+}

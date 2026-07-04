@@ -1,0 +1,500 @@
+{
+  "page": "p08",
+  "line_id": 18,
+  "line_bbox": [
+    206,
+    1397,
+    726,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus einem unbekannten geometrischen/ konstruierten Schriftsystem (vermutlich Standard Galactic Alphabet oder vergleichbar), eingeleitet durch ein einzelnes Punctum. Es dominieren kantige, geometrische Glyphen ohne erkennbare lateinische Buchstaben oder Ziffern.",
+  "n_glyphs_vision": 32,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 12,
+  "n_unmatched_vision_glyphs": 20,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          38,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y/K-förmiges Glyph mit diagonalem Arm und Vertikalstrich",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 460,
+      "iou": 0.168,
+      "page_glyph_bbox": [
+        216,
+        1407,
+        116,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          100,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "E/3-förmiges Glyph mit drei horizontalen Bögen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 460,
+      "iou": 0.073,
+      "page_glyph_bbox": [
+        216,
+        1407,
+        116,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          162,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Winkel-Glyph ähnlich der Ziffer 4 mit Spitze nach unten",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          222,
+          18,
+          45,
+          70
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spitze Klammer / '>'-förmiges Glyph",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          278,
+          28,
+          55,
+          55
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rauten-/Diamant-Glyph (zwei verschachtelte Rauten oder Rhombus mit zentraler Markierung)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.073,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "9- oder g-förmiges Glyph mit gebogener oberer Rundung und absteigendem Strich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          402,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "h-förmiges Glyph mit zwei parallelen Vertikalstrichen und Querbalken",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          462,
+          18,
+          35,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "Schlankes '1'-förmiges Glyph (Vertikalstrich)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "X/8-förmiges Glyph mit zwei sich kreuzenden oder gebogenen Elementen",
+        "confidence": 0.45
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          565,
+          18,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "J-förmiges Glyph mit Vertikalstrich und Haken unten links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.113,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          615,
+          18,
+          55,
+          70
+        ],
+        "visual_kind": "unknown",
+        "description": "D-förmiges Glyph (halbkreisförmig geschlossene Form, möglicherweise Latin D)",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.129,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          675,
+          18,
+          45,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "J-förmiges Glyph mit Vertikalstrich und Haken unten links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 461,
+      "iou": 0.105,
+      "page_glyph_bbox": [
+        341,
+        1407,
+        582,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        8,
+        50,
+        18,
+        18
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner runder Punkt / Punctum am Zeilenanfang",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        725,
+        18,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines '>'-förmiges Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        770,
+        18,
+        50,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Winkel-Glyph ähnlich der Ziffer 4 mit Spitze",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        825,
+        18,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines '>'-förmiges Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        870,
+        18,
+        35,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Schlankes '1'-förmiges Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        910,
+        18,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "J-förmiges Glyph mit Haken unten",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        960,
+        18,
+        55,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "E/Ǝ-förmiges Glyph (drei horizontale Striche mit Vertikalverbindung, evtl. rückwärts E)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1020,
+        18,
+        55,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "h-förmiges Glyph (zwei Vertikalstriche mit Querbalken)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1080,
+        18,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "J-förmiges Glyph",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1130,
+        18,
+        55,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "E/Ǝ-förmiges Glyph (drei horizontale Striche)",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1190,
+        18,
+        45,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Y/r-förmiges Glyph mit Gabelung oben",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1240,
+        18,
+        50,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Winkel-Glyph ähnlich Ziffer 4",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1295,
+        18,
+        40,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines '>'-förmiges Glyph",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        1340,
+        18,
+        65,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "M-förmiges oder W-förmiges Glyph mit mehreren Zacken",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1410,
+        18,
+        55,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "h-förmiges Glyph",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        1470,
+        18,
+        35,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "Schlankes '1'-förmiges Glyph",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        1510,
+        18,
+        45,
+        70
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kleines '>'-förmiges Glyph",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1560,
+        18,
+        55,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "X-förmiges Glyph (zwei sich kreuzende Diagonalen)",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1620,
+        18,
+        45,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "J-förmiges Glyph",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1670,
+        18,
+        55,
+        70
+      ],
+      "visual_kind": "unknown",
+      "description": "D-förmiges Glyph am Zeilenende (ähnlich D, möglicherweise Latin D)",
+      "confidence": 0.4
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 18: magic_cube_line -> - four \"(=666)\" footer labels."
+}

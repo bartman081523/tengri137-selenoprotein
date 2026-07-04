@@ -1,0 +1,447 @@
+{
+  "page": "p10",
+  "line_id": 18,
+  "line_bbox": [
+    190,
+    1130,
+    749,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile aus ca. 19 unbekannten geometrischen Glyphen, gefolgt von einem abschließenden Punctum. Keine lateinischen Buchstaben, keine Zahlen, keine Formeln erkennbar.",
+  "n_glyphs_vision": 20,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 20,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          3,
+          5,
+          26,
+          42
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei vertikale Striche mit kurzem Verbindungselement oben, ähnlich einer eckigen Klammer oder 'I|'.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          28,
+          8,
+          25,
+          36
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offener Winkel/Bracket nach rechts geöffnet, ähnlich '>' mit dickeren Strichenden.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.389,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          54,
+          10,
+          22,
+          30
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Kleiner Chevron/Dreiecksform nach rechts, kompakte Winkelform.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.467,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          78,
+          6,
+          25,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit unten angesetztem Haken nach links, J-ähnliche Form.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          104,
+          8,
+          25,
+          36
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Offener Winkel nach rechts, ähnlich '>' mit zwei klaren Strichsegmenten.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.389,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          130,
+          6,
+          27,
+          38
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel/Bracket-Form, ähnlich vorigem Glyph aber leicht abweichend.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.368,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          157,
+          6,
+          32,
+          38
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei Punkten im Inneren, möglicherweise zwei Augen und ein zentraler Punkt - maskuline 'Gesicht'-Form.",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.368,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          188,
+          8,
+          22,
+          36
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Schmale rechteckige Klammer ']' - ähnlich den anderen Bracket-Glyphen.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.389,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          212,
+          6,
+          28,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel mit vertikalem Strich, nach rechts geöffnete Winkelform.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          241,
+          12,
+          22,
+          30
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Kleines Dreieck/Chevron nach rechts, ähnlich Glyph 3.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          264,
+          6,
+          26,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Kreuzförmige/X-förmige Anordnung zweier diagonaler Strichsegmente.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 505,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        200,
+        1140,
+        286,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          291,
+          6,
+          25,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Vertikaler Strich mit angesetztem Winkel, kompakte Bracket-Form.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 506,
+      "iou": 0.14,
+      "page_glyph_bbox": [
+        496,
+        1140,
+        116,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          317,
+          6,
+          30,
+          40
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Rautenförmige/rhombische Form mit innerem Kreuz, komplexere geometrische Figur.",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 506,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        496,
+        1140,
+        116,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          347,
+          6,
+          28,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel mit vertikalem Strichansatz, ähnlich vorangegangenen Bracket-Formen.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 506,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        496,
+        1140,
+        116,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          376,
+          8,
+          24,
+          36
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Geschlossene Klammer ')' oder bogenförmige Halbkreis-Form.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 506,
+      "iou": 0.389,
+      "page_glyph_bbox": [
+        496,
+        1140,
+        116,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          402,
+          6,
+          28,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Element mit oberer Gabelung und langem vertikalen Schaft.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 506,
+      "iou": 0.25,
+      "page_glyph_bbox": [
+        496,
+        1140,
+        116,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          6,
+          27,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Winkel-Form mit vertikalem Strich, ähnlich Bracket-Glyphen.",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 507,
+      "iou": 0.337,
+      "page_glyph_bbox": [
+        621,
+        1140,
+        174,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          458,
+          6,
+          30,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmige Form mit Gabelung oben, ähnlich voranstehendem Y-Glyph.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 507,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        621,
+        1140,
+        174,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          489,
+          6,
+          32,
+          40
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "H-förmiges Element mit zwei vertikalen Strichen und kurzer Querverbindung.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 507,
+      "iou": 0.35,
+      "page_glyph_bbox": [
+        621,
+        1140,
+        174,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          525,
+          22,
+          12,
+          12
+        ],
+        "visual_kind": "punctum",
+        "description": "Kleiner Punkt/Interpunktion am Zeilenende, möglicherweise Satzzeichen.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 507,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        621,
+        1140,
+        174,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Schmeh has 10 lines for this page"
+}

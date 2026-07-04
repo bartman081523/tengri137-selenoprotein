@@ -1,0 +1,102 @@
+{
+  "page": "p18",
+  "line_id": 13,
+  "line_bbox": [
+    173,
+    1185,
+    262,
+    59
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Ausdruck: 5² × 139795778583407753912923 als Zähler, 659 × 1327 × 33977090434306641871 als Nenner, getrennt durch Bruchstrich.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 6,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "5",
+      "bbox": [
+        3,
+        5,
+        22,
+        55
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        22,
+        0,
+        14,
+        22
+      ]
+    },
+    {
+      "value": "139795778583407753912923",
+      "bbox": [
+        60,
+        25,
+        578,
+        32
+      ]
+    },
+    {
+      "value": "659",
+      "bbox": [
+        3,
+        90,
+        50,
+        32
+      ]
+    },
+    {
+      "value": "1327",
+      "bbox": [
+        60,
+        90,
+        70,
+        32
+      ]
+    },
+    {
+      "value": "33977090434306641871",
+      "bbox": [
+        140,
+        90,
+        480,
+        32
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "5^2 × 139795778583407753912923 / (659 × 1327 × 33977090434306641871)",
+      "bbox": [
+        0,
+        0,
+        640,
+        130
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich (Trennlinie zwischen Zähler und Nenner)",
+      "bbox": [
+        0,
+        70,
+        640,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 13: numeric -> 673 * 482510108893443417506747"
+}

@@ -1,0 +1,278 @@
+{
+  "page": "p15",
+  "line_id": 15,
+  "line_bbox": [
+    382,
+    1220,
+    377,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile aus ca. 20 unbekannten, geometrisch-eckigen Glyphen in runischer/optischer Erscheinung. Keine offensichtlichen lateinischen Buchstaben, Ziffern oder Formeln erkennbar. Einleitender Interpunkt (Punkt) am Zeilenanfang.",
+  "n_glyphs_vision": 20,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 3,
+  "n_unmatched_vision_glyphs": 17,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          45,
+          8,
+          25,
+          110
+        ],
+        "visual_kind": "unknown",
+        "description": "Schlankes vertikales I-förmiges Glyph, oben und unten mit kleinen Endstrichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 761,
+      "iou": 0.123,
+      "page_glyph_bbox": [
+        392,
+        1230,
+        358,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          85,
+          8,
+          40,
+          110
+        ],
+        "visual_kind": "unknown",
+        "description": "T-förmiges Glyph mit kräftigem Querbalken oben und vertikalem Stamm",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 761,
+      "iou": 0.123,
+      "page_glyph_bbox": [
+        392,
+        1230,
+        358,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          305,
+          8,
+          55,
+          110
+        ],
+        "visual_kind": "unknown",
+        "description": "7-förmiges oder umgekehrtes L-Glyph mit horizontalem Querstrich oben",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 761,
+      "iou": 0.123,
+      "page_glyph_bbox": [
+        392,
+        1230,
+        358,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        10,
+        45,
+        18,
+        25
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner schwarzer Interpunkt/Punkt am Zeilenanfang",
+      "confidence": 0.92
+    },
+    {
+      "bbox": [
+        140,
+        30,
+        55,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Achter-/Doppelschleifen-Glyph, zwei übereinanderliegende geschlossene Formen",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        215,
+        30,
+        35,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Doppeltes Chevron/Pfeil-nach-rechts-Glyph, aus zwei spitzen Winkeln bestehend",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        260,
+        30,
+        35,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Einfaches Chevron/Pfeil-nach-rechts mit spitzem Winkel",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        375,
+        30,
+        55,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Schleifen-Glyph ähnlich 8, mit zwei geschlossenen Bögen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        445,
+        30,
+        50,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Pfeil- oder Dreieck-Glyph, nach links/oben zeigende Form",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        510,
+        8,
+        60,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-förmiges Glyph mit zwei nach oben auseinanderlaufenden Armen",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        590,
+        35,
+        40,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "J-/Haken-förmiges Glyph mit vertikalem Stamm und unterem Haken",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        645,
+        35,
+        35,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "U-förmiges Glyph, nach oben offener Bogen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        695,
+        8,
+        35,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "Schmales vertikales 1-förmiges Glyph, eventuell mit kleinem Aufstrich",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        745,
+        8,
+        60,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "A-/Dreieck-förmiges Glyph mit Spitze oben",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        830,
+        35,
+        30,
+        80
+      ],
+      "visual_kind": "unknown",
+      "description": "Schmales I-/l-förmiges Glyph, mittlere Höhe",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        875,
+        8,
+        50,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "T-förmiges Glyph mit breitem Querbalken und vertikalem Stamm",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        940,
+        8,
+        30,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "Schmales vertikales Strich-Glyph (kleines I/r)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        980,
+        8,
+        30,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "Vertikales Strich-Glyph mit minimaler Modifikation",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        1020,
+        8,
+        55,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "Y-/Gabel-förmiges Glyph mit zwei auseinanderlaufenden oberen Armen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        1085,
+        8,
+        50,
+        110
+      ],
+      "visual_kind": "unknown",
+      "description": "T- oder I-förmiges Schluss-Glyph mit Querbalken",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 15: latin -> N. THIS CALCULATION IS A REVELATION FOR YOUR SCIENTIST"
+}

@@ -1,0 +1,440 @@
+{
+  "page": "p16",
+  "line_id": 1,
+  "line_bbox": [
+    186,
+    249,
+    754,
+    49
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ausschließlich unbekannten geometrischen/runischen Glyphen, unterteilt durch einen mittleren Punkt-Separator in zwei Wortgruppen.",
+  "n_glyphs_vision": 21,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 17,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          15,
+          12,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikale Linie mit kurzen horizontalen Ankerstrichen oben und unten (stabförmiges Zeichen, ähnlich einer 'I'-Rune)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          30,
+          15,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei parallele vertikale Striche mit einem kurzen Querstrich oben rechts (ähnelt 'Γ' oder umgedrehtem 'F')",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          15,
+          25,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Stamm mit rechtem absteigenden Ast in der Mitte ('h'-förmige Figur)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          115,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Diagonalkreuz mit zwei gekreuzten Strichen ('N'-artige Rune mit zusätzlicher Diagonale)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y- oder F-ähnliches Zeichen mit zwei absteigenden Ästen von einer gemeinsamen Spitze",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          15,
+          28,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Zwei gekreuzte diagonale Striche mit kurzem vertikalem Stamm (ähnlich 'ᚱ' oder keltischer Knoten)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          15,
+          25,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei verschachtelte Bögen rechts ('B'-artige Figur)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Gewundene S-Kurve aus geraden Segmenten ('S'-förmige Rune)",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Stamm mit kurzem Querast oben rechts ('r'- oder 'ᚱ'-artig)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 778,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        196,
+        259,
+        350,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          365,
+          15,
+          28,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Zwei absteigende Äste aus gemeinsamem Kopf mit Querbalken ('ᚠ'-artige F-Rune)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.187,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          15,
+          25,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Einfacher J- oder U-förmiger Haken mit kurzem Querbalken oben",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Dreieckige Figur mit zwei absteigenden und einem aufsteigenden Ast ('A'-artige Rune)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          495,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Stamm mit zwei rechten Ästen ('ᚺ'-artig, mittlerer Querbalken unten angedeutet)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          15,
+          28,
+          55
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Y-förmiges Zeichen mit drei auseinanderlaufenden Ästen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_circle_with_cross",
+        "description": "Kreis mit zentralem Kreuzpunkt (Sonnenrad-/Radkreuz-Glyphe)",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          15,
+          35,
+          55
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rautenförmiges Zeichen mit zentralem Punkt (Vierpass-/Rhombus-Glyphe)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 779,
+      "iou": 0.227,
+      "page_glyph_bbox": [
+        556,
+        259,
+        319,
+        30
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          700,
+          15,
+          30,
+          55
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Stamm mit kurzem diagonalem Ast ('N'-artige Rune, vereinfacht)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 780,
+      "iou": 0.327,
+      "page_glyph_bbox": [
+        884,
+        261,
+        47,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        92,
+        40,
+        8,
+        8
+      ],
+      "visual_kind": "punctum",
+      "description": "Mittiger Worttrennungspunkt (Interpunkt)",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        745,
+        15,
+        28,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Drei parallele Zinken rechts ('E'-artige Figur)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        790,
+        15,
+        30,
+        55
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Y-förmiges Zeichen mit Querbalken ('ᚠ'-artige F-Rune)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        840,
+        15,
+        35,
+        55
+      ],
+      "visual_kind": "geometric_diamond_with_dot",
+      "description": "Rautenförmiges Zeichen mit zentralem Punkt (zweite Rhombus-Glyphe)",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctum_separator",
+      "description": "Zentraler Worttrennungspunkt zwischen den beiden Glyph-Gruppen",
+      "bbox": [
+        88,
+        38,
+        16,
+        8
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> CALCULATE THE NEXT UNIQUE NUMBER AND SEE OUR PROOF"
+}

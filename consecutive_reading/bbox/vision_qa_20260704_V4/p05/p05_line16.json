@@ -1,0 +1,95 @@
+{
+  "page": "p05",
+  "line_id": 16,
+  "line_bbox": [
+    517,
+    846,
+    107,
+    47
+  ],
+  "line_type": "mixed_line",
+  "line_description": "Eine kurze Zeile mit einem öffnenden Anführungszeichen, zwei angulären glyph-artigen Zeichen, gefolgt von einem Kreis mit drei Punkten (Gesichtsmotiv).",
+  "n_glyphs_vision": 3,
+  "n_latin_tokens": 1,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 1,
+  "n_unmatched_vision_glyphs": 2,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          25,
+          60,
+          85
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Anguläres, hakenförmiges Glyph, ähnelt einem stilisierten 'N' mit zwei vertikalen und einer diagonalen Verbindung. Doppelt dicke Strichstärke.",
+        "confidence": 0.7,
+        "latin_interpretation_candidate": "N"
+      },
+      "matched_glyph_index": 191,
+      "iou": 0.08,
+      "page_glyph_bbox": [
+        527,
+        856,
+        88,
+        28
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        120,
+        25,
+        60,
+        85
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Anguläres, hakenförmiges Glyph, ähnelt einem stilisierten 'D' mit vertikalem linken Balken und gebogenem/rechtwinkligem rechten Element. Doppelt dicke Strichstärke.",
+      "confidence": 0.7,
+      "latin_interpretation_candidate": "D"
+    },
+    {
+      "bbox": [
+        200,
+        25,
+        80,
+        85
+      ],
+      "visual_kind": "face_circle_three_dots",
+      "description": "Großer Kreis mit drei kleineren, gleichmäßig verteilten gefüllten Punkten im Inneren (Dreiecksanordnung: zwei oben, einer unten). Wirkt wie ein stilisiertes Gesicht oder Sigille-Symbol.",
+      "confidence": 0.9
+    }
+  ],
+  "latin_tokens": [
+    {
+      "text": "\"",
+      "bbox": [
+        15,
+        5,
+        35,
+        25
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "punctuation_quote",
+      "description": "Doppeltes Anführungszeichen (öffnend) am Zeilenanfang, oberhalb der Grundlinie.",
+      "bbox": [
+        15,
+        5,
+        35,
+        25
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 16: latin -> ND SIX\""
+}

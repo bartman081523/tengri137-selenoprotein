@@ -1,0 +1,281 @@
+{
+  "page": "p19",
+  "line_id": 5,
+  "line_bbox": [
+    173,
+    509,
+    348,
+    54
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematischer Bruch: Zähler bestehend aus vier durch Multiplikation verbundenen Zahlen (19, 4643, 10127813039, 48480118007129), getrennt durch einen Bruchstrich vom Nenner mit sechs Faktoren (3, 23, 79, 109, 92363, 1182152496146296933).",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 10,
+  "n_formulas": 8,
+  "n_graphics": 9,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "19",
+      "bbox": [
+        15,
+        20,
+        28,
+        40
+      ]
+    },
+    {
+      "value": "4643",
+      "bbox": [
+        82,
+        20,
+        58,
+        40
+      ]
+    },
+    {
+      "value": "10127813039",
+      "bbox": [
+        182,
+        20,
+        158,
+        40
+      ]
+    },
+    {
+      "value": "48480118007129",
+      "bbox": [
+        378,
+        20,
+        218,
+        40
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        15,
+        158,
+        22,
+        40
+      ]
+    },
+    {
+      "value": "23",
+      "bbox": [
+        82,
+        158,
+        40,
+        40
+      ]
+    },
+    {
+      "value": "79",
+      "bbox": [
+        162,
+        158,
+        40,
+        40
+      ]
+    },
+    {
+      "value": "109",
+      "bbox": [
+        240,
+        158,
+        56,
+        40
+      ]
+    },
+    {
+      "value": "92363",
+      "bbox": [
+        335,
+        158,
+        88,
+        40
+      ]
+    },
+    {
+      "value": "1182152496146296933",
+      "bbox": [
+        462,
+        158,
+        320,
+        40
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(19 × 4643 × 10127813039 × 48480118007129) / (3 × 23 × 79 × 109 × 92363 × 1182152496146296933)",
+      "bbox": [
+        10,
+        18,
+        850,
+        220
+      ]
+    },
+    {
+      "raw": "19 × 4643",
+      "bbox": [
+        10,
+        18,
+        145,
+        50
+      ]
+    },
+    {
+      "raw": "10127813039",
+      "bbox": [
+        175,
+        18,
+        175,
+        50
+      ]
+    },
+    {
+      "raw": "48480118007129",
+      "bbox": [
+        370,
+        18,
+        230,
+        50
+      ]
+    },
+    {
+      "raw": "3 × 23",
+      "bbox": [
+        10,
+        155,
+        115,
+        50
+      ]
+    },
+    {
+      "raw": "79 × 109",
+      "bbox": [
+        155,
+        155,
+        145,
+        50
+      ]
+    },
+    {
+      "raw": "92363",
+      "bbox": [
+        330,
+        155,
+        100,
+        50
+      ]
+    },
+    {
+      "raw": "1182152496146296933",
+      "bbox": [
+        455,
+        155,
+        330,
+        50
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_line",
+      "description": "Bruchstrich (durchgehende horizontale Linie zwischen Zähler und Nenner)",
+      "bbox": [
+        5,
+        108,
+        870,
+        6
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (obere Zeile, Position 1)",
+      "bbox": [
+        48,
+        28,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (obere Zeile, Position 2)",
+      "bbox": [
+        148,
+        28,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (obere Zeile, Position 3)",
+      "bbox": [
+        345,
+        28,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (untere Zeile, Position 1)",
+      "bbox": [
+        48,
+        168,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (untere Zeile, Position 2)",
+      "bbox": [
+        128,
+        168,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (untere Zeile, Position 3)",
+      "bbox": [
+        208,
+        168,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (untere Zeile, Position 4)",
+      "bbox": [
+        303,
+        168,
+        18,
+        26
+      ]
+    },
+    {
+      "type": "math_multiplication_sign",
+      "description": "Multiplikationssymbol 'x' zwischen den Faktoren (untere Zeile, Position 5)",
+      "bbox": [
+        428,
+        168,
+        18,
+        26
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 5: latin -> YOUR CIVILISATION IS ONE OF MANY BILLION CIVILISATIONS"
+}

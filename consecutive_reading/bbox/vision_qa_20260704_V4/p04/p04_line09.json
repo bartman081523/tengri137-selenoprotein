@@ -1,0 +1,536 @@
+{
+  "page": "p04",
+  "line_id": 9,
+  "line_bbox": [
+    189,
+    609,
+    748,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile mit etwa 28 geometrisch-angularen Glyphen, die einer konstruierten oder historischen Rune-Schrift ähneln (Tengwar-ähnlich). Kein lateinischer Text, keine Zahlen oder Formeln sichtbar.",
+  "n_glyphs_vision": 28,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 20,
+  "n_unmatched_vision_glyphs": 8,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          10,
+          10,
+          40,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "H-förmiges Zeichen mit zwei vertikalen Strichen und Querbalken, geöffnet nach unten",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          55,
+          15,
+          30,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Sanduhr- oder X-förmiges Zeichen mit zwei sich kreuzenden Dreiecken",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          90,
+          10,
+          35,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "h- oder n-förmiges Zeichen mit Bogen nach oben und zwei vertikalen Beinen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          130,
+          5,
+          25,
+          60
+        ],
+        "visual_kind": "unknown",
+        "description": "I-förmiges Zeichen mit Serifen oben und unten, langer vertikaler Strich",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.225,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          160,
+          20,
+          30,
+          35
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Spiegelverkehrtes E oder 3-förmiges Zeichen mit drei horizontalen Strichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.243,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          195,
+          15,
+          35,
+          40
+        ],
+        "visual_kind": "unknown",
+        "description": "Geschwungenes Zeichen mit C-ähnlicher Form und kleiner Verzierung",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.275,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          20,
+          25,
+          35
+        ],
+        "visual_kind": "unknown",
+        "description": "Nach rechts zeigendes Dreieck mit vertikaler Grundlinie",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.243,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          265,
+          15,
+          20,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Fahnenförmiges Zeichen mit vertikalem Stamm und kleinem horizontalem Haken oben",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          15,
+          35,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Angulares Zickzack-Zeichen mit zwei verbundenen Bögen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          330,
+          10,
+          35,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "D-förmiges Zeichen mit gerader linker Seite und gebogener rechter Seite",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          370,
+          10,
+          35,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "A-förmiges Zeichen mit gekreuzten Beinen in der Mitte",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          410,
+          15,
+          30,
+          40
+        ],
+        "visual_kind": "geometric_circle_with_cross",
+        "description": "Kreis mit X-Kreuz im Inneren",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.275,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          15,
+          25,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Angulares Zeichen mit geknickter Form, ähnlich einem spiegelverkehrten Y",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          475,
+          20,
+          25,
+          30
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute (Diamant) mit zentralem Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.283,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          10,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "Umgekehrtes T mit horizontaler Grundlinie und kurzem vertikalem Stamm oben",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          15,
+          30,
+          40
+        ],
+        "visual_kind": "unknown",
+        "description": "Geschwungenes Zeichen mit C-ähnlicher Form und verdicktem oberen Ende",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.275,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          575,
+          10,
+          30,
+          50
+        ],
+        "visual_kind": "unknown",
+        "description": "A-förmiges Zeichen mit horizontaler Querlinie und zwei divergenten Beinen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.27,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          610,
+          15,
+          30,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Angulares Zeichen mit zwei verbundenen Häkchen, ähnlich einem liegenden 3",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.244,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          645,
+          20,
+          20,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Kleines spiegelverkehrtes 3 oder E-förmiges Zeichen",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.283,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          15,
+          50,
+          45
+        ],
+        "visual_kind": "unknown",
+        "description": "Zeichen mit drei angularen Spitzen oder Zacken, komplexes Polygon",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 117,
+      "iou": 0.24,
+      "page_glyph_bbox": [
+        199,
+        619,
+        729,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        672,
+        38,
+        10,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner Punkt oder Trennzeichen",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        745,
+        20,
+        20,
+        35
+      ],
+      "visual_kind": "digit",
+      "description": "3-förmiges Zeichen mit zwei Bögen",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        770,
+        5,
+        20,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "I-förmiges Zeichen mit Serifen oben und unten",
+      "confidence": 0.8
+    },
+    {
+      "bbox": [
+        795,
+        15,
+        25,
+        40
+      ],
+      "visual_kind": "unknown",
+      "description": "Umgekehrtes r oder hakenförmiges Zeichen mit vertikalem Stamm und Krümmung",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        825,
+        15,
+        30,
+        40
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Kreis mit zentralem Punkt, ähnlich einer Sonne oder Null",
+      "confidence": 0.9
+    },
+    {
+      "bbox": [
+        860,
+        10,
+        25,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "Angulares I mit zusätzlichen diagonalen Strichen, leicht geneigt",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        890,
+        5,
+        20,
+        60
+      ],
+      "visual_kind": "unknown",
+      "description": "1-förmiges Zeichen mit langem vertikalem Strich und kleinem Haken oben",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        915,
+        10,
+        35,
+        50
+      ],
+      "visual_kind": "unknown",
+      "description": "Zeichen mit horizontaler Oberkante und zwei vertikalen Beinen, ähnlich einem umgekehrten U mit Boden",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 9: latin -> HERE IS WISDOM. BEFORE WE GIVE YOU THIS ULTIMAT"
+}

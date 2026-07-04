@@ -1,0 +1,711 @@
+{
+  "page": "p12",
+  "line_id": 2,
+  "line_bbox": [
+    188,
+    303,
+    751,
+    47
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine einzelne Zeile mit einer dichten Folge unbekannter geometrischer Glyphen (winkelige, rauten-, kreis- und hakenförmige Zeichen). Keine sichtbaren lateinischen Wörter, keine Ziffern, keine Formeln, keine dekorativen Linien.",
+  "n_glyphs_vision": 33,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 32,
+  "n_unmatched_vision_glyphs": 1,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          4,
+          6,
+          26,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Winkeliges E-ähnliches Zeichen mit einem Punkt darunter (linke Kante mit Zacken oben/unten, Punkt im Bauch)",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          37,
+          5,
+          8,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "Schmaler vertikaler Strich / Pipe",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          49,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Winkel-/Chevron-Glyph (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          70,
+          5,
+          22,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "Eine Figur, die entfernt an '4' erinnert: abgewinkelter Strich mit Querbalken und Spitze",
+        "confidence": 0.4
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          95,
+          5,
+          8,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "Schmaler vertikaler Strich / Pipe",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          107,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Haken-/J-förmiges Glyph mit abgerundeter Biegung unten links",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          128,
+          5,
+          22,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "h- oder n-förmiges Glyph mit zwei vertikalen Pfosten und Bogen dazwischen",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          153,
+          6,
+          22,
+          30
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute/Diamant-Glyphe mit doppelter Kontur",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          178,
+          5,
+          8,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "Schmaler vertikaler Strich / Pipe",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          5,
+          30,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "M-/W-förmiges Glyph mit mehreren Spitzen nach oben und unten",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          223,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Chevron (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          244,
+          6,
+          16,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Haken-/J-förmiges Glyph, kleinere Variante",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          263,
+          5,
+          26,
+          32
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Komplexes Glyph: oben offener Haken, unten mit kleiner Raute kombiniert",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          293,
+          5,
+          14,
+          30
+        ],
+        "visual_kind": "punctum",
+        "description": "Hochgestelltes Anführungszeichen / Apostroph-artiges Zeichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.417,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          6,
+          26,
+          30
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute mit doppelter Kontur",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          340,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Chevron (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          361,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Haken-/J-förmiges Glyph, mittlere Variante",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          382,
+          5,
+          14,
+          30
+        ],
+        "visual_kind": "punctum",
+        "description": "Hochgestelltes Anführungszeichen / Apostroph-artiges Zeichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.417,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          399,
+          6,
+          22,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Chevron (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          424,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Chevron (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          445,
+          5,
+          26,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "D-förmiges Glyph: halbkreisförmige Bogenform mit geradem Rücken",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          474,
+          5,
+          8,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "Schmaler vertikaler Strich / Pipe",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          486,
+          5,
+          26,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "X-förmiges Glyph mit zwei sich kreuzenden Diagonalen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          515,
+          5,
+          22,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "Γ- / L-förmiges Glyph: oben Querbalken, links Vertikale, rechts offen",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          540,
+          5,
+          22,
+          32
+        ],
+        "visual_kind": "unknown",
+        "description": "E-förmiges Glyph: vertikale Spindel mit drei Zacken rechts",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          566,
+          6,
+          22,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Chevron (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          591,
+          5,
+          26,
+          32
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute mit doppelter Kontur",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          620,
+          5,
+          30,
+          32
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kreis mit zentralem Punkt und vier weiteren kleinen Punkten (Quadrat-Anordnung)",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 578,
+      "iou": 0.352,
+      "page_glyph_bbox": [
+        198,
+        313,
+        635,
+        28
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          653,
+          5,
+          28,
+          32
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Raute mit zentralem Punkt, doppelte Kontur",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 579,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        841,
+        313,
+        89,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          685,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Haken-/J-förmiges Glyph",
+        "confidence": 0.55
+      },
+      "matched_glyph_index": 579,
+      "iou": 0.433,
+      "page_glyph_bbox": [
+        841,
+        313,
+        89,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          707,
+          5,
+          28,
+          32
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Geschlossene Raute mit doppelter Kontur",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 579,
+      "iou": 0.422,
+      "page_glyph_bbox": [
+        841,
+        313,
+        89,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          738,
+          6,
+          18,
+          30
+        ],
+        "visual_kind": "unknown",
+        "description": "Spitzwinklig nach rechts geöffnetes Chevron (>)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 579,
+      "iou": 0.096,
+      "page_glyph_bbox": [
+        841,
+        313,
+        89,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        760,
+        5,
+        26,
+        32
+      ],
+      "visual_kind": "unknown",
+      "description": "ᛏ- / Tau-förmiges Glyph: horizontaler Querbalken oben, vertikale Spindel darunter, mit kleinem Querbalken in der Mitte (kreuzartig)",
+      "confidence": 0.6
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 2: latin -> ION OF THIS HOLY NUMBER IS THE PROOF. A TRUTH WHICH"
+}

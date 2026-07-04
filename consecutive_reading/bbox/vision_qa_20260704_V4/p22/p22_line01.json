@@ -1,0 +1,183 @@
+{
+  "page": "p22",
+  "line_id": 1,
+  "line_bbox": [
+    173,
+    242,
+    472,
+    57
+  ],
+  "line_type": "pure_formula_line",
+  "line_description": "Mathematical fraction showing prime factorizations. The numerator contains four prime factors, the denominator contains nine prime factors (with 2 raised to the power of 3). A horizontal fraction bar separates numerator and denominator.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 14,
+  "n_formulas": 2,
+  "n_graphics": 1,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "7",
+      "bbox": [
+        15,
+        8,
+        18,
+        30
+      ]
+    },
+    {
+      "value": "71",
+      "bbox": [
+        70,
+        8,
+        32,
+        30
+      ]
+    },
+    {
+      "value": "2531",
+      "bbox": [
+        135,
+        8,
+        58,
+        30
+      ]
+    },
+    {
+      "value": "2142246150104069499213988668179",
+      "bbox": [
+        228,
+        8,
+        755,
+        30
+      ]
+    },
+    {
+      "value": "2",
+      "bbox": [
+        18,
+        80,
+        18,
+        28
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        33,
+        74,
+        14,
+        16
+      ]
+    },
+    {
+      "value": "3",
+      "bbox": [
+        70,
+        80,
+        18,
+        28
+      ]
+    },
+    {
+      "value": "5",
+      "bbox": [
+        115,
+        80,
+        18,
+        28
+      ]
+    },
+    {
+      "value": "11",
+      "bbox": [
+        160,
+        80,
+        30,
+        28
+      ]
+    },
+    {
+      "value": "23",
+      "bbox": [
+        220,
+        80,
+        30,
+        28
+      ]
+    },
+    {
+      "value": "127",
+      "bbox": [
+        282,
+        80,
+        45,
+        28
+      ]
+    },
+    {
+      "value": "983",
+      "bbox": [
+        357,
+        80,
+        45,
+        28
+      ]
+    },
+    {
+      "value": "9649",
+      "bbox": [
+        430,
+        80,
+        60,
+        28
+      ]
+    },
+    {
+      "value": "161477910294299418586237",
+      "bbox": [
+        520,
+        80,
+        472,
+        28
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "7 x 71 x 2531 x 2142246150104069499213988668179",
+      "bbox": [
+        5,
+        5,
+        990,
+        40
+      ]
+    },
+    {
+      "raw": "2^3 x 3 x 5 x 11 x 23 x 127 x 983 x 9649 x 161477910294299418586237",
+      "bbox": [
+        5,
+        75,
+        990,
+        40
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "horizontal_fraction_bar",
+      "description": "Solid horizontal line separating the numerator (top) from the denominator (bottom), serving as the fraction bar",
+      "bbox": [
+        5,
+        55,
+        990,
+        5
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 1: latin -> YOUR MEASUREMENT IS ONLY VALID WITH AN EXACT RESULT"
+}

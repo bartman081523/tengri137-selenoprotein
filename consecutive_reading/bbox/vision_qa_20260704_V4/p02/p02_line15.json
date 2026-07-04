@@ -1,0 +1,262 @@
+{
+  "page": "p02",
+  "line_id": 15,
+  "line_bbox": [
+    366,
+    932,
+    476,
+    129
+  ],
+  "line_type": "graphic_line",
+  "line_description": "Zwei kosmologische Figuren unter einem Himmelsbogen mit Sonne, Stern und Mondsymbolen, flankiert von einer kleineren Kultfigur mit Kelch.",
+  "n_glyphs_vision": 13,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 2,
+  "n_matched_glyphs": 7,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          60,
+          40,
+          70,
+          65
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Runder Kopf der linken Kultfigur mit zentraler Pupille.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 49,
+      "iou": 0.097,
+      "page_glyph_bbox": [
+        439,
+        994,
+        21,
+        21
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          55,
+          200,
+          50
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Horizontale Reihe kurzer vertikaler Striche (Fransen-/Regenmotiv) als Schulterpartie beidseitig des Kopfes.",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 48,
+      "iou": 0.127,
+      "page_glyph_bbox": [
+        376,
+        942,
+        50,
+        76
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          75,
+          40,
+          25
+        ],
+        "visual_kind": "geometric_circle_with_dot",
+        "description": "Kleiner Kreis mit Punkt links neben dem Körper der linken Figur.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 48,
+      "iou": 0.193,
+      "page_glyph_bbox": [
+        376,
+        942,
+        50,
+        76
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          0,
+          535,
+          130
+        ],
+        "visual_kind": "unknown",
+        "description": "Großer halbkreisförmiger Himmelsbogen (Tengri-Kuppel) mit eingestreuten Punkten als Sternfeld.",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 50,
+      "iou": 0.273,
+      "page_glyph_bbox": [
+        612,
+        966,
+        221,
+        86
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          320,
+          45,
+          70,
+          50
+        ],
+        "visual_kind": "geometric_circle",
+        "description": "Sonnensymbol mit zentralem Auge und kurzen radialen Strahlen, links unter der Kuppel.",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 50,
+      "iou": 0.5,
+      "page_glyph_bbox": [
+        612,
+        966,
+        221,
+        86
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          400,
+          35,
+          90,
+          80
+        ],
+        "visual_kind": "unknown",
+        "description": "Stabförmiger Körper der zentralen Himmelsgottheit unter dem Mondzeichen.",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 50,
+      "iou": 0.372,
+      "page_glyph_bbox": [
+        612,
+        966,
+        221,
+        86
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          245,
+          110,
+          480,
+          20
+        ],
+        "visual_kind": "line",
+        "description": "Horizontale Querachse (Altar- oder Armebene) mit kleinen Endknospen beidseitig unter der Kuppel.",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 50,
+      "iou": 0.115,
+      "page_glyph_bbox": [
+        612,
+        966,
+        221,
+        86
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        60,
+        0,
+        70,
+        45
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Kelch- oder Opferschalen-Glyph oberhalb des Kopfes der linken Figur, U-förmig mit zwei vertikalen Stegen.",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        150,
+        75,
+        40,
+        25
+      ],
+      "visual_kind": "geometric_circle_with_dot",
+      "description": "Kleiner Kreis mit Punkt rechts neben dem Körper der linken Figur.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        70,
+        95,
+        60,
+        55
+      ],
+      "visual_kind": "unknown",
+      "description": "Vertikaler stabförmiger Körper der linken Figur mit unterer Verbreiterung (Sockel/Standfläche).",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        545,
+        50,
+        70,
+        45
+      ],
+      "visual_kind": "geometric_diamond",
+      "description": "Sechs- oder achtstrahliger Stern (Sternsymbol) rechts unter der Kuppel.",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        430,
+        0,
+        80,
+        40
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Mondsichel mit zentraler kreisförmiger Scheibe auf dem Kopf der zentralen Figur unter der Kuppel.",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        400,
+        130,
+        90,
+        20
+      ],
+      "visual_kind": "geometric_bracket",
+      "description": "Kurze vertikale Fransen-/Tropfenlinie unterhalb der zentralen Figur als Stand-/Wurzelmotiv.",
+      "confidence": 0.55
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "dome_arc",
+      "description": "Begrenzungsbogen der rechten Szene: durchgehende halbkreisförmige Linie als Himmelskuppel.",
+      "bbox": [
+        235,
+        0,
+        535,
+        130
+      ]
+    },
+    {
+      "type": "star_field",
+      "description": "Zahlreiche kleine unregelmäßig verteilte Punkte im Inneren der Kuppel als Sternenhimmel.",
+      "bbox": [
+        260,
+        20,
+        490,
+        110
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 15: glyph_description -> {4 round turkic symbols}"
+}

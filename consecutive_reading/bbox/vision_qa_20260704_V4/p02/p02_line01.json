@@ -1,0 +1,493 @@
+{
+  "page": "p02",
+  "line_id": 1,
+  "line_bbox": [
+    204,
+    249,
+    734,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Durchgehende Zeile aus geometrisch-runicen Glyphen (Turkic-Rune-Stil) mit zwei Rhomben-mit-Punkt-Separatoren und einem zentralen Punkt; keine lateinischen Buchstaben erkennbar.",
+  "n_glyphs_vision": 25,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 19,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          5,
+          15,
+          40,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rhombus / Raute mit zentralem Punkt, gleicharmig",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 30,
+      "iou": 0.153,
+      "page_glyph_bbox": [
+        214,
+        259,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Y-förmige Rune mit zwei abgespreizten Schenkeln nach oben und geradem Stamm",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 30,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        214,
+        259,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          86,
+          15,
+          28,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Vertikaler Stamm mit kurzem Haken oben links (ähnlich einem lateinischen D)",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 30,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        214,
+        259,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          120,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Doppelter Vertikalstrich mit kurzer Querverbindung oben",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 30,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        214,
+        259,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          155,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "D-förmige Rune mit gebogenem Halbkreis nach rechts",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 30,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        214,
+        259,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          190,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "J-/Haken-Rune mit abwärts gebogenem unterem Ende",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 30,
+      "iou": 0.134,
+      "page_glyph_bbox": [
+        214,
+        259,
+        203,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Klammer-ähnliche Rune: geöffneter Winkel rechts mit Vertikalstrich",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          260,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "E-förmige Rune mit Vertikalstrich und mehreren kurzen Querstrichen",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          295,
+          15,
+          50,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Dreifach-Vertikalgruppe mit gemeinsamer Oberkante (Y-Y-I)",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          350,
+          15,
+          40,
+          60
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Zweite Raute mit zentralem Punkt, leicht kleiner",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          395,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Rune mit gebogenem Aufwärtshaken oben, gerader Stamm",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          430,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "M-/W-förmige Rune mit zwei Spitzen oben",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          465,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "E-förmige Rune mit Vertikalstrich und drei waagerechten Strichen",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          500,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "H-förmige Rune mit zwei parallelen Vertikalen und Querstrich",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          535,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "H mit zusätzlicher Diagonale (geknickter Querbalken)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          590,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "3-förmige Rune mit zwei gerundeten Bögen nach links",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          625,
+          15,
+          32,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "M-förmige Rune mit drei Vertikalstrichen und Zickzock-Oberkante",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          660,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Rune mit Vertikalstrich und oberem Haken nach links",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          695,
+          15,
+          30,
+          60
+        ],
+        "visual_kind": "turkic_round_rune",
+        "description": "Y-ähnliche Rune mit zwei auseinanderlaufenden Schenkeln oben",
+        "confidence": 0.65
+      },
+      "matched_glyph_index": 31,
+      "iou": 0.175,
+      "page_glyph_bbox": [
+        423,
+        259,
+        506,
+        26
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        572,
+        35,
+        12,
+        12
+      ],
+      "visual_kind": "punctum",
+      "description": "Mittiger Worttrenner-Punkt (Punkt/Punctum)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        730,
+        15,
+        30,
+        60
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "J-förmige Rune mit abwärts gebogenem Haken",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        765,
+        15,
+        30,
+        60
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Doppelter Vertikalstrich (II) ohne Querverbindung",
+      "confidence": 0.7
+    },
+    {
+      "bbox": [
+        800,
+        15,
+        30,
+        60
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "Schmaler Vertikalstrich mit minimalem oberen Haken",
+      "confidence": 0.55
+    },
+    {
+      "bbox": [
+        835,
+        15,
+        30,
+        60
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "E/F-förmige Rune mit Vertikalstrich und zwei Querstrichen rechts",
+      "confidence": 0.65
+    },
+    {
+      "bbox": [
+        870,
+        15,
+        30,
+        60
+      ],
+      "visual_kind": "turkic_round_rune",
+      "description": "3-förmige Rune mit zwei offenen Bögen, am Zeilenende",
+      "confidence": 0.7
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 1: latin -> THIS IS AN SELECTION. TENGRI WILL GIVE YOU KNOW"
+}

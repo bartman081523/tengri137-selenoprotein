@@ -1,0 +1,2438 @@
+{
+  "page_id": "p03",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 43,
+  "n_latin_tokens": 21,
+  "n_regions": 22,
+  "n_glyphs_with_vision_match": 19,
+  "schmeh_hint": {
+    "n_latin": 16,
+    "n_glyphs": 2,
+    "has_glyphs": true,
+    "has_magic_cube": false,
+    "has_rings": false,
+    "has_burumut_block": false
+  },
+  "regions": [
+    {
+      "region_id": "p03_R1",
+      "bbox": [
+        197,
+        250,
+        742,
+        49
+      ],
+      "region_type": "latin_text",
+      "description": "Line 1, y_center=272.3, glyphs=1, latin=1",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 64,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 1,
+          "bbox": [
+            207,
+            260,
+            723,
+            30
+          ],
+          "size_px": 6857,
+          "fill_ratio": 0.3161,
+          "n_components": 40,
+          "components": [
+            1285,
+            1302,
+            1292,
+            1284,
+            1290,
+            1294,
+            1274,
+            1291,
+            1308,
+            1297,
+            1300,
+            1275,
+            1311,
+            1312,
+            1310,
+            1276,
+            1278,
+            1306,
+            1309,
+            1283,
+            1288,
+            1293,
+            1277,
+            1280,
+            1282,
+            1295,
+            1296,
+            1303,
+            1281,
+            1287,
+            1307,
+            1299,
+            1305,
+            1286,
+            1304,
+            1289,
+            1298,
+            1279,
+            1301,
+            1313
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "Rauten-/Diamantform am Zeilenanfang, offene Kontur mit Strichstärke",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "WHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW",
+          "bbox": [
+            197,
+            250,
+            742,
+            49
+          ],
+          "conf": 0.5,
+          "line_id": 1,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "decorative_diamond_separators",
+          "description": "Drei gleichförmige Rauten-Symbole dienen als dekorative Wort-/Phrasen-Trenner und strukturieren die Zeile in mehrere Abschnitte",
+          "bbox": [
+            0,
+            5,
+            1000,
+            90
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R2",
+      "bbox": [
+        193,
+        290,
+        746,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 2, y_center=312.0, glyphs=1, latin=1",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 65,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 2,
+          "bbox": [
+            203,
+            300,
+            727,
+            26
+          ],
+          "size_px": 6659,
+          "fill_ratio": 0.3523,
+          "n_components": 40,
+          "components": [
+            1320,
+            1340,
+            1350,
+            1331,
+            1326,
+            1324,
+            1330,
+            1315,
+            1345,
+            1317,
+            1343,
+            1351,
+            1353,
+            1352,
+            1349,
+            1314,
+            1339,
+            1341,
+            1318,
+            1316,
+            1344,
+            1347,
+            1319,
+            1321,
+            1327,
+            1333,
+            1348,
+            1325,
+            1328,
+            1329,
+            1332,
+            1334,
+            1335,
+            1337,
+            1323,
+            1338,
+            1342,
+            1346,
+            1322,
+            1336
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Angular vertical stroke with hooked base, resembles inverted 'J' or rune ᛁ variant",
+          "vision_confidence": 0.55,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "LEDGE. THE KNOWLEDGE COMES FROM AFAR. ONLY REA",
+          "bbox": [
+            193,
+            290,
+            746,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 2,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "baseline_implicit",
+          "description": "Implicit horizontal baseline along which the angular glyphs are aligned; no visible ruling line, but glyph bases sit on a common y-coordinate",
+          "bbox": [
+            0,
+            70,
+            1000,
+            4
+          ]
+        },
+        {
+          "type": "embedded_diamond",
+          "description": "A rhombus/diamond outline glyph visually distinct from the surrounding angular runic characters, positioned approximately mid-line",
+          "bbox": [
+            473,
+            20,
+            24,
+            36
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R3",
+      "bbox": [
+        214,
+        330,
+        725,
+        49
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=352.1, glyphs=1, latin=1",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 66,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 3,
+          "bbox": [
+            224,
+            340,
+            706,
+            30
+          ],
+          "size_px": 6782,
+          "fill_ratio": 0.3202,
+          "n_components": 39,
+          "components": [
+            1365,
+            1359,
+            1356,
+            1380,
+            1376,
+            1389,
+            1385,
+            1387,
+            1357,
+            1378,
+            1391,
+            1363,
+            1371,
+            1372,
+            1360,
+            1361,
+            1362,
+            1364,
+            1366,
+            1374,
+            1375,
+            1381,
+            1390,
+            1367,
+            1368,
+            1373,
+            1377,
+            1379,
+            1382,
+            1384,
+            1354,
+            1369,
+            1370,
+            1383,
+            1358,
+            1388,
+            1355,
+            1386,
+            1392
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Haken-/Anfangszeichen, links offene Schleife mit kurzem vertikalen Schaft, ähnlich einem stilisierten J oder Anfangs-Sigle.",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "DING THE MESSAGE, IS NOT TO UNDERSTANDING IT. A",
+          "bbox": [
+            214,
+            330,
+            725,
+            49
+          ],
+          "conf": 0.5,
+          "line_id": 3,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R4",
+      "bbox": [
+        213,
+        369,
+        727,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 4, y_center=391.7, glyphs=1, latin=1",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 67,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 4,
+          "bbox": [
+            223,
+            379,
+            708,
+            27
+          ],
+          "size_px": 6697,
+          "fill_ratio": 0.3503,
+          "n_components": 36,
+          "components": [
+            1400,
+            1407,
+            1426,
+            1414,
+            1421,
+            1405,
+            1397,
+            1403,
+            1423,
+            1399,
+            1418,
+            1406,
+            1393,
+            1395,
+            1412,
+            1428,
+            1420,
+            1424,
+            1394,
+            1410,
+            1411,
+            1413,
+            1416,
+            1417,
+            1419,
+            1422,
+            1398,
+            1409,
+            1425,
+            1401,
+            1404,
+            1396,
+            1402,
+            1415,
+            1408,
+            1427
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "CLEAR MIND IS ABLE TO DECRYPT IT. BRING IT TO",
+          "bbox": [
+            213,
+            369,
+            727,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 4,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R5",
+      "bbox": [
+        344,
+        410,
+        454,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 5, y_center=432.1, glyphs=1, latin=1",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 68,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 5,
+          "bbox": [
+            354,
+            420,
+            435,
+            26
+          ],
+          "size_px": 4044,
+          "fill_ratio": 0.3576,
+          "n_components": 26,
+          "components": [
+            1447,
+            1430,
+            1446,
+            1435,
+            1453,
+            1434,
+            1439,
+            1451,
+            1433,
+            1454,
+            1432,
+            1436,
+            1438,
+            1443,
+            1444,
+            1437,
+            1440,
+            1431,
+            1449,
+            1448,
+            1450,
+            1452,
+            1429,
+            1445,
+            1442,
+            1441
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "H-ähnliches Zeichen: zwei vertikale Striche mit horizontaler Verbindung am oberen Ende, ähnlich einem aufrechten 'h' ohne Bogen",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THOSE WHO CAN UNDERSTAND IT.",
+          "bbox": [
+            344,
+            410,
+            454,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 5,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R6",
+      "bbox": [
+        203,
+        489,
+        735,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 6, y_center=511.5, glyphs=3, latin=1",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 69,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 6,
+          "bbox": [
+            213,
+            499,
+            332,
+            26
+          ],
+          "size_px": 3178,
+          "fill_ratio": 0.3682,
+          "n_components": 19,
+          "components": [
+            1467,
+            1459,
+            1457,
+            1482,
+            1455,
+            1468,
+            1463,
+            1460,
+            1464,
+            1465,
+            1466,
+            1458,
+            1461,
+            1462,
+            1492,
+            1485,
+            1483,
+            1484,
+            1486
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Curved hook-like shape with vertical stem, resembles mirrored 'P' or '9'",
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 70,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 6,
+          "bbox": [
+            556,
+            499,
+            50,
+            26
+          ],
+          "size_px": 587,
+          "fill_ratio": 0.4515,
+          "n_components": 3,
+          "components": [
+            1456,
+            1470,
+            1469
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "unknown",
+          "vision_description": "Hook/descender glyph resembling reversed 'J' or 'l'",
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 71,
+          "page": "p03",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 6,
+          "bbox": [
+            612,
+            500,
+            317,
+            25
+          ],
+          "size_px": 2890,
+          "fill_ratio": 0.3647,
+          "n_components": 17,
+          "components": [
+            1471,
+            1472,
+            1474,
+            1491,
+            1487,
+            1476,
+            1477,
+            1493,
+            1480,
+            1489,
+            1475,
+            1488,
+            1490,
+            1481,
+            1478,
+            1473,
+            1479
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Angular 'Y'-like glyph with branching top",
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THE CHOSEN SOUL WILL GET KNOWLEDGE AND OUR KEY",
+          "bbox": [
+            203,
+            489,
+            735,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 6,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R7",
+      "bbox": [
+        202,
+        530,
+        736,
+        44
+      ],
+      "region_type": "latin_text",
+      "description": "Line 7, y_center=551.1, glyphs=2, latin=1",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 72,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 7,
+          "bbox": [
+            212,
+            540,
+            257,
+            25
+          ],
+          "size_px": 2543,
+          "fill_ratio": 0.3958,
+          "n_components": 15,
+          "components": [
+            1494,
+            1501,
+            1498,
+            1500,
+            1503,
+            1505,
+            1495,
+            1531,
+            1502,
+            1506,
+            1532,
+            1497,
+            1496,
+            1504,
+            1499
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Angular glyph, resembles an upside-down Y with a vertical stroke",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 73,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 7,
+          "bbox": [
+            477,
+            540,
+            452,
+            25
+          ],
+          "size_px": 4157,
+          "fill_ratio": 0.3679,
+          "n_components": 24,
+          "components": [
+            1521,
+            1517,
+            1507,
+            1512,
+            1514,
+            1516,
+            1525,
+            1509,
+            1529,
+            1510,
+            1530,
+            1513,
+            1519,
+            1520,
+            1508,
+            1511,
+            1524,
+            1526,
+            1528,
+            1527,
+            1522,
+            1515,
+            1523,
+            1518
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "unknown",
+          "vision_description": "Angular glyph with a diamond/leaf motif",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "TO OUR ETERNAL LIBRARY. A KEY WITH WHICH EVER",
+          "bbox": [
+            202,
+            530,
+            736,
+            44
+          ],
+          "conf": 0.5,
+          "line_id": 7,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R8",
+      "bbox": [
+        201,
+        570,
+        736,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 8, y_center=591.1, glyphs=2, latin=1",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 74,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 8,
+          "bbox": [
+            211,
+            580,
+            521,
+            25
+          ],
+          "size_px": 4635,
+          "fill_ratio": 0.3559,
+          "n_components": 30,
+          "components": [
+            1554,
+            1534,
+            1539,
+            1543,
+            1546,
+            1571,
+            1535,
+            1570,
+            1537,
+            1540,
+            1552,
+            1536,
+            1541,
+            1544,
+            1545,
+            1549,
+            1550,
+            1553,
+            1556,
+            1557,
+            1533,
+            1547,
+            1551,
+            1555,
+            1558,
+            1548,
+            1559,
+            1560,
+            1538,
+            1542
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 75,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 8,
+          "bbox": [
+            737,
+            580,
+            191,
+            26
+          ],
+          "size_px": 1916,
+          "fill_ratio": 0.3858,
+          "n_components": 10,
+          "components": [
+            1561,
+            1566,
+            1569,
+            1567,
+            1562,
+            1564,
+            1572,
+            1563,
+            1565,
+            1568
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "YTHING WILL BE UNDERSTOOD. A SOURCE OF KNOWLE",
+          "bbox": [
+            201,
+            570,
+            736,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 8,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R9",
+      "bbox": [
+        190,
+        609,
+        749,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 9, y_center=631.4, glyphs=1, latin=1",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 76,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 9,
+          "bbox": [
+            200,
+            619,
+            730,
+            27
+          ],
+          "size_px": 6904,
+          "fill_ratio": 0.3503,
+          "n_components": 39,
+          "components": [
+            1596,
+            1595,
+            1605,
+            1580,
+            1607,
+            1574,
+            1611,
+            1610,
+            1573,
+            1598,
+            1587,
+            1602,
+            1575,
+            1578,
+            1582,
+            1584,
+            1597,
+            1599,
+            1601,
+            1608,
+            1577,
+            1579,
+            1588,
+            1589,
+            1593,
+            1594,
+            1604,
+            1606,
+            1583,
+            1585,
+            1590,
+            1603,
+            1609,
+            1576,
+            1591,
+            1592,
+            1581,
+            1586,
+            1600
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "DGE FOR MANY CENTURIES. THOSE WHO SEE THE NUMBE",
+          "bbox": [
+            190,
+            609,
+            749,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 9,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R10",
+      "bbox": [
+        190,
+        649,
+        748,
+        50
+      ],
+      "region_type": "latin_text",
+      "description": "Line 10, y_center=671.2, glyphs=2, latin=1",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 77,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 10,
+          "bbox": [
+            200,
+            659,
+            352,
+            31
+          ],
+          "size_px": 3329,
+          "fill_ratio": 0.3051,
+          "n_components": 20,
+          "components": [
+            1627,
+            1625,
+            1616,
+            1622,
+            1612,
+            1652,
+            1620,
+            1630,
+            1615,
+            1626,
+            1621,
+            1624,
+            1629,
+            1618,
+            1617,
+            1628,
+            1631,
+            1619,
+            1623,
+            1653
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Rückwärts-C bzw. liegendes J mit offenem Winkel",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 78,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 10,
+          "bbox": [
+            560,
+            659,
+            369,
+            26
+          ],
+          "size_px": 3567,
+          "fill_ratio": 0.3718,
+          "n_components": 22,
+          "components": [
+            1651,
+            1641,
+            1632,
+            1633,
+            1635,
+            1613,
+            1614,
+            1639,
+            1642,
+            1636,
+            1638,
+            1644,
+            1648,
+            1640,
+            1643,
+            1647,
+            1649,
+            1650,
+            1645,
+            1634,
+            1646,
+            1637
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Epsilon-ähnliche Form ('є' oder kleines 'e') mit offenem Bogen",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "RS AND UNDERSTAND THEIR MEANING, IS THE WAY OPE",
+          "bbox": [
+            190,
+            649,
+            748,
+            50
+          ],
+          "conf": 0.5,
+          "line_id": 10,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R11",
+      "bbox": [
+        195,
+        689,
+        743,
+        49
+      ],
+      "region_type": "latin_text",
+      "description": "Line 11, y_center=711.2, glyphs=1, latin=1",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 79,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 11,
+          "bbox": [
+            205,
+            699,
+            724,
+            30
+          ],
+          "size_px": 7062,
+          "fill_ratio": 0.3251,
+          "n_components": 41,
+          "components": [
+            1677,
+            1686,
+            1669,
+            1691,
+            1671,
+            1654,
+            1672,
+            1688,
+            1663,
+            1668,
+            1656,
+            1660,
+            1693,
+            1655,
+            1685,
+            1667,
+            1692,
+            1657,
+            1661,
+            1662,
+            1664,
+            1658,
+            1665,
+            1659,
+            1676,
+            1687,
+            1670,
+            1674,
+            1682,
+            1683,
+            1689,
+            1678,
+            1679,
+            1680,
+            1681,
+            1684,
+            1690,
+            1673,
+            1675,
+            1666,
+            1694
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Epsilon-/ε-ähnliches Zeichen, geöffnet nach rechts, mit gebogenem Rücken und kurzem Mittelstrich.",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "N. FOR OTHERS WHO MAY NOT UNDERSTAND ANYTHING,",
+          "bbox": [
+            195,
+            689,
+            743,
+            49
+          ],
+          "conf": 0.5,
+          "line_id": 11,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R12",
+      "bbox": [
+        387,
+        729,
+        374,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 12, y_center=750.8, glyphs=1, latin=1",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 80,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 12,
+          "bbox": [
+            397,
+            739,
+            355,
+            26
+          ],
+          "size_px": 3227,
+          "fill_ratio": 0.3496,
+          "n_components": 20,
+          "components": [
+            1704,
+            1707,
+            1696,
+            1702,
+            1706,
+            1713,
+            1698,
+            1710,
+            1714,
+            1701,
+            1703,
+            1700,
+            1705,
+            1699,
+            1709,
+            1712,
+            1708,
+            1711,
+            1695,
+            1697
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "HERE IS NO WAY THROUGH.",
+          "bbox": [
+            387,
+            729,
+            374,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 12,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R13",
+      "bbox": [
+        194,
+        809,
+        745,
+        44
+      ],
+      "region_type": "latin_text",
+      "description": "Line 13, y_center=831.0, glyphs=1, latin=1",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 81,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 13,
+          "bbox": [
+            204,
+            819,
+            726,
+            25
+          ],
+          "size_px": 6661,
+          "fill_ratio": 0.367,
+          "n_components": 40,
+          "components": [
+            1727,
+            1720,
+            1735,
+            1721,
+            1715,
+            1732,
+            1716,
+            1737,
+            1738,
+            1754,
+            1749,
+            1722,
+            1734,
+            1736,
+            1740,
+            1742,
+            1753,
+            1724,
+            1725,
+            1726,
+            1729,
+            1730,
+            1731,
+            1733,
+            1746,
+            1751,
+            1752,
+            1719,
+            1728,
+            1741,
+            1744,
+            1717,
+            1723,
+            1743,
+            1739,
+            1745,
+            1748,
+            1747,
+            1718,
+            1750
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "turkic_round_rune",
+          "vision_description": "Kantiges, dreieckiges Zeichen, ähnelt einem umgedrehten V oder Lambda mit Querstrich",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "YOU CALCULATED ALWAYS OUR NUMBERS TO GET A PIEC",
+          "bbox": [
+            194,
+            809,
+            745,
+            44
+          ],
+          "conf": 0.5,
+          "line_id": 13,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R14",
+      "bbox": [
+        186,
+        849,
+        753,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 14, y_center=870.3, glyphs=2, latin=1",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 82,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 14,
+          "bbox": [
+            196,
+            859,
+            52,
+            26
+          ],
+          "size_px": 594,
+          "fill_ratio": 0.4393,
+          "n_components": 2,
+          "components": [
+            1756,
+            1755
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "other",
+          "vision_description": "Saltaire-/X-förmiges Zeichen, zwei sich kreuzende Diagonalen, evtl. mit kleinen Endverdickungen.",
+          "vision_confidence": 0.7,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 83,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 14,
+          "bbox": [
+            255,
+            859,
+            675,
+            25
+          ],
+          "size_px": 5946,
+          "fill_ratio": 0.3524,
+          "n_components": 36,
+          "components": [
+            1774,
+            1778,
+            1762,
+            1776,
+            1761,
+            1782,
+            1788,
+            1777,
+            1787,
+            1757,
+            1767,
+            1783,
+            1769,
+            1759,
+            1766,
+            1790,
+            1771,
+            1791,
+            1758,
+            1763,
+            1792,
+            1770,
+            1773,
+            1786,
+            1772,
+            1775,
+            1779,
+            1780,
+            1789,
+            1781,
+            1785,
+            1784,
+            1764,
+            1765,
+            1768,
+            1760
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Haken- oder J-förmiges Zeichen, vertikaler Schaft mit kurzer Biegung am oberen Ende.",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "E OF THE TRUTH BEHIND OUR SCRIPTURES. SO WE GIV",
+          "bbox": [
+            186,
+            849,
+            753,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 14,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R15",
+      "bbox": [
+        205,
+        889,
+        734,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 15, y_center=910.5, glyphs=2, latin=1",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 84,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_PUNCTUM_0013",
+          "line_id": 15,
+          "bbox": [
+            215,
+            899,
+            64,
+            25
+          ],
+          "size_px": 654,
+          "fill_ratio": 0.4088,
+          "n_components": 4,
+          "components": [
+            1794,
+            1795,
+            1796,
+            1793
+          ],
+          "type_hint": "unknown",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Vertikaler Schaft mit zwei nach links oben und unten auslaufenden Querbalken (umgekehrtes E, geöffnet nach rechts).",
+          "vision_confidence": 0.85,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 85,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 15,
+          "bbox": [
+            286,
+            899,
+            644,
+            26
+          ],
+          "size_px": 5999,
+          "fill_ratio": 0.3583,
+          "n_components": 35,
+          "components": [
+            1807,
+            1797,
+            1818,
+            1814,
+            1823,
+            1798,
+            1824,
+            1804,
+            1831,
+            1799,
+            1830,
+            1829,
+            1800,
+            1802,
+            1816,
+            1822,
+            1825,
+            1827,
+            1828,
+            1803,
+            1817,
+            1821,
+            1826,
+            1801,
+            1806,
+            1812,
+            1805,
+            1809,
+            1813,
+            1815,
+            1810,
+            1819,
+            1808,
+            1820,
+            1811
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Spiegelverkehrtes Pendant: Schaft mit zwei nach rechts oben und unten geöffneten Querbalken (E-Form).",
+          "vision_confidence": 0.8,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "E YOU THIS ULTIMATIVE CHALLENGE. YOU WILL UNDE",
+          "bbox": [
+            205,
+            889,
+            734,
+            45
+          ],
+          "conf": 0.5,
+          "line_id": 15,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R16",
+      "bbox": [
+        209,
+        928,
+        709,
+        46
+      ],
+      "region_type": "latin_text",
+      "description": "Line 16, y_center=950.2, glyphs=2, latin=1",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 86,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 16,
+          "bbox": [
+            219,
+            939,
+            263,
+            25
+          ],
+          "size_px": 2441,
+          "fill_ratio": 0.3713,
+          "n_components": 16,
+          "components": [
+            1846,
+            1841,
+            1842,
+            1844,
+            1870,
+            1869,
+            1847,
+            1837,
+            1840,
+            1836,
+            1838,
+            1839,
+            1835,
+            1843,
+            1845,
+            1834
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "other",
+          "vision_description": "Vertikaler Schaft mit kurzem diagonalem Haken oben links und kleinem rechten Winkel unten",
+          "vision_confidence": 0.5,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 87,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 16,
+          "bbox": [
+            490,
+            938,
+            419,
+            27
+          ],
+          "size_px": 4291,
+          "fill_ratio": 0.3793,
+          "n_components": 23,
+          "components": [
+            1859,
+            1848,
+            1868,
+            1858,
+            1855,
+            1856,
+            1832,
+            1833,
+            1854,
+            1866,
+            1863,
+            1864,
+            1865,
+            1852,
+            1867,
+            1849,
+            1862,
+            1860,
+            1853,
+            1861,
+            1851,
+            1850,
+            1857
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Doppelter, nach rechts geöffneter Winkel (>>-Form) mit Vertikale",
+          "vision_confidence": 0.6,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "RSTAND EVERYTHING BETTER WITH THIS MANUAL.",
+          "bbox": [
+            209,
+            928,
+            709,
+            46
+          ],
+          "conf": 0.5,
+          "line_id": 16,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R17",
+      "bbox": [
+        355,
+        1066,
+        54,
+        45
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=1082.4, glyphs=1, latin=0",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 88,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008",
+          "line_id": 17,
+          "bbox": [
+            365,
+            1076,
+            35,
+            26
+          ],
+          "size_px": 147,
+          "fill_ratio": 0.1615,
+          "n_components": 3,
+          "components": [
+            1874,
+            1875,
+            1873
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R18",
+      "bbox": [
+        255,
+        1105,
+        647,
+        112
+      ],
+      "region_type": "latin_text",
+      "description": "Line 18, y_center=1162.4, glyphs=8, latin=0",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 89,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 18,
+          "bbox": [
+            265,
+            1162,
+            33,
+            33
+          ],
+          "size_px": 326,
+          "fill_ratio": 0.2994,
+          "n_components": 1,
+          "components": [
+            1887
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 90,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 18,
+          "bbox": [
+            307,
+            1127,
+            36,
+            81
+          ],
+          "size_px": 696,
+          "fill_ratio": 0.2387,
+          "n_components": 2,
+          "components": [
+            1877,
+            1889
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 91,
+          "page": "p03",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+          "line_id": 18,
+          "bbox": [
+            427,
+            1115,
+            54,
+            78
+          ],
+          "size_px": 703,
+          "fill_ratio": 0.1669,
+          "n_components": 2,
+          "components": [
+            1876,
+            1886
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 92,
+          "page": "p03",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 18,
+          "bbox": [
+            485,
+            1155,
+            33,
+            33
+          ],
+          "size_px": 354,
+          "fill_ratio": 0.3251,
+          "n_components": 1,
+          "components": [
+            1885
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 93,
+          "page": "p03",
+          "page_glyph_id": 5,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 18,
+          "bbox": [
+            614,
+            1143,
+            43,
+            36
+          ],
+          "size_px": 641,
+          "fill_ratio": 0.4141,
+          "n_components": 2,
+          "components": [
+            1880,
+            1883
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 94,
+          "page": "p03",
+          "page_glyph_id": 6,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 18,
+          "bbox": [
+            667,
+            1132,
+            28,
+            44
+          ],
+          "size_px": 500,
+          "fill_ratio": 0.4058,
+          "n_components": 2,
+          "components": [
+            1878,
+            1888
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 95,
+          "page": "p03",
+          "page_glyph_id": 7,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0007",
+          "line_id": 18,
+          "bbox": [
+            746,
+            1144,
+            19,
+            9
+          ],
+          "size_px": 79,
+          "fill_ratio": 0.462,
+          "n_components": 1,
+          "components": [
+            1881
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 96,
+          "page": "p03",
+          "page_glyph_id": 8,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+          "line_id": 18,
+          "bbox": [
+            819,
+            1142,
+            74,
+            50
+          ],
+          "size_px": 1020,
+          "fill_ratio": 0.2757,
+          "n_components": 4,
+          "components": [
+            1884,
+            1882,
+            1879,
+            1890
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R19",
+      "bbox": [
+        186,
+        1048,
+        754,
+        394
+      ],
+      "region_type": "glyph_block",
+      "description": "Line 19, y_center=1242.6, glyphs=2, latin=0",
+      "lines": [
+        19
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 97,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0024",
+          "line_id": 19,
+          "bbox": [
+            196,
+            1058,
+            366,
+            370
+          ],
+          "size_px": 17590,
+          "fill_ratio": 0.1299,
+          "n_components": 1,
+          "components": [
+            1871
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 98,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0024",
+          "line_id": 19,
+          "bbox": [
+            574,
+            1073,
+            357,
+            360
+          ],
+          "size_px": 26290,
+          "fill_ratio": 0.2046,
+          "n_components": 1,
+          "components": [
+            1872
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "schmeh_symbol",
+          "description": "2 round turkic symbols",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R20",
+      "bbox": [
+        287,
+        1270,
+        217,
+        64
+      ],
+      "region_type": "glyph_block",
+      "description": "Line 20, y_center=1301.6, glyphs=3, latin=0",
+      "lines": [
+        20
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 99,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 20,
+          "bbox": [
+            297,
+            1285,
+            41,
+            40
+          ],
+          "size_px": 462,
+          "fill_ratio": 0.2817,
+          "n_components": 1,
+          "components": [
+            1892
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 100,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 20,
+          "bbox": [
+            416,
+            1280,
+            35,
+            36
+          ],
+          "size_px": 393,
+          "fill_ratio": 0.3119,
+          "n_components": 1,
+          "components": [
+            1891
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 101,
+          "page": "p03",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 20,
+          "bbox": [
+            461,
+            1287,
+            34,
+            35
+          ],
+          "size_px": 382,
+          "fill_ratio": 0.321,
+          "n_components": 1,
+          "components": [
+            1893
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R21",
+      "bbox": [
+        415,
+        1291,
+        462,
+        132
+      ],
+      "region_type": "latin_text",
+      "description": "Line 21, y_center=1368.6, glyphs=4, latin=0",
+      "lines": [
+        21
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 102,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 21,
+          "bbox": [
+            425,
+            1336,
+            32,
+            34
+          ],
+          "size_px": 364,
+          "fill_ratio": 0.3346,
+          "n_components": 1,
+          "components": [
+            1898
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 103,
+          "page": "p03",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009",
+          "line_id": 21,
+          "bbox": [
+            620,
+            1301,
+            104,
+            113
+          ],
+          "size_px": 2765,
+          "fill_ratio": 0.2353,
+          "n_components": 12,
+          "components": [
+            1894,
+            1895,
+            1899,
+            1900,
+            1901,
+            1902,
+            1903,
+            1904,
+            1905,
+            1906,
+            1907,
+            1908
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 104,
+          "page": "p03",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+          "line_id": 21,
+          "bbox": [
+            779,
+            1322,
+            10,
+            34
+          ],
+          "size_px": 227,
+          "fill_ratio": 0.6676,
+          "n_components": 1,
+          "components": [
+            1897
+          ],
+          "type_hint": "vertical_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 105,
+          "page": "p03",
+          "page_glyph_id": 4,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 21,
+          "bbox": [
+            810,
+            1317,
+            58,
+            57
+          ],
+          "size_px": 1633,
+          "fill_ratio": 0.494,
+          "n_components": 1,
+          "components": [
+            1896
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R22",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "footer",
+      "description": "Line 22, y_center=1624.0, glyphs=1, latin=0",
+      "lines": [
+        22
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 106,
+          "page": "p03",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+          "line_id": 22,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            1909
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R23_SCHMEH",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "latin_text",
+      "description": "Schmeh 2017 vollständige lateinische Sätze (5 lines, joined)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "WHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "LEDGE. THE KNOWLEDGE COMES FROM AFAR. ONLY READING THE MESSAGE, IS NOT TO UNDERSTANDING IT. ACLEAR MIND IS ABLE TO DECRYPT IT. BRING IT TOTHOSE WHO CAN UNDERSTAND IT.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 2,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "THE CHOSEN SOUL WILL GET KNOWLEDGE AND OUR KEYTO OUR ETERNAL LIBRARY. A KEY WITH WHICH EVERYTHING WILL BE UNDERSTOOD. A SOURCE OF KNOWLEDGE FOR MANY CENTURIES. THOSE WHO SEE THE NUMBERS AND UNDERSTAND THEIR MEANING, IS THE WAY OPE",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "N. FOR OTHERS WHO MAY NOT UNDERSTAND ANYTHING,HERE IS NO WAY THROUGH.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "YOU CALCULATED ALWAYS OUR NUMBERS TO GET A PIECE OF THE TRUTH BEHIND OUR SCRIPTURES. SO WE GIVE YOU THIS ULTIMATIVE CHALLENGE. YOU WILL UNDERSTAND EVERYTHING BETTER WITH THIS MANUAL.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 5,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}

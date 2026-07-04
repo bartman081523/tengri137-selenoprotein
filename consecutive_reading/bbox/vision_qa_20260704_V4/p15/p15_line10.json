@@ -1,0 +1,409 @@
+{
+  "page": "p15",
+  "line_id": 10,
+  "line_bbox": [
+    194,
+    1005,
+    745,
+    46
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine Zeile mit ausschließlich unbekannten geometrisch-runenartigen Glyphen. Keine lateinischen Buchstaben, Zahlen oder Formeln erkennbar. Die Glyphen zeigen Ähnlichkeit mit fiktionalen/alien Runensystemen (z.B. Yautja- oder Klingon-ähnlich).",
+  "n_glyphs_vision": 21,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 0,
+  "n_matched_glyphs": 15,
+  "n_unmatched_vision_glyphs": 6,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Zwei vertikal verbundene Kreise, ähnlich einer 8 oder Unendlichkeitszeichen, jeweils mit zentralem Punkt",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.06,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          50,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "H-förmige Figur mit Rauten-/Diamantform in der Mitte, die einen zentralen Punkt enthält",
+        "confidence": 0.88
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          125,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken- oder J-förmige Figur, möglicherweise ein umgekehrtes L mit geschwungenem oberen Element",
+        "confidence": 0.82
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          175,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "face_circle_three_dots",
+        "description": "Kreis mit drei inneren Punkten in Dreiecksanordnung (Gesichts-ähnlich, evtl. Auge + Nase + Mund)",
+        "confidence": 0.92
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          225,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "X-förmige Figur mit zwei sich kreuzenden dicken Balken",
+        "confidence": 0.87
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          275,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Aufwärts gerichteter Pfeil oder Dreieck mit kurzem vertikalem Stamm darunter",
+        "confidence": 0.83
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          325,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "X-förmige Figur, ähnlich einem Andreaskreuz mit dicken Balken",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          375,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "H-förmige Figur mit zentraler Raute und Punkt, ähnlich Glyph 2",
+        "confidence": 0.88
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          425,
+          25,
+          45,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "D-förmige oder halbmondförmige Figur, offene linke Seite",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          470,
+          25,
+          35,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Zwei parallele vertikale Balken, römisch II-ähnlich",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          505,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "geometric_bracket",
+        "description": "Haken- oder J-förmige Figur, ähnlich Glyph 4",
+        "confidence": 0.82
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          555,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Y-förmige Figur mit kleinem Kreis am unteren Stammende",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          605,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "H-förmige Figur ohne Zentralelement, zwei vertikale Balken mit Querstrich",
+        "confidence": 0.87
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          655,
+          25,
+          50,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "K-förmige oder pfeilartige Figur mit diagonalem Element nach rechts unten",
+        "confidence": 0.83
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.075,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          705,
+          25,
+          40,
+          80
+        ],
+        "visual_kind": "other",
+        "description": "Vertikaler Balken mit kurzem Haken oben, einer Ziffer 1 mit Serife ähnelnd",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 754,
+      "iou": 0.058,
+      "page_glyph_bbox": [
+        204,
+        1015,
+        726,
+        27
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        105,
+        60,
+        15,
+        15
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleines rundes Pünktchen, isolierter Punkt als Trennzeichen",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        745,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "K-förmige Figur mit diagonalen Elementen, ähnlich Glyph 15",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        795,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "H-förmige Figur mit zusätzlichem vertikalem Element in der Mitte",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        845,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "K-förmige Figur mit diagonalen Elementen nach rechts unten",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        895,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "H-förmige Figur, zwei vertikale Balken mit Querstrich",
+      "confidence": 0.87
+    },
+    {
+      "bbox": [
+        945,
+        25,
+        50,
+        80
+      ],
+      "visual_kind": "other",
+      "description": "K-förmige Figur mit kleinem Kreis am unteren Ende des rechten Schenkels",
+      "confidence": 0.84
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [],
+  "schmeh_hint": "Line 10: latin -> UMBERS EXCEPT OUR NUMBERS. AN ADDITIONAL PHYSICAL CO"
+}

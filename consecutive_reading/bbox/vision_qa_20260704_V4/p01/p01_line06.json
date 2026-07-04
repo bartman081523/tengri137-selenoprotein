@@ -1,0 +1,684 @@
+{
+  "page": "p01",
+  "line_id": 6,
+  "line_bbox": [
+    200,
+    616,
+    740,
+    45
+  ],
+  "line_type": "pure_glyph_line",
+  "line_description": "Eine durchgehende Zeile mit ca. 35 eng gesetzten, eckig-geometrischen Glyphen, die teils lateinischen Buchstaben (G, H, Y, D, E, M, 1, 9, 4) ähneln. In der Zeilenmitte befindet sich ein kleiner Punkt (Trennzeichen).",
+  "n_glyphs_vision": 35,
+  "n_latin_tokens": 0,
+  "n_numerics": 0,
+  "n_formulas": 0,
+  "n_graphics": 1,
+  "n_matched_glyphs": 26,
+  "n_unmatched_vision_glyphs": 9,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          0,
+          0,
+          35,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Eckige Form, ähnelt stilisiertem 'G' mit geschwungener rechter Innenkontur und kurzem Querbalken unten",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.238,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          35,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Klar erkennbares 'H' aus zwei vertikalen Balken mit horizontaler Querverbindung",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          63,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rhombus/Raute mit zentralem Punkt (⊙)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          91,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Eckiges 'E' mit drei horizontalen Strichen an einer vertikalen Achse links",
+        "confidence": 0.8
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          121,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'H' mit zwei vertikalen Balken und Mittelsteg",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          149,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Spiegelverkehrtes 'E' / öffnende Klammer mit zwei rechten Strichen",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          177,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'H' (zwei Senkrechte mit Querbalken)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          205,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Kleinbuchstabe-artiges 'h' oder aufrechte 'η'-Form mit gebogenem Bein",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          235,
+          0,
+          25,
+          30
+        ],
+        "visual_kind": "digit",
+        "description": "Ähnelt einer '9' (ovaler Kopf mit absteigendem Schwanz)",
+        "confidence": 0.6
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          260,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'Y' (zwei obere Arme, vertikaler Stamm)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          290,
+          0,
+          20,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Schmale vertikale '1' / 'I' / 'J'-Form",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          310,
+          0,
+          35,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Eckiges 'K'- oder 'k'-ähnliches Zeichen mit Schrägstrich",
+        "confidence": 0.5
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          345,
+          0,
+          20,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Schmale vertikale '1' / 'I'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          390,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'Y' (zwei divergierende Arme, vertikaler Stamm)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          420,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'D' (vertikale Achse links, geschlossener rechter Bogen)",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          450,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Eckige '3' / spiegelverkehrtes 'E'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 10,
+      "iou": 0.333,
+      "page_glyph_bbox": [
+        210,
+        626,
+        475,
+        26
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          478,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'H'",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.158,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          506,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Spiegelverkehrtes 'E'",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          534,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'H'",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          562,
+          0,
+          20,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Schmale '1' / 'I'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          582,
+          0,
+          20,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Schmale '1' / 'I'",
+        "confidence": 0.7
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          602,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "geometric_diamond_with_dot",
+        "description": "Rhombus mit zentralem Punkt (⊙)",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          630,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'Y'",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          660,
+          0,
+          30,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "'Y'",
+        "confidence": 0.85
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          690,
+          0,
+          28,
+          30
+        ],
+        "visual_kind": "other",
+        "description": "Spiegelverkehrtes 'E' / '3'",
+        "confidence": 0.75
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.317,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          718,
+          0,
+          25,
+          30
+        ],
+        "visual_kind": "geometric_diamond",
+        "description": "Einfache Raute/Rhombus ohne Punkt",
+        "confidence": 0.9
+      },
+      "matched_glyph_index": 11,
+      "iou": 0.165,
+      "page_glyph_bbox": [
+        692,
+        627,
+        239,
+        25
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        370,
+        0,
+        8,
+        8
+      ],
+      "visual_kind": "punctum",
+      "description": "Kleiner Punkt/Trennzeichen (Interpunktionsmarke) in Zeilenmitte",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        743,
+        0,
+        28,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "Spiegelverkehrtes 'E' / '3'",
+      "confidence": 0.75
+    },
+    {
+      "bbox": [
+        771,
+        0,
+        28,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "'H'",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        799,
+        0,
+        32,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "'M' (zwei äußere Vertikalen mit V-förmigem Mittelteil)",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        831,
+        0,
+        28,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "Eckiges Zeichen ähnlich 'N' oder '1l' mit Schrägstrich",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        859,
+        0,
+        25,
+        30
+      ],
+      "visual_kind": "digit",
+      "description": "Ähnelt '4' (vertikale Linie mit horizontaler Querung und Schrägstrich)",
+      "confidence": 0.6
+    },
+    {
+      "bbox": [
+        884,
+        0,
+        30,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "'Y'",
+      "confidence": 0.85
+    },
+    {
+      "bbox": [
+        914,
+        0,
+        20,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "Schmales Zeichen, ähnelt '>' oder 'V'",
+      "confidence": 0.5
+    },
+    {
+      "bbox": [
+        934,
+        0,
+        30,
+        30
+      ],
+      "visual_kind": "other",
+      "description": "'D' (vertikale Achse mit geschlossenem Bogen rechts)",
+      "confidence": 0.85
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "separator",
+      "description": "Kleiner Punkt (Interpunktions-Trenner) in Zeilenmitte bei x≈370, y≈5",
+      "bbox": [
+        370,
+        0,
+        8,
+        8
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 6: latin -> YOU BELIEVE IN, YOU MUST FORGET NOW. BELIEVING"
+}

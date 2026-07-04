@@ -1,0 +1,208 @@
+{
+  "page": "p18",
+  "line_id": 9,
+  "line_bbox": [
+    173,
+    848,
+    293,
+    58
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "A mathematical fraction expression showing a product of numbers in the numerator and a product including a power in the denominator, separated by a horizontal fraction bar.",
+  "n_glyphs_vision": 6,
+  "n_latin_tokens": 0,
+  "n_numerics": 8,
+  "n_formulas": 1,
+  "n_graphics": 1,
+  "n_matched_glyphs": 2,
+  "n_unmatched_vision_glyphs": 4,
+  "matched_glyphs": [
+    {
+      "vision_glyph": {
+        "bbox": [
+          68,
+          5,
+          20,
+          40
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplication cross (×) between 101 and 303649",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 852,
+      "iou": 0.438,
+      "page_glyph_bbox": [
+        183,
+        858,
+        274,
+        39
+      ]
+    },
+    {
+      "vision_glyph": {
+        "bbox": [
+          228,
+          5,
+          20,
+          40
+        ],
+        "visual_kind": "math_times",
+        "description": "Multiplication cross (×) between 303649 and 5492551",
+        "confidence": 0.95
+      },
+      "matched_glyph_index": 852,
+      "iou": 0.438,
+      "page_glyph_bbox": [
+        183,
+        858,
+        274,
+        39
+      ]
+    }
+  ],
+  "unmatched_vision_glyphs": [
+    {
+      "bbox": [
+        372,
+        5,
+        20,
+        40
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication cross (×) between 5492551 and 2988772165829",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        56,
+        55,
+        18,
+        30
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication cross (×) between 2^6 and 5851",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        156,
+        55,
+        18,
+        30
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication cross (×) between 5851 and 10914671",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        306,
+        55,
+        18,
+        30
+      ],
+      "visual_kind": "math_times",
+      "description": "Multiplication cross (×) between 10914671 and 825503643058267",
+      "confidence": 0.95
+    }
+  ],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "101",
+      "bbox": [
+        10,
+        5,
+        55,
+        45
+      ]
+    },
+    {
+      "value": "303649",
+      "bbox": [
+        92,
+        5,
+        130,
+        45
+      ]
+    },
+    {
+      "value": "5492551",
+      "bbox": [
+        252,
+        5,
+        115,
+        45
+      ]
+    },
+    {
+      "value": "2988772165829",
+      "bbox": [
+        396,
+        5,
+        325,
+        45
+      ]
+    },
+    {
+      "value": "2^6",
+      "bbox": [
+        10,
+        55,
+        42,
+        35
+      ]
+    },
+    {
+      "value": "5851",
+      "bbox": [
+        78,
+        55,
+        75,
+        30
+      ]
+    },
+    {
+      "value": "10914671",
+      "bbox": [
+        178,
+        55,
+        125,
+        30
+      ]
+    },
+    {
+      "value": "825503643058267",
+      "bbox": [
+        328,
+        55,
+        395,
+        30
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "raw": "(101 × 303649 × 5492551 × 2988772165829) / (2^6 × 5851 × 10914671 × 825503643058267)",
+      "bbox": [
+        10,
+        5,
+        720,
+        90
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "type": "fraction_bar",
+      "description": "Horizontal fraction bar separating numerator and denominator",
+      "bbox": [
+        0,
+        48,
+        740,
+        4
+      ]
+    }
+  ],
+  "schmeh_hint": "Line 9: numeric -> 3^2 * 104447808327328839855368873760708272880436633"
+}

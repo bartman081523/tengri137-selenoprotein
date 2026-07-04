@@ -1,0 +1,95 @@
+{
+  "page": "p06",
+  "line_id": 19,
+  "line_bbox": [
+    404,
+    1013,
+    372,
+    54
+  ],
+  "line_type": "pure_numeric_line",
+  "line_description": "Eine Zeile mit drei numerischen Werten (635, 24, 7), die durch diagonale Linien in parallelogrammartige Zellen unterteilt sind, gefolgt von vertikalen gestrichelten Linien auf der rechten Seite.",
+  "n_glyphs_vision": 0,
+  "n_latin_tokens": 0,
+  "n_numerics": 3,
+  "n_formulas": 0,
+  "n_graphics": 4,
+  "n_matched_glyphs": 0,
+  "n_unmatched_vision_glyphs": 0,
+  "matched_glyphs": [],
+  "unmatched_vision_glyphs": [],
+  "latin_tokens": [],
+  "numerics": [
+    {
+      "value": "635",
+      "bbox": [
+        25,
+        50,
+        130,
+        45
+      ]
+    },
+    {
+      "value": "24",
+      "bbox": [
+        220,
+        50,
+        80,
+        45
+      ]
+    },
+    {
+      "value": "7",
+      "bbox": [
+        400,
+        50,
+        30,
+        45
+      ]
+    }
+  ],
+  "formulas": [],
+  "graphics": [
+    {
+      "type": "diagonal_lines",
+      "description": "Diagonale Linien, die die Zellen in parallelogrammartige Formen unterteilen (von oben links nach unten rechts verlaufend)",
+      "bbox": [
+        0,
+        0,
+        1024,
+        135
+      ]
+    },
+    {
+      "type": "horizontal_line_top",
+      "description": "Obere horizontale Begrenzungslinie der Zellen",
+      "bbox": [
+        0,
+        0,
+        1024,
+        5
+      ]
+    },
+    {
+      "type": "horizontal_line_bottom",
+      "description": "Untere horizontale Begrenzungslinie der Zellen",
+      "bbox": [
+        0,
+        125,
+        1024,
+        5
+      ]
+    },
+    {
+      "type": "vertical_dashed_lines",
+      "description": "Zwei vertikale gestrichelte Linien auf der rechten Seite als Tabellenbegrenzung",
+      "bbox": [
+        850,
+        0,
+        170,
+        135
+      ]
+    }
+  ],
+  "schmeh_hint": "Schmeh has 18 lines for this page"
+}
