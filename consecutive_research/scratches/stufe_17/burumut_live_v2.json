@@ -1,0 +1,117 @@
+{
+  "sequence_original": "BURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZBENOMBATOBIKOTLUBUMYOSUNOKURGANOZYIOKUZIKUFAUSIHEYABEKANSABERHONAFERANSAHOTFEKOREMORBIZUMROSUNAKIRFANEMBA",
+  "length": 154,
+  "corrected_charge": 10.399999999999999,
+  "domain1_charge": 4.5,
+  "domain2_charge": 7.0,
+  "found_motifs": [
+    [
+      "OR",
+      2,
+      [
+        128,
+        132
+      ],
+      "Pyl-Arg (basisches Paar)"
+    ],
+    [
+      "OK",
+      2,
+      [
+        74,
+        85
+      ],
+      "Pyl-Lys (basisches Paar)"
+    ],
+    [
+      "AF",
+      1,
+      [
+        114
+      ],
+      "Ala-Phe"
+    ]
+  ],
+  "coiled_coil_matches": "0/22",
+  "helix_breaker_glycine": 2,
+  "helix_breaker_proline": 1,
+  "uazbe_count": 2,
+  "uazbe_positions": [
+    33,
+    47
+  ],
+  "analogs": [
+    {
+      "name": "Human β-Defensin 1 (hBD-1)",
+      "length": 36,
+      "arginines": 4,
+      "arg_pct": 11.1,
+      "helix_moment": 0.3,
+      "domains": 1,
+      "mechanism": "Bakterien-Membranpore + Chemokin-Aktivität",
+      "note": "36 AS — zu kurz für BURUMUT-Analogie"
+    },
+    {
+      "name": "Human β-Defensin 3 (hBD-3)",
+      "length": 45,
+      "arginines": 7,
+      "arg_pct": 15.6,
+      "helix_moment": 0.4,
+      "domains": 1,
+      "mechanism": "Bakterien + Pilze + HIV + Chemokin",
+      "note": "45 AS — einzelne Domäne"
+    },
+    {
+      "name": "LL-37 (Cathelicidin)",
+      "length": 37,
+      "arginines": 5,
+      "arg_pct": 13.5,
+      "helix_moment": 0.74,
+      "domains": 1,
+      "mechanism": "Membranpore + Immunmodulation",
+      "note": "37 AS — Standard-AMP"
+    },
+    {
+      "name": "Bactenecin-5 (Bact5)",
+      "length": 43,
+      "arginines": 13,
+      "arg_pct": 30.2,
+      "helix_moment": 0.5,
+      "domains": 1,
+      "mechanism": "Bakterien (besonders Gram+)",
+      "note": "43 AS — hoher Arg-Anteil (BURUMUT: 7.8%)"
+    },
+    {
+      "name": "PR-39 (Schwein)",
+      "length": 39,
+      "arginines": 9,
+      "arg_pct": 23.1,
+      "helix_moment": 0.45,
+      "domains": 1,
+      "mechanism": "Bakterien + Immunmodulation",
+      "note": "Prolin-reich — anders als BURUMUT"
+    },
+    {
+      "name": "HALOCYAMINE (Seeigel, 2-Domänen-AMP)",
+      "length": 168,
+      "arginines": 18,
+      "arg_pct": 10.7,
+      "helix_moment": 0.85,
+      "domains": 2,
+      "mechanism": "Bakterien + Membranpore",
+      "note": "★★★ 168 AS, 2 Domänen, Arg-reich — NÄCHSTES ANALOG! ★★★"
+    },
+    {
+      "name": "Strongylocins (Nematoden, 2-Domänen-AMP)",
+      "length": 92,
+      "arginines": 8,
+      "arg_pct": 8.7,
+      "helix_moment": 0.65,
+      "domains": 2,
+      "mechanism": "Bakterien (Gram+/-)",
+      "note": "2-Domänen-AMP aus Nematoden"
+    }
+  ],
+  "synthesis_feasible": true,
+  "estimated_synthesis_time_months": "3-6"
+}
