@@ -1,0 +1,954 @@
+{
+  "page": "p06",
+  "page_vision_status": "ok",
+  "glyphs_processed": 63,
+  "n_blank_crops": 62,
+  "n_color_crops": 1,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        443,
+        479,
+        126,
+        40
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Fragment showing printed digits (8, 17, 63) arranged in cells separated by diagonal slashes, with small marker lines below — appears to be part of a larger diagram or table rather than a single glyph.",
+        "confidence": 0.42
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        499,
+        573,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A grid/table structure with diagonal dividing lines containing numerical values (.9, 1, 64) in separate cells",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 2,
+      "kind_crop": "blank",
+      "bbox": [
+        366,
+        1161,
+        125,
+        40
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '22' printed in Latin sans-serif type on a parallelogram face of a 3D cube diagram, with partial '8' visible on the adjacent face to the right.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 3,
+      "kind_crop": "blank",
+      "bbox": [
+        577,
+        303,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Handwritten numbers '56' and '7' inside a parallelogram formed by diagonal lines, appearing to be stenographic shorthand notation.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 4,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        1026,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "Diagonal lines forming a parallelogram/rhombus shape with numbers '4' and '7' inside, and a horizontal bracket with arrow ends at the bottom indicating a measurement span",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 5,
+      "kind_crop": "blank",
+      "bbox": [
+        443,
+        1161,
+        126,
+        40
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "Printed digit '8' centered in a table cell, flanked by diagonal forward-slash separators typical of a mathematical difference table",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 6,
+      "kind_crop": "blank",
+      "bbox": [
+        556,
+        944,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A horizontal strip divided by diagonal slashes, containing the digits '7', '1', and '63' in separate cells, typical of stenographic or red label shorthand notation.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 7,
+      "kind_crop": "blank",
+      "bbox": [
+        556,
+        262,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A fragment of a lattice multiplication grid showing cells divided by diagonal lines, with the numbers 6, 2, and 63 visible in adjacent cells.",
+        "confidence": 0.42
+      }
+    },
+    {
+      "index": 8,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        1079,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A slanted parallelogram (diamond) outline containing the printed numeral '2' in its center, with adjacent parallelogram to the right showing '64'.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 9,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        303,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A portion of a parallelogram divided by diagonal lines into triangular sections, with the digits '3' and '6' visible inside two of the sections. Appears to be a visual/math diagram rather than a single glyph.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 10,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        397,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "Skewed parallelogram (diamond-like shape) containing the printed digit '4', part of a multiplication/area diagram with dashed lines on the left and another parallelogram showing '64' on the right",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 11,
+      "kind_crop": "blank",
+      "bbox": [
+        365,
+        615,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A geometric diagram showing diagonal lines forming a parallelogram with the number '11' inside and '64' partially visible to the right, plus vertical dashed lines on the left edge, suggesting a 3D isometric projection with measurements.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 12,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        985,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Parallelogram divided by a diagonal line, containing the number '4' in the left triangular section and '64' in the right section, appearing to be part of a lattice multiplication or area model diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 13,
+      "kind_crop": "blank",
+      "bbox": [
+        365,
+        1297,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed digit '9' inside a parallelogram, positioned to the left of another parallelogram containing '63'.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 14,
+      "kind_crop": "blank",
+      "bbox": [
+        366,
+        479,
+        125,
+        40
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram divided by a diagonal line, with the number '18' labeled in the left triangle section and '1' labels on the top and bottom edges of the figure.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 15,
+      "kind_crop": "blank",
+      "bbox": [
+        499,
+        438,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A grid of cells, each divided by a diagonal line running from upper-right to lower-left, with numbers (44, 9, 1) placed in the lower-left triangular portion of each cell.",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 16,
+      "kind_crop": "blank",
+      "bbox": [
+        634,
+        532,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A single digit '6' in serif print style, centered within a parallelogram-shaped cell of a grid structure.",
+        "confidence": 0.98
+      }
+    },
+    {
+      "index": 17,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        944,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A parallelogram (slanted quadrilateral) outline containing the number 27, with a partial parallelogram containing '1' visible to the right.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 18,
+      "kind_crop": "blank",
+      "bbox": [
+        556,
+        1214,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed number '17' in serif font inside a parallelogram cell formed by horizontal and diagonal lines, part of a slanted table or triangular array",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 19,
+      "kind_crop": "blank",
+      "bbox": [
+        444,
+        344,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "unknown",
+        "description": "A row of three diagonal slashes (going from lower-left to upper-right) with numbers (37, 8, 2) placed in the spaces between them, appearing as a repeated diagonal stroke pattern.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 20,
+      "kind_crop": "blank",
+      "bbox": [
+        577,
+        985,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Geometric diagram showing parallelogram-shaped cells formed by diagonal parallel lines, containing the numbers '41' and '21' printed inside the rhombi, with a short vertical dashed line on the right side.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 21,
+      "kind_crop": "blank",
+      "bbox": [
+        634,
+        397,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The number '22' printed in a sans-serif Latin font, with diagonal lines from the parent page crossing through it.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 22,
+      "kind_crop": "blank",
+      "bbox": [
+        634,
+        1214,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram outline with the number '12' written inside near the top horizontal edge, representing a side length label",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 23,
+      "kind_crop": "blank",
+      "bbox": [
+        577,
+        438,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed numeral '13' in a sans-serif font, overlaid on a pattern of parallel diagonal lines forming parallelogram-shaped regions. A partial '9' is visible at the left edge and a small mark at the bottom.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 24,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        1297,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "A parallelogram-shaped bar model divided diagonally into two sections, with the number 34 in the left section and 23 in the right section, commonly used in math word problems to represent quantities or fractions.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 25,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        344,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '21' in a serif/printed font centered inside a parallelogram (rhomboid) shape, with a partial '3' on the left edge and a measurement bracket underneath.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 26,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        615,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram shape with a diagonal line dividing it into two sections, containing the numbers '11' on the left side and '14' on the right side.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 27,
+      "kind_crop": "blank",
+      "bbox": [
+        499,
+        1255,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a table showing numbers (15, 63, partial 0) separated by diagonal slash lines, resembling a fraction or division table",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 28,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        479,
+        126,
+        40
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Slanted parallelogram outline containing the number 631 with a partial .7 visible on the left edge, typical of stenographic shorthand labels.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 29,
+      "kind_crop": "blank",
+      "bbox": [
+        577,
+        1120,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A fragment showing the number '14' with diagonal lines crossing through it, and a partial '0' to the left, typical of dimension/label markings in technical or engineering drawings where numbers are crossed with slashes.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 30,
+      "kind_crop": "blank",
+      "bbox": [
+        556,
+        532,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Partial view of a 3D cube diagram with the number '24' on the front face, '36' on the left face, and a partial '6' on the right face, connected by diagonal lines forming the cube's edges.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 31,
+      "kind_crop": "blank",
+      "bbox": [
+        444,
+        1026,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal slash marks between numbers 35, 24, and 7, appearing as a divided segment or fraction bar indicator",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 32,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        573,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A parallelogram outlined in solid black, containing the printed number '19', crossed by a diagonal line from upper-left to lower-right, with dashed vertical lines on the left side and another partial diagonal extending to the right where a fragment of '1' is visible.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 33,
+      "kind_crop": "blank",
+      "bbox": [
+        634,
+        1079,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "Parallelogram (diamond/rhombus) shape with the number 16 inside, with horizontal lines extending from top and bottom vertices and a dashed vertical line on the right edge, suggesting a 3D perspective view of a face of a cube or prism.",
+        "confidence": 0.42
+      }
+    },
+    {
+      "index": 34,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        262,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The two-digit number '26' printed inside a cell of a parallelogram (lattice/area diagram), with part of an adjacent cell showing '2'.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 35,
+      "kind_crop": "blank",
+      "bbox": [
+        499,
+        1120,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "The number '10' in a printed font, crossed out with a diagonal slash (forward slash), situated in a tabular row alongside other numbers like '12' and '1' that are similarly struck through.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 36,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        1161,
+        126,
+        40
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '636' printed in a standard sans-serif font, located inside a parallelogram/rhombus-shaped cell that is part of a larger map grid pattern with parallel diagonal lines.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 37,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        1255,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Technical drawing of a hatched parallelogram containing the measurement '20', with dashed construction lines on the left and partial markings visible on the right edge.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 38,
+      "kind_crop": "blank",
+      "bbox": [
+        366,
+        344,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Parallelogram shape containing the number 637, appearing to be part of a mathematical diagram with adjacent parallelogram shapes",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 39,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        1214,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '637' printed in a sans-serif font, centered on a parallelogram-shaped face of an isometric cube diagram. The number '17' is partially visible to the right on an adjacent face.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 40,
+      "kind_crop": "blank",
+      "bbox": [
+        577,
+        1255,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "unknown",
+        "description": "A table cell fragment showing the number '5' on the left and '631' in an adjacent cell, both crossed by diagonal lines (going from lower-left to upper-right). The pattern resembles a table with strikethrough diagonal lines, typical of European administrative or postal forms where diagonal lines indicate empty or cancelled cells.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 41,
+      "kind_crop": "blank",
+      "bbox": [
+        499,
+        985,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Stenographic shorthand fragment showing the number 641 flanked by partial numbers (4 on left, 2 on right), with diagonal slash lines crossing through the characters, typical of printer's copy-hold or compositor's marks.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 42,
+      "kind_crop": "blank",
+      "bbox": [
+        443,
+        615,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "address_hex",
+        "description": "Horizontal strip with diagonal slash separators dividing cells containing numbers: '.1', '641', and '1.' (partially visible)",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 43,
+      "kind_crop": "blank",
+      "bbox": [
+        443,
+        1297,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "A row of rectangular cells divided by diagonal lines running from lower-left to upper-right, with the number '634' printed in the center cell.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 44,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        1120,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed digits '642' with diagonal hatching lines above and below, typical of a sectioned view in a technical or engineering drawing",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 45,
+      "kind_crop": "blank",
+      "bbox": [
+        366,
+        1026,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Parallelogram divided by a diagonal line into two sections, with the number '635' written inside the left section and a partial '2' visible in the right section, with small tick marks below the bottom edge",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 46,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        438,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed Arabic numerals '644' overlaid on diagonal parallel hatching lines, with part of a '9' visible to the right.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 47,
+      "kind_crop": "blank",
+      "bbox": [
+        499,
+        303,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "The number 656 printed in a serif font, crossed by horizontal lines above and below and diagonal slashes through it, with a partial '3' visible to the left.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 48,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        532,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The three digits '636' printed in a sans-serif font, centered inside a parallelogram cell of a 3D net/cube diagram.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 49,
+      "kind_crop": "blank",
+      "bbox": [
+        577,
+        573,
+        127,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a table or grid with diagonal hatching lines, containing the number '646' in a cell, with a partial digit '1' visible to the left",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 50,
+      "kind_crop": "blank",
+      "bbox": [
+        556,
+        397,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '640' printed in a standard sans-serif typeface, appearing as part of a number line with diagonal tick marks.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 51,
+      "kind_crop": "blank",
+      "bbox": [
+        635,
+        944,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram outline containing the number '638' in its center, with dashed lines extending from the right side suggesting a 3D box or perspective drawing. The parallelogram is slanted to the right.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 52,
+      "kind_crop": "blank",
+      "bbox": [
+        635,
+        262,
+        125,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '638' printed in black sans-serif digits inside a slanted parallelogram-shaped box, appearing to be a dimension callout in a technical drawing.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 53,
+      "kind_crop": "blank",
+      "bbox": [
+        556,
+        1079,
+        126,
+        39
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '648' printed in a standard sans-serif typeface, with thin diagonal lines crossing the surrounding area (likely from a table grid in the parent document).",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 54,
+      "kind_crop": "blank",
+      "bbox": [
+        599,
+        1451,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circular outline containing two dots in the upper portion (like eyes) and a third mark/dot below (like a mouth), forming a simple face. A vertical bar/line is visible to the right of the circle.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 55,
+      "kind_crop": "blank",
+      "bbox": [
+        369,
+        1451,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A hand-drawn circle containing two dots arranged like eyes and a small mark below resembling a simple face, with the letters 'dl' visible to the right.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 56,
+      "kind_crop": "blank",
+      "bbox": [
+        694,
+        1451,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three dots arranged in a face pattern (two dots as eyes on top, one dot below as a mouth), with angular bracket-like marks on the left and right sides.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 57,
+      "kind_crop": "blank",
+      "bbox": [
+        247,
+        1451,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three small dots arranged in a triangular pattern (two on top, one centered below), resembling a minimalist face. Vertical bars appear on the left and right sides, which may be adjacent glyphs or framing elements.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 58,
+      "kind_crop": "blank",
+      "bbox": [
+        233,
+        770,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "Central circle containing three small dots arranged in a triangular pattern (two dots on top, one on bottom), flanked by a serifed letter 'I' on the left and a serifed letter 'Y' on the right.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 59,
+      "kind_crop": "blank",
+      "bbox": [
+        356,
+        770,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three dots arranged in a triangular pattern: one dot at top-center and two dots below, resembling a simple face or smiley.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 60,
+      "kind_crop": "blank",
+      "bbox": [
+        585,
+        770,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circular face with three dots inside resembling eyes and mouth, similar to a simple smiley emoticon or emoticon-like character.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 61,
+      "kind_crop": "blank",
+      "bbox": [
+        680,
+        770,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle with two dot eyes and a small mouth-like mark below, giving a face-like appearance.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 62,
+      "kind_crop": "color",
+      "bbox": [
+        565,
+        682,
+        15,
+        26
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Red printed Cyrillic letters 'НН' (or similar) with pixelated/jagged edges, appearing in bold red on white background",
+        "confidence": 0.75
+      }
+    }
+  ]
+}

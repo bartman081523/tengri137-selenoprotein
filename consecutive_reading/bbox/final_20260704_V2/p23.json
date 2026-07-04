@@ -1,0 +1,4165 @@
+{
+  "page_id": "p23",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "source_pixel": "p23.json",
+  "source_vision": null,
+  "n_regions": 44,
+  "n_text_words": 312,
+  "n_blank_regions": 0,
+  "n_colored_regions": 0,
+  "n_glyphs_vision": 0,
+  "regions": [
+    {
+      "region_id": "p23_R01",
+      "bbox": [
+        135,
+        52,
+        818,
+        71
+      ],
+      "classification": "header",
+      "description": "Page header (top of page)",
+      "text_words": [
+        {
+          "text": "NH,",
+          "bbox": [
+            137,
+            54,
+            48,
+            23
+          ],
+          "conf_tesseract": 85.699532,
+          "verified_by_vision": false
+        },
+        {
+          "text": "o",
+          "bbox": [
+            935,
+            52,
+            18,
+            19
+          ],
+          "conf_tesseract": 78.394135,
+          "verified_by_vision": false
+        },
+        {
+          "text": "!",
+          "bbox": [
+            135,
+            75,
+            14,
+            48
+          ],
+          "conf_tesseract": 33.754112,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ﬁ",
+          "bbox": [
+            936,
+            73,
+            14,
+            48
+          ],
+          "conf_tesseract": 52.638126,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R02",
+      "bbox": [
+        21,
+        1547,
+        1083,
+        78
+      ],
+      "classification": "footer",
+      "description": "Page footer (bottom of page)",
+      "text_words": [
+        {
+          "text": "o",
+          "bbox": [
+            866,
+            1548,
+            18,
+            19
+          ],
+          "conf_tesseract": 7.650597,
+          "verified_by_vision": false
+        },
+        {
+          "text": "N",
+          "bbox": [
+            958,
+            1547,
+            15,
+            18
+          ],
+          "conf_tesseract": 36.157547,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H",
+          "bbox": [
+            128,
+            1559,
+            15,
+            18
+          ],
+          "conf_tesseract": 92.942627,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H",
+          "bbox": [
+            958,
+            1572,
+            15,
+            19
+          ],
+          "conf_tesseract": 92.815155,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            21,
+            1623,
+            1083,
+            2
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R03",
+      "bbox": [
+        89,
+        112,
+        973,
+        48
+      ],
+      "classification": "text_line",
+      "description": "Text line: ~\"~__N ~__N z NT <\\",
+      "text_words": [
+        {
+          "text": "~\"~__N",
+          "bbox": [
+            911,
+            112,
+            136,
+            23
+          ],
+          "conf_tesseract": 13.035645,
+          "verified_by_vision": false
+        },
+        {
+          "text": "~__N",
+          "bbox": [
+            155,
+            113,
+            91,
+            24
+          ],
+          "conf_tesseract": 11.037445,
+          "verified_by_vision": false
+        },
+        {
+          "text": "z",
+          "bbox": [
+            108,
+            121,
+            24,
+            14
+          ],
+          "conf_tesseract": 11.037445,
+          "verified_by_vision": false
+        },
+        {
+          "text": "NT",
+          "bbox": [
+            89,
+            125,
+            46,
+            31
+          ],
+          "conf_tesseract": 6.372444,
+          "verified_by_vision": false
+        },
+        {
+          "text": "<\\",
+          "bbox": [
+            981,
+            127,
+            81,
+            31
+          ],
+          "conf_tesseract": 22.729675,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Tc\\",
+          "bbox": [
+            201,
+            129,
+            60,
+            31
+          ],
+          "conf_tesseract": 22.142097,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HN",
+          "bbox": [
+            868,
+            135,
+            37,
+            19
+          ],
+          "conf_tesseract": 93.091843,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R04",
+      "bbox": [
+        72,
+        156,
+        1018,
+        52
+      ],
+      "classification": "text_line",
+      "description": "Text line: c| | Hé | «cH",
+      "text_words": [
+        {
+          "text": "c|",
+          "bbox": [
+            890,
+            156,
+            14,
+            47
+          ],
+          "conf_tesseract": 87.716675,
+          "verified_by_vision": false
+        },
+        {
+          "text": "|",
+          "bbox": [
+            987,
+            156,
+            9,
+            27
+          ],
+          "conf_tesseract": 61.061737,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Hé",
+          "bbox": [
+            72,
+            158,
+            32,
+            49
+          ],
+          "conf_tesseract": 48.845314,
+          "verified_by_vision": false
+        },
+        {
+          "text": "|",
+          "bbox": [
+            186,
+            158,
+            9,
+            26
+          ],
+          "conf_tesseract": 52.961426,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«cH",
+          "bbox": [
+            1058,
+            160,
+            32,
+            19
+          ],
+          "conf_tesseract": 24.804398,
+          "verified_by_vision": false
+        },
+        {
+          "text": "/CH",
+          "bbox": [
+            248,
+            162,
+            41,
+            46
+          ],
+          "conf_tesseract": 72.516647,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R05",
+      "bbox": [
+        107,
+        200,
+        941,
+        53
+      ],
+      "classification": "text_line",
+      "description": "Text line: ~ N ~ \\N/ H,N/",
+      "text_words": [
+        {
+          "text": "~",
+          "bbox": [
+            1004,
+            200,
+            25,
+            11
+          ],
+          "conf_tesseract": 92.902908,
+          "verified_by_vision": false
+        },
+        {
+          "text": "N",
+          "bbox": [
+            911,
+            201,
+            23,
+            15
+          ],
+          "conf_tesseract": 61.048122,
+          "verified_by_vision": false
+        },
+        {
+          "text": "~",
+          "bbox": [
+            203,
+            202,
+            25,
+            11
+          ],
+          "conf_tesseract": 92.773994,
+          "verified_by_vision": false
+        },
+        {
+          "text": "\\N/",
+          "bbox": [
+            107,
+            203,
+            72,
+            35
+          ],
+          "conf_tesseract": 50.104809,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H,N/",
+          "bbox": [
+            814,
+            203,
+            74,
+            40
+          ],
+          "conf_tesseract": 63.771854,
+          "verified_by_vision": false
+        },
+        {
+          "text": "A",
+          "bbox": [
+            908,
+            203,
+            72,
+            33
+          ],
+          "conf_tesseract": 25.008148,
+          "verified_by_vision": false
+        },
+        {
+          "text": "u",
+          "bbox": [
+            1034,
+            209,
+            14,
+            43
+          ],
+          "conf_tesseract": 55.78455,
+          "verified_by_vision": false
+        },
+        {
+          "text": "”",
+          "bbox": [
+            232,
+            210,
+            16,
+            43
+          ],
+          "conf_tesseract": 56.459213,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R06",
+      "bbox": [
+        306,
+        254,
+        513,
+        28
+      ],
+      "classification": "text_line",
+      "description": "Text line: 2% 17 19 55627057 7200332325968813",
+      "text_words": [
+        {
+          "text": "2%",
+          "bbox": [
+            306,
+            254,
+            22,
+            27
+          ],
+          "conf_tesseract": 90.092072,
+          "verified_by_vision": false
+        },
+        {
+          "text": "17",
+          "bbox": [
+            363,
+            263,
+            21,
+            19
+          ],
+          "conf_tesseract": 90.808289,
+          "verified_by_vision": false
+        },
+        {
+          "text": "19",
+          "bbox": [
+            419,
+            263,
+            21,
+            19
+          ],
+          "conf_tesseract": 92.736038,
+          "verified_by_vision": false
+        },
+        {
+          "text": "55627057",
+          "bbox": [
+            471,
+            263,
+            105,
+            19
+          ],
+          "conf_tesseract": 93.244476,
+          "verified_by_vision": false
+        },
+        {
+          "text": "7200332325968813",
+          "bbox": [
+            607,
+            263,
+            212,
+            19
+          ],
+          "conf_tesseract": 91.905785,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            338,
+            269,
+            13,
+            13
+          ],
+          "conf_tesseract": 90.092072,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            393,
+            269,
+            13,
+            13
+          ],
+          "conf_tesseract": 90.808289,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            449,
+            269,
+            13,
+            13
+          ],
+          "conf_tesseract": 91.901955,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            585,
+            269,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.689232,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R07",
+      "bbox": [
+        246,
+        290,
+        634,
+        4
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            246,
+            290,
+            634,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R08",
+      "bbox": [
+        249,
+        301,
+        628,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3% 29 101 239 281",
+      "text_words": [
+        {
+          "text": "3%",
+          "bbox": [
+            249,
+            301,
+            21,
+            27
+          ],
+          "conf_tesseract": 83.94371,
+          "verified_by_vision": false
+        },
+        {
+          "text": "29",
+          "bbox": [
+            302,
+            310,
+            25,
+            18
+          ],
+          "conf_tesseract": 89.638817,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            360,
+            310,
+            33,
+            18
+          ],
+          "conf_tesseract": 92.372047,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            427,
+            310,
+            38,
+            18
+          ],
+          "conf_tesseract": 92.35379,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            496,
+            310,
+            37,
+            18
+          ],
+          "conf_tesseract": 93.121315,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            566,
+            310,
+            52,
+            18
+          ],
+          "conf_tesseract": 90.07357,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            649,
+            310,
+            76,
+            18
+          ],
+          "conf_tesseract": 93.241905,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            761,
+            310,
+            116,
+            18
+          ],
+          "conf_tesseract": 96.07164,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            280,
+            316,
+            12,
+            12
+          ],
+          "conf_tesseract": 81.499573,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            336,
+            316,
+            13,
+            12
+          ],
+          "conf_tesseract": 89.927261,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            405,
+            316,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.372047,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            475,
+            316,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.35379,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            544,
+            316,
+            13,
+            12
+          ],
+          "conf_tesseract": 93.012329,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            627,
+            316,
+            13,
+            12
+          ],
+          "conf_tesseract": 90.07357,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            737,
+            316,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.564781,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R09",
+      "bbox": [
+        347,
+        384,
+        432,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 22441 26807952781 220238942717 x x",
+      "text_words": [
+        {
+          "text": "22441",
+          "bbox": [
+            347,
+            384,
+            61,
+            18
+          ],
+          "conf_tesseract": 93.028275,
+          "verified_by_vision": false
+        },
+        {
+          "text": "26807952781",
+          "bbox": [
+            443,
+            384,
+            142,
+            19
+          ],
+          "conf_tesseract": 93.091011,
+          "verified_by_vision": false
+        },
+        {
+          "text": "220238942717",
+          "bbox": [
+            620,
+            384,
+            159,
+            19
+          ],
+          "conf_tesseract": 95.561966,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            421,
+            391,
+            12,
+            12
+          ],
+          "conf_tesseract": 93.028275,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            598,
+            391,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.995476,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R10",
+      "bbox": [
+        245,
+        412,
+        636,
+        4
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            245,
+            412,
+            636,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R11",
+      "bbox": [
+        249,
+        424,
+        629,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 11 29 101 239 281",
+      "text_words": [
+        {
+          "text": "11",
+          "bbox": [
+            249,
+            424,
+            20,
+            18
+          ],
+          "conf_tesseract": 83.750206,
+          "verified_by_vision": false
+        },
+        {
+          "text": "29",
+          "bbox": [
+            303,
+            424,
+            25,
+            19
+          ],
+          "conf_tesseract": 92.260773,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            361,
+            424,
+            33,
+            19
+          ],
+          "conf_tesseract": 92.736694,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            428,
+            424,
+            39,
+            19
+          ],
+          "conf_tesseract": 92.961914,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            498,
+            424,
+            35,
+            19
+          ],
+          "conf_tesseract": 93.205589,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            567,
+            424,
+            52,
+            19
+          ],
+          "conf_tesseract": 93.239624,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            650,
+            424,
+            76,
+            19
+          ],
+          "conf_tesseract": 93.262939,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            762,
+            424,
+            116,
+            19
+          ],
+          "conf_tesseract": 96.887047,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            281,
+            431,
+            12,
+            12
+          ],
+          "conf_tesseract": 83.750206,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            337,
+            431,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.260773,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            406,
+            431,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.047554,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            476,
+            431,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.634369,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            545,
+            431,
+            13,
+            12
+          ],
+          "conf_tesseract": 93.103081,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            629,
+            431,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.913322,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            738,
+            431,
+            12,
+            12
+          ],
+          "conf_tesseract": 93.128136,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R12",
+      "bbox": [
+        326,
+        499,
+        471,
+        18
+      ],
+      "classification": "text_line",
+      "description": "Text line: 2633 8867291 37287337 1498430561 x",
+      "text_words": [
+        {
+          "text": "2633",
+          "bbox": [
+            326,
+            499,
+            51,
+            18
+          ],
+          "conf_tesseract": 91.236168,
+          "verified_by_vision": false
+        },
+        {
+          "text": "8867291",
+          "bbox": [
+            410,
+            499,
+            88,
+            18
+          ],
+          "conf_tesseract": 93.267807,
+          "verified_by_vision": false
+        },
+        {
+          "text": "37287337",
+          "bbox": [
+            531,
+            499,
+            106,
+            18
+          ],
+          "conf_tesseract": 93.26355,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1498430561",
+          "bbox": [
+            670,
+            499,
+            127,
+            18
+          ],
+          "conf_tesseract": 96.162857,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            387,
+            505,
+            13,
+            12
+          ],
+          "conf_tesseract": 91.236168,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            510,
+            505,
+            12,
+            12
+          ],
+          "conf_tesseract": 93.159996,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            646,
+            505,
+            12,
+            12
+          ],
+          "conf_tesseract": 93.221672,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R13",
+      "bbox": [
+        224,
+        526,
+        678,
+        4
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            224,
+            526,
+            678,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R14",
+      "bbox": [
+        226,
+        539,
+        673,
+        18
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3x 11 x29 101 239",
+      "text_words": [
+        {
+          "text": "3x",
+          "bbox": [
+            226,
+            539,
+            33,
+            18
+          ],
+          "conf_tesseract": 72.546539,
+          "verified_by_vision": false
+        },
+        {
+          "text": "11",
+          "bbox": [
+            271,
+            539,
+            20,
+            18
+          ],
+          "conf_tesseract": 75.657089,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x29",
+          "bbox": [
+            302,
+            539,
+            47,
+            18
+          ],
+          "conf_tesseract": 75.657089,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            382,
+            539,
+            34,
+            18
+          ],
+          "conf_tesseract": 87.499321,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            449,
+            539,
+            38,
+            18
+          ],
+          "conf_tesseract": 92.901131,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            519,
+            539,
+            36,
+            18
+          ],
+          "conf_tesseract": 93.192474,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            588,
+            539,
+            52,
+            18
+          ],
+          "conf_tesseract": 92.93187,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            671,
+            539,
+            77,
+            18
+          ],
+          "conf_tesseract": 93.256279,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            783,
+            539,
+            116,
+            18
+          ],
+          "conf_tesseract": 96.882416,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            358,
+            545,
+            13,
+            12
+          ],
+          "conf_tesseract": 82.148781,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            427,
+            545,
+            12,
+            12
+          ],
+          "conf_tesseract": 91.889702,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            497,
+            545,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.901131,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            566,
+            545,
+            12,
+            12
+          ],
+          "conf_tesseract": 93.063454,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            650,
+            545,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.930397,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            759,
+            545,
+            13,
+            12
+          ],
+          "conf_tesseract": 93.117691,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R15",
+      "bbox": [
+        347,
+        613,
+        429,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3386469421 14123028175936831 7 x x",
+      "text_words": [
+        {
+          "text": "3386469421",
+          "bbox": [
+            390,
+            613,
+            130,
+            19
+          ],
+          "conf_tesseract": 93.250572,
+          "verified_by_vision": false
+        },
+        {
+          "text": "14123028175936831",
+          "bbox": [
+            555,
+            613,
+            221,
+            19
+          ],
+          "conf_tesseract": 90.137787,
+          "verified_by_vision": false
+        },
+        {
+          "text": "7",
+          "bbox": [
+            347,
+            614,
+            12,
+            18
+          ],
+          "conf_tesseract": 92.123528,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            368,
+            619,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.31073,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            531,
+            620,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.442924,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R16",
+      "bbox": [
+        245,
+        641,
+        636,
+        3
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            245,
+            641,
+            636,
+            3
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R17",
+      "bbox": [
+        251,
+        653,
+        627,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 11 29 101 239 281",
+      "text_words": [
+        {
+          "text": "11",
+          "bbox": [
+            251,
+            653,
+            18,
+            18
+          ],
+          "conf_tesseract": 46.918335,
+          "verified_by_vision": false
+        },
+        {
+          "text": "29",
+          "bbox": [
+            303,
+            653,
+            25,
+            19
+          ],
+          "conf_tesseract": 88.838455,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            362,
+            653,
+            32,
+            19
+          ],
+          "conf_tesseract": 92.53627,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            428,
+            653,
+            39,
+            19
+          ],
+          "conf_tesseract": 92.672455,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            498,
+            653,
+            35,
+            19
+          ],
+          "conf_tesseract": 93.225578,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            567,
+            653,
+            52,
+            19
+          ],
+          "conf_tesseract": 93.123886,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            650,
+            653,
+            76,
+            19
+          ],
+          "conf_tesseract": 93.156342,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            763,
+            653,
+            115,
+            19
+          ],
+          "conf_tesseract": 96.819473,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            281,
+            659,
+            12,
+            13
+          ],
+          "conf_tesseract": 46.918335,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            337,
+            659,
+            13,
+            13
+          ],
+          "conf_tesseract": 88.838455,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            406,
+            659,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.53627,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            476,
+            659,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.360046,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            545,
+            659,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.945953,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            629,
+            659,
+            12,
+            13
+          ],
+          "conf_tesseract": 92.594749,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            738,
+            659,
+            12,
+            13
+          ],
+          "conf_tesseract": 92.901207,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R18",
+      "bbox": [
+        1002,
+        708,
+        18,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: [}",
+      "text_words": [
+        {
+          "text": "[}",
+          "bbox": [
+            1002,
+            708,
+            18,
+            19
+          ],
+          "conf_tesseract": 38.615784,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R19",
+      "bbox": [
+        321,
+        726,
+        696,
+        30
+      ],
+      "classification": "text_line",
+      "description": "Text line: 2% I 20359 346559 13445817584622779",
+      "text_words": [
+        {
+          "text": "2%",
+          "bbox": [
+            321,
+            726,
+            21,
+            26
+          ],
+          "conf_tesseract": 67.440796,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            1008,
+            729,
+            9,
+            27
+          ],
+          "conf_tesseract": 84.754204,
+          "verified_by_vision": false
+        },
+        {
+          "text": "20359",
+          "bbox": [
+            374,
+            734,
+            65,
+            19
+          ],
+          "conf_tesseract": 92.457451,
+          "verified_by_vision": false
+        },
+        {
+          "text": "346559",
+          "bbox": [
+            470,
+            734,
+            78,
+            19
+          ],
+          "conf_tesseract": 91.6138,
+          "verified_by_vision": false
+        },
+        {
+          "text": "13445817584622779",
+          "bbox": [
+            582,
+            734,
+            223,
+            19
+          ],
+          "conf_tesseract": 83.08268,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            352,
+            741,
+            12,
+            12
+          ],
+          "conf_tesseract": 84.485497,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            448,
+            741,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.457451,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            558,
+            741,
+            12,
+            12
+          ],
+          "conf_tesseract": 83.08268,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R20",
+      "bbox": [
+        224,
+        759,
+        823,
+        32
+      ],
+      "classification": "text_line",
+      "description": "Text line: AN ",
+      "text_words": [
+        {
+          "text": "AN",
+          "bbox": [
+            977,
+            759,
+            70,
+            32
+          ],
+          "conf_tesseract": 59.866928,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            224,
+            762,
+            678,
+            3
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R21",
+      "bbox": [
+        226,
+        774,
+        673,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3x 11 x29 101 239",
+      "text_words": [
+        {
+          "text": "3x",
+          "bbox": [
+            226,
+            774,
+            33,
+            19
+          ],
+          "conf_tesseract": 26.034172,
+          "verified_by_vision": false
+        },
+        {
+          "text": "11",
+          "bbox": [
+            271,
+            774,
+            20,
+            19
+          ],
+          "conf_tesseract": 26.034172,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x29",
+          "bbox": [
+            302,
+            774,
+            47,
+            19
+          ],
+          "conf_tesseract": 55.691956,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            382,
+            774,
+            33,
+            19
+          ],
+          "conf_tesseract": 84.863205,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            449,
+            774,
+            38,
+            19
+          ],
+          "conf_tesseract": 92.75647,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            519,
+            774,
+            36,
+            19
+          ],
+          "conf_tesseract": 92.859703,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            588,
+            774,
+            52,
+            19
+          ],
+          "conf_tesseract": 93.104439,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            671,
+            774,
+            77,
+            19
+          ],
+          "conf_tesseract": 93.17894,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            783,
+            774,
+            116,
+            19
+          ],
+          "conf_tesseract": 96.674149,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            358,
+            781,
+            13,
+            12
+          ],
+          "conf_tesseract": 76.888542,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            427,
+            781,
+            13,
+            12
+          ],
+          "conf_tesseract": 84.863205,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            497,
+            781,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.75647,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            566,
+            781,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.859703,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            650,
+            781,
+            12,
+            12
+          ],
+          "conf_tesseract": 93.050751,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            759,
+            781,
+            13,
+            12
+          ],
+          "conf_tesseract": 93.111214,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R22",
+      "bbox": [
+        937,
+        791,
+        146,
+        48
+      ],
+      "classification": "text_line",
+      "description": "Text line: Hrll ﬁ\"",
+      "text_words": [
+        {
+          "text": "Hrll",
+          "bbox": [
+            937,
+            791,
+            36,
+            47
+          ],
+          "conf_tesseract": 69.484604,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ﬁ\"",
+          "bbox": [
+            1048,
+            791,
+            35,
+            48
+          ],
+          "conf_tesseract": 59.631737,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R23",
+      "bbox": [
+        340,
+        841,
+        743,
+        52
+      ],
+      "classification": "text_line",
+      "description": "Text line: _CH O/C\\N 7 4174409 13716463",
+      "text_words": [
+        {
+          "text": "_CH",
+          "bbox": [
+            1025,
+            841,
+            58,
+            32
+          ],
+          "conf_tesseract": 82.988258,
+          "verified_by_vision": false
+        },
+        {
+          "text": "O/C\\N",
+          "bbox": [
+            911,
+            842,
+            107,
+            51
+          ],
+          "conf_tesseract": 46.265915,
+          "verified_by_vision": false
+        },
+        {
+          "text": "7",
+          "bbox": [
+            340,
+            849,
+            10,
+            19
+          ],
+          "conf_tesseract": 82.5979,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4174409",
+          "bbox": [
+            381,
+            849,
+            93,
+            19
+          ],
+          "conf_tesseract": 93.089378,
+          "verified_by_vision": false
+        },
+        {
+          "text": "13716463",
+          "bbox": [
+            508,
+            849,
+            101,
+            19
+          ],
+          "conf_tesseract": 93.11367,
+          "verified_by_vision": false
+        },
+        {
+          "text": "11670170507",
+          "bbox": [
+            644,
+            849,
+            142,
+            19
+          ],
+          "conf_tesseract": 96.633598,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            360,
+            855,
+            12,
+            13
+          ],
+          "conf_tesseract": 82.5979,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            483,
+            855,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.769287,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            619,
+            855,
+            12,
+            13
+          ],
+          "conf_tesseract": 93.098373,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R24",
+      "bbox": [
+        274,
+        876,
+        578,
+        48
+      ],
+      "classification": "text_line",
+      "description": "Text line:  x x 3%",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            274,
+            876,
+            578,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            447,
+            883,
+            11,
+            41
+          ],
+          "conf_tesseract": 91.715858,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            601,
+            883,
+            11,
+            41
+          ],
+          "conf_tesseract": 92.68866,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3%",
+          "bbox": [
+            277,
+            887,
+            22,
+            27
+          ],
+          "conf_tesseract": 74.479858,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R25",
+      "bbox": [
+        310,
+        895,
+        708,
+        22
+      ],
+      "classification": "text_line",
+      "description": "Text line: 121499449 101 239 281 4649",
+      "text_words": [
+        {
+          "text": "121499449",
+          "bbox": [
+            732,
+            895,
+            117,
+            19
+          ],
+          "conf_tesseract": 96.775848,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            332,
+            896,
+            31,
+            18
+          ],
+          "conf_tesseract": 85.677002,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            399,
+            896,
+            104,
+            18
+          ],
+          "conf_tesseract": 91.715858,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            471,
+            896,
+            32,
+            18
+          ],
+          "conf_tesseract": 93.176796,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            538,
+            896,
+            158,
+            18
+          ],
+          "conf_tesseract": 92.734665,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            624,
+            896,
+            72,
+            18
+          ],
+          "conf_tesseract": 93.186951,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H",
+          "bbox": [
+            1002,
+            898,
+            16,
+            19
+          ],
+          "conf_tesseract": 92.959686,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            310,
+            902,
+            10,
+            12
+          ],
+          "conf_tesseract": 63.911411,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            378,
+            902,
+            11,
+            12
+          ],
+          "conf_tesseract": 85.677002,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            516,
+            902,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.785217,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            709,
+            902,
+            12,
+            12
+          ],
+          "conf_tesseract": 92.947411,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R26",
+      "bbox": [
+        357,
+        970,
+        414,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 1889 1344613389306385590121189 x",
+      "text_words": [
+        {
+          "text": "1889",
+          "bbox": [
+            357,
+            970,
+            49,
+            19
+          ],
+          "conf_tesseract": 91.993088,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1344613389306385590121189",
+          "bbox": [
+            439,
+            970,
+            332,
+            19
+          ],
+          "conf_tesseract": 88.546646,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            415,
+            976,
+            13,
+            12
+          ],
+          "conf_tesseract": 88.546646,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R27",
+      "bbox": [
+        224,
+        998,
+        678,
+        3
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            224,
+            998,
+            678,
+            3
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R28",
+      "bbox": [
+        227,
+        1010,
+        672,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3x 11 x29 101 239",
+      "text_words": [
+        {
+          "text": "3x",
+          "bbox": [
+            227,
+            1010,
+            32,
+            19
+          ],
+          "conf_tesseract": 72.831207,
+          "verified_by_vision": false
+        },
+        {
+          "text": "11",
+          "bbox": [
+            271,
+            1010,
+            20,
+            18
+          ],
+          "conf_tesseract": 27.105621,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x29",
+          "bbox": [
+            302,
+            1010,
+            47,
+            19
+          ],
+          "conf_tesseract": 27.105621,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            382,
+            1010,
+            33,
+            19
+          ],
+          "conf_tesseract": 92.161072,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            449,
+            1010,
+            38,
+            19
+          ],
+          "conf_tesseract": 91.285309,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            519,
+            1010,
+            36,
+            19
+          ],
+          "conf_tesseract": 92.286568,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            588,
+            1010,
+            52,
+            19
+          ],
+          "conf_tesseract": 93.164406,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            671,
+            1010,
+            77,
+            19
+          ],
+          "conf_tesseract": 93.05085,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            783,
+            1010,
+            116,
+            19
+          ],
+          "conf_tesseract": 95.969414,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            358,
+            1017,
+            13,
+            12
+          ],
+          "conf_tesseract": 71.943588,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            427,
+            1017,
+            13,
+            12
+          ],
+          "conf_tesseract": 91.48645,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            497,
+            1017,
+            12,
+            11
+          ],
+          "conf_tesseract": 91.285309,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            566,
+            1017,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.286568,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            650,
+            1017,
+            12,
+            11
+          ],
+          "conf_tesseract": 93.10041,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            759,
+            1017,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.958878,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R29",
+      "bbox": [
+        284,
+        1083,
+        558,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: 2% 47 79 102359 2468021",
+      "text_words": [
+        {
+          "text": "2%",
+          "bbox": [
+            284,
+            1083,
+            23,
+            27
+          ],
+          "conf_tesseract": 86.727478,
+          "verified_by_vision": false
+        },
+        {
+          "text": "47",
+          "bbox": [
+            338,
+            1091,
+            25,
+            19
+          ],
+          "conf_tesseract": 92.614723,
+          "verified_by_vision": false
+        },
+        {
+          "text": "79",
+          "bbox": [
+            394,
+            1091,
+            25,
+            19
+          ],
+          "conf_tesseract": 92.217232,
+          "verified_by_vision": false
+        },
+        {
+          "text": "102359",
+          "bbox": [
+            452,
+            1091,
+            76,
+            19
+          ],
+          "conf_tesseract": 92.748787,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2468021",
+          "bbox": [
+            560,
+            1091,
+            88,
+            19
+          ],
+          "conf_tesseract": 88.605293,
+          "verified_by_vision": false
+        },
+        {
+          "text": "347713522439",
+          "bbox": [
+            683,
+            1091,
+            159,
+            19
+          ],
+          "conf_tesseract": 96.399361,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            316,
+            1097,
+            13,
+            13
+          ],
+          "conf_tesseract": 86.727478,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            372,
+            1097,
+            13,
+            13
+          ],
+          "conf_tesseract": 90.80867,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            428,
+            1097,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.270409,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            538,
+            1097,
+            12,
+            13
+          ],
+          "conf_tesseract": 92.748787,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            661,
+            1097,
+            13,
+            13
+          ],
+          "conf_tesseract": 88.605293,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R30",
+      "bbox": [
+        224,
+        1119,
+        678,
+        4
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            224,
+            1119,
+            678,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R31",
+      "bbox": [
+        227,
+        1131,
+        672,
+        18
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3x 11 x29 101 239",
+      "text_words": [
+        {
+          "text": "3x",
+          "bbox": [
+            227,
+            1131,
+            32,
+            18
+          ],
+          "conf_tesseract": 80.732269,
+          "verified_by_vision": false
+        },
+        {
+          "text": "11",
+          "bbox": [
+            271,
+            1131,
+            18,
+            18
+          ],
+          "conf_tesseract": 46.412933,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x29",
+          "bbox": [
+            302,
+            1131,
+            47,
+            18
+          ],
+          "conf_tesseract": 46.412933,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            382,
+            1131,
+            33,
+            18
+          ],
+          "conf_tesseract": 58.919342,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            449,
+            1131,
+            38,
+            18
+          ],
+          "conf_tesseract": 92.673897,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            519,
+            1131,
+            35,
+            18
+          ],
+          "conf_tesseract": 92.859032,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            588,
+            1131,
+            52,
+            18
+          ],
+          "conf_tesseract": 93.18428,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            671,
+            1131,
+            75,
+            18
+          ],
+          "conf_tesseract": 93.153519,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            783,
+            1131,
+            116,
+            18
+          ],
+          "conf_tesseract": 96.40744,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            358,
+            1137,
+            13,
+            12
+          ],
+          "conf_tesseract": 57.958122,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            427,
+            1137,
+            13,
+            12
+          ],
+          "conf_tesseract": 91.622185,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            759,
+            1137,
+            13,
+            12
+          ],
+          "conf_tesseract": 93.040909,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            497,
+            1138,
+            12,
+            11
+          ],
+          "conf_tesseract": 92.673897,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            566,
+            1138,
+            13,
+            11
+          ],
+          "conf_tesseract": 92.733795,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            650,
+            1138,
+            12,
+            11
+          ],
+          "conf_tesseract": 93.18428,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R32",
+      "bbox": [
+        347,
+        1206,
+        429,
+        18
+      ],
+      "classification": "text_line",
+      "description": "Text line: 293 2551 330206236792383668191 x x",
+      "text_words": [
+        {
+          "text": "293",
+          "bbox": [
+            347,
+            1206,
+            37,
+            18
+          ],
+          "conf_tesseract": 91.530052,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2551",
+          "bbox": [
+            416,
+            1206,
+            50,
+            18
+          ],
+          "conf_tesseract": 93.161133,
+          "verified_by_vision": false
+        },
+        {
+          "text": "330206236792383668191",
+          "bbox": [
+            499,
+            1206,
+            277,
+            18
+          ],
+          "conf_tesseract": 89.169579,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            394,
+            1212,
+            13,
+            12
+          ],
+          "conf_tesseract": 91.530052,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            477,
+            1212,
+            13,
+            12
+          ],
+          "conf_tesseract": 89.169579,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R33",
+      "bbox": [
+        196,
+        1233,
+        733,
+        49
+      ],
+      "classification": "text_line",
+      "description": "Text line:  x 33",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            196,
+            1233,
+            733,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            443,
+            1240,
+            11,
+            42
+          ],
+          "conf_tesseract": 45.636906,
+          "verified_by_vision": false
+        },
+        {
+          "text": "33",
+          "bbox": [
+            199,
+            1244,
+            21,
+            27
+          ],
+          "conf_tesseract": 66.031036,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R34",
+      "bbox": [
+        230,
+        1253,
+        693,
+        18
+      ],
+      "classification": "text_line",
+      "description": "Text line: x7x 13 x31 x37 211",
+      "text_words": [
+        {
+          "text": "x7x",
+          "bbox": [
+            230,
+            1253,
+            54,
+            18
+          ],
+          "conf_tesseract": 21.668137,
+          "verified_by_vision": false
+        },
+        {
+          "text": "13",
+          "bbox": [
+            296,
+            1253,
+            21,
+            18
+          ],
+          "conf_tesseract": 21.668137,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x31",
+          "bbox": [
+            331,
+            1253,
+            39,
+            18
+          ],
+          "conf_tesseract": 66.082085,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x37",
+          "bbox": [
+            383,
+            1253,
+            112,
+            18
+          ],
+          "conf_tesseract": 45.636906,
+          "verified_by_vision": false
+        },
+        {
+          "text": "211",
+          "bbox": [
+            461,
+            1253,
+            34,
+            18
+          ],
+          "conf_tesseract": 81.669617,
+          "verified_by_vision": false
+        },
+        {
+          "text": "241",
+          "bbox": [
+            530,
+            1253,
+            34,
+            18
+          ],
+          "conf_tesseract": 92.462875,
+          "verified_by_vision": false
+        },
+        {
+          "text": "271",
+          "bbox": [
+            600,
+            1253,
+            34,
+            18
+          ],
+          "conf_tesseract": 93.217056,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2161",
+          "bbox": [
+            670,
+            1253,
+            47,
+            18
+          ],
+          "conf_tesseract": 93.255157,
+          "verified_by_vision": false
+        },
+        {
+          "text": "9091",
+          "bbox": [
+            752,
+            1253,
+            48,
+            18
+          ],
+          "conf_tesseract": 93.071129,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2906161",
+          "bbox": [
+            835,
+            1253,
+            88,
+            18
+          ],
+          "conf_tesseract": 95.972435,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            510,
+            1258,
+            11,
+            13
+          ],
+          "conf_tesseract": 92.009186,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            580,
+            1258,
+            11,
+            13
+          ],
+          "conf_tesseract": 92.462875,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            648,
+            1258,
+            12,
+            13
+          ],
+          "conf_tesseract": 93.130203,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            730,
+            1258,
+            13,
+            13
+          ],
+          "conf_tesseract": 92.294312,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            813,
+            1258,
+            12,
+            13
+          ],
+          "conf_tesseract": 93.071129,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R35",
+      "bbox": [
+        333,
+        1325,
+        456,
+        28
+      ],
+      "classification": "text_line",
+      "description": "Text line: 27 2729 486954583 1056312876821 x",
+      "text_words": [
+        {
+          "text": "27",
+          "bbox": [
+            333,
+            1325,
+            23,
+            27
+          ],
+          "conf_tesseract": 91.060226,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2729",
+          "bbox": [
+            387,
+            1334,
+            52,
+            19
+          ],
+          "conf_tesseract": 93.022667,
+          "verified_by_vision": false
+        },
+        {
+          "text": "486954583",
+          "bbox": [
+            470,
+            1334,
+            118,
+            19
+          ],
+          "conf_tesseract": 93.186317,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1056312876821",
+          "bbox": [
+            622,
+            1334,
+            167,
+            19
+          ],
+          "conf_tesseract": 96.02652,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            365,
+            1340,
+            12,
+            12
+          ],
+          "conf_tesseract": 91.060226,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            448,
+            1340,
+            13,
+            12
+          ],
+          "conf_tesseract": 91.723038,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            598,
+            1340,
+            13,
+            12
+          ],
+          "conf_tesseract": 92.548294,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R36",
+      "bbox": [
+        128,
+        1361,
+        752,
+        58
+      ],
+      "classification": "text_line",
+      "description": "Text line:  x x x x",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            246,
+            1361,
+            634,
+            4
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            282,
+            1368,
+            11,
+            41
+          ],
+          "conf_tesseract": 75.232399,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            337,
+            1368,
+            14,
+            41
+          ],
+          "conf_tesseract": 84.230957,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            405,
+            1368,
+            11,
+            41
+          ],
+          "conf_tesseract": 92.032059,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            473,
+            1368,
+            15,
+            41
+          ],
+          "conf_tesseract": 92.667969,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            542,
+            1368,
+            14,
+            41
+          ],
+          "conf_tesseract": 93.040421,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            627,
+            1368,
+            11,
+            41
+          ],
+          "conf_tesseract": 92.451073,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            737,
+            1368,
+            11,
+            41
+          ],
+          "conf_tesseract": 89.780586,
+          "verified_by_vision": false
+        },
+        {
+          "text": "'I‘H",
+          "bbox": [
+            128,
+            1371,
+            37,
+            48
+          ],
+          "conf_tesseract": 56.608818,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3%",
+          "bbox": [
+            249,
+            1372,
+            21,
+            27
+          ],
+          "conf_tesseract": 75.232399,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R37",
+      "bbox": [
+        168,
+        1381,
+        807,
+        20
+      ],
+      "classification": "text_line",
+      "description": "Text line: 29 101 239 281 4649",
+      "text_words": [
+        {
+          "text": "29",
+          "bbox": [
+            302,
+            1381,
+            25,
+            18
+          ],
+          "conf_tesseract": 84.230957,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            360,
+            1381,
+            33,
+            18
+          ],
+          "conf_tesseract": 92.032059,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            427,
+            1381,
+            38,
+            18
+          ],
+          "conf_tesseract": 92.91552,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            497,
+            1381,
+            36,
+            18
+          ],
+          "conf_tesseract": 93.137138,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            566,
+            1381,
+            52,
+            18
+          ],
+          "conf_tesseract": 92.972672,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            649,
+            1381,
+            76,
+            18
+          ],
+          "conf_tesseract": 89.780586,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            761,
+            1381,
+            116,
+            18
+          ],
+          "conf_tesseract": 96.763664,
+          "verified_by_vision": false
+        },
+        {
+          "text": "o",
+          "bbox": [
+            957,
+            1382,
+            18,
+            19
+          ],
+          "conf_tesseract": 83.560013,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2",
+          "bbox": [
+            168,
+            1383,
+            9,
+            11
+          ],
+          "conf_tesseract": 93.545914,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x29x",
+          "bbox": [
+            280,
+            1387,
+            69,
+            12
+          ],
+          "conf_tesseract": 77.88459,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            405,
+            1387,
+            13,
+            12
+          ],
+          "conf_tesseract": 70.626282,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            475,
+            1387,
+            12,
+            12
+          ],
+          "conf_tesseract": 75.225082,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            544,
+            1387,
+            13,
+            12
+          ],
+          "conf_tesseract": 80.126907,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            628,
+            1387,
+            12,
+            12
+          ],
+          "conf_tesseract": 80.467606,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            737,
+            1387,
+            12,
+            12
+          ],
+          "conf_tesseract": 75.080414,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R38",
+      "bbox": [
+        963,
+        1403,
+        8,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: 0",
+      "text_words": [
+        {
+          "text": "0",
+          "bbox": [
+            963,
+            1403,
+            8,
+            27
+          ],
+          "conf_tesseract": 68.288956,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R39",
+      "bbox": [
+        129,
+        1421,
+        14,
+        20
+      ],
+      "classification": "text_line",
+      "description": "Text line: C",
+      "text_words": [
+        {
+          "text": "C",
+          "bbox": [
+            129,
+            1421,
+            14,
+            20
+          ],
+          "conf_tesseract": 82.563354,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R40",
+      "bbox": [
+        82,
+        1433,
+        1010,
+        51
+      ],
+      "classification": "text_line",
+      "description": "Text line: C N¢ ~ \\c/CH3",
+      "text_words": [
+        {
+          "text": "C",
+          "bbox": [
+            958,
+            1433,
+            15,
+            18
+          ],
+          "conf_tesseract": 60.961235,
+          "verified_by_vision": false
+        },
+        {
+          "text": "N¢",
+          "bbox": [
+            82,
+            1437,
+            47,
+            35
+          ],
+          "conf_tesseract": 44.453487,
+          "verified_by_vision": false
+        },
+        {
+          "text": "~",
+          "bbox": [
+            148,
+            1440,
+            24,
+            14
+          ],
+          "conf_tesseract": 77.957886,
+          "verified_by_vision": false
+        },
+        {
+          "text": "\\c/CH3",
+          "bbox": [
+            978,
+            1440,
+            114,
+            44
+          ],
+          "conf_tesseract": 70.675362,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R41",
+      "bbox": [
+        173,
+        1450,
+        783,
+        33
+      ],
+      "classification": "text_line",
+      "description": "Text line: x x HN/ CH 19",
+      "text_words": [
+        {
+          "text": "x",
+          "bbox": [
+            369,
+            1450,
+            12,
+            33
+          ],
+          "conf_tesseract": 89.050865,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            559,
+            1450,
+            12,
+            33
+          ],
+          "conf_tesseract": 92.97641,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HN/",
+          "bbox": [
+            891,
+            1450,
+            65,
+            33
+          ],
+          "conf_tesseract": 71.551132,
+          "verified_by_vision": false
+        },
+        {
+          "text": "CH",
+          "bbox": [
+            173,
+            1454,
+            34,
+            19
+          ],
+          "conf_tesseract": 92.848679,
+          "verified_by_vision": false
+        },
+        {
+          "text": "19",
+          "bbox": [
+            335,
+            1455,
+            75,
+            18
+          ],
+          "conf_tesseract": 89.050865,
+          "verified_by_vision": false
+        },
+        {
+          "text": "31",
+          "bbox": [
+            388,
+            1455,
+            22,
+            18
+          ],
+          "conf_tesseract": 91.273003,
+          "verified_by_vision": false
+        },
+        {
+          "text": "73151809",
+          "bbox": [
+            444,
+            1455,
+            349,
+            18
+          ],
+          "conf_tesseract": 93.267578,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3847851920700457",
+          "bbox": [
+            581,
+            1455,
+            212,
+            18
+          ],
+          "conf_tesseract": 92.03669,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            424,
+            1461,
+            11,
+            12
+          ],
+          "conf_tesseract": 91.273003,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R42",
+      "bbox": [
+        82,
+        1474,
+        954,
+        59
+      ],
+      "classification": "text_line",
+      "description": "Text line: (I gH  | “H",
+      "text_words": [
+        {
+          "text": "(I",
+          "bbox": [
+            82,
+            1474,
+            15,
+            49
+          ],
+          "conf_tesseract": 68.732056,
+          "verified_by_vision": false
+        },
+        {
+          "text": "gH",
+          "bbox": [
+            175,
+            1475,
+            32,
+            47
+          ],
+          "conf_tesseract": 46.01347,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            245,
+            1483,
+            636,
+            3
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "|",
+          "bbox": [
+            919,
+            1485,
+            3,
+            27
+          ],
+          "conf_tesseract": 77.220474,
+          "verified_by_vision": false
+        },
+        {
+          "text": "“H",
+          "bbox": [
+            1008,
+            1486,
+            28,
+            47
+          ],
+          "conf_tesseract": 80.368103,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R43",
+      "bbox": [
+        249,
+        1495,
+        629,
+        19
+      ],
+      "classification": "text_line",
+      "description": "Text line: 11 29 101 239 281",
+      "text_words": [
+        {
+          "text": "11",
+          "bbox": [
+            249,
+            1495,
+            21,
+            18
+          ],
+          "conf_tesseract": 56.207207,
+          "verified_by_vision": false
+        },
+        {
+          "text": "29",
+          "bbox": [
+            303,
+            1495,
+            25,
+            19
+          ],
+          "conf_tesseract": 89.554108,
+          "verified_by_vision": false
+        },
+        {
+          "text": "101",
+          "bbox": [
+            361,
+            1495,
+            33,
+            18
+          ],
+          "conf_tesseract": 93.103447,
+          "verified_by_vision": false
+        },
+        {
+          "text": "239",
+          "bbox": [
+            428,
+            1495,
+            39,
+            19
+          ],
+          "conf_tesseract": 93.10041,
+          "verified_by_vision": false
+        },
+        {
+          "text": "281",
+          "bbox": [
+            498,
+            1495,
+            35,
+            18
+          ],
+          "conf_tesseract": 93.20401,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4649",
+          "bbox": [
+            567,
+            1495,
+            52,
+            19
+          ],
+          "conf_tesseract": 92.985855,
+          "verified_by_vision": false
+        },
+        {
+          "text": "909091",
+          "bbox": [
+            650,
+            1495,
+            77,
+            19
+          ],
+          "conf_tesseract": 92.744896,
+          "verified_by_vision": false
+        },
+        {
+          "text": "121499449",
+          "bbox": [
+            762,
+            1495,
+            116,
+            19
+          ],
+          "conf_tesseract": 90.212852,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            281,
+            1501,
+            12,
+            12
+          ],
+          "conf_tesseract": 56.207207,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            337,
+            1501,
+            13,
+            12
+          ],
+          "conf_tesseract": 89.554108,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            406,
+            1501,
+            13,
+            12
+          ],
+          "conf_tesseract": 90.863037,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            545,
+            1501,
+            13,
+            12
+          ],
+          "conf_tesseract": 91.758095,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            476,
+            1502,
+            13,
+            11
+          ],
+          "conf_tesseract": 92.333374,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            629,
+            1502,
+            12,
+            11
+          ],
+          "conf_tesseract": 89.210297,
+          "verified_by_vision": false
+        },
+        {
+          "text": "x",
+          "bbox": [
+            738,
+            1502,
+            12,
+            11
+          ],
+          "conf_tesseract": 92.744896,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p23_R44",
+      "bbox": [
+        39,
+        1515,
+        979,
+        39
+      ],
+      "classification": "text_line",
+      "description": "Text line: /C /C\\ o” \\N/",
+      "text_words": [
+        {
+          "text": "/C",
+          "bbox": [
+            980,
+            1515,
+            38,
+            32
+          ],
+          "conf_tesseract": 71.25528,
+          "verified_by_vision": false
+        },
+        {
+          "text": "/C\\",
+          "bbox": [
+            886,
+            1516,
+            69,
+            34
+          ],
+          "conf_tesseract": 44.673367,
+          "verified_by_vision": false
+        },
+        {
+          "text": "o”",
+          "bbox": [
+            39,
+            1520,
+            43,
+            31
+          ],
+          "conf_tesseract": 39.767342,
+          "verified_by_vision": false
+        },
+        {
+          "text": "\\N/",
+          "bbox": [
+            102,
+            1521,
+            71,
+            33
+          ],
+          "conf_tesseract": 85.315773,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    }
+  ],
+  "stats": {
+    "n_regions": 44,
+    "n_text_words": 312,
+    "n_symbols": 0,
+    "n_drawings": 0,
+    "n_uncertain": 0,
+    "classifications": {
+      "header": 1,
+      "footer": 1,
+      "text_line": 42
+    },
+    "top_clusters": {}
+  }
+}

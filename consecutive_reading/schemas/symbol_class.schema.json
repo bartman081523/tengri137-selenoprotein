@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tengri137.local/schemas/symbol_class.schema.json",
+  "title": "Tengri137 Symbol Class",
+  "description": "Top-level entry in symbols_index.json. One symbol class with all its occurrences and geometry.",
+  "type": "object",
+  "required": ["symbol_id", "cluster_id", "first_seen_page", "kind", "occurrences"],
+  "additionalProperties": true,
+  "properties": {
+    "symbol_id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Global symbol index, ordered by first appearance in flow text (page 1 top-left to bottom-right)"
+    },
+    "cluster_id": {
+      "type": "string",
+      "description": "Cluster this symbol belongs to"
+    },
+    "geometry_id": {"type": "string"},
+    "first_seen_page": {"type": "string", "pattern": "^p\\d{2}$"},
+    "first_seen_position": {
+      "type": "array",
+      "items": {"type": "integer"},
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "[left, top, width, height] of the medoid"
+    },
+    "kind": {"type": "string"},
+    "label_source": {"type": "string"},
+    "description": {"type": "string"},
+    "unicode_codepoint": {"type": "string"},
+    "representative_crop_path": {"type": "string"},
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "aspect_ratio": {"type": "number"},
+        "mean_area_px": {"type": "number"},
+        "mean_ink_ratio": {"type": "number"},
+        "bounding_box_normalized": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "fingerprint_hash": {"type": "string"},
+        "centroid": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+    "occurrences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["page", "bbox"],
+        "properties": {
+          "page": {"type": "string", "pattern": "^p\\d{2}$"},
+          "bbox": {
+            "type": "array",
+            "items": {"type": "integer"},
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "crop_path": {"type": "string"},
+          "ink_ratio": {"type": "number"},
+          "vision_confidence": {"type": "number"}
+        }
+      }
+    },
+    "cluster_size": {"type": "integer", "minimum": 1},
+    "cluster_density": {"type": "number"},
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

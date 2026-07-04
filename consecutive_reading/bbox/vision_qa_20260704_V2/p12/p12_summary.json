@@ -1,0 +1,129 @@
+{
+  "page": "p12",
+  "page_vision_status": "error",
+  "glyphs_processed": 8,
+  "n_blank_crops": 8,
+  "n_color_crops": 0,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        630,
+        611,
+        16,
+        17
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A central circle containing three small dots arranged in a triangular pattern (two on top, one below), flanked on the left and right by curved bracket-like shapes resembling '{' and '}' or fish-tail figures.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        785,
+        319,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A simple icon of a sewing button: a black circle outline with four small filled dots arranged in a square pattern inside, representing button holes.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 2,
+      "kind_crop": "blank",
+      "bbox": [
+        894,
+        695,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three small dots arranged in a triangular pattern (two on top, one on bottom), flanked by what appear to be Greek letters tau (τ) on the left and chi (χ) on the right.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 3,
+      "kind_crop": "blank",
+      "bbox": [
+        352,
+        1327,
+        16,
+        17
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three small dots arranged in a triangular face-like pattern (two dots on top, one dot below), resembling a simple face or emoticon symbol.",
+        "confidence": 0.88
+      }
+    },
+    {
+      "index": 4,
+      "kind_crop": "blank",
+      "bbox": [
+        416,
+        1244,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A black-outlined circle containing three small dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face or button.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 5,
+      "kind_crop": "blank",
+      "bbox": [
+        872,
+        1411,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular face-like icon with two dark dots (eyes) and a small mark below, accompanied by a black rectangular shape to the right. Appears to be a stylized face emoji or pictogram.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 6,
+      "kind_crop": "blank",
+      "bbox": [
+        488,
+        1452,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing two dots arranged horizontally on top and one dot centered below them, forming a simple face pattern. Flanked by partial dark characters or letterforms on either side.",
+        "confidence": 0.88
+      }
+    },
+    {
+      "index": 7,
+      "kind_crop": "blank",
+      "bbox": [
+        296,
+        570,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A small circular icon containing three dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face or ellipsis button",
+        "confidence": 0.82
+      }
+    }
+  ]
+}

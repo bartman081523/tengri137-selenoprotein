@@ -1,0 +1,105 @@
+{
+  "page": "p01",
+  "image_size": [
+    1056,
+    1322
+  ],
+  "text_words": [
+    {
+      "text": "constructed script line 1",
+      "position": "top, line 1, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script line 2",
+      "position": "top, line 2, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script line 3",
+      "position": "top, line 3, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script line 4",
+      "position": "top, line 4, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script line 5",
+      "position": "top, line 5, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script line 6",
+      "position": "top, line 6, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script paragraph 2",
+      "position": "middle, 2 lines, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script paragraph 3",
+      "position": "lower, ~6 lines, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    },
+    {
+      "text": "constructed script paragraph 4",
+      "position": "bottom, ~6 lines, center",
+      "color": "black",
+      "font": "Tengwar-like symbols"
+    }
+  ],
+  "symbols": [
+    {
+      "symbol": "horizontal line",
+      "position": "middle of page, spanning most of width",
+      "color": "black",
+      "description": "long horizontal divider line above the numerical expression"
+    }
+  ],
+  "drawings": [],
+  "digits": [
+    {
+      "value": "2 x 23 x 499 x 19214759967251 x 55150662460749672076915669",
+      "position": "middle of page, just below horizontal line, centered",
+      "color": "black"
+    },
+    {
+      "value": "3 x 11 x 27 x 139 x 2531 x 549707184491917 x 11111111111111111111",
+      "position": "middle of page, below first digit line, centered",
+      "color": "black"
+    }
+  ],
+  "formulas": [
+    {
+      "expression": "2 x 23 x 499 x 19214759967251 x 55150662460749672076915669 / 3 x 11 x 27 x 139 x 2531 x 549707184491917 x 11111111111111111111",
+      "position": "center of page, between two text blocks",
+      "type": "fraction-like expression (product in numerator / product in denominator)",
+      "color": "black"
+    }
+  ],
+  "mixed_media_regions": [
+    {
+      "region": "central band",
+      "description": "horizontal line with numerical product expression in fractional form, separating two text blocks of constructed script",
+      "position": "vertically centered, full width"
+    }
+  ],
+  "uncertain": [
+    "All characters in the main text blocks are a constructed/decorative script (resembling Tengwar or a similar invented alphabet) and cannot be transcribed to Latin letters",
+    "The text at the top of the page may represent an Elvish/Tolkien-style language or a fictional cipher",
+    "The two lower text blocks also use the same constructed script and are illegible to standard OCR",
+    "The exact meaning/reading direction of the constructed script is not identifiable"
+  ]
+}

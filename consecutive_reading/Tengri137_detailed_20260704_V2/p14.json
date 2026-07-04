@@ -1,0 +1,2504 @@
+{
+  "page_id": "p14",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "source_pixel": "p14.json",
+  "source_vision": "p14_page.json",
+  "n_regions": 38,
+  "n_text_words": 143,
+  "n_blank_regions": 17,
+  "n_colored_regions": 0,
+  "n_glyphs_vision": 17,
+  "regions": [
+    {
+      "region_id": "p14_R01",
+      "bbox": [
+        21,
+        1623,
+        1083,
+        2
+      ],
+      "classification": "footer",
+      "description": "Page footer (bottom of page)",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            21,
+            1623,
+            1083,
+            2
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R02",
+      "bbox": [
+        692,
+        733,
+        17,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "A stylized italic or calligraphic letter resembling a capital 'G' or a digit '6' with a curved top hook and a closed lower loop, ending with a small descender flourish.",
+          "unicode_codepoint": "U+0047",
+          "vision_confidence": 0.55,
+          "page": "p14",
+          "bbox": [
+            692,
+            733,
+            17,
+            26
+          ],
+          "crop_path": "bbox/crops/p14_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R03",
+      "bbox": [
+        747,
+        733,
+        17,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "A serif numeral '6' with a curved top and closed loop at the bottom, in a classical print style. A small comma or quotation mark fragment is visible in the upper right.",
+          "unicode_codepoint": "U+0036",
+          "vision_confidence": 0.95,
+          "page": "p14",
+          "bbox": [
+            747,
+            733,
+            17,
+            26
+          ],
+          "crop_path": "bbox/crops/p14_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R04",
+      "bbox": [
+        749,
+        587,
+        16,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "A serif-style numeral '6' (or possibly lowercase 'b') with a rounded loop at the bottom and an ascending stroke curving to the upper left.",
+          "unicode_codepoint": "U+0036",
+          "vision_confidence": 0.7,
+          "page": "p14",
+          "bbox": [
+            749,
+            587,
+            16,
+            25
+          ],
+          "crop_path": "bbox/crops/p14_blank_002.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R05",
+      "bbox": [
+        694,
+        587,
+        17,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "A handwritten or printed digit '6' with a closed circular loop at the bottom and a curved tail extending upward to the right.",
+          "unicode_codepoint": "U+0036",
+          "vision_confidence": 0.97,
+          "page": "p14",
+          "bbox": [
+            694,
+            587,
+            17,
+            25
+          ],
+          "crop_path": "bbox/crops/p14_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R06",
+      "bbox": [
+        611,
+        952,
+        17,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle with three dots inside (two upper, one lower) resembling a face, flanked by curved bracket-like shapes on either side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p14",
+          "bbox": [
+            611,
+            952,
+            17,
+            17
+          ],
+          "crop_path": "bbox/crops/p14_blank_004.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R07",
+      "bbox": [
+        381,
+        1382,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged in a triangular face pattern (two upper dots like eyes, one lower dot), flanked by other partial characters on left and right.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p14",
+          "bbox": [
+            381,
+            1382,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R08",
+      "bbox": [
+        707,
+        314,
+        17,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A black circle with three small dots inside arranged in a triangular pattern (two on top, one on bottom), resembling a simple minimalist face. Partial curved shapes flank it on the left and right sides.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p14",
+          "bbox": [
+            707,
+            314,
+            17,
+            17
+          ],
+          "crop_path": "bbox/crops/p14_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R09",
+      "bbox": [
+        433,
+        996,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three filled dots arranged in a triangular face pattern: two dots side-by-side on top (like eyes) and one centered below (like a mouth). Partial characters visible to the left and right suggest this is part of a larger sequence.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.78,
+          "page": "p14",
+          "bbox": [
+            433,
+            996,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R10",
+      "bbox": [
+        270,
+        1253,
+        16,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three filled dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face. A partial letter-like mark is visible at the right edge.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.88,
+          "page": "p14",
+          "bbox": [
+            270,
+            1253,
+            16,
+            17
+          ],
+          "crop_path": "bbox/crops/p14_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R11",
+      "bbox": [
+        741,
+        1124,
+        16,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular glyph containing three small dots arranged in a triangular face-like pattern (two upper dots for eyes, one lower dot), flanked by angular hook-like shapes on either side. Characteristic of Rongorongo script from Easter Island.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p14",
+          "bbox": [
+            741,
+            1124,
+            16,
+            17
+          ],
+          "crop_path": "bbox/crops/p14_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R12",
+      "bbox": [
+        639,
+        1124,
+        16,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three small dots arranged as a face (two dots upper, one dot lower), positioned to the left of a triangular/play-button shape.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p14",
+          "bbox": [
+            639,
+            1124,
+            16,
+            17
+          ],
+          "crop_path": "bbox/crops/p14_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R13",
+      "bbox": [
+        394,
+        272,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A black circle containing three black dots arranged in a triangular face pattern (two dots on top, one dot below), resembling a simple smiling face or emoticon.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.95,
+          "page": "p14",
+          "bbox": [
+            394,
+            272,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R14",
+      "bbox": [
+        570,
+        1039,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular outline containing three dots arranged in a triangular pattern (two upper dots like eyes and one lower dot like a mouth), forming a simple smiley face or emoticon glyph.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p14",
+          "bbox": [
+            570,
+            1039,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R15",
+      "bbox": [
+        279,
+        1382,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular outline containing three small filled dots arranged in a triangular pattern (two dots in the upper portion, one dot centered below), resembling a simple face symbol.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p14",
+          "bbox": [
+            279,
+            1382,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R16",
+      "bbox": [
+        716,
+        996,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three filled dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.95,
+          "page": "p14",
+          "bbox": [
+            716,
+            996,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R17",
+      "bbox": [
+        818,
+        996,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged in a triangular pattern (two upper, one lower) resembling a simple face, flanked on left and right by angular bracket-like shapes (resembling Γ and its mirror).",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.88,
+          "page": "p14",
+          "bbox": [
+            818,
+            996,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_015.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R18",
+      "bbox": [
+        370,
+        1039,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular face with two dots for eyes and a small open mouth shape in the center, flanked by mirrored '3'-like characters on either side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p14",
+          "bbox": [
+            370,
+            1039,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p14_blank_016.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R19",
+      "bbox": [
+        205,
+        263,
+        724,
+        43
+      ],
+      "classification": "text_line",
+      "description": "Text line: P THTHS T OF MRR",
+      "text_words": [
+        {
+          "text": "P",
+          "bbox": [
+            519,
+            263,
+            19,
+            43
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "THTHS",
+          "bbox": [
+            205,
+            267,
+            137,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            353,
+            267,
+            25,
+            26
+          ],
+          "conf_tesseract": 34.360626,
+          "verified_by_vision": false
+        },
+        {
+          "text": "OF",
+          "bbox": [
+            390,
+            267,
+            43,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MRR",
+          "bbox": [
+            443,
+            267,
+            102,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Dl",
+          "bbox": [
+            555,
+            267,
+            107,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "had",
+          "bbox": [
+            674,
+            267,
+            58,
+            25
+          ],
+          "conf_tesseract": 14.17907,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3h",
+          "bbox": [
+            743,
+            267,
+            54,
+            26
+          ],
+          "conf_tesseract": 41.563461,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Fhi>AIA",
+          "bbox": [
+            807,
+            267,
+            122,
+            26
+          ],
+          "conf_tesseract": 23.679718,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R20",
+      "bbox": [
+        196,
+        309,
+        731,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: h€ o 3438 2D WIRTAX",
+      "text_words": [
+        {
+          "text": "h€",
+          "bbox": [
+            661,
+            309,
+            33,
+            27
+          ],
+          "conf_tesseract": 48.389587,
+          "verified_by_vision": false
+        },
+        {
+          "text": "o",
+          "bbox": [
+            196,
+            310,
+            31,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3438",
+          "bbox": [
+            240,
+            310,
+            79,
+            26
+          ],
+          "conf_tesseract": 34.839127,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2D",
+          "bbox": [
+            331,
+            310,
+            49,
+            26
+          ],
+          "conf_tesseract": 1.503716,
+          "verified_by_vision": false
+        },
+        {
+          "text": "WIRTAX",
+          "bbox": [
+            411,
+            310,
+            114,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "'h",
+          "bbox": [
+            535,
+            310,
+            41,
+            26
+          ],
+          "conf_tesseract": 29.700668,
+          "verified_by_vision": false
+        },
+        {
+          "text": "A*R>",
+          "bbox": [
+            587,
+            310,
+            62,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "@",
+          "bbox": [
+            703,
+            310,
+            43,
+            26
+          ],
+          "conf_tesseract": 41.275745,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FITAM",
+          "bbox": [
+            756,
+            310,
+            102,
+            26
+          ],
+          "conf_tesseract": 0.742096,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            869,
+            310,
+            41,
+            26
+          ],
+          "conf_tesseract": 73.864197,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            392,
+            319,
+            6,
+            8
+          ],
+          "conf_tesseract": 73.683891,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            920,
+            319,
+            7,
+            8
+          ],
+          "conf_tesseract": 52.579185,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R21",
+      "bbox": [
+        202,
+        353,
+        726,
+        31
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3XDA 22D, SAAL PN I",
+      "text_words": [
+        {
+          "text": "3XDA",
+          "bbox": [
+            202,
+            353,
+            86,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "22D,",
+          "bbox": [
+            298,
+            353,
+            50,
+            26
+          ],
+          "conf_tesseract": 22.209274,
+          "verified_by_vision": false
+        },
+        {
+          "text": "SAAL",
+          "bbox": [
+            358,
+            353,
+            83,
+            31
+          ],
+          "conf_tesseract": 43.136253,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PN",
+          "bbox": [
+            453,
+            353,
+            34,
+            26
+          ],
+          "conf_tesseract": 48.068813,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            498,
+            353,
+            61,
+            26
+          ],
+          "conf_tesseract": 47.765457,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITMIJ",
+          "bbox": [
+            572,
+            353,
+            75,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HRIE",
+          "bbox": [
+            660,
+            353,
+            76,
+            26
+          ],
+          "conf_tesseract": 14.152054,
+          "verified_by_vision": false
+        },
+        {
+          "text": "133",
+          "bbox": [
+            749,
+            353,
+            58,
+            26
+          ],
+          "conf_tesseract": 23.133209,
+          "verified_by_vision": false
+        },
+        {
+          "text": "33",
+          "bbox": [
+            820,
+            353,
+            56,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "O",
+          "bbox": [
+            888,
+            354,
+            40,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R22",
+      "bbox": [
+        256,
+        396,
+        610,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: PThI>AJA IFRK AT ITXJ 1198",
+      "text_words": [
+        {
+          "text": "PThI>AJA",
+          "bbox": [
+            275,
+            396,
+            149,
+            26
+          ],
+          "conf_tesseract": 7.905502,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IFRK",
+          "bbox": [
+            436,
+            396,
+            58,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "AT",
+          "bbox": [
+            505,
+            396,
+            37,
+            26
+          ],
+          "conf_tesseract": 80.745445,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITXJ",
+          "bbox": [
+            555,
+            396,
+            75,
+            26
+          ],
+          "conf_tesseract": 3.390823,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1198",
+          "bbox": [
+            644,
+            396,
+            59,
+            26
+          ],
+          "conf_tesseract": 69.041824,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            714,
+            396,
+            28,
+            26
+          ],
+          "conf_tesseract": 48.159714,
+          "verified_by_vision": false
+        },
+        {
+          "text": "38",
+          "bbox": [
+            754,
+            396,
+            31,
+            26
+          ],
+          "conf_tesseract": 74.874847,
+          "verified_by_vision": false
+        },
+        {
+          "text": "A",
+          "bbox": [
+            795,
+            396,
+            71,
+            26
+          ],
+          "conf_tesseract": 13.371162,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            256,
+            405,
+            6,
+            8
+          ],
+          "conf_tesseract": 39.318981,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R23",
+      "bbox": [
+        318,
+        553,
+        291,
+        74
+      ],
+      "classification": "text_line",
+      "description": "Text line: (HIGM)",
+      "text_words": [
+        {
+          "text": "(HIGM)",
+          "bbox": [
+            318,
+            553,
+            291,
+            74
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R24",
+      "bbox": [
+        687,
+        565,
+        120,
+        50
+      ],
+      "classification": "text_line",
+      "description": "Text line: 6.67",
+      "text_words": [
+        {
+          "text": "6.67",
+          "bbox": [
+            687,
+            565,
+            120,
+            50
+          ],
+          "conf_tesseract": 90.938362,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R25",
+      "bbox": [
+        631,
+        581,
+        35,
+        33
+      ],
+      "classification": "text_line",
+      "description": "Text line: x",
+      "text_words": [
+        {
+          "text": "x",
+          "bbox": [
+            631,
+            581,
+            35,
+            33
+          ],
+          "conf_tesseract": 89.691505,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R26",
+      "bbox": [
+        318,
+        698,
+        489,
+        76
+      ],
+      "classification": "text_line",
+      "description": "Text line: (7m/(G)N/6.67",
+      "text_words": [
+        {
+          "text": "(7m/(G)N/6.67",
+          "bbox": [
+            318,
+            698,
+            489,
+            76
+          ],
+          "conf_tesseract": 19.150299,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R27",
+      "bbox": [
+        214,
+        904,
+        715,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: IYTIFYS MY I3 T ARRPD",
+      "text_words": [
+        {
+          "text": "IYTIFYS",
+          "bbox": [
+            600,
+            904,
+            126,
+            27
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MY",
+          "bbox": [
+            214,
+            905,
+            101,
+            26
+          ],
+          "conf_tesseract": 23.40715,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3",
+          "bbox": [
+            326,
+            905,
+            53,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            390,
+            905,
+            38,
+            26
+          ],
+          "conf_tesseract": 9.300224,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ARRPD",
+          "bbox": [
+            438,
+            905,
+            101,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IN",
+          "bbox": [
+            548,
+            905,
+            39,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "U",
+          "bbox": [
+            738,
+            905,
+            47,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "8l",
+          "bbox": [
+            796,
+            905,
+            25,
+            26
+          ],
+          "conf_tesseract": 15.428925,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XD",
+          "bbox": [
+            835,
+            905,
+            50,
+            26
+          ],
+          "conf_tesseract": 44.311695,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DA",
+          "bbox": [
+            895,
+            905,
+            34,
+            26
+          ],
+          "conf_tesseract": 61.239845,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R28",
+      "bbox": [
+        204,
+        947,
+        724,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: $33 32 1138 ¥4 HPAA",
+      "text_words": [
+        {
+          "text": "$33",
+          "bbox": [
+            380,
+            947,
+            55,
+            27
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "32",
+          "bbox": [
+            774,
+            947,
+            49,
+            27
+          ],
+          "conf_tesseract": 39.989361,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1138",
+          "bbox": [
+            868,
+            947,
+            60,
+            27
+          ],
+          "conf_tesseract": 51.785625,
+          "verified_by_vision": false
+        },
+        {
+          "text": "¥4",
+          "bbox": [
+            204,
+            948,
+            66,
+            26
+          ],
+          "conf_tesseract": 57.863029,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HPAA",
+          "bbox": [
+            282,
+            948,
+            89,
+            26
+          ],
+          "conf_tesseract": 7.187057,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DO",
+          "bbox": [
+            447,
+            948,
+            63,
+            26
+          ],
+          "conf_tesseract": 21.622391,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DITOXTARTIA",
+          "bbox": [
+            542,
+            948,
+            221,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1T",
+          "bbox": [
+            835,
+            948,
+            22,
+            26
+          ],
+          "conf_tesseract": 14.833298,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            521,
+            957,
+            8,
+            7
+          ],
+          "conf_tesseract": 55.442406,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R29",
+      "bbox": [
+        205,
+        991,
+        723,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: hR M 138 O D>ThiI>AlA",
+      "text_words": [
+        {
+          "text": "hR",
+          "bbox": [
+            205,
+            991,
+            39,
+            26
+          ],
+          "conf_tesseract": 52.884773,
+          "verified_by_vision": false
+        },
+        {
+          "text": "M",
+          "bbox": [
+            252,
+            991,
+            102,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "138",
+          "bbox": [
+            364,
+            991,
+            55,
+            26
+          ],
+          "conf_tesseract": 75.177444,
+          "verified_by_vision": false
+        },
+        {
+          "text": "O",
+          "bbox": [
+            429,
+            991,
+            43,
+            26
+          ],
+          "conf_tesseract": 55.988724,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D>ThiI>AlA",
+          "bbox": [
+            482,
+            991,
+            149,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1133",
+          "bbox": [
+            643,
+            991,
+            58,
+            26
+          ],
+          "conf_tesseract": 32.129822,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©3ITI@>",
+          "bbox": [
+            712,
+            991,
+            142,
+            26
+          ],
+          "conf_tesseract": 6.256828,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DA",
+          "bbox": [
+            864,
+            991,
+            35,
+            26
+          ],
+          "conf_tesseract": 88.921967,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Y",
+          "bbox": [
+            909,
+            991,
+            19,
+            26
+          ],
+          "conf_tesseract": 72.723976,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R30",
+      "bbox": [
+        326,
+        1030,
+        491,
+        43
+      ],
+      "classification": "text_line",
+      "description": "Text line: e N@SWDIA INRZ BT I",
+      "text_words": [
+        {
+          "text": "e",
+          "bbox": [
+            791,
+            1030,
+            26,
+            43
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "N@SWDIA",
+          "bbox": [
+            346,
+            1034,
+            139,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "INRZ",
+          "bbox": [
+            497,
+            1034,
+            59,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BT",
+          "bbox": [
+            566,
+            1034,
+            43,
+            26
+          ],
+          "conf_tesseract": 51.286774,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            619,
+            1034,
+            56,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Y>>",
+          "bbox": [
+            686,
+            1034,
+            48,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "il",
+          "bbox": [
+            745,
+            1034,
+            69,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            326,
+            1043,
+            7,
+            7
+          ],
+          "conf_tesseract": 30.971191,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R31",
+      "bbox": [
+        206,
+        1119,
+        722,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: 31> §38 88 @3> 34>%",
+      "text_words": [
+        {
+          "text": "31>",
+          "bbox": [
+            206,
+            1119,
+            56,
+            26
+          ],
+          "conf_tesseract": 91.471565,
+          "verified_by_vision": false
+        },
+        {
+          "text": "§38",
+          "bbox": [
+            446,
+            1119,
+            55,
+            26
+          ],
+          "conf_tesseract": 46.191311,
+          "verified_by_vision": false
+        },
+        {
+          "text": "88",
+          "bbox": [
+            569,
+            1119,
+            55,
+            26
+          ],
+          "conf_tesseract": 39.700645,
+          "verified_by_vision": false
+        },
+        {
+          "text": "@3>",
+          "bbox": [
+            634,
+            1119,
+            142,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "34>%",
+          "bbox": [
+            788,
+            1119,
+            80,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D9",
+          "bbox": [
+            273,
+            1120,
+            67,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YO>I",
+          "bbox": [
+            350,
+            1120,
+            84,
+            25
+          ],
+          "conf_tesseract": 18.235786,
+          "verified_by_vision": false
+        },
+        {
+          "text": "NI",
+          "bbox": [
+            511,
+            1120,
+            46,
+            25
+          ],
+          "conf_tesseract": 63.023876,
+          "verified_by_vision": false
+        },
+        {
+          "text": "»D",
+          "bbox": [
+            879,
+            1120,
+            49,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R32",
+      "bbox": [
+        202,
+        1162,
+        725,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: HA $52DA DO I>Ard'> YOMThI>AIA",
+      "text_words": [
+        {
+          "text": "HA",
+          "bbox": [
+            202,
+            1162,
+            53,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "$52DA",
+          "bbox": [
+            265,
+            1162,
+            85,
+            26
+          ],
+          "conf_tesseract": 7.123398,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DO",
+          "bbox": [
+            441,
+            1162,
+            67,
+            26
+          ],
+          "conf_tesseract": 46.689762,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I>Ard'>",
+          "bbox": [
+            518,
+            1162,
+            107,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YOMThI>AIA",
+          "bbox": [
+            708,
+            1162,
+            169,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            889,
+            1162,
+            38,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "52D",
+          "bbox": [
+            361,
+            1163,
+            49,
+            25
+          ],
+          "conf_tesseract": 20.144188,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            635,
+            1163,
+            61,
+            25
+          ],
+          "conf_tesseract": 21.673767,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            421,
+            1171,
+            8,
+            8
+          ],
+          "conf_tesseract": 67.556282,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R33",
+      "bbox": [
+        216,
+        1205,
+        685,
+        31
+      ],
+      "classification": "text_line",
+      "description": "Text line: 35DA 30« “OXTHAMTX $3h MAA",
+      "text_words": [
+        {
+          "text": "35DA",
+          "bbox": [
+            597,
+            1205,
+            86,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "30«",
+          "bbox": [
+            216,
+            1206,
+            50,
+            25
+          ],
+          "conf_tesseract": 46.823296,
+          "verified_by_vision": false
+        },
+        {
+          "text": "“OXTHAMTX",
+          "bbox": [
+            278,
+            1206,
+            165,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "$3h",
+          "bbox": [
+            452,
+            1206,
+            54,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MAA",
+          "bbox": [
+            516,
+            1206,
+            71,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XD",
+          "bbox": [
+            693,
+            1206,
+            49,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITXJ",
+          "bbox": [
+            752,
+            1206,
+            85,
+            30
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "13k",
+          "bbox": [
+            848,
+            1206,
+            53,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R34",
+      "bbox": [
+        208,
+        1248,
+        721,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: TRIE MNd @TMIX YYTO NOPThI>AJA",
+      "text_words": [
+        {
+          "text": "TRIE",
+          "bbox": [
+            388,
+            1248,
+            71,
+            27
+          ],
+          "conf_tesseract": 27.808716,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MNd",
+          "bbox": [
+            208,
+            1249,
+            46,
+            25
+          ],
+          "conf_tesseract": 19.518417,
+          "verified_by_vision": false
+        },
+        {
+          "text": "@TMIX",
+          "bbox": [
+            265,
+            1249,
+            115,
+            25
+          ],
+          "conf_tesseract": 27.808716,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YYTO",
+          "bbox": [
+            468,
+            1249,
+            82,
+            25
+          ],
+          "conf_tesseract": 73.471275,
+          "verified_by_vision": false
+        },
+        {
+          "text": "NOPThI>AJA",
+          "bbox": [
+            561,
+            1249,
+            170,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IFRh",
+          "bbox": [
+            742,
+            1249,
+            58,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "AT",
+          "bbox": [
+            811,
+            1249,
+            38,
+            25
+          ],
+          "conf_tesseract": 68.520203,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T4AA",
+          "bbox": [
+            859,
+            1249,
+            70,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R35",
+      "bbox": [
+        547,
+        1292,
+        46,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: an",
+      "text_words": [
+        {
+          "text": "an",
+          "bbox": [
+            547,
+            1292,
+            46,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R36",
+      "bbox": [
+        205,
+        1376,
+        723,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: 1193 @31 >3 TO> FYJT",
+      "text_words": [
+        {
+          "text": "1193",
+          "bbox": [
+            205,
+            1376,
+            59,
+            27
+          ],
+          "conf_tesseract": 46.812305,
+          "verified_by_vision": false
+        },
+        {
+          "text": "@31",
+          "bbox": [
+            285,
+            1376,
+            43,
+            27
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">3",
+          "bbox": [
+            428,
+            1376,
+            33,
+            27
+          ],
+          "conf_tesseract": 37.395073,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TO>",
+          "bbox": [
+            362,
+            1377,
+            52,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FYJT",
+          "bbox": [
+            472,
+            1377,
+            76,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2",
+          "bbox": [
+            559,
+            1377,
+            56,
+            26
+          ],
+          "conf_tesseract": 28.317932,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            627,
+            1377,
+            22,
+            26
+          ],
+          "conf_tesseract": 68.964783,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">ThNIYTRTA",
+          "bbox": [
+            659,
+            1377,
+            191,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H>>D",
+          "bbox": [
+            860,
+            1377,
+            68,
+            26
+          ],
+          "conf_tesseract": 10.324326,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R37",
+      "bbox": [
+        196,
+        1420,
+        732,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: 43> X1 ThRTM> Hb> IT",
+      "text_words": [
+        {
+          "text": "43>",
+          "bbox": [
+            196,
+            1420,
+            48,
+            26
+          ],
+          "conf_tesseract": 10.445976,
+          "verified_by_vision": false
+        },
+        {
+          "text": "X1",
+          "bbox": [
+            274,
+            1420,
+            77,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ThRTM>",
+          "bbox": [
+            362,
+            1420,
+            114,
+            26
+          ],
+          "conf_tesseract": 11.016998,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Hb>",
+          "bbox": [
+            488,
+            1420,
+            47,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            548,
+            1420,
+            22,
+            26
+          ],
+          "conf_tesseract": 83.205704,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1138",
+          "bbox": [
+            582,
+            1420,
+            59,
+            26
+          ],
+          "conf_tesseract": 10.646935,
+          "verified_by_vision": false
+        },
+        {
+          "text": "“OXThI>AIA",
+          "bbox": [
+            673,
+            1420,
+            169,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "SAAL",
+          "bbox": [
+            853,
+            1420,
+            75,
+            26
+          ],
+          "conf_tesseract": 12.02977,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            256,
+            1429,
+            7,
+            8
+          ],
+          "conf_tesseract": 59.990425,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            653,
+            1429,
+            8,
+            8
+          ],
+          "conf_tesseract": 43.244339,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p14_R38",
+      "bbox": [
+        236,
+        1463,
+        644,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: 1 IIB AT IP>SMPAY DI>A",
+      "text_words": [
+        {
+          "text": "1",
+          "bbox": [
+            236,
+            1463,
+            95,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IIB",
+          "bbox": [
+            342,
+            1463,
+            53,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "AT",
+          "bbox": [
+            408,
+            1463,
+            21,
+            26
+          ],
+          "conf_tesseract": 37.993488,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IP>SMPAY",
+          "bbox": [
+            442,
+            1463,
+            166,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DI>A",
+          "bbox": [
+            620,
+            1463,
+            64,
+            26
+          ],
+          "conf_tesseract": 43.504025,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HX>D",
+          "bbox": [
+            697,
+            1463,
+            69,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "AT",
+          "bbox": [
+            776,
+            1463,
+            38,
+            26
+          ],
+          "conf_tesseract": 28.860214,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            823,
+            1463,
+            57,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    }
+  ],
+  "vision_description": "",
+  "vision_classification": "",
+  "stats": {
+    "n_regions": 38,
+    "n_text_words": 143,
+    "n_symbols": 17,
+    "n_drawings": 0,
+    "n_uncertain": 0,
+    "classifications": {
+      "footer": 1,
+      "latin_print": 4,
+      "face_circle_three_dots": 13,
+      "text_line": 20
+    },
+    "top_clusters": {
+      "GEOM_UNKNOWN_0002": 17
+    }
+  }
+}

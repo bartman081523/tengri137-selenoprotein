@@ -1,0 +1,4114 @@
+{
+  "page_id": "p03",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "source_pixel": "p03.json",
+  "source_vision": "p03_page.json",
+  "n_regions": 82,
+  "n_text_words": 162,
+  "n_blank_regions": 57,
+  "n_colored_regions": 0,
+  "n_glyphs_vision": 57,
+  "regions": [
+    {
+      "region_id": "p03_R01",
+      "bbox": [
+        21,
+        1624,
+        1083,
+        1
+      ],
+      "classification": "footer",
+      "description": "Page footer (bottom of page)",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            21,
+            1624,
+            1083,
+            1
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R02",
+      "bbox": [
+        412,
+        1069,
+        522,
+        367
+      ],
+      "classification": "mixed_media",
+      "description": "",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            412,
+            1069,
+            522,
+            367
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular hand-drawn illustration containing a central tree-like or pillar structure, small human/figurine symbols, circular medallions with crosses, and various dots and small marks, resembling an ancient petroglyph or esoteric diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p03",
+          "bbox": [
+            579,
+            1078,
+            345,
+            345
+          ],
+          "crop_path": "bbox/crops/p03_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R03",
+      "bbox": [
+        201,
+        1245,
+        149,
+        174
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "Hand-drawn shape resembling a shield or banner with a curved/rounded bottom, a flat top crossed by two horizontal lines, and a small open circle (ring) positioned in the upper-right portion of the body.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            201,
+            1245,
+            149,
+            174
+          ],
+          "crop_path": "bbox/crops/p03_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R04",
+      "bbox": [
+        403,
+        1068,
+        153,
+        154
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A quarter-circle (pie-slice shape) outlined with double lines, containing three small circles each with a central dot, arranged in a triangular pattern. The overall figure resembles a hand-drawn diagram, possibly from a historical printed page.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            403,
+            1068,
+            153,
+            154
+          ],
+          "crop_path": "bbox/crops/p03_blank_002.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R05",
+      "bbox": [
+        399,
+        1267,
+        155,
+        154
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "image",
+          "vision_description": "A heraldic shield (escutcheon) shape containing three small circles (roundels) arranged in a 2-over-1 triangular pattern",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p03",
+          "bbox": [
+            399,
+            1267,
+            155,
+            154
+          ],
+          "crop_path": "bbox/crops/p03_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R06",
+      "bbox": [
+        204,
+        1067,
+        150,
+        148
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "Hand-drawn quarter-circle or pizza-slice shape containing three small circles inside, resembling toppings on a slice",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p03",
+          "bbox": [
+            204,
+            1067,
+            150,
+            148
+          ],
+          "crop_path": "bbox/crops/p03_blank_004.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R07",
+      "bbox": [
+        708,
+        1350,
+        75,
+        77
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "stick_figure",
+          "vision_description": "A simple hand-drawn outline of a human figure with a rounded head, broad shoulders, and torso, rendered in rough black strokes.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p03",
+          "bbox": [
+            708,
+            1350,
+            75,
+            77
+          ],
+          "crop_path": "bbox/crops/p03_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R08",
+      "bbox": [
+        354,
+        1065,
+        61,
+        153
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "stick_figure",
+          "vision_description": "A simple line drawing of a person/figure with a rounded head containing two dot eyes and a vertical line mouth, and a body with multiple vertical parallel lines suggesting a striped robe or garment, with small rectangular feet at the bottom.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            354,
+            1065,
+            61,
+            153
+          ],
+          "crop_path": "bbox/crops/p03_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R09",
+      "bbox": [
+        403,
+        1222,
+        154,
+        18
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Three to four roughly parallel horizontal hand-drawn bars stacked vertically, with short vertical stroke segments on the left side connecting them, resembling a simplified ladder or stylized character with horizontal emphasis.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p03",
+          "bbox": [
+            403,
+            1222,
+            154,
+            18
+          ],
+          "crop_path": "bbox/crops/p03_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R10",
+      "bbox": [
+        382,
+        1267,
+        15,
+        156
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "Tall narrow glyph showing several vertical parallel black bars of varying thickness contained within a rectangular frame, resembling a barred gate, fence, or barcode-like pattern.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p03",
+          "bbox": [
+            382,
+            1267,
+            15,
+            156
+          ],
+          "crop_path": "bbox/crops/p03_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R11",
+      "bbox": [
+        365,
+        1266,
+        16,
+        157
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Four tall, thin vertical parallel lines/strokes of roughly equal width, with slight serifs or horizontal caps at the top and bottom, resembling a bundle of rods or tally-like marks.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.3,
+          "page": "p03",
+          "bbox": [
+            365,
+            1266,
+            16,
+            157
+          ],
+          "crop_path": "bbox/crops/p03_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R12",
+      "bbox": [
+        350,
+        1265,
+        17,
+        156
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Chinese character 門 (gate/door) rendered in seal script style, featuring a horizontal bar at the top connecting to multiple vertical strokes descending to a bottom horizontal bar, forming a gate-like structure.",
+          "unicode_codepoint": "U+9580",
+          "vision_confidence": 0.78,
+          "page": "p03",
+          "bbox": [
+            350,
+            1265,
+            17,
+            156
+          ],
+          "crop_path": "bbox/crops/p03_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R13",
+      "bbox": [
+        201,
+        1216,
+        150,
+        16
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Multiple horizontal parallel lines forming a bracket or staff-like structure, with a partial circle visible at the top and a vertical line on the right edge.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            201,
+            1216,
+            150,
+            16
+          ],
+          "crop_path": "bbox/crops/p03_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R14",
+      "bbox": [
+        401,
+        1250,
+        160,
+        19
+      ],
+      "classification": "mixed_media",
+      "description": "",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            401,
+            1250,
+            160,
+            6
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "A series of horizontal parallel lines intersected by a vertical line on the left, forming a ladder-like or staff ruling pattern with a bracket-like right edge.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            402,
+            1252,
+            154,
+            17
+          ],
+          "crop_path": "bbox/crops/p03_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R15",
+      "bbox": [
+        403,
+        1238,
+        154,
+        16
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Three horizontal parallel lines connected on the left side by a short vertical line, forming a shape like a right-facing bracket or stylized 'E' without the top stroke.",
+          "unicode_codepoint": "U+23B4",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            403,
+            1238,
+            154,
+            16
+          ],
+          "crop_path": "bbox/crops/p03_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R16",
+      "bbox": [
+        201,
+        1231,
+        149,
+        16
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "Four to five parallel horizontal bars or rods stacked vertically with even spacing, resembling a ladder rung section or a wooden fence/grill pattern in black and white.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p03",
+          "bbox": [
+            201,
+            1231,
+            149,
+            16
+          ],
+          "crop_path": "bbox/crops/p03_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R17",
+      "bbox": [
+        770,
+        1199,
+        27,
+        50
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Archaic seal-style character resembling a rectangular enclosure with an internal vertical stroke on the right, possibly the character 由",
+          "unicode_codepoint": "U+7531",
+          "vision_confidence": 0.6,
+          "page": "p03",
+          "bbox": [
+            770,
+            1199,
+            27,
+            50
+          ],
+          "crop_path": "bbox/crops/p03_blank_015.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R18",
+      "bbox": [
+        356,
+        1106,
+        15,
+        111
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "Fragmentary crop showing vertical parallel lines/strokes with curved elements at the top and small rectangular shapes at the bottom, resembling part of a larger illustration or character that has been cut off.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.3,
+          "page": "p03",
+          "bbox": [
+            356,
+            1106,
+            15,
+            111
+          ],
+          "crop_path": "bbox/crops/p03_blank_016.png",
+          "first_appearance": true
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R19",
+      "bbox": [
+        738,
+        1139,
+        38,
+        66
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "stick_figure",
+          "vision_description": "A stick figure with arms raised upward, featuring a round head, straight torso, and legs spread apart, with horizontal lines on either side suggesting a table or platform.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p03",
+          "bbox": [
+            738,
+            1139,
+            38,
+            66
+          ],
+          "crop_path": "bbox/crops/p03_blank_017.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R20",
+      "bbox": [
+        372,
+        1123,
+        13,
+        94
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "stick_figure",
+          "vision_description": "A simple stick figure drawing showing a head (small circle) at the top, a vertical body line, and two arms extending outward and downward.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p03",
+          "bbox": [
+            372,
+            1123,
+            13,
+            94
+          ],
+          "crop_path": "bbox/crops/p03_blank_018.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R21",
+      "bbox": [
+        803,
+        1199,
+        26,
+        44
+      ],
+      "classification": "math_pi",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "math_pi",
+          "vision_description": "Two Greek capital letter Pi (Π) symbols side by side, each consisting of a horizontal top bar with two descending vertical strokes, joined by a shared horizontal baseline at the bottom.",
+          "unicode_codepoint": "U+03A0",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            803,
+            1199,
+            26,
+            44
+          ],
+          "crop_path": "bbox/crops/p03_blank_019.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R22",
+      "bbox": [
+        728,
+        1083,
+        42,
+        55
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "stick_figure",
+          "vision_description": "A circular border containing a stylized figure resembling a small tree or human-like stick figure with branching arms/limbs and a vertical stem, rendered in black ink on a light background, appearing as a woodcut or early printed illustration.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p03",
+          "bbox": [
+            728,
+            1083,
+            42,
+            55
+          ],
+          "crop_path": "bbox/crops/p03_blank_020.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R23",
+      "bbox": [
+        758,
+        1089,
+        29,
+        50
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "An archaic Chinese character in seal script style, appearing to be 來 (lái, 'to come') with characteristic flowing, curving strokes and a roughly rectangular outer enclosure containing inner stroke elements.",
+          "unicode_codepoint": "U+4F86",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            758,
+            1089,
+            29,
+            50
+          ],
+          "crop_path": "bbox/crops/p03_blank_021.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R24",
+      "bbox": [
+        836,
+        1201,
+        23,
+        38
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Thick black horizontal bars at top and bottom connected by multiple vertical strokes, forming a series of rectangular cells — characteristic of seal script character 冊 (cè, 'book/volume') or similar grid-structured character.",
+          "unicode_codepoint": "U+518C",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            836,
+            1201,
+            23,
+            38
+          ],
+          "crop_path": "bbox/crops/p03_blank_022.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R25",
+      "bbox": [
+        676,
+        1191,
+        20,
+        44
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 4,
+          "cluster_id": "GEOM_UNKNOWN_0004",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A rectangular seal-script style glyph with two horizontal bars (top and bottom) connected by three vertical strokes, resembling an ancient Chinese character in seal script form.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            676,
+            1191,
+            20,
+            44
+          ],
+          "crop_path": "bbox/crops/p03_blank_023.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R26",
+      "bbox": [
+        624,
+        1186,
+        19,
+        49
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A Chinese character resembling 瓜 (gourd) or similar character with multiple vertical strokes enclosed within a rectangular frame, with additional marks at the top. Appears in a stylized, possibly seal or archaic script form.",
+          "unicode_codepoint": "U+74DC",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            624,
+            1186,
+            19,
+            49
+          ],
+          "crop_path": "bbox/crops/p03_blank_024.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R27",
+      "bbox": [
+        701,
+        1193,
+        19,
+        47
+      ],
+      "classification": "math_pi",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "math_pi",
+          "vision_description": "Two vertical bars connected at the top and bottom by horizontal lines, resembling the Greek letter Pi (π) with a closed bottom, or a rectangular frame with two interior vertical posts.",
+          "unicode_codepoint": "U+03C0",
+          "vision_confidence": 0.62,
+          "page": "p03",
+          "bbox": [
+            701,
+            1193,
+            19,
+            47
+          ],
+          "crop_path": "bbox/crops/p03_blank_025.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R28",
+      "bbox": [
+        302,
+        1290,
+        29,
+        29
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A single hand-drawn or rough circular outline, slightly irregular in shape, with no markings or contents inside.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p03",
+          "bbox": [
+            302,
+            1290,
+            29,
+            29
+          ],
+          "crop_path": "bbox/crops/p03_blank_026.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R29",
+      "bbox": [
+        649,
+        1189,
+        18,
+        42
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 4,
+          "cluster_id": "GEOM_UNKNOWN_0004",
+          "vision_kind": "image",
+          "vision_description": "Two adjacent tall rectangular frames with thick black borders, resembling windows or door panels side by side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            649,
+            1189,
+            18,
+            42
+          ],
+          "crop_path": "bbox/crops/p03_blank_027.png",
+          "first_appearance": true
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R30",
+      "bbox": [
+        724,
+        1196,
+        16,
+        50
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Hand-drawn rectangular frame outline with an internal vertical stroke and crossing horizontal/diagonal lines, resembling a boxed bracket or enclosure with interior divisions.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.42,
+          "page": "p03",
+          "bbox": [
+            724,
+            1196,
+            16,
+            50
+          ],
+          "crop_path": "bbox/crops/p03_blank_028.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R31",
+      "bbox": [
+        866,
+        1204,
+        18,
+        39
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 4,
+          "cluster_id": "GEOM_UNKNOWN_0004",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A seal-script style character with a horizontal top bar, vertical strokes descending, and internal cross-strokes, possibly representing a character like 亞 or similar architectural/box-shaped glyph",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p03",
+          "bbox": [
+            866,
+            1204,
+            18,
+            39
+          ],
+          "crop_path": "bbox/crops/p03_blank_029.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R32",
+      "bbox": [
+        312,
+        1132,
+        25,
+        25
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A simple hand-drawn or rough circular outline with no interior marks",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p03",
+          "bbox": [
+            312,
+            1132,
+            25,
+            25
+          ],
+          "crop_path": "bbox/crops/p03_blank_030.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R33",
+      "bbox": [
+        421,
+        1285,
+        25,
+        25
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A hand-drawn, slightly irregular circle outlined with a thick black stroke on a white background.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p03",
+          "bbox": [
+            421,
+            1285,
+            25,
+            25
+          ],
+          "crop_path": "bbox/crops/p03_blank_031.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R34",
+      "bbox": [
+        315,
+        1180,
+        23,
+        23
+      ],
+      "classification": "geometric_circle_with_dot",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle_with_dot",
+          "vision_description": "Hand-drawn rough circle with a small dot in the center",
+          "unicode_codepoint": "U+2299",
+          "vision_confidence": 0.85,
+          "page": "p03",
+          "bbox": [
+            315,
+            1180,
+            23,
+            23
+          ],
+          "crop_path": "bbox/crops/p03_blank_032.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R35",
+      "bbox": [
+        270,
+        1167,
+        23,
+        23
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 4,
+          "cluster_id": "GEOM_UNKNOWN_0004",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Hand-drawn plain circle outline with no internal markings or dots",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p03",
+          "bbox": [
+            270,
+            1167,
+            23,
+            23
+          ],
+          "crop_path": "bbox/crops/p03_blank_033.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R36",
+      "bbox": [
+        429,
+        1341,
+        22,
+        24
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A simple hollow circle drawn with a black outline, slightly irregular in shape, with no interior markings.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p03",
+          "bbox": [
+            429,
+            1341,
+            22,
+            24
+          ],
+          "crop_path": "bbox/crops/p03_blank_034.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R37",
+      "bbox": [
+        454,
+        1121,
+        21,
+        23
+      ],
+      "classification": "geometric_circle_with_dot",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "geometric_circle_with_dot",
+          "vision_description": "Hand-drawn circular ring with a small dot in the center, resembling a sun or eye symbol",
+          "unicode_codepoint": "U+2299",
+          "vision_confidence": 0.95,
+          "page": "p03",
+          "bbox": [
+            454,
+            1121,
+            21,
+            23
+          ],
+          "crop_path": "bbox/crops/p03_blank_035.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R38",
+      "bbox": [
+        745,
+        1196,
+        19,
+        38
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Stylized seal-script-like glyph with a vertical stroke on the left, horizontal crossbars, and a diagonal element on the lower right, resembling a degraded form of 丙 or a similar character.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            745,
+            1196,
+            19,
+            38
+          ],
+          "crop_path": "bbox/crops/p03_blank_036.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R39",
+      "bbox": [
+        741,
+        1271,
+        19,
+        36
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 4,
+          "cluster_id": "GEOM_UNKNOWN_0004",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Complex Chinese character in seal script style with multiple intersecting vertical strokes and curved crossing elements forming an intricate pattern, possibly a character like 森 or 棘 rendered in ancient seal form.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p03",
+          "bbox": [
+            741,
+            1271,
+            19,
+            36
+          ],
+          "crop_path": "bbox/crops/p03_blank_037.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R40",
+      "bbox": [
+        744,
+        1240,
+        16,
+        30
+      ],
+      "classification": "chinese_oracle_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_oracle_script",
+          "vision_description": "A figure-like shape enclosed within a rectangular frame, resembling an early Chinese character depicting a person trapped inside a box.",
+          "unicode_codepoint": "U+56F0",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            744,
+            1240,
+            16,
+            30
+          ],
+          "crop_path": "bbox/crops/p03_blank_038.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R41",
+      "bbox": [
+        649,
+        1333,
+        17,
+        16
+      ],
+      "classification": "geometric_circle_with_cross",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "geometric_circle_with_cross",
+          "vision_description": "A circle containing a cross (plus sign) that divides it into four quadrants, with hatched/textured shading on the right side, resembling a wheel.",
+          "unicode_codepoint": "U+2295",
+          "vision_confidence": 0.85,
+          "page": "p03",
+          "bbox": [
+            649,
+            1333,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p03_blank_039.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R42",
+      "bbox": [
+        743,
+        1319,
+        16,
+        22
+      ],
+      "classification": "turkic_round_rune",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "turkic_round_rune",
+          "vision_description": "A bold, angular runic character resembling a stylized 'N' with thick vertical strokes on both sides connected by diagonal lines crossing in the middle, drawn in heavy black ink with a hand-carved appearance typical of Old Turkic script.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            743,
+            1319,
+            16,
+            22
+          ],
+          "crop_path": "bbox/crops/p03_blank_040.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R43",
+      "bbox": [
+        843,
+        1347,
+        15,
+        20
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Seal script character showing a large curved enclosure (resembling 囗) on the right with internal crosshatch/grid strokes forming a 田-like pattern on the left side. The strokes are thick and brush-like, characteristic of stamped seal script.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p03",
+          "bbox": [
+            843,
+            1347,
+            15,
+            20
+          ],
+          "crop_path": "bbox/crops/p03_blank_041.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R44",
+      "bbox": [
+        750,
+        1260,
+        15,
+        24
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A character with vertical strokes and angular/curved elements resembling an ancient Chinese seal script glyph, with thick black strokes on white background",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            750,
+            1260,
+            15,
+            24
+          ],
+          "crop_path": "bbox/crops/p03_blank_042.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R45",
+      "bbox": [
+        628,
+        1330,
+        16,
+        19
+      ],
+      "classification": "geometric_circle_with_cross",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle_with_cross",
+          "vision_description": "A rough-edged circle with a cross (plus sign) dividing it into four quadrants, appearing like an ink-stamped or hand-drawn wheel symbol with irregular outer contour.",
+          "unicode_codepoint": "U+25EF",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            628,
+            1330,
+            16,
+            19
+          ],
+          "crop_path": "bbox/crops/p03_blank_043.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R46",
+      "bbox": [
+        631,
+        1310,
+        17,
+        14
+      ],
+      "classification": "geometric_circle_with_cross",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle_with_cross",
+          "vision_description": "A roughly drawn circle containing a cross or plus-sign pattern inside, with additional curved internal lines suggesting a wheel-like or spoked design, rendered in thick black strokes.",
+          "unicode_codepoint": "U+2295",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            631,
+            1310,
+            17,
+            14
+          ],
+          "crop_path": "bbox/crops/p03_blank_044.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R47",
+      "bbox": [
+        818,
+        1326,
+        15,
+        16
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A Chinese seal script character featuring a rounded top with a small central bump and two vertical strokes descending below, connected by a horizontal stroke, resembling characters like 申 or 由 in seal script form.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p03",
+          "bbox": [
+            818,
+            1326,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p03_blank_045.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R48",
+      "bbox": [
+        843,
+        1326,
+        14,
+        17
+      ],
+      "classification": "geometric_circle_with_cross",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle_with_cross",
+          "vision_description": "A dark circular outline with internal vertical and horizontal lines dividing the interior into quadrants, resembling a gridded or windowed circle.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p03",
+          "bbox": [
+            843,
+            1326,
+            14,
+            17
+          ],
+          "crop_path": "bbox/crops/p03_blank_046.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R49",
+      "bbox": [
+        819,
+        1347,
+        14,
+        17
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "Capital letter H in serif style with additional curved stroke marks on the left side, resembling an ornate or hand-drawn initial.",
+          "unicode_codepoint": "U+0048",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            819,
+            1347,
+            14,
+            17
+          ],
+          "crop_path": "bbox/crops/p03_blank_047.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R50",
+      "bbox": [
+        653,
+        1311,
+        14,
+        16
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "A blackletter or gothic-style capital letter, appears to be 'P' or 'D' with a vertical stem on the left and a rounded bowl on the upper right portion.",
+          "unicode_codepoint": "U+0050",
+          "vision_confidence": 0.6,
+          "page": "p03",
+          "bbox": [
+            653,
+            1311,
+            14,
+            16
+          ],
+          "crop_path": "bbox/crops/p03_blank_048.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R51",
+      "bbox": [
+        750,
+        1223,
+        16,
+        22
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Complex character with two prominent vertical strokes and crossing horizontal/diagonal lines in the middle, rendered in an ancient seal or oracle script style with thick brush strokes.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            750,
+            1223,
+            16,
+            22
+          ],
+          "crop_path": "bbox/crops/p03_blank_049.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R52",
+      "bbox": [
+        658,
+        1235,
+        71,
+        13
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A hand-drawn horizontal bar with several short vertical posts/lines extending upward from it, and a vertical line on the right side, resembling a simple sketch of a fence or railing fragment.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.35,
+          "page": "p03",
+          "bbox": [
+            658,
+            1235,
+            71,
+            13
+          ],
+          "crop_path": "bbox/crops/p03_blank_050.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R53",
+      "bbox": [
+        355,
+        1220,
+        12,
+        12
+      ],
+      "classification": "geometric_filled_square",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_filled_square",
+          "vision_description": "A grid pattern of thick black intersecting horizontal and vertical lines forming a 3x3 array of squares.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p03",
+          "bbox": [
+            355,
+            1220,
+            12,
+            12
+          ],
+          "crop_path": "bbox/crops/p03_blank_051.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R54",
+      "bbox": [
+        354,
+        1236,
+        13,
+        12
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A 3x3 grid pattern formed by two thick vertical and two thick horizontal black bars on a white background, resembling a window pane or hash/pound grid. It visually corresponds to the Chinese character 井 (well).",
+          "unicode_codepoint": "U+4E95",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            354,
+            1236,
+            13,
+            12
+          ],
+          "crop_path": "bbox/crops/p03_blank_052.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R55",
+      "bbox": [
+        371,
+        1235,
+        12,
+        13
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A grid pattern of thick black lines forming a 3x3 arrangement of white rectangular panes, resembling a window or waffle-like texture.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p03",
+          "bbox": [
+            371,
+            1235,
+            12,
+            13
+          ],
+          "crop_path": "bbox/crops/p03_blank_053.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R56",
+      "bbox": [
+        387,
+        1221,
+        12,
+        13
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A 3x3 grid of white squares outlined with thick black lines, resembling a tic-tac-toe board or part of a sudoku grid.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p03",
+          "bbox": [
+            387,
+            1221,
+            12,
+            13
+          ],
+          "crop_path": "bbox/crops/p03_blank_054.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R57",
+      "bbox": [
+        370,
+        1250,
+        12,
+        12
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A 3x3 grid pattern of white squares separated by thick black lines, resembling a mesh or lattice structure.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p03",
+          "bbox": [
+            370,
+            1250,
+            12,
+            12
+          ],
+          "crop_path": "bbox/crops/p03_blank_055.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R58",
+      "bbox": [
+        371,
+        1221,
+        12,
+        12
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A grid pattern of dark intersecting horizontal and vertical lines forming a 3x3 arrangement of roughly square cells, resembling a window pane or lattice.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p03",
+          "bbox": [
+            371,
+            1221,
+            12,
+            12
+          ],
+          "crop_path": "bbox/crops/p03_blank_056.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R59",
+      "bbox": [
+        208,
+        261,
+        720,
+        28
+      ],
+      "classification": "text_line",
+      "description": "Text line: ©»d >>D TR I hIEMT",
+      "text_words": [
+        {
+          "text": "©»d",
+          "bbox": [
+            208,
+            261,
+            67,
+            24
+          ],
+          "conf_tesseract": 26.213234,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">>D",
+          "bbox": [
+            287,
+            261,
+            46,
+            24
+          ],
+          "conf_tesseract": 33.405869,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TR",
+          "bbox": [
+            342,
+            261,
+            98,
+            24
+          ],
+          "conf_tesseract": 5.354301,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            447,
+            261,
+            41,
+            24
+          ],
+          "conf_tesseract": 55.195122,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hIEMT",
+          "bbox": [
+            498,
+            261,
+            93,
+            28
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            603,
+            261,
+            19,
+            24
+          ],
+          "conf_tesseract": 86.280548,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IRTh",
+          "bbox": [
+            631,
+            261,
+            69,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3h",
+          "bbox": [
+            709,
+            261,
+            49,
+            24
+          ],
+          "conf_tesseract": 14.643013,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MM",
+          "bbox": [
+            768,
+            261,
+            160,
+            24
+          ],
+          "conf_tesseract": 11.042641,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R60",
+      "bbox": [
+        203,
+        300,
+        726,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: TEXTY TEXTY I8 DR HIE",
+      "text_words": [
+        {
+          "text": "TEXTY",
+          "bbox": [
+            601,
+            300,
+            81,
+            25
+          ],
+          "conf_tesseract": 33.872139,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TEXTY",
+          "bbox": [
+            842,
+            300,
+            87,
+            25
+          ],
+          "conf_tesseract": 28.011887,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I8",
+          "bbox": [
+            203,
+            301,
+            57,
+            24
+          ],
+          "conf_tesseract": 36.370232,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DR",
+          "bbox": [
+            271,
+            301,
+            58,
+            24
+          ],
+          "conf_tesseract": 20.165359,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HIE",
+          "bbox": [
+            358,
+            301,
+            62,
+            24
+          ],
+          "conf_tesseract": 21.414955,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BT",
+          "bbox": [
+            431,
+            301,
+            64,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITRIA",
+          "bbox": [
+            508,
+            301,
+            80,
+            24
+          ],
+          "conf_tesseract": 28.706757,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XD",
+          "bbox": [
+            703,
+            301,
+            35,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3k",
+          "bbox": [
+            764,
+            301,
+            49,
+            24
+          ],
+          "conf_tesseract": 3.899376,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            340,
+            309,
+            6,
+            7
+          ],
+          "conf_tesseract": 29.408722,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            824,
+            309,
+            7,
+            7
+          ],
+          "conf_tesseract": 83.51226,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R61",
+      "bbox": [
+        224,
+        340,
+        705,
+        29
+      ],
+      "classification": "text_line",
+      "description": "Text line: I hr €EDOISINIXO> 3 83",
+      "text_words": [
+        {
+          "text": "I",
+          "bbox": [
+            224,
+            340,
+            15,
+            25
+          ],
+          "conf_tesseract": 49.297264,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hr",
+          "bbox": [
+            270,
+            340,
+            27,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€EDOISINIXO>",
+          "bbox": [
+            306,
+            340,
+            220,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3",
+          "bbox": [
+            537,
+            340,
+            30,
+            25
+          ],
+          "conf_tesseract": 59.543755,
+          "verified_by_vision": false
+        },
+        {
+          "text": "83",
+          "bbox": [
+            578,
+            340,
+            45,
+            25
+          ],
+          "conf_tesseract": 62.588009,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            635,
+            340,
+            20,
+            25
+          ],
+          "conf_tesseract": 56.918526,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T&INITR",
+          "bbox": [
+            664,
+            340,
+            126,
+            29
+          ],
+          "conf_tesseract": 25.573219,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3h",
+          "bbox": [
+            799,
+            340,
+            50,
+            25
+          ],
+          "conf_tesseract": 56.780659,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€4'TX",
+          "bbox": [
+            858,
+            340,
+            71,
+            25
+          ],
+          "conf_tesseract": 37.253265,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R62",
+      "bbox": [
+        223,
+        380,
+        706,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: >3 €' TR >3 hl",
+      "text_words": [
+        {
+          "text": ">3",
+          "bbox": [
+            223,
+            380,
+            30,
+            25
+          ],
+          "conf_tesseract": 47.031784,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€'",
+          "bbox": [
+            306,
+            380,
+            34,
+            25
+          ],
+          "conf_tesseract": 21.962654,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TR",
+          "bbox": [
+            345,
+            380,
+            49,
+            25
+          ],
+          "conf_tesseract": 21.962654,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">3",
+          "bbox": [
+            603,
+            380,
+            30,
+            25
+          ],
+          "conf_tesseract": 60.709377,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hl",
+          "bbox": [
+            265,
+            381,
+            28,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hF",
+          "bbox": [
+            428,
+            381,
+            27,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H19PATX",
+          "bbox": [
+            466,
+            381,
+            126,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "SYJT",
+          "bbox": [
+            643,
+            381,
+            71,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            726,
+            381,
+            19,
+            24
+          ],
+          "conf_tesseract": 13.265999,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XATR",
+          "bbox": [
+            754,
+            381,
+            77,
+            24
+          ],
+          "conf_tesseract": 64.230896,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HITYA",
+          "bbox": [
+            841,
+            381,
+            88,
+            24
+          ],
+          "conf_tesseract": 81.803452,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            409,
+            389,
+            6,
+            7
+          ],
+          "conf_tesseract": 31.872025,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R63",
+      "bbox": [
+        354,
+        420,
+        434,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: BISITEXDS TIPS hE XTA >",
+      "text_words": [
+        {
+          "text": "BISITEXDS",
+          "bbox": [
+            411,
+            420,
+            167,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TIPS",
+          "bbox": [
+            711,
+            420,
+            77,
+            24
+          ],
+          "conf_tesseract": 36.439629,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hE",
+          "bbox": [
+            373,
+            421,
+            28,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XTA",
+          "bbox": [
+            588,
+            421,
+            49,
+            23
+          ],
+          "conf_tesseract": 9.73407,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">",
+          "bbox": [
+            647,
+            421,
+            54,
+            23
+          ],
+          "conf_tesseract": 29.360649,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            354,
+            428,
+            7,
+            8
+          ],
+          "conf_tesseract": 13.516701,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R64",
+      "bbox": [
+        213,
+        500,
+        715,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: FEXTY hi€ QI3 45> BOF",
+      "text_words": [
+        {
+          "text": "FEXTY",
+          "bbox": [
+            393,
+            500,
+            80,
+            24
+          ],
+          "conf_tesseract": 52.291962,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hi€",
+          "bbox": [
+            556,
+            500,
+            48,
+            24
+          ],
+          "conf_tesseract": 40.34058,
+          "verified_by_vision": false
+        },
+        {
+          "text": "QI3",
+          "bbox": [
+            213,
+            501,
+            50,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "45>",
+          "bbox": [
+            274,
+            501,
+            45,
+            23
+          ],
+          "conf_tesseract": 22.188293,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BOF",
+          "bbox": [
+            330,
+            501,
+            48,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "O3",
+          "bbox": [
+            482,
+            501,
+            61,
+            23
+          ],
+          "conf_tesseract": 47.479343,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YYTO",
+          "bbox": [
+            613,
+            501,
+            75,
+            23
+          ],
+          "conf_tesseract": 10.389755,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1Y",
+          "bbox": [
+            697,
+            501,
+            61,
+            23
+          ],
+          "conf_tesseract": 24.997086,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HI1>dA",
+          "bbox": [
+            769,
+            501,
+            101,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3h",
+          "bbox": [
+            878,
+            501,
+            50,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R65",
+      "bbox": [
+        212,
+        540,
+        716,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: IR IAMRO FHME QI T+",
+      "text_words": [
+        {
+          "text": "IR",
+          "bbox": [
+            212,
+            540,
+            76,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IAMRO",
+          "bbox": [
+            298,
+            540,
+            89,
+            24
+          ],
+          "conf_tesseract": 9.404793,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FHME",
+          "bbox": [
+            397,
+            540,
+            71,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "QI",
+          "bbox": [
+            478,
+            540,
+            49,
+            24
+          ],
+          "conf_tesseract": 20.585609,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T+",
+          "bbox": [
+            538,
+            540,
+            33,
+            24
+          ],
+          "conf_tesseract": 53.698502,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DHIHKTY",
+          "bbox": [
+            583,
+            540,
+            121,
+            24
+          ],
+          "conf_tesseract": 6.114059,
+          "verified_by_vision": false
+        },
+        {
+          "text": "JIDMThE",
+          "bbox": [
+            713,
+            540,
+            119,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Y>>",
+          "bbox": [
+            842,
+            540,
+            44,
+            24
+          ],
+          "conf_tesseract": 7.327133,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">3",
+          "bbox": [
+            898,
+            540,
+            30,
+            24
+          ],
+          "conf_tesseract": 52.326668,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R66",
+      "bbox": [
+        211,
+        576,
+        716,
+        41
+      ],
+      "classification": "text_line",
+      "description": "Text line: XY IYORr 15 TAHX I",
+      "text_words": [
+        {
+          "text": "XY",
+          "bbox": [
+            435,
+            576,
+            25,
+            41
+          ],
+          "conf_tesseract": 34.127151,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IYORr",
+          "bbox": [
+            211,
+            580,
+            105,
+            24
+          ],
+          "conf_tesseract": 10.782806,
+          "verified_by_vision": false
+        },
+        {
+          "text": "15",
+          "bbox": [
+            327,
+            580,
+            26,
+            24
+          ],
+          "conf_tesseract": 73.992989,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TAHX",
+          "bbox": [
+            363,
+            580,
+            101,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            474,
+            580,
+            16,
+            24
+          ],
+          "conf_tesseract": 76.96965,
+          "verified_by_vision": false
+        },
+        {
+          "text": "35>8IMIXO)",
+          "bbox": [
+            519,
+            580,
+            165,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            693,
+            580,
+            38,
+            24
+          ],
+          "conf_tesseract": 72.631195,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YYTO",
+          "bbox": [
+            738,
+            580,
+            76,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€4T3h9",
+          "bbox": [
+            823,
+            580,
+            104,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            500,
+            589,
+            7,
+            6
+          ],
+          "conf_tesseract": 34.116631,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R67",
+      "bbox": [
+        201,
+        619,
+        728,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: ITM>SHTA TE€X IR 130 181209",
+      "text_words": [
+        {
+          "text": "ITM>SHTA",
+          "bbox": [
+            580,
+            619,
+            156,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TE€X",
+          "bbox": [
+            878,
+            619,
+            51,
+            25
+          ],
+          "conf_tesseract": 31.4142,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            201,
+            620,
+            87,
+            24
+          ],
+          "conf_tesseract": 13.222542,
+          "verified_by_vision": false
+        },
+        {
+          "text": "130",
+          "bbox": [
+            297,
+            620,
+            50,
+            24
+          ],
+          "conf_tesseract": 11.715836,
+          "verified_by_vision": false
+        },
+        {
+          "text": "181209",
+          "bbox": [
+            356,
+            620,
+            108,
+            24
+          ],
+          "conf_tesseract": 17.069153,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Fiddh",
+          "bbox": [
+            474,
+            620,
+            75,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DR",
+          "bbox": [
+            746,
+            620,
+            70,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "4>",
+          "bbox": [
+            825,
+            620,
+            42,
+            24
+          ],
+          "conf_tesseract": 1.775986,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            560,
+            628,
+            7,
+            7
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R68",
+      "bbox": [
+        200,
+        659,
+        728,
+        29
+      ],
+      "classification": "text_line",
+      "description": "Text line: & FTIIS 1> DI M3",
+      "text_words": [
+        {
+          "text": "&",
+          "bbox": [
+            420,
+            659,
+            13,
+            29
+          ],
+          "conf_tesseract": 37.012108,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FTIIS",
+          "bbox": [
+            560,
+            659,
+            88,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            200,
+            660,
+            44,
+            24
+          ],
+          "conf_tesseract": 56.482803,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DI",
+          "bbox": [
+            254,
+            660,
+            59,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "M3",
+          "bbox": [
+            322,
+            660,
+            49,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            384,
+            660,
+            19,
+            24
+          ],
+          "conf_tesseract": 45.8601,
+          "verified_by_vision": false
+        },
+        {
+          "text": "THITR",
+          "bbox": [
+            436,
+            660,
+            115,
+            24
+          ],
+          "conf_tesseract": 33.613724,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BOLSITIXON",
+          "bbox": [
+            659,
+            660,
+            168,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "30T",
+          "bbox": [
+            837,
+            660,
+            49,
+            24
+          ],
+          "conf_tesseract": 38.231983,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            898,
+            660,
+            30,
+            24
+          ],
+          "conf_tesseract": 19.473572,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R69",
+      "bbox": [
+        205,
+        699,
+        723,
+        29
+      ],
+      "classification": "text_line",
+      "description": "Text line: S&HTI3DOE BDFSITIXOP 32D 138> DIR",
+      "text_words": [
+        {
+          "text": "S&HTI3DOE",
+          "bbox": [
+            205,
+            699,
+            145,
+            29
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BDFSITIXOP",
+          "bbox": [
+            361,
+            699,
+            166,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "32D",
+          "bbox": [
+            538,
+            699,
+            45,
+            25
+          ],
+          "conf_tesseract": 19.525375,
+          "verified_by_vision": false
+        },
+        {
+          "text": "138>",
+          "bbox": [
+            727,
+            699,
+            98,
+            25
+          ],
+          "conf_tesseract": 10.861778,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DIR",
+          "bbox": [
+            595,
+            700,
+            55,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "O",
+          "bbox": [
+            660,
+            700,
+            55,
+            24
+          ],
+          "conf_tesseract": 2.748734,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Hx1",
+          "bbox": [
+            835,
+            700,
+            42,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "o",
+          "bbox": [
+            907,
+            700,
+            21,
+            24
+          ],
+          "conf_tesseract": 41.146164,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            889,
+            708,
+            6,
+            7
+          ],
+          "conf_tesseract": 34.303787,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R70",
+      "bbox": [
+        397,
+        739,
+        354,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: PPMUAS DIO 2 IF IS",
+      "text_words": [
+        {
+          "text": "PPMUAS",
+          "bbox": [
+            416,
+            739,
+            116,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DIO",
+          "bbox": [
+            543,
+            740,
+            58,
+            23
+          ],
+          "conf_tesseract": 16.480675,
+          "verified_by_vision": false
+        },
+        {
+          "text": "2",
+          "bbox": [
+            612,
+            740,
+            26,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IF",
+          "bbox": [
+            650,
+            740,
+            20,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IS",
+          "bbox": [
+            679,
+            740,
+            72,
+            23
+          ],
+          "conf_tesseract": 40.518909,
+          "verified_by_vision": false
+        },
+        {
+          "text": "+",
+          "bbox": [
+            397,
+            748,
+            7,
+            7
+          ],
+          "conf_tesseract": 10.265305,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R71",
+      "bbox": [
+        205,
+        819,
+        723,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: hE€ >3 AT T ITIRRP",
+      "text_words": [
+        {
+          "text": "hE€",
+          "bbox": [
+            302,
+            819,
+            48,
+            24
+          ],
+          "conf_tesseract": 5.268478,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">3",
+          "bbox": [
+            361,
+            819,
+            30,
+            24
+          ],
+          "conf_tesseract": 35.385605,
+          "verified_by_vision": false
+        },
+        {
+          "text": "AT",
+          "bbox": [
+            205,
+            820,
+            60,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            276,
+            820,
+            16,
+            23
+          ],
+          "conf_tesseract": 41.170876,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITIRRP",
+          "bbox": [
+            403,
+            820,
+            120,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H>",
+          "bbox": [
+            533,
+            820,
+            44,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "SDIOIT",
+          "bbox": [
+            587,
+            820,
+            110,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XThIL>AILA",
+          "bbox": [
+            706,
+            820,
+            167,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">>D",
+          "bbox": [
+            882,
+            820,
+            46,
+            23
+          ],
+          "conf_tesseract": 29.596756,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R72",
+      "bbox": [
+        197,
+        859,
+        731,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: KM€ [PPISTPFAN ASYHh 33 O",
+      "text_words": [
+        {
+          "text": "KM€",
+          "bbox": [
+            197,
+            859,
+            49,
+            24
+          ],
+          "conf_tesseract": 34.329575,
+          "verified_by_vision": false
+        },
+        {
+          "text": "[PPISTPFAN",
+          "bbox": [
+            370,
+            859,
+            171,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ASYHh",
+          "bbox": [
+            723,
+            859,
+            84,
+            24
+          ],
+          "conf_tesseract": 17.044685,
+          "verified_by_vision": false
+        },
+        {
+          "text": "33",
+          "bbox": [
+            816,
+            859,
+            51,
+            24
+          ],
+          "conf_tesseract": 7.958542,
+          "verified_by_vision": false
+        },
+        {
+          "text": "O",
+          "bbox": [
+            255,
+            860,
+            41,
+            23
+          ],
+          "conf_tesseract": 24.048218,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XY",
+          "bbox": [
+            306,
+            860,
+            33,
+            23
+          ],
+          "conf_tesseract": 48.604324,
+          "verified_by_vision": false
+        },
+        {
+          "text": "UM",
+          "bbox": [
+            551,
+            860,
+            45,
+            23
+          ],
+          "conf_tesseract": 8.22747,
+          "verified_by_vision": false
+        },
+        {
+          "text": "X",
+          "bbox": [
+            609,
+            860,
+            14,
+            23
+          ],
+          "conf_tesseract": 29.284729,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TR",
+          "bbox": [
+            625,
+            860,
+            90,
+            23
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            877,
+            860,
+            26,
+            23
+          ],
+          "conf_tesseract": 64.996986,
+          "verified_by_vision": false
+        },
+        {
+          "text": "&",
+          "bbox": [
+            912,
+            860,
+            16,
+            23
+          ],
+          "conf_tesseract": 44.980118,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            350,
+            868,
+            6,
+            6
+          ],
+          "conf_tesseract": 35.349968,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R73",
+      "bbox": [
+        215,
+        899,
+        713,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: PO YYTO D PeIYITAA SRThERTHI>",
+      "text_words": [
+        {
+          "text": "PO",
+          "bbox": [
+            215,
+            899,
+            63,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YYTO",
+          "bbox": [
+            287,
+            899,
+            75,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D",
+          "bbox": [
+            373,
+            899,
+            46,
+            24
+          ],
+          "conf_tesseract": 31.025009,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PeIYITAA",
+          "bbox": [
+            447,
+            899,
+            159,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "SRThERTHI>",
+          "bbox": [
+            615,
+            899,
+            165,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "198",
+          "bbox": [
+            792,
+            899,
+            54,
+            24
+          ],
+          "conf_tesseract": 36.608894,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">3D",
+          "bbox": [
+            858,
+            899,
+            45,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "&",
+          "bbox": [
+            912,
+            899,
+            16,
+            24
+          ],
+          "conf_tesseract": 72.403191,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            429,
+            908,
+            7,
+            6
+          ],
+          "conf_tesseract": 68.080643,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R74",
+      "bbox": [
+        219,
+        938,
+        689,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: §HTIRATIRE IR IFh 3RO FThhER",
+      "text_words": [
+        {
+          "text": "§HTIRATIRE",
+          "bbox": [
+            611,
+            938,
+            184,
+            25
+          ],
+          "conf_tesseract": 7.041092,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            236,
+            939,
+            98,
+            24
+          ],
+          "conf_tesseract": 2.095688,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IFh",
+          "bbox": [
+            346,
+            939,
+            53,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3RO",
+          "bbox": [
+            409,
+            939,
+            71,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FThhER",
+          "bbox": [
+            490,
+            939,
+            114,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3DTSIT",
+          "bbox": [
+            805,
+            939,
+            103,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "<",
+          "bbox": [
+            219,
+            947,
+            7,
+            7
+          ],
+          "conf_tesseract": 53.402447,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R75",
+      "bbox": [
+        346,
+        1080,
+        14,
+        344
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            346,
+            1080,
+            14,
+            344
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R76",
+      "bbox": [
+        396,
+        1104,
+        9,
+        321
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            396,
+            1104,
+            9,
+            321
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R77",
+      "bbox": [
+        363,
+        1115,
+        27,
+        312
+      ],
+      "classification": "text_line",
+      "description": "Text line:  ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            363,
+            1115,
+            13,
+            311
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            378,
+            1120,
+            12,
+            307
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R78",
+      "bbox": [
+        196,
+        1204,
+        365,
+        80
+      ],
+      "classification": "text_line",
+      "description": "Text line:   ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            557,
+            1204,
+            4,
+            80
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            196,
+            1207,
+            4,
+            70
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            199,
+            1209,
+            362,
+            15
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R79",
+      "bbox": [
+        196,
+        1224,
+        365,
+        17
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            196,
+            1224,
+            365,
+            17
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R80",
+      "bbox": [
+        196,
+        1239,
+        365,
+        16
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            196,
+            1239,
+            365,
+            16
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R81",
+      "bbox": [
+        196,
+        1252,
+        503,
+        22
+      ],
+      "classification": "text_line",
+      "description": "Text line:  ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            196,
+            1252,
+            503,
+            22
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "",
+          "bbox": [
+            301,
+            1261,
+            398,
+            10
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p03_R82",
+      "bbox": [
+        347,
+        1423,
+        64,
+        2
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            347,
+            1423,
+            64,
+            2
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    }
+  ],
+  "vision_description": "",
+  "vision_classification": "",
+  "stats": {
+    "n_regions": 82,
+    "n_text_words": 162,
+    "n_symbols": 57,
+    "n_drawings": 0,
+    "n_uncertain": 0,
+    "classifications": {
+      "footer": 1,
+      "mixed_media": 2,
+      "image": 14,
+      "stick_figure": 5,
+      "geometric_bracket": 4,
+      "unknown": 1,
+      "chinese_seal_script": 13,
+      "math_pi": 2,
+      "geometric_circle": 5,
+      "geometric_circle_with_dot": 2,
+      "chinese_oracle_script": 1,
+      "geometric_circle_with_cross": 4,
+      "turkic_round_rune": 1,
+      "latin_print": 2,
+      "geometric_filled_square": 1,
+      "text_line": 24
+    },
+    "top_clusters": {
+      "GEOM_UNKNOWN_0002": 43,
+      "GEOM_UNKNOWN_0003": 8,
+      "GEOM_UNKNOWN_0004": 5,
+      "GEOM_UNKNOWN_0001": 1
+    }
+  }
+}

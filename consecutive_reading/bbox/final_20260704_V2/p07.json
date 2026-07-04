@@ -1,0 +1,2521 @@
+{
+  "page_id": "p07",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "source_pixel": "p07.json",
+  "source_vision": "p07_page.json",
+  "n_regions": 58,
+  "n_text_words": 70,
+  "n_blank_regions": 46,
+  "n_colored_regions": 0,
+  "n_glyphs_vision": 46,
+  "regions": [
+    {
+      "region_id": "p07_R01",
+      "bbox": [
+        21,
+        1618,
+        1083,
+        7
+      ],
+      "classification": "footer",
+      "description": "Page footer (bottom of page)",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            21,
+            1618,
+            1083,
+            7
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R02",
+      "bbox": [
+        214,
+        927,
+        224,
+        148
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "A fragment of a graph diagram showing two circular nodes labeled '10' (top-right) and '69' (bottom-left) connected by curved black edges forming an arc/lens shape between them.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            214,
+            927,
+            224,
+            148
+          ],
+          "crop_path": "bbox/crops/p07_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R03",
+      "bbox": [
+        688,
+        928,
+        223,
+        147
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A large semicircular arc with a triangle formed by straight lines, with numerical labels '6' at the left vertex and '17' at the bottom-right vertex; appears to be an inscribed semicircle in a triangle diagram",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p07",
+          "bbox": [
+            688,
+            928,
+            223,
+            147
+          ],
+          "crop_path": "bbox/crops/p07_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R04",
+      "bbox": [
+        419,
+        1197,
+        143,
+        229
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A geometric figure composed of curved arcs forming intersecting circular shapes, with labeled nodes showing '167' (top, partially visible) and '164' (bottom) connected by a straight vertical line on the right side.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.62,
+          "page": "p07",
+          "bbox": [
+            419,
+            1197,
+            143,
+            229
+          ],
+          "crop_path": "bbox/crops/p07_blank_002.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R05",
+      "bbox": [
+        565,
+        1201,
+        143,
+        225
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '64' printed in a small circle, appearing as a labeled vertex/node in a graph diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.75,
+          "page": "p07",
+          "bbox": [
+            565,
+            1201,
+            143,
+            225
+          ],
+          "crop_path": "bbox/crops/p07_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R06",
+      "bbox": [
+        684,
+        1078,
+        227,
+        143
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "Part of a graph diagram showing curved edges connecting two circular nodes; a circle containing the number '17' in the upper-right area and a circle containing the number '5' in the lower-left area, with sweeping curved lines connecting between them.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p07",
+          "bbox": [
+            684,
+            1078,
+            227,
+            143
+          ],
+          "crop_path": "bbox/crops/p07_blank_004.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R07",
+      "bbox": [
+        215,
+        1078,
+        224,
+        143
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '69' printed in a sans-serif font inside a circle, serving as a node label in a graph diagram.",
+          "unicode_codepoint": "U+0036 U+0039",
+          "vision_confidence": 0.95,
+          "page": "p07",
+          "bbox": [
+            215,
+            1078,
+            224,
+            143
+          ],
+          "crop_path": "bbox/crops/p07_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R08",
+      "bbox": [
+        565,
+        724,
+        144,
+        223
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number '61' enclosed in a circle, appearing as a labeled node in a graph diagram with curved connecting lines.",
+          "unicode_codepoint": "U+0036 U+0031",
+          "vision_confidence": 0.72,
+          "page": "p07",
+          "bbox": [
+            565,
+            724,
+            144,
+            223
+          ],
+          "crop_path": "bbox/crops/p07_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R09",
+      "bbox": [
+        618,
+        1107,
+        297,
+        316
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '165' printed in a monospace/typewriter-style font inside a circular outline, appearing as a labeled node in a diagram with curved lines extending from it.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p07",
+          "bbox": [
+            618,
+            1107,
+            297,
+            316
+          ],
+          "crop_path": "bbox/crops/p07_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R10",
+      "bbox": [
+        420,
+        725,
+        142,
+        222
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A circular node containing the number '161' printed in black, connected by curved lines to other nodes in what appears to be a graph or network diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p07",
+          "bbox": [
+            420,
+            725,
+            142,
+            222
+          ],
+          "crop_path": "bbox/crops/p07_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R11",
+      "bbox": [
+        613,
+        725,
+        302,
+        318
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The digits '166' rendered in a serif font, enclosed within a small circle, serving as a node label in a graph diagram with curved edges connecting to other nodes.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p07",
+          "bbox": [
+            613,
+            725,
+            302,
+            318
+          ],
+          "crop_path": "bbox/crops/p07_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R12",
+      "bbox": [
+        218,
+        726,
+        295,
+        293
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a larger geometric diagram showing several curved arcs intersecting, with a circled numerical label '168' in the lower-right area, likely part of a figure illustrating a construction or theorem.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p07",
+          "bbox": [
+            218,
+            726,
+            295,
+            293
+          ],
+          "crop_path": "bbox/crops/p07_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R13",
+      "bbox": [
+        218,
+        1130,
+        290,
+        293
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A small circle containing the printed number '167', connected by curved lines to surrounding nodes in what appears to be a network/graph diagram.",
+          "unicode_codepoint": "U+0031 U+0036 U+0037",
+          "vision_confidence": 0.62,
+          "page": "p07",
+          "bbox": [
+            218,
+            1130,
+            290,
+            293
+          ],
+          "crop_path": "bbox/crops/p07_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R14",
+      "bbox": [
+        565,
+        925,
+        82,
+        86
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "Partial view of a node-link diagram showing two circles connected by lines, with a circle containing '1' on the right and a circle containing '171' on the bottom-left.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p07",
+          "bbox": [
+            565,
+            925,
+            82,
+            86
+          ],
+          "crop_path": "bbox/crops/p07_blank_012.png",
+          "first_appearance": true
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R15",
+      "bbox": [
+        628,
+        991,
+        80,
+        84
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Simple line drawing of a figure with a circular head and outlined body/torso, with the number '63' in the lower-left corner",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p07",
+          "bbox": [
+            628,
+            991,
+            80,
+            84
+          ],
+          "crop_path": "bbox/crops/p07_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R16",
+      "bbox": [
+        483,
+        925,
+        79,
+        85
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A circular node labeled '171' on the right side, connected by black lines to other circular nodes (one partially visible on the left showing '3'). Appears to be part of a graph or network diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            483,
+            925,
+            79,
+            85
+          ],
+          "crop_path": "bbox/crops/p07_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R17",
+      "bbox": [
+        419,
+        994,
+        79,
+        81
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "image",
+          "vision_description": "Partial view of a geometric figure showing an oval/elliptical shape formed by curved black lines, with circles at the top and bottom vertices, a horizontal baseline, and the number '16' visible in the lower right",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            419,
+            994,
+            79,
+            81
+          ],
+          "crop_path": "bbox/crops/p07_blank_015.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R18",
+      "bbox": [
+        629,
+        1078,
+        79,
+        79
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "stick_figure",
+          "vision_description": "A simple line drawing showing a small circle at the bottom with two diverging lines extending upward and outward, forming a cone or V-shape, with the number '63' labeled in the top-left corner.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p07",
+          "bbox": [
+            629,
+            1078,
+            79,
+            79
+          ],
+          "crop_path": "bbox/crops/p07_blank_016.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R19",
+      "bbox": [
+        483,
+        1140,
+        79,
+        78
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A small graph diagram showing two circular nodes connected by curved lines. The right node contains the number '170' and the left node contains the number '7'. The circles are drawn as simple outlines and are connected by smooth curves forming an edge between them, resembling a node-link graph fragment.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p07",
+          "bbox": [
+            483,
+            1140,
+            79,
+            78
+          ],
+          "crop_path": "bbox/crops/p07_blank_017.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R20",
+      "bbox": [
+        565,
+        1140,
+        76,
+        78
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "latin_print",
+          "vision_description": "The digit '1' printed in a serif font inside a circle, located on the right side of the image, connected by a line to another circle containing '170' on the left.",
+          "unicode_codepoint": "U+0031",
+          "vision_confidence": 0.9,
+          "page": "p07",
+          "bbox": [
+            565,
+            1140,
+            76,
+            78
+          ],
+          "crop_path": "bbox/crops/p07_blank_018.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R21",
+      "bbox": [
+        420,
+        1078,
+        77,
+        76
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle outline containing the number '16' (or '165' partially cut off), with a horizontal line crossing through the upper portion. Appears to be a node in a graph or network diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p07",
+          "bbox": [
+            420,
+            1078,
+            77,
+            76
+          ],
+          "crop_path": "bbox/crops/p07_blank_019.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R22",
+      "bbox": [
+        534,
+        986,
+        59,
+        57
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 171, with four lines extending outward from the circle to the corners of a surrounding square frame.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.75,
+          "page": "p07",
+          "bbox": [
+            534,
+            986,
+            59,
+            57
+          ],
+          "crop_path": "bbox/crops/p07_blank_020.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R23",
+      "bbox": [
+        887,
+        1048,
+        58,
+        57
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the printed number '172' in its center, with two short parallel lines extending to the upper right and one line extending to the left, resembling a labeled graph node.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            887,
+            1048,
+            58,
+            57
+          ],
+          "crop_path": "bbox/crops/p07_blank_021.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R24",
+      "bbox": [
+        429,
+        1149,
+        57,
+        58
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle with the number '167' written inside it, with straight lines/rays extending outward from the circle's perimeter, resembling a sun symbol",
+          "unicode_codepoint": "U+2600",
+          "vision_confidence": 0.55,
+          "page": "p07",
+          "bbox": [
+            429,
+            1149,
+            57,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_022.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R25",
+      "bbox": [
+        473,
+        1048,
+        58,
+        57
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '162', with several short lines radiating outward from the circle's perimeter, resembling a graph node or hub diagram element.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            473,
+            1048,
+            58,
+            57
+          ],
+          "crop_path": "bbox/crops/p07_blank_023.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R26",
+      "bbox": [
+        533,
+        697,
+        58,
+        58
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle with the number '161' printed inside in serif type, with short line segments extending from the left, right, and bottom of the circle, resembling a graph-theoretic node or labeled vertex.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p07",
+          "bbox": [
+            533,
+            697,
+            58,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_024.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R27",
+      "bbox": [
+        635,
+        1152,
+        57,
+        58
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A sun-like decorative shape: a circle containing the number '165', with straight rays radiating outward from the circle's edge.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p07",
+          "bbox": [
+            635,
+            1152,
+            57,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_025.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R28",
+      "bbox": [
+        534,
+        1108,
+        59,
+        58
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "A circle containing the printed number '170' in the center, with short straight lines extending outward from the circle's perimeter (up, down, left, right), indicating a node connected to other elements in a diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p07",
+          "bbox": [
+            534,
+            1108,
+            59,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_026.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R29",
+      "bbox": [
+        592,
+        1046,
+        58,
+        58
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number '163' printed in a serif font inside a circle, with short straight line segments radiating outward from the circle's perimeter at the cardinal and diagonal positions, forming a node-like or sun-like symbol in a network diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.78,
+          "page": "p07",
+          "bbox": [
+            592,
+            1046,
+            58,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_027.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R30",
+      "bbox": [
+        533,
+        1399,
+        58,
+        59
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '164' in the center, with three short line segments (edges) extending outward: one upward, one to the left, and one to the right, forming a graph network node.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p07",
+          "bbox": [
+            533,
+            1399,
+            58,
+            59
+          ],
+          "crop_path": "bbox/crops/p07_blank_028.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R31",
+      "bbox": [
+        181,
+        1046,
+        58,
+        58
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the printed digits '169', with lines radiating outward, resembling a graph or network diagram vertex.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            181,
+            1046,
+            58,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_029.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R32",
+      "bbox": [
+        640,
+        937,
+        57,
+        58
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the printed number '166' with multiple straight lines radiating outward from the circle's perimeter, resembling a sun or network node symbol.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            640,
+            937,
+            57,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_030.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R33",
+      "bbox": [
+        430,
+        940,
+        58,
+        58
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle with the number '168' printed inside it, with straight lines radiating outward from multiple points on the circle's edge, resembling a labeled node or sun-like diagram element.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p07",
+          "bbox": [
+            430,
+            940,
+            58,
+            58
+          ],
+          "crop_path": "bbox/crops/p07_blank_031.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R34",
+      "bbox": [
+        508,
+        1021,
+        54,
+        54
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "The number 62 printed in black inside a circular bubble/oval outline.",
+          "unicode_codepoint": "U+0036 U+0032",
+          "vision_confidence": 0.9,
+          "page": "p07",
+          "bbox": [
+            508,
+            1021,
+            54,
+            54
+          ],
+          "crop_path": "bbox/crops/p07_blank_032.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R35",
+      "bbox": [
+        510,
+        1078,
+        52,
+        51
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a graph diagram showing circular nodes with numerical labels (62 and 170) connected by straight lines",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            510,
+            1078,
+            52,
+            51
+          ],
+          "crop_path": "bbox/crops/p07_blank_033.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R36",
+      "bbox": [
+        565,
+        1022,
+        49,
+        53
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_UNKNOWN_0001",
+          "vision_kind": "image",
+          "vision_description": "Cropped portion of a graph or network diagram showing circular nodes containing the numbers '171' and '163', connected by straight black lines, resembling a node-link graph structure.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.35,
+          "page": "p07",
+          "bbox": [
+            565,
+            1022,
+            49,
+            53
+          ],
+          "crop_path": "bbox/crops/p07_blank_034.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R37",
+      "bbox": [
+        565,
+        1078,
+        49,
+        49
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a diagram showing a black cross/plus sign on the left, two circles containing the numbers '16' (or '165') and '170' (or '17'), with connecting lines between them.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p07",
+          "bbox": [
+            565,
+            1078,
+            49,
+            49
+          ],
+          "crop_path": "bbox/crops/p07_blank_035.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R38",
+      "bbox": [
+        594,
+        1105,
+        52,
+        52
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Partial view of a diagram showing circles connected by straight lines, forming a network or graph-like structure with at least three circular nodes and intersecting edges.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.35,
+          "page": "p07",
+          "bbox": [
+            594,
+            1105,
+            52,
+            52
+          ],
+          "crop_path": "bbox/crops/p07_blank_036.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R39",
+      "bbox": [
+        479,
+        1107,
+        54,
+        51
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a network or graph diagram showing partial circles connected by straight lines, forming a triangular linkage pattern with nodes (circles) at the vertices and edges (lines) between them.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            479,
+            1107,
+            54,
+            51
+          ],
+          "crop_path": "bbox/crops/p07_blank_037.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R40",
+      "bbox": [
+        480,
+        991,
+        53,
+        55
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A geometric pattern of four circles (or partial circles) arranged at the corners of a diamond/rotated square shape, connected by curved black lines forming a central curved cross or trefoil pattern.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p07",
+          "bbox": [
+            480,
+            991,
+            53,
+            55
+          ],
+          "crop_path": "bbox/crops/p07_blank_038.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R41",
+      "bbox": [
+        594,
+        992,
+        52,
+        52
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "image",
+          "vision_description": "A geometric network pattern showing four circles arranged in a diamond/square configuration, connected by straight lines forming an X pattern between them, resembling a node-link diagram or graph structure.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.75,
+          "page": "p07",
+          "bbox": [
+            594,
+            992,
+            52,
+            52
+          ],
+          "crop_path": "bbox/crops/p07_blank_039.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R42",
+      "bbox": [
+        482,
+        556,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three small filled dots arranged in a triangular pattern (two on top, one on bottom), resembling a face or button.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p07",
+          "bbox": [
+            482,
+            556,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p07_blank_040.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R43",
+      "bbox": [
+        586,
+        433,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular outline containing three filled dots arranged like a face: two dots in the upper half (eyes) and one dot in the lower half (mouth). Angular bracket-like shapes flank the circle on left and right.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p07",
+          "bbox": [
+            586,
+            433,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p07_blank_041.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R44",
+      "bbox": [
+        459,
+        515,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular smiley face emoticon with two dot eyes and a curved smile mouth, flanked by Cyrillic-looking characters 'г' on the left and 'х' on the right, resembling a Russian text decoration.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p07",
+          "bbox": [
+            459,
+            515,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p07_blank_042.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R45",
+      "bbox": [
+        909,
+        310,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing two dots resembling eyes and a smaller dot below resembling a mouth, forming a face-like glyph. A small separate dot appears to the left.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p07",
+          "bbox": [
+            909,
+            310,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p07_blank_043.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R46",
+      "bbox": [
+        713,
+        515,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three filled dots arranged in a triangular pattern (left, right, and bottom), resembling a simple face.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p07",
+          "bbox": [
+            713,
+            515,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p07_blank_044.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R47",
+      "bbox": [
+        695,
+        556,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_UNKNOWN_0003",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three solid dots arranged in a triangular pattern (one on top, two on bottom), followed by a small bracket-like glyph to the right and a dot to the left.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p07",
+          "bbox": [
+            695,
+            556,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p07_blank_045.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R48",
+      "bbox": [
+        217,
+        265,
+        711,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: MOA D ©3) N3 WX",
+      "text_words": [
+        {
+          "text": "MOA",
+          "bbox": [
+            217,
+            265,
+            66,
+            24
+          ],
+          "conf_tesseract": 39.804008,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D",
+          "bbox": [
+            293,
+            265,
+            47,
+            24
+          ],
+          "conf_tesseract": 3.487328,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©3)",
+          "bbox": [
+            350,
+            265,
+            54,
+            24
+          ],
+          "conf_tesseract": 6.132622,
+          "verified_by_vision": false
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            433,
+            265,
+            34,
+            24
+          ],
+          "conf_tesseract": 48.954353,
+          "verified_by_vision": false
+        },
+        {
+          "text": "WX",
+          "bbox": [
+            477,
+            265,
+            43,
+            24
+          ],
+          "conf_tesseract": 41.823425,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IYIRTI",
+          "bbox": [
+            531,
+            265,
+            95,
+            24
+          ],
+          "conf_tesseract": 13.023605,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Shi>d",
+          "bbox": [
+            637,
+            265,
+            80,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            727,
+            265,
+            59,
+            24
+          ],
+          "conf_tesseract": 0.981354,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IRXA",
+          "bbox": [
+            798,
+            265,
+            63,
+            24
+          ],
+          "conf_tesseract": 2.749336,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3",
+          "bbox": [
+            872,
+            265,
+            56,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            415,
+            274,
+            6,
+            6
+          ],
+          "conf_tesseract": 47.457584,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R49",
+      "bbox": [
+        221,
+        305,
+        709,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: 985 198 35> IPE RSB",
+      "text_words": [
+        {
+          "text": "985",
+          "bbox": [
+            481,
+            305,
+            74,
+            26
+          ],
+          "conf_tesseract": 34.699486,
+          "verified_by_vision": false
+        },
+        {
+          "text": "198",
+          "bbox": [
+            786,
+            305,
+            52,
+            26
+          ],
+          "conf_tesseract": 71.032913,
+          "verified_by_vision": false
+        },
+        {
+          "text": "35>",
+          "bbox": [
+            850,
+            305,
+            46,
+            26
+          ],
+          "conf_tesseract": 52.159534,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IPE",
+          "bbox": [
+            221,
+            306,
+            58,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "RSB",
+          "bbox": [
+            292,
+            306,
+            54,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PP",
+          "bbox": [
+            378,
+            306,
+            91,
+            25
+          ],
+          "conf_tesseract": 18.680374,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DY",
+          "bbox": [
+            565,
+            306,
+            74,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1",
+          "bbox": [
+            649,
+            306,
+            27,
+            25
+          ],
+          "conf_tesseract": 56.814278,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MR",
+          "bbox": [
+            686,
+            306,
+            90,
+            25
+          ],
+          "conf_tesseract": 20.494217,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©",
+          "bbox": [
+            905,
+            306,
+            25,
+            25
+          ],
+          "conf_tesseract": 86.938751,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R50",
+      "bbox": [
+        203,
+        347,
+        726,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: Rl IRk 3IRFO JIYYTO 53D",
+      "text_words": [
+        {
+          "text": "Rl",
+          "bbox": [
+            203,
+            347,
+            55,
+            24
+          ],
+          "conf_tesseract": 14.37397,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IRk",
+          "bbox": [
+            271,
+            347,
+            55,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3IRFO",
+          "bbox": [
+            336,
+            347,
+            72,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "JIYYTO",
+          "bbox": [
+            418,
+            347,
+            113,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "53D",
+          "bbox": [
+            542,
+            347,
+            47,
+            24
+          ],
+          "conf_tesseract": 36.559448,
+          "verified_by_vision": false
+        },
+        {
+          "text": "»>D",
+          "bbox": [
+            619,
+            347,
+            47,
+            24
+          ],
+          "conf_tesseract": 34.486862,
+          "verified_by_vision": false
+        },
+        {
+          "text": "431",
+          "bbox": [
+            677,
+            347,
+            42,
+            24
+          ],
+          "conf_tesseract": 33.574364,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XAXJBT",
+          "bbox": [
+            730,
+            347,
+            110,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I8",
+          "bbox": [
+            850,
+            347,
+            79,
+            24
+          ],
+          "conf_tesseract": 3.059349,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            600,
+            355,
+            7,
+            7
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R51",
+      "bbox": [
+        201,
+        387,
+        726,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: SH>3OMEM> > 35 I MALIFS",
+      "text_words": [
+        {
+          "text": "SH>3OMEM>",
+          "bbox": [
+            582,
+            387,
+            169,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">",
+          "bbox": [
+            201,
+            388,
+            31,
+            24
+          ],
+          "conf_tesseract": 25.990135,
+          "verified_by_vision": false
+        },
+        {
+          "text": "35",
+          "bbox": [
+            243,
+            388,
+            46,
+            24
+          ],
+          "conf_tesseract": 67.352112,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            299,
+            388,
+            58,
+            24
+          ],
+          "conf_tesseract": 31.005257,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MALIFS",
+          "bbox": [
+            368,
+            388,
+            166,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            543,
+            388,
+            28,
+            24
+          ],
+          "conf_tesseract": 49.61607,
+          "verified_by_vision": false
+        },
+        {
+          "text": "138",
+          "bbox": [
+            761,
+            388,
+            52,
+            24
+          ],
+          "conf_tesseract": 39.644581,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3rh",
+          "bbox": [
+            824,
+            388,
+            53,
+            24
+          ],
+          "conf_tesseract": 17.135689,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Y1",
+          "bbox": [
+            889,
+            388,
+            38,
+            24
+          ],
+          "conf_tesseract": 15.334076,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R52",
+      "bbox": [
+        428,
+        429,
+        284,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: SUIPBIKRrAr DHOIX *",
+      "text_words": [
+        {
+          "text": "SUIPBIKRrAr",
+          "bbox": [
+            447,
+            429,
+            172,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DHOIX",
+          "bbox": [
+            630,
+            429,
+            82,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            428,
+            437,
+            7,
+            7
+          ],
+          "conf_tesseract": 0.367355,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R53",
+      "bbox": [
+        196,
+        511,
+        730,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: O TART>AL 42P2M@PA T« YHIHA",
+      "text_words": [
+        {
+          "text": "O",
+          "bbox": [
+            196,
+            511,
+            24,
+            23
+          ],
+          "conf_tesseract": 43.979664,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TART>AL",
+          "bbox": [
+            230,
+            511,
+            118,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "42P2M@PA",
+          "bbox": [
+            361,
+            511,
+            152,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T«",
+          "bbox": [
+            522,
+            511,
+            34,
+            24
+          ],
+          "conf_tesseract": 55.319427,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YHIHA",
+          "bbox": [
+            568,
+            511,
+            93,
+            24
+          ],
+          "conf_tesseract": 1.264053,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            670,
+            511,
+            30,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "@F",
+          "bbox": [
+            709,
+            511,
+            40,
+            24
+          ],
+          "conf_tesseract": 38.826733,
+          "verified_by_vision": false
+        },
+        {
+          "text": "[YAMTA",
+          "bbox": [
+            762,
+            511,
+            104,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "'R",
+          "bbox": [
+            876,
+            511,
+            50,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R54",
+      "bbox": [
+        211,
+        551,
+        718,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: $>>dI IS 3>>rhr © hI",
+      "text_words": [
+        {
+          "text": "$>>dI",
+          "bbox": [
+            285,
+            551,
+            84,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IS",
+          "bbox": [
+            379,
+            551,
+            89,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3>>rhr",
+          "bbox": [
+            832,
+            551,
+            97,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©",
+          "bbox": [
+            211,
+            552,
+            24,
+            23
+          ],
+          "conf_tesseract": 66.248703,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hI",
+          "bbox": [
+            246,
+            552,
+            29,
+            24
+          ],
+          "conf_tesseract": 9.211319,
+          "verified_by_vision": false
+        },
+        {
+          "text": "OF",
+          "bbox": [
+            478,
+            552,
+            41,
+            24
+          ],
+          "conf_tesseract": 40.103004,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FRRHD",
+          "bbox": [
+            529,
+            552,
+            97,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "H>»>",
+          "bbox": [
+            635,
+            552,
+            46,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "OM",
+          "bbox": [
+            690,
+            552,
+            50,
+            24
+          ],
+          "conf_tesseract": 55.567131,
+          "verified_by_vision": false
+        },
+        {
+          "text": "WP",
+          "bbox": [
+            771,
+            552,
+            51,
+            24
+          ],
+          "conf_tesseract": 20.92202,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            752,
+            560,
+            7,
+            7
+          ],
+          "conf_tesseract": 53.410831,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R55",
+      "bbox": [
+        486,
+        593,
+        150,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: RO | R",
+      "text_words": [
+        {
+          "text": "RO",
+          "bbox": [
+            504,
+            593,
+            41,
+            24
+          ],
+          "conf_tesseract": 10.034348,
+          "verified_by_vision": false
+        },
+        {
+          "text": "|",
+          "bbox": [
+            607,
+            593,
+            29,
+            24
+          ],
+          "conf_tesseract": 30.440903,
+          "verified_by_vision": false
+        },
+        {
+          "text": "R",
+          "bbox": [
+            486,
+            601,
+            7,
+            7
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R56",
+      "bbox": [
+        175,
+        691,
+        775,
+        772
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            175,
+            691,
+            775,
+            772
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R57",
+      "bbox": [
+        558,
+        755,
+        11,
+        644
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            558,
+            755,
+            11,
+            644
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p07_R58",
+      "bbox": [
+        239,
+        1071,
+        648,
+        11
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            239,
+            1071,
+            648,
+            11
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    }
+  ],
+  "vision_description": "",
+  "vision_classification": "",
+  "stats": {
+    "n_regions": 58,
+    "n_text_words": 70,
+    "n_symbols": 46,
+    "n_drawings": 0,
+    "n_uncertain": 0,
+    "classifications": {
+      "footer": 1,
+      "image": 21,
+      "geometric_circle": 8,
+      "latin_print": 8,
+      "prime_digit": 2,
+      "stick_figure": 1,
+      "face_circle_three_dots": 6,
+      "text_line": 11
+    },
+    "top_clusters": {
+      "GEOM_UNKNOWN_0003": 19,
+      "GEOM_UNKNOWN_0005": 12,
+      "GEOM_UNKNOWN_0001": 9,
+      "GEOM_UNKNOWN_0002": 6
+    }
+  }
+}

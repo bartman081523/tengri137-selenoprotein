@@ -1,0 +1,176 @@
+{
+  "page": "p01",
+  "image_size": [
+    736,
+    921
+  ],
+  "text_words": [
+    {
+      "id": "tw1",
+      "text": "137",
+      "position": [
+        280,
+        100,
+        460,
+        240
+      ],
+      "font_size": "very_large",
+      "style": "serif"
+    },
+    {
+      "id": "tw2",
+      "text": "[unreadable fictional script - paragraph 1, ~3 lines]",
+      "position": [
+        125,
+        280,
+        615,
+        400
+      ],
+      "color": "black",
+      "uncertain": true
+    },
+    {
+      "id": "tw3",
+      "text": "[unreadable fictional script - paragraph 2, ~5 lines]",
+      "position": [
+        140,
+        425,
+        600,
+        590
+      ],
+      "color": "black",
+      "uncertain": true
+    },
+    {
+      "id": "tw4",
+      "text": "[unreadable fictional script - paragraph 3, ~3 lines, contains quoted terms in different brackets]",
+      "position": [
+        155,
+        615,
+        580,
+        700
+      ],
+      "color": "black",
+      "uncertain": true
+    },
+    {
+      "id": "tw5",
+      "text": "[unreadable fictional script - paragraph 4, ~3 lines]",
+      "position": [
+        135,
+        725,
+        600,
+        815
+      ],
+      "color": "black",
+      "uncertain": true
+    }
+  ],
+  "symbols": [
+    {
+      "id": "sym1",
+      "type": "punctuation_dot",
+      "position": [
+        330,
+        395,
+        345,
+        405
+      ],
+      "context": "end of paragraph 1"
+    },
+    {
+      "id": "sym2",
+      "type": "quote_marks",
+      "position": [
+        160,
+        620,
+        200,
+        700
+      ],
+      "context": "embedded quoted words in paragraph 3"
+    },
+    {
+      "id": "sym3",
+      "type": "angle_brackets",
+      "position": [
+        155,
+        720,
+        600,
+        810
+      ],
+      "context": "throughout paragraph 4"
+    }
+  ],
+  "drawings": [
+    {
+      "id": "dr1",
+      "type": "stick_figure",
+      "position": [
+        305,
+        815,
+        430,
+        905
+      ],
+      "description": "Simple hand-drawn stick figure: round head with a small filled dot (eye) in upper-left of head, straight vertical torso, two arms extending outward and slightly downward, two legs forming a V-shape. Drawn in solid black strokes, slightly irregular as if sketched by hand.",
+      "color": "black"
+    }
+  ],
+  "digits": [
+    {
+      "id": "d1",
+      "value": "1",
+      "position": [
+        285,
+        100,
+        340,
+        240
+      ],
+      "style": "serif"
+    },
+    {
+      "id": "d2",
+      "value": "3",
+      "position": [
+        340,
+        100,
+        400,
+        240
+      ],
+      "style": "serif"
+    },
+    {
+      "id": "d3",
+      "value": "7",
+      "position": [
+        400,
+        100,
+        455,
+        240
+      ],
+      "style": "serif"
+    }
+  ],
+  "formulas": [],
+  "mixed_media_regions": [
+    {
+      "id": "mm1",
+      "position": [
+        305,
+        815,
+        430,
+        905
+      ],
+      "description": "Stick figure drawing located below all text blocks; centered horizontally at the bottom of the page. Acts as a visual sigil/illustration accompanying the page.",
+      "components": [
+        "drawing",
+        "symbol (eye/dot)"
+      ]
+    }
+  ],
+  "uncertain": [
+    "Entire content of all four text paragraphs is in an undeciphered constructed/fictional script. Glyphs superficially resemble Armenian or Georgian letters but do not match any natural language alphabet I can identify.",
+    "Cannot confirm whether the '137' is a page number, a chapter/section reference, or has symbolic meaning in context.",
+    "The script may be a conlang, cipher, or stylized/ornamental typography — without a key it cannot be transcribed.",
+    "Specific punctuation marks within the body text (commas, semicolons, dashes) are ambiguous because they are formed from the same glyph set as the letters."
+  ]
+}

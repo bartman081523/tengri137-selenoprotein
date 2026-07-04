@@ -1,0 +1,152 @@
+{
+  "page": "p01",
+  "image_size": [
+    925,
+    1214
+  ],
+  "text_words": [
+    {
+      "text": "cipher_paragraph_1",
+      "position": {
+        "x": 130,
+        "y": 215,
+        "w": 670,
+        "h": 215
+      },
+      "color": "black"
+    },
+    {
+      "text": "cipher_paragraph_2",
+      "position": {
+        "x": 130,
+        "y": 445,
+        "w": 670,
+        "h": 160
+      },
+      "color": "black"
+    },
+    {
+      "text": "cipher_paragraph_3",
+      "position": {
+        "x": 130,
+        "y": 680,
+        "w": 670,
+        "h": 160
+      },
+      "color": "black"
+    },
+    {
+      "text": "cipher_paragraph_4",
+      "position": {
+        "x": 130,
+        "y": 855,
+        "w": 670,
+        "h": 80
+      },
+      "color": "black"
+    }
+  ],
+  "symbols": [
+    {
+      "symbol": "cipher_glyphs",
+      "position": {
+        "x": 130,
+        "y": 215,
+        "w": 670,
+        "h": 720
+      },
+      "description": "Unidentified constructed/cipher script glyphs resembling an angular fictional alphabet"
+    }
+  ],
+  "drawings": [
+    {
+      "type": "diagram",
+      "position": {
+        "x": 350,
+        "y": 990,
+        "w": 230,
+        "h": 130
+      },
+      "description": "Feynman-like diagram: two external wavy/photon lines entering from upper-left and upper-right, connecting to a central circular loop with two vertices (appears to be a self-energy or vacuum polarization diagram with photon propagators)"
+    }
+  ],
+  "digits": [
+    {
+      "value": "2",
+      "position": {
+        "x": 297,
+        "y": 628
+      },
+      "context": "formula_exponent"
+    },
+    {
+      "value": "3",
+      "position": {
+        "x": 332,
+        "y": 628
+      },
+      "context": "formula_exponent"
+    },
+    {
+      "value": "5",
+      "position": {
+        "x": 385,
+        "y": 628
+      },
+      "context": "formula_exponent"
+    },
+    {
+      "value": "197",
+      "position": {
+        "x": 443,
+        "y": 628
+      },
+      "context": "formula_exponent"
+    },
+    {
+      "value": "5563",
+      "position": {
+        "x": 503,
+        "y": 628
+      },
+      "context": "formula_exponent"
+    },
+    {
+      "value": "41681",
+      "position": {
+        "x": 565,
+        "y": 628
+      },
+      "context": "formula_exponent"
+    }
+  ],
+  "formulas": [
+    {
+      "expression": "2^9 · 3^-1 · x 5^9 · x 197^-1 · x 5563^-1 · x 41681^-1",
+      "position": {
+        "x": 297,
+        "y": 620,
+        "w": 330,
+        "h": 30
+      },
+      "type": "inline_math"
+    }
+  ],
+  "mixed_media_regions": [
+    {
+      "region": {
+        "x": 350,
+        "y": 990,
+        "w": 230,
+        "h": 130
+      },
+      "description": "Bottom region containing a hand-drawn/digital Feynman-style diagram with wavy external lines and a central loop, directly below the cipher-script paragraphs and the numerical formula"
+    }
+  ],
+  "uncertain": [
+    "All cipher-script glyphs in paragraphs 1-4 cannot be transcribed; they appear to be a custom/constructed alphabet (possibly Cirth, Klingon, or a private cipher).",
+    "Exact meaning and language of the four text blocks is unknown.",
+    "Whether the small 'x' characters in the formula denote multiplication or are part of the cipher script is ambiguous.",
+    "Precise identification of the Feynman diagram topology (self-energy vs. vertex correction) is uncertain."
+  ]
+}

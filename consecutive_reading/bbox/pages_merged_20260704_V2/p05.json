@@ -1,0 +1,2700 @@
+{
+  "page_id": "p05",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "source_pixel": "p05.json",
+  "source_vision": "p05_page.json",
+  "n_regions": 74,
+  "n_text_words": 39,
+  "n_blank_regions": 62,
+  "n_colored_regions": 1,
+  "n_glyphs_vision": 63,
+  "regions": [
+    {
+      "region_id": "p05_R01",
+      "bbox": [
+        21,
+        1624,
+        1083,
+        1
+      ],
+      "classification": "footer",
+      "description": "Page footer (bottom of page)",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            21,
+            1624,
+            1083,
+            1
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R02",
+      "bbox": [
+        443,
+        479,
+        126,
+        40
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A horizontal code-like sequence showing digits '6', '14', and '62' (partial) separated by diagonal slashes, appearing as a numeric code or address notation.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.42,
+          "page": "p05",
+          "bbox": [
+            443,
+            479,
+            126,
+            40
+          ],
+          "crop_path": "bbox/crops/p05_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R03",
+      "bbox": [
+        479,
+        978,
+        125,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A printed Arabic numeral '7' centered inside a slanted parallelogram (rhomboid) cell, with the digit '15' partially visible to the right.",
+          "unicode_codepoint": "U+0037",
+          "vision_confidence": 0.92,
+          "page": "p05",
+          "bbox": [
+            479,
+            978,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R04",
+      "bbox": [
+        556,
+        532,
+        126,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The digit '3' in a standard printed typeface, positioned within a lattice structure with diagonal and vertical lines crossing through and around it.",
+          "unicode_codepoint": "U+0033",
+          "vision_confidence": 0.95,
+          "page": "p05",
+          "bbox": [
+            556,
+            532,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_002.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R05",
+      "bbox": [
+        500,
+        1154,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A cell with a diagonal line crossing from lower-left to upper-right, with the numeral '1' printed in the lower-left portion of the cell, part of a row of similar cells containing numbers.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.35,
+          "page": "p05",
+          "bbox": [
+            500,
+            1154,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R06",
+      "bbox": [
+        423,
+        1289,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Hand-drawn parallelogram (slanted quadrilateral) divided by a diagonal line into two triangular sections. The left triangle contains the numeral '3' and the right triangle contains the numeral '2'. Additional partial numerals are visible at the top edge. Dashed lines appear on the left side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.78,
+          "page": "p05",
+          "bbox": [
+            423,
+            1289,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_004.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R07",
+      "bbox": [
+        556,
+        1249,
+        125,
+        39
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "Single printed digit '5' in a table cell, with '55' visible to the left and '6' to the right.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.95,
+          "page": "p05",
+          "bbox": [
+            556,
+            1249,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R08",
+      "bbox": [
+        479,
+        397,
+        125,
+        39
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "Slanted parallelogram/diamond shape containing the printed numeral '5'",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.45,
+          "page": "p05",
+          "bbox": [
+            479,
+            397,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R09",
+      "bbox": [
+        479,
+        1113,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "The number '64' printed in a serif font, positioned on the right side of a parallelogram-shaped figure that is divided into sections, with another region showing '4' to its left.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            479,
+            1113,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R10",
+      "bbox": [
+        366,
+        479,
+        125,
+        40
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram-shaped face of a 3D cube containing the printed number '26', with part of an adjacent face showing '14' to the right. Diagonal lines indicate the cube's perspective.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            366,
+            479,
+            125,
+            40
+          ],
+          "crop_path": "bbox/crops/p05_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R11",
+      "bbox": [
+        635,
+        262,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a 3D rectangular prism (cuboid) diagram showing two visible parallelogram faces with the number '4' labeling edges, and dashed lines indicating hidden edges of the box.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p05",
+          "bbox": [
+            635,
+            262,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R12",
+      "bbox": [
+        577,
+        573,
+        127,
+        39
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number '11' displayed inside a parallelogram (slanted rectangle) shape, part of a row of numbered parallelograms",
+          "unicode_codepoint": "U+0031 U+0031",
+          "vision_confidence": 0.62,
+          "page": "p05",
+          "bbox": [
+            577,
+            573,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R13",
+      "bbox": [
+        422,
+        573,
+        127,
+        39
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram-like geometric shape formed by diagonal lines, with the number '12' inscribed inside. There are also dashed vertical lines on the left and partial diagonal lines suggesting a larger grid or table pattern.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p05",
+          "bbox": [
+            422,
+            573,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R14",
+      "bbox": [
+        634,
+        1249,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram shape outlined in black with the digit '6' centered inside it",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            634,
+            1249,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R15",
+      "bbox": [
+        366,
+        1196,
+        125,
+        39
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "A parallelogram-shaped fraction bar containing the number '11', with tick marks above and below the bar, dashed line on the left edge, and a '2' visible on the right side",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p05",
+          "bbox": [
+            366,
+            1196,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_013.png",
+          "first_appearance": true
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R16",
+      "bbox": [
+        366,
+        344,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram divided by internal diagonal lines into sections, with the number 9 in one section and 63 partially visible in another section, appearing to be part of a math puzzle or number sequence diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.75,
+          "page": "p05",
+          "bbox": [
+            366,
+            344,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R17",
+      "bbox": [
+        521,
+        615,
+        125,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Number '15' printed in a slanted parallelogram-shaped cell, appearing to be part of a calendar or date grid layout, with the left edge of an adjacent '0' visible on the left.",
+          "unicode_codepoint": "U+0031 U+0035",
+          "vision_confidence": 0.6,
+          "page": "p05",
+          "bbox": [
+            521,
+            615,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_015.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R18",
+      "bbox": [
+        578,
+        1154,
+        126,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The digits '13' printed in a standard serif font, located inside a triangular region bounded by diagonal lines.",
+          "unicode_codepoint": "U+0031U+0033",
+          "vision_confidence": 0.97,
+          "page": "p05",
+          "bbox": [
+            578,
+            1154,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_016.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R19",
+      "bbox": [
+        634,
+        397,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a technical diagram showing a rectangular frame containing the numbers '39' and '22' with diagonal lines crossing through the box, and a dashed vertical line on the right edge",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p05",
+          "bbox": [
+            634,
+            397,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_017.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R20",
+      "bbox": [
+        422,
+        1019,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram outline containing the number 12, partially shown alongside another parallelogram containing 63, suggesting a math worksheet for area or shape problems.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            422,
+            1019,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_018.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R21",
+      "bbox": [
+        365,
+        1331,
+        127,
+        39
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "Schräg nach rechts geneigtes Parallelogramm mit gestrichelter senkrechter Linie am linken Rand (Höhenindikator) und der Ziffer 8 im Inneren. Rechts daneben beginnt ein weiteres Parallelogramm mit 63.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p05",
+          "bbox": [
+            365,
+            1331,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_019.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R22",
+      "bbox": [
+        499,
+        438,
+        127,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A table row with parallelogram-shaped (slanted) cells containing the numbers 35, 13, and a partial 1, separated by diagonal lines forming a zigzag pattern across the row.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            499,
+            438,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_020.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R23",
+      "bbox": [
+        479,
+        532,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram shape (face of a 3D box in oblique/isometric projection) with the number '23' inscribed inside it. There are dashed line fragments at the edges suggesting it's part of a larger stacked-box diagram.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.78,
+          "page": "p05",
+          "bbox": [
+            479,
+            532,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_021.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R24",
+      "bbox": [
+        521,
+        1331,
+        126,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Parallelogram divided by a diagonal line with the numbers '35' on the left half and '23' on the right half, typical of German stenographic Kurzschrift compound-word notation.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            521,
+            1331,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_022.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R25",
+      "bbox": [
+        521,
+        344,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram (slanted rectangle) containing the number '25', part of a horizontal row of similar parallelograms. An adjacent parallelogram to the left contains '32'. A measurement bracket appears below the row.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            521,
+            344,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_023.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R26",
+      "bbox": [
+        443,
+        1196,
+        126,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Horizontal strip divided by diagonal slashes containing the numbers 1, 22, and 63, with additional tick marks below, resembling a stenographic or labeling index bar.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.78,
+          "page": "p05",
+          "bbox": [
+            443,
+            1196,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_024.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R27",
+      "bbox": [
+        556,
+        262,
+        126,
+        39
+      ],
+      "classification": "address_hex",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "address_hex",
+          "vision_description": "A grid of address cells with diagonal slash separators and numbers (38, 24, and partially visible digits below), typical of a French postal/CEDEX address block format.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            556,
+            262,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_025.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R28",
+      "bbox": [
+        577,
+        1019,
+        127,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Stenographic notation showing the number '38' and '16' separated by diagonal slashes, with parallel diagonal lines crossing through them, typical of phonetic or shorthand label markings",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            577,
+            1019,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_026.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R29",
+      "bbox": [
+        422,
+        303,
+        126,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "Number '19' printed in serif font inside a parallelogram cell, with a partial '1' visible in an adjacent diagonally-divided cell to the right.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            422,
+            303,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_027.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R30",
+      "bbox": [
+        556,
+        978,
+        126,
+        39
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "unknown",
+          "vision_description": "A thick diagonal line (forward slash) running from lower-left to upper-right, serving as a cell separator in a table containing the numbers 7, 19, and 64.",
+          "unicode_codepoint": "U+002F",
+          "vision_confidence": 0.35,
+          "page": "p05",
+          "bbox": [
+            556,
+            978,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_028.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R31",
+      "bbox": [
+        500,
+        1289,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a grid/table with diagonal lines forming parallelogram cells, with the number '26' visible inside one cell and a partial '6' in the adjacent cell to the right.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p05",
+          "bbox": [
+            500,
+            1289,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_029.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R32",
+      "bbox": [
+        577,
+        438,
+        127,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed sans-serif digits '3' and '18' inside a parallelogram grid, appearing as part of a lattice multiplication or area model diagram with diagonal lines connecting the cells.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p05",
+          "bbox": [
+            577,
+            438,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_030.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R33",
+      "bbox": [
+        443,
+        615,
+        126,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A horizontal row of three cells containing the numbers '31', '20', and '15', separated by diagonal slash dividers, characteristic of a stenographic reference or index label.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p05",
+          "bbox": [
+            443,
+            615,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_031.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R34",
+      "bbox": [
+        444,
+        1061,
+        125,
+        38
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "unknown",
+          "vision_description": "A cropped fragment showing part of a numerical table with cells containing '47', '9', and '10' (or '1' and '0') separated by diagonal slash lines. Below appears a '1' and a short horizontal mark. The diagonal line separators are characteristic of certain tabular layouts.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.35,
+          "page": "p05",
+          "bbox": [
+            444,
+            1061,
+            125,
+            38
+          ],
+          "crop_path": "bbox/crops/p05_blank_032.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R35",
+      "bbox": [
+        521,
+        479,
+        126,
+        40
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A stenographic shorthand label consisting of a parallelogram (slanted rectangular frame) divided by a diagonal line, containing the number '4' on the left side and '626' on the right side, with a bracket/underline below.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p05",
+          "bbox": [
+            521,
+            479,
+            126,
+            40
+          ],
+          "crop_path": "bbox/crops/p05_blank_033.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R36",
+      "bbox": [
+        499,
+        303,
+        127,
+        39
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Three numbers (9, 10, 63) in a row each crossed by a diagonal slash running from lower-left to upper-right, with horizontal lines above and below the row.",
+          "unicode_codepoint": "U+2044",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            499,
+            303,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_034.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R37",
+      "bbox": [
+        634,
+        1113,
+        125,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '20' printed in standard Latin typeface on an isometric grid background, with a small '2' visible at the top right.",
+          "unicode_codepoint": "U+0032 U+0030",
+          "vision_confidence": 0.95,
+          "page": "p05",
+          "bbox": [
+            634,
+            1113,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_035.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R38",
+      "bbox": [
+        365,
+        615,
+        126,
+        39
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Three printed digits '631' inside a parallelogram formed by diagonal lines, with a partial '2' visible to the right and a vertical dashed line on the left; appears to be a fragment of a technical/architectural dimension diagram.",
+          "unicode_codepoint": "U+0036 U+0033 U+0031",
+          "vision_confidence": 0.6,
+          "page": "p05",
+          "bbox": [
+            365,
+            615,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_036.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R39",
+      "bbox": [
+        578,
+        1289,
+        126,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Partial view of a grid/cube structure with diagonal slash lines crossing through the numbers '6' and '637', characteristic of stenographic red label notation",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p05",
+          "bbox": [
+            578,
+            1289,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_037.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R40",
+      "bbox": [
+        521,
+        1196,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Cropped fragment of a technical drawing showing a slanted parallelogram outline containing the number '633' (with partial '52' visible to the left), and a horizontal dimension line with end ticks below the parallelogram indicating a measured length.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p05",
+          "bbox": [
+            521,
+            1196,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_038.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R41",
+      "bbox": [
+        577,
+        303,
+        127,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Numerical sequence '0 637 1' overlaid with two diagonal strikethrough lines forming a parallelogram frame, with a short vertical tick on the right side",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p05",
+          "bbox": [
+            577,
+            303,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_039.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R42",
+      "bbox": [
+        423,
+        1154,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A cadastral land-parcel diagram showing a quadrilateral (parallelogram-shaped) plot outlined with solid black borders, containing the printed number '651' in its center. A dashed line runs along the left edge (indicating an undefined or road boundary), and the right edge abuts another parcel labeled '2'. This is a typical element of a German Flurkarte (land registry map) or similar parcel plan.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.78,
+          "page": "p05",
+          "bbox": [
+            423,
+            1154,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_040.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R43",
+      "bbox": [
+        444,
+        344,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A horizontal number line or scale bar divided into segments by diagonal slashes, containing the numbers '9', '632', and '2', with small vertical tick marks below the bar.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            444,
+            344,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_041.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R44",
+      "bbox": [
+        443,
+        1331,
+        126,
+        39
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "The number 635 displayed between two diagonal slash marks, part of a sequence of slanted fraction-bar separators",
+          "unicode_codepoint": "U+002F",
+          "vision_confidence": 0.7,
+          "page": "p05",
+          "bbox": [
+            443,
+            1331,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_042.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R45",
+      "bbox": [
+        556,
+        1113,
+        126,
+        39
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number 642 written inside a cell divided by diagonal parallel lines, appearing in a table-like structure with partial neighboring numbers (1, 20).",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            556,
+            1113,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_043.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R46",
+      "bbox": [
+        478,
+        1249,
+        126,
+        39
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number '655' displayed in plain printed digits inside a parallelogram-shaped cell of a diagram, with a '5' visible in an adjacent cell to the right.",
+          "unicode_codepoint": "U+0036 U+0035 U+0035",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            478,
+            1249,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_044.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R47",
+      "bbox": [
+        499,
+        573,
+        127,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A cropped fragment showing diagonal slash lines (lower-left to upper-right) dividing tabular cells, with the numbers '2', '643', and '1' visible in adjacent cells. Appears to be part of a larger table or form with diagonal cell separators.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p05",
+          "bbox": [
+            499,
+            573,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_045.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R48",
+      "bbox": [
+        422,
+        438,
+        126,
+        39
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram/rhombus shape formed by two horizontal lines connected by two diagonal crossing lines, with the number '635' written inside.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.42,
+          "page": "p05",
+          "bbox": [
+            422,
+            438,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_046.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R49",
+      "bbox": [
+        521,
+        1061,
+        125,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '10' printed in black inside a parallelogram (slanted rectangle) cell, part of what appears to be a 3D-projected number grid/cube net. A measurement bar with end ticks is visible below.",
+          "unicode_codepoint": "U+0031 U+0030",
+          "vision_confidence": 0.9,
+          "page": "p05",
+          "bbox": [
+            521,
+            1061,
+            125,
+            38
+          ],
+          "crop_path": "bbox/crops/p05_blank_047.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R50",
+      "bbox": [
+        556,
+        397,
+        126,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "Partial view of a tabular grid with diagonal dividing lines, showing the number 639 in the center cell and the beginning of another number (2) on the right",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p05",
+          "bbox": [
+            556,
+            397,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_048.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R51",
+      "bbox": [
+        499,
+        1019,
+        127,
+        39
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Stenographic label cell with diagonal hatching slashes over the numbers 2, 638, and 1, arranged horizontally in adjacent table cells.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p05",
+          "bbox": [
+            499,
+            1019,
+            127,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_049.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R52",
+      "bbox": [
+        479,
+        262,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram outline containing the number '638' with a partial '2' visible to the right, appearing to be part of a tiled arrangement of similar parallelogram cells",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p05",
+          "bbox": [
+            479,
+            262,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_050.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R53",
+      "bbox": [
+        366,
+        1061,
+        125,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed three-digit number '647' in standard sans-serif font, enclosed within a parallelogram shape on a number line with tick marks below",
+          "unicode_codepoint": "U+36 U+34 U+37",
+          "vision_confidence": 0.95,
+          "page": "p05",
+          "bbox": [
+            366,
+            1061,
+            125,
+            38
+          ],
+          "crop_path": "bbox/crops/p05_blank_051.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R54",
+      "bbox": [
+        634,
+        978,
+        126,
+        39
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram (slanted quadrilateral) with the number 640 inscribed inside it, drawn with thin black lines on white background. A '9' is visible to the left and a dashed vertical line on the right edge.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p05",
+          "bbox": [
+            634,
+            978,
+            126,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_052.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R55",
+      "bbox": [
+        634,
+        532,
+        125,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram-shaped outline (slanted quadrilateral) containing the number '640' written inside it, appearing to be a dimension or area label from a technical drawing.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p05",
+          "bbox": [
+            634,
+            532,
+            125,
+            39
+          ],
+          "crop_path": "bbox/crops/p05_blank_053.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R56",
+      "bbox": [
+        593,
+        862,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A thick black circular outline containing three solid black dots arranged in a triangular pattern (two dots above, one dot below), resembling a simple smiling face or emoji-like glyph.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p05",
+          "bbox": [
+            593,
+            862,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p05_blank_054.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R57",
+      "bbox": [
+        779,
+        819,
+        16,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three dots arranged inside, resembling a simple face icon",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p05",
+          "bbox": [
+            779,
+            819,
+            16,
+            17
+          ],
+          "crop_path": "bbox/crops/p05_blank_055.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R58",
+      "bbox": [
+        462,
+        819,
+        16,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged like a face (two dots as eyes on top, one dot as mouth below), with additional curved strokes flanking the circle on both sides.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p05",
+          "bbox": [
+            462,
+            819,
+            16,
+            17
+          ],
+          "crop_path": "bbox/crops/p05_blank_056.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R59",
+      "bbox": [
+        397,
+        734,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged like a face (two upper dots and one lower dot), flanked by bracket-like angular shapes on left and right sides.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.52,
+          "page": "p05",
+          "bbox": [
+            397,
+            734,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p05_blank_057.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R60",
+      "bbox": [
+        900,
+        777,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A bold black circle containing three filled dots arranged in a triangular pattern (two dots on top, one dot on bottom center), resembling a simple face.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.97,
+          "page": "p05",
+          "bbox": [
+            900,
+            777,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p05_blank_058.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R61",
+      "bbox": [
+        295,
+        734,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_UNKNOWN_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle with three dots inside arranged in a triangular face-like pattern, flanked by partial circular shapes or brackets on the left and right sides.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p05",
+          "bbox": [
+            295,
+            734,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p05_blank_059.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R62",
+      "bbox": [
+        259,
+        1467,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle with three dots arranged in a triangular pattern inside, resembling a simple face with eyes and a mouth or nose, with an adjacent curved stroke.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p05",
+          "bbox": [
+            259,
+            1467,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p05_blank_060.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R63",
+      "bbox": [
+        440,
+        1467,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing two larger dots (like eyes) and a smaller dot below (like a mouth), flanked by curved stroke fragments on either side, resembling a simple face glyph.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p05",
+          "bbox": [
+            440,
+            1467,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p05_blank_061.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R64",
+      "bbox": [
+        559,
+        686,
+        15,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "Red bold lowercase letters 'rhJ' in a thick sans-serif font, with the 'r' and 'h' being lowercase and 'J' appearing as uppercase.",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1000000,
+          "cluster_id": "GEOM_UNMATCHED_0000",
+          "vision_kind": "latin_print",
+          "vision_description": "Red bold lowercase letters 'rhJ' in a thick sans-serif font, with the 'r' and 'h' being lowercase and 'J' appearing as uppercase.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p05",
+          "bbox": [
+            559,
+            686,
+            15,
+            26
+          ],
+          "crop_path": "bbox/crops/p05_color_062.png"
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R65",
+      "bbox": [
+        356,
+        256,
+        414,
+        405
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            356,
+            256,
+            414,
+            405
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R66",
+      "bbox": [
+        512,
+        686,
+        123,
+        26
+      ],
+      "classification": "text_line",
+      "description": "Text line: Nrhdk",
+      "text_words": [
+        {
+          "text": "Nrhdk",
+          "bbox": [
+            512,
+            686,
+            123,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R67",
+      "bbox": [
+        220,
+        728,
+        716,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: PAT@SIMI®? A3 3rih IS RIS",
+      "text_words": [
+        {
+          "text": "PAT@SIMI®?",
+          "bbox": [
+            220,
+            728,
+            213,
+            27
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            444,
+            728,
+            54,
+            27
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3rih",
+          "bbox": [
+            511,
+            728,
+            54,
+            27
+          ],
+          "conf_tesseract": 8.489456,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IS",
+          "bbox": [
+            864,
+            728,
+            72,
+            27
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "RIS",
+          "bbox": [
+            577,
+            729,
+            52,
+            26
+          ],
+          "conf_tesseract": 34.898666,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hY",
+          "bbox": [
+            642,
+            729,
+            37,
+            26
+          ],
+          "conf_tesseract": 90.066353,
+          "verified_by_vision": false
+        },
+        {
+          "text": "B23ITO",
+          "bbox": [
+            709,
+            729,
+            112,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            833,
+            729,
+            22,
+            26
+          ],
+          "conf_tesseract": 90.216782,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            689,
+            737,
+            8,
+            8
+          ],
+          "conf_tesseract": 56.542007,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R68",
+      "bbox": [
+        213,
+        771,
+        724,
+        31
+      ],
+      "classification": "text_line",
+      "description": "Text line: ,888R 133 133 YR®») I3k",
+      "text_words": [
+        {
+          "text": ",888R",
+          "bbox": [
+            519,
+            771,
+            90,
+            31
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "133",
+          "bbox": [
+            617,
+            771,
+            54,
+            26
+          ],
+          "conf_tesseract": 42.42849,
+          "verified_by_vision": false
+        },
+        {
+          "text": "133",
+          "bbox": [
+            832,
+            771,
+            54,
+            26
+          ],
+          "conf_tesseract": 69.985771,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YR®»)",
+          "bbox": [
+            213,
+            772,
+            101,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3k",
+          "bbox": [
+            323,
+            772,
+            53,
+            25
+          ],
+          "conf_tesseract": 18.019821,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1T",
+          "bbox": [
+            389,
+            772,
+            22,
+            25
+          ],
+          "conf_tesseract": 14.823013,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hE",
+          "bbox": [
+            423,
+            772,
+            30,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Y1",
+          "bbox": [
+            463,
+            772,
+            45,
+            26
+          ],
+          "conf_tesseract": 35.103683,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1)",
+          "bbox": [
+            682,
+            772,
+            28,
+            26
+          ],
+          "conf_tesseract": 44.949875,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1RRY)",
+          "bbox": [
+            721,
+            772,
+            101,
+            26
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "@)",
+          "bbox": [
+            896,
+            772,
+            41,
+            26
+          ],
+          "conf_tesseract": 49.846653,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R69",
+      "bbox": [
+        204,
+        811,
+        733,
+        42
+      ],
+      "classification": "text_line",
+      "description": "Text line: d I PPAINYIR XY@ T",
+      "text_words": [
+        {
+          "text": "d",
+          "bbox": [
+            497,
+            811,
+            15,
+            42
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            204,
+            815,
+            16,
+            25
+          ],
+          "conf_tesseract": 63.931889,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PPAINYIR",
+          "bbox": [
+            230,
+            815,
+            172,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XY@",
+          "bbox": [
+            411,
+            815,
+            104,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            526,
+            815,
+            40,
+            25
+          ],
+          "conf_tesseract": 20.947533,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            581,
+            815,
+            22,
+            25
+          ],
+          "conf_tesseract": 23.074806,
+          "verified_by_vision": false
+        },
+        {
+          "text": "R¥2D",
+          "bbox": [
+            613,
+            815,
+            101,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            726,
+            815,
+            37,
+            25
+          ],
+          "conf_tesseract": 55.570545,
+          "verified_by_vision": false
+        },
+        {
+          "text": "&",
+          "bbox": [
+            774,
+            815,
+            43,
+            25
+          ],
+          "conf_tesseract": 14.08876,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Dk",
+          "bbox": [
+            827,
+            815,
+            45,
+            30
+          ],
+          "conf_tesseract": 33.913719,
+          "verified_by_vision": false
+        },
+        {
+          "text": "&",
+          "bbox": [
+            881,
+            815,
+            17,
+            25
+          ],
+          "conf_tesseract": 61.464485,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            908,
+            815,
+            29,
+            25
+          ],
+          "conf_tesseract": 55.24971,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R70",
+      "bbox": [
+        528,
+        856,
+        86,
+        27
+      ],
+      "classification": "text_line",
+      "description": "Text line: MO",
+      "text_words": [
+        {
+          "text": "MO",
+          "bbox": [
+            528,
+            856,
+            86,
+            27
+          ],
+          "conf_tesseract": 49.689774,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R71",
+      "bbox": [
+        356,
+        972,
+        414,
+        405
+      ],
+      "classification": "text_line",
+      "description": "Text line: ",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            356,
+            972,
+            414,
+            405
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R72",
+      "bbox": [
+        529,
+        1422,
+        75,
+        24
+      ],
+      "classification": "text_line",
+      "description": "Text line: TH%hE",
+      "text_words": [
+        {
+          "text": "TH%hE",
+          "bbox": [
+            529,
+            1422,
+            75,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R73",
+      "bbox": [
+        196,
+        1462,
+        48,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: M\n5\t1\t4\t1\t2\t2\t254\t1463\t42\t24\t44.350777\tOF\n5\t1\t4\t1\t2\t3\t306\t1463\t75\t24\t0.967316\tQhIAT\n5\t1\t4\t1\t2\t4\t398\t1463\t32\t24\t0.000000\tXY\n5\t1\t4\t1\t2\t5\t444\t1463\t46\t24\t0.000000\t@>d\n5\t1\t4\t1\t2\t6\t502\t1463\t38\t24\t9.030266\tM,\n5\t1\t4\t1\t2\t7\t566\t1463\t46\t29\t0.000000\tRl\n5\t1\t4\t1\t2\t8\t640\t1463\t31\t24\t0.000000\t>3\n5\t1\t4\t1\t2\t9\t699\t1463\t27\t24\t89.633835\t1>\n5\t1\t4\t1\t2\t10\t755\t1463\t28\t24\t25.786270\tT\n5\t1\t4\t1\t2\t11\t787\t1463\t71\t24\t3.950356\tMMIA\n5\t1\t4\t1\t2\t12\t867\t1462\t63\t25\t69.754707\t133",
+      "text_words": [
+        {
+          "text": "M\n5\t1\t4\t1\t2\t2\t254\t1463\t42\t24\t44.350777\tOF\n5\t1\t4\t1\t2\t3\t306\t1463\t75\t24\t0.967316\tQhIAT\n5\t1\t4\t1\t2\t4\t398\t1463\t32\t24\t0.000000\tXY\n5\t1\t4\t1\t2\t5\t444\t1463\t46\t24\t0.000000\t@>d\n5\t1\t4\t1\t2\t6\t502\t1463\t38\t24\t9.030266\tM,\n5\t1\t4\t1\t2\t7\t566\t1463\t46\t29\t0.000000\tRl\n5\t1\t4\t1\t2\t8\t640\t1463\t31\t24\t0.000000\t>3\n5\t1\t4\t1\t2\t9\t699\t1463\t27\t24\t89.633835\t1>\n5\t1\t4\t1\t2\t10\t755\t1463\t28\t24\t25.786270\tT\n5\t1\t4\t1\t2\t11\t787\t1463\t71\t24\t3.950356\tMMIA\n5\t1\t4\t1\t2\t12\t867\t1462\t63\t25\t69.754707\t133",
+          "bbox": [
+            196,
+            1462,
+            48,
+            25
+          ],
+          "conf_tesseract": 20.252625,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p05_R74",
+      "bbox": [
+        559,
+        686,
+        15,
+        26
+      ],
+      "classification": "colored_region",
+      "description": "Colored region, area=242",
+      "text_words": [],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    }
+  ],
+  "vision_description": "",
+  "vision_classification": ""
+}

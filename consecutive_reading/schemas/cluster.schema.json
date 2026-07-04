@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tengri137.local/schemas/cluster.schema.json",
+  "title": "Tengri137 Symbol Cluster",
+  "description": "One symbol class produced by agglomerative clustering on crop embeddings.",
+  "type": "object",
+  "required": ["cluster_id", "kind", "size", "members"],
+  "additionalProperties": true,
+  "properties": {
+    "cluster_id": {
+      "type": "string",
+      "pattern": "^[A-Z_]+_[A-Z0-9_]+_[0-9]+$",
+      "description": "Cluster identifier, e.g. GEOM_DIAMOND_DOT_007"
+    },
+    "kind": {
+      "type": "string",
+      "description": "Vision-derived or fallback kind (e.g. geometric_circle_with_dot, latin_print, unknown)"
+    },
+    "label_source": {
+      "type": "string",
+      "enum": ["vision_glyph", "vision_page", "consensus", "phash", "unknown"],
+      "description": "Which evidence determined the kind label"
+    },
+    "description": {"type": "string"},
+    "unicode_codepoint": {"type": "string"},
+    "size": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of crops in this cluster"
+    },
+    "is_singleton": {
+      "type": "boolean",
+      "description": "True if size == 1, no neighbors merged"
+    },
+    "intra_cluster_distance_mean": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Average pairwise distance within the cluster"
+    },
+    "intra_cluster_distance_max": {"type": "number", "minimum": 0},
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["crop_path", "page", "bbox"],
+        "properties": {
+          "crop_path": {"type": "string"},
+          "page": {"type": "string"},
+          "bbox": {
+            "type": "array",
+            "items": {"type": "integer"},
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "distance_to_centroid": {"type": "number"},
+          "vision_confidence": {"type": "number"},
+          "is_medoid": {"type": "boolean"}
+        }
+      }
+    },
+    "representative_crop": {
+      "type": "object",
+      "properties": {
+        "crop_path": {"type": "string"},
+        "page": {"type": "string"},
+        "bbox": {"type": "array", "items": {"type": "integer"}, "minItems": 4, "maxItems": 4},
+        "first_seen_position": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2}
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Overall confidence in the cluster label (weighted: vision * 0.6 + density * 0.4)"
+    }
+  }
+}

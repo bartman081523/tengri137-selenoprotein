@@ -1,0 +1,39 @@
+{
+  "page": "p01",
+  "page_vision_status": "ok",
+  "glyphs_processed": 2,
+  "n_blank_crops": 2,
+  "n_color_crops": 0,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        537,
+        1251,
+        24,
+        22
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "Thick, irregular black ring with an oval-shaped white hole in the center, resembling a stylized eye or donut shape.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        808,
+        1070,
+        14,
+        22
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Two capital letter 'X' characters printed in a serif font, with what appears to be an apostrophe or punctuation mark before the first X.",
+        "confidence": 0.85
+      }
+    }
+  ]
+}

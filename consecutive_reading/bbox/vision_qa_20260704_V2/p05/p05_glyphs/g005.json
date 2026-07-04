@@ -1,0 +1,16 @@
+{
+  "kind": "prime_digit",
+  "description": "Single printed digit '5' in a table cell, with '55' visible to the left and '6' to the right.",
+  "position": "center, within a table row between other digits",
+  "unicode_codepoint": "U+0035",
+  "confidence": 0.95,
+  "crop_bbox": [
+    556,
+    1249,
+    125,
+    39
+  ],
+  "crop_path": "bbox/vision_qa_20260704_V2/p05/p05_glyphs/g005_blank.png",
+  "kind_crop": "blank",
+  "pixel_crop_path": "bbox/crops/p05_blank_005.png"
+}

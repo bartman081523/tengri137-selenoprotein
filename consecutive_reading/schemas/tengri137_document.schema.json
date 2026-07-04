@@ -1,0 +1,243 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tengri137.local/schemas/tengri137_document.schema.json",
+  "title": "Tengri137 Document",
+  "description": "Single unified schema for the Tengri137 PDF analysis pipeline. Each top-level JSON file (Tengri137_detailed_<TS>/doc.json or p{NN}.json) is validated against this schema.",
+  "type": "object",
+  "required": ["schema_version", "document", "pages"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$",
+      "description": "Schema version, e.g. 2.0"
+    },
+    "document": {
+      "type": "object",
+      "required": ["title", "page_count", "source_pdf", "processing_run"],
+      "properties": {
+        "title": {"type": "string", "description": "Document title"},
+        "page_count": {"type": "integer", "minimum": 1, "maximum": 1000},
+        "source_pdf": {"type": "string", "description": "Original PDF path"},
+        "processing_run": {
+          "type": "string",
+          "description": "TS folder name, e.g. 20260704_V2"
+        },
+        "generated_at": {"type": "string", "format": "date-time"},
+        "pipeline_version": {"type": "string"},
+        "description": {"type": "string"}
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/page"},
+      "minItems": 1
+    }
+  },
+  "definitions": {
+    "page": {
+      "type": "object",
+      "required": ["page_id", "image_size", "regions"],
+      "additionalProperties": true,
+      "properties": {
+        "page_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}$",
+          "description": "Page identifier, e.g. p01"
+        },
+        "image_size": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 1},
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "[width, height] in pixels"
+        },
+        "regions": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/region"}
+        }
+      }
+    },
+    "region": {
+      "type": "object",
+      "required": ["region_id", "bbox", "classification"],
+      "additionalProperties": true,
+      "properties": {
+        "region_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}_R\\d+$",
+          "description": "Region identifier, e.g. p05_R1"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[left, top, width, height] in pixels. ALWAYS present."
+        },
+        "classification": {
+          "type": "string",
+          "description": "Vision classification, e.g. magic_cube_3x3_exploded, norse_cosmic_circle, burumut_block, text_block, header, footer, mixed_media, sigil_complex, symbol_grid"
+        },
+        "description": {
+          "type": "string",
+          "description": "Human-readable description of the region"
+        },
+        "components": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of sub-elements"
+        },
+        "text_words": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/text_word"}
+        },
+        "symbols": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/symbol_instance"}
+        },
+        "drawings": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/drawing"}
+        },
+        "digits": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/digit"}
+        },
+        "formulas": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/formula"}
+        },
+        "uncertain": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "What could not be classified with confidence"
+        }
+      }
+    },
+    "text_word": {
+      "type": "object",
+      "required": ["text", "bbox"],
+      "additionalProperties": true,
+      "properties": {
+        "text": {"type": "string"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[left, top, width, height] in pixels"
+        },
+        "conf_tesseract": {"type": "number", "minimum": 0, "maximum": 100},
+        "color": {
+          "type": "string",
+          "enum": ["black", "dark_grey", "light_grey", "red", "blue",
+                   "orange", "green", "yellow", "other"]
+        },
+        "verified_by_vision": {"type": "boolean"},
+        "transliteration": {
+          "type": "string",
+          "description": "Vision's best transcription for unknown script"
+        },
+        "language": {"type": "string"},
+        "certainty": {"type": "string", "enum": ["high", "medium", "low"]}
+      }
+    },
+    "symbol_instance": {
+      "type": "object",
+      "required": ["symbol_id", "cluster_id", "bbox"],
+      "additionalProperties": true,
+      "properties": {
+        "symbol_id": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Global symbol index, ordered by first appearance in flow text"
+        },
+        "cluster_id": {
+          "type": "string",
+          "pattern": "^[A-Z_]+_[A-Z0-9_]+_[0-9]+$|^GEOM_[A-Z0-9_]+_[0-9]+$",
+          "description": "Cluster identifier, e.g. GEOM_DIAMOND_DOT_007"
+        },
+        "page": {"type": "string", "pattern": "^p\\d{2}$"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[left, top, width, height] in pixels. ALWAYS present (fix from V1)."
+        },
+        "vision_description": {"type": "string"},
+        "vision_kind": {"type": "string"},
+        "unicode_codepoint": {"type": "string"},
+        "vision_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "first_appearance": {"type": "boolean"},
+        "geometry_ref": {"type": "string"},
+        "crop_path": {"type": "string"}
+      }
+    },
+    "drawing": {
+      "type": "object",
+      "required": ["drawing_id", "page", "bbox", "type", "description"],
+      "additionalProperties": true,
+      "properties": {
+        "drawing_id": {
+          "type": "string",
+          "pattern": "^p\\d{2}_D\\d+$",
+          "description": "Drawing identifier, e.g. p02_D1"
+        },
+        "page": {"type": "string", "pattern": "^p\\d{2}$"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "type": {
+          "type": "string",
+          "description": "e.g. odin_triple_horn, seven_rings, nine_rings, norse_cosmic_circle, face_circle_three_dots, magic_cube_3x3_exploded, magic_cube_4x4_block, stick_figure, image_onion, burumut_block, image, other"
+        },
+        "description": {"type": "string"},
+        "components": {"type": "array", "items": {"type": "string"}},
+        "vision_verified": {"type": "boolean"}
+      }
+    },
+    "digit": {
+      "type": "object",
+      "required": ["value", "bbox"],
+      "additionalProperties": true,
+      "properties": {
+        "value": {"type": "string", "pattern": "^[0-9]+$"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "color": {
+          "type": "string",
+          "enum": ["black", "red", "blue", "orange", "green", "other"]
+        }
+      }
+    },
+    "formula": {
+      "type": "object",
+      "required": ["raw", "bbox", "symbols"],
+      "additionalProperties": true,
+      "properties": {
+        "raw": {"type": "string", "description": "Verbatim formula text"},
+        "bbox": {
+          "type": "array",
+          "items": {"type": "integer", "minimum": 0},
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "symbols": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Each token (digits, operators, letters)"
+        },
+        "color": {"type": "string"}
+      }
+    }
+  }
+}

@@ -1,0 +1,1906 @@
+{
+  "page_id": "p01",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "source_pixel": "p01.json",
+  "source_vision": "p01_page.json",
+  "n_regions": 20,
+  "n_text_words": 138,
+  "n_blank_regions": 2,
+  "n_colored_regions": 0,
+  "n_glyphs_vision": 2,
+  "regions": [
+    {
+      "region_id": "p01_R01",
+      "bbox": [
+        21,
+        1622,
+        1083,
+        3
+      ],
+      "classification": "footer",
+      "description": "Page footer (bottom of page)",
+      "text_words": [
+        {
+          "text": "",
+          "bbox": [
+            21,
+            1622,
+            1083,
+            3
+          ],
+          "conf_tesseract": 95.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R02",
+      "bbox": [
+        537,
+        1251,
+        24,
+        22
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Thick, irregular black ring with an oval-shaped white hole in the center, resembling a stylized eye or donut shape.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p01",
+          "bbox": [
+            537,
+            1251,
+            24,
+            22
+          ],
+          "crop_path": "bbox/crops/p01_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R03",
+      "bbox": [
+        808,
+        1070,
+        14,
+        22
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_UNKNOWN_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "Two capital letter 'X' characters printed in a serif font, with what appears to be an apostrophe or punctuation mark before the first X.",
+          "unicode_codepoint": "U+0058",
+          "vision_confidence": 0.85,
+          "page": "p01",
+          "bbox": [
+            808,
+            1070,
+            14,
+            22
+          ],
+          "crop_path": "bbox/crops/p01_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R04",
+      "bbox": [
+        470,
+        252,
+        186,
+        96
+      ],
+      "classification": "text_line",
+      "description": "Text line: 137",
+      "text_words": [
+        {
+          "text": "137",
+          "bbox": [
+            470,
+            252,
+            186,
+            96
+          ],
+          "conf_tesseract": 95.435265,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R05",
+      "bbox": [
+        196,
+        421,
+        733,
+        42
+      ],
+      "classification": "text_line",
+      "description": "Text line: O XY I§HThIM BISUMRT MrE€dTh",
+      "text_words": [
+        {
+          "text": "O",
+          "bbox": [
+            391,
+            421,
+            18,
+            42
+          ],
+          "conf_tesseract": 64.129356,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XY",
+          "bbox": [
+            689,
+            421,
+            25,
+            42
+          ],
+          "conf_tesseract": 70.521393,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I§HThIM",
+          "bbox": [
+            268,
+            425,
+            141,
+            25
+          ],
+          "conf_tesseract": 16.115677,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BISUMRT",
+          "bbox": [
+            420,
+            425,
+            150,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "MrE€dTh",
+          "bbox": [
+            820,
+            425,
+            109,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D>«",
+          "bbox": [
+            196,
+            426,
+            59,
+            24
+          ],
+          "conf_tesseract": 13.723343,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            578,
+            426,
+            27,
+            24
+          ],
+          "conf_tesseract": 89.979248,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TAH",
+          "bbox": [
+            614,
+            426,
+            103,
+            24
+          ],
+          "conf_tesseract": 69.39444,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3h",
+          "bbox": [
+            727,
+            426,
+            49,
+            24
+          ],
+          "conf_tesseract": 19.444519,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            789,
+            426,
+            20,
+            24
+          ],
+          "conf_tesseract": 70.212219,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R06",
+      "bbox": [
+        198,
+        465,
+        732,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: € I DABYY® THITR §33",
+      "text_words": [
+        {
+          "text": "€",
+          "bbox": [
+            369,
+            465,
+            11,
+            25
+          ],
+          "conf_tesseract": 44.322048,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            198,
+            466,
+            16,
+            24
+          ],
+          "conf_tesseract": 72.712372,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DABYY®",
+          "bbox": [
+            225,
+            466,
+            111,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "THITR",
+          "bbox": [
+            381,
+            466,
+            116,
+            24
+          ],
+          "conf_tesseract": 18.453056,
+          "verified_by_vision": false
+        },
+        {
+          "text": "§33",
+          "bbox": [
+            507,
+            466,
+            51,
+            24
+          ],
+          "conf_tesseract": 23.613655,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©5d",
+          "bbox": [
+            569,
+            466,
+            68,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "N4",
+          "bbox": [
+            649,
+            466,
+            81,
+            24
+          ],
+          "conf_tesseract": 8.4785,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HIIPAA",
+          "bbox": [
+            741,
+            466,
+            101,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "133",
+          "bbox": [
+            851,
+            466,
+            51,
+            24
+          ],
+          "conf_tesseract": 74.572739,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D",
+          "bbox": [
+            913,
+            466,
+            17,
+            24
+          ],
+          "conf_tesseract": 74.572739,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            346,
+            474,
+            7,
+            7
+          ],
+          "conf_tesseract": 73.804703,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R07",
+      "bbox": [
+        205,
+        506,
+        724,
+        28
+      ],
+      "classification": "text_line",
+      "description": "Text line: 1> 320 d8>4h I3h 33T,",
+      "text_words": [
+        {
+          "text": "1>",
+          "bbox": [
+            205,
+            506,
+            21,
+            24
+          ],
+          "conf_tesseract": 77.909546,
+          "verified_by_vision": false
+        },
+        {
+          "text": "320",
+          "bbox": [
+            236,
+            506,
+            50,
+            24
+          ],
+          "conf_tesseract": 44.354523,
+          "verified_by_vision": false
+        },
+        {
+          "text": "d8>4h",
+          "bbox": [
+            296,
+            506,
+            84,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3h",
+          "bbox": [
+            390,
+            506,
+            50,
+            24
+          ],
+          "conf_tesseract": 7.941818,
+          "verified_by_vision": false
+        },
+        {
+          "text": "33T,",
+          "bbox": [
+            449,
+            506,
+            58,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "OXThI>A",
+          "bbox": [
+            519,
+            506,
+            145,
+            28
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "dANT",
+          "bbox": [
+            675,
+            506,
+            53,
+            24
+          ],
+          "conf_tesseract": 26.455544,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">d<",
+          "bbox": [
+            739,
+            506,
+            55,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Tiddh",
+          "bbox": [
+            803,
+            506,
+            77,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            889,
+            506,
+            40,
+            24
+          ],
+          "conf_tesseract": 40.386177,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R08",
+      "bbox": [
+        456,
+        546,
+        227,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: IXATR PN T *",
+      "text_words": [
+        {
+          "text": "IXATR",
+          "bbox": [
+            476,
+            546,
+            85,
+            25
+          ],
+          "conf_tesseract": 20.96772,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PN",
+          "bbox": [
+            570,
+            546,
+            87,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            667,
+            546,
+            16,
+            24
+          ],
+          "conf_tesseract": 22.94812,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            456,
+            555,
+            7,
+            7
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R09",
+      "bbox": [
+        210,
+        626,
+        720,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: 3rdQ € TIRAMIRS $3D LT",
+      "text_words": [
+        {
+          "text": "3rdQ",
+          "bbox": [
+            210,
+            626,
+            77,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€",
+          "bbox": [
+            300,
+            626,
+            12,
+            25
+          ],
+          "conf_tesseract": 36.355789,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TIRAMIRS",
+          "bbox": [
+            314,
+            627,
+            168,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "$3D",
+          "bbox": [
+            511,
+            627,
+            47,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "LT",
+          "bbox": [
+            568,
+            627,
+            116,
+            24
+          ],
+          "conf_tesseract": 13.969284,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YYTO",
+          "bbox": [
+            692,
+            627,
+            77,
+            24
+          ],
+          "conf_tesseract": 58.033363,
+          "verified_by_vision": false
+        },
+        {
+          "text": "JhNTHMD",
+          "bbox": [
+            778,
+            627,
+            152,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            493,
+            635,
+            6,
+            7
+          ],
+          "conf_tesseract": 31.875107,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R10",
+      "bbox": [
+        200,
+        666,
+        730,
+        29
+      ],
+      "classification": "text_line",
+      "description": "Text line: CHTRITYTR hM€UHX ©5) 34>K 3D",
+      "text_words": [
+        {
+          "text": "CHTRITYTR",
+          "bbox": [
+            200,
+            666,
+            162,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hM€UHX",
+          "bbox": [
+            453,
+            666,
+            92,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©5)",
+          "bbox": [
+            389,
+            667,
+            52,
+            24
+          ],
+          "conf_tesseract": 36.582191,
+          "verified_by_vision": false
+        },
+        {
+          "text": "34>K",
+          "bbox": [
+            557,
+            667,
+            74,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3D",
+          "bbox": [
+            642,
+            667,
+            46,
+            24
+          ],
+          "conf_tesseract": 31.899284,
+          "verified_by_vision": false
+        },
+        {
+          "text": "T",
+          "bbox": [
+            697,
+            667,
+            43,
+            28
+          ],
+          "conf_tesseract": 34.234879,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FRITYIR",
+          "bbox": [
+            749,
+            667,
+            125,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">>D",
+          "bbox": [
+            883,
+            667,
+            47,
+            24
+          ],
+          "conf_tesseract": 9.725685,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            371,
+            675,
+            6,
+            7
+          ],
+          "conf_tesseract": 3.082504,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R11",
+      "bbox": [
+        197,
+        707,
+        725,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: MYYT® »>D FEXTYO»I3 Jhro D>",
+      "text_words": [
+        {
+          "text": "MYYT®",
+          "bbox": [
+            197,
+            707,
+            108,
+            24
+          ],
+          "conf_tesseract": 11.9776,
+          "verified_by_vision": false
+        },
+        {
+          "text": "»>D",
+          "bbox": [
+            316,
+            707,
+            46,
+            24
+          ],
+          "conf_tesseract": 56.467743,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FEXTYO»I3",
+          "bbox": [
+            372,
+            707,
+            157,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Jhro",
+          "bbox": [
+            540,
+            707,
+            72,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "D>",
+          "bbox": [
+            623,
+            707,
+            58,
+            24
+          ],
+          "conf_tesseract": 23.625023,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€",
+          "bbox": [
+            715,
+            707,
+            10,
+            25
+          ],
+          "conf_tesseract": 0.379044,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TO0d",
+          "bbox": [
+            727,
+            707,
+            106,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "8D",
+          "bbox": [
+            845,
+            707,
+            45,
+            24
+          ],
+          "conf_tesseract": 45.763149,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IT",
+          "bbox": [
+            902,
+            707,
+            20,
+            24
+          ],
+          "conf_tesseract": 87.82811,
+          "verified_by_vision": false
+        },
+        {
+          "text": "»",
+          "bbox": [
+            692,
+            715,
+            7,
+            8
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R12",
+      "bbox": [
+        201,
+        743,
+        728,
+        42
+      ],
+      "classification": "text_line",
+      "description": "Text line: AT 22D PR ™3> FIh",
+      "text_words": [
+        {
+          "text": "AT",
+          "bbox": [
+            844,
+            743,
+            32,
+            42
+          ],
+          "conf_tesseract": 67.867859,
+          "verified_by_vision": false
+        },
+        {
+          "text": "22D",
+          "bbox": [
+            201,
+            747,
+            54,
+            29
+          ],
+          "conf_tesseract": 46.569733,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PR",
+          "bbox": [
+            265,
+            747,
+            107,
+            25
+          ],
+          "conf_tesseract": 31.300217,
+          "verified_by_vision": false
+        },
+        {
+          "text": "™3>",
+          "bbox": [
+            380,
+            747,
+            91,
+            25
+          ],
+          "conf_tesseract": 37.224957,
+          "verified_by_vision": false
+        },
+        {
+          "text": "FIh",
+          "bbox": [
+            481,
+            747,
+            49,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I3TY",
+          "bbox": [
+            540,
+            747,
+            66,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ht",
+          "bbox": [
+            638,
+            747,
+            32,
+            25
+          ],
+          "conf_tesseract": 14.589912,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TRATHhISTY",
+          "bbox": [
+            675,
+            747,
+            204,
+            25
+          ],
+          "conf_tesseract": 2.514946,
+          "verified_by_vision": false
+        },
+        {
+          "text": "X!",
+          "bbox": [
+            889,
+            747,
+            40,
+            25
+          ],
+          "conf_tesseract": 46.490765,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            616,
+            756,
+            6,
+            7
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R13",
+      "bbox": [
+        246,
+        787,
+        647,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: € BDESITMIXO> YThhIR TIhANTRE YYTO",
+      "text_words": [
+        {
+          "text": "€",
+          "bbox": [
+            389,
+            787,
+            13,
+            25
+          ],
+          "conf_tesseract": 36.345184,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BDESITMIXO>",
+          "bbox": [
+            582,
+            787,
+            169,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YThhIR",
+          "bbox": [
+            264,
+            788,
+            114,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TIhANTRE",
+          "bbox": [
+            403,
+            788,
+            169,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YYTO",
+          "bbox": [
+            759,
+            788,
+            77,
+            24
+          ],
+          "conf_tesseract": 68.58522,
+          "verified_by_vision": false
+        },
+        {
+          "text": ">>D",
+          "bbox": [
+            846,
+            788,
+            47,
+            24
+          ],
+          "conf_tesseract": 26.881775,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            246,
+            796,
+            7,
+            7
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R14",
+      "bbox": [
+        205,
+        867,
+        724,
+        30
+      ],
+      "classification": "text_line",
+      "description": "Text line: TEIY 5\t1\t4\t1\t1\t3\t355\t867\t101\t25\t0.000000\tIOLTH 5\t1\t4\t1\t1\t5\t485\t867\t70\t25\t0.000000\tJETh ITRED DK",
+      "text_words": [
+        {
+          "text": "TEIY",
+          "bbox": [
+            205,
+            867,
+            121,
+            29
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "5\t1\t4\t1\t1\t3\t355\t867\t101\t25\t0.000000\tIOLTH",
+          "bbox": [
+            341,
+            867,
+            10,
+            30
+          ],
+          "conf_tesseract": 32.613487,
+          "verified_by_vision": false
+        },
+        {
+          "text": "5\t1\t4\t1\t1\t5\t485\t867\t70\t25\t0.000000\tJETh",
+          "bbox": [
+            470,
+            867,
+            11,
+            29
+          ],
+          "conf_tesseract": 34.835571,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITRED",
+          "bbox": [
+            587,
+            868,
+            78,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DK",
+          "bbox": [
+            675,
+            868,
+            70,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Yo",
+          "bbox": [
+            756,
+            868,
+            51,
+            24
+          ],
+          "conf_tesseract": 37.691246,
+          "verified_by_vision": false
+        },
+        {
+          "text": "M",
+          "bbox": [
+            824,
+            868,
+            6,
+            24
+          ],
+          "conf_tesseract": 9.289894,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€diTh",
+          "bbox": [
+            832,
+            868,
+            97,
+            24
+          ],
+          "conf_tesseract": 8.602997,
+          "verified_by_vision": false
+        },
+        {
+          "text": "-",
+          "bbox": [
+            566,
+            877,
+            7,
+            6
+          ],
+          "conf_tesseract": 21.37793,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R15",
+      "bbox": [
+        200,
+        908,
+        727,
+        29
+      ],
+      "classification": "text_line",
+      "description": "Text line: PUINE TG M) ITEHTX\" BB",
+      "text_words": [
+        {
+          "text": "PUINE",
+          "bbox": [
+            200,
+            908,
+            99,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TG",
+          "bbox": [
+            309,
+            908,
+            152,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "M)",
+          "bbox": [
+            472,
+            908,
+            31,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "ITEHTX\"",
+          "bbox": [
+            513,
+            908,
+            128,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BB",
+          "bbox": [
+            679,
+            908,
+            56,
+            29
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "AL,",
+          "bbox": [
+            749,
+            908,
+            59,
+            29
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "XN",
+          "bbox": [
+            812,
+            908,
+            115,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R16",
+      "bbox": [
+        445,
+        948,
+        249,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: TR IS 1> I",
+      "text_words": [
+        {
+          "text": "TR",
+          "bbox": [
+            445,
+            948,
+            98,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IS",
+          "bbox": [
+            555,
+            948,
+            54,
+            25
+          ],
+          "conf_tesseract": 36.014244,
+          "verified_by_vision": false
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            620,
+            949,
+            26,
+            24
+          ],
+          "conf_tesseract": 75.277138,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            656,
+            949,
+            38,
+            24
+          ],
+          "conf_tesseract": 24.208176,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R17",
+      "bbox": [
+        199,
+        1028,
+        730,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: [HETT €diTh |het'r3 SOTBHMRT HITYA",
+      "text_words": [
+        {
+          "text": "[HETT",
+          "bbox": [
+            503,
+            1028,
+            67,
+            25
+          ],
+          "conf_tesseract": 17.554634,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€diTh",
+          "bbox": [
+            832,
+            1028,
+            97,
+            25
+          ],
+          "conf_tesseract": 8.466499,
+          "verified_by_vision": false
+        },
+        {
+          "text": "|het'r3",
+          "bbox": [
+            234,
+            1029,
+            76,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "SOTBHMRT",
+          "bbox": [
+            322,
+            1029,
+            150,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HITYA",
+          "bbox": [
+            583,
+            1029,
+            89,
+            24
+          ],
+          "conf_tesseract": 61.828354,
+          "verified_by_vision": false
+        },
+        {
+          "text": "5D",
+          "bbox": [
+            682,
+            1029,
+            46,
+            24
+          ],
+          "conf_tesseract": 4.204819,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            737,
+            1029,
+            72,
+            24
+          ],
+          "conf_tesseract": 17.265968,
+          "verified_by_vision": false
+        },
+        {
+          "text": "M",
+          "bbox": [
+            825,
+            1029,
+            5,
+            24
+          ],
+          "conf_tesseract": 8.466499,
+          "verified_by_vision": false
+        },
+        {
+          "text": "©",
+          "bbox": [
+            199,
+            1030,
+            23,
+            22
+          ],
+          "conf_tesseract": 89.502998,
+          "verified_by_vision": false
+        },
+        {
+          "text": "«",
+          "bbox": [
+            482,
+            1037,
+            7,
+            7
+          ],
+          "conf_tesseract": 48.600456,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R18",
+      "bbox": [
+        200,
+        1065,
+        729,
+        41
+      ],
+      "classification": "text_line",
+      "description": "Text line: O PIITTATX BI2A Tbd 3D",
+      "text_words": [
+        {
+          "text": "O",
+          "bbox": [
+            684,
+            1065,
+            11,
+            41
+          ],
+          "conf_tesseract": 37.541237,
+          "verified_by_vision": false
+        },
+        {
+          "text": "PIITTATX",
+          "bbox": [
+            200,
+            1069,
+            138,
+            24
+          ],
+          "conf_tesseract": 13.17852,
+          "verified_by_vision": false
+        },
+        {
+          "text": "BI2A",
+          "bbox": [
+            349,
+            1069,
+            80,
+            24
+          ],
+          "conf_tesseract": 13.760872,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Tbd",
+          "bbox": [
+            438,
+            1069,
+            54,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3D",
+          "bbox": [
+            503,
+            1069,
+            27,
+            24
+          ],
+          "conf_tesseract": 40.753395,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IGHTHM",
+          "bbox": [
+            560,
+            1069,
+            141,
+            25
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "W'T",
+          "bbox": [
+            712,
+            1069,
+            35,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HIXXM",
+          "bbox": [
+            757,
+            1069,
+            104,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I",
+          "bbox": [
+            872,
+            1069,
+            57,
+            24
+          ],
+          "conf_tesseract": 44.248348,
+          "verified_by_vision": false
+        },
+        {
+          "text": "<",
+          "bbox": [
+            540,
+            1078,
+            7,
+            7
+          ],
+          "conf_tesseract": 24.482986,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R19",
+      "bbox": [
+        203,
+        1109,
+        718,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: 8T+ €4 Th o> II",
+      "text_words": [
+        {
+          "text": "8T+",
+          "bbox": [
+            335,
+            1109,
+            47,
+            25
+          ],
+          "conf_tesseract": 23.894058,
+          "verified_by_vision": false
+        },
+        {
+          "text": "€4",
+          "bbox": [
+            615,
+            1109,
+            29,
+            25
+          ],
+          "conf_tesseract": 58.050709,
+          "verified_by_vision": false
+        },
+        {
+          "text": "Th",
+          "bbox": [
+            203,
+            1110,
+            27,
+            24
+          ],
+          "conf_tesseract": 60.411873,
+          "verified_by_vision": false
+        },
+        {
+          "text": "o>",
+          "bbox": [
+            240,
+            1110,
+            53,
+            24
+          ],
+          "conf_tesseract": 36.459061,
+          "verified_by_vision": false
+        },
+        {
+          "text": "II",
+          "bbox": [
+            305,
+            1110,
+            20,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "DIB",
+          "bbox": [
+            394,
+            1110,
+            54,
+            24
+          ],
+          "conf_tesseract": 80.608818,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IFh",
+          "bbox": [
+            460,
+            1110,
+            54,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YTHD)",
+          "bbox": [
+            523,
+            1110,
+            78,
+            24
+          ],
+          "conf_tesseract": 25.155678,
+          "verified_by_vision": false
+        },
+        {
+          "text": "TSR",
+          "bbox": [
+            653,
+            1110,
+            91,
+            24
+          ],
+          "conf_tesseract": 29.34066,
+          "verified_by_vision": false
+        },
+        {
+          "text": "I8",
+          "bbox": [
+            753,
+            1110,
+            71,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "YIS",
+          "bbox": [
+            834,
+            1110,
+            87,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p01_R20",
+      "bbox": [
+        390,
+        1149,
+        343,
+        25
+      ],
+      "classification": "text_line",
+      "description": "Text line: 8 hIPALI 3R HTTY IR",
+      "text_words": [
+        {
+          "text": "8",
+          "bbox": [
+            654,
+            1149,
+            31,
+            25
+          ],
+          "conf_tesseract": 47.339115,
+          "verified_by_vision": false
+        },
+        {
+          "text": "hIPALI",
+          "bbox": [
+            410,
+            1150,
+            101,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "3R",
+          "bbox": [
+            522,
+            1150,
+            50,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "HTTY",
+          "bbox": [
+            583,
+            1150,
+            61,
+            24
+          ],
+          "conf_tesseract": 0.0,
+          "verified_by_vision": false
+        },
+        {
+          "text": "IR",
+          "bbox": [
+            695,
+            1150,
+            38,
+            24
+          ],
+          "conf_tesseract": 42.096092,
+          "verified_by_vision": false
+        },
+        {
+          "text": "*",
+          "bbox": [
+            390,
+            1158,
+            7,
+            7
+          ],
+          "conf_tesseract": 36.746441,
+          "verified_by_vision": false
+        }
+      ],
+      "symbols": [],
+      "drawings": [],
+      "uncertain": []
+    }
+  ],
+  "vision_description": "",
+  "vision_classification": "",
+  "stats": {
+    "n_regions": 20,
+    "n_text_words": 138,
+    "n_symbols": 2,
+    "n_drawings": 0,
+    "n_uncertain": 0,
+    "classifications": {
+      "footer": 1,
+      "geometric_circle": 1,
+      "latin_print": 1,
+      "text_line": 17
+    },
+    "top_clusters": {
+      "GEOM_UNKNOWN_0002": 2
+    }
+  }
+}
