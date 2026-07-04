@@ -1,0 +1,127 @@
+{
+  "burumut_length": 154,
+  "burumut_lines": [
+    "BURUMUTREFAMTU",
+    "NURESUTREGUMFA",
+    "YAPSUAZBEHIMLA",
+    "ZANRUAZBENOMBA",
+    "TOBIKOTLUBUMYO",
+    "SUNOKURGANOZYI",
+    "OKUZIKUFAUSIHE",
+    "YABEKANSABERHO",
+    "NAFERANSAHOTFE",
+    "KOREMORBIZUMRO",
+    "SUNAKIRFANEMBA"
+  ],
+  "aa_counts": {
+    "B": 10,
+    "U": 18,
+    "R": 12,
+    "M": 9,
+    "T": 6,
+    "E": 12,
+    "F": 6,
+    "A": 19,
+    "N": 10,
+    "S": 7,
+    "G": 2,
+    "Y": 4,
+    "P": 1,
+    "Z": 6,
+    "H": 4,
+    "I": 7,
+    "L": 2,
+    "O": 12,
+    "K": 7
+  },
+  "aa_percent": {
+    "B": 6.49,
+    "U": 11.69,
+    "R": 7.79,
+    "M": 5.84,
+    "T": 3.9,
+    "E": 7.79,
+    "F": 3.9,
+    "A": 12.34,
+    "N": 6.49,
+    "S": 4.55,
+    "G": 1.3,
+    "Y": 2.6,
+    "P": 0.65,
+    "Z": 3.9,
+    "H": 2.6,
+    "I": 4.55,
+    "L": 1.3,
+    "O": 7.79,
+    "K": 4.55
+  },
+  "missing_standard_aa": [
+    "C",
+    "D",
+    "Q",
+    "V",
+    "W"
+  ],
+  "net_charge_ph7": 21.0,
+  "classes": {
+    "Basisch (R, K, H)": {
+      "present": [
+        "R",
+        "K",
+        "H"
+      ],
+      "absent": [],
+      "n": 23
+    },
+    "Sauer (D, E)": {
+      "present": [
+        "E"
+      ],
+      "absent": [
+        "D"
+      ],
+      "n": 12
+    },
+    "Polar (N, Q, S, T, Y)": {
+      "present": [
+        "N",
+        "S",
+        "T",
+        "Y"
+      ],
+      "absent": [
+        "Q"
+      ],
+      "n": 27
+    },
+    "Hydrophob (A, V, L, I, M, F, W, P, G, C)": {
+      "present": [
+        "A",
+        "L",
+        "I",
+        "M",
+        "F",
+        "P",
+        "G"
+      ],
+      "absent": [
+        "V",
+        "W",
+        "C"
+      ],
+      "n": 46
+    },
+    "Selten (O, U, J, B, Z)": {
+      "present": [
+        "O",
+        "U",
+        "B",
+        "Z"
+      ],
+      "absent": [
+        "J"
+      ],
+      "n": 46
+    }
+  }
+}

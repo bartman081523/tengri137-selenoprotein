@@ -1,0 +1,634 @@
+{
+  "totals": {
+    "pages": 23,
+    "regions": 492,
+    "glyphs_total": 997,
+    "glyphs_with_vision": 255,
+    "glyphs_without_vision": 742,
+    "latin_tokens": 456
+  },
+  "region_types": {
+    "numeric_table": 14,
+    "latin_text": 355,
+    "single_glyph": 13,
+    "graphic_line": 15,
+    "glyph_raster": 7,
+    "footer": 20,
+    "glyph_block": 15,
+    "formula_block": 49,
+    "magic_cube": 1,
+    "header": 2,
+    "burumut_block": 1
+  },
+  "vision_kinds": {
+    "geometric_bracket": 92,
+    "other": 52,
+    "unknown": 32,
+    "geometric_diamond_with_dot": 12,
+    "turkic_round_rune": 7,
+    "geometric_filled_square": 1,
+    "punctum": 12,
+    "geometric_circle": 9,
+    "geometric_diamond": 12,
+    "line": 5,
+    "magic_cube_3x3": 1,
+    "odin_triple_horn": 1,
+    "geometric_circle_with_dot": 1,
+    "digit": 3,
+    "math_pi": 1,
+    "math_times": 13,
+    "math_exponentiation": 1
+  },
+  "cluster_ids": {
+    "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010": 35,
+    "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0009": 37,
+    "GEOM_MEDIUM_MATH_TIMES_0017": 85,
+    "GEOM_MEDIUM_MATH_TIMES_0018": 294,
+    "GEOM_MEDIUM_PUNCTUM_0013": 93,
+    "GEOM_MEDIUM_GEOMETRIC_CIRCLE_WIT_0008": 189,
+    "GEOM_MEDIUM_OTHER_0015": 13,
+    "GEOM_MEDIUM_UNKNOWN_0012": 23,
+    "GEOM_MEDIUM_LINE_0020": 5,
+    "GEOM_MEDIUM_UNKNOWN_0024": 15,
+    "GEOM_MEDIUM_UNKNOWN_0014": 5,
+    "GEOM_MEDIUM_UNKNOWN_0007": 3,
+    "GEOM_MEDIUM_UNKNOWN_0004": 6,
+    "GEOM_MEDIUM_UNKNOWN_0005": 32,
+    "GEOM_MEDIUM_UNKNOWN_0002": 53,
+    "GEOM_MEDIUM_OTHER_0021": 15,
+    "GEOM_MEDIUM_UNKNOWN_0003": 58,
+    "GEOM_MEDIUM_UNKNOWN_0023": 4,
+    "GEOM_MEDIUM_OTHER_0011": 16,
+    "GEOM_MEDIUM_UNKNOWN_0001": 3,
+    "GEOM_MEDIUM_UNKNOWN_0006": 3,
+    "GEOM_MEDIUM_UNKNOWN_0019": 2,
+    "GEOM_MEDIUM_MATH_TIMES_0016": 7,
+    "GEOM_MEDIUM_SINGLETON_0022": 1
+  },
+  "glyph_type_hints": {
+    "unknown": 332,
+    "complex_symbol": 486,
+    "horizontal_line": 24,
+    "geometric_symbol": 42,
+    "punctum": 96,
+    "vertical_line": 17
+  },
+  "latin_sources": {
+    "schmeh_hint": 266,
+    "vision": 88,
+    "schmeh_complete": 102
+  },
+  "glyphs_per_page": {
+    "p01": 29,
+    "p02": 34,
+    "p03": 43,
+    "p04": 26,
+    "p05": 116,
+    "p06": 121,
+    "p07": 27,
+    "p08": 67,
+    "p09": 18,
+    "p10": 38,
+    "p11": 55,
+    "p12": 45,
+    "p13": 54,
+    "p14": 56,
+    "p15": 48,
+    "p16": 38,
+    "p17": 24,
+    "p18": 24,
+    "p19": 26,
+    "p20": 43,
+    "p21": 16,
+    "p22": 19,
+    "p23": 30
+  },
+  "glyphs_per_region_type": {
+    "numeric_table": 46,
+    "latin_text": 701,
+    "single_glyph": 13,
+    "graphic_line": 55,
+    "glyph_raster": 37,
+    "footer": 20,
+    "glyph_block": 51,
+    "formula_block": 61,
+    "magic_cube": 9,
+    "header": 4
+  },
+  "glyphs_per_vision_kind": {
+    "geometric_bracket": 92,
+    "other": 52,
+    "unknown": 32,
+    "geometric_diamond_with_dot": 12,
+    "turkic_round_rune": 7,
+    "geometric_filled_square": 1,
+    "punctum": 12,
+    "geometric_circle": 9,
+    "geometric_diamond": 12,
+    "line": 5,
+    "magic_cube_3x3": 1,
+    "odin_triple_horn": 1,
+    "geometric_circle_with_dot": 1,
+    "digit": 3,
+    "math_pi": 1,
+    "math_times": 13,
+    "math_exponentiation": 1
+  },
+  "latin_geo": {
+    "schmeh_hint|numeric_table": 6,
+    "schmeh_hint|latin_text": 200,
+    "vision|latin_text": 51,
+    "schmeh_complete|latin_text": 91,
+    "vision|formula_block": 21,
+    "schmeh_hint|single_glyph": 8,
+    "schmeh_hint|glyph_block": 7,
+    "schmeh_hint|glyph_raster": 5,
+    "schmeh_hint|formula_block": 36,
+    "schmeh_hint|graphic_line": 1,
+    "schmeh_hint|footer": 3,
+    "vision|header": 16,
+    "schmeh_complete|burumut_block": 11
+  },
+  "high_conf_vision_latin": [
+    {
+      "page": "p01",
+      "region": "p01_R5",
+      "text": "IX",
+      "conf": 0.85
+    },
+    {
+      "page": "p01",
+      "region": "p01_R11",
+      "text": "I CAN READ",
+      "conf": 0.96
+    },
+    {
+      "page": "p04",
+      "region": "p04_R2",
+      "text": "Y",
+      "conf": 0.95
+    },
+    {
+      "page": "p05",
+      "region": "p05_R14",
+      "text": "IF",
+      "conf": 0.85
+    },
+    {
+      "page": "p05",
+      "region": "p05_R14",
+      "text": "IS",
+      "conf": 0.85
+    },
+    {
+      "page": "p05",
+      "region": "p05_R16",
+      "text": "\"",
+      "conf": 0.95
+    },
+    {
+      "page": "p07",
+      "region": "p07_R7",
+      "text": "H",
+      "conf": 0.85
+    },
+    {
+      "page": "p07",
+      "region": "p07_R7",
+      "text": "H",
+      "conf": 0.85
+    },
+    {
+      "page": "p07",
+      "region": "p07_R7",
+      "text": "H",
+      "conf": 0.85
+    },
+    {
+      "page": "p08",
+      "region": "p08_R19",
+      "text": "D",
+      "conf": 0.9
+    },
+    {
+      "page": "p09",
+      "region": "p09_R5",
+      "text": "DINARY",
+      "conf": 0.85
+    },
+    {
+      "page": "p09",
+      "region": "p09_R5",
+      "text": "INDIVIDUALS",
+      "conf": 0.85
+    },
+    {
+      "page": "p10",
+      "region": "p10_R9",
+      "text": "EXY",
+      "conf": 0.85
+    },
+    {
+      "page": "p10",
+      "region": "p10_R19",
+      "text": "H",
+      "conf": 0.85
+    },
+    {
+      "page": "p10",
+      "region": "p10_R19",
+      "text": "D",
+      "conf": 0.85
+    },
+    {
+      "page": "p11",
+      "region": "p11_R2",
+      "text": "N.",
+      "conf": 0.85
+    },
+    {
+      "page": "p11",
+      "region": "p11_R2",
+      "text": "A",
+      "conf": 0.9
+    },
+    {
+      "page": "p11",
+      "region": "p11_R2",
+      "text": "COMPLETE",
+      "conf": 0.85
+    },
+    {
+      "page": "p11",
+      "region": "p11_R2",
+      "text": "GAPS",
+      "conf": 0.85
+    },
+    {
+      "page": "p11",
+      "region": "p11_R2",
+      "text": "THE",
+      "conf": 0.9
+    },
+    {
+      "page": "p11",
+      "region": "p11_R9",
+      "text": "D",
+      "conf": 0.95
+    },
+    {
+      "page": "p15",
+      "region": "p15_R6",
+      "text": "D",
+      "conf": 0.85
+    },
+    {
+      "page": "p15",
+      "region": "p15_R6",
+      "text": "H",
+      "conf": 0.85
+    },
+    {
+      "page": "p17",
+      "region": "p17_R16",
+      "text": "x",
+      "conf": 0.95
+    },
+    {
+      "page": "p17",
+      "region": "p17_R16",
+      "text": "x",
+      "conf": 0.95
+    },
+    {
+      "page": "p17",
+      "region": "p17_R16",
+      "text": "x",
+      "conf": 0.95
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "7",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "x",
+      "conf": 0.85
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "103",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "x",
+      "conf": 0.85
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "20894347",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "x",
+      "conf": 0.85
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "96597344975787088534999",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "3",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "2",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "x",
+      "conf": 0.85
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "5",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "x",
+      "conf": 0.85
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "505123",
+      "conf": 0.99
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "x",
+      "conf": 0.85
+    },
+    {
+      "page": "p19",
+      "region": "p19_R13",
+      "text": "16098000200684290000046401",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R1",
+      "text": "NH",
+      "conf": 0.97
+    },
+    {
+      "page": "p23",
+      "region": "p23_R1",
+      "text": "O",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R3",
+      "text": "N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R3",
+      "text": "C",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R3",
+      "text": "CH",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R3",
+      "text": "HN",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R3",
+      "text": "C",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R3",
+      "text": "CH",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "HC",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "C",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "H",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "C",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "H",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "H2N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "C",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "C",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "N",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R4",
+      "text": "H",
+      "conf": 0.95
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "NH2",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "C",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "N",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "CH",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "C",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "O",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "NH",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "O",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "C",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "CH3",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "HN",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "C",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "O",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "C",
+      "conf": 0.99
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "NH",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "CH",
+      "conf": 0.98
+    },
+    {
+      "page": "p23",
+      "region": "p23_R17",
+      "text": "N",
+      "conf": 0.99
+    }
+  ]
+}

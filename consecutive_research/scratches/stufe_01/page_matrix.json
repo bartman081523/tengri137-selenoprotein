@@ -1,0 +1,305 @@
+{
+  "page_region_matrix": {
+    "p01": {
+      "numeric_table": 1,
+      "latin_text": 17,
+      "single_glyph": 1,
+      "graphic_line": 1
+    },
+    "p02": {
+      "latin_text": 16,
+      "graphic_line": 2,
+      "glyph_raster": 1,
+      "footer": 1
+    },
+    "p03": {
+      "latin_text": 20,
+      "glyph_block": 2,
+      "footer": 1
+    },
+    "p04": {
+      "latin_text": 19,
+      "single_glyph": 1,
+      "footer": 1
+    },
+    "p05": {
+      "latin_text": 27,
+      "graphic_line": 3,
+      "glyph_block": 1
+    },
+    "p06": {
+      "latin_text": 25,
+      "graphic_line": 3,
+      "numeric_table": 4,
+      "footer": 1
+    },
+    "p07": {
+      "latin_text": 13,
+      "formula_block": 1,
+      "glyph_block": 1,
+      "numeric_table": 1,
+      "footer": 1
+    },
+    "p08": {
+      "latin_text": 14,
+      "graphic_line": 2,
+      "single_glyph": 2,
+      "numeric_table": 1,
+      "magic_cube": 1,
+      "footer": 1
+    },
+    "p09": {
+      "latin_text": 13,
+      "graphic_line": 1
+    },
+    "p10": {
+      "latin_text": 21,
+      "formula_block": 1,
+      "single_glyph": 1,
+      "footer": 1
+    },
+    "p11": {
+      "latin_text": 20,
+      "glyph_block": 2,
+      "glyph_raster": 1,
+      "footer": 1
+    },
+    "p12": {
+      "latin_text": 21,
+      "single_glyph": 2,
+      "glyph_block": 1,
+      "footer": 1
+    },
+    "p13": {
+      "glyph_block": 2,
+      "single_glyph": 1,
+      "latin_text": 19,
+      "footer": 1
+    },
+    "p14": {
+      "latin_text": 17,
+      "single_glyph": 2,
+      "glyph_raster": 2,
+      "formula_block": 1,
+      "footer": 1
+    },
+    "p15": {
+      "latin_text": 21,
+      "footer": 1
+    },
+    "p16": {
+      "latin_text": 17,
+      "glyph_raster": 1,
+      "glyph_block": 1,
+      "footer": 1
+    },
+    "p17": {
+      "formula_block": 11,
+      "latin_text": 5,
+      "numeric_table": 2,
+      "graphic_line": 1
+    },
+    "p18": {
+      "formula_block": 9,
+      "latin_text": 6,
+      "numeric_table": 2,
+      "footer": 1
+    },
+    "p19": {
+      "formula_block": 7,
+      "latin_text": 10,
+      "graphic_line": 1,
+      "glyph_block": 3,
+      "single_glyph": 1,
+      "footer": 1
+    },
+    "p20": {
+      "formula_block": 7,
+      "latin_text": 5,
+      "numeric_table": 1,
+      "glyph_raster": 2,
+      "glyph_block": 2,
+      "footer": 1,
+      "graphic_line": 1
+    },
+    "p21": {
+      "latin_text": 12,
+      "formula_block": 1,
+      "footer": 2
+    },
+    "p22": {
+      "formula_block": 6,
+      "numeric_table": 2,
+      "latin_text": 8,
+      "footer": 1
+    },
+    "p23": {
+      "header": 2,
+      "formula_block": 5,
+      "latin_text": 9,
+      "single_glyph": 2,
+      "footer": 1,
+      "burumut_block": 1
+    }
+  },
+  "page_glyphs": {
+    "p01": 29,
+    "p02": 34,
+    "p03": 43,
+    "p04": 26,
+    "p05": 116,
+    "p06": 121,
+    "p07": 27,
+    "p08": 67,
+    "p09": 18,
+    "p10": 38,
+    "p11": 55,
+    "p12": 45,
+    "p13": 54,
+    "p14": 56,
+    "p15": 48,
+    "p16": 38,
+    "p17": 24,
+    "p18": 24,
+    "p19": 26,
+    "p20": 43,
+    "p21": 16,
+    "p22": 19,
+    "p23": 30
+  },
+  "page_latin": {
+    "p01": 21,
+    "p02": 19,
+    "p03": 21,
+    "p04": 22,
+    "p05": 10,
+    "p06": 4,
+    "p07": 10,
+    "p08": 7,
+    "p09": 11,
+    "p10": 13,
+    "p11": 26,
+    "p12": 26,
+    "p13": 24,
+    "p14": 26,
+    "p15": 25,
+    "p16": 21,
+    "p17": 26,
+    "p18": 0,
+    "p19": 31,
+    "p20": 17,
+    "p21": 14,
+    "p22": 17,
+    "p23": 65
+  },
+  "page_formulas": {
+    "p07": 1,
+    "p10": 1,
+    "p14": 1,
+    "p17": 11,
+    "p18": 9,
+    "p19": 7,
+    "p20": 7,
+    "p21": 1,
+    "p22": 6,
+    "p23": 5
+  },
+  "page_specific": {
+    "p01": [
+      [
+        "numeric_table",
+        "p01_R1"
+      ]
+    ],
+    "p06": [
+      [
+        "numeric_table",
+        "p06_R9"
+      ],
+      [
+        "numeric_table",
+        "p06_R19"
+      ],
+      [
+        "numeric_table",
+        "p06_R22"
+      ],
+      [
+        "numeric_table",
+        "p06_R27"
+      ]
+    ],
+    "p07": [
+      [
+        "numeric_table",
+        "p07_R13"
+      ]
+    ],
+    "p08": [
+      [
+        "numeric_table",
+        "p08_R13"
+      ],
+      [
+        "magic_cube",
+        "p08_R15"
+      ]
+    ],
+    "p17": [
+      [
+        "numeric_table",
+        "p17_R7"
+      ],
+      [
+        "numeric_table",
+        "p17_R8"
+      ]
+    ],
+    "p18": [
+      [
+        "numeric_table",
+        "p18_R7"
+      ],
+      [
+        "numeric_table",
+        "p18_R9"
+      ]
+    ],
+    "p20": [
+      [
+        "numeric_table",
+        "p20_R5"
+      ]
+    ],
+    "p22": [
+      [
+        "numeric_table",
+        "p22_R4"
+      ],
+      [
+        "numeric_table",
+        "p22_R13"
+      ]
+    ],
+    "p23": [
+      [
+        "burumut_block",
+        "p23_R20_LETTERBLOCK"
+      ]
+    ],
+    "p02": [],
+    "p03": [],
+    "p04": [],
+    "p05": [],
+    "p09": [],
+    "p10": [],
+    "p11": [],
+    "p12": [],
+    "p13": [],
+    "p14": [],
+    "p15": [],
+    "p16": [],
+    "p19": [],
+    "p21": []
+  }
+}
