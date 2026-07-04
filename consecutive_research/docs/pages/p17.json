@@ -1,0 +1,3795 @@
+{
+  "page_id": "p17",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "n_glyphs": 24,
+  "n_latin_tokens": 26,
+  "n_regions": 18,
+  "schmeh_hint": {
+    "n_latin": 17,
+    "n_glyphs": 1,
+    "has_glyphs": true,
+    "has_magic_cube": false,
+    "has_rings": false,
+    "has_burumut_block": false
+  },
+  "schmeh_validation": {
+    "n_glyph_pages_match": true,
+    "n_latin_pages_match": false,
+    "n_latin_pages_mismatch": true,
+    "issues": [
+      "V4 found MORE latin tokens (26) than Schmeh hints (17)"
+    ]
+  },
+  "regions": [
+    {
+      "region_id": "p17_R1",
+      "bbox": [
+        173,
+        242,
+        826,
+        58
+      ],
+      "region_type": "formula_block",
+      "description": "Line 1, y_center=272.7, glyphs=2, latin=1",
+      "lines": [
+        1
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 816,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 1,
+          "bbox": [
+            183,
+            252,
+            205,
+            39
+          ],
+          "size_px": 1486,
+          "fill_ratio": 0.1859,
+          "n_components": 48,
+          "components": [
+            10241,
+            10242,
+            10251,
+            10246,
+            10248,
+            10245,
+            10252,
+            10244,
+            10257,
+            10243,
+            10254,
+            10250,
+            10258,
+            10255,
+            10247,
+            10249,
+            10253,
+            10256,
+            10264,
+            10263,
+            10261,
+            10262,
+            10265,
+            10266,
+            10279,
+            10267,
+            10277,
+            10281,
+            10269,
+            10272,
+            10276,
+            10280,
+            10278,
+            10275,
+            10270,
+            10282,
+            10268,
+            10271,
+            10273,
+            10274,
+            10283,
+            10285,
+            10284,
+            10286,
+            10287,
+            10289,
+            10288,
+            10290
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 817,
+          "page": "p17",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0001",
+          "line_id": 1,
+          "bbox": [
+            984,
+            257,
+            6,
+            5
+          ],
+          "size_px": 16,
+          "fill_ratio": 0.5333,
+          "n_components": 1,
+          "components": [
+            10259
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "IF YOU ARE NOT CONVINCED THEN CALCULATE THE NEXT",
+          "bbox": [
+            173,
+            242,
+            826,
+            58
+          ],
+          "conf": 0.5,
+          "line_id": 1,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "(2^5 · 13 · 37 · 179 · 471077143) / (23 · 53 · 2711 · 897232321)",
+          "bbox": [
+            5,
+            5,
+            460,
+            130
+          ],
+          "line_id": 1
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2^5",
+          "bbox": [
+            5,
+            5,
+            35,
+            45
+          ]
+        },
+        {
+          "value": "13",
+          "bbox": [
+            45,
+            10,
+            45,
+            40
+          ]
+        },
+        {
+          "value": "37",
+          "bbox": [
+            105,
+            10,
+            45,
+            40
+          ]
+        },
+        {
+          "value": "179",
+          "bbox": [
+            165,
+            10,
+            70,
+            40
+          ]
+        },
+        {
+          "value": "471077143",
+          "bbox": [
+            245,
+            10,
+            220,
+            45
+          ]
+        },
+        {
+          "value": "23",
+          "bbox": [
+            5,
+            85,
+            40,
+            40
+          ]
+        },
+        {
+          "value": "53",
+          "bbox": [
+            55,
+            85,
+            40,
+            40
+          ]
+        },
+        {
+          "value": "2711",
+          "bbox": [
+            110,
+            85,
+            85,
+            40
+          ]
+        },
+        {
+          "value": "897232321",
+          "bbox": [
+            210,
+            85,
+            255,
+            45
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Horizontale Bruchlinie/Trennstrich zwischen Zähler und Nenner",
+          "bbox": [
+            0,
+            60,
+            465,
+            8
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R2",
+      "bbox": [
+        173,
+        312,
+        476,
+        53
+      ],
+      "region_type": "formula_block",
+      "description": "Line 2, y_center=337.5, glyphs=1, latin=1",
+      "lines": [
+        2
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 818,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 2,
+          "bbox": [
+            183,
+            322,
+            457,
+            34
+          ],
+          "size_px": 4018,
+          "fill_ratio": 0.2586,
+          "n_components": 109,
+          "components": [
+            10338,
+            10303,
+            10307,
+            10333,
+            10336,
+            10293,
+            10301,
+            10330,
+            10310,
+            10305,
+            10304,
+            10339,
+            10322,
+            10329,
+            10320,
+            10325,
+            10308,
+            10294,
+            10298,
+            10335,
+            10292,
+            10296,
+            10328,
+            10297,
+            10309,
+            10318,
+            10321,
+            10326,
+            10300,
+            10311,
+            10314,
+            10316,
+            10317,
+            10319,
+            10295,
+            10306,
+            10324,
+            10331,
+            10332,
+            10299,
+            10302,
+            10315,
+            10323,
+            10291,
+            10337,
+            10312,
+            10327,
+            10334,
+            10313,
+            10341,
+            10340,
+            10344,
+            10343,
+            10342,
+            10345,
+            10346,
+            10357,
+            10350,
+            10372,
+            10359,
+            10347,
+            10365,
+            10349,
+            10352,
+            10358,
+            10360,
+            10382,
+            10355,
+            10374,
+            10379,
+            10369,
+            10356,
+            10361,
+            10376,
+            10380,
+            10383,
+            10368,
+            10387,
+            10375,
+            10386,
+            10363,
+            10394,
+            10378,
+            10371,
+            10351,
+            10364,
+            10354,
+            10362,
+            10389,
+            10366,
+            10388,
+            10348,
+            10353,
+            10385,
+            10367,
+            10391,
+            10381,
+            10384,
+            10392,
+            10373,
+            10370,
+            10393,
+            10377,
+            10390,
+            10395,
+            10396,
+            10397,
+            10398,
+            10399
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NUMBER AND SEE WHAT A PROOF IS PROVIDED TO YOU ADAM",
+          "bbox": [
+            173,
+            312,
+            476,
+            53
+          ],
+          "conf": 0.5,
+          "line_id": 2,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "307 × 1481 × 10873297429171343046161 × 19193689163997857327327",
+          "bbox": [
+            25,
+            45,
+            1030,
+            65
+          ],
+          "line_id": 2
+        },
+        {
+          "raw": "7 × 17780871841855257950191971103144880245068986055043",
+          "bbox": [
+            25,
+            195,
+            1030,
+            60
+          ],
+          "line_id": 2
+        }
+      ],
+      "numerics": [
+        {
+          "value": "307",
+          "bbox": [
+            30,
+            50,
+            50,
+            55
+          ]
+        },
+        {
+          "value": "1481",
+          "bbox": [
+            120,
+            50,
+            80,
+            55
+          ]
+        },
+        {
+          "value": "10873297429171343046161",
+          "bbox": [
+            245,
+            50,
+            460,
+            55
+          ]
+        },
+        {
+          "value": "19193689163997857327327",
+          "bbox": [
+            745,
+            50,
+            280,
+            55
+          ]
+        },
+        {
+          "value": "7",
+          "bbox": [
+            30,
+            195,
+            25,
+            55
+          ]
+        },
+        {
+          "value": "17780871841855257950191971103144880245068986055043",
+          "bbox": [
+            85,
+            195,
+            940,
+            55
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Full-width horizontal fraction bar separating the upper and lower multiplication expressions",
+          "bbox": [
+            20,
+            155,
+            1020,
+            5
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R3",
+      "bbox": [
+        173,
+        377,
+        462,
+        53
+      ],
+      "region_type": "latin_text",
+      "description": "Line 3, y_center=402.5, glyphs=1, latin=1",
+      "lines": [
+        3
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 819,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 3,
+          "bbox": [
+            183,
+            387,
+            443,
+            34
+          ],
+          "size_px": 3721,
+          "fill_ratio": 0.247,
+          "n_components": 109,
+          "components": [
+            10417,
+            10427,
+            10420,
+            10426,
+            10439,
+            10423,
+            10425,
+            10400,
+            10415,
+            10435,
+            10430,
+            10403,
+            10406,
+            10431,
+            10408,
+            10409,
+            10429,
+            10434,
+            10419,
+            10444,
+            10440,
+            10416,
+            10436,
+            10401,
+            10410,
+            10411,
+            10413,
+            10437,
+            10405,
+            10414,
+            10407,
+            10412,
+            10418,
+            10424,
+            10445,
+            10402,
+            10404,
+            10421,
+            10428,
+            10432,
+            10438,
+            10433,
+            10422,
+            10442,
+            10441,
+            10443,
+            10447,
+            10446,
+            10450,
+            10448,
+            10449,
+            10452,
+            10451,
+            10453,
+            10454,
+            10455,
+            10490,
+            10487,
+            10456,
+            10461,
+            10463,
+            10485,
+            10480,
+            10484,
+            10464,
+            10467,
+            10474,
+            10476,
+            10457,
+            10488,
+            10470,
+            10475,
+            10486,
+            10460,
+            10468,
+            10489,
+            10483,
+            10495,
+            10479,
+            10473,
+            10477,
+            10466,
+            10482,
+            10458,
+            10503,
+            10481,
+            10501,
+            10462,
+            10465,
+            10502,
+            10478,
+            10459,
+            10491,
+            10471,
+            10472,
+            10493,
+            10469,
+            10494,
+            10499,
+            10497,
+            10500,
+            10492,
+            10498,
+            10496,
+            10504,
+            10505,
+            10506,
+            10507,
+            10508
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "MEAN. DECIMALS HAVE THEIR OWN MEANING. A REPETITIVE",
+          "bbox": [
+            173,
+            377,
+            462,
+            53
+          ],
+          "conf": 0.5,
+          "line_id": 3,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R4",
+      "bbox": [
+        173,
+        442,
+        418,
+        53
+      ],
+      "region_type": "formula_block",
+      "description": "Line 4, y_center=468.3, glyphs=1, latin=1",
+      "lines": [
+        4
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 820,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 4,
+          "bbox": [
+            183,
+            452,
+            399,
+            34
+          ],
+          "size_px": 3056,
+          "fill_ratio": 0.2253,
+          "n_components": 96,
+          "components": [
+            10522,
+            10529,
+            10524,
+            10512,
+            10509,
+            10533,
+            10521,
+            10515,
+            10519,
+            10520,
+            10525,
+            10537,
+            10523,
+            10543,
+            10527,
+            10532,
+            10526,
+            10530,
+            10528,
+            10535,
+            10517,
+            10544,
+            10516,
+            10540,
+            10534,
+            10510,
+            10511,
+            10513,
+            10548,
+            10538,
+            10531,
+            10518,
+            10536,
+            10546,
+            10514,
+            10542,
+            10539,
+            10541,
+            10545,
+            10547,
+            10549,
+            10550,
+            10551,
+            10552,
+            10555,
+            10553,
+            10554,
+            10556,
+            10583,
+            10586,
+            10557,
+            10562,
+            10571,
+            10565,
+            10582,
+            10575,
+            10576,
+            10559,
+            10564,
+            10567,
+            10585,
+            10592,
+            10587,
+            10590,
+            10573,
+            10594,
+            10563,
+            10593,
+            10558,
+            10568,
+            10570,
+            10574,
+            10581,
+            10591,
+            10577,
+            10560,
+            10569,
+            10572,
+            10578,
+            10579,
+            10584,
+            10589,
+            10566,
+            10588,
+            10561,
+            10580,
+            10595,
+            10596,
+            10597,
+            10598,
+            10599,
+            10600,
+            10601,
+            10602,
+            10603,
+            10604
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "INTERVAL OF EXACT FORTY SIX. THIS INTERVAL IS NOT A",
+          "bbox": [
+            173,
+            442,
+            418,
+            53
+          ],
+          "conf": 0.5,
+          "line_id": 4,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "20824027389475657 x 652793699238832001551 = 2 x 17 x 1621 x 32297 x 111623 x 91673033412247294680889",
+          "bbox": [
+            0,
+            0,
+            940,
+            175
+          ],
+          "line_id": 4
+        }
+      ],
+      "numerics": [
+        {
+          "value": "20824027389475657",
+          "bbox": [
+            10,
+            25,
+            280,
+            35
+          ]
+        },
+        {
+          "value": "652793699238832001551",
+          "bbox": [
+            335,
+            25,
+            420,
+            35
+          ]
+        },
+        {
+          "value": "2",
+          "bbox": [
+            10,
+            125,
+            20,
+            35
+          ]
+        },
+        {
+          "value": "17",
+          "bbox": [
+            70,
+            125,
+            30,
+            35
+          ]
+        },
+        {
+          "value": "1621",
+          "bbox": [
+            140,
+            125,
+            50,
+            35
+          ]
+        },
+        {
+          "value": "32297",
+          "bbox": [
+            230,
+            125,
+            65,
+            35
+          ]
+        },
+        {
+          "value": "111623",
+          "bbox": [
+            335,
+            125,
+            75,
+            35
+          ]
+        },
+        {
+          "value": "91673033412247294680889",
+          "bbox": [
+            450,
+            125,
+            305,
+            35
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Lange horizontale Trennlinie (Bruchstrich/Equals-Trenner) zwischen dem Produkt (oben) und der Primfaktorzerlegung (unten), verläuft über die volle Zeilenbreite.",
+          "bbox": [
+            0,
+            78,
+            940,
+            2
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R5",
+      "bbox": [
+        173,
+        507,
+        485,
+        53
+      ],
+      "region_type": "formula_block",
+      "description": "Line 5, y_center=533.7, glyphs=1, latin=1",
+      "lines": [
+        5
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 821,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 5,
+          "bbox": [
+            183,
+            517,
+            466,
+            34
+          ],
+          "size_px": 4015,
+          "fill_ratio": 0.2534,
+          "n_components": 106,
+          "components": [
+            10633,
+            10612,
+            10621,
+            10629,
+            10641,
+            10624,
+            10605,
+            10640,
+            10643,
+            10638,
+            10609,
+            10634,
+            10623,
+            10614,
+            10648,
+            10635,
+            10617,
+            10606,
+            10608,
+            10620,
+            10625,
+            10630,
+            10637,
+            10616,
+            10631,
+            10642,
+            10613,
+            10615,
+            10619,
+            10626,
+            10632,
+            10607,
+            10610,
+            10611,
+            10622,
+            10636,
+            10639,
+            10627,
+            10618,
+            10628,
+            10644,
+            10645,
+            10646,
+            10649,
+            10651,
+            10647,
+            10653,
+            10654,
+            10650,
+            10652,
+            10655,
+            10657,
+            10692,
+            10696,
+            10672,
+            10694,
+            10679,
+            10659,
+            10662,
+            10677,
+            10682,
+            10684,
+            10670,
+            10680,
+            10683,
+            10690,
+            10685,
+            10669,
+            10704,
+            10666,
+            10702,
+            10664,
+            10668,
+            10656,
+            10658,
+            10667,
+            10675,
+            10697,
+            10699,
+            10700,
+            10665,
+            10676,
+            10686,
+            10689,
+            10671,
+            10687,
+            10674,
+            10681,
+            10688,
+            10693,
+            10695,
+            10698,
+            10660,
+            10661,
+            10663,
+            10673,
+            10691,
+            10678,
+            10701,
+            10703,
+            10705,
+            10707,
+            10708,
+            10706,
+            10709,
+            10710
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "RBITRARY.",
+          "bbox": [
+            173,
+            507,
+            485,
+            53
+          ],
+          "conf": 0.5,
+          "line_id": 5,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "5 x 61 x 103 x 113867495484484178331304153088007990064363783",
+          "bbox": [
+            10,
+            5,
+            850,
+            35
+          ],
+          "line_id": 5
+        },
+        {
+          "raw": "17 x 179 x 3467 x 3219088991 x 264850496551597978818922424250101",
+          "bbox": [
+            10,
+            55,
+            910,
+            35
+          ],
+          "line_id": 5
+        }
+      ],
+      "numerics": [
+        {
+          "value": "5",
+          "bbox": [
+            10,
+            5,
+            14,
+            30
+          ]
+        },
+        {
+          "value": "61",
+          "bbox": [
+            55,
+            5,
+            22,
+            30
+          ]
+        },
+        {
+          "value": "103",
+          "bbox": [
+            100,
+            5,
+            32,
+            30
+          ]
+        },
+        {
+          "value": "113867495484484178331304153088007990064363783",
+          "bbox": [
+            160,
+            5,
+            700,
+            30
+          ]
+        },
+        {
+          "value": "17",
+          "bbox": [
+            10,
+            55,
+            22,
+            30
+          ]
+        },
+        {
+          "value": "179",
+          "bbox": [
+            55,
+            55,
+            32,
+            30
+          ]
+        },
+        {
+          "value": "3467",
+          "bbox": [
+            110,
+            55,
+            42,
+            30
+          ]
+        },
+        {
+          "value": "3219088991",
+          "bbox": [
+            180,
+            55,
+            110,
+            30
+          ]
+        },
+        {
+          "value": "264850496551597978818922424250101",
+          "bbox": [
+            320,
+            55,
+            600,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Horizontale Trennlinie (Bruchstrich) zwischen Zähler und Nenner, erstreckt sich fast über die volle Zeilenbreite",
+          "bbox": [
+            5,
+            40,
+            990,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R6",
+      "bbox": [
+        173,
+        637,
+        398,
+        59
+      ],
+      "region_type": "formula_block",
+      "description": "Line 6, y_center=667.7, glyphs=1, latin=1",
+      "lines": [
+        6
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 822,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 6,
+          "bbox": [
+            183,
+            647,
+            379,
+            40
+          ],
+          "size_px": 2845,
+          "fill_ratio": 0.1877,
+          "n_components": 95,
+          "components": [
+            10711,
+            10721,
+            10731,
+            10725,
+            10712,
+            10713,
+            10734,
+            10744,
+            10723,
+            10726,
+            10735,
+            10748,
+            10750,
+            10736,
+            10715,
+            10730,
+            10720,
+            10717,
+            10740,
+            10747,
+            10733,
+            10746,
+            10749,
+            10714,
+            10729,
+            10738,
+            10741,
+            10742,
+            10716,
+            10745,
+            10718,
+            10728,
+            10739,
+            10722,
+            10724,
+            10743,
+            10719,
+            10727,
+            10732,
+            10737,
+            10751,
+            10755,
+            10752,
+            10754,
+            10753,
+            10756,
+            10757,
+            10758,
+            10759,
+            10765,
+            10774,
+            10764,
+            10768,
+            10763,
+            10786,
+            10792,
+            10782,
+            10779,
+            10780,
+            10776,
+            10778,
+            10795,
+            10766,
+            10769,
+            10772,
+            10783,
+            10761,
+            10777,
+            10784,
+            10785,
+            10790,
+            10791,
+            10793,
+            10762,
+            10794,
+            10770,
+            10771,
+            10775,
+            10773,
+            10760,
+            10767,
+            10781,
+            10787,
+            10788,
+            10789,
+            10797,
+            10796,
+            10798,
+            10800,
+            10799,
+            10803,
+            10801,
+            10804,
+            10802,
+            10805
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "math_times",
+          "vision_description": "Multiplikationszeichen (×) zwischen 7² und 51749",
+          "vision_confidence": 0.95,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THIS IS A CALCULATION TO SHOW YOU OUR KNOWLEDGE A",
+          "bbox": [
+            173,
+            637,
+            398,
+            59
+          ],
+          "conf": 0.5,
+          "line_id": 6,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "7² × 51749 × 163247627663 × 326153710690401658818517",
+          "bbox": [
+            20,
+            0,
+            720,
+            72
+          ],
+          "line_id": 6
+        }
+      ],
+      "numerics": [
+        {
+          "value": "7",
+          "bbox": [
+            25,
+            25,
+            16,
+            32
+          ]
+        },
+        {
+          "value": "51749",
+          "bbox": [
+            85,
+            25,
+            95,
+            32
+          ]
+        },
+        {
+          "value": "163247627663",
+          "bbox": [
+            230,
+            25,
+            205,
+            32
+          ]
+        },
+        {
+          "value": "326153710690401658818517",
+          "bbox": [
+            480,
+            25,
+            285,
+            32
+          ]
+        }
+      ],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R7",
+      "bbox": [
+        173,
+        250,
+        798,
+        1189
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 7, y_center=733.4, glyphs=3, latin=1",
+      "lines": [
+        7
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 823,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 7,
+          "bbox": [
+            183,
+            717,
+            315,
+            35
+          ],
+          "size_px": 2293,
+          "fill_ratio": 0.208,
+          "n_components": 76,
+          "components": [
+            10831,
+            10807,
+            10812,
+            10822,
+            10814,
+            10809,
+            10820,
+            10816,
+            10823,
+            10810,
+            10815,
+            10824,
+            10825,
+            10811,
+            10808,
+            10813,
+            10826,
+            10834,
+            10827,
+            10829,
+            10830,
+            10832,
+            10833,
+            10817,
+            10819,
+            10828,
+            10821,
+            10818,
+            10835,
+            10836,
+            10840,
+            10839,
+            10838,
+            10837,
+            10841,
+            10842,
+            10843,
+            10844,
+            10845,
+            10865,
+            10848,
+            10867,
+            10854,
+            10860,
+            10871,
+            10855,
+            10847,
+            10872,
+            10856,
+            10846,
+            10862,
+            10870,
+            10851,
+            10863,
+            10853,
+            10858,
+            10849,
+            10864,
+            10850,
+            10866,
+            10852,
+            10857,
+            10869,
+            10874,
+            10861,
+            10873,
+            10859,
+            10868,
+            10875,
+            10876,
+            10878,
+            10879,
+            10877,
+            10880,
+            10881,
+            10882
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 824,
+          "page": "p17",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0004",
+          "line_id": 7,
+          "bbox": [
+            789,
+            716,
+            13,
+            38
+          ],
+          "size_px": 235,
+          "fill_ratio": 0.4757,
+          "n_components": 1,
+          "components": [
+            10806
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 825,
+          "page": "p17",
+          "page_glyph_id": 3,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0019",
+          "line_id": 7,
+          "bbox": [
+            824,
+            260,
+            138,
+            1170
+          ],
+          "size_px": 49755,
+          "fill_ratio": 0.3082,
+          "n_components": 1,
+          "components": [
+            10260
+          ],
+          "type_hint": "vertical_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "ND OUR WISDOM.",
+          "bbox": [
+            173,
+            250,
+            798,
+            1189
+          ],
+          "conf": 0.5,
+          "line_id": 7,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "20824027389475657 x 652793699238832001551",
+          "bbox": [
+            0,
+            0,
+            380,
+            25
+          ],
+          "line_id": 7
+        }
+      ],
+      "numerics": [
+        {
+          "value": "20824027389475657",
+          "bbox": [
+            0,
+            0,
+            150,
+            25
+          ]
+        },
+        {
+          "value": "652793699238832001551",
+          "bbox": [
+            178,
+            0,
+            202,
+            25
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_underline",
+          "description": "Continuous horizontal line drawn directly beneath the expression, spanning roughly the width of the text",
+          "bbox": [
+            0,
+            27,
+            380,
+            2
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R8",
+      "bbox": [
+        173,
+        776,
+        629,
+        60
+      ],
+      "region_type": "numeric_table",
+      "description": "Line 8, y_center=801.3, glyphs=2, latin=1",
+      "lines": [
+        8
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 826,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 8,
+          "bbox": [
+            183,
+            786,
+            315,
+            35
+          ],
+          "size_px": 2158,
+          "fill_ratio": 0.1957,
+          "n_components": 60,
+          "components": [
+            10887,
+            10883,
+            10895,
+            10893,
+            10891,
+            10896,
+            10902,
+            10905,
+            10890,
+            10904,
+            10892,
+            10898,
+            10897,
+            10900,
+            10885,
+            10884,
+            10889,
+            10901,
+            10886,
+            10888,
+            10894,
+            10899,
+            10903,
+            10906,
+            10908,
+            10907,
+            10910,
+            10913,
+            10909,
+            10912,
+            10911,
+            10914,
+            10915,
+            10916,
+            10922,
+            10928,
+            10934,
+            10925,
+            10920,
+            10929,
+            10938,
+            10931,
+            10933,
+            10930,
+            10937,
+            10927,
+            10919,
+            10926,
+            10918,
+            10917,
+            10935,
+            10923,
+            10921,
+            10924,
+            10936,
+            10932,
+            10942,
+            10940,
+            10941,
+            10943
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 827,
+          "page": "p17",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 8,
+          "bbox": [
+            779,
+            811,
+            14,
+            16
+          ],
+          "size_px": 155,
+          "fill_ratio": 0.692,
+          "n_components": 1,
+          "components": [
+            10939
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "THE CALCULATION OF OUR NAME IS NOT ACCIDENTAL. WHAT",
+          "bbox": [
+            173,
+            776,
+            629,
+            60
+          ],
+          "conf": 0.5,
+          "line_id": 8,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "2² × 3 × 11 × 521 × 1951 × 3373 × 8521 × 184669 / (7 × 53 × 709 × 3627657461137709)",
+          "bbox": [
+            10,
+            0,
+            615,
+            180
+          ],
+          "line_id": 8
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2²",
+          "bbox": [
+            15,
+            0,
+            40,
+            55
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            75,
+            10,
+            20,
+            45
+          ]
+        },
+        {
+          "value": "11",
+          "bbox": [
+            115,
+            10,
+            35,
+            45
+          ]
+        },
+        {
+          "value": "521",
+          "bbox": [
+            170,
+            10,
+            50,
+            45
+          ]
+        },
+        {
+          "value": "1951",
+          "bbox": [
+            240,
+            10,
+            60,
+            45
+          ]
+        },
+        {
+          "value": "3373",
+          "bbox": [
+            325,
+            10,
+            60,
+            45
+          ]
+        },
+        {
+          "value": "8521",
+          "bbox": [
+            410,
+            10,
+            60,
+            45
+          ]
+        },
+        {
+          "value": "184669",
+          "bbox": [
+            495,
+            10,
+            110,
+            45
+          ]
+        },
+        {
+          "value": "7",
+          "bbox": [
+            15,
+            130,
+            25,
+            50
+          ]
+        },
+        {
+          "value": "53",
+          "bbox": [
+            55,
+            130,
+            35,
+            50
+          ]
+        },
+        {
+          "value": "709",
+          "bbox": [
+            110,
+            130,
+            50,
+            50
+          ]
+        },
+        {
+          "value": "3627657461137709",
+          "bbox": [
+            180,
+            130,
+            400,
+            50
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Horizontaler Bruchstrich zwischen Zähler und Nenner",
+          "bbox": [
+            10,
+            85,
+            615,
+            5
+          ]
+        },
+        {
+          "type": "filled_oval",
+          "description": "Schwarz gefülltes Oval-Symbol am rechten Rand der Zeile",
+          "bbox": [
+            1200,
+            145,
+            80,
+            55
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R9",
+      "bbox": [
+        173,
+        843,
+        202,
+        56
+      ],
+      "region_type": "formula_block",
+      "description": "Line 9, y_center=870.6, glyphs=1, latin=1",
+      "lines": [
+        9
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 828,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 9,
+          "bbox": [
+            183,
+            853,
+            183,
+            37
+          ],
+          "size_px": 1412,
+          "fill_ratio": 0.2085,
+          "n_components": 38,
+          "components": [
+            10944,
+            10945,
+            10954,
+            10952,
+            10951,
+            10958,
+            10948,
+            10949,
+            10957,
+            10956,
+            10947,
+            10950,
+            10946,
+            10953,
+            10959,
+            10955,
+            10960,
+            10961,
+            10962,
+            10963,
+            10973,
+            10964,
+            10971,
+            10978,
+            10967,
+            10970,
+            10976,
+            10969,
+            10965,
+            10972,
+            10966,
+            10974,
+            10975,
+            10977,
+            10968,
+            10980,
+            10979,
+            10981
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "IS THE PROBABILITY OF RANDOMNESS OF THIS CALCULATION",
+          "bbox": [
+            173,
+            843,
+            202,
+            56
+          ],
+          "conf": 0.5,
+          "line_id": 9,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "(2 × 3³ × 55751765473057) / (61 × 317 × 443 × 470896109)",
+          "bbox": [
+            5,
+            5,
+            320,
+            130
+          ],
+          "line_id": 9
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            10,
+            28,
+            18,
+            30
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            55,
+            28,
+            16,
+            30
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            70,
+            8,
+            12,
+            18
+          ]
+        },
+        {
+          "value": "55751765473057",
+          "bbox": [
+            105,
+            28,
+            175,
+            30
+          ]
+        },
+        {
+          "value": "61",
+          "bbox": [
+            10,
+            85,
+            25,
+            30
+          ]
+        },
+        {
+          "value": "317",
+          "bbox": [
+            55,
+            85,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "443",
+          "bbox": [
+            115,
+            85,
+            35,
+            30
+          ]
+        },
+        {
+          "value": "470896109",
+          "bbox": [
+            170,
+            85,
+            140,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_fraction_bar",
+          "description": "Horizontale Trennlinie zwischen Zähler und Nenner",
+          "bbox": [
+            5,
+            65,
+            310,
+            4
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R10",
+      "bbox": [
+        173,
+        979,
+        328,
+        54
+      ],
+      "region_type": "latin_text",
+      "description": "Line 10, y_center=1004.7, glyphs=1, latin=1",
+      "lines": [
+        10
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 829,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 10,
+          "bbox": [
+            183,
+            989,
+            309,
+            35
+          ],
+          "size_px": 2138,
+          "fill_ratio": 0.1977,
+          "n_components": 63,
+          "components": [
+            10985,
+            10988,
+            10982,
+            11000,
+            10987,
+            10983,
+            10993,
+            11001,
+            10989,
+            10999,
+            10998,
+            10984,
+            10997,
+            10995,
+            10986,
+            10996,
+            10990,
+            10992,
+            10991,
+            10994,
+            11003,
+            11013,
+            11002,
+            11004,
+            11006,
+            11012,
+            11009,
+            11005,
+            11008,
+            11010,
+            11011,
+            11007,
+            11014,
+            11015,
+            11029,
+            11016,
+            11028,
+            11025,
+            11038,
+            11018,
+            11023,
+            11020,
+            11030,
+            11034,
+            11032,
+            11021,
+            11027,
+            11039,
+            11033,
+            11019,
+            11024,
+            11031,
+            11026,
+            11035,
+            11022,
+            11036,
+            11017,
+            11037,
+            11040,
+            11042,
+            11041,
+            11043,
+            11044
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "NCE? WHO AMONG YOU CAN WRITE OUR NAME THERE WHERE",
+          "bbox": [
+            173,
+            979,
+            328,
+            54
+          ],
+          "conf": 0.5,
+          "line_id": 10,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R11",
+      "bbox": [
+        173,
+        1044,
+        272,
+        54
+      ],
+      "region_type": "formula_block",
+      "description": "Line 11, y_center=1071.1, glyphs=1, latin=1",
+      "lines": [
+        11
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 830,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 11,
+          "bbox": [
+            183,
+            1054,
+            253,
+            35
+          ],
+          "size_px": 2035,
+          "fill_ratio": 0.2298,
+          "n_components": 62,
+          "components": [
+            11052,
+            11045,
+            11054,
+            11050,
+            11049,
+            11059,
+            11048,
+            11058,
+            11053,
+            11055,
+            11067,
+            11064,
+            11062,
+            11047,
+            11051,
+            11066,
+            11060,
+            11061,
+            11056,
+            11057,
+            11046,
+            11065,
+            11063,
+            11070,
+            11068,
+            11069,
+            11071,
+            11072,
+            11073,
+            11074,
+            11080,
+            11090,
+            11094,
+            11081,
+            11085,
+            11083,
+            11092,
+            11087,
+            11078,
+            11086,
+            11093,
+            11082,
+            11079,
+            11098,
+            11089,
+            11076,
+            11084,
+            11091,
+            11088,
+            11075,
+            11077,
+            11096,
+            11095,
+            11101,
+            11105,
+            11097,
+            11104,
+            11102,
+            11100,
+            11103,
+            11099,
+            11106
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "IT IS WRITTEN NOW? HAS ANYONE THIS POWER? ONLY TENG",
+          "bbox": [
+            173,
+            1044,
+            272,
+            54
+          ],
+          "conf": 0.5,
+          "line_id": 11,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "2 × 105557 × 125788337 × 153880609 / 431 × 563 × 3257 × 167597 × 41337883",
+          "bbox": [
+            0,
+            0,
+            900,
+            200
+          ],
+          "line_id": 11
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            10,
+            8,
+            25,
+            70
+          ]
+        },
+        {
+          "value": "105557",
+          "bbox": [
+            55,
+            8,
+            130,
+            70
+          ]
+        },
+        {
+          "value": "125788337",
+          "bbox": [
+            200,
+            8,
+            215,
+            70
+          ]
+        },
+        {
+          "value": "153880609",
+          "bbox": [
+            430,
+            8,
+            215,
+            70
+          ]
+        },
+        {
+          "value": "431",
+          "bbox": [
+            10,
+            125,
+            70,
+            70
+          ]
+        },
+        {
+          "value": "563",
+          "bbox": [
+            95,
+            125,
+            70,
+            70
+          ]
+        },
+        {
+          "value": "3257",
+          "bbox": [
+            180,
+            125,
+            85,
+            70
+          ]
+        },
+        {
+          "value": "167597",
+          "bbox": [
+            280,
+            125,
+            145,
+            70
+          ]
+        },
+        {
+          "value": "41337883",
+          "bbox": [
+            440,
+            125,
+            200,
+            70
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Horizontal fraction bar separating numerator from denominator, spanning nearly the full width of the line.",
+          "bbox": [
+            5,
+            90,
+            890,
+            5
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R12",
+      "bbox": [
+        173,
+        1108,
+        253,
+        59
+      ],
+      "region_type": "formula_block",
+      "description": "Line 12, y_center=1139.1, glyphs=1, latin=1",
+      "lines": [
+        12
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 831,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 12,
+          "bbox": [
+            183,
+            1118,
+            234,
+            40
+          ],
+          "size_px": 1911,
+          "fill_ratio": 0.2042,
+          "n_components": 48,
+          "components": [
+            11107,
+            11108,
+            11109,
+            11118,
+            11111,
+            11122,
+            11116,
+            11123,
+            11124,
+            11110,
+            11114,
+            11119,
+            11120,
+            11113,
+            11121,
+            11115,
+            11112,
+            11117,
+            11125,
+            11127,
+            11128,
+            11126,
+            11129,
+            11130,
+            11131,
+            11136,
+            11146,
+            11134,
+            11144,
+            11139,
+            11147,
+            11149,
+            11135,
+            11140,
+            11145,
+            11151,
+            11152,
+            11133,
+            11150,
+            11143,
+            11132,
+            11137,
+            11138,
+            11142,
+            11148,
+            11141,
+            11154,
+            11153
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "RI IS CAPABLE TO DO THIS.",
+          "bbox": [
+            173,
+            1108,
+            253,
+            59
+          ],
+          "conf": 0.5,
+          "line_id": 12,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "(2^2 x 5 x 7^2 x 461 x 96681715401559) / (109 x 1741 x 308405893609031)",
+          "bbox": [
+            5,
+            0,
+            555,
+            160
+          ],
+          "line_id": 12
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            10,
+            8,
+            18,
+            30
+          ]
+        },
+        {
+          "value": "2",
+          "bbox": [
+            22,
+            4,
+            14,
+            18
+          ]
+        },
+        {
+          "value": "5",
+          "bbox": [
+            70,
+            10,
+            16,
+            30
+          ]
+        },
+        {
+          "value": "7",
+          "bbox": [
+            120,
+            8,
+            18,
+            30
+          ]
+        },
+        {
+          "value": "2",
+          "bbox": [
+            132,
+            4,
+            14,
+            18
+          ]
+        },
+        {
+          "value": "461",
+          "bbox": [
+            180,
+            10,
+            40,
+            30
+          ]
+        },
+        {
+          "value": "96681715401559",
+          "bbox": [
+            260,
+            10,
+            215,
+            30
+          ]
+        },
+        {
+          "value": "109",
+          "bbox": [
+            170,
+            120,
+            45,
+            30
+          ]
+        },
+        {
+          "value": "1741",
+          "bbox": [
+            250,
+            120,
+            55,
+            30
+          ]
+        },
+        {
+          "value": "308405893609031",
+          "bbox": [
+            340,
+            120,
+            200,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_fraction_bar",
+          "description": "Durchgehender horizontaler Bruchstrich, der Zähler und Nenner trennt.",
+          "bbox": [
+            0,
+            75,
+            560,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R13",
+      "bbox": [
+        173,
+        1178,
+        253,
+        54
+      ],
+      "region_type": "formula_block",
+      "description": "Line 13, y_center=1204.6, glyphs=1, latin=1",
+      "lines": [
+        13
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 832,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0017",
+          "line_id": 13,
+          "bbox": [
+            183,
+            1188,
+            234,
+            35
+          ],
+          "size_px": 1967,
+          "fill_ratio": 0.2402,
+          "n_components": 60,
+          "components": [
+            11173,
+            11155,
+            11163,
+            11164,
+            11169,
+            11177,
+            11159,
+            11157,
+            11167,
+            11170,
+            11160,
+            11161,
+            11165,
+            11178,
+            11179,
+            11166,
+            11168,
+            11174,
+            11172,
+            11156,
+            11162,
+            11175,
+            11171,
+            11158,
+            11176,
+            11181,
+            11180,
+            11182,
+            11183,
+            11184,
+            11187,
+            11203,
+            11190,
+            11211,
+            11186,
+            11196,
+            11192,
+            11189,
+            11209,
+            11185,
+            11208,
+            11210,
+            11197,
+            11194,
+            11195,
+            11207,
+            11188,
+            11204,
+            11205,
+            11191,
+            11198,
+            11199,
+            11201,
+            11193,
+            11202,
+            11200,
+            11206,
+            11212,
+            11213,
+            11214
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": "math_times",
+          "vision_description": "Multiplication sign (italic letter x) between first and second factor in numerator",
+          "vision_confidence": 0.98,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "OUR WORD IS NOT A FARCE. OUR KNOWLEDGE IS NOT A LI",
+          "bbox": [
+            173,
+            1178,
+            253,
+            54
+          ],
+          "conf": 0.5,
+          "line_id": 13,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "(7196993 × 63653689179445812751) / (9928974360853 × 116017446409097)",
+          "bbox": [
+            10,
+            18,
+            530,
+            130
+          ],
+          "line_id": 13
+        }
+      ],
+      "numerics": [
+        {
+          "value": "7196993",
+          "bbox": [
+            20,
+            22,
+            82,
+            30
+          ]
+        },
+        {
+          "value": "63653689179445812751",
+          "bbox": [
+            138,
+            22,
+            380,
+            30
+          ]
+        },
+        {
+          "value": "9928974360853",
+          "bbox": [
+            20,
+            110,
+            148,
+            30
+          ]
+        },
+        {
+          "value": "116017446409097",
+          "bbox": [
+            200,
+            110,
+            250,
+            30
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Fraction bar separating numerator and denominator, spanning nearly full width",
+          "bbox": [
+            0,
+            70,
+            540,
+            6
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R14",
+      "bbox": [
+        173,
+        1243,
+        439,
+        58
+      ],
+      "region_type": "formula_block",
+      "description": "Line 14, y_center=1272.6, glyphs=1, latin=1",
+      "lines": [
+        14
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 833,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 14,
+          "bbox": [
+            183,
+            1253,
+            420,
+            39
+          ],
+          "size_px": 2899,
+          "fill_ratio": 0.177,
+          "n_components": 97,
+          "components": [
+            11216,
+            11215,
+            11224,
+            11244,
+            11217,
+            11222,
+            11233,
+            11245,
+            11227,
+            11229,
+            11235,
+            11243,
+            11225,
+            11231,
+            11234,
+            11228,
+            11239,
+            11223,
+            11237,
+            11241,
+            11240,
+            11236,
+            11221,
+            11250,
+            11242,
+            11218,
+            11226,
+            11255,
+            11246,
+            11238,
+            11253,
+            11220,
+            11219,
+            11248,
+            11230,
+            11232,
+            11249,
+            11252,
+            11247,
+            11257,
+            11258,
+            11259,
+            11251,
+            11254,
+            11261,
+            11260,
+            11256,
+            11262,
+            11263,
+            11264,
+            11265,
+            11266,
+            11288,
+            11287,
+            11278,
+            11292,
+            11277,
+            11291,
+            11268,
+            11294,
+            11280,
+            11302,
+            11279,
+            11293,
+            11282,
+            11269,
+            11275,
+            11289,
+            11271,
+            11285,
+            11274,
+            11283,
+            11296,
+            11270,
+            11272,
+            11276,
+            11284,
+            11290,
+            11295,
+            11298,
+            11273,
+            11281,
+            11286,
+            11299,
+            11300,
+            11301,
+            11267,
+            11297,
+            11306,
+            11305,
+            11303,
+            11304,
+            11309,
+            11307,
+            11308,
+            11310,
+            11311
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "E. YOU WAITED CENTURIES FOR OUR VISIT. YOU AWAITED",
+          "bbox": [
+            173,
+            1243,
+            439,
+            58
+          ],
+          "conf": 0.5,
+          "line_id": 14,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "2^5 × 3^2 × 151 × 929 × 2851 × 71777 × 17179879599815040097271 / 139 × 103800937 × 239135080477 × 5515755001341549",
+          "bbox": [
+            0,
+            0,
+            994,
+            200
+          ],
+          "line_id": 14
+        }
+      ],
+      "numerics": [
+        {
+          "value": "2",
+          "bbox": [
+            10,
+            5,
+            28,
+            50
+          ]
+        },
+        {
+          "value": "5",
+          "bbox": [
+            32,
+            0,
+            22,
+            30
+          ]
+        },
+        {
+          "value": "3",
+          "bbox": [
+            62,
+            5,
+            28,
+            50
+          ]
+        },
+        {
+          "value": "2",
+          "bbox": [
+            86,
+            0,
+            22,
+            30
+          ]
+        },
+        {
+          "value": "151",
+          "bbox": [
+            115,
+            5,
+            70,
+            50
+          ]
+        },
+        {
+          "value": "929",
+          "bbox": [
+            200,
+            5,
+            75,
+            50
+          ]
+        },
+        {
+          "value": "2851",
+          "bbox": [
+            290,
+            5,
+            95,
+            50
+          ]
+        },
+        {
+          "value": "71777",
+          "bbox": [
+            400,
+            5,
+            115,
+            50
+          ]
+        },
+        {
+          "value": "17179879599815040097271",
+          "bbox": [
+            530,
+            5,
+            450,
+            50
+          ]
+        },
+        {
+          "value": "139",
+          "bbox": [
+            95,
+            140,
+            60,
+            50
+          ]
+        },
+        {
+          "value": "103800937",
+          "bbox": [
+            175,
+            140,
+            165,
+            50
+          ]
+        },
+        {
+          "value": "239135080477",
+          "bbox": [
+            360,
+            140,
+            220,
+            50
+          ]
+        },
+        {
+          "value": "5515755001341549",
+          "bbox": [
+            600,
+            140,
+            285,
+            50
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Long horizontal rule spanning the full width, visually functioning as a fraction bar separating the two products.",
+          "bbox": [
+            0,
+            95,
+            994,
+            4
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R15",
+      "bbox": [
+        173,
+        1313,
+        323,
+        53
+      ],
+      "region_type": "latin_text",
+      "description": "Line 15, y_center=1339.2, glyphs=1, latin=1",
+      "lines": [
+        15
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 834,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 15,
+          "bbox": [
+            183,
+            1323,
+            304,
+            34
+          ],
+          "size_px": 2366,
+          "fill_ratio": 0.2289,
+          "n_components": 70,
+          "components": [
+            11312,
+            11320,
+            11317,
+            11316,
+            11318,
+            11326,
+            11319,
+            11335,
+            11331,
+            11338,
+            11342,
+            11325,
+            11321,
+            11323,
+            11324,
+            11340,
+            11330,
+            11315,
+            11336,
+            11339,
+            11322,
+            11328,
+            11333,
+            11337,
+            11327,
+            11329,
+            11332,
+            11334,
+            11341,
+            11313,
+            11314,
+            11343,
+            11344,
+            11345,
+            11369,
+            11346,
+            11366,
+            11359,
+            11357,
+            11362,
+            11350,
+            11374,
+            11360,
+            11365,
+            11347,
+            11349,
+            11356,
+            11368,
+            11352,
+            11355,
+            11348,
+            11351,
+            11353,
+            11375,
+            11370,
+            11358,
+            11372,
+            11354,
+            11361,
+            11373,
+            11364,
+            11371,
+            11363,
+            11367,
+            11376,
+            11377,
+            11378,
+            11379,
+            11380,
+            11381
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "AN INTELLIGENCE WHICH TALKS IN MATHEMATICAL EQUA",
+          "bbox": [
+            173,
+            1313,
+            323,
+            53
+          ],
+          "conf": 0.5,
+          "line_id": 15,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R16",
+      "bbox": [
+        173,
+        1378,
+        669,
+        74
+      ],
+      "region_type": "formula_block",
+      "description": "Line 16, y_center=1404.3, glyphs=2, latin=3",
+      "lines": [
+        16
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 835,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_MATH_TIMES_0018",
+          "line_id": 16,
+          "bbox": [
+            183,
+            1388,
+            411,
+            34
+          ],
+          "size_px": 3364,
+          "fill_ratio": 0.2407,
+          "n_components": 103,
+          "components": [
+            11401,
+            11395,
+            11389,
+            11409,
+            11396,
+            11418,
+            11388,
+            11416,
+            11384,
+            11387,
+            11394,
+            11408,
+            11410,
+            11386,
+            11393,
+            11398,
+            11400,
+            11427,
+            11414,
+            11392,
+            11405,
+            11407,
+            11411,
+            11385,
+            11390,
+            11412,
+            11415,
+            11417,
+            11419,
+            11421,
+            11383,
+            11402,
+            11422,
+            11382,
+            11391,
+            11399,
+            11403,
+            11404,
+            11413,
+            11423,
+            11397,
+            11406,
+            11420,
+            11426,
+            11424,
+            11428,
+            11425,
+            11429,
+            11431,
+            11442,
+            11455,
+            11470,
+            11450,
+            11438,
+            11464,
+            11461,
+            11434,
+            11446,
+            11466,
+            11468,
+            11452,
+            11462,
+            11460,
+            11465,
+            11457,
+            11472,
+            11439,
+            11467,
+            11474,
+            11456,
+            11477,
+            11478,
+            11481,
+            11458,
+            11471,
+            11440,
+            11454,
+            11432,
+            11433,
+            11473,
+            11475,
+            11437,
+            11443,
+            11445,
+            11448,
+            11435,
+            11459,
+            11447,
+            11444,
+            11449,
+            11436,
+            11441,
+            11463,
+            11451,
+            11453,
+            11469,
+            11476,
+            11479,
+            11480,
+            11482,
+            11483,
+            11484,
+            11485
+          ],
+          "type_hint": "complex_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 836,
+          "page": "p17",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 16,
+          "bbox": [
+            808,
+            1392,
+            25,
+            51
+          ],
+          "size_px": 345,
+          "fill_ratio": 0.2706,
+          "n_components": 1,
+          "components": [
+            11430
+          ],
+          "type_hint": "unknown",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "x",
+          "bbox": [
+            25,
+            8,
+            12,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 16,
+          "source": "vision"
+        },
+        {
+          "text": "x",
+          "bbox": [
+            102,
+            8,
+            12,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 16,
+          "source": "vision"
+        },
+        {
+          "text": "x",
+          "bbox": [
+            25,
+            60,
+            12,
+            22
+          ],
+          "conf": 0.95,
+          "line_id": 16,
+          "source": "vision"
+        }
+      ],
+      "formulas": [
+        {
+          "raw": "3 x 4351757 x 21485973838025664080646395598811170316033",
+          "bbox": [
+            8,
+            8,
+            735,
+            22
+          ],
+          "line_id": 16
+        },
+        {
+          "raw": "2 x 187926408429986714056114267608550013734737954283",
+          "bbox": [
+            8,
+            60,
+            740,
+            22
+          ],
+          "line_id": 16
+        }
+      ],
+      "numerics": [
+        {
+          "value": "3",
+          "bbox": [
+            8,
+            8,
+            12,
+            22
+          ]
+        },
+        {
+          "value": "4351757",
+          "bbox": [
+            44,
+            8,
+            55,
+            22
+          ]
+        },
+        {
+          "value": "21485973838025664080646395598811170316033",
+          "bbox": [
+            122,
+            8,
+            615,
+            22
+          ]
+        },
+        {
+          "value": "2",
+          "bbox": [
+            8,
+            60,
+            12,
+            22
+          ]
+        },
+        {
+          "value": "187926408429986714056114267608550013734737954283",
+          "bbox": [
+            44,
+            60,
+            700,
+            22
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Durchgehende horizontale Trennlinie zwischen den beiden Multiplikationszeilen, vermutlich ein Bruchstrich oder Trennstrich. Erstreckt sich über nahezu die gesamte Zeilenbreite.",
+          "bbox": [
+            0,
+            42,
+            760,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R17",
+      "bbox": [
+        778,
+        1440,
+        108,
+        73
+      ],
+      "region_type": "latin_text",
+      "description": "Line 17, y_center=1472.8, glyphs=2, latin=1",
+      "lines": [
+        17
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 837,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_TURKIC_ROUND_RUNE_0010",
+          "line_id": 17,
+          "bbox": [
+            788,
+            1450,
+            45,
+            54
+          ],
+          "size_px": 580,
+          "fill_ratio": 0.2387,
+          "n_components": 2,
+          "components": [
+            11487,
+            11486
+          ],
+          "type_hint": "geometric_symbol",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        },
+        {
+          "glyph_index": 838,
+          "page": "p17",
+          "page_glyph_id": 2,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0005",
+          "line_id": 17,
+          "bbox": [
+            867,
+            1465,
+            10,
+            12
+          ],
+          "size_px": 48,
+          "fill_ratio": 0.4,
+          "n_components": 1,
+          "components": [
+            11488
+          ],
+          "type_hint": "punctum",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "OU. WE WAITING FOR YOUR ANSWER ADAM.",
+          "bbox": [
+            778,
+            1440,
+            108,
+            73
+          ],
+          "conf": 0.5,
+          "line_id": 17,
+          "source": "schmeh_hint"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R18",
+      "bbox": [
+        11,
+        1614,
+        1104,
+        11
+      ],
+      "region_type": "graphic_line",
+      "description": "Line 18, y_center=1624.0, glyphs=1, latin=0",
+      "lines": [
+        18
+      ],
+      "glyphs": [
+        {
+          "glyph_index": 839,
+          "page": "p17",
+          "page_glyph_id": 1,
+          "cluster_id": "GEOM_MEDIUM_UNKNOWN_0012",
+          "line_id": 18,
+          "bbox": [
+            21,
+            1624,
+            1085,
+            2
+          ],
+          "size_px": 1084,
+          "fill_ratio": 0.4995,
+          "n_components": 1,
+          "components": [
+            11489
+          ],
+          "type_hint": "horizontal_line",
+          "vision_kind": null,
+          "vision_description": null,
+          "vision_confidence": null,
+          "unicode_codepoint_candidate": null
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [
+        {
+          "type": "horizontal_line",
+          "description": "Obere Begrenzungslinie der Zeile (durchgezogen, dünn, schwarz)",
+          "bbox": [
+            0,
+            0,
+            1290,
+            3
+          ]
+        },
+        {
+          "type": "horizontal_line",
+          "description": "Untere Begrenzungslinie der Zeile (durchgezogen, dünn, schwarz)",
+          "bbox": [
+            0,
+            29,
+            1290,
+            3
+          ]
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R19_SCHMEH",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "region_type": "latin_text",
+      "description": "Schmeh 2017 vollständige lateinische Sätze (7 lines, joined)",
+      "lines": [],
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "IF YOU ARE NOT CONVINCED THEN CALCULATE THE NEXTNUMBER AND SEE WHAT A PROOF IS PROVIDED TO YOU ADAM",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 1,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": ". FIND ALL OUR NUMBERS AND UNDERSTAND WHAT THIS MAY",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 2,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "MEAN. DECIMALS HAVE THEIR OWN MEANING. A REPETITIVEINTERVAL OF EXACT FORTY SIX. THIS INTERVAL IS NOT ARBITRARY.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 3,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "(3×11×47×139×2531×549797184491917×11111111111111111111111)THIS IS A CALCULATION TO SHOW YOU OUR KNOWLEDGE AND OUR WISDOM.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 4,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "THE CALCULATION OF OUR NAME IS NOT ACCIDENTAL. WHATIS THE PROBABILITY OF RANDOMNESS OF THIS CALCULATION",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 5,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "? DO YOU THINK THAT EVERYTHING IS JUST A COINCIDENCE? WHO AMONG YOU CAN WRITE OUR NAME THERE WHEREIT IS WRITTEN NOW? HAS ANYONE THIS POWER? ONLY TENGRI IS CAPABLE TO DO THIS.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 6,
+          "source": "schmeh_complete"
+        },
+        {
+          "text": "OUR WORD IS NOT A FARCE. OUR KNOWLEDGE IS NOT A LIE. YOU WAITED CENTURIES FOR OUR VISIT. YOU AWAITEDAN INTELLIGENCE WHICH TALKS IN MATHEMATICAL EQUATIONS WITH YOU. NOW WE ARE HERE AND CONTACT YOU. WE WAITING FOR YOUR ANSWER ADAM.",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "conf": 0.95,
+          "line_id": 7,
+          "source": "schmeh_complete"
+        }
+      ],
+      "formulas": [],
+      "numerics": [],
+      "graphics": [],
+      "uncertain": []
+    }
+  ]
+}
