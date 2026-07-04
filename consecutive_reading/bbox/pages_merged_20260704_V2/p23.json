@@ -5,7 +5,7 @@
     1625
   ],
   "source_pixel": "p23.json",
-  "source_vision": null,
+  "source_vision": "p23_page.json",
   "n_regions": 44,
   "n_text_words": 312,
   "n_blank_regions": 0,
@@ -4148,5 +4148,7 @@
       "drawings": [],
       "uncertain": []
     }
-  ]
+  ],
+  "vision_description": "",
+  "vision_classification": ""
 }

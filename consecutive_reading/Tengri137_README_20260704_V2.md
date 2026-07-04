@@ -29,9 +29,9 @@
 
 | k | Accuracy (mean ± std) |
 |---|---|
-| k=1 | 0.984 ± 0.017 |
-| k=3 | 0.982 ± 0.011 |
-| k=5 | 0.978 ± 0.009 |
+| k=1 | 0.947 ± 0.015 |
+| k=3 | 0.953 ± 0.016 |
+| k=5 | 0.956 ± 0.015 |
 
 - **Total Samples:** 818
 - **N Classes:** 5
@@ -41,12 +41,12 @@
 
 | Cluster | Vorkommen | Vision-Kind | Description | Erste Seite |
 |---|---|---|---|---|
-| `GEOM_UNKNOWN_0002` | 156 | geometric_circle | Thick, irregular black ring with an oval-shaped white hole i | p01 |
-| `GEOM_UNKNOWN_0005` | 137 | image | A horizontal code-like sequence showing digits '6', '14', an | p05 |
-| `GEOM_UNKNOWN_0001` | 74 | image | A stylized decorative letter 'R' (or 'B') formed by a tower- | p02 |
-| `GEOM_UNKNOWN_0003` | 70 | image | A circular illustration containing multiple elements: a sun  | p02 |
-| `GEOM_UNMATCHED_0000` | 8 | latin_print | Red bold lowercase letters 'rhJ' in a thick sans-serif font, | p05 |
-| `GEOM_UNKNOWN_0004` | 5 | chinese_seal_script | A rectangular seal-script style glyph with two horizontal ba | p03 |
+| `GEOM_LATIN_PRINT_0005` | 258 | image | A horizontal code-like sequence showing digits '6', '14', an | p05 |
+| `GEOM_LATIN_PRINT_0002` | 248 | geometric_circle | Thick, irregular black ring with an oval-shaped white hole i | p01 |
+| `GEOM_LATIN_PRINT_0001` | 152 | image | A stylized decorative letter 'R' (or 'B') formed by a tower- | p02 |
+| `GEOM_LATIN_PRINT_0003` | 152 | image | A circular illustration containing multiple elements: a sun  | p02 |
+| `GEOM_GEOMETRIC_CIRCLE_0004` | 6 | chinese_seal_script | A rectangular seal-script style glyph with two horizontal ba | p03 |
+| `GEOM_UNMATCHED_0000` | 2 | latin_print | Red bold lowercase letters 'rhJ' in a thick sans-serif font, | p05 |
 
 ## Page-Übersicht
 
@@ -59,21 +59,21 @@
 | p05 | 74 | 63 | 39 | footer=1, image=20, latin_print=11 |
 | p06 | 71 | 63 | 39 | latin_print=17, image=15, red_label_stenographic=9 |
 | p07 | 58 | 46 | 70 | footer=1, image=21, geometric_circle=8 |
-| p08 | 75 | 69 | 60 | footer=1, geometric_circle=22, image=31 |
-| p09 | 67 | 50 | 116 | footer=1, image=33, mixed_media=3 |
+| p08 | 114 | 108 | 60 | footer=1, geometric_circle=29, image=50 |
+| p09 | 197 | 183 | 116 | footer=1, image=115, mixed_media=6 |
 | p10 | 34 | 10 | 202 | footer=1, image=1, face_circle_three_dots=9 |
 | p11 | 37 | 20 | 167 | footer=1, image=2, stick_figure=1 |
 | p12 | 16 | 8 | 73 | face_circle_three_dots=6, image=2, text_line=8 |
 | p13 | 33 | 13 | 175 | footer=1, face_circle_three_dots=11, geometric_circle=1 |
 | p14 | 38 | 17 | 143 | footer=1, latin_print=4, face_circle_three_dots=13 |
-| p15 | 27 | 5 | 187 | footer=1, face_circle_three_dots=5, text_line=21 |
-| p16 | 16 | 0 | 142 | footer=1, text_line=15 |
-| p17 | 34 | 0 | 224 | footer=1, text_line=33 |
-| p18 | 34 | 0 | 246 | footer=1, text_line=33 |
+| p15 | 36 | 14 | 187 | footer=1, face_circle_three_dots=14, text_line=21 |
+| p16 | 129 | 113 | 142 | footer=1, prime_digit=10, latin_print=28 |
+| p17 | 35 | 1 | 224 | footer=1, image=1, text_line=33 |
+| p18 | 35 | 1 | 246 | footer=1, face_circle_three_dots=1, text_line=33 |
 | p19 | 29 | 0 | 167 | footer=1, text_line=28 |
-| p20 | 39 | 0 | 313 | footer=1, text_line=38 |
-| p21 | 33 | 0 | 202 | footer=1, text_line=32 |
-| p22 | 30 | 0 | 192 | footer=1, text_line=29 |
+| p20 | 43 | 4 | 313 | footer=1, chinese_seal_script=1, image=1 |
+| p21 | 51 | 18 | 202 | footer=1, unknown=9, chinese_seal_script=6 |
+| p22 | 76 | 50 | 192 | footer=1, image=27, chinese_seal_script=13 |
 | p23 | 44 | 0 | 312 | header=1, footer=1, text_line=42 |
 
 ## Region-Klassifikationen (global)
@@ -81,28 +81,27 @@
 | Classification | Count |
 |---|---|
 | text_line | 484 |
-| image | 150 |
-| face_circle_three_dots | 80 |
-| latin_print | 64 |
-| geometric_circle | 43 |
+| image | 316 |
+| latin_print | 114 |
+| face_circle_three_dots | 103 |
+| geometric_circle | 75 |
+| chinese_seal_script | 37 |
+| red_label_stenographic | 34 |
+| prime_digit | 22 |
 | footer | 21 |
-| red_label_stenographic | 21 |
-| chinese_seal_script | 17 |
-| stick_figure | 11 |
-| prime_digit | 10 |
-| geometric_diamond | 9 |
-| mixed_media | 6 |
-| geometric_bracket | 6 |
-| dash_frac_bar | 6 |
+| unknown | 18 |
+| geometric_diamond | 16 |
+| stick_figure | 15 |
+| dash_frac_bar | 15 |
+| geometric_bracket | 11 |
+| mixed_media | 9 |
+| address_hex | 7 |
 | geometric_circle_with_cross | 5 |
-| unknown | 5 |
-| text_in_blank | 3 |
+| chinese_oracle_script | 3 |
 | math_pi | 2 |
 | geometric_circle_with_dot | 2 |
 | turkic_round_rune | 2 |
-| address_hex | 2 |
 | colored_region | 2 |
-| chinese_oracle_script | 1 |
 | geometric_filled_square | 1 |
 | header | 1 |
 

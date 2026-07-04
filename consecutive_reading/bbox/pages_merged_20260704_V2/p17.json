@@ -5,12 +5,12 @@
     1625
   ],
   "source_pixel": "p17.json",
-  "source_vision": null,
-  "n_regions": 34,
+  "source_vision": "p17_page.json",
+  "n_regions": 35,
   "n_text_words": 224,
   "n_blank_regions": 1,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 0,
+  "n_glyphs_vision": 1,
   "regions": [
     {
       "region_id": "p17_R01",
@@ -42,6 +42,39 @@
     {
       "region_id": "p17_R02",
       "bbox": [
+        854,
+        373,
+        18,
+        17
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "An irregular black shape with a white oval/circular hole in the middle, resembling an abstract eye-like or face-like form.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p17",
+          "bbox": [
+            854,
+            373,
+            18,
+            17
+          ],
+          "crop_path": "bbox/crops/p17_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p17_R03",
+      "bbox": [
         179,
         246,
         82,
@@ -67,7 +100,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R03",
+      "region_id": "p17_R04",
       "bbox": [
         204,
         257,
@@ -160,7 +193,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R04",
+      "region_id": "p17_R05",
       "bbox": [
         183,
         279,
@@ -231,7 +264,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R05",
+      "region_id": "p17_R06",
       "bbox": [
         185,
         322,
@@ -324,7 +357,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R06",
+      "region_id": "p17_R07",
       "bbox": [
         183,
         336,
@@ -406,7 +439,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R07",
+      "region_id": "p17_R08",
       "bbox": [
         184,
         387,
@@ -510,7 +543,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R08",
+      "region_id": "p17_R09",
       "bbox": [
         183,
         402,
@@ -548,7 +581,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R09",
+      "region_id": "p17_R10",
       "bbox": [
         184,
         452,
@@ -597,7 +630,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R10",
+      "region_id": "p17_R11",
       "bbox": [
         183,
         466,
@@ -723,7 +756,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R11",
+      "region_id": "p17_R12",
       "bbox": [
         184,
         517,
@@ -816,7 +849,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R12",
+      "region_id": "p17_R13",
       "bbox": [
         183,
         531,
@@ -964,7 +997,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R13",
+      "region_id": "p17_R14",
       "bbox": [
         184,
         643,
@@ -1068,7 +1101,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R14",
+      "region_id": "p17_R15",
       "bbox": [
         183,
         667,
@@ -1128,7 +1161,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R15",
+      "region_id": "p17_R16",
       "bbox": [
         183,
         709,
@@ -1243,7 +1276,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R16",
+      "region_id": "p17_R17",
       "bbox": [
         184,
         740,
@@ -1325,7 +1358,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R17",
+      "region_id": "p17_R18",
       "bbox": [
         183,
         781,
@@ -1495,7 +1528,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R18",
+      "region_id": "p17_R19",
       "bbox": [
         184,
         809,
@@ -1588,7 +1621,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R19",
+      "region_id": "p17_R20",
       "bbox": [
         184,
         846,
@@ -1670,7 +1703,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R20",
+      "region_id": "p17_R21",
       "bbox": [
         183,
         878,
@@ -1763,7 +1796,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R21",
+      "region_id": "p17_R22",
       "bbox": [
         197,
         981,
@@ -1900,7 +1933,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R22",
+      "region_id": "p17_R23",
       "bbox": [
         183,
         1004,
@@ -2004,7 +2037,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R23",
+      "region_id": "p17_R24",
       "bbox": [
         183,
         1046,
@@ -2086,7 +2119,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R24",
+      "region_id": "p17_R25",
       "bbox": [
         183,
         1069,
@@ -2201,7 +2234,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R25",
+      "region_id": "p17_R26",
       "bbox": [
         183,
         1118,
@@ -2294,7 +2327,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R26",
+      "region_id": "p17_R27",
       "bbox": [
         185,
         1138,
@@ -2365,7 +2398,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R27",
+      "region_id": "p17_R28",
       "bbox": [
         183,
         1188,
@@ -2425,7 +2458,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R28",
+      "region_id": "p17_R29",
       "bbox": [
         183,
         1211,
@@ -2474,7 +2507,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R29",
+      "region_id": "p17_R30",
       "bbox": [
         183,
         1253,
@@ -2622,7 +2655,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R30",
+      "region_id": "p17_R31",
       "bbox": [
         183,
         1273,
@@ -2726,7 +2759,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R31",
+      "region_id": "p17_R32",
       "bbox": [
         184,
         1323,
@@ -2775,7 +2808,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R32",
+      "region_id": "p17_R33",
       "bbox": [
         183,
         1338,
@@ -2846,7 +2879,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R33",
+      "region_id": "p17_R34",
       "bbox": [
         185,
         1388,
@@ -2939,7 +2972,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p17_R34",
+      "region_id": "p17_R35",
       "bbox": [
         183,
         1403,
@@ -3020,5 +3053,7 @@
       "drawings": [],
       "uncertain": []
     }
-  ]
+  ],
+  "vision_description": "",
+  "vision_classification": ""
 }

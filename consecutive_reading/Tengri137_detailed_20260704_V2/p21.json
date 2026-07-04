@@ -5,12 +5,12 @@
     1625
   ],
   "source_pixel": "p21.json",
-  "source_vision": null,
-  "n_regions": 33,
+  "source_vision": "p21_page.json",
+  "n_regions": 51,
   "n_text_words": 202,
   "n_blank_regions": 18,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 0,
+  "n_glyphs_vision": 18,
   "regions": [
     {
       "region_id": "p21_R01",
@@ -42,6 +42,600 @@
     {
       "region_id": "p21_R02",
       "bbox": [
+        713,
+        1253,
+        36,
+        33
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Highly noisy, grainy black-and-white texture with no discernible glyph, character, or geometric shape; appears to be a degraded scan artifact or piece of rough textured surface.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.2,
+          "page": "p21",
+          "bbox": [
+            713,
+            1253,
+            36,
+            33
+          ],
+          "crop_path": "bbox/crops/p21_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R03",
+      "bbox": [
+        644,
+        1280,
+        30,
+        54
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Highly noisy, degraded black-and-white texture with irregular blotchy patterns that may represent characters of ancient Chinese seal or oracle script, but the image is too grainy and distorted to read any specific glyph.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.3,
+          "page": "p21",
+          "bbox": [
+            644,
+            1280,
+            30,
+            54
+          ],
+          "crop_path": "bbox/crops/p21_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R04",
+      "bbox": [
+        857,
+        1464,
+        24,
+        27
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Dense cluster of black ink-like marks with no clearly distinguishable single glyph; appears to be a heavily crowded or smudged section of script.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.2,
+          "page": "p21",
+          "bbox": [
+            857,
+            1464,
+            24,
+            27
+          ],
+          "crop_path": "bbox/crops/p21_blank_002.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R05",
+      "bbox": [
+        642,
+        1438,
+        19,
+        25
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Irregular high-contrast black and white pattern with scattered dots and fragmented shapes, resembling printed texture, noise, or a deteriorated ink mark. No recognizable character, geometric figure, or script is discernible.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.3,
+          "page": "p21",
+          "bbox": [
+            642,
+            1438,
+            19,
+            25
+          ],
+          "crop_path": "bbox/crops/p21_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R06",
+      "bbox": [
+        853,
+        1080,
+        17,
+        21
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A character in Chinese seal script style with a square outer enclosure (囗 radical) and internal strokes, possibly 回 or a similar enclosed character. The glyph has a rough, carved/stamped appearance with thick black strokes against a light background.",
+          "unicode_codepoint": "U+56DE",
+          "vision_confidence": 0.55,
+          "page": "p21",
+          "bbox": [
+            853,
+            1080,
+            17,
+            21
+          ],
+          "crop_path": "bbox/crops/p21_blank_004.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R07",
+      "bbox": [
+        806,
+        1420,
+        22,
+        34
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Highly fragmented, noisy black-and-white speckled pattern with no discernible glyph, character, or geometric form. Appears to be a damaged or artifact-laden image rather than a recognizable symbol.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.2,
+          "page": "p21",
+          "bbox": [
+            806,
+            1420,
+            22,
+            34
+          ],
+          "crop_path": "bbox/crops/p21_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R08",
+      "bbox": [
+        506,
+        1236,
+        25,
+        18
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "stick_figure",
+          "vision_description": "A rough, hand-drawn stick figure or sketch of a person in a crouched or sitting position, with angular lines forming what appears to be a body, head, and limbs.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p21",
+          "bbox": [
+            506,
+            1236,
+            25,
+            18
+          ],
+          "crop_path": "bbox/crops/p21_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R09",
+      "bbox": [
+        503,
+        1472,
+        17,
+        32
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Highly pixelated, noisy black-and-white pattern with scattered white blobs and irregular shapes on a black background; no recognizable glyph, character, or geometric form is discernible.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.2,
+          "page": "p21",
+          "bbox": [
+            503,
+            1472,
+            17,
+            32
+          ],
+          "crop_path": "bbox/crops/p21_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R10",
+      "bbox": [
+        817,
+        1422,
+        20,
+        23
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Heavily pixelated, noisy black and white image with no discernible glyph, character, or geometric figure. The pattern appears to be random noise without any identifiable features.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.1,
+          "page": "p21",
+          "bbox": [
+            817,
+            1422,
+            20,
+            23
+          ],
+          "crop_path": "bbox/crops/p21_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R11",
+      "bbox": [
+        722,
+        1324,
+        22,
+        26
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A highly blurred and pixelated glyph with intricate curved and angular strokes characteristic of ancient Chinese seal or oracle script; individual components are difficult to resolve due to low resolution.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.3,
+          "page": "p21",
+          "bbox": [
+            722,
+            1324,
+            22,
+            26
+          ],
+          "crop_path": "bbox/crops/p21_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R12",
+      "bbox": [
+        993,
+        1397,
+        24,
+        15
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Highly pixelated, noisy black-and-white texture with no discernible character, symbol, or geometric figure. The image appears to be a fragment of noise or a heavily compressed/blurred portion of a larger image.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.1,
+          "page": "p21",
+          "bbox": [
+            993,
+            1397,
+            24,
+            15
+          ],
+          "crop_path": "bbox/crops/p21_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R13",
+      "bbox": [
+        674,
+        1292,
+        16,
+        23
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Highly degraded, noisy black ink stamp impression showing what appears to be an ancient Chinese character or seal script glyph, with thick black strokes and white background patches; individual character strokes are difficult to discern due to image artifacts and low resolution.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.35,
+          "page": "p21",
+          "bbox": [
+            674,
+            1292,
+            16,
+            23
+          ],
+          "crop_path": "bbox/crops/p21_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R14",
+      "bbox": [
+        820,
+        1447,
+        21,
+        28
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A complex, intricate black-on-white decorative pattern with many intertwining organic shapes that resembles an ornamental design or highly stylized Chinese seal script, too elaborate to be a single identifiable glyph.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.45,
+          "page": "p21",
+          "bbox": [
+            820,
+            1447,
+            21,
+            28
+          ],
+          "crop_path": "bbox/crops/p21_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R15",
+      "bbox": [
+        281,
+        1388,
+        20,
+        18
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Complex Chinese seal script character with dense, intertwined curved and angular strokes typical of zhuanshu (篆書) style.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.55,
+          "page": "p21",
+          "bbox": [
+            281,
+            1388,
+            20,
+            18
+          ],
+          "crop_path": "bbox/crops/p21_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R16",
+      "bbox": [
+        376,
+        1387,
+        15,
+        37
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Vertical column of Chinese characters in seal/clerical script style with thick, stylized strokes arranged in a tall rectangular block.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p21",
+          "bbox": [
+            376,
+            1387,
+            15,
+            37
+          ],
+          "crop_path": "bbox/crops/p21_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R17",
+      "bbox": [
+        652,
+        1367,
+        16,
+        22
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Heavily noisy black-and-white pixelated image with scattered white specks and irregular marks on a black background; no recognizable glyph, letter, or geometric form is discernible.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.2,
+          "page": "p21",
+          "bbox": [
+            652,
+            1367,
+            16,
+            22
+          ],
+          "crop_path": "bbox/crops/p21_blank_015.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R18",
+      "bbox": [
+        847,
+        1469,
+        12,
+        28
+      ],
+      "classification": "chinese_oracle_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_oracle_script",
+          "vision_description": "Complex ancient Chinese character in oracle bone script style, with a top section showing small dot-like marks or short strokes, a central body with interwoven curves and angular strokes, and a lower portion with additional structural elements typical of Shang dynasty inscriptions.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p21",
+          "bbox": [
+            847,
+            1469,
+            12,
+            28
+          ],
+          "crop_path": "bbox/crops/p21_blank_016.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R19",
+      "bbox": [
+        517,
+        1307,
+        18,
+        20
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Noisy black-and-white stippled texture resembling a halftone or dithered pattern; no recognizable glyph, letter, or geometric figure is discernible.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.2,
+          "page": "p21",
+          "bbox": [
+            517,
+            1307,
+            18,
+            20
+          ],
+          "crop_path": "bbox/crops/p21_blank_017.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p21_R20",
+      "bbox": [
         179,
         252,
         236,
@@ -67,7 +661,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R03",
+      "region_id": "p21_R21",
       "bbox": [
         179,
         278,
@@ -127,7 +721,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R04",
+      "region_id": "p21_R22",
       "bbox": [
         186,
         317,
@@ -220,7 +814,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R05",
+      "region_id": "p21_R23",
       "bbox": [
         186,
         339,
@@ -302,7 +896,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R06",
+      "region_id": "p21_R24",
       "bbox": [
         183,
         389,
@@ -362,7 +956,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R07",
+      "region_id": "p21_R25",
       "bbox": [
         183,
         409,
@@ -499,7 +1093,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R08",
+      "region_id": "p21_R26",
       "bbox": [
         183,
         459,
@@ -581,7 +1175,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R09",
+      "region_id": "p21_R27",
       "bbox": [
         183,
         483,
@@ -674,7 +1268,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R10",
+      "region_id": "p21_R28",
       "bbox": [
         186,
         532,
@@ -734,7 +1328,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R11",
+      "region_id": "p21_R29",
       "bbox": [
         183,
         548,
@@ -904,7 +1498,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R12",
+      "region_id": "p21_R30",
       "bbox": [
         179,
         598,
@@ -1041,7 +1635,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R13",
+      "region_id": "p21_R31",
       "bbox": [
         179,
         616,
@@ -1101,7 +1695,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R14",
+      "region_id": "p21_R32",
       "bbox": [
         183,
         743,
@@ -1194,7 +1788,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R15",
+      "region_id": "p21_R33",
       "bbox": [
         183,
         758,
@@ -1320,7 +1914,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R16",
+      "region_id": "p21_R34",
       "bbox": [
         179,
         808,
@@ -1347,7 +1941,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R17",
+      "region_id": "p21_R35",
       "bbox": [
         186,
         835,
@@ -1418,7 +2012,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R18",
+      "region_id": "p21_R36",
       "bbox": [
         184,
         877,
@@ -1489,7 +2083,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R19",
+      "region_id": "p21_R37",
       "bbox": [
         183,
         897,
@@ -1549,7 +2143,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R20",
+      "region_id": "p21_R38",
       "bbox": [
         184,
         947,
@@ -1642,7 +2236,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R21",
+      "region_id": "p21_R39",
       "bbox": [
         183,
         962,
@@ -1724,7 +2318,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R22",
+      "region_id": "p21_R40",
       "bbox": [
         186,
         1012,
@@ -1773,7 +2367,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R23",
+      "region_id": "p21_R41",
       "bbox": [
         183,
         1027,
@@ -1800,7 +2394,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R24",
+      "region_id": "p21_R42",
       "bbox": [
         184,
         1038,
@@ -1959,7 +2553,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R25",
+      "region_id": "p21_R43",
       "bbox": [
         183,
         1065,
@@ -2085,7 +2679,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R26",
+      "region_id": "p21_R44",
       "bbox": [
         183,
         1095,
@@ -2233,7 +2827,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R27",
+      "region_id": "p21_R45",
       "bbox": [
         669,
         1119,
@@ -2260,7 +2854,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R28",
+      "region_id": "p21_R46",
       "bbox": [
         183,
         1137,
@@ -2375,7 +2969,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R29",
+      "region_id": "p21_R47",
       "bbox": [
         183,
         1160,
@@ -2534,7 +3128,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R30",
+      "region_id": "p21_R48",
       "bbox": [
         183,
         1206,
@@ -2649,7 +3243,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R31",
+      "region_id": "p21_R49",
       "bbox": [
         180,
         1233,
@@ -2709,7 +3303,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R32",
+      "region_id": "p21_R50",
       "bbox": [
         261,
         1343,
@@ -2736,7 +3330,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p21_R33",
+      "region_id": "p21_R51",
       "bbox": [
         250,
         1477,
@@ -2763,16 +3357,25 @@
       "uncertain": []
     }
   ],
+  "vision_description": "",
+  "vision_classification": "",
   "stats": {
-    "n_regions": 33,
+    "n_regions": 51,
     "n_text_words": 202,
-    "n_symbols": 0,
+    "n_symbols": 18,
     "n_drawings": 0,
     "n_uncertain": 0,
     "classifications": {
       "footer": 1,
+      "unknown": 9,
+      "chinese_seal_script": 6,
+      "stick_figure": 1,
+      "image": 1,
+      "chinese_oracle_script": 1,
       "text_line": 32
     },
-    "top_clusters": {}
+    "top_clusters": {
+      "GEOM_LATIN_PRINT_0002": 18
+    }
   }
 }

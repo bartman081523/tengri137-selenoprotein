@@ -53,10 +53,10 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "geometric_circle",
           "vision_description": "Thick, irregular black ring with an oval-shaped white hole in the center, resembling a stylized eye or donut shape.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.55,
           "page": "p01",
           "bbox": [
@@ -86,7 +86,7 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "latin_print",
           "vision_description": "Two capital letter 'X' characters printed in a serif font, with what appears to be an apostrophe or punctuation mark before the first X.",
           "unicode_codepoint": "U+0058",
@@ -1900,7 +1900,7 @@
       "text_line": 17
     },
     "top_clusters": {
-      "GEOM_UNKNOWN_0002": 2
+      "GEOM_LATIN_PRINT_0002": 2
     }
   }
 }

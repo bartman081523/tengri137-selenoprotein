@@ -1,0 +1,2754 @@
+{
+  "page": "p09",
+  "page_vision_status": "ok",
+  "glyphs_processed": 183,
+  "n_blank_crops": 183,
+  "n_color_crops": 0,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        502,
+        873,
+        118,
+        108
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Three circles arranged in a triangular pattern connected by lines, each containing a number: 186 (top-left), 209 (top-right), and 127 (bottom-center). Forms a closed triangular graph/network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        776,
+        804,
+        106,
+        166
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A curved arc/line segment, part of a larger circular diagram with numbered nodes (74, 207, 25, 11, 166) connected by arcs.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 2,
+      "kind_crop": "blank",
+      "bbox": [
+        350,
+        626,
+        109,
+        162
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a graph/network diagram showing circular nodes with numbers (201, 13, 150, 184, 185, 197) connected by curved black lines",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 3,
+      "kind_crop": "blank",
+      "bbox": [
+        365,
+        1144,
+        176,
+        52
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A graph diagram showing circular nodes containing numbers (41, 175, 144, and a partial 1) connected by curved black edges. The node labeled '175' is at the top-center, '41' is at the top-left, '144' is at the bottom-left, and a partial node '1' is on the right edge.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 4,
+      "kind_crop": "blank",
+      "bbox": [
+        578,
+        1142,
+        175,
+        54
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing four circular nodes labeled 129, 163, 6, and 164, connected by curved black lines (edges). This is a network/graph visualization, not a single character glyph.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 5,
+      "kind_crop": "blank",
+      "bbox": [
+        248,
+        816,
+        94,
+        151
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a hierarchical tree or graph diagram showing several circular nodes containing numbers (197, 138, 18, 39, 102) connected by curved black lines",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 6,
+      "kind_crop": "blank",
+      "bbox": [
+        669,
+        636,
+        98,
+        142
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circular node containing the printed number '161', connected by lines to surrounding nodes in a network graph",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 7,
+      "kind_crop": "blank",
+      "bbox": [
+        574,
+        891,
+        91,
+        125
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cropped portion of a node-link diagram showing several circles connected by curved lines. The circles contain numeric labels: 209 (top), 120 (top right), 27 (middle left), 204 (bottom). Black curved arcs connect the nodes across the crop.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 8,
+      "kind_crop": "blank",
+      "bbox": [
+        495,
+        822,
+        135,
+        53
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Crop of a small network/graph diagram showing four circular nodes connected by curved lines, each containing a three-digit number: 149 (top-left), 172 (top-right), 186 (bottom-left), 209 (bottom-right). The circles have hand-drawn appearance with thick black outlines.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 9,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        890,
+        87,
+        122
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '186' printed in a serif font inside a circle, part of a network/node graph diagram with other numbered circles (95, 158, 12) connected by curved lines.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 10,
+      "kind_crop": "blank",
+      "bbox": [
+        772,
+        871,
+        78,
+        138
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '125' printed in standard Latin/Arabic numerals, positioned in the center-left of the image on a curved arc line.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 11,
+      "kind_crop": "blank",
+      "bbox": [
+        407,
+        638,
+        100,
+        118
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Cropped section of a network/graph diagram showing numbered circular nodes (201, 134, 17, 150, 84, 1) connected by curved black lines on a white background.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 12,
+      "kind_crop": "blank",
+      "bbox": [
+        660,
+        917,
+        74,
+        135
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A portion of a graph/network diagram showing circular nodes labeled with numbers (126, 171, 16, 67, 178) connected by curved edges",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 13,
+      "kind_crop": "blank",
+      "bbox": [
+        352,
+        1097,
+        133,
+        50
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "Multiple circles containing numbers (191, 130, 141, and a partial 1) connected by curved lines, forming a graph or network diagram",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 14,
+      "kind_crop": "blank",
+      "bbox": [
+        615,
+        918,
+        86,
+        121
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram fragment showing curved parallel lines with circular nodes containing numbers (126, 17, 04, 157, 178) at their endpoints, resembling a network or flow chart.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 15,
+      "kind_crop": "blank",
+      "bbox": [
+        497,
+        777,
+        132,
+        46
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram fragment showing four circular nodes labeled 196, 162, 149, and 172, connected by curved edges in a roughly rectangular arrangement.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 16,
+      "kind_crop": "blank",
+      "bbox": [
+        417,
+        916,
+        81,
+        117
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a node-link diagram showing circular nodes labeled with numbers (37, 195, 205, 176, 15) connected by curved black lines.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 17,
+      "kind_crop": "blank",
+      "bbox": [
+        633,
+        1100,
+        133,
+        46
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing multiple circular nodes labeled with numbers (203, 122, 9, 167) connected by black lines, forming a network structure.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 18,
+      "kind_crop": "blank",
+      "bbox": [
+        281,
+        884,
+        67,
+        117
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Three-digit number '138' printed in black inside a circle at the top of a graph/network diagram with other numbered nodes (185, 92, 145) connected by curved lines.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 19,
+      "kind_crop": "blank",
+      "bbox": [
+        623,
+        647,
+        85,
+        102
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Number '208' printed in black sans-serif font inside a circular node, part of a network/graph diagram with other numbered circular nodes connected by edges.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 20,
+      "kind_crop": "blank",
+      "bbox": [
+        510,
+        728,
+        107,
+        49
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram showing four circular nodes labeled with numbers (135, 123, 96, 163) connected by curved lines, forming a graph structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 21,
+      "kind_crop": "blank",
+      "bbox": [
+        754,
+        935,
+        56,
+        102
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a network graph with circular nodes containing numbers (129, 60, 168, 213) connected by curved black lines",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 22,
+      "kind_crop": "blank",
+      "bbox": [
+        385,
+        951,
+        69,
+        92
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular graph node containing the number '205' at the bottom of a network/graph diagram, connected by edges to partial circles showing '48', '137', and '17'.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 23,
+      "kind_crop": "blank",
+      "bbox": [
+        469,
+        663,
+        82,
+        72
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram with multiple circles connected by curved lines, containing the numbers 179, 15, 135, and 50 inside the circles.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 24,
+      "kind_crop": "blank",
+      "bbox": [
+        350,
+        1042,
+        91,
+        56
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 190, part of a network/graph diagram with other numbered circular nodes (205, 191, 13) connected by lines",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 25,
+      "kind_crop": "blank",
+      "bbox": [
+        679,
+        1053,
+        89,
+        48
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram with circles containing the numbers 178, 213, 122, and a partial 03, connected by black lines",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 26,
+      "kind_crop": "blank",
+      "bbox": [
+        318,
+        942,
+        47,
+        84
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Circle containing the number 148, forming a node in a graph/network diagram with lines connecting to other numbered circles (133, 45, 190).",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 27,
+      "kind_crop": "blank",
+      "bbox": [
+        662,
+        830,
+        56,
+        91
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph/network diagram showing circular nodes labeled with numbers (159, 126, 210, 171, 12) connected by straight black lines, representing a node-link structure rather than a single glyph.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 28,
+      "kind_crop": "blank",
+      "bbox": [
+        583,
+        668,
+        69,
+        65
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram showing multiple circles connected by lines, with numbers (133, 62, 123, 20) inside the circular nodes",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 29,
+      "kind_crop": "blank",
+      "bbox": [
+        718,
+        890,
+        41,
+        75
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A fragment of a network/graph diagram showing circular nodes containing numbers (2.10, 12..., 5.71) connected by straight lines, resembling a molecular structure or graph visualization.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 30,
+      "kind_crop": "blank",
+      "bbox": [
+        449,
+        733,
+        66,
+        58
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number 196 printed in black inside a circle, part of a network graph with other circled numbers (150, 13, 185) connected by black lines.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 31,
+      "kind_crop": "blank",
+      "bbox": [
+        627,
+        588,
+        71,
+        46
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node in a graph/network diagram containing the number 153, connected by lines to adjacent nodes (partial numbers 2, 199, 18 visible).",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 32,
+      "kind_crop": "blank",
+      "bbox": [
+        425,
+        1046,
+        72,
+        45
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram showing multiple circles connected by black lines, each circle containing a three-digit number (visible: 176, 130, 05, 15).",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 33,
+      "kind_crop": "blank",
+      "bbox": [
+        221,
+        953,
+        43,
+        75
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Part of a node graph diagram showing circles containing numbers (146, 192, 180, 11) connected by black lines",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 34,
+      "kind_crop": "blank",
+      "bbox": [
+        870,
+        1076,
+        51,
+        73
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph network diagram showing circular nodes containing the numbers 165, 120, 170, and 211, connected by straight line segments. The node '120' is on the left, '165' at top-right, '170' at middle-right, and '211' at bottom-left.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 35,
+      "kind_crop": "blank",
+      "bbox": [
+        749,
+        1135,
+        66,
+        57
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Crop of a graph diagram showing circular nodes containing the numbers 167, 214, 121, and 64, connected by straight lines forming a network structure.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 36,
+      "kind_crop": "blank",
+      "bbox": [
+        522,
+        518,
+        79,
+        36
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing four circular nodes connected by lines. The top node contains '131', the bottom node contains '181', the left node shows partial '4' (cut off), and the right node shows partial '20' (cut off). The nodes are connected in a diamond/rhombus pattern with thick black lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 37,
+      "kind_crop": "blank",
+      "bbox": [
+        346,
+        778,
+        49,
+        74
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph/network diagram with circles containing the numbers 182, 197, 147, and 138, connected by straight lines forming a node-link structure.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 38,
+      "kind_crop": "blank",
+      "bbox": [
+        205,
+        1079,
+        52,
+        71
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A network of circles containing numbers (166, 143, 193, 14x) connected by straight black lines, forming a graph or node diagram. The most prominent single circle contains '143'.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 39,
+      "kind_crop": "blank",
+      "bbox": [
+        580,
+        550,
+        72,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A hexagonal graph diagram with four circles visible at the vertices containing the numbers 200 (top), 1 (left), 15 (right), and 132 (bottom), connected by thick black lines forming a diamond/hexagon shape. Other numbered circles are partially visible at the edges.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 40,
+      "kind_crop": "blank",
+      "bbox": [
+        521,
+        1123,
+        77,
+        34
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '206' printed in black serif-like font inside a circle at the top of a small network/graph diagram with other numbered circular nodes (5, 13, 156) connected by straight lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 41,
+      "kind_crop": "blank",
+      "bbox": [
+        813,
+        1110,
+        57,
+        66
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number 214, connected by lines to other numbered circular nodes in a graph/network diagram.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 42,
+      "kind_crop": "blank",
+      "bbox": [
+        722,
+        769,
+        51,
+        72
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A small network/graph diagram showing circles containing the numbers 61, 174, 124, and 207, connected by straight black lines forming a node-link structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 43,
+      "kind_crop": "blank",
+      "bbox": [
+        471,
+        549,
+        71,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing four circles connected by lines in a diamond pattern, containing the numbers 154 (top), 1 (right), 151 (bottom), and 40 (left).",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 44,
+      "kind_crop": "blank",
+      "bbox": [
+        396,
+        751,
+        54,
+        65
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number 184 printed in Latin serif numerals, enclosed within a thin black circle, with lines connecting to adjacent circular nodes (150, 185, 147) forming a network/graph structure.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 45,
+      "kind_crop": "blank",
+      "bbox": [
+        258,
+        1113,
+        56,
+        64
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Number '194' printed in a serif font inside a circle, forming a node in a network diagram",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 46,
+      "kind_crop": "blank",
+      "bbox": [
+        472,
+        1091,
+        73,
+        37
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The glyph '175' rendered in a serif typeface inside a circular node, with adjacent nodes showing '155', '30', and '2' connected by straight line segments forming a graph/network structure.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 47,
+      "kind_crop": "blank",
+      "bbox": [
+        208,
+        1019,
+        45,
+        69
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cropped fragment of a graph/network diagram showing multiple numbered circles (140, 189, 188, 143) connected by straight black edges. The circles contain black serif/sans-serif digits on a white background, linked in a node-edge pattern typical of a graph or flowchart.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 48,
+      "kind_crop": "blank",
+      "bbox": [
+        727,
+        832,
+        44,
+        69
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a network graph with circular nodes containing the numbers 124, 207, 210, and 125, connected by thick black lines",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 49,
+      "kind_crop": "blank",
+      "bbox": [
+        362,
+        895,
+        39,
+        69
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Cropped portion of a network/graph diagram showing circular nodes containing numbers (198, 83, 137, 149) connected by black line segments forming a lattice-like structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 50,
+      "kind_crop": "blank",
+      "bbox": [
+        614,
+        733,
+        58,
+        55
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "Circular node containing the printed number 208, connected by lines to other numbered circular nodes (23, 162, 173) forming a graph/network diagram",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 51,
+      "kind_crop": "blank",
+      "bbox": [
+        768,
+        1083,
+        54,
+        53
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A portion of a node-link graph diagram showing several circular nodes containing numbers (163, 122, 214, 67) connected by straight lines, resembling a network or graph structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 52,
+      "kind_crop": "blank",
+      "bbox": [
+        875,
+        1014,
+        44,
+        71
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram showing four numbered nodes (212 at top, 169 on left, 165 on right, 120 at bottom) displayed as circles connected by straight lines, forming a diamond/quadrilateral structure",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 53,
+      "kind_crop": "blank",
+      "bbox": [
+        311,
+        1136,
+        58,
+        56
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '141' rendered in a clear, sans-serif latin print typeface, positioned inside a thin circular outline. The digits are bold and legible, situated in the upper-center area of the cropped image as part of a network of circled numbers connected by lines.",
+        "confidence": 0.97
+      }
+    },
+    {
+      "index": 54,
+      "kind_crop": "blank",
+      "bbox": [
+        529,
+        1010,
+        54,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram showing four circles arranged in a diamond pattern, connected by thick black lines. Each circle contains a number: 58 (left), 127 (top), 20 (right), and 177 (bottom). The circles are outlined in black on a white background.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 55,
+      "kind_crop": "blank",
+      "bbox": [
+        867,
+        957,
+        39,
+        69
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the printed number 66, part of a larger graph/network diagram with multiple circular nodes connected by lines. Other partially visible nodes show numbers 113, 212, and 160.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 56,
+      "kind_crop": "blank",
+      "bbox": [
+        262,
+        998,
+        42,
+        62
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A chain of four circular nodes connected by lines, each containing a 3-digit number (192, 145, 189, 140). It forms a linked/ringed network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 57,
+      "kind_crop": "blank",
+      "bbox": [
+        580,
+        607,
+        60,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Portion of a network/graph diagram showing circles connected by thick lines, each containing a number (132, 133, 19, partial 2).",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 58,
+      "kind_crop": "blank",
+      "bbox": [
+        825,
+        1054,
+        47,
+        62
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a node-link diagram showing four circles containing three-digit numbers (169, 163, 120, 214) connected by straight lines forming a graph structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 59,
+      "kind_crop": "blank",
+      "bbox": [
+        715,
+        1002,
+        46,
+        51
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Part of a graph diagram showing three circles connected by lines, containing the numbers 180 (top, partially visible), 78 (left, partially visible), and 213 (right). The circles are connected by straight lines forming a triangular/polygonal structure.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 60,
+      "kind_crop": "blank",
+      "bbox": [
+        483,
+        1033,
+        58,
+        40
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cropped fragment of a graph/network diagram showing several circular nodes connected by straight lines. Visible numbers inside the circles include 76 (left), 158 (top), 13 (right), and 155 (bottom). Thick black edges connect the nodes.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 61,
+      "kind_crop": "blank",
+      "bbox": [
+        443,
+        838,
+        48,
+        53
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '186' printed in standard serif numerals inside a circular node",
+        "confidence": 0.98
+      }
+    },
+    {
+      "index": 62,
+      "kind_crop": "blank",
+      "bbox": [
+        623,
+        1053,
+        64,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph/network diagram showing multiple circles containing the numbers 157, 17, 8, and 203, connected by straight black lines forming a node-link structure.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 63,
+      "kind_crop": "blank",
+      "bbox": [
+        539,
+        633,
+        54,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cropped section of a diagram showing four circles containing the numbers '202' (top), '9' (left), '13' (right), and '152' (bottom), connected by thick black lines forming a diamond/hexagonal network pattern.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 64,
+      "kind_crop": "blank",
+      "bbox": [
+        428,
+        585,
+        67,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram showing multiple circles containing numbers (180, 1, 134, 01) connected by black lines, forming a mesh structure",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 65,
+      "kind_crop": "blank",
+      "bbox": [
+        256,
+        1056,
+        45,
+        61
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A network diagram with four circles connected by lines, each containing a three-digit number: 189 (top-left), 140 (top-right), 143 (bottom-left), and 194 (bottom-right, partially visible).",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 66,
+      "kind_crop": "blank",
+      "bbox": [
+        632,
+        838,
+        46,
+        55
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph or network diagram showing multiple circles containing numbers (172, 159, 209, 126) connected by lines, resembling a node-link diagram",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 67,
+      "kind_crop": "blank",
+      "bbox": [
+        582,
+        1093,
+        65,
+        34
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing four circles connected by lines, with the numbers 128 (top), 129 (bottom), 6 (left), and 20 or 2C (right) written inside the circles.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 68,
+      "kind_crop": "blank",
+      "bbox": [
+        530,
+        576,
+        63,
+        32
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram showing a diamond-shaped graph with four circled numbers (181 at top, 61 at left, 13 at right, 202 at bottom) connected by straight lines, resembling a Hasse diagram of divisibility relations among numbers.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 69,
+      "kind_crop": "blank",
+      "bbox": [
+        671,
+        747,
+        50,
+        60
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A fragment of a graph/network diagram showing circles connected by lines, with circled numeric labels: '08' at top-left, '161' upper-right, '173' center, and partial '124' at bottom-right.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 70,
+      "kind_crop": "blank",
+      "bbox": [
+        823,
+        1003,
+        43,
+        57
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network diagram showing four interconnected circles, each containing a Latin print number: 108 (top), 68 (left), 169 (right), and 163 (bottom), connected by short line segments.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 71,
+      "kind_crop": "blank",
+      "bbox": [
+        305,
+        1026,
+        43,
+        56
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing four circles containing the numbers 145, 190, 140, and 191, connected by straight lines forming a network. The numbers appear in a print font, possibly representing a node-link diagram or chemical structure.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 72,
+      "kind_crop": "blank",
+      "bbox": [
+        772,
+        1034,
+        48,
+        52
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A small graph diagram with four circular nodes containing the numbers 168, 213, 163, and 122, connected by straight black lines. The nodes are arranged in a roughly diamond/quadrilateral pattern with 168 at top, 213 at left, 163 at right, and 122 at bottom-left.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 73,
+      "kind_crop": "blank",
+      "bbox": [
+        349,
+        841,
+        43,
+        67
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Cropped portion of a graph diagram showing several circular nodes (containing the numbers 138, 147, 198, 183) connected by straight black lines forming a tree or network structure.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 74,
+      "kind_crop": "blank",
+      "bbox": [
+        442,
+        788,
+        52,
+        53
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph showing circular nodes containing the numbers 185, 199, 136, and 149, connected by black lines (edges) forming a graph structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 75,
+      "kind_crop": "blank",
+      "bbox": [
+        303,
+        1082,
+        47,
+        53
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A partial view of a graph diagram showing circular nodes labeled with numbers (140, 191, 194, 141) connected by straight edges/lines, forming a network structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 76,
+      "kind_crop": "blank",
+      "bbox": [
+        490,
+        603,
+        55,
+        36
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A network of circles connected by lines, with the number 151 visible in the top circle and 178 in the bottom circle, along with partial circles showing numbers on left and right sides.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 77,
+      "kind_crop": "blank",
+      "bbox": [
+        401,
+        863,
+        40,
+        56
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network diagram section showing circles containing three-digit numbers (198, 195, 137, 136) connected by black lines, resembling a phylogenetic or graph network visualization.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 78,
+      "kind_crop": "blank",
+      "bbox": [
+        631,
+        787,
+        48,
+        51
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Graph network diagram with four circular nodes containing the printed numbers 62 (top-left), 173 (top-right), 172 (bottom-left), and 159 (bottom-right), connected by straight black lines forming a quadrilateral.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 79,
+      "kind_crop": "blank",
+      "bbox": [
+        576,
+        1040,
+        54,
+        35
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram with four circular nodes labeled 204 (top), 15 (right), 128 (bottom), and 7 (left), connected by straight line segments forming a quadrilateral network.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 80,
+      "kind_crop": "blank",
+      "bbox": [
+        531,
+        1072,
+        58,
+        31
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a graph/network diagram showing four circular nodes connected by edges. The nodes contain the numbers 177 (top), 5 (left), 13 (right), and 206 (bottom). The circles are outlined in black with thick connecting lines between them.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 81,
+      "kind_crop": "blank",
+      "bbox": [
+        394,
+        810,
+        45,
+        57
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circular node containing the printed number '147', connected by lines to adjacent circular nodes labeled 189, 136, and 198 in a graph/network diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 82,
+      "kind_crop": "blank",
+      "bbox": [
+        683,
+        807,
+        41,
+        55
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a network graph showing four circular nodes containing the numbers 173, 124, 159, and 210, connected by black edges/lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 83,
+      "kind_crop": "blank",
+      "bbox": [
+        539,
+        1042,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the printed number '177' in a serif font, with lines extending to adjacent nodes, forming part of a network/graph diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 84,
+      "kind_crop": "blank",
+      "bbox": [
+        389,
+        915,
+        39,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '137', connected by lines to other circular nodes in a graph-like structure.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 85,
+      "kind_crop": "blank",
+      "bbox": [
+        504,
+        632,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 179, with lines extending outward to neighboring nodes, forming part of a graph/network diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 86,
+      "kind_crop": "blank",
+      "bbox": [
+        375,
+        810,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the digits '147' in black serif/print font, with thick black lines extending from the circle to the corners of the crop, indicating a labeled node in a graph or network diagram.",
+        "confidence": 0.65
+      }
+    },
+    {
+      "index": 87,
+      "kind_crop": "blank",
+      "bbox": [
+        660,
+        779,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '173', with line segments extending outward connecting to other nodes in a graph-like structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 88,
+      "kind_crop": "blank",
+      "bbox": [
+        749,
+        1027,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 213, with lines connecting to other partially visible circles, appearing as a node in a graph or diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 89,
+      "kind_crop": "blank",
+      "bbox": [
+        785,
+        1161,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node in a graph diagram with several lines extending outward from its perimeter, containing the number 121 inside the circle.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 90,
+      "kind_crop": "blank",
+      "bbox": [
+        548,
+        665,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '152' in its center, connected by lines to other partial circles visible at the corners of the crop, forming a node-link diagram.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 91,
+      "kind_crop": "blank",
+      "bbox": [
+        752,
+        773,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle with the number '174' printed inside it, with straight lines extending outward from the circle (top, left, and right), resembling a labeled node in a graph or network diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 92,
+      "kind_crop": "blank",
+      "bbox": [
+        613,
+        812,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number 172, with lines extending outward to adjacent partial circles, forming part of a network/graph diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 93,
+      "kind_crop": "blank",
+      "bbox": [
+        654,
+        887,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the number '126' in printed Latin numerals, with lines extending from it to other circles in a graph/network diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 94,
+      "kind_crop": "blank",
+      "bbox": [
+        197,
+        984,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "address_hex",
+        "description": "A circle containing the number '146', with lines extending from the circle to adjacent nodes, forming part of a graph or network diagram.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 95,
+      "kind_crop": "blank",
+      "bbox": [
+        844,
+        1140,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node labeled with the number 211 inside, with lines extending outward as part of a graph or network diagram.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 96,
+      "kind_crop": "blank",
+      "bbox": [
+        495,
+        1064,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 155, with lines extending outward connecting to other nodes, appearing as a node in a graph or network diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 97,
+      "kind_crop": "blank",
+      "bbox": [
+        901,
+        1107,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node (graph vertex) containing the number '170', with a line extending upward from the top of the circle, appearing to be part of a graph or tree diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 98,
+      "kind_crop": "blank",
+      "bbox": [
+        584,
+        709,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node with the number '123' printed inside, with black lines extending outward to the top, right, bottom, and left, forming a network/graph diagram node.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 99,
+      "kind_crop": "blank",
+      "bbox": [
+        539,
+        977,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '127' with diagonal lines extending outward as part of a graph network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 100,
+      "kind_crop": "blank",
+      "bbox": [
+        649,
+        563,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 153, with lines extending from it suggesting a node in a network graph",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 101,
+      "kind_crop": "blank",
+      "bbox": [
+        494,
+        576,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '151', with lines extending outward to connect to adjacent nodes in a network diagram",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 102,
+      "kind_crop": "blank",
+      "bbox": [
+        507,
+        709,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '135' with several lines extending outward from its perimeter, resembling a graph node.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 103,
+      "kind_crop": "blank",
+      "bbox": [
+        751,
+        1073,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '122', connected by lines to adjacent circles (a graph/network node labeled 122).",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 104,
+      "kind_crop": "blank",
+      "bbox": [
+        591,
+        579,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '132' with black lines extending from it to other partial nodes at the edges, appearing as part of a network or graph diagram.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 105,
+      "kind_crop": "blank",
+      "bbox": [
+        454,
+        611,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the printed number '134', with curved lines extending outward connecting to adjacent nodes in a graph diagram.",
+        "confidence": 0.97
+      }
+    },
+    {
+      "index": 106,
+      "kind_crop": "blank",
+      "bbox": [
+        801,
+        1107,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '214' with short lines extending from its edges connecting to neighboring nodes",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 107,
+      "kind_crop": "blank",
+      "bbox": [
+        187,
+        1108,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 193, with lines extending from the top and lower-right, appearing to be a labeled node in a graph or network diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 108,
+      "kind_crop": "blank",
+      "bbox": [
+        483,
+        1117,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular road/route sign containing the number 175, with two straight lines extending horizontally from the left and right sides of the circle, resembling a highway route marker or shield.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 109,
+      "kind_crop": "blank",
+      "bbox": [
+        540,
+        491,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A white circle outline containing the number '131' in its center, with two short lines extending outward from the lower-left and lower-right edges of the circle.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 110,
+      "kind_crop": "blank",
+      "bbox": [
+        893,
+        978,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '212' with lines extending outward, representing a vertex in a graph or network diagram",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 111,
+      "kind_crop": "blank",
+      "bbox": [
+        290,
+        996,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "A circle containing the number '145' with lines extending outward to other partially visible circles, resembling a node in a network diagram.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 112,
+      "kind_crop": "blank",
+      "bbox": [
+        337,
+        1123,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number 141, with lines extending to adjacent circular nodes at the edges of the crop, forming part of a graph or network diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 113,
+      "kind_crop": "blank",
+      "bbox": [
+        590,
+        639,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 133, connected by lines to other circles, appearing as a node in a network or graph diagram.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 114,
+      "kind_crop": "blank",
+      "bbox": [
+        486,
+        521,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the three-digit number '154' with diagonal lines extending from the sides, appearing as a labeled node in a graph or network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 115,
+      "kind_crop": "blank",
+      "bbox": [
+        605,
+        762,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number 162, connected by lines to surrounding shapes, appearing as a node in a network or graph diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 116,
+      "kind_crop": "blank",
+      "bbox": [
+        707,
+        799,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '124', with black lines radiating outward to connect to partially visible neighboring circles, forming part of a network or graph diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 117,
+      "kind_crop": "blank",
+      "bbox": [
+        218,
+        916,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle outline containing the printed number '139', with short line segments extending from the top and bottom of the circle, suggesting it is a labeled node in a connected graph or diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 118,
+      "kind_crop": "blank",
+      "bbox": [
+        696,
+        739,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle (node) containing the number '161', with black edges/lines extending outward to connect to other nodes in a graph structure.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 119,
+      "kind_crop": "blank",
+      "bbox": [
+        428,
+        884,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network/graph diagram crop showing a central circle labeled with the number '195', connected by lines to partial circles at the corners and a partial circle labeled '7' at the bottom-left",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 120,
+      "kind_crop": "blank",
+      "bbox": [
+        748,
+        898,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 125, with multiple lines extending outward from the circle to other points (appearing as a node in a graph or network diagram).",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 121,
+      "kind_crop": "blank",
+      "bbox": [
+        451,
+        1020,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 176, connected by lines to other partial circles, resembling a node in a network graph diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 122,
+      "kind_crop": "blank",
+      "bbox": [
+        326,
+        784,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '197', with four lines extending outward from the circle, appearing as a labeled node in a network or graph diagram.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 123,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        1027,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '157' in its center, with straight lines radiating outward from its edges to connect to adjacent circular nodes in a network/graph diagram.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 124,
+      "kind_crop": "blank",
+      "bbox": [
+        234,
+        1082,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '143' with lines radiating outward to neighboring nodes, appearing as part of a graph or network diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 125,
+      "kind_crop": "blank",
+      "bbox": [
+        421,
+        833,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '136', with lines extending from it to connect to other nodes in a network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 126,
+      "kind_crop": "blank",
+      "bbox": [
+        330,
+        1071,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '191' printed in a serif font inside a circular node, which is part of a graph/diagram with line segments connecting to adjacent nodes.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 127,
+      "kind_crop": "blank",
+      "bbox": [
+        741,
+        1123,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "address_hex",
+        "description": "A circle containing the number 167, with lines extending outward suggesting a graph node with numerical label.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 128,
+      "kind_crop": "blank",
+      "bbox": [
+        755,
+        837,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '207' with radial lines extending outward, appearing to be a node in a network or graph diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 129,
+      "kind_crop": "blank",
+      "bbox": [
+        900,
+        1042,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A hand-drawn circle containing the number '165', with short line segments extending from its top, bottom, and left sides, appearing as a node in a graph or network diagram.",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 130,
+      "kind_crop": "blank",
+      "bbox": [
+        381,
+        749,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 184, with lines radiating outward to the corners, resembling a node in a network or diagram",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 131,
+      "kind_crop": "blank",
+      "bbox": [
+        425,
+        781,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number 185 printed in black inside a circular node of a graph/network diagram, with lines extending outward to other nodes.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 132,
+      "kind_crop": "blank",
+      "bbox": [
+        542,
+        546,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '181' with two lines extending horizontally from its left and right sides, representing a labeled node in a graph or network diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 133,
+      "kind_crop": "blank",
+      "bbox": [
+        395,
+        606,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A circle containing the number 201, with two short line segments extending outward to the upper-right and lower-left, resembling a reference balloon or stenographic label.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 134,
+      "kind_crop": "blank",
+      "bbox": [
+        285,
+        1109,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "address_hex",
+        "description": "A circular node containing the three-digit number '194' in bold, with line segments extending outward connecting to neighboring nodes in a graph/network diagram.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 135,
+      "kind_crop": "blank",
+      "bbox": [
+        243,
+        1141,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number 142 printed in black inside a circle, forming a node in a graph or network diagram with lines extending outward.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 136,
+      "kind_crop": "blank",
+      "bbox": [
+        362,
+        1177,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node in a graph/network diagram containing the number '144' inside, with straight lines extending outward from the circle to connect to other nodes.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 137,
+      "kind_crop": "blank",
+      "bbox": [
+        544,
+        601,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '202', with lines radiating outward to connect to adjacent nodes, forming part of a network or graph diagram.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 138,
+      "kind_crop": "blank",
+      "bbox": [
+        303,
+        1166,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 187 with several line segments radiating outward from its perimeter, resembling a graph/network node with an index label.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 139,
+      "kind_crop": "blank",
+      "bbox": [
+        873,
+        920,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '119' in print, with straight lines extending outward from the circle's edges, resembling a labeled vertex/node in a graph diagram.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 140,
+      "kind_crop": "blank",
+      "bbox": [
+        394,
+        1026,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node with the number '205' printed inside, connected by lines to other nodes in what appears to be a network graph diagram.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 141,
+      "kind_crop": "blank",
+      "bbox": [
+        252,
+        964,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A circle containing the number '192' with three lines extending outward (up-left, up-right, and down), resembling a labeled node in a syntax tree or graph diagram.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 142,
+      "kind_crop": "blank",
+      "bbox": [
+        355,
+        964,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Cartographic node/road shield: a circle containing the number '148' with four thick black lines extending outward from the circle to the four corners, representing a road junction or route marker on a map.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 143,
+      "kind_crop": "blank",
+      "bbox": [
+        683,
+        1036,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '178' with multiple line segments radiating outward from its perimeter, appearing as a node in a graph or tree diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 144,
+      "kind_crop": "blank",
+      "bbox": [
+        597,
+        1118,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node in a graph/network diagram containing the number '129', with straight lines extending outward to connect to other nodes",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 145,
+      "kind_crop": "blank",
+      "bbox": [
+        541,
+        1149,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '156' with two horizontal lines extending from the left and right sides, resembling a node in a flowchart or schematic diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 146,
+      "kind_crop": "blank",
+      "bbox": [
+        440,
+        725,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '150' with several lines radiating outward, resembling a graph node or network diagram element",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 147,
+      "kind_crop": "blank",
+      "bbox": [
+        854,
+        1079,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '120' with multiple lines radiating outward from its perimeter, resembling a network node or hub in a diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 148,
+      "kind_crop": "blank",
+      "bbox": [
+        636,
+        622,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '199' with thick black lines radiating outward to connect to other nodes, resembling a network or graph diagram element.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 149,
+      "kind_crop": "blank",
+      "bbox": [
+        326,
+        849,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle with the number '138' printed inside it, with several straight lines extending outward from the circle's perimeter, resembling a labeled node in a network or graph diagram.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 150,
+      "kind_crop": "blank",
+      "bbox": [
+        805,
+        1053,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the printed number '163' with short line segments extending outward from the circle's perimeter, appearing as a labeled node in a network or tree diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 151,
+      "kind_crop": "blank",
+      "bbox": [
+        496,
+        1001,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 158, with thick black lines extending outward from its edges, appearing to be a node in a network/graph diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 152,
+      "kind_crop": "blank",
+      "bbox": [
+        475,
+        811,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '149' with lines extending outward to other nodes, appearing as part of a network or graph diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 153,
+      "kind_crop": "blank",
+      "bbox": [
+        587,
+        1065,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '128', connected by lines to other partial circles visible at the edges of the crop, forming a graph or diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 154,
+      "kind_crop": "blank",
+      "bbox": [
+        283,
+        1053,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '140', with lines extending from it to other circles, forming a node in a network/graph diagram",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 155,
+      "kind_crop": "blank",
+      "bbox": [
+        705,
+        856,
+        37,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 210, connected by lines to partial surrounding circles, appearing as a node in a network/graph diagram",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 156,
+      "kind_crop": "blank",
+      "bbox": [
+        476,
+        864,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed number '186' inside a circle with lines extending outward, resembling a graph or network node",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 157,
+      "kind_crop": "blank",
+      "bbox": [
+        581,
+        1009,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '204', with straight lines connecting it to adjacent circular nodes, forming part of a network/graph diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 158,
+      "kind_crop": "blank",
+      "bbox": [
+        693,
+        615,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '182' with short line segments crossing through it, appearing as a labeled node or marker in a diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 159,
+      "kind_crop": "blank",
+      "bbox": [
+        335,
+        905,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '183' with lines extending outward from the circle, appearing to be a labeled node in a graph or network diagram.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 160,
+      "kind_crop": "blank",
+      "bbox": [
+        544,
+        1095,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '206' with lines extending outward to the left and right, appearing as a labeled node in a graph or network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 161,
+      "kind_crop": "blank",
+      "bbox": [
+        719,
+        1177,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node with the number '164' inside, with lines extending from the top, left, and right edges, representing a labeled graph or network node.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 162,
+      "kind_crop": "blank",
+      "bbox": [
+        643,
+        1079,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the label '203' with straight lines extending outward from its edges, appearing as a labeled node in a graph or network diagram.",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 163,
+      "kind_crop": "blank",
+      "bbox": [
+        438,
+        1079,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '130', with lines extending outward to connect to other nodes, appearing as a vertex in a graph or network diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 164,
+      "kind_crop": "blank",
+      "bbox": [
+        376,
+        861,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the printed number '198', serving as a labeled node connected by straight lines to adjacent circles in a network diagram.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 165,
+      "kind_crop": "blank",
+      "bbox": [
+        484,
+        765,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the printed digits '196' with thin lines extending outward to neighboring nodes, appearing as part of a connected graph or network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 166,
+      "kind_crop": "blank",
+      "bbox": [
+        797,
+        1002,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Circular node labeled '168' in a network/relationship diagram, with lines extending outward connecting to other nodes.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 167,
+      "kind_crop": "blank",
+      "bbox": [
+        609,
+        864,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '209' with several lines extending outward, appearing to be a vertex in a network or graph diagram. An 'I'-shaped line/connector is visible at the top.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 168,
+      "kind_crop": "blank",
+      "bbox": [
+        237,
+        1024,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node with the number 189 printed in the center, with four short lines extending outward from the circle (top, bottom, left, right), suggesting a graph or network diagram element.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 169,
+      "kind_crop": "blank",
+      "bbox": [
+        334,
+        1017,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle node containing the printed number 190, with a partial edge or line extending to the upper-left.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 170,
+      "kind_crop": "blank",
+      "bbox": [
+        841,
+        969,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the label '166' with multiple line segments radiating outward to the edges, representing a vertex in a graph or network diagram",
+        "confidence": 0.88
+      }
+    },
+    {
+      "index": 171,
+      "kind_crop": "blank",
+      "bbox": [
+        187,
+        1045,
+        38,
+        37
+      ],
+      "result_summary": {
+        "kind": "address_hex",
+        "description": "A circle containing the number '188' with lines extending outward, appearing as a labeled node in a graph diagram.",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 172,
+      "kind_crop": "blank",
+      "bbox": [
+        853,
+        1022,
+        37,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number 169, connected by lines to other circles, appearing as a node in a graph diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 173,
+      "kind_crop": "blank",
+      "bbox": [
+        436,
+        561,
+        37,
+        37
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the number '180' in printed digits, with two diagonal lines crossing through it as connecting edges to other nodes in a graph diagram",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 174,
+      "kind_crop": "blank",
+      "bbox": [
+        726,
+        965,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "Circle outline containing the printed number '160', resembling a road route marker",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 175,
+      "kind_crop": "blank",
+      "bbox": [
+        540,
+        699,
+        51,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing circles containing numbers (152 at top, 35 at left, 12 at right) connected by straight black lines, forming a triangular network of nodes.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 176,
+      "kind_crop": "blank",
+      "bbox": [
+        599,
+        522,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the label '200' with thick black connection lines extending to the left, resembling a labeled vertex in a network or circuit diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 177,
+      "kind_crop": "blank",
+      "bbox": [
+        643,
+        720,
+        38,
+        38
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node with the number 208 inside, connected by lines to other shapes, appearing as a labeled vertex in a tensor network or knot diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 178,
+      "kind_crop": "blank",
+      "bbox": [
+        360,
+        1000,
+        37,
+        42
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A fragment of a graph/network diagram showing circular nodes connected by lines, with numerical labels like '.90' and '20' visible inside the circles.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 179,
+      "kind_crop": "blank",
+      "bbox": [
+        507,
+        399,
+        15,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circular outline containing three or four small dots arranged to resemble a simple face with eyes and a mouth/nose",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 180,
+      "kind_crop": "blank",
+      "bbox": [
+        226,
+        1330,
+        15,
+        15
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three dots arranged in a triangular pattern (two upper, one lower), resembling a simple face or emoticon.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 181,
+      "kind_crop": "blank",
+      "bbox": [
+        479,
+        1490,
+        15,
+        15
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 182,
+      "kind_crop": "blank",
+      "bbox": [
+        823,
+        1490,
+        15,
+        15
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three small dots arranged in a triangular pattern (two on top, one on the bottom), resembling a simple face.",
+        "confidence": 0.82
+      }
+    }
+  ]
+}

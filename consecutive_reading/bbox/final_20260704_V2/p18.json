@@ -5,12 +5,12 @@
     1625
   ],
   "source_pixel": "p18.json",
-  "source_vision": null,
-  "n_regions": 34,
+  "source_vision": "p18_page.json",
+  "n_regions": 35,
   "n_text_words": 246,
   "n_blank_regions": 1,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 0,
+  "n_glyphs_vision": 1,
   "regions": [
     {
       "region_id": "p18_R01",
@@ -41,6 +41,39 @@
     },
     {
       "region_id": "p18_R02",
+      "bbox": [
+        854,
+        373,
+        18,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "Schwarze, annähernd runde Form mit einer weißen ovalen Aussparung im Inneren, möglicherweise Teil eines stilisierten Gesichts oder einer Figur mit einem Auge.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.35,
+          "page": "p18",
+          "bbox": [
+            854,
+            373,
+            18,
+            17
+          ],
+          "crop_path": "bbox/crops/p18_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p18_R03",
       "bbox": [
         183,
         252,
@@ -144,7 +177,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R03",
+      "region_id": "p18_R04",
       "bbox": [
         183,
         272,
@@ -248,7 +281,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R04",
+      "region_id": "p18_R05",
       "bbox": [
         186,
         322,
@@ -374,7 +407,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R05",
+      "region_id": "p18_R06",
       "bbox": [
         183,
         337,
@@ -500,7 +533,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R06",
+      "region_id": "p18_R07",
       "bbox": [
         184,
         378,
@@ -593,7 +626,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R07",
+      "region_id": "p18_R08",
       "bbox": [
         183,
         402,
@@ -620,7 +653,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R08",
+      "region_id": "p18_R09",
       "bbox": [
         184,
         414,
@@ -669,7 +702,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R09",
+      "region_id": "p18_R10",
       "bbox": [
         183,
         528,
@@ -762,7 +795,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R10",
+      "region_id": "p18_R11",
       "bbox": [
         183,
         544,
@@ -899,7 +932,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R11",
+      "region_id": "p18_R12",
       "bbox": [
         179,
         594,
@@ -926,7 +959,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R12",
+      "region_id": "p18_R13",
       "bbox": [
         183,
         612,
@@ -1019,7 +1052,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R13",
+      "region_id": "p18_R14",
       "bbox": [
         183,
         654,
@@ -1156,7 +1189,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R14",
+      "region_id": "p18_R15",
       "bbox": [
         183,
         678,
@@ -1293,7 +1326,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R15",
+      "region_id": "p18_R16",
       "bbox": [
         180,
         724,
@@ -1397,7 +1430,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R16",
+      "region_id": "p18_R17",
       "bbox": [
         183,
         743,
@@ -1545,7 +1578,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R17",
+      "region_id": "p18_R18",
       "bbox": [
         184,
         793,
@@ -1638,7 +1671,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R18",
+      "region_id": "p18_R19",
       "bbox": [
         183,
         807,
@@ -1830,7 +1863,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R19",
+      "region_id": "p18_R20",
       "bbox": [
         185,
         858,
@@ -1923,7 +1956,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R20",
+      "region_id": "p18_R21",
       "bbox": [
         184,
         881,
@@ -2005,7 +2038,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R21",
+      "region_id": "p18_R22",
       "bbox": [
         183,
         997,
@@ -2076,7 +2109,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R22",
+      "region_id": "p18_R23",
       "bbox": [
         183,
         1024,
@@ -2136,7 +2169,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R23",
+      "region_id": "p18_R24",
       "bbox": [
         183,
         1058,
@@ -2273,7 +2306,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R24",
+      "region_id": "p18_R25",
       "bbox": [
         183,
         1081,
@@ -2355,7 +2388,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R25",
+      "region_id": "p18_R26",
       "bbox": [
         183,
         1123,
@@ -2437,7 +2470,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R26",
+      "region_id": "p18_R27",
       "bbox": [
         184,
         1154,
@@ -2563,7 +2596,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R27",
+      "region_id": "p18_R28",
       "bbox": [
         181,
         1197,
@@ -2612,7 +2645,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R28",
+      "region_id": "p18_R29",
       "bbox": [
         183,
         1223,
@@ -2683,7 +2716,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R29",
+      "region_id": "p18_R30",
       "bbox": [
         184,
         1261,
@@ -2809,7 +2842,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R30",
+      "region_id": "p18_R31",
       "bbox": [
         186,
         1292,
@@ -2902,7 +2935,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R31",
+      "region_id": "p18_R32",
       "bbox": [
         185,
         1326,
@@ -3039,7 +3072,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R32",
+      "region_id": "p18_R33",
       "bbox": [
         183,
         1349,
@@ -3143,7 +3176,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R33",
+      "region_id": "p18_R34",
       "bbox": [
         183,
         1393,
@@ -3203,7 +3236,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p18_R34",
+      "region_id": "p18_R35",
       "bbox": [
         184,
         1422,
@@ -3263,16 +3296,21 @@
       "uncertain": []
     }
   ],
+  "vision_description": "",
+  "vision_classification": "",
   "stats": {
-    "n_regions": 34,
+    "n_regions": 35,
     "n_text_words": 246,
-    "n_symbols": 0,
+    "n_symbols": 1,
     "n_drawings": 0,
     "n_uncertain": 0,
     "classifications": {
       "footer": 1,
+      "face_circle_three_dots": 1,
       "text_line": 33
     },
-    "top_clusters": {}
+    "top_clusters": {
+      "GEOM_LATIN_PRINT_0002": 1
+    }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "kind": "dash_frac_bar",
+  "description": "Diagonal slash marks (forward slashes) running from lower-left to upper-right, dividing cells in a table/grid containing number pairs (25/5, 14/3264, 23/..., 32/7). The slashes function as fraction/division bars separating paired values.",
+  "position": "table grid with diagonal slashes across multiple cells",
+  "unicode_codepoint": "U+002F",
+  "confidence": 0.6,
+  "crop_bbox": [
+    368,
+    585,
+    82,
+    26
+  ],
+  "crop_path": "bbox/vision_qa_20260704_V2/p16/p16_glyphs/g078_blank.png",
+  "kind_crop": "blank",
+  "pixel_crop_path": "bbox/crops/p16_blank_078.png"
+}

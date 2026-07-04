@@ -1,0 +1,69 @@
+{
+  "page": "p20",
+  "page_vision_status": "error",
+  "glyphs_processed": 4,
+  "n_blank_crops": 4,
+  "n_color_crops": 0,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        802,
+        502,
+        41,
+        24
+      ],
+      "result_summary": {
+        "kind": "chinese_seal_script",
+        "description": "Stylized seal script character with a curved top hook and an enclosed trapezoidal shape below, resembling 日 or 旦 in ancient seal form",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        803,
+        414,
+        52,
+        19
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Abstract black and white fragment showing dark, possibly organic textured material (resembling feathers, fur, or rough surface) crossed by white streaks or scratches. Appears to be a cropped portion of a larger image rather than a discrete glyph or symbol.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 2,
+      "kind_crop": "blank",
+      "bbox": [
+        963,
+        405,
+        23,
+        12
+      ],
+      "result_summary": {
+        "kind": "unknown",
+        "description": "Fragmented black and white shapes that appear to be a partial crop of a larger image, possibly showing curved letterforms or design elements, but no clear identifiable glyph or character is visible.",
+        "confidence": 0.2
+      }
+    },
+    {
+      "index": 3,
+      "kind_crop": "blank",
+      "bbox": [
+        789,
+        698,
+        25,
+        17
+      ],
+      "result_summary": {
+        "kind": "stick_figure",
+        "description": "A single short white diagonal stroke on a black background, slanting from lower-left to upper-right",
+        "confidence": 0.35
+      }
+    }
+  ]
+}

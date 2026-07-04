@@ -6,11 +6,11 @@
   ],
   "source_pixel": "p15.json",
   "source_vision": "p15_page.json",
-  "n_regions": 27,
+  "n_regions": 36,
   "n_text_words": 187,
   "n_blank_regions": 14,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 5,
+  "n_glyphs_vision": 14,
   "regions": [
     {
       "region_id": "p15_R01",
@@ -53,7 +53,7 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "face_circle_three_dots",
           "vision_description": "A circle containing three dots arranged in a triangular pattern (two dots on top, one on bottom), resembling a simple face. Flanked by angular bracket-like marks (greater-than and less-than shapes) on either side.",
           "unicode_codepoint": "",
@@ -86,7 +86,7 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "face_circle_three_dots",
           "vision_description": "A black circular outline containing three filled black dots arranged in a triangular face pattern: two dots on top resembling eyes and one dot below resembling a mouth. The circle is flanked by partial Latin letterforms ('r' on the left, 'x' on the right) that appear to be part of surrounding text.",
           "unicode_codepoint": "",
@@ -119,7 +119,7 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "face_circle_three_dots",
           "vision_description": "A circle containing three dots arranged in a triangular pattern (two dots on top, one dot centered below), resembling a simple face.",
           "unicode_codepoint": "U+2689",
@@ -152,7 +152,7 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "face_circle_three_dots",
           "vision_description": "A circular outline containing three dots arranged in a triangular pattern resembling a simple face with two eyes and a mouth/nose",
           "unicode_codepoint": "",
@@ -184,8 +184,8 @@
       "text_words": [],
       "symbols": [
         {
-          "symbol_id": 1000005,
-          "cluster_id": "GEOM_UNMATCHED_0000",
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "face_circle_three_dots",
           "vision_description": "A circular outline containing three small dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple emoticon face.",
           "unicode_codepoint": "U+2689",
@@ -197,7 +197,8 @@
             17,
             17
           ],
-          "crop_path": "bbox/vision_qa_20260704_V2/p15/p15_glyphs/g004_blank.png"
+          "crop_path": "bbox/crops/p15_blank_004.png",
+          "first_appearance": false
         }
       ],
       "drawings": [],
@@ -205,6 +206,303 @@
     },
     {
       "region_id": "p15_R07",
+      "bbox": [
+        662,
+        934,
+        17,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A simple circular face consisting of an outer circle with two dots arranged horizontally like eyes and a smaller dot centered below them like a mouth.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p15",
+          "bbox": [
+            662,
+            934,
+            17,
+            17
+          ],
+          "crop_path": "bbox/crops/p15_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R08",
+      "bbox": [
+        693,
+        1364,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged in a triangular pattern (two on top, one below), resembling a simple face.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.95,
+          "page": "p15",
+          "bbox": [
+            693,
+            1364,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p15_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R09",
+      "bbox": [
+        779,
+        314,
+        17,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three solid dots arranged in a triangular pattern (two upper, one lower), resembling a simple face. A partial dark vertical bar/bracket is visible to the right, likely an adjacent glyph.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p15",
+          "bbox": [
+            779,
+            314,
+            17,
+            17
+          ],
+          "crop_path": "bbox/crops/p15_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R10",
+      "bbox": [
+        895,
+        443,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three small filled dots arranged in a triangular pattern (two dots on top, one dot on bottom), resembling a simple face. Partial characters of script are visible on both the left and right sides of the circle.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p15",
+          "bbox": [
+            895,
+            443,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p15_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R11",
+      "bbox": [
+        295,
+        1450,
+        17,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A simple face consisting of a circle containing two small dots (eyes) and a smaller dot or short mark below (mouth), flanked by curved bracket-like shapes on the left and right sides resembling a stylized emoticon or character glyph.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p15",
+          "bbox": [
+            295,
+            1450,
+            17,
+            16
+          ],
+          "crop_path": "bbox/crops/p15_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R12",
+      "bbox": [
+        335,
+        1020,
+        16,
+        17
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular outline containing three dots arranged as a simple face: two dots on top (eyes) and one dot below (mouth), stylized as an 'o' character within the word 'roy'.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.88,
+          "page": "p15",
+          "bbox": [
+            335,
+            1020,
+            16,
+            17
+          ],
+          "crop_path": "bbox/crops/p15_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R13",
+      "bbox": [
+        366,
+        1450,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three filled dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face with two eyes and a mouth.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.82,
+          "page": "p15",
+          "bbox": [
+            366,
+            1450,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p15_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R14",
+      "bbox": [
+        853,
+        1407,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular face with two dots representing eyes in the upper half and one dot below representing a mouth, creating a surprised/shocked expression.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p15",
+          "bbox": [
+            853,
+            1407,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p15_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R15",
+      "bbox": [
+        401,
+        443,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged in a triangular pattern resembling a face (two dots on top like eyes, one dot on the bottom like a mouth), flanked by partial letter-like shapes on either side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p15",
+          "bbox": [
+            401,
+            443,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p15_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p15_R16",
       "bbox": [
         214,
         266,
@@ -319,7 +617,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R08",
+      "region_id": "p15_R17",
       "bbox": [
         204,
         309,
@@ -445,7 +743,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R09",
+      "region_id": "p15_R18",
       "bbox": [
         217,
         352,
@@ -571,7 +869,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R10",
+      "region_id": "p15_R19",
       "bbox": [
         203,
         395,
@@ -686,7 +984,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R11",
+      "region_id": "p15_R20",
       "bbox": [
         196,
         437,
@@ -834,7 +1132,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R12",
+      "region_id": "p15_R21",
       "bbox": [
         488,
         481,
@@ -872,7 +1170,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R13",
+      "region_id": "p15_R22",
       "bbox": [
         305,
         677,
@@ -987,7 +1285,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R14",
+      "region_id": "p15_R23",
       "bbox": [
         264,
         696,
@@ -1135,7 +1433,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R15",
+      "region_id": "p15_R24",
       "bbox": [
         203,
         882,
@@ -1272,7 +1570,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R16",
+      "region_id": "p15_R25",
       "bbox": [
         458,
         930,
@@ -1332,7 +1630,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R17",
+      "region_id": "p15_R26",
       "bbox": [
         204,
         1015,
@@ -1458,7 +1756,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R18",
+      "region_id": "p15_R27",
       "bbox": [
         205,
         1058,
@@ -1562,7 +1860,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R19",
+      "region_id": "p15_R28",
       "bbox": [
         199,
         1101,
@@ -1666,7 +1964,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R20",
+      "region_id": "p15_R29",
       "bbox": [
         196,
         1144,
@@ -1781,7 +2079,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R21",
+      "region_id": "p15_R30",
       "bbox": [
         207,
         1183,
@@ -1907,7 +2205,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R22",
+      "region_id": "p15_R31",
       "bbox": [
         392,
         1230,
@@ -1989,7 +2287,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R23",
+      "region_id": "p15_R32",
       "bbox": [
         203,
         1315,
@@ -2115,7 +2413,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R24",
+      "region_id": "p15_R33",
       "bbox": [
         209,
         1359,
@@ -2252,7 +2550,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R25",
+      "region_id": "p15_R34",
       "bbox": [
         212,
         1402,
@@ -2345,7 +2643,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R26",
+      "region_id": "p15_R35",
       "bbox": [
         205,
         1445,
@@ -2471,7 +2769,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p15_R27",
+      "region_id": "p15_R36",
       "bbox": [
         288,
         1488,

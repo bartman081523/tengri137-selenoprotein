@@ -61,7 +61,8 @@ def load_vision_data(vision_dir: Path):
             if "error" in d and "crop_path" not in d:
                 continue
             # Extrahiere crop_filename (nur p{NN}_blank_NNN oder p{NN}_color_NNN)
-            crop_path = d.get("crop_path", "")
+            # Versuche erst pixel_crop_path, dann crop_path
+            crop_path = d.get("pixel_crop_path", "") or d.get("crop_path", "")
             m = re.search(r"p\d{2}_(?:blank|color)_\d+\.png", crop_path)
             if not m:
                 continue

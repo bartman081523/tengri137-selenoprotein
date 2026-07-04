@@ -1,0 +1,1629 @@
+{
+  "page": "p08",
+  "page_vision_status": "ok",
+  "glyphs_processed": 108,
+  "n_blank_crops": 108,
+  "n_color_crops": 0,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        634,
+        659,
+        198,
+        402
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A large empty circle outline with smaller circles containing numbers (61, 56, 4, 7, 50, 55) arranged around its perimeter, connected by curved arc lines.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        293,
+        660,
+        195,
+        401
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing a large oval ring composed of small circular nodes containing two-digit numbers (visible: 70, 71, 33, 79, 40, 41) connected by curved black edges. The structure resembles a circular graph with nodes evenly spaced around the perimeter.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 2,
+      "kind_crop": "blank",
+      "bbox": [
+        247,
+        655,
+        122,
+        410
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Cropped section of a graph diagram showing circular nodes labeled with numbers (71, 7, 66, 5, 40, 4) connected by curved black edges/lines. The node labeled '71' is near the top center, '7' and '66' are upper right, '5' is mid-left, '40' is bottom center, and '4' (partially visible) is bottom right.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 3,
+      "kind_crop": "blank",
+      "bbox": [
+        754,
+        655,
+        122,
+        409
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram showing curved arcs connecting numbered nodes (0, 1, 4, 6, 55, 56) drawn as small circles with digits inside, forming a graph or network structure",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 4,
+      "kind_crop": "blank",
+      "bbox": [
+        820,
+        668,
+        108,
+        380
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '63' printed in a standard sans-serif font, part of a graph diagram with curved connecting lines to other numbered circles",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 5,
+      "kind_crop": "blank",
+      "bbox": [
+        198,
+        668,
+        107,
+        385
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '66' enclosed in a circle, positioned on a curved arc connecting to other numbered circular nodes (45 below, and a partial node to the upper right).",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 6,
+      "kind_crop": "blank",
+      "bbox": [
+        369,
+        496,
+        388,
+        70
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing circular nodes labeled with numbers (3, 67, 64, 5) connected by curved arcs/lines, representing a network or graph structure.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 7,
+      "kind_crop": "blank",
+      "bbox": [
+        373,
+        1156,
+        388,
+        69
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing four circular nodes labeled '3', '44', '47', and '5', connected by curved edges (arcs) between them.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 8,
+      "kind_crop": "blank",
+      "bbox": [
+        598,
+        722,
+        68,
+        277
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "A large curved double-line arc shape connecting numbered circular nodes (9, 34 at top and 2, 77 at bottom), resembling a curved bracket or parenthesis-like loop.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 9,
+      "kind_crop": "blank",
+      "bbox": [
+        458,
+        717,
+        66,
+        287
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '80' serving as a labeled node at the lower end of a curved graph edge, with neighboring nodes '32', '33' above and '79' below",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 10,
+      "kind_crop": "blank",
+      "bbox": [
+        569,
+        760,
+        49,
+        204
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle outline containing the number '36' in its center, part of a node-link diagram with curved connecting lines forming a larger oval pattern. Other numbered circles ('25', '75', '93') are partially visible around it.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 11,
+      "kind_crop": "blank",
+      "bbox": [
+        505,
+        757,
+        50,
+        207
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cropped section of a node-link diagram showing circles containing two-digit numbers (31, 36, 75, 80) connected by curved lines, resembling a graph or network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 12,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        546,
+        208,
+        46
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Graph diagram showing circular nodes containing the numbers 7, 6, 72, and 57, connected by curved edges forming a network structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 13,
+      "kind_crop": "blank",
+      "bbox": [
+        464,
+        1130,
+        206,
+        45
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the printed Latin digits '39', connected by curved lines to other circled numbers in a graph-like layout.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 14,
+      "kind_crop": "blank",
+      "bbox": [
+        610,
+        1030,
+        110,
+        63
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the printed number 49, connected by lines to other numbered circles in a network graph",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 15,
+      "kind_crop": "blank",
+      "bbox": [
+        609,
+        629,
+        109,
+        61
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a graph/network diagram showing circled numbers (62, 6, 5, 34) connected by curved lines/arcs",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 16,
+      "kind_crop": "blank",
+      "bbox": [
+        405,
+        1034,
+        107,
+        58
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '46', with partial views of other numbered circles (1, 7, 13) connected by curved lines, appearing to be part of a number-linking diagram or puzzle.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 17,
+      "kind_crop": "blank",
+      "bbox": [
+        405,
+        629,
+        106,
+        61
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram showing circles containing the numbers 65, 0, 3, and 33, connected by curved lines forming an arc. The number '65' is prominently visible in a circle at the top.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 18,
+      "kind_crop": "blank",
+      "bbox": [
+        773,
+        1020,
+        116,
+        89
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Two circular nodes connected by curved lines, containing the numbers 55 and 53 respectively, part of a larger network or graph diagram",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 19,
+      "kind_crop": "blank",
+      "bbox": [
+        706,
+        564,
+        126,
+        57
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circular graph node containing the digits '60' in Latin print, centered in the image and connected by straight lines to other numbered nodes (4, 59, 2, 5).",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 20,
+      "kind_crop": "blank",
+      "bbox": [
+        576,
+        602,
+        88,
+        53
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '57' printed inside a circle at the top of the image, part of a network/graph puzzle with other circled numbers (0, 6, 35) connected by lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 21,
+      "kind_crop": "blank",
+      "bbox": [
+        246,
+        1032,
+        106,
+        78
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A partial view of a graph/network diagram showing circular nodes containing numbers (5, 40, 38, 4) connected by straight lines, with the '40' node most prominent in the center.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 22,
+      "kind_crop": "blank",
+      "bbox": [
+        578,
+        1067,
+        85,
+        51
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A portion of a graph diagram showing four circular nodes containing the labels '16' (or '/6'), '1', '54', and '4', connected by straight line edges forming a quadrilateral-like network.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 23,
+      "kind_crop": "blank",
+      "bbox": [
+        299,
+        565,
+        113,
+        54
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circular outline containing the printed digits '69', connected by lines to adjacent numbered circles (68 above, and partially visible '3' and '6' circles).",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 24,
+      "kind_crop": "blank",
+      "bbox": [
+        711,
+        1102,
+        121,
+        55
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '51', connected by lines to adjacent numbered circular nodes (52, 5, 7) in what appears to be a network or graph diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 25,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        604,
+        86,
+        49
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph diagram showing several circular nodes containing numbers (6, 72, 3, 37) connected by straight lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 26,
+      "kind_crop": "blank",
+      "bbox": [
+        774,
+        613,
+        110,
+        79
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Network graph diagram showing circular nodes with numbers (58, 56, 63 partially visible) connected by lines, part of a larger graph visualization.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 27,
+      "kind_crop": "blank",
+      "bbox": [
+        305,
+        1106,
+        116,
+        52
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circular node containing the number 42, connected by lines to other numbered circle nodes (8, 43, and partial 4s) forming a graph structure.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 28,
+      "kind_crop": "blank",
+      "bbox": [
+        464,
+        1069,
+        79,
+        49
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph/network diagram with multiple circles containing numbers (74, 6, 8, 39) connected by straight lines, resembling a math puzzle or connectivity graph.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 29,
+      "kind_crop": "blank",
+      "bbox": [
+        549,
+        807,
+        25,
+        108
+      ],
+      "result_summary": {
+        "kind": "stick_figure",
+        "description": "A simple line drawing showing two circles stacked vertically and connected by curved lines forming a long lens/eye shape. The top circle contains two small horizontal marks (eyes), and the bottom circle contains two short horizontal marks.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 30,
+      "kind_crop": "blank",
+      "bbox": [
+        247,
+        615,
+        102,
+        71
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Numbers 73, 71, 6, and 6 inside circles connected by lines, forming a small network graph",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 31,
+      "kind_crop": "blank",
+      "bbox": [
+        385,
+        577,
+        96,
+        38
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '67' printed in a serif font inside a circular node, part of a graph/network diagram connected to other numbered nodes (65, 9, 7) by straight lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 32,
+      "kind_crop": "blank",
+      "bbox": [
+        636,
+        578,
+        101,
+        37
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the printed numerals '64' in a serif font",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 33,
+      "kind_crop": "blank",
+      "bbox": [
+        389,
+        1108,
+        93,
+        35
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A portion of a graph/network diagram showing circular nodes containing the numbers 46, 44, and partial views of 2 and 3, connected by straight line edges. The node '46' is the most prominent, centered in a circle in the upper portion, with '44' below it, also in a circle.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 34,
+      "kind_crop": "blank",
+      "bbox": [
+        641,
+        1108,
+        95,
+        36
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing circular nodes connected by lines, with the central/focal node containing the number '47'. Other visible nodes show '49' (top), '5' (right), and '4' (left).",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 35,
+      "kind_crop": "blank",
+      "bbox": [
+        336,
+        1066,
+        86,
+        44
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram with circular nodes containing the numbers 0, 41, 42, and 4, connected by straight lines forming a network structure.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 36,
+      "kind_crop": "blank",
+      "bbox": [
+        705,
+        1063,
+        91,
+        46
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '51' in bold sans-serif typeface, connected by straight lines to adjacent numbered circles forming a graph network.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 37,
+      "kind_crop": "blank",
+      "bbox": [
+        523,
+        591,
+        72,
+        31
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '30' enclosed in a circle, part of a graph/network diagram with connected nodes labeled 2, 5, and 30.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 38,
+      "kind_crop": "blank",
+      "bbox": [
+        524,
+        1101,
+        76,
+        29
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network diagram showing three circles connected by lines, with the numbers '81' in the top circle, '9' in the left circle, and '5' in the right circle, forming a triangular arrangement.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 39,
+      "kind_crop": "blank",
+      "bbox": [
+        334,
+        614,
+        80,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network or graph diagram showing several circles (nodes) containing the numbers 69, 70, 1, and 6, connected by straight lines. The circles are arranged with 69 in the upper-left, 6 partially visible on the right, 1 in the lower-left, and 70 in the lower-center.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 40,
+      "kind_crop": "blank",
+      "bbox": [
+        600,
+        995,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the digits '77' inside, with partial views of adjacent numbered circles (containing '2' and '76') connected by lines, suggesting a graph or network diagram node.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 41,
+      "kind_crop": "blank",
+      "bbox": [
+        297,
+        638,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the digits '71' with lines radiating outward, resembling a graph node",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 42,
+      "kind_crop": "blank",
+      "bbox": [
+        502,
+        648,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph diagram showing circles (nodes) connected by lines, with the number '37' prominently in the center circle and partial views of adjacent circles containing '3'. This is a node-link diagram, not a single glyph.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 43,
+      "kind_crop": "blank",
+      "bbox": [
+        481,
+        577,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '72', with short line segments extending from its sides, appearing as a node in a network or graph diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 44,
+      "kind_crop": "blank",
+      "bbox": [
+        263,
+        605,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '73' with diagonal lines extending outward from upper-right and lower-left, resembling a labeled node in a schematic diagram",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 45,
+      "kind_crop": "blank",
+      "bbox": [
+        474,
+        686,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number 32 printed in a standard serif typeface, enclosed in a circle, part of a diagram of interconnected numbered circles.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 46,
+      "kind_crop": "blank",
+      "bbox": [
+        571,
+        647,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle outline containing the printed numeral '35' in its center, part of a node-link diagram with other connected numbered circles.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 47,
+      "kind_crop": "blank",
+      "bbox": [
+        541,
+        916,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "A circle containing the two digits '75' with line segments extending from the top and bottom, appearing as a labeled node in a network diagram.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 48,
+      "kind_crop": "blank",
+      "bbox": [
+        503,
+        1034,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '74', connected by lines to other circular nodes (partially visible at top showing '3' or '7' and at bottom showing '8').",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 49,
+      "kind_crop": "blank",
+      "bbox": [
+        826,
+        1070,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '53' with lines extending from it, representing a node in a graph diagram",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 50,
+      "kind_crop": "blank",
+      "bbox": [
+        594,
+        575,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '57' with diagonal lines crossing through it, appearing as a labeled node in a flowchart or diagram",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 51,
+      "kind_crop": "blank",
+      "bbox": [
+        734,
+        1090,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '51' in bold, with straight lines extending outward to connect to adjacent nodes, resembling a graph or network diagram element.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 52,
+      "kind_crop": "blank",
+      "bbox": [
+        759,
+        1134,
+        41,
+        40
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the printed number '52', with lines extending from the circle suggesting it's a node in a graph or network diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 53,
+      "kind_crop": "blank",
+      "bbox": [
+        536,
+        679,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A central circle containing the number '33', connected to partial neighboring circles at the edges showing fragments of '3' and other numbers, forming a network of numbered circles.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 54,
+      "kind_crop": "blank",
+      "bbox": [
+        511,
+        720,
+        40,
+        40
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 31, appearing as a node in a graph or network diagram",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 55,
+      "kind_crop": "blank",
+      "bbox": [
+        790,
+        1033,
+        42,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '55' with several straight lines radiating outward, typical of a graph or network diagram node.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 56,
+      "kind_crop": "blank",
+      "bbox": [
+        348,
+        1094,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '42', with partial lines extending outward to neighboring circular nodes, part of a graph/network diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 57,
+      "kind_crop": "blank",
+      "bbox": [
+        366,
+        1044,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A circle containing the number '41' with lines radiating outward, appearing as a labeled node in a network or graph diagram.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 58,
+      "kind_crop": "blank",
+      "bbox": [
+        671,
+        1130,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A circle containing the printed digits '47' with short line segments extending from the left and right sides of the circle, resembling a labeled graph node.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 59,
+      "kind_crop": "blank",
+      "bbox": [
+        598,
+        686,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 34, with partial views of adjacent connected circles visible at the top-left and bottom-left edges, suggesting a node in a graph or network diagram.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 60,
+      "kind_crop": "blank",
+      "bbox": [
+        600,
+        1105,
+        40,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '54' inside, with short line segments extending from the left and right sides, appearing as a labeled node in a graph or network diagram.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 61,
+      "kind_crop": "blank",
+      "bbox": [
+        412,
+        551,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '67' in its center, with straight lines extending horizontally from both sides of the circle.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 62,
+      "kind_crop": "blank",
+      "bbox": [
+        333,
+        1140,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '43' in black text, with lines extending to the upper-left and upper-right connecting to partial circles (likely a graph or tree diagram node).",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 63,
+      "kind_crop": "blank",
+      "bbox": [
+        213,
+        1000,
+        40,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle with the number '45' inside it, with two lines extending outward from the top-left and bottom-right edges, resembling a labeled node in a graph or network diagram.",
+        "confidence": 0.78
+      }
+    },
+    {
+      "index": 64,
+      "kind_crop": "blank",
+      "bbox": [
+        715,
+        633,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number 61, connected by lines to other circles, appearing as a node in a network graph.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 65,
+      "kind_crop": "blank",
+      "bbox": [
+        873,
+        686,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '63' inside, with two short lines extending from the upper-left edge of the circle.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 66,
+      "kind_crop": "blank",
+      "bbox": [
+        476,
+        996,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the printed digits '79', appearing as a labeled node in a graph diagram. Partial adjacent nodes with numbers '6' (top-right) and '7' (bottom-right) are visible at the edges.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 67,
+      "kind_crop": "blank",
+      "bbox": [
+        572,
+        1033,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A graph or network diagram showing multiple circular nodes containing two-digit numbers (76, 8, 7, 1 visible) connected by straight lines",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 68,
+      "kind_crop": "blank",
+      "bbox": [
+        563,
+        721,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A hand-drawn circle containing the digits '29' in its center, appearing as a node in a network/graph puzzle.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 69,
+      "kind_crop": "blank",
+      "bbox": [
+        539,
+        764,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "stick_figure",
+        "description": "Simple stick figure drawing of a person with a circular head containing the number '36' written on it, with a body and outstretched arms",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 70,
+      "kind_crop": "blank",
+      "bbox": [
+        538,
+        1002,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '78' printed in a serif font inside a circle, with portions of other numbered circles (containing 4, 7, and partial numbers) visible around it.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 71,
+      "kind_crop": "blank",
+      "bbox": [
+        665,
+        599,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the printed number '62', connected by lines to surrounding partial circles, forming a graph/network diagram node.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 72,
+      "kind_crop": "blank",
+      "bbox": [
+        663,
+        1080,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '49' with straight lines extending from its left and right sides, appearing as a labeled node in a graph or diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 73,
+      "kind_crop": "blank",
+      "bbox": [
+        483,
+        1106,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '39' with line segments extending from the left and right sides, appearing to be a node in a graph or diagram",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 74,
+      "kind_crop": "blank",
+      "bbox": [
+        366,
+        635,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the printed number '70' in a serif font, with lines connecting to other circles partially visible at the edges of the crop, indicating a graph node.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 75,
+      "kind_crop": "blank",
+      "bbox": [
+        785,
+        641,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '56' with lines extending outward, appearing as a labeled node in a schematic or diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 76,
+      "kind_crop": "blank",
+      "bbox": [
+        538,
+        1067,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the printed number '81', connected by straight lines to other circles (one containing '4' at upper left, another at upper right), forming a node-and-edge graph diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 77,
+      "kind_crop": "blank",
+      "bbox": [
+        422,
+        1131,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '44', connected by lines to adjacent circular nodes in what appears to be a graph or network diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 78,
+      "kind_crop": "blank",
+      "bbox": [
+        756,
+        544,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '59' with straight lines extending from its left and lower-right sides, resembling a labeled node in a graph or network diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 79,
+      "kind_crop": "blank",
+      "bbox": [
+        423,
+        1080,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '46', with short straight lines extending horizontally from the left and right sides, appearing as a labeled node in a graph or diagram.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 80,
+      "kind_crop": "blank",
+      "bbox": [
+        564,
+        961,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle outline containing the printed two-digit number '82', appearing as a labeled node in a network/graph diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 81,
+      "kind_crop": "blank",
+      "bbox": [
+        664,
+        550,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '64' with short lines extending left and right, appearing to be a node in a graph or tree diagram.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 82,
+      "kind_crop": "blank",
+      "bbox": [
+        414,
+        602,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '65' with lines extending outward to other circular nodes, forming a network/connection diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 83,
+      "kind_crop": "blank",
+      "bbox": [
+        266,
+        1082,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the number '38' in its center, with lines extending outward from the circle's edges, indicating it is a node in a diagram or graph.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 84,
+      "kind_crop": "blank",
+      "bbox": [
+        536,
+        614,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A circle containing the printed number '30', part of a graph/network node diagram with adjacent partial circles showing '7' and '3'.",
+        "confidence": 0.88
+      }
+    },
+    {
+      "index": 85,
+      "kind_crop": "blank",
+      "bbox": [
+        827,
+        611,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '58' printed in a bold sans-serif font, enclosed within a circular outline that connects to other lines/edges, suggesting a labeled node in a graph or diagram.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 86,
+      "kind_crop": "blank",
+      "bbox": [
+        879,
+        981,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '48' with short line segments extending from the circle to the upper-right and lower-left, resembling a node in a graph or network diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 87,
+      "kind_crop": "blank",
+      "bbox": [
+        300,
+        1042,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the digits '40' in printed type, with short straight lines radiating outward from the circle's edge like sun rays — resembling a speed-limit road sign.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 88,
+      "kind_crop": "blank",
+      "bbox": [
+        717,
+        1043,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A hand-drawn circle containing the number '50' with several straight lines radiating outward from its perimeter, resembling a sun or node-diagram symbol.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 89,
+      "kind_crop": "blank",
+      "bbox": [
+        345,
+        590,
+        41,
+        42
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the two-digit number '69', connected by lines to adjacent circles in a network/graph diagram",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 90,
+      "kind_crop": "blank",
+      "bbox": [
+        218,
+        679,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '66' with two line segments extending outward from the right side, resembling a graph vertex or network diagram element.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 91,
+      "kind_crop": "blank",
+      "bbox": [
+        328,
+        541,
+        42,
+        42
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circle containing the number '68' with a diagonal line crossing through it, appearing to be a labeled node in a diagram with a connecting line extending beyond the crop.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 92,
+      "kind_crop": "blank",
+      "bbox": [
+        735,
+        592,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circular node containing the number '60' in its center, with lines extending outward connecting to adjacent nodes, forming part of a graph or network diagram",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 93,
+      "kind_crop": "blank",
+      "bbox": [
+        511,
+        961,
+        41,
+        41
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A circular node containing the number '80', connected by lines to surrounding circular nodes, forming part of a network graph diagram.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 94,
+      "kind_crop": "blank",
+      "bbox": [
+        573,
+        684,
+        35,
+        40
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A printed digit '3' enclosed within a circular outline, part of a repeating pattern of numbered circles.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 95,
+      "kind_crop": "blank",
+      "bbox": [
+        541,
+        647,
+        36,
+        39
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A network graph with four circles containing the numbers 30, 7, 3, and 33, connected by lines in a diamond/cross arrangement.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 96,
+      "kind_crop": "blank",
+      "bbox": [
+        745,
+        627,
+        45,
+        27
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digits '61' printed in a bold sans-serif font inside a circular node, connected by lines to adjacent circular nodes in a graph/network diagram.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 97,
+      "kind_crop": "blank",
+      "bbox": [
+        512,
+        1000,
+        35,
+        41
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle containing the text '00', positioned at the top of the image with other numbered circles (9, 78, 74) connected to it by lines below.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 98,
+      "kind_crop": "blank",
+      "bbox": [
+        542,
+        1038,
+        36,
+        36
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cluster of four circles containing the numbers 78 (top), 4 (left), 7 (right), and 81 (bottom), arranged in a diamond pattern",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 99,
+      "kind_crop": "blank",
+      "bbox": [
+        575,
+        998,
+        34,
+        39
+      ],
+      "result_summary": {
+        "kind": "geometric_circle",
+        "description": "A circle outline containing the handwritten digit '7'",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 100,
+      "kind_crop": "blank",
+      "bbox": [
+        547,
+        957,
+        27,
+        48
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "A digit '0' enclosed in a drawn circle, part of a 3x3 grid of numbered circles",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 101,
+      "kind_crop": "blank",
+      "bbox": [
+        511,
+        682,
+        36,
+        40
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cluster of overlapping circles containing printed numerals: 37 at top, 2 on left, 3 on right, 31 at bottom, suggesting a number puzzle diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 102,
+      "kind_crop": "blank",
+      "bbox": [
+        547,
+        717,
+        27,
+        48
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Multiple circular nodes connected by lines, containing numbers such as '1' and '2', forming a network or graph diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 103,
+      "kind_crop": "blank",
+      "bbox": [
+        706,
+        613,
+        39,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A partial view of a node-link diagram showing circles containing the numbers 2, 60, and 61, connected by straight lines.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 104,
+      "kind_crop": "blank",
+      "bbox": [
+        461,
+        324,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face. Flanked by a small dot on the left and a partial letter 'C' shape on the right.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 105,
+      "kind_crop": "blank",
+      "bbox": [
+        852,
+        283,
+        15,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three small dots arranged in a triangular pattern (one on top, two below), flanked by partial bracket-like shapes on the left and right sides of the image.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 106,
+      "kind_crop": "blank",
+      "bbox": [
+        726,
+        1452,
+        15,
+        15
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing two small dots at the top (like eyes) and one larger dot at the bottom (like a mouth), resembling a simple face. It is flanked on both sides by what appear to be other characters ('r' on the left and a K-like shape on the right).",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 107,
+      "kind_crop": "blank",
+      "bbox": [
+        630,
+        1452,
+        16,
+        15
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circular face with three dots inside: two dots on the upper portion (like eyes) and one dot below (like a mouth).",
+        "confidence": 0.9
+      }
+    }
+  ]
+}

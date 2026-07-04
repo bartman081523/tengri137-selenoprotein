@@ -1,11 +1,11 @@
 {
   "clusters": [
     {
-      "cluster_id": "GEOM_UNKNOWN_0005",
-      "kind": "unknown",
-      "label_source": "unknown",
-      "description": "",
-      "unicode_codepoint": "",
+      "cluster_id": "GEOM_LATIN_PRINT_0005",
+      "kind": "latin_print",
+      "label_source": "vision_glyph",
+      "description": "A cadastral land-parcel diagram showing a quadrilateral (parallelogram-shaped) plot outlined with solid black borders, containing the printed number '651' in its center. A dashed line runs along the left edge (indicating an undefined or road boundary), and the right edge abuts another parcel labeled '2'. This is a typical element of a German Flurkarte (land registry map) or similar parcel plan.",
+      "unicode_codepoint": "U+0035",
       "size": 258,
       "is_singleton": false,
       "intra_cluster_distance_mean": 0.0446191860123043,
@@ -3893,14 +3893,14 @@
           69
         ]
       },
-      "confidence": 0.3821523255950783
+      "confidence": 0.7924779069904271
     },
     {
-      "cluster_id": "GEOM_UNKNOWN_0002",
-      "kind": "unknown",
-      "label_source": "unknown",
-      "description": "",
-      "unicode_codepoint": "",
+      "cluster_id": "GEOM_LATIN_PRINT_0002",
+      "kind": "latin_print",
+      "label_source": "vision_glyph",
+      "description": "Fragment of a large ornamental blackletter/gothic initial letter with thick, decorative curved strokes typical of medieval manuscript illuminations or early woodcut type. The visible portion shows curving black forms on a white background, possibly part of a letter such as U, C, or G rendered in Fraktur/blackletter style.",
+      "unicode_codepoint": "U+25CB",
       "size": 248,
       "is_singleton": false,
       "intra_cluster_distance_mean": 0.01480883426067297,
@@ -7638,14 +7638,14 @@
           77
         ]
       },
-      "confidence": 0.39407646629573084
+      "confidence": 0.8030200146828275
     },
     {
-      "cluster_id": "GEOM_UNKNOWN_0001",
-      "kind": "unknown",
-      "label_source": "unknown",
-      "description": "",
-      "unicode_codepoint": "",
+      "cluster_id": "GEOM_LATIN_PRINT_0001",
+      "kind": "latin_print",
+      "label_source": "vision_glyph",
+      "description": "A stylized decorative letter 'R' (or 'B') formed by a tower-like structure with a flag on top and a horizontal bar. The curved interior contains scattered dots, a six-pointed star, a small horseshoe shape, two tiny stick figures, and a circle with a cross/plus sign inside it (resembling a wheel or target).",
+      "unicode_codepoint": "U+25CB",
       "size": 154,
       "is_singleton": false,
       "intra_cluster_distance_mean": 0.12294614823381986,
@@ -9973,14 +9973,14 @@
           68
         ]
       },
-      "confidence": 0.3508215407064721
+      "confidence": 0.8112820670222616
     },
     {
-      "cluster_id": "GEOM_UNKNOWN_0003",
-      "kind": "unknown",
-      "label_source": "unknown",
-      "description": "",
-      "unicode_codepoint": "",
+      "cluster_id": "GEOM_LATIN_PRINT_0003",
+      "kind": "latin_print",
+      "label_source": "vision_glyph",
+      "description": "A circular illustration containing multiple elements: a sun with rays in the upper left, a face/owl-like figure at the top, a vertical post or tree trunk in the center, scattered dots resembling stars, a pine/fir tree on the lower left, a small human figure, and a deer-like animal in the lower center. The style resembles a folk art or tribal drawing depicting a natural scene or world view within a circular frame.",
+      "unicode_codepoint": "U+25CB",
       "size": 152,
       "is_singleton": false,
       "intra_cluster_distance_mean": 0.2543705427434471,
@@ -12278,14 +12278,14 @@
           116
         ]
       },
-      "confidence": 0.29825178290262117
+      "confidence": 0.7648307302710422
     },
     {
-      "cluster_id": "GEOM_UNKNOWN_0004",
-      "kind": "unknown",
-      "label_source": "unknown",
-      "description": "",
-      "unicode_codepoint": "",
+      "cluster_id": "GEOM_GEOMETRIC_CIRCLE_0004",
+      "kind": "geometric_circle",
+      "label_source": "vision_glyph",
+      "description": "Complex Chinese character in seal script style with multiple intersecting vertical strokes and curved crossing elements forming an intricate pattern, possibly a character like 森 or 棘 rendered in ancient seal form.",
+      "unicode_codepoint": "U+25CB",
       "size": 6,
       "is_singleton": false,
       "intra_cluster_distance_mean": 0.07173725362455213,
@@ -12393,7 +12393,7 @@
           48
         ]
       },
-      "confidence": 0.3713050985501791
+      "confidence": 0.7553050985501791
     }
   ],
   "clustering_stats": {

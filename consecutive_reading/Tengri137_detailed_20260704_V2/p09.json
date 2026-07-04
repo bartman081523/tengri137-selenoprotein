@@ -6,11 +6,11 @@
   ],
   "source_pixel": "p09.json",
   "source_vision": "p09_page.json",
-  "n_regions": 67,
+  "n_regions": 197,
   "n_text_words": 116,
   "n_blank_regions": 183,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 50,
+  "n_glyphs_vision": 183,
   "regions": [
     {
       "region_id": "p09_R01",
@@ -53,10 +53,10 @@
       "symbols": [
         {
           "symbol_id": 1,
-          "cluster_id": "GEOM_UNKNOWN_0002",
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
           "vision_kind": "image",
           "vision_description": "Three circles arranged in a triangular pattern connected by lines, each containing a number: 186 (top-left), 209 (top-right), and 127 (bottom-center). Forms a closed triangular graph/network diagram.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -86,10 +86,10 @@
       "symbols": [
         {
           "symbol_id": 5,
-          "cluster_id": "GEOM_UNKNOWN_0005",
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
           "vision_kind": "image",
           "vision_description": "A curved arc/line segment, part of a larger circular diagram with numbered nodes (74, 207, 25, 11, 166) connected by arcs.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+0035",
           "vision_confidence": 0.6,
           "page": "p09",
           "bbox": [
@@ -103,7 +103,7 @@
         },
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "latin_print",
           "vision_description": "The number '125' printed in standard Latin/Arabic numerals, positioned in the center-left of the image on a curved arc line.",
           "unicode_codepoint": "U+0031 U+0032 U+0035",
@@ -136,10 +136,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "Fragment of a graph/network diagram showing circular nodes with numbers (201, 13, 150, 184, 185, 197) connected by curved black lines",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.3,
           "page": "p09",
           "bbox": [
@@ -192,10 +192,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "geometric_circle",
           "vision_description": "A graph diagram showing circular nodes containing numbers (41, 175, 144, and a partial 1) connected by curved black edges. The node labeled '175' is at the top-center, '41' is at the top-left, '144' is at the bottom-left, and a partial node '1' is on the right edge.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.55,
           "page": "p09",
           "bbox": [
@@ -237,10 +237,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A graph diagram showing four circular nodes labeled 129, 163, 6, and 164, connected by curved black lines (edges). This is a network/graph visualization, not a single character glyph.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.9,
           "page": "p09",
           "bbox": [
@@ -270,10 +270,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "Partial view of a hierarchical tree or graph diagram showing several circular nodes containing numbers (197, 138, 18, 39, 102) connected by curved black lines",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.3,
           "page": "p09",
           "bbox": [
@@ -303,10 +303,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "latin_print",
           "vision_description": "A circular node containing the printed number '161', connected by lines to surrounding nodes in a network graph",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.95,
           "page": "p09",
           "bbox": [
@@ -336,10 +336,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A cropped portion of a node-link diagram showing several circles connected by curved lines. The circles contain numeric labels: 209 (top), 120 (top right), 27 (middle left), 204 (bottom). Black curved arcs connect the nodes across the crop.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -369,10 +369,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "Crop of a small network/graph diagram showing four circular nodes connected by curved lines, each containing a three-digit number: 149 (top-left), 172 (top-right), 186 (bottom-left), 209 (bottom-right). The circles have hand-drawn appearance with thick black outlines.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.72,
           "page": "p09",
           "bbox": [
@@ -402,7 +402,7 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "latin_print",
           "vision_description": "The number '186' printed in a serif font inside a circle, part of a network/node graph diagram with other numbered circles (95, 158, 12) connected by curved lines.",
           "unicode_codepoint": "U+0031 U+0038 U+0036",
@@ -435,10 +435,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "Cropped section of a network/graph diagram showing numbered circular nodes (201, 134, 17, 150, 84, 1) connected by curved black lines on a white background.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.9,
           "page": "p09",
           "bbox": [
@@ -468,10 +468,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A portion of a graph/network diagram showing circular nodes labeled with numbers (126, 171, 16, 67, 178) connected by curved edges",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.7,
           "page": "p09",
           "bbox": [
@@ -485,10 +485,10 @@
         },
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A diagram fragment showing curved parallel lines with circular nodes containing numbers (126, 17, 04, 157, 178) at their endpoints, resembling a network or flow chart.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.9,
           "page": "p09",
           "bbox": [
@@ -518,7 +518,7 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "geometric_circle",
           "vision_description": "Multiple circles containing numbers (191, 130, 141, and a partial 1) connected by curved lines, forming a graph or network diagram",
           "unicode_codepoint": "U+25CB",
@@ -551,10 +551,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A graph diagram fragment showing four circular nodes labeled 196, 162, 149, and 172, connected by curved edges in a roughly rectangular arrangement.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -584,10 +584,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "Partial view of a node-link diagram showing circular nodes labeled with numbers (37, 195, 205, 176, 15) connected by curved black lines.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.4,
           "page": "p09",
           "bbox": [
@@ -617,10 +617,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A graph diagram showing multiple circular nodes labeled with numbers (203, 122, 9, 167) connected by black lines, forming a network structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.95,
           "page": "p09",
           "bbox": [
@@ -650,7 +650,7 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "latin_print",
           "vision_description": "Three-digit number '138' printed in black inside a circle at the top of a graph/network diagram with other numbered nodes (185, 92, 145) connected by curved lines.",
           "unicode_codepoint": "U+0031 U+0033 U+0038",
@@ -683,10 +683,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "latin_print",
           "vision_description": "Number '208' printed in black sans-serif font inside a circular node, part of a network/graph diagram with other numbered circular nodes connected by edges.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.55,
           "page": "p09",
           "bbox": [
@@ -716,10 +716,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A network graph diagram showing four circular nodes labeled with numbers (135, 123, 96, 163) connected by curved lines, forming a graph structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -749,10 +749,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "Partial view of a network graph with circular nodes containing numbers (129, 60, 168, 213) connected by curved black lines",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.7,
           "page": "p09",
           "bbox": [
@@ -782,10 +782,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A circular graph node containing the number '205' at the bottom of a network/graph diagram, connected by edges to partial circles showing '48', '137', and '17'.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.95,
           "page": "p09",
           "bbox": [
@@ -815,10 +815,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A network graph diagram with multiple circles connected by curved lines, containing the numbers 179, 15, 135, and 50 inside the circles.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -848,7 +848,7 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "geometric_circle",
           "vision_description": "A circle containing the number 190, part of a network/graph diagram with other numbered circular nodes (205, 191, 13) connected by lines",
           "unicode_codepoint": "U+25CB",
@@ -881,10 +881,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A network graph diagram with circles containing the numbers 178, 213, 122, and a partial 03, connected by black lines",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.7,
           "page": "p09",
           "bbox": [
@@ -914,10 +914,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "Circle containing the number 148, forming a node in a graph/network diagram with lines connecting to other numbered circles (133, 45, 190).",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.82,
           "page": "p09",
           "bbox": [
@@ -947,10 +947,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A graph/network diagram showing circular nodes labeled with numbers (159, 126, 210, 171, 12) connected by straight black lines, representing a node-link structure rather than a single glyph.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.95,
           "page": "p09",
           "bbox": [
@@ -980,10 +980,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A network graph diagram showing multiple circles connected by lines, with numbers (133, 62, 123, 20) inside the circular nodes",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1013,10 +1013,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A fragment of a network/graph diagram showing circular nodes containing numbers (2.10, 12..., 5.71) connected by straight lines, resembling a molecular structure or graph visualization.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1046,10 +1046,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "latin_print",
           "vision_description": "The number 196 printed in black inside a circle, part of a network graph with other circled numbers (150, 13, 185) connected by black lines.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.92,
           "page": "p09",
           "bbox": [
@@ -1079,10 +1079,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A circular node in a graph/network diagram containing the number 153, connected by lines to adjacent nodes (partial numbers 2, 199, 18 visible).",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.82,
           "page": "p09",
           "bbox": [
@@ -1112,10 +1112,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A network graph diagram showing multiple circles connected by black lines, each circle containing a three-digit number (visible: 176, 130, 05, 15).",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.9,
           "page": "p09",
           "bbox": [
@@ -1145,10 +1145,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "Part of a node graph diagram showing circles containing numbers (146, 192, 180, 11) connected by black lines",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1178,10 +1178,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A graph network diagram showing circular nodes containing the numbers 165, 120, 170, and 211, connected by straight line segments. The node '120' is on the left, '165' at top-right, '170' at middle-right, and '211' at bottom-left.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.82,
           "page": "p09",
           "bbox": [
@@ -1223,10 +1223,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "Crop of a graph diagram showing circular nodes containing the numbers 167, 214, 121, and 64, connected by straight lines forming a network structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.35,
           "page": "p09",
           "bbox": [
@@ -1256,10 +1256,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A graph diagram showing four circular nodes connected by lines. The top node contains '131', the bottom node contains '181', the left node shows partial '4' (cut off), and the right node shows partial '20' (cut off). The nodes are connected in a diamond/rhombus pattern with thick black lines.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1289,10 +1289,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A graph/network diagram with circles containing the numbers 182, 197, 147, and 138, connected by straight lines forming a node-link structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.92,
           "page": "p09",
           "bbox": [
@@ -1322,7 +1322,7 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "geometric_circle",
           "vision_description": "A network of circles containing numbers (166, 143, 193, 14x) connected by straight black lines, forming a graph or node diagram. The most prominent single circle contains '143'.",
           "unicode_codepoint": "U+25CB",
@@ -1355,10 +1355,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A hexagonal graph diagram with four circles visible at the vertices containing the numbers 200 (top), 1 (left), 15 (right), and 132 (bottom), connected by thick black lines forming a diamond/hexagon shape. Other numbered circles are partially visible at the edges.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.3,
           "page": "p09",
           "bbox": [
@@ -1388,7 +1388,7 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "latin_print",
           "vision_description": "The digits '206' printed in black serif-like font inside a circle at the top of a small network/graph diagram with other numbered circular nodes (5, 13, 156) connected by straight lines.",
           "unicode_codepoint": "U+0032 U+0030 U+0036",
@@ -1421,10 +1421,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A circular node containing the number 214, connected by lines to other numbered circular nodes in a graph/network diagram.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.78,
           "page": "p09",
           "bbox": [
@@ -1454,10 +1454,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A small network/graph diagram showing circles containing the numbers 61, 174, 124, and 207, connected by straight black lines forming a node-link structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1487,10 +1487,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "A graph diagram showing four circles connected by lines in a diamond pattern, containing the numbers 154 (top), 1 (right), 151 (bottom), and 40 (left).",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.6,
           "page": "p09",
           "bbox": [
@@ -1520,10 +1520,10 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "latin_print",
           "vision_description": "The number 184 printed in Latin serif numerals, enclosed within a thin black circle, with lines connecting to adjacent circular nodes (150, 185, 147) forming a network/graph structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.82,
           "page": "p09",
           "bbox": [
@@ -1553,10 +1553,10 @@
       "symbols": [
         {
           "symbol_id": 2,
-          "cluster_id": "GEOM_UNKNOWN_0001",
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "latin_print",
           "vision_description": "Number '194' printed in a serif font inside a circle, forming a node in a network diagram",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.95,
           "page": "p09",
           "bbox": [
@@ -1586,7 +1586,7 @@
       "symbols": [
         {
           "symbol_id": 3,
-          "cluster_id": "GEOM_UNKNOWN_0003",
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "latin_print",
           "vision_description": "The glyph '175' rendered in a serif typeface inside a circular node, with adjacent nodes showing '155', '30', and '2' connected by straight line segments forming a graph/network structure.",
           "unicode_codepoint": "U+0031 U+0037 U+0035",
@@ -1618,11 +1618,11 @@
       "text_words": [],
       "symbols": [
         {
-          "symbol_id": 1000002,
-          "cluster_id": "GEOM_UNMATCHED_0000",
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
           "vision_kind": "image",
           "vision_description": "A cropped fragment of a graph/network diagram showing multiple numbered circles (140, 189, 188, 143) connected by straight black edges. The circles contain black serif/sans-serif digits on a white background, linked in a node-edge pattern typical of a graph or flowchart.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.9,
           "page": "p09",
           "bbox": [
@@ -1631,7 +1631,8 @@
             45,
             69
           ],
-          "crop_path": "bbox/vision_qa_20260704_V2/p09/p09_glyphs/g047_blank.png"
+          "crop_path": "bbox/crops/p09_blank_047.png",
+          "first_appearance": false
         }
       ],
       "drawings": [],
@@ -1650,11 +1651,11 @@
       "text_words": [],
       "symbols": [
         {
-          "symbol_id": 1000003,
-          "cluster_id": "GEOM_UNMATCHED_0000",
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
           "vision_kind": "image",
           "vision_description": "Partial view of a network graph with circular nodes containing the numbers 124, 207, 210, and 125, connected by thick black lines",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+0035",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1663,7 +1664,8 @@
             44,
             69
           ],
-          "crop_path": "bbox/vision_qa_20260704_V2/p09/p09_glyphs/g048_blank.png"
+          "crop_path": "bbox/crops/p09_blank_048.png",
+          "first_appearance": false
         }
       ],
       "drawings": [],
@@ -1682,11 +1684,11 @@
       "text_words": [],
       "symbols": [
         {
-          "symbol_id": 1000004,
-          "cluster_id": "GEOM_UNMATCHED_0000",
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
           "vision_kind": "image",
           "vision_description": "Cropped portion of a network/graph diagram showing circular nodes containing numbers (198, 83, 137, 149) connected by black line segments forming a lattice-like structure.",
-          "unicode_codepoint": "",
+          "unicode_codepoint": "U+25CB",
           "vision_confidence": 0.85,
           "page": "p09",
           "bbox": [
@@ -1695,7 +1697,8 @@
             39,
             69
           ],
-          "crop_path": "bbox/vision_qa_20260704_V2/p09/p09_glyphs/g049_blank.png"
+          "crop_path": "bbox/crops/p09_blank_049.png",
+          "first_appearance": false
         }
       ],
       "drawings": [],
@@ -1704,12 +1707,111 @@
     {
       "region_id": "p09_R50",
       "bbox": [
+        614,
+        733,
+        58,
+        55
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Circular node containing the printed number 208, connected by lines to other numbered circular nodes (23, 162, 173) forming a graph/network diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.62,
+          "page": "p09",
+          "bbox": [
+            614,
+            733,
+            58,
+            55
+          ],
+          "crop_path": "bbox/crops/p09_blank_050.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R51",
+      "bbox": [
+        768,
+        1083,
+        54,
+        53
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A portion of a node-link graph diagram showing several circular nodes containing numbers (163, 122, 214, 67) connected by straight lines, resembling a network or graph structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            768,
+            1083,
+            54,
+            53
+          ],
+          "crop_path": "bbox/crops/p09_blank_051.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R52",
+      "bbox": [
+        875,
+        1014,
+        44,
+        71
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A network graph diagram showing four numbered nodes (212 at top, 169 on left, 165 on right, 120 at bottom) displayed as circles connected by straight lines, forming a diamond/quadrilateral structure",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            875,
+            1014,
+            44,
+            71
+          ],
+          "crop_path": "bbox/crops/p09_blank_052.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R53",
+      "bbox": [
         311,
         1131,
         63,
         61
       ],
-      "classification": "text_in_blank",
+      "classification": "mixed_media",
       "description": "",
       "text_words": [
         {
@@ -1724,19 +1826,1192 @@
           "verified_by_vision": false
         }
       ],
-      "symbols": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '141' rendered in a clear, sans-serif latin print typeface, positioned inside a thin circular outline. The digits are bold and legible, situated in the upper-center area of the cropped image as part of a network of circled numbers connected by lines.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.97,
+          "page": "p09",
+          "bbox": [
+            311,
+            1136,
+            58,
+            56
+          ],
+          "crop_path": "bbox/crops/p09_blank_053.png",
+          "first_appearance": false
+        }
+      ],
       "drawings": [],
       "uncertain": []
     },
     {
-      "region_id": "p09_R51",
+      "region_id": "p09_R54",
+      "bbox": [
+        529,
+        1010,
+        54,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A diagram showing four circles arranged in a diamond pattern, connected by thick black lines. Each circle contains a number: 58 (left), 127 (top), 20 (right), and 177 (bottom). The circles are outlined in black on a white background.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            529,
+            1010,
+            54,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_054.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R55",
+      "bbox": [
+        867,
+        957,
+        39,
+        69
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the printed number 66, part of a larger graph/network diagram with multiple circular nodes connected by lines. Other partially visible nodes show numbers 113, 212, and 160.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            867,
+            957,
+            39,
+            69
+          ],
+          "crop_path": "bbox/crops/p09_blank_055.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R56",
+      "bbox": [
+        262,
+        998,
+        42,
+        62
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A chain of four circular nodes connected by lines, each containing a 3-digit number (192, 145, 189, 140). It forms a linked/ringed network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            262,
+            998,
+            42,
+            62
+          ],
+          "crop_path": "bbox/crops/p09_blank_056.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R57",
+      "bbox": [
+        580,
+        607,
+        60,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "Portion of a network/graph diagram showing circles connected by thick lines, each containing a number (132, 133, 19, partial 2).",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            580,
+            607,
+            60,
+            39
+          ],
+          "crop_path": "bbox/crops/p09_blank_057.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R58",
+      "bbox": [
+        825,
+        1054,
+        47,
+        62
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a node-link diagram showing four circles containing three-digit numbers (169, 163, 120, 214) connected by straight lines forming a graph structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            825,
+            1054,
+            47,
+            62
+          ],
+          "crop_path": "bbox/crops/p09_blank_058.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R59",
+      "bbox": [
+        715,
+        1002,
+        46,
+        51
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "Part of a graph diagram showing three circles connected by lines, containing the numbers 180 (top, partially visible), 78 (left, partially visible), and 213 (right). The circles are connected by straight lines forming a triangular/polygonal structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            715,
+            1002,
+            46,
+            51
+          ],
+          "crop_path": "bbox/crops/p09_blank_059.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R60",
+      "bbox": [
+        483,
+        1033,
+        58,
+        40
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A cropped fragment of a graph/network diagram showing several circular nodes connected by straight lines. Visible numbers inside the circles include 76 (left), 158 (top), 13 (right), and 155 (bottom). Thick black edges connect the nodes.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            483,
+            1033,
+            58,
+            40
+          ],
+          "crop_path": "bbox/crops/p09_blank_060.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R61",
+      "bbox": [
+        443,
+        838,
+        48,
+        53
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '186' printed in standard serif numerals inside a circular node",
+          "unicode_codepoint": "U+0031 U+0038 U+0036",
+          "vision_confidence": 0.98,
+          "page": "p09",
+          "bbox": [
+            443,
+            838,
+            48,
+            53
+          ],
+          "crop_path": "bbox/crops/p09_blank_061.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R62",
+      "bbox": [
+        623,
+        1053,
+        64,
+        41
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A graph/network diagram showing multiple circles containing the numbers 157, 17, 8, and 203, connected by straight black lines forming a node-link structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            623,
+            1053,
+            64,
+            41
+          ],
+          "crop_path": "bbox/crops/p09_blank_062.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R63",
+      "bbox": [
+        539,
+        633,
+        54,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A cropped section of a diagram showing four circles containing the numbers '202' (top), '9' (left), '13' (right), and '152' (bottom), connected by thick black lines forming a diamond/hexagonal network pattern.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            539,
+            633,
+            54,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_063.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R64",
+      "bbox": [
+        428,
+        585,
+        67,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A network graph diagram showing multiple circles containing numbers (180, 1, 134, 01) connected by black lines, forming a mesh structure",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.7,
+          "page": "p09",
+          "bbox": [
+            428,
+            585,
+            67,
+            39
+          ],
+          "crop_path": "bbox/crops/p09_blank_064.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R65",
+      "bbox": [
+        256,
+        1056,
+        45,
+        61
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "A network diagram with four circles connected by lines, each containing a three-digit number: 189 (top-left), 140 (top-right), 143 (bottom-left), and 194 (bottom-right, partially visible).",
+          "unicode_codepoint": "U+0031 U+0034 U+0030",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            256,
+            1056,
+            45,
+            61
+          ],
+          "crop_path": "bbox/crops/p09_blank_065.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R66",
+      "bbox": [
+        632,
+        838,
+        46,
+        55
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A graph or network diagram showing multiple circles containing numbers (172, 159, 209, 126) connected by lines, resembling a node-link diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            632,
+            838,
+            46,
+            55
+          ],
+          "crop_path": "bbox/crops/p09_blank_066.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R67",
+      "bbox": [
+        582,
+        1093,
+        65,
+        34
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A graph diagram showing four circles connected by lines, with the numbers 128 (top), 129 (bottom), 6 (left), and 20 or 2C (right) written inside the circles.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            582,
+            1093,
+            65,
+            34
+          ],
+          "crop_path": "bbox/crops/p09_blank_067.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R68",
+      "bbox": [
+        530,
+        576,
+        63,
+        32
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A diagram showing a diamond-shaped graph with four circled numbers (181 at top, 61 at left, 13 at right, 202 at bottom) connected by straight lines, resembling a Hasse diagram of divisibility relations among numbers.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            530,
+            576,
+            63,
+            32
+          ],
+          "crop_path": "bbox/crops/p09_blank_068.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R69",
+      "bbox": [
+        671,
+        747,
+        50,
+        60
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A fragment of a graph/network diagram showing circles connected by lines, with circled numeric labels: '08' at top-left, '161' upper-right, '173' center, and partial '124' at bottom-right.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            671,
+            747,
+            50,
+            60
+          ],
+          "crop_path": "bbox/crops/p09_blank_069.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R70",
+      "bbox": [
+        823,
+        1003,
+        43,
+        57
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A network diagram showing four interconnected circles, each containing a Latin print number: 108 (top), 68 (left), 169 (right), and 163 (bottom), connected by short line segments.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            823,
+            1003,
+            43,
+            57
+          ],
+          "crop_path": "bbox/crops/p09_blank_070.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R71",
+      "bbox": [
+        305,
+        1026,
+        43,
+        56
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A graph diagram showing four circles containing the numbers 145, 190, 140, and 191, connected by straight lines forming a network. The numbers appear in a print font, possibly representing a node-link diagram or chemical structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p09",
+          "bbox": [
+            305,
+            1026,
+            43,
+            56
+          ],
+          "crop_path": "bbox/crops/p09_blank_071.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R72",
+      "bbox": [
+        772,
+        1034,
+        48,
+        52
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A small graph diagram with four circular nodes containing the numbers 168, 213, 163, and 122, connected by straight black lines. The nodes are arranged in a roughly diamond/quadrilateral pattern with 168 at top, 213 at left, 163 at right, and 122 at bottom-left.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            772,
+            1034,
+            48,
+            52
+          ],
+          "crop_path": "bbox/crops/p09_blank_072.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R73",
+      "bbox": [
+        349,
+        841,
+        43,
+        67
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "Cropped portion of a graph diagram showing several circular nodes (containing the numbers 138, 147, 198, 183) connected by straight black lines forming a tree or network structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            349,
+            841,
+            43,
+            67
+          ],
+          "crop_path": "bbox/crops/p09_blank_073.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R74",
+      "bbox": [
+        442,
+        788,
+        52,
+        53
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A network graph showing circular nodes containing the numbers 185, 199, 136, and 149, connected by black lines (edges) forming a graph structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            442,
+            788,
+            52,
+            53
+          ],
+          "crop_path": "bbox/crops/p09_blank_074.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R75",
+      "bbox": [
+        303,
+        1082,
+        47,
+        53
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A partial view of a graph diagram showing circular nodes labeled with numbers (140, 191, 194, 141) connected by straight edges/lines, forming a network structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            303,
+            1082,
+            47,
+            53
+          ],
+          "crop_path": "bbox/crops/p09_blank_075.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R76",
+      "bbox": [
+        490,
+        603,
+        55,
+        36
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A network of circles connected by lines, with the number 151 visible in the top circle and 178 in the bottom circle, along with partial circles showing numbers on left and right sides.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.7,
+          "page": "p09",
+          "bbox": [
+            490,
+            603,
+            55,
+            36
+          ],
+          "crop_path": "bbox/crops/p09_blank_076.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R77",
+      "bbox": [
+        401,
+        863,
+        40,
+        56
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A network diagram section showing circles containing three-digit numbers (198, 195, 137, 136) connected by black lines, resembling a phylogenetic or graph network visualization.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.7,
+          "page": "p09",
+          "bbox": [
+            401,
+            863,
+            40,
+            56
+          ],
+          "crop_path": "bbox/crops/p09_blank_077.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R78",
+      "bbox": [
+        631,
+        787,
+        48,
+        51
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "Graph network diagram with four circular nodes containing the printed numbers 62 (top-left), 173 (top-right), 172 (bottom-left), and 159 (bottom-right), connected by straight black lines forming a quadrilateral.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            631,
+            787,
+            48,
+            51
+          ],
+          "crop_path": "bbox/crops/p09_blank_078.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R79",
+      "bbox": [
+        576,
+        1040,
+        54,
+        35
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A graph diagram with four circular nodes labeled 204 (top), 15 (right), 128 (bottom), and 7 (left), connected by straight line segments forming a quadrilateral network.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            576,
+            1040,
+            54,
+            35
+          ],
+          "crop_path": "bbox/crops/p09_blank_079.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R80",
+      "bbox": [
+        531,
+        1072,
+        58,
+        31
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a graph/network diagram showing four circular nodes connected by edges. The nodes contain the numbers 177 (top), 5 (left), 13 (right), and 206 (bottom). The circles are outlined in black with thick connecting lines between them.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.35,
+          "page": "p09",
+          "bbox": [
+            531,
+            1072,
+            58,
+            31
+          ],
+          "crop_path": "bbox/crops/p09_blank_080.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R81",
+      "bbox": [
+        394,
+        810,
+        45,
+        57
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "A circular node containing the printed number '147', connected by lines to adjacent circular nodes labeled 189, 136, and 198 in a graph/network diagram.",
+          "unicode_codepoint": "U+0031 U+0034 U+0037",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            394,
+            810,
+            45,
+            57
+          ],
+          "crop_path": "bbox/crops/p09_blank_081.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R82",
+      "bbox": [
+        683,
+        807,
+        41,
+        55
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a network graph showing four circular nodes containing the numbers 173, 124, 159, and 210, connected by black edges/lines.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            683,
+            807,
+            41,
+            55
+          ],
+          "crop_path": "bbox/crops/p09_blank_082.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R83",
+      "bbox": [
+        539,
+        1042,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the printed number '177' in a serif font, with lines extending to adjacent nodes, forming part of a network/graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            539,
+            1042,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_083.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R84",
+      "bbox": [
+        389,
+        915,
+        39,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '137', connected by lines to other circular nodes in a graph-like structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            389,
+            915,
+            39,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_084.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R85",
+      "bbox": [
+        504,
+        632,
+        38,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 179, with lines extending outward to neighboring nodes, forming part of a graph/network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            504,
+            632,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_085.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R86",
+      "bbox": [
+        375,
+        810,
+        37,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the digits '147' in black serif/print font, with thick black lines extending from the circle to the corners of the crop, indicating a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.65,
+          "page": "p09",
+          "bbox": [
+            375,
+            810,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_086.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R87",
+      "bbox": [
+        660,
+        779,
+        37,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '173', with line segments extending outward connecting to other nodes in a graph-like structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            660,
+            779,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_087.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R88",
+      "bbox": [
+        749,
+        1027,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 213, with lines connecting to other partially visible circles, appearing as a node in a graph or diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            749,
+            1027,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_088.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R89",
       "bbox": [
         785,
         1161,
         37,
         39
       ],
-      "classification": "text_in_blank",
+      "classification": "mixed_media",
       "description": "",
       "text_words": [
         {
@@ -1751,19 +3026,1852 @@
           "verified_by_vision": false
         }
       ],
-      "symbols": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node in a graph diagram with several lines extending outward from its perimeter, containing the number 121 inside the circle.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            785,
+            1161,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_089.png",
+          "first_appearance": false
+        }
+      ],
       "drawings": [],
       "uncertain": []
     },
     {
-      "region_id": "p09_R52",
+      "region_id": "p09_R90",
+      "bbox": [
+        548,
+        665,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '152' in its center, connected by lines to other partial circles visible at the corners of the crop, forming a node-link diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p09",
+          "bbox": [
+            548,
+            665,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_090.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R91",
+      "bbox": [
+        752,
+        773,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle with the number '174' printed inside it, with straight lines extending outward from the circle (top, left, and right), resembling a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            752,
+            773,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_091.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R92",
+      "bbox": [
+        613,
+        812,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number 172, with lines extending outward to adjacent partial circles, forming part of a network/graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            613,
+            812,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_092.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R93",
+      "bbox": [
+        654,
+        887,
+        38,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "A circle containing the number '126' in printed Latin numerals, with lines extending from it to other circles in a graph/network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            654,
+            887,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_093.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R94",
+      "bbox": [
+        197,
+        984,
+        38,
+        38
+      ],
+      "classification": "address_hex",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "address_hex",
+          "vision_description": "A circle containing the number '146', with lines extending from the circle to adjacent nodes, forming part of a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p09",
+          "bbox": [
+            197,
+            984,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_094.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R95",
+      "bbox": [
+        844,
+        1140,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node labeled with the number 211 inside, with lines extending outward as part of a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            844,
+            1140,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_095.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R96",
+      "bbox": [
+        495,
+        1064,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 155, with lines extending outward connecting to other nodes, appearing as a node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            495,
+            1064,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_096.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R97",
+      "bbox": [
+        901,
+        1107,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node (graph vertex) containing the number '170', with a line extending upward from the top of the circle, appearing to be part of a graph or tree diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            901,
+            1107,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_097.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R98",
+      "bbox": [
+        584,
+        709,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node with the number '123' printed inside, with black lines extending outward to the top, right, bottom, and left, forming a network/graph diagram node.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            584,
+            709,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_098.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R99",
+      "bbox": [
+        539,
+        977,
+        37,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '127' with diagonal lines extending outward as part of a graph network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            539,
+            977,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_099.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R100",
+      "bbox": [
+        649,
+        563,
+        37,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 153, with lines extending from it suggesting a node in a network graph",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            649,
+            563,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_100.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R101",
+      "bbox": [
+        494,
+        576,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '151', with lines extending outward to connect to adjacent nodes in a network diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            494,
+            576,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_101.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R102",
+      "bbox": [
+        507,
+        709,
+        37,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '135' with several lines extending outward from its perimeter, resembling a graph node.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            507,
+            709,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_102.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R103",
+      "bbox": [
+        751,
+        1073,
+        37,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '122', connected by lines to adjacent circles (a graph/network node labeled 122).",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.62,
+          "page": "p09",
+          "bbox": [
+            751,
+            1073,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_103.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R104",
+      "bbox": [
+        591,
+        579,
+        37,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '132' with black lines extending from it to other partial nodes at the edges, appearing as part of a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.7,
+          "page": "p09",
+          "bbox": [
+            591,
+            579,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_104.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R105",
+      "bbox": [
+        454,
+        611,
+        38,
+        37
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "A circle containing the printed number '134', with curved lines extending outward connecting to adjacent nodes in a graph diagram.",
+          "unicode_codepoint": "U+0031 U+0033 U+0034",
+          "vision_confidence": 0.97,
+          "page": "p09",
+          "bbox": [
+            454,
+            611,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_105.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R106",
+      "bbox": [
+        801,
+        1107,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '214' with short lines extending from its edges connecting to neighboring nodes",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.55,
+          "page": "p09",
+          "bbox": [
+            801,
+            1107,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_106.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R107",
+      "bbox": [
+        187,
+        1108,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 193, with lines extending from the top and lower-right, appearing to be a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            187,
+            1108,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_107.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R108",
+      "bbox": [
+        483,
+        1117,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular road/route sign containing the number 175, with two straight lines extending horizontally from the left and right sides of the circle, resembling a highway route marker or shield.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            483,
+            1117,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_108.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R109",
+      "bbox": [
+        540,
+        491,
+        37,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A white circle outline containing the number '131' in its center, with two short lines extending outward from the lower-left and lower-right edges of the circle.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            540,
+            491,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_109.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R110",
+      "bbox": [
+        893,
+        978,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '212' with lines extending outward, representing a vertex in a graph or network diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            893,
+            978,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_110.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R111",
+      "bbox": [
+        290,
+        996,
+        38,
+        38
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "prime_digit",
+          "vision_description": "A circle containing the number '145' with lines extending outward to other partially visible circles, resembling a node in a network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p09",
+          "bbox": [
+            290,
+            996,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_111.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R112",
+      "bbox": [
+        337,
+        1123,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number 141, with lines extending to adjacent circular nodes at the edges of the crop, forming part of a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            337,
+            1123,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_112.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R113",
+      "bbox": [
+        590,
+        639,
+        37,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 133, connected by lines to other circles, appearing as a node in a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p09",
+          "bbox": [
+            590,
+            639,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_113.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R114",
+      "bbox": [
+        486,
+        521,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the three-digit number '154' with diagonal lines extending from the sides, appearing as a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            486,
+            521,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_114.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R115",
+      "bbox": [
+        605,
+        762,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number 162, connected by lines to surrounding shapes, appearing as a node in a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            605,
+            762,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_115.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R116",
+      "bbox": [
+        707,
+        799,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '124', with black lines radiating outward to connect to partially visible neighboring circles, forming part of a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            707,
+            799,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_116.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R117",
+      "bbox": [
+        218,
+        916,
+        37,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle outline containing the printed number '139', with short line segments extending from the top and bottom of the circle, suggesting it is a labeled node in a connected graph or diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            218,
+            916,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_117.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R118",
+      "bbox": [
+        696,
+        739,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle (node) containing the number '161', with black edges/lines extending outward to connect to other nodes in a graph structure.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.55,
+          "page": "p09",
+          "bbox": [
+            696,
+            739,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_118.png",
+          "first_appearance": true
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R119",
+      "bbox": [
+        428,
+        884,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A network/graph diagram crop showing a central circle labeled with the number '195', connected by lines to partial circles at the corners and a partial circle labeled '7' at the bottom-left",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            428,
+            884,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_119.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R120",
+      "bbox": [
+        748,
+        898,
+        37,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 125, with multiple lines extending outward from the circle to other points (appearing as a node in a graph or network diagram).",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            748,
+            898,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_120.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R121",
+      "bbox": [
+        451,
+        1020,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 176, connected by lines to other partial circles, resembling a node in a network graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            451,
+            1020,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_121.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R122",
+      "bbox": [
+        326,
+        784,
+        38,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '197', with four lines extending outward from the circle, appearing as a labeled node in a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.55,
+          "page": "p09",
+          "bbox": [
+            326,
+            784,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_122.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R123",
+      "bbox": [
+        626,
+        1027,
+        37,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '157' in its center, with straight lines radiating outward from its edges to connect to adjacent circular nodes in a network/graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.6,
+          "page": "p09",
+          "bbox": [
+            626,
+            1027,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_123.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R124",
+      "bbox": [
+        234,
+        1082,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '143' with lines radiating outward to neighboring nodes, appearing as part of a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            234,
+            1082,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_124.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R125",
+      "bbox": [
+        421,
+        833,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '136', with lines extending from it to connect to other nodes in a network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            421,
+            833,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_125.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R126",
+      "bbox": [
+        330,
+        1071,
+        37,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "The digits '191' printed in a serif font inside a circular node, which is part of a graph/diagram with line segments connecting to adjacent nodes.",
+          "unicode_codepoint": "U+0031 U+0039 U+0031",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            330,
+            1071,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_126.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R127",
+      "bbox": [
+        741,
+        1123,
+        38,
+        37
+      ],
+      "classification": "address_hex",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "address_hex",
+          "vision_description": "A circle containing the number 167, with lines extending outward suggesting a graph node with numerical label.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            741,
+            1123,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_127.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R128",
+      "bbox": [
+        755,
+        837,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '207' with radial lines extending outward, appearing to be a node in a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            755,
+            837,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_128.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R129",
+      "bbox": [
+        900,
+        1042,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A hand-drawn circle containing the number '165', with short line segments extending from its top, bottom, and left sides, appearing as a node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.45,
+          "page": "p09",
+          "bbox": [
+            900,
+            1042,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_129.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R130",
+      "bbox": [
+        381,
+        749,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 184, with lines radiating outward to the corners, resembling a node in a network or diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            381,
+            749,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_130.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R131",
+      "bbox": [
+        425,
+        781,
+        38,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "The number 185 printed in black inside a circular node of a graph/network diagram, with lines extending outward to other nodes.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            425,
+            781,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_131.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R132",
+      "bbox": [
+        542,
+        546,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '181' with two lines extending horizontally from its left and right sides, representing a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            542,
+            546,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_132.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R133",
+      "bbox": [
+        395,
+        606,
+        38,
+        38
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A circle containing the number 201, with two short line segments extending outward to the upper-right and lower-left, resembling a reference balloon or stenographic label.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            395,
+            606,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_133.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R134",
+      "bbox": [
+        285,
+        1109,
+        38,
+        37
+      ],
+      "classification": "address_hex",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "address_hex",
+          "vision_description": "A circular node containing the three-digit number '194' in bold, with line segments extending outward connecting to neighboring nodes in a graph/network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.62,
+          "page": "p09",
+          "bbox": [
+            285,
+            1109,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_134.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R135",
+      "bbox": [
+        243,
+        1141,
+        37,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "The number 142 printed in black inside a circle, forming a node in a graph or network diagram with lines extending outward.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            243,
+            1141,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_135.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R136",
+      "bbox": [
+        362,
+        1177,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node in a graph/network diagram containing the number '144' inside, with straight lines extending outward from the circle to connect to other nodes.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            362,
+            1177,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_136.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R137",
+      "bbox": [
+        544,
+        601,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '202', with lines radiating outward to connect to adjacent nodes, forming part of a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            544,
+            601,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_137.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R138",
+      "bbox": [
+        303,
+        1166,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 187 with several line segments radiating outward from its perimeter, resembling a graph/network node with an index label.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            303,
+            1166,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_138.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R139",
+      "bbox": [
+        873,
+        920,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number '119' in print, with straight lines extending outward from the circle's edges, resembling a labeled vertex/node in a graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            873,
+            920,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_139.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R140",
+      "bbox": [
+        394,
+        1026,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node with the number '205' printed inside, connected by lines to other nodes in what appears to be a network graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.78,
+          "page": "p09",
+          "bbox": [
+            394,
+            1026,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_140.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R141",
+      "bbox": [
+        252,
+        964,
+        38,
+        38
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A circle containing the number '192' with three lines extending outward (up-left, up-right, and down), resembling a labeled node in a syntax tree or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.55,
+          "page": "p09",
+          "bbox": [
+            252,
+            964,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_141.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R142",
+      "bbox": [
+        355,
+        964,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "Cartographic node/road shield: a circle containing the number '148' with four thick black lines extending outward from the circle to the four corners, representing a road junction or route marker on a map.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            355,
+            964,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_142.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R143",
+      "bbox": [
+        683,
+        1036,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '178' with multiple line segments radiating outward from its perimeter, appearing as a node in a graph or tree diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            683,
+            1036,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_143.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R144",
+      "bbox": [
+        597,
+        1118,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node in a graph/network diagram containing the number '129', with straight lines extending outward to connect to other nodes",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            597,
+            1118,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_144.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R145",
       "bbox": [
         540,
         1149,
         39,
         37
       ],
-      "classification": "text_in_blank",
+      "classification": "mixed_media",
       "description": "",
       "text_words": [
         {
@@ -1778,12 +4886,1251 @@
           "verified_by_vision": false
         }
       ],
-      "symbols": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '156' with two horizontal lines extending from the left and right sides, resembling a node in a flowchart or schematic diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            541,
+            1149,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_145.png",
+          "first_appearance": false
+        }
+      ],
       "drawings": [],
       "uncertain": []
     },
     {
-      "region_id": "p09_R53",
+      "region_id": "p09_R146",
+      "bbox": [
+        440,
+        725,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '150' with several lines radiating outward, resembling a graph node or network diagram element",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            440,
+            725,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_146.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R147",
+      "bbox": [
+        854,
+        1079,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '120' with multiple lines radiating outward from its perimeter, resembling a network node or hub in a diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            854,
+            1079,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_147.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R148",
+      "bbox": [
+        636,
+        622,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '199' with thick black lines radiating outward to connect to other nodes, resembling a network or graph diagram element.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            636,
+            622,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_148.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R149",
+      "bbox": [
+        326,
+        849,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle with the number '138' printed inside it, with several straight lines extending outward from the circle's perimeter, resembling a labeled node in a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.7,
+          "page": "p09",
+          "bbox": [
+            326,
+            849,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_149.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R150",
+      "bbox": [
+        805,
+        1053,
+        37,
+        37
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "latin_print",
+          "vision_description": "A circle containing the printed number '163' with short line segments extending outward from the circle's perimeter, appearing as a labeled node in a network or tree diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            805,
+            1053,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_150.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R151",
+      "bbox": [
+        496,
+        1001,
+        37,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the number 158, with thick black lines extending outward from its edges, appearing to be a node in a network/graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            496,
+            1001,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_151.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R152",
+      "bbox": [
+        475,
+        811,
+        37,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '149' with lines extending outward to other nodes, appearing as part of a network or graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            475,
+            811,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_152.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R153",
+      "bbox": [
+        587,
+        1065,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '128', connected by lines to other partial circles visible at the edges of the crop, forming a graph or diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            587,
+            1065,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_153.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R154",
+      "bbox": [
+        283,
+        1053,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '140', with lines extending from it to other circles, forming a node in a network/graph diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            283,
+            1053,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_154.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R155",
+      "bbox": [
+        705,
+        856,
+        37,
+        39
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 210, connected by lines to partial surrounding circles, appearing as a node in a network/graph diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.92,
+          "page": "p09",
+          "bbox": [
+            705,
+            856,
+            37,
+            39
+          ],
+          "crop_path": "bbox/crops/p09_blank_155.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R156",
+      "bbox": [
+        476,
+        864,
+        38,
+        37
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed number '186' inside a circle with lines extending outward, resembling a graph or network node",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            476,
+            864,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_156.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R157",
+      "bbox": [
+        581,
+        1009,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '204', with straight lines connecting it to adjacent circular nodes, forming part of a network/graph diagram.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            581,
+            1009,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_157.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R158",
+      "bbox": [
+        693,
+        615,
+        37,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '182' with short line segments crossing through it, appearing as a labeled node or marker in a diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            693,
+            615,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_158.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R159",
+      "bbox": [
+        335,
+        905,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '183' with lines extending outward from the circle, appearing to be a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            335,
+            905,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_159.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R160",
+      "bbox": [
+        544,
+        1095,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number '206' with lines extending outward to the left and right, appearing as a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            544,
+            1095,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_160.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R161",
+      "bbox": [
+        719,
+        1177,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node with the number '164' inside, with lines extending from the top, left, and right edges, representing a labeled graph or network node.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.75,
+          "page": "p09",
+          "bbox": [
+            719,
+            1177,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_161.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R162",
+      "bbox": [
+        643,
+        1079,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the label '203' with straight lines extending outward from its edges, appearing as a labeled node in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.45,
+          "page": "p09",
+          "bbox": [
+            643,
+            1079,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_162.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R163",
+      "bbox": [
+        438,
+        1079,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '130', with lines extending outward to connect to other nodes, appearing as a vertex in a graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            438,
+            1079,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_163.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R164",
+      "bbox": [
+        376,
+        861,
+        38,
+        37
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "geometric_circle",
+          "vision_description": "A circle containing the printed number '198', serving as a labeled node connected by straight lines to adjacent circles in a network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.78,
+          "page": "p09",
+          "bbox": [
+            376,
+            861,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_164.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R165",
+      "bbox": [
+        484,
+        765,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the printed digits '196' with thin lines extending outward to neighboring nodes, appearing as part of a connected graph or network diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            484,
+            765,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_165.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R166",
+      "bbox": [
+        797,
+        1002,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "Circular node labeled '168' in a network/relationship diagram, with lines extending outward connecting to other nodes.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.7,
+          "page": "p09",
+          "bbox": [
+            797,
+            1002,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_166.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R167",
+      "bbox": [
+        609,
+        864,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the number '209' with several lines extending outward, appearing to be a vertex in a network or graph diagram. An 'I'-shaped line/connector is visible at the top.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            609,
+            864,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_167.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R168",
+      "bbox": [
+        237,
+        1024,
+        38,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node with the number 189 printed in the center, with four short lines extending outward from the circle (top, bottom, left, right), suggesting a graph or network diagram element.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            237,
+            1024,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_168.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R169",
+      "bbox": [
+        334,
+        1017,
+        38,
+        38
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "latin_print",
+          "vision_description": "A circle node containing the printed number 190, with a partial edge or line extending to the upper-left.",
+          "unicode_codepoint": "U+0031 U+0039 U+0030",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            334,
+            1017,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_169.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R170",
+      "bbox": [
+        841,
+        969,
+        37,
+        37
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the label '166' with multiple line segments radiating outward to the edges, representing a vertex in a graph or network diagram",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.88,
+          "page": "p09",
+          "bbox": [
+            841,
+            969,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_170.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R171",
+      "bbox": [
+        187,
+        1045,
+        38,
+        37
+      ],
+      "classification": "address_hex",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "address_hex",
+          "vision_description": "A circle containing the number '188' with lines extending outward, appearing as a labeled node in a graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.45,
+          "page": "p09",
+          "bbox": [
+            187,
+            1045,
+            38,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_171.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R172",
+      "bbox": [
+        853,
+        1022,
+        37,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circle containing the number 169, connected by lines to other circles, appearing as a node in a graph diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.9,
+          "page": "p09",
+          "bbox": [
+            853,
+            1022,
+            37,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_172.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R173",
+      "bbox": [
+        436,
+        561,
+        37,
+        37
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A circle containing the number '180' in printed digits, with two diagonal lines crossing through it as connecting edges to other nodes in a graph diagram",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p09",
+          "bbox": [
+            436,
+            561,
+            37,
+            37
+          ],
+          "crop_path": "bbox/crops/p09_blank_173.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R174",
+      "bbox": [
+        726,
+        965,
+        38,
+        38
+      ],
+      "classification": "geometric_circle",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_circle",
+          "vision_description": "Circle outline containing the printed number '160', resembling a road route marker",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.4,
+          "page": "p09",
+          "bbox": [
+            726,
+            965,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_174.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R175",
+      "bbox": [
+        540,
+        699,
+        51,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A graph diagram showing circles containing numbers (152 at top, 35 at left, 12 at right) connected by straight black lines, forming a triangular network of nodes.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.95,
+          "page": "p09",
+          "bbox": [
+            540,
+            699,
+            51,
+            26
+          ],
+          "crop_path": "bbox/crops/p09_blank_175.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R176",
+      "bbox": [
+        599,
+        522,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node containing the label '200' with thick black connection lines extending to the left, resembling a labeled vertex in a network or circuit diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            599,
+            522,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_176.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R177",
+      "bbox": [
+        643,
+        720,
+        38,
+        38
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "A circular node with the number 208 inside, connected by lines to other shapes, appearing as a labeled vertex in a tensor network or knot diagram.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            643,
+            720,
+            38,
+            38
+          ],
+          "crop_path": "bbox/crops/p09_blank_177.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R178",
+      "bbox": [
+        360,
+        1000,
+        37,
+        42
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "image",
+          "vision_description": "A fragment of a graph/network diagram showing circular nodes connected by lines, with numerical labels like '.90' and '20' visible inside the circles.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            360,
+            1000,
+            37,
+            42
+          ],
+          "crop_path": "bbox/crops/p09_blank_178.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R179",
+      "bbox": [
+        507,
+        399,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 3,
+          "cluster_id": "GEOM_LATIN_PRINT_0003",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular outline containing three or four small dots arranged to resemble a simple face with eyes and a mouth/nose",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            507,
+            399,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p09_blank_179.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R180",
+      "bbox": [
+        226,
+        1330,
+        15,
+        15
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged in a triangular pattern (two upper, one lower), resembling a simple face or emoticon.",
+          "unicode_codepoint": "U+2686",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            226,
+            1330,
+            15,
+            15
+          ],
+          "crop_path": "bbox/crops/p09_blank_180.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R181",
+      "bbox": [
+        479,
+        1490,
+        15,
+        15
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged in a triangular pattern (two on top, one on bottom), resembling a simple face.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.85,
+          "page": "p09",
+          "bbox": [
+            479,
+            1490,
+            15,
+            15
+          ],
+          "crop_path": "bbox/crops/p09_blank_181.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R182",
+      "bbox": [
+        823,
+        1490,
+        15,
+        15
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three small dots arranged in a triangular pattern (two on top, one on the bottom), resembling a simple face.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.82,
+          "page": "p09",
+          "bbox": [
+            823,
+            1490,
+            15,
+            15
+          ],
+          "crop_path": "bbox/crops/p09_blank_182.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p09_R183",
       "bbox": [
         208,
         274,
@@ -1898,7 +6245,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R54",
+      "region_id": "p09_R184",
       "bbox": [
         205,
         310,
@@ -2024,7 +6371,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R55",
+      "region_id": "p09_R185",
       "bbox": [
         207,
         354,
@@ -2150,7 +6497,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R56",
+      "region_id": "p09_R186",
       "bbox": [
         196,
         395,
@@ -2265,7 +6612,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R57",
+      "region_id": "p09_R187",
       "bbox": [
         329,
         435,
@@ -2347,7 +6694,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R58",
+      "region_id": "p09_R188",
       "bbox": [
         189,
         530,
@@ -2374,7 +6721,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R59",
+      "region_id": "p09_R189",
       "bbox": [
         442,
         1108,
@@ -2412,7 +6759,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R60",
+      "region_id": "p09_R190",
       "bbox": [
         215,
         1138,
@@ -2450,7 +6797,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R61",
+      "region_id": "p09_R191",
       "bbox": [
         754,
         1187,
@@ -2477,7 +6824,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R62",
+      "region_id": "p09_R192",
       "bbox": [
         208,
         1245,
@@ -2614,7 +6961,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R63",
+      "region_id": "p09_R193",
       "bbox": [
         212,
         1285,
@@ -2740,7 +7087,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R64",
+      "region_id": "p09_R194",
       "bbox": [
         196,
         1325,
@@ -2877,7 +7224,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R65",
+      "region_id": "p09_R195",
       "bbox": [
         203,
         1365,
@@ -3014,7 +7361,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R66",
+      "region_id": "p09_R196",
       "bbox": [
         484,
         1406,
@@ -3063,7 +7410,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p09_R67",
+      "region_id": "p09_R197",
       "bbox": [
         208,
         1485,
@@ -3214,26 +7561,28 @@
   "vision_description": "",
   "vision_classification": "",
   "stats": {
-    "n_regions": 67,
+    "n_regions": 197,
     "n_text_words": 116,
-    "n_symbols": 50,
+    "n_symbols": 183,
     "n_drawings": 0,
     "n_uncertain": 0,
     "classifications": {
       "footer": 1,
-      "image": 33,
-      "mixed_media": 3,
-      "latin_print": 9,
-      "geometric_circle": 3,
-      "text_in_blank": 3,
+      "image": 115,
+      "mixed_media": 6,
+      "latin_print": 21,
+      "geometric_circle": 28,
+      "address_hex": 4,
+      "prime_digit": 1,
+      "red_label_stenographic": 2,
+      "face_circle_three_dots": 4,
       "text_line": 15
     },
     "top_clusters": {
-      "GEOM_UNKNOWN_0003": 23,
-      "GEOM_UNKNOWN_0001": 22,
-      "GEOM_UNMATCHED_0000": 3,
-      "GEOM_UNKNOWN_0002": 1,
-      "GEOM_UNKNOWN_0005": 1
+      "GEOM_LATIN_PRINT_0003": 95,
+      "GEOM_LATIN_PRINT_0001": 75,
+      "GEOM_LATIN_PRINT_0005": 9,
+      "GEOM_LATIN_PRINT_0002": 4
     }
   }
 }

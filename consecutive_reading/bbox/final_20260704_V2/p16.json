@@ -5,12 +5,12 @@
     1625
   ],
   "source_pixel": "p16.json",
-  "source_vision": null,
-  "n_regions": 16,
+  "source_vision": "p16_page.json",
+  "n_regions": 129,
   "n_text_words": 142,
   "n_blank_regions": 113,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 0,
+  "n_glyphs_vision": 113,
   "regions": [
     {
       "region_id": "p16_R01",
@@ -41,6 +41,3735 @@
     },
     {
       "region_id": "p16_R02",
+      "bbox": [
+        382,
+        612,
+        82,
+        26
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "prime_digit",
+          "vision_description": "A handwritten/slanted numeral '7' with a small horizontal serif at the top-left, possibly indicating primality, situated within a diagonal-lined grid pattern alongside numbers 32, 3204, and 23.",
+          "unicode_codepoint": "U+0037",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            382,
+            612,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R03",
+      "bbox": [
+        317,
+        727,
+        82,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The four-digit number '3265' printed in a sans-serif Latin typeface, located in the bottom-left of a diagonally-ruled grid containing other numbers (33, 1, 16, 25).",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            317,
+            727,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R04",
+      "bbox": [
+        626,
+        727,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Partial view of a numerical table or grid with numbers (17, 4, 101, 1012, 16) crossed by diagonal lines, likely a section of a magic square or arithmetical diagram.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            626,
+            727,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_002.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R05",
+      "bbox": [
+        639,
+        842,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Partial view of a grid with diagonal lines dividing cells into triangular sections, containing numbers (1018, 13, 14, 3, 103) written within the triangular compartments.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.7,
+          "page": "p16",
+          "bbox": [
+            639,
+            842,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R06",
+      "bbox": [
+        280,
+        842,
+        82,
+        26
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram outline containing the digit 6, part of a numeric pattern with 3288 above and 328 to the right, bounded by dashed lines on the left and bottom",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.45,
+          "page": "p16",
+          "bbox": [
+            280,
+            842,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_004.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R07",
+      "bbox": [
+        381,
+        842,
+        82,
+        26
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Numerical labels '262' and '31' with a partial '4' above, each crossed by a diagonal strikethrough line forming a grid pattern of parallelogram-shaped cells.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.75,
+          "page": "p16",
+          "bbox": [
+            381,
+            842,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R08",
+      "bbox": [
+        590,
+        612,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A fragment of a geometric diagram showing parallel diagonal lines creating slanted regions, with the numbers 11, 15, and 326 written inside the regions between the diagonals.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            590,
+            612,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R09",
+      "bbox": [
+        626,
+        585,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a diagram showing diagonal lines with numbers along them (3275, 11, 32, 15, 3264), resembling an astronomical or mathematical calculation table with parallel diagonals.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            626,
+            585,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R10",
+      "bbox": [
+        419,
+        585,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a document or table with diagonal lines crossing through it, showing the numbers '5', '32/1', '264', '23', and '7' in a slanted/oblique layout.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            419,
+            585,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R11",
+      "bbox": [
+        677,
+        585,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A grid/table showing numbers (3275, 5, 11, 32, 325, 2264, 23) separated by diagonal lines, appearing as a table fragment with multiple numerical entries in cells.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.75,
+          "page": "p16",
+          "bbox": [
+            677,
+            585,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R12",
+      "bbox": [
+        332,
+        612,
+        81,
+        26
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A tabular cell divided by diagonal lines, containing numbers: 14 and 3264 in the upper section, and 262, 32, and 7 in the lower section, separated by diagonal slashes forming a multiplication/division table layout.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            332,
+            612,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R13",
+      "bbox": [
+        691,
+        612,
+        81,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed numerals in a tabular grid format, showing '32', '3258', '264', and '22' separated by diagonal cell dividers",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            691,
+            612,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R14",
+      "bbox": [
+        589,
+        842,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram divided by a diagonal line into two regions, with the number '1018' labeled along the top edge, '14' in the left region, and '3' in the right region. Dashed reference lines appear on the left and bottom, suggesting a math problem about area or length calculation.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            589,
+            842,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R15",
+      "bbox": [
+        676,
+        498,
+        81,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Single diagonal slash line running from lower-left to upper-right, crossing through a table cell containing numbers (282, 17, 7, 12, 33, 3276, 3271 visible in the background grid)",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            676,
+            498,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R16",
+      "bbox": [
+        318,
+        585,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a lattice multiplication grid showing numbers 25, 14, 326, 3262, and 22 separated by diagonal lines",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            318,
+            585,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R17",
+      "bbox": [
+        368,
+        727,
+        82,
+        26
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A table or grid section with numbers (33, 3238, 1, 16, 328, 25, 0) separated by diagonal slashes, characteristic of stenographic shorthand notation.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            368,
+            727,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_015.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R18",
+      "bbox": [
+        589,
+        931,
+        80,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A slanted parallelogram (stenographic outline) containing the number 7, with partial numbers 11 above and 101 to the right, typical of shorthand theory diagrams.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            589,
+            931,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_016.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R19",
+      "bbox": [
+        419,
+        498,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed digit '2' inside a triangular cell formed by diagonal lines crossing a numerical table.",
+          "unicode_codepoint": "U+0032",
+          "vision_confidence": 0.95,
+          "page": "p16",
+          "bbox": [
+            419,
+            498,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_017.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R20",
+      "bbox": [
+        368,
+        816,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Fragment of a printed table grid containing Latin/Arabic numerals (288, 7, 4, 3262, 31) in cells crossed by diagonal slash lines.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            368,
+            816,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_018.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R21",
+      "bbox": [
+        662,
+        789,
+        82,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A 3D cube drawn in perspective with numerical labels on its edges/faces: '1' in the center, '101' on the right edge, '1019' at the bottom-left, and '13' at the bottom-center.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            662,
+            789,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_019.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R22",
+      "bbox": [
+        590,
+        524,
+        81,
+        25
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A slanted parallelogram shape (diamond-like quadrilateral) containing the digit '2', part of a slanted number puzzle grid with adjacent cells showing '23' and '3282'",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            590,
+            524,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_020.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R23",
+      "bbox": [
+        405,
+        559,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a lattice multiplication diagram showing numbers (5, 5, 327, 3264, 23) arranged in a grid crossed by diagonal lines separating ones and tens digits.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            405,
+            559,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_021.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R24",
+      "bbox": [
+        727,
+        727,
+        82,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed digit '5' in serif typeface, located in the bottom-left cell of a grid divided by diagonal lines",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.9,
+          "page": "p16",
+          "bbox": [
+            727,
+            727,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_022.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R25",
+      "bbox": [
+        714,
+        559,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a table with diagonal mediant lines connecting numbers 275, 5, 21, 32, 3258 in a Stern-Brocot or Farey-style fraction tree grid",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            714,
+            559,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_023.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R26",
+      "bbox": [
+        318,
+        410,
+        80,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The digit '3' printed in a slanted/parallelogram table cell, surrounded by diagonal divider lines with other numbers (3267, 2, 21, 3258) visible in adjacent cells.",
+          "unicode_codepoint": "U+0033",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            318,
+            410,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_024.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R27",
+      "bbox": [
+        691,
+        754,
+        81,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The digit '5' displayed in a cell of a grid divided by diagonal lines, with neighboring cells showing '1011', '18', and '16'.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            691,
+            754,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_025.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R28",
+      "bbox": [
+        727,
+        816,
+        80,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Tilted parallelogram (diamond-shaped) cell containing the number 2, part of a grid of similar cells with numbers like 1017 and 13, characteristic of stenographic shorthand notation.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            727,
+            816,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_026.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R29",
+      "bbox": [
+        690,
+        437,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The digit '3' printed in a sans-serif style, positioned in the lower-center of a cadastral map fragment that also shows '3202', '31', and '14' in adjacent rhombus-shaped parcel cells divided by diagonal lines.",
+          "unicode_codepoint": "U+0033",
+          "vision_confidence": 0.9,
+          "page": "p16",
+          "bbox": [
+            690,
+            437,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_027.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R30",
+      "bbox": [
+        354,
+        789,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a hand-drawn parallelogram-shaped table cell with a dashed vertical line on the left edge and slanted dividing lines; contains printed numerals '5' and '30' in the upper row and partial '3288' and '7' in the lower row",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.7,
+          "page": "p16",
+          "bbox": [
+            354,
+            789,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_028.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R31",
+      "bbox": [
+        418,
+        816,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The numeral '4' printed in a serif font, centered in a cell of a diagonal-lined grid puzzle, surrounded by numbers 30, 3264, 7, and 31.",
+          "unicode_codepoint": "U+0034",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            418,
+            816,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_029.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R32",
+      "bbox": [
+        676,
+        904,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A grid of Latin print numbers (1013, 10, 11, 9, 101, 1014, 13) separated by diagonal dividing lines, resembling a magic square or number puzzle table.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.7,
+          "page": "p16",
+          "bbox": [
+            676,
+            904,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_030.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R33",
+      "bbox": [
+        662,
+        471,
+        82,
+        25
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "A bracket-like structure on the left side composed of two vertical lines connected by short horizontal segments at the top and bottom, resembling a square bracket or rectangular frame element.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            662,
+            471,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_031.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R34",
+      "bbox": [
+        332,
+        524,
+        81,
+        25
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Table fragment with diagonal line dividers separating cells containing numbers (3284, 15, 8, 11, 328), with a horizontal line and partial bracket shape at the bottom",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            332,
+            524,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_032.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R35",
+      "bbox": [
+        405,
+        877,
+        80,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "A tabular section with numbers (261, 11, 27, 3276, 13) crossed by diagonal lines that resemble fraction bars or division slashes, arranged in a two-row table-like structure.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            405,
+            877,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_033.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R36",
+      "bbox": [
+        641,
+        524,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a map or technical document showing numbers '3282', '2', '23', and '327' intersected by diagonal lines and a horizontal rule.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            641,
+            524,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_034.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R37",
+      "bbox": [
+        713,
+        701,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A grid of cells separated by diagonal lines containing numbers 17, 6, 105 on the top row and 1011, 18 on the bottom row, forming a lattice-like structure with diagonal divisions.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            713,
+            701,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_035.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R38",
+      "bbox": [
+        626,
+        410,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A fragment of a printed multiplication lattice grid showing digits including 9, 8, 328, 3284, and 14 arranged in slanted parallelogram cells divided by diagonal lines.",
+          "unicode_codepoint": "U+0038",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            626,
+            410,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_036.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R39",
+      "bbox": [
+        727,
+        498,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a diagram showing numbers (3271, 13, 7, 12, 3276) connected by diagonal lines, appearing to be part of a larger geometric or numerological chart with parallel diagonal strokes crossing through the cells.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            727,
+            498,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_037.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R40",
+      "bbox": [
+        455,
+        877,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram-shaped puzzle cell containing the number 27, with diagonal lines dividing it into triangular sections; the number 13 is visible below and a partial digit 1 is on the left side.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            455,
+            877,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_038.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R41",
+      "bbox": [
+        354,
+        471,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed numeral '9' in a table or chart cell, with diagonal lines crossing through the grid and other numbers ('327', '2284', '15') partially visible in adjacent cells.",
+          "unicode_codepoint": "U+0039",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            354,
+            471,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_039.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R42",
+      "bbox": [
+        662,
+        701,
+        82,
+        25
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram/diamond-shaped cell containing the number 17, part of a larger grid showing numbers 17, 6, 4, and 1011 arranged in a rhombus pattern resembling an unfolded 3x3 magic cube or similar mathematical figure.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            662,
+            701,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_040.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R43",
+      "bbox": [
+        662,
+        383,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram divided into sections by a diagonal line, containing the numbers 9 and 25 in the top row and 8 and 3262 in the bottom row, appearing to be a math problem layout.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            662,
+            383,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_041.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R44",
+      "bbox": [
+        455,
+        701,
+        82,
+        25
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "A parallelogram-shaped bracket outline containing the numbers 258 on the left and 8 in the middle, with dashed vertical lines on the right side and the number 2282 partially visible below.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            455,
+            701,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_042.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R45",
+      "bbox": [
+        282,
+        524,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a measurement or number-line diagram showing a horizontal axis with tick marks, a diagonal line sloping upward from left to right, and the numbers '3284' (top), '8' (center), and '11' (right). Dashed vertical reference line on the left edge.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            282,
+            524,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_043.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R46",
+      "bbox": [
+        727,
+        410,
+        80,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Table cells with numbers (23, 3207, 262, 31, partial 2) crossed by diagonal lines, with a dashed vertical line on the right side, resembling a form or grid with cancellation/diagonal markings.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            727,
+            410,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_044.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R47",
+      "bbox": [
+        368,
+        498,
+        81,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal fraction bar (slash) separating numbers in a table, used to show ratios like 9/3273, 284/15/2, 11/3282",
+          "unicode_codepoint": "U+2044",
+          "vision_confidence": 0.92,
+          "page": "p16",
+          "bbox": [
+            368,
+            498,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_045.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R48",
+      "bbox": [
+        419,
+        904,
+        80,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A grid-like arrangement of numbers (11, 27, 276, 13, 2352) separated by diagonal slash marks, resembling a stenographic or accounting notation pattern.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            419,
+            904,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_046.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R49",
+      "bbox": [
+        382,
+        437,
+        81,
+        25
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "unknown",
+          "vision_description": "A grid fragment with numbers '22', '3270', '258', '12' in cells separated by diagonal slash lines, appearing to be part of a table or form layout.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            382,
+            437,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_047.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R50",
+      "bbox": [
+        455,
+        471,
+        81,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number '17' printed in serif type inside a parallelogram-shaped region, part of a larger technical/architectural diagram with diagonal lines and a partial '275' visible to the left.",
+          "unicode_codepoint": "U+0031 U+0037",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            455,
+            471,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_048.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R51",
+      "bbox": [
+        382,
+        754,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Fragment of a printed table with numbers (15, 3282, 25, 9) arranged in cells separated by parallel diagonal lines.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.42,
+          "page": "p16",
+          "bbox": [
+            382,
+            754,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_049.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R52",
+      "bbox": [
+        763,
+        789,
+        82,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a table or grid showing the numbers '017' and '15' separated by a vertical line, with two parallel diagonal lines crossing from upper-left to lower-right through the horizontal rows. A dashed vertical line appears on the right edge and the digit '2' is partially visible at the bottom.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            763,
+            789,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_050.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R53",
+      "bbox": [
+        763,
+        877,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Fragment showing the printed digit '8' with adjacent numerals '10' and '1013', intersected by diagonal lines forming part of a larger diagram or table structure.",
+          "unicode_codepoint": "U+0038",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            763,
+            877,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_051.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R54",
+      "bbox": [
+        626,
+        904,
+        80,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The number 11 with a prime mark (dot) above it, sitting on a slanted number line between markers 7 and 9, surrounded by a dashed boundary and the labels 1013 and 1014 on adjacent parallel lines.",
+          "unicode_codepoint": "U+006B",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            626,
+            904,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_052.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R55",
+      "bbox": [
+        368,
+        410,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed digits with diagonal lines crossing through them, appearing to be fragments of a table or form showing numbers like 3267, 21, 3, 22, 327, 2258, 12",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            368,
+            410,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_053.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R56",
+      "bbox": [
+        331,
+        931,
+        80,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal slash line dividing a grid cell, with partial numbers visible (16, 5276, 28, 12, 329) in adjacent cells of a puzzle grid.",
+          "unicode_codepoint": "U+002F",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            331,
+            931,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_054.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R57",
+      "bbox": [
+        280,
+        437,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A cropped fragment of a number line diagram showing parallelogram-shaped intervals with the numbers 31 and 325 inside, crossed by diagonal lines, with tick marks below.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            280,
+            437,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_055.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R58",
+      "bbox": [
+        354,
+        559,
+        81,
+        25
+      ],
+      "classification": "stick_figure",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "stick_figure",
+          "vision_description": "Angular stick figure composed of straight line segments forming a rectilinear humanoid shape, with numbers '25', '5', '14', and '3264' visible in the surrounding frame.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            354,
+            559,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_056.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R59",
+      "bbox": [
+        764,
+        559,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '21' printed in a serif typeface, positioned between horizontal and diagonal lines that suggest a table or index structure, with '3258' partially visible below.",
+          "unicode_codepoint": "U+0032 U+0031",
+          "vision_confidence": 0.7,
+          "page": "p16",
+          "bbox": [
+            764,
+            559,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_057.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R60",
+      "bbox": [
+        690,
+        931,
+        81,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Fragment showing numbers '14' and '12' separated by diagonal slash lines, with '1013' partially visible at top. The diagonal dividers between printed numbers suggest a stenographic or structured tabular notation.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            690,
+            931,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_058.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R61",
+      "bbox": [
+        676,
+        816,
+        81,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal slash lines crossing through a grid of printed numbers (1017, 018, 13, 2, 3, 1016), resembling fraction bars or table dividers drawn at an angle.",
+          "unicode_codepoint": "U+2044",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            676,
+            816,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_059.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R62",
+      "bbox": [
+        405,
+        383,
+        81,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal fraction bars separating the numbers 267, 21, 13 in an upper row and 22, 3276 in a lower row, resembling continued fraction notation with slashes.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            405,
+            383,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_060.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R63",
+      "bbox": [
+        764,
+        471,
+        81,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "A short horizontal dash or fraction bar at the top of a diagonal grid cell containing the number 13, with adjacent cells showing 271 and 12.",
+          "unicode_codepoint": "U+2010",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            764,
+            471,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_061.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R64",
+      "bbox": [
+        455,
+        383,
+        81,
+        25
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram/rhombus shape formed by diagonal lines crossing through rectangular table cells, with numbers '21', '13' and '3276' visible inside the subdivisions, and a dashed vertical line on the right edge.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            455,
+            383,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_062.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R65",
+      "bbox": [
+        640,
+        437,
+        80,
+        25
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "A table-grid fragment with diagonal lines slanting through cells containing numbers (8, 3202, 284, 14, 3, 1), resembling a stenographic or cadastral notation style with slanted dividers between numeric cells.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            640,
+            437,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_063.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R66",
+      "bbox": [
+        713,
+        383,
+        81,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal fraction bar (slash) between numbers in a table format, with digits like 9, 25, 326 on top and 3262, 31 on bottom, separated by slanting lines forming a diagonal grid pattern.",
+          "unicode_codepoint": "U+2044",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            713,
+            383,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_064.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R67",
+      "bbox": [
+        354,
+        701,
+        81,
+        25
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram (skewed rectangle) divided into sections, containing the numbers 33, 325, 1, 16, and 2 in a grid-like arrangement.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            354,
+            701,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_065.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R68",
+      "bbox": [
+        332,
+        754,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A geometric polygon shape (resembling a slanted trapezoid or arrow-like figure) at the bottom of the image, positioned below a table/grid containing the numbers 1, 16, 265, 25, 9, and a partial 1, with cells divided by diagonal lines.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            332,
+            754,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_066.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R69",
+      "bbox": [
+        640,
+        754,
+        82,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A section of a number base conversion table with diagonal cell dividers, showing values like 4, 1011, 012, 16, and 5 arranged in adjacent cells separated by slanted lines.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            640,
+            754,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_067.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R70",
+      "bbox": [
+        713,
+        877,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a map with diagonal grid lines and numbers ('015', '10', '8', '1013') arranged along diagonals, suggesting a coordinate or indexing system on cartographic material.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            713,
+            877,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_068.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R71",
+      "bbox": [
+        676,
+        727,
+        82,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A grid/table with cells separated by diagonal lines, containing numbers (4, 17, 0, 1011, 18, 16, 5) arranged in rows. The numbers appear to be entries in a structured table layout with diagonal cell dividers.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            676,
+            727,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_069.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R72",
+      "bbox": [
+        404,
+        789,
+        82,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A fragment of a tabular form with diagonal lines crossing through cells containing the printed digits '5', '30', '326' on one row and '7', '4' below, resembling a cancelled or crossed-out numeric entry in a ledger or form.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.45,
+          "page": "p16",
+          "bbox": [
+            404,
+            789,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_070.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R73",
+      "bbox": [
+        317,
+        904,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a math/number puzzle grid showing diagonal slash lines crossing through cells containing numbers like 3261, 10, 327, 28, 12, and 3. The diagonal lines create a pattern dividing the grid into triangular sections.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.7,
+          "page": "p16",
+          "bbox": [
+            317,
+            904,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_071.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R74",
+      "bbox": [
+        281,
+        612,
+        81,
+        26
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "Parallelogram shape divided by a horizontal line and a diagonal line, creating triangular sections containing the numbers 3262, 32, and 14, with a dashed vertical line on the left",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            281,
+            612,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_072.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R75",
+      "bbox": [
+        640,
+        612,
+        82,
+        26
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "Four digits '3264' displayed in a cell divided by diagonal lines, appearing in a row of a table-like structure with other numbers (15, 22, 11, 32) in adjacent cells.",
+          "unicode_codepoint": "U+0033 U+0032 U+0036 U+0034",
+          "vision_confidence": 0.75,
+          "page": "p16",
+          "bbox": [
+            640,
+            612,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_073.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R76",
+      "bbox": [
+        280,
+        931,
+        81,
+        25
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A parallelogram outline with a diagonal line, containing the numbers 28 in the larger left section and 12 in the smaller right triangle section, with 10 visible at the top edge",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            280,
+            931,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_074.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R77",
+      "bbox": [
+        419,
+        727,
+        81,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed numerical entries '3238' and '3282' within a table grid crossed by diagonal lines, with '6' visible on the left",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            419,
+            727,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_075.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R78",
+      "bbox": [
+        331,
+        842,
+        81,
+        26
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Four-digit number '3262' printed in sans-serif Latin characters on a map grid with diagonal line markings",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            331,
+            842,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_076.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R79",
+      "bbox": [
+        728,
+        585,
+        81,
+        26
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "Four-digit number '3258' printed in a table cell, with partial neighboring numbers (82, 5, 21, 23) visible around it, separated by diagonal grid lines.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            728,
+            585,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_077.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R80",
+      "bbox": [
+        368,
+        585,
+        82,
+        26
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal slash marks (forward slashes) running from lower-left to upper-right, dividing cells in a table/grid containing number pairs (25/5, 14/3264, 23/..., 32/7). The slashes function as fraction/division bars separating paired values.",
+          "unicode_codepoint": "U+002F",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            368,
+            585,
+            82,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_078.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R81",
+      "bbox": [
+        690,
+        842,
+        81,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a technical diagram showing numbers (13, 2, 3, 1016) separated by diagonal lines forming a parallelogram/rhombus pattern, with a horizontal dimension line and tick marks at the bottom",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            690,
+            842,
+            81,
+            26
+          ],
+          "crop_path": "bbox/crops/p16_blank_079.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R82",
+      "bbox": [
+        456,
+        559,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed number '3271' on a cadastral map fragment, with partial '6' to the left and '23' below, intersected by diagonal plot-boundary lines",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            456,
+            559,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_080.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R83",
+      "bbox": [
+        663,
+        559,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A diagram showing a grid or Young tableau with diagonal lines and numbers (3275, 5, 11, 32) arranged in cells, resembling a skew Young diagram or mathematical partition diagram.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.9,
+          "page": "p16",
+          "bbox": [
+            663,
+            559,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_081.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R84",
+      "bbox": [
+        405,
+        471,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a printed table with horizontal and diagonal lines, containing numbers 9, 3275, 17, 15, and 2 in the cells, resembling a section of a railway timetable or accounting form with diagonal cell separators.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.6,
+          "page": "p16",
+          "bbox": [
+            405,
+            471,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_082.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R85",
+      "bbox": [
+        714,
+        471,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed number '3271' displayed in a table cell, with diagonal and horizontal ruling lines crossing through it",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.9,
+          "page": "p16",
+          "bbox": [
+            714,
+            471,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_083.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R86",
+      "bbox": [
+        713,
+        789,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A diagram fragment showing the numbers 1, 1017, and 15 arranged horizontally with diagonal slash marks and rectangular box outlines above them, and partial numbers 13 and 2 visible at the bottom. Appears to be a portion of a flowchart or annotation scheme.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            713,
+            789,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_084.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R87",
+      "bbox": [
+        419,
+        410,
+        80,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "Four-digit number '3276' printed in a table cell, separated by diagonal lines from adjacent cells containing numbers 22, 12, 21, 13.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            419,
+            410,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_085.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R88",
+      "bbox": [
+        692,
+        524,
+        80,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The four-digit number '3276' printed in serif font, visible within a diagonally-divided parallelogram cell of a larger grid table. Partial numbers '23', '12', and '1' are visible in adjacent cells formed by diagonal lines.",
+          "unicode_codepoint": "U+0033 U+0032 U+0037 U+0036",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            692,
+            524,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_086.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R89",
+      "bbox": [
+        381,
+        931,
+        81,
+        25
+      ],
+      "classification": "prime_digit",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "prime_digit",
+          "vision_description": "The digit '2' printed in a serif font, part of a map grid showing numbers 3278, 13, 2, and 3259 arranged in a diamond/rhombus pattern.",
+          "unicode_codepoint": "U+0032",
+          "vision_confidence": 0.92,
+          "page": "p16",
+          "bbox": [
+            381,
+            931,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_087.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R90",
+      "bbox": [
+        626,
+        498,
+        80,
+        25
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "unknown",
+          "vision_description": "A diagonal line crossing from upper-left to lower-right through a triangular number grid puzzle, with numbers 17 (top right), 3282 (center), 7 (right), 23 (bottom), 3 and 2 (left edge) visible in the triangular cells",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            626,
+            498,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_088.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R91",
+      "bbox": [
+        589,
+        754,
+        82,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A number line segment with a diagonal line, tick marks at the bottom, and the fraction 3/4 written above with numbers 1012 and 16 marking points on the line.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.75,
+          "page": "p16",
+          "bbox": [
+            589,
+            754,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_089.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R92",
+      "bbox": [
+        639,
+        931,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "A rectangular cell containing the number '1014' with diagonal lines crossing through adjacent cells in a table or grid layout, with '11' above, '9' upper right, '7' to the left, and '12' to the right.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.55,
+          "page": "p16",
+          "bbox": [
+            639,
+            931,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_090.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R93",
+      "bbox": [
+        383,
+        524,
+        80,
+        25
+      ],
+      "classification": "geometric_bracket",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_bracket",
+          "vision_description": "A curly brace/bracket shape opening upward, located below a row of numbers (13, 2, 1, 3282) in what appears to be a crossword-style grid with diagonal cell divisions.",
+          "unicode_codepoint": "U+007B",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            383,
+            524,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_091.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R94",
+      "bbox": [
+        764,
+        383,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment showing numbers 25, 3267, and 21 with diagonal lines crossing through, likely part of a larger diagram or technical drawing",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.3,
+          "page": "p16",
+          "bbox": [
+            764,
+            383,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_092.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R95",
+      "bbox": [
+        676,
+        410,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The four-digit number '3262' printed in a sans-serif Latin font, situated in a cell of a grid with diagonal line dividers.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.95,
+          "page": "p16",
+          "bbox": [
+            676,
+            410,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_093.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R96",
+      "bbox": [
+        354,
+        877,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The four-digit printed number '3261' centered inside a parallelogram cell of an isometric grid, with '11' to the right and '10' and '3276' in adjacent cells below.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            354,
+            877,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_094.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R97",
+      "bbox": [
+        662,
+        877,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The number '1015' printed in a sans-serif font on the front face of an isometric 3D cube divided into cells.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.92,
+          "page": "p16",
+          "bbox": [
+            662,
+            877,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_095.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R98",
+      "bbox": [
+        368,
+        904,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed numerals '3261', '11', '10', '3276', '13', '12', '3259' arranged in rows, crossed by diagonal slash marks forming a grid-like pattern.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.9,
+          "page": "p16",
+          "bbox": [
+            368,
+            904,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_096.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R99",
+      "bbox": [
+        455,
+        789,
+        82,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The four-digit number '3264' written in plain printed numerals, positioned inside a geometric shape (triangle/parallelogram) with dashed lines visible to the right.",
+          "unicode_codepoint": "U+0033 U+0032 U+0036 U+0034",
+          "vision_confidence": 0.95,
+          "page": "p16",
+          "bbox": [
+            455,
+            789,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_097.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R100",
+      "bbox": [
+        318,
+        498,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "The number '3284' displayed prominently in the center, surrounded by diagonal lines forming a triangular shape, with partial numbers '9' and '15' visible on the right side and '8' and '11' at the bottom.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            318,
+            498,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_098.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R101",
+      "bbox": [
+        727,
+        904,
+        80,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a Kakuro-style number puzzle grid showing diagonal slash separators with the numbers 3, 10, 8 in the top row, 9, 10, 13 in the middle row, and 12 partially visible at the bottom. The diagonal lines form the typical Kakuro cell separators.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.4,
+          "page": "p16",
+          "bbox": [
+            727,
+            904,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_099.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R102",
+      "bbox": [
+        354,
+        383,
+        81,
+        25
+      ],
+      "classification": "address_hex",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "address_hex",
+          "vision_description": "Four-digit number '3267' displayed inside a slanted parallelogram-shaped label box, with other similar numerical labels (21, 3, 22) visible nearby in what appears to be a technical diagram or isometric grid.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            354,
+            383,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_100.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R103",
+      "bbox": [
+        404,
+        701,
+        82,
+        25
+      ],
+      "classification": "dash_frac_bar",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "dash_frac_bar",
+          "vision_description": "Diagonal slash line going from lower-left to upper-right, serving as a separator in a coordinate grid table with numbers like 83, 3258, 8, 16, 2282.",
+          "unicode_codepoint": "U+002F",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            404,
+            701,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_101.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R104",
+      "bbox": [
+        331,
+        437,
+        80,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The number 3258 printed inside a rectangular cell that is crossed by a diagonal hatched line, with partial numbers '31', '22', '12' and an 'I' visible in adjacent cells of a larger grid/table.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.75,
+          "page": "p16",
+          "bbox": [
+            331,
+            437,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_102.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R105",
+      "bbox": [
+        281,
+        754,
+        81,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A geometric diagram showing a parallelogram divided by a diagonal line, with the number '3265' in the left section and partial '25' in the right section. Small '1' labels appear at the top and bottom edges, likely indicating unit measurements on a number line or geometric figure.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.7,
+          "page": "p16",
+          "bbox": [
+            281,
+            754,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_103.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R106",
+      "bbox": [
+        589,
+        437,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "Printed numeric string '3284' within a cell bounded by diagonal lines, appearing to be part of a table or grid layout",
+          "unicode_codepoint": "U+33DB",
+          "vision_confidence": 0.82,
+          "page": "p16",
+          "bbox": [
+            589,
+            437,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_104.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R107",
+      "bbox": [
+        626,
+        816,
+        80,
+        25
+      ],
+      "classification": "geometric_diamond",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "geometric_diamond",
+          "vision_description": "A fragment of a larger diagram showing diagonal lines crossing the area with numbers (1018, 13, 14, 3, 1) arranged in a triangular pattern. The bottom-left shows a small triangular shape with a vertical line segment, forming a closed triangular region with a stroke resembling a partial stick figure or geometric triangle.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.35,
+          "page": "p16",
+          "bbox": [
+            626,
+            816,
+            80,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_105.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R108",
+      "bbox": [
+        763,
+        701,
+        82,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "image",
+          "vision_description": "A parallelogram divided by diagonal lines into sections, with the numbers '6', '1010', and '18' written inside the different triangular sections, appearing to be part of a mathematical or pedagogical diagram.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            763,
+            701,
+            82,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_106.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R109",
+      "bbox": [
+        317,
+        816,
+        81,
+        25
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "latin_print",
+          "vision_description": "The four-digit number '3288' printed in a plain sans-serif font, appearing within a Magic Eye / autostereogram 3D number puzzle grid with diagonal lines and other partial numbers visible.",
+          "unicode_codepoint": "U+0033 U+0032 U+0038 U+0038",
+          "vision_confidence": 0.95,
+          "page": "p16",
+          "bbox": [
+            317,
+            816,
+            81,
+            25
+          ],
+          "crop_path": "bbox/crops/p16_blank_107.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R110",
+      "bbox": [
+        824,
+        265,
+        17,
+        18
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 5,
+          "cluster_id": "GEOM_LATIN_PRINT_0005",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three small filled dots arranged in a triangular pattern, resembling a stylized face.",
+          "unicode_codepoint": "U+0035",
+          "vision_confidence": 0.95,
+          "page": "p16",
+          "bbox": [
+            824,
+            265,
+            17,
+            18
+          ],
+          "crop_path": "bbox/crops/p16_blank_108.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R111",
+      "bbox": [
+        763,
+        1377,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle containing three dots arranged to form a simple face (two eyes and a mouth), flanked by small angular marks on either side.",
+          "unicode_codepoint": "U+25CB",
+          "vision_confidence": 0.62,
+          "page": "p16",
+          "bbox": [
+            763,
+            1377,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p16_blank_109.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R112",
+      "bbox": [
+        565,
+        1170,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circle outline containing three small filled dots arranged in a triangular pattern, resembling a minimalist face with two eyes and a mouth.",
+          "unicode_codepoint": "U+2687",
+          "vision_confidence": 0.85,
+          "page": "p16",
+          "bbox": [
+            565,
+            1170,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p16_blank_110.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R113",
+      "bbox": [
+        663,
+        1170,
+        16,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A circular outline containing three filled dots arranged in a triangular pattern (two on top like eyes, one on bottom like a mouth), resembling a simple face emoticon.",
+          "unicode_codepoint": "U+2687",
+          "vision_confidence": 0.9,
+          "page": "p16",
+          "bbox": [
+            663,
+            1170,
+            16,
+            16
+          ],
+          "crop_path": "bbox/crops/p16_blank_111.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R114",
+      "bbox": [
+        222,
+        1336,
+        15,
+        16
+      ],
+      "classification": "face_circle_three_dots",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "face_circle_three_dots",
+          "vision_description": "A bold black circle containing three small filled dots arranged in a triangular pattern (two on top, one below), resembling a simplified face. A curved hook/J-shaped stroke appears to the right, possibly part of an adjacent glyph.",
+          "unicode_codepoint": "U+2684",
+          "vision_confidence": 0.72,
+          "page": "p16",
+          "bbox": [
+            222,
+            1336,
+            15,
+            16
+          ],
+          "crop_path": "bbox/crops/p16_blank_112.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p16_R115",
       "bbox": [
         196,
         260,
@@ -177,7 +3906,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R03",
+      "region_id": "p16_R116",
       "bbox": [
         279,
         304,
@@ -281,7 +4010,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R04",
+      "region_id": "p16_R117",
       "bbox": [
         272,
         379,
@@ -308,7 +4037,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R05",
+      "region_id": "p16_R118",
       "bbox": [
         198,
         1040,
@@ -456,7 +4185,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R06",
+      "region_id": "p16_R119",
       "bbox": [
         214,
         1082,
@@ -571,7 +4300,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R07",
+      "region_id": "p16_R120",
       "bbox": [
         206,
         1123,
@@ -697,7 +4426,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R08",
+      "region_id": "p16_R121",
       "bbox": [
         208,
         1165,
@@ -812,7 +4541,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R09",
+      "region_id": "p16_R122",
       "bbox": [
         196,
         1206,
@@ -949,7 +4678,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R10",
+      "region_id": "p16_R123",
       "bbox": [
         204,
         1248,
@@ -1075,7 +4804,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R11",
+      "region_id": "p16_R124",
       "bbox": [
         211,
         1289,
@@ -1223,7 +4952,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R12",
+      "region_id": "p16_R125",
       "bbox": [
         217,
         1331,
@@ -1360,7 +5089,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R13",
+      "region_id": "p16_R126",
       "bbox": [
         201,
         1368,
@@ -1486,7 +5215,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R14",
+      "region_id": "p16_R127",
       "bbox": [
         209,
         1414,
@@ -1601,7 +5330,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R15",
+      "region_id": "p16_R128",
       "bbox": [
         210,
         1455,
@@ -1727,7 +5456,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p16_R16",
+      "region_id": "p16_R129",
       "bbox": [
         335,
         1497,
@@ -1831,16 +5560,32 @@
       "uncertain": []
     }
   ],
+  "vision_description": "",
+  "vision_classification": "",
   "stats": {
-    "n_regions": 16,
+    "n_regions": 129,
     "n_text_words": 142,
-    "n_symbols": 0,
+    "n_symbols": 113,
     "n_drawings": 0,
     "n_uncertain": 0,
     "classifications": {
       "footer": 1,
+      "prime_digit": 10,
+      "latin_print": 28,
+      "image": 35,
+      "geometric_diamond": 7,
+      "red_label_stenographic": 10,
+      "geometric_bracket": 5,
+      "dash_frac_bar": 9,
+      "unknown": 2,
+      "stick_figure": 1,
+      "address_hex": 1,
+      "face_circle_three_dots": 5,
       "text_line": 15
     },
-    "top_clusters": {}
+    "top_clusters": {
+      "GEOM_LATIN_PRINT_0005": 108,
+      "GEOM_LATIN_PRINT_0002": 5
+    }
   }
 }

@@ -5,12 +5,12 @@
     1625
   ],
   "source_pixel": "p22.json",
-  "source_vision": null,
-  "n_regions": 30,
+  "source_vision": "p22_page.json",
+  "n_regions": 76,
   "n_text_words": 192,
   "n_blank_regions": 50,
   "n_colored_regions": 0,
-  "n_glyphs_vision": 0,
+  "n_glyphs_vision": 50,
   "regions": [
     {
       "region_id": "p22_R01",
@@ -41,6 +41,1592 @@
     },
     {
       "region_id": "p22_R02",
+      "bbox": [
+        593,
+        1309,
+        34,
+        158
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A woodcut-style illustration of a robed or cloaked figure standing, possibly with a tall headdress or architectural element to the left, set against a background with stippled/dotted pattern on the right side. Appears to be from an old printed book.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p22",
+          "bbox": [
+            593,
+            1309,
+            34,
+            158
+          ],
+          "crop_path": "bbox/crops/p22_blank_000.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R03",
+      "bbox": [
+        402,
+        1183,
+        104,
+        108
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A detailed engraving or woodcut-style illustration of a figure with a head, outstretched arms, and a patterned body showing crosshatching or scaled texture",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            402,
+            1183,
+            104,
+            108
+          ],
+          "crop_path": "bbox/crops/p22_blank_001.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R04",
+      "bbox": [
+        484,
+        1312,
+        41,
+        165
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Medieval-style black and white illustration showing a figure wearing a robe with dotted/spotted fabric on the left side, appearing to be a person in elaborate clothing, likely from a woodcut or manuscript illustration",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p22",
+          "bbox": [
+            491,
+            1312,
+            34,
+            157
+          ],
+          "crop_path": "bbox/crops/p22_blank_002.png",
+          "first_appearance": false
+        },
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A detailed illustration of a robed or cloaked figure, possibly a hooded person in profile or standing pose, with small decorative dots/marks along the left side, rendered in a woodcut or engraving style.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p22",
+          "bbox": [
+            484,
+            1408,
+            38,
+            69
+          ],
+          "crop_path": "bbox/crops/p22_blank_023.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R05",
+      "bbox": [
+        464,
+        1413,
+        189,
+        93
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Black and white illustration of a medieval/royal crown with three visible peaks topped with small circular pearls, a central round gem, and a curved band at the base",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.92,
+          "page": "p22",
+          "bbox": [
+            464,
+            1413,
+            189,
+            93
+          ],
+          "crop_path": "bbox/crops/p22_blank_003.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R06",
+      "bbox": [
+        419,
+        1275,
+        97,
+        206
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A woodcut-style illustration of a spotted quadruped animal, likely a leopard or cheetah, shown standing in profile with a long tail and covered in dark spots, framed by partial borders on the sides.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p22",
+          "bbox": [
+            424,
+            1275,
+            92,
+            186
+          ],
+          "crop_path": "bbox/crops/p22_blank_004.png",
+          "first_appearance": false
+        },
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Detailed line drawing showing a twisted rope or cord at the top, a hanging pendant or key-shaped object with a loop in the center, and a spotted/stippled animal-print texture on the right side, all rendered in black ink.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p22",
+          "bbox": [
+            419,
+            1304,
+            49,
+            177
+          ],
+          "crop_path": "bbox/crops/p22_blank_009.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R07",
+      "bbox": [
+        605,
+        1274,
+        60,
+        207
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A tall, narrow pictorial figure resembling a stylized giraffe or spotted animal with a horizontal headdress/crown at the top, a long body covered in spots, and curved feet at the bottom.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p22",
+          "bbox": [
+            605,
+            1274,
+            60,
+            207
+          ],
+          "crop_path": "bbox/crops/p22_blank_005.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R08",
+      "bbox": [
+        666,
+        1199,
+        59,
+        58
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a woodcut or pen illustration showing the top of a pointed/conical hat and a beard-like shape with diagonal hatching, likely depicting a dwarf, gnome, or wizard character from an old printed book.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p22",
+          "bbox": [
+            666,
+            1199,
+            59,
+            58
+          ],
+          "crop_path": "bbox/crops/p22_blank_006.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R09",
+      "bbox": [
+        823,
+        562,
+        71,
+        24
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Three horizontal white brush-like strokes on black background, with the middle stroke slightly shorter and the strokes showing tapered, slightly curved endings typical of ancient Chinese calligraphy.",
+          "unicode_codepoint": "U+4E09",
+          "vision_confidence": 0.78,
+          "page": "p22",
+          "bbox": [
+            823,
+            562,
+            71,
+            24
+          ],
+          "crop_path": "bbox/crops/p22_blank_007.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R10",
+      "bbox": [
+        447,
+        1314,
+        22,
+        83
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Elongated vertical figure from a Mesoamerican-style codex, featuring a triangular/conical top, an eye-like marking on the left side, and a column of dots running down the right side, narrowing toward the bottom.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p22",
+          "bbox": [
+            447,
+            1314,
+            22,
+            83
+          ],
+          "crop_path": "bbox/crops/p22_blank_008.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R11",
+      "bbox": [
+        650,
+        1312,
+        24,
+        83
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Highly elongated vertical decorative form with a horizontal cap at top bearing fine vertical hatching, a tapering body with dot-pattern decoration on the left margin and wavy/scrollwork on the right, resembling a decorated initial letter or typographic ornament from an early printed book or manuscript.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p22",
+          "bbox": [
+            650,
+            1312,
+            24,
+            83
+          ],
+          "crop_path": "bbox/crops/p22_blank_010.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R12",
+      "bbox": [
+        833,
+        530,
+        57,
+        19
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Stylized character on black background showing a small dot at upper left with three horizontal white bars/bars of varying thickness below, resembling a seal script character with stacked horizontal strokes",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.55,
+          "page": "p22",
+          "bbox": [
+            833,
+            530,
+            57,
+            19
+          ],
+          "crop_path": "bbox/crops/p22_blank_011.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R13",
+      "bbox": [
+        663,
+        1306,
+        39,
+        145
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Vertical elongated black-and-white line drawing showing curved contours, scattered dots, and wavy parallel lines forming a decorative or figural pattern, possibly a stylized human form or engraved illustration.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            663,
+            1306,
+            39,
+            145
+          ],
+          "crop_path": "bbox/crops/p22_blank_012.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R14",
+      "bbox": [
+        611,
+        1180,
+        41,
+        41
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Stylized black-and-white illustration showing two hand-like shapes on the left and right, each with a visible thumb/finger, appearing to hold or frame a central area with curved decorative lines across the top.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.9,
+          "page": "p22",
+          "bbox": [
+            611,
+            1180,
+            41,
+            41
+          ],
+          "crop_path": "bbox/crops/p22_blank_013.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R15",
+      "bbox": [
+        865,
+        344,
+        28,
+        42
+      ],
+      "classification": "chinese_oracle_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_oracle_script",
+          "vision_description": "A stylized glyph with a prominent downward-pointing white triangular/arrowhead shape in the center, flanked by small curved white protrusions on either side, all set against a black background. The composition resembles an ancient Chinese character form suggesting a downward motion or a figure pointing down.",
+          "unicode_codepoint": "U+4E0B",
+          "vision_confidence": 0.52,
+          "page": "p22",
+          "bbox": [
+            865,
+            344,
+            28,
+            42
+          ],
+          "crop_path": "bbox/crops/p22_blank_014.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R16",
+      "bbox": [
+        484,
+        1228,
+        39,
+        57
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A stylized line drawing of a figure with visible eyes, facial features, and a hand, rendered in a sketchy black-and-white style with dotted shading patterns",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p22",
+          "bbox": [
+            484,
+            1228,
+            30,
+            47
+          ],
+          "crop_path": "bbox/crops/p22_blank_015.png",
+          "first_appearance": false
+        },
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Black and white illustration of a figure, possibly wearing a pointed hat or hood, holding a vertical staff or stick, rendered in bold high-contrast style",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p22",
+          "bbox": [
+            495,
+            1241,
+            28,
+            44
+          ],
+          "crop_path": "bbox/crops/p22_blank_040.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R17",
+      "bbox": [
+        868,
+        373,
+        47,
+        50
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Stylized black blob-like figure with two white circular eye-dots and white curved lines suggesting a mouth or facial features, resembling a hand-drawn creature or face",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p22",
+          "bbox": [
+            868,
+            373,
+            47,
+            50
+          ],
+          "crop_path": "bbox/crops/p22_blank_016.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R18",
+      "bbox": [
+        595,
+        1225,
+        45,
+        60
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Black and white carved or printed artwork showing a complex composition of stylized figures, circular elements, and abstract patterns, possibly from a Mesoamerican codex or similar ancient indigenous American art.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p22",
+          "bbox": [
+            608,
+            1226,
+            32,
+            47
+          ],
+          "crop_path": "bbox/crops/p22_blank_017.png",
+          "first_appearance": false
+        },
+        {
+          "symbol_id": 4,
+          "cluster_id": "GEOM_GEOMETRIC_CIRCLE_0004",
+          "vision_kind": "chinese_oracle_script",
+          "vision_description": "A carved Chinese character with vertical strokes and curved pictorial elements, appearing on bone or stone surface in the style of oracle bone script.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            595,
+            1225,
+            30,
+            60
+          ],
+          "crop_path": "bbox/crops/p22_blank_035.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R19",
+      "bbox": [
+        540,
+        1181,
+        39,
+        42
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Decorative woodcut ornament with symmetrical interlaced foliate or arabesque patterns, typical of historical book illustrations or printer's ornaments.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p22",
+          "bbox": [
+            540,
+            1181,
+            39,
+            42
+          ],
+          "crop_path": "bbox/crops/p22_blank_018.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R20",
+      "bbox": [
+        836,
+        501,
+        55,
+        16
+      ],
+      "classification": "red_label_stenographic",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "red_label_stenographic",
+          "vision_description": "Three thick horizontal white bars stacked vertically on a black background, resembling a stylized block letter or stenographic label symbol with parallel horizontal strokes.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            836,
+            501,
+            55,
+            16
+          ],
+          "crop_path": "bbox/crops/p22_blank_019.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R21",
+      "bbox": [
+        509,
+        1223,
+        57,
+        43
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Complex black and white illustration with intertwined, braided or knotted patterns, possibly showing abstract figures or decorative artwork with no clear single character shape.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p22",
+          "bbox": [
+            509,
+            1223,
+            57,
+            43
+          ],
+          "crop_path": "bbox/crops/p22_blank_020.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R22",
+      "bbox": [
+        833,
+        374,
+        31,
+        44
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "Stylized bold capital letter 'L' with a small circular dot or punctuation mark to its right, possibly part of a logo or graphic design element.",
+          "unicode_codepoint": "U+004C",
+          "vision_confidence": 0.55,
+          "page": "p22",
+          "bbox": [
+            833,
+            374,
+            31,
+            44
+          ],
+          "crop_path": "bbox/crops/p22_blank_021.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R23",
+      "bbox": [
+        840,
+        473,
+        48,
+        14
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Three horizontal white bars stacked vertically on a black background, resembling a seal script character with three parallel strokes.",
+          "unicode_codepoint": "U+4E09",
+          "vision_confidence": 0.55,
+          "page": "p22",
+          "bbox": [
+            840,
+            473,
+            48,
+            14
+          ],
+          "crop_path": "bbox/crops/p22_blank_022.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R24",
+      "bbox": [
+        822,
+        623,
+        80,
+        13
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Thick black strokes forming two horizontal bars at the top with two vertical strokes descending below, resembling a seal-script form of a Chinese character such as 干 or 开.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            822,
+            623,
+            80,
+            13
+          ],
+          "crop_path": "bbox/crops/p22_blank_024.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R25",
+      "bbox": [
+        480,
+        1451,
+        27,
+        25
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A black and white stylized illustration of a horse with a rider on its back, showing the horse's legs and the rider's silhouette in a simple woodcut-like style",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p22",
+          "bbox": [
+            480,
+            1451,
+            27,
+            25
+          ],
+          "crop_path": "bbox/crops/p22_blank_025.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R26",
+      "bbox": [
+        616,
+        1451,
+        23,
+        24
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Fragment of an ancient Chinese character rendered in seal script (篆書) style, with curved, flowing brush strokes of varying thickness, showing partial character forms with characteristic rounded, ornamental linework typical of seal script fragments.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            616,
+            1451,
+            23,
+            24
+          ],
+          "crop_path": "bbox/crops/p22_blank_026.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R27",
+      "bbox": [
+        548,
+        1170,
+        122,
+        23
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a relief carving showing stylized figures, possibly a procession scene, with a curved/wavy horizontal line along the top edge resembling a mountain or horizon. The figures appear in profile with characteristic ancient Near Eastern or Anatolian artistic style.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p22",
+          "bbox": [
+            548,
+            1170,
+            122,
+            23
+          ],
+          "crop_path": "bbox/crops/p22_blank_027.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R28",
+      "bbox": [
+        578,
+        1231,
+        19,
+        69
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a large ornamental blackletter/gothic initial letter with thick, decorative curved strokes typical of medieval manuscript illuminations or early woodcut type. The visible portion shows curving black forms on a white background, possibly part of a letter such as U, C, or G rendered in Fraktur/blackletter style.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p22",
+          "bbox": [
+            578,
+            1231,
+            19,
+            69
+          ],
+          "crop_path": "bbox/crops/p22_blank_028.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R29",
+      "bbox": [
+        590,
+        1434,
+        36,
+        40
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A black and white woodcut-style illustration showing what appears to be a stylized animal or creature figure with curved lines and dark filled areas, possibly a rabbit or heraldic animal in a decorative frame.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p22",
+          "bbox": [
+            590,
+            1434,
+            36,
+            40
+          ],
+          "crop_path": "bbox/crops/p22_blank_029.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R30",
+      "bbox": [
+        884,
+        310,
+        17,
+        30
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A single curved, hook-like white stroke on black background, resembling the lower portion of a Chinese seal script character, possibly the bottom radical of a character with sweeping curved strokes typical of 篆书 style.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            884,
+            310,
+            17,
+            30
+          ],
+          "crop_path": "bbox/crops/p22_blank_030.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R31",
+      "bbox": [
+        634,
+        1241,
+        32,
+        34
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A stylized illustration of a bird, possibly an owl or chicken, with a round head, visible eye, spotted body plumage, and feet at the bottom. Black ink drawing on white background.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.95,
+          "page": "p22",
+          "bbox": [
+            634,
+            1241,
+            32,
+            34
+          ],
+          "crop_path": "bbox/crops/p22_blank_031.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R32",
+      "bbox": [
+        503,
+        1271,
+        15,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 2,
+          "cluster_id": "GEOM_LATIN_PRINT_0001",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a black-and-white woodcut illustration showing curved black lines and shapes, likely part of a figure or ornamental element from an old printed book rather than an identifiable character.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.75,
+          "page": "p22",
+          "bbox": [
+            503,
+            1271,
+            15,
+            26
+          ],
+          "crop_path": "bbox/crops/p22_blank_032.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R33",
+      "bbox": [
+        855,
+        424,
+        28,
+        19
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Chinese character '行' (xíng/háng, meaning 'to go' or 'row') rendered in seal script style with thick white strokes on black background",
+          "unicode_codepoint": "U+884C",
+          "vision_confidence": 0.6,
+          "page": "p22",
+          "bbox": [
+            855,
+            424,
+            28,
+            19
+          ],
+          "crop_path": "bbox/crops/p22_blank_033.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R34",
+      "bbox": [
+        601,
+        1270,
+        17,
+        27
+      ],
+      "classification": "unknown",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "unknown",
+          "vision_description": "Fragment of flowing cursive script, likely Arabic or a calligraphic hand, with curved strokes, angular hooks, and small dot-like diacritics, appearing as a black-on-white or white-on-black textured crop.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.3,
+          "page": "p22",
+          "bbox": [
+            601,
+            1270,
+            17,
+            27
+          ],
+          "crop_path": "bbox/crops/p22_blank_034.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R35",
+      "bbox": [
+        861,
+        291,
+        35,
+        22
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Thick, rounded black strokes forming a stylized character with a top horizontal element and a cup/rectangular enclosure below, characteristic of ancient Chinese seal script.",
+          "unicode_codepoint": "U+5B88",
+          "vision_confidence": 0.72,
+          "page": "p22",
+          "bbox": [
+            861,
+            291,
+            35,
+            22
+          ],
+          "crop_path": "bbox/crops/p22_blank_036.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R36",
+      "bbox": [
+        547,
+        1295,
+        15,
+        31
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A single character in Chinese seal script style, with white curvilinear and angular strokes on a dark background, featuring a complex arrangement of components typical of archaic Chinese writing",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p22",
+          "bbox": [
+            547,
+            1295,
+            15,
+            31
+          ],
+          "crop_path": "bbox/crops/p22_blank_037.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R37",
+      "bbox": [
+        577,
+        1180,
+        20,
+        35
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Stylized Chinese character in seal script style with thick, angular black brushstrokes showing an abstract form resembling a person or humanoid figure with vertical and curved elements.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p22",
+          "bbox": [
+            577,
+            1180,
+            20,
+            35
+          ],
+          "crop_path": "bbox/crops/p22_blank_038.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R38",
+      "bbox": [
+        588,
+        1289,
+        15,
+        26
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Irregular black and white organic-looking shapes, possibly a microscopic image of cells or similar biological structures",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p22",
+          "bbox": [
+            588,
+            1289,
+            15,
+            26
+          ],
+          "crop_path": "bbox/crops/p22_blank_039.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R39",
+      "bbox": [
+        508,
+        1175,
+        37,
+        14
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "Fragment of a line drawing showing a curved roof-like structure at the top and what appears to be a face or figure with an eye below it, rendered in black ink outline style.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.6,
+          "page": "p22",
+          "bbox": [
+            508,
+            1175,
+            37,
+            14
+          ],
+          "crop_path": "bbox/crops/p22_blank_041.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R40",
+      "bbox": [
+        469,
+        1170,
+        72,
+        22
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "Fragment of gothic/blackletter printed text with an ornate peaked decorative headpiece above, showing partial blackletter letters (resembling 'A' and 'G' or similar ornate characters) beneath curved ornamental lines forming a gable-like shape",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.62,
+          "page": "p22",
+          "bbox": [
+            469,
+            1170,
+            72,
+            22
+          ],
+          "crop_path": "bbox/crops/p22_blank_042.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R41",
+      "bbox": [
+        467,
+        1465,
+        24,
+        19
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "A stylized glyph with flowing, curved black strokes on a white background, resembling an ancient Chinese seal or oracle script character with abstract organic forms.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.45,
+          "page": "p22",
+          "bbox": [
+            467,
+            1465,
+            24,
+            19
+          ],
+          "crop_path": "bbox/crops/p22_blank_043.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R42",
+      "bbox": [
+        524,
+        1182,
+        22,
+        23
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A small woodcut-style illustration showing what appears to be a figure or creature within a decorative rectangular border, characteristic of early printed books or medieval manuscripts.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.7,
+          "page": "p22",
+          "bbox": [
+            524,
+            1182,
+            22,
+            23
+          ],
+          "crop_path": "bbox/crops/p22_blank_044.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R43",
+      "bbox": [
+        645,
+        1208,
+        26,
+        15
+      ],
+      "classification": "latin_print",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "latin_print",
+          "vision_description": "A printed capital letter S with curved serifs and decorative typographic strokes.",
+          "unicode_codepoint": "U+0053",
+          "vision_confidence": 0.95,
+          "page": "p22",
+          "bbox": [
+            645,
+            1208,
+            26,
+            15
+          ],
+          "crop_path": "bbox/crops/p22_blank_045.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R44",
+      "bbox": [
+        549,
+        1396,
+        13,
+        19
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Complex blocky black-on-white character with multiple interconnected strokes and enclosed white spaces, appearing to be a Chinese character in a seal or woodblock print style.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.4,
+          "page": "p22",
+          "bbox": [
+            549,
+            1396,
+            13,
+            19
+          ],
+          "crop_path": "bbox/crops/p22_blank_046.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R45",
+      "bbox": [
+        625,
+        1227,
+        31,
+        12
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A cartoonish black-and-white drawing of a face, featuring large eyes and what appears to be a stylized character with curved lines suggesting facial features and possibly hair or a hat on the left side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p22",
+          "bbox": [
+            625,
+            1227,
+            31,
+            12
+          ],
+          "crop_path": "bbox/crops/p22_blank_047.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R46",
+      "bbox": [
+        564,
+        1319,
+        17,
+        24
+      ],
+      "classification": "image",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "image",
+          "vision_description": "A high-contrast black and white illustration of a cluster of round grapes with vine leaves at the top",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.85,
+          "page": "p22",
+          "bbox": [
+            564,
+            1319,
+            17,
+            24
+          ],
+          "crop_path": "bbox/crops/p22_blank_048.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R47",
+      "bbox": [
+        618,
+        1415,
+        16,
+        19
+      ],
+      "classification": "chinese_seal_script",
+      "description": "",
+      "text_words": [],
+      "symbols": [
+        {
+          "symbol_id": 1,
+          "cluster_id": "GEOM_LATIN_PRINT_0002",
+          "vision_kind": "chinese_seal_script",
+          "vision_description": "Thick, stylized Chinese seal script character with complex internal structure, featuring curved and angular strokes typical of bronze or seal inscriptions, possibly containing elements resembling a sun/radical on the right side.",
+          "unicode_codepoint": "",
+          "vision_confidence": 0.72,
+          "page": "p22",
+          "bbox": [
+            618,
+            1415,
+            16,
+            19
+          ],
+          "crop_path": "bbox/crops/p22_blank_049.png",
+          "first_appearance": false
+        }
+      ],
+      "drawings": [],
+      "uncertain": []
+    },
+    {
+      "region_id": "p22_R48",
       "bbox": [
         179,
         243,
@@ -144,7 +1730,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R03",
+      "region_id": "p22_R49",
       "bbox": [
         183,
         268,
@@ -314,7 +1900,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R04",
+      "region_id": "p22_R50",
       "bbox": [
         185,
         313,
@@ -418,7 +2004,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R05",
+      "region_id": "p22_R51",
       "bbox": [
         183,
         337,
@@ -533,7 +2119,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R06",
+      "region_id": "p22_R52",
       "bbox": [
         179,
         376,
@@ -560,7 +2146,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R07",
+      "region_id": "p22_R53",
       "bbox": [
         201,
         390,
@@ -631,7 +2217,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R08",
+      "region_id": "p22_R54",
       "bbox": [
         183,
         413,
@@ -680,7 +2266,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R09",
+      "region_id": "p22_R55",
       "bbox": [
         183,
         455,
@@ -795,7 +2381,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R10",
+      "region_id": "p22_R56",
       "bbox": [
         183,
         471,
@@ -877,7 +2463,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R11",
+      "region_id": "p22_R57",
       "bbox": [
         183,
         520,
@@ -970,7 +2556,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R12",
+      "region_id": "p22_R58",
       "bbox": [
         183,
         536,
@@ -1074,7 +2660,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R13",
+      "region_id": "p22_R59",
       "bbox": [
         413,
         574,
@@ -1101,7 +2687,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R14",
+      "region_id": "p22_R60",
       "bbox": [
         184,
         585,
@@ -1172,7 +2758,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R15",
+      "region_id": "p22_R61",
       "bbox": [
         184,
         608,
@@ -1254,7 +2840,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R16",
+      "region_id": "p22_R62",
       "bbox": [
         186,
         650,
@@ -1314,7 +2900,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R17",
+      "region_id": "p22_R63",
       "bbox": [
         183,
         674,
@@ -1440,7 +3026,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R18",
+      "region_id": "p22_R64",
       "bbox": [
         186,
         785,
@@ -1555,7 +3141,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R19",
+      "region_id": "p22_R65",
       "bbox": [
         183,
         808,
@@ -1670,7 +3256,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R20",
+      "region_id": "p22_R66",
       "bbox": [
         183,
         858,
@@ -1719,7 +3305,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R21",
+      "region_id": "p22_R67",
       "bbox": [
         183,
         874,
@@ -1823,7 +3409,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R22",
+      "region_id": "p22_R68",
       "bbox": [
         183,
         923,
@@ -1916,7 +3502,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R23",
+      "region_id": "p22_R69",
       "bbox": [
         183,
         939,
@@ -2031,7 +3617,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R24",
+      "region_id": "p22_R70",
       "bbox": [
         183,
         988,
@@ -2113,7 +3699,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R25",
+      "region_id": "p22_R71",
       "bbox": [
         184,
         1005,
@@ -2195,7 +3781,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R26",
+      "region_id": "p22_R72",
       "bbox": [
         183,
         1053,
@@ -2277,7 +3863,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R27",
+      "region_id": "p22_R73",
       "bbox": [
         184,
         1070,
@@ -2425,7 +4011,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R28",
+      "region_id": "p22_R74",
       "bbox": [
         183,
         1114,
@@ -2496,7 +4082,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R29",
+      "region_id": "p22_R75",
       "bbox": [
         183,
         1135,
@@ -2578,7 +4164,7 @@
       "uncertain": []
     },
     {
-      "region_id": "p22_R30",
+      "region_id": "p22_R76",
       "bbox": [
         391,
         1163,
@@ -2604,5 +4190,7 @@
       "drawings": [],
       "uncertain": []
     }
-  ]
+  ],
+  "vision_description": "",
+  "vision_classification": ""
 }

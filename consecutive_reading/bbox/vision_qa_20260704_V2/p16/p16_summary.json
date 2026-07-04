@@ -1,0 +1,1704 @@
+{
+  "page": "p16",
+  "page_vision_status": "ok",
+  "glyphs_processed": 113,
+  "n_blank_crops": 113,
+  "n_color_crops": 0,
+  "glyphs": [
+    {
+      "index": 0,
+      "kind_crop": "blank",
+      "bbox": [
+        382,
+        612,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "A handwritten/slanted numeral '7' with a small horizontal serif at the top-left, possibly indicating primality, situated within a diagonal-lined grid pattern alongside numbers 32, 3204, and 23.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 1,
+      "kind_crop": "blank",
+      "bbox": [
+        317,
+        727,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The four-digit number '3265' printed in a sans-serif Latin typeface, located in the bottom-left of a diagonally-ruled grid containing other numbers (33, 1, 16, 25).",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 2,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        727,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a numerical table or grid with numbers (17, 4, 101, 1012, 16) crossed by diagonal lines, likely a section of a magic square or arithmetical diagram.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 3,
+      "kind_crop": "blank",
+      "bbox": [
+        639,
+        842,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Partial view of a grid with diagonal lines dividing cells into triangular sections, containing numbers (1018, 13, 14, 3, 103) written within the triangular compartments.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 4,
+      "kind_crop": "blank",
+      "bbox": [
+        280,
+        842,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A parallelogram outline containing the digit 6, part of a numeric pattern with 3288 above and 328 to the right, bounded by dashed lines on the left and bottom",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 5,
+      "kind_crop": "blank",
+      "bbox": [
+        381,
+        842,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Numerical labels '262' and '31' with a partial '4' above, each crossed by a diagonal strikethrough line forming a grid pattern of parallelogram-shaped cells.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 6,
+      "kind_crop": "blank",
+      "bbox": [
+        590,
+        612,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A fragment of a geometric diagram showing parallel diagonal lines creating slanted regions, with the numbers 11, 15, and 326 written inside the regions between the diagonals.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 7,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        585,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a diagram showing diagonal lines with numbers along them (3275, 11, 32, 15, 3264), resembling an astronomical or mathematical calculation table with parallel diagonals.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 8,
+      "kind_crop": "blank",
+      "bbox": [
+        419,
+        585,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a document or table with diagonal lines crossing through it, showing the numbers '5', '32/1', '264', '23', and '7' in a slanted/oblique layout.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 9,
+      "kind_crop": "blank",
+      "bbox": [
+        677,
+        585,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A grid/table showing numbers (3275, 5, 11, 32, 325, 2264, 23) separated by diagonal lines, appearing as a table fragment with multiple numerical entries in cells.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 10,
+      "kind_crop": "blank",
+      "bbox": [
+        332,
+        612,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A tabular cell divided by diagonal lines, containing numbers: 14 and 3264 in the upper section, and 262, 32, and 7 in the lower section, separated by diagonal slashes forming a multiplication/division table layout.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 11,
+      "kind_crop": "blank",
+      "bbox": [
+        691,
+        612,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed numerals in a tabular grid format, showing '32', '3258', '264', and '22' separated by diagonal cell dividers",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 12,
+      "kind_crop": "blank",
+      "bbox": [
+        589,
+        842,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram divided by a diagonal line into two regions, with the number '1018' labeled along the top edge, '14' in the left region, and '3' in the right region. Dashed reference lines appear on the left and bottom, suggesting a math problem about area or length calculation.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 13,
+      "kind_crop": "blank",
+      "bbox": [
+        676,
+        498,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Single diagonal slash line running from lower-left to upper-right, crossing through a table cell containing numbers (282, 17, 7, 12, 33, 3276, 3271 visible in the background grid)",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 14,
+      "kind_crop": "blank",
+      "bbox": [
+        318,
+        585,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a lattice multiplication grid showing numbers 25, 14, 326, 3262, and 22 separated by diagonal lines",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 15,
+      "kind_crop": "blank",
+      "bbox": [
+        368,
+        727,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A table or grid section with numbers (33, 3238, 1, 16, 328, 25, 0) separated by diagonal slashes, characteristic of stenographic shorthand notation.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 16,
+      "kind_crop": "blank",
+      "bbox": [
+        589,
+        931,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A slanted parallelogram (stenographic outline) containing the number 7, with partial numbers 11 above and 101 to the right, typical of shorthand theory diagrams.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 17,
+      "kind_crop": "blank",
+      "bbox": [
+        419,
+        498,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed digit '2' inside a triangular cell formed by diagonal lines crossing a numerical table.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 18,
+      "kind_crop": "blank",
+      "bbox": [
+        368,
+        816,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Fragment of a printed table grid containing Latin/Arabic numerals (288, 7, 4, 3262, 31) in cells crossed by diagonal slash lines.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 19,
+      "kind_crop": "blank",
+      "bbox": [
+        662,
+        789,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A 3D cube drawn in perspective with numerical labels on its edges/faces: '1' in the center, '101' on the right edge, '1019' at the bottom-left, and '13' at the bottom-center.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 20,
+      "kind_crop": "blank",
+      "bbox": [
+        590,
+        524,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A slanted parallelogram shape (diamond-like quadrilateral) containing the digit '2', part of a slanted number puzzle grid with adjacent cells showing '23' and '3282'",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 21,
+      "kind_crop": "blank",
+      "bbox": [
+        405,
+        559,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a lattice multiplication diagram showing numbers (5, 5, 327, 3264, 23) arranged in a grid crossed by diagonal lines separating ones and tens digits.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 22,
+      "kind_crop": "blank",
+      "bbox": [
+        727,
+        727,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed digit '5' in serif typeface, located in the bottom-left cell of a grid divided by diagonal lines",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 23,
+      "kind_crop": "blank",
+      "bbox": [
+        714,
+        559,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a table with diagonal mediant lines connecting numbers 275, 5, 21, 32, 3258 in a Stern-Brocot or Farey-style fraction tree grid",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 24,
+      "kind_crop": "blank",
+      "bbox": [
+        318,
+        410,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The digit '3' printed in a slanted/parallelogram table cell, surrounded by diagonal divider lines with other numbers (3267, 2, 21, 3258) visible in adjacent cells.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 25,
+      "kind_crop": "blank",
+      "bbox": [
+        691,
+        754,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The digit '5' displayed in a cell of a grid divided by diagonal lines, with neighboring cells showing '1011', '18', and '16'.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 26,
+      "kind_crop": "blank",
+      "bbox": [
+        727,
+        816,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Tilted parallelogram (diamond-shaped) cell containing the number 2, part of a grid of similar cells with numbers like 1017 and 13, characteristic of stenographic shorthand notation.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 27,
+      "kind_crop": "blank",
+      "bbox": [
+        690,
+        437,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The digit '3' printed in a sans-serif style, positioned in the lower-center of a cadastral map fragment that also shows '3202', '31', and '14' in adjacent rhombus-shaped parcel cells divided by diagonal lines.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 28,
+      "kind_crop": "blank",
+      "bbox": [
+        354,
+        789,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a hand-drawn parallelogram-shaped table cell with a dashed vertical line on the left edge and slanted dividing lines; contains printed numerals '5' and '30' in the upper row and partial '3288' and '7' in the lower row",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 29,
+      "kind_crop": "blank",
+      "bbox": [
+        418,
+        816,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The numeral '4' printed in a serif font, centered in a cell of a diagonal-lined grid puzzle, surrounded by numbers 30, 3264, 7, and 31.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 30,
+      "kind_crop": "blank",
+      "bbox": [
+        676,
+        904,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A grid of Latin print numbers (1013, 10, 11, 9, 101, 1014, 13) separated by diagonal dividing lines, resembling a magic square or number puzzle table.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 31,
+      "kind_crop": "blank",
+      "bbox": [
+        662,
+        471,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "A bracket-like structure on the left side composed of two vertical lines connected by short horizontal segments at the top and bottom, resembling a square bracket or rectangular frame element.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 32,
+      "kind_crop": "blank",
+      "bbox": [
+        332,
+        524,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "Table fragment with diagonal line dividers separating cells containing numbers (3284, 15, 8, 11, 328), with a horizontal line and partial bracket shape at the bottom",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 33,
+      "kind_crop": "blank",
+      "bbox": [
+        405,
+        877,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "A tabular section with numbers (261, 11, 27, 3276, 13) crossed by diagonal lines that resemble fraction bars or division slashes, arranged in a two-row table-like structure.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 34,
+      "kind_crop": "blank",
+      "bbox": [
+        641,
+        524,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a map or technical document showing numbers '3282', '2', '23', and '327' intersected by diagonal lines and a horizontal rule.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 35,
+      "kind_crop": "blank",
+      "bbox": [
+        713,
+        701,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A grid of cells separated by diagonal lines containing numbers 17, 6, 105 on the top row and 1011, 18 on the bottom row, forming a lattice-like structure with diagonal divisions.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 36,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        410,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A fragment of a printed multiplication lattice grid showing digits including 9, 8, 328, 3284, and 14 arranged in slanted parallelogram cells divided by diagonal lines.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 37,
+      "kind_crop": "blank",
+      "bbox": [
+        727,
+        498,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a diagram showing numbers (3271, 13, 7, 12, 3276) connected by diagonal lines, appearing to be part of a larger geometric or numerological chart with parallel diagonal strokes crossing through the cells.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 38,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        877,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram-shaped puzzle cell containing the number 27, with diagonal lines dividing it into triangular sections; the number 13 is visible below and a partial digit 1 is on the left side.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 39,
+      "kind_crop": "blank",
+      "bbox": [
+        354,
+        471,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed numeral '9' in a table or chart cell, with diagonal lines crossing through the grid and other numbers ('327', '2284', '15') partially visible in adjacent cells.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 40,
+      "kind_crop": "blank",
+      "bbox": [
+        662,
+        701,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A parallelogram/diamond-shaped cell containing the number 17, part of a larger grid showing numbers 17, 6, 4, and 1011 arranged in a rhombus pattern resembling an unfolded 3x3 magic cube or similar mathematical figure.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 41,
+      "kind_crop": "blank",
+      "bbox": [
+        662,
+        383,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram divided into sections by a diagonal line, containing the numbers 9 and 25 in the top row and 8 and 3262 in the bottom row, appearing to be a math problem layout.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 42,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        701,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "A parallelogram-shaped bracket outline containing the numbers 258 on the left and 8 in the middle, with dashed vertical lines on the right side and the number 2282 partially visible below.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 43,
+      "kind_crop": "blank",
+      "bbox": [
+        282,
+        524,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a measurement or number-line diagram showing a horizontal axis with tick marks, a diagonal line sloping upward from left to right, and the numbers '3284' (top), '8' (center), and '11' (right). Dashed vertical reference line on the left edge.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 44,
+      "kind_crop": "blank",
+      "bbox": [
+        727,
+        410,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Table cells with numbers (23, 3207, 262, 31, partial 2) crossed by diagonal lines, with a dashed vertical line on the right side, resembling a form or grid with cancellation/diagonal markings.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 45,
+      "kind_crop": "blank",
+      "bbox": [
+        368,
+        498,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal fraction bar (slash) separating numbers in a table, used to show ratios like 9/3273, 284/15/2, 11/3282",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 46,
+      "kind_crop": "blank",
+      "bbox": [
+        419,
+        904,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A grid-like arrangement of numbers (11, 27, 276, 13, 2352) separated by diagonal slash marks, resembling a stenographic or accounting notation pattern.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 47,
+      "kind_crop": "blank",
+      "bbox": [
+        382,
+        437,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "unknown",
+        "description": "A grid fragment with numbers '22', '3270', '258', '12' in cells separated by diagonal slash lines, appearing to be part of a table or form layout.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 48,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        471,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The number '17' printed in serif type inside a parallelogram-shaped region, part of a larger technical/architectural diagram with diagonal lines and a partial '275' visible to the left.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 49,
+      "kind_crop": "blank",
+      "bbox": [
+        382,
+        754,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Fragment of a printed table with numbers (15, 3282, 25, 9) arranged in cells separated by parallel diagonal lines.",
+        "confidence": 0.42
+      }
+    },
+    {
+      "index": 50,
+      "kind_crop": "blank",
+      "bbox": [
+        763,
+        789,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a table or grid showing the numbers '017' and '15' separated by a vertical line, with two parallel diagonal lines crossing from upper-left to lower-right through the horizontal rows. A dashed vertical line appears on the right edge and the digit '2' is partially visible at the bottom.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 51,
+      "kind_crop": "blank",
+      "bbox": [
+        763,
+        877,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Fragment showing the printed digit '8' with adjacent numerals '10' and '1013', intersected by diagonal lines forming part of a larger diagram or table structure.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 52,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        904,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The number 11 with a prime mark (dot) above it, sitting on a slanted number line between markers 7 and 9, surrounded by a dashed boundary and the labels 1013 and 1014 on adjacent parallel lines.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 53,
+      "kind_crop": "blank",
+      "bbox": [
+        368,
+        410,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed digits with diagonal lines crossing through them, appearing to be fragments of a table or form showing numbers like 3267, 21, 3, 22, 327, 2258, 12",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 54,
+      "kind_crop": "blank",
+      "bbox": [
+        331,
+        931,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal slash line dividing a grid cell, with partial numbers visible (16, 5276, 28, 12, 329) in adjacent cells of a puzzle grid.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 55,
+      "kind_crop": "blank",
+      "bbox": [
+        280,
+        437,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A cropped fragment of a number line diagram showing parallelogram-shaped intervals with the numbers 31 and 325 inside, crossed by diagonal lines, with tick marks below.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 56,
+      "kind_crop": "blank",
+      "bbox": [
+        354,
+        559,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "stick_figure",
+        "description": "Angular stick figure composed of straight line segments forming a rectilinear humanoid shape, with numbers '25', '5', '14', and '3264' visible in the surrounding frame.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 57,
+      "kind_crop": "blank",
+      "bbox": [
+        764,
+        559,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '21' printed in a serif typeface, positioned between horizontal and diagonal lines that suggest a table or index structure, with '3258' partially visible below.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 58,
+      "kind_crop": "blank",
+      "bbox": [
+        690,
+        931,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "Fragment showing numbers '14' and '12' separated by diagonal slash lines, with '1013' partially visible at top. The diagonal dividers between printed numbers suggest a stenographic or structured tabular notation.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 59,
+      "kind_crop": "blank",
+      "bbox": [
+        676,
+        816,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal slash lines crossing through a grid of printed numbers (1017, 018, 13, 2, 3, 1016), resembling fraction bars or table dividers drawn at an angle.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 60,
+      "kind_crop": "blank",
+      "bbox": [
+        405,
+        383,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal fraction bars separating the numbers 267, 21, 13 in an upper row and 22, 3276 in a lower row, resembling continued fraction notation with slashes.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 61,
+      "kind_crop": "blank",
+      "bbox": [
+        764,
+        471,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "A short horizontal dash or fraction bar at the top of a diagonal grid cell containing the number 13, with adjacent cells showing 271 and 12.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 62,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        383,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A parallelogram/rhombus shape formed by diagonal lines crossing through rectangular table cells, with numbers '21', '13' and '3276' visible inside the subdivisions, and a dashed vertical line on the right edge.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 63,
+      "kind_crop": "blank",
+      "bbox": [
+        640,
+        437,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "red_label_stenographic",
+        "description": "A table-grid fragment with diagonal lines slanting through cells containing numbers (8, 3202, 284, 14, 3, 1), resembling a stenographic or cadastral notation style with slanted dividers between numeric cells.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 64,
+      "kind_crop": "blank",
+      "bbox": [
+        713,
+        383,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal fraction bar (slash) between numbers in a table format, with digits like 9, 25, 326 on top and 3262, 31 on bottom, separated by slanting lines forming a diagonal grid pattern.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 65,
+      "kind_crop": "blank",
+      "bbox": [
+        354,
+        701,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A parallelogram (skewed rectangle) divided into sections, containing the numbers 33, 325, 1, 16, and 2 in a grid-like arrangement.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 66,
+      "kind_crop": "blank",
+      "bbox": [
+        332,
+        754,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A geometric polygon shape (resembling a slanted trapezoid or arrow-like figure) at the bottom of the image, positioned below a table/grid containing the numbers 1, 16, 265, 25, 9, and a partial 1, with cells divided by diagonal lines.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 67,
+      "kind_crop": "blank",
+      "bbox": [
+        640,
+        754,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A section of a number base conversion table with diagonal cell dividers, showing values like 4, 1011, 012, 16, and 5 arranged in adjacent cells separated by slanted lines.",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 68,
+      "kind_crop": "blank",
+      "bbox": [
+        713,
+        877,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a map with diagonal grid lines and numbers ('015', '10', '8', '1013') arranged along diagonals, suggesting a coordinate or indexing system on cartographic material.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 69,
+      "kind_crop": "blank",
+      "bbox": [
+        676,
+        727,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A grid/table with cells separated by diagonal lines, containing numbers (4, 17, 0, 1011, 18, 16, 5) arranged in rows. The numbers appear to be entries in a structured table layout with diagonal cell dividers.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 70,
+      "kind_crop": "blank",
+      "bbox": [
+        404,
+        789,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A fragment of a tabular form with diagonal lines crossing through cells containing the printed digits '5', '30', '326' on one row and '7', '4' below, resembling a cancelled or crossed-out numeric entry in a ledger or form.",
+        "confidence": 0.45
+      }
+    },
+    {
+      "index": 71,
+      "kind_crop": "blank",
+      "bbox": [
+        317,
+        904,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a math/number puzzle grid showing diagonal slash lines crossing through cells containing numbers like 3261, 10, 327, 28, 12, and 3. The diagonal lines create a pattern dividing the grid into triangular sections.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 72,
+      "kind_crop": "blank",
+      "bbox": [
+        281,
+        612,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "Parallelogram shape divided by a horizontal line and a diagonal line, creating triangular sections containing the numbers 3262, 32, and 14, with a dashed vertical line on the left",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 73,
+      "kind_crop": "blank",
+      "bbox": [
+        640,
+        612,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "Four digits '3264' displayed in a cell divided by diagonal lines, appearing in a row of a table-like structure with other numbers (15, 22, 11, 32) in adjacent cells.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 74,
+      "kind_crop": "blank",
+      "bbox": [
+        280,
+        931,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A parallelogram outline with a diagonal line, containing the numbers 28 in the larger left section and 12 in the smaller right triangle section, with 10 visible at the top edge",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 75,
+      "kind_crop": "blank",
+      "bbox": [
+        419,
+        727,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed numerical entries '3238' and '3282' within a table grid crossed by diagonal lines, with '6' visible on the left",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 76,
+      "kind_crop": "blank",
+      "bbox": [
+        331,
+        842,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Four-digit number '3262' printed in sans-serif Latin characters on a map grid with diagonal line markings",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 77,
+      "kind_crop": "blank",
+      "bbox": [
+        728,
+        585,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "Four-digit number '3258' printed in a table cell, with partial neighboring numbers (82, 5, 21, 23) visible around it, separated by diagonal grid lines.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 78,
+      "kind_crop": "blank",
+      "bbox": [
+        368,
+        585,
+        82,
+        26
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal slash marks (forward slashes) running from lower-left to upper-right, dividing cells in a table/grid containing number pairs (25/5, 14/3264, 23/..., 32/7). The slashes function as fraction/division bars separating paired values.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 79,
+      "kind_crop": "blank",
+      "bbox": [
+        690,
+        842,
+        81,
+        26
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a technical diagram showing numbers (13, 2, 3, 1016) separated by diagonal lines forming a parallelogram/rhombus pattern, with a horizontal dimension line and tick marks at the bottom",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 80,
+      "kind_crop": "blank",
+      "bbox": [
+        456,
+        559,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed number '3271' on a cadastral map fragment, with partial '6' to the left and '23' below, intersected by diagonal plot-boundary lines",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 81,
+      "kind_crop": "blank",
+      "bbox": [
+        663,
+        559,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram showing a grid or Young tableau with diagonal lines and numbers (3275, 5, 11, 32) arranged in cells, resembling a skew Young diagram or mathematical partition diagram.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 82,
+      "kind_crop": "blank",
+      "bbox": [
+        405,
+        471,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a printed table with horizontal and diagonal lines, containing numbers 9, 3275, 17, 15, and 2 in the cells, resembling a section of a railway timetable or accounting form with diagonal cell separators.",
+        "confidence": 0.6
+      }
+    },
+    {
+      "index": 83,
+      "kind_crop": "blank",
+      "bbox": [
+        714,
+        471,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed number '3271' displayed in a table cell, with diagonal and horizontal ruling lines crossing through it",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 84,
+      "kind_crop": "blank",
+      "bbox": [
+        713,
+        789,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A diagram fragment showing the numbers 1, 1017, and 15 arranged horizontally with diagonal slash marks and rectangular box outlines above them, and partial numbers 13 and 2 visible at the bottom. Appears to be a portion of a flowchart or annotation scheme.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 85,
+      "kind_crop": "blank",
+      "bbox": [
+        419,
+        410,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "Four-digit number '3276' printed in a table cell, separated by diagonal lines from adjacent cells containing numbers 22, 12, 21, 13.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 86,
+      "kind_crop": "blank",
+      "bbox": [
+        692,
+        524,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The four-digit number '3276' printed in serif font, visible within a diagonally-divided parallelogram cell of a larger grid table. Partial numbers '23', '12', and '1' are visible in adjacent cells formed by diagonal lines.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 87,
+      "kind_crop": "blank",
+      "bbox": [
+        381,
+        931,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "prime_digit",
+        "description": "The digit '2' printed in a serif font, part of a map grid showing numbers 3278, 13, 2, and 3259 arranged in a diamond/rhombus pattern.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 88,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        498,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "unknown",
+        "description": "A diagonal line crossing from upper-left to lower-right through a triangular number grid puzzle, with numbers 17 (top right), 3282 (center), 7 (right), 23 (bottom), 3 and 2 (left edge) visible in the triangular cells",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 89,
+      "kind_crop": "blank",
+      "bbox": [
+        589,
+        754,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A number line segment with a diagonal line, tick marks at the bottom, and the fraction 3/4 written above with numbers 1012 and 16 marking points on the line.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 90,
+      "kind_crop": "blank",
+      "bbox": [
+        639,
+        931,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "A rectangular cell containing the number '1014' with diagonal lines crossing through adjacent cells in a table or grid layout, with '11' above, '9' upper right, '7' to the left, and '12' to the right.",
+        "confidence": 0.55
+      }
+    },
+    {
+      "index": 91,
+      "kind_crop": "blank",
+      "bbox": [
+        383,
+        524,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_bracket",
+        "description": "A curly brace/bracket shape opening upward, located below a row of numbers (13, 2, 1, 3282) in what appears to be a crossword-style grid with diagonal cell divisions.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 92,
+      "kind_crop": "blank",
+      "bbox": [
+        764,
+        383,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment showing numbers 25, 3267, and 21 with diagonal lines crossing through, likely part of a larger diagram or technical drawing",
+        "confidence": 0.3
+      }
+    },
+    {
+      "index": 93,
+      "kind_crop": "blank",
+      "bbox": [
+        676,
+        410,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The four-digit number '3262' printed in a sans-serif Latin font, situated in a cell of a grid with diagonal line dividers.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 94,
+      "kind_crop": "blank",
+      "bbox": [
+        354,
+        877,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The four-digit printed number '3261' centered inside a parallelogram cell of an isometric grid, with '11' to the right and '10' and '3276' in adjacent cells below.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 95,
+      "kind_crop": "blank",
+      "bbox": [
+        662,
+        877,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number '1015' printed in a sans-serif font on the front face of an isometric 3D cube divided into cells.",
+        "confidence": 0.92
+      }
+    },
+    {
+      "index": 96,
+      "kind_crop": "blank",
+      "bbox": [
+        368,
+        904,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed numerals '3261', '11', '10', '3276', '13', '12', '3259' arranged in rows, crossed by diagonal slash marks forming a grid-like pattern.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 97,
+      "kind_crop": "blank",
+      "bbox": [
+        455,
+        789,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The four-digit number '3264' written in plain printed numerals, positioned inside a geometric shape (triangle/parallelogram) with dashed lines visible to the right.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 98,
+      "kind_crop": "blank",
+      "bbox": [
+        318,
+        498,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "The number '3284' displayed prominently in the center, surrounded by diagonal lines forming a triangular shape, with partial numbers '9' and '15' visible on the right side and '8' and '11' at the bottom.",
+        "confidence": 0.72
+      }
+    },
+    {
+      "index": 99,
+      "kind_crop": "blank",
+      "bbox": [
+        727,
+        904,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "Fragment of a Kakuro-style number puzzle grid showing diagonal slash separators with the numbers 3, 10, 8 in the top row, 9, 10, 13 in the middle row, and 12 partially visible at the bottom. The diagonal lines form the typical Kakuro cell separators.",
+        "confidence": 0.4
+      }
+    },
+    {
+      "index": 100,
+      "kind_crop": "blank",
+      "bbox": [
+        354,
+        383,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "address_hex",
+        "description": "Four-digit number '3267' displayed inside a slanted parallelogram-shaped label box, with other similar numerical labels (21, 3, 22) visible nearby in what appears to be a technical diagram or isometric grid.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 101,
+      "kind_crop": "blank",
+      "bbox": [
+        404,
+        701,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "dash_frac_bar",
+        "description": "Diagonal slash line going from lower-left to upper-right, serving as a separator in a coordinate grid table with numbers like 83, 3258, 8, 16, 2282.",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 102,
+      "kind_crop": "blank",
+      "bbox": [
+        331,
+        437,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The number 3258 printed inside a rectangular cell that is crossed by a diagonal hatched line, with partial numbers '31', '22', '12' and an 'I' visible in adjacent cells of a larger grid/table.",
+        "confidence": 0.75
+      }
+    },
+    {
+      "index": 103,
+      "kind_crop": "blank",
+      "bbox": [
+        281,
+        754,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A geometric diagram showing a parallelogram divided by a diagonal line, with the number '3265' in the left section and partial '25' in the right section. Small '1' labels appear at the top and bottom edges, likely indicating unit measurements on a number line or geometric figure.",
+        "confidence": 0.7
+      }
+    },
+    {
+      "index": 104,
+      "kind_crop": "blank",
+      "bbox": [
+        589,
+        437,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "Printed numeric string '3284' within a cell bounded by diagonal lines, appearing to be part of a table or grid layout",
+        "confidence": 0.82
+      }
+    },
+    {
+      "index": 105,
+      "kind_crop": "blank",
+      "bbox": [
+        626,
+        816,
+        80,
+        25
+      ],
+      "result_summary": {
+        "kind": "geometric_diamond",
+        "description": "A fragment of a larger diagram showing diagonal lines crossing the area with numbers (1018, 13, 14, 3, 1) arranged in a triangular pattern. The bottom-left shows a small triangular shape with a vertical line segment, forming a closed triangular region with a stroke resembling a partial stick figure or geometric triangle.",
+        "confidence": 0.35
+      }
+    },
+    {
+      "index": 106,
+      "kind_crop": "blank",
+      "bbox": [
+        763,
+        701,
+        82,
+        25
+      ],
+      "result_summary": {
+        "kind": "image",
+        "description": "A parallelogram divided by diagonal lines into sections, with the numbers '6', '1010', and '18' written inside the different triangular sections, appearing to be part of a mathematical or pedagogical diagram.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 107,
+      "kind_crop": "blank",
+      "bbox": [
+        317,
+        816,
+        81,
+        25
+      ],
+      "result_summary": {
+        "kind": "latin_print",
+        "description": "The four-digit number '3288' printed in a plain sans-serif font, appearing within a Magic Eye / autostereogram 3D number puzzle grid with diagonal lines and other partial numbers visible.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 108,
+      "kind_crop": "blank",
+      "bbox": [
+        824,
+        265,
+        17,
+        18
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle outline containing three small filled dots arranged in a triangular pattern, resembling a stylized face.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "index": 109,
+      "kind_crop": "blank",
+      "bbox": [
+        763,
+        1377,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle containing three dots arranged to form a simple face (two eyes and a mouth), flanked by small angular marks on either side.",
+        "confidence": 0.62
+      }
+    },
+    {
+      "index": 110,
+      "kind_crop": "blank",
+      "bbox": [
+        565,
+        1170,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circle outline containing three small filled dots arranged in a triangular pattern, resembling a minimalist face with two eyes and a mouth.",
+        "confidence": 0.85
+      }
+    },
+    {
+      "index": 111,
+      "kind_crop": "blank",
+      "bbox": [
+        663,
+        1170,
+        16,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A circular outline containing three filled dots arranged in a triangular pattern (two on top like eyes, one on bottom like a mouth), resembling a simple face emoticon.",
+        "confidence": 0.9
+      }
+    },
+    {
+      "index": 112,
+      "kind_crop": "blank",
+      "bbox": [
+        222,
+        1336,
+        15,
+        16
+      ],
+      "result_summary": {
+        "kind": "face_circle_three_dots",
+        "description": "A bold black circle containing three small filled dots arranged in a triangular pattern (two on top, one below), resembling a simplified face. A curved hook/J-shaped stroke appears to the right, possibly part of an adjacent glyph.",
+        "confidence": 0.72
+      }
+    }
+  ]
+}

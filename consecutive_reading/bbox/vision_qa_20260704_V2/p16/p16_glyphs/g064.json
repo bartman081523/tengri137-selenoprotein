@@ -1,0 +1,16 @@
+{
+  "kind": "dash_frac_bar",
+  "description": "Diagonal fraction bar (slash) between numbers in a table format, with digits like 9, 25, 326 on top and 3262, 31 on bottom, separated by slanting lines forming a diagonal grid pattern.",
+  "position": "spans the full image as part of a numerical table with diagonal fraction bars",
+  "unicode_codepoint": "U+2044",
+  "confidence": 0.72,
+  "crop_bbox": [
+    713,
+    383,
+    81,
+    25
+  ],
+  "crop_path": "bbox/vision_qa_20260704_V2/p16/p16_glyphs/g064_blank.png",
+  "kind_crop": "blank",
+  "pixel_crop_path": "bbox/crops/p16_blank_064.png"
+}
