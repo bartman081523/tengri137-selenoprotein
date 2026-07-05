@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "phase": "V7 / Phase 24",
+    "datum": "2026-07-05",
+    "methode": "Pseudo-Türkisch-Baseline + EXPECTED-Liste",
+    "n_burumut_words": 15,
+    "n_burumut_ngrams": 741,
+    "n_pseudo_tr_words": 1256
+  },
+  "burumut_words": [
+    "BURUMUTREFAMTU",
+    "NURESUTREGUMFA",
+    "YAPSUAZBEHIMLA",
+    "ZANRUAZBENOMBA",
+    "TOBIKOTLUBUMYO",
+    "SUNOKURGANOZYI",
+    "OKUZIKUFAUSIHE",
+    "YABEKANSABERHO",
+    "NANPSSGNNRCSSSE",
+    "KOREMORBIZUMRO",
+    "SUNAKIRFANEMBA",
+    "EHXESNOCPEHKAR",
+    "GECSNESSOPTPEN",
+    "CCABFUTZCORNZP",
+    "SMYPICBIBTICSN"
+  ],
+  "expected_tr_mn": [
+    "KURGAN",
+    "OKUZ",
+    "TAM",
+    "YOL",
+    "ATA",
+    "TENGR",
+    "BURAN",
+    "TURAN",
+    "BERK",
+    "BEK",
+    "KHAN",
+    "NAR",
+    "ERKEK",
+    "KARA",
+    "KAM"
+  ],
+  "expected_hits": 3,
+  "expected_total": 15,
+  "tr_baseline_matches": 3,
+  "tr_baseline_total": 570,
+  "matched_examples": [
+    {
+      "ngram": "OKUZ",
+      "kind": "exact",
+      "count": 1
+    },
+    {
+      "ngram": "KUZI",
+      "kind": "in:OKUZIM",
+      "count": 1
+    },
+    {
+      "ngram": "OKUZI",
+      "kind": "exact",
+      "count": 1
+    }
+  ],
+  "interpretation": "TBD: Bewertung gegen Apophenia-Schutz-Kriterien (Matches > Zufall erwartet?)"
+}
