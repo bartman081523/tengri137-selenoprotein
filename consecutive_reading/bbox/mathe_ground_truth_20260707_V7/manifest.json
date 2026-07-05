@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "phase": "V7 / Phase 21",
+    "datum": "2026-07-05",
+    "methode": "Re-Extraction mit verifizierten BBox-Koordinaten",
+    "quelle": "bbox/mathe_ocr_20260707_V7/p17_ziffern.json (Phase 11e)",
+    "n_glyphs": 11,
+    "n_striche": 10
+  },
+  "glyphs": [
+    {
+      "id": 1,
+      "row": "ROW_1",
+      "bbox_orig": [
+        890,
+        261,
+        930,
+        289
+      ],
+      "bbox_padded": [
+        880,
+        251,
+        940,
+        299
+      ],
+      "size_px": 876,
+      "w": 41,
+      "h": 29,
+      "aspect": 1.41,
+      "est_digits": 2,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_01_row_ROW_1_x0890_y0261.png"
+    },
+    {
+      "id": 2,
+      "row": "ROW_2",
+      "bbox_orig": [
+        896,
+        325,
+        929,
+        354
+      ],
+      "bbox_padded": [
+        886,
+        315,
+        939,
+        364
+      ],
+      "size_px": 735,
+      "w": 34,
+      "h": 30,
+      "aspect": 1.13,
+      "est_digits": 1,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_02_row_ROW_2_x0896_y0325.png"
+    },
+    {
+      "id": 3,
+      "row": "ROW_3",
+      "bbox_orig": [
+        848,
+        390,
+        959,
+        419
+      ],
+      "bbox_padded": [
+        838,
+        380,
+        969,
+        429
+      ],
+      "size_px": 2781,
+      "w": 112,
+      "h": 30,
+      "aspect": 3.73,
+      "est_digits": 4,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_03_row_ROW_3_x0848_y0390.png"
+    },
+    {
+      "id": 4,
+      "row": "ROW_4",
+      "bbox_orig": [
+        873,
+        455,
+        942,
+        484
+      ],
+      "bbox_padded": [
+        863,
+        445,
+        952,
+        494
+      ],
+      "size_px": 1948,
+      "w": 70,
+      "h": 30,
+      "aspect": 2.33,
+      "est_digits": 3,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_04_row_ROW_4_x0873_y0455.png"
+    },
+    {
+      "id": 5,
+      "row": "ROW_5",
+      "bbox_orig": [
+        864,
+        520,
+        924,
+        549
+      ],
+      "bbox_padded": [
+        854,
+        510,
+        934,
+        559
+      ],
+      "size_px": 1794,
+      "w": 61,
+      "h": 30,
+      "aspect": 2.03,
+      "est_digits": 2,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_05_row_ROW_5_x0864_y0520.png"
+    },
+    {
+      "id": 6,
+      "row": "ROW_6",
+      "bbox_orig": [
+        851,
+        655,
+        905,
+        684
+      ],
+      "bbox_padded": [
+        841,
+        645,
+        915,
+        694
+      ],
+      "size_px": 1369,
+      "w": 55,
+      "h": 30,
+      "aspect": 1.83,
+      "est_digits": 2,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_06_row_ROW_6_x0851_y0655.png"
+    },
+    {
+      "id": 7,
+      "row": "ROW_7",
+      "bbox_orig": [
+        859,
+        1055,
+        888,
+        1089
+      ],
+      "bbox_padded": [
+        849,
+        1045,
+        898,
+        1099
+      ],
+      "size_px": 945,
+      "w": 30,
+      "h": 35,
+      "aspect": 0.86,
+      "est_digits": 1,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_07_row_ROW_7_x0859_y1055.png"
+    },
+    {
+      "id": 8,
+      "row": "ROW_8",
+      "bbox_orig": [
+        842,
+        1260,
+        876,
+        1289
+      ],
+      "bbox_padded": [
+        832,
+        1250,
+        886,
+        1299
+      ],
+      "size_px": 1007,
+      "w": 35,
+      "h": 30,
+      "aspect": 1.17,
+      "est_digits": 1,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_08_row_ROW_8_x0842_y1260.png"
+    },
+    {
+      "id": 9,
+      "row": "ROW_9",
+      "bbox_orig": [
+        845,
+        1325,
+        872,
+        1354
+      ],
+      "bbox_padded": [
+        835,
+        1315,
+        882,
+        1364
+      ],
+      "size_px": 662,
+      "w": 28,
+      "h": 30,
+      "aspect": 0.93,
+      "est_digits": 1,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_09_row_ROW_9_x0845_y1325.png"
+    },
+    {
+      "id": 10,
+      "row": "ROW_10",
+      "bbox_orig": [
+        839,
+        1390,
+        870,
+        1419
+      ],
+      "bbox_padded": [
+        829,
+        1380,
+        880,
+        1429
+      ],
+      "size_px": 792,
+      "w": 32,
+      "h": 30,
+      "aspect": 1.07,
+      "est_digits": 1,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_10_row_ROW_10_x0839_y1390.png"
+    },
+    {
+      "id": 11,
+      "row": "ROW_10",
+      "bbox_orig": [
+        817,
+        1393,
+        831,
+        1419
+      ],
+      "bbox_padded": [
+        807,
+        1383,
+        841,
+        1429
+      ],
+      "size_px": 151,
+      "w": 15,
+      "h": 27,
+      "aspect": 0.56,
+      "est_digits": 1,
+      "crop_path": "bbox/mathe_ground_truth_20260707_V7/glyph_11_row_ROW_10_x0817_y1393.png"
+    }
+  ],
+  "striche": [
+    {
+      "id": 1,
+      "row": "ROW_1",
+      "bbox": [
+        183,
+        273,
+        386,
+        273
+      ],
+      "w": 204,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_01_row_ROW_1.png"
+    },
+    {
+      "id": 2,
+      "row": "ROW_2",
+      "bbox": [
+        184,
+        338,
+        638,
+        338
+      ],
+      "w": 455,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_02_row_ROW_2.png"
+    },
+    {
+      "id": 3,
+      "row": "ROW_3",
+      "bbox": [
+        183,
+        403,
+        624,
+        403
+      ],
+      "w": 442,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_03_row_ROW_3.png"
+    },
+    {
+      "id": 4,
+      "row": "ROW_4",
+      "bbox": [
+        183,
+        468,
+        579,
+        468
+      ],
+      "w": 397,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_04_row_ROW_4.png"
+    },
+    {
+      "id": 5,
+      "row": "ROW_5",
+      "bbox": [
+        183,
+        533,
+        647,
+        533
+      ],
+      "w": 465,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_05_row_ROW_5.png"
+    },
+    {
+      "id": 6,
+      "row": "ROW_6",
+      "bbox": [
+        183,
+        668,
+        560,
+        668
+      ],
+      "w": 378,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_06_row_ROW_6.png"
+    },
+    {
+      "id": 7,
+      "row": "ROW_7",
+      "bbox": [
+        184,
+        1071,
+        433,
+        1071
+      ],
+      "w": 250,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_07_row_ROW_7.png"
+    },
+    {
+      "id": 8,
+      "row": "ROW_8",
+      "bbox": [
+        183,
+        1274,
+        600,
+        1274
+      ],
+      "w": 418,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_08_row_ROW_8.png"
+    },
+    {
+      "id": 9,
+      "row": "ROW_9",
+      "bbox": [
+        183,
+        1339,
+        484,
+        1339
+      ],
+      "w": 302,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_09_row_ROW_9.png"
+    },
+    {
+      "id": 10,
+      "row": "ROW_10",
+      "bbox": [
+        183,
+        1404,
+        592,
+        1404
+      ],
+      "w": 410,
+      "path": "bbox/mathe_ground_truth_20260707_V7/strich_10_row_ROW_10.png"
+    }
+  ],
+  "row_legend": {
+    "ROW_1": "y≈273: Header-Rechnung 1 (val1 mit Faktorzerlegung)",
+    "ROW_2": "y≈338: Header-Rechnung 1 (val2 mit Faktorzerlegung)",
+    "ROW_3-6": "y≈403-669: 4 Faktorzerlegungs-Paare (Schmehs 16 Paare?)",
+    "ROW_7-10": "y≈1071-1404: Lateinische Beschreibungen / p17-Bottom"
+  },
+  "hinweis": "Schmehs 16 Faktorzerlegungs-Paare sind in Full_Notes dokumentiert, aber mathematisch inkonsistent. Diese Re-Extraction ist die Ground-Truth für eigene OCR-Validierung."
+}
