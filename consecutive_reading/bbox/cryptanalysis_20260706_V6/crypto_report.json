@@ -1,0 +1,339 @@
+{
+  "n_tokens_total": 1690,
+  "n_tokens_unique": 25,
+  "shannon_entropy": 4.190203292972712,
+  "ioc": 0.06907346877288126,
+  "zipf_alpha": 0.939684815221435,
+  "top_token_share": 0.12781065088757396,
+  "top_bigrams": [
+    {
+      "bigram": "G07-G26",
+      "count": 38
+    },
+    {
+      "bigram": "G28-G25",
+      "count": 37
+    },
+    {
+      "bigram": "G28-G28",
+      "count": 35
+    },
+    {
+      "bigram": "G25-G16",
+      "count": 34
+    },
+    {
+      "bigram": "G25-G28",
+      "count": 31
+    },
+    {
+      "bigram": "G28-G19",
+      "count": 29
+    },
+    {
+      "bigram": "G16-G25",
+      "count": 28
+    },
+    {
+      "bigram": "G13-G16",
+      "count": 28
+    },
+    {
+      "bigram": "G29-G28",
+      "count": 25
+    },
+    {
+      "bigram": "G05-G23",
+      "count": 24
+    },
+    {
+      "bigram": "G28-G16",
+      "count": 24
+    },
+    {
+      "bigram": "G25-G25",
+      "count": 24
+    },
+    {
+      "bigram": "G18-G18",
+      "count": 21
+    },
+    {
+      "bigram": "G18-G28",
+      "count": 21
+    },
+    {
+      "bigram": "G16-G28",
+      "count": 19
+    },
+    {
+      "bigram": "G10-G12",
+      "count": 18
+    },
+    {
+      "bigram": "G24-G05",
+      "count": 18
+    },
+    {
+      "bigram": "G19-G28",
+      "count": 18
+    },
+    {
+      "bigram": "G29-G25",
+      "count": 17
+    },
+    {
+      "bigram": "G19-G25",
+      "count": 17
+    }
+  ],
+  "glyph_frequencies": [
+    {
+      "glyph_id": "G28",
+      "count": 216,
+      "share": 0.12781065088757396
+    },
+    {
+      "glyph_id": "G25",
+      "count": 216,
+      "share": 0.12781065088757396
+    },
+    {
+      "glyph_id": "G16",
+      "count": 173,
+      "share": 0.10236686390532544
+    },
+    {
+      "glyph_id": "G18",
+      "count": 124,
+      "share": 0.07337278106508875
+    },
+    {
+      "glyph_id": "G19",
+      "count": 119,
+      "share": 0.07041420118343195
+    },
+    {
+      "glyph_id": "G29",
+      "count": 98,
+      "share": 0.05798816568047337
+    },
+    {
+      "glyph_id": "G05",
+      "count": 75,
+      "share": 0.04437869822485207
+    },
+    {
+      "glyph_id": "G26",
+      "count": 75,
+      "share": 0.04437869822485207
+    },
+    {
+      "glyph_id": "G03",
+      "count": 71,
+      "share": 0.042011834319526625
+    },
+    {
+      "glyph_id": "G13",
+      "count": 57,
+      "share": 0.03372781065088758
+    },
+    {
+      "glyph_id": "G10",
+      "count": 52,
+      "share": 0.03076923076923077
+    },
+    {
+      "glyph_id": "G07",
+      "count": 49,
+      "share": 0.028994082840236687
+    },
+    {
+      "glyph_id": "G23",
+      "count": 48,
+      "share": 0.028402366863905324
+    },
+    {
+      "glyph_id": "G09",
+      "count": 41,
+      "share": 0.0242603550295858
+    },
+    {
+      "glyph_id": "G06",
+      "count": 38,
+      "share": 0.022485207100591716
+    },
+    {
+      "glyph_id": "G14",
+      "count": 38,
+      "share": 0.022485207100591716
+    },
+    {
+      "glyph_id": "G12",
+      "count": 36,
+      "share": 0.021301775147928994
+    },
+    {
+      "glyph_id": "G01",
+      "count": 30,
+      "share": 0.01775147928994083
+    },
+    {
+      "glyph_id": "G24",
+      "count": 29,
+      "share": 0.017159763313609466
+    },
+    {
+      "glyph_id": "G30",
+      "count": 23,
+      "share": 0.013609467455621301
+    },
+    {
+      "glyph_id": "G21",
+      "count": 20,
+      "share": 0.011834319526627219
+    },
+    {
+      "glyph_id": "G02",
+      "count": 17,
+      "share": 0.010059171597633136
+    },
+    {
+      "glyph_id": "G11",
+      "count": 17,
+      "share": 0.010059171597633136
+    },
+    {
+      "glyph_id": "G17",
+      "count": 17,
+      "share": 0.010059171597633136
+    },
+    {
+      "glyph_id": "G08",
+      "count": 11,
+      "share": 0.00650887573964497
+    }
+  ],
+  "fliesstext_only": true,
+  "pages_included": [
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p07",
+    "p08",
+    "p09",
+    "p10",
+    "p11",
+    "p12",
+    "p13",
+    "p14",
+    "p15",
+    "p16"
+  ],
+  "per_page": {
+    "p01": {
+      "n_tokens": 154,
+      "shannon_entropy": 4.329337735644145,
+      "ioc": 0.05237246413717002,
+      "zipf_alpha": 0.8035115522950507
+    },
+    "p02": {
+      "n_tokens": 127,
+      "shannon_entropy": 4.097415035230392,
+      "ioc": 0.062367204099487566,
+      "zipf_alpha": 0.8881018523979205
+    },
+    "p03": {
+      "n_tokens": 142,
+      "shannon_entropy": 4.160391417979112,
+      "ioc": 0.06343022675057437,
+      "zipf_alpha": 0.9326710446110337
+    },
+    "p04": {
+      "n_tokens": 171,
+      "shannon_entropy": 4.04896202736342,
+      "ioc": 0.07444100447196422,
+      "zipf_alpha": 1.0606108516104766
+    },
+    "p07": {
+      "n_tokens": 57,
+      "shannon_entropy": 3.811266340178452,
+      "ioc": 0.06766917293233082,
+      "zipf_alpha": 0.8916078764806948
+    },
+    "p08": {
+      "n_tokens": 36,
+      "shannon_entropy": 3.4025457540689694,
+      "ioc": 0.08571428571428572,
+      "zipf_alpha": 0.846503196024821
+    },
+    "p09": {
+      "n_tokens": 78,
+      "shannon_entropy": 4.004551861901553,
+      "ioc": 0.058941058941058944,
+      "zipf_alpha": 0.7313064221820457
+    },
+    "p10": {
+      "n_tokens": 157,
+      "shannon_entropy": 3.899533396663969,
+      "ioc": 0.07300342969132778,
+      "zipf_alpha": 1.0500112210247583
+    },
+    "p11": {
+      "n_tokens": 120,
+      "shannon_entropy": 3.7928767097687834,
+      "ioc": 0.08403361344537816,
+      "zipf_alpha": 1.1263793547557481
+    },
+    "p12": {
+      "n_tokens": 150,
+      "shannon_entropy": 3.720409254188936,
+      "ioc": 0.08876957494407159,
+      "zipf_alpha": 1.163778457334202
+    },
+    "p13": {
+      "n_tokens": 146,
+      "shannon_entropy": 3.904287703964911,
+      "ioc": 0.07538970240906943,
+      "zipf_alpha": 1.0082325820228137
+    },
+    "p14": {
+      "n_tokens": 102,
+      "shannon_entropy": 3.8397848792070497,
+      "ioc": 0.0803727431566686,
+      "zipf_alpha": 1.0259457086932138
+    },
+    "p15": {
+      "n_tokens": 142,
+      "shannon_entropy": 4.020044606266929,
+      "ioc": 0.06612726001398461,
+      "zipf_alpha": 1.0555023692528882
+    },
+    "p16": {
+      "n_tokens": 108,
+      "shannon_entropy": 3.7618135026525676,
+      "ioc": 0.0844582900657667,
+      "zipf_alpha": 1.0530248719712703
+    }
+  },
+  "v5_comparison": {
+    "v5_falsifiziert": true,
+    "v5_h_war": 2.8706,
+    "v5_ioc_war": 0.1606,
+    "v5_alpha_war": 2.9281,
+    "interpretation": "V5 hat auf Inken-Strichen (16.797 Connected Components) gerechnet. V6 rechnet auf Glyphen-Tokens (~1690 für Fließtext-Pages). Falls V6-IoC ≈ 0.065 und V6-H ≈ 4.0, ist V5 als 'Font-Redundanz-Statistik' bestätigt."
+  },
+  "english_reference": {
+    "shannon_entropy": 4.14,
+    "ioc": 0.067,
+    "zipf_alpha": 1.0,
+    "top_letter_freq": {
+      "E": 0.127,
+      "T": 0.091,
+      "A": 0.082,
+      "O": 0.075,
+      "I": 0.07
+    }
+  }
+}

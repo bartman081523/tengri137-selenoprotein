@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "n_tokens": 1013,
+    "n_unique": 16,
+    "method": "Xenosemantische N-Gramm- und Kontaktanalyse (Epoché: kein lateinischer Bias)"
+  },
+  "attack_1_g25_contact": {
+    "g25_share": 0.2132,
+    "g25_doubled": 41,
+    "g25_right_top10": [
+      [
+        "G19",
+        30
+      ],
+      [
+        "G18",
+        28
+      ],
+      [
+        "G29",
+        19
+      ],
+      [
+        "G05",
+        15
+      ],
+      [
+        "G03",
+        14
+      ],
+      [
+        "G07",
+        13
+      ],
+      [
+        "G06",
+        11
+      ],
+      [
+        "G14",
+        10
+      ],
+      [
+        "G09",
+        8
+      ],
+      [
+        "G10",
+        8
+      ]
+    ],
+    "g25_left_top10": [
+      [
+        "G19",
+        27
+      ],
+      [
+        "G18",
+        27
+      ],
+      [
+        "G29",
+        24
+      ],
+      [
+        "G05",
+        23
+      ],
+      [
+        "G03",
+        15
+      ],
+      [
+        "G14",
+        15
+      ],
+      [
+        "G10",
+        13
+      ],
+      [
+        "G06",
+        10
+      ],
+      [
+        "G01",
+        7
+      ],
+      [
+        "G09",
+        6
+      ]
+    ],
+    "hypothesis": "Wenn G25 nie verdoppelt und nur rechts vielfältig: Suffix/Spacer-Hypothese. Wenn G25 links vielfältig: Prefix. Tatsächlich: Verdopplung=41, Right-Top=[('G19', 30), ('G18', 28), ('G29', 19)], Left-Top=[('G19', 27), ('G18', 27), ('G29', 24)]"
+  },
+  "attack_2_triliteral_roots": {
+    "top20_trigrams": [
+      {
+        "trigram": "G25-G19-G25",
+        "count": 8
+      },
+      {
+        "trigram": "G25-G25-G19",
+        "count": 7
+      },
+      {
+        "trigram": "G25-G18-G25",
+        "count": 7
+      },
+      {
+        "trigram": "G29-G25-G19",
+        "count": 7
+      },
+      {
+        "trigram": "G25-G19-G29",
+        "count": 6
+      },
+      {
+        "trigram": "G19-G25-G25",
+        "count": 6
+      },
+      {
+        "trigram": "G25-G25-G25",
+        "count": 6
+      },
+      {
+        "trigram": "G05-G25-G18",
+        "count": 6
+      },
+      {
+        "trigram": "G18-G25-G29",
+        "count": 6
+      },
+      {
+        "trigram": "G25-G18-G18",
+        "count": 6
+      },
+      {
+        "trigram": "G05-G25-G25",
+        "count": 6
+      },
+      {
+        "trigram": "G25-G25-G07",
+        "count": 5
+      },
+      {
+        "trigram": "G25-G19-G19",
+        "count": 5
+      },
+      {
+        "trigram": "G18-G25-G25",
+        "count": 5
+      },
+      {
+        "trigram": "G25-G05-G25",
+        "count": 5
+      },
+      {
+        "trigram": "G19-G19-G07",
+        "count": 5
+      },
+      {
+        "trigram": "G18-G25-G19",
+        "count": 5
+      },
+      {
+        "trigram": "G08-G09-G19",
+        "count": 4
+      },
+      {
+        "trigram": "G05-G19-G25",
+        "count": 4
+      },
+      {
+        "trigram": "G29-G29-G25",
+        "count": 4
+      }
+    ],
+    "x_y_x_roots": {
+      "G25-G19-G25": 8,
+      "G25-G18-G25": 7,
+      "G25-G25-G25": 6,
+      "G25-G05-G25": 5,
+      "G25-G14-G25": 4,
+      "G18-G18-G18": 4,
+      "G19-G25-G19": 3,
+      "G25-G29-G25": 3
+    }
+  },
+  "attack_3_position_glyphs": {
+    "page_starts_top10": [
+      [
+        "G18",
+        5
+      ],
+      [
+        "G05",
+        2
+      ],
+      [
+        "G07",
+        2
+      ],
+      [
+        "G02",
+        1
+      ],
+      [
+        "G19",
+        1
+      ],
+      [
+        "G03",
+        1
+      ],
+      [
+        "G25",
+        1
+      ],
+      [
+        "G10",
+        1
+      ]
+    ],
+    "page_ends_top10": [
+      [
+        "G25",
+        5
+      ],
+      [
+        "G03",
+        2
+      ],
+      [
+        "G29",
+        2
+      ],
+      [
+        "G19",
+        2
+      ],
+      [
+        "G14",
+        1
+      ],
+      [
+        "G10",
+        1
+      ],
+      [
+        "G18",
+        1
+      ]
+    ]
+  },
+  "attack_4_cluster_segmentation": {
+    "token_sizes": {
+      "min": 630,
+      "max": 1332,
+      "mean": 940.1,
+      "median": 925
+    },
+    "gap_distribution": {
+      "40-80": 110,
+      "5-10": 12,
+      ">80 (Wortgrenze?)": 353,
+      "overlap": 226,
+      "10-20": 28,
+      "20-40": 60,
+      "0-5": 16
+    },
+    "word_break_hypothesis": "Wenn viele Gaps > 80px: vermutete Wortgrenzen. Wenn Verteilung bimodal: klare Segmentierung. Tatsächlich: {'40-80': 110, '5-10': 12, '>80 (Wortgrenze?)': 353, 'overlap': 226, '10-20': 28, '20-40': 60, '0-5': 16}"
+  },
+  "attack_5_g25_runs": {
+    "max_run": 4,
+    "run_distribution": {
+      "1": 140,
+      "2": 30,
+      "3": 4,
+      "4": 1
+    }
+  },
+  "interpretation": "Siehe einzelne Hypothesen-Felder pro Attack-Vector."
+}

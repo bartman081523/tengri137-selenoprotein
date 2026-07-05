@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "n_templates": "G30",
+    "threshold": 0.85,
+    "methods": [
+      "pixel_cosine",
+      "ssim"
+    ]
+  },
+  "cosine_duplicates": [
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G13",
+      "cosine_sim": 0.8739
+    },
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G16",
+      "cosine_sim": 0.8645
+    },
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G27",
+      "cosine_sim": 0.8524
+    },
+    {
+      "glyph_a": "G04",
+      "glyph_b": "G24",
+      "cosine_sim": 0.9395
+    },
+    {
+      "glyph_a": "G05",
+      "glyph_b": "G23",
+      "cosine_sim": 0.9253
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G20",
+      "cosine_sim": 0.8929
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G22",
+      "cosine_sim": 0.8568
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G26",
+      "cosine_sim": 0.9099
+    },
+    {
+      "glyph_a": "G08",
+      "glyph_b": "G15",
+      "cosine_sim": 0.8894
+    },
+    {
+      "glyph_a": "G10",
+      "glyph_b": "G12",
+      "cosine_sim": 0.9147
+    },
+    {
+      "glyph_a": "G11",
+      "glyph_b": "G21",
+      "cosine_sim": 0.9403
+    },
+    {
+      "glyph_a": "G17",
+      "glyph_b": "G28",
+      "cosine_sim": 0.8526
+    },
+    {
+      "glyph_a": "G20",
+      "glyph_b": "G22",
+      "cosine_sim": 0.9409
+    },
+    {
+      "glyph_a": "G20",
+      "glyph_b": "G26",
+      "cosine_sim": 0.8834
+    },
+    {
+      "glyph_a": "G22",
+      "glyph_b": "G26",
+      "cosine_sim": 0.9118
+    },
+    {
+      "glyph_a": "G28",
+      "glyph_b": "G30",
+      "cosine_sim": 0.8615
+    }
+  ],
+  "ssim_duplicates": [
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G13",
+      "ssim": 0.874
+    },
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G16",
+      "ssim": 0.8636
+    },
+    {
+      "glyph_a": "G04",
+      "glyph_b": "G24",
+      "ssim": 0.939
+    },
+    {
+      "glyph_a": "G05",
+      "glyph_b": "G23",
+      "ssim": 0.9252
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G20",
+      "ssim": 0.8892
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G22",
+      "ssim": 0.8555
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G26",
+      "ssim": 0.9081
+    },
+    {
+      "glyph_a": "G08",
+      "glyph_b": "G15",
+      "ssim": 0.8862
+    },
+    {
+      "glyph_a": "G10",
+      "glyph_b": "G12",
+      "ssim": 0.915
+    },
+    {
+      "glyph_a": "G11",
+      "glyph_b": "G21",
+      "ssim": 0.9404
+    },
+    {
+      "glyph_a": "G17",
+      "glyph_b": "G28",
+      "ssim": 0.8521
+    },
+    {
+      "glyph_a": "G20",
+      "glyph_b": "G22",
+      "ssim": 0.9406
+    },
+    {
+      "glyph_a": "G20",
+      "glyph_b": "G26",
+      "ssim": 0.8836
+    },
+    {
+      "glyph_a": "G22",
+      "glyph_b": "G26",
+      "ssim": 0.912
+    },
+    {
+      "glyph_a": "G28",
+      "glyph_b": "G30",
+      "ssim": 0.8612
+    }
+  ],
+  "confirmed_duplicates": [
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G13"
+    },
+    {
+      "glyph_a": "G03",
+      "glyph_b": "G16"
+    },
+    {
+      "glyph_a": "G04",
+      "glyph_b": "G24"
+    },
+    {
+      "glyph_a": "G05",
+      "glyph_b": "G23"
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G20"
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G22"
+    },
+    {
+      "glyph_a": "G07",
+      "glyph_b": "G26"
+    },
+    {
+      "glyph_a": "G08",
+      "glyph_b": "G15"
+    },
+    {
+      "glyph_a": "G10",
+      "glyph_b": "G12"
+    },
+    {
+      "glyph_a": "G11",
+      "glyph_b": "G21"
+    },
+    {
+      "glyph_a": "G17",
+      "glyph_b": "G28"
+    },
+    {
+      "glyph_a": "G20",
+      "glyph_b": "G22"
+    },
+    {
+      "glyph_a": "G20",
+      "glyph_b": "G26"
+    },
+    {
+      "glyph_a": "G22",
+      "glyph_b": "G26"
+    },
+    {
+      "glyph_a": "G28",
+      "glyph_b": "G30"
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "root": "G13",
+      "members": [
+        "G03",
+        "G13",
+        "G16",
+        "G27"
+      ]
+    },
+    {
+      "root": "G24",
+      "members": [
+        "G04",
+        "G24"
+      ]
+    },
+    {
+      "root": "G23",
+      "members": [
+        "G05",
+        "G23"
+      ]
+    },
+    {
+      "root": "G26",
+      "members": [
+        "G07",
+        "G20",
+        "G22",
+        "G26"
+      ]
+    },
+    {
+      "root": "G15",
+      "members": [
+        "G08",
+        "G15"
+      ]
+    },
+    {
+      "root": "G12",
+      "members": [
+        "G10",
+        "G12"
+      ]
+    },
+    {
+      "root": "G21",
+      "members": [
+        "G11",
+        "G21"
+      ]
+    },
+    {
+      "root": "G30",
+      "members": [
+        "G17",
+        "G28",
+        "G30"
+      ]
+    }
+  ],
+  "n_estimated_unique": 17,
+  "interpretation": "Mit Cosine>=0.85: 16 Duplikat-Paare. Mit SSIM>=0.85: 15 Paare. Bestätigt durch beide Methoden: 15 Paare. Schätzung der unique Glyphen: 17 Gruppen."
+}

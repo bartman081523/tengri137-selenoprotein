@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "n_tokens": 1013,
+    "n_unique_glyphs": 16,
+    "fliesstext_pages": 14,
+    "method": "Pearson-Korrelation sortierter Frequenz-Vektoren + Rank-Match"
+  },
+  "language_correlations": {
+    "english": {
+      "pearson_r": 0.9571,
+      "rank_match_score": 0.0,
+      "top5_tengri": [
+        [
+          "G25",
+          0.2132
+        ],
+        [
+          "G18",
+          0.1224
+        ],
+        [
+          "G19",
+          0.1175
+        ],
+        [
+          "G29",
+          0.0967
+        ],
+        [
+          "G05",
+          0.074
+        ]
+      ],
+      "top5_lang": [
+        [
+          "E",
+          0.127
+        ],
+        [
+          "T",
+          0.0906
+        ],
+        [
+          "A",
+          0.0817
+        ],
+        [
+          "O",
+          0.0751
+        ],
+        [
+          "I",
+          0.0697
+        ]
+      ]
+    },
+    "turkish": {
+      "pearson_r": 0.9732,
+      "rank_match_score": 0.0,
+      "top5_tengri": [
+        [
+          "G25",
+          0.2132
+        ],
+        [
+          "G18",
+          0.1224
+        ],
+        [
+          "G19",
+          0.1175
+        ],
+        [
+          "G29",
+          0.0967
+        ],
+        [
+          "G05",
+          0.074
+        ]
+      ],
+      "top5_lang": [
+        [
+          "A",
+          0.1213
+        ],
+        [
+          "I",
+          0.0985
+        ],
+        [
+          "E",
+          0.0908
+        ],
+        [
+          "N",
+          0.0796
+        ],
+        [
+          "R",
+          0.0672
+        ]
+      ]
+    },
+    "german": {
+      "pearson_r": 0.9792,
+      "rank_match_score": 0.0,
+      "top5_tengri": [
+        [
+          "G25",
+          0.2132
+        ],
+        [
+          "G18",
+          0.1224
+        ],
+        [
+          "G19",
+          0.1175
+        ],
+        [
+          "G29",
+          0.0967
+        ],
+        [
+          "G05",
+          0.074
+        ]
+      ],
+      "top5_lang": [
+        [
+          "E",
+          0.174
+        ],
+        [
+          "N",
+          0.0978
+        ],
+        [
+          "I",
+          0.0755
+        ],
+        [
+          "S",
+          0.0727
+        ],
+        [
+          "R",
+          0.07
+        ]
+      ]
+    },
+    "mongolian_cyrillic": {
+      "pearson_r": 0.9826,
+      "rank_match_score": 0.0,
+      "top5_tengri": [
+        [
+          "G25",
+          0.2132
+        ],
+        [
+          "G18",
+          0.1224
+        ],
+        [
+          "G19",
+          0.1175
+        ],
+        [
+          "G29",
+          0.0967
+        ],
+        [
+          "G05",
+          0.074
+        ]
+      ],
+      "top5_lang": [
+        [
+          "А",
+          0.131
+        ],
+        [
+          "Н",
+          0.099
+        ],
+        [
+          "Э",
+          0.088
+        ],
+        [
+          "О",
+          0.081
+        ],
+        [
+          "Т",
+          0.075
+        ]
+      ]
+    }
+  },
+  "best_match": {
+    "language": "mongolian_cyrillic",
+    "pearson_r": 0.9826,
+    "interpretation": "Die Tengri-Glyph-Frequenzen korrelieren am stärksten mit mongolian_cyrillic (r=0.9826). Das stützt die Hypothese, dass Tengri ein Substitutions-Alphabet für diese Sprache ist."
+  }
+}

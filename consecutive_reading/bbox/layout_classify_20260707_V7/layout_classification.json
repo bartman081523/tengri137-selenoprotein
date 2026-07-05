@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "phase": "V7 / Phase 1",
+    "method": "Manuelle visuelle Klassifikation + V6-Token-Count",
+    "n_pages": 23,
+    "classes": [
+      "TENGRI",
+      "CUBE",
+      "MATHE",
+      "HYBRID",
+      "CHEMIE"
+    ]
+  },
+  "class_counts": {
+    "TENGRI": 15,
+    "CUBE": 2,
+    "MATHE": 1,
+    "HYBRID": 4,
+    "CHEMIE": 1
+  },
+  "pages": [
+    {
+      "page_id": "p01",
+      "class": "TENGRI",
+      "n_tokens_v6": 92
+    },
+    {
+      "page_id": "p02",
+      "class": "TENGRI",
+      "n_tokens_v6": 68
+    },
+    {
+      "page_id": "p03",
+      "class": "TENGRI",
+      "n_tokens_v6": 83
+    },
+    {
+      "page_id": "p04",
+      "class": "TENGRI",
+      "n_tokens_v6": 92
+    },
+    {
+      "page_id": "p05",
+      "class": "CUBE",
+      "n_tokens_v6": 21
+    },
+    {
+      "page_id": "p06",
+      "class": "CUBE",
+      "n_tokens_v6": 13
+    },
+    {
+      "page_id": "p07",
+      "class": "TENGRI",
+      "n_tokens_v6": 35
+    },
+    {
+      "page_id": "p08",
+      "class": "TENGRI",
+      "n_tokens_v6": 19
+    },
+    {
+      "page_id": "p09",
+      "class": "TENGRI",
+      "n_tokens_v6": 50
+    },
+    {
+      "page_id": "p10",
+      "class": "TENGRI",
+      "n_tokens_v6": 99
+    },
+    {
+      "page_id": "p11",
+      "class": "TENGRI",
+      "n_tokens_v6": 82
+    },
+    {
+      "page_id": "p12",
+      "class": "TENGRI",
+      "n_tokens_v6": 93
+    },
+    {
+      "page_id": "p13",
+      "class": "TENGRI",
+      "n_tokens_v6": 97
+    },
+    {
+      "page_id": "p14",
+      "class": "TENGRI",
+      "n_tokens_v6": 62
+    },
+    {
+      "page_id": "p15",
+      "class": "TENGRI",
+      "n_tokens_v6": 82
+    },
+    {
+      "page_id": "p16",
+      "class": "TENGRI",
+      "n_tokens_v6": 59
+    },
+    {
+      "page_id": "p17",
+      "class": "MATHE",
+      "n_tokens_v6": 0
+    },
+    {
+      "page_id": "p18",
+      "class": "HYBRID",
+      "n_tokens_v6": 0
+    },
+    {
+      "page_id": "p19",
+      "class": "HYBRID",
+      "n_tokens_v6": 0
+    },
+    {
+      "page_id": "p20",
+      "class": "TENGRI",
+      "n_tokens_v6": 0
+    },
+    {
+      "page_id": "p21",
+      "class": "HYBRID",
+      "n_tokens_v6": 0
+    },
+    {
+      "page_id": "p22",
+      "class": "HYBRID",
+      "n_tokens_v6": 0
+    },
+    {
+      "page_id": "p23",
+      "class": "CHEMIE",
+      "n_tokens_v6": 0
+    }
+  ]
+}

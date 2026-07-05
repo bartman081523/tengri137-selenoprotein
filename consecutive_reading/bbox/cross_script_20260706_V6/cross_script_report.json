@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "phase": "V6 / Phase 8",
+    "method": "Cross-Script-Profil-Vergleich (kein Pixel-Match)",
+    "tengri_dimensions": [
+      "n_glyphs",
+      "shannon_H",
+      "ioc",
+      "zipf_alpha"
+    ],
+    "n_comparison_scripts": 9
+  },
+  "tengri_profile": {
+    "n_glyphs": 17,
+    "n_tokens": 1013,
+    "shannon_H": 3.5740914990012262,
+    "ioc": 0.10438606416974587,
+    "zipf_alpha": 1.0024547034488815,
+    "top_share": 0.21322803553800593,
+    "complexity_range": [
+      0.21,
+      0.35
+    ],
+    "complexity_mean": 0.2722352941176471,
+    "h_max_log17": 4.087462841250339
+  },
+  "ranked_distances": [
+    {
+      "script": "Tengrismus-Symbole (modern)",
+      "distance": 0.095,
+      "n_glyphs": 18,
+      "estimated_H": 3.6,
+      "estimated_ioc": 0.1,
+      "estimated_zipf": 1.0,
+      "complexity": "mittel (modern-stilisiert)",
+      "origin": "modern, 20-21. Jh.",
+      "type": "unentziffert (neo-religiös)"
+    },
+    {
+      "script": "Phönizisch",
+      "distance": 0.665,
+      "n_glyphs": 22,
+      "estimated_H": 4.1,
+      "estimated_ioc": 0.075,
+      "estimated_zipf": 1.0,
+      "complexity": "niedrig (linear)",
+      "origin": "Levante, ~1050 v.Chr.",
+      "type": "abjad"
+    },
+    {
+      "script": "Althebräisch",
+      "distance": 0.665,
+      "n_glyphs": 22,
+      "estimated_H": 4.1,
+      "estimated_ioc": 0.075,
+      "estimated_zipf": 1.0,
+      "complexity": "niedrig (linear)",
+      "origin": "Kanaan, ~1000 v.Chr.",
+      "type": "abjad"
+    },
+    {
+      "script": "Ugaritisch",
+      "distance": 0.796,
+      "n_glyphs": 30,
+      "estimated_H": 4.2,
+      "estimated_ioc": 0.075,
+      "estimated_zipf": 0.98,
+      "complexity": "mittel (keilförmig)",
+      "origin": "Syrien, ~1400 v.Chr.",
+      "type": "cuneiform-alphabetisch"
+    },
+    {
+      "script": "Mongolisch (klassisch)",
+      "distance": 0.808,
+      "n_glyphs": 25,
+      "estimated_H": 4.2,
+      "estimated_ioc": 0.07,
+      "estimated_zipf": 0.95,
+      "complexity": "mittel (vertikal)",
+      "origin": "Mongolei, ~1200 n.Chr.",
+      "type": "alphabetisch (vertikal)"
+    },
+    {
+      "script": "Proto-Sinaitisch",
+      "distance": 0.847,
+      "n_glyphs": 30,
+      "estimated_H": 4.0,
+      "estimated_ioc": 0.07,
+      "estimated_zipf": 0.95,
+      "complexity": "hoch (piktographisch)",
+      "origin": "Sinai, ~1850 v.Chr.",
+      "type": "proto-alphabetisch"
+    },
+    {
+      "script": "Iberisch",
+      "distance": 0.866,
+      "n_glyphs": 28,
+      "estimated_H": 4.3,
+      "estimated_ioc": 0.07,
+      "estimated_zipf": 0.95,
+      "complexity": "hoch (geometrisch)",
+      "origin": "Iberien, ~500 v.Chr.",
+      "type": "unentziffert (semi-syllabarisch)"
+    },
+    {
+      "script": "Tifinagh",
+      "distance": 1.607,
+      "n_glyphs": 55,
+      "estimated_H": 4.7,
+      "estimated_ioc": 0.065,
+      "estimated_zipf": 0.9,
+      "complexity": "mittel (geometrisch)",
+      "origin": "Berber, prähistorisch",
+      "type": "abjad (Berber)"
+    },
+    {
+      "script": "Orchon-Runen",
+      "distance": 1.806,
+      "n_glyphs": 60,
+      "estimated_H": 4.8,
+      "estimated_ioc": 0.06,
+      "estimated_zipf": 0.9,
+      "complexity": "mittel (eckig)",
+      "origin": "Jenissei, ~700 n.Chr.",
+      "type": "runen-alphabet (türkisch)"
+    }
+  ],
+  "interpretation": {
+    "closest_script": "Tengrismus-Symbole (modern)",
+    "farthest_script": "Orchon-Runen",
+    "n_close": 1
+  }
+}

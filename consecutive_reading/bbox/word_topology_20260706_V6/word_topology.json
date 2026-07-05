@@ -1,0 +1,605 @@
+{
+  "metadata": {
+    "n_total_words": 411,
+    "n_unique_full_words": 253,
+    "n_repeated_words": 44,
+    "lexical_diversity": 0.6156,
+    "n_unique_consonant_frames": 197,
+    "method": "Wort-Topologie (Alpha) + OCP-Test (Beta) + G25-Kontext (Gamma)"
+  },
+  "alpha_lexicon": {
+    "top20_full_words": [
+      {
+        "word": "G25",
+        "count": 28
+      },
+      {
+        "word": "G29",
+        "count": 15
+      },
+      {
+        "word": "G19",
+        "count": 13
+      },
+      {
+        "word": "G14",
+        "count": 10
+      },
+      {
+        "word": "G10",
+        "count": 9
+      },
+      {
+        "word": "G03",
+        "count": 9
+      },
+      {
+        "word": "G18",
+        "count": 7
+      },
+      {
+        "word": "G05",
+        "count": 7
+      },
+      {
+        "word": "G18-G03",
+        "count": 7
+      },
+      {
+        "word": "G25-G25",
+        "count": 5
+      },
+      {
+        "word": "G18-G25",
+        "count": 5
+      },
+      {
+        "word": "G25-G29",
+        "count": 5
+      },
+      {
+        "word": "G06",
+        "count": 4
+      },
+      {
+        "word": "G29-G25",
+        "count": 4
+      },
+      {
+        "word": "G29-G18",
+        "count": 4
+      },
+      {
+        "word": "G03-G18",
+        "count": 4
+      },
+      {
+        "word": "G01",
+        "count": 4
+      },
+      {
+        "word": "G25-G18",
+        "count": 4
+      },
+      {
+        "word": "G05-G25",
+        "count": 4
+      },
+      {
+        "word": "G29-G19",
+        "count": 4
+      }
+    ],
+    "top20_consonant_frames": [
+      {
+        "frame": "G29",
+        "count": 25
+      },
+      {
+        "frame": "G18",
+        "count": 19
+      },
+      {
+        "frame": "G19",
+        "count": 17
+      },
+      {
+        "frame": "G05",
+        "count": 14
+      },
+      {
+        "frame": "G14",
+        "count": 14
+      },
+      {
+        "frame": "G10",
+        "count": 13
+      },
+      {
+        "frame": "G03",
+        "count": 13
+      },
+      {
+        "frame": "G06",
+        "count": 7
+      },
+      {
+        "frame": "G18G03",
+        "count": 7
+      },
+      {
+        "frame": "G03G18",
+        "count": 6
+      },
+      {
+        "frame": "G29G19",
+        "count": 6
+      },
+      {
+        "frame": "G09",
+        "count": 5
+      },
+      {
+        "frame": "G01",
+        "count": 5
+      },
+      {
+        "frame": "G29G18",
+        "count": 4
+      },
+      {
+        "frame": "G07",
+        "count": 4
+      },
+      {
+        "frame": "G29G10",
+        "count": 4
+      },
+      {
+        "frame": "G06G05",
+        "count": 3
+      },
+      {
+        "frame": "G11",
+        "count": 3
+      },
+      {
+        "frame": "G18G29",
+        "count": 3
+      },
+      {
+        "frame": "G02",
+        "count": 3
+      }
+    ],
+    "word_length_distribution": {
+      "1": 117,
+      "2": 125,
+      "3": 83,
+      "4": 41,
+      "5": 24,
+      "6": 12,
+      "7": 5,
+      "9": 2,
+      "10": 1,
+      "12": 1
+    }
+  },
+  "alpha_affixes": {
+    "first_glyph_top10": [
+      [
+        "G25",
+        102
+      ],
+      [
+        "G29",
+        50
+      ],
+      [
+        "G18",
+        44
+      ],
+      [
+        "G19",
+        38
+      ],
+      [
+        "G03",
+        36
+      ],
+      [
+        "G05",
+        29
+      ],
+      [
+        "G10",
+        22
+      ],
+      [
+        "G14",
+        19
+      ],
+      [
+        "G09",
+        16
+      ],
+      [
+        "G07",
+        14
+      ]
+    ],
+    "last_glyph_top10": [
+      [
+        "G25",
+        94
+      ],
+      [
+        "G19",
+        50
+      ],
+      [
+        "G18",
+        41
+      ],
+      [
+        "G29",
+        39
+      ],
+      [
+        "G03",
+        28
+      ],
+      [
+        "G10",
+        27
+      ],
+      [
+        "G05",
+        25
+      ],
+      [
+        "G06",
+        20
+      ],
+      [
+        "G14",
+        18
+      ],
+      [
+        "G07",
+        17
+      ]
+    ],
+    "pre_g25_top10": [
+      [
+        "G29",
+        21
+      ],
+      [
+        "G18",
+        21
+      ],
+      [
+        "G25",
+        20
+      ],
+      [
+        "G05",
+        17
+      ],
+      [
+        "G19",
+        11
+      ],
+      [
+        "G03",
+        8
+      ],
+      [
+        "G14",
+        7
+      ],
+      [
+        "G09",
+        6
+      ],
+      [
+        "G10",
+        6
+      ],
+      [
+        "G06",
+        3
+      ]
+    ],
+    "post_g25_top10": [
+      [
+        "G25",
+        20
+      ],
+      [
+        "G18",
+        20
+      ],
+      [
+        "G19",
+        17
+      ],
+      [
+        "G05",
+        13
+      ],
+      [
+        "G29",
+        11
+      ],
+      [
+        "G07",
+        10
+      ],
+      [
+        "G06",
+        8
+      ],
+      [
+        "G10",
+        8
+      ],
+      [
+        "G03",
+        7
+      ],
+      [
+        "G01",
+        5
+      ]
+    ]
+  },
+  "beta_ocp": {
+    "non_g25_doubles": {
+      "G29": 5,
+      "G19": 10,
+      "G06": 1,
+      "G18": 13,
+      "G03": 1,
+      "G05": 1,
+      "G09": 1
+    },
+    "x_y_x_symmetric": {
+      "G29-G29-G29": 2,
+      "G19-G18-G19": 2,
+      "G05-G02-G05": 1,
+      "G05-G07-G05": 1,
+      "G19-G05-G19": 1,
+      "G18-G29-G18": 1,
+      "G07-G05-G07": 1,
+      "G19-G25-G19": 1,
+      "G18-G14-G18": 1,
+      "G29-G05-G29": 1,
+      "G29-G19-G29": 1,
+      "G14-G25-G14": 1,
+      "G18-G18-G18": 1,
+      "G09-G19-G09": 1,
+      "G19-G01-G19": 1
+    },
+    "non_g25_double_rate_pct": 5.03,
+    "interpretation": "Wenn OCP-Rate ≈ 0%: Echtes Abjad (Konsonanten-Verdopplung tabu). Wenn OCP-Rate > 5%: Code/formal/maschinell. Tatsächlich: 5.03%"
+  },
+  "gamma_g25_context": {
+    "chain_2": {
+      "count": 12,
+      "pre_top5": [
+        [
+          "G29",
+          2
+        ],
+        [
+          "G09",
+          1
+        ],
+        [
+          "G18",
+          1
+        ],
+        [
+          "G03",
+          1
+        ]
+      ],
+      "post_top5": [
+        [
+          "G11",
+          1
+        ],
+        [
+          "G10",
+          1
+        ],
+        [
+          "G01",
+          1
+        ],
+        [
+          "G07",
+          1
+        ]
+      ]
+    },
+    "chain_3": {
+      "count": 4,
+      "pre_top5": [
+        [
+          "G03",
+          1
+        ]
+      ],
+      "post_top5": [
+        [
+          "G07",
+          1
+        ],
+        [
+          "G18",
+          1
+        ]
+      ]
+    },
+    "chain_4plus": {
+      "count": 0,
+      "examples": []
+    }
+  },
+  "bigrams_top30": [
+    {
+      "bigram": "G29-G25",
+      "count": 21,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G18-G25",
+      "count": 21,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G25",
+      "count": 20,
+      "is_g25_run": true
+    },
+    {
+      "bigram": "G25-G18",
+      "count": 20,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G19",
+      "count": 17,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G05-G25",
+      "count": 17,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G05",
+      "count": 13,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G18-G18",
+      "count": 13,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G09-G19",
+      "count": 12,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G19-G29",
+      "count": 11,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G19-G25",
+      "count": 11,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G29-G18",
+      "count": 11,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G29",
+      "count": 11,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G19-G19",
+      "count": 10,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G07",
+      "count": 10,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G29-G19",
+      "count": 10,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G18-G03",
+      "count": 10,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G18-G19",
+      "count": 9,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G05-G19",
+      "count": 8,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G06",
+      "count": 8,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G03-G25",
+      "count": 8,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G10",
+      "count": 8,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G19-G18",
+      "count": 8,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G07-G05",
+      "count": 7,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G25-G03",
+      "count": 7,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G14-G25",
+      "count": 7,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G03-G18",
+      "count": 7,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G03-G19",
+      "count": 6,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G09-G25",
+      "count": 6,
+      "is_g25_run": false
+    },
+    {
+      "bigram": "G10-G25",
+      "count": 6,
+      "is_g25_run": false
+    }
+  ],
+  "interpretation": "Lexikalische Diversität: 61.56%. Top-Wort-Häufigkeit: 28. OCP-Rate: 5.03%. G25-Doppel-Kontext: pre=[('G29', 2), ('G09', 1), ('G18', 1)], post=[('G11', 1), ('G10', 1), ('G01', 1)]."
+}

@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "n_schmeh_letters": 6764,
+    "n_schmeh_unique": 26,
+    "n_glyphs_unique": 25,
+    "method": "Schmeh-Klartext (manifesto_lines) ↔ Tengri-Glyph-Frequenzen"
+  },
+  "schmeh_top20_letters": [
+    [
+      "E",
+      756
+    ],
+    [
+      "O",
+      597
+    ],
+    [
+      "T",
+      588
+    ],
+    [
+      "N",
+      547
+    ],
+    [
+      "I",
+      504
+    ],
+    [
+      "A",
+      458
+    ],
+    [
+      "S",
+      442
+    ],
+    [
+      "R",
+      392
+    ],
+    [
+      "H",
+      348
+    ],
+    [
+      "U",
+      317
+    ],
+    [
+      "L",
+      311
+    ],
+    [
+      "C",
+      210
+    ],
+    [
+      "D",
+      197
+    ],
+    [
+      "W",
+      189
+    ],
+    [
+      "Y",
+      162
+    ],
+    [
+      "G",
+      155
+    ],
+    [
+      "M",
+      148
+    ],
+    [
+      "F",
+      112
+    ],
+    [
+      "B",
+      98
+    ],
+    [
+      "P",
+      80
+    ]
+  ],
+  "tengri_top20_glyphs": [
+    [
+      "G28",
+      0.1278
+    ],
+    [
+      "G25",
+      0.1278
+    ],
+    [
+      "G16",
+      0.1024
+    ],
+    [
+      "G18",
+      0.0734
+    ],
+    [
+      "G19",
+      0.0704
+    ],
+    [
+      "G29",
+      0.058
+    ],
+    [
+      "G05",
+      0.0444
+    ],
+    [
+      "G26",
+      0.0444
+    ],
+    [
+      "G03",
+      0.042
+    ],
+    [
+      "G13",
+      0.0337
+    ],
+    [
+      "G10",
+      0.0308
+    ],
+    [
+      "G07",
+      0.029
+    ],
+    [
+      "G23",
+      0.0284
+    ],
+    [
+      "G09",
+      0.0243
+    ],
+    [
+      "G06",
+      0.0225
+    ],
+    [
+      "G14",
+      0.0225
+    ],
+    [
+      "G12",
+      0.0213
+    ],
+    [
+      "G01",
+      0.0178
+    ],
+    [
+      "G24",
+      0.0172
+    ],
+    [
+      "G30",
+      0.0136
+    ]
+  ],
+  "hypothesis_mapping": [
+    {
+      "rank": 1,
+      "schmeh_letter": "E",
+      "tengri_glyph": "G28"
+    },
+    {
+      "rank": 2,
+      "schmeh_letter": "O",
+      "tengri_glyph": "G25"
+    },
+    {
+      "rank": 3,
+      "schmeh_letter": "T",
+      "tengri_glyph": "G16"
+    },
+    {
+      "rank": 4,
+      "schmeh_letter": "N",
+      "tengri_glyph": "G18"
+    },
+    {
+      "rank": 5,
+      "schmeh_letter": "I",
+      "tengri_glyph": "G19"
+    },
+    {
+      "rank": 6,
+      "schmeh_letter": "A",
+      "tengri_glyph": "G29"
+    },
+    {
+      "rank": 7,
+      "schmeh_letter": "S",
+      "tengri_glyph": "G05"
+    },
+    {
+      "rank": 8,
+      "schmeh_letter": "R",
+      "tengri_glyph": "G26"
+    },
+    {
+      "rank": 9,
+      "schmeh_letter": "H",
+      "tengri_glyph": "G03"
+    },
+    {
+      "rank": 10,
+      "schmeh_letter": "U",
+      "tengri_glyph": "G13"
+    }
+  ],
+  "correlations": {
+    "pearson_raw": 0.9391,
+    "pearson_zipf_log": 0.9082,
+    "pearson_normalized": 0.9391,
+    "null_model_mean": 0.0573,
+    "null_model_std": 0.1951,
+    "z_score": 4.5199
+  },
+  "bigram_check": {
+    "english_top10": [
+      "TH",
+      "HE",
+      "IN",
+      "ER",
+      "AN",
+      "RE",
+      "ON",
+      "AT",
+      "EN",
+      "ND"
+    ],
+    "schmeh_top10": [
+      "TH",
+      "OU",
+      "IS",
+      "AN",
+      "HE",
+      "ER",
+      "ON",
+      "EN",
+      "HI",
+      "IN"
+    ],
+    "overlap_count": 7
+  },
+  "interpretation": "Z-Score 4.52 bedeutet: Tengri-Glyph-Frequenzen korrelieren SIGNIFIKANT mit Schmehs Klartext-Buchstaben-Frequenzen. → Starke Evidenz, dass Tengri ein lateinisches Substitutions-Alphabet ist (Schmehs Mapping plausibel)."
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "n_expected_glyphs": 25,
+    "n_pages": 23,
+    "n_tokens_total": 1746
+  },
+  "glyph_coverage": {
+    "found": [
+      "G01",
+      "G02",
+      "G03",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G21",
+      "G23",
+      "G24",
+      "G25",
+      "G26",
+      "G28",
+      "G29",
+      "G30"
+    ],
+    "missing": [],
+    "extra": [],
+    "n_found": 25,
+    "n_missing": 0
+  },
+  "confidence_buckets": {
+    ">=0.95": 309,
+    "0.90-0.95": 1437,
+    "0.85-0.90": 0,
+    "<0.85": 0
+  },
+  "per_page": {
+    "p01": {
+      "n_tokens": 154,
+      "n_unique": 25,
+      "mean_conf": 0.941831168831169,
+      "coverage_ink": 0.2928
+    },
+    "p02": {
+      "n_tokens": 127,
+      "n_unique": 22,
+      "mean_conf": 0.9281496062992124,
+      "coverage_ink": 0.1956
+    },
+    "p03": {
+      "n_tokens": 142,
+      "n_unique": 24,
+      "mean_conf": 0.9339507042253522,
+      "coverage_ink": 0.1977
+    },
+    "p04": {
+      "n_tokens": 171,
+      "n_unique": 24,
+      "mean_conf": 0.9294444444444444,
+      "coverage_ink": 0.2539
+    },
+    "p05": {
+      "n_tokens": 34,
+      "n_unique": 13,
+      "mean_conf": 0.9273823529411764,
+      "coverage_ink": 0.1265
+    },
+    "p06": {
+      "n_tokens": 22,
+      "n_unique": 10,
+      "mean_conf": 0.9218181818181818,
+      "coverage_ink": 0.0837
+    },
+    "p07": {
+      "n_tokens": 57,
+      "n_unique": 18,
+      "mean_conf": 0.9263157894736842,
+      "coverage_ink": 0.1658
+    },
+    "p08": {
+      "n_tokens": 36,
+      "n_unique": 13,
+      "mean_conf": 0.9315,
+      "coverage_ink": 0.0977
+    },
+    "p09": {
+      "n_tokens": 78,
+      "n_unique": 19,
+      "mean_conf": 0.9282564102564106,
+      "coverage_ink": 0.159
+    },
+    "p10": {
+      "n_tokens": 157,
+      "n_unique": 20,
+      "mean_conf": 0.9262038216560511,
+      "coverage_ink": 0.2969
+    },
+    "p11": {
+      "n_tokens": 120,
+      "n_unique": 20,
+      "mean_conf": 0.928025,
+      "coverage_ink": 0.2082
+    },
+    "p12": {
+      "n_tokens": 150,
+      "n_unique": 19,
+      "mean_conf": 0.9225666666666668,
+      "coverage_ink": 0.2611
+    },
+    "p13": {
+      "n_tokens": 146,
+      "n_unique": 20,
+      "mean_conf": 0.9244794520547944,
+      "coverage_ink": 0.226
+    },
+    "p14": {
+      "n_tokens": 102,
+      "n_unique": 20,
+      "mean_conf": 0.9226176470588237,
+      "coverage_ink": 0.2117
+    },
+    "p15": {
+      "n_tokens": 142,
+      "n_unique": 22,
+      "mean_conf": 0.928225352112676,
+      "coverage_ink": 0.2626
+    },
+    "p16": {
+      "n_tokens": 108,
+      "n_unique": 19,
+      "mean_conf": 0.9249907407407406,
+      "coverage_ink": 0.2046
+    },
+    "p17": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    },
+    "p18": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    },
+    "p19": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    },
+    "p20": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    },
+    "p21": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    },
+    "p22": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    },
+    "p23": {
+      "n_tokens": 0,
+      "n_unique": 0,
+      "mean_conf": 0.0,
+      "coverage_ink": 0.0
+    }
+  },
+  "global": {
+    "n_tokens": 1746,
+    "n_unique": 25,
+    "mean_conf": 0.9283917525773195,
+    "median_conf": 0.924,
+    "min_conf": 0.9,
+    "max_conf": 1.0
+  },
+  "interpretation": "Von 25 erwarteten Glyphen wurden 25 gefunden. Fehlend: 0. Coverage: 14.10% (Ziel: > 60%). High-Confidence (>= 0.95): 309 (17.7%)."
+}

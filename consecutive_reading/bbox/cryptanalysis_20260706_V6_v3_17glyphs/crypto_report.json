@@ -1,0 +1,294 @@
+{
+  "n_tokens_total": 1013,
+  "n_tokens_unique": 16,
+  "shannon_entropy": 3.5740914990012262,
+  "ioc": 0.10438606416974587,
+  "zipf_alpha": 1.0024547034488815,
+  "top_token_share": 0.21322803553800593,
+  "top_bigrams": [
+    {
+      "bigram": "G25-G25",
+      "count": 41
+    },
+    {
+      "bigram": "G25-G19",
+      "count": 30
+    },
+    {
+      "bigram": "G25-G18",
+      "count": 28
+    },
+    {
+      "bigram": "G19-G25",
+      "count": 27
+    },
+    {
+      "bigram": "G18-G25",
+      "count": 27
+    },
+    {
+      "bigram": "G18-G18",
+      "count": 25
+    },
+    {
+      "bigram": "G29-G25",
+      "count": 24
+    },
+    {
+      "bigram": "G05-G25",
+      "count": 23
+    },
+    {
+      "bigram": "G19-G19",
+      "count": 19
+    },
+    {
+      "bigram": "G25-G29",
+      "count": 19
+    },
+    {
+      "bigram": "G19-G29",
+      "count": 17
+    },
+    {
+      "bigram": "G25-G05",
+      "count": 15
+    },
+    {
+      "bigram": "G03-G25",
+      "count": 15
+    },
+    {
+      "bigram": "G29-G18",
+      "count": 15
+    },
+    {
+      "bigram": "G14-G25",
+      "count": 15
+    },
+    {
+      "bigram": "G09-G19",
+      "count": 14
+    },
+    {
+      "bigram": "G25-G03",
+      "count": 14
+    },
+    {
+      "bigram": "G25-G07",
+      "count": 13
+    },
+    {
+      "bigram": "G10-G25",
+      "count": 13
+    },
+    {
+      "bigram": "G29-G29",
+      "count": 12
+    }
+  ],
+  "glyph_frequencies": [
+    {
+      "glyph_id": "G25",
+      "count": 216,
+      "share": 0.21322803553800593
+    },
+    {
+      "glyph_id": "G18",
+      "count": 124,
+      "share": 0.12240868706811452
+    },
+    {
+      "glyph_id": "G19",
+      "count": 119,
+      "share": 0.11747285291214216
+    },
+    {
+      "glyph_id": "G29",
+      "count": 98,
+      "share": 0.09674234945705824
+    },
+    {
+      "glyph_id": "G05",
+      "count": 75,
+      "share": 0.07403751233958539
+    },
+    {
+      "glyph_id": "G03",
+      "count": 71,
+      "share": 0.0700888450148075
+    },
+    {
+      "glyph_id": "G10",
+      "count": 52,
+      "share": 0.05133267522211254
+    },
+    {
+      "glyph_id": "G07",
+      "count": 49,
+      "share": 0.04837117472852912
+    },
+    {
+      "glyph_id": "G09",
+      "count": 41,
+      "share": 0.040473840078973346
+    },
+    {
+      "glyph_id": "G06",
+      "count": 38,
+      "share": 0.03751233958538993
+    },
+    {
+      "glyph_id": "G14",
+      "count": 38,
+      "share": 0.03751233958538993
+    },
+    {
+      "glyph_id": "G01",
+      "count": 30,
+      "share": 0.029615004935834157
+    },
+    {
+      "glyph_id": "G02",
+      "count": 17,
+      "share": 0.01678183613030602
+    },
+    {
+      "glyph_id": "G11",
+      "count": 17,
+      "share": 0.01678183613030602
+    },
+    {
+      "glyph_id": "G17",
+      "count": 17,
+      "share": 0.01678183613030602
+    },
+    {
+      "glyph_id": "G08",
+      "count": 11,
+      "share": 0.01085883514313919
+    }
+  ],
+  "fliesstext_only": true,
+  "pages_included": [
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p07",
+    "p08",
+    "p09",
+    "p10",
+    "p11",
+    "p12",
+    "p13",
+    "p14",
+    "p15",
+    "p16"
+  ],
+  "per_page": {
+    "p01": {
+      "n_tokens": 92,
+      "shannon_entropy": 3.60890689406215,
+      "ioc": 0.09125656951743909,
+      "zipf_alpha": 0.9505267514932952
+    },
+    "p02": {
+      "n_tokens": 68,
+      "shannon_entropy": 3.2744089902866667,
+      "ioc": 0.11369622475856014,
+      "zipf_alpha": 1.066787717462658
+    },
+    "p03": {
+      "n_tokens": 83,
+      "shannon_entropy": 3.456617601954538,
+      "ioc": 0.10490743461651483,
+      "zipf_alpha": 1.033281108366176
+    },
+    "p04": {
+      "n_tokens": 92,
+      "shannon_entropy": 3.4469966784596275,
+      "ioc": 0.10272336359292882,
+      "zipf_alpha": 1.1125462453177675
+    },
+    "p07": {
+      "n_tokens": 35,
+      "shannon_entropy": 3.2694663332363705,
+      "ioc": 0.09243697478991597,
+      "zipf_alpha": 0.9001155126312513
+    },
+    "p08": {
+      "n_tokens": 19,
+      "shannon_entropy": 2.9000516989995426,
+      "ioc": 0.1111111111111111,
+      "zipf_alpha": 0.8263860272973289
+    },
+    "p09": {
+      "n_tokens": 50,
+      "shannon_entropy": 3.4374058114255175,
+      "ioc": 0.08653061224489796,
+      "zipf_alpha": 0.8259490412168904
+    },
+    "p10": {
+      "n_tokens": 99,
+      "shannon_entropy": 3.279666310530365,
+      "ioc": 0.1090496804782519,
+      "zipf_alpha": 1.1924806004306727
+    },
+    "p11": {
+      "n_tokens": 82,
+      "shannon_entropy": 3.292114485396109,
+      "ioc": 0.12134899126769046,
+      "zipf_alpha": 1.1565732396302992
+    },
+    "p12": {
+      "n_tokens": 93,
+      "shannon_entropy": 3.2470717565127947,
+      "ioc": 0.12131837307152875,
+      "zipf_alpha": 1.2707435161228553
+    },
+    "p13": {
+      "n_tokens": 97,
+      "shannon_entropy": 3.4233536944796423,
+      "ioc": 0.11082474226804123,
+      "zipf_alpha": 1.1063366510019166
+    },
+    "p14": {
+      "n_tokens": 62,
+      "shannon_entropy": 3.1802080548996434,
+      "ioc": 0.13008989952406133,
+      "zipf_alpha": 1.1485630660065111
+    },
+    "p15": {
+      "n_tokens": 82,
+      "shannon_entropy": 3.508859276463381,
+      "ioc": 0.08912978018669075,
+      "zipf_alpha": 1.0660262510476382
+    },
+    "p16": {
+      "n_tokens": 59,
+      "shannon_entropy": 3.3143101968015904,
+      "ioc": 0.10637054354178843,
+      "zipf_alpha": 0.9948096791389687
+    }
+  },
+  "v5_comparison": {
+    "v5_falsifiziert": true,
+    "v5_h_war": 2.8706,
+    "v5_ioc_war": 0.1606,
+    "v5_alpha_war": 2.9281,
+    "interpretation": "V5 hat auf Inken-Strichen (16.797 Connected Components) gerechnet. V6 rechnet auf Glyphen-Tokens (~1690 für Fließtext-Pages). Falls V6-IoC ≈ 0.065 und V6-H ≈ 4.0, ist V5 als 'Font-Redundanz-Statistik' bestätigt."
+  },
+  "english_reference": {
+    "shannon_entropy": 4.14,
+    "ioc": 0.067,
+    "zipf_alpha": 1.0,
+    "top_letter_freq": {
+      "E": 0.127,
+      "T": 0.091,
+      "A": 0.082,
+      "O": 0.075,
+      "I": 0.07
+    }
+  }
+}

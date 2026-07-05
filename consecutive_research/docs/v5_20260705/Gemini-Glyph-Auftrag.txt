@@ -1,0 +1,145 @@
+# Gemini-Auftrag: Identifikation von 30 Tengri-Referenz-Glyphen aus p01
+
+**Zielgruppe:** Google AI Studio (Gemini, multimodal mit PDF-Input)
+**Input-Material:**
+  (1) `Tengri137.pdf` (23 Seiten) — Gemini hat es bereits in der V4-Falsifikation gesehen
+  (2) Diese Auftragsbeschreibung (Methodik + erwartetes Output-Format)
+**Autor der Methodik:** Julian / PhiMind (Konsortium)
+**Datum:** 2026-07-05
+**Vorgeschichte:**
+  - V4 wurde von dir (Gemini) am 2026-07-05 falsifiziert (siehe `Gemini-Antwort.txt`)
+  - V5 wurde von dir (Gemini) am 2026-07-05 teilweise falsifiziert (siehe `Gemini-Antworten2.txt`):
+    *V5-Layout-Befunde stehen (14/23 Pages reines Tengri, 9/23 mit Latein, p23 = Nukleinbasen, Magic-Cube p05/p06)*
+    *V5-Kryptanalyse (Phase 1+5) ist "Junk-Science" weil auf Inken-Strichen statt auf Glyphen gerechnet*
+  - V6 PIVOT: Glyph-First mit Template-Matching (siehe `V6_PLAN.md`)
+
+**Bitte gib am Ende das JSON-Output aus Abschnitt 4 zurück, nichts anderes.**
+
+---
+
+## 1. Kontext — Was wir brauchen
+
+Für V6 brauchen wir **30 distinkte Tengri-Referenz-Glyphen** aus **p01** (oder einer anderen Text-Page deiner Wahl, falls p01 ungünstig ist). Diese 30 Glyphen werden via `cv2.matchTemplate` auf alle 23 Seiten gesucht → ergibt einen diskreten Token-Stream → auf dem wird dann ECHTE Cryptanalysis (IoC, H, α, N-Gramme) gerechnet.
+
+**Wichtig:**
+- Wir wollen **keine** Glyphen, die aus lateinischen Buchstaben, Ziffern oder Formelsymbolen bestehen
+- Wir wollen **keine** Glyphen aus Magic-Cube (p05/p06), Burumut/Mathe (p17-p22), Chemie (p23)
+- Wir wollen **Tengri-Glyphen aus dem Fließtext** der ersten Text-Page(n)
+
+**Vermutung:** Tengri nutzt ~26 Buchstaben (A-Z-Substitution) + Ziffern + ein paar Sonderzeichen. Die 30 Referenz-Glyphen sollten diese ~26-36 distinkten Zeichen abdecken. Wenn du der Meinung bist, dass Tengri KEIN lateinisches Alphabet abbildet, sondern z.B. ein Silbensystem ist, dann sag das bitte.
+
+## 2. Methodik — Wie du vorgehen sollst
+
+### Schritt 1: Page-Auswahl
+Wähle eine Text-Page aus (idealerweise p01, p07 oder p16 — die viel Fließtext haben). Wenn p01 zu wenig Glyphen-Vielfalt hat, nimm eine andere.
+
+### Schritt 2: Visuelle Glyph-Identifikation
+Identifiziere **30 distinkte Tengri-Glyphen** visuell. Pro Glyph:
+- **Visuelle Beschreibung** in 1-2 Sätzen (Form, Komponenten, Symmetrie)
+- **Bounding Box** in PDF-Koordinaten (wir nutzen 150 DPI → 1125×1625 Pixel pro Page)
+  - Format: `[x, y, w, h]` mit `x, y` = Top-Left-Corner, `w, h` = Breite/Höhe in Pixeln
+  - **Tipp:** Falls du die exakten Pixel-Koordinaten nicht aus dem PDF extrahieren kannst, schätze sie anhand der typischen Glyph-Größe (~30-50 px breit, ~30-50 px hoch). Wir können die Koordinaten nachträglich tunen.
+- **Glyph-ID**: `G01` bis `G30` (durchnummeriert in der Reihenfolge, wie du sie findest)
+- **Sample-Page + Position**: `page_id` + `bbox` (für Phase 1 Template-Match)
+
+### Schritt 3: Glyph-Typ-Klassifikation
+Klassifiziere jedes Glyph grob:
+- `letter_like`: sieht aus wie ein lateinischer Buchstabe (z.B. ähnlich zu "A", "X", "O")
+- `geometric_pure`: abstrakte geometrische Form (Kreis, Raute, Dreieck, Kombination)
+- `compound`: Kombination aus mehreren geometrischen Elementen
+- `unknown`: passt in keine Kategorie
+
+### Schritt 4: Häufigkeits-Schätzung
+Schätze pro Glyph, wie oft es auf p01 vorkommt (Häufigkeit). Das hilft uns, die Glyphen-IDs in Phase 1 zu validieren.
+
+## 3. Output-Format (JSON)
+
+Gib das Ergebnis **ausschließlich** als JSON zurück, mit folgender Struktur:
+
+```json
+{
+  "metadata": {
+    "page_used": "p01",
+    "page_dimensions_px": [1125, 1625],
+    "n_glyphs_identified": 30,
+    "gemini_confidence": "high|medium|low",
+    "notes": "Optional: Kommentar zur Auswahl (z.B. 'p01 hat nur 24 distinkte Glyphen, deshalb p07 mit hinzugenommen')"
+  },
+  "glyphs": [
+    {
+      "glyph_id": "G01",
+      "page_id": "p01",
+      "bbox": [x, y, w, h],
+      "visual_description": "Kurze geometrische Beschreibung (1-2 Sätze)",
+      "type": "letter_like|geometric_pure|compound|unknown",
+      "estimated_frequency_on_p01": 5,
+      "similar_to_latin": "A|X|O|null"
+    },
+    {
+      "glyph_id": "G02",
+      "page_id": "p01",
+      "bbox": [x, y, w, h],
+      "visual_description": "...",
+      "type": "...",
+      "estimated_frequency_on_p01": 3,
+      "similar_to_latin": "..."
+    }
+    // ... bis G30
+  ],
+  "tenri_alphabet_hypothesis": {
+    "n_distinct_glyphs_estimated": 30,
+    "maps_to_latin_alphabet": true|false|uncertain,
+    "maps_to_syllabary": true|false|uncertain,
+    "comment": "Deine Einschätzung: ist Tengri ein lateinisches Substitutions-Alphabet, ein Silbensystem, ein numerisches System, oder etwas anderes?"
+  }
+}
+```
+
+**Koordinaten-Konvention:**
+- `bbox = [x, y, w, h]`
+- `x` = Pixel von links (0 = linke Page-Kante)
+- `y` = Pixel von oben (0 = obere Page-Kante)
+- `w`, `h` = Breite, Höhe in Pixeln
+- Page ist 1125×1625 Pixel (150 DPI)
+
+## 4. Begründung — Warum 30 Glyphen?
+
+- V4 hatte 997 Crops (Overclustering) — viel zu viel
+- V5 hatte K=34 (Constraint-Clustering) — zufällig richtig, aber methodisch Müll
+- Eine echte Tengri-Schrift hat vermutlich ~26-36 distinkte Zeichen (passend zu lateinischem Alphabet + Ziffern)
+- 30 ist ein guter Mittelwert: genug für Template-Match auf allen 23 Seiten, nicht zu viel für manuelle Klassifikation
+
+## 5. Beispielfragen an dich
+
+Falls du unsicher bist:
+- **Q: "Sind manche Glyphen visuell identisch, aber in verschiedenen Größen?"** → A: Ja, das ist möglich. Wir würden sie als `G01_size_small` und `G01_size_large` markieren.
+- **Q: "Was, wenn Tengri Ligaturen hat (2+ Glyphen verbunden)?"** → A: Markiere die Ligatur als eigenes Glyph (z.B. `G15_ligature`).
+- **Q: "Was, wenn ich nur 24 distinkte Glyphen finde?"** → A: Nimm 24, nicht 30. Qualität > Quantität.
+- **Q: "Was, wenn ich 40+ distinkte Glyphen finde?"** → A: Nimm die 30 häufigsten. Seltene Glyphen sind Rauschen.
+- **Q: "Woher weiß ich, dass eine Form ein Glyph ist und nicht nur ein Tintenklecks?"** → A: Wenn die Form mehrfach auf der Page vorkommt UND eine erkennbare geometrische Struktur hat, ist es ein Glyph.
+
+## 6. Sanity-Check
+
+Bevor du das JSON zurückgibst, prüfe:
+- [ ] Alle 30 Glyphen haben eine `bbox` (oder Schätzung)
+- [ ] Alle 30 Glyphen haben eine `visual_description`
+- [ ] Alle 30 Glyphen haben eine `type`-Klassifikation
+- [ ] Die `glyph_id`s sind eindeutig (G01-G30, keine Duplikate)
+- [ ] Die `tenri_alphabet_hypothesis` ist ausgefüllt
+
+## 7. Was wir mit dem Output machen
+
+1. **Phase 1 (Template-Match):** Wir laden deine 30 Bbox-Crops aus p01 als Templates, suchen mit `cv2.matchTemplate` (Threshold 0.85) auf allen 23 Seiten
+2. **Phase 2 (Token-Validation):** Wir prüfen, ob die Glyphen an den erwarteten Stellen matchen und ob Coverage ≥ 80% ist
+3. **Phase 3 (Cryptanalysis):** Wir berechnen IoC, H, α auf dem ECHTEN Token-Stream (nicht auf Strichen)
+4. **Phase 4 (Frequency-Match):** Wir vergleichen die Glyph-Häufigkeiten mit Englisch/Türkisch/Mongolisch/Deutsch
+
+**Falls V6 zeigt, dass Tengri tatsächlich englische Substitution ist** (Frequency-Match > 0.95 für Englisch), dann hat Schmeh (2017) in seiner Grundannahme recht, auch wenn seine konkreten Wörter auf den Formel-Pages nicht stimmen.
+
+**Falls V6 zeigt, dass Tengri KEIN lateinisches Alphabet ist**, dann war Schmeh komplett falsch und wir haben ein echtes Rätsel.
+
+---
+
+**Vielen Dank. Bitte gib nur das JSON aus Abschnitt 3 zurück, mit deinen 30 besten Tengri-Referenz-Glyphen aus p01 (oder einer anderen Text-Page deiner Wahl).**
+
+— Julian / PhiMind, 2026-07-05

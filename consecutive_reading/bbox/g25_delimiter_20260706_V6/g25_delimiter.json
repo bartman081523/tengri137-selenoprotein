@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "n_tokens_total": 1047,
+    "n_blocks_after_g25_split": 184,
+    "delimiter": "G25",
+    "method": "G25 als Delimiter (Formale-Sprache-Hypothese)"
+  },
+  "attack_1_g25_split": {
+    "n_blocks": 184,
+    "block_length_distribution": {
+      "1": 39,
+      "2": 31,
+      "3": 31,
+      "4": 20,
+      "5": 22,
+      "6": 8,
+      "7": 9,
+      "8": 4,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 1,
+      "14": 3,
+      "15": 4,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "21": 1,
+      "22": 1,
+      "24": 1
+    },
+    "mean_block_length": 4.45,
+    "median_block_length": 3,
+    "mode_length": 1,
+    "mode_uniformity": 0.212,
+    "n_empty_blocks": 0,
+    "is_fixed_format": false
+  },
+  "attack_2_glyph_classes": {
+    "G01": {
+      "left_of_g25": 7,
+      "right_of_g25": 7,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 14
+    },
+    "G02": {
+      "left_of_g25": 2,
+      "right_of_g25": 2,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 4
+    },
+    "G03": {
+      "left_of_g25": 16,
+      "right_of_g25": 15,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 31
+    },
+    "G05": {
+      "left_of_g25": 23,
+      "right_of_g25": 17,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 40
+    },
+    "G06": {
+      "left_of_g25": 11,
+      "right_of_g25": 12,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 23
+    },
+    "G07": {
+      "left_of_g25": 4,
+      "right_of_g25": 14,
+      "class": "OPERAND (rechts dominiert)",
+      "total_contact": 18
+    },
+    "G08": {
+      "left_of_g25": 0,
+      "right_of_g25": 2,
+      "class": "OPERAND (rechts dominiert)",
+      "total_contact": 2
+    },
+    "G09": {
+      "left_of_g25": 6,
+      "right_of_g25": 9,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 15
+    },
+    "G10": {
+      "left_of_g25": 13,
+      "right_of_g25": 8,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 21
+    },
+    "G11": {
+      "left_of_g25": 1,
+      "right_of_g25": 6,
+      "class": "OPERAND (rechts dominiert)",
+      "total_contact": 7
+    },
+    "G14": {
+      "left_of_g25": 15,
+      "right_of_g25": 10,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 25
+    },
+    "G17": {
+      "left_of_g25": 2,
+      "right_of_g25": 2,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 4
+    },
+    "G18": {
+      "left_of_g25": 28,
+      "right_of_g25": 27,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 55
+    },
+    "G19": {
+      "left_of_g25": 27,
+      "right_of_g25": 31,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 58
+    },
+    "G29": {
+      "left_of_g25": 28,
+      "right_of_g25": 21,
+      "class": "VARIABLE (gemischt)",
+      "total_contact": 49
+    }
+  },
+  "attack_3_complexity": {
+    "G01": 0.2115,
+    "G03": 0.2136,
+    "G17": 0.2244,
+    "G09": 0.2362,
+    "G19": 0.2443,
+    "G11": 0.2494,
+    "G29": 0.25,
+    "G25": 0.2525,
+    "G18": 0.269,
+    "G02": 0.2807,
+    "G10": 0.2836,
+    "G08": 0.2871,
+    "G05": 0.292,
+    "G04": 0.311,
+    "G07": 0.3303,
+    "G14": 0.3451,
+    "G06": 0.3473
+  },
+  "interpretation": "G25-Split ergibt 184 Blöcke. Blocklängen-Modus: 1 (21% der Blöcke). Operator-Hypothese bestätigt: G25 ist mäßig einfach. Klassen-Verteilung: 0 Befehle, 3 Operanden, 0 Konstanten, 12 Variablen."
+}

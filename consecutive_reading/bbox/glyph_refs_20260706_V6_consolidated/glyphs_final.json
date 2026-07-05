@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "n_original": 25,
+    "n_unique": 17,
+    "n_duplicates_removed": 8,
+    "method": "Pixel-Cosine + SSIM Duplikat-Detection aus Phase 1f",
+    "source": "models/symbols_20260706_V6/pixel_similarity_report.json"
+  },
+  "mapping": {
+    "G13": "G03",
+    "G16": "G03",
+    "G27": "G03",
+    "G24": "G04",
+    "G23": "G05",
+    "G20": "G07",
+    "G22": "G07",
+    "G26": "G07",
+    "G15": "G08",
+    "G12": "G10",
+    "G21": "G11",
+    "G28": "G17",
+    "G30": "G17"
+  },
+  "canonical": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11",
+    "G14",
+    "G17",
+    "G18",
+    "G19",
+    "G25",
+    "G29"
+  ],
+  "glyphs": [
+    {
+      "glyph_id": "G01",
+      "page_id": "p01",
+      "bbox": [
+        196,
+        426,
+        11,
+        24
+      ],
+      "visual_description": "Nach links offener Haken, ähnlich dem Buchstaben J ohne Querstrich.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 15,
+      "similar_to_latin": "J",
+      "template_path": "refs/G01.png",
+      "v5_component_id": 20,
+      "v5_fill_ratio": 0.5,
+      "v5_size_px": 132,
+      "canonical_id": "G01"
+    },
+    {
+      "glyph_id": "G02",
+      "page_id": "p01",
+      "bbox": [
+        210,
+        425,
+        13,
+        25
+      ],
+      "visual_description": "Nach rechts geöffneter Halbmond oder Klammer.",
+      "type": "geometric_pure",
+      "estimated_frequency_on_p01": 20,
+      "similar_to_latin": ")",
+      "template_path": "refs/G02.png",
+      "v5_component_id": 4,
+      "v5_fill_ratio": 0.4585,
+      "v5_size_px": 149,
+      "canonical_id": "G02"
+    },
+    {
+      "glyph_id": "G03",
+      "page_id": "p01",
+      "bbox": [
+        225,
+        426,
+        13,
+        24
+      ],
+      "visual_description": "Ein nach rechts weisender Winkel (Chevron).",
+      "type": "geometric_pure",
+      "estimated_frequency_on_p01": 25,
+      "similar_to_latin": ">",
+      "template_path": "refs/G03.png",
+      "v5_component_id": 21,
+      "v5_fill_ratio": 0.4231,
+      "v5_size_px": 132,
+      "canonical_id": "G03"
+    },
+    {
+      "glyph_id": "G24",
+      "page_id": "p01",
+      "bbox": [
+        296,
+        626,
+        16,
+        25
+      ],
+      "visual_description": "Ein vertikaler Strich mit einem horizontalen Arm unten nach rechts.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 10,
+      "similar_to_latin": "L",
+      "template_path": "refs/G04.png",
+      "v5_component_id": 139,
+      "v5_fill_ratio": 0.5225,
+      "v5_size_px": 209,
+      "canonical_id": "G04",
+      "_note": "Original-ID war G24, mapped zu kanonischem G04"
+    },
+    {
+      "glyph_id": "G05",
+      "page_id": "p01",
+      "bbox": [
+        293,
+        425,
+        22,
+        25
+      ],
+      "visual_description": "Ein einfacher, gerader vertikaler Strich.",
+      "type": "geometric_pure",
+      "estimated_frequency_on_p01": 30,
+      "similar_to_latin": "I",
+      "template_path": "refs/G05.png",
+      "v5_component_id": 7,
+      "v5_fill_ratio": 0.4691,
+      "v5_size_px": 258,
+      "canonical_id": "G05"
+    },
+    {
+      "glyph_id": "G06",
+      "page_id": "p01",
+      "bbox": [
+        318,
+        426,
+        11,
+        24
+      ],
+      "visual_description": "Ein vertikaler Strich mit drei horizontalen Armen nach rechts, runenartig.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 15,
+      "similar_to_latin": "E",
+      "template_path": "refs/G06.png",
+      "v5_component_id": 22,
+      "v5_fill_ratio": 0.5682,
+      "v5_size_px": 150,
+      "canonical_id": "G06"
+    },
+    {
+      "glyph_id": "G07",
+      "page_id": "p01",
+      "bbox": [
+        331,
+        425,
+        15,
+        25
+      ],
+      "visual_description": "Zwei vertikale Striche, die durch eine fallende Diagonale verbunden sind.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 10,
+      "similar_to_latin": "N",
+      "template_path": "refs/G07.png",
+      "v5_component_id": 8,
+      "v5_fill_ratio": 0.6027,
+      "v5_size_px": 226,
+      "canonical_id": "G07"
+    },
+    {
+      "glyph_id": "G08",
+      "page_id": "p01",
+      "bbox": [
+        349,
+        426,
+        11,
+        24
+      ],
+      "visual_description": "Zwei parallele vertikale Linien mit einem horizontalen Mittelstrich.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 12,
+      "similar_to_latin": "H",
+      "template_path": "refs/G08.png",
+      "v5_component_id": 23,
+      "v5_fill_ratio": 0.5606,
+      "v5_size_px": 148,
+      "canonical_id": "G08"
+    },
+    {
+      "glyph_id": "G09",
+      "page_id": "p01",
+      "bbox": [
+        361,
+        426,
+        23,
+        24
+      ],
+      "visual_description": "Ein vertikaler Strich mit einem horizontalen Arm oben nach rechts (ähnlich Gamma).",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 8,
+      "similar_to_latin": "L",
+      "template_path": "refs/G09.png",
+      "v5_component_id": 24,
+      "v5_fill_ratio": 0.4167,
+      "v5_size_px": 230,
+      "canonical_id": "G09"
+    },
+    {
+      "glyph_id": "G10",
+      "page_id": "p01",
+      "bbox": [
+        419,
+        425,
+        17,
+        25
+      ],
+      "visual_description": "Ein breiter Buchstabe aus zwei nach oben zeigenden, zusammenhängenden Spitzen (M-Form).",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 10,
+      "similar_to_latin": "M",
+      "template_path": "refs/G10.png",
+      "v5_component_id": 9,
+      "v5_fill_ratio": 0.5671,
+      "v5_size_px": 241,
+      "canonical_id": "G10"
+    },
+    {
+      "glyph_id": "G11",
+      "page_id": "p01",
+      "bbox": [
+        438,
+        426,
+        13,
+        24
+      ],
+      "visual_description": "Ein vertikaler Stamm, der sich oben in zwei Äste gabelt (ähnlich Y).",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 15,
+      "similar_to_latin": "Y",
+      "template_path": "refs/G11.png",
+      "v5_component_id": 26,
+      "v5_fill_ratio": 0.4776,
+      "v5_size_px": 149,
+      "canonical_id": "G11"
+    },
+    {
+      "glyph_id": "G14",
+      "page_id": "p01",
+      "bbox": [
+        536,
+        426,
+        20,
+        24
+      ],
+      "visual_description": "Eine Zickzack-Linie oder Blitz-Form.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 12,
+      "similar_to_latin": "S",
+      "template_path": "refs/G14.png",
+      "v5_component_id": 30,
+      "v5_fill_ratio": 0.5833,
+      "v5_size_px": 280,
+      "canonical_id": "G14"
+    },
+    {
+      "glyph_id": "G17",
+      "page_id": "p01",
+      "bbox": [
+        614,
+        426,
+        17,
+        24
+      ],
+      "visual_description": "Ein vertikaler Strich mit einem Dreieck/Bogen auf der rechten Seite, ähnlich einem eckigen D.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 15,
+      "similar_to_latin": "D",
+      "template_path": "refs/G17.png",
+      "v5_component_id": 34,
+      "v5_fill_ratio": 0.4314,
+      "v5_size_px": 176,
+      "canonical_id": "G17"
+    },
+    {
+      "glyph_id": "G18",
+      "page_id": "p01",
+      "bbox": [
+        652,
+        425,
+        14,
+        25
+      ],
+      "visual_description": "Ein vertikaler Strich mit zwei aufwärts gerichteten diagonalen Armen nach rechts (Runen-F).",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 8,
+      "similar_to_latin": "F",
+      "template_path": "refs/G18.png",
+      "v5_component_id": 13,
+      "v5_fill_ratio": 0.58,
+      "v5_size_px": 203,
+      "canonical_id": "G18"
+    },
+    {
+      "glyph_id": "G19",
+      "page_id": "p01",
+      "bbox": [
+        386,
+        426,
+        23,
+        23
+      ],
+      "visual_description": "Ein eckiger Kreis oder Hexagon.",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 12,
+      "similar_to_latin": "O",
+      "template_path": "refs/G19.png",
+      "v5_component_id": 25,
+      "v5_fill_ratio": 0.4405,
+      "v5_size_px": 233,
+      "canonical_id": "G19"
+    },
+    {
+      "glyph_id": "G25",
+      "page_id": "p01",
+      "bbox": [
+        608,
+        627,
+        14,
+        24
+      ],
+      "visual_description": "Zwei orthogonal sich kreuzende Linien (Pluszeichen).",
+      "type": "geometric_pure",
+      "estimated_frequency_on_p01": 5,
+      "similar_to_latin": "+",
+      "template_path": "refs/G25.png",
+      "v5_component_id": 157,
+      "v5_fill_ratio": 0.5268,
+      "v5_size_px": 177,
+      "canonical_id": "G25"
+    },
+    {
+      "glyph_id": "G29",
+      "page_id": "p01",
+      "bbox": [
+        650,
+        506,
+        14,
+        24
+      ],
+      "visual_description": "Ein vertikaler Strich, der sich nach unten in zwei diagonale Beine spaltet (umgedrehtes Y).",
+      "type": "letter_like",
+      "estimated_frequency_on_p01": 6,
+      "similar_to_latin": "Y",
+      "template_path": "refs/G29.png",
+      "v5_component_id": 110,
+      "v5_fill_ratio": 0.5655,
+      "v5_size_px": 190,
+      "canonical_id": "G29"
+    }
+  ]
+}
