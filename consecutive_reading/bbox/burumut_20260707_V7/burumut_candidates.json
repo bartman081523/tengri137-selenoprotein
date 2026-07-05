@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "periode": "0072973525613766677788831415921618033299792458",
+    "periode_lang": 46,
+    "schmehs_hinweis": "EXACT FORTY SIX"
+  },
+  "kandidaten": [
+    {
+      "variante": "V1",
+      "beschreibung": "23 Atome, führendes Paar 00 = Sentinel/Marker",
+      "burumut": "_HBBMPRDHIRBSPUSALGEACC",
+      "n_buchstaben": 23
+    },
+    {
+      "variante": "V2",
+      "beschreibung": "23 Atome, 00 = O (Sauerstoff)",
+      "burumut": "OHBBMPRDHIRBSPUSALGEACC",
+      "n_buchstaben": 23
+    },
+    {
+      "variante": "V3",
+      "beschreibung": "22 Atome, 0 als Vorperiode, 44 Ziffern = 22 Atome",
+      "burumut": "NCTTBAODIPRGNPSPHACBUR",
+      "n_buchstaben": 22
+    },
+    {
+      "variante": "V4",
+      "beschreibung": "23 Atome, 00 = '.' (Punkt)",
+      "burumut": ".HBBMPRDHIRBSPUSALGEACC",
+      "n_buchstaben": 23
+    }
+  ],
+  "vergleich_mit_tappeiner": {
+    "tappeiner_burumutrefamtu": "BURUMUTREFAMTU (14 Buchstaben, 28-Ziffern-Periode)",
+    "schmehs_46_periode_atome": "22 oder 23 Atome",
+    "kompatibilitaet": "FRAGE: Wie hängen 14-Buchstaben-BURUMUT und 22/23-Buchstaben-BURUMUT zusammen?"
+  }
+}
