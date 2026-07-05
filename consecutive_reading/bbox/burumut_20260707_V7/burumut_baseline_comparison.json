@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "phase": "V7 / Phase 20",
+    "datum": "2026-07-04",
+    "frage": "Engineering vs Rauschen",
+    "methode": "Periodensystem-Baseline-Kalibrierung",
+    "n_baseline": 100000
+  },
+  "burumut_stats": {
+    "label": "BURUMUT",
+    "n_chars": 930,
+    "n_unique": 24,
+    "ic": 0.059,
+    "entropy": 4.26,
+    "consonants": 747,
+    "vowels": 183,
+    "ratio": 4.08
+  },
+  "baseline_stats": {
+    "label": "Baseline (10k Dinome)",
+    "n_chars": 99988,
+    "n_unique": 24,
+    "ic": 0.0598,
+    "entropy": 4.262,
+    "consonants": 84617,
+    "vowels": 15371,
+    "ratio": 5.5
+  },
+  "anomalien": [
+    {
+      "buchstabe": "D",
+      "ratio": 0.13,
+      "burumut_pct": 0.32,
+      "baseline_pct": 2.42
+    },
+    {
+      "buchstabe": "L",
+      "ratio": 0.41,
+      "burumut_pct": 1.72,
+      "baseline_pct": 4.18
+    },
+    {
+      "buchstabe": "U",
+      "ratio": 2.86,
+      "burumut_pct": 2.37,
+      "baseline_pct": 0.83
+    }
+  ],
+  "chi_quadrat": {
+    "chi_sq": 92.81,
+    "df": 23,
+    "chi_sq_per_df": 4.04
+  },
+  "rein_konsonantische_woerter": {
+    "burumut_pct": 9.09,
+    "baseline_pct": 9.63,
+    "ratio": 0.94
+  },
+  "interpretation": "ENGINEERING: BURUMUT-Verteilung signifikant verschieden von Periodensystem-Rauschen. Der Autor hat Primzahlen gezielt konstruiert."
+}
