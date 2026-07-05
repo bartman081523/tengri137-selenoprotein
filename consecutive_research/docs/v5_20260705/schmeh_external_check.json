@@ -1,0 +1,346 @@
+{
+  "n_pages": 23,
+  "n_pages_pure_tengri": 14,
+  "n_pages_with_latin": 9,
+  "n_pages_match": 8,
+  "n_pages_mismatch": 15,
+  "page_results": {
+    "p01": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 29,
+      "schmeh_n_latin": 16,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONL",
+        "Y THE CHOSEN SOULS KNOW THE MEANING. WORTHY A",
+        "RE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND US"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 16 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p02": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 34,
+      "schmeh_n_latin": 14,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "THIS IS AN SELECTION. TENGRI WILL GIVE YOU KNOW",
+        "LEDGE. DO NOT BE SCARED. NOTHING IS AS IT WAS T",
+        "OLD. TENGRI IS LIGHT IN THE DARKNESS. TENGRI B"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 14 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p03": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 43,
+      "schmeh_n_latin": 16,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "WHENEVER THE TIME IS RIGHT, WE BRING YOU KNOW",
+        "LEDGE. THE KNOWLEDGE COMES FROM AFAR. ONLY REA",
+        "DING THE MESSAGE, IS NOT TO UNDERSTANDING IT. A"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 16 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p04": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 26,
+      "schmeh_n_latin": 17,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "JUST AS THE CHOSEN SOUL WANTS TO BRING HIS PEOP",
+        "LE PROOFS, WE BRING YOU ALSO AN PROOF FOR OUR EXIS",
+        "TENCE. THIS IS A CALCULATION WE GAVE YOU OVER M"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 17 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p05": {
+      "layout": "magic_cube",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 4,
+      "v5_n_tengri_glyphs": 116,
+      "schmeh_n_latin": 4,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "REVELATION (13:18)",
+        "UNT THE NUMBER OF THE BEAST, FOR IT IS THE NUMBER",
+        "OF A MAN, AND HIS NUMBER IS SIX HUNDRED THREESCORE A"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "MAGIC_CUBE: V5 hat 4 (Tesseract-Fehler auf 3D-Struktur), Schmeh hat 4. Magic-Cube enthält keine echte lateinische Schrift."
+    },
+    "p06": {
+      "layout": "magic_cube",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 9,
+      "v5_n_tengri_glyphs": 121,
+      "schmeh_n_latin": 1,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "EZRA (2:13)"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "MAGIC_CUBE: V5 hat 9 (Tesseract-Fehler auf 3D-Struktur), Schmeh hat 1. Magic-Cube enthält keine echte lateinische Schrift."
+    },
+    "p07": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 27,
+      "schmeh_n_latin": 2,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "E YEAR WAS SIX HUNDRED AND THREESCORE AND SIX TALENTS O",
+        "F GOLD\""
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 2 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p08": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 67,
+      "schmeh_n_latin": 2,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "E YEAR WAS SIX HUNDRED THREESCORE AND SIX TALENTS O",
+        "F GOLD\""
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 2 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p09": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 18,
+      "schmeh_n_latin": 8,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "THIS CUBES ARE QUITE SIMPLE FOR US. NOW YOU CAN FI",
+        "ND OUT THE MEANING OF SOME OTHER FIGURES. THIS ARE",
+        "MORE ADVANCED FOR YOU. YOU WILL SEE WITH THIS EXAM"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 8 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p10": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 38,
+      "schmeh_n_latin": 6,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "NO RANDOM NUMBERS YOU SEE HERE. NO GAP BETWEEN THIS NUM",
+        "BERS. EACH GROUP IS UNIQUE. FIND OUR NUMBER. WE A",
+        "RE NO ORDINARY BEINGS."
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 6 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p11": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 55,
+      "schmeh_n_latin": 10,
+      "schmeh_n_glyphs": 2,
+      "schmeh_text_sample": [
+        "THESE NUMBERS SHOULD MAKE YOU THINK ABOUT OUR ORIGI",
+        "N. A COMPLETE SERIES WITHOUT GAPS BETWEEN THE NUMBE",
+        "RS. PERFECT ARRANGED NUMBER GROUPS TO SIX SQUARES. CHE"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 10 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p12": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 45,
+      "schmeh_n_latin": 19,
+      "schmeh_n_glyphs": 3,
+      "schmeh_text_sample": [
+        "ONE THREE SEVEN. THE HOLIEST NUMBER OF ALL. A CALCULAT",
+        "ION OF THIS HOLY NUMBER IS THE PROOF. A TRUTH WHICH",
+        "LIES IN THESE CALCULATION. SEARCH FOR THIS HOLY NUMBER"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 19 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p13": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 54,
+      "schmeh_n_latin": 18,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "EVERYTHING BECOMES DIFFICULT FROM NOW ON. IMPORTANT",
+        "CONTENT NEEDS TO BE HIDDEN. THIS KNOWLEDGE IS ONLY",
+        "FOR THE CHOSEN SOUL. ONLY HIS MIND WILL BE HIS HEL"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 18 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p14": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 56,
+      "schmeh_n_latin": 19,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "WE KNOW THAT YOU PUT OUR EXISTENCE IN QUESTION.",
+        "SO WE WANT TO GIVE YOU \"NOW\" THE ULTIMATE PROOF. GE",
+        "NERATIONS AGO WE TOLD YOU OUR NAME. THIS NAME IS UNCHA"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 19 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p15": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 48,
+      "schmeh_n_latin": 18,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "THIS IS A ROUGH CALCULATION. YOU WILL SEE THAT THE WA",
+        "Y OF THIS CALCULATION IS UNIQUE. THE CALCULATION OF T",
+        "HIS DIMENSIONLESS PHYSICAL CONSTANT WITH ONLY ONE DI"
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 18 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p16": {
+      "layout": "fliesstext",
+      "layout_confidence": 0.333,
+      "v5_n_latin_tokens": 0,
+      "v5_n_tengri_glyphs": 38,
+      "schmeh_n_latin": 15,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "CALCULATE THE NEXT UNIQUE NUMBER AND SEE OUR PROOF",
+        "OW THAT THIS GIVEN VALUES ARE SO EXACT, YOU CANNOT",
+        "CHANGE ANY OF THIS VALUES IN THIS CALCULATION."
+      ],
+      "verdict": "MISMATCH",
+      "interpretation": "PURE_TENGRI: V5 findet 0 lateinische Tokens. Schmeh dechiffriert 15 lateinische Zeilen — diese entstammen der Tengri-Substitution, NICHT realem lateinischen Text."
+    },
+    "p17": {
+      "layout": "burumut_block",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 118,
+      "v5_n_tengri_glyphs": 24,
+      "schmeh_n_latin": 17,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "IF YOU ARE NOT CONVINCED THEN CALCULATE THE NEXT",
+        "NUMBER AND SEE WHAT A PROOF IS PROVIDED TO YOU ADAM",
+        "MEAN. DECIMALS HAVE THEIR OWN MEANING. A REPETITIVE"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "BOTH_LATIN (burumut_block): V5=118, Schmeh=17"
+    },
+    "p18": {
+      "layout": "silhouette_formel",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 169,
+      "v5_n_tengri_glyphs": 24,
+      "schmeh_n_latin": 0,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [],
+      "verdict": "SCHMEH_INCOMPLETE",
+      "interpretation": "REAL_LATIN_ONLY: V5 findet lateinische Tokens, Schmeh sieht keine. Schmeh hat diese Page übersehen oder als 'glyph' klassifiziert."
+    },
+    "p19": {
+      "layout": "burumut_block",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 91,
+      "v5_n_tengri_glyphs": 26,
+      "schmeh_n_latin": 16,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "TIME FOR THE TRUTH",
+        "OVER MANY THOUSAND YEARS WE SEND YOU MESSENGERS AND TEACHER",
+        "ALL THIS KNOWLEDGE BEHIND YOUR CIVILISATION IS OURS"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "BOTH_LATIN (burumut_block): V5=91, Schmeh=16"
+    },
+    "p20": {
+      "layout": "burumut_block",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 213,
+      "v5_n_tengri_glyphs": 43,
+      "schmeh_n_latin": 16,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "THERE ARE PEOPLE AMONG YOU",
+        "THESE PEOPLE DO NOT UNDERSTAND THE MEANING OF OUR INTERVENTION",
+        "WE PREPARE YOU FOR THOUSANDS OF YEARS FOR THIS MEETING"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "BOTH_LATIN (burumut_block): V5=213, Schmeh=16"
+    },
+    "p21": {
+      "layout": "burumut_block",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 139,
+      "v5_n_tengri_glyphs": 16,
+      "schmeh_n_latin": 13,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "ANOTHER TRUTH",
+        "A CALCULATION THAT CAN NOT BE REVIEWED BY YOU",
+        "DOES NOT MEAN THAT THERE IS NO ANSWER"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "BOTH_LATIN (burumut_block): V5=139, Schmeh=13"
+    },
+    "p22": {
+      "layout": "silhouette_formel",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 132,
+      "v5_n_tengri_glyphs": 19,
+      "schmeh_n_latin": 19,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "YOUR MEASUREMENT IS ONLY VALID WITH AN EXACT RESULT",
+        "THE MEASURMENT OF AN INFINITE GARDEN CAN NOT BROUGHT TO AN END BY YOU",
+        "YOU HAVE NOT THE TOOLS AND YOU HAVE NOT THE TIME"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "BOTH_LATIN (silhouette_formel): V5 hat 132, Schmeh hat 19. Latein existiert real, aber Schmehs Zeilen sind dechiffrierte Substitution, nicht der OCR-Text."
+    },
+    "p23": {
+      "layout": "chemie_struktur",
+      "layout_confidence": 0.95,
+      "v5_n_latin_tokens": 222,
+      "v5_n_tengri_glyphs": 30,
+      "schmeh_n_latin": 30,
+      "schmeh_n_glyphs": 1,
+      "schmeh_text_sample": [
+        "WE WILL GIVE YOU KNOWLEDGS",
+        "ONLY THE CHOSEN ONE CAN COME TO",
+        "AND WILL UNDERSTAND EVERYTHING"
+      ],
+      "verdict": "PARTIAL_OVERLAP",
+      "interpretation": "BOTH_LATIN (chemie_struktur): V5 hat 222, Schmeh hat 30. Latein existiert real, aber Schmehs Zeilen sind dechiffrierte Substitution, nicht der OCR-Text."
+    }
+  }
+}

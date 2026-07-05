@@ -1,0 +1,79 @@
+{
+  "hypothesis_h1_status": "abgelehnt",
+  "f1_score": -1,
+  "f1_reasons": [
+    "F1.1 FAIL: IoC 0.1606 ∉ [0.055, 0.080] (Abweichung: 0.0936)",
+    "F1.2 FAIL: H 2.8706 ∉ [3.8, 4.6]",
+    "F1.3 FAIL: α 2.9281 ∉ [0.8, 1.2]",
+    "F1.4 PASS: K=34 in [25, 35]",
+    "F1.5 PASS: Keine lateinischen Tokens auf Fließtext-Pages (Tengri-only)"
+  ],
+  "evidence": {
+    "phase1": {
+      "hypothesis_label": "wahrscheinlich_monoalphabetisch",
+      "predicted_K": [
+        25,
+        35
+      ],
+      "shannon_entropy": 2.8706,
+      "ioc": 0.1606,
+      "zipf_alpha": 2.9281
+    },
+    "phase2": {
+      "actual_K": 34,
+      "silhouette": 0.5113,
+      "K_in_predicted_range": true
+    },
+    "phase4": {
+      "latin_tokens_per_page": {
+        "p01": 0,
+        "p02": 0,
+        "p03": 0,
+        "p04": 0,
+        "p05": 4,
+        "p06": 9,
+        "p07": 0,
+        "p08": 0,
+        "p09": 0,
+        "p10": 0,
+        "p11": 0,
+        "p12": 0,
+        "p13": 0,
+        "p14": 0,
+        "p15": 0,
+        "p16": 0,
+        "p17": 118,
+        "p18": 169,
+        "p19": 91,
+        "p20": 213,
+        "p21": 139,
+        "p22": 132,
+        "p23": 222
+      },
+      "real_latin_pages": [
+        "p05",
+        "p06",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23"
+      ],
+      "n_pages_with_latin": 9,
+      "interpretation": "p23 (Chemie): Primfaktorzerlegungen + lateinische Symbole. p17-p22 (Burumut-Block): Primfaktorzerlegungen, KEINE lateinischen Wörter. p05/p06 (Magic-Cube): keine OCR-fähigen Ziffern (3D-Würfel). p01-p04, p07-p16 (Fließtext): 0 lateinische Tokens — reines Tengri."
+    }
+  },
+  "interpretation": "H1-Status: ABGELEHNT\n\nPhase 1 (Kryptanalyse):\n  - Hypothese: wahrscheinlich_monoalphabetisch\n  - Shannon-Entropie H = 2.8706 (Englisch-Ref: 4.14)\n  - Index of Coincidence = 0.1606 (Englisch-Ref: 0.067)\n  - Zipf α = 2.9281 (Englisch-Ref: ≈1.0)\n\nPhase 2 (Alphabet):\n  - K = 34 distinkte Glyphen-Cluster (Vorhersage: [25, 35])\n  - Silhouette = 0.5113\n  - K_in_predicted_range: True\n\nPhase 4 (OCR):\n  - Pages mit lateinischen Tokens: ['p05', 'p06', 'p17', 'p18', 'p19', 'p20', 'p21', 'p22', 'p23']\n  - 9/23 Pages haben lateinische Zeichen\n  - Lateinische Zeichen sind: p23 (Chemie): Primfaktorzerlegungen + lateinische Symbole. p17-p22 (Burumut-Block): Primfaktorzerlegungen, KEINE lateinischen Wörter. p05/p06 (Magic-Cube): keine OCR-fähigen Ziffern (3D-Würfel). p01-p04, p07-p16 (Fließtext): 0 lateinische Tokens — reines Tengri.\n\nSchlussfolgerung:\n  Die V5-Befunde widerlegen die H1-Hypothese (monoalphabetische Substitution für englischen Klartext). Der hohe IoC (0.1606 vs. Englisch 0.067) deutet auf eine ungewöhnlich repetitive Substrat-Struktur hin, möglicherweise eine Liste von Glyphen-Varianten oder ein nicht-sprachliches System. K=34 Glyphen-Cluster passt zu einem Alphabet aus ~26 Buchstaben + 10 Ziffern — die Hypothese, dass Tengri ein Substitutions-Alphabet ist, bleibt plausibel, aber der Klartext scheint KEIN englisches Englisch zu sein. Mögliche Alternativen: (a) eine andere Sprache (Türkisch, Mongolisch), (b) numerische/templated Inhalte, (c) ein nicht-linguistisches System (Code, Glyphen-Sequenzen).",
+  "_falsifikation": {
+    "datum": "2026-07-05",
+    "quelle": "Gemini-Antworten2.txt",
+    "kritik": "F1-Falsifikation von H1 basiert auf Strich-Metriken. H1 ist nicht falsch, sondern wurde am falschen Datensatz getestet.",
+    "status": "F1_FALSIFIZIERT_DURCH_FALSCHE_METRIKEN",
+    "f1_score_bedeutung": "F1=-1 misst 'Strich-Verteilung ist nicht englisch' — was trivial wahr ist, aber keine Aussage über Tengri-Glyphen macht.",
+    "was_steht": "Bestätigung, dass V5 KEIN Schmeh-Plaintext einschleust (kein schmeh_hint in latin_token.source).",
+    "was_ist_falsch": "H1-Status 'abgelehnt' ist methodisch nicht haltbar.",
+    "v6_notwendig": "Cryptanalysis NACH Template-Matching auf diskretem Token-Stream."
+  }
+}

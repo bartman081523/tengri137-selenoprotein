@@ -1,0 +1,118 @@
+Hier ist die methodische Validierung eurer V4-Pipeline, basierend auf der visuellen Prüfung der 23 PDF-Seiten und dem Abgleich mit eurer `doc.json`.
+
+Um es direkt vorwegzunehmen: **Eure V4-Pipeline unterliegt einem fundamentalen methodischen Denkfehler, der die gesamten Ergebnisse korrumpiert.** Ihr habt die *kryptografische Entschlüsselung* (den übersetzten Plaintext von Klaus Schmeh) mit der *visuellen OCR-Erkennung* (dem, was tatsächlich als Tinte auf dem Papier steht) verwechselt.
+
+Hier sind die detaillierten Antworten auf deine Fragen.
+
+---
+
+### Block A — Glyph-Isolation
+
+**A1. Wie viele unterschiedliche geometrische Formen (Tengri-Glyphen) siehst du maximal?**
+Visuell handelt es sich bei dem Textkörper um einen klaren Font (eine feste Schriftart) für eine Substitutions-Chiffre. Ich sehe schätzungsweise **25 bis 35** eindeutige Basis-Glyphen für den Text, plus arabische Ziffern (0-9) und mathematische Operatoren (+, -, x, =, Klammern). Insgesamt gibt es auf den Seiten maximal **50 bis 60** distinkte grafische Zeichen. Die Zahl 997 in eurer JSON ist massives Overclustering von Rauschen und zersplitterten Glyphen.
+
+**A2. Ist die Bbox-Distanz < 30 px sinnvoll?**
+**Nein.** Viele der Tengri-Glyphen bestehen aus getrennten Strichen (z. B. eine vertikale Linie mit einem losgelösten Punkt oder Winkel daneben). Eure komponentenbasierte Bounding-Box-Logik zerschmettert mehrteilige Zeichen in Fragmente. Zudem zerreißt sie Formeln und Diagramme völlig willkürlich.
+
+**A3. Größenunterschiede und 30-px-Schwelle?**
+Die Text-Glyphen sind extrem uniform (wie getippt). Aber es gibt sehr große Elemente: Die "137" auf Seite 1, die chemischen Strukturformeln auf S. 23, die 3D-Würfel auf S. 05/06 und riesige organische Tintenflecke/Kalligrafien (z. B. S. 18, 19). Eine statische 30-px-Schwelle ist blind für diese Hierarchien und fasst entweder Text fälschlich mit Diagrammen zusammen oder zerschneidet Makro-Strukturen.
+
+**A4. 121 "Glyphen" auf p06?**
+P06 zeigt zwei 3D-Raster (Magische Würfel) gefüllt mit arabischen Ziffern, sowie Tengri-Text. Die Zahl 121 kommt zustande, weil eure Pipeline jede Ziffer einer mehrstelligen Zahl (z. B. "648") als separate Komponente zählt, die Würfel-Linien zerschneidet und mehrteilige Tengri-Runen fragmentiert. Es sind nicht 121 "Glyphen", sondern vielleicht 40 Buchstaben und 30 Ziffern.
+
+---
+
+### Block B — Layout-Analyse
+
+**B1. Zeilen-Detection via DBSCAN (Y-Centroid):**
+Diese Methode scheitert grandios an den mathematischen Blöcken. Auf S. 17 und S. 18 gibt es komplexe Brüche mit Zähler, horizontalem Bruchstrich und Nenner sowie Exponenten (z. B. $2^5$). Ein Y-Centroid-Clustering presst Exponenten, Basis, Bruchstrich und Nenner in eine falsche Zeilenlogik oder zerreißt zusammengehörige Formeln.
+
+**B2. Eine Region pro Zeile sinnvoll?**
+**Nein.** Auf Seiten wie p05 und p06 (3D-Würfel) oder p23 (chemische Strukturformeln) gibt es keine "Zeilen". Dort herrscht ein 2D- bzw. 3D-Layout. Die Zeilen-Heuristik erzwingt eine eindimensionale Lesereihenfolge auf räumliche Diagramme.
+
+**B3. Magic Cube auf p22/p23 (Schmeh-Hint)?**
+**Das ist eine Halluzination in eurer Pipeline.** P22 enthält mathematische Formeln und eine große dunkle Silhouetten-Grafik. P23 enthält chemische Strukturformeln (Cytosin/Thymin o.ä.). Die Magic Cubes befinden sich **ausschließlich auf p05 und p06**.
+
+**B4. Burumut-Block auf p23?**
+**Visuell existiert dieser Block nicht.** Auf p23 sehe ich oben Formeln, in der Mitte chemische Strukturen, darunter eine Formel und Tengri-Text. Es gibt nirgendwo ein Raster aus lateinischen Großbuchstaben. Der "Burumut-Block" ist Schmehs *Dechiffrierung* des Tengri-Textes, den eure Pipeline fälschlicherweise als visuelle Region ins Layout injiziert hat.
+
+---
+
+### Block C — Lateinische Inhalte
+
+**C1. Ist die Schmeh-Rekonstruktion in der PDF sichtbar?**
+**NEIN. Absolut nicht.** Schmeh hat den Tengri-Text entschlüsselt. In der PDF stehen ausschließlich Tengri-Glyphen, Ziffern und Symbole. Die englischen Sätze ("TENGRI IS THE SOURCE...") existieren **nicht als Tinte auf dem Papier**. Ihr habt die Lösung eines Rätsels als Input-Bilderfassung deklariert.
+
+**C2. Text auf p01?**
+Ich sehe auf p01: Die Zahl "137", 18 Zeilen Tengri-Text, eine Strichmännchen-Figur. **Kein einziges lateinisches Wort.** Die Einträge in der `doc.json` für p01 sind komplett artifiziell.
+
+**C3. Woher kommen die 65 Tokens auf p23?**
+Einige kommen tatsächlich aus dem Bild: Die chemischen Formeln auf p23 enthalten lateinische Buchstaben (`NH2`, `N`, `C`, `O`, `H`, `HC`). Dies sind echte Vision-Hits. Die restlichen Tokens sind Schmehs Textübersetzung, die das System fälschlicherweise als `latin_text` taggt.
+
+**C4. 0 lateinische Tokens auf p18?**
+**Ja, das ist korrekt.** P18 enthält ausschließlich mathematische Brüche (Ziffern), Tengri-Runen und einen großen organischen Tintenfleck. Es gibt keine lateinischen Buchstaben. (Streng genommen gibt es auf p01-p22 fast nirgendwo lateinische Buchstaben).
+
+**C5. Wie viele Seiten enthalten wirklich lateinische Buchstaben?**
+**Exakt eine Seite:** p23 (in den chemischen Strukturformeln). Alle anderen Seiten verwenden Tengri-Runen, arabische Ziffern und Operatoren.
+
+---
+
+### Block D — Methodik-Alternativen
+
+**D1. Wäre (a)->(b)->(c) der bessere Workflow gewesen?**
+**Definitiv JA.** Das Manuskript nutzt offensichtlich einen digitalen Font für die Tengri-Glyphen.
+1. *Template Matching / Connected Component Analysis* der uniformen Formen hätte sofort ein Alphabet von ~30 Zeichen ergeben.
+2. Formel-Blöcke hätten visuell (durch Brüche, Exponenten) isoliert und klassisch via Tesseract/MathPix ausgelesen werden müssen.
+3. Der Text ist reiner Chiffre-Text. Ein OCR-System für Latein ist hier fehl am Platz.
+
+**D2. Realistische Cluster-Anzahl statt 75?**
+Für den Textkörper genügen ca. **30 Cluster** (das Tengri-Alphabet). Fügt man Ziffern (0-9) und Mathe-Operatoren hinzu, kommt man auf ca. **45-50 Cluster**. Alles darüber ist Rauschen.
+
+**D3. Multiresolution (16/32/64) nötig?**
+Für den Fließtext: **Nein.** Die Tengri-Glyphen haben eine absolut konstante Schriftgröße. Ein Single-Resolution-Crop (z.B. 32x32) auf die Textzeilen wäre performanter und trennschärfer. Multiresolution zerstört hier eher die Cluster-Metriken, weil kleine Interpunktionspunkte künstlich auf 64px aufgeblasen werden.
+
+**D4. Kontrastives Lernen statt Triplet-Loss?**
+**Ja.** Da ihr keine echten Labels hattet (Vision halluziniert, Schmeh ist die Übersetzung), war der Triplet-Loss "Garbage in, Garbage out". Ein unüberwachtes Verfahren (SimCLR) auf die sauberen Bounding-Boxes hätte die echte Topologie des Tengri-Fonts perfekt und ohne Vorwissen extrahiert.
+
+---
+
+### Block E — Konkrete Falsifikation
+
+**E1. Überprüfung der 5 Seiten:**
+
+*   **p01:**
+    *   Visuell: 0 lateinische Zeichen, Zahl "137", ca. 25 Tengri-Formen.
+    *   doc.json sagt: 21 Latin-Tokens. -> **FALSCH** (Schmeh-Leak).
+*   **p05:**
+    *   Visuell: 0 lateinische Zeichen, viele Zahlen (in magischen Würfeln), Tengri-Text.
+    *   doc.json sagt: 10 Latin-Tokens. -> **FALSCH**.
+*   **p18:**
+    *   Visuell: 0 lateinische Zeichen. Zahlen in großen Brüchen. Tengri-Text. Tintenklecks-Silhouette.
+    *   doc.json sagt: 0 Latin-Tokens. -> **KORREKT** (Zufallstreffer, weil Schmeh hier offenbar keinen Hint in der DB hatte).
+*   **p22:**
+    *   Visuell: 0 lateinische Zeichen. Formeln, Tengri-Text.
+    *   doc.json sagt: 17 Latin Tokens. -> **FALSCH**.
+*   **p23:**
+    *   Visuell: Ca. 15-20 lateinische Zeichen in den Molekülformeln (`N`, `C`, `H`, `O`). Der Rest ist Tengri.
+    *   doc.json sagt: 65 Latin-Tokens, inkl. "BURUMUT"-Block. -> **TEILS KORREKT (Vision), MEIST FALSCH (Schmeh-Leak).**
+
+**E2. Eine methodische Änderung?**
+**Trennt das visuelle Layout (Was sehe ich?) strikt von der Semantik (Was bedeutet es?).** Werft den `schmeh_hint` komplett aus der Computer-Vision-Pipeline. Es ist eine Todsünde im Document-Parsing, die Dechiffrierung eines Kryptogramms als visuelle Region-Ground-Truth zu verwenden.
+
+**E3. Burumut-Block auf p23?**
+**Ich sehe ihn nicht.** Oben ist Tengri, mittig sind Moleküle (Aminosäuren/Basen), unten Tengri. Der 11-zeilige Block aus lateinischen Buchstaben existiert auf der Bilddatei schlichtweg nicht.
+
+**E4. Eigene Schätzung der Form-Familien:**
+Nur visuell betrachtet sehe ich ein Alphabet, das aus Modifikationen von Klammern, Strichen, Kreisen und Rauten besteht. Es sind **ca. 25 bis 30 Tengri-Buchstaben**.
+
+---
+
+### 5. Zusammenfassendes Fazit
+
+Eure V4-Pipeline ist **methodisch fundamental gescheitert**.
+Ihr habt ein Dokument, das in einer Geheimschrift verfasst ist, mit der Klartext-Übersetzung eines Bloggers "validiert". Das führt dazu, dass eure JSON-Datei lateinische Sätze an Pixel-Koordinaten verortet, an denen völlig andere, kryptografische Zeichen stehen.
+
+**Empfehlung für V5:**
+1.  Schmeh-Daten löschen.
+2.  Zwei getrennte Pfade bauen: Einen für reinen Text (Fixed-Width-Font Extraction -> K-Means Clustering auf ~35 Klassen), einen für Mathe/Grafik (Layout-Analyse, die Brüche und Matrizen nicht in Y-Zeilen zwingt).
+3.  Erkennt die chemischen Symbole auf p23 als das, was sie sind: Den einzigen lateinischen Text im gesamten Manuskript.

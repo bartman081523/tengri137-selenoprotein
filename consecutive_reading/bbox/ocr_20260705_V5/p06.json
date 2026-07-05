@@ -1,0 +1,117 @@
+{
+  "page_id": "p06",
+  "layout_type": "magic_cube",
+  "layout_confidence": 0.95,
+  "n_tengri_glyphs": 121,
+  "regions": [
+    {
+      "region_id": "p06_R1_MAGIC_CUBE",
+      "region_type": "magic_cube",
+      "tengri_glyph_count": 121,
+      "ocr_applied": true,
+      "ocr_total_tokens": 15,
+      "ocr_after_tengri_filter": 9,
+      "latin_tokens": [
+        {
+          "text": "2",
+          "bbox": [
+            631,
+            682,
+            14,
+            25
+          ],
+          "conf": 0.967,
+          "source": "tesseract"
+        },
+        {
+          "text": ">3",
+          "bbox": [
+            419,
+            724,
+            32,
+            25
+          ],
+          "conf": 0.732,
+          "source": "tesseract"
+        },
+        {
+          "text": "OF",
+          "bbox": [
+            581,
+            765,
+            41,
+            25
+          ],
+          "conf": 0.853,
+          "source": "tesseract"
+        },
+        {
+          "text": "YO",
+          "bbox": [
+            794,
+            765,
+            45,
+            25
+          ],
+          "conf": 0.736,
+          "source": "tesseract"
+        },
+        {
+          "text": "s",
+          "bbox": [
+            541,
+            1251,
+            36,
+            53
+          ],
+          "conf": 0.646,
+          "source": "tesseract"
+        },
+        {
+          "text": "1r‘l)’n‘",
+          "bbox": [
+            609,
+            1363,
+            58,
+            67
+          ],
+          "conf": 0.727,
+          "source": "tesseract"
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            676,
+            1405,
+            28,
+            25
+          ],
+          "conf": 0.811,
+          "source": "tesseract"
+        },
+        {
+          "text": "OF",
+          "bbox": [
+            365,
+            1446,
+            42,
+            26
+          ],
+          "conf": 0.673,
+          "source": "tesseract"
+        },
+        {
+          "text": "Yo",
+          "bbox": [
+            808,
+            1446,
+            45,
+            26
+          ],
+          "conf": 0.752,
+          "source": "tesseract"
+        }
+      ]
+    }
+  ]
+}

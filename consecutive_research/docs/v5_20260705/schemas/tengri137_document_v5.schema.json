@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tengri137.local/schemas/tengri137_document_v5.schema.json",
+  "title": "Tengri137 Document v5 (Cryptanalysis-First, NO Schmeh)",
+  "description": "V5 unified schema for Tengri137 PDF analysis pipeline. V5 (PIVOT from V4): (1) NO Schmeh anywhere in the pipeline (H1 abgelehnt), (2) Cryptanalysis-First: Phase 1 generates testable hypothesis, Phase 2-4 validate it, Phase 5 falsifies or accepts, (3) glyphs are characterized by cluster_id from unsupervised embedding clustering (V5 has 34 clusters), (4) latin_tokens only from OCR on NON-Tengri regions (not from Tesseract on full pages), (5) regions are layout-classified per page (fliesstext, magic_cube, burumut_block, chemie_struktur, silhouette_formel).",
+  "type": "object",
+  "required": ["schema_version", "document", "pages"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^5\\.[0-9]+$"
+    },
+    "document": {
+      "type": "object",
+      "required": ["title", "page_count", "source_pdf", "processing_run", "cryptanalysis"],
+      "properties": {
+        "title": {"type": "string"},
+        "page_count": {"type": "integer", "minimum": 1, "maximum": 1000},
+        "source_pdf": {"type": "string"},
+        "processing_run": {"type": "string"},
+        "generated_at": {"type": "string", "format": "date-time"},
+        "pipeline_version": {"type": "string"},
+        "description": {"type": "string"},
+        "alphabet_size": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of distinct glyph clusters from Phase 2"
+        },
+        "cryptanalysis": {
+          "type": "object",
+          "description": "Phase 1 + Phase 5 results (NO Schmeh)",
+          "properties": {
+            "h1_hypothesis": {"type": "string", "enum": ["monoalphabetische_substitution", "wahrscheinlich_monoalphabetisch", "unbestimmt", "nicht_monoalphabetisch"]},
+            "h1_status": {"type": "string", "enum": ["akzeptiert", "abgelehnt", "unbestimmt"]},
+            "shannon_entropy": {"type": "number"},
+            "ioc": {"type": "number"},
+            "zipf_alpha": {"type": "number"},
+            "f1_score": {"type": "integer"},
+            "f1_reasons": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "totals": {
+          "type": "object",
+          "properties": {
+            "n_pages": {"type": "integer"},
+            "n_glyphs": {"type": "integer"},
+            "n_latin_tokens": {"type": "integer"},
+            "n_pages_with_latin": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/page"}
+    }
+  },
+  "definitions": {
+    "page": {
+      "type": "object",
+      "required": ["page_id", "image_size", "layout_type", "regions"],
+      "properties": {
+        "page_id": {"type": "string", "pattern": "^p\\d{2}$"},
+        "image_size": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer"}},
+        "layout_type": {
+          "type": "string",
+          "enum": ["fliesstext", "magic_cube", "burumut_block", "chemie_struktur", "silhouette_formel", "unbekannt"]
+        },
+        "layout_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "n_tengri_glyphs": {"type": "integer", "minimum": 0},
+        "regions": {"type": "array", "items": {"$ref": "#/definitions/region"}}
+      }
+    },
+    "region": {
+      "type": "object",
+      "required": ["region_id", "region_type", "ocr_applied"],
+      "properties": {
+        "region_id": {"type": "string", "pattern": "^p\\d{2}_R\\d+(_[A-Z_]+)?$"},
+        "region_type": {
+          "type": "string",
+          "enum": ["fliesstext", "magic_cube", "burumut_block", "chemie_struktur", "silhouette_formel", "unbekannt"]
+        },
+        "ocr_applied": {"type": "boolean"},
+        "ocr_total_tokens": {"type": "integer"},
+        "ocr_after_tengri_filter": {"type": "integer"},
+        "ocr_reason": {"type": "string"},
+        "latin_tokens": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/latin_token"}
+        }
+      }
+    },
+    "latin_token": {
+      "type": "object",
+      "required": ["text", "bbox", "source"],
+      "properties": {
+        "text": {"type": "string"},
+        "bbox": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "integer"}},
+        "conf": {"type": "number", "minimum": 0, "maximum": 1},
+        "source": {
+          "type": "string",
+          "enum": ["tesseract", "vision", "geometry"],
+          "description": "V5: source of latin token (NO schmeh_hint or schmeh_complete)"
+        }
+      }
+    }
+  }
+}

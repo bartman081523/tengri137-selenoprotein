@@ -1,0 +1,230 @@
+# Gemini-Prompt: Methodische Validierung der V4-Pipeline für Tengri137
+
+**Zielgruppe:** Google AI Studio (Gemini)
+**Input-Material:** (1) `Tengri137.pdf` (23 Seiten, unbekanntes Manuskript) — (2) `doc.json` (Rekonstruktion aus unserer V4-Pipeline)
+**Autor der Methodik:** Julian / PhiMind (Konsortium)
+**Datum:** 2026-07-04
+**Bitte gib am Ende eine strukturierte Antwort gemäß Abschnitt 4 zurück.**
+
+---
+
+## 1. Kontext
+
+Wir haben ein 23-seitiges PDF namens `Tengri137.pdf` analysiert. Es enthält offenbar eine Mischung aus:
+- einer **unbekannten geometrischen Schrift** (in der Krypto-/Manuskript-Literatur „Tengri-Glyphen" genannt — Herkunft unklar),
+- lateinischen Buchstaben und Ziffern,
+- sowie gelegentlich mathematischen Formeln, Tabellen (inkl. eines 3×3-"Magic Cube" mit Zeilen-/Spaltensumme 666) und einem "Burumut-Block" (einzelne Großbuchstaben in einer Reihe, P17–P23).
+
+Der Manuskripttext wurde 2017 von Klaus Schmeh in einem Blog-Post rekonstruiert (diese Rekonstruktion ist in unserer Pipeline als „HINT" eingebaut, **nicht** als Wahrheit — aber sie dominiert aktuell unseren Output, was wir kritisch prüfen wollen).
+
+Wir vermuten, dass die **Tengri-Glyphen möglicherweise ein Substitutions-Alphabet** für lateinische Buchstaben sind (dann gäbe es maximal ~26 unterschiedliche Tengri-Glyphen plus lateinische Buchstaben plus Ziffern plus ~10 Formelsymbole = ca. 60–75 unterschiedliche Zeichen total). Wir haben das in unserer V4-Pipeline aber **nicht** so behandelt — wir haben stattdessen 997 verschiedene „Glyphen" gezählt. Diese Zahl ist verdächtig hoch.
+
+**Wir wollen von dir wissen, ob unsere Methodik grundsätzlich falsch war und — falls ja — wie wir es besser machen.**
+
+---
+
+## 2. Unsere V4-Methodik (Schritt für Schritt)
+
+Wir haben eine 8-stufige Pipeline (`phase1_pixel_v4.py` … `phase8_train.py`) implementiert. Hier ist, was wir **gemacht** haben:
+
+### Phase 1: Inken-Component-Detection (ohne OCR)
+- PDF → 150-DPI-PNGs (1125×1625).
+- Binarisierung: Pixel < 200 Grau = Tinte.
+- `scipy.ndimage.label()` → Connected-Components.
+- **Ergebnis:** 584 Components auf p01, ähnlich auf anderen Seiten.
+- Diese Zahl allein zeigt schon: Tinte ist nicht gleich Glyphe.
+
+### Phase 2: Glyph-Gruppierung (Komponenten → Glyphen)
+- Hierarchisches Clustering: Components werden zu „Glyphen" gruppiert, wenn Bbox-Distanz < 30 px und Union-Bbox-Fill-Ratio < 0.7.
+- **Globaler `glyph_index`**, 1-basiert, fortlaufend über alle 23 Pages.
+- **Ergebnis über 23 Seiten: 997 Glyphen.**
+- Plus: Multi-Resolution-Component-Klassifikation (micro < 100 px, meso 100–2000 px, macro ≥ 2000 px).
+
+### Phase 3: Zeilenweiser Vision-Quercheck
+- Pro Zeile: Claude-Vision-Call (229 Calls in ~2h, 4 Worker).
+- Vision klassifiziert Zeile + gibt Bounding-Boxes für lateinische Wörter zurück.
+- Konfidenz-Filter: nur Multi-Char-Tokens mit conf ≥ 0.7, Single-Char mit conf ≥ 0.85.
+- **Ergebnis: 88 lateinische Tokens aus Vision.** Plus Vision-Beschreibungen für 255 Glyphen.
+
+### Phase 4: Region-Building
+- Eine Region pro Zeile + Header/Footer-Splits.
+- Region-Typ-Heuristik: `magic_cube` (≥9 Glyphen), `latin_text`, `glyph_raster`, etc.
+- Glyph-Cluster-Lookup aus Phase 6.
+- Schmeh-Hint-Fallback für lateinische Zeilen.
+- **Ergebnis: 469 Regions über 23 Seiten** (Verteilung: 355 `latin_text`, 49 `formula_block`, 20 `footer`, 15 `graphic_line`, 15 `glyph_block`, 14 `numeric_table`, 13 `single_glyph`, 7 `glyph_raster`, 2 `header`, 1 `magic_cube`, 1 `burumut_block`).
+
+### Phase 4b: Schmeh-2017-Fusion
+- Schmehs Blog-Rekonstruktion wurde geparst (Manifesto-Sätze, Letter-Block, Symbol-Descriptions, Numerics).
+- **91 Manifesto-Sätze** + **1 Burumut-Block** (p23) + **8 Symbol-Descriptions** wurden als zusätzliche Regionen an die entsprechenden Pages angehängt.
+- **Resultat: lateinische Token-Anzahl stieg von 88 (Vision) auf 456 (Vision + Schmeh).** Davon sind 266 `schmeh_hint` + 102 `schmeh_complete` + 88 `vision`.
+
+### Phase 5: Multi-Resolution-Embeddings
+- 16 + 32 + 64 px Crops pro Glyph → 192-dim Vektor (Konkatenation).
+- V2-EmbeddingNet als Warm-Start.
+
+### Phase 6: 3-Level-Clustering
+- coarse: 3 Cluster (Silhouette 0.495)
+- medium: 24 Cluster (Silhouette 0.559)
+- fine: 75 Cluster (Silhouette 0.649)
+- V4-Gewichtung: 0.2 Cosine / 0.5 Size / 0.3 Aspect.
+- V2-EmbeddingNet lieferte extrem enge Cosine-Distanzen (max 0.003), weshalb Size+Aspect dominieren.
+
+### Phase 7: Schema-validierte Finalisierung
+- jsonschema-Validation gegen `tengri137_document_v4.schema.json` (draft-07).
+- Region-ID-Pattern: `^p\d{2}_R\d+(_[A-Z_]+)?$` (z. B. `p23_R20_LETTERBLOCK`).
+- 23/23 Pages + doc.json: **SCHEMA VALIDATION PASSED**.
+
+### Phase 8: Triplet-Loss
+- Multi-Resolution-EmbeddingNet, V2-Warm-Start.
+- 2 Runden × 20 Epochen.
+- **val_acc = 0.704 (70.4 %)** auf 24 Klassen, stratified 90/10-Split (899 train / 98 val).
+
+---
+
+## 3. Die harten Fakten aus `doc.json`
+
+Hier die Verteilung pro Page:
+
+| Page | Glyphen | Latin-Tokens | Latin-Quellen (s/v/sc) |
+|------|---------|--------------|-------------------------|
+| p01  | 29      | 21           | ? / ? / ?              |
+| p02  | 34      | 19           | ? / ? / ?              |
+| p03  | 43      | 21           | ? / ? / ?              |
+| p04  | 26      | 22           | ? / ? / ?              |
+| p05  | 116     | 10           | ? / ? / ?              |
+| p06  | 121     | 4            | ? / ? / ?              |
+| p07  | 27      | 10           | ? / ? / ?              |
+| p08  | 67      | 7            | ? / ? / ?              |
+| p09  | 18      | 11           | ? / ? / ?              |
+| p10  | 38      | 13           | ? / ? / ?              |
+| p11  | 55      | 26           | ? / ? / ?              |
+| p12  | 45      | 26           | ? / ? / ?              |
+| p13  | 54      | 24           | ? / ? / ?              |
+| p14  | 56      | 26           | ? / ? / ?              |
+| p15  | 48      | 25           | ? / ? / ?              |
+| p16  | 38      | 21           | ? / ? / ?              |
+| p17  | 24      | 26           | ? / ? / ?              |
+| p18  | 24      | **0**        | – / – / –              |
+| p19  | 26      | 31           | ? / ? / ?              |
+| p20  | 43      | 17           | ? / ? / ?              |
+| p21  | 16      | 14           | ? / ? / ?              |
+| p22  | 19      | 17           | ? / ? / ?              |
+| p23  | 30      | 65           | ? / ? / ?              |
+| **Σ** | **997** | **456**      | 266 s_hint / 88 vision / 102 s_complete |
+
+**Region-Typ-Verteilung über alle 23 Seiten** (469 Regions total):
+- `latin_text`: 355 (!!)
+- `formula_block`: 49
+- `footer`: 20
+- `graphic_line`: 15
+- `glyph_block`: 15
+- `numeric_table`: 14
+- `single_glyph`: 13
+- `glyph_raster`: 7
+- `header`: 2
+- `magic_cube`: 1
+- `burumut_block`: 1
+
+**Wichtige Beobachtung:** Von 469 Regions sind **355 als `latin_text` klassifiziert** (75 %). p23 hat 65 Latin-Tokens, p18 hat 0. Schmehs `n_latin`-Hinweise reichen von 0 bis 30; doc.json liegt auf 17 von 23 Seiten **über** den Schmeh-Hinweisen (meist deutlich).
+
+---
+
+## 4. Fragen an dich — methodische Selbstkritik
+
+Bitte beantworte **alle** Fragen, gerne auch mit „unmöglich zu beantworten ohne …", wenn du weitere Informationen brauchst. Wir akzeptieren auch „die Methodik war grundsätzlich falsch" als Antwort.
+
+### Block A — Glyph-Isolation
+
+**A1.** Wir haben 997 „Glyphen" gefunden. Wenn die Tengri-Schrift ein Substitutions-Alphabet ist, würden wir ~26–75 unterschiedliche Zeichen erwarten. Bitte schätze anhand der PDF: **Wie viele unterschiedliche geometrische Formen (Tengri-Glyphen) siehst du maximal?**
+
+**A2.** Unsere Glyph-Definition: Connected-Components werden zu Glyphen gruppiert, wenn Bbox-Distanz < 30 px. **Ist diese Distanz sinnvoll?** Wenn eine Tengri-Glyphe z. B. aus 3–5 Strichen mit 50 px Abstand besteht, würden wir sie als 3–5 Glyphen zählen. Siehst du in der PDF Tengri-Glyphen, die aus mehreren getrennten Strichen bestehen?
+
+**A3.** Siehst du Tengri-Glyphen, die **deutlich größer** sind als andere (z. B. Header-Glyphen)? Falls ja, ist die einheitliche 30-px-Schwelle angemessen?
+
+**A4.** Wir hatten 121 „Glyphen" auf p06. Siehst du dort tatsächlich ~121 einzelne Glyphen-Cluster, oder sind das z. B. nur ~30 echte Glyphen, die jeweils aus mehreren Komponenten bestehen?
+
+### Block B — Layout-Analyse
+
+**B1.** Wir nutzen DBSCAN (eps=15 px) auf Component-Centroid-Y für Zeilen-Detection. Siehst du in der PDF Zeilen, die **nicht** durch Y-Cluster erfasst werden? Z. B. weil Glyphen sehr unterschiedlich groß sind und nicht auf einer gedachten horizontalen Linie sitzen?
+
+**B2.** Wir nehmen eine Region pro Zeile. Siehst du Tengri-Seiten, wo die „Zeile" keine sinnvolle Einheit ist (weil die Glyphen unregelmäßig verteilt sind)?
+
+**B3.** Wir klassifizieren `magic_cube` ab 9 Glyphen in einer Region. Schmeh behauptet, p22 und p23 zeigen ein 3×3-Raster mit Summe 666. **Bestätigst du das aus der PDF?** Oder ist das 3×3-Raster möglicherweise eine Schmeh-Halluzination?
+
+**B4.** Siehst du Tengri-Glyphen, die als „Burumut-Block" (einzelne lateinische Großbuchstaben, ein Buchstabe pro Zelle) interpretiert werden könnten, oder sind das wirklich Tengri-Glyphen, die Schmeh falsch als lateinisches BURUMUT gedeutet hat?
+
+### Block C — Lateinische Inhalte
+
+**C1.** Wir haben 88 lateinische Tokens aus Vision, aber 456 insgesamt (nach Schmeh-Fusion). **Ist die Schmeh-Rekonstruktion (266 `schmeh_hint` + 102 `schmeh_complete` Sätze) tatsächlich in der PDF sichtbar?** Oder ist sie eine Schmeh-Erzählung, die wir ungeprüft übernommen haben?
+
+**C2.** doc.json listet z. B. für p01 Sätze wie „TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONLY THE CHOSEN SOULS KNOW THE MEANING. WORTHY ARE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND USE THEIR MINDS....". **Siehst du diesen Text tatsächlich auf p01 der PDF, oder halluzinieren wir / Schmeh?**
+
+**C3.** p23 hat 65 lateinische Tokens, davon 53 Vision-bestätigt. Schmehs `n_latin` für p23 ist 30. **Woher kommen die zusätzlichen 35 Tokens?** Sind das echte lateinische Wörter in der Glyph-Anordnung, oder Vision-Halluzinationen?
+
+**C4.** p18 hat **0 lateinische Tokens** und 24 Glyphen. doc.json markiert die Seite als „rein glyphenbasiert". **Bestätigst du das?** Ist p18 die einzige Tengri-reine Seite, oder gibt es weitere?
+
+**C5.** Wie viele Seiten der PDF enthalten **deiner ehrlichen Schätzung nach lateinische Buchstaben**?
+
+### Block D — Methodik-Alternativen
+
+**D1.** Wir hätten alternativ vorgehen können:
+   (a) **Tengri-Glyphen zuerst isolieren** (Suche nach ~26–75 wiederkehrenden Formen via Embedding-Clustering, **bevor** irgendwas anderes passiert).
+   (b) **Dann den Rest der Seite** (alles, was keine isolierte Glyphe ist) **mit Tesseract scannen**, weil lateinische Wörter und Ziffern vermutlich zwischen den Glyphen sitzen.
+   (c) **Gar keine Tesseract auf Glyphen** (das haben wir richtig gemacht).
+
+   Wäre (a)→(b)→(c) der bessere Workflow gewesen? Begründe.
+
+**D2.** Unsere Phase 6 hat 3/24/75 Cluster auf den 997 Glyphen. Wenn die wahre Anzahl unterschiedlicher Glyphen nur ~26 ist, sind 75 fine-Cluster offensichtlich zu viele (Overclustering). **Welche Cluster-Anzahl hältst du für realistisch, basierend auf dem, was du in der PDF siehst?**
+
+**D3.** Wir haben Multi-Resolution-Embeddings (16+32+64 px) verwendet, weil Glyphen unterschiedlich groß sind. Wenn aber die meisten Glyphen ähnlich groß sind, wäre eine einzelne Resolution (z. B. 32 px) effizienter. **Sind die Glyphen in der PDF einheitlich groß, oder gibt es deutliche Größenunterschiede?**
+
+**D4.** Wir haben mit Phase 8 ein Triplet-Loss-Modell trainiert (24 Klassen, val_acc 0.704). Da nur ~11 Klassen echte Vision-Labels haben und 13 „unknown"-Cluster als Pseudo-Labels dienten, ist 0.704 wahrscheinlich überschätzt. **Wäre ein kontrastives Lernverfahren (SimCLR, BYOL) auf den Glyphen-Crops ohne Labels sinnvoller gewesen?**
+
+### Block E — Konkrete Falsifikation
+
+**E1.** Nimm die fünf Seiten p01, p05, p18, p22, p23. Für jede Seite:
+   - Wie viele lateinische Zeichen (Buchstaben/Ziffern) **siehst du tatsächlich**?
+   - Wie viele **unterschiedliche Tengri-Glyphen-Formen** sind auf der Seite (deine Schätzung)?
+   - Stimmt doc.json mit deiner Sicht überein? Wenn nein, **wo konkret** ist doc.json falsch?
+
+**E2.** Wenn du nur **eine methodische Änderung** an unserer Pipeline vornehmen dürftest, was wäre es? (z. B. „Tengri-Glyphen zuerst isolieren", „Tesseract nur auf nicht-Glyph-Bereiche", „Multi-Page-Alignment für Glyphen-Wiedererkennung", …)
+
+**E3.** doc.json behauptet für p23, dass die Region `p23_R20_LETTERBLOCK` ein „Burumut-Block" mit 11 lateinischen Großbuchstaben ist (Schmeh-Complete, conf=0.95). **Siehst du 11 lateinische Großbuchstaben auf p23?** Wenn nein: was steht dort wirklich?
+
+**E4.** Wir haben 75 fine-Cluster über alle 997 Glyphen. Wenn du die Glyphen der PDF nach „Form" sortierst, wie viele unterschiedliche Form-Familien würdest du **selbst** identifizieren (ohne Embedding, nur visuell)?
+
+---
+
+## 5. Was wir von dir erwarten
+
+Eine **strukturierte Antwort** mit:
+1. Direkte Antworten auf alle 22 Fragen (A1–A4, B1–B4, C1–C5, D1–D4, E1–E4).
+2. Eigene Zählungen / Schätzungen (Glyph-Formen, lateinische Buchstaben pro Seite, Magic-Cube-Realität, Burumut-Realität).
+3. Methodische Empfehlung: **Wenn unsere Pipeline fundamental falsch war, sage das explizit.** Wir wollen keine Bestätigung, sondern eine fundierte Falsifikation.
+4. Wenn du weitere Informationen brauchst (z. B. einzelne Page-Crops, nur eine bestimmte Region, Farbinformationen), sag, was.
+
+**Wichtig:** Du darfst „unmöglich zu beantworten" sagen, wenn die PDF-Auflösung / Qualität nicht ausreicht. Wir akzeptieren ehrliche Grenzen lieber als geratene Zahlen.
+
+---
+
+## 6. Anhang — Beispiel-Schmeh-Satz, der im doc.json steht (p01)
+
+```
+"TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONL"  (schmeh_hint, conf=0.5)
+"Y THE CHOSEN SOULS KNOW THE MEANING. WORTHY A"   (schmeh_hint, conf=0.5)
+"RE THOSE WHO ASK QUESTIONS, SEEK THE TRUTH AND US"
+"E THEIR MINDS...."
+"YOU BELIEVE IN, YOU MUST FORGET NOW. BELIEVING"
+"IS NOT KNOWING. ONLY WITH KNOWLEDGE YOU WILL FI"
+"ND ENLIGHTENMENT. LIKE THE OTHERS BEFORE YOU,"
+"YOU WILL UNDERSTAND EVERYTHING BETTER...."
+"TENGRI HAS MANY NAMES. \"TIAN\", \"TIANDI\", \"RANGI\", ..."
+...
+"TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONLY THE CHOSEN SOULS KNOW THE MEANI" (schmeh_complete, conf=0.95)
+```
+
+**Beachte:** Die `schmeh_hint`-Tokens sind abgeschnitten (z. B. „ONL" statt „ONLY"), die `schmeh_complete`-Variante ist vollständig. Beide kommen aus Schmehs Blog-Post, nicht aus der PDF. **Bitte verifiziere, ob diese Sätze tatsächlich in der PDF stehen.**
+
+---
+
+*Ende des Prompts. Danke für die ehrliche methodische Prüfung.*

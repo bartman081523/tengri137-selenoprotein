@@ -1,0 +1,202 @@
+{
+  "n_components_total": 16797,
+  "n_unique_tokens": 20,
+  "token_sequence_length": 16797,
+  "shannon_entropy": 2.8706,
+  "ioc": 0.1606,
+  "zipf_alpha": 2.9281,
+  "top_bigrams": [
+    {
+      "ngram": "S6S6",
+      "count": 2300
+    },
+    {
+      "ngram": "S2S2",
+      "count": 1594
+    },
+    {
+      "ngram": "S7S7",
+      "count": 1450
+    },
+    {
+      "ngram": "S3S3",
+      "count": 1173
+    },
+    {
+      "ngram": "S6S7",
+      "count": 1089
+    },
+    {
+      "ngram": "S7S6",
+      "count": 1071
+    },
+    {
+      "ngram": "S1S1",
+      "count": 1028
+    },
+    {
+      "ngram": "S2S3",
+      "count": 709
+    },
+    {
+      "ngram": "S3S2",
+      "count": 663
+    },
+    {
+      "ngram": "S1S2",
+      "count": 450
+    }
+  ],
+  "top_trigrams": [
+    {
+      "ngram": "S6S6S6",
+      "count": 1407
+    },
+    {
+      "ngram": "S2S2S2",
+      "count": 1005
+    },
+    {
+      "ngram": "S7S7S7",
+      "count": 757
+    },
+    {
+      "ngram": "S1S1S1",
+      "count": 655
+    },
+    {
+      "ngram": "S6S6S7",
+      "count": 633
+    },
+    {
+      "ngram": "S7S6S6",
+      "count": 614
+    },
+    {
+      "ngram": "S3S3S3",
+      "count": 604
+    },
+    {
+      "ngram": "S6S7S7",
+      "count": 493
+    },
+    {
+      "ngram": "S6S7S6",
+      "count": 463
+    },
+    {
+      "ngram": "S7S7S6",
+      "count": 455
+    }
+  ],
+  "hypothesis": {
+    "label": "wahrscheinlich_monoalphabetisch",
+    "confidence": "mittel",
+    "h1_score": 1,
+    "reasons": [
+      "IoC 0.1606 intermediär, leicht erhöht",
+      "Entropie H 2.8706 außerhalb des Sprach-Bereichs",
+      "20 unique Tokens — passend für Substitutions-Alphabet"
+    ],
+    "predicted_alphabet_size": [
+      25,
+      35
+    ],
+    "predicted_zipf_range": "1.0-1.2"
+  },
+  "english_reference": {
+    "shannon_entropy": 4.14,
+    "ioc": 0.0667,
+    "top_bigrams": [
+      "TH",
+      "HE",
+      "IN",
+      "ER",
+      "AN",
+      "RE",
+      "ON",
+      "AT",
+      "EN",
+      "ND"
+    ],
+    "top_letters": [
+      "E",
+      "T",
+      "A",
+      "O",
+      "I",
+      "N",
+      "S",
+      "H",
+      "R",
+      "D",
+      "L",
+      "C",
+      "U",
+      "M",
+      "W",
+      "F",
+      "G",
+      "Y",
+      "P",
+      "B",
+      "V",
+      "K",
+      "J",
+      "X",
+      "Q",
+      "Z"
+    ],
+    "letter_freq": {
+      "E": 12.7,
+      "T": 9.1,
+      "A": 8.2,
+      "O": 7.5,
+      "I": 7.0,
+      "N": 6.7,
+      "S": 6.3,
+      "H": 6.1,
+      "R": 6.0,
+      "D": 4.3,
+      "L": 4.0,
+      "C": 2.8,
+      "U": 2.8,
+      "M": 2.4,
+      "W": 2.4,
+      "F": 2.2,
+      "G": 2.0,
+      "Y": 2.0,
+      "P": 1.9,
+      "B": 1.5,
+      "V": 1.0,
+      "K": 0.8,
+      "J": 0.2,
+      "X": 0.2,
+      "Q": 0.1,
+      "Z": 0.1
+    }
+  },
+  "falsification_criteria": {
+    "f1_h1_rejected_if": [
+      "IoC < 0.040 (Zufall-Niveau), aktuell 0.1606",
+      "H > 5.0 oder H < 3.0 (keine natürliche Sprache), aktuell 2.8706",
+      "α < 0.5 oder α > 2.0 (keine Zipf-Verteilung), aktuell 2.9281"
+    ],
+    "f1_h1_accepted_if": [
+      "IoC ∈ [0.055, 0.080], aktuell 0.1606",
+      "H ∈ [3.8, 4.6], aktuell 2.8706",
+      "α ∈ [0.8, 1.2], aktuell 2.9281"
+    ],
+    "next_phase_constraint": "Cluster-Anzahl K muss in predicted_alphabet_size sein"
+  },
+  "_falsifikation": {
+    "datum": "2026-07-05",
+    "quelle": "Gemini-Antworten2.txt",
+    "kritik": "Cryptanalysis auf 16.797 Inken-Strichen statt auf Glyphen misst Font-Redundanz, nicht Sprache. IoC=0.16, H=2.87, α=2.93 sind alle Artefakte der Strich-Fragmentierung.",
+    "status": "FALSIFIZIERT",
+    "methode_falsifikation": "Manuelle Zählung p01: 242 echte Buchstaben vs. 541 Components. Cryptanalysis auf Components misst Tinten-Zerstückelung, nicht Information.",
+    "was_steht": "Layout-Befunde (Phase 3) und Schmeh-Rauswurf sind korrekt.",
+    "was_ist_falsch": "Phase 1 Cryptanalysis + Phase 5 F1-Falsifikation + K=34 Constraint-Clustering.",
+    "v6_notwendig": "Glyph-First mit cv2.matchTemplate, dann Cryptanalysis auf echtem Token-Stream."
+  }
+}

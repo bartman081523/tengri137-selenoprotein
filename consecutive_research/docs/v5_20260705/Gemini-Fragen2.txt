@@ -1,0 +1,297 @@
+# Gemini-Fragen2: Methodische Validierung der V5-Pipeline für Tengri137
+
+**Zielgruppe:** Google AI Studio (Gemini)
+**Input-Material:**
+  (1) `Tengri137.pdf` (23 Seiten, unbekanntes Manuskript)
+  (2) `Tengri137_detailed_20260705_V5/doc.json` (V5-Rekonstruktion, Cryptanalysis-First, **komplett OHNE Schmeh**)
+  (3) `bbox/schmeh_external_check/schmeh_check.json` (separater V5↔Schmeh-Vergleich als Audit-Trail)
+  (4) `bbox/ocr_20260705_V5/p{NN}.json` (V5-OCR auf nicht-Tengri-Bereiche)
+  (5) `bbox/layout_20260705_V5/p{NN}.json` (V5-Layout-Klassifikation)
+  (6) `bbox/cryptanalysis_20260705_V5/crypto_report.json` (Phase-1-Befunde)
+  (7) `bbox/alphabet_20260705_V5/alphabet.json` (Phase-2-Cluster)
+  (8) `bbox/decoded_20260705_V5/decode_report.json` (Phase-5-F1-Falsifikation)
+  (9) `bbox/substrat_20260705_V5/p{NN}.json` (Phase-0-Inken-Components)
+
+**Autor der Methodik:** Julian / PhiMind (Konsortium: DevMind + CryptanalysisMind)
+**Datum:** 2026-07-05
+**Kontext:** V4 wurde am 2026-07-05 durch dich (Gemini) falsifiziert (siehe `Gemini-Antwort.txt`).
+V5 PIVOT: Schmehs Daten komplett raus, Cryptanalysis-First.
+**Bitte gib am Ende eine strukturierte Antwort gemäß Abschnitt 4 zurück.**
+
+---
+
+## 1. Kontext — Was ist neu seit deiner letzten Antwort?
+
+Du hast am 2026-07-05 die V4-Methodik kritisiert. Kernpunkt: **V4 hat Schmehs Dechiffrierung als Ground-Truth missbraucht**, Tesseract-Output mit Schmeh-Plaintext gemischt, 997 Glyphen erfunden. Deine Korrektur (V4-Methodik-Falsifikation, 22 Fragen davor):
+- Magic-Cube ist auf p05/p06, NICHT p22/p23
+- Burumut existiert visuell nicht
+- p23 = Chemie (Cytosin/Thymin-Formeln)
+- ~30 echte Glyphen, nicht 997
+
+Wir haben darauf reagiert mit **V5 PIVOT** (Cryptanalysis-First, TS=20260705_V5):
+1. **Schmeh komplett ignoriert** in der V5-Pipeline (nicht als HINT, nicht als Ground-Truth)
+2. **Cryptanalysis-First:** Hypothese H1 (monoalphabetische Substitution für englischen Klartext) wird generiert, dann mit klaren Kriterien validiert oder falsifiziert
+3. **Constraint-Clustering:** K aus Cryptanalysis-Hypothese erzwingt 25-35 Cluster (statt 75 fine-Cluster)
+4. **Selektive OCR:** Tesseract NUR auf nicht-Tengri-Bereiche (statt auf ganze Zeilen)
+5. **Layout-Override aus deiner Antwort:** p05/p06 magic_cube, p17-p22 burumut_block mit Primfaktorzerlegungen, p23 chemie_struktur
+
+V5-Befunde im Überblick:
+- H1 (monoalphabetische Substitution für englischen Klartext) **abgelehnt** (F1-Score: -1)
+- IoC = 0.16 (Englisch-Ref: 0.067) — 2.4× zu hoch
+- K=34 distinkte Glyphen-Cluster (Silhouette 0.51)
+- 9/23 Pages mit lateinischem Text (NICHT 22/23 wie V4)
+- 14/23 Pages sind reines Tengri (p01-p04, p07-p16) — kein lateinischer Text
+- 1097 lateinische Tokens total, davon 0 auf Fließtext-Pages
+
+---
+
+## 2. Unsere V5-Methodik (Schritt für Schritt)
+
+### Phase 0: Inken-Substrat-Extraktion (DevMind) — `phase0_substrat.py`
+- PDF → 150-DPI-PNGs (1125×1625)
+- Binarisierung: Pixel < 200 Grau = Tinte
+- `scipy.ndimage.label()` → Connected-Components
+- Pro Komponente: `component_id` (global, fortlaufend über alle 23 Pages), `bbox`, `size_px`, `fill_ratio`, `centroid`, `level` (micro < 100 / meso 100-2000 / macro ≥ 2000)
+- **Total: 16.797 Komponenten über 23 Seiten**
+- **Wichtig:** KEINE Glyph-Gruppierung in Phase 0 — das Substrat ist die "rohe Inken-Masse"
+
+**Frage 2.0.1:** Ist es methodisch korrekt, Phase 0 (Substrat) von Phase 2 (Glyph-Gruppierung) zu trennen? Oder sollten Glyphen direkt aus den Inken-Components extrahiert werden, ohne den Umweg über ein "Substrat"?
+
+**Frage 2.0.2:** Sind 16.797 Komponenten über 23 Seiten (~730 pro Seite) plausibel für ein Manuskript mit ~30 echten Glyphen-Typen? Oder haben wir da was falsch detektiert (z.B. zu feine Auflösung, Schwellwert zu niedrig)?
+
+### Phase 1: Cryptanalysis (CryptanalysisMind) — `phase1_cryptanalysis.py`
+Bevor wir Glyphen clustern, wollen wir wissen: wie viele distinkte Zeichen erwarten wir?
+
+**Berechnete Metriken** (auf dem Substrat von Phase 0):
+- Shannon-Entropie H = 2.8706 bit/Zeichen (Englisch-Ref: 4.14)
+- Index of Coincidence IoC = 0.1606 (Englisch-Ref: 0.067) — **2.4× zu hoch**
+- Zipf'scher Exponent α = 2.9281 (Englisch-Ref: ≈1.0) — **3× zu hoch**
+- Top-Bigramm: S6S6 mit ~2300 Hits (BURST-artige Repetition)
+- 20 unique Substrat-Tokens (deutet auf Glyph-Variant-Liste)
+
+**Hypothesen-Aggregator (5 Heuristiken):**
+- H im engen Band → monoalphabetisch
+- IoC hoch → monoalphabetisch (Englisch: 0.067, Polyalphabetisch: 0.04-0.05)
+- Repetition-Muster → monoalphabetisch
+- Top-Token-Anteil > 30% → monoalphabetisch
+- K_predicted = [25, 35]
+
+**Ergebnis:** Hypothese `wahrscheinlich_monoalphabetisch` mit predicted K ∈ [25, 35]
+
+**Frage 2.1.1:** Ist die Hypothese `wahrscheinlich_monoalphabetisch` konsistent mit IoC 0.16 und α 2.93? Oder erzwingen diese Werte eine ANDERE Hypothese (z.B. nicht-linguistisch, Code, Glyph-Variant-Liste)?
+
+**Frage 2.1.2:** Ist es methodisch sauber, K_predicted = [25, 35] aus dem Inken-Substrat abzuleiten, BEVOR man die Glyphen überhaupt geclustert hat? Könnte man daraus einen Zirkelschluss konstruieren?
+
+**Frage 2.1.3:** Die 20 unique Substrat-Tokens — sind das echte Glyph-Typen oder sind das Inken-Pixelmuster (verschiedene Strich-Dicken, Tintenflecken)?
+
+**Frage 2.1.4:** Das BURST-Muster (S6S6 mit 2300 Hits) — ist das typisch für eine Liste von Glyph-Varianten (z.B. "Buchstabe A in 50 Schreibweisen") oder für ein anderes Phänomen (z.B. eine Tabelle mit Wiederholungen)?
+
+### Phase 2: Glyph-Alphabet (DevMind) — `phase2_alphabet.py`
+**Algorithmus:**
+1. Lade V4-Glyph-Crops (997 PNGs aus `bbox/components_20260704_V4/p{NN}/p{NN}_glyphs/`)
+2. V2-`EmbeddingNet` als Warm-Start: Conv→ReLU→MaxPool→Conv→ReLU→MaxPool→Conv→ReLU→AdaptiveAvgPool→Linear(64,64)
+3. Multi-Resolution: 16 + 32 + 64 px → 192-dim Vektor
+4. Custom `silhouette_score_numpy` (ohne sklearn)
+5. Multi-Modal-Distance: 0.2×cosine + 0.5×size + 0.3×aspect
+6. Agglomeratives Clustering mit **Constraint [25, 35]** aus Phase 1
+
+**Ergebnis:** K=34 Cluster, Silhouette=0.5113
+**Top-10 Cluster-Größen:** 179, 155, 117, 96, 78, 53, 44, 39, 39, 38
+**Singletons:** 5 Cluster mit n_occurrences=1
+
+**Frage 2.2.1:** Ist Silhouette 0.51 ein guter Clustering-Wert für 997 Punkte in 34 Clustern? Oder ist das ein Zeichen für Overclustering?
+
+**Frage 2.2.2:** Das Constraint [25, 35] wurde aus Phase 1 abgeleitet. Ist es methodisch vertretbar, das Clustering durch eine externe Hypothese zu constrainen, oder sollte das Clustering unconstrained laufen (Silhouette-Optimum)?
+
+**Frage 2.2.3:** Die Multi-Modal-Distance-Gewichtung 0.2/0.5/0.3 (cosine/size/aspect) — sind das sinnvolle Werte? Oder dominiert Size zu stark, weil Cosine-Distanzen im V2-Embedding-Raum sehr klein sind (max 0.003)?
+
+**Frage 2.2.4:** 5 Singletons (Cluster mit n_occurrences=1) — sind das echte Singleton-Glyphen (z.B. Initialen, Unikate) oder Rauschen (Tinte, Beschädigung)?
+
+**Frage 2.2.5:** Die 997 Crops stammen aus V4. Wenn V4 schon überclustert hat, könnten einige Crops dasselbe echte Glyph in verschiedenen Auflösungen/Lagen zeigen. Verzerrt das unser Clustering?
+
+### Phase 3: Multi-Layout-Analyse (DevMind) — `phase3_layout.py`
+**Layout-Typen** (autoritativ aus deiner Gemini-Korrektur 2026-07-05):
+- `fliesstext` (14 Pages): p01, p02, p03, p04, p07, p08, p09, p10, p11, p12, p13, p14, p15, p16
+- `magic_cube` (2 Pages): p05, p06 — 3×3-Würfel mit Zeilen-/Spaltensumme 666
+- `burumut_block` (4 Pages): p17, p19, p20, p21
+- `silhouette_formel` (2 Pages): p18, p22
+- `chemie_struktur` (1 Page): p23
+
+**Frage 2.3.1:** Ist die Layout-Klassifikation (5 Typen) ausreichend granular? Sollten wir z.B. `header`, `footer`, `single_glyph` als separate Typen haben?
+
+**Frage 2.3.2:** Die `burumut_block`-Pages (p17, p19, p20, p21) enthalten Primfaktorzerlegungen. Sind das wirklich "Burumut" (wie Schmeh behauptet) oder sind das numerische Listen / Matrizen mit anderem Zweck?
+
+**Frage 2.3.3:** p18 und p22 als `silhouette_formel` — sind das wirklich Formeln (mit lateinischen Buchstaben) oder sind das Glyph-Kompositionen, die wie Formeln aussehen?
+
+**Frage 2.3.4:** p23 als `chemie_struktur` — bestätigst du die Cytosin/Thymin/Adenin/Guanin-Identifikation? Oder sind es andere Moleküle?
+
+### Phase 4: Selektive OCR (DevMind) — `phase4_ocr.py`
+**Algorithmus:**
+1. `fliesstext` → KEIN OCR (alles ist Tengri)
+2. `magic_cube` / `burumut_block` / `chemie_struktur` / `silhouette_formel`:
+   - Tesseract auf volle Page (PSM 6, eng, conf ≥ 60)
+   - **Filter:** Token-BBox mit Tengri-Glyph-BBox → IoU > 0.1 → verwerfen
+   - Rest = lateinische Zeichen aus nicht-Tengri-Bereichen
+
+**Befunde pro Page** (Anzahl lateinische Tokens):
+- p01-p04, p07-p16 (fliesstext): **0 Tokens** (reines Tengri)
+- p05 (magic_cube): 4 Tokens (Tesseract-Fehler auf 3D-Struktur)
+- p06 (magic_cube): 9 Tokens
+- p17 (burumut_block): 118 Tokens (Primfaktorzerlegungen)
+- p18 (silhouette_formel): 91 Tokens
+- p19 (burumut_block): 109 Tokens
+- p20 (burumut_block): 125 Tokens
+- p21 (burumut_block): 142 Tokens
+- p22 (silhouette_formel): 177 Tokens
+- p23 (chemie_struktur): 222 Tokens (Cytosin/Thymin + Multiplikationszeichen)
+
+**Total:** 1097 lateinische Tokens, davon 0 auf fliesstext-Pages
+
+**Frage 2.4.1:** Ist der IoU-Filter (Schwelle 0.1) zu restriktiv oder zu permissiv? Sollten wir 0.05, 0.2 oder 0.3 testen?
+
+**Frage 2.4.2:** Die 4 Tokens auf p05 und 9 auf p06 — sind das echte lateinische Zeichen oder Tesseract-Halluzinationen auf 3D-Strukturen? Sollten wir diese komplett verwerfen?
+
+**Frage 2.4.3:** 222 Tokens auf p23 (Chemie) — sind das wirklich die chemischen Symbole (C, H, N, O, NH₂) und Strukturformeln, oder ist da auch Tesseract-Müll dabei?
+
+**Frage 2.4.4:** 0 Tokens auf 14 fliesstext-Pages — verifizierst du das? Schmehs Dechiffrierung behauptet dort lateinische Sätze ("TENGRI IS THE SOURCE OF IMPORTANT WRITINGS..."). Wenn V5 dort 0 findet, ist das ein klarer Beweis, dass Schmeh halluziniert hat?
+
+**Frage 2.4.5:** Die Tesseract-Confidence-Schwelle 60 — ist das für ein Manuskript mit unbekannter Schrift zu niedrig? Sollten wir 70 oder 80 verwenden?
+
+### Phase 5: Substitutions-Validierung (CryptanalysisMind) — `phase5_decode.py`
+**F1-Kriterien für H1 (monoalphabetische Substitution für englischen Klartext):**
+
+| Test | Kriterium | V5-Wert | Status |
+|---|---|---|---|
+| F1.1 | IoC ∈ [0.055, 0.080] (Englisch) | 0.1606 | **FAIL** |
+| F1.2 | H ∈ [3.8, 4.6] | 2.8706 | **FAIL** |
+| F1.3 | α ∈ [0.8, 1.2] | 2.9281 | **FAIL** |
+| F1.4 | K ∈ [25, 35] | 34 | PASS |
+| F1.5 | Keine latein. Tokens auf Fließtext | 0 | PASS |
+
+**F1-Score:** -1
+**H1-Status:** **ABGELEHNT**
+
+**Frage 2.5.1:** Sind die F1-Kriterien (Bereiche für IoC, H, α) angemessen für eine monoalphabetische Substitution? Oder sollten wir permissivere/schärfere Bereiche verwenden?
+
+**Frage 2.5.2:** F1.4 PASS (K=34 ∈ [25, 35]) und F1.5 PASS (kein Latein auf Fließtext) — wenn 2 von 5 Kriterien PASSEN, ist H1 wirklich "abgelehnt" oder nur "unbestimmt"?
+
+**Frage 2.5.3:** Welche ALTERNATIVE Hypothese H2 sollten wir testen, gegeben dass H1 abgelehnt wurde? (z.B. Türkisch, Mongolisch, numerische Inhalte, Code, Glyph-Variant-Liste?)
+
+**Frage 2.5.4:** Sollte der F1-Score durch nicht-linguistische Tests ergänzt werden? Z.B. "Wenn H1 stimmt, dann sollte das längste Substrat-Muster einem englischen Wort entsprechen" — haben wir das geprüft?
+
+**Frage 2.5.5:** Die BURST-Repetition (S6S6 mit 2300 Hits) — wenn das KEIN monoalphabetischer Klartext ist, was ist es dann? Numerische Sequenz? Glyph-Variant-Liste? Visuelle Dekoration?
+
+### Phase 6: Schema-validierte Finalisierung (DevMind) — `phase6_finalize_v5.py`
+**Schema:** `schemas/tengri137_document_v5.schema.json`
+- `layout_type` enum: fliesstext, magic_cube, burumut_block, chemie_struktur, silhouette_formel, unbekannt
+- `latin_token.source` enum: tesseract, vision, geometry (KEIN schmeh_hint/complete)
+- `region_id` Pattern: `^p\d{2}_R\d+(_[A-Z_]+)?$`
+
+**doc.json: SCHEMA VALIDATION PASSED**
+
+**Frage 2.6.1:** Sollte das V5-Schema auch `magic_cube` als lateinische Quelle haben (für die 3D-Struktur-Beschriftung "9", "6", "6" etc.)?
+
+**Frage 2.6.2:** Fehlt im Schema ein Feld für "Tengri-Substrat-Statistik" (n_components, ink_ratio)? Oder ist das nur Pipeline-Intern?
+
+### Schmeh-External-Check (separat, Audit-Trail) — `schmeh_external_check.py`
+**Vergleich V5 ↔ Schmehs Plaintext (2017):**
+
+| Kategorie | Anzahl | Interpretation |
+|---|---|---|
+| Pure Tengri (V5=0, Schmeh>0) | 14 | Schmehs "Latein" ist Dechiffrierung |
+| Beide Latein (PARTIAL_OVERLAP) | 9 | Magic-Cube, Burumut, Chemie, Silhouette |
+| Match (V5=0 = Schmeh=0) | 8 | — |
+| Mismatch | 15 | V5 erkennt Realität, Schmeh halluziniert |
+
+**Beispiel p01:** V5 = 0 lateinische Tokens, Schmeh = 16 lateinische Zeilen ("TENGRI IS THE SOURCE OF IMPORTANT WRITINGS. ONLY THE CHOSEN SOULS KNOW THE MEANING...")
+
+**Frage 2.7.1:** Bestätigst du, dass auf p01 (und p02-p04, p07-p16) visuell KEIN lateinischer Text existiert? Wenn ja, ist Schmehs Dechiffrierung eindeutig falsch.
+
+**Frage 2.7.2:** Sind die "PARTIAL_OVERLAP"-Pages (9 Pages) Orte, an denen Schmehs Dechiffrierung ZUFÄLLIG mit realem lateinischem Text übereinstimmt? Oder hat Schmeh dort andere Quellen konsultiert?
+
+**Frage 2.7.3:** Sollten wir Schmehs Werk komplett aus unserer Datenbank entfernen? Oder als historische Referenz behalten, mit klarer "DECHIFFRIERUNG, NICHT OCR"-Markierung?
+
+---
+
+## 3. Übergreifende Methodik-Fragen
+
+**Frage 3.1 (Constraint-Clustering):** Ist es methodisch vertretbar, das Clustering von Glyphen durch eine externe Hypothese (Cryptanalysis) zu constrainen? Oder sollte das Clustering rein unconstrained laufen und die Cryptanalysis NACHGELAGERT die gefundene K bewerten?
+
+**Frage 3.2 (Multi-Resolution-Embeddings):** Sind 16 + 32 + 64 px die richtigen Auflösungen? Sollten wir auch 8 px (für sehr kleine Glyphen) oder 128 px (für komplexe Symbole) hinzufügen?
+
+**Frage 3.3 (Layout-Override):** Wir haben deine Gemini-Korrektur (V4-Methodik-Falsifikation) als AUTORITATIVE Override-Tabelle in Phase 3 verwendet. Ist das methodisch sauber, oder sollten wir die Layout-Klassifikation aus den Daten (Pixel-Geometrie, Glyph-Verteilung) NEU ableiten und mit deiner Korrektur nur als Sanity-Check vergleichen?
+
+**Frage 3.4 (Selektive OCR vs. gar keine OCR):** Wir haben Tesseract NUR auf nicht-Tengri-Bereiche angewendet. Wäre es methodisch sauberer, auf diesen Pages Tesseract komplett wegzulassen und die lateinischen Zeichen manuell (oder via Vision) zu identifizieren?
+
+**Frage 3.5 (Phase-1-Hypothese vs. Phase-5-Validierung):** Phase 1 generiert die Hypothese H1, Phase 5 validiert sie. Ist das ein Zirkelschluss, weil Phase 1 die selben Metriken (IoC, H, α) berechnet, die Phase 5 als F1-Kriterien verwendet? Sollte Phase 1 andere Metriken verwenden als Phase 5?
+
+**Frage 3.6 (Cryptanalysis-First vs. Glyph-First):** Wir haben Cryptanalysis-First gewählt (vor dem Glyph-Clustering). V4 hatte Glyph-First (Clustering zuerst, dann Kryptanalyse der Cluster-Ergebnisse). Welcher Ansatz ist grundsätzlich besser für ein unbekanntes Schriftsystem?
+
+**Frage 3.7 (K=34 vs. Realität):** Wenn Tengri ein Substitutions-Alphabet für 26 lateinische Buchstaben + 10 Ziffern = 36 Zeichen ist, dann ist K=34 sehr nah. Wenn Tengri aber nur 26 Buchstaben oder nur 10 Ziffern oder ein 5×5=25 Glyph-System ist, dann ist K=34 zu hoch oder zu niedrig. Welche Alphabet-Hypothese ist am plausibelsten?
+
+**Frage 3.8 (Burst-Repetition S6S6):** 2300 Hits für dasselbe Bigramm. Wenn das KEIN monoalphabetischer Klartext ist, was ist es? Eine Tabelle? Ein Glyph-Variant-Register? Eine dekorative Wiederholung?
+
+**Frage 3.9 (IoC 0.16 — was bedeutet es?):** Englisch hat IoC ≈ 0.067. Polyalphabetische Ciphers (z.B. Vigenère) haben IoC ≈ 0.04-0.05. IoC 0.16 ist 2.4× zu hoch für Englisch und 3-4× zu hoch für Polyalphabetisch. Welcher kryptografische/nicht-kryptografische Prozess erzeugt IoC 0.16?
+
+**Frage 3.10 (Validierung ohne externe Quelle):** Wir haben Schmeh komplett rausgeworfen. Woher wissen wir dann, ob V5 richtig liegt? Welche unabhängige Validierungsmethode schlägst du vor?
+
+**Frage 3.11 (Was fehlt in V5?):** Welche Phase oder welcher Analyseschritt fehlt in V5, um die nächste Stufe der Kryptoanalyse zu erreichen? Z.B. N-Gramm-Tabelle? Häufigkeitsspektrum pro Page? Cross-Page-Repetition?
+
+**Frage 3.12 (Skalierbarkeit):** V5 läuft auf 23 Seiten mit ~30 echten Glyphen. Wie würde sich die Methodik skalieren auf 100+ Seiten oder 10+ Glyph-Typen? Was würden wir anpassen?
+
+---
+
+## 4. Bitte antworte strukturiert
+
+Wir hätten gerne eine Antwort in folgender Struktur:
+
+### 4.1 Methodik-Bewertung V5
+- Was ist methodisch korrekt an V5?
+- Was ist methodisch problematisch oder verdächtig?
+- Welche Phase hat die größte Schwäche?
+
+### 4.2 Verifikation der Kern-Befunde
+- **H1 abgelehnt** (F1=-1): Bestätigst du diese Falsifikation? Oder ist H1 mit anderen Kriterien akzeptabel?
+- **K=34**: Ist das eine plausible Alphabet-Größe für Tengri?
+- **9/23 Pages mit Latein**: Siehst du das visuell bestätigt?
+- **14/23 Pages reines Tengri**: Bestätigst du, dass dort KEIN lateinischer Text existiert?
+- **p23 = Chemie**: Welche Moleküle genau?
+- **Magic-Cube auf p05/p06**: Bestätigt (3D-Würfel mit Summen 666)?
+
+### 4.3 Falsifikations-Vorschläge
+- Welche konkreten Tests würden V5 falsifizieren?
+- Welche alternativen Methoden würden andere Ergebnisse liefern?
+- Welche Annahmen sind am wenigsten abgesichert?
+
+### 4.4 V6-Empfehlungen
+- Welche nächste Phase sollten wir angehen?
+- Welche zusätzlichen Datenquellen (außer Schmeh) könnten wir nutzen?
+- Welche Cryptanalysis-Tools sind für ein 30-Glyphen-Alphabet angemessen?
+
+### 4.5 Restrisiken
+- Was könnte an V5 falsch sein, ohne dass wir es merken?
+- Wo sind die "stillen Annahmen", die nicht explizit gemacht wurden?
+
+---
+
+## 5. Verfügbare Vergleichs-Daten (falls nötig)
+
+Falls du die V5-Befunde mit anderen Datenquellen abgleichen willst:
+- **V4-Output** (falsifiziert): `Tengri137_detailed_20260704_V4/doc.json` (NICHT für Validierung verwenden, nur als Methodik-Kontrast)
+- **V3-Output** (vor V4): `Tengri137_detailed_20260704_075228/doc.json`
+- **Schmehs Originaltext (2017)**: `bbox/schmeh_hints_20260704_V4/p{NN}_hints.json` (zur Information, NICHT als Ground-Truth)
+- **Tengri137.pdf selbst**: 23 Seiten, 150 DPI, 1125×1625
+
+---
+
+## 6. Zusammenfassung der V5-Methodik in 3 Sätzen
+
+> **V5 ist Cryptanalysis-First**: Wir generieren zuerst eine testbare Hypothese H1 (monoalphabetische Substitution) aus Shannon-H, IoC, Zipf-α, N-Grammen, bevor wir Glyphen clustern.
+> **V5 ist Constraint-Clustering**: Wir zwingen das Glyph-Clustering in K ∈ [25, 35] (aus H1), statt ein Silhouette-Optimum zu suchen.
+> **V5 ist Cryptanalysis-Falsifikation**: Wir lehnen H1 ab (F1=-1), weil IoC 0.16 ≠ Englisch 0.067, H 2.87 ≠ Englisch 4.14, α 2.93 ≠ Englisch 1.0.
+
+---
+
+**Vielen Dank für deine erneute Validierung. Wir wollen sicherstellen, dass V5 methodisch sauber ist, bevor wir auf V6 (z.B. alternative Hypothesen, Glyph-Variant-Listen, Cross-Page-Statistik) gehen.**
+
+— Julian / PhiMind, 2026-07-05

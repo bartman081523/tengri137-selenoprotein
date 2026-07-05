@@ -1,0 +1,66 @@
+{
+  "page_id": "p05",
+  "image_size": [
+    1125,
+    1625
+  ],
+  "layout_type": "magic_cube",
+  "layout_confidence": 0.95,
+  "n_tengri_glyphs": 116,
+  "regions": [
+    {
+      "region_id": "p05_R1_MAGIC_CUBE",
+      "region_type": "magic_cube",
+      "tengri_glyph_count": 116,
+      "ocr_applied": true,
+      "ocr_total_tokens": 5,
+      "ocr_after_tengri_filter": 4,
+      "latin_tokens": [
+        {
+          "text": "hY",
+          "bbox": [
+            642,
+            729,
+            37,
+            26
+          ],
+          "conf": 0.848,
+          "source": "tesseract"
+        },
+        {
+          "text": "«",
+          "bbox": [
+            689,
+            737,
+            8,
+            8
+          ],
+          "conf": 0.789,
+          "source": "tesseract"
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            682,
+            772,
+            28,
+            26
+          ],
+          "conf": 0.741,
+          "source": "tesseract"
+        },
+        {
+          "text": "1>",
+          "bbox": [
+            699,
+            1463,
+            27,
+            24
+          ],
+          "conf": 0.621,
+          "source": "tesseract"
+        }
+      ]
+    }
+  ]
+}
