@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "phase": "V11 / V7-Lückenschluss",
+    "datum": "2026-07-06T15:19:35.763575",
+    "method": "TDD-Tests für V7 Phase 21, 22, 23 (bereits empirisch beantwortet durch V11)"
+  },
+  "phase_21_p17_ocr": {
+    "v7_befund": "11 Glyphen + 10 Ziffern",
+    "v11_verifikation": {
+      "n_ziffern": 10,
+      "ziffern_values": [
+        2,
+        5,
+        13,
+        37,
+        179,
+        471077143,
+        23,
+        53,
+        2711,
+        897232321
+      ],
+      "n_glyphen": 11,
+      "akrostichon": "BNYZTSOYNKS",
+      "n_klartext_zeilen": 5
+    },
+    "status": "BESTÄTIGT",
+    "verdict": "10 Ziffern, 11 Glyphen, 5 Klartext-Zeilen identisch zu V7"
+  },
+  "phase_22_caesar_shift": {
+    "v7_befund": "0/26 Caesar-Shifts ergeben Englisch",
+    "v11_verifikation": {
+      "akrostichon": "BNYZTSOYNKS",
+      "n_shifts_tested": 26,
+      "best_shift": 0,
+      "best_result": "BNYZTSOYNKS",
+      "best_english_word": "BNY",
+      "top_5_shifts": [
+        {
+          "shift": 0,
+          "result": "BNYZTSOYNKS",
+          "n_english_words_found": 7,
+          "first_word": "BNY"
+        },
+        {
+          "shift": 1,
+          "result": "COZAUTPZOLT",
+          "n_english_words_found": 7,
+          "first_word": "COZ"
+        },
+        {
+          "shift": 2,
+          "result": "DPABVUQAPMU",
+          "n_english_words_found": 7,
+          "first_word": "DPA"
+        },
+        {
+          "shift": 3,
+          "result": "EQBCWVRBQNV",
+          "n_english_words_found": 7,
+          "first_word": "EQB"
+        },
+        {
+          "shift": 4,
+          "result": "FRCDXWSCROW",
+          "n_english_words_found": 7,
+          "first_word": "FRC"
+        }
+      ]
+    },
+    "status": "TEILWEISE",
+    "verdict": "Bestes Shift: 0 → BNYZTSOYNKS (Wort: BNY)"
+  },
+  "phase_23_burumut_constraint": {
+    "v7_befund": "11/11 Tappeiner-Periode-7-Wörter in BURUMUT-Liste, L1-These = OBSOLET",
+    "v11_verifikation": {
+      "n_words": 11,
+      "n_periode_7_match": 11,
+      "per_word": [
+        {
+          "wort": "BURUMUTREFAMTU",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "NURESUTREGUMFA",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "YAPSUAZBEHIMLA",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "ZANRUAZBENOMBA",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "TOBIKOTLUBUMYO",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "SUNOKURGANOZYI",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "OKUZIKUFAUSIHE",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "YABEKANSABERHO",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "NAFERANSAHOTFE",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "KOREMORBIZUMRO",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        },
+        {
+          "wort": "SUNAKIRFANEMBA",
+          "n_dinome": 7,
+          "expected_dinome": 7,
+          "match": true
+        }
+      ],
+      "l1_these_match": 0
+    },
+    "status": "BESTÄTIGT",
+    "verdict": "11/11 BURUMUT-Wörter haben 7 Dinome (Tappeiner-Periode-7 konsistent) | 14-Zeichen-Wörter ≠ 7-Zeichen-Englisch (L1-These FALSIFIZIERT: 0/11)"
+  }
+}
