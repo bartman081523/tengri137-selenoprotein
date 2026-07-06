@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "phase": "V8 / Phase 4",
+    "datum": "2026-07-06T10:53:16.297147"
+  },
+  "syllable_data": {
+    "p01": {
+      "n_tokens": 92,
+      "n_words": 122,
+      "total_syllables": 177,
+      "tokens_per_syllable": 0.519774011299435,
+      "tokens_per_word": 0.7540983606557377,
+      "syllables_per_word_avg": 1.4508196721311475
+    },
+    "p02": {
+      "n_tokens": 68,
+      "n_words": 115,
+      "total_syllables": 159,
+      "tokens_per_syllable": 0.4276729559748428,
+      "tokens_per_word": 0.591304347826087,
+      "syllables_per_word_avg": 1.382608695652174
+    },
+    "p03": {
+      "n_tokens": 83,
+      "n_words": 134,
+      "total_syllables": 189,
+      "tokens_per_syllable": 0.43915343915343913,
+      "tokens_per_word": 0.6194029850746269,
+      "syllables_per_word_avg": 1.4104477611940298
+    },
+    "p04": {
+      "n_tokens": 92,
+      "n_words": 171,
+      "total_syllables": 227,
+      "tokens_per_syllable": 0.4052863436123348,
+      "tokens_per_word": 0.5380116959064327,
+      "syllables_per_word_avg": 1.327485380116959
+    },
+    "p07": {
+      "n_tokens": 35,
+      "n_words": 66,
+      "total_syllables": 92,
+      "tokens_per_syllable": 0.3804347826086957,
+      "tokens_per_word": 0.5303030303030303,
+      "syllables_per_word_avg": 1.393939393939394
+    },
+    "p08": {
+      "n_tokens": 19,
+      "n_words": 53,
+      "total_syllables": 73,
+      "tokens_per_syllable": 0.2602739726027397,
+      "tokens_per_word": 0.3584905660377358,
+      "syllables_per_word_avg": 1.3773584905660377
+    },
+    "p09": {
+      "n_tokens": 50,
+      "n_words": 101,
+      "total_syllables": 145,
+      "tokens_per_syllable": 0.3448275862068966,
+      "tokens_per_word": 0.49504950495049505,
+      "syllables_per_word_avg": 1.4356435643564356
+    },
+    "p10": {
+      "n_tokens": 99,
+      "n_words": 182,
+      "total_syllables": 253,
+      "tokens_per_syllable": 0.391304347826087,
+      "tokens_per_word": 0.5439560439560439,
+      "syllables_per_word_avg": 1.39010989010989
+    }
+  },
+  "n_gram_test": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2,
+    "6": 6,
+    "7": 7,
+    "8": 6
+  },
+  "best_n_gram_hypothesis": 7,
+  "pseudo_script_evidence": {
+    "n_gram_test": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2,
+      "6": 6,
+      "7": 7,
+      "8": 6
+    },
+    "best_n_gram": 7,
+    "best_n_match_count": 7,
+    "syllable_test_avg_tokens_per_syllable": 0.39609092991055883
+  },
+  "hypotheses": {
+    "H3_syllable": {
+      "verdict": "FALSIFIZIERT",
+      "evidence": "Tokens/Syllable-Verhältnis: 0.40 — viel zu niedrig für 1 Glyph = 1 Silbe (erwartet wäre 1.0)"
+    },
+    "H4_pseudo_script": {
+      "verdict": "BESTÄTIGT (mit N-Gramm-Modifikation)",
+      "evidence": "Bester N-Gramm-Wert: n=7 (7/8 Seiten passen). Aber 1 Glyph = 1 Konzept bleibt die wahrscheinlichste Erklärung."
+    },
+    "H5_schmeh_1to1": {
+      "verdict": "FALSIFIZIERT",
+      "evidence": "Schmehs Wikia-Übersetzung ist eine ANDERE Berechnung (englische Wörter), nicht 1:1 aus Glyphen ableitbar. BURUMUT-Wörter (Tappeiner) sind EIGENSTÄNDIGE Klartexte."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+=== PGP Verification of /run/media/julian/ML4/tengri137/original_sources/137.tar.gz ===
+Date: 2026-07-06T10:45:57.646896
+Command: gpg --verify /run/media/julian/ML4/tengri137/original_sources/137.tar.gz.asc /run/media/julian/ML4/tengri137/original_sources/137.tar.gz
+Exit code: 2
+
+--- stdout ---
+
+
+--- stderr ---
+gpg: Signatur vom Do 18 Aug 2016 20:51:18 CEST
+gpg:                mittels RSA-Schlüssel D152D6C5666AB731
+gpg: Signatur kann nicht geprüft werden: Kein öffentlicher Schlüssel
+
+
+--- analysis ---
+RESULT: Unknown - check output above

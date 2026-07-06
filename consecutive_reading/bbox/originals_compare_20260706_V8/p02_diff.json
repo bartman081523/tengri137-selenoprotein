@@ -1,0 +1,206 @@
+{
+  "page_id": "p02",
+  "scale_x": 1.184,
+  "scale_y": 1.229,
+  "summary": {
+    "n_v6_tokens": 68,
+    "n_re_extracted": 390,
+    "n_bbox_matches": 68,
+    "n_glyph_id_matches": 57,
+    "n_high_iou_matches": 51,
+    "n_unmatched_v6": 0,
+    "matches_sample": [
+      {
+        "v6_glyph_id": "G19",
+        "v6_bbox": [
+          472,
+          255,
+          33,
+          33
+        ],
+        "orig_glyph_id": "G19",
+        "orig_bbox": [
+          555,
+          315,
+          39,
+          39
+        ],
+        "orig_conf": 0.8575475811958313,
+        "iou": 0.7885503406353312,
+        "scale_match": true
+      },
+      {
+        "v6_glyph_id": "G06",
+        "v6_bbox": [
+          674,
+          255,
+          21,
+          34
+        ],
+        "orig_glyph_id": "G06",
+        "orig_bbox": [
+          803,
+          315,
+          25,
+          40
+        ],
+        "orig_conf": 0.8713210821151733,
+        "iou": 0.6393479916317193,
+        "scale_match": true
+      },
+      {
+        "v6_glyph_id": "G25",
+        "v6_bbox": [
+          889,
+          255,
+          24,
+          34
+        ],
+        "orig_glyph_id": "G08",
+        "orig_bbox": [
+          1052,
+          315,
+          25,
+          40
+        ],
+        "orig_conf": 0.7455466389656067,
+        "iou": 0.8071174807740534,
+        "scale_match": true
+      },
+      {
+        "v6_glyph_id": "G10",
+        "v6_bbox": [
+          201,
+          294,
+          27,
+          35
+        ],
+        "orig_glyph_id": "G10",
+        "orig_bbox": [
+          222,
+          363,
+          32,
+          42
+        ],
+        "orig_conf": 0.849844217300415,
+        "iou": 0.3218871861058954,
+        "scale_match": false
+      },
+      {
+        "v6_glyph_id": "G07",
+        "v6_bbox": [
+          299,
+          294,
+          25,
+          35
+        ],
+        "orig_glyph_id": "G08",
+        "orig_bbox": [
+          365,
+          364,
+          25,
+          40
+        ],
+        "orig_conf": 0.8393858671188354,
+        "iou": 0.48713728342984797,
+        "scale_match": false
+      },
+      {
+        "v6_glyph_id": "G05",
+        "v6_bbox": [
+          431,
+          294,
+          32,
+          35
+        ],
+        "orig_glyph_id": "G05",
+        "orig_bbox": [
+          504,
+          363,
+          38,
+          42
+        ],
+        "orig_conf": 0.8689548969268799,
+        "iou": 0.6841071703499813,
+        "scale_match": true
+      },
+      {
+        "v6_glyph_id": "G10",
+        "v6_bbox": [
+          719,
+          294,
+          27,
+          35
+        ],
+        "orig_glyph_id": "G10",
+        "orig_bbox": [
+          858,
+          363,
+          32,
+          42
+        ],
+        "orig_conf": 0.8783040046691895,
+        "iou": 0.6236706077513888,
+        "scale_match": true
+      },
+      {
+        "v6_glyph_id": "G19",
+        "v6_bbox": [
+          266,
+          295,
+          33,
+          33
+        ],
+        "orig_glyph_id": "G19",
+        "orig_bbox": [
+          302,
+          364,
+          39,
+          39
+        ],
+        "orig_conf": 0.8767589330673218,
+        "iou": 0.48633830547563683,
+        "scale_match": false
+      },
+      {
+        "v6_glyph_id": "G25",
+        "v6_bbox": [
+          467,
+          295,
+          24,
+          34
+        ],
+        "orig_glyph_id": "G25",
+        "orig_bbox": [
+          550,
+          364,
+          28,
+          40
+        ],
+        "orig_conf": 0.84101802110672,
+        "iou": 0.7687785066210132,
+        "scale_match": true
+      },
+      {
+        "v6_glyph_id": "G05",
+        "v6_bbox": [
+          570,
+          334,
+          32,
+          35
+        ],
+        "orig_glyph_id": "G05",
+        "orig_bbox": [
+          676,
+          412,
+          38,
+          42
+        ],
+        "orig_conf": 0.8511361479759216,
+        "iou": 0.8976760044797374,
+        "scale_match": true
+      }
+    ],
+    "unmatched_sample": []
+  }
+}

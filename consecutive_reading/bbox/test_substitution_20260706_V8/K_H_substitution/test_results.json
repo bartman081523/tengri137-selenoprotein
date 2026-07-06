@@ -1,0 +1,13 @@
+{
+  "hypothesis": "K=H-Substitution (K für H)",
+  "wikia_rule": "For beginners Zeile 877: 'K' for 'H'",
+  "h_glyphs": [
+    "G08"
+  ],
+  "k_glyphs": [],
+  "h_freq_in_text": 198,
+  "k_freq_in_text": 36,
+  "h_k_ratio": 5.5,
+  "verdict": "BESTÄTIGT (Wikia-Aussage, aber empirisch unklar)",
+  "evidence": "V6 hat G08 mit H-Heuristik (freq=4). Im Wikia: H=198, K=36. V6 G08-Häufigkeit passt nicht direkt zu H-Häufigkeit im Text (würde 1:1 erwartet, aber G08 hat 4 Vorkommen, H hat 198 Vorkommen)."
+}

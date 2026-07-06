@@ -1,0 +1,33 @@
+{
+  "hypothesis": "Tengri = vollständige Orkhon-Tabelle (1:1 Substitution)",
+  "wikia_rule": "For beginners: 'use the translation help (Old Turkic alphabet, Orkhon script)'",
+  "n_v6_glyphs": 17,
+  "n_latin_letters": 26,
+  "n_reduced_letters_with_wikia_rules": 22,
+  "wikia_rules_reduce_to": [
+    "A/E",
+    "B/V",
+    "C",
+    "D",
+    "G",
+    "I",
+    "J",
+    "K/H",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P/F",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "verdict": "FALSIFIZIERT",
+  "evidence": "V6 hat nur 17 Glyphen, aber 26 lateinische Buchstaben. Mit Wikia-Substitutions-Regeln (A=E, K=H, B=V, P=F) wären nur 22 distinkte Buchstaben. Aber 17 Glyphen können nicht 22 distinkte Buchstaben abdecken. Zusätzlich: Token-zu-Latein-Verhältnis ~0.13 (Phase 2) — 1 Glyph ≠ 1 lateinischer Buchstabe."
+}

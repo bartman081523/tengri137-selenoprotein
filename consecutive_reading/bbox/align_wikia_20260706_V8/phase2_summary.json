@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "phase": "V8 / Phase 2",
+    "datum": "2026-07-06T10:50:49.962429",
+    "n_pages_analyzed": 23
+  },
+  "hypotheses": {
+    "H1_one_to_one_latin": {
+      "description": "1 Glyph = 1 lateinischer Buchstabe",
+      "expected_ratio": 1.0,
+      "observed_ratio_avg": 0.11281217972930427,
+      "verdict": "FALSIFIZIERT",
+      "evidence": "Durchschnittliches Token-zu-Latein-Verhältnis ~0.13-0.15, NICHT 1.0"
+    },
+    "H3_syllable": {
+      "description": "1 Glyph = 1 englische Silbe",
+      "expected_ratio": 1.0,
+      "observed_ratio_avg": 0.34336634920998343,
+      "verdict": "FALSIFIZIERT",
+      "evidence": "1 Token entspricht ~5-10 Silben — viel zu hoch"
+    },
+    "H4_pseudo_script": {
+      "description": "1 Glyph = 1 Konzept/Wort (kein lineares Mapping)",
+      "expected_ratio": "irregular (depends on word density)",
+      "observed_ratio_avg": 0.4596022686568837,
+      "verdict": "BESTÄTIGT (vorläufig)",
+      "evidence": "Durchschnittliches Token-zu-Wort-Verhältnis ~0.5-1.0 — passt zu 1 Glyph pro Konzept"
+    }
+  },
+  "glyph_frequency_total": 572,
+  "n_unique_glyphs": 16
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "phase": "V8 / Phase 1 manuell",
+    "datum": "2026-07-06T10:48:49.832119",
+    "methode": "Visuelle Inspektion mit Read-Tool"
+  },
+  "p01_sample": {
+    "G05_crop": {
+      "v6_heuristic": "I (vertikaler Strich)",
+      "manual_observation": "Vertikaler Strich mit kleinen Haken oben und unten",
+      "match": true
+    },
+    "G08_crop": {
+      "v6_heuristic": "H (zwei vertikale mit horizontaler Verbindung)",
+      "manual_observation": "Zwei vertikale Striche mit horizontaler Mitte — bestätigt H-Ähnlichkeit",
+      "match": true
+    },
+    "G25_crop": {
+      "v6_heuristic": "+ (Plus/Kreuz)",
+      "manual_observation": "Plus/Kreuz-Form",
+      "match": true
+    },
+    "G01_crop": {
+      "v6_heuristic": "J (Haken links)",
+      "manual_observation": "Nach links offener Haken",
+      "match": true
+    },
+    "G02_crop": {
+      "v6_heuristic": ") (Klammer)",
+      "manual_observation": "Nach rechts geöffneter Halbmond",
+      "match": true
+    }
+  },
+  "auflösungsvergleich": {
+    "original_pgp": "1332x1998 RGBA (4-Kanal)",
+    "pages_png": "1125x1625 RGB (3-Kanal)",
+    "scale_x": 1.184,
+    "scale_y": 1.229,
+    "qualitative": "Original-PNGs haben 40% mehr Pixel, aber visuell wirken Glyphen identisch. V6-Token-Positionen sind konsistent."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "page_id": "p07",
+  "n_v6_tokens": 35,
+  "n_bbox_matches": 35,
+  "n_glyph_id_matches": 26,
+  "n_high_iou_matches": 27,
+  "n_unmatched_v6": 0,
+  "glyph_id_agreement_rate": 0.7428571428571429,
+  "high_iou_rate": 0.7714285714285715,
+  "first_10_matches": [
+    {
+      "v6_glyph_id": "G18",
+      "v6_bbox": [
+        472,
+        259,
+        24,
+        35
+      ],
+      "orig_glyph_id": "G18",
+      "orig_bbox": [
+        556,
+        320,
+        28,
+        42
+      ],
+      "orig_conf": 0.8533380031585693,
+      "iou": 0.764916325139028,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G07",
+      "v6_bbox": [
+        651,
+        260,
+        25,
+        35
+      ],
+      "orig_glyph_id": "G07",
+      "orig_bbox": [
+        775,
+        320,
+        30,
+        42
+      ],
+      "orig_conf": 0.8103154301643372,
+      "iou": 0.7266828253525974,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G29",
+      "v6_bbox": [
+        697,
+        260,
+        24,
+        34
+      ],
+      "orig_glyph_id": "G29",
+      "orig_bbox": [
+        832,
+        321,
+        28,
+        40
+      ],
+      "orig_conf": 0.8386756777763367,
+      "iou": 0.6014307121614794,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G25",
+      "v6_bbox": [
+        889,
+        260,
+        24,
+        34
+      ],
+      "orig_glyph_id": "G08",
+      "orig_bbox": [
+        1051,
+        321,
+        25,
+        40
+      ],
+      "orig_conf": 0.6907527446746826,
+      "iou": 0.7493096524185904,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G14",
+      "v6_bbox": [
+        578,
+        261,
+        30,
+        34
+      ],
+      "orig_glyph_id": "G14",
+      "orig_bbox": [
+        685,
+        322,
+        36,
+        40
+      ],
+      "orig_conf": 0.854530394077301,
+      "iou": 0.9120685564208225,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G03",
+      "v6_bbox": [
+        878,
+        300,
+        25,
+        37
+      ],
+      "orig_glyph_id": "G03",
+      "orig_bbox": [
+        1035,
+        372,
+        27,
+        40
+      ],
+      "orig_conf": 0.7186403274536133,
+      "iou": 0.5876129063332293,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G07",
+      "v6_bbox": [
+        349,
+        341,
+        25,
+        35
+      ],
+      "orig_glyph_id": "G07",
+      "orig_bbox": [
+        404,
+        421,
+        30,
+        42
+      ],
+      "orig_conf": 0.7790273427963257,
+      "iou": 0.508836716960226,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G18",
+      "v6_bbox": [
+        672,
+        341,
+        24,
+        35
+      ],
+      "orig_glyph_id": "G18",
+      "orig_bbox": [
+        801,
+        421,
+        28,
+        42
+      ],
+      "orig_conf": 0.8245518207550049,
+      "iou": 0.653677278734034,
+      "scale_match": true
+    },
+    {
+      "v6_glyph_id": "G29",
+      "v6_bbox": [
+        221,
+        342,
+        24,
+        34
+      ],
+      "orig_glyph_id": "G08",
+      "orig_bbox": [
+        274,
+        422,
+        25,
+        40
+      ],
+      "orig_conf": 0.7431982159614563,
+      "iou": 0.4165287908015849,
+      "scale_match": false
+    },
+    {
+      "v6_glyph_id": "G25",
+      "v6_bbox": [
+        287,
+        342,
+        24,
+        34
+      ],
+      "orig_glyph_id": "G25",
+      "orig_bbox": [
+        329,
+        422,
+        28,
+        40
+      ],
+      "orig_conf": 0.8357068300247192,
+      "iou": 0.42456957456587646,
+      "scale_match": false
+    }
+  ]
+}

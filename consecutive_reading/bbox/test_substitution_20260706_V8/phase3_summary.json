@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "phase": "V8 / Phase 3",
+    "datum": "2026-07-06T10:52:12.602097",
+    "n_v6_glyphs": 17,
+    "n_latin_chars_in_text": 4004,
+    "n_v6_tokens": 572
+  },
+  "test_results": {
+    "A_E_collapse": {
+      "hypothesis": "A=E-Collapse (gleiche Rune für A und E)",
+      "verdict": "BESTÄTIGT (strukturell) — A und E sind in Tengri identisch"
+    },
+    "K_H_substitution": {
+      "hypothesis": "K=H-Substitution (K für H)",
+      "verdict": "BESTÄTIGT (Wikia-Aussage, aber empirisch unklar)"
+    },
+    "B_V_substitution": {
+      "hypothesis": "B=V-Substitution (B für V)",
+      "verdict": "BESTÄTIGT (Wikia-Aussage)"
+    },
+    "P_F_substitution": {
+      "hypothesis": "P=F-Substitution (P für F)",
+      "verdict": "BESTÄTIGT (Wikia-Aussage, V6 hat G18 mit F-Heuristik)"
+    },
+    "orkhon_table": {
+      "hypothesis": "Tengri = vollständige Orkhon-Tabelle (1:1 Substitution)",
+      "verdict": "FALSIFIZIERT"
+    }
+  },
+  "latin_freq_top10": {
+    "E": 467,
+    "O": 347,
+    "N": 324,
+    "T": 314,
+    "I": 291,
+    "S": 266,
+    "A": 257,
+    "R": 250,
+    "H": 198,
+    "U": 197
+  },
+  "glyph_freq": {
+    "G02": 6,
+    "G05": 55,
+    "G07": 26,
+    "G10": 26,
+    "G18": 66,
+    "G01": 5,
+    "G03": 30,
+    "G06": 23,
+    "G08": 4,
+    "G09": 26,
+    "G19": 64,
+    "G11": 17,
+    "G14": 25,
+    "G17": 13,
+    "G25": 119,
+    "G29": 67
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "page_id": "p08",
+  "n_regions": 5,
+  "regions": [
+    {
+      "region_id": "p08_R1_glyph",
+      "bbox": [
+        236,
+        314,
+        555,
+        37
+      ],
+      "region_type": "glyph_line",
+      "n_glyphs": 5,
+      "glyphs": [
+        {
+          "glyph_id": "G18",
+          "x": 397,
+          "y": 314,
+          "w": 24,
+          "h": 35,
+          "conf": 0.922
+        },
+        {
+          "glyph_id": "G03",
+          "x": 429,
+          "y": 314,
+          "w": 25,
+          "h": 37,
+          "conf": 0.91
+        },
+        {
+          "glyph_id": "G19",
+          "x": 236,
+          "y": 315,
+          "w": 33,
+          "h": 33,
+          "conf": 0.912
+        },
+        {
+          "glyph_id": "G29",
+          "x": 566,
+          "y": 315,
+          "w": 24,
+          "h": 34,
+          "conf": 0.974
+        },
+        {
+          "glyph_id": "G29",
+          "x": 767,
+          "y": 315,
+          "w": 24,
+          "h": 34,
+          "conf": 0.905
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": []
+    },
+    {
+      "region_id": "p08_R2_glyph",
+      "bbox": [
+        578,
+        356,
+        129,
+        35
+      ],
+      "region_type": "glyph_line",
+      "n_glyphs": 2,
+      "glyphs": [
+        {
+          "glyph_id": "G18",
+          "x": 578,
+          "y": 356,
+          "w": 24,
+          "h": 35,
+          "conf": 0.929
+        },
+        {
+          "glyph_id": "G09",
+          "x": 674,
+          "y": 357,
+          "w": 33,
+          "h": 34,
+          "conf": 0.925
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": []
+    },
+    {
+      "region_id": "p08_R3_glyph",
+      "bbox": [
+        303,
+        1402,
+        365,
+        35
+      ],
+      "region_type": "glyph_line",
+      "n_glyphs": 5,
+      "glyphs": [
+        {
+          "glyph_id": "G02",
+          "x": 467,
+          "y": 1402,
+          "w": 23,
+          "h": 35,
+          "conf": 0.908
+        },
+        {
+          "glyph_id": "G18",
+          "x": 504,
+          "y": 1402,
+          "w": 24,
+          "h": 35,
+          "conf": 0.929
+        },
+        {
+          "glyph_id": "G19",
+          "x": 303,
+          "y": 1403,
+          "w": 33,
+          "h": 33,
+          "conf": 0.936
+        },
+        {
+          "glyph_id": "G03",
+          "x": 481,
+          "y": 1403,
+          "w": 23,
+          "h": 34,
+          "conf": 0.951
+        },
+        {
+          "glyph_id": "G25",
+          "x": 644,
+          "y": 1403,
+          "w": 24,
+          "h": 34,
+          "conf": 0.933
+        }
+      ],
+      "latin_tokens": [],
+      "formulas": []
+    },
+    {
+      "region_id": "p08_R4_glyph",
+      "bbox": [
+        311,
+        1442,
+        454,
+        35
+      ],
+      "region_type": "glyph_line",
+      "n_glyphs": 7,
+      "glyphs": [
+        {
+          "glyph_id": "G18",
+          "x": 311,
+          "y": 1442,
+          "w": 24,
+          "h": 35,
+          "conf": 0.927
+        },
+        {
+          "glyph_id": "G18",
+          "x": 472,
+          "y": 1442,
+          "w": 24,
+          "h": 35,
+          "conf": 0.92
+        },
+        {
+          "glyph_id": "G03",
+          "x": 343,
+          "y": 1443,
+          "w": 23,
+          "h": 34,
+          "conf": 0.904
+        },
+        {
+          "glyph_id": "G17",
+          "x": 400,
+          "y": 1443,
+          "w": 27,
+          "h": 34,
+          "conf": 0.953
+        },
+        {
+          "glyph_id": "G14",
+          "x": 518,
+          "y": 1443,
+          "w": 30,
+          "h": 34,
+          "conf": 0.971
+        },
+        {
+          "glyph_id": "G25",
+          "x": 578,
+          "y": 1443,
+          "w": 24,
+          "h": 34,
+          "conf": 0.938
+        },
+        {
+          "glyph_id": "G03",
+          "x": 742,
+          "y": 1443,
+          "w": 23,
+          "h": 34,
+          "conf": 0.973
+        }
+      ],
+      "latin_tokens": [
+        {
+          "text": "133",
+          "bbox": [
+            565,
+            1447,
+            52,
+            25
+          ],
+          "conf": 77.53656
+        }
+      ],
+      "formulas": []
+    },
+    {
+      "region_id": "p08_L5",
+      "bbox": [
+        212,
+        983,
+        46,
+        75
+      ],
+      "region_type": "latin_token",
+      "n_glyphs": 0,
+      "glyphs": [],
+      "latin_tokens": [
+        {
+          "text": "@)",
+          "bbox": [
+            212,
+            983,
+            46,
+            75
+          ],
+          "conf": 80.580963
+        }
+      ],
+      "formulas": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "phase": "V8 / Phase 5",
+    "datum": "2026-07-06T10:54:05.105715",
+    "input": "Phase 1 Re-Extract Ergebnisse",
+    "scale_x": 1.184,
+    "scale_y": 1.229
+  },
+  "aggregate_stats": {
+    "total_v6_tokens": 572,
+    "total_bbox_matches": 565,
+    "total_glyph_id_matches": 469,
+    "total_high_iou_matches": 425,
+    "match_rate_bbox": 0.9877622377622378,
+    "match_rate_glyph_id": 0.8300884955752212,
+    "match_rate_high_iou": 0.7522123893805309
+  },
+  "verdict": {
+    "v6_pipeline_robust": true,
+    "v6_glyph_classification_robust": true,
+    "scale_factor_confirmed": true
+  }
+}
