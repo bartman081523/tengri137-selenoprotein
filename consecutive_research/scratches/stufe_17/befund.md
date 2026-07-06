@@ -101,9 +101,11 @@ BURUMUT (154 AS):
 - Halocymine: 168 AS, 2 Domänen, 4 Disulfid-Brücken
 - BURUMUT: 154 AS, 2 Domänen, **0 Disulfid-Brücken (kein C!)**
 
-→ **BURUMUT ist KEIN klassisches Defensin.**
-→ BURUMUT ähnelt eher einem **ancestralen Defensin** (vor der Cys-Stabilisation).
-→ Vermutlich ein **frühes Verteidigungs-Peptid** aus der Evolution der AMPs.
+> **KORREKTUR (Stufe 18):** Die Halocymine-Annotation P0C8B1 ist falsch. P0C8B1 ist ein **Schnabeltier-Venom-Defensin** (Ornithorhynchus anatinus, 68 AS, 6 Cys), KEIN Halocymine. Die Halocymine-Analogie ist **nicht durch eine DB verifiziert** und muss zurückgezogen werden. BURUMUT ähnelt eher einem **Sec/Pyl-Analogon von Big-Defensin** (Mollusken, 2 Domänen) als einem Halocymine.
+
+→ **BURUMUT ist KEIN klassisches Defensin (kein Cys).**
+→ BURUMUT ähnelt eher einem **Sec/Pyl-Analogon von Big-Defensin** (mit Se-Se statt S-S).
+→ Vermutlich ein **frühes Verteidigungs-Peptid** aus einer alternativen Biochemie.
 
 ---
 
