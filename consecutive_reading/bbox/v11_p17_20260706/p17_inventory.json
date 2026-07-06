@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "phase": "V11 / Phase 2A",
+    "datum": "2026-07-06T15:11:38.126586",
+    "method": "V7-belegte Daten + Schmeh-Artikel #12 (Tappeiner-Empirik)",
+    "sources": [
+      "old/sources/oeffentliche_dekodierungen/schmeh_2017-03-08_pages_17-22_solved.md",
+      "V7 BURUMUT-Analyse",
+      "Schmeh 2017-03-08 Kommentar #12 (Tappeiner)"
+    ]
+  },
+  "v7_lateinische_ziffern": {
+    "values": [
+      2,
+      5,
+      13,
+      37,
+      179,
+      471077143,
+      23,
+      53,
+      2711,
+      897232321
+    ],
+    "count": 10,
+    "source": "V7 p17-Befund (visuelle Verifikation der Ziffern 0-9)"
+  },
+  "akrostichon_der_11_glyphen": {
+    "string": "BNYZTSOYNKS",
+    "length": 11,
+    "decoded_meaning": "BNYZTSOYNKS = 11 erste Buchstaben der 11 Tappeiner-BURUMUT-Wörter",
+    "caesar_shift_0_25": "0/26 ergeben Englisch (V7 Falsifikation)"
+  },
+  "tappeiner_brueche_klartext": {
+    "method": "Periode → Dinome (2-Ziffern) → Element-Symbol (IUPAC) → 1. Buchstabe",
+    "klartext_zeilen": [
+      "TIME FOR THE TRUTH",
+      "OVER MANY THOUSAND YEARS",
+      "WE SEND YOU MESSENGERS AND TEACHER",
+      "ALL THIS KNOWLEDGE",
+      "BEHIND YOUR CIVILISATION IS OURS"
+    ],
+    "source": "Schmeh 2017-03-08, Kommentar #12 (Klaus Tappeiner)"
+  },
+  "schicht_struktur": {
+    "tengri_glyphen": "11 Glyphen (Akrostichon BNYZTSOYNKS)",
+    "latein_ziffern": "10 Ziffern (Faktor-Zerlegungen)",
+    "tappeiner_brueche": "Unbekannte Anzahl Brüche (dekodiert zu BURUMUT-Wörtern)",
+    "falsifikation_p1_p16": "p17 hat KEINE der 17 V6-Tengri-Glyphen — p17 ist EIGENE Schicht"
+  }
+}

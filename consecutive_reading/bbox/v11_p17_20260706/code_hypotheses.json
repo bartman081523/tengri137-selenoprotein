@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "phase": "V11 / Phase 2C",
+    "datum": "2026-07-06T15:13:09.496353",
+    "method": "Empirische Falsifikations-Tests für p17 Code-Hypothesen",
+    "apophenia_exclusion": [
+      "Keine Tora-Turing-Maschine (linear, 6 dokumentierte Bugs)",
+      "Keine 5-Layer-Torah-Fold (Master-Doc L2384: Kategorienfehler)",
+      "Keine 5-Turing-Operatoren (Master-Doc L2357: nur 4 in Praxis)",
+      "Keine TCI-Experimente (V5: F Grade FALSIFIZIERT)"
+    ]
+  },
+  "hypotheses": [
+    {
+      "name": "KOM PIL AT",
+      "status": "FALSIFIZIERT",
+      "test": "11 Glyphen vs 10 Ziffern vs 5 Klartext-Zeilen",
+      "verdict": "Keine 1:1-Isomorphie, 3 unabhängige Strukturen"
+    },
+    {
+      "name": "QUINE",
+      "status": "FALSIFIZIERT",
+      "test": "Input (Tengri-Glyphen) vs Output (Englischer Klartext)",
+      "verdict": "Output ≠ Input, keine Self-Reference"
+    },
+    {
+      "name": "TURING-MASCHINE",
+      "status": "FALSIFIZIERT (nicht konstruierbar)",
+      "test": "Konsistente FSM mit p17-Daten extrahierbar?",
+      "verdict": "Keine identifizierbaren Zustände oder Übergänge in p17"
+    },
+    {
+      "name": "BEWUSSTER CODE",
+      "status": "STATISTISCH SIGNIFIKANT (philosophisch NICHT testbar)",
+      "test": "Komplexität > Zufall? Strukturelle Tiefe > erwartet?",
+      "verdict": "Hohe Komplexität bestätigt, Bewusstsein bleibt philosophische Frage"
+    }
+  ]
+}

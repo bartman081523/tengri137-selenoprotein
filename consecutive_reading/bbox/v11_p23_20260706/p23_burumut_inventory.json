@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "phase": "V11 / Phase 2B",
+    "datum": "2026-07-06T15:12:23.014972",
+    "method": "Norbert-Biermann-Grid + V9 Smart-Parser v2",
+    "sources": [
+      "old/sources/oeffentliche_dekodierungen/schmeh_2017-03-08_pages_17-22_solved.md",
+      "V9 Smart-Parser v2"
+    ]
+  },
+  "grid": {
+    "n_rows": 11,
+    "n_cols": 14,
+    "n_chars": 154,
+    "source": "Norbert Biermann, Schmeh 2017-03-08, Kommentar #15/#24"
+  },
+  "woerter": [
+    {
+      "F": 1,
+      "wort": "BURUMUTREFAMTU",
+      "length": 14,
+      "n_unique_letters": 8,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 2,
+      "wort": "NURESUTREGUMFA",
+      "length": 14,
+      "n_unique_letters": 10,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 3,
+      "wort": "YAPSUAZBEHIMLA",
+      "length": 14,
+      "n_unique_letters": 12,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 4,
+      "wort": "ZANRUAZBENOMBA",
+      "length": 14,
+      "n_unique_letters": 9,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 5,
+      "wort": "TOBIKOTLUBUMYO",
+      "length": 14,
+      "n_unique_letters": 9,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 6,
+      "wort": "SUNOKURGANOZYI",
+      "length": 14,
+      "n_unique_letters": 11,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 7,
+      "wort": "OKUZIKUFAUSIHE",
+      "length": 14,
+      "n_unique_letters": 10,
+      "n_consonants": 6,
+      "n_vowels": 8,
+      "cv_ratio": 0.75
+    },
+    {
+      "F": 8,
+      "wort": "YABEKANSABERHO",
+      "length": 14,
+      "n_unique_letters": 10,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 9,
+      "wort": "NAFERANSAHOTFE",
+      "length": 14,
+      "n_unique_letters": 9,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 10,
+      "wort": "KOREMORBIZUMRO",
+      "length": 14,
+      "n_unique_letters": 9,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    },
+    {
+      "F": 11,
+      "wort": "SUNAKIRFANEMBA",
+      "length": 14,
+      "n_unique_letters": 11,
+      "n_consonants": 8,
+      "n_vowels": 6,
+      "cv_ratio": 1.33
+    }
+  ],
+  "overall_statistics": {
+    "n_total_chars": 154,
+    "n_unique_letters": 19,
+    "consonants": 86,
+    "vowels": 68
+  },
+  "falsifikationen": {
+    "P1_burumut_not_protein": {
+      "claim": "BURUMUT = Sec-codiertes Adhäsions-GPCR-Fragment (Master-Doc L226-228)",
+      "reality": "BURUMUT = Notation/Code (V7/V9 Sprach-Analyse)",
+      "evidence": "11 Wörter, türkische/mongolische Substrings (OKUZ, KURGAN, SUN), Konsonantenlast 4.23:1, KEINE Protein-Architektur"
+    },
+    "P6_burumut_not_holographic": {
+      "claim": "BURUMUT ist holografische Projektion der 5-Layer-Torah-Fold (Master-Doc L2384)",
+      "reality": "Holografie-Metapher ist Kategorienfehler (Master-Doc L2384 Selbstkorrektur)",
+      "evidence": "BURUMUT = konkrete Sprachwörter, NICHT holografische Projektion"
+    }
+  }
+}
