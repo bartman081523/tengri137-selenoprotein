@@ -1,0 +1,298 @@
+{
+  "phase": "V16 Phase 2b — BURUMUT-Akustik",
+  "n_tests": 5,
+  "n_pass": 5,
+  "syllable_matrix": [
+    [
+      "BUR",
+      "UM",
+      "UT",
+      "REF",
+      "AM",
+      "TU"
+    ],
+    [
+      "NUR",
+      "ES",
+      "UT",
+      "REG",
+      "UM",
+      "FA"
+    ],
+    [
+      "YAPS",
+      "UAZ",
+      "BEH",
+      "IM",
+      "LA"
+    ],
+    [
+      "ZANR",
+      "UAZ",
+      "BEN",
+      "OM",
+      "BA"
+    ],
+    [
+      "TOB",
+      "IK",
+      "OT",
+      "LUB",
+      "UM",
+      "YO"
+    ],
+    [
+      "SUN",
+      "OK",
+      "UR",
+      "GAN",
+      "OZ",
+      "YI"
+    ],
+    [
+      "OK",
+      "UZ",
+      "IK",
+      "UF",
+      "AUS",
+      "IH",
+      "E"
+    ],
+    [
+      "YAB",
+      "EK",
+      "AN",
+      "SAB",
+      "ER",
+      "HO"
+    ],
+    [
+      "NAF",
+      "ER",
+      "AN",
+      "SAH",
+      "OT",
+      "FE"
+    ],
+    [
+      "KOR",
+      "EM",
+      "OR",
+      "BIZ",
+      "UM",
+      "RO"
+    ],
+    [
+      "SUN",
+      "AK",
+      "IR",
+      "FAN",
+      "EM",
+      "BA"
+    ]
+  ],
+  "syllable_counter": {
+    "BUR": 1,
+    "UM": 4,
+    "UT": 2,
+    "REF": 1,
+    "AM": 1,
+    "TU": 1,
+    "NUR": 1,
+    "ES": 1,
+    "REG": 1,
+    "FA": 1,
+    "YAPS": 1,
+    "UAZ": 2,
+    "BEH": 1,
+    "IM": 1,
+    "LA": 1,
+    "ZANR": 1,
+    "BEN": 1,
+    "OM": 1,
+    "BA": 2,
+    "TOB": 1,
+    "IK": 2,
+    "OT": 2,
+    "LUB": 1,
+    "YO": 1,
+    "SUN": 2,
+    "OK": 2,
+    "UR": 1,
+    "GAN": 1,
+    "OZ": 1,
+    "YI": 1,
+    "UZ": 1,
+    "UF": 1,
+    "AUS": 1,
+    "IH": 1,
+    "E": 1,
+    "YAB": 1,
+    "EK": 1,
+    "AN": 2,
+    "SAB": 1,
+    "ER": 2,
+    "HO": 1,
+    "NAF": 1,
+    "SAH": 1,
+    "FE": 1,
+    "KOR": 1,
+    "EM": 2,
+    "OR": 1,
+    "BIZ": 1,
+    "RO": 1,
+    "AK": 1,
+    "IR": 1,
+    "FAN": 1
+  },
+  "suffix_counter": {
+    "MTU": 1,
+    "MFA": 1,
+    "MLA": 1,
+    "MBA": 2,
+    "MYO": 1,
+    "ZYI": 1,
+    "IHE": 1,
+    "RHO": 1,
+    "TFE": 1,
+    "MRO": 1
+  },
+  "klang_features": [
+    {
+      "wort": "BURUMUTREFAMTU",
+      "vowels": 6,
+      "dentals": 2,
+      "liquids": 2,
+      "nasals": 2,
+      "stops": 3,
+      "klang_typ": "summend"
+    },
+    {
+      "wort": "NURESUTREGUMFA",
+      "vowels": 6,
+      "dentals": 1,
+      "liquids": 2,
+      "nasals": 2,
+      "stops": 2,
+      "klang_typ": "summend"
+    },
+    {
+      "wort": "YAPSUAZBEHIMLA",
+      "vowels": 6,
+      "dentals": 0,
+      "liquids": 1,
+      "nasals": 1,
+      "stops": 2,
+      "klang_typ": "hart"
+    },
+    {
+      "wort": "ZANRUAZBENOMBA",
+      "vowels": 6,
+      "dentals": 0,
+      "liquids": 1,
+      "nasals": 3,
+      "stops": 2,
+      "klang_typ": "summend"
+    },
+    {
+      "wort": "TOBIKOTLUBUMYO",
+      "vowels": 6,
+      "dentals": 2,
+      "liquids": 1,
+      "nasals": 1,
+      "stops": 5,
+      "klang_typ": "hart"
+    },
+    {
+      "wort": "SUNOKURGANOZYI",
+      "vowels": 6,
+      "dentals": 0,
+      "liquids": 1,
+      "nasals": 2,
+      "stops": 2,
+      "klang_typ": "summend"
+    },
+    {
+      "wort": "OKUZIKUFAUSIHE",
+      "vowels": 8,
+      "dentals": 0,
+      "liquids": 0,
+      "nasals": 0,
+      "stops": 2,
+      "klang_typ": "hart"
+    },
+    {
+      "wort": "YABEKANSABERHO",
+      "vowels": 6,
+      "dentals": 0,
+      "liquids": 1,
+      "nasals": 1,
+      "stops": 3,
+      "klang_typ": "hart"
+    },
+    {
+      "wort": "NAFERANSAHOTFE",
+      "vowels": 6,
+      "dentals": 1,
+      "liquids": 1,
+      "nasals": 2,
+      "stops": 1,
+      "klang_typ": "summend"
+    },
+    {
+      "wort": "KOREMORBIZUMRO",
+      "vowels": 6,
+      "dentals": 0,
+      "liquids": 3,
+      "nasals": 2,
+      "stops": 2,
+      "klang_typ": "summend"
+    },
+    {
+      "wort": "SUNAKIRFANEMBA",
+      "vowels": 6,
+      "dentals": 0,
+      "liquids": 1,
+      "nasals": 3,
+      "stops": 2,
+      "klang_typ": "summend"
+    }
+  ],
+  "klang_typen": {
+    "summend": 7,
+    "hart": 4
+  },
+  "tests": [
+    {
+      "name": "T1_silben_pro_wort_dicht",
+      "pass": true,
+      "befund": "Durchschn. 5.9 Silben/Wort (Range: 5-7)",
+      "was_sagt_es_uns": "BURUMUT-Wörter haben 5.9 Silben (gesprochene Einheiten). V16-Hör: BURUMUT ist DICHTER als deutsche Wörter (2-3 Syl), passt aber zu Ritual-Sprache (Mongolisch/Türkisch: oft 3-5 Syl). Akustische Dauer pro Wort: ~2 Sekunden (langsam gesprochen)."
+    },
+    {
+      "name": "T2_gemeinsame_endungen",
+      "pass": true,
+      "befund": "Suffix 'MBA' (2x), n_M_endings=7",
+      "was_sagt_es_uns": "Häufigstes Suffix: 'MBA' (2x), M-Endungen: 7/11. V16-Hör: BURUMUT hat eine FAMILIE von Wort-Endungen (M-Suffix: -MBA, -MFA, -MLA, -MTU, -MYO, -MRO). Akustisch: M am Wortende = Lippen-Schluss (wie ein Gebet-Amen)."
+    },
+    {
+      "name": "T3_mind_3_unique_silben",
+      "pass": true,
+      "befund": "52 unique Silben",
+      "was_sagt_es_uns": "BURUMUT hat 52 unique Silben. V16-Hör: Genug Material für ein gesprochenes Vokabular, aber BEGRENZT. Konsistent mit V15: BURUMUT < 30 Tokens = komprimiert."
+    },
+    {
+      "name": "T4_klang_typen_variieren",
+      "pass": true,
+      "befund": "2 Klang-Typen: {'summend': 7, 'hart': 4}",
+      "was_sagt_es_uns": "BURUMUT-Wörter haben 2 Klang-Typen. V16-Hör: Die Akustik ist NICHT uniform. Verschiedene Wörter klingen ANDERS. Das wäre sinnvoll für ein 'auditiv lesbares' Code-System (analog Morse)."
+    },
+    {
+      "name": "T5_nasale_signifikant",
+      "pass": true,
+      "befund": "19 Nasale (M, N) in 11 Wörtern",
+      "was_sagt_es_uns": "19 Nasale in BURUMUT (12.3% aller Buchstaben). V16-Hör: BURUMUT klingt 'summend' (M, N sind stimmhafte Nasale). Tengrismus-Rituale haben oft 'OM'-artige Klänge. Numerologisch: M=13 (Mitte des Alphabets)."
+    }
+  ],
+  "verdict": "V16 Akustik: 5/5 PASS. BURUMUT hat 52 Silben, 10 Suffix-Familien, 2 Klang-Typen. Akustisch BALANCIERT."
+}

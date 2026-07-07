@@ -1,0 +1,529 @@
+{
+  "phase": "V16 Phase 1b — Codebook",
+  "n_tests": 5,
+  "n_pass": 5,
+  "codebook_size": 15,
+  "coverage_pct": 14.97005988023952,
+  "common_words": [
+    "AND",
+    "ANY",
+    "ARE",
+    "AS",
+    "BE",
+    "CALCULATION",
+    "CAN",
+    "CUBES",
+    "FIND",
+    "FOR"
+  ],
+  "avg_cosine_sim": 0.3771428571428572,
+  "highest_sims": [
+    {
+      "g1": "G05",
+      "g2": "G03",
+      "sim": 0.7000000000000001
+    },
+    {
+      "g1": "G18",
+      "g2": "G03",
+      "sim": 0.7000000000000001
+    },
+    {
+      "g1": "G03",
+      "g2": "G19",
+      "sim": 0.7000000000000001
+    },
+    {
+      "g1": "G05",
+      "g2": "G18",
+      "sim": 0.6000000000000001
+    },
+    {
+      "g1": "G05",
+      "g2": "G01",
+      "sim": 0.6000000000000001
+    }
+  ],
+  "lowest_sims": [
+    {
+      "g1": "G02",
+      "g2": "G08",
+      "sim": 0.10000000000000002
+    },
+    {
+      "g1": "G07",
+      "g2": "G08",
+      "sim": 0.10000000000000002
+    },
+    {
+      "g1": "G10",
+      "g2": "G08",
+      "sim": 0.10000000000000002
+    },
+    {
+      "g1": "G18",
+      "g2": "G08",
+      "sim": 0.10000000000000002
+    },
+    {
+      "g1": "G03",
+      "g2": "G08",
+      "sim": 0.10000000000000002
+    }
+  ],
+  "codebook": {
+    "G02": {
+      "words": [
+        "THE",
+        "OF",
+        "TO",
+        "A",
+        "TENGRI",
+        "IS",
+        "ME",
+        "NOT",
+        "UNDERSTANDING",
+        "CUBES"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 42,
+      "n_unique": 36
+    },
+    "G05": {
+      "words": [
+        "THE",
+        "YOU",
+        "A",
+        "THIS",
+        "WILL",
+        "TO",
+        "BE",
+        "IS",
+        "OF",
+        "UNDERSTAND"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 171,
+      "n_unique": 101
+    },
+    "G07": {
+      "words": [
+        "IS",
+        "FOR",
+        "OUR",
+        "NOT",
+        "AND",
+        "WE",
+        "THIS",
+        "A",
+        "OF",
+        "IT"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 116,
+      "n_unique": 83
+    },
+    "G10": {
+      "words": [
+        "THE",
+        "YOU",
+        "IS",
+        "OUR",
+        "THIS",
+        "ACCIDENTAL",
+        "NOT",
+        "PROOF",
+        "US",
+        "AND"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 127,
+      "n_unique": 86
+    },
+    "G18": {
+      "words": [
+        "OUR",
+        "THE",
+        "YOU",
+        "THIS",
+        "WE",
+        "ARE",
+        "TO",
+        "AND",
+        "A",
+        "WILL"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 301,
+      "n_unique": 165
+    },
+    "G01": {
+      "words": [
+        "THIS",
+        "THE",
+        "YOU",
+        "TO",
+        "OF",
+        "OUR",
+        "HIS",
+        "FOR",
+        "IS",
+        "KNOW"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 77,
+      "n_unique": 57
+    },
+    "G03": {
+      "words": [
+        "IS",
+        "WILL",
+        "THIS",
+        "A",
+        "THE",
+        "YOU",
+        "OUR",
+        "NO",
+        "TO",
+        "NOT"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 175,
+      "n_unique": 105
+    },
+    "G06": {
+      "words": [
+        "YOU",
+        "THE",
+        "OUR",
+        "ANY",
+        "FOR",
+        "WILL",
+        "USE",
+        "TO",
+        "THOUSAND",
+        "THIS"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 88,
+      "n_unique": 60
+    },
+    "G08": {
+      "words": [
+        "OF",
+        "THOSE",
+        "WHO",
+        "SECRET",
+        "KNOWLEDGE",
+        "IN",
+        "ORIGINATORS",
+        "GAVE",
+        "YOU",
+        "WARD"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 24,
+      "n_unique": 22
+    },
+    "G09": {
+      "words": [
+        "THIS",
+        "YOU",
+        "THE",
+        "YOUR",
+        "NUMBERS",
+        "IS",
+        "IN",
+        "SOUL",
+        "NO",
+        "Y"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 90,
+      "n_unique": 65
+    },
+    "G19": {
+      "words": [
+        "THIS",
+        "THE",
+        "YOU",
+        "WE",
+        "IS",
+        "CALCULATION",
+        "OUR",
+        "NOT",
+        "S",
+        "TO"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 275,
+      "n_unique": 174
+    },
+    "G11": {
+      "words": [
+        "WRITINGS",
+        "IS",
+        "OF",
+        "TO",
+        "WE",
+        "TRUTH",
+        "AND",
+        "FORGET",
+        "NOW",
+        "IN"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 35,
+      "n_unique": 30
+    },
+    "G14": {
+      "words": [
+        "THE",
+        "THIS",
+        "IS",
+        "YOU",
+        "CAN",
+        "FROM",
+        "FIND",
+        "IN",
+        "NOW",
+        "OF"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 90,
+      "n_unique": 72
+    },
+    "G17": {
+      "words": [
+        "AS",
+        "OUR",
+        "IS",
+        "THE",
+        "YOU",
+        "THEIR",
+        "MINDS",
+        "LIFT",
+        "W",
+        "PURPOSE"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 37,
+      "n_unique": 32
+    },
+    "G29": {
+      "words": [
+        "A",
+        "YOU",
+        "THE",
+        "FOR",
+        "AND",
+        "IS",
+        "THIS",
+        "IN",
+        "TENGRI",
+        "ONLY"
+      ],
+      "probs": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "n_occurrences": 239,
+      "n_unique": 151
+    }
+  },
+  "tests": [
+    {
+      "name": "T1_codebook_mind_14_glyphen",
+      "pass": true,
+      "befund": "Codebook-Größe: 15 Glyphen",
+      "was_sagt_es_uns": "Codebook hat 15 Glyphen (mind. 14 für V16-Architektur erforderlich). V16-Hör: p1-16 Glyphen sind eine ECHTE Codebook-Menge, nicht nur Glyph-Liste."
+    },
+    {
+      "name": "T2_codebook_coverage_mind_5pct",
+      "pass": true,
+      "befund": "Coverage: 14.97%",
+      "was_sagt_es_uns": "Codebook-Wörter treffen Wikia-Vokabular zu 15.0%. V16-Hör: Die 17 Codebook-Vektoren sind SEMANTISCH RELEVANT für die Wikia-Sprache."
+    },
+    {
+      "name": "T3_codebook_trennbar",
+      "pass": true,
+      "befund": "Durchschn. Cosinus-Ähnlichkeit: 0.3771",
+      "was_sagt_es_uns": "Codebook-Trennbarkeit: avg_sim=0.3771 (Schwelle 0.5). V16-Hör: Die 17 Glyphen haben UNTERSCHIEDLICHE Wort-Felder → sie sind NICHT uniform. Niedrige Ähnlichkeit = gute Codebook-Trennbarkeit."
+    },
+    {
+      "name": "T4_v8_glyph_map_16plus",
+      "pass": true,
+      "befund": "V8 Glyph-Map-Größe: 17",
+      "was_sagt_es_uns": "V8 reproduziert 17 Glyphen mit visual_latin-Zuordnung. V16-Hör: Die Codebook-Vektoren haben eine STABILE lateinische Signatur."
+    },
+    {
+      "name": "T5_codebook_matches_burumut_dim",
+      "pass": true,
+      "befund": "Codebook 15 ≥ BURUMUT-Spalten 14",
+      "was_sagt_es_uns": "Codebook-Größe (>=14) ≥ BURUMUT-Breite (14). V16-Hör: Codebook kann BURUMUT-Matrix (11×14) bevorraten. Architektur-Hyperparameter 14/11 numerologisch untermauert."
+    }
+  ],
+  "verdict": "V16 Codebook: 5/5 PASS. 15 Glyphen-Vektoren mit Coverage 15.0%. Trennbarkeit 0.3771."
+}

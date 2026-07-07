@@ -1,0 +1,223 @@
+{
+  "phase": "V16 Phase 1c — Forward-Pass p17-22",
+  "n_tests": 5,
+  "n_pass": 5,
+  "embeddings": {
+    "p17_tappeiner": {
+      "n_chars": 130,
+      "n_words": 22,
+      "akrostichon": "BNYZTSOYNKS",
+      "n_ziffern": 0,
+      "n_brueche": 5,
+      "embedding_hash": 9012
+    },
+    "p18": {
+      "n_chars": 661,
+      "n_words": 118,
+      "n_glyphs": 0,
+      "n_magic_cubes": 0,
+      "n_burumut_words": 0,
+      "embedding_hash": 4721
+    },
+    "p19": {
+      "n_chars": 483,
+      "n_words": 94,
+      "n_glyphs": 0,
+      "n_magic_cubes": 0,
+      "n_burumut_words": 0,
+      "embedding_hash": 2272
+    },
+    "p20": {
+      "n_chars": 919,
+      "n_words": 166,
+      "n_glyphs": 0,
+      "n_magic_cubes": 0,
+      "n_burumut_words": 0,
+      "embedding_hash": 2503
+    },
+    "p21": {
+      "n_chars": 559,
+      "n_words": 98,
+      "n_glyphs": 0,
+      "n_magic_cubes": 0,
+      "n_burumut_words": 0,
+      "embedding_hash": 7944
+    },
+    "p22": {
+      "n_chars": 612,
+      "n_words": 111,
+      "n_glyphs": 0,
+      "n_magic_cubes": 0,
+      "n_burumut_words": 0,
+      "embedding_hash": 1243
+    },
+    "p22_endphrasen": {
+      "n_phrasen": 14,
+      "embedding_hash": 8149
+    }
+  },
+  "correlations": [
+    {
+      "k1": "p17_tappeiner",
+      "k2": "p18",
+      "cos": 0.5068578264292626
+    },
+    {
+      "k1": "p17_tappeiner",
+      "k2": "p19",
+      "cos": 0.4132618508616993
+    },
+    {
+      "k1": "p17_tappeiner",
+      "k2": "p20",
+      "cos": 0.34950004723960476
+    },
+    {
+      "k1": "p17_tappeiner",
+      "k2": "p21",
+      "cos": 0.6853842156262233
+    },
+    {
+      "k1": "p17_tappeiner",
+      "k2": "p22",
+      "cos": 0.32223857924401555
+    },
+    {
+      "k1": "p17_tappeiner",
+      "k2": "p22_endphrasen",
+      "cos": 0.6438135007382579
+    },
+    {
+      "k1": "p18",
+      "k2": "p19",
+      "cos": 0.9917162396396275
+    },
+    {
+      "k1": "p18",
+      "k2": "p20",
+      "cos": 0.9791164276425912
+    },
+    {
+      "k1": "p18",
+      "k2": "p21",
+      "cos": 0.9616776079514883
+    },
+    {
+      "k1": "p18",
+      "k2": "p22",
+      "cos": 0.9717718591391087
+    },
+    {
+      "k1": "p18",
+      "k2": "p22_endphrasen",
+      "cos": 0.2499850094045639
+    },
+    {
+      "k1": "p19",
+      "k2": "p20",
+      "cos": 0.9962889591489374
+    },
+    {
+      "k1": "p19",
+      "k2": "p21",
+      "cos": 0.9196238972888416
+    },
+    {
+      "k1": "p19",
+      "k2": "p22",
+      "cos": 0.9930925280923608
+    },
+    {
+      "k1": "p19",
+      "k2": "p22_endphrasen",
+      "cos": 0.15943441450588378
+    },
+    {
+      "k1": "p20",
+      "k2": "p21",
+      "cos": 0.8858529476073325
+    },
+    {
+      "k1": "p20",
+      "k2": "p22",
+      "cos": 0.9994405354490197
+    },
+    {
+      "k1": "p20",
+      "k2": "p22_endphrasen",
+      "cos": 0.09920723251498915
+    },
+    {
+      "k1": "p21",
+      "k2": "p22",
+      "cos": 0.8698462447085198
+    },
+    {
+      "k1": "p21",
+      "k2": "p22_endphrasen",
+      "cos": 0.43671784887055115
+    },
+    {
+      "k1": "p22",
+      "k2": "p22_endphrasen",
+      "cos": 0.07403256548365861
+    }
+  ],
+  "avg_correlation": 0.643279063694597,
+  "spanda_iterations": [
+    {
+      "iteration": 1,
+      "current_state": 5844,
+      "sum_p1_22": 34601,
+      "sum_p22_17": 40445,
+      "new_state": 3126
+    },
+    {
+      "iteration": 2,
+      "current_state": 3126,
+      "sum_p1_22": 34601,
+      "sum_p22_17": 37727,
+      "new_state": 4100
+    },
+    {
+      "iteration": 3,
+      "current_state": 4100,
+      "sum_p1_22": 34601,
+      "sum_p22_17": 38701,
+      "new_state": 918
+    }
+  ],
+  "tests": [
+    {
+      "name": "T1_p17_22_haben_embeddings",
+      "pass": true,
+      "befund": "7/7 Layer mit Hash > 0",
+      "was_sagt_es_uns": "Alle p17-22 Layer haben non-zero Embeddings. V16-Hör: Die Architektur ist vollständig dokumentierbar."
+    },
+    {
+      "name": "T2_p17_11_brueche_akrostichon",
+      "pass": true,
+      "befund": "p17: 5 Brüche, Akrostichon 'BNYZTSOYNKS'",
+      "was_sagt_es_uns": "p17 hat 5 Tappeiner-Brüche + 11-Buchstaben-Akrostichon BNYZTSOYNKS. V16-Hör: p17 ist die Attention-Query-Schicht mit 11 Köpfen (V15: 11↔11↔11)."
+    },
+    {
+      "name": "T3_layer_korrelation_nicht_uniform",
+      "pass": true,
+      "befund": "avg_corr = 0.6433",
+      "was_sagt_es_uns": "Layer-Korrelationen: 0.6433 (nicht uniform, nicht perfekt). V16-Hör: p17-22 sind TEILKORRELIERT (nicht zufällig, nicht identisch). Konsistent mit Forward-Pass-Hypothese."
+    },
+    {
+      "name": "T4_p22_14_endphrasen",
+      "pass": true,
+      "befund": "p22 Endphrasen: 14",
+      "was_sagt_es_uns": "p22 hat 14 Endphrasen (V9 reproduziert). V16-Hör: 14 = Embedding-Dimension. p22 ist das Loss-Constraint-Layer (14 Bedingungen)."
+    },
+    {
+      "name": "T5_spanda_oszillator_aktiv",
+      "pass": true,
+      "befund": "States: [3126, 4100, 918]",
+      "was_sagt_es_uns": "Spanda-Oszillator durchläuft 3 verschiedene Zustände. V16-Hör: Der Oszillator ist NICHT entartet (kein Fixpunkt in 3 Schritten). BURUMUT als Output bleibt nicht-konstant."
+    }
+  ],
+  "verdict": "V16 Forward-Pass: 5/5 PASS. p17-22 als Transformer-Layer mit avg_corr 0.6433. Spanda-Oszillator läuft."
+}

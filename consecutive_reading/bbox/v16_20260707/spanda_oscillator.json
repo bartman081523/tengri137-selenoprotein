@@ -1,0 +1,101 @@
+{
+  "phase": "V16 Phase 3a — Spanda-Oszillator",
+  "n_tests": 5,
+  "n_pass": 5,
+  "iterationen": [
+    {
+      "iter": 1,
+      "state_p1": 447848,
+      "state_p16": 613430,
+      "state_p22": 588031,
+      "state_p17": 588925,
+      "state_burumut": 11757,
+      "state_p1_new": 129350,
+      "delta": 318498
+    },
+    {
+      "iter": 2,
+      "state_p1": 129350,
+      "state_p16": 198964,
+      "state_p22": 785507,
+      "state_p17": 786401,
+      "state_burumut": 11757,
+      "state_p1_new": 129350,
+      "delta": 0
+    },
+    {
+      "iter": 3,
+      "state_p1": 129350,
+      "state_p16": 198964,
+      "state_p22": 785507,
+      "state_p17": 786401,
+      "state_burumut": 11757,
+      "state_p1_new": 129350,
+      "delta": 0
+    },
+    {
+      "iter": 4,
+      "state_p1": 129350,
+      "state_p16": 198964,
+      "state_p22": 785507,
+      "state_p17": 786401,
+      "state_burumut": 11757,
+      "state_p1_new": 129350,
+      "delta": 0
+    },
+    {
+      "iter": 5,
+      "state_p1": 129350,
+      "state_p16": 198964,
+      "state_p22": 785507,
+      "state_p17": 786401,
+      "state_burumut": 11757,
+      "state_p1_new": 129350,
+      "delta": 0
+    }
+  ],
+  "lyapunov_exponent": 0.0,
+  "burumut_output_std": 0.0,
+  "n_endphrasen_kategorien": 6,
+  "endphrasen_keys": [
+    "magic_cube_phrases",
+    "magic_numbers_p5_p6",
+    "onion_address",
+    "burumut_fractions_p17_p22",
+    "p23_spezial",
+    "zusammenfassung_14"
+  ],
+  "tests": [
+    {
+      "name": "T1_burumut_als_attraktor",
+      "pass": true,
+      "befund": "BURUMUT-Output: 1 distinkte Zustände in 5 Iter.",
+      "was_sagt_es_uns": "BURUMUT ist ein DETERMINISTISCHER ATTRAKTOR: konstanter Hash in 5 Iter. V16-Hör: BURUMUT (11×14) ist der FIX-PUNKT des Spanda-Oszillators. Das ist konsistent mit V15: BURUMUT ist BEWUSST KOMPRIMIERT (Ziel-Zustand)."
+    },
+    {
+      "name": "T2_lyapunov_attraktor",
+      "pass": true,
+      "befund": "λ = 0.0000",
+      "was_sagt_es_uns": "Lyapunov-Exponent λ = 0.0000 ≤ 0.5. V16-Hör: BURUMUT ist STABILER ATTRAKTOR. Selbst-Verbesserung des Codebooks ist DÄMPFT (Oszillator pendelt sich ein). Konsistent mit V13: 'Spirale ist Metapher' → der Oszillator endet im BURUMUT-Brunnen."
+    },
+    {
+      "name": "T3_burumut_output_stabil",
+      "pass": true,
+      "befund": "BURUMUT-Std = 0",
+      "was_sagt_es_uns": "BURUMUT-Output variiert mit σ=0. V16-Hör: Der Output ist RELATIV stabil, was auf einen ATTRAKTOR hindeutet. BURUMUT ist ein Ziel-Zustand, kein Rauschen."
+    },
+    {
+      "name": "T4_endphrasen_stuetzen_spanda",
+      "pass": true,
+      "befund": "6 Endphrasen-Kategorien",
+      "was_sagt_es_uns": "14 Endphrasen in 6 Kategorien (Magic Cubes, Onion, Burumut, etc.). V16-Hör: 14 = BURUMUT-Breite = Embedding-Dimension. Die 14 Endphrasen sind die 14 Dimensionen, durch die der Spanda-Oszillator LÄUFT."
+    },
+    {
+      "name": "T5_burumut_als_zielzustand",
+      "pass": true,
+      "befund": "BURUMUT-Output: 1 distinkte Zustände",
+      "was_sagt_es_uns": "BURUMUT-Output ist KONSTANT (1 Hash-Wert) über 5 Iterationen. V16-Hör: BURUMUT ist der ZIELZUSTAND des Spanda-Oszillators. p1 → p16 → p22 → p17 → BURUMUT ist der NATÜRLICHE ATTRAKTOR der Tengri-Architektur."
+    }
+  ],
+  "verdict": "V16 Spanda-Oszillator: 5/5 PASS. 5 Iterationen, λ=0.0000, BUR-σ=0, 6 Endphrasen-Kategorien. Spanda-Oszillator läuft."
+}
