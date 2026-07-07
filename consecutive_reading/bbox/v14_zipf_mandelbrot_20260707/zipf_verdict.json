@@ -1,0 +1,23 @@
+{
+  "test_richtung": "V14-K3: Zipf-Mandelbrot",
+  "alphas": {
+    "p17_klartext": -0.0,
+    "p23_burumut": -0.0,
+    "p1_16_wikia": 0.6698628137770144,
+    "p1_16_glyph": 0.08989950202978085,
+    "alice_englisch": 0.42857881267217124,
+    "p17_akrostichon": 0.0
+  },
+  "alpha_vergleich": {
+    "alpha_p1_16_wikia": 0.6698628137770144,
+    "alpha_alice": 0.42857881267217124,
+    "delta": 0.24128400110484316
+  },
+  "v13_reproduction": {
+    "sim_1_n": 0.7219494477945207,
+    "sim_log": 0.9218075518560828,
+    "sim_fib": 0.5814628407503856
+  },
+  "verdict": "TEILWEISE: p1-16 Wikia α = 0.670 ähnlich zu Englisch α = 0.429 (|Δ| = 0.241).",
+  "interpretation": "p1-16 Wikia hat α = 0.670, deutlich höher als Englisch (α = 0.429). Das deutet auf eine stärkere Zipf-Konzentration hin (häufigste Wörter sind häufiger als in Englisch). V13-Befund log-Gesetz mit Cosine-Sim = 0.9218 bestätigt."
+}

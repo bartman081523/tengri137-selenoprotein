@@ -1,0 +1,45 @@
+{
+  "test_richtung": "V14-K5: Source-Coding (Huffman/LZW)",
+  "huffman": {
+    "p17_klartext": {
+      "n_unique": 22,
+      "bit_length": 530,
+      "original_bits": 1040,
+      "ratio": 0.5096153846153846
+    },
+    "p23_burumut": {
+      "n_unique": 20,
+      "bit_length": 672,
+      "original_bits": 1312,
+      "ratio": 0.5121951219512195
+    },
+    "p1_16_wikia_ascii": {
+      "n_unique": 69,
+      "bit_length": 30584,
+      "original_bits": 53240,
+      "ratio": 0.5744552967693464
+    }
+  },
+  "lzw": {
+    "p17_klartext": {
+      "n_tokens": 99,
+      "n_chars": 130,
+      "ratio": 0.7615384615384615,
+      "n_dict_entries": 98
+    },
+    "p23_burumut": {
+      "n_tokens": 127,
+      "n_chars": 164,
+      "ratio": 0.774390243902439,
+      "n_dict_entries": 126
+    },
+    "p1_16_wikia_ascii": {
+      "n_tokens": 2574,
+      "n_chars": 6655,
+      "ratio": 0.3867768595041322,
+      "n_dict_entries": 2573
+    }
+  },
+  "verdict": "TEILWEISE: Huffman-Kompression ähnlich (p17=0.510, p1-16=0.574).",
+  "interpretation": "p17_Klartext hat Huffman-Ratio 0.510 vs p1-16 Wikia 0.574. LZW: p17=0.762, p1-16=0.387. p1-16 ist als ganzer Text kompressibler, was konsistent mit der höheren Entropie ist. p1-16 ist KEIN optimaler Code für p17."
+}

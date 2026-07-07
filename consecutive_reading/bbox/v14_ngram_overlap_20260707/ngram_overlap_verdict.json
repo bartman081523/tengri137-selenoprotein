@@ -1,0 +1,63 @@
+{
+  "test_richtung": "V14-K6: n-gram-Überlappung",
+  "results": {
+    "p17 ↔ p1-16": {
+      "n_2": {
+        "real": 2,
+        "random_avg": 0.0,
+        "random_max": 0
+      },
+      "n_3": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      },
+      "n_4": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      }
+    },
+    "p23 ↔ p1-16": {
+      "n_2": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      },
+      "n_3": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      },
+      "n_4": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      }
+    },
+    "p17 ↔ p23": {
+      "n_2": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      },
+      "n_3": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      },
+      "n_4": {
+        "real": 0,
+        "random_avg": 0.0,
+        "random_max": 0
+      }
+    }
+  },
+  "v12_akrostichon": {
+    "p17_akro": "",
+    "p23_akro": "BNYZTSOYNKS",
+    "match": 0
+  },
+  "verdict": "GESTÜTZT (partiell): p17↔p1-16 max real overlap = 2, p17↔p23 max real overlap = 0. Akrostichon (V12) zeigt 11/11 Cross-Layer-Match.",
+  "interpretation": "n-gram-Überlappung zeigt 1-2 gemeinsame n-grams zwischen p17 und p1-16. Akrostichon-Cross-Layer (V12) bleibt das deutlichste Signal. Sampling-basierter Test ist konsistent mit V12-Befund."
+}

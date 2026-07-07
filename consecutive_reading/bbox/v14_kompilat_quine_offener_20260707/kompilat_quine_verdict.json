@@ -1,0 +1,43 @@
+{
+  "test_richtung": "V14-K8: Kompilat/Quine OFFEN",
+  "one_to_n_p17_digits": {
+    "digits": [],
+    "mapped_mod_15": []
+  },
+  "one_to_n_burumut": {
+    "acrostichon": "BNYZTSOYNKS",
+    "n_letters": 11,
+    "n_unique": 8
+  },
+  "n_to_m_p1_16": {
+    "n_glyphs": 1013,
+    "n_wikia": 1203,
+    "ratio": 0.8420615128844555
+  },
+  "akrostichon_p17_p23": {
+    "p17_akro": "",
+    "p23_akro": "BNYZTSOYNKS",
+    "match": 0
+  },
+  "semantischer_quine": {
+    "n_common": 10,
+    "examples": [
+      "over",
+      "time",
+      "truth",
+      "years",
+      "this",
+      "behind",
+      "your",
+      "many",
+      "thousand",
+      "knowledge"
+    ]
+  },
+  "edit_distance": {
+    "ned_p17_p1_16": 0.7266666666666667,
+    "ned_p23_p1_16": 0.8033333333333333
+  },
+  "verdict": "KOMPILAT/QUINE: 1:1 FALSIFIZIERT (V12). AKROSTICHON FALSIFIZIERT (0/11), SEMANTISCHER QUINE: 10 gemeinsame Wörter. NED(p17,p1-16) = 0.7267 — p17 ist NICHT identisch zu p1-16 (Quine-Hypothese FALSIFIZIERT).",
+  "interpretation": "1:1 Kompilat FALSIFIZIERT (V12). 1:n BURUMUT-Akrostichon zeigt 11 Buchstaben. p17↔BURUMUT Akrostichon-Match = 0/11. Semantischer Quine: 10 gemeinsame Wörter zwischen p17 und Wikia. Edit-Distanz NED = 0.7267 — p17 ist kein 1:1-Kompilat von p1-16."
+}

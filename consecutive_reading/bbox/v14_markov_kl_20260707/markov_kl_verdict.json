@@ -1,0 +1,50 @@
+{
+  "test_richtung": "V14-K4: Markov-KL",
+  "schichten": [
+    "p17_klartext",
+    "p23_burumut",
+    "p1_16_wikia"
+  ],
+  "kl_matrix_markov1": {
+    "p17_klartext": {
+      "p17_klartext": 0,
+      "p23_burumut": 21.434327661853416,
+      "p1_16_wikia": 1.1312649184230783
+    },
+    "p23_burumut": {
+      "p17_klartext": 22.48284424584672,
+      "p23_burumut": 0,
+      "p1_16_wikia": 8.592022213059028
+    },
+    "p1_16_wikia": {
+      "p17_klartext": 12.638379905277965,
+      "p23_burumut": 21.259052651088872,
+      "p1_16_wikia": 0
+    }
+  },
+  "kl_matrix_markov2": {
+    "p17_klartext": {
+      "p17_klartext": 0,
+      "p23_burumut": 29.635664007765847,
+      "p1_16_wikia": 4.7075109600327
+    },
+    "p23_burumut": {
+      "p17_klartext": 29.879464209208393,
+      "p23_burumut": 0,
+      "p1_16_wikia": 25.81363790331592
+    },
+    "p1_16_wikia": {
+      "p17_klartext": 16.935131749451145,
+      "p23_burumut": 29.174133243766782,
+      "p1_16_wikia": 0
+    }
+  },
+  "key_findings": {
+    "kl_p17_p1_16": 1.1312649184230783,
+    "kl_p1_16_p17": 12.638379905277965,
+    "kl_p17_p23": 21.434327661853416,
+    "kl_p23_p1_16": 8.592022213059028
+  },
+  "verdict": "TEILWEISE: p17-23 und p1-16 haben moderate Markov-Kopplung (KL=1.13), aber p23 ist stark verschieden (KL=21.43 zu p17, 8.59 zu p1-16).",
+  "interpretation": "Markov-1: p17 ist p1-16 ähnlicher (KL=1.13) als umgekehrt (KL=12.64) — asymmetrische Kopplung. p23 ist von beiden stark verschieden (KL>12 in beide Richtungen). Markov-2 zeigt ähnliches Bild aber stärkere Trennung (4-9 bit/Zeichen)."
+}

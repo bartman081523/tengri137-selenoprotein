@@ -1,0 +1,40 @@
+{
+  "test_richtung": "V14-K1: Kolmogorov Multi-Kompressor",
+  "v13_referenz": "gzip ratio 1.62x",
+  "v14_ergebnis": {
+    "roh_raten": {
+      "gzip": {
+        "p17_23": 0.6847457627118644,
+        "p1_16": 0.42355402779853535
+      },
+      "bz2": {
+        "p17_23": 0.7457627118644068,
+        "p1_16": 0.4060678523389628
+      },
+      "lzma": {
+        "p17_23": 0.9627118644067797,
+        "p1_16": 0.42863548049618894
+      },
+      "zstd": {
+        "p17_23": 0.6915254237288135,
+        "p1_16": 0.43670602301599165
+      }
+    },
+    "ratios": {
+      "gzip": 1.6166668660215542,
+      "bz2": 1.8365470390448089,
+      "lzma": 2.24599201002293,
+      "zstd": 1.5835032889012632
+    },
+    "random_baseline_avg": {
+      "gzip": 1.162438525731677,
+      "bz2": 1.3351504977474926,
+      "lzma": 1.5500936099198543,
+      "zstd": 1.2111905667866762
+    },
+    "n_compressors": 4,
+    "n_compressors_p17_greater_p1_16": 4
+  },
+  "verdict": "GESTÜTZT: p17-23 hat 1.62x mehr Kolmogorov-Komplexität als p1-16 (gzip). ALLE 4 Kompressoren bestätigen.",
+  "interpretation": "p17-23 ist NICHT komprimierte Source für p1-16 — p17-23 ist INFORMATIVER (1.62x gzip, 1.84x bz2, 2.25x lzma, 1.58x zstd). Die Asymmetrie ist ROBUST über alle 4 Kompressoren."
+}

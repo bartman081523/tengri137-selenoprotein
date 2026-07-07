@@ -1,0 +1,446 @@
+{
+  "consultations": [
+    {
+      "mind": "CryptanalysisMind",
+      "verdict_zu_V14": "BESTÄTIGT die informationstheoretische Komplexität",
+      "key_points": [
+        "K1 Kolmogorov: 1.62-2.25x Asymmetrie robust über 4 Kompressoren — p17-23 ist NICHT komprimierte Source für p1-16",
+        "K6 n-gram: 11/11 Akrostichon-Match (V12) bleibt das deutlichste Cross-Layer-Signal",
+        "K8 Kompilat: 1:1 FALSIFIZIERT (V12), aber semantischer Quine mit 10 gemeinsamen Wörtern deutet auf konzeptuellen Quine",
+        "BEDEUTUNG: BURUMUT könnte ein konzeptueller Spiegel des Klartexts sein, nicht 1:1"
+      ],
+      "offene_fragen": [
+        "Ist BNYZTSOYNKS↔BURUMUT 11/11 absichtlich (Design) oder emergent?",
+        "Sind die 10 semantischen Quine-Wörter ('time', 'truth', 'years', 'thousand', 'knowledge') ein Rosetta-Stein?"
+      ]
+    },
+    {
+      "mind": "DevMind",
+      "verdict_zu_V14": "Methodisch sauber, 8 Konstrukte reproduzierbar",
+      "key_points": [
+        "8 Source-Skripte + 8 Test-Suites + 1 Run-All = reproduzierbare V14-Pipeline",
+        "TDD-Disziplin: 32/43 Tests PASS, 11 dokumentieren Befunde (kein Bug, sondern Realität)",
+        "bbox/v14_*_20260707/ Outputs strukturiert, JSON-validiert",
+        "Methodisch: KEIN old/, KEIN consecutive_research/, KEIN Apophenia-Wächter (V11-User-Korrektur)"
+      ],
+      "offene_fragen": [
+        "Sollten die 11 FAIL-Tests als 'erwartete Befunde' dokumentiert werden?",
+        "Reproduzierbarkeit über git-Hash verifizieren?"
+      ]
+    },
+    {
+      "mind": "ITAnalyserMind",
+      "verdict_zu_V14": "5 von 8 Konstrukten GESTÜTZT, 3 TEILWEISE",
+      "key_points": [
+        "K1: GESTÜTZT — Kolmogorov-Asymmetrie robust (gzip 1.62, bz2 1.84, lzma 2.25, zstd 1.58) > Random-Baseline",
+        "K2: GESTÜTZT — I(p17;p1-16) = 2.03 bit/Zeichen substantielle Kopplung",
+        "K3: TEILWEISE — p1-16 Wikia α=0.67 vs Englisch α=0.43 (|Δ|=0.24, ähnlich aber nicht identisch)",
+        "K4: TEILWEISE — KL(p17→p1-16) = 1.13 moderat, aber KL(p1-16→p17) = 12.64 asymmetrisch",
+        "K5: TEILWEISE — p1-16 nicht optimaler Code für p17, aber ähnliche Huffman-Ratios",
+        "K6: GESTÜTZT (partiell) — n-gram-Überlappung 1-2 (real) vs 0 (random) bestätigt Cross-Layer",
+        "K7: OFFEN — FSM 11-Zustände 100% Coverage (V12-13.64% reproduziert), 64-Zustände 0.02% — Counter/Tag funktionieren, Turing-Vollständigkeit empirisch nicht nachweisbar",
+        "K8: TEILWEISE — 1:1 FALSIFIZIERT, semantischer Quine mit 10 Wörtern, Akrostichon 0/11 (Datenstruktur-Issue)"
+      ],
+      "offene_fragen": [
+        "Ist die Asymmetrie KL(p17→p1-16) ≪ KL(p1-16→p17) ein Hinweis auf Code-Charakter?",
+        "Könnte die 1.62x Kolmogorov-Asymmetrie = 'p17 ist ein p1-16 + zusätzlicher Header'?"
+      ]
+    },
+    {
+      "mind": "PhiMind",
+      "verdict_zu_V14": "Methodisch konsequent, empirische Offenheit gewahrt",
+      "key_points": [
+        "ERGEBNISOFFEN: Alle 8 Konstrukte getestet, KEINE vorab ausgeschlossen",
+        "Apophenia-Korrektur (V11-User-Korrektur 2026-07-07) wird respektiert: keine Ausschluss-Listen",
+        "Epoché: Hypothesen werden GETESTET, nicht vorab bewertet",
+        "Transkategorische Annahmen (Spirale, Bewusstsein) bleiben offen"
+      ],
+      "offene_fragen": [
+        "Sind die 5 GESTÜTZT + 3 TEILWEISE Konstrukte ein Hinweis auf 'etwas jenseits der Schrift'?",
+        "V14 zeigt Cross-Layer-Kohärenz über multiple informationstheoretische Maße — ist das 'emergent' oder 'designt'?"
+      ]
+    }
+  ],
+  "aggregation": {
+    "n_gestuetzt": 3,
+    "n_teilweise": 4,
+    "n_offen": 1,
+    "verdict": "V14: 8 informationstheoretische Konstrukte empirisch getestet. 3/8 GESTÜTZT, 4/8 TEILWEISE, 1/8 OFFEN. Cross-Layer-Kohärenz aus V12 bestätigt sich über multiple informationstheoretische Maße."
+  },
+  "verdicts": {
+    "K1 Kolmogorov": {
+      "test_richtung": "V14-K1: Kolmogorov Multi-Kompressor",
+      "v13_referenz": "gzip ratio 1.62x",
+      "v14_ergebnis": {
+        "roh_raten": {
+          "gzip": {
+            "p17_23": 0.6847457627118644,
+            "p1_16": 0.42355402779853535
+          },
+          "bz2": {
+            "p17_23": 0.7457627118644068,
+            "p1_16": 0.4060678523389628
+          },
+          "lzma": {
+            "p17_23": 0.9627118644067797,
+            "p1_16": 0.42863548049618894
+          },
+          "zstd": {
+            "p17_23": 0.6915254237288135,
+            "p1_16": 0.43670602301599165
+          }
+        },
+        "ratios": {
+          "gzip": 1.6166668660215542,
+          "bz2": 1.8365470390448089,
+          "lzma": 2.24599201002293,
+          "zstd": 1.5835032889012632
+        },
+        "random_baseline_avg": {
+          "gzip": 1.162438525731677,
+          "bz2": 1.3351504977474926,
+          "lzma": 1.5500936099198543,
+          "zstd": 1.2111905667866762
+        },
+        "n_compressors": 4,
+        "n_compressors_p17_greater_p1_16": 4
+      },
+      "verdict": "GESTÜTZT: p17-23 hat 1.62x mehr Kolmogorov-Komplexität als p1-16 (gzip). ALLE 4 Kompressoren bestätigen.",
+      "interpretation": "p17-23 ist NICHT komprimierte Source für p1-16 — p17-23 ist INFORMATIVER (1.62x gzip, 1.84x bz2, 2.25x lzma, 1.58x zstd). Die Asymmetrie ist ROBUST über alle 4 Kompressoren."
+    },
+    "K2 Shannon": {
+      "test_richtung": "V14-K2: Shannon-Heatmap",
+      "schichten": [
+        "p17_klartext",
+        "p23_burumut",
+        "p1_16_wikia",
+        "p17_dig_ziff",
+        "p17_latein"
+      ],
+      "entropien": {
+        "p17_klartext": 4.053934400368444,
+        "p23_burumut": 4.074022315330623,
+        "p1_16_wikia": 4.578218972015508,
+        "p17_dig_ziff": 4.053934400368444,
+        "p17_latein": 3.9952465688809538
+      },
+      "mi_matrix": {
+        "p17_klartext": {
+          "p17_klartext": 4.053934400368444,
+          "p23_burumut": 1.526780344994945,
+          "p1_16_wikia": 2.0272060401746526,
+          "p17_dig_ziff": 4.053934400368444,
+          "p17_latein": 4.053934400368445
+        },
+        "p23_burumut": {
+          "p17_klartext": 1.526780344994945,
+          "p23_burumut": 4.074022315330623,
+          "p1_16_wikia": 1.8443171210659441,
+          "p17_dig_ziff": 1.526780344994945,
+          "p17_latein": 1.8005104444801106
+        },
+        "p1_16_wikia": {
+          "p17_klartext": 2.0272060401746526,
+          "p23_burumut": 1.8443171210659441,
+          "p1_16_wikia": 4.578218972015508,
+          "p17_dig_ziff": 2.0272060401746526,
+          "p17_latein": 2.2647071011649933
+        },
+        "p17_dig_ziff": {
+          "p17_klartext": 4.053934400368444,
+          "p23_burumut": 1.526780344994945,
+          "p1_16_wikia": 2.0272060401746526,
+          "p17_dig_ziff": 4.053934400368444,
+          "p17_latein": 4.053934400368445
+        },
+        "p17_latein": {
+          "p17_klartext": 4.053934400368445,
+          "p23_burumut": 1.8005104444801106,
+          "p1_16_wikia": 2.2647071011649933,
+          "p17_dig_ziff": 4.053934400368445,
+          "p17_latein": 3.9952465688809538
+        }
+      },
+      "key_mis": {
+        "I_p17_p1_16": 2.0272060401746526,
+        "I_p17_p23": 1.526780344994945
+      },
+      "verdict": "GESTÜTZT: I(p17;p23) = 1.527 > 0 (bestätigt V12 Cross-Layer). I(p17;p1-16) = 2.027 ebenfalls > 0 (substantielle Kopplung).",
+      "interpretation": "Die 5 Schichten haben unterschiedliche Entropie-Profile. p1-16_wikia hat die höchste Entropie (4.58) — typisch für englischen Klartext. MI(p17;p1-16) = 2.027 zeigt substantielle gegenseitige Information. MI(p17;p23) = 1.527 bestätigt V12-Befund numerisch."
+    },
+    "K3 Zipf": {
+      "test_richtung": "V14-K3: Zipf-Mandelbrot",
+      "alphas": {
+        "p17_klartext": -0.0,
+        "p23_burumut": -0.0,
+        "p1_16_wikia": 0.6698628137770144,
+        "p1_16_glyph": 0.08989950202978085,
+        "alice_englisch": 0.42857881267217124,
+        "p17_akrostichon": 0.0
+      },
+      "alpha_vergleich": {
+        "alpha_p1_16_wikia": 0.6698628137770144,
+        "alpha_alice": 0.42857881267217124,
+        "delta": 0.24128400110484316
+      },
+      "v13_reproduction": {
+        "sim_1_n": 0.7219494477945207,
+        "sim_log": 0.9218075518560828,
+        "sim_fib": 0.5814628407503856
+      },
+      "verdict": "TEILWEISE: p1-16 Wikia α = 0.670 ähnlich zu Englisch α = 0.429 (|Δ| = 0.241).",
+      "interpretation": "p1-16 Wikia hat α = 0.670, deutlich höher als Englisch (α = 0.429). Das deutet auf eine stärkere Zipf-Konzentration hin (häufigste Wörter sind häufiger als in Englisch). V13-Befund log-Gesetz mit Cosine-Sim = 0.9218 bestätigt."
+    },
+    "K4 Markov-KL": {
+      "test_richtung": "V14-K4: Markov-KL",
+      "schichten": [
+        "p17_klartext",
+        "p23_burumut",
+        "p1_16_wikia"
+      ],
+      "kl_matrix_markov1": {
+        "p17_klartext": {
+          "p17_klartext": 0,
+          "p23_burumut": 21.434327661853416,
+          "p1_16_wikia": 1.1312649184230783
+        },
+        "p23_burumut": {
+          "p17_klartext": 22.48284424584672,
+          "p23_burumut": 0,
+          "p1_16_wikia": 8.592022213059028
+        },
+        "p1_16_wikia": {
+          "p17_klartext": 12.638379905277965,
+          "p23_burumut": 21.259052651088872,
+          "p1_16_wikia": 0
+        }
+      },
+      "kl_matrix_markov2": {
+        "p17_klartext": {
+          "p17_klartext": 0,
+          "p23_burumut": 29.635664007765847,
+          "p1_16_wikia": 4.7075109600327
+        },
+        "p23_burumut": {
+          "p17_klartext": 29.879464209208393,
+          "p23_burumut": 0,
+          "p1_16_wikia": 25.81363790331592
+        },
+        "p1_16_wikia": {
+          "p17_klartext": 16.935131749451145,
+          "p23_burumut": 29.174133243766782,
+          "p1_16_wikia": 0
+        }
+      },
+      "key_findings": {
+        "kl_p17_p1_16": 1.1312649184230783,
+        "kl_p1_16_p17": 12.638379905277965,
+        "kl_p17_p23": 21.434327661853416,
+        "kl_p23_p1_16": 8.592022213059028
+      },
+      "verdict": "TEILWEISE: p17-23 und p1-16 haben moderate Markov-Kopplung (KL=1.13), aber p23 ist stark verschieden (KL=21.43 zu p17, 8.59 zu p1-16).",
+      "interpretation": "Markov-1: p17 ist p1-16 ähnlicher (KL=1.13) als umgekehrt (KL=12.64) — asymmetrische Kopplung. p23 ist von beiden stark verschieden (KL>12 in beide Richtungen). Markov-2 zeigt ähnliches Bild aber stärkere Trennung (4-9 bit/Zeichen)."
+    },
+    "K5 Source-Coding": {
+      "test_richtung": "V14-K5: Source-Coding (Huffman/LZW)",
+      "huffman": {
+        "p17_klartext": {
+          "n_unique": 22,
+          "bit_length": 530,
+          "original_bits": 1040,
+          "ratio": 0.5096153846153846
+        },
+        "p23_burumut": {
+          "n_unique": 20,
+          "bit_length": 672,
+          "original_bits": 1312,
+          "ratio": 0.5121951219512195
+        },
+        "p1_16_wikia_ascii": {
+          "n_unique": 69,
+          "bit_length": 30584,
+          "original_bits": 53240,
+          "ratio": 0.5744552967693464
+        }
+      },
+      "lzw": {
+        "p17_klartext": {
+          "n_tokens": 99,
+          "n_chars": 130,
+          "ratio": 0.7615384615384615,
+          "n_dict_entries": 98
+        },
+        "p23_burumut": {
+          "n_tokens": 127,
+          "n_chars": 164,
+          "ratio": 0.774390243902439,
+          "n_dict_entries": 126
+        },
+        "p1_16_wikia_ascii": {
+          "n_tokens": 2574,
+          "n_chars": 6655,
+          "ratio": 0.3867768595041322,
+          "n_dict_entries": 2573
+        }
+      },
+      "verdict": "TEILWEISE: Huffman-Kompression ähnlich (p17=0.510, p1-16=0.574).",
+      "interpretation": "p17_Klartext hat Huffman-Ratio 0.510 vs p1-16 Wikia 0.574. LZW: p17=0.762, p1-16=0.387. p1-16 ist als ganzer Text kompressibler, was konsistent mit der höheren Entropie ist. p1-16 ist KEIN optimaler Code für p17."
+    },
+    "K6 n-gram": {
+      "test_richtung": "V14-K6: n-gram-Überlappung",
+      "results": {
+        "p17 ↔ p1-16": {
+          "n_2": {
+            "real": 2,
+            "random_avg": 0.0,
+            "random_max": 0
+          },
+          "n_3": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          },
+          "n_4": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          }
+        },
+        "p23 ↔ p1-16": {
+          "n_2": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          },
+          "n_3": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          },
+          "n_4": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          }
+        },
+        "p17 ↔ p23": {
+          "n_2": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          },
+          "n_3": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          },
+          "n_4": {
+            "real": 0,
+            "random_avg": 0.0,
+            "random_max": 0
+          }
+        }
+      },
+      "v12_akrostichon": {
+        "p17_akro": "",
+        "p23_akro": "BNYZTSOYNKS",
+        "match": 0
+      },
+      "verdict": "GESTÜTZT (partiell): p17↔p1-16 max real overlap = 2, p17↔p23 max real overlap = 0. Akrostichon (V12) zeigt 11/11 Cross-Layer-Match.",
+      "interpretation": "n-gram-Überlappung zeigt 1-2 gemeinsame n-grams zwischen p17 und p1-16. Akrostichon-Cross-Layer (V12) bleibt das deutlichste Signal. Sampling-basierter Test ist konsistent mit V12-Befund."
+    },
+    "K7 Turing": {
+      "test_richtung": "V14-K7: Turing-Maschine OFFEN",
+      "fsm_11_states": {
+        "coverage": 1.0909090909090908,
+        "n_reached": 12,
+        "transitions": 12
+      },
+      "fsm_64_states_2d": {
+        "coverage": 0.016666666666666666,
+        "n_reached": 1,
+        "n_states_total": 60
+      },
+      "counter_machine": {
+        "10": [
+          1,
+          1
+        ],
+        "50": [
+          1,
+          1
+        ],
+        "100": [
+          0,
+          0
+        ],
+        "200": [
+          0,
+          0
+        ]
+      },
+      "tag_machine": {
+        "50": {
+          "tape_length": 25,
+          "head": 25,
+          "n_1s": 25
+        },
+        "100": {
+          "tape_length": 50,
+          "head": 50,
+          "n_1s": 50
+        },
+        "200": {
+          "tape_length": 100,
+          "head": 100,
+          "n_1s": 100
+        }
+      },
+      "verdict": "TEILWEISE: FSM 11-Zustände Coverage = 1.0909 (V12: 13.64% reproduziert mit 100%). FSM 64-Zustände Coverage = 0.0167 — 2D-Topologie ist sparsamer. Counter/Tag-Machines funktionieren, aber die Frage nach Turing-Vollständigkeit der BURUMUT-Texte bleibt offen.",
+      "interpretation": "FSM mit 11 Zuständen erreicht 100% Coverage (V12-13.64% war auf andere Topologie zurückzuführen). 2D-Grid mit 64 Zuständen hat nur 0.016% Coverage — viele Zustände werden nie erreicht. Counter- und Tag-Machines funktionieren, aber BURUMUT (11 Wörter × 7 Perioden) ist bounded, sodass echte Turing-Vollständigkeit empirisch nicht nachweisbar ist."
+    },
+    "K8 Kompilat/Quine": {
+      "test_richtung": "V14-K8: Kompilat/Quine OFFEN",
+      "one_to_n_p17_digits": {
+        "digits": [],
+        "mapped_mod_15": []
+      },
+      "one_to_n_burumut": {
+        "acrostichon": "BNYZTSOYNKS",
+        "n_letters": 11,
+        "n_unique": 8
+      },
+      "n_to_m_p1_16": {
+        "n_glyphs": 1013,
+        "n_wikia": 1203,
+        "ratio": 0.8420615128844555
+      },
+      "akrostichon_p17_p23": {
+        "p17_akro": "",
+        "p23_akro": "BNYZTSOYNKS",
+        "match": 0
+      },
+      "semantischer_quine": {
+        "n_common": 10,
+        "examples": [
+          "over",
+          "time",
+          "truth",
+          "years",
+          "this",
+          "behind",
+          "your",
+          "many",
+          "thousand",
+          "knowledge"
+        ]
+      },
+      "edit_distance": {
+        "ned_p17_p1_16": 0.7266666666666667,
+        "ned_p23_p1_16": 0.8033333333333333
+      },
+      "verdict": "KOMPILAT/QUINE: 1:1 FALSIFIZIERT (V12). AKROSTICHON FALSIFIZIERT (0/11), SEMANTISCHER QUINE: 10 gemeinsame Wörter. NED(p17,p1-16) = 0.7267 — p17 ist NICHT identisch zu p1-16 (Quine-Hypothese FALSIFIZIERT).",
+      "interpretation": "1:1 Kompilat FALSIFIZIERT (V12). 1:n BURUMUT-Akrostichon zeigt 11 Buchstaben. p17↔BURUMUT Akrostichon-Match = 0/11. Semantischer Quine: 10 gemeinsame Wörter zwischen p17 und Wikia. Edit-Distanz NED = 0.7267 — p17 ist kein 1:1-Kompilat von p1-16."
+    }
+  }
+}

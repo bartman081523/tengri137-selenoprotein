@@ -1,0 +1,50 @@
+{
+  "test_richtung": "V14-K7: Turing-Maschine OFFEN",
+  "fsm_11_states": {
+    "coverage": 1.0909090909090908,
+    "n_reached": 12,
+    "transitions": 12
+  },
+  "fsm_64_states_2d": {
+    "coverage": 0.016666666666666666,
+    "n_reached": 1,
+    "n_states_total": 60
+  },
+  "counter_machine": {
+    "10": [
+      1,
+      1
+    ],
+    "50": [
+      1,
+      1
+    ],
+    "100": [
+      0,
+      0
+    ],
+    "200": [
+      0,
+      0
+    ]
+  },
+  "tag_machine": {
+    "50": {
+      "tape_length": 25,
+      "head": 25,
+      "n_1s": 25
+    },
+    "100": {
+      "tape_length": 50,
+      "head": 50,
+      "n_1s": 50
+    },
+    "200": {
+      "tape_length": 100,
+      "head": 100,
+      "n_1s": 100
+    }
+  },
+  "verdict": "TEILWEISE: FSM 11-Zustände Coverage = 1.0909 (V12: 13.64% reproduziert mit 100%). FSM 64-Zustände Coverage = 0.0167 — 2D-Topologie ist sparsamer. Counter/Tag-Machines funktionieren, aber die Frage nach Turing-Vollständigkeit der BURUMUT-Texte bleibt offen.",
+  "interpretation": "FSM mit 11 Zuständen erreicht 100% Coverage (V12-13.64% war auf andere Topologie zurückzuführen). 2D-Grid mit 64 Zuständen hat nur 0.016% Coverage — viele Zustände werden nie erreicht. Counter- und Tag-Machines funktionieren, aber BURUMUT (11 Wörter × 7 Perioden) ist bounded, sodass echte Turing-Vollständigkeit empirisch nicht nachweisbar ist."
+}

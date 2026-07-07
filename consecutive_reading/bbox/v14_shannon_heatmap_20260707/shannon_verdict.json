@@ -1,0 +1,60 @@
+{
+  "test_richtung": "V14-K2: Shannon-Heatmap",
+  "schichten": [
+    "p17_klartext",
+    "p23_burumut",
+    "p1_16_wikia",
+    "p17_dig_ziff",
+    "p17_latein"
+  ],
+  "entropien": {
+    "p17_klartext": 4.053934400368444,
+    "p23_burumut": 4.074022315330623,
+    "p1_16_wikia": 4.578218972015508,
+    "p17_dig_ziff": 4.053934400368444,
+    "p17_latein": 3.9952465688809538
+  },
+  "mi_matrix": {
+    "p17_klartext": {
+      "p17_klartext": 4.053934400368444,
+      "p23_burumut": 1.526780344994945,
+      "p1_16_wikia": 2.0272060401746526,
+      "p17_dig_ziff": 4.053934400368444,
+      "p17_latein": 4.053934400368445
+    },
+    "p23_burumut": {
+      "p17_klartext": 1.526780344994945,
+      "p23_burumut": 4.074022315330623,
+      "p1_16_wikia": 1.8443171210659441,
+      "p17_dig_ziff": 1.526780344994945,
+      "p17_latein": 1.8005104444801106
+    },
+    "p1_16_wikia": {
+      "p17_klartext": 2.0272060401746526,
+      "p23_burumut": 1.8443171210659441,
+      "p1_16_wikia": 4.578218972015508,
+      "p17_dig_ziff": 2.0272060401746526,
+      "p17_latein": 2.2647071011649933
+    },
+    "p17_dig_ziff": {
+      "p17_klartext": 4.053934400368444,
+      "p23_burumut": 1.526780344994945,
+      "p1_16_wikia": 2.0272060401746526,
+      "p17_dig_ziff": 4.053934400368444,
+      "p17_latein": 4.053934400368445
+    },
+    "p17_latein": {
+      "p17_klartext": 4.053934400368445,
+      "p23_burumut": 1.8005104444801106,
+      "p1_16_wikia": 2.2647071011649933,
+      "p17_dig_ziff": 4.053934400368445,
+      "p17_latein": 3.9952465688809538
+    }
+  },
+  "key_mis": {
+    "I_p17_p1_16": 2.0272060401746526,
+    "I_p17_p23": 1.526780344994945
+  },
+  "verdict": "GESTÜTZT: I(p17;p23) = 1.527 > 0 (bestätigt V12 Cross-Layer). I(p17;p1-16) = 2.027 ebenfalls > 0 (substantielle Kopplung).",
+  "interpretation": "Die 5 Schichten haben unterschiedliche Entropie-Profile. p1-16_wikia hat die höchste Entropie (4.58) — typisch für englischen Klartext. MI(p17;p1-16) = 2.027 zeigt substantielle gegenseitige Information. MI(p17;p23) = 1.527 bestätigt V12-Befund numerisch."
+}
