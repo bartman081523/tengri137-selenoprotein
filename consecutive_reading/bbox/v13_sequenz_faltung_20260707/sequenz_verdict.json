@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "phase": "V13 / Phase 4",
+    "datum": "2026-07-07T07:30:52.066960",
+    "hypothese": "p1-p16 = p17-23 ⊛ Kernel (Spiral/Faltung)",
+    "methode": "Rank-Korrelation + Faltungs-Kernel + Position-Funktion"
+  },
+  "test_1_akrostichon_rank": {
+    "rho": -0.6636,
+    "schwelle": 0.3,
+    "v12_burumut_perfect_match": "11/11",
+    "verdict": "GESTÜTZT"
+  },
+  "test_2_faltung": {
+    "kernel_similarities": {
+      "uniform": 0.0,
+      "gaussian": 0.0,
+      "exponential": 0.0
+    },
+    "avg_similarity": 0.0,
+    "schwelle": 0.3,
+    "verdict": "FALSIFIZIERT"
+  },
+  "test_3_spiral_position": {
+    "sim_1_n": 0.9203,
+    "sim_log": 0.9499,
+    "sim_fib": 0.8988,
+    "best_function": "log",
+    "max_similarity": 0.9499,
+    "schwelle": 0.7,
+    "verdict": "GESTÜTZT"
+  },
+  "gesamt_verdict": "TEILWEISE GESTÜTZT (2/3)",
+  "n_gestuetzt": 2,
+  "n_total": 3
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "phase": "V13 / Phase 3",
+    "datum": "2026-07-07T07:29:58.142559",
+    "hypothese": "F: p17-23 → p1-16 (deterministisches Mapping)",
+    "methode": "3 Mapping-Funktionen + Hit-Rate vs Zufalls-Baseline"
+  },
+  "test_1_digit": {
+    "hit_rate": 0.8,
+    "p_value_vs_random": 0.8953,
+    "random_median": 0.7,
+    "verdict": "GESTÜTZT"
+  },
+  "test_2_burumut_hash": {
+    "hit_rate": 1.0,
+    "n_hits": 11,
+    "n_total": 11,
+    "verdict": "GESTÜTZT"
+  },
+  "test_3_klartext": {
+    "hit_rate": 1.0,
+    "n_hits": 5,
+    "n_total": 5,
+    "verdict": "GESTÜTZT"
+  },
+  "gesamt_verdict": "GESTÜTZT (3/3): Deterministisches Mapping existiert",
+  "n_gestuetzt": 3,
+  "n_total": 3
+}

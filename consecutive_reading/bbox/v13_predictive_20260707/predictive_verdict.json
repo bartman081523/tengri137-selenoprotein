@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "phase": "V13 / Phase 2",
+    "datum": "2026-07-07T07:29:21.510524",
+    "hypothese": "p17-Strukturen → p1-16 Glyph-Frequenz",
+    "methode": "Spearman-ρ + Edit-Distanz + Train/Test-Konsistenz"
+  },
+  "test_1_spearman": {
+    "rho": -0.0607,
+    "p_value": 1.9561,
+    "schwelle": 0.5,
+    "verdict": "FALSIFIZIERT"
+  },
+  "test_2_edit_distance": {
+    "akrostichon": "BNYZTSOYNKS",
+    "top_11_glyphs": [
+      "G18",
+      "G19",
+      "G29",
+      "G05",
+      "G03",
+      "G10",
+      "G07",
+      "G09",
+      "G14",
+      "G06",
+      "G01"
+    ],
+    "top_11_letters": "RSCECJGINFA",
+    "edit_dist": 10,
+    "schwelle": 6,
+    "verdict": "FALSIFIZIERT"
+  },
+  "test_3_train_test": {
+    "n_train_pages": 8,
+    "n_test_pages": 6,
+    "consistency": 0.927,
+    "schwelle": 0.7,
+    "verdict": "GESTÜTZT"
+  },
+  "gesamt_verdict": "FALSIFIZIERT (1/3)",
+  "n_gestuetzt": 1,
+  "n_total": 3
+}

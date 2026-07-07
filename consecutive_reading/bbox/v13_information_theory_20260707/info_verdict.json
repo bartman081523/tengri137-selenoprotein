@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "phase": "V13 / Phase 1",
+    "datum": "2026-07-07T07:28:49.296098",
+    "hypothese": "p17-p23 = komprimierte Source für p1-16",
+    "methode": "gzip-Kolmogorov-Proxy + 10k Zufalls-Baseline"
+  },
+  "test_1_ratio": {
+    "h_p17": 0.8538,
+    "h_p23": 0.7866,
+    "h_p17_p23": 0.6847,
+    "h_p1_16": 0.4236,
+    "ratio": 1.6167,
+    "schwelle": 0.8,
+    "verdict": "GESTÜTZT"
+  },
+  "test_2_random_baseline": {
+    "real_rate": 0.6847,
+    "random_median": 0.7356,
+    "n_better_random": 0,
+    "n_total_random": 10000,
+    "p_value": 0.0001,
+    "verdict": "GESTÜTZT (Komplexität über Zufall)"
+  },
+  "test_3_joint": {
+    "joint_p17_p23": 1.6404,
+    "h_p1_16": 0.4236,
+    "dominates": true,
+    "verdict": "GESTÜTZT (p17+p23 dominiert)"
+  },
+  "gesamt_verdict": "GESTÜTZT (3/3): p17-23 ist komprimierte Source für p1-16",
+  "n_gestuetzt": 3,
+  "n_total": 3
+}
