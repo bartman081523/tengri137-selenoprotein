@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "phase": "V12 / Phase 2",
+    "datum": "2026-07-07T06:32:14.271869",
+    "hypothese": "QUINE (Output(P) = P)",
+    "methode": "Self-Description + Edit-Distanz + Self-Reference + Iterations-Konvergenz"
+  },
+  "test_1_self_description": {
+    "n_repeated": 0,
+    "n_markers": 8,
+    "verdict": "Message-Struktur (keine Repetition) — kein Quine",
+    "details": {
+      "TRUTH": 1,
+      "KNOWLEDGE": 1,
+      "MESSENGERS": 1,
+      "YEARS": 1,
+      "CIVILISATION": 1,
+      "BURUMUT": 0,
+      "TRUTHS": 0,
+      "KNOWLEDGES": 0
+    }
+  },
+  "test_2_edit_distance": {
+    "d_glyph_digits": 1.0,
+    "d_glyph_klartext": 0.9385,
+    "d_digits_klartext": 1.0,
+    "max_d": 1.0,
+    "min_d": 0.9385,
+    "verdict": "Strukturen maximal unähnlich — kein Quine"
+  },
+  "test_3_burumut_self_ref": {
+    "n_texts": 76,
+    "n_burumut": 1,
+    "n_buru": 1,
+    "n_bur": 1,
+    "pct_burumut": 0.0132,
+    "verdict": "Minimal Self-Reference — kein Quine"
+  },
+  "test_4_iteration": {
+    "input": "BNYZTSOYNKS",
+    "iter1": "VNYZTSOYNHS",
+    "iter2": "VNYZTSOYNHS",
+    "converges_to_self": false,
+    "verdict": "Decode konvergiert nicht — kein Quine"
+  },
+  "gesamt_verdict": "FALSIFIZIERT (Gründe: n_repeated=0 (<3), max_d=1.000 (≥0.3), pct_burumut=1.32% (≤50%), Decode konvergiert nicht)",
+  "v11_vergleich": {
+    "status": "FALSIFIZIERT",
+    "v11_verdict": "Output ≠ Input, keine Self-Reference",
+    "v12_vertiefung": "V12 liefert: n_repeated=0, max_d=1.000, pct_burumut=1.32%"
+  }
+}

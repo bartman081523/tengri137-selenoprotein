@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "phase": "V12 / Phase 3",
+    "datum": "2026-07-07T06:32:50.218486",
+    "hypothese": "TURING-MASCHINE (eigene FSM, ohne Tora-Turing)",
+    "methode": "FSM-Konstruktion + Determinismus + Vollständigkeit + Turing-Vollständigkeit"
+  },
+  "step_1_states": {
+    "candidates": [
+      "B",
+      "N",
+      "Y",
+      "Z",
+      "T",
+      "S",
+      "O",
+      "Y",
+      "N",
+      "K",
+      "S"
+    ],
+    "n_candidates": 11
+  },
+  "step_2_alphabet": {
+    "candidates_mod10": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      9
+    ],
+    "n_candidates": 6,
+    "original": [
+      2,
+      5,
+      13,
+      37,
+      179,
+      471077143,
+      23,
+      53,
+      2711,
+      897232321
+    ]
+  },
+  "step_3_fsm": {
+    "n_states": 11,
+    "n_symbols": 6,
+    "n_transitions": 10,
+    "is_deterministic": false,
+    "is_complete": false,
+    "completeness_ratio": 0.1364,
+    "transitions": [
+      {
+        "from": "B",
+        "symbol": "2",
+        "to": "N"
+      },
+      {
+        "from": "N",
+        "symbol": "5",
+        "to": "Y"
+      },
+      {
+        "from": "Y",
+        "symbol": "3",
+        "to": "Z"
+      },
+      {
+        "from": "Z",
+        "symbol": "7",
+        "to": "T"
+      },
+      {
+        "from": "T",
+        "symbol": "9",
+        "to": "S"
+      },
+      {
+        "from": "S",
+        "symbol": "3",
+        "to": "O"
+      },
+      {
+        "from": "O",
+        "symbol": "3",
+        "to": "Y"
+      },
+      {
+        "from": "Y",
+        "symbol": "3",
+        "to": "N"
+      },
+      {
+        "from": "N",
+        "symbol": "1",
+        "to": "K"
+      },
+      {
+        "from": "K",
+        "symbol": "1",
+        "to": "S"
+      }
+    ]
+  },
+  "step_4_turing_complete": {
+    "has_branch": false,
+    "has_loop": false,
+    "is_unbounded": false,
+    "n_texts": 76,
+    "is_turing_complete": false
+  },
+  "gesamt_verdict": "FALSIFIZIERT (Gründe: FSM nicht-deterministisch, FSM unvollständig (Coverage 13.64%), keine Verzweigung, keine Schleife, Speicher bounded (76 Texte))",
+  "v11_vergleich": {
+    "status": "FALSIFIZIERT (nicht konstruierbar)",
+    "v11_verdict": "Keine identifizierbaren Zustände oder Übergänge in p17",
+    "v12_vertiefung": "V12 konstruierte FSM: 11 Zustände, 6 Symbole, 10 Übergänge, Coverage 13.64%, Turing-complete=False"
+  }
+}

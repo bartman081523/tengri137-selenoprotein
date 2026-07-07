@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "phase": "V12 / Phase 1",
+    "datum": "2026-07-07T06:31:40.941299",
+    "hypothese": "KOM PIL AT (Source ↔ Binary 1:1)",
+    "methode": "Struktur-Zählung + Spearman-Korrelation + Permutations-Konsistenz"
+  },
+  "test_1_structures": {
+    "n_structures": 4,
+    "kompilat_erwartung": 2,
+    "verdict": "FALSIFIZIERT",
+    "details": {
+      "ziffern": 10,
+      "glyphen": 11,
+      "tappeiner_bruche": 11,
+      "klartext_zeilen": 5
+    }
+  },
+  "test_2_korrelation": {
+    "spearman_rho": 0.0909,
+    "n_pairs": 10,
+    "kompilat_schwellwert": 0.7,
+    "verdict": "UNABHÄNGIG"
+  },
+  "test_3_konsistenz": {
+    "avg_konsistenz": 0.096,
+    "n_permutationen": 100,
+    "zufall_schwellwert": 0.1,
+    "verdict": "Konsistenz ≈ Zufall → unabhängige Strukturen"
+  },
+  "gesamt_verdict": "FALSIFIZIERT (Gründe: 4 Strukturen (>2), |rho|=0.09 (≤0.7), Konsistenz=9.60% (≤50%))",
+  "v11_vergleich": {
+    "status": "FALSIFIZIERT",
+    "v11_verdict": "Keine 1:1-Isomorphie, 3 unabhängige Strukturen",
+    "v12_vertiefung": "V12 liefert konkrete Zahlen: rho=+0.091, Konsistenz=9.60%, n_structures=4"
+  }
+}
