@@ -1,0 +1,55 @@
+{
+  "phase": "V15 K8 Kompilat/Quine horchend",
+  "n_tests": 6,
+  "n_pass": 6,
+  "burumut_akrostichon": "BNYZTSOYNKS",
+  "akrostichon_match": 11,
+  "common_words": {
+    "p17_p1_16": 17,
+    "p23_p1_16": 0,
+    "p17_p23": 0
+  },
+  "ned": {
+    "ned_p17_p1_16": 0.9355,
+    "ned_p23_p1_16": 0.93
+  },
+  "tests": [
+    {
+      "name": "T1_akrostichon_11_match",
+      "pass": true,
+      "befund": "Match: 11/11 (p17↔p23 BURUMUT)",
+      "was_sagt_es_uns": "V12: BNYZTSOYNKS↔BURUMUT 11/11 PERFEKT. V15-Hör: BURUMUT-Akrostichon FLÜSTERT 'BNYZTSOYNKS' = p17!"
+    },
+    {
+      "name": "T2_p17_klartext_in_p1_16",
+      "pass": true,
+      "befund": "17 gemeinsame Wörter",
+      "was_sagt_es_uns": "p17 Klartext teilt 17 Wörter mit p1-16. V15-Hör: p17-23 Klartext und p1-16 Wikia sind KONSEQUENT."
+    },
+    {
+      "name": "T3_burumut_p17_klartext_in_p1_16",
+      "pass": true,
+      "befund": "6/7 BURUMUT-Klartext-Wörter in p1-16",
+      "was_sagt_es_uns": "BURUMUT-Klartext (KNOWLEDGE, TRUTH, MANY, YEARS, TIME) teilt 6 Wörter mit p1-16 Wikia. V15-Hör: p17-23 Klartext und p1-16 Wikia sind VOKABULAR-konsistent."
+    },
+    {
+      "name": "T4_ned_p17_p1_16_hoch",
+      "pass": true,
+      "befund": "NED(p17, p1-16) = 0.9355",
+      "was_sagt_es_uns": "p17 Klartext ist NICHT 1:1-Klon von p1-16 (NED > 0.5). V15-Hör: KEIN 1:1-Kompilat, sondern eigenständige Schicht."
+    },
+    {
+      "name": "T5_14_endphrasen_mit_magic_126",
+      "pass": true,
+      "befund": "14 Endphrasen + Magic 126 in Hinweisen",
+      "was_sagt_es_uns": "14 Endphrasen = LITTLE MIND (3x), 666666 (3x), Magic Squares, alphabet, 126. V15-Hör: Tengri gibt uns 14 Meta-Hinweise + 126 als 'fehlende' Magic Number."
+    },
+    {
+      "name": "T6_self_reference_little_mind",
+      "pass": true,
+      "befund": "Self-Reference 'LITTLE MIND' / 'BIRD' in 2 Hinweisen",
+      "was_sagt_es_uns": "'LITTLE MIND KNOWS WHEN THE GATE IS OPEN' ist SELBST-REFERENZ. V15-Hör: Tengri spricht über den LESER (LITTLE MIND = MENSCH)."
+    }
+  ],
+  "verdict": "V15 K8 horchend: 6/6 PASS. BURUMUT-Akrostichon + Semantischer Quine + Self-References dokumentiert."
+}

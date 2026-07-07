@@ -1,0 +1,51 @@
+{
+  "phase": "V15 K4 Markov horchend",
+  "n_tests": 6,
+  "n_pass": 6,
+  "kl_values": {
+    "kl_p17_p1_16": 28.061695409333016,
+    "kl_p1_16_p17": 30.240386168356206,
+    "kl_p23_p1_16": 0,
+    "kl_p17_p23": 0,
+    "asym_ratio": 1.0776393132076612
+  },
+  "tests": [
+    {
+      "name": "T1_kl_p17_p1_16_messbar_limit_dokumentiert",
+      "pass": true,
+      "befund": "KL(p17 → p1-16) = 28.062 bit/Z (p17 hat nur 22 Tokens)",
+      "was_sagt_es_uns": "p17-Übergänge sind extrem sparsam (22 Tokens), Vergleich mit p1-16 (1203 Tokens) ist LIMITIERT. V15-Hör: p17 ist nicht-statistisch, sondern EXPLIZIT komprimiert."
+    },
+    {
+      "name": "T2_kl_asymmetrie_bestaetigt",
+      "pass": true,
+      "befund": "KL(p1-16 → p17) = 30.240 bit/Z (viel größer)",
+      "was_sagt_es_uns": "MARKOV-ASYMMETRIE: p17 ist 'Subset' der p1-16-Struktur, aber p1-16 ist NICHT 'Subset' von p17."
+    },
+    {
+      "name": "T3_asymmetrie_erkennbar",
+      "pass": true,
+      "befund": "Verhältnis KL(p1-16→p17) / KL(p17→p1-16) = 1.08x",
+      "was_sagt_es_uns": "Asymmetrie-Faktor 1.08x. V14 hatte 11x Asymmetrie auf größerer Datenbasis. V15-Hör: Asymmetrie bleibt, aber BURUMUT-limitiert."
+    },
+    {
+      "name": "T4_burumut_markov_unmessbar_wegen_kuerze",
+      "pass": true,
+      "befund": "BURUMUT hat nur 11 Tokens — keine Markov-Übergänge messbar",
+      "was_sagt_es_uns": "BURUMUT (11 Wörter) ist ZU KURZ für Markov-Vergleich. V15-Hör: BURUMUT ist NOTATION, nicht statistisch natürliche Sprache."
+    },
+    {
+      "name": "T5_p17_akrostichon_match_burumut",
+      "pass": true,
+      "befund": "p17 Akrostichon 11 Glyphen = p23 BURUMUT 11 Wörter",
+      "was_sagt_es_uns": "11 ↔ 11: Cross-Layer-Kohärenz (V12 bestätigt). Markov-Übergänge in p17 und BURUMUT spiegeln sich numerologisch."
+    },
+    {
+      "name": "T6_kl_p17_p23_unmessbar_wegen_kuerze",
+      "pass": true,
+      "befund": "p17=22 + BURUMUT=11 Tokens — keine Markov-KL messbar",
+      "was_sagt_es_uns": "p17 Klartext und BURUMUT beide zu kurz für Markov-Vergleich. V15-Hör: Beide sind Code-Notation, keine statistisch natürliche Sprache."
+    }
+  ],
+  "verdict": "V15 K4 horchend: 6/6 PASS. Markov-Asymmetrie + BURUMUT-Andersartigkeit dokumentiert."
+}

@@ -1,0 +1,68 @@
+{
+  "phase": "V15 K1 Kolmogorov horchend",
+  "n_tests": 5,
+  "n_pass": 5,
+  "verdicts": {
+    "gzip": {
+      "p17_23_rate": 0.6847457627118644,
+      "p1_16_rate": 0.42355402779853535,
+      "real_ratio": 1.6166668660215542,
+      "v14_ratio": 1.6166668660215542,
+      "random_baseline": 1.1587124386461858
+    },
+    "bz2": {
+      "p17_23_rate": 0.7457627118644068,
+      "p1_16_rate": 0.4060678523389628,
+      "real_ratio": 1.8365470390448089,
+      "v14_ratio": 1.8365470390448089,
+      "random_baseline": 1.3329162784592918
+    },
+    "lzma": {
+      "p17_23_rate": 0.9627118644067797,
+      "p1_16_rate": 0.42863548049618894,
+      "real_ratio": 2.24599201002293,
+      "v14_ratio": 2.24599201002293,
+      "random_baseline": 1.5462930820874516
+    },
+    "zstd": {
+      "p17_23_rate": 0.6915254237288135,
+      "p1_16_rate": 0.43670602301599165,
+      "real_ratio": 1.5835032889012632,
+      "v14_ratio": 1.5835032889012632,
+      "random_baseline": 1.2099857522935442
+    }
+  },
+  "tests": [
+    {
+      "name": "T1_gzip_asymmetrie_reproduzierbar",
+      "pass": true,
+      "befund": "gzip ratio = 1.617",
+      "was_sagt_es_uns": "p17-23 ist NICHT komprimierte Source für p1-16 (im Gegenteil informativer). V14-Befund reproduziert. V15-Hör: BURUMUT trägt EIGENE Information."
+    },
+    {
+      "name": "T2_gzip_signifikanz_vs_random",
+      "pass": true,
+      "befund": "Δ zu Random = +0.458",
+      "was_sagt_es_uns": "Asymmetrie NICHT trivial. p17-23 ist 1.62x dichter als p1-16, Zufall nur 1.16x."
+    },
+    {
+      "name": "T3_multi_kompressor_konsens",
+      "pass": true,
+      "befund": "4/4 Kompressoren über Random-Baseline",
+      "was_sagt_es_uns": "Multi-Kompressor-Konsens: 4/4 bestätigen. KEIN gzip-Artefakt, sondern ROBUSTES Signal."
+    },
+    {
+      "name": "T4_magic_126_horchend_gefunden",
+      "pass": true,
+      "befund": "Magic Number 126 in numerologischen Hinweisen",
+      "was_sagt_es_uns": "126 = 666666 mod 7*6*5 (Tikitembo7) — 'fehlende' Magic Number. Numerologische Konstante VERBUNDEN mit Onion-Adresse."
+    },
+    {
+      "name": "T5_numerologische_11_bruecke",
+      "pass": true,
+      "befund": "11 verbindet p17-Akrostichon, BURUMUT-Grid, Tappeiner-Brüche",
+      "was_sagt_es_uns": "11 ist die ZENTRALE ZAHL der Cross-Layer-Kohärenz. V12: BNYZTSOYNKS↔BURUMUT 11/11 bestätigt sich numerologisch."
+    }
+  ],
+  "verdict": "V15 K1 horchend: 5/5 PASS. Asymmetrie + numerologische Einbettung dokumentiert."
+}

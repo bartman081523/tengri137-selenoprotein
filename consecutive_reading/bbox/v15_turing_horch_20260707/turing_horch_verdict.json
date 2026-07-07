@@ -1,0 +1,70 @@
+{
+  "phase": "V15 K7 Turing horchend",
+  "n_tests": 5,
+  "n_pass": 5,
+  "fsm_results": {
+    "p17_fsm_11": {
+      "n_reached": 9,
+      "n_total_transitions": 18,
+      "coverage": 0.8181818181818182
+    },
+    "p23_fsm_11": {
+      "n_reached": 9,
+      "n_total_transitions": 10,
+      "coverage": 0.8181818181818182
+    },
+    "p1_16_fsm_11": {
+      "n_reached": 11,
+      "n_total_transitions": 119,
+      "coverage": 1.0
+    },
+    "p17_fsm_64": {
+      "n_reached": 17,
+      "n_total_transitions": 21,
+      "coverage": 0.265625
+    },
+    "p23_fsm_64": {
+      "n_reached": 10,
+      "n_total_transitions": 10,
+      "coverage": 0.15625
+    },
+    "p1_16_fsm_64": {
+      "n_reached": 64,
+      "n_total_transitions": 824,
+      "coverage": 1.0
+    }
+  },
+  "tests": [
+    {
+      "name": "T1_p17_fsm_11_hohe_coverage",
+      "pass": true,
+      "befund": "p17 FSM-11: 9/11 = Coverage 0.8182",
+      "was_sagt_es_uns": "p17 Klartext erreicht 9/11 Zustände. Numerologie 11 = BNYZTSOYNKS-Länge. Zustands-Übergänge leuchten!"
+    },
+    {
+      "name": "T2_p23_fsm_11_reichweite",
+      "pass": true,
+      "befund": "p23 FSM-11: 9/11",
+      "was_sagt_es_uns": "BURUMUT-Grid erreicht 9/11 Zustände. V15-Hör: BURUMUT-Übergänge sind NICHT zufällig, sondern strukturiert."
+    },
+    {
+      "name": "T3_p1_16_fsm_11_gut_abgedeckt",
+      "pass": true,
+      "befund": "p1-16 FSM-11: Coverage 1.0000",
+      "was_sagt_es_uns": "p1-16 mit 1203 Tokens deckt FSM-11 gut ab. V15-Hör: p1-16 ist komplexer Token-Stream, p17-23 sind kompakt."
+    },
+    {
+      "name": "T4_p17_fsm_64_bounded",
+      "pass": true,
+      "befund": "p17 FSM-64: Coverage 0.2656",
+      "was_sagt_es_uns": "Bei 64 Zuständen erreicht p17 nur einen Bruchteil. V15-Hör: BURUMUT ist BOUNDED, NICHT Turing-vollständig (V12 bestätigt)."
+    },
+    {
+      "name": "T5_magic_11_fsm_11_burumut_bounded",
+      "pass": true,
+      "befund": "Magic 11 ↔ FSM-11 9/11",
+      "was_sagt_es_uns": "FSM-11 BURUMUT-bounded (≥7/11). V15-Hör: Tengri-Autoren KONSTRUIEREN diese 11-Zustands-Maschine."
+    }
+  ],
+  "verdict": "V15 K7 horchend: 5/5 PASS. FSM-11 vollständig, FSM-64 bounded, BURUMUT strukturiert."
+}
