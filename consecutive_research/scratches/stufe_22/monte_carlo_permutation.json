@@ -1,0 +1,118 @@
+{
+  "burumut_dna": "AACTGCCGTTGCATGTGCACCCGTGAATTCGCGATGACCTGCAACTGCCGTGAAAGCTGCACCCGTGAAGGCTGCATGTTCGCGTACGCGCCGAGCTGCGCGGAAAACGAACATATTATGCTGGCGGAAGCGAACCGTTGCGCGGAAAACGAAAACAAAATGAACGCGACCAAAAACATTAAAAAAACCCTGTGCAACTGCATGTACAAAAGCTGCAACAAAAAATGCCGTGGCGCGAACAAAGAATACATTAAAAAATGCGAAATTAAATGCTTCGCGTGCAGCATTCATGAATACGCGAACGAAAAAGCGAACAGCGCGAACGAACGTCATAAAAACGCGTTCGAACGTGCGAACAGCGCGCATAAAACCTTCGAAAAAAAACGTGAAATGAAACGTAACATTGAATGCATGCGTAAAAGCTGCAACGCGAAAATTCGTTTCGCGAACGAAATGAACGCG",
+  "burumut_stops_in_frame": 0,
+  "mc_permutation": {
+    "n": 100000,
+    "zero_stops": 100000,
+    "stop_distribution": {
+      "0": 100000
+    },
+    "p_value": 1.0
+  },
+  "dangerous_transitions": [
+    {
+      "pos": 8,
+      "aa1": "R",
+      "aa2": "E",
+      "codon1": "CGT",
+      "codon2": "GAA",
+      "triple": "TGA"
+    },
+    {
+      "pos": 17,
+      "aa1": "R",
+      "aa2": "E",
+      "codon1": "CGT",
+      "codon2": "GAA",
+      "triple": "TGA"
+    },
+    {
+      "pos": 22,
+      "aa1": "R",
+      "aa2": "E",
+      "codon1": "CGT",
+      "codon2": "GAA",
+      "triple": "TGA"
+    },
+    {
+      "pos": 60,
+      "aa1": "I",
+      "aa2": "K",
+      "codon1": "ATT",
+      "codon2": "AAA",
+      "triple": "TAA"
+    },
+    {
+      "pos": 84,
+      "aa1": "I",
+      "aa2": "O",
+      "codon1": "ATT",
+      "codon2": "AAA",
+      "triple": "TAA"
+    },
+    {
+      "pos": 89,
+      "aa1": "I",
+      "aa2": "K",
+      "codon1": "ATT",
+      "codon2": "AAA",
+      "triple": "TAA"
+    },
+    {
+      "pos": 97,
+      "aa1": "H",
+      "aa2": "E",
+      "codon1": "CAT",
+      "codon2": "GAA",
+      "triple": "TGA"
+    },
+    {
+      "pos": 111,
+      "aa1": "H",
+      "aa2": "O",
+      "codon1": "CAT",
+      "codon2": "AAA",
+      "triple": "TAA"
+    },
+    {
+      "pos": 122,
+      "aa1": "H",
+      "aa2": "O",
+      "codon1": "CAT",
+      "codon2": "AAA",
+      "triple": "TAA"
+    },
+    {
+      "pos": 129,
+      "aa1": "R",
+      "aa2": "E",
+      "codon1": "CGT",
+      "codon2": "GAA",
+      "triple": "TGA"
+    },
+    {
+      "pos": 133,
+      "aa1": "R",
+      "aa2": "B",
+      "codon1": "CGT",
+      "codon2": "AAC",
+      "triple": "TAA"
+    },
+    {
+      "pos": 135,
+      "aa1": "I",
+      "aa2": "Z",
+      "codon1": "ATT",
+      "codon2": "GAA",
+      "triple": "TGA"
+    },
+    {
+      "pos": 139,
+      "aa1": "R",
+      "aa2": "O",
+      "codon1": "CGT",
+      "codon2": "AAA",
+      "triple": "TAA"
+    }
+  ]
+}
