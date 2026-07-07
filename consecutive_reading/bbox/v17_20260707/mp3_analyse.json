@@ -1,0 +1,71 @@
+{
+  "phase": "V17 Phase 2 — tengri137.mp3 Analyse",
+  "n_tests": 5,
+  "n_pass": 3,
+  "mp3_path": "/run/media/julian/ML4/tengri137/original_sources/dropbox_archive_3_audio/tengri137.mp3",
+  "wav_path": "bbox/v17_20260707/tengri137_full.wav",
+  "wav_size_mb": 21.458587646484375,
+  "duration_s": 255.11183673469387,
+  "sample_rate": 44100,
+  "n_samples": 11250432,
+  "spectrum": {
+    "n_frames": 5491,
+    "centroid_hz": 230.43406796607368,
+    "bandwidth_hz": 543.264230816716,
+    "total_power": 123514.16049327476
+  },
+  "stille_segmente": [
+    {
+      "start_s": 253.45,
+      "end_s": 255.1,
+      "dauer_s": 1.6500000000000057
+    }
+  ],
+  "audio_bursts": [
+    {
+      "start_s": 0.25,
+      "end_s": 250.15,
+      "dauer_s": 249.9
+    },
+    {
+      "start_s": 250.85,
+      "end_s": 251.85,
+      "dauer_s": 1.0
+    }
+  ],
+  "n_stille": 1,
+  "n_bursts_30db": 2,
+  "tests": [
+    {
+      "name": "T1_mp3_zu_wav_ok",
+      "pass": true,
+      "befund": "21.46 MB WAV",
+      "was_sagt_es_uns": "V17-Hör: tengri137.mp3 ist 4:15 lang und liegt als WAV vor. Vergleich mit BURUMUT-Synthese möglich (gleiches Format, gleiche SR)."
+    },
+    {
+      "name": "T2_dauer_plausibel",
+      "pass": true,
+      "befund": "255.11 s",
+      "was_sagt_es_uns": "V17-Hör: MP3 ist 4:15 min. Das ist konsistent mit 'Ritual-Audio' / Mantra / Lesung (NICHT Popsong mit Radio-Edit)."
+    },
+    {
+      "name": "T3_centroid_im_sprachband",
+      "pass": true,
+      "befund": "centroid = 230 Hz",
+      "was_sagt_es_uns": "V17-Hör: tengri137.mp3 hat Centroid 230Hz — IM Sprachband (menschliche Sprache 200-4000Hz). Das stützt die Hypothese, dass die MP3 SPRACHE enthält (möglicherweise BURUMUT-Lesung)."
+    },
+    {
+      "name": "T4_mehrere_audio_bursts",
+      "pass": false,
+      "befund": "2 Bursts (≥ 0.5s, ≥ -30dB)",
+      "was_sagt_es_uns": "V17-Hör: tengri137.mp3 hat 2 Audio-Bursts. Durchgehend?"
+    },
+    {
+      "name": "T5_stille_anteil_plausibel",
+      "pass": false,
+      "befund": "0.6% Stille (1 Segmente)",
+      "was_sagt_es_uns": "V17-Hör: 0.6% der MP3 sind Stille. Ungewöhnlich."
+    }
+  ],
+  "verdict": "V17 MP3-Analyse: 3/5 PASS. Dauer 4:15, Centroid 230Hz, 1 Stille-Segmente, 2 Bursts."
+}

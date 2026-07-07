@@ -1,0 +1,80 @@
+{
+  "phase": "V17 Phase 3 — Audio-Vergleich",
+  "n_tests": 5,
+  "n_pass": 4,
+  "burumut": {
+    "sr": 22050,
+    "duration_s": 83.29238095238095,
+    "centroid_hz": 827.6492293015593,
+    "bandwidth_hz": 848.9416554169546,
+    "band_pct": {
+      "0-100Hz": 1.6073635214932547,
+      "100-300Hz": 10.533638818621146,
+      "300-1000Hz": 67.19070844966684,
+      "1000-3000Hz": 17.763094020382777,
+      "3000-8000Hz": 2.7899498201844737,
+      "8000+Hz": 0.11524536965149994
+    }
+  },
+  "mp3": {
+    "sr": 44100,
+    "duration_s": 255.11183673469387,
+    "centroid_hz": 417.41511768016125,
+    "bandwidth_hz": 1127.0358453349354,
+    "band_pct": {
+      "0-100Hz": 63.98255524160979,
+      "100-300Hz": 11.276181883761723,
+      "300-1000Hz": 15.541584475600597,
+      "1000-3000Hz": 5.654481062934834,
+      "3000-8000Hz": 3.468670707195219,
+      "8000+Hz": 0.07652662889783365
+    }
+  },
+  "vergleich": {
+    "centroid_ratio": 0.5043381941313612,
+    "spectrum_form_corr": 0.8302343417950043,
+    "14_band_corr": 0.9443227682252975,
+    "envelope_corr": -0.06770240515470505
+  },
+  "ratios": {
+    "0-100Hz": 39.805902265449845,
+    "100-300Hz": 1.070492550383247,
+    "300-1000Hz": 0.2313055604591956,
+    "1000-3000Hz": 0.31832748599126004,
+    "3000-8000Hz": 1.243273510548612,
+    "8000+Hz": 0.6640321353408722
+  },
+  "tests": [
+    {
+      "name": "T1_centroid_tief_bei_mp3",
+      "pass": true,
+      "befund": "MP3 417Hz, BURUMUT 828Hz, ratio 0.50x",
+      "was_sagt_es_uns": "V17-Hör: MP3 hat Centroid 417Hz (sehr tief), BURUMUT 828Hz (Sprachband). Verhältnis 0.50x — MP3 ist ~2.0x tiefer. Direkter Audio-Match ausgeschlossen."
+    },
+    {
+      "name": "T2_mp3_subbass_dominant",
+      "pass": true,
+      "befund": "MP3 0-100Hz=64.0%, BURUMUT 0-100Hz=1.6%",
+      "was_sagt_es_uns": "V17-Hör: MP3 ist SUB-BASS-DOMINANT (64% unter 100Hz), BURUMUT-Sprache ist LOW-MID-DOMINANT (2% unter 100Hz). MP3 ist ein DRONE, kein gesprochenes BURUMUT."
+    },
+    {
+      "name": "T3_spektrum_form_korreliert",
+      "pass": true,
+      "befund": "r = 0.830",
+      "was_sagt_es_uns": "V17-Hör: Form-Korrelation der logarithmierten Spektren: r=0.830. STARK (>0.7): Formähnlichkeit. Die MP3 hat BURUMUT-ähnliche FORM-TENDENZEN, auch wenn die absoluten Frequenzen verschieden sind."
+    },
+    {
+      "name": "T4_14_band_korrelation",
+      "pass": true,
+      "befund": "14-Band r = 0.944",
+      "was_sagt_es_uns": "V17-Hör: Auf 14 Frequenz-Bänder (BURUMUT-Breite!) aufgeteilt, korreliert die Power-Verteilung mit r=0.944. STARK: BURUMUT-Spektrum-Form spiegelt sich in MP3."
+    },
+    {
+      "name": "T5_envelope_korrelation",
+      "pass": false,
+      "befund": "Envelope r = -0.068",
+      "was_sagt_es_uns": "V17-Hör: Zeitliche Hüllkurven-Korrelation: r=-0.068. UNKORRELIERT: verschiedene Rhythmik. Das ist HORCHEND: BURUMUT (espeak) pulst anders als die MP3. Die MP3 ist ein DRONE (kontinuierlich), BURUMUT hat Wort-Grenzen."
+    }
+  ],
+  "verdict": "V17 Audio-Vergleich: 4/5 PASS. Centroid MP3 417Hz vs BURUMUT 828Hz (ratio 0.50x). Spectrum-Form r=0.830, 14-Band r=0.944, Envelope r=-0.068."
+}
