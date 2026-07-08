@@ -1,0 +1,238 @@
+{
+  "phase": "V18.1 Phase 2 — 23-Seiten-Expansion (510.22s)",
+  "n_pass": 5,
+  "n_tests": 5,
+  "n_segments": 23,
+  "n_burumut_segments": 11,
+  "n_page_segments": 12,
+  "duration_target": 510.223673,
+  "duration_actual": 510.22367346938773,
+  "spektrum_r": 0.737059414410413,
+  "wave_corr": -0.005992898392934035,
+  "centroid_ratio": 3.007785501844632,
+  "max_band_diff": 0.13032788878009471,
+  "synth_bands": {
+    "0-100Hz": 0.5050417381918395,
+    "100-300Hz": 0.12837089918992503,
+    "300-1000Hz": 0.13247432441671508,
+    "1000-3000Hz": 0.10982683390423975,
+    "3000-8000Hz": 0.07521952075388241
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.35,
+    "harmonic": 0.15,
+    "mid_noise": 0.45,
+    "mid_high_noise": 1.4,
+    "centroid": 0.2,
+    "high": 0.6,
+    "mid_tone": 0.1,
+    "high_band": "3000-12000Hz",
+    "envelope_source_burumut": "original_rms",
+    "envelope_source_pages": "deterministic_synthetic"
+  },
+  "segments": [
+    {
+      "idx": 1,
+      "label": "BURUMUTREFAMTU",
+      "source": "burumut",
+      "centroid": 536.64
+    },
+    {
+      "idx": 2,
+      "label": "NURESUTREGUMFA",
+      "source": "burumut",
+      "centroid": 409.3
+    },
+    {
+      "idx": 3,
+      "label": "YAPSUAZBEHIMLA",
+      "source": "burumut",
+      "centroid": 348.15
+    },
+    {
+      "idx": 4,
+      "label": "ZANRUAZBENOMBA",
+      "source": "burumut",
+      "centroid": 538.63
+    },
+    {
+      "idx": 5,
+      "label": "TOBIKOTLUBUMYO",
+      "source": "burumut",
+      "centroid": 352.28
+    },
+    {
+      "idx": 6,
+      "label": "SUNOKURGANOZYI",
+      "source": "burumut",
+      "centroid": 458.72
+    },
+    {
+      "idx": 7,
+      "label": "OKUZIKUFAUSIHE",
+      "source": "burumut",
+      "centroid": 770.79
+    },
+    {
+      "idx": 8,
+      "label": "YABEKANSABERHO",
+      "source": "burumut",
+      "centroid": 422.92
+    },
+    {
+      "idx": 9,
+      "label": "NAFERANSAHOTFE",
+      "source": "burumut",
+      "centroid": 454.67
+    },
+    {
+      "idx": 10,
+      "label": "KOREMORBIZUMRO",
+      "source": "burumut",
+      "centroid": 251.81
+    },
+    {
+      "idx": 11,
+      "label": "SUNAKIRFANEMBA",
+      "source": "burumut",
+      "centroid": 125.1
+    },
+    {
+      "idx": 12,
+      "label": "TRUTH p1",
+      "source": "page",
+      "centroid": 88.0
+    },
+    {
+      "idx": 13,
+      "label": "TRUTH p2",
+      "source": "page",
+      "centroid": 95.0
+    },
+    {
+      "idx": 14,
+      "label": "TRUTH p3",
+      "source": "page",
+      "centroid": 110.0
+    },
+    {
+      "idx": 15,
+      "label": "TRUTH p4",
+      "source": "page",
+      "centroid": 130.0
+    },
+    {
+      "idx": 16,
+      "label": "MAGIC p5-6 (666)",
+      "source": "page",
+      "centroid": 330.0
+    },
+    {
+      "idx": 17,
+      "label": "RING p7 (7)",
+      "source": "page",
+      "centroid": 220.0
+    },
+    {
+      "idx": 18,
+      "label": "RING p8 (9)",
+      "source": "page",
+      "centroid": 220.0
+    },
+    {
+      "idx": 19,
+      "label": "ODIN p9 (3)",
+      "source": "page",
+      "centroid": 165.0
+    },
+    {
+      "idx": 20,
+      "label": "137 p10",
+      "source": "page",
+      "centroid": 440.0
+    },
+    {
+      "idx": 21,
+      "label": "ADAM p15 (46)",
+      "source": "page",
+      "centroid": 550.0
+    },
+    {
+      "idx": 22,
+      "label": "ENG p22 (anti_god)",
+      "source": "page",
+      "centroid": 95.0
+    },
+    {
+      "idx": 23,
+      "label": "BURUMUT p23 (Grid)",
+      "source": "page",
+      "centroid": 75.37
+    }
+  ],
+  "pages_represented": [
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "BURUMUT",
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p05_p06",
+    "p07",
+    "p08",
+    "p09",
+    "p10",
+    "p15",
+    "p22",
+    "p23"
+  ],
+  "tests": [
+    {
+      "name": "T1_23_segmente",
+      "pass": true,
+      "befund": "23 Segmente (11 BURUMUT + 12 Seiten)",
+      "was_sagt_es_uns": "23 Segmente erzeugt (11 BURUMUT + 12 Seiten). V18.1-Hör: Die 23-Seiten-Architektur spiegelt das DOKUMENT selbst wider, nicht nur die 11 BURUMUT-Wörter."
+    },
+    {
+      "name": "T2_pages_vertreten",
+      "pass": true,
+      "befund": "12 Seiten vertreten",
+      "was_sagt_es_uns": "12 Seiten vertreten (Magic Cubes, 137, Adam, Truth, Anti-God, etc.). V18.1-Hör: Jede Seite bringt ihre eigene akustische Signatur mit."
+    },
+    {
+      "name": "T3_p17_p23_burumut",
+      "pass": true,
+      "befund": "11 BURUMUT (Seg 1-11) + 1 BURUMUT p23 (Seg 23)",
+      "was_sagt_es_uns": "BURUMUT-Mapping: p17 (Seg 1-11, BURUMUTREFAMTU ... SUNAKIRFANEMBA) und p23 (Seg 23, BURUMUT-Grid zeilenweise rückwärts). V18.1-Hör: Die BURUMUT-Buch-Ein- und Ausgabe ist im Audio verankert."
+    },
+    {
+      "name": "T4_bands",
+      "pass": true,
+      "befund": "max_diff=13.0%",
+      "was_sagt_es_uns": "Band-Konsistenz: max_diff=13.0%. V18.1-Hör: Die 23-Seiten-Expansion erzeugt ähnliche Bänder wie V18 (15.8% Abweichung)."
+    },
+    {
+      "name": "T5_dauer",
+      "pass": true,
+      "befund": "Ist-Dauer=510.224s (Soll: 510.224s, ±0.5s)",
+      "was_sagt_es_uns": "Gesamtlänge: 510.224s ≈ 510.22s = 2× V18 (255.11s). V18.1-Hör: Die Verdopplung ist EXAKT."
+    }
+  ],
+  "verdict": "V18.1 Phase 2: 5/5 PASS. 23 Segmente (11 BURUMUT + 12 Seiten), 510.22s. r=0.737, max_diff=13.0%."
+}

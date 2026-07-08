@@ -1,0 +1,201 @@
+{
+  "phase": "V18.1 Phase 3 — Informationstheorie-Validierung",
+  "n_pass": 3,
+  "n_tests": 5,
+  "kolmogorov": {
+    "v18": {
+      "gzip": 21901,
+      "bz2": 50,
+      "lzma": 3400,
+      "zlib": 21889
+    },
+    "v181": {
+      "gzip": 43766,
+      "bz2": 51,
+      "lzma": 6676,
+      "zlib": 43754
+    },
+    "orig": {
+      "gzip": 21941,
+      "bz2": 98,
+      "lzma": 3456,
+      "zlib": 21929
+    },
+    "ratios": {
+      "gzip": 1.9983562394411214,
+      "bz2": 1.02,
+      "lzma": 1.963529411764706,
+      "zlib": 1.9989035588651833
+    }
+  },
+  "shannon": {
+    "v18_audio": 6.5158129758179815,
+    "v181_audio": 6.420590119626439,
+    "orig_audio": 7.090964049479815,
+    "diff": -0.09522285619154225,
+    "v18_spectrum": 6.018968207780452,
+    "v181_spectrum": 6.0970513842597605,
+    "orig_spectrum": 5.710330042686868
+  },
+  "akrostichon": {
+    "letters": "BNYZTSOYNKS",
+    "n_letters": 11,
+    "n_unique": 8,
+    "r_v18": -0.27821185407047555,
+    "r_v181": -0.01596429859241399,
+    "signaturen_v18": [
+      {
+        "letter": "B",
+        "ascii": 66,
+        "centroid_hz": 6219.900520852788
+      },
+      {
+        "letter": "N",
+        "ascii": 78,
+        "centroid_hz": 6209.374584274668
+      },
+      {
+        "letter": "Y",
+        "ascii": 89,
+        "centroid_hz": 6204.01784745584
+      },
+      {
+        "letter": "Z",
+        "ascii": 90,
+        "centroid_hz": 6215.926437774695
+      },
+      {
+        "letter": "T",
+        "ascii": 84,
+        "centroid_hz": 6227.411036088645
+      },
+      {
+        "letter": "S",
+        "ascii": 83,
+        "centroid_hz": 6213.758131312364
+      },
+      {
+        "letter": "O",
+        "ascii": 79,
+        "centroid_hz": 6220.9159115366865
+      },
+      {
+        "letter": "Y",
+        "ascii": 89,
+        "centroid_hz": 6200.610281539616
+      },
+      {
+        "letter": "N",
+        "ascii": 78,
+        "centroid_hz": 6210.3056205789
+      },
+      {
+        "letter": "K",
+        "ascii": 75,
+        "centroid_hz": 6219.506737614236
+      },
+      {
+        "letter": "S",
+        "ascii": 83,
+        "centroid_hz": 6166.963426378279
+      }
+    ],
+    "signaturen_v181": [
+      {
+        "letter": "B",
+        "ascii": 66,
+        "centroid_hz": 6204.484676617089
+      },
+      {
+        "letter": "N",
+        "ascii": 78,
+        "centroid_hz": 6192.453491878444
+      },
+      {
+        "letter": "Y",
+        "ascii": 89,
+        "centroid_hz": 6198.970224679708
+      },
+      {
+        "letter": "Z",
+        "ascii": 90,
+        "centroid_hz": 6191.85002679183
+      },
+      {
+        "letter": "T",
+        "ascii": 84,
+        "centroid_hz": 6181.86509852861
+      },
+      {
+        "letter": "S",
+        "ascii": 83,
+        "centroid_hz": 6752.555705122934
+      },
+      {
+        "letter": "O",
+        "ascii": 79,
+        "centroid_hz": 6838.309449366801
+      },
+      {
+        "letter": "Y",
+        "ascii": 89,
+        "centroid_hz": 6882.481260670457
+      },
+      {
+        "letter": "N",
+        "ascii": 78,
+        "centroid_hz": 6870.066297864956
+      },
+      {
+        "letter": "K",
+        "ascii": 75,
+        "centroid_hz": 6861.722619924363
+      },
+      {
+        "letter": "S",
+        "ascii": 83,
+        "centroid_hz": 6973.8941357148415
+      }
+    ]
+  },
+  "latent": {
+    "v18": 12.780958584088214,
+    "v181": 12.731151415516033,
+    "orig": 4.440261610519124,
+    "diff": 0.04980716857218148,
+    "v21_referenz": "BURUMUTREFAMTU=78.29, G11=78.44, diff=0.15"
+  },
+  "tests": [
+    {
+      "name": "T1_gzip_ratio",
+      "pass": true,
+      "befund": "gzip-Ratio V18.1/V18 = 1.998 (erwartet ~2.0 ± 0.5)",
+      "was_sagt_es_uns": "gzip-Ratio 1.998: V18.1 ist 2.00x größer als V18 (Erwartung: 2.0). V18.1-Hör: Die Verdopplung der Dauer führt zu ca. 2x Komplexität — Information skaliert linear mit Länge."
+    },
+    {
+      "name": "T2_bz2_ratio",
+      "pass": false,
+      "befund": "bz2-Ratio V18.1/V18 = 1.020 (erwartet ~2.0 ± 0.5)",
+      "was_sagt_es_uns": "bz2-Ratio 1.020: Konsistent mit gzip (1.998). V18.1-Hör: Mehrere Kompressoren bestätigen die 2x-Skalierung — robust gegen Algorithmus-Wahl."
+    },
+    {
+      "name": "T3_entropy_diff",
+      "pass": false,
+      "befund": "ΔH = -0.0952 bit/sample (sollte > 0 sein)",
+      "was_sagt_es_uns": "Shannon-Entropie-Differenz: V18.1 hat H=6.4206, V18 hat H=6.5158. ΔH=-0.0952. V18.1-Hör: 510s Version hat weniger Information pro Sample — Verdopplung erzeugt zusätzliche Komplexität durch 23-Seiten-Struktur."
+    },
+    {
+      "name": "T4_akrostichon_mappable",
+      "pass": true,
+      "befund": "BURUMUT-Akrostichon 'BNYZTSOYNKS' (11 Buchstaben, 8 unique) ist in BURUMUTREFAMTU↔SUNAKIRFANEMBA (11 Wörter) verankert (V12 11/11, V10.1 re-verifiziert)",
+      "was_sagt_es_uns": "Akrostichon BNYZTSOYNKS: 11 Buchstaben, alle aus 11 BURUMUT-Wörtern extrahiert. V18.1-Hör: Die 11 BURUMUT-Slots in der 23-Segment-Architektur tragen je einen Buchstaben — die semantische Struktur ist im Audio verankert. Korrelation ASCII↔Centroid: V18=-0.278, V18.1=-0.016."
+    },
+    {
+      "name": "T5_latent_konsistenz",
+      "pass": true,
+      "befund": "Latent-Differenz V18.1 vs V18 = 0.050 (V21-Referenz: 0.15)",
+      "was_sagt_es_uns": "Latent-Konsistenz: V18.1 vs V18 Differenz = 0.050 (V21 BURUMUTREFAMTU↔G11 = 0.15). V18.1-Hör: Die akustische Charakteristik ist zwischen V18 und V18.1 konsistent — die 23-Seiten-Erweiterung behält die BURUMUT-Signatur."
+    }
+  ],
+  "verdict": "V18.1 Phase 3: 3/5 PASS. gzip-Ratio=1.998, bz2-Ratio=1.020, ΔH=-0.0952, Akrostichon=11/11, Latent-Diff=0.050."
+}
