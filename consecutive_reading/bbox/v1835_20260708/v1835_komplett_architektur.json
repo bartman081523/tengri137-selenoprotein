@@ -1,0 +1,50 @@
+{
+  "phase": "V18.3 Phase 5 — Komplett-Architektur",
+  "datum": "2026-07-08",
+  "duration_s": 255.11,
+  "samples": 11250351,
+  "carrier_hz": 75.37,
+  "fm_hub_hz": 5.4,
+  "pulse_period_s": 1.78,
+  "spanda_period_s": 127.55,
+  "group_period_s": 85.04,
+  "n_burumut": 11,
+  "n_letters": 14,
+  "n_harmonics": 12,
+  "layer_stats": {
+    "layer1_trager_fm_rms": 0.2850540822687774,
+    "layer2_85s_mean": 0.8175475895552058,
+    "layer3_pulse_mean": 0.41864290193997505,
+    "layer4_spanda_mean": 0.5000000048164384,
+    "layer5_wort_phase_mean": 0.9999215232070445,
+    "layer6_fade_last_sec": 0.08701693705708612,
+    "layer7_noise_rms": 0.03924112028331616,
+    "final_rms": 0.11719221520904412,
+    "final_peak": 0.95
+  },
+  "validation": {
+    "T1_segment_rms_corr": 0.16820981383403824,
+    "T2_carrier_fm_ratio": 1.137957893035281,
+    "T3_pulse_relative": 0.013371567448232837,
+    "T4_85s_relative": 0.2102663543430315,
+    "T5_spanda_relative": 1.0,
+    "T6_fade_ratio": 0.440052980673281,
+    "T7_sunak_trend_emp": -0.022032967032967057,
+    "T7_sunak_trend_gen": -0.001958660720968673,
+    "T8_harmonics_found": 11
+  },
+  "burumut_words": [
+    "BURUMUTREFAMTU",
+    "NURESUTREGUMFA",
+    "YAPSUAZBEHIMLA",
+    "ZANRUAZBENOMBA",
+    "TOBIKOTLUBUMYO",
+    "SUNOKURGANOZYI",
+    "OKUZIKUFAUSIHE",
+    "YABEKANSABERHO",
+    "NAFERANSAHOTFE",
+    "KOREMORBIZUMRO",
+    "SUNAKIRFANEMBA"
+  ],
+  "reference": "100% algorithmische Synthese — KEINE iSTFT, KEINE Original-Magnitude"
+}
