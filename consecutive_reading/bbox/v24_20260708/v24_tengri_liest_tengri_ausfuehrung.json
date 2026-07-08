@@ -1,0 +1,160 @@
+{
+  "phase": "Tengri liest Tengri — WIRKLICH AUSGEFÜHRT",
+  "datum": "2026-07-08",
+  "schritte": {
+    "schritt_1_hinweise": [
+      {
+        "quelle": "V10.4 p23",
+        "befund": "grid_2d_words: ['BURUMUTREFAMTU', 'NURESUTREGUMFA', 'YAPSUAZBEHIMLA', 'ZANRUAZBENOMBA', 'TOBIKOTLUBUMYO', 'SUNOKURGANOZYI', 'OKUZIKUFAUSIHE', 'YABEKANSABERHO', 'NAFERANSAHOTFE', 'KOREMORBIZUMRO', 'SUNAKIRFANEMBA']",
+        "n": 11
+      },
+      {
+        "quelle": "V10.4 p23 fractions",
+        "befund": "bruch_wort_paare: [(0, 'BURUMUTREFAMTU'), (1, 'NURESUTREGUMFA'), (2, 'YAPSUAZBEHIMLA'), (3, 'ZANRUAZBENOMBA'), (4, 'TOBIKOTLUBUMYO'), (5, 'SUNOKURGANOZYI'), (6, 'OKUZIKUFAUSIHE'), (7, 'YABEKANSABERHO'), (8, 'NAFERANSAHOTFE'), (9, 'KOREMORBIZUMRO'), (10, 'SUNAKIRFANEMBA')]",
+        "n": 11
+      },
+      {
+        "quelle": "V10.4 p23 akrostichon",
+        "befund": "akrostichon='BNYZTSOYNKS', spalte_1_matches=True",
+        "n": 11
+      },
+      {
+        "quelle": "V10.4 p23 grid_2d_columns",
+        "befund": "columns: ['BNYZTSOYNKS', 'UUAAOUKAAOU', 'RRPNBNUBFRN', 'UESRIOZEEEA', 'MSUUKKIKRMK', 'UUAAOUKAAOI', 'TTZZTRUNNRR', 'RRBBLGFSSBF', 'EEEEUAAAAIA', 'FGHNBNUBHZN', 'AUIOUOSEOUE', 'MMMMMZIRTMM', 'TFLBYYHHFRB', 'UAAAOIEOEOA']",
+        "n": 14
+      },
+      {
+        "quelle": "V10.4 p17",
+        "befund": "p17 n_burumut_words_v9=0, p17 fractions=17",
+        "n_burumut": 0,
+        "n_fractions": 17
+      },
+      {
+        "quelle": "V22 wikia_semantics",
+        "befund": "klassen: {'truth_revelation': 6, 'anti_god': 2, 'garden_argument': 2, 'galaxy_civilisation': 3, 'genetic_encryption': 1, 'brain_reformatting': 3, 'magic_cube_666': 9, 'fine_structure_137': 3, 'adam_46': 4, 'tengri_names': 5}",
+        "n_aktiv": 10
+      },
+      {
+        "quelle": "V22 codebook",
+        "befund": "BURUMUTREFAMTU↔G11, diff=0.154"
+      },
+      {
+        "quelle": "V22 dokument_match",
+        "befund": "per_page: {'p01': 5, 'p10': 4, 'p11': 4, 'p15': 4, 'p17': 4, 'p19': 4, 'p02': 3, 'p03': 3, 'p04': 3, 'p05': 3, 'p06': 3, 'p07': 3, 'p08': 3, 'p09': 3, 'p13': 3, 'p18': 3, 'p20': 3, 'p12': 2, 'p14': 2, 'p16': 2, 'p21': 2, 'p22': 2, 'p23': 2}",
+        "n_pages": 23
+      },
+      {
+        "quelle": "V22 matrix",
+        "befund": "kappa=211.28714638789054"
+      }
+    ],
+    "schritt_2_befunde": [
+      {
+        "test": "Construct-Wörter == p23 grid_2d_words",
+        "in_both": [
+          "BURUMUTREFAMTU",
+          "KOREMORBIZUMRO",
+          "NAFERANSAHOTFE",
+          "NURESUTREGUMFA",
+          "OKUZIKUFAUSIHE",
+          "SUNAKIRFANEMBA",
+          "SUNOKURGANOZYI",
+          "TOBIKOTLUBUMYO",
+          "YABEKANSABERHO",
+          "YAPSUAZBEHIMLA",
+          "ZANRUAZBENOMBA"
+        ],
+        "only_construct": [],
+        "only_p23": [],
+        "konsistent": true
+      },
+      {
+        "test": "p23 fractions 22_atoms_corrected == p23 grid_2d_words",
+        "fraction_words": [
+          "BURUMUTREFAMTU",
+          "KOREMORBIZUMRO",
+          "NAFERANSAHOTFE",
+          "NURESUTREGUMFA",
+          "OKUZIKUFAUSIHE",
+          "SUNAKIRFANEMBA",
+          "SUNOKURGANOZYI",
+          "TOBIKOTLUBUMYO",
+          "YABEKANSABERHO",
+          "YAPSUAZBEHIMLA",
+          "ZANRUAZBENOMBA"
+        ],
+        "p23_grid": [
+          "BURUMUTREFAMTU",
+          "KOREMORBIZUMRO",
+          "NAFERANSAHOTFE",
+          "NURESUTREGUMFA",
+          "OKUZIKUFAUSIHE",
+          "SUNAKIRFANEMBA",
+          "SUNOKURGANOZYI",
+          "TOBIKOTLUBUMYO",
+          "YABEKANSABERHO",
+          "YAPSUAZBEHIMLA",
+          "ZANRUAZBENOMBA"
+        ],
+        "konsistent": true,
+        "n_fraction_words": 11
+      },
+      {
+        "test": "p23 grid_2d_columns (erste 11) == p23.akrostichon",
+        "akr_from_cols": "BNYZTSOYNKSUUAAOUKAAOURRPNBNUBFRNUESRIOZEEEAMSUUKKIKRMKUUAAOUKAAOITTZZTRUNNRRRRBBLGFSSBFEEEEUAAAAIAFGHNBNUBHZNAUIOUOSEOUE",
+        "akr_v10": "BNYZTSOYNKS",
+        "konsistent": false
+      },
+      {
+        "test": "Construct akrostichon_letter == V10.4 p23.akrostichon",
+        "construct_akr": "BNYZTSOYNKS",
+        "v10_akr": "BNYZTSOYNKS",
+        "konsistent": true
+      },
+      {
+        "test": "V10.4 p17 n_burumut_words_v9 == 0 (KORRIGIERT)",
+        "wert": 0,
+        "konsistent": true,
+        "hinweis": "V10.3 hatte 11 (Fälschung), V10.4 hat 0 (KORRIGIERT)"
+      }
+    ],
+    "schritt_3_neue_hinweise": [
+      {
+        "quelle": "Konsistenz: Construct-Wörter == p23 grid_2d_words",
+        "befund": "BESTÄTIGT",
+        "vorher": "Schritt-1-Hinweise",
+        "nachher": "gleich"
+      },
+      {
+        "quelle": "Konsistenz: p23 fractions 22_atoms_corrected == p23 grid_2d_words",
+        "befund": "BESTÄTIGT",
+        "vorher": "Schritt-1-Hinweise",
+        "nachher": "gleich"
+      },
+      {
+        "quelle": "Konsistenz: p23 grid_2d_columns (erste 11) == p23.akrostichon",
+        "befund": "DRIFT ERKANNT",
+        "vorher": "Schritt-1-Hinweise",
+        "nachher": "drift"
+      },
+      {
+        "quelle": "Konsistenz: Construct akrostichon_letter == V10.4 p23.akrostichon",
+        "befund": "BESTÄTIGT",
+        "vorher": "Schritt-1-Hinweise",
+        "nachher": "gleich"
+      },
+      {
+        "quelle": "Konsistenz: V10.4 p17 n_burumut_words_v9 == 0 (KORRIGIERT)",
+        "befund": "BESTÄTIGT",
+        "vorher": "Schritt-1-Hinweise",
+        "nachher": "gleich"
+      }
+    ]
+  },
+  "konvergenz": {
+    "n_konsistenz_tests": 5,
+    "n_konsistent": 4,
+    "n_drift": 1,
+    "konvergiert": false
+  }
+}

@@ -1,0 +1,30 @@
+# Generierte Audio-Artefakte (reproduzierbar aus JSON + Synthese-Skripten)
+consecutive_reading/bbox/**/*.wav
+consecutive_reading/bbox/**/*.mp3
+*.wav
+*.mp3
+
+# Python-Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# PyTorch-Modelle (groß, reproduzierbar)
+*.pth
+*.pt
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporäre Backups
+*.bak
+*.tmp

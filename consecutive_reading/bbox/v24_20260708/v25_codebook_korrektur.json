@@ -1,0 +1,777 @@
+{
+  "phase": "V25 — Codebook-KORREKTUR (V21 Translator-Methode)",
+  "datum": "2026-07-08",
+  "korrektur": "V25 Schritt 3 verriet: ASCII-normalisiert (0-100) ist FALSCH. Raw ASCII mean (65-90) ist RICHTIG.",
+  "v21_translator_methode": "latent_mean = sum(ord(c) for c in word) / 14 (semi-orthogonale Matrix-Zeile)",
+  "schritt_1_burumut_means": [
+    {
+      "word": "BURUMUTREFAMTU",
+      "ascii_vec": [
+        66,
+        85,
+        82,
+        85,
+        77,
+        85,
+        84,
+        82,
+        69,
+        70,
+        65,
+        77,
+        84,
+        85
+      ],
+      "latent_mean": 78.2857
+    },
+    {
+      "word": "NURESUTREGUMFA",
+      "ascii_vec": [
+        78,
+        85,
+        82,
+        69,
+        83,
+        85,
+        84,
+        82,
+        69,
+        71,
+        85,
+        77,
+        70,
+        65
+      ],
+      "latent_mean": 77.5
+    },
+    {
+      "word": "YAPSUAZBEHIMLA",
+      "ascii_vec": [
+        89,
+        65,
+        80,
+        83,
+        85,
+        65,
+        90,
+        66,
+        69,
+        72,
+        73,
+        77,
+        76,
+        65
+      ],
+      "latent_mean": 75.3571
+    },
+    {
+      "word": "ZANRUAZBENOMBA",
+      "ascii_vec": [
+        90,
+        65,
+        78,
+        82,
+        85,
+        65,
+        90,
+        66,
+        69,
+        78,
+        79,
+        77,
+        66,
+        65
+      ],
+      "latent_mean": 75.3571
+    },
+    {
+      "word": "TOBIKOTLUBUMYO",
+      "ascii_vec": [
+        84,
+        79,
+        66,
+        73,
+        75,
+        79,
+        84,
+        76,
+        85,
+        66,
+        85,
+        77,
+        89,
+        79
+      ],
+      "latent_mean": 78.3571
+    },
+    {
+      "word": "SUNOKURGANOZYI",
+      "ascii_vec": [
+        83,
+        85,
+        78,
+        79,
+        75,
+        85,
+        82,
+        71,
+        65,
+        78,
+        79,
+        90,
+        89,
+        73
+      ],
+      "latent_mean": 79.4286
+    },
+    {
+      "word": "OKUZIKUFAUSIHE",
+      "ascii_vec": [
+        79,
+        75,
+        85,
+        90,
+        73,
+        75,
+        85,
+        70,
+        65,
+        85,
+        83,
+        73,
+        72,
+        69
+      ],
+      "latent_mean": 77.0714
+    },
+    {
+      "word": "YABEKANSABERHO",
+      "ascii_vec": [
+        89,
+        65,
+        66,
+        69,
+        75,
+        65,
+        78,
+        83,
+        65,
+        66,
+        69,
+        82,
+        72,
+        79
+      ],
+      "latent_mean": 73.0714
+    },
+    {
+      "word": "NAFERANSAHOTFE",
+      "ascii_vec": [
+        78,
+        65,
+        70,
+        69,
+        82,
+        65,
+        78,
+        83,
+        65,
+        72,
+        79,
+        84,
+        70,
+        69
+      ],
+      "latent_mean": 73.5
+    },
+    {
+      "word": "KOREMORBIZUMRO",
+      "ascii_vec": [
+        75,
+        79,
+        82,
+        69,
+        77,
+        79,
+        82,
+        66,
+        73,
+        90,
+        85,
+        77,
+        82,
+        79
+      ],
+      "latent_mean": 78.2143
+    },
+    {
+      "word": "SUNAKIRFANEMBA",
+      "ascii_vec": [
+        83,
+        85,
+        78,
+        65,
+        75,
+        73,
+        82,
+        70,
+        65,
+        78,
+        69,
+        77,
+        66,
+        65
+      ],
+      "latent_mean": 73.6429
+    }
+  ],
+  "schritt_2_glyph_means": {
+    "G02": {
+      "words_sample": [
+        "THE",
+        "OF",
+        "TO",
+        "A",
+        "TENGRI"
+      ],
+      "latent_mean": 75.6429,
+      "n_words_used": 5
+    },
+    "G05": {
+      "words_sample": [
+        "THE",
+        "YOU",
+        "A",
+        "THIS",
+        "WILL"
+      ],
+      "latent_mean": 77.8,
+      "n_words_used": 5
+    },
+    "G07": {
+      "words_sample": [
+        "IS",
+        "FOR",
+        "OUR",
+        "NOT",
+        "AND"
+      ],
+      "latent_mean": 77.5,
+      "n_words_used": 5
+    },
+    "G10": {
+      "words_sample": [
+        "THE",
+        "YOU",
+        "IS",
+        "OUR",
+        "THIS"
+      ],
+      "latent_mean": 79.4667,
+      "n_words_used": 5
+    },
+    "G18": {
+      "words_sample": [
+        "OUR",
+        "THE",
+        "YOU",
+        "THIS",
+        "WE"
+      ],
+      "latent_mean": 79.4667,
+      "n_words_used": 5
+    },
+    "G01": {
+      "words_sample": [
+        "THIS",
+        "THE",
+        "YOU",
+        "TO",
+        "OF"
+      ],
+      "latent_mean": 78.7143,
+      "n_words_used": 5
+    },
+    "G03": {
+      "words_sample": [
+        "IS",
+        "WILL",
+        "THIS",
+        "A",
+        "THE"
+      ],
+      "latent_mean": 76.4286,
+      "n_words_used": 5
+    },
+    "G06": {
+      "words_sample": [
+        "YOU",
+        "THE",
+        "OUR",
+        "ANY",
+        "FOR"
+      ],
+      "latent_mean": 79.1333,
+      "n_words_used": 5
+    },
+    "G08": {
+      "words_sample": [
+        "OF",
+        "THOSE",
+        "WHO",
+        "SECRET",
+        "KNOWLEDGE"
+      ],
+      "latent_mean": 76.0,
+      "n_words_used": 5
+    },
+    "G09": {
+      "words_sample": [
+        "THIS",
+        "YOU",
+        "THE",
+        "YOUR",
+        "NUMBERS"
+      ],
+      "latent_mean": 79.2857,
+      "n_words_used": 5
+    },
+    "G19": {
+      "words_sample": [
+        "THIS",
+        "THE",
+        "YOU",
+        "WE",
+        "IS"
+      ],
+      "latent_mean": 78.7143,
+      "n_words_used": 5
+    },
+    "G11": {
+      "words_sample": [
+        "WRITINGS",
+        "IS",
+        "OF",
+        "TO",
+        "WE"
+      ],
+      "latent_mean": 78.4375,
+      "n_words_used": 5
+    },
+    "G14": {
+      "words_sample": [
+        "THE",
+        "THIS",
+        "IS",
+        "YOU",
+        "CAN"
+      ],
+      "latent_mean": 77.0667,
+      "n_words_used": 5
+    },
+    "G17": {
+      "words_sample": [
+        "AS",
+        "OUR",
+        "IS",
+        "THE",
+        "YOU"
+      ],
+      "latent_mean": 79.0769,
+      "n_words_used": 5
+    },
+    "G29": {
+      "words_sample": [
+        "A",
+        "YOU",
+        "THE",
+        "FOR",
+        "AND"
+      ],
+      "latent_mean": 75.7692,
+      "n_words_used": 5
+    }
+  },
+  "schritt_4_top3_pro_wort": {
+    "BURUMUTREFAMTU": [
+      {
+        "word": "BURUMUTREFAMTU",
+        "word_mean": 78.2857,
+        "glyph": "G11",
+        "glyph_mean": 78.4375,
+        "diff": 0.1518
+      },
+      {
+        "word": "BURUMUTREFAMTU",
+        "word_mean": 78.2857,
+        "glyph": "G01",
+        "glyph_mean": 78.7143,
+        "diff": 0.4286
+      },
+      {
+        "word": "BURUMUTREFAMTU",
+        "word_mean": 78.2857,
+        "glyph": "G19",
+        "glyph_mean": 78.7143,
+        "diff": 0.4286
+      }
+    ],
+    "NURESUTREGUMFA": [
+      {
+        "word": "NURESUTREGUMFA",
+        "word_mean": 77.5,
+        "glyph": "G07",
+        "glyph_mean": 77.5,
+        "diff": 0.0
+      },
+      {
+        "word": "NURESUTREGUMFA",
+        "word_mean": 77.5,
+        "glyph": "G05",
+        "glyph_mean": 77.8,
+        "diff": 0.3
+      },
+      {
+        "word": "NURESUTREGUMFA",
+        "word_mean": 77.5,
+        "glyph": "G14",
+        "glyph_mean": 77.0667,
+        "diff": 0.4333
+      }
+    ],
+    "YAPSUAZBEHIMLA": [
+      {
+        "word": "YAPSUAZBEHIMLA",
+        "word_mean": 75.3571,
+        "glyph": "G02",
+        "glyph_mean": 75.6429,
+        "diff": 0.2858
+      },
+      {
+        "word": "YAPSUAZBEHIMLA",
+        "word_mean": 75.3571,
+        "glyph": "G29",
+        "glyph_mean": 75.7692,
+        "diff": 0.4121
+      },
+      {
+        "word": "YAPSUAZBEHIMLA",
+        "word_mean": 75.3571,
+        "glyph": "G08",
+        "glyph_mean": 76.0,
+        "diff": 0.6429
+      }
+    ],
+    "ZANRUAZBENOMBA": [
+      {
+        "word": "ZANRUAZBENOMBA",
+        "word_mean": 75.3571,
+        "glyph": "G02",
+        "glyph_mean": 75.6429,
+        "diff": 0.2858
+      },
+      {
+        "word": "ZANRUAZBENOMBA",
+        "word_mean": 75.3571,
+        "glyph": "G29",
+        "glyph_mean": 75.7692,
+        "diff": 0.4121
+      },
+      {
+        "word": "ZANRUAZBENOMBA",
+        "word_mean": 75.3571,
+        "glyph": "G08",
+        "glyph_mean": 76.0,
+        "diff": 0.6429
+      }
+    ],
+    "TOBIKOTLUBUMYO": [
+      {
+        "word": "TOBIKOTLUBUMYO",
+        "word_mean": 78.3571,
+        "glyph": "G11",
+        "glyph_mean": 78.4375,
+        "diff": 0.0804
+      },
+      {
+        "word": "TOBIKOTLUBUMYO",
+        "word_mean": 78.3571,
+        "glyph": "G01",
+        "glyph_mean": 78.7143,
+        "diff": 0.3572
+      },
+      {
+        "word": "TOBIKOTLUBUMYO",
+        "word_mean": 78.3571,
+        "glyph": "G19",
+        "glyph_mean": 78.7143,
+        "diff": 0.3572
+      }
+    ],
+    "SUNOKURGANOZYI": [
+      {
+        "word": "SUNOKURGANOZYI",
+        "word_mean": 79.4286,
+        "glyph": "G10",
+        "glyph_mean": 79.4667,
+        "diff": 0.0381
+      },
+      {
+        "word": "SUNOKURGANOZYI",
+        "word_mean": 79.4286,
+        "glyph": "G18",
+        "glyph_mean": 79.4667,
+        "diff": 0.0381
+      },
+      {
+        "word": "SUNOKURGANOZYI",
+        "word_mean": 79.4286,
+        "glyph": "G09",
+        "glyph_mean": 79.2857,
+        "diff": 0.1429
+      }
+    ],
+    "OKUZIKUFAUSIHE": [
+      {
+        "word": "OKUZIKUFAUSIHE",
+        "word_mean": 77.0714,
+        "glyph": "G14",
+        "glyph_mean": 77.0667,
+        "diff": 0.0047
+      },
+      {
+        "word": "OKUZIKUFAUSIHE",
+        "word_mean": 77.0714,
+        "glyph": "G07",
+        "glyph_mean": 77.5,
+        "diff": 0.4286
+      },
+      {
+        "word": "OKUZIKUFAUSIHE",
+        "word_mean": 77.0714,
+        "glyph": "G03",
+        "glyph_mean": 76.4286,
+        "diff": 0.6428
+      }
+    ],
+    "YABEKANSABERHO": [
+      {
+        "word": "YABEKANSABERHO",
+        "word_mean": 73.0714,
+        "glyph": "G02",
+        "glyph_mean": 75.6429,
+        "diff": 2.5715
+      },
+      {
+        "word": "YABEKANSABERHO",
+        "word_mean": 73.0714,
+        "glyph": "G29",
+        "glyph_mean": 75.7692,
+        "diff": 2.6978
+      },
+      {
+        "word": "YABEKANSABERHO",
+        "word_mean": 73.0714,
+        "glyph": "G08",
+        "glyph_mean": 76.0,
+        "diff": 2.9286
+      }
+    ],
+    "NAFERANSAHOTFE": [
+      {
+        "word": "NAFERANSAHOTFE",
+        "word_mean": 73.5,
+        "glyph": "G02",
+        "glyph_mean": 75.6429,
+        "diff": 2.1429
+      },
+      {
+        "word": "NAFERANSAHOTFE",
+        "word_mean": 73.5,
+        "glyph": "G29",
+        "glyph_mean": 75.7692,
+        "diff": 2.2692
+      },
+      {
+        "word": "NAFERANSAHOTFE",
+        "word_mean": 73.5,
+        "glyph": "G08",
+        "glyph_mean": 76.0,
+        "diff": 2.5
+      }
+    ],
+    "KOREMORBIZUMRO": [
+      {
+        "word": "KOREMORBIZUMRO",
+        "word_mean": 78.2143,
+        "glyph": "G11",
+        "glyph_mean": 78.4375,
+        "diff": 0.2232
+      },
+      {
+        "word": "KOREMORBIZUMRO",
+        "word_mean": 78.2143,
+        "glyph": "G05",
+        "glyph_mean": 77.8,
+        "diff": 0.4143
+      },
+      {
+        "word": "KOREMORBIZUMRO",
+        "word_mean": 78.2143,
+        "glyph": "G01",
+        "glyph_mean": 78.7143,
+        "diff": 0.5
+      }
+    ],
+    "SUNAKIRFANEMBA": [
+      {
+        "word": "SUNAKIRFANEMBA",
+        "word_mean": 73.6429,
+        "glyph": "G02",
+        "glyph_mean": 75.6429,
+        "diff": 2.0
+      },
+      {
+        "word": "SUNAKIRFANEMBA",
+        "word_mean": 73.6429,
+        "glyph": "G29",
+        "glyph_mean": 75.7692,
+        "diff": 2.1263
+      },
+      {
+        "word": "SUNAKIRFANEMBA",
+        "word_mean": 73.6429,
+        "glyph": "G08",
+        "glyph_mean": 76.0,
+        "diff": 2.3571
+      }
+    ]
+  },
+  "schritt_5_verifikation": {
+    "v22_erwartet": {
+      "glyph": "G11",
+      "diff": 0.154
+    },
+    "v25_berechnet": {
+      "glyph": "G11",
+      "diff": 0.1518,
+      "latent_mean_brf": 78.2857
+    },
+    "verifiziert": true,
+    "top3_brf": [
+      {
+        "word": "BURUMUTREFAMTU",
+        "word_mean": 78.2857,
+        "glyph": "G11",
+        "glyph_mean": 78.4375,
+        "diff": 0.1518
+      },
+      {
+        "word": "BURUMUTREFAMTU",
+        "word_mean": 78.2857,
+        "glyph": "G01",
+        "glyph_mean": 78.7143,
+        "diff": 0.4286
+      },
+      {
+        "word": "BURUMUTREFAMTU",
+        "word_mean": 78.2857,
+        "glyph": "G19",
+        "glyph_mean": 78.7143,
+        "diff": 0.4286
+      }
+    ]
+  },
+  "echtes_codebook": [
+    {
+      "word": "BURUMUTREFAMTU",
+      "glyph": "G11",
+      "diff": 0.1518,
+      "latent_mean_word": 78.2857,
+      "latent_mean_glyph": 78.4375,
+      "v22_verifiziert": true
+    },
+    {
+      "word": "NURESUTREGUMFA",
+      "glyph": "G07",
+      "diff": 0.0,
+      "latent_mean_word": 77.5,
+      "latent_mean_glyph": 77.5,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "YAPSUAZBEHIMLA",
+      "glyph": "G02",
+      "diff": 0.2858,
+      "latent_mean_word": 75.3571,
+      "latent_mean_glyph": 75.6429,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "ZANRUAZBENOMBA",
+      "glyph": "G02",
+      "diff": 0.2858,
+      "latent_mean_word": 75.3571,
+      "latent_mean_glyph": 75.6429,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "TOBIKOTLUBUMYO",
+      "glyph": "G11",
+      "diff": 0.0804,
+      "latent_mean_word": 78.3571,
+      "latent_mean_glyph": 78.4375,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "SUNOKURGANOZYI",
+      "glyph": "G10",
+      "diff": 0.0381,
+      "latent_mean_word": 79.4286,
+      "latent_mean_glyph": 79.4667,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "OKUZIKUFAUSIHE",
+      "glyph": "G14",
+      "diff": 0.0047,
+      "latent_mean_word": 77.0714,
+      "latent_mean_glyph": 77.0667,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "YABEKANSABERHO",
+      "glyph": "G02",
+      "diff": 2.5715,
+      "latent_mean_word": 73.0714,
+      "latent_mean_glyph": 75.6429,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "NAFERANSAHOTFE",
+      "glyph": "G02",
+      "diff": 2.1429,
+      "latent_mean_word": 73.5,
+      "latent_mean_glyph": 75.6429,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "KOREMORBIZUMRO",
+      "glyph": "G11",
+      "diff": 0.2232,
+      "latent_mean_word": 78.2143,
+      "latent_mean_glyph": 78.4375,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    },
+    {
+      "word": "SUNAKIRFANEMBA",
+      "glyph": "G02",
+      "diff": 2.0,
+      "latent_mean_word": 73.6429,
+      "latent_mean_glyph": 75.6429,
+      "v22_verifiziert": "neu (V21 Translator, nicht in V22)"
+    }
+  ],
+  "n_10_neu_abgeleitet": 10,
+  "reference": "V21 Translator-Pattern (M[i, :].mean()) statt ASCII-Normalisierung. V16 Codebook (15 Glyphen) als Vergleich."
+}

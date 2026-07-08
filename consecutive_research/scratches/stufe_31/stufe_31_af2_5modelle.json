@@ -1,0 +1,109 @@
+{
+  "stufe": "31",
+  "datum": "2026-07-08",
+  "methode": "ColabFold AF2 (single_sequence, 5 modelle, 3 recycles)",
+  "sequenz": "NCRCMCTREFAMTCNCRESCTREGCMFAYAPSCAENEHIMLAEANRCAENENKMNATKNIKKTLCNCMYKSCNKKCRGANKEYIKKCEIKCFACSIHEYANEKANSANERHKNAFERANSAHKTFEKKREMKRNIECMRKSCNAKIRFANEMNA",
+  "scores_pro_modell": {
+    "rank_001_alphafold2_ptm_model_4_seed_000": {
+      "mean_plddt": 69.74,
+      "median_plddt": 69.84,
+      "min": 40.34,
+      "max": 94.75
+    },
+    "rank_002_alphafold2_ptm_model_2_seed_000": {
+      "mean_plddt": 59.69,
+      "median_plddt": 49.64,
+      "min": 35.06,
+      "max": 93.44
+    },
+    "rank_003_alphafold2_ptm_model_1_seed_000": {
+      "mean_plddt": 59.69,
+      "median_plddt": 57.86,
+      "min": 25.66,
+      "max": 90.69
+    },
+    "rank_004_alphafold2_ptm_model_5_seed_000": {
+      "mean_plddt": 56.73,
+      "median_plddt": 47.97,
+      "min": 28.73,
+      "max": 93.56
+    },
+    "rank_005_alphafold2_ptm_model_3_seed_000": {
+      "mean_plddt": 53.25,
+      "median_plddt": 52.38,
+      "min": 30.77,
+      "max": 85.88
+    }
+  },
+  "best_model": "rank_001_alphafold2_ptm_model_4_seed_000",
+  "best_model_mean_plddt": 69.74,
+  "best_model_ptm": 0.356,
+  "mean_5_modelle": {
+    "mean": 59.82,
+    "std_mean": 8.23
+  },
+  "region_statistics_mean_5_modelle": {
+    "N_Terminus_1_42": {
+      "mean_plddt": 42.28,
+      "std": 6.3
+    },
+    "Domaene_1_43_78": {
+      "mean_plddt": 54.29,
+      "std": 10.78
+    },
+    "Linker_2_79_108": {
+      "mean_plddt": 57.17,
+      "std": 8.61
+    },
+    "Domaene_2_109_133": {
+      "mean_plddt": 81.7,
+      "std": 7.65
+    },
+    "C_Terminus_134_154": {
+      "mean_plddt": 82.1,
+      "std": 7.9
+    }
+  },
+  "helix_cores_pLDDT_70": {
+    "best_model": [
+      {
+        "pos_start": 42,
+        "pos_end": 54,
+        "length": 12,
+        "mean": 76.64
+      },
+      {
+        "pos_start": 59,
+        "pos_end": 70,
+        "length": 11,
+        "mean": 72.71
+      },
+      {
+        "pos_start": 102,
+        "pos_end": 153,
+        "length": 51,
+        "mean": 86.5
+      }
+    ],
+    "mean_5_modelle": [
+      {
+        "pos_start": 108,
+        "pos_end": 152,
+        "length": 44,
+        "mean": 82.46
+      }
+    ]
+  },
+  "verifikation": {
+    "stufe_14_dom2_in_helix_core": true,
+    "stufe_14_dom1_in_helix_core": false,
+    "burumut_partial_disorder": true,
+    "ct_helix_high_confidence": true
+  },
+  "interpretation": {
+    "tengri_lesung": "AF2 best\u00e4tigt: 1 stabile C-terminale Helix (Pos 108-152) + 1 partiell-geordnete N-terminale Helix (Pos 42-70)",
+    "stufe_14_korrektur": "Dom\u00e4ne 1 (Pos 43-78) ist NICHT high-confidence \u2014 AF2 erkennt sie als unstrukturierter / disorder",
+    "stufe_17_synthetisierbarkeit": "Sekund\u00e4rstruktur ist ausreichend definiert f\u00fcr NCL-Synthese",
+    "novel_insight": "BURUMUT hat eine C-terminale Helix + disorder N-Terminus, NICHT 2 separate high-confidence-Helices wie Stufe 14 annahm"
+  }
+}

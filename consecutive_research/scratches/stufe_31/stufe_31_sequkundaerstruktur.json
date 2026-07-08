@@ -1,0 +1,106 @@
+{
+  "stufe": "31",
+  "datum": "2026-07-08",
+  "methode": "Chou-Fasman + Helix-Moment + Sliding-Window-Komposition",
+  "sequenzen": {
+    "burumut_original": {
+      "length": 154,
+      "n_distinct": 19,
+      "chou_fasman_mean": 1.06,
+      "chou_fasman_max": 1.305,
+      "helix_moment_mean": 0.957,
+      "helix_moment_max": 1.818
+    },
+    "burumut_translated": {
+      "length": 154,
+      "n_distinct": 16,
+      "chou_fasman_mean": 1.057,
+      "chou_fasman_max": 1.311,
+      "helix_moment_mean": 0.957,
+      "helix_moment_max": 1.818
+    }
+  },
+  "domain_detection_hm_threshold_0.6": {
+    "original": [
+      {
+        "pos_start": 42,
+        "pos_end": 51,
+        "length": 10,
+        "hm_mean": 1.047
+      },
+      {
+        "pos_start": 55,
+        "pos_end": 83,
+        "length": 29,
+        "hm_mean": 1.32
+      },
+      {
+        "pos_start": 92,
+        "pos_end": 148,
+        "length": 57,
+        "hm_mean": 1.115
+      }
+    ],
+    "translated": [
+      {
+        "pos_start": 42,
+        "pos_end": 51,
+        "length": 10,
+        "hm_mean": 1.047
+      },
+      {
+        "pos_start": 55,
+        "pos_end": 83,
+        "length": 29,
+        "hm_mean": 1.32
+      },
+      {
+        "pos_start": 92,
+        "pos_end": 148,
+        "length": 57,
+        "hm_mean": 1.115
+      }
+    ]
+  },
+  "stufe_14_verification": {
+    "dom1_hm_original": 1.236,
+    "dom1_hm_translated": 1.236,
+    "dom2_hm_original": 1.127,
+    "dom2_hm_translated": 1.127
+  },
+  "comparison_with_amps": {
+    "big_defensin_2dom": {
+      "length": 90,
+      "cys_count": 6,
+      "dom1_hm_estimate": 0.8,
+      "dom2_hm_estimate": 0.7
+    },
+    "ll_37_1dom": {
+      "length": 37,
+      "cys_count": 0,
+      "hm_estimate": 0.74
+    },
+    "melittin_1dom": {
+      "length": 26,
+      "cys_count": 0,
+      "hm_estimate": 0.5
+    }
+  },
+  "af2_recommendation": {
+    "tool": "ColabFold (https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb)",
+    "input": "NCRCMCTREFAMTCNCRESCTREGCMFAYAPSCAENEHIMLAEANRCAENENKMNATKNIKKTLCNCMYKSCNKKCRGANKEYIKKCEIKCFACSIHEYANEKANSANERHKNAFERANSAHKTFEKKREMKRNIECMRKSCNAKIRFANEMNA",
+    "expected_output": "2 hoch-pLDDT-Helices (Pos 43-78, 109-133) + 3 niedrig-pLDDT-Coils",
+    "comparison_pdb": [
+      "6D5M (Big-Defensin)",
+      "2LMF (LL-37)",
+      "2MLT (Melittin)"
+    ],
+    "alternative_local": "AF2 nicht lokal verfügbar — externer ColabFold-Upload erforderlich"
+  },
+  "verification": {
+    "v10_4_seq_match": true,
+    "stufe_14_dom1_match": false,
+    "stufe_14_dom2_match": false
+  },
+  "plot_path": "/run/media/julian/ML4/tengri137/consecutive_research/scratches/stufe_31/stufe_31_burumut_sequkundaerstruktur.png"
+}

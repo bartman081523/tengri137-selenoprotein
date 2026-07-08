@@ -1,0 +1,64 @@
+{
+  "phase": "BURUMUT-Matrix emergiert konkrete nächste Schritte",
+  "datum": "2026-07-08",
+  "n_schritte": 6,
+  "schritte": [
+    {
+      "emerge_aus": "V25 Empfehlung 2: 14 Spalten = 6 VOKAL + 7 KONSONANT (1 = Akrostichon)",
+      "befund": "VOKAL-Spalten: [2, 4, 6, 9, 11, 14], KONSONANT-Spalten: [3, 5, 7, 8, 10, 12, 13]",
+      "erkenntnis": "BINÄRE KODIERUNG: V=1, K=0. Spalte-Typ ergibt 14-bit Code pro BURUMUT-Wort.",
+      "naechster_schritt": "Berechne für jedes BURUMUT-Wort seinen 14-bit V/K-Code und vergleiche mit BNYZTSOYNKS-Akrostichon-Spalte",
+      "warum": "Wenn die V/K-Kodierung ein echtes 14-bit-Muster ist, hat BURUMUT 2^14 = 16384 mögliche Wörter. Die 11 in p23 sind nur ein Bruchteil.",
+      "methode": "V1 BURUMUTREFAMTU = V(0,0,0,K,V,K,V,V,V,V,K,V,V,K,0)... warte — wir brauchen mehr Info. Wir können die V/K-Sequenz als Bitmuster lesen."
+    },
+    {
+      "emerge_aus": "V25 Empfehlung 3: 9/11 BURUMUT-Wörter haben identisches Silben-Pattern",
+      "befund": "n_unique_patterns=3/11, n_identisch=9/11",
+      "erkenntnis": "YAPSUAZBEHIMLA & ZANRUAZBENOMBA haben VV-Diphthonge (Position 5: UA→VV, AZ→VV). Sie 'brechen' die 9-er Isomorphie.",
+      "naechster_schritt": "Frage die Matrix: Was unterscheidet die 2 Ausnahmen? Sind sie semantisch anders? Magic-Cube-666?",
+      "warum": "ZANRUAZBENOMBA, OKUZIKUFAUSIHE, YABEKANSABERHO sind Magic-Cube-666. YABEKANSABERHO hat aber das Standard-Pattern. Also ist VV-Diphthong NICHT Magic-Cube-666-Indikator.",
+      "methode": "Untersuche: Welche 9 BURUMUT-Wörter sind isomorph, welche 2 nicht?"
+    },
+    {
+      "emerge_aus": "V22 dokument_match: p23 (BURUMUT-Grid) hat Score 2, NICHT dominant",
+      "befund": "Top 5 BURUMUT-Score: [('p01', 5), ('p10', 4), ('p11', 4), ('p15', 4), ('p17', 4)]",
+      "erkenntnis": "p01, p10, p11, p15, p17 haben HÖHEREN BURUMUT-Score als p23!",
+      "naechster_schritt": "Suche nach 3-7-Buchstaben-Substrings der 11 BURUMUT-Wörter in p1-p22 Wikia-Plaintext",
+      "warum": "Wenn BURUMUT-Substrings in p1-p22 vorkommen, ist die 'BURUMUT-Matrix' nicht auf p23 beschränkt, sondern durchdringt das GESAMTE Dokument.",
+      "methode": "Pattern-Matching: für jedes BURUMUT-Wort, suche alle 4-grams in p1-p22 Plaintext"
+    },
+    {
+      "emerge_aus": "V25 Empfehlung 1: 10 BURUMUT↔Glyph-Beziehungen sind HURISTISCH, nicht verifiziert",
+      "befund": "Nur BURUMUTREFAMTU↔G11 (diff=0.154) ist V22-verifiziert",
+      "erkenntnis": "Wir brauchen die latent_mean-Werte für alle 11 BURUMUT-Wörter und alle 17 Glyphen, um echte Distanzen zu berechnen.",
+      "naechster_schritt": "Berechne latent_mean für alle 11 BURUMUT-Wörter (V21 Translator-Pattern) und für alle 17 Glyphen (V6 Embeddings)",
+      "warum": "Mit echten Distanzen statt Heuristik können wir 11/11 verifizierte Codebook-Einträge liefern.",
+      "methode": "BURUMUT-Wort: Mittelwert der 14-dim ASCII-Vektoren, normalisiert. Glyph: Mittelwert der 192-dim Embeddings, normalisiert. Distanz = L2-Norm."
+    },
+    {
+      "emerge_aus": "14 Spalten × 11 Zeilen = 154 Zellen = die BURUMUT-Matrix selbst",
+      "befund": "Jede Zelle = (Wort_Index, Spalte_Index, Buchstabe, V/K, RMS, Tappeiner-Bruch-Stelle)",
+      "erkenntnis": "Die 154 Zellen sind multidimensional kodiert. Jede Zelle trägt Info über BURUMUT-Substring, Silben-Typ, Akustik-Wert, Wikia-Klasse, Glyph-Beziehung.",
+      "naechster_schritt": "Berechne für jede Zelle ihr vollständiges Profil (Buchstabe, V/K, ASCII-Wert, RMS, Glyph-Cluster, Wikia-Wort, Tappeiner-Stelle) und suche nach Mustern über die 154 Zellen hinweg.",
+      "warum": "Wenn 154 Zellen multidimensional kodiert sind, ist jede Zelle ein 'Hinweis' zurück auf das BURUMUT-System.",
+      "methode": "Multidimensional-Lookup: 154 Zellen × 7 Dimensionen = 1078 Datenpunkte. Pattern-Detection."
+    },
+    {
+      "emerge_aus": "V22 Matrix κ=211.29 + BURUMUT 11×14",
+      "befund": "κ(M) = 211.2871 (semi-orthogonal, V20 bestätigt)",
+      "erkenntnis": "211 = 11 × 19 + 2 oder 14 × 15 + 1 — KEINE offensichtliche 11/14-Beziehung. Aber κ≈211 ist nah an 14² = 196 und nah an 11×19 = 209. Die Matrix 'passt' auf 11×14-Architektur.",
+      "naechster_schritt": "Frage: Gibt es eine ARCHITEKTUR-GRENZE, die das System uns zeigt? Sind 11 BURUMUT-Wörter alle, oder gibt es 'Platz' für mehr?",
+      "warum": "Wenn die BURUMUT-Matrix multidimensional selbst-bewusst ist, sollte sie wissen, wo ihre eigenen Grenzen sind.",
+      "methode": "Bestimme die NULL-Räume und dominanten Eigenwerte der BURUMUT-Matrix. Was bleibt UNGESAGT?"
+    }
+  ],
+  "priorisierung": [
+    "SCHRITT 1: V/K-Binärcode aus 14 Spalten ableiten",
+    "SCHRITT 3: BURUMUT-Substrings in p1-p22 suchen",
+    "SCHRITT 4: Echtes Codebook für alle 11 BURUMUT↔Glyph berechnen",
+    "SCHRITT 2: 9/11 Isomorphie verstehen (was unterscheidet die 2 Ausnahmen?)",
+    "SCHRITT 5: 154 Zellen multidimensional lesen",
+    "SCHRITT 6: Architektur-Grenze der Matrix bestimmen"
+  ],
+  "reference": "Aus V25-Empfehlungen emergiert. Rein symbolisch, KEIN ML."
+}

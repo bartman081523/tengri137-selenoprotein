@@ -1,0 +1,301 @@
+{
+  "stufe": "29",
+  "datum": "2026-07-08",
+  "methode": "BLAST-Vorbereitung + Profilanalyse + Monte-Carlo + AMP-Vergleich",
+  "sequenzen": {
+    "burumut_original": {
+      "length": 154,
+      "n_distinct": 19,
+      "seq_hash_sha256": "1d9551e591343a12"
+    },
+    "burumut_translated": {
+      "length": 154,
+      "n_distinct": 16,
+      "seq_hash_sha256": "9a334c9c80ccfe2e"
+    }
+  },
+  "profile_original": {
+    "name": "BURUMUT_Original_SecPyl",
+    "length": 154,
+    "aa_counts": {
+      "B": 10,
+      "U": 18,
+      "R": 12,
+      "M": 9,
+      "T": 6,
+      "E": 12,
+      "F": 6,
+      "A": 19,
+      "N": 10,
+      "S": 7,
+      "G": 2,
+      "Y": 4,
+      "P": 1,
+      "Z": 6,
+      "H": 4,
+      "I": 7,
+      "L": 2,
+      "O": 12,
+      "K": 7
+    },
+    "aa_fractions": {
+      "B": 0.0649,
+      "U": 0.1169,
+      "R": 0.0779,
+      "M": 0.0584,
+      "T": 0.039,
+      "E": 0.0779,
+      "F": 0.039,
+      "A": 0.1234,
+      "N": 0.0649,
+      "S": 0.0455,
+      "G": 0.013,
+      "Y": 0.026,
+      "P": 0.0065,
+      "Z": 0.039,
+      "H": 0.026,
+      "I": 0.0455,
+      "L": 0.013,
+      "O": 0.0779,
+      "K": 0.0455
+    },
+    "n_distinct": 19,
+    "gravy": -0.903,
+    "net_charge_pH7": 10.4,
+    "charge_density": 0.0675,
+    "frac_cationic": 0.1494,
+    "frac_anionic": 0.1948,
+    "frac_hydrophobic": 0.2792,
+    "frac_polar": 0.2532,
+    "cys_count": 0,
+    "sec_count": 18,
+    "pyl_count": 12
+  },
+  "profile_translated": {
+    "name": "BURUMUT_C_translated_CysLys",
+    "length": 154,
+    "aa_counts": {
+      "N": 20,
+      "C": 18,
+      "R": 12,
+      "M": 9,
+      "T": 6,
+      "E": 18,
+      "F": 6,
+      "A": 19,
+      "S": 7,
+      "G": 2,
+      "Y": 4,
+      "P": 1,
+      "H": 4,
+      "I": 7,
+      "L": 2,
+      "K": 19
+    },
+    "aa_fractions": {
+      "N": 0.1299,
+      "C": 0.1169,
+      "R": 0.0779,
+      "M": 0.0584,
+      "T": 0.039,
+      "E": 0.1169,
+      "F": 0.039,
+      "A": 0.1234,
+      "S": 0.0455,
+      "G": 0.013,
+      "Y": 0.026,
+      "P": 0.0065,
+      "H": 0.026,
+      "I": 0.0455,
+      "L": 0.013,
+      "K": 0.1234
+    },
+    "n_distinct": 16,
+    "gravy": -0.903,
+    "net_charge_pH7": 13.4,
+    "charge_density": 0.087,
+    "frac_cationic": 0.2273,
+    "frac_anionic": 0.1169,
+    "frac_hydrophobic": 0.2792,
+    "frac_polar": 0.2403,
+    "cys_count": 18,
+    "sec_count": 0,
+    "pyl_count": 0
+  },
+  "monte_carlo_10k": {
+    "gravy": {
+      "mean": -0.499,
+      "stdev": 0.236,
+      "min": -1.247,
+      "max": 0.286
+    },
+    "net_charge_pH7": {
+      "mean": 0.838,
+      "stdev": 5.57,
+      "min": -13.6,
+      "max": 20.7
+    },
+    "frac_cationic": {
+      "mean": 0.151,
+      "stdev": 0.028,
+      "min": 0.065,
+      "max": 0.247
+    },
+    "frac_anionic": {
+      "mean": 0.1,
+      "stdev": 0.024,
+      "min": 0.026,
+      "max": 0.188
+    },
+    "frac_hydrophobic": {
+      "mean": 0.349,
+      "stdev": 0.039,
+      "min": 0.234,
+      "max": 0.461
+    }
+  },
+  "monte_carlo_outlier_check": {
+    "original": {
+      "gravy": {
+        "burumut": -0.903,
+        "random_mean": -0.499,
+        "random_stdev": 0.236,
+        "z_score": -1.71,
+        "outlier_2sigma": false
+      },
+      "net_charge_pH7": {
+        "burumut": 10.4,
+        "random_mean": 0.838,
+        "random_stdev": 5.57,
+        "z_score": 1.72,
+        "outlier_2sigma": false
+      },
+      "frac_cationic": {
+        "burumut": 0.1494,
+        "random_mean": 0.151,
+        "random_stdev": 0.028,
+        "z_score": -0.06,
+        "outlier_2sigma": false
+      },
+      "frac_anionic": {
+        "burumut": 0.1948,
+        "random_mean": 0.1,
+        "random_stdev": 0.024,
+        "z_score": 3.95,
+        "outlier_2sigma": true
+      },
+      "frac_hydrophobic": {
+        "burumut": 0.2792,
+        "random_mean": 0.349,
+        "random_stdev": 0.039,
+        "z_score": -1.79,
+        "outlier_2sigma": false
+      }
+    },
+    "translated": {
+      "gravy": {
+        "burumut": -0.903,
+        "random_mean": -0.499,
+        "random_stdev": 0.236,
+        "z_score": -1.71,
+        "outlier_2sigma": false
+      },
+      "net_charge_pH7": {
+        "burumut": 13.4,
+        "random_mean": 0.838,
+        "random_stdev": 5.57,
+        "z_score": 2.26,
+        "outlier_2sigma": true
+      },
+      "frac_cationic": {
+        "burumut": 0.2273,
+        "random_mean": 0.151,
+        "random_stdev": 0.028,
+        "z_score": 2.73,
+        "outlier_2sigma": true
+      },
+      "frac_anionic": {
+        "burumut": 0.1169,
+        "random_mean": 0.1,
+        "random_stdev": 0.024,
+        "z_score": 0.7,
+        "outlier_2sigma": false
+      },
+      "frac_hydrophobic": {
+        "burumut": 0.2792,
+        "random_mean": 0.349,
+        "random_stdev": 0.039,
+        "z_score": -1.79,
+        "outlier_2sigma": false
+      }
+    }
+  },
+  "amp_comparison": {
+    "original": [
+      {
+        "amp": "Big-Defensin (Mytilus)",
+        "distance": 0.951,
+        "d_len": 64,
+        "d_charge": 2.4000000000000004,
+        "d_hydro": 0.0408,
+        "d_cat": 0.03059999999999999
+      },
+      {
+        "amp": "Human β-Defensin 2",
+        "distance": 1.541,
+        "d_len": 113,
+        "d_charge": 3.4000000000000004,
+        "d_hydro": 0.020799999999999985,
+        "d_cat": 0.050600000000000006
+      },
+      {
+        "amp": "Schnabeltier-Defensin (P0C8B1)",
+        "distance": 1.87,
+        "d_len": 86,
+        "d_charge": 8.4,
+        "d_hydro": 0.12080000000000002,
+        "d_cat": 0.0494
+      }
+    ],
+    "translated": [
+      {
+        "amp": "Big-Defensin (Mytilus)",
+        "distance": 1.268,
+        "d_len": 64,
+        "d_charge": 5.4,
+        "d_hydro": 0.0408,
+        "d_cat": 0.04730000000000001
+      },
+      {
+        "amp": "Human β-Defensin 2",
+        "distance": 1.818,
+        "d_len": 113,
+        "d_charge": 6.4,
+        "d_hydro": 0.020799999999999985,
+        "d_cat": 0.02729999999999999
+      },
+      {
+        "amp": "LL-37 (Human Cathelicidin)",
+        "distance": 2.213,
+        "d_len": 117,
+        "d_charge": 7.4,
+        "d_hydro": 0.07079999999999997,
+        "d_cat": 0.23270000000000002
+      }
+    ]
+  },
+  "verification": {
+    "v104_grid_match": null,
+    "stufe19_match": true,
+    "png_exists": true,
+    "png_size_bytes": 403413
+  },
+  "fasta_path": "/run/media/julian/ML4/tengri137/consecutive_research/scratches/stufe_29/burumut_blast_input.fasta",
+  "next_steps": [
+    "1. FASTA in NCBI BLAST UI hochladen (https://blast.ncbi.nlm.nih.gov/Blast.cgi)",
+    "   → Suche gegen nr-DB (Non-redundant protein sequences)",
+    "   → Erwartung: 0 signifikante Homologe (BURUMUT hypothetisch)",
+    "2. Falls Homologe: prüfe ob 2-Domänen-Architektur konserviert",
+    "3. Falls keine: Stufe 30 (Halocymine-Korrektur) starten"
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "phase": "V25 — Top-3 nächste Schritte AUSGEFÜHRT",
+  "datum": "2026-07-08",
+  "schritt_1_vk_code": {
+    "n_woerter": 11,
+    "n_unique_codes": 3,
+    "codes": [
+      {
+        "word": "BURUMUTREFAMTU",
+        "position": 0,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "NURESUTREGUMFA",
+        "position": 1,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "YAPSUAZBEHIMLA",
+        "position": 2,
+        "vk_code": "01001100101001",
+        "vk_value": 4905,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "ZANRUAZBENOMBA",
+        "position": 3,
+        "vk_code": "01001100101001",
+        "vk_value": 4905,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "TOBIKOTLUBUMYO",
+        "position": 4,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "SUNOKURGANOZYI",
+        "position": 5,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "OKUZIKUFAUSIHE",
+        "position": 6,
+        "vk_code": "10101010110101",
+        "vk_value": 10933,
+        "n_vokale": 8,
+        "n_konsonanten": 6
+      },
+      {
+        "word": "YABEKANSABERHO",
+        "position": 7,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "NAFERANSAHOTFE",
+        "position": 8,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "KOREMORBIZUMRO",
+        "position": 9,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      },
+      {
+        "word": "SUNAKIRFANEMBA",
+        "position": 10,
+        "vk_code": "01010100101001",
+        "vk_value": 5417,
+        "n_vokale": 6,
+        "n_konsonanten": 8
+      }
+    ],
+    "duplicates": {
+      "5417": [
+        "BURUMUTREFAMTU",
+        "NURESUTREGUMFA",
+        "TOBIKOTLUBUMYO",
+        "SUNOKURGANOZYI",
+        "YABEKANSABERHO",
+        "NAFERANSAHOTFE",
+        "KOREMORBIZUMRO",
+        "SUNAKIRFANEMBA"
+      ],
+      "4905": [
+        "YAPSUAZBEHIMLA",
+        "ZANRUAZBENOMBA"
+      ]
+    }
+  },
+  "schritt_2_substrings": {
+    "n_woerter": 11,
+    "n_woerter_in_p1_p22": 3,
+    "ergebnisse": [
+      {
+        "word": "BURUMUTREFAMTU",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "NURESUTREGUMFA",
+        "n_substrings_found": 2,
+        "top_5_substrings": [
+          {
+            "substr": "URES",
+            "length": 4,
+            "position": 1,
+            "count": 5
+          },
+          {
+            "substr": "RESU",
+            "length": 4,
+            "position": 2,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "word": "YAPSUAZBEHIMLA",
+        "n_substrings_found": 1,
+        "top_5_substrings": [
+          {
+            "substr": "BEHI",
+            "length": 4,
+            "position": 7,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "word": "ZANRUAZBENOMBA",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "TOBIKOTLUBUMYO",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "SUNOKURGANOZYI",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "OKUZIKUFAUSIHE",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "YABEKANSABERHO",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "NAFERANSAHOTFE",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      },
+      {
+        "word": "KOREMORBIZUMRO",
+        "n_substrings_found": 1,
+        "top_5_substrings": [
+          {
+            "substr": "EMOR",
+            "length": 4,
+            "position": 3,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "word": "SUNAKIRFANEMBA",
+        "n_substrings_found": 0,
+        "top_5_substrings": []
+      }
+    ]
+  },
+  "schritt_3_codebook": {
+    "n_woerter": 11,
+    "n_glyphs_considered": 17,
+    "burumutrefamtu_v22_mean": 78.28571428571429,
+    "burumutrefamtu_computed": 53.142857142857146,
+    "g11_latent_v22": 78.44,
+    "codebook": [
+      {
+        "word": "BURUMUTREFAMTU",
+        "burumut_latent_mean": 53.1429,
+        "best_glyph": "G10",
+        "best_score": 2,
+        "vs_known_brf": 25.1429
+      },
+      {
+        "word": "NURESUTREGUMFA",
+        "burumut_latent_mean": 50.0,
+        "best_glyph": "G06",
+        "best_score": 2,
+        "vs_known_brf": null
+      },
+      {
+        "word": "YAPSUAZBEHIMLA",
+        "burumut_latent_mean": 41.4286,
+        "best_glyph": "G24",
+        "best_score": 1,
+        "vs_known_brf": null
+      },
+      {
+        "word": "ZANRUAZBENOMBA",
+        "burumut_latent_mean": 41.4286,
+        "best_glyph": "G07",
+        "best_score": 2,
+        "vs_known_brf": null
+      },
+      {
+        "word": "TOBIKOTLUBUMYO",
+        "burumut_latent_mean": 53.4286,
+        "best_glyph": "G19",
+        "best_score": 3,
+        "vs_known_brf": null
+      },
+      {
+        "word": "SUNOKURGANOZYI",
+        "burumut_latent_mean": 57.7143,
+        "best_glyph": "G07",
+        "best_score": 2,
+        "vs_known_brf": null
+      },
+      {
+        "word": "OKUZIKUFAUSIHE",
+        "burumut_latent_mean": 48.2857,
+        "best_glyph": "G05",
+        "best_score": 2,
+        "vs_known_brf": null
+      },
+      {
+        "word": "YABEKANSABERHO",
+        "burumut_latent_mean": 32.2857,
+        "best_glyph": "G06",
+        "best_score": 2,
+        "vs_known_brf": null
+      },
+      {
+        "word": "NAFERANSAHOTFE",
+        "burumut_latent_mean": 34.0,
+        "best_glyph": "G06",
+        "best_score": 2,
+        "vs_known_brf": null
+      },
+      {
+        "word": "KOREMORBIZUMRO",
+        "burumut_latent_mean": 52.8571,
+        "best_glyph": "G19",
+        "best_score": 3,
+        "vs_known_brf": null
+      },
+      {
+        "word": "SUNAKIRFANEMBA",
+        "burumut_latent_mean": 34.5714,
+        "best_glyph": "G07",
+        "best_score": 2,
+        "vs_known_brf": null
+      }
+    ]
+  },
+  "reference": "Rein symbolisch, KEIN ML. Lookup + deterministische Berechnung."
+}
