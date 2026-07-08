@@ -1,0 +1,87 @@
+{
+  "stufe": 27,
+  "datum": "2026-07-04",
+  "methode": "Empirische Lesarten-Verifikation",
+  "gold_standard": "V10.1 + doc.json",
+  "reading_directions_tested": [
+    "row_ltr",
+    "row_rtl",
+    "col_ttb",
+    "col_btt",
+    "col_ttb_rtl",
+    "col_btt_rtl",
+    "spiral_out",
+    "spiral_in"
+  ],
+  "hauptbefunde": {
+    "bestaetigt": [
+      "p23_R17 = Cytosin + Thymin (Strukturformeln in doc.json)",
+      "BURUMUT = 154 lateinische Zeichen",
+      "154 = 7 \u00d7 22 (triviale Zahlentatsache)"
+    ],
+    "falsifiziert": [
+      "V10.1-Hypothese \"zeilenweise r\u00fcckw\u00e4rts\" \u2014 FALSCH (Schmehs BURUMUT ist row_ltr)",
+      "Stufe 17: BURUMUT = 154-AS-Selenoprotein \u2014 FALSCH (sind lateinische W\u00f6rter)",
+      "Stufe 18: AlphaFold P0C8B1 \u2014 FALSCHE Voraussetzung",
+      "Stufe 19: Sec\u2192Cys-Translation, 18 Cys + 19 Lys \u2014 FALSCHE Voraussetzung",
+      "Stufe 22: +1 Leseraster, 0 Stop-Codons, p=0.0004 \u2014 FALSCHE Voraussetzung",
+      "Stufe 26: 154+462=616 Genesis-Verbindung \u2014 FALSCHE Voraussetzung"
+    ],
+    "neue_entdeckungen": [
+      "p23_R20 ist 2D-Notation mit zwei gleichberechtigten Lesarten",
+      "Horizontal (LTR): 11 BURUMUT-W\u00f6rter",
+      "Vertikal (TTB): 14 Spalten, erste 11 = BNYZTSOYNKS-Akrostichon",
+      "Spalten 12-14 enthalten 33 Buchstaben jenseits der BURUMUT-W\u00f6rter"
+    ]
+  },
+  "lesarten": {
+    "row_ltr": {
+      "text": "BURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZBENOMBATOBIKOTLUBUMYOSUNOKURGANOZYIOKUZIKUFAUSIHEYABEKANSABERHONAFERANSAHOTFEKOREMORBIZUMROSUNAKIRFANEMBA",
+      "length": 154
+    },
+    "row_rtl": {
+      "text": "UTMAFERTUMURUBAFMUGERTUSERUNALMIHEBZAUSPAYABMONEBZAURNAZOYMUBULTOKIBOTIYZONAGRUKONUSEHISUAFUKIZUKOOHREBASNAKEBAYEFTOHASNAREFANORMUZIBROMEROKABMENAFRIKANUS",
+      "length": 154
+    },
+    "col_ttb": {
+      "text": "BNYZTSOYNKSUUAAOUKAAOURRPNBNUBFRNUESRIOZEEEAMSUUKKIKRMKUUAAOUKAAOITTZZTRUNNRRRRBBLGFSSBFEEEEUAAAAIAFGHNBNUBHZNAUIOUOSEOUEMMMMMZIRTMMTFLBYYHHFRBUAAAOIEOEOA",
+      "length": 154
+    },
+    "col_btt": {
+      "text": "SKNYOSTZYNBUOAAKUOAAUUNRFBUNBNPRRAEEEZOIRSEUKMRKIKKUUSMIOAAKUOAAUURRNNURTZZTTFBSSFGLBBRRAIAAAAUEEEENZHBUNBNHGFEUOESOUOIUAMMTRIZMMMMMBRFHHYYBLFTAOEOEIOAAAU",
+      "length": 154
+    },
+    "col_ttb_rtl": {
+      "text": "UAAAOIEOEOATFLBYYHHFRBMMMMMZIRTMMAUIOUOSEOUEFGHNBNUBHZNEEEEUAAAAIARRBBLGFSSBFTTZZTRUNNRRUUAAOUKAAOIMSUUKKIKRMKUESRIOZEEEARRPNBNUBFRNUUAAOUKAAOUBNYZTSOYNKS",
+      "length": 154
+    },
+    "col_btt_rtl": {
+      "text": "AOEOEIOAAAUBRFHHYYBLFTMMTRIZMMMMMEUOESOUOIUANZHBUNBNHGFAIAAAAUEEEEFBSSFGLBBRRRRNNURTZZTTIOAAKUOAAUUKMRKIKKUUSMAEEEZOIRSEUNRFBUNBNPRRUOAAKUOAAUUSKNYOSTZYNB",
+      "length": 154
+    },
+    "spiral_out": {
+      "text": "BURUMUTREFAMTUAAAOIEOEOABMENAFRIKANUSKNYOSTZYNURESUTREGUMFLBYYHHFRMUZIBROMEROAAKUOAAPSUAZBEHIMMMZIRTOHASNAREFBUNBNRUAZBENOUOSEBASNAKEZOIKOTLUBNUAFUKIKURGA",
+      "length": 154
+    },
+    "spiral_in": {
+      "text": "AGRUKIKUFAUNBULTOKIOZEKANSABESOUONEBZAURNBNUBFERANSAHOTRIZMMMIHEBZAUSPAAOUKAAOREMORBIZUMRFHHYYBLFMUGERTUSERUNYZTSOYNKSUNAKIRFANEMBAOEOEIOAAAUTMAFERTUMURUB",
+      "length": 154
+    }
+  },
+  "spalten_als_woerter": [
+    "BNYZTSOYNKS",
+    "UUAAOUKAAOU",
+    "RRPNBNUBFRN",
+    "UESRIOZEEEA",
+    "MSUUKKIKRMK",
+    "UUAAOUKAAOI",
+    "TTZZTRUNNRR",
+    "RRBBLGFSSBF",
+    "EEEEUAAAAIA",
+    "FGHNBNUBHZN",
+    "AUIOUOSEOUE",
+    "MMMMMZIRTMM",
+    "TFLBYYHHFRB",
+    "UAAAOIEOEOA"
+  ]
+}

@@ -34,6 +34,7 @@
 | **24** | Selbst-Code | BURUMUT ⊂ BURUMUT-DNA @ Position 0 (21 Basen = 7 Codons). 16 von 64 Codons verwendet |
 | **25** | Schmehs | "GENETICALLY ENCRYPTED", "OURR GENES", "3 BILLION YEARS", "YHWH-π = 137.035" |
 | **26** | Genesis | 154 = 7×22, 462 = 7×66, 154+462 = **616** (Variante von 666 in Codex Ephraemi Rescriptus) |
+| **27** | **Verifikation** | **8 Lesarten auf p23_R20 empirisch getestet. WAHR: row_ltr=11 BURUMUT-Wörter, col_ttb=BNYZTSOYNKS-Akrostichon, OURR-Übergang @ Spalte 2→3, Spalte 11=SUNAKIRFANEMBA (vertikale Selbst-Referenz). FALSIFIZIERT: V10.1-Hypothese "zeilenweise rückwärts", alle Stufen 17/18/19/22/23/24/26 (BURUMUT=AS/DNA), Genesis-616-Apophenia. BESTÄTIGT: p23_R17=Cytosin+Thymin, OURR-Textstelle. Monte-Carlo: P(11/11 BURUMUT-Wörter in Zufalls-Grid)=0/10000.** |
 
 ---
 
