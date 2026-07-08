@@ -11,9 +11,10 @@ __pycache__/
 *.pyd
 .python-version
 
-# PyTorch-Modelle (groß, reproduzierbar)
-*.pth
-*.pt
+# PyTorch-Modelle — bleiben im Repo (klein, wichtig für Reproduzierbarkeit)
+# Nur sehr große Modelle (>10 MB) sollten ggf. via Git LFS ausgelagert werden
+# *.pth
+# *.pt
 
 # IDE / Editor
 .vscode/
