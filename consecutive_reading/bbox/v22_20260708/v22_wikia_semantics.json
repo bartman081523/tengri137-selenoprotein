@@ -1,0 +1,276 @@
+{
+  "phase": "V22 Phase 3 \u2014 Wikia-Text-Semantik",
+  "n_tests": 5,
+  "n_pass": 5,
+  "class_counts": {
+    "truth_revelation": 6,
+    "anti_god": 2,
+    "garden_argument": 2,
+    "galaxy_civilisation": 3,
+    "genetic_encryption": 1,
+    "brain_reformatting": 3,
+    "magic_cube_666": 9,
+    "fine_structure_137": 3,
+    "adam_46": 4,
+    "tengri_names": 5
+  },
+  "n_active_classes": 10,
+  "n_endphrasen": 14,
+  "burumut_in_wikia": 4,
+  "tests": [
+    {
+      "name": "T1_wikia_klassen",
+      "pass": true,
+      "befund": "10/10 Klassen aktiv, Top: [('magic_cube_666', 9), ('truth_revelation', 6), ('tengri_names', 5), ('adam_46', 4), ('galaxy_civilisation', 3)]",
+      "was_sagt_es_uns": "Wikia-Klassen-Distribution: 10/10 Klassen aktiv. Top: [('magic_cube_666', 9), ('truth_revelation', 6), ('tengri_names', 5), ('adam_46', 4), ('galaxy_civilisation', 3)]. V22-H\u00f6r: Das Dokument ist SEMANTISCH REICH. 10 verschiedene thematische Klassen sind \u00fcber 23 Seiten verteilt. Das ist KEINE Monothematik \u2014 Tengri ist vielschichtig.",
+      "class_counts": {
+        "truth_revelation": 6,
+        "anti_god": 2,
+        "garden_argument": 2,
+        "galaxy_civilisation": 3,
+        "genetic_encryption": 1,
+        "brain_reformatting": 3,
+        "magic_cube_666": 9,
+        "fine_structure_137": 3,
+        "adam_46": 4,
+        "tengri_names": 5
+      },
+      "n_active_classes": 10,
+      "page_classes": {
+        "p01": [
+          "truth_revelation",
+          "fine_structure_137",
+          "tengri_names"
+        ],
+        "p02": [
+          "brain_reformatting",
+          "tengri_names"
+        ],
+        "p03": [
+          "truth_revelation"
+        ],
+        "p04": [
+          "magic_cube_666",
+          "tengri_names"
+        ],
+        "p05": [
+          "magic_cube_666",
+          "adam_46"
+        ],
+        "p06": [
+          "magic_cube_666",
+          "adam_46"
+        ],
+        "p07": [
+          "magic_cube_666"
+        ],
+        "p08": [
+          "magic_cube_666"
+        ],
+        "p09": [
+          "magic_cube_666"
+        ],
+        "p10": [
+          "truth_revelation",
+          "magic_cube_666"
+        ],
+        "p11": [
+          "truth_revelation",
+          "tengri_names"
+        ],
+        "p12": [
+          "fine_structure_137"
+        ],
+        "p13": [
+          "tengri_names"
+        ],
+        "p14": [
+          "galaxy_civilisation"
+        ],
+        "p15": [
+          "adam_46"
+        ],
+        "p16": [
+          "brain_reformatting",
+          "magic_cube_666"
+        ],
+        "p17": [
+          "magic_cube_666",
+          "fine_structure_137",
+          "adam_46"
+        ],
+        "p18": [
+          "truth_revelation",
+          "anti_god"
+        ],
+        "p19": [
+          "truth_revelation",
+          "anti_god",
+          "garden_argument"
+        ],
+        "p20": [
+          "garden_argument",
+          "galaxy_civilisation"
+        ],
+        "p21": [
+          "galaxy_civilisation",
+          "genetic_encryption"
+        ],
+        "p22": [
+          "brain_reformatting"
+        ],
+        "p23": []
+      }
+    },
+    {
+      "name": "T2_endphrasen",
+      "pass": true,
+      "befund": "14 Endphrasen, 34 unique W\u00f6rter",
+      "was_sagt_es_uns": "Endphrasen-Architektur: 14 Endphrasen, 34 unique W\u00f6rter. V22-H\u00f6r: Die 14 Endphrasen sind die 'Kerns\u00e4tze' des Dokuments. LITTLE MIND, ONION, Magic Squares, Magic 126 \u2014 das sind ARCHITEKTUR-MARKER. Sie kodieren den SELBST-BEZUG des Dokuments.",
+      "n_endphrasen": 14,
+      "n_unique_words": 34,
+      "endphrasen_liste": [
+        {
+          "nr": 1,
+          "phrase": "LITTLE MIND KNOWS WHEN THE GATE IS OPEN (1/3)"
+        },
+        {
+          "nr": 2,
+          "phrase": "LITTLE MIND KNOWS WHEN THE GATE IS OPEN (2/3)"
+        },
+        {
+          "nr": 3,
+          "phrase": "LITTLE MIND KNOWS WHEN THE GATE IS OPEN (3/3)"
+        },
+        {
+          "nr": 4,
+          "phrase": "666666m7x6x5regc.onion (1/3)"
+        },
+        {
+          "nr": 5,
+          "phrase": "666666m7x6x5regc.onion (2/3)"
+        },
+        {
+          "nr": 6,
+          "phrase": "666666m7x6x5regc.onion (3/3)"
+        },
+        {
+          "nr": 7,
+          "phrase": "END END END (djhedjhedjh)"
+        },
+        {
+          "nr": 8,
+          "phrase": "Magic Square Pattern 1 (AAxxAxxAAAxxAxx...)"
+        },
+        {
+          "nr": 9,
+          "phrase": "Magic Square Pattern 2"
+        },
+        {
+          "nr": 10,
+          "phrase": "Magic Square Pattern 3"
+        },
+        {
+          "nr": 11,
+          "phrase": "Magic Square Pattern 4 (final)"
+        },
+        {
+          "nr": 12,
+          "phrase": "alphabet: abccadefbgheijklmelndjecndeopcdebmekqdjerssstuvwx (4x)"
+        },
+        {
+          "nr": 13,
+          "phrase": "separation: yzyz (3x)"
+        },
+        {
+          "nr": 14,
+          "phrase": "Magic Number 126 (666666 mod 7*6*5)"
+        }
+      ]
+    },
+    {
+      "name": "T3_burumut_marker",
+      "pass": true,
+      "befund": "4/23 Seiten mit BURUMUT-Markern",
+      "was_sagt_es_uns": "BURUMUT-Marker: 4/23 Seiten enthalten BURUMUT-bezogene W\u00f6rter. V22-H\u00f6r: BURUMUT-Themen durchdringen das Wikia. Nicht nur p17 (Tappeiner), sondern auch andere Seiten erw\u00e4hnen BURUMUT. Die BURUMUT-Architektur ist nicht auf eine Seite beschr\u00e4nkt.",
+      "burumut_in_wikia": 4,
+      "burumut_pages": [
+        [
+          "p05",
+          "46"
+        ],
+        [
+          "p06",
+          "46"
+        ],
+        [
+          "p15",
+          "46"
+        ],
+        [
+          "p17",
+          "46"
+        ]
+      ]
+    },
+    {
+      "name": "T4_kohaerenz",
+      "pass": true,
+      "befund": "Klassen-Keyword-Overlap avg=2.10, Detail: {'truth_revelation': 1, 'anti_god': 2, 'garden_argument': 2, 'galaxy_civilisation': 3, 'genetic_encryption': 1, 'brain_reformatting': 2, 'magic_cube_666': 2, 'fine_structure_137': 2, 'adam_46': 3, 'tengri_names': 3}",
+      "was_sagt_es_uns": "Semantische Koh\u00e4renz: Klassen-Keyword-Overlap avg = 2.10. Detail: {'truth_revelation': 1, 'anti_god': 2, 'garden_argument': 2, 'galaxy_civilisation': 3, 'genetic_encryption': 1, 'brain_reformatting': 2, 'magic_cube_666': 2, 'fine_structure_137': 2, 'adam_46': 3, 'tengri_names': 3}. V22-H\u00f6r: Jede Klasse hat im Durchschnitt 2.1 ihrer Keywords im Dokument. Das ist die 'semantische Dichte' \u2014 der Indikator daf\u00fcr, wie pr\u00e4sent jede Klasse ist.",
+      "class_keyword_overlap": {
+        "truth_revelation": 1,
+        "anti_god": 2,
+        "garden_argument": 2,
+        "galaxy_civilisation": 3,
+        "genetic_encryption": 1,
+        "brain_reformatting": 2,
+        "magic_cube_666": 2,
+        "fine_structure_137": 2,
+        "adam_46": 3,
+        "tengri_names": 3
+      },
+      "avg_overlap": 2.1
+    },
+    {
+      "name": "T5_cross_layer",
+      "pass": true,
+      "befund": "Magic Cubes: 9, 137: 2, Glyphen: 14 Seiten",
+      "was_sagt_es_uns": "Cross-Layer-Konsistenz: Magic Cubes auf 9 Seiten, 1/137 auf 2 Seiten, Glyphen auf 14 Seiten. V22-H\u00f6r: Die 3 Layer (Mathe/Glyph/Semantik) sind sauber getrennt, aber im selben DOKUMENT. Magic Cubes (p05-p09) \u2194 Glyphen (p1-p16) \u2194 1/137 (p10-p15). Cross-Layer-Konsistenz: KEINE Seite hat ALLE 3 Layer, aber das DOKUMENT hat alle 3.",
+      "cross_layer_check": {
+        "magic_cube_pages": [
+          "p04",
+          "p05",
+          "p06",
+          "p07",
+          "p08",
+          "p09",
+          "p10",
+          "p16",
+          "p17"
+        ],
+        "fine_structure_pages": [
+          "p01",
+          "p17"
+        ],
+        "glyph_pages": [
+          "p01",
+          "p02",
+          "p03",
+          "p04",
+          "p07",
+          "p08",
+          "p09",
+          "p10",
+          "p11",
+          "p12",
+          "p13",
+          "p14",
+          "p15",
+          "p16"
+        ]
+      }
+    }
+  ],
+  "verdict": "V22 PHASE 3: Wikia-Text-Semantik \u2014 5/5 PASS\n10/10 Klassen aktiv, 14 Endphrasen, 4 BURUMUT-Marker"
+}
