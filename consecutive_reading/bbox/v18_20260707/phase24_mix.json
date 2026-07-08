@@ -1,0 +1,62 @@
+{
+  "phase": "V18 Phase 24 — Sinus + Sägezahn + Rauschen",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.2870729790885982,
+  "wave_corr": -0.00493225220493067,
+  "centroid_ratio": 1.1175441776136308,
+  "max_band_diff": 0.4002123814486332,
+  "synth_bands": {
+    "0-100Hz": 0.23515724552330103,
+    "100-300Hz": 0.4298942131504641,
+    "300-1000Hz": 0.2696307841333223,
+    "1000-3000Hz": 0.04246673866519029,
+    "3000-8000Hz": 0.015190654335163634
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.4,
+    "saw": 0.6,
+    "centroid": 0.3,
+    "noise": 0.2
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=40.0%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": false,
+      "befund": "r=0.287",
+      "was_sagt_es_uns": "Spektrum-Form: SCHWACH."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": true,
+      "befund": "ratio=1.118",
+      "was_sagt_es_uns": "Centroid: ZENTRIERT."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=-0.005",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 24: 2/5 PASS. r=0.287, wave_corr=-0.005, ratio=1.118."
+}

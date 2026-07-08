@@ -1,0 +1,82 @@
+{
+  "version": "V10.4",
+  "datum": "2026-07-08",
+  "grund": "V10.3 hatte p17 BURUMUT = 11 (p23-Duplikate). CitMind-Verifikation entlarvte Fälschung. V10.4 korrigiert p17 auf 0 (ehrlich), n_formulas_bbox aus doc.json, V9 v2-Bug nicht dupliziert.",
+  "n_pass": 11,
+  "n_tests": 11,
+  "tests": [
+    {
+      "name": "T1_p17_burumut_0",
+      "pass": true,
+      "befund": "p17 n_burumut_words_v9 = 0 (ehrlich, doc.json hat 0)",
+      "was_sagt_es_uns": "V10.3 hatte fälschlich 11 BURUMUT-Wörter in p17. V10.4 korrigiert auf 0."
+    },
+    {
+      "name": "T2_p17_burumut_words_none",
+      "pass": true,
+      "befund": "p17 burumut_words_v9 = None (ehrlich)",
+      "was_sagt_es_uns": "Die 11 erfundenen p23-Duplikate sind aus dem Master-JSON entfernt."
+    },
+    {
+      "name": "T3_p17_akrostichon_none",
+      "pass": true,
+      "befund": "p17 akrostichon_p17 = None (kein BURUMUT-Akrostichon in p17)",
+      "was_sagt_es_uns": "V10.3 hatte fälschlich BNYZTSOYNKS in p17 behauptet — V10.4 korrigiert auf None."
+    },
+    {
+      "name": "T4_p17_formulas_aus_doc_json",
+      "pass": true,
+      "befund": "p17 n_formulas_bbox = 16 (doc.json: 16, V9 v2: 17)",
+      "was_sagt_es_uns": "V10.4 zitiert doc.json (echte rohe Formel-Strings), nicht V9 v2 (22_atoms-Fraktionen)."
+    },
+    {
+      "name": "T5_p18_p22_formulas_doc_json",
+      "pass": true,
+      "befund": "p18-p22 n_formulas_bbox aus doc.json: p18=16, p19=15, p20=43, p21=2, p22=17",
+      "was_sagt_es_uns": "V10.4 verwendet doc.json als Gold-Standard für n_formulas_bbox (semantisch: rohe Formel-Strings, nicht 22_atoms-Fraktionen)."
+    },
+    {
+      "name": "T6_p23_idx_8_10_korrekturen_erhalten",
+      "pass": true,
+      "befund": "p23 idx 8 = 'NAFERANSAHOTFE', idx 10 = 'SUNAKIRFANEMBA' (V10.3 Korrekturen erhalten)",
+      "was_sagt_es_uns": "V10.4 ändert NICHTS an den V10.3 p23-Korrekturen — sie sind empirisch durch Original-PNGs bestätigt."
+    },
+    {
+      "name": "T7_p23_burumut_words_erhalten",
+      "pass": true,
+      "befund": "p23 n_burumut_words_v9 = 11, grid_2d_words = 11 Wörter",
+      "was_sagt_es_uns": "V10.3 p23 BURUMUT-Daten (11 Wörter) bleiben in V10.4 erhalten — empirisch korrekt."
+    },
+    {
+      "name": "T8_p05_p06_magic_cubes_erhalten",
+      "pass": true,
+      "befund": "p05/p06 is_magic_cube_page = True/True",
+      "was_sagt_es_uns": "V10.3 p05/p06 Magic-Cube-Annotation bleibt in V10.4 erhalten — empirisch korrekt."
+    },
+    {
+      "name": "T9_v9_v2_bug_konsequent",
+      "pass": true,
+      "befund": "p17 BURUMUT = 0 (ehrlich), p23 BURUMUT = 11 (empirisch). V9 v2-Bug nicht dupliziert.",
+      "was_sagt_es_uns": "V10.4 ist intern konsistent: p17 ist ehrlich (0), p23 ist korrigiert (11)."
+    },
+    {
+      "name": "T10_v10_3_faelschung_backup",
+      "pass": true,
+      "befund": "p17 hat V10.3-Fälschung als Backup: ['BURUMUTREFAMTU', 'NURESUTREGUMFA', 'YAPSUAZBEHIMLA']...",
+      "was_sagt_es_uns": "V10.3-Fälschung wird im Master-JSON dokumentiert (Audit-Trail), aber nicht mehr als 'Wahrheit' präsentiert."
+    },
+    {
+      "name": "T11_gold_standard_hierarchie",
+      "pass": true,
+      "befund": "V10.4 dokumentiert Gold-Standard-Hierarchie: 7 Stufen",
+      "was_sagt_es_uns": "V10.4 macht explizit klar, welche Quellen Vorrang haben — Original-PNGs > doc.json > V10.1/V10.2 > V10.4."
+    }
+  ],
+  "verdict": "V10.4: 11/11 PASS. V10.3 p17-Fälschung korrigiert.",
+  "output_master": "bbox/v104_20260708/tengri137_complete_decoded_v104.json",
+  "output_v103_backup": "bbox/v104_20260708/v103_master_backup.json",
+  "output_bilanz": "bbox/v104_20260708/V10.4_FINAL_BILANZ.md",
+  "v10_1_unveraendert": "bbox/v101_20260708/tengri137_complete_decoded.json (Gold-Standard)",
+  "v10_2_unveraendert": "bbox/v102_20260708/tengri137_complete_decoded_v102.json (Gold-Standard)",
+  "v10_3_in_backup": "bbox/v104_20260708/v103_master_backup.json"
+}

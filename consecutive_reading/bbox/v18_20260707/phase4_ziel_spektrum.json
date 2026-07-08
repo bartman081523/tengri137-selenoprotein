@@ -1,0 +1,66 @@
+{
+  "phase": "V18 Phase 4 — Ziel-Spektrum + iterativer Match",
+  "n_tests": 5,
+  "n_pass": 2,
+  "synthese_path": "bbox/v18_20260707/synthese_v4.wav",
+  "spektrum_korrelation": 0.2554221127564916,
+  "centroid_synth_hz": 336.8956817120825,
+  "centroid_orig_hz": 417.85506985299116,
+  "centroid_ratio": 0.8062500757274726,
+  "band_verteilung_synth": {
+    "0-100Hz": 0.5496610795167531,
+    "100-300Hz": 0.24617871698068816,
+    "300-1000Hz": 0.1413316732658252,
+    "1000-3000Hz": 0.04479664337756558,
+    "3000-8000Hz": 0.014371480650261148
+  },
+  "band_verteilung_orig": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "max_band_diff": 0.13062569223151888,
+  "final_amplitudes": {
+    "60Hz_sub": 0.603520258906204,
+    "200Hz_bass": 0.04025878455592981,
+    "500Hz_lowmid": 0.1271909353406407,
+    "2000Hz_mid": 0.07745490141537427,
+    "4000Hz_high": 0.044102345327329186,
+    "BURUMUT": 0.15
+  },
+  "tests": [
+    {
+      "name": "T1_wav_erstellt",
+      "pass": true,
+      "befund": "21973 KB",
+      "was_sagt_es_uns": "Reproduzierbare WAV-Datei vorhanden."
+    },
+    {
+      "name": "T2_band_match",
+      "pass": false,
+      "befund": "max_diff = 13.1%",
+      "was_sagt_es_uns": "Band-Verteilung: max Abweichung 13.1% (>10%)."
+    },
+    {
+      "name": "T3_spektrum_korr",
+      "pass": false,
+      "befund": "r = 0.255",
+      "was_sagt_es_uns": "Spektrum-Form: zu schwach."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "BURUMUT-RMS: 0.0023",
+      "was_sagt_es_uns": "BURUMUT-Wörter platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": false,
+      "befund": "ratio = 0.806",
+      "was_sagt_es_uns": "Centroid: daneben."
+    }
+  ],
+  "verdict": "V18 Phase 4: 2/5 PASS. r=0.255, max_band_diff=13.1%, ratio=0.806."
+}

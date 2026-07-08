@@ -1,0 +1,55 @@
+{
+  "phase": "V18 Phase 5 — Dichter Sub-Bass",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.3858302618359292,
+  "centroid_ratio": 0.7755456862040919,
+  "max_band_diff": 0.17792248601234706,
+  "synth_bands": {
+    "0-100Hz": 0.49795928449804433,
+    "100-300Hz": 0.29347551076151634,
+    "300-1000Hz": 0.1618599962100097,
+    "1000-3000Hz": 0.03151109236218323,
+    "3000-8000Hz": 0.010067715326693873
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21973KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=17.8%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": false,
+      "befund": "r=0.386",
+      "was_sagt_es_uns": "Spektrum-Form: SCHWACH."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "RMS=0.0023",
+      "was_sagt_es_uns": "BURUMUT platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": false,
+      "befund": "ratio=0.776",
+      "was_sagt_es_uns": "Centroid: daneben."
+    }
+  ],
+  "verdict": "V18 Phase 5: 2/5 PASS. r=0.386, max_diff=17.8%, ratio=0.776."
+}

@@ -1,0 +1,62 @@
+{
+  "phase": "V18 Phase 7 — Finesse-Balance",
+  "n_pass": 3,
+  "n_tests": 5,
+  "spektrum_r": 0.7514974316777584,
+  "centroid_ratio": 0.44506000258564254,
+  "max_band_diff": 0.7898721588438644,
+  "synth_bands": {
+    "0-100Hz": 0.0944975988510486,
+    "100-300Hz": 0.9054251835930337,
+    "300-1000Hz": 1.9705773973879377e-05,
+    "1000-3000Hz": 4.199808546914446e-05,
+    "3000-8000Hz": 1.3599653446958676e-05
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "amps_opt": {
+    "50": 0.13376667256639374,
+    "200": 0.41405685154051797,
+    "600": -0.7722403575610948,
+    "1500": -0.11904854180433165,
+    "3500": 0.0005098978751970455
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21973KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=79.0%",
+      "was_sagt_es_uns": "Band-Match (Ziel <5%): ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.751",
+      "was_sagt_es_uns": "Spektrum-Form (Ziel >0.6): OK."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "RMS=0.0023",
+      "was_sagt_es_uns": "BURUMUT platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": false,
+      "befund": "ratio=0.445",
+      "was_sagt_es_uns": "Centroid: daneben."
+    }
+  ],
+  "verdict": "V18 Phase 7: 3/5 PASS. r=0.751, max_diff=79.0%, ratio=0.445."
+}

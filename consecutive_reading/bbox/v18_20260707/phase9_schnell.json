@@ -1,0 +1,68 @@
+{
+  "phase": "V18 Phase 9 — Schnelle analytische Lösung",
+  "n_pass": 5,
+  "n_tests": 6,
+  "spektrum_r": 0.7248542933709748,
+  "centroid_ratio": 0.8484722337267399,
+  "max_band_diff": 0.0020605414882054474,
+  "synth_bands": {
+    "0-100Hz": 0.6374301684601397,
+    "100-300Hz": 0.11592778516713234,
+    "300-1000Hz": 0.15530381467342863,
+    "1000-3000Hz": 0.056704433999804016,
+    "3000-8000Hz": 0.034632333898791584
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "amps_final": {
+    "50": 0.3972738177199331,
+    "200": 0.16941522937067888,
+    "600": 0.19608832531736722,
+    "1500": 0.11845670146887652,
+    "3500": 0.09258845077953559
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21973KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": true,
+      "befund": "max_diff=0.2%",
+      "was_sagt_es_uns": "Band-Match: OK."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.725",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "RMS=0.0023",
+      "was_sagt_es_uns": "BURUMUT platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": false,
+      "befund": "ratio=0.848",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T6_keine_negativen_amps",
+      "pass": true,
+      "befund": "min_amp = 0.0926",
+      "was_sagt_es_uns": "Amplituden physikalisch: JA."
+    }
+  ],
+  "verdict": "V18 Phase 9: 5/6 PASS. r=0.725, max_diff=0.2%, ratio=0.848."
+}

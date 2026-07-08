@@ -1,0 +1,56 @@
+{
+  "phase": "V18 Phase 18 — iSTFT + BURUMUT-Phase-Mix",
+  "n_pass": 5,
+  "n_tests": 5,
+  "spektrum_r": 0.999386197483989,
+  "waveform_corr": 0.9860921968469966,
+  "centroid_ratio": 0.9981513527778293,
+  "max_band_diff": 0.0006085757391113278,
+  "synth_bands": {
+    "0-100Hz": 0.6359782027110455,
+    "100-300Hz": 0.11551027446379786,
+    "300-1000Hz": 0.1546680598016011,
+    "1000-3000Hz": 0.05635283225001791,
+    "3000-8000Hz": 0.034223064385460945
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": true,
+      "befund": "max_diff=0.1%",
+      "was_sagt_es_uns": "Band-Match: OK."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.999",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": true,
+      "befund": "ratio=0.998",
+      "was_sagt_es_uns": "Centroid: ZENTRIERT."
+    },
+    {
+      "name": "T6_wellenform",
+      "pass": true,
+      "befund": "r_wave = 0.986",
+      "was_sagt_es_uns": "Wellenform-Korrelation: NICHT NULL."
+    }
+  ],
+  "verdict": "V18 Phase 18: 5/5 PASS. r=0.999, max_diff=0.1%, ratio=0.998, wave_corr=0.986."
+}

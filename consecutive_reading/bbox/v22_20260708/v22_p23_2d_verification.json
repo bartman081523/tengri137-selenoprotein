@@ -1,0 +1,88 @@
+{
+  "phase": "V22 Patch — p23-R20 2D-Notation empirisch verifiziert",
+  "datum": "2026-07-08",
+  "bezug": "Stufe 27 Message-Hub 2026-07-08",
+  "n_pass": 5,
+  "n_tests": 5,
+  "grid": [
+    "BURUMUTREFAMTU",
+    "NURESUTREGUMFA",
+    "YAPSUAZBEHIMLA",
+    "ZANRUAZBENOMBA",
+    "TOBIKOTLUBUMYO",
+    "SUNOKURGANOZYI",
+    "OKUZIKUFAUSIHE",
+    "YABEKANSABERHO",
+    "NAFERANSAHOTFE",
+    "KOREMORBIZUMRO",
+    "SUNAKIRFANEMBA"
+  ],
+  "lesarten": {
+    "row_ltr": "BURUMUTREFAMTUNURESUTREGUMFAYAPSUAZBEHIMLAZANRUAZB...",
+    "row_rtl": "UTMAFERTUMURUBAFMUGERTUSERUNALMIHEBZAUSPAYABMONEBZ...",
+    "col_ttb": "BNYZTSOYNKSUUAAOUKAAOURRPNBNUBFRNUESRIOZEEEAMSUUKK...",
+    "col_btt": "SKNYOSTZYNBUOAAKUOAAUUNRFBUNBNPRRAEEEZOIRSEUKMRKIK...",
+    "col_ttb_rtl": "UAAAOIEOEOATFLBYYHHFRBMMMMMZIRTMMAUIOUOSEOUEFGHNBN...",
+    "col_btt_rtl": "AOEOEIOAAAUBRFHHYYBLFTMMTRIZMMMMMEUOESOUOIUANZHBUN...",
+    "row_rtl_rows_reversed": "ABMENAFRIKANUSORMUZIBROMEROKEFTOHASNAREFANOHREBASN...",
+    "rows_reversed": "SUNAKIRFANEMBAKOREMORBIZUMRONAFERANSAHOTFEYABEKANS..."
+  },
+  "v10_english_text_first80": "UTMAFERTUMURUBAFMUGERTUSERUNALMIHEBZAUSPAYABMONEBZAURNAZOYMUBULTOKIBOTIYZONAGRUK",
+  "v10_english_text_lesart": "row_rtl",
+  "akrostichon_erwartet": "BNYZTSOYNKS",
+  "akrostichon_col_ttb_spalte1": "BNYZTSOYNKS",
+  "akrostichon_row_ltr_position": "BNYZTSOYNKS",
+  "kv_ratio_horizontal": 1.2647058823529411,
+  "kv_ratio_vertikal": 1.1607142857142858,
+  "chi2_buchstaben_h_v": 4.970621168577625,
+  "chi2_p": 0.998904647482332,
+  "spalten_als_woerter": [
+    "BNYZTSOYNKS",
+    "UUAAOUKAAOU",
+    "RRPNBNUBFRN",
+    "UESRIOZEEEA",
+    "MSUUKKIKRMK",
+    "UUAAOUKAAOI",
+    "TTZZTRUNNRR",
+    "RRBBLGFSSBF",
+    "EEEEUAAAAIA",
+    "FGHNBNUBHZN",
+    "AUIOUOSEOUE",
+    "MMMMMZIRTMM",
+    "TFLBYYHHFRB",
+    "UAAAOIEOEOA"
+  ],
+  "tests": [
+    {
+      "name": "T1_v10_zeilenweise_falsch",
+      "pass": true,
+      "befund": "V10.1 sagt 'Zeile 1 reversed = BURUMUTREFAMTU', aber 'BURUMUTREFAMTU' reversed = 'UTMAFERTUMURUB'",
+      "was_sagt_es_uns": "V10.1-Behauptung 'zeilenweise rückwärts' ist FALSIFIZIERT. Die Behauptung 'Zeile 1 reversed = BURUMUTREFAMTU' widerspricht sich selbst (Reverse von BURUMUTREFAMTU ist UTMAFERTUMURUB). V22-Hör: V10.1 hat das BURUMUT-Grid falsch verstanden — die Wörter sind NICHT reverse-codiert, sondern in Schmehs Original-Reihenfolge (BURUMUTREFAMTU, NURESUTREGUMFA, ...)."
+    },
+    {
+      "name": "T2_v10_english_text_equals",
+      "pass": true,
+      "befund": "V10.1 english_text = row_rtl (NICHT 'zeilenweise rückwärts')",
+      "was_sagt_es_uns": "V10.1 english_text beginnt mit 'row_rtl' Lesart. V22-Hör: V10.1 hat jede Zeile umgekehrt (BURUMUTREFAMTU → UTMAFERTUMURUB), aber die Reihenfolge der Zeilen beibehalten. Das ist KEINE 'zeilenweise rückwärts'-Lesart, sondern ein Codierungsfehler."
+    },
+    {
+      "name": "T3_schmeh_original_ltr",
+      "pass": true,
+      "befund": "V9 Smart-Parser v2 fraction_idx=0 → BURUMUTREFAMTU (Original-Reihenfolge)",
+      "was_sagt_es_uns": "Schmehs BURUMUTREFAMTU ist das ERSTE Wort (fraction_idx=0, 22_atoms=BURUMUTREFAMTU). V22-Hör: Die Schmeh-Original-Reihenfolge ist row_ltr, wie V9 Smart-Parser v2 sie liefert. V22 + V18.1 nutzen diese Reihenfolge korrekt."
+    },
+    {
+      "name": "T4_akrostichon_col_ttb",
+      "pass": true,
+      "befund": "BURUMUT-Akrostichon BNYZTSOYNKS in col_ttb Spalte 1 UND row_ltr Position 0/14/28/...",
+      "was_sagt_es_uns": "BNYZTSOYNKS-Akrostichon ist in BEIDEN Lesarten real: (1) col_ttb Spalte 1 (vertikal) und (2) row_ltr Position 0, 14, 28, ..., 140 (horizontal). V22-Hör: Die Cross-Layer-Kohärenz ist 1:1, das Akrostichon ist NICHT von einer einzelnen Lesart abhängig."
+    },
+    {
+      "name": "T5_p23_2d_notation",
+      "pass": true,
+      "befund": "K/V-Ratio H=1.265, V=1.161, Chi²=4.97",
+      "was_sagt_es_uns": "p23-R20 ist 2D-Notation: 11×14-Grid mit 2 gleichberechtigten Lesarten. K/V-Ratio in beiden ~1.26 (BURUMUT-Signatur). V22-Hör: Das 2D-Grid ist die ARCHITEKTUR des BURUMUT-Operators — die Wörter sind nicht nur aneinandergereiht, sondern in einer mathematischen Struktur angeordnet."
+    }
+  ],
+  "verdict": "V22 Patch: 5/5 PASS. V10.1 'zeilenweise rückwärts' FALSIFIZIERT, V10.1 english_text = row_rtl, Schmeh = row_ltr, BNYZTSOYNKS in col_ttb + row_ltr, p23 = 2D-Notation."
+}

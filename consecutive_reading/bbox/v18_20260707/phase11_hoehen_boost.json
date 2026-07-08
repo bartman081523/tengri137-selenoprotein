@@ -1,0 +1,63 @@
+{
+  "phase": "V18 Phase 11 — Höhen-Boost",
+  "n_pass": 5,
+  "n_tests": 5,
+  "spektrum_r": 0.7182507156479438,
+  "centroid_ratio": 0.8558136810555959,
+  "max_band_diff": 0.002060532847839802,
+  "synth_bands": {
+    "0-100Hz": 0.637430159819774,
+    "100-300Hz": 0.11592778370029767,
+    "300-1000Hz": 0.15530381292521,
+    "1000-3000Hz": 0.05670443413155876,
+    "3000-8000Hz": 0.0346323337017978
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "amps_final": {
+    "50": 0.39566599762643156,
+    "200": 0.16872955575535004,
+    "600": 0.19529466768250964,
+    "1500": 0.11797702072351406,
+    "3500": 0.0901480784958835,
+    "5500": 0.01940791384170893
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21973KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": true,
+      "befund": "max_diff=0.2%",
+      "was_sagt_es_uns": "Band-Match: OK."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.718",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "RMS=0.0023",
+      "was_sagt_es_uns": "BURUMUT platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": true,
+      "befund": "ratio=0.856",
+      "was_sagt_es_uns": "Centroid: ZENTRIERT."
+    }
+  ],
+  "verdict": "V18 Phase 11: 5/5 PASS. r=0.718, max_diff=0.2%, ratio=0.856."
+}

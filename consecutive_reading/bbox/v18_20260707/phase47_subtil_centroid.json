@@ -1,0 +1,65 @@
+{
+  "phase": "V18 Phase 47 — Phase 46 + Mitten/Centroid",
+  "n_pass": 3,
+  "n_tests": 5,
+  "spektrum_r": 0.8559990096287375,
+  "wave_corr": 0.006235271005621844,
+  "centroid_ratio": 0.851013126018143,
+  "max_band_diff": 0.12749976984855665,
+  "synth_bands": {
+    "0-100Hz": 0.5202914129495253,
+    "100-300Hz": 0.14383855270132273,
+    "300-1000Hz": 0.28230151397396747,
+    "1000-3000Hz": 0.039501878575156975,
+    "3000-8000Hz": 0.011295712250512261
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.35,
+    "harmonic": 0.15,
+    "mid_noise": 0.4,
+    "mid_high_noise": 1.4,
+    "centroid": 0.3,
+    "high": 0.6,
+    "high_band": "3000-12000Hz"
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=12.7%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.856",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": true,
+      "befund": "ratio=0.851",
+      "was_sagt_es_uns": "Centroid: ZENTRIERT."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=0.006",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 47: 3/5 PASS. r=0.856, wave_corr=0.006, ratio=0.851."
+}

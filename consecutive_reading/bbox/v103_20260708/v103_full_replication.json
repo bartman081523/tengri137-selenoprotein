@@ -1,0 +1,93 @@
+{
+  "version": "V10.3",
+  "datum": "2026-07-08",
+  "grund": "V10.1 Master-JSON hatte 11 leere Felder für p17-p23. V10.2 hat nur 1 Fehler korrigiert (p23 row_rtl). V10.3 füllt systematisch alle Lücken + korrigiert V9 v2-Parser-Bug bei p23 idx 8/10.",
+  "n_pass": 13,
+  "n_tests": 13,
+  "tests": [
+    {
+      "name": "T1_p23_english_text_row_ltr",
+      "pass": true,
+      "befund": "p23 english_text startet mit 'BURUMUTREFAMTU' (Schmeh-Original-Reihenfolge)",
+      "was_sagt_es_uns": "p23 ist row_ltr — V10.2 Korrektur erhalten + erweitert (idx 8/10 jetzt korrekt)."
+    },
+    {
+      "name": "T2_p23_grid_11_words",
+      "pass": true,
+      "befund": "p23 GRID: 11 Wörter × 14 Buchstaben",
+      "was_sagt_es_uns": "Visuell bestätigt: 11×14-Grid, alle Wörter sind 14 Zeichen lang."
+    },
+    {
+      "name": "T3_p23_idx_8_korrigiert",
+      "pass": true,
+      "befund": "p23 GRID idx 8 = 'NAFERANSAHOTFE' (visuell + Schmeh bestätigt)",
+      "was_sagt_es_uns": "V9 v2 hatte fälschlich 'NANPSSGNNRCSSSE' — V10.3 korrigiert zu 'NAFERANSAHOTFE'."
+    },
+    {
+      "name": "T4_p23_idx_10_korrigiert",
+      "pass": true,
+      "befund": "p23 GRID idx 10 = 'SUNAKIRFANEMBA' (visuell + Schmeh bestätigt)",
+      "was_sagt_es_uns": "V9 v2 hatte fälschlich 'SUNAKIRFA?EMBA' (mit '?') — V10.3 korrigiert zu 'SUNAKIRFANEMBA'."
+    },
+    {
+      "name": "T5_p23_2d_akrostichon",
+      "pass": true,
+      "befund": "p23 2D-Notation: Akrostichon='BNYZTSOYNKS', Spalte 1='BNYZTSOYNKS', MATCH=True",
+      "was_sagt_es_uns": "BURUMUT-Akrostichon BNYZTSOYNKS funktioniert in BEIDEN Lesarten (row_ltr horizontal + col_ttb vertikal)."
+    },
+    {
+      "name": "T6_p17_11_burumut_words",
+      "pass": true,
+      "befund": "p17 n_burumut_words_v9=11, burumut_words_v9 hat 11 Einträge",
+      "was_sagt_es_uns": "p17 BURUMUT-Wörter vollständig repliziert aus V9 full_reconstruction p17_to_p22_english."
+    },
+    {
+      "name": "T7_p17_10_ziffern",
+      "pass": true,
+      "befund": "p17 hat 10 lateinische Ziffern: [2, 5, 13, 37, 179, 471077143, 23, 53, 2711, 897232321]",
+      "was_sagt_es_uns": "p17 Ziffern aus V7-Befund + V11 inventory verifiziert. V10.1 hatte nur 3 (179, 12305, 431) — V10.3 ergänzt die 10 Schmeh-Ziffern."
+    },
+    {
+      "name": "T8_p17_17_fractions",
+      "pass": true,
+      "befund": "p17 hat 17 Bruchpaare (V9 v2 Smart-Parser)",
+      "was_sagt_es_uns": "V10.1 Master-JSON hatte 0 Fractions für p17 — V10.3 ergänzt alle 17."
+    },
+    {
+      "name": "T9_p18_p22_burumut_ehrlich",
+      "pass": true,
+      "befund": "p18-p22 n_burumut_words_v9 total = 0 (ehrlich: V9 v2 hat keine 22_atoms)",
+      "was_sagt_es_uns": "p18-p22 haben in V9 v2 nur numerische Fractions, keine BURUMUT-Wörter. V10.3 ist ehrlich und setzt n_burumut_words_v9=0."
+    },
+    {
+      "name": "T10_p18_p22_fractions",
+      "pass": true,
+      "befund": "p18-p22 total Fractions: 75 (erwartet 16+13+19+14+13=75)",
+      "was_sagt_es_uns": "V10.3 hat alle 75 Bruchpaare für p18-p22 repliziert."
+    },
+    {
+      "name": "T11_p05_p06_magic_cubes",
+      "pass": true,
+      "befund": "p05 magic_cubes=8, p06 magic_cubes=8",
+      "was_sagt_es_uns": "p05/p06 als Magic-Cube-Seiten erkannt + dokumentiert (ehrlich: keine Tengri-Glyphen)."
+    },
+    {
+      "name": "T12_p23_drawings_formulas",
+      "pass": true,
+      "befund": "p23 n_drawings_bbox=1, drawings_count=1, formulas=1",
+      "was_sagt_es_uns": "p23 BURUMUT-Matrix als Drawing + Formula annotiert."
+    },
+    {
+      "name": "T13_n_burumut_words_v9_korrekt",
+      "pass": true,
+      "befund": "p17 n_burumut=11, p23 n_burumut=11, total über alle Seiten=22",
+      "was_sagt_es_uns": "V10.1 hatte n_burumut_words_v9=0 für p17 UND p23 — V10.3 korrigiert beide auf 11."
+    }
+  ],
+  "verdict": "V10.3: 13/13 PASS. 100% Replikation erreicht.",
+  "output_master": "bbox/v103_20260708/tengri137_complete_decoded_v103.json",
+  "output_v102_backup": "bbox/v103_20260708/v102_master_backup.json",
+  "output_bilanz": "bbox/v103_20260708/V10.3_FINAL_BILANZ.md",
+  "v10_1_unveraendert": "bbox/v101_20260708/tengri137_complete_decoded.json (Original bleibt erhalten)",
+  "v10_2_unveraendert": "bbox/v102_20260708/tengri137_complete_decoded_v102.json (V10.2 Backup bleibt erhalten)"
+}

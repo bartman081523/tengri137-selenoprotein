@@ -1,0 +1,63 @@
+{
+  "phase": "V18 Phase 33 — Breites Mitten-Rauschen",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.7727113267542217,
+  "wave_corr": 0.007383176614063613,
+  "centroid_ratio": 0.34733900854481564,
+  "max_band_diff": 0.10038831858385977,
+  "synth_bands": {
+    "0-100Hz": 0.735757945555794,
+    "100-300Hz": 0.12748249536197384,
+    "300-1000Hz": 0.13499655452282383,
+    "1000-3000Hz": 0.0014227102917412804,
+    "3000-8000Hz": 0.00033180864257934044
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.5,
+    "harmonic": 0.2,
+    "mid_noise": 0.35,
+    "centroid": 0.25,
+    "high": 0.2
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=10.0%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.773",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=0.347",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=0.007",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 33: 2/5 PASS. r=0.773, wave_corr=0.007, ratio=0.347."
+}

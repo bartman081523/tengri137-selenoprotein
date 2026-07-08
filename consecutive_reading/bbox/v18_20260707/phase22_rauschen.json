@@ -1,0 +1,62 @@
+{
+  "phase": "V18 Phase 22 — Forensisch + Rauschen",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.7970382039915115,
+  "wave_corr": 0.005335895979124546,
+  "centroid_ratio": 0.24741366423252054,
+  "max_band_diff": 0.24760828318678574,
+  "synth_bands": {
+    "0-100Hz": 0.88297791015872,
+    "100-300Hz": 0.0674560831239452,
+    "300-1000Hz": 0.04845061473760943,
+    "1000-3000Hz": 0.0006850546744888147,
+    "3000-8000Hz": 0.00037310326123810884
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.3,
+    "peak2": 0.1,
+    "centroid": 0.3,
+    "noise": 0.4
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=24.8%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.797",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=0.247",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=0.005",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 22: 2/5 PASS. r=0.797, wave_corr=0.005, ratio=0.247."
+}

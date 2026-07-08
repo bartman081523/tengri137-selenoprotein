@@ -1,0 +1,55 @@
+{
+  "phase": "V18 Phase 16 — BURUMUT mehrfach",
+  "n_pass": 5,
+  "n_tests": 5,
+  "spektrum_r": 0.7089360559880892,
+  "centroid_ratio": 0.8681948792678047,
+  "max_band_diff": 0.0016608520749093816,
+  "synth_bands": {
+    "0-100Hz": 0.6363984232462386,
+    "100-300Hz": 0.11574587075993337,
+    "300-1000Hz": 0.1550534468517602,
+    "1000-3000Hz": 0.056620652829294606,
+    "3000-8000Hz": 0.036181204425276545
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21973KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": true,
+      "befund": "max_diff=0.2%",
+      "was_sagt_es_uns": "Band-Match: OK."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.709",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "RMS=0.0012",
+      "was_sagt_es_uns": "BURUMUT platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": true,
+      "befund": "ratio=0.868",
+      "was_sagt_es_uns": "Centroid: ZENTRIERT."
+    }
+  ],
+  "verdict": "V18 Phase 16: 5/5 PASS. r=0.709, max_diff=0.2%, ratio=0.868."
+}

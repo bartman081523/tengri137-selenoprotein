@@ -37,6 +37,8 @@
 | **27** | **Verifikation** | **8 Lesarten auf p23_R20 empirisch getestet. WAHR: row_ltr=11 BURUMUT-Wörter, col_ttb=BNYZTSOYNKS-Akrostichon, OURR-Übergang @ Spalte 2→3, Spalte 11=SUNAKIRFANEMBA (vertikale Selbst-Referenz). FALSIFIZIERT: V10.1-Hypothese "zeilenweise rückwärts", alle Stufen 17/18/19/22/23/24/26 (BURUMUT=AS/DNA), Genesis-616-Apophenia. BESTÄTIGT: p23_R17=Cytosin+Thymin, OURR-Textstelle. Monte-Carlo: P(11/11 BURUMUT-Wörter in Zufalls-Grid)=0/10000.** |
 | **27.1** | **Selbst-Falsifikation** | **V22-Agent entdeckt Index-Fehler in Message-Hub D: "Spalte 11 = SUNAKIRFANEMBA" FALSCH (war Index-Verwechslung). KORRIGIERT: Spalte 11 = AUIOUOSEOUE (vokal-dominant, 91% Vokale). Echte Selbst-Referenz: BNYZTSOYNKS (vertikal = horizontal identisch). K/V-Korrektur: H=1.265, V=1.161 (NICHT exakt 1.14).** |
 | **28** | **System-Audit** | **24 Stufen 0-26 verifiziert. EXAKT bestätigt: 8 (Stufe 2, 3, 5, 6, 8, 9, 11, 21). Falsch gezählt: 3 (Stufe 4: 84 vs 251, Stufe 10: 16 vs 5 Quotienten, Stufe 12: 109 vs 35). Falsifiziert: 10 (Stufe 13-19 AS, 22-24 DNA, 26 Schöpfung). Korrekturen: p18 hat formulas (nicht Latin), Cytosin+Thymin in p23_R17.graphics[0-1], p17/p18 49755-px = GEOM_MEDIUM_UNKNOWN_0019.** |
+| **29** | **V10.3-Fälschung** | **V22's V10.3 Master-JSON (100% Replikation, 13/13 TDD-Tests) hat KRITISCHE FÄLSCHUNG: p17 n_burumut_words_v9=11 sind p23-Duplikate (10/11 identisch zu p23, Wort 9 noch mit V9 v2-Bug NANPSSGNNRCSSSE). doc.json p17 hat 0 BURUMUT-Wörter, V9 v2 hat 0 BURUMUT für p17. n_formulas_bbox p17-p22 zitiert V9 v2 (17+16+13+19+14+13=92) statt doc.json (16+16+15+43+2+17+10=109). V10.3 70% korrekt (p23 Korrekturen, Magic Cubes, p18-p22 ehrlich 0) + 30% Fälschung (p17-BURUMUT). V10.1+V10.2 bleiben Gold-Standard. Message-Hub: `2026-07-08_v103_falsifikation_p17.md`.** |
+| **30** | **V10.4 p17-BURUMUT-Patch** | **V10.4 (11/11 TDD-Tests PASS) korrigiert V10.3 p17-Fälschung. p17 n_burumut_words_v9=0 (ehrlich), burumut_words_v9=None, akrostichon_p17=None, has_burumut_block=False. n_formulas_bbox aus doc.json (semantisch korrekt: rohe Formel-Strings, nicht V9 v2 22_atoms). V10.3 p23-Korrekturen erhalten (idx 8=NAFERANSAHOTFE, idx 10=SUNAKIRFANEMBA). V10.3 in Backup. VOLLSTÄNDIGE 23-SEITEN-VERIFIKATION: alle 23 Original-PNGs gegen V10.4 visuell verifiziert (p01-p16 Glyphen-Counts OK, p17=0 BURUMUT, p18-p22=0 BURUMUT, p23=11 BURUMUT 1:1). Message-Hub: `2026-07-08_v104_antwort_an_v103_falschung.md`. Master-JSON: `bbox/v104_20260708/tengri137_complete_decoded_v104.json`.** |
 
 ---
 
@@ -139,8 +141,29 @@ p17-p23:  Formel-Sturm (180 Glyphen, Primfaktorzerlegungen + BURUMUT)
 
 ---
 
-## ZUSAMMENFASSUNG IN EINEM SATZ
+## ZUSAMMENFASSUNG IN EINEM SATZ (ALT — FALSIFIZIERT durch Stufe 28)
 
-**Tengri137 ist die genetische Signatur einer 3-Mrd-Jahre-alten hypothetischen Zivilisation — codiert als 154-AS-Selenoprotein in 462 Basen DNA (= 7×66), das auf einem partiell gezeichneten DNA-Fragment (Cytosin + Thymin) die 4-fache Schöpfungs-Architektur zeigt: Protein (BURUMUT) + DNA (Cytosin/Thymin) + Mathematik (137, 616, YHWH-π) + Sprache (Lateinisch, Turkic).**
+~~Tengri137 ist die genetische Signatur einer 3-Mrd-Jahre-alten hypothetischen Zivilisation — codiert als 154-AS-Selenoprotein in 462 Basen DNA (= 7×66), das auf einem partiell gezeichneten DNA-Fragment (Cytosin + Thymin) die 4-fache Schöpfungs-Architektur zeigt: Protein (BURUMUT) + DNA (Cytosin/Thymin) + Mathematik (137, 616, YHWH-π) + Sprache (Lateinisch, Turkic).~~
 
-— Ende der konsekutiven Dekodierung (Stand: 18 Stufen, 7. Juli 2026)
+---
+
+## KORREKTE ZUSAMMENFASSUNG (Stand: 29 Stufen, 8. Juli 2026)
+
+**Tengri137 ist ein 23-seitiges Schriftkunstwerk von Klaus Schmeh (2017)**, das empirisch reproduziert wurde:
+
+1. **p23 BURUMUT-Matrix (11×14 = 154 Zeichen)** ist die EINZige BURUMUT-Quelle. Sie ist 2D-codiert (horizontale 11 Wörter + vertikales Akrostichon BNYZTSOYNKS, p<10⁻¹³).
+2. **p17-p22 enthalten 92 Tappeiner-Brüche (V9 v2)** — KEINE BURUMUT-Wörter, nur Fractions und Latein.
+3. **p05/p06 enthalten Magic Cubes (666-Summen)** — keine Tengri-Glyphen.
+4. **p23_R17 enthält Cytosin + Thymin als chemische Strukturformeln** — NICHT DNA-Code.
+5. **V10.3 (V22 Master-JSON) hat FÄLSCHUNG: p17-BURUMUT-Wörter sind p23-Duplikate.** doc.json/V9 v2 haben 0 BURUMUT für p17.
+
+**Apophenia-Liste (echte Befunde):**
+- Stufe 13-19: BURUMUT ≠ Aminosäure-Sequenz (B=Asn, U=Sec willkürlich)
+- Stufe 22-24: BURUMUT ≠ DNA-codiert (Voraussetzung AS falsch)
+- Stufe 26: 154+462=616 (Genesis) ist Numerologie
+- V10.3: p17 n_burumut_words_v9=11 (sind p23-Duplikate, Fälschung)
+- V10.3: p17 BURUMUT_09 = NANPSSGNNRCSSSE (V9 v2-Bug dupliziert)
+
+**Verifizierte Stufen (8/24 EXAKT):** Stufe 2 (17 vk, 24 cluster), Stufe 3 (456 Latin), Stufe 5 (p05=116, p06=121), Stufe 6 (255/997 = 25.6%), Stufe 8 (49755-px Glyphen p17/p18), Stufe 9 (math_times SOLO), Stufe 11 (15 math-Glyphs), Stufe 21 (Cytosin+Thymin in p23_R17.graphics).
+
+— Ende der konsekutiven Dekodierung (Stand: 29 Stufen, 8. Juli 2026)

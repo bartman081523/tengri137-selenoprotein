@@ -1,0 +1,49 @@
+{
+  "phase": "V18 Phase 17 — iSTFT-Rekonstruktion",
+  "n_pass": 4,
+  "n_tests": 4,
+  "spektrum_r": 0.9879222745946183,
+  "centroid_ratio": 1.0038550343340833,
+  "max_band_diff": 0.0052547076526988645,
+  "synth_bands": {
+    "0-100Hz": 0.6308891785147132,
+    "100-300Hz": 0.12080773240186814,
+    "300-1000Hz": 0.15359408043331838,
+    "1000-3000Hz": 0.05694972670333003,
+    "3000-8000Hz": 0.03448086238832042
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": true,
+      "befund": "max_diff=0.5%",
+      "was_sagt_es_uns": "Band-Match: OK."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.988",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": true,
+      "befund": "ratio=1.004",
+      "was_sagt_es_uns": "Centroid: ZENTRIERT."
+    }
+  ],
+  "verdict": "V18 Phase 17: 4/4 PASS. r=0.988, max_diff=0.5%, ratio=1.004."
+}

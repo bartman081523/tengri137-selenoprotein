@@ -1,0 +1,153 @@
+{
+  "datum": "2026-07-08",
+  "methode": "Empirische doc.json-Verifikation gegen V10.3 Master-JSON",
+  "p17_burumut_faelschung": {
+    "p17_n_burumut_words_v103": 11,
+    "p17_n_burumut_doc_json": 0,
+    "p17_n_burumut_v9_v2": 17,
+    "doc_json_p17_latin": 26,
+    "doc_json_p17_formulas": 16,
+    "befund": "FAELSCHUNG",
+    "erklaerung": "V10.3 erfindet 11 BURUMUT-Wörter für p17, doc.json/V9 v2 haben 0.",
+    "duplikate_p17_p23": [
+      {
+        "idx": 1,
+        "p17": "BURUMUTREFAMTU",
+        "p23": "BURUMUTREFAMTU",
+        "is_duplikat": true
+      },
+      {
+        "idx": 2,
+        "p17": "NURESUTREGUMFA",
+        "p23": "NURESUTREGUMFA",
+        "is_duplikat": true
+      },
+      {
+        "idx": 3,
+        "p17": "YAPSUAZBEHIMLA",
+        "p23": "YAPSUAZBEHIMLA",
+        "is_duplikat": true
+      },
+      {
+        "idx": 4,
+        "p17": "ZANRUAZBENOMBA",
+        "p23": "ZANRUAZBENOMBA",
+        "is_duplikat": true
+      },
+      {
+        "idx": 5,
+        "p17": "TOBIKOTLUBUMYO",
+        "p23": "TOBIKOTLUBUMYO",
+        "is_duplikat": true
+      },
+      {
+        "idx": 6,
+        "p17": "SUNOKURGANOZYI",
+        "p23": "SUNOKURGANOZYI",
+        "is_duplikat": true
+      },
+      {
+        "idx": 7,
+        "p17": "OKUZIKUFAUSIHE",
+        "p23": "OKUZIKUFAUSIHE",
+        "is_duplikat": true
+      },
+      {
+        "idx": 8,
+        "p17": "YABEKANSABERHO",
+        "p23": "YABEKANSABERHO",
+        "is_duplikat": true
+      },
+      {
+        "idx": 9,
+        "p17": "NANPSSGNNRCSSSE",
+        "p23": "NAFERANSAHOTFE",
+        "is_duplikat": false
+      },
+      {
+        "idx": 10,
+        "p17": "KOREMORBIZUMRO",
+        "p23": "KOREMORBIZUMRO",
+        "is_duplikat": true
+      },
+      {
+        "idx": 11,
+        "p17": "SUNAKIRFANEMBA",
+        "p23": "SUNAKIRFANEMBA",
+        "is_duplikat": true
+      }
+    ],
+    "n_duplikate": 10
+  },
+  "n_formulas_bbox_vergleich": {
+    "p17": {
+      "v103": 17,
+      "v9_v2": 17,
+      "doc_json": 16
+    },
+    "p18": {
+      "v103": 16,
+      "v9_v2": 16,
+      "doc_json": 16
+    },
+    "p19": {
+      "v103": 13,
+      "v9_v2": 13,
+      "doc_json": 15
+    },
+    "p20": {
+      "v103": 19,
+      "v9_v2": 19,
+      "doc_json": 43
+    },
+    "p21": {
+      "v103": 14,
+      "v9_v2": 14,
+      "doc_json": 2
+    },
+    "p22": {
+      "v103": 13,
+      "v9_v2": 13,
+      "doc_json": 17
+    },
+    "p23": {
+      "v103": 0,
+      "v9_v2": 11,
+      "doc_json": 10
+    }
+  },
+  "v10_3_internes_bug_duplikate": {
+    "p17_burumut_09": "NANPSSGNNRCSSSE",
+    "p23_burumut_09": "NAFERANSAHOTFE",
+    "sind_gleich": false,
+    "befund": "INKONSISTENT",
+    "erklaerung": "p23 wurde korrigiert (V9 v2-Bug behoben), p17 nicht."
+  },
+  "p23_korrekturen": {
+    "idx_9_v9_v2": "NANPSSGNNRCSSSE",
+    "idx_9_v10_3": "NAFERANSAHOTFE",
+    "idx_9_korrigiert": true,
+    "idx_10_v9_v2": "SUNAKIRFA?EMBA",
+    "idx_10_v10_3": "KOREMORBIZUMRO",
+    "idx_10_korrigiert": true
+  },
+  "magic_cubes": {
+    "p05": {
+      "is_magic_cube_page": true,
+      "n_magic_cubes": 8,
+      "korrekt": true
+    },
+    "p06": {
+      "is_magic_cube_page": true,
+      "n_magic_cubes": 8,
+      "korrekt": true
+    }
+  },
+  "bilanz": {
+    "kategorien_korrekt": 2,
+    "kategorien_falsch": 2,
+    "kategorien_neutral": 1,
+    "gesamt_beurteilt": 4,
+    "anteil_korrekt": "50%"
+  }
+}

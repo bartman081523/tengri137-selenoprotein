@@ -1,0 +1,66 @@
+{
+  "phase": "V18 Phase 50 — Mid/High Balance",
+  "n_pass": 3,
+  "n_tests": 5,
+  "spektrum_r": 0.8610732452629708,
+  "wave_corr": 0.006835405617946171,
+  "centroid_ratio": 0.7477984194998509,
+  "max_band_diff": 0.022679716531188998,
+  "synth_bands": {
+    "0-100Hz": 0.639040011007503,
+    "100-300Hz": 0.13156075545557014,
+    "300-1000Hz": 0.16730781620544152,
+    "1000-3000Hz": 0.04866247805691474,
+    "3000-8000Hz": 0.011840635819178167
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.35,
+    "harmonic": 0.15,
+    "mid_noise": 0.55,
+    "mid_high_noise": 1.4,
+    "centroid": 0.2,
+    "high": 0.4,
+    "mid_tone": 0.1,
+    "high_band": "3000-12000Hz"
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": true,
+      "befund": "max_diff=2.3%",
+      "was_sagt_es_uns": "Band-Match: OK."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.861",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=0.748",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=0.007",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 50: 3/5 PASS. r=0.861, wave_corr=0.007, ratio=0.748."
+}

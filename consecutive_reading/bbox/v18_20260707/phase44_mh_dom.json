@@ -1,0 +1,64 @@
+{
+  "phase": "V18 Phase 44 — MH dominant",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.8076516117515791,
+  "wave_corr": 0.0046472154039190585,
+  "centroid_ratio": 1.1702102431404795,
+  "max_band_diff": 0.35623175479110786,
+  "synth_bands": {
+    "0-100Hz": 0.27913787218082636,
+    "100-300Hz": 0.16548990395157118,
+    "300-1000Hz": 0.4643190231384231,
+    "1000-3000Hz": 0.07412667862560351,
+    "3000-8000Hz": 0.01657261510246507
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.2,
+    "harmonic": 0.1,
+    "mid_noise": 0.4,
+    "mid_high_noise": 1.5,
+    "centroid": 0.3,
+    "high": 0.4
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=35.6%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.808",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=1.170",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=0.005",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 44: 2/5 PASS. r=0.808, wave_corr=0.005, ratio=1.170."
+}

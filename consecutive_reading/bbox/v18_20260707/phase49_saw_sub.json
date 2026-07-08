@@ -1,0 +1,67 @@
+{
+  "phase": "V18 Phase 49 — Sawtooth Sub-Bass",
+  "n_pass": 1,
+  "n_tests": 5,
+  "spektrum_r": 0.6980745911089424,
+  "wave_corr": -0.0050411215766713304,
+  "centroid_ratio": 1.6408128215115327,
+  "max_band_diff": 0.28440309102690553,
+  "synth_bands": {
+    "0-100Hz": 0.3509665359450287,
+    "100-300Hz": 0.12470159971264912,
+    "300-1000Hz": 0.37695465111482923,
+    "1000-3000Hz": 0.10677972727811809,
+    "3000-8000Hz": 0.031383203166481195
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.3,
+    "harmonic": 0.15,
+    "mid_noise": 0.45,
+    "mid_high_noise": 1.4,
+    "centroid": 0.2,
+    "high": 0.6,
+    "mid_tone": 0.1,
+    "high_band": "3000-12000Hz",
+    "sub_waveform": "sawtooth"
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=28.4%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": false,
+      "befund": "r=0.698",
+      "was_sagt_es_uns": "Spektrum-Form: SCHWACH."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=1.641",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=-0.005",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 49: 1/5 PASS. r=0.698, wave_corr=-0.005, ratio=1.641."
+}

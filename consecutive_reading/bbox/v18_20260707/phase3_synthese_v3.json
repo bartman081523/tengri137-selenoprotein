@@ -1,0 +1,57 @@
+{
+  "phase": "V18 Phase 3 — Synthese v3 (Goldilocks)",
+  "n_tests": 5,
+  "n_pass": 4,
+  "spektrum_korrelation": 0.35108571368144,
+  "centroid_synth_hz": 308.87179528422735,
+  "centroid_orig_hz": 417.85506985299116,
+  "centroid_ratio": 0.7391840319010463,
+  "band_verteilung_synth": {
+    "0-100Hz": 0.5599542835729797,
+    "100-300Hz": 0.14926446416394237,
+    "300-1000Hz": 0.2569597200918905,
+    "1000-3000Hz": 0.02282157364171234,
+    "3000-8000Hz": 0.007277561264472015
+  },
+  "band_verteilung_orig": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "tests": [
+    {
+      "name": "T1_wav_erstellt",
+      "pass": true,
+      "befund": "21973 KB",
+      "was_sagt_es_uns": "Reproduzierbare WAV-Datei vorhanden."
+    },
+    {
+      "name": "T2_4khz_traeger_power",
+      "pass": true,
+      "befund": "Power @ 3940Hz: 6.29e-01",
+      "was_sagt_es_uns": "4kHz-Träger hat messbare Power."
+    },
+    {
+      "name": "T3_75hz_subbass_power",
+      "pass": true,
+      "befund": "Power @ 75Hz: 5.70e+02",
+      "was_sagt_es_uns": "75Hz Sub-Bass hat messbare Power."
+    },
+    {
+      "name": "T4_burumut_platziert",
+      "pass": true,
+      "befund": "BURUMUT-RMS: 0.0023",
+      "was_sagt_es_uns": "BURUMUT-Wörter sind im Signal platziert."
+    },
+    {
+      "name": "T5_centroid_zentriert",
+      "pass": false,
+      "befund": "ratio = 0.739 (Ziel: 0.8-1.2)",
+      "was_sagt_es_uns": "Centroid 0.739 - AUSSERHALB."
+    }
+  ],
+  "verdict": "V18 Phase 3: 4/5 PASS. r=0.351, Centroid-ratio=0.739.",
+  "lehr_aus_phase1_2": "v1=1.36 (hell), v2=0.65 (bass). v3: Sub-Bass halbiert, 300Hz verdoppelt, 600Hz neu."
+}

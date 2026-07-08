@@ -1,0 +1,60 @@
+{
+  "phase": "V18 Phase 23 — Kein Sinus-Träger",
+  "n_pass": 1,
+  "n_tests": 5,
+  "spektrum_r": 0.18648742985674693,
+  "wave_corr": -0.00839270323399854,
+  "centroid_ratio": 0.6281453973555864,
+  "max_band_diff": 0.12699401423426115,
+  "synth_bands": {
+    "0-100Hz": 0.5615275229662116,
+    "100-300Hz": 0.2425470389834304,
+    "300-1000Hz": 0.17039716718812956,
+    "1000-3000Hz": 0.016109035340945873,
+    "3000-8000Hz": 0.006234074018860527
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "saw": 1.0,
+    "centroid": 1.0
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=12.7%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": false,
+      "befund": "r=0.186",
+      "was_sagt_es_uns": "Spektrum-Form: SCHWACH."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=0.628",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=-0.008",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 23: 1/5 PASS. r=0.186, wave_corr=-0.008, ratio=0.628."
+}

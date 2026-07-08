@@ -1,0 +1,63 @@
+{
+  "phase": "V18 Phase 28 — Mehrere Sub-Bass-Töne",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.7042723374992166,
+  "wave_corr": 0.004549737439491882,
+  "centroid_ratio": 0.23104555988864534,
+  "max_band_diff": 0.29725886339866936,
+  "synth_bands": {
+    "0-100Hz": 0.9326284903706036,
+    "100-300Hz": 0.012674619083906543,
+    "300-1000Hz": 0.05465903048528852,
+    "1000-3000Hz": 1.4829762464313129e-05,
+    "3000-8000Hz": 2.1893227136718995e-05
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub1": 0.4,
+    "sub2": 0.3,
+    "mid_noise": 0.25,
+    "centroid": 0.15,
+    "high": 0.1
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=29.7%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.704",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=0.231",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=0.005",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 28: 2/5 PASS. r=0.704, wave_corr=0.005, ratio=0.231."
+}

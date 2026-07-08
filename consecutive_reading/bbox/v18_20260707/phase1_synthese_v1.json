@@ -1,0 +1,44 @@
+{
+  "phase": "V18 Phase 1 — Synthese v1",
+  "n_tests": 5,
+  "n_pass": 5,
+  "synthese_path": "bbox/v18_20260707/synthese_v1.wav",
+  "synthese_duration_s": 255.11,
+  "spektrum_korrelation": 0.33909775825257665,
+  "centroid_synth_hz": 665.9733636734612,
+  "centroid_orig_hz": 488.8931893705463,
+  "centroid_ratio": 1.3622062613122246,
+  "tests": [
+    {
+      "name": "T1_wav_erstellt",
+      "pass": true,
+      "befund": "21973 KB",
+      "was_sagt_es_uns": "Reproduzierbare WAV-Datei vorhanden."
+    },
+    {
+      "name": "T2_4khz_traeger_power",
+      "pass": true,
+      "befund": "Power @ 3940Hz: 1.68e+02",
+      "was_sagt_es_uns": "4kHz-Träger hat messbare Power."
+    },
+    {
+      "name": "T3_75hz_subbass_power",
+      "pass": true,
+      "befund": "Power @ 75Hz: 1.62e+02",
+      "was_sagt_es_uns": "75Hz Sub-Bass hat messbare Power."
+    },
+    {
+      "name": "T4_burumut_platziert",
+      "pass": true,
+      "befund": "BURUMUT-RMS: 0.0045",
+      "was_sagt_es_uns": "BURUMUT-Wörter sind im Signal platziert."
+    },
+    {
+      "name": "T5_spektrum_korrelation",
+      "pass": true,
+      "befund": "r = 0.339",
+      "was_sagt_es_uns": "Spektrum-Form-Ähnlichkeit: AKZEPTABEL."
+    }
+  ],
+  "verdict": "V18 Phase 1: 5/5 PASS. Spektrum-r=0.339. Centroid synth=666Hz, orig=489Hz, ratio=1.362."
+}

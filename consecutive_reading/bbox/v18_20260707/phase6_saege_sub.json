@@ -1,0 +1,55 @@
+{
+  "phase": "V18 Phase 6 — Sub-Bass Sägezahn (Oberwellen als Bonus)",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.3606993571679437,
+  "centroid_ratio": 0.5348283333004499,
+  "max_band_diff": 0.10293322041916986,
+  "synth_bands": {
+    "0-100Hz": 0.7383028473911041,
+    "100-300Hz": 0.12213307041030036,
+    "300-1000Hz": 0.10993491449807506,
+    "1000-3000Hz": 0.02013227832598997,
+    "3000-8000Hz": 0.006279672936959549
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21973KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=10.3%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": false,
+      "befund": "r=0.361",
+      "was_sagt_es_uns": "Spektrum-Form: SCHWACH."
+    },
+    {
+      "name": "T4_burumut",
+      "pass": true,
+      "befund": "RMS=0.0023",
+      "was_sagt_es_uns": "BURUMUT platziert."
+    },
+    {
+      "name": "T5_centroid",
+      "pass": false,
+      "befund": "ratio=0.535",
+      "was_sagt_es_uns": "Centroid: daneben."
+    }
+  ],
+  "verdict": "V18 Phase 6: 2/5 PASS. r=0.361, max_diff=10.3%, ratio=0.535."
+}

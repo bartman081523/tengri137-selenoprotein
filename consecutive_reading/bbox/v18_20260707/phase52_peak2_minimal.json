@@ -1,0 +1,68 @@
+{
+  "phase": "V18 Phase 52 — Peak2 minimal + 2. Harmonische",
+  "n_pass": 2,
+  "n_tests": 5,
+  "spektrum_r": 0.864800551744476,
+  "wave_corr": -0.00873630051372716,
+  "centroid_ratio": 0.772816433857194,
+  "max_band_diff": 0.09463553790510056,
+  "synth_bands": {
+    "0-100Hz": 0.5559531827813254,
+    "100-300Hz": 0.21018856265426983,
+    "300-1000Hz": 0.17051512951782236,
+    "1000-3000Hz": 0.049622243585451135,
+    "3000-8000Hz": 0.012097836945545736
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716
+  },
+  "balance": {
+    "sub": 0.32,
+    "peak2": 0.05,
+    "harmonic": 0.2,
+    "mid_noise": 0.5,
+    "mid_high_noise": 1.4,
+    "centroid": 0.2,
+    "high": 0.4,
+    "mid_tone": 0.1,
+    "high_band": "3000-12000Hz",
+    "per_segment_peak2": true
+  },
+  "tests": [
+    {
+      "name": "T1_wav",
+      "pass": true,
+      "befund": "21974KB",
+      "was_sagt_es_uns": "WAV erstellt."
+    },
+    {
+      "name": "T2_bands",
+      "pass": false,
+      "befund": "max_diff=9.5%",
+      "was_sagt_es_uns": "Band-Match: ABWEICHUNG."
+    },
+    {
+      "name": "T3_r",
+      "pass": true,
+      "befund": "r=0.865",
+      "was_sagt_es_uns": "Spektrum-Form: OK."
+    },
+    {
+      "name": "T4_centroid",
+      "pass": false,
+      "befund": "ratio=0.773",
+      "was_sagt_es_uns": "Centroid: daneben."
+    },
+    {
+      "name": "T5_wave_corr",
+      "pass": false,
+      "befund": "wave_corr=-0.009",
+      "was_sagt_es_uns": "Wellenform: NULL."
+    }
+  ],
+  "verdict": "V18 Phase 52: 2/5 PASS. r=0.865, wave_corr=-0.009, ratio=0.773."
+}
