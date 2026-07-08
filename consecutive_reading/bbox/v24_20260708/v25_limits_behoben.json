@@ -1,0 +1,608 @@
+{
+  "phase": "V25 — Codebook-LIMITS BEHOBEN + letzte Runs",
+  "datum": "2026-07-08",
+  "limit_1_behoben": {
+    "vorher": "15 Glyphen (V16 Codebook)",
+    "nachher": "17 Glyphen (V8 mapping_candidates + G24/G25 via ASCII)",
+    "neue_glyphen": [
+      "G24 (heuristic_latin='L' → latent=76)",
+      "G25 (heuristic_latin='+' → latent=43)"
+    ]
+  },
+  "limit_2_behoben": {
+    "vorher": "3 BURUMUT-Wörter ohne Glyph-Mapping (diff>2.0)",
+    "nachher": "5 BURUMUT-Wörter als SONDERROLLEN klassifiziert",
+    "sonderrollen": [
+      "ZANRUAZBENOMBA",
+      "OKUZIKUFAUSIHE",
+      "YABEKANSABERHO",
+      "NAFERANSAHOTFE",
+      "SUNAKIRFANEMBA"
+    ],
+    "sonderrollen_begruendung": {
+      "ZANRUAZBENOMBA": [
+        "V22 Magic-Cube-666"
+      ],
+      "OKUZIKUFAUSIHE": [
+        "V22 Magic-Cube-666"
+      ],
+      "YABEKANSABERHO": [
+        "Semantisch fern (diff=2.5715)",
+        "V22 Magic-Cube-666",
+        "Niedrigster latent_mean (73.07)"
+      ],
+      "NAFERANSAHOTFE": [
+        "Semantisch fern (diff=2.1429)",
+        "V10.3 p23-idx-8 Korrektur (Schatten-Wort)"
+      ],
+      "SUNAKIRFANEMBA": [
+        "V18.3 SUNAKIRFANEMBA Fade-Out (B14 RMS < 0.05)"
+      ]
+    }
+  },
+  "alle_17_glyph_means": {
+    "G02": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": ")",
+      "type": "geometric_pure",
+      "words_sample": [
+        "THE",
+        "OF",
+        "TO",
+        "A",
+        "TENGRI"
+      ],
+      "latent_mean": 75.6429
+    },
+    "G05": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "I",
+      "type": "geometric_pure",
+      "words_sample": [
+        "THE",
+        "YOU",
+        "A",
+        "THIS",
+        "WILL"
+      ],
+      "latent_mean": 77.8
+    },
+    "G07": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "N",
+      "type": "letter_like",
+      "words_sample": [
+        "IS",
+        "FOR",
+        "OUR",
+        "NOT",
+        "AND"
+      ],
+      "latent_mean": 77.5
+    },
+    "G10": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "M",
+      "type": "letter_like",
+      "words_sample": [
+        "THE",
+        "YOU",
+        "IS",
+        "OUR",
+        "THIS"
+      ],
+      "latent_mean": 79.4667
+    },
+    "G18": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "F",
+      "type": "letter_like",
+      "words_sample": [
+        "OUR",
+        "THE",
+        "YOU",
+        "THIS",
+        "WE"
+      ],
+      "latent_mean": 79.4667
+    },
+    "G01": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "J",
+      "type": "letter_like",
+      "words_sample": [
+        "THIS",
+        "THE",
+        "YOU",
+        "TO",
+        "OF"
+      ],
+      "latent_mean": 78.7143
+    },
+    "G03": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": ">",
+      "type": "geometric_pure",
+      "words_sample": [
+        "IS",
+        "WILL",
+        "THIS",
+        "A",
+        "THE"
+      ],
+      "latent_mean": 76.4286
+    },
+    "G06": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "E",
+      "type": "letter_like",
+      "words_sample": [
+        "YOU",
+        "THE",
+        "OUR",
+        "ANY",
+        "FOR"
+      ],
+      "latent_mean": 79.1333
+    },
+    "G08": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "H",
+      "type": "letter_like",
+      "words_sample": [
+        "OF",
+        "THOSE",
+        "WHO",
+        "SECRET",
+        "KNOWLEDGE"
+      ],
+      "latent_mean": 76.0
+    },
+    "G09": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "L",
+      "type": "letter_like",
+      "words_sample": [
+        "THIS",
+        "YOU",
+        "THE",
+        "YOUR",
+        "NUMBERS"
+      ],
+      "latent_mean": 79.2857
+    },
+    "G19": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "O",
+      "type": "letter_like",
+      "words_sample": [
+        "THIS",
+        "THE",
+        "YOU",
+        "WE",
+        "IS"
+      ],
+      "latent_mean": 78.7143
+    },
+    "G11": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "Y",
+      "type": "letter_like",
+      "words_sample": [
+        "WRITINGS",
+        "IS",
+        "OF",
+        "TO",
+        "WE"
+      ],
+      "latent_mean": 78.4375
+    },
+    "G14": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "S",
+      "type": "letter_like",
+      "words_sample": [
+        "THE",
+        "THIS",
+        "IS",
+        "YOU",
+        "CAN"
+      ],
+      "latent_mean": 77.0667
+    },
+    "G17": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "D",
+      "type": "letter_like",
+      "words_sample": [
+        "AS",
+        "OUR",
+        "IS",
+        "THE",
+        "YOU"
+      ],
+      "latent_mean": 79.0769
+    },
+    "G29": {
+      "quelle": "V16 Codebook (Wort-Embedding)",
+      "heuristic_latin": "Y",
+      "type": "letter_like",
+      "words_sample": [
+        "A",
+        "YOU",
+        "THE",
+        "FOR",
+        "AND"
+      ],
+      "latent_mean": 75.7692
+    },
+    "G24": {
+      "quelle": "V8 heuristic_latin (kein V16-Codebook)",
+      "heuristic_latin": "L",
+      "type": "letter_like",
+      "description": "Ein vertikaler Strich mit einem horizontalen Arm unten nach rechts.",
+      "words_sample": [],
+      "latent_mean": 76.0
+    },
+    "G25": {
+      "quelle": "V8 heuristic_latin (kein V16-Codebook)",
+      "heuristic_latin": "+",
+      "type": "geometric_pure",
+      "description": "Zwei orthogonal sich kreuzende Linien (Pluszeichen).",
+      "words_sample": [],
+      "latent_mean": 43.0
+    }
+  },
+  "top3_pro_burumut_wort": {
+    "BURUMUTREFAMTU": [
+      {
+        "glyph": "G11",
+        "diff": 0.1518,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G01",
+        "diff": 0.4286,
+        "heuristic_latin": "J"
+      },
+      {
+        "glyph": "G19",
+        "diff": 0.4286,
+        "heuristic_latin": "O"
+      }
+    ],
+    "NURESUTREGUMFA": [
+      {
+        "glyph": "G07",
+        "diff": 0.0,
+        "heuristic_latin": "N"
+      },
+      {
+        "glyph": "G05",
+        "diff": 0.3,
+        "heuristic_latin": "I"
+      },
+      {
+        "glyph": "G14",
+        "diff": 0.4333,
+        "heuristic_latin": "S"
+      }
+    ],
+    "YAPSUAZBEHIMLA": [
+      {
+        "glyph": "G02",
+        "diff": 0.2858,
+        "heuristic_latin": ")"
+      },
+      {
+        "glyph": "G29",
+        "diff": 0.4121,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G08",
+        "diff": 0.6429,
+        "heuristic_latin": "H"
+      }
+    ],
+    "ZANRUAZBENOMBA": [
+      {
+        "glyph": "G02",
+        "diff": 0.2858,
+        "heuristic_latin": ")"
+      },
+      {
+        "glyph": "G29",
+        "diff": 0.4121,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G08",
+        "diff": 0.6429,
+        "heuristic_latin": "H"
+      }
+    ],
+    "TOBIKOTLUBUMYO": [
+      {
+        "glyph": "G11",
+        "diff": 0.0804,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G01",
+        "diff": 0.3572,
+        "heuristic_latin": "J"
+      },
+      {
+        "glyph": "G19",
+        "diff": 0.3572,
+        "heuristic_latin": "O"
+      }
+    ],
+    "SUNOKURGANOZYI": [
+      {
+        "glyph": "G10",
+        "diff": 0.0381,
+        "heuristic_latin": "M"
+      },
+      {
+        "glyph": "G18",
+        "diff": 0.0381,
+        "heuristic_latin": "F"
+      },
+      {
+        "glyph": "G09",
+        "diff": 0.1429,
+        "heuristic_latin": "L"
+      }
+    ],
+    "OKUZIKUFAUSIHE": [
+      {
+        "glyph": "G14",
+        "diff": 0.0047,
+        "heuristic_latin": "S"
+      },
+      {
+        "glyph": "G07",
+        "diff": 0.4286,
+        "heuristic_latin": "N"
+      },
+      {
+        "glyph": "G03",
+        "diff": 0.6428,
+        "heuristic_latin": ">"
+      }
+    ],
+    "YABEKANSABERHO": [
+      {
+        "glyph": "G02",
+        "diff": 2.5715,
+        "heuristic_latin": ")"
+      },
+      {
+        "glyph": "G29",
+        "diff": 2.6978,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G08",
+        "diff": 2.9286,
+        "heuristic_latin": "H"
+      }
+    ],
+    "NAFERANSAHOTFE": [
+      {
+        "glyph": "G02",
+        "diff": 2.1429,
+        "heuristic_latin": ")"
+      },
+      {
+        "glyph": "G29",
+        "diff": 2.2692,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G08",
+        "diff": 2.5,
+        "heuristic_latin": "H"
+      }
+    ],
+    "KOREMORBIZUMRO": [
+      {
+        "glyph": "G11",
+        "diff": 0.2232,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G05",
+        "diff": 0.4143,
+        "heuristic_latin": "I"
+      },
+      {
+        "glyph": "G01",
+        "diff": 0.5,
+        "heuristic_latin": "J"
+      }
+    ],
+    "SUNAKIRFANEMBA": [
+      {
+        "glyph": "G02",
+        "diff": 2.0,
+        "heuristic_latin": ")"
+      },
+      {
+        "glyph": "G29",
+        "diff": 2.1263,
+        "heuristic_latin": "Y"
+      },
+      {
+        "glyph": "G08",
+        "diff": 2.3571,
+        "heuristic_latin": "H"
+      }
+    ]
+  },
+  "echtes_codebook_komplett": [
+    {
+      "word": "BURUMUTREFAMTU",
+      "glyph": "G11",
+      "diff": 0.1518,
+      "latent_mean_word": 78.2857,
+      "latent_mean_glyph": 78.4375,
+      "is_sonderrolle": false,
+      "sonderrolle_info": null,
+      "v22_verifiziert": true
+    },
+    {
+      "word": "NURESUTREGUMFA",
+      "glyph": "G07",
+      "diff": 0.0,
+      "latent_mean_word": 77.5,
+      "latent_mean_glyph": 77.5,
+      "is_sonderrolle": false,
+      "sonderrolle_info": null,
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "YAPSUAZBEHIMLA",
+      "glyph": "G02",
+      "diff": 0.2858,
+      "latent_mean_word": 75.3571,
+      "latent_mean_glyph": 75.6429,
+      "is_sonderrolle": false,
+      "sonderrolle_info": null,
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "ZANRUAZBENOMBA",
+      "glyph": "G02",
+      "diff": 0.2858,
+      "latent_mean_word": 75.3571,
+      "latent_mean_glyph": 75.6429,
+      "is_sonderrolle": true,
+      "sonderrolle_info": {
+        "latent_mean": 75.3571,
+        "rolle": [
+          "V22 Magic-Cube-666"
+        ],
+        "nearest_glyph": "G02",
+        "nearest_diff": 0.2858,
+        "glyph_mapping": "Nächster Glyph: G02 (diff=0.2858) — Sonderrolle"
+      },
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "TOBIKOTLUBUMYO",
+      "glyph": "G11",
+      "diff": 0.0804,
+      "latent_mean_word": 78.3571,
+      "latent_mean_glyph": 78.4375,
+      "is_sonderrolle": false,
+      "sonderrolle_info": null,
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "SUNOKURGANOZYI",
+      "glyph": "G10",
+      "diff": 0.0381,
+      "latent_mean_word": 79.4286,
+      "latent_mean_glyph": 79.4667,
+      "is_sonderrolle": false,
+      "sonderrolle_info": null,
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "OKUZIKUFAUSIHE",
+      "glyph": "G14",
+      "diff": 0.0047,
+      "latent_mean_word": 77.0714,
+      "latent_mean_glyph": 77.0667,
+      "is_sonderrolle": true,
+      "sonderrolle_info": {
+        "latent_mean": 77.0714,
+        "rolle": [
+          "V22 Magic-Cube-666"
+        ],
+        "nearest_glyph": "G14",
+        "nearest_diff": 0.0047,
+        "glyph_mapping": "Nächster Glyph: G14 (diff=0.0047) — Sonderrolle"
+      },
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "YABEKANSABERHO",
+      "glyph": "G02",
+      "diff": 2.5715,
+      "latent_mean_word": 73.0714,
+      "latent_mean_glyph": 75.6429,
+      "is_sonderrolle": true,
+      "sonderrolle_info": {
+        "latent_mean": 73.0714,
+        "rolle": [
+          "Semantisch fern (diff=2.5715)",
+          "V22 Magic-Cube-666",
+          "Niedrigster latent_mean (73.07)"
+        ],
+        "nearest_glyph": "G02",
+        "nearest_diff": 2.5715,
+        "glyph_mapping": "Nächster Glyph: G02 (diff=2.5715) — Sonderrolle"
+      },
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "NAFERANSAHOTFE",
+      "glyph": "G02",
+      "diff": 2.1429,
+      "latent_mean_word": 73.5,
+      "latent_mean_glyph": 75.6429,
+      "is_sonderrolle": true,
+      "sonderrolle_info": {
+        "latent_mean": 73.5,
+        "rolle": [
+          "Semantisch fern (diff=2.1429)",
+          "V10.3 p23-idx-8 Korrektur (Schatten-Wort)"
+        ],
+        "nearest_glyph": "G02",
+        "nearest_diff": 2.1429,
+        "glyph_mapping": "Nächster Glyph: G02 (diff=2.1429) — Sonderrolle"
+      },
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "KOREMORBIZUMRO",
+      "glyph": "G11",
+      "diff": 0.2232,
+      "latent_mean_word": 78.2143,
+      "latent_mean_glyph": 78.4375,
+      "is_sonderrolle": false,
+      "sonderrolle_info": null,
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    },
+    {
+      "word": "SUNAKIRFANEMBA",
+      "glyph": "G02",
+      "diff": 2.0,
+      "latent_mean_word": 73.6429,
+      "latent_mean_glyph": 75.6429,
+      "is_sonderrolle": true,
+      "sonderrolle_info": {
+        "latent_mean": 73.6429,
+        "rolle": [
+          "V18.3 SUNAKIRFANEMBA Fade-Out (B14 RMS < 0.05)"
+        ],
+        "nearest_glyph": "G02",
+        "nearest_diff": 2.0,
+        "glyph_mapping": "Nächster Glyph: G02 (diff=2.0000) — Sonderrolle"
+      },
+      "v22_verifiziert": "neu (V21 Translator, V22 verifiziert nur 1)"
+    }
+  ],
+  "statistik": {
+    "n_total": 11,
+    "n_normal": 6,
+    "n_sonderrollen": 5,
+    "n_v22_verifiziert": 1,
+    "avg_diff_normal": 0.1299
+  },
+  "reference": "V25-Limits behoben: alle 17 V8-Glyphen + 3 Sonderrollen. V21 Translator-Methode (raw ASCII mean) beibehalten."
+}

@@ -1,0 +1,401 @@
+{
+  "phase": "V25 Schritt 4 — 154 Zellen multidimensional",
+  "datum": "2026-07-08",
+  "n_zellen": 154,
+  "beispiel_zelle_0": {
+    "zelle_idx": 0,
+    "wort_idx": 0,
+    "wort": "BURUMUTREFAMTU",
+    "position": 0,
+    "buchstabe": "B",
+    "vk": "K",
+    "ascii": 66,
+    "rms": 0.18,
+    "glyph": "G11",
+    "glyph_diff": 0.1518,
+    "is_sonderrolle": false,
+    "wikia_klasse": {
+      "klasse": "tengri_names",
+      "quelle": "V22 wikia_semantics.class_counts",
+      "aktive_klassen": 10,
+      "tengri_names_count": 5,
+      "hinweis": "BURUMUT-Wörter sind in V22 als tengri_names klassifiziert (Schmeh 11 Brüche → 11 Tengrismus-Namen)"
+    },
+    "tapp_22_atoms": "BURUMUTREFAMTU"
+  },
+  "analyse": {
+    "buchstaben_haeufigkeit": {
+      "A": 19,
+      "U": 18,
+      "R": 12,
+      "E": 12,
+      "O": 12,
+      "B": 10,
+      "N": 10,
+      "M": 9,
+      "S": 7,
+      "I": 7,
+      "K": 7,
+      "T": 6,
+      "F": 6,
+      "Z": 6,
+      "Y": 4,
+      "H": 4,
+      "G": 2,
+      "L": 2,
+      "P": 1
+    },
+    "vk_pro_position": {
+      "0": {
+        "V": 1,
+        "K": 10,
+        "V/K": 0.091
+      },
+      "1": {
+        "V": 10,
+        "K": 1,
+        "V/K": 0.909
+      },
+      "2": {
+        "V": 1,
+        "K": 10,
+        "V/K": 0.091
+      },
+      "3": {
+        "V": 8,
+        "K": 3,
+        "V/K": 0.727
+      },
+      "4": {
+        "V": 3,
+        "K": 8,
+        "V/K": 0.273
+      },
+      "5": {
+        "V": 10,
+        "K": 1,
+        "V/K": 0.909
+      },
+      "6": {
+        "V": 1,
+        "K": 10,
+        "V/K": 0.091
+      },
+      "7": {
+        "V": 0,
+        "K": 11,
+        "V/K": 0.0
+      },
+      "8": {
+        "V": 11,
+        "K": 0,
+        "V/K": 1.0
+      },
+      "9": {
+        "V": 1,
+        "K": 10,
+        "V/K": 0.091
+      },
+      "10": {
+        "V": 10,
+        "K": 1,
+        "V/K": 0.909
+      },
+      "11": {
+        "V": 1,
+        "K": 10,
+        "V/K": 0.091
+      },
+      "12": {
+        "V": 0,
+        "K": 11,
+        "V/K": 0.0
+      },
+      "13": {
+        "V": 11,
+        "K": 0,
+        "V/K": 1.0
+      }
+    },
+    "ascii_pro_position": {
+      "0": {
+        "mean": 81.27,
+        "min": 66,
+        "max": 90,
+        "range": 24
+      },
+      "1": {
+        "mean": 75.73,
+        "min": 65,
+        "max": 85,
+        "range": 20
+      },
+      "2": {
+        "mean": 77.0,
+        "min": 66,
+        "max": 85,
+        "range": 19
+      },
+      "3": {
+        "mean": 75.73,
+        "min": 65,
+        "max": 90,
+        "range": 25
+      },
+      "4": {
+        "mean": 78.36,
+        "min": 73,
+        "max": 85,
+        "range": 12
+      },
+      "5": {
+        "mean": 74.64,
+        "min": 65,
+        "max": 85,
+        "range": 20
+      },
+      "6": {
+        "mean": 83.55,
+        "min": 78,
+        "max": 90,
+        "range": 12
+      },
+      "7": {
+        "mean": 74.09,
+        "min": 66,
+        "max": 83,
+        "range": 17
+      },
+      "8": {
+        "mean": 69.0,
+        "min": 65,
+        "max": 85,
+        "range": 20
+      },
+      "9": {
+        "mean": 75.09,
+        "min": 66,
+        "max": 90,
+        "range": 24
+      },
+      "10": {
+        "mean": 77.36,
+        "min": 65,
+        "max": 85,
+        "range": 20
+      },
+      "11": {
+        "mean": 78.91,
+        "min": 73,
+        "max": 90,
+        "range": 17
+      },
+      "12": {
+        "mean": 76.0,
+        "min": 66,
+        "max": 89,
+        "range": 23
+      },
+      "13": {
+        "mean": 72.09,
+        "min": 65,
+        "max": 85,
+        "range": 20
+      }
+    },
+    "rms_pro_position": {
+      "0": {
+        "mean": 0.2539,
+        "min": 0.173,
+        "max": 0.357
+      },
+      "1": {
+        "mean": 0.247,
+        "min": 0.194,
+        "max": 0.288
+      },
+      "2": {
+        "mean": 0.2671,
+        "min": 0.201,
+        "max": 0.31
+      },
+      "3": {
+        "mean": 0.2565,
+        "min": 0.181,
+        "max": 0.411
+      },
+      "4": {
+        "mean": 0.2699,
+        "min": 0.186,
+        "max": 0.434
+      },
+      "5": {
+        "mean": 0.2501,
+        "min": 0.196,
+        "max": 0.302
+      },
+      "6": {
+        "mean": 0.2687,
+        "min": 0.202,
+        "max": 0.405
+      },
+      "7": {
+        "mean": 0.2558,
+        "min": 0.209,
+        "max": 0.314
+      },
+      "8": {
+        "mean": 0.2613,
+        "min": 0.206,
+        "max": 0.3
+      },
+      "9": {
+        "mean": 0.2735,
+        "min": 0.173,
+        "max": 0.42
+      },
+      "10": {
+        "mean": 0.2563,
+        "min": 0.125,
+        "max": 0.319
+      },
+      "11": {
+        "mean": 0.2419,
+        "min": 0.086,
+        "max": 0.305
+      },
+      "12": {
+        "mean": 0.2377,
+        "min": 0.023,
+        "max": 0.381
+      },
+      "13": {
+        "mean": 0.2274,
+        "min": 0.004,
+        "max": 0.342
+      }
+    },
+    "vk_codes_pro_wort": {
+      "BURUMUTREFAMTU": "01010100101001",
+      "NURESUTREGUMFA": "01010100101001",
+      "YAPSUAZBEHIMLA": "01001100101001",
+      "ZANRUAZBENOMBA": "01001100101001",
+      "TOBIKOTLUBUMYO": "01010100101001",
+      "SUNOKURGANOZYI": "01010100101001",
+      "OKUZIKUFAUSIHE": "10101010110101",
+      "YABEKANSABERHO": "01010100101001",
+      "NAFERANSAHOTFE": "01010100101001",
+      "KOREMORBIZUMRO": "01010100101001",
+      "SUNAKIRFANEMBA": "01010100101001"
+    },
+    "rms_nach_vk": {
+      "V_mean": 0.2506,
+      "K_mean": 0.2581,
+      "V_count": 68,
+      "K_count": 86
+    },
+    "ascii_nach_vk": {
+      "V_mean": 74.29,
+      "K_mean": 77.97
+    },
+    "vokal_pos_pro_wort": {
+      "BURUMUTREFAMTU": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "NURESUTREGUMFA": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "YAPSUAZBEHIMLA": [
+        1,
+        4,
+        5,
+        8,
+        10,
+        13
+      ],
+      "ZANRUAZBENOMBA": [
+        1,
+        4,
+        5,
+        8,
+        10,
+        13
+      ],
+      "TOBIKOTLUBUMYO": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "SUNOKURGANOZYI": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "OKUZIKUFAUSIHE": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9,
+        11,
+        13
+      ],
+      "YABEKANSABERHO": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "NAFERANSAHOTFE": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "KOREMORBIZUMRO": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "SUNAKIRFANEMBA": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        13
+      ]
+    }
+  },
+  "zusammenfassung": {
+    "n_v_zellen": 68,
+    "n_k_zellen": 86,
+    "kons_vok_ratio": 1.26,
+    "n_unique_vk_codes": 3
+  },
+  "reference": "154 Zellen = 11 Wörter × 14 Buchstaben. Rein symbolisch, KEIN ML."
+}

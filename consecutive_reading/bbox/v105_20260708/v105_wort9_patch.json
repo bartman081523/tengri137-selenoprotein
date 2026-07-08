@@ -1,0 +1,29 @@
+{
+  "phase": "V10.5 — p23 Wort 9 Korrektur (KOREMORBIZUMRO → KORENORBIZUMRO)",
+  "datum": "2026-07-08",
+  "grund": "V10.4 grid_2d_words[9] hatte M statt N an Position 4. Wikia-Reference (= BURUMUT-Wörter rückwärts) zeigt klar: KORENORBIZUMRO. Original-P23.png bestätigt visuell.",
+  "beweis": {
+    "wikia_reference[9]": "O R N U Z I B R O M E R O K = KORENORBIZUMRO rückwärts",
+    "wikia_reference[9] (V10.4 grid_2d_words[9])": "KOREMORBIZUMRO rückwärts = O R M U Z I B R O M E R O K (FALSCH)",
+    "original_P023_png": "Annotation-Zeile unter BURUMUT-Wort 9 zeigt N (nicht M)"
+  },
+  "v10_4_backup": "bbox/v104_20260708/tengri137_complete_decoded_v104_v10_5_backup.json",
+  "korrektur": {
+    "wort_9_vorher": "KOREMORBIZUMRO",
+    "wort_9_nachher": "KORENORBIZUMRO",
+    "geaenderte_felder": [
+      "grid_2d_words[9]",
+      "english_text",
+      "english_text_compact_row_ltr"
+    ]
+  },
+  "construct_korrektur": {
+    "n_geaendert": 1,
+    "construct_path": "bbox/v24_20260708/v24_burumut_construct.json"
+  },
+  "verifikation": {
+    "alle_11_match": true,
+    "n_uebereinstimmungen": 11
+  },
+  "konsequenzen_fuer_V22_V25": "V22 burumut_words[8] = NANPSSGNNRCSSSE ist V9 v2-Fälschung (V10.4 hat NAFERANSAHOTFE). V22 ist veraltet und sollte erneuert werden. V25 Limits-Behoben basiert auf V10.4 + Construct, also korrekt — nur die Codebook-Mapping-Werte für KORENORBIZUMRO sind minimal anders (N hat ASCII 78 statt M=77, latent_mean = 78.07 statt 77.93, diff zu G11 = 0.37 statt 0.22)."
+}
