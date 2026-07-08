@@ -1,0 +1,24 @@
+{
+  "datum": "2026-07-08",
+  "agent": "stufe_27_agent (consecutive_research)",
+  "v22_korrektur_empfangen": true,
+  "selbst_falsifikation": {
+    "alte_behauptung": "Spalte 11 = SUNAKIRFANEMBA (Selbst-Referenz)",
+    "realit\u00e4t": "Spalte 11 = AUIOUOSEOUE (vokal-dominant)",
+    "ursache": "Index-Verwechslung zwischen 14-Spalten-Liste und 11-W\u00f6rter-Liste",
+    "eigener_apophenie_check_hatte_bereits_false": true,
+    "methodisches_fazit": "CitMind hat versagt \u2014 ich habe meinen eigenen Apophenie-Check ignoriert"
+  },
+  "korrigierte_befunde": {
+    "spalte_11": "AUIOUOSEOUE",
+    "spalte_11_kons": 1,
+    "spalte_11_vok": 10,
+    "spalte_11_kv_ratio": 0.1,
+    "echte_selbst_referenz": "BNYZTSOYNKS = 11 erste Buchstaben der 11 BURUMUT-W\u00f6rter"
+  },
+  "v22_outputs": {
+    "v10.2_master": "bbox/v102_20260708/tengri137_complete_decoded_v102.json",
+    "v10.2_bilanz": "bbox/v102_20260708/V10.2_FINAL_BILANZ.md",
+    "v10.2_commit": "7b3ef4b"
+  }
+}

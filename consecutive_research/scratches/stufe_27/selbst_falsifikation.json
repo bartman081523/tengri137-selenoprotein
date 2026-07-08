@@ -1,0 +1,32 @@
+{
+  "fehler_in_message_hub": {
+    "behauptung": "Spalte 11 (vertikal) = SUNAKIRFANEMBA = letztes BURUMUT-Wort",
+    "realit\u00e4t": "Spalte 11 (vertikal, Index 10) = AUIOUOSEOUE \u2260 SUNAKIRFANEMBA",
+    "ursache": "Index-Verwechslung: Spalte 11 hat Index 10 in 14-Spalten-Liste; Wort 11 hat Index 10 in 11-W\u00f6rter-Liste. Verschiedene Achsen.",
+    "v22_korrektur": true
+  },
+  "korrekte_daten": {
+    "spalten_14": [
+      "BNYZTSOYNKS",
+      "UUAAOUKAAOU",
+      "RRPNBNUBFRN",
+      "UESRIOZEEEA",
+      "MSUUKKIKRMK",
+      "UUAAOUKAAOI",
+      "TTZZTRUNNRR",
+      "RRBBLGFSSBF",
+      "EEEEUAAAAIA",
+      "FGHNBNUBHZN",
+      "AUIOUOSEOUE",
+      "MMMMMZIRTMM",
+      "TFLBYYHHFRB",
+      "UAAAOIEOEOA"
+    ],
+    "spalte_11_vertikal": "AUIOUOSEOUE",
+    "wort_11_horizontal": "SUNAKIRFANEMBA"
+  },
+  "echte_selbst_referenz": {
+    "spalte_matches_wort": [],
+    "spalte_reverse_matches_wort": []
+  }
+}
