@@ -50,17 +50,32 @@ Spalte 12-14: 33 Buchstaben jenseits BURUMUT
 Wikia: "WE HAVE EMBEDDED THESE SKILLS IN **OURR** GENES"
 → Schmehs doppeltes R ist real in der Spalten-Lesart codiert.
 
-### 3. Spalte 11 = 11. BURUMUT-Wort (Selbst-Referenz)
+### 3. ~~Spalte 11 = 11. BURUMUT-Wort (Selbst-Referenz)~~ — SELBST-FALSIFIZIERT 2026-07-08
 
-`SUNAKIRFANEMBA` = letztes BURUMUT-Wort = 11. Spalte vertikal
-→ Die 11. Spalte schließt die BURUMUT-Wortliste (vertikale Wiederholung)
+**URSPRÜNGLICHE BEHAUPTUNG (FALSCH):** "Spalte 11 = SUNAKIRFANEMBA (Selbst-Referenz)"
+**KORRIGIERT:** "Spalte 11 = AUIOUOSEOUE (vokal-dominant, 91% Vokale)"
+
+V22-Agent hat diesen Fehler gefunden. Ursache: Index-Verwechslung zwischen
+14-Spalten-Liste (Index 10) und 11-Wörter-Liste (Index 10) — beides
+verschiedene Achsen des 2D-Grids.
+
+**Echte Selbst-Referenz:** BNYZTSOYNKS = 11 erste Buchstaben der 11 BURUMUT-Wörter
+(V12/V15 p<10⁻¹³, in BEIDEN Achsen identisch).
 
 ### 4. Struktur-Symmetrie
 
-**K/V-Ratio in beiden Lesarten exakt 1.14** (82/72).
+**K/V-Ratio in beiden Lesarten (V22-Korrektur):**
+- H (horizontal) = 1.265
+- V (vertikal) = 1.161
+- |Δ| = 0.104 < 0.2 (Toleranz) → strukturelle Symmetrie **leicht abweichend** (nicht exakt 1.14)
+
 Buchstaben-Frequenz A (38x), U (36x), R/E/O (24x).
 Chi² gegen Gleichverteilung = 181.08 (df=25, p<<0.05).
-→ Stark ungleichverteilt, aber konsistent in beiden Lesarten.
+→ Stark ungleichverteilt.
+
+**Spalte 11 (AUIOUOSEOUE) ist vokal-dominant** (K/V=0.10) — eine echte
+Anomalie im BURUMUT-Bereich. Die BURUMUT-Spalten 2, 4, 9/14, 11 sind
+vokal-dominiert, der Rest konsonantisch.
 
 ### 5. Monte-Carlo-Signifikanz
 
@@ -136,6 +151,30 @@ P(11/11 BURUMUT-Wörter in Zufalls-Grid mit gleicher Buchstabenverteilung) = **0
 - in derselben Text-Architektur (vertikal) BNYZTSOYNKS-Akrostichon trägt
 - auf p23_R17 Cytosin + Thymin (chemische Strukturformeln) zeigt
 - in der Wikia-Übersetzung "OURR GENES" / "GENETICALLY ENCRYPTED" thematisiert
+
+---
+
+## H. V10.2 Cross-Validation (2026-07-08)
+
+V22-Agent hat V10.2 Master-JSON erstellt (`bbox/v102_20260708/`, Commit `7b3ef4b`):
+
+- ✅ V10.1 "zeilenweise rückwärts" FALSIFIZIERT (V10.1 english_text war row_rtl-Codierungsfehler)
+- ✅ Schmehs BURUMUT = `row_ltr` (V10.2 korrigiert)
+- ✅ 2D-Grid empirisch verifiziert: H=1.265, V=1.161 (Toleranz 0.2)
+- ✅ V22 + V18.1 konsistent (BURUMUTREFAMTU als Segment 1)
+- ❌ Stufe 27 "Spalte 11 = SUNAKIRFANEMBA" — SELBST-FALSIFIZIERT durch V22
+
+**Apophenia-Liste erweitert:**
+| Stufe | Behauptung | Status |
+|-------|------------|--------|
+| 27-A | V10.1 "zeilenweise rückwärts" | FALSCH (Codierungsfehler in V10.1) |
+| 27-D | "Spalte 11 = SUNAKIRFANEMBA" | FALSCH (Index-Verwechslung) |
+| 17-26 | Alle AS/DNA-Hypothesen | FALSCH (BURUMUT = lateinisch) |
+
+**Output-Dateien ergänzt:**
+- `selbst_falsifikation.json` — Selbst-Falsifikation dokumentiert
+- `korrektur_message_hub.json` — Korrektur-Befund
+- `2026-07-08_stufe27_antwort_an_v22.md` (in `message_hub/`) — Antwort an V22
 
 **Die biochemische Interpretation (BURUMUT als Selenoprotein, DNA-codiert, 462 Basen) war ein faszinierender, aber empirisch nicht haltbarer Apophenie-Befund** — V10.1 hat sie als Projektion entlarvt.
 
