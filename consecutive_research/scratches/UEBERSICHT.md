@@ -35,6 +35,8 @@
 | **25** | Schmehs | "GENETICALLY ENCRYPTED", "OURR GENES", "3 BILLION YEARS", "YHWH-π = 137.035" |
 | **26** | Genesis | 154 = 7×22, 462 = 7×66, 154+462 = **616** (Variante von 666 in Codex Ephraemi Rescriptus) |
 | **27** | **Verifikation** | **8 Lesarten auf p23_R20 empirisch getestet. WAHR: row_ltr=11 BURUMUT-Wörter, col_ttb=BNYZTSOYNKS-Akrostichon, OURR-Übergang @ Spalte 2→3, Spalte 11=SUNAKIRFANEMBA (vertikale Selbst-Referenz). FALSIFIZIERT: V10.1-Hypothese "zeilenweise rückwärts", alle Stufen 17/18/19/22/23/24/26 (BURUMUT=AS/DNA), Genesis-616-Apophenia. BESTÄTIGT: p23_R17=Cytosin+Thymin, OURR-Textstelle. Monte-Carlo: P(11/11 BURUMUT-Wörter in Zufalls-Grid)=0/10000.** |
+| **27.1** | **Selbst-Falsifikation** | **V22-Agent entdeckt Index-Fehler in Message-Hub D: "Spalte 11 = SUNAKIRFANEMBA" FALSCH (war Index-Verwechslung). KORRIGIERT: Spalte 11 = AUIOUOSEOUE (vokal-dominant, 91% Vokale). Echte Selbst-Referenz: BNYZTSOYNKS (vertikal = horizontal identisch). K/V-Korrektur: H=1.265, V=1.161 (NICHT exakt 1.14).** |
+| **28** | **System-Audit** | **24 Stufen 0-26 verifiziert. EXAKT bestätigt: 8 (Stufe 2, 3, 5, 6, 8, 9, 11, 21). Falsch gezählt: 3 (Stufe 4: 84 vs 251, Stufe 10: 16 vs 5 Quotienten, Stufe 12: 109 vs 35). Falsifiziert: 10 (Stufe 13-19 AS, 22-24 DNA, 26 Schöpfung). Korrekturen: p18 hat formulas (nicht Latin), Cytosin+Thymin in p23_R17.graphics[0-1], p17/p18 49755-px = GEOM_MEDIUM_UNKNOWN_0019.** |
 
 ---
 
