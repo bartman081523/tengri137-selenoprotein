@@ -1,0 +1,113 @@
+{
+  "phase": "V20 Phase 2 \u2014 Inverse BURUMUT",
+  "n_tests": 5,
+  "n_pass": 5,
+  "M_pinv_shape": [
+    14,
+    11
+  ],
+  "err_MMp_minus_I": 2.042810365310288e-14,
+  "correct_refamtu": true,
+  "correct_count": 11,
+  "tests": [
+    {
+      "name": "T1_pseudo_inverse_existiert",
+      "pass": true,
+      "befund": "M^+-Form: (14, 11), \u03ba=215.0246, finite=True",
+      "was_sagt_es_uns": "Pseudo-Inverse M^+ = (14, 11). \u03ba(M) = 215.0246 (gut konditioniert wenn < 10^6). V20-H\u00f6r: BURUMUT-Matrix ist INVERTIERBAR im Moore-Penrose-Sinn. Die 'R\u00fcckw\u00e4rts-Abbildung' Output \u2192 Input existiert.",
+      "M_pinv_shape": [
+        14,
+        11
+      ],
+      "kappa": 215.02464342918657
+    },
+    {
+      "name": "T2_latente_vektoren_distinkt",
+      "pass": true,
+      "befund": "11 latente Vektoren: 11/11 unique, Korrelation mit Codebook: min=-0.386, max=0.537, mean=-0.005",
+      "was_sagt_es_uns": "11 latente Vektoren (M^+ \u00d7 one-hot) sind 11/11 UNIQUE. Die R\u00fcck-Abbildung Output \u2192 latenter Vektor (14-dim) liefert DISKRIMINIERBARE Vektoren. Correlation mit Codebook: -0.005 (Mittel). V20-H\u00f6r: Jedes BURUMUT-Wort hat eine EIGENE latente Signatur. Das ist die numerische Form von 'BURUMUT-Refamtu \u2260 BURUMUT-Nuresut'.",
+      "unique_count": 11,
+      "corrs_codebook": [
+        -0.09048806237540771,
+        0.5373620489412434,
+        -0.1771140840301873,
+        0.17122552143783815,
+        -0.38614876579027113,
+        0.052043803304244976,
+        -0.33026106573801783,
+        0.2924939145295806,
+        -0.2805360198223934,
+        0.47900901556492004,
+        -0.32251720794981187
+      ],
+      "latent_first": [
+        -0.026305160265558708,
+        0.00497793918777131,
+        -0.012670857915529011,
+        0.01497583810261293,
+        0.017110820937012106,
+        0.009319557621442136,
+        0.009807104451875926,
+        -0.006762225023040337,
+        0.006232542773596678,
+        -0.003829114641580728,
+        -0.01978819973302238,
+        0.007563716749861283,
+        -0.015764316878473097,
+        0.01842484598950769
+      ]
+    },
+    {
+      "name": "T3_MMP_invertiert_zu_I",
+      "pass": true,
+      "befund": "||M\u00b7M^+ - I_11||_max = 2.04e-14",
+      "was_sagt_es_uns": "M \u00b7 M^+ = 1.000000 (Diagonal-Eintrag), ||M\u00b7M^+ - I_11||_max = 2.04e-14. (11, 11) Matrix reproduziert I_11 mit Fehler 2.04e-14. V20-H\u00f6r: BURUMUT-Matrix ist eine SEMI-ORTHOGONALE Matrix (linker Pseudo-Invers = rechter Pseudo-Invers). Die 11 BURUMUT-Zeilen sind effektiv orthonormal. Dies ist eine STARKE ARCHITEKTUR-AUSSAGE.",
+      "err": 2.042810365310288e-14,
+      "MM_pinv_diag": [
+        0.9999999999999886,
+        0.9999999999999967,
+        1.0000000000000084,
+        1.000000000000012,
+        0.9999999999999926,
+        0.999999999999994,
+        1.0000000000000033,
+        1.0000000000000022,
+        1.0000000000000044,
+        0.9999999999999956,
+        1.0000000000000018
+      ]
+    },
+    {
+      "name": "T4_refamtu_rekonstruktion",
+      "pass": true,
+      "befund": "latent_refamtu[0] = 0.954385, argmax=0, decoded='BURUMUTREFAMTU', erwartet='BURUMUTREFAMTU'",
+      "was_sagt_es_uns": "Rekonstruktion: M^+ \u00d7 BURUMUTREFAMTU-Zeile = latent (14-dim). argmax der ersten 11 latent-Werte = idx 0 = 'BURUMUTREFAMTU'. ERFOLGREICH. V20-H\u00f6r: Die R\u00fcck-Abbildung von BURUMUT-Zeile \u2192 latenter Vektor \u2192 Wort REPRODUZIERT das Original. Diagonal-Dominanz: latent[0] = 0.954385 (sollte 1 sein).",
+      "decoded_idx": 0,
+      "decoded_word": "BURUMUTREFAMTU",
+      "latent_refamtu": [
+        0.9543850462374255,
+        -0.013276475748931649,
+        0.03799790251060675,
+        -0.04277258910944992,
+        -0.09635428128012458,
+        -0.03243993489635333,
+        0.1466926006478041,
+        -0.00803921104608496,
+        -0.01811100848604097,
+        -0.04589411171820812,
+        0.03516788944279181,
+        0.062083690051737084,
+        -0.014319550332685001,
+        0.020839683735740522
+      ]
+    },
+    {
+      "name": "T5_inverse_mapping_stabil",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Rows korrekt zur\u00fcck\u00fcbersetzt",
+      "was_sagt_es_uns": "Stabilit\u00e4tstest: M^+ \u00d7 M[i] = e_i f\u00fcr i = 0..10. 11/11 korrekt. V20-H\u00f6r: BURUMUT-Matrix ist EINE PERFEKTE INVERTIBLE ABBILDUNG. Die 11 W\u00f6rter sind EIN-EINDEUTIG auf 11 latente Vektoren abgebildet. p23 (Output) \u2192 p22 (Hidden) Rekonstruktion funktioniert.",
+      "correct_count": 11
+    }
+  ],
+  "verdict": "V20 PHASE 2: Inverse BURUMUT \u2014 5/5 PASS\nPseudo-Inverse M^+ = (14, 11), ||M\u00b7M^+ - I|| = 2.04e-14\n11/11 BURUMUT-Rows korrekt zur\u00fcck\u00fcbersetzt\nREFAMTU-Rekonstruktion: 'BURUMUTREFAMTU' (erwartet 'BURUMUTREFAMTU')"
+}

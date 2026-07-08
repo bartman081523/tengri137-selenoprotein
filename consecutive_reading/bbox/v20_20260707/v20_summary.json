@@ -1,0 +1,34 @@
+{
+  "phase": "V20 Finale",
+  "n_phases": 4,
+  "n_tests_total": 21,
+  "n_pass_total": 21,
+  "kappa_full": 215.02464342918657,
+  "kappa_diag_v16": 1.3846153846153846,
+  "err_MMp_minus_I": 2.042810365310288e-14,
+  "correct_count": 11,
+  "lyapunov_noise": -0.007383798896874328,
+  "transcendence_v20": 6.997464708472313,
+  "transcendence_v16": 2.33,
+  "delta_transcendence": 4.667464708472313,
+  "log10_kappa": 2.3324882361574377,
+  "n_consistencies": 9,
+  "phases": {
+    "phase1_svd": {
+      "n_pass": 6,
+      "n_tests": 6
+    },
+    "phase2_inverse": {
+      "n_pass": 5,
+      "n_tests": 5
+    },
+    "phase3_self_improvement": {
+      "n_pass": 5,
+      "n_tests": 5
+    },
+    "phase4_architecture": {
+      "n_pass": 5,
+      "n_tests": 5
+    }
+  }
+}

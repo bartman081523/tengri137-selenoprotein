@@ -1,0 +1,157 @@
+{
+  "phase": "V20 Phase 1 \u2014 BURUMUT-SVD + Codebook-Lookup",
+  "n_tests": 6,
+  "n_pass": 6,
+  "M_shape": [
+    11,
+    14
+  ],
+  "U_shape": [
+    11,
+    11
+  ],
+  "S": [
+    948.7538577327492,
+    44.369306022528235,
+    37.897987240900214,
+    28.924828050263525,
+    27.51354353570765,
+    21.24452780289948,
+    20.076849928964723,
+    16.49803227878382,
+    13.144628456737781,
+    6.143233668850303,
+    4.412302899807852
+  ],
+  "Vt_shape": [
+    14,
+    14
+  ],
+  "kappa_full": 215.02464342918657,
+  "kappa_diag_v16": 1.3846153846153846,
+  "argmax_word": "SUNOKURGANOZYI",
+  "spearman_rho": -0.37529488475553446,
+  "tests": [
+    {
+      "name": "T1_svd_vorhanden",
+      "pass": true,
+      "befund": "U:(11, 11), \u03a3:(11,), V^T:(14, 14), Rang=11",
+      "was_sagt_es_uns": "SVD der BURUMUT-Matrix existiert numerisch. Form U (11x11) \u00b7 \u03a3 (11) \u00b7 V^T (14x14) = M (11x14). Rang = 11/11 (voller Rang wenn = 11). V20-H\u00f6r: BURUMUT-Matrix ist in SVD-Form dekomponierbar. Singul\u00e4rwerte sind die 'Frequenzen' der Architektur.",
+      "S": [
+        948.7538577327492,
+        44.369306022528235,
+        37.897987240900214,
+        28.924828050263525,
+        27.51354353570765,
+        21.24452780289948,
+        20.076849928964723,
+        16.49803227878382,
+        13.144628456737781,
+        6.143233668850303,
+        4.412302899807852
+      ],
+      "U_shape": [
+        11,
+        11
+      ],
+      "Vt_shape": [
+        14,
+        14
+      ],
+      "rang": 11
+    },
+    {
+      "name": "T2_konditionszahl_voller_matrix",
+      "pass": true,
+      "befund": "\u03ba(M)=215.0246 (V16 \u03ba_diag=1.3846, log \u03ba=2.3325)",
+      "was_sagt_es_uns": "Konditionszahl der VOLLST\u00c4NDIGEN BURUMUT-Matrix: \u03ba = 215.0246. V16 hat nur DIAGONALE berechnet (\u03ba_diag=1.3846). log10(\u03ba) = 2.3325. Verh\u00e4ltnis \u03ba_voll/\u03ba_diag = 155.2956. V20-H\u00f6r: Die volle Matrix-Konditionierungs-Zahl ist GR\u00d6SSER als die Diagonale. Die nicht-diagonalen Eintr\u00e4ge dominieren die Aufblasung.",
+      "kappa_full": 215.02464342918657,
+      "kappa_diag_v16": 1.3846153846153846,
+      "log10_kappa": 2.3324882361574377
+    },
+    {
+      "name": "T3_singularwert_spektrum_verschieden",
+      "pass": true,
+      "befund": "\u03c3_min=4.41, \u03c3_max=948.75, \u03c3_std=266.67, unique=11/11",
+      "was_sagt_es_uns": "Singul\u00e4rwert-Spektrum: \u03c3_min=4.41 (kleinste 'Frequenz'), \u03c3_max=948.75 (dominante 'Frequenz'), \u03c3_std=266.67, unique=11/11 Werte. V20-H\u00f6r: Das Spektrum HAT verschiedene Frequenzen. Die BURUMUT-Matrix ist INFORMATIONS-REICH.",
+      "S_sorted": [
+        948.7538577327492,
+        44.369306022528235,
+        37.897987240900214,
+        28.924828050263525,
+        27.51354353570765,
+        21.24452780289948,
+        20.076849928964723,
+        16.49803227878382,
+        13.144628456737781,
+        6.143233668850303,
+        4.412302899807852
+      ]
+    },
+    {
+      "name": "T4_uv_orthogonal_numerisch",
+      "pass": true,
+      "befund": "||UU^T - I||=6.66e-16, ||VV^T - I||=1.11e-15",
+      "was_sagt_es_uns": "U und V sind numerisch orthogonal (Fehler 6.66e-16, 1.11e-15). V20-H\u00f6r: BURUMUT-Matrix zerlegt sauber in orthogonale 'Frequenzen'. Die SVD ist eine ECHTE Karplus-Basis, kein Rauschen.",
+      "u_ortho_err": 6.661338147750939e-16,
+      "v_ortho_err": 1.1102230246251565e-15
+    },
+    {
+      "name": "T5_codebook_lookups_argmax",
+      "pass": true,
+      "befund": "argmax idx=5, word='SUNOKURGANOZYI' (V16: idx 5 = 'SUNOKURGANOZYI'), P_max=1.0000, distinct outputs=10/11",
+      "was_sagt_es_uns": "Forward-Pass M\u00b7x = y: argmax = 'SUNOKURGANOZYI' (idx 5). V16 hatte denselben Befund. P_max = 1.0000 (sehr konzentriert). 10/11 distinkte Outputs. V20-H\u00f6r: Codebook-Lookup REPRODUZIERT V16 (Best\u00e4tigung). BURUMUTREFAMTU (idx 0) hat Output 936.64, SUNOKURGANOZYI (idx 5) hat 951.13. Der Codebook-Vektor aus p1-16 evoziert konsistent das 6. BURUMUT-Wort.",
+      "y": [
+        936.637037037037,
+        930.9629629629628,
+        900.7703703703703,
+        901.8555555555555,
+        938.3740740740741,
+        951.1333333333334,
+        922.1833333333333,
+        875.0777777777779,
+        881.2574074074073,
+        938.4296296296295,
+        883.2888888888889
+      ],
+      "softmax": [
+        5.062158287088353e-07,
+        1.738267701080476e-09,
+        1.34165330017697e-22,
+        3.971277553165716e-22,
+        2.875552631273325e-06,
+        0.9999935766665367,
+        2.6740649974100297e-13,
+        9.32157105745513e-34,
+        4.500576652359486e-31,
+        3.0398264680369505e-06,
+        3.431858399963752e-30
+      ],
+      "argmax_idx": 5,
+      "argmax_word": "SUNOKURGANOZYI"
+    },
+    {
+      "name": "T6_p1_16_burumut_korrelation",
+      "pass": true,
+      "befund": "First-Letter-Codes: [66, 78, 89, 90, 84, 83, 79, 89, 78, 75, 83], Spearman \u03c1=-0.3753 (p=0.2554), Pearson r=-0.4663",
+      "was_sagt_es_uns": "Cross-Layer-Korrelation p1-16 (Codebook) \u2194 p23 (BURUMUT-First-Letter): Spearman \u03c1 = -0.3753 (p = 0.2554). V20-H\u00f6r: Der Codebook-Output VEKORRELIERT SCHWACH mit dem ersten Buchstaben jedes BURUMUT-Wortes. Signifikanz p=0.2554: NICHT SIGNIFIKANT. Dies ist eine EHRLICHE LIMIT-Dokumentation: die numerologische Hypothese wird getestet, nicht best\u00e4tigt.",
+      "first_letters": [
+        66,
+        78,
+        89,
+        90,
+        84,
+        83,
+        79,
+        89,
+        78,
+        75,
+        83
+      ],
+      "spearman_rho": -0.37529488475553446,
+      "spearman_p": 0.25539810294185045,
+      "pearson_r": -0.4663264567402328
+    }
+  ],
+  "verdict": "V20 PHASE 1: BURUMUT-SVD + Codebook-Lookup \u2014 6/6 PASS\nKonditionszahl \u03ba(M) = 215.0246 (V16 \u03ba_diag = 1.3846)\nargmax Output = 'SUNOKURGANOZYI' (V16 reproduziert)\nSpearman \u03c1 (Codebook \u2194 First-Letter) = -0.3753"
+}

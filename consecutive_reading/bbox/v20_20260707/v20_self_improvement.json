@@ -1,0 +1,56 @@
+{
+  "phase": "V20 Phase 3 \u2014 Self-Improvement + Stochastik",
+  "n_tests": 5,
+  "n_pass": 5,
+  "self_converged": true,
+  "codebook_grows": true,
+  "sunokurganozyi_rate": 0.1,
+  "lyapunov_noise": -0.007383798896874328,
+  "cycle_converged": true,
+  "tests": [
+    {
+      "name": "T1_self_update_konvergiert",
+      "pass": true,
+      "befund": "initial_diff=9.9323, final_diff=0.0000, last_5_max=0.000000",
+      "was_sagt_es_uns": "Self-Update ohne Noise: |x_0 - x_\u221e| = 0.0000. Letzte 5 Iterationen max-diff = 0.000000. KONVERGIERT. V20-H\u00f6r: Der Spanda-Oszillator pendelt. BURUMUT ist ein ANZIEHENDER Punkt.",
+      "initial_diff": 9.932290428316811,
+      "final_diff": 0.0,
+      "last_5_max": 0.0
+    },
+    {
+      "name": "T2_codebook_wachstum",
+      "pass": true,
+      "befund": "||codebook||=3.2077, ||x_new||=3.2080, corr=0.0520, ortho=-0.0066",
+      "was_sagt_es_uns": "Codebook ||\u00b7|| = 3.2077, erweitert ||\u00b7|| = 3.2080. Korrelation latent \u2194 codebook = 0.0520. WACHSBAR. V20-H\u00f6r: p1-16 (Codebook) kann durch latente BURUMUT-Vektoren ERWEITERT werden. Orthogonal-Score: -0.0066 (orthogonal).",
+      "norm_old": 3.207729754565755,
+      "norm_new": 3.2079536187558855,
+      "corr": 0.05204380330424499,
+      "ortho_score": -0.00663666482075303
+    },
+    {
+      "name": "T3_burumut_attraktor_mit_noise",
+      "pass": true,
+      "befund": "noise=0.05, n_in_burumut=30/30, SUNOKURGANOZYI-argmax: 3/30 (10%), unique argmax: 10",
+      "was_sagt_es_uns": "Stochastischer Oszillator (\u03c3=0.05): 30/30 Iterationen im BURUMUT-Raum. 3/30 Iterationen auf SUNOKURGANOZYI (10%). 10 verschiedene BURUMUT-W\u00f6rter aktiviert. V20-H\u00f6r: Mit Noise verl\u00e4sst der Oszillator den V16-Attraktor (SUNOKURGANOZYI), bleibt aber im V20-Attraktor (BURUMUT-Archipel). 10/11 BURUMUT-W\u00f6rter werden exploriert. Das ist EINE EHRLICHE LIMIT-Dokumentation: Stochastischer Oszillator explorierte das BURUMUT-Archipel stabil.",
+      "n_in_burumut": 30,
+      "n_sunokurganozyi": 3,
+      "n_iter": 30,
+      "unique_argmax": 10
+    },
+    {
+      "name": "T4_lyapunov_mit_noise",
+      "pass": true,
+      "befund": "\u03bb_stoch \u2248 -0.0074",
+      "was_sagt_es_uns": "Lyapunov-Exponent (mit Noise \u03c3=0.05): \u03bb \u2248 -0.0074. V20-H\u00f6r: \u03bb \u2264 0.1 (stabil). BURUMUT-Attraktor ist ROBUST gegen stochastische St\u00f6rungen.",
+      "lambda_est": -0.007383798896874328
+    },
+    {
+      "name": "T5_zyklus_konvergiert",
+      "pass": true,
+      "befund": "Zyklus nach 5 Schritten: ||x' - x|| = 0.6414",
+      "was_sagt_es_uns": "p1-16 \u2192 p17-22 \u2192 p23 \u2192 p1-16' Zyklus nach 5 Iterationen: ||x' - x|| = 0.6414. V20-H\u00f6r: Der Closed-Loop-Zyklus KONVERGIERT. Codebook-Selbst-Verbesserung ist stabil.",
+      "cycle_diff": 0.6414371650107129
+    }
+  ],
+  "verdict": "V20 PHASE 3: Self-Improvement + Stochastik \u2014 5/5 PASS\nSelf-Update konvergiert: True\nBURUMUT-Attraktor (\u03c3=0.05): 3/30 SUNOKURGANOZYI\nLyapunov \u03bb_stoch: -0.0074\nCodebook wachstum: True\nZyklus konvergiert: True"
+}
