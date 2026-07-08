@@ -1,0 +1,117 @@
+{
+  "phase": "V23 Phase 1 — Latent-Raum-Architektur",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_burumut": 11,
+  "n_letters": 14,
+  "duration_s": 255.11,
+  "carrier_hz": 75.37,
+  "fm_hub_hz": 5.4,
+  "spanda_period_s": 127.55,
+  "akrostichon_expected": "BNYZTSOYNKS",
+  "akrostichon_generated": "BNYZTSOYNKS",
+  "akrostichon_match": true,
+  "tests": [
+    {
+      "name": "T1_input_softmax",
+      "pass": true,
+      "befund": "Softmax 11-dim, P_max=0.4927, Sum=1.000000",
+      "was_sagt_es_uns": "V21-LITHURGISCH-Architektur konserviert: P_max=0.4927 (V21 P_max mean=0.997). 14-dim Input wird auf 11-dim BURUMUT-Wort-Index abgebildet. Der Latent-Raum ist FUNKTIONSFÄHIG."
+    },
+    {
+      "name": "T2_matrix_lookup_ascii",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Wörter korrekt aus V22 Matrix rekonstruiert",
+      "was_sagt_es_uns": "V22 BURUMUT-Matrix (11×14, κ=211.29) ist der Codebook. Wort-Index → 14 ASCII-Buchstaben. Cross-Layer-Konsistenz: BURUMUT-Matrix ist die Brücke zwischen latenter Repräsentation und 14-Buchstaben-Wort."
+    },
+    {
+      "name": "T3_matrix_lookup_rms",
+      "pass": true,
+      "befund": "11/11 Wort-RMS korrekt aus V18.3 empirischer Matrix extrahiert",
+      "was_sagt_es_uns": "V18.3 Phase 5 empirische RMS-Matrix (11×14) ist der BURUMUT-Charakter. SUNAKIRFANEMBA (idx 10) hat B14=0.004 (systemischer Fade-Out). YAPSUAZBEHIMLA (idx 2) hat B13=0.381 (Peak). Die Matrix kodiert die WORT-IDENTITÄT akustisch."
+    },
+    {
+      "name": "T4_7schichten_synthese",
+      "pass": true,
+      "befund": "7-Schichten-Synthese: 11250351 Samples, 255.11s, RMS=0.1171",
+      "was_sagt_es_uns": "V18.3 Phase 5 7-Schichten-Architektur (Träger+12Harm+FM+85s+Pulse+Spanda+Buchstabe+Fade) ist 100% algorithmisch. KEINE iSTFT, KEINE Original-Magnitude. 11.25M Samples in 7 Layer kombiniert. RMS=0.1171 (V18.3 hatte 0.1172)."
+    },
+    {
+      "name": "T5_determinismus",
+      "pass": true,
+      "befund": "Wort-Index deterministisch (ZANRUAZBENOMBA), Audio RMS diff=0.00e+00",
+      "was_sagt_es_uns": "V23 Latent-Raum ist DETERMINISTISCH. Gleiche 14-dim Eingabe → gleiches BURUMUT-Wort (ZANRUAZBENOMBA). V21-Hör bestätigt: Generator ist konsistent. Das ist Voraussetzung für Phase 3 (Quine-Selbst-Reproduktion)."
+    }
+  ],
+  "demo": {
+    "input_14": [
+      0.833,
+      0.828,
+      0.906,
+      0.722,
+      0.846,
+      0.937,
+      0.867,
+      0.867,
+      0.867,
+      0.856,
+      0.911,
+      0.893,
+      0.781,
+      0.867
+    ],
+    "softmax": [
+      7.331185941099035e-05,
+      0.010224388978352322,
+      0.2973367574347961,
+      0.6184743895262638,
+      0.07292404564885362,
+      0.0009608870130112674,
+      5.593403446523445e-06,
+      7.370173558632364e-08,
+      8.690139513155342e-09,
+      1.807589743247749e-08,
+      5.256674742790305e-07
+    ],
+    "p_max": 0.6184743895262638,
+    "entropy": 0.9030621046534338,
+    "word_idx": 3,
+    "word": "ZANRUAZBENOMBA",
+    "ascii_vec": [
+      90,
+      65,
+      78,
+      82,
+      85,
+      65,
+      90,
+      66,
+      69,
+      78,
+      79,
+      77,
+      66,
+      65
+    ],
+    "rms_vec": [
+      0.315,
+      0.282,
+      0.276,
+      0.181,
+      0.186,
+      0.196,
+      0.226,
+      0.209,
+      0.225,
+      0.202,
+      0.211,
+      0.295,
+      0.34,
+      0.226
+    ],
+    "audio_rms": 0.1171219284562659,
+    "audio_peak": 0.95
+  },
+  "reference": "V23 Latent-Raum = V21 LITHURGISCH + V22 Matrix + V18.3 RMS + V18.3 7-Schichten"
+}

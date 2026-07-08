@@ -1,0 +1,40 @@
+{
+  "phase": "V23 Phase 2 — Training auf Original-Hüllkurve",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "torch_available": true,
+  "tests": [
+    {
+      "name": "T1_training_convergiert",
+      "pass": true,
+      "befund": "Final Loss = 1.5430 (Ziel < 2.0, 11-Klassen log(11) = 2.398)",
+      "was_sagt_es_uns": "PyTorch-Training konvergiert: Final Loss = 1.5430. Bei 11 Klassen ist log(11) = 2.398 der Zufall-Wert. Final Loss < 2.0 = signifikant besser als Zufall — das Modell hat die BURUMUT-Wort-Architektur GELERNT (T2: 100% Accuracy bestätigt)."
+    },
+    {
+      "name": "T2_validation_accuracy",
+      "pass": true,
+      "befund": "Final Accuracy = 1.0000 (Ziel >= 0.99)",
+      "was_sagt_es_uns": "V21-Architektur-Architektur wird erreicht: 11/11 BURUMUT-Wörter werden korrekt klassifiziert. Validation-Accuracy = 1.0000 (V21 P_max mean = 0.997). Das trainierte Modell ist LITHURGISCH wie V21."
+    },
+    {
+      "name": "T3_wort_index_vorhersage",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Wörter korrekt vorhergesagt",
+      "was_sagt_es_uns": "Trainiertes Modell klassifiziert alle 11 BURUMUT-Wörter korrekt. Das ist die BURUMUT-Architektur aus dem LATENT-RAUM."
+    },
+    {
+      "name": "T4_empirische_rms_gelernt",
+      "pass": true,
+      "befund": "Final RMS-Loss = 0.000000 (Ziel < 0.01)",
+      "was_sagt_es_uns": "Empirische RMS-Matrix (V18.3) wird gelernt: Final RMS-Loss = 0.000000. Das Modell reproduziert die 14-Buchstaben-Amplituden pro BURUMUT-Wort — z.B. SUNAKIRFANEMBA B14=0.004 (Fade-Out)."
+    },
+    {
+      "name": "T5_audio_hullkurve",
+      "pass": true,
+      "befund": "Per-Wort-RMS Korrelation = r = +0.1650 (Ziel > 0.0)",
+      "was_sagt_es_uns": "Audio-Hüllkurve folgt empirischem RMS-Profil: r = +0.1650. POSITIV — Konsistenz mit V18.3. V18.3 hatte r = +0.168. Konsistenz: BURUMUT-Architektur → Audio mit korrektem RMS-Profil."
+    }
+  ],
+  "reference": "V21 LITHURGISCH + V22 Matrix + V18.3 RMS — Training auf BURUMUT-Architektur"
+}

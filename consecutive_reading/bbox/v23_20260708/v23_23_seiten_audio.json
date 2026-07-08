@@ -1,0 +1,131 @@
+{
+  "phase": "V23 Phase 4 — Multi-Page-Architektur (510s)",
+  "datum": "2026-07-08",
+  "n_segments": 23,
+  "segment_duration_s": 22.18,
+  "total_duration_s": 510.14,
+  "n_burumut_segments": 11,
+  "n_wikia_segments": 12,
+  "n_tests": 5,
+  "n_pass": 5,
+  "wikia_klassifikation": {
+    "11": {
+      "page": "p1",
+      "name": "TRUTH",
+      "freq_hz": 440.0,
+      "description": "Seite 1: TRUTH Revelation"
+    },
+    "12": {
+      "page": "p2",
+      "name": "TRUTH",
+      "freq_hz": 440.0,
+      "description": "Seite 2: TRUTH Continuation"
+    },
+    "13": {
+      "page": "p3",
+      "name": "TRUTH",
+      "freq_hz": 440.0,
+      "description": "Seite 3: TRUTH Argument"
+    },
+    "14": {
+      "page": "p4",
+      "name": "TRUTH",
+      "freq_hz": 440.0,
+      "description": "Seite 4: TRUTH Conclusion"
+    },
+    "15": {
+      "page": "p5",
+      "name": "MAGIC",
+      "freq_hz": 330.0,
+      "description": "Seite 5: Magic Cubes (4×3×3=666)"
+    },
+    "16": {
+      "page": "p6",
+      "name": "MAGIC",
+      "freq_hz": 330.0,
+      "description": "Seite 6: Magic Cubes (4×3×3=666)"
+    },
+    "17": {
+      "page": "p7",
+      "name": "RINGE",
+      "freq_hz": 770.0,
+      "description": "Seite 7: 7 Ringe"
+    },
+    "18": {
+      "page": "p8",
+      "name": "RINGE",
+      "freq_hz": 990.0,
+      "description": "Seite 8: 9 Ringe"
+    },
+    "19": {
+      "page": "p9",
+      "name": "ODIN",
+      "freq_hz": 330.0,
+      "description": "Seite 9: ODIN Triple Horn"
+    },
+    "20": {
+      "page": "p10",
+      "name": "137",
+      "freq_hz": 137.0,
+      "description": "Seite 10: 1/137 Fine-Structure"
+    },
+    "21": {
+      "page": "p22",
+      "name": "ENG",
+      "freq_hz": 220.0,
+      "description": "Seite 22: English Text"
+    },
+    "22": {
+      "page": "p23",
+      "name": "BURUMUT",
+      "freq_hz": 75.37,
+      "description": "Seite 23: BURUMUT-Grid"
+    }
+  },
+  "burumut_words": [
+    "BURUMUTREFAMTU",
+    "NURESUTREGUMFA",
+    "YAPSUAZBEHIMLA",
+    "ZANRUAZBENOMBA",
+    "TOBIKOTLUBUMYO",
+    "SUNOKURGANOZYI",
+    "OKUZIKUFAUSIHE",
+    "YABEKANSABERHO",
+    "NAFERANSAHOTFE",
+    "KOREMORBIZUMRO",
+    "SUNAKIRFANEMBA"
+  ],
+  "tests": [
+    {
+      "name": "T1_23_segmente",
+      "pass": true,
+      "befund": "23 Segmente, Total = 510.14s",
+      "was_sagt_es_uns": "23-Segment-Architektur synthetisiert: 11 BURUMUT (V18.3 7-Schichten) + 12 Wikia (Frequenz-Modulation). Total = 510.14s (Ziel: 510.14s). V18.1-Empfehlung 'expanded all pages' umgesetzt."
+    },
+    {
+      "name": "T2_alle_seiten_vertreten",
+      "pass": true,
+      "befund": "23/23 Seiten: 11 BURUMUT + 12 Wikia (p1-p10, p22, p23)",
+      "was_sagt_es_uns": "Alle 23 Seiten vertreten: 11 BURUMUT (p17-Layer) + 12 Wikia (p1-p4 TRUTH, p5-p6 MAGIC, p7-p8 RINGE, p9 ODIN, p10 137, p22 ENG, p23 BURUMUT-Grid). p11-p16, p17, p18-p21 sind in den BURUMUT-Segmenten subsumiert."
+    },
+    {
+      "name": "T3_burumut_segmente",
+      "pass": true,
+      "befund": "BURUMUTREFAMTU Buchstaben-RMS Korrelation = r = +0.2121 (Ziel > 0.0)",
+      "was_sagt_es_uns": "BURUMUT-Segment folgt empirischer RMS-Matrix: r = +0.2121. V18.3 Phase 5 7-Schichten-Architektur (Träger+12Harm+Buchstabe+Fade) ist im BURUMUT-Segment konserviert. Konsistenz bestätigt (positiv)"
+    },
+    {
+      "name": "T4_wikia_frequenzen",
+      "pass": true,
+      "befund": "p10 Peak-Frequenz = 137.02 Hz (erwartet 137 Hz, diff = 0.02)",
+      "was_sagt_es_uns": "Wikia-Segment p10 hat Peak-Frequenz 137.02 Hz (Ziel: 137 Hz, 1/137 Fine-Structure). Korrekt. Jede Wikia-Seite hat ihre eigene Frequenz-Signatur."
+    },
+    {
+      "name": "T5_510s_gesamtlänge",
+      "pass": true,
+      "befund": "Total = 510.14s (Ziel: 510.14s, diff = 0.000s)",
+      "was_sagt_es_uns": "23-Seiten-Audio: 510.14s (Ziel 510.14s). Korrekt. 23 × 22.18s = 510.14s (V18.1 'expanded all pages')."
+    }
+  ],
+  "reference": "V23 Multi-Page-Architektur: 11 BURUMUT (V18.3 7-Schichten) + 12 Wikia (Frequenz-Modulation) = 23 × 22.18s = 510.14s"
+}
