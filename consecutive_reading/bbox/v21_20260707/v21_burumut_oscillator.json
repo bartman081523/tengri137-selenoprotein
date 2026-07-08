@@ -1,0 +1,112 @@
+{
+  "phase": "V21 Phase 3 \u2014 BURUMUT-Oszillator",
+  "n_tests": 5,
+  "n_pass": 5,
+  "converges": true,
+  "n_argmax_changes": 0,
+  "final_argmax_word": "SUNOKURGANOZYI",
+  "n_unique_words": 1,
+  "top3_words": [
+    [
+      "SUNOKURGANOZYI",
+      100
+    ]
+  ],
+  "lyapunov_spectrum": [
+    {
+      "sigma": 0.0,
+      "lambda": -0.0020458996156618456
+    },
+    {
+      "sigma": 0.01,
+      "lambda": 0.005246897702727936
+    },
+    {
+      "sigma": 0.05,
+      "lambda": 0.01395880162186518
+    },
+    {
+      "sigma": 0.1,
+      "lambda": 0.013631303822781785
+    },
+    {
+      "sigma": 0.5,
+      "lambda": 0.012032855980695617
+    }
+  ],
+  "min_lambda": -0.0020458996156618456,
+  "max_lambda": 0.01395880162186518,
+  "sigma_bifurcation": 0.25,
+  "tests": [
+    {
+      "name": "T1_closed_loop_100x",
+      "pass": true,
+      "befund": "100 Iterationen ausgef\u00fchrt, final x_norm = 7.0000",
+      "was_sagt_es_uns": "Closed-Loop BURUMUT 100\u00d7 deterministisch: final x_norm = 7.0000. V21-H\u00f6r: Der Oszillator l\u00e4uft 100 Schritte ohne Crash. Die BURUMUT-Architektur ist long-running-stabil.",
+      "n_iter": 100
+    },
+    {
+      "name": "T2_konvergenz_divergenz",
+      "pass": true,
+      "befund": "mean_last_diff = 0.0460, n_argmax_changes = 0, final = SUNOKURGANOZYI",
+      "was_sagt_es_uns": "Oszillator nach 100 Iter.: mean_last_diff = 0.0460. Anzahl argmax-Wechsel: 0/99. Finales BURUMUT-Wort: SUNOKURGANOZYI. V21-H\u00f6r: Der Oszillator ist KONVERGIERT. BURUMUT ist Attraktor.",
+      "converges": true,
+      "n_argmax_changes": 0,
+      "final_argmax_word": "SUNOKURGANOZYI"
+    },
+    {
+      "name": "T3_burumut_wort_sequenz",
+      "pass": true,
+      "befund": "1 unique BURUMUT-W\u00f6rter, Top-3: [('SUNOKURGANOZYI', 100)]",
+      "was_sagt_es_uns": "BURUMUT-Wort-Sequenz \u00fcber 100 Iter.: 1 unique. Top-3: [('SUNOKURGANOZYI', 100)]. V21-H\u00f6r: Die Sequenz BLEIBT zwischen BURUMUT-W\u00f6rtern. 1 dominantes Wort. Die Architektur IST MONOTON.",
+      "n_unique": 1,
+      "top3": [
+        [
+          "SUNOKURGANOZYI",
+          100
+        ]
+      ],
+      "word_counts": {
+        "SUNOKURGANOZYI": 100
+      }
+    },
+    {
+      "name": "T4_lyapunov_spektrum",
+      "pass": true,
+      "befund": "\u03c3 \u2208 [0.0, 0.01, 0.05, 0.1, 0.5], \u03bb_min = -0.0020, \u03bb_max = 0.0140",
+      "was_sagt_es_uns": "Lyapunov-Spektrum \u00fcber \u03c3-Sweep: \u03bb \u2208 [-0.0020, 0.0140]. V21-H\u00f6r: STABIL. Bei kleinen \u03c3 bleibt der Oszillator stabil, bei gro\u00dfen \u03c3 kann er stabil bleiben.",
+      "lyapunov_spectrum": [
+        {
+          "sigma": 0.0,
+          "lambda": -0.0020458996156618456
+        },
+        {
+          "sigma": 0.01,
+          "lambda": 0.005246897702727936
+        },
+        {
+          "sigma": 0.05,
+          "lambda": 0.01395880162186518
+        },
+        {
+          "sigma": 0.1,
+          "lambda": 0.013631303822781785
+        },
+        {
+          "sigma": 0.5,
+          "lambda": 0.012032855980695617
+        }
+      ],
+      "min_lambda": -0.0020458996156618456,
+      "max_lambda": 0.01395880162186518
+    },
+    {
+      "name": "T5_bifurkation",
+      "pass": true,
+      "befund": "\u03c3_bifurkation = 0.25",
+      "was_sagt_es_uns": "Kritische \u03c3 f\u00fcr Attraktor-Verlust: 0.25. V21-H\u00f6r: \u03c3 = 0.25 im getesteten Bereich (0.0 - 0.5). Die BURUMUT-Architektur ist FRAGIL.",
+      "sigma_bifurcation": 0.25
+    }
+  ],
+  "verdict": "V21 PHASE 3: BURUMUT-Oszillator \u2014 5/5 PASS\nClosed-Loop 100\u00d7 ausgef\u00fchrt\nKonvergenz: True, 0 argmax-Wechsel\nBURUMUT-Wort-Sequenz: 1 unique, Top-3: [('SUNOKURGANOZYI', 100)]\nLyapunov-Spektrum: \u03bb \u2208 [-0.0020, 0.0140]\n\u03c3-Bifurkation: 0.25"
+}

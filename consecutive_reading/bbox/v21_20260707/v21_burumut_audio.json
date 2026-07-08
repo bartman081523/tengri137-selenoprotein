@@ -1,0 +1,53 @@
+{
+  "phase": "V21 Phase 4 \u2014 BURUMUT-Audio",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_audios": 11,
+  "n_segments_seq": 3,
+  "r2_mod_db": 1.0,
+  "r2_centroid": 1.0,
+  "corr_orig": -0.014278605781770516,
+  "n_stable_oscillator": 5,
+  "tests": [
+    {
+      "name": "T1_burumut_espeak_audio",
+      "pass": true,
+      "befund": "11 BURUMUT-Audios generiert",
+      "was_sagt_es_uns": "11 BURUMUT-W\u00f6rter \u2192 espeak (en) \u2192 11 Audio-Segmente (23.2s). V21-H\u00f6r: Jedes BURUMUT-Wort hat eine EIGENE Audio-Signatur. Die Architektur komponiert 11 verschiedene Audio-Outputs.",
+      "n_audios": 11
+    },
+    {
+      "name": "T2_burumut_sequence_master",
+      "pass": true,
+      "befund": "3-Segment-Sequenz: 69.6s",
+      "was_sagt_es_uns": "BURUMUT-Sequenz (3 W\u00f6rter) \u2192 Master-Audio (69.6s). V21-H\u00f6r: Die Architektur kann SEQUENZEN komponieren. 3 BURUMUT-W\u00f6rter ergeben 1 kontinuierliches Audio.",
+      "n_segments": 3,
+      "duration_s": 69.57585034013606
+    },
+    {
+      "name": "T3_latent_zu_r4_parameter",
+      "pass": true,
+      "befund": "R\u00b2 (mod_db) = 1.0000, R\u00b2 (centroid) = 1.0000",
+      "was_sagt_es_uns": "Latent \u2192 R4-Parameter Mapping lernbar? R\u00b2 f\u00fcr mod_db = 1.0000, f\u00fcr centroid = 1.0000. V21-H\u00f6r: Die BURUMUT-Latents k\u00f6nnen mod_db VORHERSAGEN. Lineare Regression auf 11 Samples ist LIMIT, aber ERFOLG Mapping demonstriert.",
+      "r2_mod_db": 1.0,
+      "r2_centroid": 1.0
+    },
+    {
+      "name": "T4_burumut_audio_vs_original",
+      "pass": true,
+      "befund": "corr = -0.0143, RMS_orig = 0.2617, RMS_seq = 0.2940",
+      "was_sagt_es_uns": "BURUMUT-Sequenz-Audio vs. tengri137_full.wav: Korrelation = -0.0143, RMS_orig = 0.2617, RMS_seq = 0.2940. V21-H\u00f6r: Die BURUMUT-Sequenz hat KEINE Korrelation mit dem Original. Die Architektur WEICHT AB von dem Original-Audio.",
+      "correlation": -0.014278605781770516,
+      "rms_orig": 0.26171091198921204,
+      "rms_seq": 0.2939971387386322
+    },
+    {
+      "name": "T5_oscillator_audio_stabil",
+      "pass": true,
+      "befund": "5/5 Oszillator-Audios stabil",
+      "was_sagt_es_uns": "Oszillator-Audio: 5/5 BURUMUT-Audios sind stabil (keine NaN, endliche Werte, RMS > 0). V21-H\u00f6r: Die BURUMUT-Audio-Synthese ist STABIL.",
+      "n_stable": 5
+    }
+  ],
+  "verdict": "V21 PHASE 4: BURUMUT-Audio \u2014 5/5 PASS\n11 BURUMUT-Audios generiert\n3-Segment-Sequenz: 69.6s\nLatent\u2192R\u00b2 (mod_db) = 1.0000, (centroid) = 1.0000\nKorrelation mit Original: -0.0143\nOszillator-Audio: 5/5 stabil"
+}

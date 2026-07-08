@@ -1,0 +1,623 @@
+{
+  "phase": "V21 Phase 2 \u2014 BURUMUT-Translator",
+  "n_tests": 5,
+  "n_pass": 5,
+  "latent_burumutrefamtu": [
+    66.0,
+    85.0,
+    82.0,
+    85.0,
+    77.0,
+    85.0,
+    84.0,
+    82.0,
+    69.0,
+    70.0,
+    65.0,
+    77.0,
+    84.0,
+    85.0
+  ],
+  "latent_text": "BURUMUTREFAMTU",
+  "closest_glyph": "G11",
+  "akrostichon_codes": [
+    78,
+    78,
+    75,
+    75,
+    78,
+    79,
+    77,
+    73,
+    74,
+    78,
+    74
+  ],
+  "akrostichon_text": "NNKKNOMIJNJ",
+  "unique_codes": 6,
+  "latent_repro_max_diff": 0.0,
+  "top5_per_word": {
+    "BURUMUTREFAMTU": [
+      [
+        "SUNOKURGANOZYI",
+        0.9939163168281524
+      ],
+      [
+        "NURESUTREGUMFA",
+        0.9916901612530117
+      ],
+      [
+        "KOREMORBIZUMRO",
+        0.9911729250793284
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.9910576318674631
+      ],
+      [
+        "TOBIKOTLUBUMYO",
+        0.9909378170294895
+      ]
+    ],
+    "NURESUTREGUMFA": [
+      [
+        "SUNAKIRFANEMBA",
+        0.9966358354138213
+      ],
+      [
+        "NAFERANSAHOTFE",
+        0.9945587154864355
+      ],
+      [
+        "SUNOKURGANOZYI",
+        0.9943883819763797
+      ],
+      [
+        "KOREMORBIZUMRO",
+        0.9936316578954008
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.9932067895545511
+      ]
+    ],
+    "YAPSUAZBEHIMLA": [
+      [
+        "ZANRUAZBENOMBA",
+        0.998895800343978
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.9947801374923173
+      ],
+      [
+        "NAFERANSAHOTFE",
+        0.9939174399226139
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9928315598849656
+      ],
+      [
+        "YABEKANSABERHO",
+        0.9926242354815644
+      ]
+    ],
+    "ZANRUAZBENOMBA": [
+      [
+        "YAPSUAZBEHIMLA",
+        0.998895800343978
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.9955258483242575
+      ],
+      [
+        "NAFERANSAHOTFE",
+        0.9943190408386626
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9933462843434692
+      ],
+      [
+        "YABEKANSABERHO",
+        0.9917883104317093
+      ]
+    ],
+    "TOBIKOTLUBUMYO": [
+      [
+        "SUNOKURGANOZYI",
+        0.9940124465661522
+      ],
+      [
+        "YABEKANSABERHO",
+        0.9931112347786111
+      ],
+      [
+        "KOREMORBIZUMRO",
+        0.9928819430755754
+      ],
+      [
+        "NURESUTREGUMFA",
+        0.9923632077724955
+      ],
+      [
+        "NAFERANSAHOTFE",
+        0.9923156491060948
+      ]
+    ],
+    "SUNOKURGANOZYI": [
+      [
+        "KOREMORBIZUMRO",
+        0.99567895012072
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9955174746379863
+      ],
+      [
+        "NURESUTREGUMFA",
+        0.9943883819763797
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.994300890325091
+      ],
+      [
+        "TOBIKOTLUBUMYO",
+        0.9940124465661522
+      ]
+    ],
+    "OKUZIKUFAUSIHE": [
+      [
+        "ZANRUAZBENOMBA",
+        0.9955258483242575
+      ],
+      [
+        "KOREMORBIZUMRO",
+        0.9951010755491606
+      ],
+      [
+        "YAPSUAZBEHIMLA",
+        0.9947801374923173
+      ],
+      [
+        "SUNOKURGANOZYI",
+        0.994300890325091
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9940499909746918
+      ]
+    ],
+    "YABEKANSABERHO": [
+      [
+        "NAFERANSAHOTFE",
+        0.9971780562657915
+      ],
+      [
+        "TOBIKOTLUBUMYO",
+        0.9931112347786111
+      ],
+      [
+        "YAPSUAZBEHIMLA",
+        0.9926242354815644
+      ],
+      [
+        "SUNOKURGANOZYI",
+        0.9918999470410684
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9918327355871885
+      ]
+    ],
+    "NAFERANSAHOTFE": [
+      [
+        "YABEKANSABERHO",
+        0.9971780562657915
+      ],
+      [
+        "NURESUTREGUMFA",
+        0.9945587154864355
+      ],
+      [
+        "ZANRUAZBENOMBA",
+        0.9943190408386626
+      ],
+      [
+        "YAPSUAZBEHIMLA",
+        0.9939174399226139
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9933285588117577
+      ]
+    ],
+    "KOREMORBIZUMRO": [
+      [
+        "SUNOKURGANOZYI",
+        0.99567895012072
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.9951010755491606
+      ],
+      [
+        "SUNAKIRFANEMBA",
+        0.9949370242376908
+      ],
+      [
+        "NURESUTREGUMFA",
+        0.9936316578954008
+      ],
+      [
+        "TOBIKOTLUBUMYO",
+        0.9928819430755754
+      ]
+    ],
+    "SUNAKIRFANEMBA": [
+      [
+        "NURESUTREGUMFA",
+        0.9966358354138213
+      ],
+      [
+        "SUNOKURGANOZYI",
+        0.9955174746379863
+      ],
+      [
+        "KOREMORBIZUMRO",
+        0.9949370242376908
+      ],
+      [
+        "OKUZIKUFAUSIHE",
+        0.9940499909746918
+      ],
+      [
+        "ZANRUAZBENOMBA",
+        0.9933462843434692
+      ]
+    ]
+  },
+  "tests": [
+    {
+      "name": "T1_burumut_zu_latent_zu_wikia",
+      "pass": true,
+      "befund": "BURUMUTREFAMTU \u2192 latent = [66, 85, 82, 85, 77, 85, 84, 82, 69, 70, 65, 77, 84, 85] \u2192 Text = 'BURUMUTREFAMTU'",
+      "was_sagt_es_uns": "BURUMUTREFAMTU \u2192 14-dim latente Repr\u00e4sentation: [66, 85, 82, 85, 77, 85, 84, 82, 69, 70, 65, 77, 84, 85]. Als Text: 'BURUMUTREFAMTU'. V21-H\u00f6r: BURUMUTREFAMTU zerlegt sich in 14 latente Buchstaben-Codes. Die latente Form ist NICHT direkt lesbar, aber ALS INTERPRETATION kann man vermuten: Die BURUMUT-W\u00f6rter sind REPR\u00c4SENTATIONEN versteckter lateinischer Buchstaben.",
+      "latent_codes": [
+        66,
+        85,
+        82,
+        85,
+        77,
+        85,
+        84,
+        82,
+        69,
+        70,
+        65,
+        77,
+        84,
+        85
+      ],
+      "latent_text": "BURUMUTREFAMTU"
+    },
+    {
+      "name": "T2_burumut_zu_p1_16_glyph",
+      "pass": true,
+      "befund": "latent_mean = 78.29, closest glyph = G11 (mean = 78.44)",
+      "was_sagt_es_uns": "BURUMUTREFAMTU \u2192 latente Repr\u00e4sentation (mean = 78.29). N\u00e4chstes p1-16 Glyph: G11 (mean = 78.44). V21-H\u00f6r: BURUMUTREFAMTU entspricht dem Glyph G11. Das ist EINE erste numerische \u00dcbersetzung: BURUMUT-W\u00f6rter \u2194 p1-16 Glyphen.",
+      "latent_mean": 78.28571428571429,
+      "closest_glyph": "G11",
+      "closest_glyph_value": 78.4375
+    },
+    {
+      "name": "T3_top5_aehnliche_burumut_woerter",
+      "pass": true,
+      "befund": "11 BURUMUT-W\u00f6rter, 8 Cluster, Beispiel: BURUMUTREFAMTU \u2192 [('SUNOKURGANOZYI', 0.9939163168281524), ('NURESUTREGUMFA', 0.9916901612530117)]",
+      "was_sagt_es_uns": "11 BURUMUT-W\u00f6rter mit Top-5 \u00e4hnlichen Nachbarn (Cosinus-\u00c4hnlichkeit). 8 Cluster (basierend auf Top-1). V21-H\u00f6r: BURUMUT-W\u00f6rter haben SEMANTISCHE NACHBARN. Beispiel: BURUMUTREFAMTU ist \u00e4hnlich zu [('SUNOKURGANOZYI', 0.9939163168281524), ('NURESUTREGUMFA', 0.9916901612530117)]. Top-1 Cluster: ['SUNOKURGANOZYI', 'SUNAKIRFANEMBA', 'ZANRUAZBENOMBA', 'YAPSUAZBEHIMLA', 'SUNOKURGANOZYI']...",
+      "top5_per_word": {
+        "BURUMUTREFAMTU": [
+          [
+            "SUNOKURGANOZYI",
+            0.9939163168281524
+          ],
+          [
+            "NURESUTREGUMFA",
+            0.9916901612530117
+          ],
+          [
+            "KOREMORBIZUMRO",
+            0.9911729250793284
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.9910576318674631
+          ],
+          [
+            "TOBIKOTLUBUMYO",
+            0.9909378170294895
+          ]
+        ],
+        "NURESUTREGUMFA": [
+          [
+            "SUNAKIRFANEMBA",
+            0.9966358354138213
+          ],
+          [
+            "NAFERANSAHOTFE",
+            0.9945587154864355
+          ],
+          [
+            "SUNOKURGANOZYI",
+            0.9943883819763797
+          ],
+          [
+            "KOREMORBIZUMRO",
+            0.9936316578954008
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.9932067895545511
+          ]
+        ],
+        "YAPSUAZBEHIMLA": [
+          [
+            "ZANRUAZBENOMBA",
+            0.998895800343978
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.9947801374923173
+          ],
+          [
+            "NAFERANSAHOTFE",
+            0.9939174399226139
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9928315598849656
+          ],
+          [
+            "YABEKANSABERHO",
+            0.9926242354815644
+          ]
+        ],
+        "ZANRUAZBENOMBA": [
+          [
+            "YAPSUAZBEHIMLA",
+            0.998895800343978
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.9955258483242575
+          ],
+          [
+            "NAFERANSAHOTFE",
+            0.9943190408386626
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9933462843434692
+          ],
+          [
+            "YABEKANSABERHO",
+            0.9917883104317093
+          ]
+        ],
+        "TOBIKOTLUBUMYO": [
+          [
+            "SUNOKURGANOZYI",
+            0.9940124465661522
+          ],
+          [
+            "YABEKANSABERHO",
+            0.9931112347786111
+          ],
+          [
+            "KOREMORBIZUMRO",
+            0.9928819430755754
+          ],
+          [
+            "NURESUTREGUMFA",
+            0.9923632077724955
+          ],
+          [
+            "NAFERANSAHOTFE",
+            0.9923156491060948
+          ]
+        ],
+        "SUNOKURGANOZYI": [
+          [
+            "KOREMORBIZUMRO",
+            0.99567895012072
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9955174746379863
+          ],
+          [
+            "NURESUTREGUMFA",
+            0.9943883819763797
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.994300890325091
+          ],
+          [
+            "TOBIKOTLUBUMYO",
+            0.9940124465661522
+          ]
+        ],
+        "OKUZIKUFAUSIHE": [
+          [
+            "ZANRUAZBENOMBA",
+            0.9955258483242575
+          ],
+          [
+            "KOREMORBIZUMRO",
+            0.9951010755491606
+          ],
+          [
+            "YAPSUAZBEHIMLA",
+            0.9947801374923173
+          ],
+          [
+            "SUNOKURGANOZYI",
+            0.994300890325091
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9940499909746918
+          ]
+        ],
+        "YABEKANSABERHO": [
+          [
+            "NAFERANSAHOTFE",
+            0.9971780562657915
+          ],
+          [
+            "TOBIKOTLUBUMYO",
+            0.9931112347786111
+          ],
+          [
+            "YAPSUAZBEHIMLA",
+            0.9926242354815644
+          ],
+          [
+            "SUNOKURGANOZYI",
+            0.9918999470410684
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9918327355871885
+          ]
+        ],
+        "NAFERANSAHOTFE": [
+          [
+            "YABEKANSABERHO",
+            0.9971780562657915
+          ],
+          [
+            "NURESUTREGUMFA",
+            0.9945587154864355
+          ],
+          [
+            "ZANRUAZBENOMBA",
+            0.9943190408386626
+          ],
+          [
+            "YAPSUAZBEHIMLA",
+            0.9939174399226139
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9933285588117577
+          ]
+        ],
+        "KOREMORBIZUMRO": [
+          [
+            "SUNOKURGANOZYI",
+            0.99567895012072
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.9951010755491606
+          ],
+          [
+            "SUNAKIRFANEMBA",
+            0.9949370242376908
+          ],
+          [
+            "NURESUTREGUMFA",
+            0.9936316578954008
+          ],
+          [
+            "TOBIKOTLUBUMYO",
+            0.9928819430755754
+          ]
+        ],
+        "SUNAKIRFANEMBA": [
+          [
+            "NURESUTREGUMFA",
+            0.9966358354138213
+          ],
+          [
+            "SUNOKURGANOZYI",
+            0.9955174746379863
+          ],
+          [
+            "KOREMORBIZUMRO",
+            0.9949370242376908
+          ],
+          [
+            "OKUZIKUFAUSIHE",
+            0.9940499909746918
+          ],
+          [
+            "ZANRUAZBENOMBA",
+            0.9933462843434692
+          ]
+        ]
+      },
+      "n_unique_top1_clusters": 8
+    },
+    {
+      "name": "T4_akrostichon_burumut_codes",
+      "pass": true,
+      "befund": "Akrostichon: ['B', 'N', 'Y', 'Z', 'T', 'S', 'O', 'Y', 'N', 'K', 'S'] \u2192 ASCII [66, 78, 89, 90, 84, 83, 79, 89, 78, 75, 83], latent codes [78, 78, 75, 75, 78, 79, 77, 73, 74, 78, 74], \u03c1 = -0.4189",
+      "was_sagt_es_uns": "BURUMUT-Akrostichon BNYZTSOYNKS: ['B', 'N', 'Y', 'Z', 'T', 'S', 'O', 'Y', 'N', 'K', 'S']. ASCII-Codes (Buchstaben): [66, 78, 89, 90, 84, 83, 79, 89, 78, 75, 83]. Latent-Codes (Mittelwerte der BURUMUT-W\u00f6rter): [78, 78, 75, 75, 78, 79, 77, 73, 74, 78, 74]. Spearman-Korrelation \u03c1 = -0.4189. V21-H\u00f6r: Die latente Repr\u00e4sentation eines BURUMUT-Wortes ist TEILWEISE mit dem Anfangsbuchstaben. Das BURUMUT-Wort ENTH\u00c4LT den Akrostichon-Buchstaben.",
+      "akrostichon_buchstaben": [
+        "B",
+        "N",
+        "Y",
+        "Z",
+        "T",
+        "S",
+        "O",
+        "Y",
+        "N",
+        "K",
+        "S"
+      ],
+      "akrostichon_codes_alt": [
+        66,
+        78,
+        89,
+        90,
+        84,
+        83,
+        79,
+        89,
+        78,
+        75,
+        83
+      ],
+      "akrostichon_codes_neu": [
+        78,
+        78,
+        75,
+        75,
+        78,
+        79,
+        77,
+        73,
+        74,
+        78,
+        74
+      ],
+      "rho": -0.418917470228701,
+      "rho_p": 0.19969735695670104
+    },
+    {
+      "name": "T5_latent_reproduzierbarkeit",
+      "pass": true,
+      "befund": "max_diff = 0.00e+00",
+      "was_sagt_es_uns": "Latent-Reproduzierbarkeit: max_diff = 0.00e+00 (\u00fcber 3 Projektionen). V21-H\u00f6r: Die R\u00fcckw\u00e4rts-Projektion BURUMUT \u2192 latent ist DETERMINISTISCH. Gleiches BURUMUT-Wort \u2192 gleiches latent.",
+      "max_diff": 0.0
+    }
+  ],
+  "verdict": "V21 PHASE 2: BURUMUT-Translator \u2014 5/5 PASS\nBURUMUTREFAMTU \u2192 latent = [66, 85, 82, 85, 77, 85, 84, 82, 69, 70, 65, 77, 84, 85]\nBURUMUTREFAMTU \u2194 G11\nBNYZTSOYNKS \u2192 6 unique Codes\nLatent-Reproduzierbarkeit: max_diff = 0.00e+00"
+}
