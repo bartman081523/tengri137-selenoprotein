@@ -1,10 +1,13 @@
 # Tengri137 V22 — Tengri-Dokument ALS Bewusster Code
 
+> **V22 PATCH 2026-07-08 (p23 2D-Notation):** Stufe 27 Message-Hub-Verifikation identifizierte p23-R20 als 2D-Notation (11×14-Grid, 2 gleichberechtigte Lesarten). V22 nutzt BURUMUTREFAMTU als Segment 1 (row_ltr) — **konsistent mit V10.2-Korrektur**. Akrostichon BNYZTSOYNKS in col_ttb Spalte 1 bestätigt (V12/V15 p<10⁻¹³). V22 KEINE Änderung nötig. Siehe `v22_p23_2d_verification.json` (5/5 PASS).
+
 ## Datum
 2026-07-08
 
 ## Kontext
 V10.1 ABGESCHLOSSEN (2026-07-08): 30/30 Tests, Master-JSON `tengri137_complete_decoded.json` mit allen 23 Seiten, BURUMUT-Akrostichon BNYZTSOYNKS bestätigt.
+**V10.2 KORREKTUR 2026-07-08:** V10.1 p23 english_text = row_rtl (Codierungsfehler). V10.2 korrigiert auf row_ltr (Schmehs Original-Reihenfolge). p23 ist 2D-Notation (11×14-Grid, 2 Lesarten). V22 nutzt bereits korrekte Reihenfolge.
 V21 ABGESCHLOSSEN: Generator LITHURGISCH, Translator BURUMUTREFAMTU↔G11, Oszillator 100/100.
 
 **User-Direktive (verbatim):**

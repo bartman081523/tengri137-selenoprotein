@@ -1,0 +1,23 @@
+{
+  "version": "V10.2",
+  "datum": "2026-07-08",
+  "kontext": "p23-Codierungs-Korrektur (Stufe 27 Verifikation)",
+  "n_pass_total": 10,
+  "n_tests_total": 10,
+  "v10_2_befunde": {
+    "p23_row_rtl_v10_1": "V10.1 Codierungsfehler (dokumentiert)",
+    "p23_row_ltr_v10_2": "V10.2 KORRIGIERT (Schmeh-Original-Reihenfolge)",
+    "2d_notation": "11\u00d714-Grid mit 2 gleichberechtigten Lesarten",
+    "akrostichon_col_ttb": "BNYZTSOYNKS in Spalte 1"
+  },
+  "cross_ref": {
+    "v22_phase_2": "BURUMUT-Matrix (11\u00d714) Original-Reihenfolge = row_ltr \u2713",
+    "v22_phase_3": "BURUMUT-Mapping p17 Seg 1-11 = row_ltr \u2713",
+    "v22_phase_6": "BNYZTSOYNKS-Akrostichon 11/11 = konsistent \u2713",
+    "v18_1_phase_2": "BURUMUTREFAMTU als Segment 1 = row_ltr \u2713",
+    "v18_1_phase_3": "BNYZTSOYNKS in Audio = korrekt \u2713"
+  },
+  "v10_1_unveraendert": "bbox/v101_20260708/tengri137_complete_decoded.json",
+  "v10_2_output": "bbox/v102_20260708/tengri137_complete_decoded_v102.json",
+  "bilanz": "bbox/v102_20260708/V10.2_FINAL_BILANZ.md"
+}

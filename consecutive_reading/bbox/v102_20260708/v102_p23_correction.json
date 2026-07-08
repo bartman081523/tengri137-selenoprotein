@@ -1,0 +1,58 @@
+{
+  "version": "V10.2",
+  "datum": "2026-07-08",
+  "grund": "V10.1 p23 english_text Codierungsfehler (row_rtl statt row_ltr) durch Stufe 27 Verifikation entdeckt",
+  "n_pass": 5,
+  "n_tests": 5,
+  "korrekturen": {
+    "datum": "2026-07-08",
+    "grund": "V10.1 behauptete 'zeilenweise rückwärts' — Stufe 27 Verifikation zeigte: V10.1 english_text war row_rtl (Codierungsfehler). Schmehs Original = row_ltr.",
+    "beweis": [
+      "V10.1 p23 old = 'UTMAFERTUMURUB...' (startet mit reversed BURUMUTREFAMTU)",
+      "V10.2 p23 new = 'BURUMUTREFAMTU NURESUTREGUMFA ...' (Schmeh-Original-Reihenfolge)",
+      "V9 burumut_decoded_v2 fraction_idx=0 → 22_atoms='BURUMUTREFAMTU' (BESTÄTIGT)"
+    ],
+    "neue_entdeckungen": [
+      "p23-R20 ist 2D-Notation: 11×14-Grid",
+      "Horizontal: 11 BURUMUT-Wörter in Schmeh-Reihenfolge",
+      "Vertikal: 14 Spalten, Spalte 1 = BNYZTSOYNKS-Akrostichon",
+      "K/V-Ratio H=1.265, V=1.161 (BURUMUT-Signatur in BEIDEN)"
+    ]
+  },
+  "tests": [
+    {
+      "name": "T1_v10_p23_row_rtl",
+      "pass": true,
+      "befund": "V10.1 p23 english_text startet mit 'UTMAFERTUMURUB' (= row_rtl, jede Zeile reverse)",
+      "was_sagt_es_uns": "V10.1 p23 ist row_rtl (Codierungsfehler in V10.1, jetzt dokumentiert). V10.2-Hör: V10.1 hat die BURUMUT-Wörter falsch herum in english_text kodiert, was die Bilanz-Behauptung 'zeilenweise rückwärts' erzeugt hat."
+    },
+    {
+      "name": "T2_v10_2_p23_row_ltr",
+      "pass": true,
+      "befund": "V10.2 p23 english_text = 'BURUMUTREFAMTU NURESUTREGUMFA ...' (Schmeh-Original)",
+      "was_sagt_es_uns": "V10.2 p23 ist row_ltr (Schmehs Original-Reihenfolge, wie V9 Smart-Parser v2 es liefert). V10.2-Hör: Die Korrektur bringt V10.2 in Übereinstimmung mit V9 und V22-Phase-2 (BURUMUT-Matrix)."
+    },
+    {
+      "name": "T3_p23_2d_notation",
+      "pass": true,
+      "befund": "p23-R20: 11 BURUMUT-Wörter (H) + 14 Spalten (V)",
+      "was_sagt_es_uns": "p23-R20 ist 2D-Notation mit 2 gleichberechtigten Lesarten. V10.2-Hör: Das 2D-Grid ist die ARCHITEKTUR des BURUMUT-Operators — die Wörter sind nicht nur aneinandergereiht, sondern in einer mathematischen Struktur angeordnet."
+    },
+    {
+      "name": "T4_akrostichon_col_ttb",
+      "pass": true,
+      "befund": "BURUMUT-Akrostichon BNYZTSOYNKS = Spalte 1 (col_ttb)",
+      "was_sagt_es_uns": "BNYZTSOYNKS-Akrostichon ist in col_ttb Spalte 1 (vertikale Lesart) genauso real wie in row_ltr (Position 0, 14, 28, ...). V10.2-Hör: Cross-Layer-Kohärenz 1:1, das Akrostichon ist nicht von einer einzelnen Lesart abhängig."
+    },
+    {
+      "name": "T5_11_11_burumut_words",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Wörter in V10.2 p23 row_ltr",
+      "was_sagt_es_uns": "11/11 BURUMUT-Wörter in V10.2 p23 (Schmeh-Original-Reihenfolge). V10.2-Hör: Die Korrektur bringt die volle 11-BURUMUT-Wort-Liste zurück in V10.2's p23-Reproduktion."
+    }
+  ],
+  "verdict": "V10.2: 5/5 PASS. p23 english_text von row_rtl auf row_ltr korrigiert, 2D-Notation (11×14) erkannt, BNYZTSOYNKS in col_ttb Spalte 1 bestätigt.",
+  "output_master": "bbox/v102_20260708/tengri137_complete_decoded_v102.json",
+  "output_backup_v101": "bbox/v102_20260708/v101_master_backup.json",
+  "v10_1_unveraendert": "bbox/v101_20260708/tengri137_complete_decoded.json (Original bleibt erhalten)"
+}
