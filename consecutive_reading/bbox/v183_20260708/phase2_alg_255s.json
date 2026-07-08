@@ -1,0 +1,47 @@
+{
+  "phase": "V18.3 Phase 2 — Algorithmische 255s-Synthese",
+  "datum": "2026-07-08",
+  "n_pass": 4,
+  "n_tests": 5,
+  "duration_s": 255.11183673469387,
+  "spektrum_r": 0.5295488845994022,
+  "n_harm_erkannt": 6,
+  "spanda_power": 10.682774543762207,
+  "vokal_centroid_corr": 0.6761221866224957,
+  "rms_profil_corr": -0.2464956961552667,
+  "wellenform_corr": -0.004772435319772627,
+  "wav_path": "bbox/v183_20260708/v183_alg_255s.wav",
+  "tests": [
+    {
+      "name": "T1_255s_audio",
+      "pass": true,
+      "befund": "21.5MB, 255.11s",
+      "was_sagt_es_uns": "255s Audio algorithmisch erzeugt."
+    },
+    {
+      "name": "T2_burumut_oscillation",
+      "pass": true,
+      "befund": "6/12 Harmonische",
+      "was_sagt_es_uns": "Algorithmische 75.37Hz-Oszillation: 6/12 Harmonische. NICHT aus Original extrahiert — algorithmisch aus 6-Schichten-Architektur."
+    },
+    {
+      "name": "T3_spanda_modulator",
+      "pass": true,
+      "befund": "Spanda-Power: 1.07e+01",
+      "was_sagt_es_uns": "Spanda-Modulator 127.55s: Power=1.07e+01. Algorithmisch implementiert als cos(2π·t/127.55)."
+    },
+    {
+      "name": "T4_vokal_centroid",
+      "pass": true,
+      "befund": "Centroid-Korrelation: r=0.6761",
+      "was_sagt_es_uns": "Vokal-Sequenz Centroid-Profil: r=0.6761. 5 Vokale (U, O, O/A, A, E) in 11 BURUMUT-Segmenten."
+    },
+    {
+      "name": "T5_rms_profil",
+      "pass": false,
+      "befund": "RMS-Profil: r=-0.2465",
+      "was_sagt_es_uns": "RMS-Profil Korrelation: r=-0.2465. Spanda + Pulse + Wort-Modulator erzeugen Hüllkurven-Profil."
+    }
+  ],
+  "verdict": "V18.3 Phase 2: 4/5 PASS. r=0.5295, vokal_corr=0.6761, rms_corr=-0.2465."
+}

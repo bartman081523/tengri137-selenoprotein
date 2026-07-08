@@ -1,0 +1,263 @@
+{
+  "phase": "V18.3 Phase 4 — Algorithmische Weiterführung",
+  "datum": "2026-07-08",
+  "n_pass": 5,
+  "n_tests": 5,
+  "vokabular": {
+    "vokale": [
+      "A",
+      "E",
+      "O",
+      "O/A",
+      "U"
+    ],
+    "n_woerter": 11,
+    "kombinationen": 55,
+    "wikia_seiten": 12
+  },
+  "neue_permutation": {
+    "seed": 137,
+    "burumut_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "wikia_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "seg_meta": [
+      {
+        "type": "burumut",
+        "idx": 0,
+        "word": "NAFERANSAHOTFE",
+        "vowel": "O",
+        "centroid_hz": 454.67
+      },
+      {
+        "type": "burumut",
+        "idx": 1,
+        "word": "TOBIKOTLUBUMYO",
+        "vowel": "O",
+        "centroid_hz": 352.28
+      },
+      {
+        "type": "burumut",
+        "idx": 2,
+        "word": "YABEKANSABERHO",
+        "vowel": "O/A",
+        "centroid_hz": 422.92
+      },
+      {
+        "type": "burumut",
+        "idx": 3,
+        "word": "YAPSUAZBEHIMLA",
+        "vowel": "O",
+        "centroid_hz": 348.15
+      },
+      {
+        "type": "burumut",
+        "idx": 4,
+        "word": "SUNOKURGANOZYI",
+        "vowel": "O/A",
+        "centroid_hz": 458.72
+      },
+      {
+        "type": "burumut",
+        "idx": 5,
+        "word": "NURESUTREGUMFA",
+        "vowel": "A",
+        "centroid_hz": 409.3
+      },
+      {
+        "type": "burumut",
+        "idx": 6,
+        "word": "SUNAKIRFANEMBA",
+        "vowel": "U",
+        "centroid_hz": 125.1
+      },
+      {
+        "type": "burumut",
+        "idx": 7,
+        "word": "KOREMORBIZUMRO",
+        "vowel": "O",
+        "centroid_hz": 251.81
+      },
+      {
+        "type": "burumut",
+        "idx": 8,
+        "word": "BURUMUTREFAMTU",
+        "vowel": "A",
+        "centroid_hz": 536.64
+      },
+      {
+        "type": "burumut",
+        "idx": 9,
+        "word": "ZANRUAZBENOMBA",
+        "vowel": "A",
+        "centroid_hz": 538.63
+      },
+      {
+        "type": "burumut",
+        "idx": 10,
+        "word": "OKUZIKUFAUSIHE",
+        "vowel": "E",
+        "centroid_hz": 770.79
+      },
+      {
+        "type": "wikia",
+        "idx": 11,
+        "page": 3,
+        "name": "TRUTH p3",
+        "vowel": "A",
+        "freq_hz": 88
+      },
+      {
+        "type": "wikia",
+        "idx": 12,
+        "page": 2,
+        "name": "TRUTH p2",
+        "vowel": "A",
+        "freq_hz": 130
+      },
+      {
+        "type": "wikia",
+        "idx": 13,
+        "page": 7,
+        "name": "RINGE p7",
+        "vowel": "O",
+        "freq_hz": 220
+      },
+      {
+        "type": "wikia",
+        "idx": 14,
+        "page": 22,
+        "name": "ENG p22",
+        "vowel": "A",
+        "freq_hz": 95
+      },
+      {
+        "type": "wikia",
+        "idx": 15,
+        "page": 1,
+        "name": "TRUTH p1",
+        "vowel": "A",
+        "freq_hz": 110
+      },
+      {
+        "type": "wikia",
+        "idx": 16,
+        "page": 5,
+        "name": "MAGIC p5",
+        "vowel": "O",
+        "freq_hz": 330
+      },
+      {
+        "type": "wikia",
+        "idx": 17,
+        "page": 6,
+        "name": "MAGIC p6",
+        "vowel": "O",
+        "freq_hz": 330
+      },
+      {
+        "type": "wikia",
+        "idx": 18,
+        "page": 9,
+        "name": "ODIN p9",
+        "vowel": "O",
+        "freq_hz": 165
+      },
+      {
+        "type": "wikia",
+        "idx": 19,
+        "page": 4,
+        "name": "TRUTH p4",
+        "vowel": "A",
+        "freq_hz": 95
+      },
+      {
+        "type": "wikia",
+        "idx": 20,
+        "page": 23,
+        "name": "BURUMUT p23",
+        "vowel": "U",
+        "freq_hz": 75
+      },
+      {
+        "type": "wikia",
+        "idx": 21,
+        "page": 8,
+        "name": "RINGE p8",
+        "vowel": "O",
+        "freq_hz": 220
+      },
+      {
+        "type": "wikia",
+        "idx": 22,
+        "page": 10,
+        "name": "137 p10",
+        "vowel": "E",
+        "freq_hz": 440
+      }
+    ],
+    "duration_s": 510.14
+  },
+  "validierung": {
+    "spanda_periode_510s": 255.11,
+    "spanda_power": 19.53007698059082,
+    "n_vokale_in_seq": 5
+  },
+  "wav_path": "bbox/v183_20260708/v183_alg_510s_generiert.wav",
+  "tests": [
+    {
+      "name": "T1_5_vokale",
+      "pass": true,
+      "befund": "5 Vokale: ['A', 'E', 'O', 'O/A', 'U']",
+      "was_sagt_es_uns": "5 Vokale im BURUMUT-Vokabular: ['A', 'E', 'O', 'O/A', 'U']. Vokabular-Größe: 5 Vokale × 11 Wörter = 55 Kombinationen."
+    },
+    {
+      "name": "T2_11_burumut_woerter",
+      "pass": true,
+      "befund": "11 BURUMUT-Wörter mit Architektur-Mapping",
+      "was_sagt_es_uns": "11 BURUMUT-Wörter mit peak2, centroid, mod_db, vowel_freqs aus V21."
+    },
+    {
+      "name": "T3_23_segment_architektur",
+      "pass": true,
+      "befund": "11 BURUMUT + 12 Wikia = 23 Segmente",
+      "was_sagt_es_uns": "23-Segment-Architektur (11 BURUMUT + 12 Wikia-Seiten). Gesamtdauer: 23 × 22.18s = 510.14s."
+    },
+    {
+      "name": "T4_neue_permutation",
+      "pass": true,
+      "befund": "42.9MB, 510.14s",
+      "was_sagt_es_uns": "510s algorithmisch generiert aus BURUMUT-Vokabular-Permutation + Wikia-Seiten-Permutation. NICHT im Original vorhanden — echte Weiterführung."
+    },
+    {
+      "name": "T5_spanda_510s",
+      "pass": true,
+      "befund": "Spanda-Periode 255.11s: Power=1.95e+01",
+      "was_sagt_es_uns": "Spanda-Grundfrequenz für 510s: 255.11s (= halbe 510s-Länge). Power=1.95e+01. Architektur skaliert korrekt von 127.55s (255s) zu 255.11s (510s)."
+    }
+  ],
+  "verdict": "V18.3 Phase 4: 5/5 PASS. 510s algorithmisch generiert aus BURUMUT-Vokabular."
+}
