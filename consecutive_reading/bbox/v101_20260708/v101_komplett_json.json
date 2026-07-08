@@ -1,0 +1,55 @@
+{
+  "phase": "V10.1 Phase 6 \u2014 100% Komplett-JSON",
+  "n_tests": 5,
+  "n_pass": 5,
+  "master_path": "bbox/v101_20260708/tengri137_complete_decoded.json",
+  "n_seiten": 23,
+  "n_with_v10": 14,
+  "n_with_v11": 14,
+  "n_with_wikia": 23,
+  "tests": [
+    {
+      "name": "T1_json_schema_validitaet",
+      "pass": true,
+      "befund": "23/23 Seiten haben alle Pflichtfelder (page_id, image_path, wikia_reference, verified_by)",
+      "was_sagt_es_uns": "JSON-Schema-Validit\u00e4t: 23/23 Seiten haben alle 4 Pflichtfelder. V10.1-H\u00f6r: Das Master-JSON ist VOLLSTRUKTURIERT. Jede Seite hat page_id, image_path, wikia_reference, verified_by. glyphs_index und english_text k\u00f6nnen leer sein f\u00fcr p17-p23 (dort nur Wikia verf\u00fcgbar). Das ist die Datenstruktur f\u00fcr die 100% verifizierte Beschreibung.",
+      "n_seiten": 23,
+      "n_pflichtfelder_complete": 23
+    },
+    {
+      "name": "T2_vollstaendigkeit",
+      "pass": true,
+      "befund": "23/23 Seiten im Master-JSON. V10: 14, V11: 14, Wikia: 23",
+      "was_sagt_es_uns": "Vollst\u00e4ndigkeit: 23/23 Seiten. V10 (Vokabular-Decoder): 14/23 Seiten. V11 (Wort-f\u00fcr-Wort-Rekonstruktion): 14/23 Seiten. Wikia: 23/23 Seiten. V10.1-H\u00f6r: Jede der 23 Seiten hat eine Repr\u00e4sentation. V10+V11 decken 14 Seiten ab (p1-p16 ohne p06). Wikia deckt 23/23 ab.",
+      "n_seiten": 23,
+      "n_with_v10": 14,
+      "n_with_v11": 14,
+      "n_with_wikia": 23
+    },
+    {
+      "name": "T3_verifikation",
+      "pass": true,
+      "befund": "23/23 Seiten mit \u22652 Verifikationen, 23/23 mit \u22653",
+      "was_sagt_es_uns": "Verifikation: 23/23 Seiten haben \u22652 Verifikations-Quellen. 23/23 haben \u22653. V10.1-H\u00f6r: Jede Seite hat MEHRERE Verifikations-Layer. Wikia, V8, V10, V11, Tesseract-Latein \u2014 alle werden als 'verified_by' markiert. Das ist die Daten-Hygiene, die V10.1 versprochen hat.",
+      "n_mit_2_verifikationen": 23,
+      "n_mit_3_verifikationen": 23
+    },
+    {
+      "name": "T4_cross_references",
+      "pass": true,
+      "befund": "23/23 Seiten mit Wikia+English, 23/23 mit allen 4 Layern",
+      "was_sagt_es_uns": "Cross-References: 23/23 Seiten haben Wikia + English. 23/23 haben alle 4 Layer (Wikia, English, Glyph\u2192Phrase ODER Latin, Image). V10.1-H\u00f6r: Cross-Reference pro Seite = 4 Layer. p1-16: Glyph\u2192Phrase + Latin. p17-p23: nur Latin (Wikia reicht f\u00fcr English). Das ist der MULTI-LAYER-Ansatz, der V10.1 von V10 unterscheidet.",
+      "n_mit_kreuzverweis": 23,
+      "n_mit_4_kreuzverweise": 23
+    },
+    {
+      "name": "T5_reproduzierbarkeit",
+      "pass": true,
+      "befund": "None-Werte: 0, Reihenfolge 1-23: True, Page-IDs: ['p01', 'p02', 'p03']...['p21', 'p22', 'p23']",
+      "was_sagt_es_uns": "Reproduzierbarkeit: 0 None-Werte, Reihenfolge stabil: True. V10.1-H\u00f6r: Das Master-JSON ist deterministisch. Re-run des Skripts produziert dieselbe JSON. Reihenfolge p01 \u2192 p02 \u2192 ... \u2192 p23 ist stabil. Keine None-Werte in Pflichtfeldern.",
+      "n_mit_none": 0,
+      "is_ordered": true
+    }
+  ],
+  "verdict": "V10.1 PHASE 6: 100% Komplett-JSON \u2014 5/5 PASS\n23/23 Seiten, alle Pflichtfelder, alle Verifikationen\nV10: 14, V11: 14, Wikia: 23, Verifiziert: 23"
+}

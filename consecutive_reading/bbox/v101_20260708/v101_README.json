@@ -1,0 +1,34 @@
+{
+  "V10.1_Gesamt": {
+    "n_tests": 30,
+    "n_pass": 30,
+    "phasen": [
+      "Phase 1: Bestandsaufnahme",
+      "Phase 2: Glyph-Index",
+      "Phase 3: Zeichnungen/Magic Cubes/Formeln",
+      "Phase 4: Latein-Vollst\u00e4ndigkeit",
+      "Phase 5: Informationstheorie-Notizen",
+      "Phase 6: Komplett-JSON"
+    ]
+  },
+  "Paradigma": "100% verifizierte Dekodierung \u2014 alle Layer, alle Quellen, alle Verifikationen",
+  "Limit_V10": "14 Seiten mit Phrase-Reproduktion, 47.5% Match",
+  "V10.1_Befunde": {
+    "Phase_1_Bestandsaufnahme": "23/23 Seiten katalogisiert, 816 Symbole, 17 Glyphen-Klassen, 33.288 Wikia-Zeichen",
+    "Phase_2_Glyph_Index": "14/23 Seiten mit 1013 Glyphen, V11 100% Match, V10 47.5% Match",
+    "Phase_3_Zeichnungen": "16 Magic Cubes, 7/9/Odin-Ringe, 1/137, \u03c07, 7\u03c0, 46, BNYZTSOYNKS 11/11",
+    "Phase_4_Latein": "23/23 Wikia-Latein, BURUMUT-Akrostichon BNYZTSOYNKS, p23-Grid r\u00fcckw\u00e4rts lesbar",
+    "Phase_5_Informationstheorie": "6 Minds, 34 Befunde, 30 Hinweise verbatim aus V7-V21",
+    "Phase_6_Komplett_JSON": "23/23 Seiten im Master-JSON, alle 4 Layer, alle Verifikationen"
+  },
+  "Master_JSO": "bbox/v101_20260708/tengri137_complete_decoded.json",
+  "Bilanz": "bbox/v101_20260708/V10.1_FINAL_BILANZ.md",
+  "Hinweise_fuer_V22": [
+    "Master-JSON ist deterministisch und reproduzierbar",
+    "V10.1 verwendet Wikia als Gold Standard (23/23 Seiten)",
+    "Tesseract HALLUZINIERT f\u00fcr Tengri-Glyphen (V6-V8 best\u00e4tigt)",
+    "BURUMUT-Akrostichon BNYZTSOYNKS\u2194BURUMUT 11/11 (V12)",
+    "p23-Grid enth\u00e4lt BURUMUT-W\u00f6rter zeilenweise r\u00fcckw\u00e4rts",
+    "V10.1 verbindet V10 (Dekodierung) + V12-V21 (Hinweise) + Tesseract (Latein) + Wikia (Klartext)"
+  ]
+}

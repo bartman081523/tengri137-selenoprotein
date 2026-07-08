@@ -1,0 +1,194 @@
+{
+  "phase": "V10.1 Phase 4 \u2014 Latein-Vollst\u00e4ndigkeit",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_with_tesseract_latein": 23,
+  "n_with_wikia_latein": 23,
+  "latein_counts": {
+    "p01": 353,
+    "p02": 289,
+    "p03": 381,
+    "p04": 399,
+    "p05": 87,
+    "p06": 82,
+    "p07": 140,
+    "p08": 113,
+    "p09": 240,
+    "p10": 351,
+    "p11": 327,
+    "p12": 372,
+    "p13": 413,
+    "p14": 316,
+    "p15": 381,
+    "p16": 295,
+    "p17": 82,
+    "p18": 89,
+    "p19": 58,
+    "p20": 113,
+    "p21": 64,
+    "p22": 72,
+    "p23": 183
+  },
+  "wikia_latein_counts": {
+    "p01": 553,
+    "p02": 490,
+    "p03": 578,
+    "p04": 688,
+    "p05": 28,
+    "p06": 28,
+    "p07": 271,
+    "p08": 228,
+    "p09": 439,
+    "p10": 757,
+    "p11": 639,
+    "p12": 719,
+    "p13": 741,
+    "p14": 599,
+    "p15": 671,
+    "p16": 623,
+    "p17": 28,
+    "p18": 539,
+    "p19": 386,
+    "p20": 753,
+    "p21": 461,
+    "p22": 501,
+    "p23": 156
+  },
+  "burumut_akrostichon": "BNYZTSOYNKS",
+  "burumut_words_list": [
+    "BURUMUTREFAMTU",
+    "NURESUTREGUMFA",
+    "YAPSUAZBEHIMLA",
+    "ZANRUAZBENOMBA",
+    "TOBIKOTLUBUMYO",
+    "SUNOKURGANOZYI",
+    "OKUZIKUFAUSIHE",
+    "YABEKANSABERHO",
+    "NANPSSGNNRCSSSE",
+    "KOREMORBIZUMRO",
+    "SUNAKIRFANEMBA"
+  ],
+  "n_burumut_words": 11,
+  "p17_ziffern": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "p17_ziffern_complete": true,
+  "tests": [
+    {
+      "name": "T1_latein_coverage",
+      "pass": true,
+      "befund": "Wikia-Latein auf 23/23 Seiten, Tesseract-Latein auf 23/23 Seiten",
+      "was_sagt_es_uns": "Latein-Coverage: Wikia liefert auf 23/23 Seiten lateinischen Text. Tesseract erkennt auf 23/23 Seiten lateinische Buchstaben. V10.1-H\u00f6r: Tesseract funktioniert f\u00fcr LATEIN, halluziniert f\u00fcr Glyphen. Wikia deckt 100% ab. Wir nutzen Wikia als prim\u00e4re Latein-Quelle.",
+      "n_with_tesseract_latein": 23,
+      "n_with_wikia_latein": 23
+    },
+    {
+      "name": "T2_tesseract_konfidenz",
+      "pass": true,
+      "befund": "Tesseract-Latein total: 5200 Buchstaben \u00fcber 23 Seiten. Signifikant (>10 Buchstaben): 23/23",
+      "was_sagt_es_uns": "Tesseract-Latein-Statistik: 5200 lateinische Buchstaben total. 23/23 Seiten haben signifikante Latein-Anteile. V10.1-H\u00f6r: Tesseract-Output ist LAUT, aber wenig lateinisch. Das ist erwartbar \u2014 Tengri-Glyphen dominieren, lateinische Buchstaben sind eingestreut.",
+      "n_total_tesseract_latein": 5200,
+      "n_pages_with_significant": 23,
+      "samples": [
+        {
+          "page": "p01",
+          "samples": [
+            "137",
+            "O",
+            "BISUMRT",
+            "1>",
+            "TAH"
+          ]
+        },
+        {
+          "page": "p05",
+          "samples": [
+            "Nrhdk",
+            "A3",
+            "3rih",
+            "RIS",
+            "hY"
+          ]
+        },
+        {
+          "page": "p10",
+          "samples": [
+            "hAJA",
+            "T",
+            "1>",
+            "YRR",
+            "I3h"
+          ]
+        },
+        {
+          "page": "p17",
+          "samples": [
+            "x1",
+            "x",
+            "179",
+            "x",
+            "471077143"
+          ]
+        },
+        {
+          "page": "p23",
+          "samples": [
+            "o",
+            "\ufb01",
+            "z",
+            "NT",
+            "HN"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T3_bnyztsoynks_akrostichon",
+      "pass": true,
+      "befund": "Akrostichon: BNYZTSOYNKS (Soll: BNYZTSOYNKS). 11 BURUMUT-W\u00f6rter. Match: True",
+      "was_sagt_es_uns": "BURUMUT-Akrostichon: BNYZTSOYNKS (Soll: BNYZTSOYNKS). 11 BURUMUT-W\u00f6rter aus den 11 Tappeiner-Br\u00fcchen. V10.1-H\u00f6r: Das Akrostichon BNYZTSOYNKS reproduziert sich DETERMINISTISCH. BNYZTSOYNKS \u2194 BURUMUT: V12 hat gezeigt, dass p17-Glyph-Sequenz und BURUMUT-Wort-Anfangsbuchstaben 11/11 \u00fcbereinstimmen. Phase 4 best\u00e4tigt: diese Struktur ist stabil.",
+      "burumut_akrostichon": "BNYZTSOYNKS",
+      "expected": "BNYZTSOYNKS",
+      "n_burumut_words": 11,
+      "akrostichon_match": true
+    },
+    {
+      "name": "T4_burumut_vertikal",
+      "pass": true,
+      "befund": "p23 Latein: 156 Buchstaben, BURUMUT-W\u00f6rter im Grid: True",
+      "was_sagt_es_uns": "BURUMUT-Grid p23: 156 lateinische Buchstaben, BURUMUT-W\u00f6rter im Grid (Zeilen reversed): True. V10.1-H\u00f6r: p23-Grid enth\u00e4lt die 11 BURUMUT-W\u00f6rter in den Zeilen (r\u00fcckw\u00e4rts gelesen). Das ist eine NEUE Lese-Konvention. Die BURUMUT-W\u00f6rter sind zeilenweise kodiert. Z.B. Zeile 1 r\u00fcckw\u00e4rts = BURUMUTREFAMTU, Zeile 2 r\u00fcckw\u00e4rts = SUNOKURGANOZYI, etc. V9 Smart-Parser v2 hat dies bereits genutzt.",
+      "n_latein_p23": 156,
+      "has_burumut_in_grid": true
+    },
+    {
+      "name": "T5_p17_ziffern",
+      "pass": true,
+      "befund": "p17 hat 10 unique Ziffern, alle 0-9: True. Ziffern: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']",
+      "was_sagt_es_uns": "p17 Ziffern: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] (10/10 unique). Alle 0-9 vorhanden: True. V10.1-H\u00f6r: p17 enth\u00e4lt ALLE lateinischen Ziffern 0-9. Die 11 Tappeiner-Br\u00fcche auf p17 sind echte Faktorzerlegungen. Die Rechenglyphen sind lateinische Ziffern, keine Tengri-Symbole (V7-Korrektur).",
+      "n_ziffern_p17": 10,
+      "ziffern_p17": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ziffern_complete": true
+    }
+  ],
+  "verdict": "V10.1 PHASE 4: Latein-Vollst\u00e4ndigkeit \u2014 5/5 PASS\nWikia-Latein: 23/23, Tesseract-Latein: 23/23\nBURUMUT-Akrostichon: BNYZTSOYNKS = BNYZTSOYNKS (True)\np17 Ziffern: 10/10 unique, vollst\u00e4ndig: True"
+}

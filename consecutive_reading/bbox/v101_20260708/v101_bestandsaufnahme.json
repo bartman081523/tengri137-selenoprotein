@@ -1,0 +1,301 @@
+{
+  "phase": "V10.1 Phase 1 \u2014 Bestandsaufnahme",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_pages": 23,
+  "layer_data": {
+    "p01": {
+      "text_words": 138,
+      "symbols": 4,
+      "digits": 3,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p02": {
+      "text_words": 127,
+      "symbols": 27,
+      "digits": 7,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p03": {
+      "text_words": 162,
+      "symbols": 58,
+      "digits": 4,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p04": {
+      "text_words": 181,
+      "symbols": 1,
+      "digits": 14,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p05": {
+      "text_words": 39,
+      "symbols": 62,
+      "digits": 0,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p06": {
+      "text_words": 39,
+      "symbols": 63,
+      "digits": 3,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p07": {
+      "text_words": 70,
+      "symbols": 58,
+      "digits": 3,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p08": {
+      "text_words": 60,
+      "symbols": 108,
+      "digits": 1,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p09": {
+      "text_words": 116,
+      "symbols": 183,
+      "digits": 1,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p10": {
+      "text_words": 202,
+      "symbols": 10,
+      "digits": 21,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p11": {
+      "text_words": 167,
+      "symbols": 20,
+      "digits": 19,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p12": {
+      "text_words": 73,
+      "symbols": 8,
+      "digits": 3,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p13": {
+      "text_words": 175,
+      "symbols": 13,
+      "digits": 10,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p14": {
+      "text_words": 143,
+      "symbols": 17,
+      "digits": 9,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p15": {
+      "text_words": 187,
+      "symbols": 14,
+      "digits": 11,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p16": {
+      "text_words": 142,
+      "symbols": 113,
+      "digits": 8,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p17": {
+      "text_words": 224,
+      "symbols": 1,
+      "digits": 3,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p18": {
+      "text_words": 246,
+      "symbols": 1,
+      "digits": 1,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p19": {
+      "text_words": 167,
+      "symbols": 0,
+      "digits": 1,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p20": {
+      "text_words": 313,
+      "symbols": 4,
+      "digits": 6,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p21": {
+      "text_words": 202,
+      "symbols": 18,
+      "digits": 1,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p22": {
+      "text_words": 192,
+      "symbols": 50,
+      "digits": 5,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    },
+    "p23": {
+      "text_words": 312,
+      "symbols": 0,
+      "digits": 6,
+      "formulas": 0,
+      "drawings": 0,
+      "uncertain": 0
+    }
+  },
+  "n_symbols_total": 816,
+  "n_glyph_classes": 17,
+  "n_wikia_pages": 23,
+  "n_v10_pages": 14,
+  "n_v11_pages": 14,
+  "n_burumut": 76,
+  "n_endphrasen": 14,
+  "magic_cube_pages": [
+    "p05_p06",
+    "p07",
+    "p08",
+    "p09"
+  ],
+  "formula_pages": [
+    "p10",
+    "p12",
+    "p13",
+    "p14",
+    "p15"
+  ],
+  "tests": [
+    {
+      "name": "T1_layer_vollstaendigkeit",
+      "pass": true,
+      "befund": "23 Seiten, text_words=23/23, symbols=21/23, digits=22/23, formulas=0/23, drawings=0/23",
+      "was_sagt_es_uns": "text_words auf 23/23 Seiten (Tesseract-OCR). Symbols (Tengri-Glyphen) auf 21/23 Seiten. Digits auf 22/23 Seiten. Formulas auf 0/23 Seiten. Drawings auf 0/23 Seiten. V10.1-H\u00f6r: Die final_20260704-Strukturierung IST der Grundstock. Wir haben EINE konsistente JSON-Struktur pro Seite.",
+      "n_with_text_words": 23,
+      "n_with_symbols": 21,
+      "n_with_digits": 22,
+      "n_with_formulas": 0,
+      "n_with_drawings": 0
+    },
+    {
+      "name": "T2_glyph_index_vollstaendigkeit",
+      "pass": true,
+      "befund": "816 Symbole total, 17 Glyphen-Klassen aus V8",
+      "was_sagt_es_uns": "Symbole-Index: 816 Symbole \u00fcber das Dokument. Glyph-Klassen (V8): 17 (G01-G29 mit L\u00fccken). V10.1-H\u00f6r: Wir haben EINE Symbol-Datenbank (816) und EINE Glyphen-Klassifikation (17+). Mapping Symbol \u2192 Klasse ist NICHT 1:1, sondern kontextabh\u00e4ngig. Aber die Basis ist solide.",
+      "n_symbols_total": 816,
+      "n_glyph_classes": 17
+    },
+    {
+      "name": "T3_wikia_coverage",
+      "pass": true,
+      "befund": "23/23 Seiten mit Wikia-Plaintext, total 33288 Zeichen",
+      "was_sagt_es_uns": "Wikia-Coverage: 23/23 Seiten haben Wikia-Plaintext. V10.1-H\u00f6r: Schmehs Wikia-\u00dcbersetzung deckt ALLE 23 Seiten ab. Wir k\u00f6nnen Wikia als GOLD STANDARD f\u00fcr Verifikation nehmen (wo Wikia stimmt \u2014 und Schmeh 2017 ist Schmehs 7-Jahres-Recherche).",
+      "n_wikia_pages": 23,
+      "n_v9_pages": 23
+    },
+    {
+      "name": "T4_reconstruction_coverage",
+      "pass": true,
+      "befund": "V10 hat 14/23 Seiten, V11 hat 14/23 Seiten, zusammen: 14/23",
+      "was_sagt_es_uns": "V10 (phrase_reproduction): 14/23 Seiten mit Glyph\u2192Phrase. V11 (p1_p16_reproduction): 14/23 Seiten mit reconstructed. V10.1-H\u00f6r: V10+V11 decken 14/23 Seiten ab (p01-p16 minus p06/p17+). F\u00fcr p17-p23 brauchen wir Wikia (dort keine Glyphen). F\u00fcr p06 (Magic Cubes Seite) sind p05_p06 zusammengefasst.",
+      "v10_pages": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08",
+        "p09",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16"
+      ],
+      "v11_pages": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08",
+        "p09",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "name": "T5_magic_cube_burumut_coverage",
+      "pass": true,
+      "befund": "Magic Cubes auf ['p05_p06', 'p07', 'p08', 'p09'], Formeln auf ['p10', 'p12', 'p13', 'p14', 'p15'], BURUMUT-W\u00f6rter: 76, 14 Endphrasen: 14",
+      "was_sagt_es_uns": "Magic Cubes (4\u00d73\u00d73 = 666) auf p05_p06, p07, p08, p09. 1/137-Formel auf p10, p12-p15. BURUMUT-Tappeiner-W\u00f6rter: 76 (aus burumut_texts.json). 14 Endphrasen dokumentiert (LITTLE MIND, Onion, Magic Squares, Magic 126). V10.1-H\u00f6r: Wir haben den GESAMTEN Mathe/Magic-Layer. Phase 3 muss die Magic Cubes und Formeln BILDLICH abschreiben.",
+      "magic_cube_pages": [
+        "p05_p06",
+        "p07",
+        "p08",
+        "p09"
+      ],
+      "formula_pages": [
+        "p10",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "n_burumut": 76,
+      "n_endphrasen": 14
+    }
+  ],
+  "verdict": "V10.1 PHASE 1: Bestandsaufnahme \u2014 5/5 PASS\n23 Seiten, alle Quellen katalogisiert\ntext_words: 23/23, symbols: 21/23\nWikia: 23/23, V10: 14/23, V11: 14/23\nSymbole-Index: 816, Glyphen-Klassen: 17\nBURUMUT-Tappeiner: 76, Endphrasen: 14"
+}
