@@ -1,0 +1,64 @@
+{
+  "phase": "V18.2 Phase 4 — 510s Verlängerung mit erhaltener Architektur",
+  "datum": "2026-07-08",
+  "n_pass": 4,
+  "n_tests": 5,
+  "duration_s": 510.22,
+  "spektrum_r": 0.9995312924781056,
+  "waveform_corr": 0.9872106404398094,
+  "centroid_ratio": 0.9992875897132631,
+  "max_band_diff": 0.00034456756225165197,
+  "gzip_ratio": 2.734543266236409,
+  "synth_bands": {
+    "0-100Hz": 0.635400803489214,
+    "100-300Hz": 0.11591080321678496,
+    "300-1000Hz": 0.15472242754624058,
+    "1000-3000Hz": 0.05634900950690933,
+    "3000-8000Hz": 0.03438318703605458,
+    "8000-16000Hz": 0.0017613905469316495,
+    "16000-22050Hz": 0.0014723786472762325
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6350562359269624,
+    "100-300Hz": 0.11595733335941295,
+    "300-1000Hz": 0.15485147652779857,
+    "1000-3000Hz": 0.05641635838912089,
+    "3000-8000Hz": 0.034500671520633325,
+    "8000-16000Hz": 0.0017570648628765818,
+    "16000-22050Hz": 0.0014608594053435707
+  },
+  "wav_path": "bbox/v182_20260708/synthese_v182_phase4_510s.wav",
+  "tests": [
+    {
+      "name": "T1_wav_510s",
+      "pass": true,
+      "befund": "42.9MB, 510.22s",
+      "was_sagt_es_uns": "510.22s Audio erstellt (EXAKT 2x 255.11s)."
+    },
+    {
+      "name": "T2_spektrum_r",
+      "pass": true,
+      "befund": "r=0.9995",
+      "was_sagt_es_uns": "Spektrum-Form: OK. 510s-Replikation vs 2x-Original: r=0.9995."
+    },
+    {
+      "name": "T3_wellenform",
+      "pass": true,
+      "befund": "wave_corr=0.9872",
+      "was_sagt_es_uns": "Wellenform-Korrelation: OK. iSTFT-Phase-Mix über 510s (vs 2x Original)."
+    },
+    {
+      "name": "T4_gzip_ratio",
+      "pass": false,
+      "befund": "gz_ratio=2.735",
+      "was_sagt_es_uns": "gzip-Ratio: 2.735 (erwartet ~2.0 für EXAKTE Verdopplung). V18.1 hatte 1.998, V18.2 Phase 4: 2.735."
+    },
+    {
+      "name": "T5_centroid_match",
+      "pass": true,
+      "befund": "ratio=0.999, orig=417.3Hz, synth=417.0Hz",
+      "was_sagt_es_uns": "Centroid-Ratio: 0.999. orig=417Hz, synth=417Hz."
+    }
+  ],
+  "verdict": "V18.2 Phase 4: 4/5 PASS. r=0.9995, wave=0.9872, ratio=0.999, gz=2.735."
+}

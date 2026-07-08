@@ -1,0 +1,66 @@
+{
+  "phase": "V18.2 Phase 3 — 100% Replikation (iSTFT + Phase-Mix)",
+  "datum": "2026-07-08",
+  "n_pass": 5,
+  "n_tests": 5,
+  "duration_s": 255.11183673469387,
+  "spektrum_r": 0.9988614855880296,
+  "waveform_corr": 0.9743397870006694,
+  "centroid_ratio": 0.9985906151361338,
+  "max_band_diff": 0.0006993867136754206,
+  "orig_rms": 0.26171091198921204,
+  "synth_rms": 0.25973427295684814,
+  "rms_diff_pct": 0.7552757263183594,
+  "synth_bands": {
+    "0-100Hz": 0.6360690136856096,
+    "100-300Hz": 0.11545155766450947,
+    "300-1000Hz": 0.1545420410656407,
+    "1000-3000Hz": 0.056387234620734195,
+    "3000-8000Hz": 0.03428367576180226,
+    "8000-16000Hz": 0.001777218885980585,
+    "16000-22050Hz": 0.0014892583028038107
+  },
+  "orig_bands": {
+    "0-100Hz": 0.6353696269719342,
+    "100-300Hz": 0.11555302474916927,
+    "300-1000Hz": 0.1548017441254108,
+    "1000-3000Hz": 0.05652102928821203,
+    "3000-8000Hz": 0.03452035235036716,
+    "8000-16000Hz": 0.0017682936430467619,
+    "16000-22050Hz": 0.0014659288643794565
+  },
+  "wav_path": "bbox/v182_20260708/synthese_v182_phase3.wav",
+  "tests": [
+    {
+      "name": "T1_wav_255s",
+      "pass": true,
+      "befund": "21.5MB, 255.11s",
+      "was_sagt_es_uns": "255.11s Audio erstellt (Original-Länge)."
+    },
+    {
+      "name": "T2_band_match",
+      "pass": true,
+      "befund": "max_diff=0.1%",
+      "was_sagt_es_uns": "Band-Balance: PERFEKT. Max-Unterschied über 7 Bänder: 0.1%."
+    },
+    {
+      "name": "T3_spektrum_r",
+      "pass": true,
+      "befund": "r=0.9989",
+      "was_sagt_es_uns": "Spektrum-Form: FAST PERFEKT. r=0.9989 (1.0 = identisch)."
+    },
+    {
+      "name": "T4_wellenform",
+      "pass": true,
+      "befund": "wave_corr=0.9743",
+      "was_sagt_es_uns": "Wellenform-Korrelation: OK. V18.1 hatte -0.006, V18.2 versucht >0.5. iSTFT-Phase-Mix verändert Phasen, erhält aber die BURUMUT-Modulation."
+    },
+    {
+      "name": "T5_rms_100pct",
+      "pass": true,
+      "befund": "RMS-Diff=0.8%, orig=0.2617, synth=0.2597",
+      "was_sagt_es_uns": "RMS-Differenz: 0.8%. 100%-Replikation heißt: synth RMS ≈ orig RMS."
+    }
+  ],
+  "verdict": "V18.2 Phase 3: 5/5 PASS. r=0.9989, wave=0.9743, ratio=0.999, max_diff=0.1%."
+}
