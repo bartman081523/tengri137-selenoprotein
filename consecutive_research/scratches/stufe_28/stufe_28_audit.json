@@ -1,0 +1,139 @@
+{
+  "stufe": 28,
+  "methode": "Systematische Verifikation aller Stufen 0-26 gegen doc.json/V10.1",
+  "counts_per_seite": {
+    "p01": {
+      "glyphs": 29,
+      "latin": 21
+    },
+    "p02": {
+      "glyphs": 34,
+      "latin": 19
+    },
+    "p03": {
+      "glyphs": 43,
+      "latin": 21
+    },
+    "p04": {
+      "glyphs": 26,
+      "latin": 22
+    },
+    "p05": {
+      "glyphs": 116,
+      "latin": 10
+    },
+    "p06": {
+      "glyphs": 121,
+      "latin": 4
+    },
+    "p07": {
+      "glyphs": 27,
+      "latin": 10
+    },
+    "p08": {
+      "glyphs": 67,
+      "latin": 7
+    },
+    "p09": {
+      "glyphs": 18,
+      "latin": 11
+    },
+    "p10": {
+      "glyphs": 38,
+      "latin": 13
+    },
+    "p11": {
+      "glyphs": 55,
+      "latin": 26
+    },
+    "p12": {
+      "glyphs": 45,
+      "latin": 26
+    },
+    "p13": {
+      "glyphs": 54,
+      "latin": 24
+    },
+    "p14": {
+      "glyphs": 56,
+      "latin": 26
+    },
+    "p15": {
+      "glyphs": 48,
+      "latin": 25
+    },
+    "p16": {
+      "glyphs": 38,
+      "latin": 21
+    },
+    "p17": {
+      "glyphs": 24,
+      "latin": 26
+    },
+    "p18": {
+      "glyphs": 24,
+      "latin": 0
+    },
+    "p19": {
+      "glyphs": 26,
+      "latin": 31
+    },
+    "p20": {
+      "glyphs": 43,
+      "latin": 17
+    },
+    "p21": {
+      "glyphs": 16,
+      "latin": 14
+    },
+    "p22": {
+      "glyphs": 19,
+      "latin": 17
+    },
+    "p23": {
+      "glyphs": 30,
+      "latin": 65
+    }
+  },
+  "burumut_block": {
+    "words": 11,
+    "all_14": true,
+    "sample": [
+      "BURUMUTREFAMTU",
+      "NURESUTREGUMFA",
+      "YAPSUAZBEHIMLA"
+    ]
+  },
+  "vision_descriptions": {
+    "total": 997,
+    "with_vision": 255,
+    "pct": 25.576730190571716
+  },
+  "p23_r17_chemie": [],
+  "stufen_befunde": {
+    "stufe_00": "4 Zonen: Glyphen-Hotspot (p05/06/08), Latein-Korridor (p09-p16), Formel-Sturm (p17-p23)",
+    "stufe_01": "23 Seiten \u00d7 3-25 Regionen, BURUMUT-Block p23 ist 11\u00d714",
+    "stufe_02": "17 vision_kinds, 24 cluster_ids",
+    "stufe_03": "456 Latin-Tokens",
+    "stufe_04": "32 unknown + 52 other = 84 unklassifiziert",
+    "stufe_05": "p05/p06: 116/121 Glyphen",
+    "stufe_06": "255 von 997 Glyphen (25.6%) mit Vision-Description",
+    "stufe_07": "11 Geometrie-Familien",
+    "stufe_08": "2 identische Glyphen auf p17/p18, p05/p06 layout-zwillinge, 13 RINGS",
+    "stufe_09": "math_times SOLO-OPERATOR, exclusive Klassen",
+    "stufe_10": "p18: 16 gepaarte Primfaktorzerlegungs-Quotienten",
+    "stufe_11": "15 math_*-Glyphen (13 \u00d7, 1 \u03c0, 1 ^)",
+    "stufe_12": "51 hebr\u00e4isch, 30 chemisch, 17 Runen, 11 Idole \u2014 Strukturformeln p23_R4",
+    "stufe_13": "BURUMUT = 154-AS-Sequenz, 12% Sec, 8% Pyl, +21 Nettoladung",
+    "stufe_14": "2 AMP-Dom\u00e4nen, BURUMUT Selen-basiert",
+    "stufe_17": "BURUMUT Sec-reich, Halocymine-Analogon",
+    "stufe_18": "P0C8B1 = Halocymine",
+    "stufe_19": "Sec\u2192Cys, 18 Cys + 19 Lys",
+    "stufe_21": "p23_R17 Cytosin + Thymin",
+    "stufe_22": "+1 Leseraster 0 Stop-Codons, p=0.0004",
+    "stufe_23": "Adenin/Guanin implizit",
+    "stufe_24": "BURUMUT \u2282 DNA @ Pos 0 (21 Basen)",
+    "stufe_25": "Schmehs Hinweise (GENETIC, 3 Mrd, YHWH-\u03c0)",
+    "stufe_26": "154=7\u00d722, 462=7\u00d766, 154+462=616"
+  }
+}
