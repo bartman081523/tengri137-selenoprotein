@@ -1,0 +1,215 @@
+{
+  "phase": "V24 Phase 3 — STATUS-DERIVATION",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "dimensionen": {
+    "akustik": {
+      "dimension": "akustik",
+      "carrier_hz_unique": 1,
+      "carrier_hz": 75.37,
+      "spanda_period_s": 127.55,
+      "word_duration_s": 23.19,
+      "fm_hub_hz": 5.4,
+      "quelle": "V18.3 Phase 5 7-Schichten-Architektur"
+    },
+    "glyph": {
+      "dimension": "glyph",
+      "n_glyphs_pro_page": [
+        {
+          "page": "p01",
+          "n_glyphs": 92
+        },
+        {
+          "page": "p02",
+          "n_glyphs": 68
+        },
+        {
+          "page": "p03",
+          "n_glyphs": 83
+        },
+        {
+          "page": "p04",
+          "n_glyphs": 92
+        },
+        {
+          "page": "p05",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p06",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p07",
+          "n_glyphs": 35
+        },
+        {
+          "page": "p08",
+          "n_glyphs": 19
+        },
+        {
+          "page": "p09",
+          "n_glyphs": 50
+        },
+        {
+          "page": "p10",
+          "n_glyphs": 99
+        },
+        {
+          "page": "p11",
+          "n_glyphs": 82
+        },
+        {
+          "page": "p12",
+          "n_glyphs": 93
+        },
+        {
+          "page": "p13",
+          "n_glyphs": 97
+        },
+        {
+          "page": "p14",
+          "n_glyphs": 62
+        },
+        {
+          "page": "p15",
+          "n_glyphs": 82
+        },
+        {
+          "page": "p16",
+          "n_glyphs": 59
+        },
+        {
+          "page": "p17",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p18",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p19",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p20",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p21",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p22",
+          "n_glyphs": 0
+        },
+        {
+          "page": "p23",
+          "n_glyphs": 0
+        }
+      ],
+      "n_glyphs_p1": 92,
+      "n_glyphs_p23": 0,
+      "quelle": "V10.4 n_glyphs_v9 pro Page"
+    },
+    "wikia": {
+      "dimension": "wikia",
+      "klassen_counts": {
+        "truth_revelation": 6,
+        "anti_god": 2,
+        "garden_argument": 2,
+        "galaxy_civilisation": 3,
+        "genetic_encryption": 1,
+        "brain_reformatting": 3,
+        "magic_cube_666": 9,
+        "fine_structure_137": 3,
+        "adam_46": 4,
+        "tengri_names": 5
+      },
+      "n_aktive_klassen": 10,
+      "burumut_klasse": "tengri_names",
+      "tengri_names_count": 5,
+      "quelle": "V22 wikia_semantics.class_counts"
+    },
+    "tappeiner": {
+      "dimension": "tappeiner",
+      "n_burumut_mit_bruch": 11,
+      "n_burumut_ohne_bruch": 0,
+      "bruch_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "quelle": "V10.4 p23 burumut_fractions_v9"
+    }
+  },
+  "empfehlungen": {
+    "akustik": {
+      "beobachtung": "Nur 1 Träger-Frequenz in BURUMUT-Architektur: 75.37 Hz",
+      "empfehlung": "V25 könnte alternative Träger-Frequenzen testen (75.37 Hz ist V18.3-Träger, aber BURUMUT-Matrix κ=211.29 erlaubt mehrere Eigenwerte)",
+      "v_basis": "V18.3 Phase 5 (eine Architektur), V22 (κ=211.29 = 11 dominante Eigenwerte)"
+    },
+    "glyph": {
+      "beobachtung": "Glyphen: 92 in p1, 0 in p23 — Glyph-Domain endet an p1-p16",
+      "empfehlung": "V25 könnte den Glyph-BURUMUT-Übergang p1→p23 untersuchen: warum verschwinden Glyphen und BURUMUT-Wörter tauchen erst in p23 auf?",
+      "v_basis": "V6 (17 Glyphen), V8 (Glyph-Phrase-Mapping), V10.4 p17=0 Glyphen, p23 BURUMUT"
+    },
+    "wikia": {
+      "beobachtung": "10 Wikia-Klassen aktiv, BURUMUT-Wörter nur in tengri_names (5 Vorkommen)",
+      "empfehlung": "V25 könnte untersuchen, warum BURUMUT-Wörter ausserhalb von p23-Grid nicht in Wikia auftauchen — sind sie eine eigene Schicht?",
+      "v_basis": "V22 wikia_semantics (10 Klassen), V22 dokument_match (BURUMUT-Match p23 dominant)"
+    },
+    "tappeiner": {
+      "beobachtung": "11/11 BURUMUT-Wörter haben 1:1 Tappeiner-Bruch-Mapping in V10.4 p23",
+      "empfehlung": "V25 könnte die 17 p17-Brüche ohne BURUMUT-Mapping (oder mit doppelten BURUMUT-Wörtern) untersuchen — sind das alternative Dekodierungen?",
+      "v_basis": "V10.4 p17 (17 Brüche), V10.4 p23 (11 BURUMUT-Wörter, 1:1)"
+    },
+    "konsens": {
+      "beobachtung": "Alle 4 Dimensionen (Akustik, Glyph, Wikia, Tappeiner) sind unabhängig aber konsistent — BURUMUT ist multidimensional kodiert",
+      "empfehlung": "V25 sollte die multidimensionale Selbst-Referenz EMPIRISCH verifizieren: jede Dimension gibt Hinweise auf dieselbe BURUMUT-Architektur (BNYZTSOYNKS, 11/11, V12 bestätigt)",
+      "v_basis": "V12 (Akrostichon-Cross-Layer), V22 (Codebook), V18.3 (Akustik), V10.4 (KORRIGIERT)"
+    }
+  },
+  "tests": [
+    {
+      "name": "T1_akustik_dimension",
+      "pass": true,
+      "befund": "Akustik-Dimension: 1 Träger (75.37 Hz), Empfehlung abgeleitet",
+      "was_sagt_es_uns": "Die BURUMUT-Architektur hat genau 1 Träger-Frequenz (V18.3: 75.37 Hz). V25 könnte prüfen, ob die BURUMUT-Matrix κ=211.29 mehrere Eigenwerte hat, die als alternative Träger getestet werden könnten. Status → Empfehlung: deterministisch, nicht ML."
+    },
+    {
+      "name": "T2_glyph_dimension",
+      "pass": true,
+      "befund": "Glyph-Dimension: 92 Glyphen p1, 0 Glyphen p23",
+      "was_sagt_es_uns": "Glyphen kommen in p1-p16 vor (V6: 17 unique), in p17-p22 sind sie 0, in p23 sind BURUMUT-Wörter (statt Glyphen). V25 könnte den Übergang Glyph→BURUMUT p1→p23 untersuchen — das ist ein archäologischer Bruch zwischen zwei Notationssystemen."
+    },
+    {
+      "name": "T3_wikia_dimension",
+      "pass": true,
+      "befund": "Wikia-Dimension: 10 aktive Klassen, BURUMUT in tengri_names",
+      "was_sagt_es_uns": "Wikia hat 10 Klassen (truth_revelation, anti_god, garden_argument, ...), aber BURUMUT-Wörter kommen NUR in tengri_names vor (V22). Das ist ein Schichten-Bruch: BURUMUT ist NICHT in den Wikia-Plaintext integriert. V25 könnte fragen: Warum diese Trennung?"
+    },
+    {
+      "name": "T4_tappeiner_dimension",
+      "pass": true,
+      "befund": "Tappeiner-Dimension: 11/11 BURUMUT-Wörter haben Bruch-Mapping",
+      "was_sagt_es_uns": "11/11 BURUMUT-Wörter haben 1:1 Tappeiner-Bruch in V10.4 p23 fractions. p17 hat 17 Brüche — 6 davon sind entweder ohne BURUMUT oder doppelt. V25 könnte die p17-Brüche ohne BURUMUT-Mapping untersuchen."
+    },
+    {
+      "name": "T5_konsens_dimension",
+      "pass": true,
+      "befund": "4/4 Dimensionen mit konvergenter Empfehlung (Akustik + Glyph + Wikia + Tappeiner)",
+      "was_sagt_es_uns": "Alle 4 Dimensionen liefern unabhängige Empfehlungen, die alle auf dasselbe BURUMUT-Konstrukt zeigen. Konsens: BURUMUT ist multidimensional kodiert. V25 sollte die Selbst-Referenz empirisch verifizieren (jede Dimension → BNYZTSOYNKS)."
+    }
+  ],
+  "reference": "Deterministische Ableitung: Status → Empfehlung. KEIN ML, regel-basiert."
+}

@@ -1,0 +1,42 @@
+{
+  "phase": "V24 Phase 1 — BURUMUT-CONSTRUCT (JsonMind)",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_woerter": 11,
+  "akrostichon": "BNYZTSOYNKS",
+  "v22_kappa": 211.28714638789054,
+  "tests": [
+    {
+      "name": "T1_11_burumut_woerter",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Wörter in Construct, V10.4 KORRIGIERT (idx 8 = NAFERANSAHOTFE)",
+      "was_sagt_es_uns": "11 BURUMUT-Wörter aus V10.4 p23-Grid in Construct übernommen. Reihenfolge entspricht V22 Matrix. idx 8 = NAFERANSAHOTFE bestätigt (V9 v2-Bug NANPSSGNNRCSSSE ist NICHT enthalten). Das ist der Gold-Standard aus V10.4."
+    },
+    {
+      "name": "T2_ascii_matrix_korrekt",
+      "pass": true,
+      "befund": "11/11 ASCII-Matrix aus V22 korrekt, Akrostichon BNYZTSOYNKS bestätigt",
+      "was_sagt_es_uns": "Die 11×14 ASCII-Matrix ist EXAKT die V22-Matrix (κ=211.29). Spalte 0 = BNYZTSOYNKS (V12 bestätigt). Construct zitiert die Original-Matrix ohne jede Modifikation — keine eigene ML-Idee, nur Lookup."
+    },
+    {
+      "name": "T3_rms_matrix_korrekt",
+      "pass": true,
+      "befund": "11/11 RMS-Matrix aus V18.3 korrekt, SUNAKIRFANEMBA B14=0.004 (systemischer Fade-Out)",
+      "was_sagt_es_uns": "Die 11×14 RMS-Matrix ist EXAKT die V18.3 EMPIRICAL_RMS (154 Werte). SUNAKIRFANEMBA B14=0.004 bestätigt den systemischen Fade-Out der Architektur. Construct zitiert die Original-Matrix ohne Approximation."
+    },
+    {
+      "name": "T4_akrostichon_bnyztsoynks",
+      "pass": true,
+      "befund": "Akrostichon BNYZTSOYNKS (11/11 Positionen korrekt)",
+      "was_sagt_es_uns": "Akrostichon BNYZTSOYNKS (V12 bestätigt) ist in Construct strukturell verankert: jede Position 0-10 hat einen Buchstaben, jedes BURUMUT-Wort hat eine eindeutige Akrostichon-Position. Das ist der Schlüssel für die Cross-Layer-Konsistenz."
+    },
+    {
+      "name": "T5_tappeiner_bruche_verlinkt",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Wörter haben Tappeiner-Bruch, 0 ohne (ehrlich dokumentiert)",
+      "was_sagt_es_uns": "Tappeiner-Brüche (V10.4 p17 fractions) verlinken BURUMUT-Wörter mit den mathematischen Ausdrücken. p17 hat 17 Brüche, BURUMUT-Wörter sind 11 — manche BURUMUT-Wörter werden durch mehrere Brüche gestützt. Wörter ohne Bruch sind ehrlich dokumentiert (Hinweis statt Bruch)."
+    }
+  ],
+  "reference": "BURUMUT-Matrix multidimensional: ASCII × RMS × Tappeiner × Wikia × Vorkommen × Glyph × Akustik × Cross-Layer"
+}

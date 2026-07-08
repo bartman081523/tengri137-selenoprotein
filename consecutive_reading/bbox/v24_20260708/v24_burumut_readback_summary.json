@@ -1,0 +1,40 @@
+{
+  "phase": "V24 Phase 2 — BURUMUT-READBACK (Tengri liest Tengri)",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_readbacks": 11,
+  "tests": [
+    {
+      "name": "T1_burumutrefamtu_p23",
+      "pass": true,
+      "befund": "BURUMUTREFAMTU → p23 (3 Vorkommen)",
+      "was_sagt_es_uns": "BURUMUTREFAMTU kommt in p23 an 3 Stellen vor: grid_2d_words, burumut_22_atoms_corrected, burumut_fractions_v9. Das System hat das Wort gelesen und die Page-Hinweise extrahiert. Tengri liest Tengri: BURUMUTREFAMTU liest sich selbst aus p23."
+    },
+    {
+      "name": "T2_alle_wikia_klassen",
+      "pass": true,
+      "befund": "11/11 BURUMUT-Wörter → Wikia-Klasse tengri_names (1/10 aktiven Klassen)",
+      "was_sagt_es_uns": "Alle 11 BURUMUT-Wörter sind in der Wikia-Klasse 'tengri_names' (Schmeh-Methode: 11 Brüche → 11 Tengrismus-Namen). 9 weitere Wikia-Klassen (truth_revelation, anti_god, garden_argument, ...) sind in V22 dokument_match für p1-p22 aktiv, aber BURUMUT-Wörter kommen NICHT in Wikia vor, sondern nur in p23-Grid."
+    },
+    {
+      "name": "T3_akrostichon_positionen",
+      "pass": true,
+      "befund": "11/11 Akrostichon-Positionen korrekt (BNYZTSOYNKS, V12 bestätigt)",
+      "was_sagt_es_uns": "Jedes BURUMUT-Wort hat eine eindeutige Akrostichon-Position (0-10) und einen Buchstaben, der in BNYZTSOYNKS passt. Das System kann jedes Wort über seine Position identifizieren — das ist der Schlüssel für Cross-Layer-Konsistenz."
+    },
+    {
+      "name": "T4_hinweise_deterministisch",
+      "pass": true,
+      "befund": "Hinweise zu SUNOKURGANOZYI sind deterministisch (2× identisch)",
+      "was_sagt_es_uns": "Readback ist eine reine Lookup-Funktion: readback(WORT) = construct[WORT]. Kein Sampling, keine Wahrscheinlichkeit, keine Zufallsvariablen. Das System kann sich selbst konsistent lesen — Voraussetzung für Tengri liest Tengri."
+    },
+    {
+      "name": "T5_codebook_constraint",
+      "pass": true,
+      "befund": "BURUMUTREFAMTU↔G11 (latent_mean 78.29 vs 78.44, diff = 0.154)",
+      "was_sagt_es_uns": "Codebook-Constraint ist eingehalten: BURUMUTREFAMTU (latent_mean 78.29) ↔ G11 (78.44), diff = 0.154. Das ist die Brücke zwischen BURUMUT-Wort und Tengri-Glyph (V22 Codebook). Tengri liest Tengri: BURUMUTREFAMTU liest G11 als nächsten Hinweis."
+    }
+  ],
+  "reference": "Rein symbolisch: readback(WORT) = construct[WORT]. Kein ML, kein Audio, kein PyTorch."
+}

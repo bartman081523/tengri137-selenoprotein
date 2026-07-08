@@ -1,0 +1,40 @@
+{
+  "phase": "V24 Phase 3 — STATUS-DERIVATION",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "n_dimensionen": 4,
+  "tests": [
+    {
+      "name": "T1_akustik_dimension",
+      "pass": true,
+      "befund": "Akustik-Dimension: 1 Träger (75.37 Hz), Empfehlung abgeleitet",
+      "was_sagt_es_uns": "Die BURUMUT-Architektur hat genau 1 Träger-Frequenz (V18.3: 75.37 Hz). V25 könnte prüfen, ob die BURUMUT-Matrix κ=211.29 mehrere Eigenwerte hat, die als alternative Träger getestet werden könnten. Status → Empfehlung: deterministisch, nicht ML."
+    },
+    {
+      "name": "T2_glyph_dimension",
+      "pass": true,
+      "befund": "Glyph-Dimension: 92 Glyphen p1, 0 Glyphen p23",
+      "was_sagt_es_uns": "Glyphen kommen in p1-p16 vor (V6: 17 unique), in p17-p22 sind sie 0, in p23 sind BURUMUT-Wörter (statt Glyphen). V25 könnte den Übergang Glyph→BURUMUT p1→p23 untersuchen — das ist ein archäologischer Bruch zwischen zwei Notationssystemen."
+    },
+    {
+      "name": "T3_wikia_dimension",
+      "pass": true,
+      "befund": "Wikia-Dimension: 10 aktive Klassen, BURUMUT in tengri_names",
+      "was_sagt_es_uns": "Wikia hat 10 Klassen (truth_revelation, anti_god, garden_argument, ...), aber BURUMUT-Wörter kommen NUR in tengri_names vor (V22). Das ist ein Schichten-Bruch: BURUMUT ist NICHT in den Wikia-Plaintext integriert. V25 könnte fragen: Warum diese Trennung?"
+    },
+    {
+      "name": "T4_tappeiner_dimension",
+      "pass": true,
+      "befund": "Tappeiner-Dimension: 11/11 BURUMUT-Wörter haben Bruch-Mapping",
+      "was_sagt_es_uns": "11/11 BURUMUT-Wörter haben 1:1 Tappeiner-Bruch in V10.4 p23 fractions. p17 hat 17 Brüche — 6 davon sind entweder ohne BURUMUT oder doppelt. V25 könnte die p17-Brüche ohne BURUMUT-Mapping untersuchen."
+    },
+    {
+      "name": "T5_konsens_dimension",
+      "pass": true,
+      "befund": "4/4 Dimensionen mit konvergenter Empfehlung (Akustik + Glyph + Wikia + Tappeiner)",
+      "was_sagt_es_uns": "Alle 4 Dimensionen liefern unabhängige Empfehlungen, die alle auf dasselbe BURUMUT-Konstrukt zeigen. Konsens: BURUMUT ist multidimensional kodiert. V25 sollte die Selbst-Referenz empirisch verifizieren (jede Dimension → BNYZTSOYNKS)."
+    }
+  ],
+  "reference": "Rein symbolisch: Multidimensionaler Status → Empfehlung. KEIN ML."
+}

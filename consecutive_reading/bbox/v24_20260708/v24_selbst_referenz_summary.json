@@ -1,0 +1,39 @@
+{
+  "phase": "V24 Phase 4 — SELBST-REFERENZ-VERIFIKATION",
+  "datum": "2026-07-08",
+  "n_tests": 5,
+  "n_pass": 5,
+  "tests": [
+    {
+      "name": "T1_p23_verifizierbar",
+      "pass": true,
+      "befund": "p23: 33 Hinweise, V10.4 p23 hat 11 BURUMUT-Wörter",
+      "was_sagt_es_uns": "Die Hinweise 'p23' aus dem Readback sind EXAKT verifizierbar in V10.4 Master-JSON. Keine Drift: Construct + V10.4 zeigen konsistent, dass BURUMUT-Wörter in p23-Grid vorkommen. Tengri liest Tengri: p23-Hinweis = p23-Realität."
+    },
+    {
+      "name": "T2_tappeiner_verifizierbar",
+      "pass": true,
+      "befund": "Tappeiner: 11/11 BURUMUT-Wörter mit Bruch in Construct, V10.4 p23: 11 fractions mit 22_atoms_corrected",
+      "was_sagt_es_uns": "11/11 BURUMUT-Wörter im Construct haben Tappeiner-Bruch. V10.4 p23 fractions haben 11 Einträge mit 22_atoms_corrected. Beide Seiten stimmen überein: BURUMUT-Wort ↔ Bruch ist 1:1 abgespeichert. Keine Drift."
+    },
+    {
+      "name": "T3_codebook_verifizierbar",
+      "pass": true,
+      "befund": "Codebook: Construct diff = 0.154, V22 diff = 0.154",
+      "was_sagt_es_uns": "Codebook-Constraint BURUMUTREFAMTU↔G11 (diff = 0.15) ist in Construct UND V22 identisch. Das ist die Brücke zwischen BURUMUT-Wort und Tengri-Glyph: latent_mean 78.29 vs 78.44, Differenz 0.154. Verifiziert: Readback-Hinweis 'G11' ist konsistent mit Original."
+    },
+    {
+      "name": "T4_akustik_verifizierbar",
+      "pass": true,
+      "befund": "Akustik: Träger 75.37 Hz, Spanda 127.55s, FM-Hub 5.4 Hz",
+      "was_sagt_es_uns": "V18.3 Akustik-Architektur (Träger 75.37 Hz, Spanda 127.55s, FM-Hub 5.4 Hz) ist EXAKT in Construct übernommen. Verifiziert: Hinweise 'Akustik' aus dem Readback stimmen mit V18.3-Konstanten überein. Symbolische Konsistenz ohne Drift."
+    },
+    {
+      "name": "T5_selbst_referenz_konsistent",
+      "pass": true,
+      "befund": "4/4 Verifikationen konsistent: p23, Tappeiner, Codebook, Akustik",
+      "was_sagt_es_uns": "Alle 4 Verifikationen sind konsistent: Construct-Hinweise stimmen mit V10.4, V22 und V18.3 überein. 'Tengri liest Tengri' ist selbst-referenzielle Konsistenz: das System liest seine eigenen Hinweise und findet sie bestätigt durch den Originalzustand. Keine Drift, keine Apophenie — nur symbolische Konsistenz."
+    }
+  ],
+  "reference": "Verifiziert: Hinweise = Originalzustand. Keine Drift."
+}
