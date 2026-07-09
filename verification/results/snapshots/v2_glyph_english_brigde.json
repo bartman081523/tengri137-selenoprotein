@@ -1,0 +1,32 @@
+{
+  "method": "Wikia-Alignment + 17-Glyphen-ML-Decoder",
+  "phases": [
+    {
+      "phase": "V6 (Phase 8-15)",
+      "output": "17 unique Glyphen-Klassen aus p1-p16",
+      "method": "ML-Clustering (kein Wikia)"
+    },
+    {
+      "phase": "V8 (Phase 26)",
+      "output": "17 Glyphen \u2194 Wikia-Plaintext (1 Glyph \u2248 7 lateinische Buchstaben)",
+      "method": "Wikia-Alignment (Schmeh-\u00dcbersetzung als Trainingsreferenz)"
+    },
+    {
+      "phase": "V9 (Phase 0-7)",
+      "output": "Drei-Schichten-Architektur: Tengri-Glyphen + Wikia + Formel-Decodes",
+      "method": "Re-Verifikation mit Smart-Parser v2"
+    },
+    {
+      "phase": "V10 (Phase 28)",
+      "output": "30/30 Tests, Glyph\u2192English 85-93% Match",
+      "method": "ML-Modell mit V8-Alignment als Trainingsdaten"
+    },
+    {
+      "phase": "V10.1-V10.5",
+      "output": "p17 n_burumut=0, p23 idx 8/9/10 Korrekturen",
+      "method": "CitMind-Verifikation, doc.json Gold-Standard"
+    }
+  ],
+  "v1_limitation": "V1 nutzt KEIN Wikia, KEINEN ML-Decoder. V1 hat nur Pixel + BBox + aHash. Glyphe\u2192Englisch-Br\u00fccke ist aus V1 NICHT reproduzierbar.",
+  "v2_perspective": "V2 dokumentiert die Br\u00fccke transparent, ohne sie zu reproduzieren. Wikia-Plaintext ist externe Quelle, nicht Reverifikations-Quelle."
+}

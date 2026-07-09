@@ -1,0 +1,84 @@
+{
+  "method": "V2 = Br\u00fccke zwischen V1 (Original-PNG-Reverifikation) und V10.4 (Master-JSON)",
+  "timestamp": "2026-07-09T21:34:43.124995",
+  "v1_data": {
+    "n_bboxes": 8771,
+    "n_glyphs": 1319,
+    "n_latin_words": 648,
+    "n_formulas": 2563,
+    "n_text_lines": 226
+  },
+  "v2_burumut_brigde": {
+    "method": "Faktor-Br\u00fcche \u2192 algebraische BURUMUT-W\u00f6rter (deterministisch, unabh\u00e4ngig von V10.4)",
+    "n_words": 11,
+    "words": [
+      "CRTFFXXDDXFVVB",
+      "DZBXXXXLDXFVVB",
+      "HRJRXXXDLDXFVV",
+      "HXVXXXXLDXFVVB",
+      "CBFFXXXDLDXFVV",
+      "HFHVXXXDXFVVBT",
+      "RFXXXXXDLDXFVV",
+      "CVBXXXXDLDXFVV",
+      "HDHXXXXDHNFLDH",
+      "CZLHXXXDDXFVVB",
+      "TFDHXXXLDXFVVB"
+    ],
+    "akrostichon": "CDHHCHRCHCT",
+    "akrostichon_unique": 5
+  },
+  "v2_glyph_english_brigde": {
+    "method": "Wikia-Alignment + 17-Glyphen-ML-Decoder",
+    "phases": [
+      {
+        "phase": "V6 (Phase 8-15)",
+        "output": "17 unique Glyphen-Klassen aus p1-p16",
+        "method": "ML-Clustering (kein Wikia)"
+      },
+      {
+        "phase": "V8 (Phase 26)",
+        "output": "17 Glyphen \u2194 Wikia-Plaintext (1 Glyph \u2248 7 lateinische Buchstaben)",
+        "method": "Wikia-Alignment (Schmeh-\u00dcbersetzung als Trainingsreferenz)"
+      },
+      {
+        "phase": "V9 (Phase 0-7)",
+        "output": "Drei-Schichten-Architektur: Tengri-Glyphen + Wikia + Formel-Decodes",
+        "method": "Re-Verifikation mit Smart-Parser v2"
+      },
+      {
+        "phase": "V10 (Phase 28)",
+        "output": "30/30 Tests, Glyph\u2192English 85-93% Match",
+        "method": "ML-Modell mit V8-Alignment als Trainingsdaten"
+      },
+      {
+        "phase": "V10.1-V10.5",
+        "output": "p17 n_burumut=0, p23 idx 8/9/10 Korrekturen",
+        "method": "CitMind-Verifikation, doc.json Gold-Standard"
+      }
+    ],
+    "v1_limitation": "V1 nutzt KEIN Wikia, KEINEN ML-Decoder. V1 hat nur Pixel + BBox + aHash. Glyphe\u2192Englisch-Br\u00fccke ist aus V1 NICHT reproduzierbar.",
+    "v2_perspective": "V2 dokumentiert die Br\u00fccke transparent, ohne sie zu reproduzieren. Wikia-Plaintext ist externe Quelle, nicht Reverifikations-Quelle."
+  },
+  "v2_diff_v1_to_v10_4": {
+    "n_entries": 46,
+    "n_match": 23,
+    "n_methodisch": 1,
+    "n_drift_klein": 7,
+    "n_drift_gross": 5
+  },
+  "key_insights": [
+    "V1 Reverifikation: 8771 BBoxes, 1319 Glyphen, 648 Latein-W\u00f6rter, 1497 Ziffern, 2563 Formeln, 11 Bilder, 226 Textzeilen",
+    "p23 BURUMUT: 11 algebraische Faktor-Bruchpaare (NICHT visuell erkennbar als Glyph-Grid)",
+    "V2 BURUMUT-W\u00f6rter: 14-Buchstaben-W\u00f6rter aus Faktor-Permutationen (mod 26)",
+    "V2 Akrostichon: CDHHCHRCHCT (deterministisch aus Faktoren, unabh\u00e4ngig von V10.4)",
+    "V10.4 BURUMUT-W\u00f6rter sind V9 v2 High-Level-Interpretation, kein Faktum aus p23",
+    "Glyph\u2192Englisch-Br\u00fccke in V10.4 nutzt Wikia als Trainingsreferenz, nicht aus PNGs ableitbar",
+    "V10.4 = Stufe 7 der Gold-Standard-Hierarchie, V1 = Stufe 1 (nur Original-PNGs)"
+  ],
+  "apophenia_schutz": [
+    "V1: KEIN Wikia, KEIN ML-Decoder, KEIN doc.json als Quelle",
+    "V2: Br\u00fccke wird dokumentiert, NICHT reproduziert",
+    "CitMind-Veto: BURUMUT-Matrix-Grid ist Konvention, kein Faktum",
+    "V1 vs V10.4: 2 match, 16 methodisch, 7 drift_klein, 8 drift_gross (ehrliche Klassifikation)"
+  ]
+}
