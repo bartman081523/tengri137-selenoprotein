@@ -1,0 +1,349 @@
+[
+  {
+    "field": "total_n_bboxes",
+    "verification": 8771,
+    "v10_4": "?",
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": "V10.4 und doc.json haben verschiedene Strukturen; nicht direkt vergleichbar"
+  },
+  {
+    "field": "total_n_glyphs",
+    "verification": 1319,
+    "v10_4": 1013,
+    "doc_json": 997,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": 30.2
+  },
+  {
+    "field": "total_n_tengri_glyphs",
+    "verification": 0,
+    "v10_4": 1013,
+    "doc_json": 997,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": -100.0
+  },
+  {
+    "field": "total_n_latin_words",
+    "verification": 648,
+    "v10_4": 3677,
+    "doc_json": 0,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": -82.4
+  },
+  {
+    "field": "total_n_digits",
+    "verification": 1497,
+    "v10_4": "?",
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": "V10.4 und doc.json haben verschiedene Strukturen; nicht direkt vergleichbar"
+  },
+  {
+    "field": "total_n_formulas",
+    "verification": 2563,
+    "v10_4": "?",
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": "V10.4 und doc.json haben verschiedene Strukturen; nicht direkt vergleichbar"
+  },
+  {
+    "field": "total_n_graphics",
+    "verification": 11,
+    "v10_4": "?",
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": "V10.4 und doc.json haben verschiedene Strukturen; nicht direkt vergleichbar"
+  },
+  {
+    "field": "total_n_magic_cubes",
+    "verification": 0,
+    "v10_4": "?",
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": "V10.4 und doc.json haben verschiedene Strukturen; nicht direkt vergleichbar"
+  },
+  {
+    "field": "total_n_text_lines",
+    "verification": 226,
+    "v10_4": "?",
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": "V10.4 und doc.json haben verschiedene Strukturen; nicht direkt vergleichbar"
+  },
+  {
+    "field": "burumut_p23_words",
+    "verification": "algebraic_11_pairs",
+    "v10_4": 11,
+    "doc_json": "?",
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p01_n_glyphs",
+    "verification": 65,
+    "v10_4": 92,
+    "doc_json": 29,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": -29.3
+  },
+  {
+    "field": "p02_n_glyphs",
+    "verification": 61,
+    "v10_4": 68,
+    "doc_json": 34,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": -10.3
+  },
+  {
+    "field": "p03_n_glyphs",
+    "verification": 61,
+    "v10_4": 83,
+    "doc_json": 43,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": -26.5
+  },
+  {
+    "field": "p04_n_glyphs",
+    "verification": 93,
+    "v10_4": 92,
+    "doc_json": 26,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "match",
+    "note": "",
+    "drift_pct": 1.1
+  },
+  {
+    "field": "p05_n_glyphs",
+    "verification": 41,
+    "v10_4": "?",
+    "doc_json": 116,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p06_n_glyphs",
+    "verification": 41,
+    "v10_4": "?",
+    "doc_json": 121,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p07_n_glyphs",
+    "verification": 51,
+    "v10_4": 35,
+    "doc_json": 27,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": 45.7
+  },
+  {
+    "field": "p08_n_glyphs",
+    "verification": 38,
+    "v10_4": 19,
+    "doc_json": 67,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": 100.0
+  },
+  {
+    "field": "p09_n_glyphs",
+    "verification": 64,
+    "v10_4": 50,
+    "doc_json": 18,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": 28.0
+  },
+  {
+    "field": "p10_n_glyphs",
+    "verification": 99,
+    "v10_4": 99,
+    "doc_json": 38,
+    "match_v10_4": true,
+    "match_doc_json": false,
+    "classification": "match",
+    "note": "",
+    "drift_pct": 0.0
+  },
+  {
+    "field": "p11_n_glyphs",
+    "verification": 102,
+    "v10_4": 82,
+    "doc_json": 55,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": 24.4
+  },
+  {
+    "field": "p12_n_glyphs",
+    "verification": 113,
+    "v10_4": 93,
+    "doc_json": 45,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": 21.5
+  },
+  {
+    "field": "p13_n_glyphs",
+    "verification": 115,
+    "v10_4": 97,
+    "doc_json": 54,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_klein",
+    "note": "",
+    "drift_pct": 18.6
+  },
+  {
+    "field": "p14_n_glyphs",
+    "verification": 124,
+    "v10_4": 62,
+    "doc_json": 56,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": 100.0
+  },
+  {
+    "field": "p15_n_glyphs",
+    "verification": 131,
+    "v10_4": 82,
+    "doc_json": 48,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": 59.8
+  },
+  {
+    "field": "p16_n_glyphs",
+    "verification": 105,
+    "v10_4": 59,
+    "doc_json": 38,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "drift_gross",
+    "note": "",
+    "drift_pct": 78.0
+  },
+  {
+    "field": "p17_n_glyphs",
+    "verification": 0,
+    "v10_4": "?",
+    "doc_json": 24,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p18_n_glyphs",
+    "verification": 0,
+    "v10_4": "?",
+    "doc_json": 24,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p19_n_glyphs",
+    "verification": 1,
+    "v10_4": "?",
+    "doc_json": 26,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p20_n_glyphs",
+    "verification": 2,
+    "v10_4": "?",
+    "doc_json": 43,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p21_n_glyphs",
+    "verification": 9,
+    "v10_4": "?",
+    "doc_json": 16,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p22_n_glyphs",
+    "verification": 0,
+    "v10_4": "?",
+    "doc_json": 19,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  },
+  {
+    "field": "p23_n_glyphs",
+    "verification": 3,
+    "v10_4": "?",
+    "doc_json": 30,
+    "match_v10_4": false,
+    "match_doc_json": false,
+    "classification": "methodisch_unterschiedlich",
+    "note": ""
+  }
+]
