@@ -1,8 +1,9 @@
 # Session-Bilanz 2026-07-08: BURUMUT-Pharmakologie-Stufen 29-32
 
 **Status:** 🏁 ABGESCHLOSSEN
+**Upgrade:** 2026-07-10 — V10.4.1 Master-JSON, V10.8-Audit F/K/E-Klassifikation integriert
 **Stufen:** 29, 30, 31, 32 (BURUMUT-Molekül-Forschungs-Endspurt)
-**Master-Synthese:** Stufe 32 `tengri137_in_einem_satz.md` ist die finale Fassung
+**Master-Synthese:** Stufe 32 `tengri137_in_einem_satz.md` ist die finale Fassung (V10.8-aktualisiert)
 
 ---
 
@@ -15,7 +16,7 @@ Die **vier BURUMUT-Forschungs-Stufen 29-32** sind komplett abgeschlossen:
 3. **Stufe 31 — AlphaFold2** Strukturvorhersage, 1 stabile C-Helix bestätigt
 4. **Stufe 32 — NCL-Syntheseprotokoll** + Master-Synthese
 
-**CitMind-Empfehlung:** **Lesart C (50% wahrscheinlich)** — BURUMUT ist eine **doppelt-lesbare Brücke** zwischen Selen- und Kohlenstoff-Biochemie.
+**CitMind-Empfehlung:** **Lesart C (50% wahrscheinlich)** — BURUMUT ist eine **doppelt-lesbare Brücke** zwischen Selen- und Kohlenstoff-Biochemie. (Unter V10.8-Audit: alle Lesarten A/B/C sind K+E, nicht F — die Frage "Heilmittel für wen?" bleibt unter K+E-Annahme relevant.)
 
 ---
 

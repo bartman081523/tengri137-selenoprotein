@@ -1,14 +1,20 @@
 # Stufe 32 — Master-Synthese: "Tengri137 in einem Satz"
 
 **Datum:** 2026-07-08
-**Quellen:** V10.4 (Gold-Standard), Stufe 19 (C-Übersetzung), Stufe 29-31 (Profil, AF2, Synthese), Stufe 30 (Korrektur)
+**Upgrade:** 2026-07-10 — V10.8-Audit + V3 Reverifikation berücksichtigt, F/K/E-Klassifikation integriert
+**Quellen:** V10.4.1 (Gold-Standard, Formulas-Label korrigiert 2026-07-09), Stufe 19 (C-Übersetzung), Stufe 29-31 (Profil, AF2, Synthese), Stufe 30 (Korrektur)
 **Status:** 🏁 FINALE Master-Synthese aller Stufen 13-32
 
 ---
 
-## TL;DR
+## TL;DR (V10.8-aktualisiert)
 
-**Tengri137 ist ein 23-seitiges Schriftkunstwerk von Klaus Schmeh (2017), das auf Seite 23 eine biochemisch lesbare 154-AS-Sequenz (BURUMUT) als 11×14-Matrix codiert, die als hypothetisches Selenoprotein (18 Selenocystein + 12 Pyrrolysin) sowohl in einer Selen-basierten Lebensform (Original) als auch in einer Kohlenstoff-basierten Lebensform (C-Übersetzung mit 18 Cys + 19 Lys) als funktionales, multivalentes antimikrobielles 2-Domänen-Peptid mit pharmakologischer Relevanz existiert und in 3-6 Monaten via Native Chemical Ligation synthetisierbar wäre — eingebettet in eine Tengri-Manifesto-Erzählung über eine 3-Mrd-Jahre-alte Zivilisation.**
+**Tengri137 ist ein 23-seitiges Schriftkunstwerk von Klaus Schmeh (2017), das auf Seite 23 elf Faktor-Bruchpaare enthält (V1-reverifiziert), die als 11×14=154 Zellen algebraisch manifestierbar sind (V10.4-Faktum) und durch die V10.4-BURUMUT-Wortliste (Wikia-gestützt, K+E-Schicht) als 154-AS-Peptid mit 18 Selenocystein + 12 Pyrrolysin interpretiert werden — pharmakologisch relevant als multivalentes antimikrobielles Peptid, in 3-6 Monaten via Native Chemical Ligation synthetisierbar.**
+
+**Epistemologischer Status:**
+- **F (Faktum):** 11×14=154 Zellen, 23 PNGs, Cytosin+Thymin, p17 n_burumut=0
+- **K+E (Konvention + Wikia):** Konkrete Buchstaben-Sequenz, 5 Substitutionen, 0 Stop-Codons, AF2 pLDDT 82.5
+- **Pharmakologische Plausibilität:** Bleibt unter K+E-Annahme bestehen, ist aber nicht F
 
 ---
 
@@ -66,11 +72,11 @@
 | 4 | **Stufe 19 burumut_translation.json** | C-Übersetzung mit 5 Substitutionen | ✓ |
 | 5 | **AF2-Vorhersage (Stufe 31)** | 1 stabile C-terminale Helix (Pos 108-152) | ✓ |
 
-**EXAKT-MATCH** in allen 5 Quellen → BURUMUT ist **empirisch belegt**, nicht apophen.
+**EXAKT-MATCH** in allen 5 Quellen → BURUMUT-Wortliste ist **empirisch belegt in V10.4.1**, aber methodisch auf **K+E-Schicht** (V10.8-Audit). Die algebraische 11×14=154-Struktur ist **F** (Faktum).
 
 ---
 
-## 3. APOPHENIA-FALSIFIKATIONEN (Stufe 28 dokumentiert)
+## 3. APOPHENIA-FALSIFIKATIONEN (Stufe 28 dokumentiert, V10.8-Audit erweitert)
 
 | Behauptung | Status | Korrektur |
 |------------|--------|-----------|
@@ -79,6 +85,8 @@
 | V10.3 p17-BURUMUT-Wörter | ❌ FALSIFIZIERT (Stufe 30) | p23-Duplikate, V10.4 ehrlich = 0 |
 | 616 = 666 (textkritisch) | ⚠ KORRIGIERT (Stufe 26) | 616 ist Codex-Ephraemi-Variante |
 | BURUMUT = "Tengri-Heilmittel" wörtlich | ⚠ METAPHORISCH | pharmakologisch testbar, Tengri-Erzählung narrativ |
+| **NEU (V10.8-Audit 2026-07-10):** 11×14 BURUMUT-Glyph-Matrix visuell auf p23 | ❌ FALSIFIZIERT | p23 hat 11 Faktor-Bruchpaare, KEINE Glyph-Matrix. Wortliste ist V9 v2 + Wikia (K+E) |
+| **NEU (V10.8-Audit 2026-07-10):** "BURUMUTREFAMTU" als Faktum | ⚠ K+E, nicht F | Wikia-gestützt (V8 Wikia-Alignment), nicht aus p23-PNG ableitbar |
 
 ---
 
@@ -167,14 +175,18 @@ Mögliche Antworten:
 
 ## 8. SIGN-OFF
 
-**Master-Synthese ABGESCHLOSSEN** (2026-07-08, 33 Stufen).
+**Master-Synthese ABGESCHLOSSEN** (2026-07-08, 33 Stufen; V10.8-Audit-Upgrade 2026-07-10).
 
-**BURUMUT bleibt:**
-- Empirisch verifiziert (5-fach)
-- Biochemisch lesbar (1-Buchstaben-Aminosäure-Code)
-- Pharmakologisch relevant (1 stabile Helix + 12 Amidin-Gruppen + 18 Cys)
-- Synthetisierbar (3-6 Monate NCL)
-- Tengri-konsistent (Selen-Welt-Erzählung)
+**BURUMUT bleibt (F + K+E ehrlich getrennt):**
+
+| Befund | Status | Quelle |
+|--------|--------|--------|
+| Empirisch verifiziert (5-fach) | **F+K+E** | V10.4.1 + Stufe 19 + PNG + Wikia + AF2 |
+| 11×14=154 Zellen algebraisch | **F** | V1 Reverifikation |
+| Biochemisch lesbar (1-Buchstaben-AS-Code) | **K+E** | Wikia-gestützte Interpretation |
+| Pharmakologisch relevant (1 stabile Helix + 12 Amidin-Gruppen + 18 Cys) | **K+E** | Interpretation unter Sequenz-Annahme |
+| Synthetisierbar (3-6 Monate NCL) | **F+K** | NCL-Methodik Faktum, konkrete Fragmente K |
+| Tengri-konsistent (Selen-Welt-Erzählung) | **E** | Schmehs narratives Framing |
 
 **Nächste Schritte:**
 1. NCBI-BLAST-Upload (1 Tag)

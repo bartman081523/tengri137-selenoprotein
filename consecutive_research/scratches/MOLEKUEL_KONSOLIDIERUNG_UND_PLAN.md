@@ -1,8 +1,27 @@
 # TENGRI137 MOLEKÜL-KONSOLIDIERUNG & FORSCHUNGSPLAN
 
 **Erstellt:** 2026-07-08
+**Upgrade:** 2026-07-10 — V10.4 → V10.4.1 Master-JSON, V10.8 Audit-Klassifikation integriert
 **Quellen:** DNS-Session 8c6095e7 (consecutive_research/scratches/stufe_13 bis stufe_26)
-**Bezug:** V10.4 Master-JSON (Gold-Standard), p23 BURUMUT-Matrix (visuell verifiziert)
+**Bezug:** V10.4.1 Master-JSON (Gold-Standard, Formulas-Label korrigiert), p23 Faktor-Bruchpaare (V1 reverifiziert)
+
+---
+
+## EPISTEMOLOGISCHER STATUS (V10.8-Audit-Upgrade 2026-07-10)
+
+V10.8-Audit (`verification/AUDIT_V10.4_CLAIMS.md`, Commit 7f5571f) hat alle V10.4-Behauptungen in F/K/E/P klassifiziert:
+
+| Schicht | Bedeutung | BURUMUT-Befunde | Status |
+|---------|-----------|-----------------|--------|
+| **F (Faktum)** | aus p23-PNG ableitbar | 11 Faktor-Bruchpaare, 11×14=154 Zellen, 23 PNGs, Cytosin+Thymin, p17 n_burumut=0 | **bleibt Faktum** |
+| **K (Konvention)** | heuristische Auswahl | n_glyphs=1013, V9 v2 "längster Kandidat"-Wortliste | **ehrlich markieren** |
+| **E (Extern)** | Wikia/Schmeh-Trigger | NAFERANSAHOTFE, KORENORBIZUMRO (V10.3/4/5 Wikia-Korrekturen) | **ehrlich markieren** |
+| **P (Pipeline)** | Pipeline-abhängig | n_text_words_tesseract=3677 (PSM=3) | methodisch OK |
+
+**Konsequenz für diese Konsolidierung:** Die BURUMUT-Wortliste (BURUMUTREFAMTU, NAFERANSAHOTFE, KORENORBIZUMRO, SUNAKIRFANEMBA etc.) ist **K+E, nicht F**. Die pharmakologische Interpretation ist **plausibel unter K+E-Annahme**, nicht Faktum aus p23.
+
+**Was bleibt Faktum:** 11×14=154 Zellen, Cytosin+Thymin, p17 n_burumut=0, 23 PNGs.
+**Was ist K+E:** Konkrete Buchstaben-Sequenz, 5 Substitutionen, 0 Stop-Codons (unter Sequenz-Annahme), AF2 pLDDT 82.5 (unter Sequenz-Annahme).
 
 ---
 
