@@ -38,4 +38,4 @@ python code/v13_v3_algebraic_matrix.py
 
 ---
 
-**Commits:** Tengri137 V10.8 (Audit) + V10.9 (V3-Verifikation)
+**Commits:** V10.8 (Audit) + V10.9 (V3-Verifikation)
