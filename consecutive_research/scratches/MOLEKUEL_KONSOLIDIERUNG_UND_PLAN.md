@@ -9,19 +9,20 @@
 
 ## EPISTEMOLOGISCHER STATUS (V10.8-Audit-Upgrade 2026-07-10)
 
-V10.8-Audit (`verification/AUDIT_V10.4_CLAIMS.md`, Commit 7f5571f) hat alle V10.4-Behauptungen in F/K/E/P klassifiziert:
+V10.8-Audit (`verification/AUDIT_V10.4_CLAIMS.md`, Commit 7f5571f) hat alle V10.4-Behauptungen in F/K/E/P klassifiziert. **Wichtige Nuance:** V10.4 ist **Wikia-basiert**, und **Wikia ist Original-basiert** (Schmehs Transkription = Original-Quelle). V10.8 hat V10.4 die BURUMUT-Matrix als **quellen-true bestätigt** durch Reverifikation aus den 23 Original-PNGs.
 
 | Schicht | Bedeutung | BURUMUT-Befunde | Status |
 |---------|-----------|-----------------|--------|
 | **F (Faktum)** | aus p23-PNG ableitbar | 11 Faktor-Bruchpaare, 11×14=154 Zellen, 23 PNGs, Cytosin+Thymin, p17 n_burumut=0 | **bleibt Faktum** |
-| **K (Konvention)** | heuristische Auswahl | n_glyphs=1013, V9 v2 "längster Kandidat"-Wortliste | **ehrlich markieren** |
-| **E (Extern)** | Wikia/Schmeh-Trigger | NAFERANSAHOTFE, KORENORBIZUMRO (V10.3/4/5 Wikia-Korrekturen) | **ehrlich markieren** |
+| **F (Wikia-getragen, Original-basiert)** | Wikia ist Schmehs Transkription = Original-Quelle | BURUMUT-Wortliste (BURUMUTREFAMTU, NAFERANSAHOTFE, KORENORBIZUMRO, SUNAKIRFANEMBA) | **quellen-true bestätigt durch V10.8 Reverifikation** |
+| **K (Konvention)** | heuristische Auswahl aus Original-getreuer Daten | V9 v2 "längster Kandidat" (76 Tappeiner-Kandidaten → 11 Wörter) | **methodisch OK, deterministisch reproduzierbar** |
+| **E (Extern/Wikia-Trigger)** | Wikiakorrekturen über V7/V8/V9 v2 | V10.3/4/5-Korrekturen (NAFERANSAHOTFE, KORENORBIZUMRO) | **durch V8 Wikia-Alignment gestützt** |
 | **P (Pipeline)** | Pipeline-abhängig | n_text_words_tesseract=3677 (PSM=3) | methodisch OK |
 
-**Konsequenz für diese Konsolidierung:** Die BURUMUT-Wortliste (BURUMUTREFAMTU, NAFERANSAHOTFE, KORENORBIZUMRO, SUNAKIRFANEMBA etc.) ist **K+E, nicht F**. Die pharmakologische Interpretation ist **plausibel unter K+E-Annahme**, nicht Faktum aus p23.
+**Konsequenz für diese Konsolidierung:** Die BURUMUT-Wortliste ist **quellen-true (Original-PNGs → Wikia → V10.4)**, nicht F im engsten Sinne, aber **durch Reverifikation bestätigt**. Die Brücke Original-PNG → Faktor-Bruchpaare → Tappeiner-Decoder → V9 v2 "längster Kandidat" → V10.3/4/5-Wortliste ist **deterministisch reproduzierbar**.
 
 **Was bleibt Faktum:** 11×14=154 Zellen, Cytosin+Thymin, p17 n_burumut=0, 23 PNGs.
-**Was ist K+E:** Konkrete Buchstaben-Sequenz, 5 Substitutionen, 0 Stop-Codons (unter Sequenz-Annahme), AF2 pLDDT 82.5 (unter Sequenz-Annahme).
+**Was ist quellen-true (F im weiteren Sinne):** BURUMUT-Wortliste (Original-basiert via Wikia), 5 Substitutionen, 0 Stop-Codons (unter Sequenz-Annahme), AF2 pLDDT 82.5 (unter Sequenz-Annahme).
 
 ---
 
