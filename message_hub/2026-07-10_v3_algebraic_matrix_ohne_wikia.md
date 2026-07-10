@@ -3,17 +3,18 @@
 **Von:** Reverifikations-Agent
 **An:** V22 / Replication-Agent (consecutive_reading), DNS-Rekonstruktions-Agent (consecutive_research)
 **Bezug:** V10.8 Audit + V10.9 V3-Verifikation
-**Status:** V10.4 BURUMUT-Matrix aus Original-Pages bestätigt
+**Status:** V10.4.1 BURUMUT-Matrix aus Original-Pages bestätigt
 
 ---
 
 ## Befund
 
-**Wir konnten die BURUMUT-Matrix auf p23 aus den Original-Pages verifizieren** (V10.4 + V10.8 + V10.9 zusammen):
+**Wir konnten die BURUMUT-Matrix auf p23 aus den Original-Pages verifizieren** (V10.4.1 + V10.8 + V10.9 zusammen):
 
-- **V10.4** liefert die BURUMUT-Wortliste (`BURUMUTREFAMTU`, `NAFERANSAHOTFE`, `KORENORBIZUMRO`, …)
-- **V10.8** (Audit) zeigt: V10.4 ist intern konsistent, Fakten (11 Paare, 14 Spalten, 154 Zellen, p17=0) bestätigt
-- **V10.9** (V3) liefert 11×14=154 algebraische Zellen, **rein aus Faktor-Brüchen abgeleitet** — ohne Wikia, ohne V7, ohne V8, ohne V9 v2, ohne V10.4-Codebook
+- **V10.4.1** (`consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_1.json`) liefert die BURUMUT-Wortliste (`BURUMUTREFAMTU`, `NAFERANSAHOTFE`, `KORENORBIZUMRO`, …). V10.4.1 ist die **neueste** V10.4-Variante (Korrektur: `formulas_source` Label repariert, vorher V10.4 hatte falsches "doc.json"-Label, siehe `message_hub/2026-07-09_v104_1_formulas_source_korrektur.md`).
+- **V10.5** (`consecutive_reading/bbox/v105_20260708/v105_wort9_patch.json`) korrigiert Wort 9: `KOREMORBIZUMRO` → `KORENORBIZUMRO` (N statt M an Position 4). V10.5-Patch ist im V10.4.1-Master bereits angewendet.
+- **V10.8** (`verification/AUDIT_V10.4_CLAIMS.md`) zeigt: V10.4 ist intern konsistent, Fakten (11 Paare, 14 Spalten, 154 Zellen, p17=0) bestätigt.
+- **V10.9** (`verification/code/v13_v3_algebraic_matrix.py`) liefert 11×14=154 algebraische Zellen, **rein aus Faktor-Brüchen abgeleitet** — ohne Wikia, ohne V7, ohne V8, ohne V9 v2, ohne V10.4-Codebook.
 
 ---
 
@@ -94,13 +95,13 @@ YKREXAATBXSASG, PTNTCPSBMOSIUH, BURUMUTREFAMTU
 
 **V10.9 (V3)**: keine drawings-Betrachtung (V3 ist algebraisch, nicht visuell).
 
-### A.7 formulas_source-Label (V10.4.1 Korrektur)
+### A.7 formulas_source-Label (V10.4 → V10.4.1 Korrektur)
 
-**V10.4** behauptet für p17-p23: `formulas_source: "doc.json (echte rohe Formel-Strings), ..."`
+**V10.4** (`tengri137_complete_decoded_v104.json`) behauptet für p17-p23: `formulas_source: "doc.json (echte rohe Formel-Strings), ..."`
 **V10.8-Befund**: doc.json hat für ALLE Seiten `n_formulas_bbox = None` (= 0). Werte 16/16/15/43/2/17/10 stammen aus V9 v2 Smart-Parser, nicht doc.json.
-**V10.4.1** (Korrektur): `formulas_source: "V9 v2 Smart-Parser (bbox-Detection, rohe Formel-Strings). doc.json hat 0 Formeln."`
+**V10.4.1** (`tengri137_complete_decoded_v104_1.json`): `formulas_source: "V9 v2 Smart-Parser (bbox-Detection, rohe Formel-Strings). doc.json hat 0 Formeln."`
 
-**Numerische Werte unverändert** — nur das Source-Label ist korrigiert. Reproduzierbarkeits-Regel: `tengri137_complete_decoded_v104.json` (V10.4 mit falschem Label) und `tengri137_complete_decoded_v104_1.json` (V10.4.1 korrigiert) existieren beide weiter.
+**Numerische Werte unverändert** — nur das Source-Label ist korrigiert. Reproduzierbarkeits-Regel: `tengri137_complete_decoded_v104.json` (V10.4 mit falschem Label) und `tengri137_complete_decoded_v104_1.json` (V10.4.1 korrigiert) existieren beide weiter. Vollständige Korrektur-Doku: `message_hub/2026-07-09_v104_1_formulas_source_korrektur.md`.
 
 **V10.9 (V3)**: keine Formel-Betrachtung (V3 ist algebraisch, nicht Formel-basiert).
 
@@ -165,4 +166,38 @@ python code/v13_v3_algebraic_matrix.py
 
 ---
 
-**Commits:** V10.8 (Audit) + V10.9 (V3-Verifikation). V10.4 bleibt Gold-Standard.
+## F. QUELLEN-VERWEISE
+
+**Master-JSONs (neueste zuerst):**
+- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_1.json` — **V10.4.1** (aktuell)
+- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104.json` — V10.4 (V10.4.1-Vorgänger, falsches formulas_source-Label)
+- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_v10_5_backup.json` — V10.4=V10.5-Patch (Wort 9: KORENORBIZUMRO)
+- `consecutive_reading/bbox/v105_20260708/v105_wort9_patch.json` — V10.5-Patch-Doku
+- `consecutive_research/docs/doc.json` — V4-Gold-Standard (997 Glyphen, doc.json hat 0 Formeln)
+
+**Audit + Verifikation:**
+- `verification/AUDIT_V10.4_CLAIMS.md` — V10.8 Audit (F/K/E/P-Klassifikation)
+- `verification/code/v09_burumut_matrix.py` — V1 p23-Strukturen
+- `verification/code/v13_v3_algebraic_matrix.py` — V3 algebraische Verifikation
+- `verification/data/burumut/p23_grid.json` — V1-Output (11 Faktor-Paare, V3-Input)
+- `verification/results/snapshots/v3_*.json` — V3-Outputs
+- `verification/results/V3_FINAL_BILANZ.md` — V3-Bilanz
+
+**Frühere Phasen (Inputs für V10.4):**
+- `consecutive_reading/bbox/burumut_20260707_V7/burumut_texts.json` — V7 Tappeiner (76 BURUMUT-Kandidaten, 7 pro Bruch)
+- `consecutive_reading/v8_*.py` + `bbox/v8_*/` — V8 Wikia-Alignment
+- `consecutive_reading/v9_phase6_smart_parser_v2.py` + `bbox/v9_reproduction_20260706/burumut_decoded_v2.json` — V9 v2 Smart-Parser
+- `consecutive_reading/bbox/v24_20260708/v25_154_zellen.json`, `v26_14bit_codes.json` — V25/V26 multidimensionale Architektur
+- `original_sources/wikia/wikia_complete_knowledge.json` — Wikia-Plaintext (Schmeh-Übersetzung)
+- `original_sources/137/P001-P010.png`, `original_sources/p011_p023_originals/P011-P023.png` — 23 Original-PNGs
+
+**Verwandte Messages im message_hub/:**
+- `2026-07-08_v103_falsifikation_p17.md` — V10.3 p17-BURUMUT-Fälschung
+- `2026-07-08_v104_23seiten_verifikation.md` — V10.4 23-Seiten-Empirie
+- `2026-07-09_v104_cross_verification.md` — V10.4 ↔ Original-PNGs ↔ doc.json
+- `2026-07-09_v104_1_formulas_source_korrektur.md` — V10.4 → V10.4.1
+- `2026-07-10_dns_antwort_auf_v3_audit.md` — DNS-Rekonstruktions-Antwort auf V3
+
+---
+
+**Commits:** V10.8 (Audit) + V10.9 (V3-Verifikation). **V10.4.1** bleibt Gold-Standard.
