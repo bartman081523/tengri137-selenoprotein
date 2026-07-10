@@ -1,0 +1,368 @@
+{
+  "method": "V3 = algebraische BURUMUT-Matrix aus 11 Faktor-Br\u00fcchen, OHNE Wikia-Trigger",
+  "timestamp": "2026-07-10T16:16:56.735334",
+  "n_factors_pairs": 11,
+  "algebraic_matrix_11x14": {
+    "rows": 11,
+    "cols": 14,
+    "n_cells": 154,
+    "col_definitions": [
+      {
+        "idx": 0,
+        "name": "z_factors_first_mod26",
+        "formula": "first Z factor mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 1,
+        "name": "z_factors_last_mod26",
+        "formula": "last Z factor mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 2,
+        "name": "n_z_factors",
+        "formula": "count of Z factors",
+        "type": "count",
+        "range": "2..5"
+      },
+      {
+        "idx": 3,
+        "name": "log10_z_digitsum",
+        "formula": "digit-sum of \u230alog10(Z)\u230b",
+        "type": "algebra",
+        "range": "0..\u221e"
+      },
+      {
+        "idx": 4,
+        "name": "n_factors_first_mod26",
+        "formula": "first N factor mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 5,
+        "name": "n_factors_last_mod26",
+        "formula": "last N factor mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 6,
+        "name": "n_n_factors",
+        "formula": "count of N factors",
+        "type": "count",
+        "range": "6..11"
+      },
+      {
+        "idx": 7,
+        "name": "log10_n_digitsum",
+        "formula": "digit-sum of \u230alog10(N)\u230b",
+        "type": "algebra",
+        "range": "0..\u221e"
+      },
+      {
+        "idx": 8,
+        "name": "ratio_mod26",
+        "formula": "(Z/N) mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 9,
+        "name": "z_value_mod26",
+        "formula": "Z value mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 10,
+        "name": "n_value_mod26",
+        "formula": "N value mod 26",
+        "type": "mod",
+        "range": "0..25"
+      },
+      {
+        "idx": 11,
+        "name": "z_is_repunit",
+        "formula": "Z is repunit (111..1)?",
+        "type": "bool",
+        "range": "0/1"
+      },
+      {
+        "idx": 12,
+        "name": "n_is_repunit",
+        "formula": "N is repunit (111..1)?",
+        "type": "bool",
+        "range": "0/1"
+      },
+      {
+        "idx": 13,
+        "name": "gcd_z_n_shared",
+        "formula": "gcd(Z, N) > 1 (shared factor)?",
+        "type": "bool",
+        "range": "0/1"
+      }
+    ],
+    "grid": [
+      [
+        22,
+        5,
+        5,
+        9,
+        23,
+        19,
+        6,
+        6,
+        11,
+        18,
+        25,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        3,
+        8,
+        11,
+        19,
+        8,
+        9,
+        0,
+        23,
+        19,
+        0,
+        1,
+        0
+      ],
+      [
+        7,
+        17,
+        4,
+        9,
+        3,
+        19,
+        9,
+        9,
+        0,
+        7,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        7,
+        21,
+        3,
+        8,
+        11,
+        19,
+        8,
+        9,
+        0,
+        1,
+        19,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        5,
+        3,
+        7,
+        3,
+        19,
+        9,
+        9,
+        0,
+        25,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        7,
+        21,
+        4,
+        6,
+        23,
+        19,
+        6,
+        6,
+        1,
+        23,
+        25,
+        0,
+        0,
+        0
+      ],
+      [
+        17,
+        5,
+        2,
+        9,
+        3,
+        19,
+        9,
+        9,
+        0,
+        7,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        23,
+        4,
+        6,
+        3,
+        19,
+        9,
+        9,
+        0,
+        25,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        7,
+        7,
+        3,
+        8,
+        3,
+        11,
+        11,
+        8,
+        1,
+        17,
+        13,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        7,
+        3,
+        6,
+        3,
+        19,
+        8,
+        8,
+        0,
+        1,
+        17,
+        0,
+        0,
+        0
+      ],
+      [
+        19,
+        7,
+        4,
+        8,
+        11,
+        19,
+        8,
+        9,
+        0,
+        19,
+        19,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "14bit_codes": {
+    "codes_per_pair": [
+      8461,
+      9217,
+      1056,
+      9217,
+      9249,
+      13,
+      9249,
+      1057,
+      12333,
+      8225,
+      1025
+    ],
+    "unique_codes": [
+      13,
+      1025,
+      1056,
+      1057,
+      8225,
+      8461,
+      9217,
+      9249,
+      12333
+    ],
+    "n_unique": 9,
+    "code_frequency": {
+      "8461": 1,
+      "9217": 2,
+      "1056": 1,
+      "9249": 2,
+      "13": 1,
+      "1057": 1,
+      "12333": 1,
+      "8225": 1,
+      "1025": 1
+    },
+    "comparison_v25": {
+      "v25_codes": {
+        "5417": 8,
+        "4905": 2,
+        "10933": 1
+      },
+      "v25_source": "V25/V26 aus V10.4-Codebook abgeleitet (V/K-Bits)",
+      "v3_source": "V3 aus Faktor-Properties abgeleitet (algebraisch)",
+      "method_unabh\u00e4ngig": "V25 nutzt Glyphen-Codebook, V3 nutzt Faktor-Properties"
+    }
+  },
+  "akrostichon": {
+    "z_mod26": "SXHBZXHZRBT",
+    "n_count_mod26": "FDEDDECEDDE",
+    "v10_4_reference": "BNYZTSOYNKS",
+    "comparison": {
+      "v3_z_mod26_unique_letters": 7,
+      "v3_count_mod26_unique_letters": 4,
+      "v10_4_unique_letters": 8,
+      "overlap_v3_z_v10_4": 0,
+      "overlap_v3_count_v10_4": 0
+    }
+  },
+  "apophenia_schutz": {
+    "kein_wikia_trigger": "Alle 14 Spalten aus Faktor-Properties definiert",
+    "kein_v10_4_codebook": "V3 nutzt V10.4 NICHT als Quelle",
+    "keine_burumut_wortliste": "BURUMUTREFAMTU, NAFERANSAHOTFE, etc. NICHT referenziert",
+    "kein_v7_tappeiner": "V3 nutzt KEINE V7 Tappeiner-Kandidaten",
+    "kein_v8_wikia_alignment": "V3 nutzt KEINE V8 Wikia-Alignment",
+    "kein_v9_v2_smart_parser": "V3 nutzt KEINE V9 v2-Logik",
+    "rein_algebraisch": "Alle Werte aus mathematischen Faktor-Properties (F + K)"
+  },
+  "konsens_punkte": {
+    "n_pairs": "V3: 11 = V10.4: 11 (Konsens auf 11 BURUMUT-Paare)",
+    "n_columns": "V3: 14 = V10.4: 14 (Konsens auf 14 Spalten)",
+    "n_cells": "V3: 154 = V10.4: 154 AS (Konsens auf 11\u00d714=154)"
+  },
+  "divergenz_punkte": {
+    "architektur": "V3: Faktor-basiert, V10.4: Glyph-basiert (Wikia)",
+    "akrostichon": "V3 Z-mod-26: SXHBZXHZRBT, V10.4: BNYZTSOYNKS",
+    "14bit_codes": "V3: [8461, 9217, 1056, 9217, 9249, 13, 9249, 1057, 12333, 8225, 1025], V25: 5417\u00d78+4905\u00d72+10933\u00d71"
+  },
+  "conclusion": "V3 ist KEIN Decoder, sondern algebraische Beschreibung der 11\u00d714-Matrix aus 11 Faktor-Br\u00fcchen. V3 \u2260 V10.4 erwartet (verschiedene Architekturen). Konsens auf 11/14/154 ist Faktum. Divergenz bei Akrostichon und 14-Bit-Codes ist Konsequenz der Architektur-Wahl."
+}
