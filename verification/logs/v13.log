@@ -1,0 +1,61 @@
+2026-07-10 16:16:56,732 [INFO] ============================================================
+2026-07-10 16:16:56,732 [INFO] V3 REVERIFIKATION: Algebraische BURUMUT-Matrix
+2026-07-10 16:16:56,732 [INFO] OHNE Wikia-Trigger, OHNE V10.4-Codebook, OHNE V7 Tappeiner
+2026-07-10 16:16:56,732 [INFO] ============================================================
+2026-07-10 16:16:56,733 [INFO] V1: 11 Faktor-Paare geladen aus /run/media/julian/ML4/tengri137/verification/data/burumut/p23_grid.json
+2026-07-10 16:16:56,733 [INFO] 11 Faktor-Paare: [(0, 5, 6), (1, 3, 8), (2, 4, 9), (3, 3, 8), (4, 3, 9), (5, 4, 6), (6, 2, 9), (7, 4, 9), (8, 3, 11), (9, 3, 8), (10, 4, 8)]
+2026-07-10 16:16:56,733 [INFO] 
+2026-07-10 16:16:56,733 [INFO] --- Phase B: 11×14 algebraische Matrix ---
+2026-07-10 16:16:56,733 [INFO] Grid: 11×14 = 154 Zellen
+2026-07-10 16:16:56,733 [INFO] Spalten-Definitionen:
+2026-07-10 16:16:56,733 [INFO]    0. z_factors_first_mod26     = first Z factor mod 26
+2026-07-10 16:16:56,733 [INFO]    1. z_factors_last_mod26      = last Z factor mod 26
+2026-07-10 16:16:56,733 [INFO]    2. n_z_factors               = count of Z factors
+2026-07-10 16:16:56,733 [INFO]    3. log10_z_digitsum          = digit-sum of ⌊log10(Z)⌋
+2026-07-10 16:16:56,733 [INFO]    4. n_factors_first_mod26     = first N factor mod 26
+2026-07-10 16:16:56,733 [INFO]    5. n_factors_last_mod26      = last N factor mod 26
+2026-07-10 16:16:56,733 [INFO]    6. n_n_factors               = count of N factors
+2026-07-10 16:16:56,733 [INFO]    7. log10_n_digitsum          = digit-sum of ⌊log10(N)⌋
+2026-07-10 16:16:56,733 [INFO]    8. ratio_mod26               = (Z/N) mod 26
+2026-07-10 16:16:56,733 [INFO]    9. z_value_mod26             = Z value mod 26
+2026-07-10 16:16:56,733 [INFO]   10. n_value_mod26             = N value mod 26
+2026-07-10 16:16:56,733 [INFO]   11. z_is_repunit              = Z is repunit (111..1)?
+2026-07-10 16:16:56,733 [INFO]   12. n_is_repunit              = N is repunit (111..1)?
+2026-07-10 16:16:56,733 [INFO]   13. gcd_z_n_shared            = gcd(Z, N) > 1 (shared factor)?
+2026-07-10 16:16:56,733 [INFO] Grid (Werte pro Paar):
+2026-07-10 16:16:56,733 [INFO]   Paar  0: [22, 5, 5, 9, 23, 19, 6, 6, 11, 18, 25, 0, 0, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  1: [3, 1, 3, 8, 11, 19, 8, 9, 0, 23, 19, 0, 1, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  2: [7, 17, 4, 9, 3, 19, 9, 9, 0, 7, 5, 0, 1, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  3: [7, 21, 3, 8, 11, 19, 8, 9, 0, 1, 19, 0, 1, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  4: [1, 5, 3, 7, 3, 19, 9, 9, 0, 25, 5, 0, 1, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  5: [7, 21, 4, 6, 23, 19, 6, 6, 1, 23, 25, 0, 0, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  6: [17, 5, 2, 9, 3, 19, 9, 9, 0, 7, 5, 0, 1, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  7: [1, 23, 4, 6, 3, 19, 9, 9, 0, 25, 5, 0, 1, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  8: [7, 7, 3, 8, 3, 11, 11, 8, 1, 17, 13, 0, 0, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar  9: [25, 7, 3, 6, 3, 19, 8, 8, 0, 1, 17, 0, 0, 0]
+2026-07-10 16:16:56,733 [INFO]   Paar 10: [19, 7, 4, 8, 11, 19, 8, 9, 0, 19, 19, 0, 1, 0]
+2026-07-10 16:16:56,734 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v3_burumut_matrix.json
+2026-07-10 16:16:56,734 [INFO] 
+2026-07-10 16:16:56,734 [INFO] --- Phase C: 14-Bit-Codes pro Paar ---
+2026-07-10 16:16:56,734 [INFO] 11 Codes: [8461, 9217, 1056, 9217, 9249, 13, 9249, 1057, 12333, 8225, 1025]
+2026-07-10 16:16:56,734 [INFO] Unique Codes: [13, 1025, 1056, 1057, 8225, 8461, 9217, 9249, 12333] (n=9)
+2026-07-10 16:16:56,734 [INFO] V25 Referenz: 5417 (8/11), 4905 (2/11), 10933 (1/11)
+2026-07-10 16:16:56,734 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v3_14bit_codes.json
+2026-07-10 16:16:56,735 [INFO] 
+2026-07-10 16:16:56,735 [INFO] --- Phase D: Akrostichon-Vergleich ---
+2026-07-10 16:16:56,735 [INFO] V3 Z-mod-26:           SXHBZXHZRBT
+2026-07-10 16:16:56,735 [INFO] V3 Count-mod-26:       FDEDDECEDDE
+2026-07-10 16:16:56,735 [INFO] V10.4 Referenz:        BNYZTSOYNKS
+2026-07-10 16:16:56,735 [INFO] Overlap V3-Z / V10.4:  0/11
+2026-07-10 16:16:56,735 [INFO] Overlap V3-Cnt / V10.4: 0/11
+2026-07-10 16:16:56,735 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v3_akrostichon.json
+2026-07-10 16:16:56,735 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v3_complete.json
+2026-07-10 16:16:56,735 [INFO] 
+2026-07-10 16:16:56,735 [INFO] ============================================================
+2026-07-10 16:16:56,735 [INFO] V3 SUMMARY
+2026-07-10 16:16:56,735 [INFO] ============================================================
+2026-07-10 16:16:56,735 [INFO] 11×14-Matrix: 154 Zellen
+2026-07-10 16:16:56,735 [INFO] 11 14-Bit-Codes: [8461, 9217, 1056, 9217, 9249, 13, 9249, 1057, 12333, 8225, 1025]
+2026-07-10 16:16:56,735 [INFO] V3 Akrostichon Z-mod-26: SXHBZXHZRBT
+2026-07-10 16:16:56,735 [INFO] V10.4 Akrostichon: BNYZTSOYNKS
+2026-07-10 16:16:56,735 [INFO] Overlap: 0/11 (Z-mod-26), 0/11 (Count-mod-26)

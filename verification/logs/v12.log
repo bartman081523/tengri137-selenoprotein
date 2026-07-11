@@ -1,0 +1,23 @@
+2026-07-09 21:34:43,121 [INFO] ============================================================
+2026-07-09 21:34:43,121 [INFO] PHASE 11: V2 Reverifikations-Brücke
+2026-07-09 21:34:43,121 [INFO] ============================================================
+2026-07-09 21:34:43,121 [INFO] Lade V1-Snapshots ...
+2026-07-09 21:34:43,121 [INFO] Lade V10.4 als Vergleichsmasse ...
+2026-07-09 21:34:43,124 [INFO] Bilde V2 BURUMUT-Brücke (Faktor-Brüche → Wörter) ...
+2026-07-09 21:34:43,124 [INFO]   11 BURUMUT-Wörter (V2): ['CRTFFXXDDXFVVB', 'DZBXXXXLDXFVVB', 'HRJRXXXDLDXFVV', 'HXVXXXXLDXFVVB', 'CBFFXXXDLDXFVV', 'HFHVXXXDXFVVBT', 'RFXXXXXDLDXFVV', 'CVBXXXXDLDXFVV', 'HDHXXXXDHNFLDH', 'CZLHXXXDDXFVVB', 'TFDHXXXLDXFVVB']
+2026-07-09 21:34:43,124 [INFO]   Akrostichon (V2): CDHHCHRCHCT
+2026-07-09 21:34:43,124 [INFO]   Eindeutige Buchstaben: 5/11
+2026-07-09 21:34:43,124 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v2_burumut_brigde.json
+2026-07-09 21:34:43,124 [INFO] Dokumentiere V2 Glyph→Englisch-Brücke ...
+2026-07-09 21:34:43,124 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v2_glyph_english_brigde.json
+2026-07-09 21:34:43,124 [INFO] Bilde V2 Diff (V1 → V10.4) ...
+2026-07-09 21:34:43,124 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v2_diff_v1_to_v10_4.json (46 Einträge)
+2026-07-09 21:34:43,125 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/snapshots/v2_complete.json
+2026-07-09 21:34:43,125 [INFO] 
+2026-07-09 21:34:43,125 [INFO] ============================================================
+2026-07-09 21:34:43,125 [INFO] V2 SUMMARY
+2026-07-09 21:34:43,125 [INFO] ============================================================
+2026-07-09 21:34:43,125 [INFO] V1 Totale: {'n_bboxes': 8771, 'n_glyphs': 1319, 'n_latin_words': 648, 'n_formulas': 2563, 'n_text_lines': 226}
+2026-07-09 21:34:43,125 [INFO] V2 BURUMUT-Wörter: 11
+2026-07-09 21:34:43,125 [INFO] V2 Akrostichon: CDHHCHRCHCT
+2026-07-09 21:34:43,125 [INFO] V1→V10.4 Diff: {'n_entries': 46, 'n_match': 23, 'n_methodisch': 1, 'n_drift_klein': 7, 'n_drift_gross': 5}

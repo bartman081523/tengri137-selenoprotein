@@ -1,0 +1,33 @@
+2026-07-09 08:21:18,355 [INFO] ============================================================
+2026-07-09 08:21:18,355 [INFO] PHASE 0: Pixel-Audit aller 23 Original-PNGs
+2026-07-09 08:21:18,355 [INFO] Start: 2026-07-09T08:21:18.355317
+2026-07-09 08:21:18,355 [INFO] ============================================================
+2026-07-09 08:21:18,454 [INFO]   p01: H×W=[1998, 1332], mean=240.1, std=57.7, black=0.053, bright_tiles=19
+2026-07-09 08:21:18,536 [INFO]   p02: H×W=[1998, 1332], mean=236.6, std=63.2, black=0.064, bright_tiles=20
+2026-07-09 08:21:18,611 [INFO]   p03: H×W=[1998, 1332], mean=234.5, std=66.5, black=0.072, bright_tiles=20
+2026-07-09 08:21:18,684 [INFO]   p04: H×W=[1998, 1332], mean=236.2, std=64.3, black=0.067, bright_tiles=18
+2026-07-09 08:21:18,758 [INFO]   p05: H×W=[1998, 1332], mean=246.7, std=42.3, black=0.027, bright_tiles=24
+2026-07-09 08:21:18,833 [INFO]   p06: H×W=[1998, 1332], mean=246.7, std=42.3, black=0.027, bright_tiles=24
+2026-07-09 08:21:18,902 [INFO]   p07: H×W=[1998, 1332], mean=245.4, std=46.2, black=0.033, bright_tiles=24
+2026-07-09 08:21:18,972 [INFO]   p08: H×W=[1998, 1332], mean=245.2, std=45.9, black=0.032, bright_tiles=24
+2026-07-09 08:21:19,045 [INFO]   p09: H×W=[1998, 1332], mean=241.3, std=53.9, black=0.044, bright_tiles=24
+2026-07-09 08:21:19,115 [INFO]   p10: H×W=[1998, 1332], mean=238.3, std=60.5, black=0.059, bright_tiles=20
+2026-07-09 08:21:19,188 [INFO]   p11: H×W=[1998, 1332], mean=237.4, std=61.8, black=0.061, bright_tiles=19
+2026-07-09 08:21:19,259 [INFO]   p12: H×W=[1998, 1332], mean=237.4, std=62.2, black=0.062, bright_tiles=22
+2026-07-09 08:21:19,329 [INFO]   p13: H×W=[1998, 1332], mean=235.4, std=65.5, black=0.070, bright_tiles=18
+2026-07-09 08:21:19,399 [INFO]   p14: H×W=[1998, 1332], mean=239.2, std=59.2, black=0.056, bright_tiles=22
+2026-07-09 08:21:19,469 [INFO]   p15: H×W=[1998, 1332], mean=238.4, std=60.3, black=0.058, bright_tiles=22
+2026-07-09 08:21:19,542 [INFO]   p16: H×W=[1998, 1332], mean=239.3, std=57.7, black=0.052, bright_tiles=21
+2026-07-09 08:21:19,612 [INFO]   p17: H×W=[1998, 1332], mean=243.0, std=51.0, black=0.040, bright_tiles=22
+2026-07-09 08:21:19,683 [INFO]   p18: H×W=[1998, 1332], mean=242.6, std=51.5, black=0.041, bright_tiles=22
+2026-07-09 08:21:19,754 [INFO]   p19: H×W=[1998, 1332], mean=246.8, std=42.1, black=0.026, bright_tiles=23
+2026-07-09 08:21:19,826 [INFO]   p20: H×W=[1998, 1332], mean=235.1, std=64.4, black=0.066, bright_tiles=20
+2026-07-09 08:21:19,896 [INFO]   p21: H×W=[1998, 1332], mean=235.8, std=63.2, black=0.063, bright_tiles=20
+2026-07-09 08:21:19,967 [INFO]   p22: H×W=[1998, 1332], mean=241.2, std=53.8, black=0.044, bright_tiles=21
+2026-07-09 08:21:20,039 [INFO]   p23: H×W=[1998, 1332], mean=243.4, std=49.0, black=0.036, bright_tiles=24
+2026-07-09 08:21:20,039 [INFO] 
+2026-07-09 08:21:20,039 [INFO] ✓ 23 Pages auditiert → /run/media/julian/ML4/tengri137/verification/data/audit.json
+2026-07-09 08:21:20,039 [INFO]   Mean gray range: 234.5 .. 246.8
+2026-07-09 08:21:20,039 [INFO]   Black frac range: 0.026 .. 0.072
+2026-07-09 08:21:20,039 [INFO] 
+2026-07-09 08:21:20,039 [INFO] Heuristik-Warnung: Seiten mit hohem Black-Anteil (>0.10) sind Glyphen-dicht:

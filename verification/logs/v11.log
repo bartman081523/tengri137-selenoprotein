@@ -1,0 +1,23 @@
+2026-07-09 16:27:25,936 [INFO] ============================================================
+2026-07-09 16:27:25,936 [INFO] PHASE 10: Komposition + Reverifikations-Diff
+2026-07-09 16:27:25,936 [INFO] ============================================================
+2026-07-09 16:27:25,936 [INFO] Lade Reverifikations-Daten ...
+2026-07-09 16:27:25,937 [INFO] Lade V10.4 + doc.json als Vergleichsmasse ...
+2026-07-09 16:27:25,952 [INFO]   V10.4: 0 Seiten
+2026-07-09 16:27:25,952 [INFO]   doc.json: 23 Seiten
+2026-07-09 16:27:25,952 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/per_page.jsonl (23 Zeilen)
+2026-07-09 16:27:25,953 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/complete.json
+2026-07-09 16:27:25,953 [INFO] Bilde Diff gegen V10.4 + doc.json ...
+2026-07-09 16:27:25,953 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/diff_vs_v104.json (33 Felder)
+2026-07-09 16:27:25,953 [INFO] 
+2026-07-09 16:27:25,953 [INFO] ============================================================
+2026-07-09 16:27:25,953 [INFO] REVERIFIKATIONS-SUMMARY
+2026-07-09 16:27:25,953 [INFO] ============================================================
+2026-07-09 16:27:25,953 [INFO]   total Felder: 33
+2026-07-09 16:27:25,953 [INFO]   methodisch_unterschiedlich: 16
+2026-07-09 16:27:25,953 [INFO]   drift_gross: 8
+2026-07-09 16:27:25,953 [INFO]   drift_klein: 7
+2026-07-09 16:27:25,953 [INFO]   match: 2
+2026-07-09 16:27:25,954 [INFO] ✓ Saved /run/media/julian/ML4/tengri137/verification/results/SUMMARY.md
+2026-07-09 16:27:25,954 [INFO] 
+2026-07-09 16:27:25,954 [INFO] Fertig. Alle Outputs in /run/media/julian/ML4/tengri137/verification/results/
