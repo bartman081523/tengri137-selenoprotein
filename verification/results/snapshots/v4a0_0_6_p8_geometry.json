@@ -1,0 +1,103 @@
+{
+  "method": "V4a0.0.6 = p8 Magic-Square-Layout Klassifikation (Y-Density + HoughCircles + visuelle Verifikation)",
+  "timestamp": "2026-07-11",
+  "image": "original_sources/137/P008.png",
+  "fakten": {
+    "F1_3_y_bänder": "p8 hat 3 Y-Bänder (1 Tengri-Glyphen oben + 1 großer Geometrie-Bereich + 1 Tengri-Glyphen unten)",
+    "F2_tengri_oben": "1 Tengri-Glyphen-Zeile bei y=444-475 (Höhe 31)",
+    "F3_geometry_container": "Großer Geometrie-Bereich bei y=608-1508 (900px hoch)",
+    "F4_tengri_unten": "1 Tengri-Glyphen-Zeile bei y=1680-1711 (Höhe 31)",
+    "F5_4_große_kreise": "4 große konzentrische Kreise (r=487-495) in gestapelter Anordnung, gefunden: 9",
+    "F6_50_kleinere_kreise": "~49 kleinere Kreise (r=80-400) als Verzierungen",
+    "F7_innere_struktur": "Innere Muster: Spannenspitze/Schneemann-ähnliche Formen im Zentrum"
+  },
+  "y_bänder": [
+    {
+      "y_start": 444,
+      "y_end": 475,
+      "height": 31
+    },
+    {
+      "y_start": 608,
+      "y_end": 1508,
+      "height": 900
+    },
+    {
+      "y_start": 1680,
+      "y_end": 1711,
+      "height": 31
+    }
+  ],
+  "big_circles": [
+    {
+      "x": 670,
+      "y": 950,
+      "r": 495,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 770,
+      "y": 1044,
+      "r": 494,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 666,
+      "y": 1158,
+      "r": 487,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 666,
+      "y": 1056,
+      "r": 449,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 566,
+      "y": 1056,
+      "r": 429,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 1072,
+      "y": 1074,
+      "r": 422,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 268,
+      "y": 1054,
+      "r": 410,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 940,
+      "y": 1058,
+      "r": 404,
+      "size_class": "r400-500"
+    },
+    {
+      "x": 390,
+      "y": 1060,
+      "r": 401,
+      "size_class": "r400-500"
+    }
+  ],
+  "all_circles_count": 49,
+  "ae_schicht_ausgeschlossen": [
+    "Hebräisch (Vision-Halluzination)",
+    "Tengwar/Ge'ez (Vision-Halluzination)",
+    "Magic Square im klassischen 3x3-Sinn (zu prüfen, hier sind es konzentrische Kreise, nicht 3x3)"
+  ],
+  "h_schicht_eigene_hypothesen": [
+    "4 große Kreise könnten Schichten/Hierarchien darstellen",
+    "Innere Strukturen könnten zentrale Symbole sein (Mandala-ähnlich)",
+    "p7 hatte 9 Großkreise, p8 hat 4 - möglicherweise unterschiedliche Magic-Cube-Typen"
+  ],
+  "naechste_schritte": [
+    "V4a0.0.7: p9 Triple-Horn Layout (12 Schichten 119-214)",
+    "p8: mehr Detail auf innere Strukturen (Zoom)",
+    "p7+p8 vergleichen: ähnliche Geometrie?"
+  ]
+}
