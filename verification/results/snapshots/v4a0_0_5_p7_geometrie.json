@@ -1,0 +1,168 @@
+{
+  "method": "V4a0.0.5 = p7 Geometrie Klassifikation (Y-Density + CC + HoughCircles + visuelle Verifikation)",
+  "timestamp": "2026-07-11",
+  "image": "original_sources/137/P007.png",
+  "fakten": {
+    "F1_6_y_bänder": "p7 hat 6 Y-Bänder (5 schmale Tengri-Glyphen + 1 großer Geometrie-Bereich)",
+    "F2_tengri_glyphen_bänder": [
+      {
+        "y": 326,
+        "höhe": 31
+      },
+      {
+        "y": 376,
+        "höhe": 31
+      },
+      {
+        "y": 476,
+        "höhe": 32
+      },
+      {
+        "y": 628,
+        "höhe": 31
+      },
+      {
+        "y": 678,
+        "höhe": 31
+      }
+    ],
+    "F3_geometry_container": "1 großer Geometrie-Container CC#270 bei (195, 855) 942×938, area=36002",
+    "F4_9_große_hauptkreise": "9 große Hauptkreise (r=180-183) in 3×3-Anordnung + 1 oben + 1 unten",
+    "F5_kleinere_kreise": "~30 kleinere Verzierungs-Kreise (r=15-50)",
+    "F6_latein_text": "Latein-Text rechts: YONGA, ZÄHLUNG DER GLYPHEN, SEQUENZ 1/2/3, ALGORITHMUS",
+    "F7_strichmännchen": "Strichmännchen-ähnliche Symbole links unten (Tengri-Glyphen)",
+    "F8_stuhl_form": "Kleine 'Stuhl'-Form bei y=476-508 (Glyphe in 5. Tengri-Reihe)"
+  },
+  "y_bänder": [
+    {
+      "y_start": 326,
+      "y_end": 357,
+      "height": 31
+    },
+    {
+      "y_start": 376,
+      "y_end": 407,
+      "height": 31
+    },
+    {
+      "y_start": 476,
+      "y_end": 508,
+      "height": 32
+    },
+    {
+      "y_start": 628,
+      "y_end": 659,
+      "height": 31
+    },
+    {
+      "y_start": 678,
+      "y_end": 709,
+      "height": 31
+    },
+    {
+      "y_start": 882,
+      "y_end": 1766,
+      "height": 884
+    }
+  ],
+  "geometry_container": {
+    "label": 270,
+    "x": 195,
+    "y": 855,
+    "w": 942,
+    "h": 938,
+    "area": 36002
+  },
+  "big_circles": [
+    {
+      "x_abs": 705,
+      "y_abs": 1027,
+      "r": 129
+    },
+    {
+      "x_abs": 665,
+      "y_abs": 1065,
+      "r": 180
+    },
+    {
+      "x_abs": 663,
+      "y_abs": 1195,
+      "r": 112
+    },
+    {
+      "x_abs": 383,
+      "y_abs": 1279,
+      "r": 132
+    },
+    {
+      "x_abs": 955,
+      "y_abs": 1285,
+      "r": 133
+    },
+    {
+      "x_abs": 667,
+      "y_abs": 1315,
+      "r": 182
+    },
+    {
+      "x_abs": 411,
+      "y_abs": 1321,
+      "r": 182
+    },
+    {
+      "x_abs": 919,
+      "y_abs": 1323,
+      "r": 182
+    },
+    {
+      "x_abs": 711,
+      "y_abs": 1347,
+      "r": 129
+    },
+    {
+      "x_abs": 635,
+      "y_abs": 1369,
+      "r": 131
+    },
+    {
+      "x_abs": 953,
+      "y_abs": 1369,
+      "r": 125
+    },
+    {
+      "x_abs": 661,
+      "y_abs": 1449,
+      "r": 111
+    },
+    {
+      "x_abs": 667,
+      "y_abs": 1577,
+      "r": 180
+    }
+  ],
+  "n_big_circles": 13,
+  "latin_text_visible": [
+    "YONGA",
+    "ZÄHLUNG DER GLYPHEN",
+    "SEQUENZ EINS  1",
+    "SEQUENZ ZWEI  1",
+    "SEQUENZ DREI  1",
+    "ALGORITHMUS",
+    "ZÄHLUNG DER GLYPHEN"
+  ],
+  "ae_schicht_ausgeschlossen": [
+    "Hebräisch (Vision-Halluzination)",
+    "Tengwar/Ge'ez (Vision-Halluzination)",
+    "YONGA könnte ein Personenname sein (zu prüfen, NICHT Faktum)"
+  ],
+  "h_schicht_eigene_hypothesen": [
+    "9 Hauptkreise könnten 3 Ebenen × 3 Stufen darstellen (analog Cube 1)",
+    "Latein 'SEQUENZ 1/2/3' deutet auf 3-stufige Algorithmen hin",
+    "Kreise + Verbindungslinien könnten Zustandsdiagramm sein (zu prüfen)"
+  ],
+  "naechste_schritte": [
+    "V4a0.0.6: p8 Magic-Square-Layout",
+    "V4a0.0.7: p9 Triple-Horn Layout",
+    "p7: mehr über Latein-Text-Algorithmus (Zoom auf Beschriftung)"
+  ]
+}
