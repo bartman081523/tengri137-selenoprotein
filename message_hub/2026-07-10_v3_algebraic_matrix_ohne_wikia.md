@@ -11,8 +11,8 @@
 
 **Wir konnten die BURUMUT-Matrix auf p23 aus den Original-Pages verifizieren** (V10.4.1 + V10.8 + V10.9 zusammen):
 
-- **V10.4.1** (`consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_1.json`) liefert die BURUMUT-Wortliste (`BURUMUTREFAMTU`, `NAFERANSAHOTFE`, `KORENORBIZUMRO`, …). V10.4.1 ist die **neueste** V10.4-Variante (Korrektur: `formulas_source` Label repariert, vorher V10.4 hatte falsches "doc.json"-Label, siehe `message_hub/2026-07-09_v104_1_formulas_source_korrektur.md`).
-- **V10.5** (`consecutive_reading/bbox/v105_20260708/v105_wort9_patch.json`) korrigiert Wort 9: `KOREMORBIZUMRO` → `KORENORBIZUMRO` (N statt M an Position 4). V10.5-Patch ist im V10.4.1-Master bereits angewendet.
+- **V10.4.1** (`consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_1.json`) liefert die BURUMUT-Wortliste (`BURUMUTREFAMTU`, `NAFERANSAHOTFE`, `KOREMORBIZUMRO`, …). V10.4.1 ist die **neueste** V10.4-Variante. **Wichtig:** V10.4.1 repariert nur das `formulas_source`-Label (vorher V10.4 hatte falsches "doc.json"-Label, siehe `message_hub/2026-07-09_v104_1_formulas_source_korrektur.md`). Die **Wortliste bleibt auf V9-v2-Stand** (`KOREMORBIZUMRO` an Position 9, Self-Consistency-Lücke).
+- **V10.5** (`consecutive_reading/bbox/v105_20260708/v105_wort9_patch.json`) korrigiert Wort 9: `KOREMORBIZUMRO` → `KORENORBIZUMRO` (N statt M an Position 4). V10.5 ist ein **separater Patch**, der **nicht** in V10.4.1 zurückgeschrieben wurde — V10.4.1 und V10.5 sind unabhängige Gold-Standards für unterschiedliche Felder.
 - **V10.8** (`verification/AUDIT_V10.4_CLAIMS.md`) zeigt: V10.4 ist intern konsistent, Fakten (11 Paare, 14 Spalten, 154 Zellen, p17=0) bestätigt.
 - **V10.9** (`verification/code/v13_v3_algebraic_matrix.py`) liefert 11×14=154 algebraische Zellen, **rein aus Faktor-Brüchen abgeleitet** — ohne Wikia, ohne V7, ohne V8, ohne V9 v2, ohne V10.4-Codebook.
 
@@ -46,9 +46,13 @@ YKREXAATBXSASG, PTNTCPSBMOSIUH, BURUMUTREFAMTU
 
 ### A.2 p23 BURUMUT-Wort 9 (KOREMORBIZUMRO vs. KORENORBIZUMRO)
 
-**V10.3**: `KOREMORBIZUMRO` (V9 v2 "längster Kandidat")
-**V10.4**: `KORENORBIZUMRO` (V10.5-Korrektur: 4. Position E statt M)
-**V10.4-Wort 9 in der JSON**: `KORENORBIZUMRO` mit N → V10.5-Patch ist im V10.4-Master angewendet.
+**V10.4**: `KOREMORBIZUMRO` (V9 v2 "längster Kandidat")
+**V10.4.1**: `KOREMORBIZUMRO` (unverändert — V10.4.1 repariert nur formulas_source-Label, NICHT die Wortliste)
+**V10.5**: `KORENORBIZUMRO` (separater Patch, N statt M an Position 4)
+**V10.4.1-Wort 9 in der Haupt-Liste**: weiterhin `KOREMORBIZUMRO` mit M → Self-Consistency-Lücke (V29/V30-Befund)
+**V10.4.1-Wort 9 in `english_text` + `english_text_compact_row_ltr`**: bereits `KORENORBIZUMRO` mit N (separat korrigiert)
+
+**Konsequenz:** V10.4.1 ist **kein** konsistenter Master — die Haupt-Wortliste hat `KOREMORBIZUMRO`, aber die abgeleiteten `english_text`-Strings haben `KORENORBIZUMRO`. V10.5 schließt diese Lücke **nur für sich** (separater Patch), nicht in V10.4.1.
 
 **V10.9 (V3)**: algebraische Repräsentation von Paar 9 (idx 9):
 `[3, 1, 3, 8, 11, 19, 8, 9, 0, 23, 19, 0, 1, 0]` — keine Buchstaben, also keine M-vs-N-Frage. Die algebraische Struktur bleibt von der V10.5-Korrektur unberührt.
@@ -169,10 +173,10 @@ python code/v13_v3_algebraic_matrix.py
 ## F. QUELLEN-VERWEISE
 
 **Master-JSONs (neueste zuerst):**
-- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_1.json` — **V10.4.1** (aktuell)
+- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_1.json` — **V10.4.1** (aktuell; formulas_source-Label repariert, Wortliste unverändert auf V9-v2-Stand mit `KOREMORBIZUMRO`)
 - `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104.json` — V10.4 (V10.4.1-Vorgänger, falsches formulas_source-Label)
-- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_v10_5_backup.json` — V10.4=V10.5-Patch (Wort 9: KORENORBIZUMRO)
-- `consecutive_reading/bbox/v105_20260708/v105_wort9_patch.json` — V10.5-Patch-Doku
+- `consecutive_reading/bbox/v104_20260708/tengri137_complete_decoded_v104_v10_5_backup.json` — V10.4 VOR V10.5-Patch (Backup für Reproduzierbarkeit)
+- `consecutive_reading/bbox/v105_20260708/v105_wort9_patch.json` — V10.5-Patch mit `KORENORBIZUMRO` (separater Master)
 - `consecutive_research/docs/doc.json` — V4-Gold-Standard (997 Glyphen, doc.json hat 0 Formeln)
 
 **Audit + Verifikation:**
@@ -200,4 +204,4 @@ python code/v13_v3_algebraic_matrix.py
 
 ---
 
-**Commits:** V10.8 (Audit) + V10.9 (V3-Verifikation). **V10.4.1** bleibt Gold-Standard.
+**Commits:** V10.8 (Audit) + V10.9 (V3-Verifikation). **V10.4.1** bleibt Master für `formulas_source`-Korrektur, **V10.5** ist separater Master für Wort-9-Korrektur (`KORENORBIZUMRO`).
