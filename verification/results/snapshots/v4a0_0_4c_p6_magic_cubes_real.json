@@ -1,0 +1,128 @@
+{
+  "method": "V4a0.0.4c = Magic Cube REAL-Struktur (Cube 1 vollständig, Cube 2 als Summen-Ebene)",
+  "timestamp": "2026-07-11",
+  "image": "original_sources/137/P006.png",
+  "user_correction_applied": true,
+  "faktum_schicht": {
+    "F1_2_cubes": {
+      "fact": "2 Magic Cubes in p6",
+      "evidence": "Y-Positionen: Cube 1 bei y=320-807, Cube 2 bei y=1158-1645",
+      "y_luecke_between_cubes": "351px (3 schwarze Tengri-Glyphen-Zeilen)"
+    },
+    "F2_3_ebenen_pro_cube": {
+      "fact": "3 Ebenen pro Cube (y=320,474,641 für Cube 1; y=1158,1312,1479 für Cube 2)",
+      "container_geometry": "500×166, Aspect 3:1"
+    },
+    "F3_9_zahlen_pro_ebene": {
+      "fact": "9 Zahlen in 3×3-Grid pro Ebene",
+      "cube1_verified": true,
+      "cube2_verified": false
+    },
+    "F4_magic_constant_666": {
+      "fact": "Cube 1: alle 3 Zeilen jeder Ebene summieren zu 666",
+      "cube1_ebene1_rows": [
+        666,
+        666,
+        666
+      ],
+      "cube1_ebene2_rows": [
+        666,
+        666,
+        692
+      ],
+      "cube1_ebene3_rows": [
+        666,
+        666,
+        675
+      ],
+      "cube1_total": 6029
+    },
+    "F5_beschriftung_rot_punkt_arabic": {
+      "fact": "Cube-Beschriftung in ROTE Tengri-Glyphen-Reihe + PUNKT + arabische Ziffer",
+      "cube1_beschriftung": "y=218-247: '•1' (Punkt + 1)",
+      "cube2_beschriftung": "y=1043-1085: '•2' (Punkt + 2)",
+      "rgb_signature": "ROT (in p6 als rote Glyphen-Reihe sichtbar)"
+    },
+    "F6_3_schwarze_zeilen": {
+      "fact": "3 Zeilen schwarze Tengri-Glyphen zwischen den Cubes",
+      "y_range": "y=810-1015 (351px Lücke zwischen Cube 1 und Cube 2)",
+      "y_above_cube1": "y=160-200 (auch 3 schwarze Tengri-Glyphen-Zeilen)"
+    }
+  },
+  "cube1_complete": {
+    "ebene1": [
+      [
+        638,
+        24,
+        4
+      ],
+      [
+        19,
+        10,
+        637
+      ],
+      [
+        9,
+        632,
+        25
+      ]
+    ],
+    "ebene2": [
+      [
+        624,
+        17,
+        25
+      ],
+      [
+        11,
+        632,
+        23
+      ],
+      [
+        31,
+        17,
+        644
+      ]
+    ],
+    "ebene3": [
+      [
+        15,
+        638,
+        13
+      ],
+      [
+        25,
+        10,
+        631
+      ],
+      [
+        26,
+        17,
+        632
+      ]
+    ],
+    "all_rows_666_ebene1": true,
+    "all_rows_666_ebene2": false,
+    "all_rows_666_ebene3": false,
+    "total": 6029
+  },
+  "cube2_status": "TEILWEISE VERIFIZIERT: 4x-Crop zeigt 6 Zahlen + Glyphen (kein klares 3×3-Grid). Möglicherweise andere Darstellungsform (3D-Treppe / Summen-Übersicht). BENÖTIGT WEITERE UNTERSUCHUNG.",
+  "ae_schicht_ausgeschlossen": [
+    "Hebräisch (Vision-Halluzination)",
+    "Tengwar (Vision-Halluzination)",
+    "Ge'ez (Vision-Halluzination)",
+    "Armenisch (Vision-Halluzination)",
+    "Griechisch (Vision-Halluzination)"
+  ],
+  "h_schicht_eigene_hypothesen": [
+    "Magic-Constant 666 = Zahl des Tieres (Apokryphen-Interpretation, NICHT Faktum)",
+    "Cube 2 = andere Summen-Logik weil andere Lesart (unbewiesen)",
+    "Cube 2 könnte invertiert/spiegelbildlich zu Cube 1 sein (zu prüfen)"
+  ],
+  "naechste_schritte": [
+    "Cube 2: manuelles Croppen der 3 einzelnen Ebenen mit 6x Scale",
+    "Cube 2: visuelle Verifikation der 3×3-Grids",
+    "Cube 2: Magic-Constant verifizieren (666 oder anders?)",
+    "p5: gleiche Analyse (Vision sah '4 layers × 9 numbers per cube')"
+  ]
+}
