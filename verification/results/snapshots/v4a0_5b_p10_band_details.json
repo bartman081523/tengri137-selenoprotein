@@ -1,0 +1,139 @@
+{
+  "method": "V4a0.5b = Multi-PSM-OCR auf p10-Bändern (Faktor-Zerlegung Detail)",
+  "timestamp": "2026-07-11",
+  "bands": [
+    {
+      "label": "Band 15 (1. Rechnung: 2^9 × 3^-1 × 5^9 × 197^-1 × 5563^-1 × 41681^-1)",
+      "y_start": 1142,
+      "y_end": 1172,
+      "ocr_results": {
+        "psm3": "1 1 1 1\n\n277 %3 %5 x197 ' x 5563 x 41681",
+        "psm4": "1 1 1 1\n\n277 %3 %5 x197 ' x 5563 x 41681",
+        "psm6": "\\ 277 %3 \" %5 x197 ' x 5563 x 41681 \" \\",
+        "psm7": "\\ 277 %3 \" %5 x197 ' x 5563 x 41681 \" \\",
+        "psm8": "- 22 7 197 55637 v 41681",
+        "psm11": "27 %37\n\n1\n\n%5 x 197\n\n1\n\nx 5563~\n\n1\n\nx 41681\n\n1",
+        "psm12": "27 %37\n\n1\n\n%5 x 197\n\n1\n\nx 5563~\n\n1\n\nx 41681\n\n1",
+        "psm13": "- 22 7 197 55637 v 41681",
+        "psm6_math": "27735197556341681",
+        "psm7_math": "27735197556341681"
+      },
+      "best_psm": "psm3",
+      "best_text": "1 1 1 1\n\n277 %3 %5 x197 ' x 5563 x 41681"
+    },
+    {
+      "label": "Band 16",
+      "y_start": 1295,
+      "y_end": 1328,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| e MRS FRPJT IR THIDPAIA O I8 XD IT IMNRS |",
+        "psm7": "| e MRS FRPJT IR THIDPAIA O I8 XD IT IMNRS |",
+        "psm8": "- e RV TRPJIT YA THDOAIA QT I EEDITINRES",
+        "psm11": "e M\\QRX> I'R>J\n\nhJThHI>AJA\n\nJ I3 3)>)\n\nIBE",
+        "psm12": "Q> I'R>d\n\nhJThHI>AJA\n\nJ I3 3)>)\n\nIBE",
+        "psm13": "- e RV TRPJIT YA THDOAIA QT I EEDITINRES",
+        "psm6_math": "8",
+        "psm7_math": "8"
+      },
+      "best_psm": "psm6",
+      "best_text": "| e MRS FRPJT IR THIDPAIA O I8 XD IT IMNRS |"
+    },
+    {
+      "label": "Band 17",
+      "y_start": 1349,
+      "y_end": 1381,
+      "ocr_results": {
+        "psm3": "MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM",
+        "psm4": "MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM",
+        "psm6": "\\ MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM \\",
+        "psm7": "\\ MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM \\",
+        "psm8": "P THIPAIA ITHS 1) NIRTAX ON 22 9 TMMSNIGOM",
+        "psm11": "FRJP2AIA ITHS 1) NIRTAX ON> 200 91 2NJ OM",
+        "psm12": "MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM",
+        "psm13": "P THIPAIA ITHS 1) NIRTAX ON 22 9 TMMSNIGOM",
+        "psm6_math": "1212208911",
+        "psm7_math": "1212208911"
+      },
+      "best_psm": "psm3",
+      "best_text": "MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM"
+    },
+    {
+      "label": "Band 18",
+      "y_start": 1402,
+      "y_end": 1434,
+      "ocr_results": {
+        "psm3": "MRS 1> ') 33\n\nO URTAX TFhH AN T2 N> YYhH",
+        "psm4": "",
+        "psm6": "\\ IR 1> TR I8 O VIRTAX FhH AN I3 N> YYhH » \\",
+        "psm7": "\\ IR 1> TR I8 O VIRTAX FhH AN I3 N> YYhH » \\",
+        "psm8": "NI IIR)INEEOS URTAX RSN S YYYRe",
+        "psm11": "MRS 1> I'®)\n\nO URTAX TFhH AN 33 N> YY",
+        "psm12": "e HAA KN SES THE Ui XYJETMN T 8y (AJ <L ¢RdI",
+        "psm13": "NI IIR)INEEOS URTAX RSN S YYYRe",
+        "psm6_math": "313833",
+        "psm7_math": "313833"
+      },
+      "best_psm": "psm12",
+      "best_text": "e HAA KN SES THE Ui XYJETMN T 8y (AJ <L ¢RdI"
+    },
+    {
+      "label": "Band 19",
+      "y_start": 1455,
+      "y_end": 1488,
+      "ocr_results": {
+        "psm3": "4> H>>D 1> 1>>H\n\n10533 NJ 'RR>",
+        "psm4": "4> H>>D 1> 1>>H\n\n10533 NJ 'RR>",
+        "psm6": "| A4 HXD 1> T>O>HT I3 NJ YV'R® > |",
+        "psm7": "| A4 HXD 1> T>O>HT I3 NJ YV'R® > |",
+        "psm8": "- e AHCO UDD T TO>OHTI TSRS NI NMRR",
+        "psm11": "*A4>© HX>D 1> 1\n\n10533 NJ 'RR>",
+        "psm12": "*A4>© HX>D 1> 1\n\n10533 NJ 'RR>",
+        "psm13": "- e AHCO UDD T TO>OHTI TSRS NI NMRR",
+        "psm6_math": "41133",
+        "psm7_math": "41133"
+      },
+      "best_psm": "psm8",
+      "best_text": "- e AHCO UDD T TO>OHTI TSRS NI NMRR"
+    },
+    {
+      "label": "Band 20",
+      "y_start": 1562,
+      "y_end": 1594,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "\\ JO ¢ |IMRRTY'® DD UO> >3 NXYONVT L>>D ®] \\",
+        "psm7": "\\ JO ¢ |IMRRTY'® DD UO> >3 NXYONVT L>>D ®] \\",
+        "psm8": "JO HIMRRE YR O U >3 YOV HY D 2",
+        "psm11": "e IMRRTYR® DXI'd> HX> >3 MO VI HX>D O]",
+        "psm12": "JO ¢« |IMRRT YR DOMN> UO> >3 NYO VT HYD",
+        "psm13": "JO HIMRRE YR O U >3 YOV HY D 2",
+        "psm6_math": "3",
+        "psm7_math": "3"
+      },
+      "best_psm": "psm12",
+      "best_text": "JO ¢« |IMRRT YR DOMN> UO> >3 NYO VT HYD"
+    },
+    {
+      "label": "Band 21",
+      "y_start": 1615,
+      "y_end": 1648,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| e MOVT UMD UXT1 hlT© |",
+        "psm7": "| e MOVT UMD UXT1 hlT© |",
+        "psm8": "Y Ko D N P 0 R b B 1 1 X0 2",
+        "psm11": "MNOVJ U>>D U1 R",
+        "psm12": "MNOVJ U>>D U1 R",
+        "psm13": "Y Ko D N P 0 R b B 1 1 X0 2",
+        "psm6_math": "1",
+        "psm7_math": "1"
+      },
+      "best_psm": "psm6",
+      "best_text": "| e MOVT UMD UXT1 hlT© |"
+    }
+  ]
+}

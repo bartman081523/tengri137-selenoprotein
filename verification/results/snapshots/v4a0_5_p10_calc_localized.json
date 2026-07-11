@@ -1,0 +1,492 @@
+{
+  "method": "V4a0.5 = Tesseract (psm 4, 6, 7) + Y-Density + visuelle Lokalisation auf Original-PNG p10 (P010.png)",
+  "timestamp": "2026-07-11",
+  "image": {
+    "path": "original_sources/137/P010.png",
+    "width": 1332,
+    "height": 1998
+  },
+  "math_regions": [],
+  "pi_symbol_candidates": [],
+  "y_density_bands": [
+    {
+      "y_start": 318,
+      "y_end": 348,
+      "height": 30,
+      "max_density": 392
+    },
+    {
+      "y_start": 367,
+      "y_end": 397,
+      "height": 30,
+      "max_density": 423
+    },
+    {
+      "y_start": 417,
+      "y_end": 446,
+      "height": 29,
+      "max_density": 395
+    },
+    {
+      "y_start": 466,
+      "y_end": 495,
+      "height": 29,
+      "max_density": 400
+    },
+    {
+      "y_start": 514,
+      "y_end": 545,
+      "height": 31,
+      "max_density": 436
+    },
+    {
+      "y_start": 564,
+      "y_end": 594,
+      "height": 30,
+      "max_density": 412
+    },
+    {
+      "y_start": 612,
+      "y_end": 643,
+      "height": 31,
+      "max_density": 413
+    },
+    {
+      "y_start": 662,
+      "y_end": 692,
+      "height": 30,
+      "max_density": 134
+    },
+    {
+      "y_start": 760,
+      "y_end": 790,
+      "height": 30,
+      "max_density": 421
+    },
+    {
+      "y_start": 810,
+      "y_end": 839,
+      "height": 29,
+      "max_density": 441
+    },
+    {
+      "y_start": 858,
+      "y_end": 888,
+      "height": 30,
+      "max_density": 406
+    },
+    {
+      "y_start": 908,
+      "y_end": 938,
+      "height": 30,
+      "max_density": 412
+    },
+    {
+      "y_start": 957,
+      "y_end": 987,
+      "height": 30,
+      "max_density": 420
+    },
+    {
+      "y_start": 1006,
+      "y_end": 1036,
+      "height": 30,
+      "max_density": 179
+    },
+    {
+      "y_start": 1142,
+      "y_end": 1172,
+      "height": 30,
+      "max_density": 144
+    },
+    {
+      "y_start": 1295,
+      "y_end": 1328,
+      "height": 33,
+      "max_density": 404
+    },
+    {
+      "y_start": 1349,
+      "y_end": 1381,
+      "height": 32,
+      "max_density": 419
+    },
+    {
+      "y_start": 1402,
+      "y_end": 1434,
+      "height": 32,
+      "max_density": 414
+    },
+    {
+      "y_start": 1455,
+      "y_end": 1488,
+      "height": 33,
+      "max_density": 319
+    },
+    {
+      "y_start": 1562,
+      "y_end": 1594,
+      "height": 32,
+      "max_density": 389
+    },
+    {
+      "y_start": 1615,
+      "y_end": 1648,
+      "height": 33,
+      "max_density": 206
+    },
+    {
+      "y_start": 1725,
+      "y_end": 1814,
+      "height": 89,
+      "max_density": 112
+    }
+  ],
+  "band_ocrs": [
+    {
+      "band_idx": 1,
+      "y_start": 318,
+      "y_end": 348,
+      "height": 30,
+      "ocr_text": "\\ RhHIPAJA T W8 1O YRR RITTY D A 5938« R ISR D> \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 2,
+      "y_start": 367,
+      "y_end": 397,
+      "height": 30,
+      "ocr_text": "\\ JAMNNO A >HS T - TO>OPHT IR IPAYRRY) DId>A IFRS 1> OO \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 3,
+      "y_start": 417,
+      "y_end": 446,
+      "height": 29,
+      "ocr_text": "\\ MRX>) DI>A IS H>1 AAHT * ID2THI>AIA 13 8T IITY \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 4,
+      "y_start": 466,
+      "y_end": 495,
+      "height": 29,
+      "ocr_text": "\\ c DIHTYAINNRAOYRJS T YYTO »)D OF 7RI I'VY'Sh W) \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 5,
+      "y_start": 514,
+      "y_end": 545,
+      "height": 31,
+      "ocr_text": "\\ SYYSD EXDDINNRISINT T A8 >>D &5l TR Moodl 1IR3 \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 6,
+      "y_start": 564,
+      "y_end": 594,
+      "height": 30,
+      "ocr_text": "\\ ST1hHI R 33 D2 ITOO>FTRIP>AIJA ITH8 « N&H>O QRIS \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 7,
+      "y_start": 612,
+      "y_end": 643,
+      "height": 31,
+      "ocr_text": "\\ ITTYS e YIRANT TRY \"BHR « 1>MWT1 ThRMM> 198 > \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 8,
+      "y_start": 662,
+      "y_end": 692,
+      "height": 30,
+      "ocr_text": "\\ e BAIXITO HYAIL T \\",
+      "has_pi": false,
+      "has_numbers": false,
+      "is_calc": false
+    },
+    {
+      "band_idx": 9,
+      "y_start": 760,
+      "y_end": 790,
+      "height": 30,
+      "ocr_text": "\\ H3 « SXYO)J THIIMATH> DT DRINY 3> M >OD \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 10,
+      "y_start": 810,
+      "y_end": 839,
+      "height": 29,
+      "ocr_text": "\\ HITYTRTA 38 « NGOA 1>HO T 1382 M>2riN D2>d2)3AR \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 11,
+      "y_start": 858,
+      "y_end": 888,
+      "height": 30,
+      "ocr_text": "\\ D U>>»RIMNIS P QI HUD> RE >3 XOIIJIIT T INMO “OMhH \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 12,
+      "y_start": 908,
+      "y_end": 938,
+      "height": 30,
+      "ocr_text": "\\ N JTQ * DASH IO TV »2D 3A3 YD 02N ©2) B> >) \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 13,
+      "y_start": 957,
+      "y_end": 987,
+      "height": 30,
+      "ocr_text": "\\ A12>Hd OF I'Y'98 VDO IO T » XS Y S 3R \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 14,
+      "y_start": 1006,
+      "y_end": 1036,
+      "height": 30,
+      "ocr_text": "\\ e RrCTYN S 81 \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": false
+    },
+    {
+      "band_idx": 15,
+      "y_start": 1142,
+      "y_end": 1172,
+      "height": 30,
+      "ocr_text": "\\ 277 %3 \" %5 x197 ' x 5563 x 41681 \" \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 16,
+      "y_start": 1295,
+      "y_end": 1328,
+      "height": 33,
+      "ocr_text": "| e MRS FRPJT IR THIDPAIA O I8 XD IT IMNRS |",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 17,
+      "y_start": 1349,
+      "y_end": 1381,
+      "height": 32,
+      "ocr_text": "\\ MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 18,
+      "y_start": 1402,
+      "y_end": 1434,
+      "height": 32,
+      "ocr_text": "\\ IR 1> TR I8 O VIRTAX FhH AN I3 N> YYhH » \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 19,
+      "y_start": 1455,
+      "y_end": 1488,
+      "height": 33,
+      "ocr_text": "| A4 HXD 1> T>O>HT I3 NJ YV'R® > |",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 20,
+      "y_start": 1562,
+      "y_end": 1594,
+      "height": 32,
+      "ocr_text": "\\ JO ¢ |IMRRTY'® DD UO> >3 NXYONVT L>>D ®] \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 21,
+      "y_start": 1615,
+      "y_end": 1648,
+      "height": 33,
+      "ocr_text": "| e MOVT UMD UXT1 hlT© |",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 22,
+      "y_start": 1725,
+      "y_end": 1814,
+      "height": 89,
+      "ocr_text": "\\ )@ ¢ \\",
+      "has_pi": false,
+      "has_numbers": false,
+      "is_calc": false
+    }
+  ],
+  "calc_bands_only": [
+    {
+      "band_idx": 3,
+      "y_start": 417,
+      "y_end": 446,
+      "height": 29,
+      "ocr_text": "\\ MRX>) DI>A IS H>1 AAHT * ID2THI>AIA 13 8T IITY \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 5,
+      "y_start": 514,
+      "y_end": 545,
+      "height": 31,
+      "ocr_text": "\\ SYYSD EXDDINNRISINT T A8 >>D &5l TR Moodl 1IR3 \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 9,
+      "y_start": 760,
+      "y_end": 790,
+      "height": 30,
+      "ocr_text": "\\ H3 « SXYO)J THIIMATH> DT DRINY 3> M >OD \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 11,
+      "y_start": 858,
+      "y_end": 888,
+      "height": 30,
+      "ocr_text": "\\ D U>>»RIMNIS P QI HUD> RE >3 XOIIJIIT T INMO “OMhH \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 13,
+      "y_start": 957,
+      "y_end": 987,
+      "height": 30,
+      "ocr_text": "\\ A12>Hd OF I'Y'98 VDO IO T » XS Y S 3R \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 15,
+      "y_start": 1142,
+      "y_end": 1172,
+      "height": 30,
+      "ocr_text": "\\ 277 %3 \" %5 x197 ' x 5563 x 41681 \" \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 16,
+      "y_start": 1295,
+      "y_end": 1328,
+      "height": 33,
+      "ocr_text": "| e MRS FRPJT IR THIDPAIA O I8 XD IT IMNRS |",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 17,
+      "y_start": 1349,
+      "y_end": 1381,
+      "height": 32,
+      "ocr_text": "\\ MITHAI?AJA ITIS 1> NIRTAX ON22(08 91T NI OM \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 18,
+      "y_start": 1402,
+      "y_end": 1434,
+      "height": 32,
+      "ocr_text": "\\ IR 1> TR I8 O VIRTAX FhH AN I3 N> YYhH » \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 19,
+      "y_start": 1455,
+      "y_end": 1488,
+      "height": 33,
+      "ocr_text": "| A4 HXD 1> T>O>HT I3 NJ YV'R® > |",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 20,
+      "y_start": 1562,
+      "y_end": 1594,
+      "height": 32,
+      "ocr_text": "\\ JO ¢ |IMRRTY'® DD UO> >3 NXYONVT L>>D ®] \\",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    },
+    {
+      "band_idx": 21,
+      "y_start": 1615,
+      "y_end": 1648,
+      "height": 33,
+      "ocr_text": "| e MOVT UMD UXT1 hlT© |",
+      "has_pi": false,
+      "has_numbers": true,
+      "is_calc": true
+    }
+  ],
+  "full_text_ocr": "hO>AIA T« 8 1> R¥2D hITTY>d $3h - M1 $M30 I\nJAMRO ASXHS T« XU 83K 1M PRR> DI 11338 1> DT\nR¥> DI>A 11338 4> AAHTT « DXThI>AJA T13h AT ITTY\n\n* DIMTYA AMIhQYRSE $LYYTO »>D @F HR1 I3k I\nSYD D AMUS I 1O 33 >>D ©>dl IR M>>dl 138\n$1hl h3d* 138 DO IT IPThI>AJA 1133 - Y3H>©O Qh1RS\nIF S \"YIRANT,'TRY\" \" RUR\" « 15241 ThRMM> 133 >\n\n* RPBIMO WAL\n\nH>> « €XY©»3 ThIHTIHT 4> HX1 DRI 850 I I >>D\nLhIYTKRTA 3% « N@d 1>HO HT 11 8> M>>dY DAXI>D3Ah\nD+ 4>>B 1133 >3 Q3 Y>> h€ >3 XO T 82 IO >Th\nP3O - DASHYO I >>D 3d3 4> ©XdY O3 S4B >\n\nXUJ OF 133 YDOIT IO IO « X' hIESTYHT I3k T\n\n* OR'HICTYHT 3\n\n1 1 1 1\n\n2°x37 ' x 5% x 1977 x 55637 x 41681\n\n* ARXP IRXD>JE I3h ThPAIA - OF 138 3> IT IM3S\n\nMNThIPAIA 11338 1> WURTAX @4>>dh 9h1M 34l M\n\nI3 1> IR 133 OF WURTAX d'h Y4 138 Y>> YYh -\n+ q4>© H>>D 1> 1>>H1 133 NI 1'RR»\n\nFO < [IMBIT YIR 5N > 38 1 OOI XD @I\n* MO XD HX hro\n\n",
+  "faktum": "V4a0.5 FAKTUM: p10 enthält X Rechen-Bänder mit mathematischer Notation (siehe calc_bands_only). Visualisierung in v4a0_5_p10_calc_bboxes.png.",
+  "offen_fuer_v4a0_5b": "Welche Rechnung genau in welchem Band steht (numerische Verifikation) — Folge-Aufgabe"
+}

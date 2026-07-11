@@ -1,0 +1,154 @@
+{
+  "method": "V4a0.5c = Adaptive-Threshold + 2x-Scale + Multi-PSM-OCR auf p10-Rechen-Bänder",
+  "timestamp": "2026-07-11",
+  "bands": [
+    {
+      "name": "band15_factor_decomposition",
+      "y_start": 1142,
+      "y_end": 1172,
+      "ocr_results": {
+        "psm3": "277 37 57 197! v 556371 x 41681",
+        "psm4": "277 37 57 197! v 556371 x 41681",
+        "psm6": "| 277 37 57 197! v 556371 x 41681 |",
+        "psm7": "| 277 37 57 197! v 556371 x 41681 |",
+        "psm11": "277 37 57 197! v 556371 x 41681",
+        "psm12": "277 37 57 197! v 556371 x 41681",
+        "psm6_math": "2773757197755637141681",
+        "psm7_math": "2773757197755637141681"
+      },
+      "extracted_numbers": [
+        "37",
+        "57",
+        "197",
+        "277",
+        "1681",
+        "41681",
+        "277375",
+        "556371",
+        "563714",
+        "719775"
+      ],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band15_factor_decomposition_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band15_factor_decomposition_processed.png"
+    },
+    {
+      "name": "band16_rechnung_2",
+      "y_start": 1295,
+      "y_end": 1328,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| e QXS TRVPJT TR THIPAIA O THE S T ITNS |",
+        "psm7": "| e QXS TRVPJT TR THIPAIA O THE S T ITNS |",
+        "psm11": "e QXS I'R>d\n\nJHIPAJA « O NS 3>)\n\nN3",
+        "psm12": "Q> I'R>d\n\nJHIPAJA « O NS 3>)\n\nN3",
+        "psm6_math": "8",
+        "psm7_math": "8"
+      },
+      "extracted_numbers": [],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band16_rechnung_2_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band16_rechnung_2_processed.png"
+    },
+    {
+      "name": "band17_rechnung_3",
+      "y_start": 1349,
+      "y_end": 1381,
+      "ocr_results": {
+        "psm3": "IXFRJP2AIA ITHS 1) NIRPTAX ON> >l QRN 3N OM",
+        "psm4": "",
+        "psm6": "| IXFRJP2AIA ITHS 1) NIRPTAX ON> >l QRN 3N OM |",
+        "psm7": "| IXFRJP2AIA ITHS 1) NIRPTAX ON> >l QRN 3N OM |",
+        "psm11": "RJ2?AJA ITHE 1> NIRTAX ON> b 91 3XJd OM",
+        "psm12": "IXFRJP2AIA ITHS 1) NIRPTAX ON> >l QRN 3N OM",
+        "psm6_math": "21129131",
+        "psm7_math": "21129131"
+      },
+      "extracted_numbers": [
+        "31",
+        "91",
+        "211291"
+      ],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band17_rechnung_3_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band17_rechnung_3_processed.png"
+    },
+    {
+      "name": "band18_rechnung_4",
+      "y_start": 1402,
+      "y_end": 1434,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| ITNS 1> IR NS O NIRTAX R ANI N N> YYh » |",
+        "psm7": "| ITNS 1> IR NS O NIRTAX R ANI N N> YYh » |",
+        "psm11": "ITNS 1> I'®)\n\nGO JRTAX PR ANJ N8 N> YYhH »",
+        "psm12": "ITNS 1> I'®)\n\nGO JRTAX PR ANJ N8 N> YYhH »",
+        "psm6_math": "1-",
+        "psm7_math": "1-"
+      },
+      "extracted_numbers": [],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band18_rechnung_4_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band18_rechnung_4_processed.png"
+    },
+    {
+      "name": "band19_rechnung_5",
+      "y_start": 1455,
+      "y_end": 1488,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| e AU HU>>D 1> 1TO>HT N8 NI 'R > |",
+        "psm7": "| e AU HU>>D 1> 1TO>HT N8 NI 'R > |",
+        "psm11": "e AH>O U>>D 1> 1\n\n33 N R >)",
+        "psm12": "e AH>O U>>D 1> 1\n\n33 N R >)",
+        "psm6_math": "10118",
+        "psm7_math": "10118"
+      },
+      "extracted_numbers": [
+        "33",
+        "10118"
+      ],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band19_rechnung_5_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band19_rechnung_5_processed.png"
+    },
+    {
+      "name": "band20_rechnung_6",
+      "y_start": 1562,
+      "y_end": 1594,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| JO * |IMRRTY'® D>['> HO> D3 YO HYD ) |",
+        "psm7": "| JO * |IMRRTY'® D>['> HO> D3 YO HYD ) |",
+        "psm11": "e |IMRRITYR O[> HOD> >3 YOI HYYD )",
+        "psm12": "JO ¢« |IMRRTY'® DOI'e> 1O D3 NMOVDT HXD",
+        "psm6_math": "13",
+        "psm7_math": "13"
+      },
+      "extracted_numbers": [
+        "13"
+      ],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band20_rechnung_6_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band20_rechnung_6_processed.png"
+    },
+    {
+      "name": "band21_rechnung_7",
+      "y_start": 1615,
+      "y_end": 1648,
+      "ocr_results": {
+        "psm3": "",
+        "psm4": "",
+        "psm6": "| e MO HD HUX KT |",
+        "psm7": "| e MO HD HUX KT |",
+        "psm11": "NOVT HXSD UX1 HT",
+        "psm12": "NOVT HXSD UX1 HT",
+        "psm6_math": "-7 0 01 4   3 01 1 6",
+        "psm7_math": "-7 0 01 4   3 01 1 6"
+      },
+      "extracted_numbers": [
+        "01"
+      ],
+      "crop_path": "verification/results/snapshots/v4a0_5c_crops/band21_rechnung_7_raw.png",
+      "processed_path": "verification/results/snapshots/v4a0_5c_crops/band21_rechnung_7_processed.png"
+    }
+  ]
+}
